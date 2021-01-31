@@ -1794,7 +1794,8 @@ void do_mstat( CHAR_DATA * ch, char *argument )
              IS_NPC( victim ) ? "mob" : "pc",
              race_table[victim->race].name,
              victim->sex == SEX_MALE ? "male" :
-             victim->sex == SEX_FEMALE ? "female" : "neutral",
+             victim->sex == SEX_FEMALE ? "female" :
+             victim->sex == SEX_NB ? "non-binary" : "neutral", /* Modified by JR */
              victim->in_room == NULL ? 0 : victim->in_room->vnum );
     send_to_char( buf, ch );
 
@@ -3981,9 +3982,11 @@ void do_mset( CHAR_DATA * ch, char *argument )
 
     if ( !str_prefix( arg2, "sex" ) )
     {
-        if ( value < 0 || value > 2 )
+        if ( value < 0 || value > NUM_SEXES )
         {
-            send_to_char( "Sex range is 0 to 2.\n\r", ch );
+            char buf[24];
+            sprintf(buf,"Sex range is 0 to %d.\n\r",NUM_SEXES);
+            send_to_char( buf , ch );
             return;
         }
         victim->sex = value;

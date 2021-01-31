@@ -60,6 +60,7 @@ DECLARE_DO_FUN( do_autolist );
 DECLARE_DO_FUN( do_autoloot );
 DECLARE_DO_FUN( do_autosac );
 DECLARE_DO_FUN( do_autosplit );
+DECLARE_DO_FUN( do_autotrack ); /* Added by JR */
 DECLARE_DO_FUN( do_award );
 DECLARE_DO_FUN( do_backstab );
 DECLARE_DO_FUN( do_bamfin );

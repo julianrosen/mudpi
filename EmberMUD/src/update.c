@@ -663,7 +663,7 @@ void char_update( void )
     /* update save counter */
     save_number++;
 
-    if ( save_number > 30 )
+    if ( save_number > 4 ) /* JR changed this from 30 to 4 */
         save_number = 0;
     for ( ch = char_list; ch != NULL; ch = ch_next )
     {
@@ -768,8 +768,9 @@ void char_update( void )
                 continue;
         }
 
-        if ( ( ch->timer > 30 ) && ch->level < LEVEL_IMMORTAL )
+        if ( ( ch->timer*PULSE_TICK > AUTO_QUIT*60*PULSE_PER_SECOND ) && ch->level < LEVEL_IMMORTAL ) /* JR modified this */
             ch_quit = ch;
+
         if ( ch->position >= POS_STUNNED )
         {
             if ( ch->hit < ch->max_hit )
@@ -814,7 +815,20 @@ void char_update( void )
             {
                 --ch->jail_timer;
             }
-            if ( ch->timer >= 12 && ch->level < LEVEL_IMMORTAL )
+            
+            
+            /* Added by JR */
+            /* Automatic AFK */
+            if ( ch->timer*PULSE_TICK >= AUTO_AFK*60*PULSE_PER_SECOND && ch->level < LEVEL_IMMORTAL && !IS_SET( ch->act, PLR_AFK ) )
+            {
+                char vanish_str[100];
+                sprintf(vanish_str,"Auto-AFK activated (%i minutes of inactivity).\n\r",AUTO_AFK);
+                    send_to_char( vanish_str, ch );
+                do_afk( ch, "");
+            }
+            
+            
+            if ( ch->timer*PULSE_TICK >= AUTO_VANISH*60*PULSE_PER_SECOND && ch->level < LEVEL_IMMORTAL ) /* modified by JR*/
             {
                 if ( ch->was_in_room == NULL && ch->in_room != NULL )
                 {
@@ -823,8 +837,10 @@ void char_update( void )
                         stop_fighting( ch, TRUE );
                     act( "$n disappears into the void.",
                          ch, NULL, NULL, TO_ROOM );
-                    send_to_char( "You disappear into the void.\n\r", ch );
-                    if ( ch->level > 1 )
+		    char vanish_str[100];
+		    sprintf(vanish_str,"You disappear into the void (%i minutes of inactivity).\n\rTake any action to return.",AUTO_VANISH);
+                    send_to_char( vanish_str, ch );
+                    if ( ch->level > 0 ) /* Modified by JR */
                         save_char_obj( ch );
                     char_from_room( ch );
                     char_to_room( ch, get_room_index( ROOM_VNUM_LIMBO ) );
@@ -994,11 +1010,17 @@ void char_update( void )
     {
         ch_next = ch->next_player;
 
-        if ( ch->desc != NULL && save_number == 30 && !chaos )
+        if ( ch->desc != NULL && save_number == 4 && !chaos ) /* JR modified this */
             save_char_obj( ch );
 
         if ( ch == ch_quit )
+	    {
+		/* Modified by JR */
+            char logout_str[75];
+            sprintf(logout_str,"Logging you out (%i minutes of inactivity).\n\r",AUTO_QUIT);
+            send_to_char( logout_str,ch);
             do_quit( ch, "" );
+	    }
     }
 
     return;

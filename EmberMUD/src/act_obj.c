@@ -1059,7 +1059,7 @@ void do_drink( CHAR_DATA * ch, char *argument )
         if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_FULL] > 40 )
             send_to_char( "You are full.\n\r", ch );
         if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_THIRST] > 40 )
-            send_to_char( "You do not feel thirsty.\n\r", ch );
+            send_to_char( "You are not thirsty.\n\r", ch );
 
         if ( obj->value[3] != 0 )
         {
@@ -1977,7 +1977,7 @@ void do_brandish( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    WAIT_STATE( ch, 2 * PULSE_VIOLENCE );
+    WAIT_STATE( ch, 2 * ONE_ROUND );
 
     if ( staff->value[2] > 0 )
     {
@@ -2112,7 +2112,7 @@ void do_zap( CHAR_DATA * ch, char *argument )
         }
     }
 
-    WAIT_STATE( ch, 2 * PULSE_VIOLENCE );
+    WAIT_STATE( ch, 2 * ONE_ROUND );
 
     if ( wand->value[2] > 0 )
     {
@@ -2855,19 +2855,19 @@ void do_heal( CHAR_DATA * ch, char *argument )
     if ( arg[0] == '\0' )
     {
         /* display price list */
-        act( "$N says 'I offer the following spells:'", ch, NULL, mob,
+        act( "$N says 'I offer the following spells, now faster and cheaper:'", ch, NULL, mob,
              TO_CHAR );
-        send_to_char( "  light: cure light wounds      100 gold\n\r", ch );
-        send_to_char( "  serious: cure serious wounds  150 gold\n\r", ch );
-        send_to_char( "  critic: cure critical wounds  250 gold\n\r", ch );
-        send_to_char( "  heal: healing spell	       500 gold\n\r", ch );
-        send_to_char( "  blind: cure blindness         200 gold\n\r", ch );
-        send_to_char( "  disease: cure disease         150 gold\n\r", ch );
-        send_to_char( "  poison:  cure poison	       250 gold\n\r", ch );
-        send_to_char( "  uncurse: remove curse	       500 gold\n\r", ch );
-        send_to_char( "  refresh: restore movement      50 gold\n\r", ch );
-        send_to_char( "  mana:  restore mana	       100 gold\n\r", ch );
-        send_to_char( "  cancel:  cancel spells	       500 gold\n\r", ch );
+        send_to_char( "  light: cure light wounds       50 gold\n\r", ch );
+        send_to_char( "  serious: cure serious wounds   75 gold\n\r", ch );
+        send_to_char( "  critic: cure critical wounds  125 gold\n\r", ch );
+        send_to_char( "  heal: healing spell           250 gold\n\r", ch );
+        send_to_char( "  blind: cure blindness         100 gold\n\r", ch );
+        send_to_char( "  disease: cure disease          75 gold\n\r", ch );
+        send_to_char( "  poison:  cure poison          125 gold\n\r", ch );
+        send_to_char( "  uncurse: remove curse         250 gold\n\r", ch );
+        send_to_char( "  refresh: restore movement      25 gold\n\r", ch );
+        send_to_char( "  mana:  restore mana            50 gold\n\r", ch );
+        send_to_char( "  cancel:  cancel spells	       250 gold\n\r", ch );
         send_to_char( " Type heal <type> to be healed.\n\r", ch );
         return;
     }
@@ -2877,7 +2877,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_light;
         sn = skill_lookup( "cure light" );
         words = "judicandus dies";
-        cost = 100;
+        cost = 50;
     }
 
     else if ( !str_prefix( arg, "serious" ) )
@@ -2885,7 +2885,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_serious;
         sn = skill_lookup( "cure serious" );
         words = "judicandus gzfuajg";
-        cost = 160;
+        cost = 75;
     }
 
     else if ( !str_prefix( arg, "critical" ) )
@@ -2893,7 +2893,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_critical;
         sn = skill_lookup( "cure critical" );
         words = "judicandus qfuhuqar";
-        cost = 250;
+        cost = 125;
     }
 
     else if ( !str_prefix( arg, "heal" ) )
@@ -2901,7 +2901,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_heal;
         sn = skill_lookup( "heal" );
         words = "pzar";
-        cost = 500;
+        cost = 250;
     }
 
     else if ( !str_prefix( arg, "blindness" ) )
@@ -2909,7 +2909,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_blindness;
         sn = skill_lookup( "cure blindness" );
         words = "judicandus noselacri";
-        cost = 200;
+        cost = 100;
     }
 
     else if ( !str_prefix( arg, "disease" ) )
@@ -2917,7 +2917,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_disease;
         sn = skill_lookup( "cure disease" );
         words = "judicandus eugzagz";
-        cost = 150;
+        cost = 75;
     }
 
     else if ( !str_prefix( arg, "poison" ) )
@@ -2925,7 +2925,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cure_poison;
         sn = skill_lookup( "cure poison" );
         words = "judicandus sausabru";
-        cost = 250;
+        cost = 125;
     }
 
     else if ( !str_prefix( arg, "uncurse" ) || !str_prefix( arg, "curse" ) )
@@ -2933,7 +2933,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_remove_curse;
         sn = skill_lookup( "remove curse" );
         words = "candussido judifgz";
-        cost = 500;
+        cost = 250;
     }
 
     else if ( !str_prefix( arg, "mana" ) || !str_prefix( arg, "energize" ) )
@@ -2941,7 +2941,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = NULL;
         sn = -1;
         words = "energizer";
-        cost = 100;
+        cost = 50;
     }
 
     else if ( !str_prefix( arg, "refresh" ) || !str_prefix( arg, "moves" ) )
@@ -2949,7 +2949,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_refresh;
         sn = skill_lookup( "refresh" );
         words = "candusima";
-        cost = 50;
+        cost = 25;
     }
 
     else if ( !str_prefix( arg, "cancel" ) )
@@ -2957,7 +2957,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         spell = spell_cancellation;
         sn = skill_lookup( "cancellation" );
         words = "niotallecanc";
-        cost = 500;
+        cost = 250;
     }
 
     else
@@ -2974,7 +2974,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    WAIT_STATE( ch, PULSE_VIOLENCE );
+    WAIT_STATE( ch, 6 );
 
     ch->gold -= cost;
     mob->gold += cost;
@@ -3597,7 +3597,7 @@ void do_scribe( CHAR_DATA * ch, char *argument )
 jail. */
     if ( IS_SET( ch->act, PLR_JAILED ) )
     {
-        send_to_char( "You cant read or write while in jail, its to dark.\n\r",
+        send_to_char( "You can't read or write while in jail, it's too dark.\n\r",
                       ch );
         return;
     }

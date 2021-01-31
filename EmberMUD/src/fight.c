@@ -601,6 +601,7 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
             dam += dam * diceroll / 100;
         }
     }
+    
 
     if ( get_skill( victim, gsn_counter ) > 0 )
     {
@@ -630,7 +631,7 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
 
     if ( dt == gsn_backstab && weapon != NULL )
     {
-        if ( weapon->value[0] != 2 )
+        if ( weapon->value[0] != WEAPON_DAGGER ) /* JR: changed 2 to WEAPON_DAGGER*/
             dam *= 2 + ch->level / 10;
         else
             dam *= 2 + ch->level / 8;
@@ -638,13 +639,14 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
 
     if ( dt == gsn_circle && weapon != NULL )
     {
-        if ( weapon->value[0] != 2 )
+        if ( weapon->value[0] != WEAPON_DAGGER ) /* JR: changed 2 to WEAPON_DAGGER*/
             dam *= 2 + ch->level / 10;
         else
             dam *= 2 + ch->level / 8;
     }
-
+    
     dam += GET_DAMROLL( ch ) * UMIN( 100, skill ) / 100;
+
 
     if ( dam <= 0 )
         dam = 1;
@@ -781,7 +783,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
     /*
      * Stop up any residual loopholes.
      */
-    if ( dam > MAX_MORTAL_WEAPON_DAMAGE && !IS_IMMORTAL( ch ) && !IS_NPC( ch ) )
+    /*if ( dam > MAX_MORTAL_WEAPON_DAMAGE && !IS_IMMORTAL( ch ) && !IS_NPC( ch ) )
     {
         bug( "Damage: %s: more than %d points!", ch->name,
              MAX_MORTAL_WEAPON_DAMAGE );
@@ -792,7 +794,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
 
         send_to_char( "You really shouldn't cheat.\n\r", ch );
         return FALSE;
-    }
+    }*/ /* Removed by JR */
 
     if ( victim != ch )
     {
@@ -883,7 +885,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
         if ( check_parry( ch, victim ) )
             return FALSE;
         if ( check_dodge( ch, victim ) )
-            return FALSE;
+            return FALSE;       
     }
 
     if ( weapon && dam > 0 )
@@ -903,6 +905,34 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
         break;
     }
 
+    /* Added by JR */
+    if ( dt >= TYPE_HIT && ch != victim && get_skill( ch, gsn_vicious_strike ) > 0 && !IS_NPC( ch ) && dam > 0 )
+    {
+        int diceroll = number_percent( );
+        if ( 5*diceroll + 38 <= get_skill( ch, gsn_vicious_strike ) )
+        {
+            if ( dice( 1, 10 ) == 1 )
+            {
+                dam += dam * 2;
+                while ( dice( 1, 2) == 1 )
+                    dam = (4*dam) / 3;
+                act( "`G$N viciously strikes you. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_CHAR );
+                act( "`GYou viciously strike $n. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_VICT );
+                act( "`G$N viciously strikes $n. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_NOTVICT );
+                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+            }
+            else
+            {
+                dam += dam / 3 * UMIN( dice( 1, ch->level / 7 ), 5);
+                act( "`G$N viciously strikes you!`w", victim, NULL, ch, TO_CHAR );
+                act( "`GYou viciously strike $n!`w", victim, NULL, ch, TO_VICT );
+                act( "`G$N viciously strikes $n!`w", victim, NULL, ch, TO_NOTVICT );
+                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+            }
+                check_improve( ch, gsn_vicious_strike, TRUE, 5 );
+        }
+    }       
+    
     if ( !gsilentdamage )
         dam_message( ch, victim, dam, dt, immune );
 
@@ -970,7 +1000,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
     case POS_DEAD:
         rprog_death_trigger( victim );
         mprog_death_trigger( victim );
-        act( "`R$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
+        act( "`M$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
         send_to_char( "`RYou have been KILLED!!\n\r\n\r`w", victim );
         break;
 
@@ -1311,7 +1341,7 @@ bool new_damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
     case POS_DEAD:
         rprog_death_trigger( victim );
         mprog_death_trigger( victim );
-        act( "`R$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
+        act( "`M$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
         send_to_char( "`RYou have been KILLED!!\n\r\n\r`w", victim );
         break;
 
@@ -1568,7 +1598,7 @@ bool vorpal_kill( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
 
     rprog_death_trigger( victim );
     mprog_death_trigger( victim );
-    act( "`R$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
+    act( "`M$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
     send_to_char( "`RYou have been KILLED!!\n\r\n\r`w", victim );
 
     /*
@@ -1784,8 +1814,8 @@ bool is_safe_spell( CHAR_DATA * ch, CHAR_DATA * victim, bool area )
             return TRUE;
         }
 
-        /* cannot use spells if not in same group */
-        if ( victim->fighting != NULL
+        /* cannot use spells if not in same group */ /* Modified by JR */
+        if ( NO_KILL_STEAL && victim->fighting != NULL
              && !is_same_group( ch, victim->fighting ) )
             return TRUE;
 
@@ -2060,7 +2090,7 @@ void make_pk_corpse( CHAR_DATA * ch )
 
     for ( obj = ch->carrying; obj != NULL; obj = obj_next )
     {
-        /* These are the values that determin how the player looting is run for PK'ing -Lancelight */
+        /* These are the values that determine how the player looting is run for PK'ing -Lancelight */
         if ( LOOTING_ALLOWED == 0 )
             random = 0;
         else if ( LOOTING_ALLOWED == 1 )
@@ -2092,8 +2122,16 @@ void make_pk_corpse( CHAR_DATA * ch )
         else
             obj_to_obj( obj, corpse );
     }
-
+#ifdef USE_MORGUE
+    if ( IS_NPC( ch ) )
+        obj_to_room( corpse, ch->in_room );
+    else
+        obj_to_room( corpse, get_room_index( ROOM_VNUM_MORGUE ) );
+    return;
+#else
     obj_to_room( corpse, ch->in_room );
+#endif
+
 
     return;
 }
@@ -2111,7 +2149,6 @@ void death_cry( CHAR_DATA * ch )
 
     vnum = 0;
     msg = "`YYou hear $n's death cry.`w";
-
     switch ( number_bits( 4 ) )
     {
     case 0:
@@ -2756,7 +2793,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
             ( align - 500 ) * ( gch->level / total_levels +
                                 ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
-        gch->alignment = UMAX( -1000, gch->alignment - change );
+        gch->alignment = UMAX( -1000, gch->alignment - change/10 ); /* Modified by JR */
     }
 
     else if ( align < -500 )    /* monster is more evil than slayer */
@@ -2765,7 +2802,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
             ( -1 * align - 500 ) * ( gch->level / total_levels +
                                      ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
-        gch->alignment = UMIN( 1000, gch->alignment + change );
+        gch->alignment = UMIN( 1000, gch->alignment + change/10 );  /* Modified by JR */
     }
 
     else                        /* improve this someday */
@@ -2773,7 +2810,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
         change =
             gch->alignment * ( gch->level / total_levels +
                                ( 1 / members ) ) / 2;
-        gch->alignment -= change;
+        gch->alignment -= change/10; /* Modified by JR */
     }
 
     /* calculate exp multiplier */
@@ -4090,9 +4127,11 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             {
                 sprintf( buf1, "`G$n `R%s`G $N for `g%d`G points of damage%c",
                          vp, dam, punct );
+                /*sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
+                         vs, dam, punct );*/
                 sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
                          vs, dam, punct );
-                sprintf( buf3, "`C$n `R%s`C you for `c%d`C points of damage%c",
+                sprintf( buf3, "`C$n `R%s`C you for `c%d`C points of damage%c", /* Modified by JR */
                          vp, dam, punct );
             }
         else if ( ch == victim )
@@ -4385,7 +4424,7 @@ void do_berserk( CHAR_DATA * ch, char *argument )
     {
         AFFECT_DATA af;
 
-        WAIT_STATE( ch, PULSE_VIOLENCE );
+        WAIT_STATE( ch, ONE_ROUND );
         ch->mana -= 50;
         ch->move /= 2;
 
@@ -4417,7 +4456,7 @@ void do_berserk( CHAR_DATA * ch, char *argument )
 
     else
     {
-        WAIT_STATE( ch, 3 * PULSE_VIOLENCE );
+        WAIT_STATE( ch, 3 * ONE_ROUND );
         ch->mana -= 25;
         ch->move /= 2;
 
@@ -4485,7 +4524,7 @@ void do_bash( CHAR_DATA * ch, char *argument )
     if ( is_safe( ch, victim ) )
         return;
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) ) /* Modified by JR */
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -4533,7 +4572,7 @@ void do_bash( CHAR_DATA * ch, char *argument )
              victim, TO_NOTVICT );
         check_improve( ch, gsn_bash, TRUE, 1 );
 
-        WAIT_STATE( victim, 3 * PULSE_VIOLENCE );
+        WAIT_STATE( victim, 3 * ONE_ROUND );
         WAIT_STATE( ch, skill_table[gsn_bash].beats );
         victim->position = POS_RESTING;
         damage( ch, victim, NULL,
@@ -4611,7 +4650,7 @@ void do_dirt( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -4756,7 +4795,7 @@ void do_trip( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -4817,7 +4856,7 @@ void do_trip( CHAR_DATA * ch, char *argument )
              TO_NOTVICT );
         check_improve( ch, gsn_trip, TRUE, 1 );
 
-        WAIT_STATE( victim, 2 * PULSE_VIOLENCE );
+        WAIT_STATE( victim, 2 * ONE_ROUND );
         WAIT_STATE( ch, skill_table[gsn_trip].beats );
         victim->position = POS_RESTING;
         damage( ch, victim, NULL, number_range( 2, 2 + 2 * victim->size ),
@@ -4869,7 +4908,7 @@ void do_kill( CHAR_DATA * ch, char *argument )
     if ( is_safe( ch, victim ) )
         return;
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -4887,7 +4926,7 @@ void do_kill( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+    WAIT_STATE( ch, 1 * ONE_ROUND );
     check_killer( ch, victim );
     multi_hit( ch, victim, TYPE_UNDEFINED );
     return;
@@ -4932,7 +4971,7 @@ void do_murder( CHAR_DATA * ch, char *argument )
     if ( is_safe( ch, victim ) )
         return;
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -4950,7 +4989,7 @@ void do_murder( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+    WAIT_STATE( ch, 1 * ONE_ROUND );
     if ( IS_NPC( ch ) )
         sprintf( buf, "`YHelp! I am being attacked by %s!`w", ch->short_descr );
     else
@@ -5001,7 +5040,7 @@ void do_backstab( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -5052,7 +5091,7 @@ void do_backstab( CHAR_DATA * ch, char *argument )
     return;
 }
 
-void do_circle( CHAR_DATA * ch, char *argument )
+void do_circle( CHAR_DATA * ch, char *argument ) /* Modified by JR */
 {
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
@@ -5062,8 +5101,12 @@ void do_circle( CHAR_DATA * ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-        send_to_char( "Circle whom?\n\r", ch );
-        return;
+        victim = ch->fighting;
+        if ( victim == NULL )
+        {
+            send_to_char( "You must be fighting in order to circle.\n\r", ch );
+            return;
+        }
     }
 
     else if ( ( victim = get_char_room( ch, arg ) ) == NULL )
@@ -5075,7 +5118,7 @@ void do_circle( CHAR_DATA * ch, char *argument )
     if ( is_safe( ch, victim ) )
         return;
 
-    if ( IS_NPC( victim ) && victim->fighting != NULL
+    if ( NO_KILL_STEAL && IS_NPC( victim ) && victim->fighting != NULL
          && !is_same_group( ch, victim->fighting ) )
 
     {
@@ -5089,11 +5132,11 @@ void do_circle( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( ( victim = ch->fighting ) == NULL )
+    /*if ( ( victim = ch->fighting ) == NULL )
     {
         send_to_char( "You must be fighting in order to circle.\n\r", ch );
         return;
-    }
+    }*/
 
     check_killer( ch, victim );
     WAIT_STATE( ch, skill_table[gsn_circle].beats );
@@ -5192,7 +5235,7 @@ void do_rescue( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( !is_same_group( ch, victim ) )
+    if ( NO_KILL_STEAL && !is_same_group( ch, victim ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -5255,7 +5298,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
     one_argument( argument, arg );
     if ( ( chance = get_skill( ch, gsn_blackjack ) ) == 0 )
     {
-        send_to_char( "You cant blackjack.\n\r", ch );
+        send_to_char( "You can't blackjack.\n\r", ch );
         return;
     }
 
@@ -5270,7 +5313,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
+    if ( NO_KILL_STEAL && victim->fighting != NULL && !is_same_group( ch, victim->fighting ) )
     {
         send_to_char( "Kill stealing is not permitted.\n\r", ch );
         return;
@@ -5317,7 +5360,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
         return;
     }
     /* level */
-    chance += ( ch->level - ch->level );
+    chance += ( ch->level - victim->level ); /* Fixed by JR */
     /* sloppy hack to prevent false zeroes */
     if ( chance % 5 == 0 )
         chance += 1;
@@ -5365,7 +5408,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
              victim, TO_CHAR );
         act( "`R*** CRACK *** What in the world was that! It sure did hurt!`w",
              ch, NULL, victim, TO_VICT );
-        act( "`RMAN $n MUST be pissed! He just knocked $N out `WCOLD`R!`w", ch,
+        act( "`RMAN $n MUST be pissed! They just knocked $N out `WCOLD`R!`w", ch,
              NULL, victim, TO_NOTVICT );
         send_to_char( "`WYou are knocked out cold!\n\r", victim );
 

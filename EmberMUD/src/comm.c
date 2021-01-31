@@ -313,7 +313,7 @@ void new_descriptor args( ( int control ) );
 bool read_from_descriptor args( ( DESCRIPTOR_DATA * d, bool color ) );
 bool write_to_descriptor
 args( ( int desc, char *txt, int length, bool color ) );
-
+char * wait_str( int n ); /* Added by JR */
 /*
  * Other local functions (OS-independent).
  */
@@ -355,7 +355,6 @@ bool can_read_descriptor( int fd )
         return FALSE;
 #endif
     }
-
     return ( bool ) FD_ISSET( fd, &R_SET );
 }
 
@@ -768,7 +767,6 @@ int game_loop( int control )
          */
         if ( FD_ISSET( control, &in_set ) )
             new_descriptor( control );
-
         /*
          * Kick out the freaky folks.
          */
@@ -797,9 +795,8 @@ int game_loop( int control )
         {
             d_next = d->next;
             d->fcommand = FALSE;
-
-            if ( FD_ISSET( d->descriptor, &in_set ) )
-            {
+            if FD_ISSET( d->descriptor, &in_set )
+            {   
                 if ( d->character != NULL )
                 {
                     d->character->timer = 0;
@@ -830,8 +827,11 @@ int game_loop( int control )
                 --d->character->wait;
                 continue;
             }
-
+            if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
             read_from_buffer( d, FALSE );
+            else
+            {d->incomm[0] = "\n";d->incomm[1] = "\0";}
+            
             if ( d->incomm[0] != '\0' )
             {
                 d->fcommand = TRUE;
@@ -1014,7 +1014,7 @@ void new_descriptor( int control )
 
     *dnew = d_zero;
     dnew->descriptor = desc;
-    dnew->connected = CON_GET_ANSI;
+    dnew->connected = CON_GET_ANSI; /* Removed by JR*/
     dnew->showstr_head = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize = 2000;
@@ -1075,10 +1075,8 @@ void new_descriptor( int control )
      */
     dnew->next = descriptor_list;
     descriptor_list = dnew;
-
-    write_to_buffer( dnew, CFG_CONNECT_MSG, 0 );
-    write_to_buffer( dnew, CFG_ASK_ANSI, 0 );
-
+    /*write_to_buffer( dnew, CFG_CONNECT_MSG, 0 );
+    write_to_buffer( dnew, CFG_ASK_ANSI, 0 );*/ /* Removed by JR*/
     return;
 }
 
@@ -1362,6 +1360,35 @@ void read_from_buffer( DESCRIPTOR_DATA * d, bool color )
     return;
 }
 
+
+
+
+
+/* Writen by JR */
+/* Returns a string indicating player wait time */
+char * wait_str( int n )
+{
+    if ( !WAIT_STR )
+        return "";
+    if ( n < 0.1*PULSE_VIOLENCE )
+        return "`R   ";
+    else if ( n < PULSE_VIOLENCE )
+        return "`R  .";
+    else if ( n < 1.5*PULSE_VIOLENCE )
+        return "`R  *";
+    else if ( n < 2*PULSE_VIOLENCE )
+        return "`R .*";
+    else if ( n < 2.5*PULSE_VIOLENCE )
+        return "`R **";
+    else if ( n < 3*PULSE_VIOLENCE )
+        return "`R.**";
+    else
+        return "`R***";
+}
+
+
+
+
 /*
  * Low level output function.
  */
@@ -1401,9 +1428,10 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             {
                 ch = d->character;
                 if ( !IS_NPC( ch ) )
-                    sprintf( buf, "%s", doparseprompt( ch ) );
+                    sprintf( buf, "%s%s", wait_str( ch->wait ), doparseprompt( ch ) ); /* modified by JR */
                 else
-                    sprintf( buf, "<H%d/%d M%d/%d V%d/%d>", ch->hit,
+                    /* This is the default prompt */
+                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch->wait ), ch->hit,
                              ch->max_hit, ch->mana, ch->max_mana, ch->move,
                              ch->max_move );
                 write_to_buffer( d, buf, 0 );
@@ -1561,7 +1589,6 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
 
     ch = d->character;
     update_last( "Nanny:", ch ? ch->name : "new", argument );
-
     switch ( d->connected )
     {
 
@@ -1575,7 +1602,6 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
         return;
 
     case CON_GET_ANSI:
-
         if ( ( argument[0] == 'n' ) || ( argument[0] == 'N' ) )
             d->ansi = FALSE;
         else
@@ -1587,7 +1613,7 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
         {
             extern char *help_greeting;
             extern char *ansi_greeting;
-
+            write_to_buffer(d,"\n\r",0); /* Added by JR (fixed display problem with TinTin*/
             if ( d->ansi )
                 write_to_buffer( d, ansi_greeting, 0 );
             else
@@ -1749,7 +1775,7 @@ check_ban function.
         break;
 
     case CON_GET_OLD_PASSWORD:
-        write_to_buffer( d, "\n\r", 2 );
+        //write_to_buffer( d, "\n\r", 2 );
 
         if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ) )
         {
@@ -1781,8 +1807,8 @@ check_ban function.
         {
             REMOVE_BIT( ch->act, PLR_BUILDING );
         }
-
-        if ( IS_HERO( ch ) )
+        
+        if ( IS_HERO( ch ) && ENABLE_IMOTD )
         {
             do_help( ch, "imotd" );
             d->connected = CON_READ_IMOTD;
@@ -1880,13 +1906,16 @@ check_ban function.
     case CON_GET_NEW_PASSWORD:
         write_to_buffer( d, "\n\r", 2 );
 
+        
         if ( strlen( argument ) < 5 )
         {
-            write_to_buffer( d,
+            write_to_buffer(d,"Caution: password is short.\n\r",0);
+            /*write_to_buffer( d,
                              "Password must be at least five characters long.\n\rPassword: ",
-                             0 );
-            return;
+                             0 );*/
+            /*return; */
         }
+        
 
         pwdnew = crypt( argument, ch->name );
         for ( p = pwdnew; *p != '\0'; p++ )
@@ -1956,7 +1985,7 @@ check_ban function.
         }
 
         race = race_lookup( argument );
-
+        fprintf(stderr, "Race lookup complete, %d\n\r",race); /* Temporary JR*/
         if ( race == 0 || !race_table[race].pc_race
              || ( race_table[race].remort_race
                   && !IS_SET( ch->act, PLR_REMORT ) ) )
@@ -1983,6 +2012,8 @@ check_ban function.
         }
 
         ch->race = race;
+            
+        fprintf(stderr,"Set race\n\r"); /* JR temp*/
         /* initialize stats */
         for ( i = 0; i < MAX_STATS; i++ )
             ch->perm_stat[i] = pc_race_table[race].stats[i];
@@ -1993,6 +2024,7 @@ check_ban function.
         ch->form = race_table[race].form;
         ch->parts = race_table[race].parts;
 
+            fprintf(stderr,"Done init\n\r"); /* JR temp*/
         /* add skills */
         for ( i = 0; i < 5; i++ )
         {
@@ -2000,13 +2032,14 @@ check_ban function.
                 break;
             group_add( ch, pc_race_table[race].skills[i], FALSE );
         }
+            fprintf(stderr,"Done Skills\n\r"); /* JR temp*/
         /* add cost */
         ch->pcdata->points = pc_race_table[race].points;
         ch->size = pc_race_table[race].size;
-        write_to_buffer( d, "What is your sex (M/F)? ", 0 );
+        write_to_buffer( d, "What is your gender (M/F/N)? ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
-
+    
     case CON_GET_NEW_SEX:
         switch ( argument[0] )
         {
@@ -2020,8 +2053,13 @@ check_ban function.
             ch->sex = SEX_FEMALE;
             ch->pcdata->true_sex = SEX_FEMALE;
             break;
+        case 'n':
+        case 'N':
+            ch->sex = SEX_NB;
+            ch->pcdata->true_sex = SEX_NB;
+            break;
         default:
-            write_to_buffer( d, "That's not a sex.\n\rWhat IS your sex? ", 0 );
+            write_to_buffer( d, "That's not a gender.\n\rWhat IS your gender? ", 0 );
             return;
         }
         write_to_buffer( d, "Press enter to start rolling your stats. ", 0 );
@@ -2270,15 +2308,26 @@ check_ban function.
 
     case CON_GEN_GROUPS:
         send_to_char( "\n\r", ch );
-        if ( !str_cmp( argument, "done" ) )
+        if ( !str_cmp( argument, "done" ) ) /* !str_cmp( s1, s2 ) mean s1 *is* equal to s2 */
         {
+            if ( ch->pcdata->points < CP_MIN_CREATE )
+            {
+                sprintf(buf, "You must have at least %d creation points\n\rYou currently have %d\n\r\n\r", CP_MIN_CREATE, ch->pcdata->points);
+                send_to_char( buf, ch );
+                send_to_char
+                ( "Choices are: list,learned,premise,add,drop,info,help, and done.\n\r",
+                  ch );
+                do_help( ch, "menu choice" );
+                return;
+            }
+
             sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
             send_to_char( buf, ch );
             sprintf( buf,
-                     "Experience modifier: %d (Percent of difference from the norm)\n\r",
+                     "Experience modifier: %d\% (Percent of difference from the norm)\n\r",
                      figure_difference( ch->gen_data->points_chosen ) );
             if ( ch->pcdata->points < 40 )
-                ch->train = ( 40 - ch->pcdata->points + 1 ) / 2;
+                ch->train = ( 40 - ch->pcdata->points + 1 ) / 2; /* What is this? Seems to be overwritten anyway. */
             send_to_char( buf, ch );
             write_to_buffer( d, "\n\r", 2 );
             do_help( ch, "motd" );
@@ -2334,8 +2383,6 @@ check_ban function.
 #if defined(cbuilder)
         AddUser( ch );
 #endif
-
-        write_to_buffer( d, "\n\rWelcome to EmberMUD.\n\r", 0 );
         /* Add to list of PCs and NPCs */
         ch->next = char_list;
         char_list = ch;
@@ -2344,8 +2391,7 @@ check_ban function.
         player_list = ch;
 
         d->connected = CON_PLAYING;
-        reset_char( ch );
-
+            reset_char( ch );
         if ( ch->level == 0 )
         {
 
@@ -2407,8 +2453,12 @@ check_ban function.
 #endif
 
         act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
+        
+        write_to_buffer( d, "\n\r", 0 ); // For formatting
         do_look( ch, "auto" );
-        do_board( ch, "" );     /* Show board status */
+        
+        if ( AUTO_BOARD )    
+            do_board( ch, "" );     /* Show board status */
 
         if ( ch->pet != NULL )
         {
@@ -2705,7 +2755,7 @@ void show_string( struct descriptor_data *d, char *input )
 /* quick sex fixer */
 void fix_sex( CHAR_DATA * ch )
 {
-    if ( ch->sex < 0 || ch->sex > 2 )
+    if ( ch->sex < 0 || ch->sex > 4 ) /* Modified by JR */
         ch->sex = IS_NPC( ch ) ? 0 : ch->pcdata->true_sex;
 }
 
@@ -2720,9 +2770,10 @@ void act( const char *format, CHAR_DATA * ch, const void *arg1,
 char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                   const void *arg1, const void *arg2 )
 {
-    static char *const he_she[] = { "it", "he", "she" };
-    static char *const him_her[] = { "it", "him", "her" };
-    static char *const his_her[] = { "its", "his", "her" };
+    /* JR: added non-binary pronouns */
+    static char *const he_she[] = { "it", "he", "she", "they" };
+    static char *const him_her[] = { "it", "him", "her", "them" };
+    static char *const his_her[] = { "its", "his", "her", "their" };
     static char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
     char *point;
@@ -2770,22 +2821,22 @@ char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                 i = ( to ? PERS( vch, to ) : NAME( vch ) );
                 break;
             case 'e':
-                i = he_she[URANGE( 0, ch->sex, 2 )];
+                i = he_she[URANGE( 0, ch->sex, NUM_SEXES )]; /* JR: changed 2 to NUM_SEXES */
                 break;
             case 'E':
-                i = he_she[URANGE( 0, vch->sex, 2 )];
+                i = he_she[URANGE( 0, vch->sex, NUM_SEXES )];
                 break;
             case 'm':
-                i = him_her[URANGE( 0, ch->sex, 2 )];
+                i = him_her[URANGE( 0, ch->sex, NUM_SEXES )];
                 break;
             case 'M':
-                i = him_her[URANGE( 0, vch->sex, 2 )];
+                i = him_her[URANGE( 0, vch->sex, NUM_SEXES )];
                 break;
             case 's':
-                i = his_her[URANGE( 0, ch->sex, 2 )];
+                i = his_her[URANGE( 0, ch->sex, NUM_SEXES )];
                 break;
             case 'S':
-                i = his_her[URANGE( 0, vch->sex, 2 )];
+                i = his_her[URANGE( 0, vch->sex, NUM_SEXES )];
                 break;
             case 'p':
                 i = ( !to || can_see_obj( to, obj1 )
@@ -2816,8 +2867,15 @@ char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
     *point++ = '\n';
     *point++ = '\r';
     *point = '\0';
-    buf[0] = UPPER( buf[0] );
-
+    /* Modified by JR to fix capitalization problem with color */
+    /*if ( buf[0] != '`' ) 
+        buf[0] = UPPER( buf[0] );
+    else
+        buf[2] = UPPER( buf[2] );*/
+    char *tmp = buf;
+    while ( *tmp == '`')
+        tmp += 2;
+    *tmp = UPPER( *tmp );
     return buf;
 }
 
@@ -3369,6 +3427,7 @@ char *doparseprompt( CHAR_DATA * ch )
             break;
         }
     }
+
     return ( finished_prompt );
 }
 

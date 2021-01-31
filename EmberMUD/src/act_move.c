@@ -1534,7 +1534,7 @@ void do_recall( CHAR_DATA * ch, char *argument )
         {
             check_improve( ch, gsn_recall, FALSE, 6 );
             WAIT_STATE( ch, 4 );
-            sprintf( buf, "You failed!.\n\r" );
+            sprintf( buf, "You failed.\n\r" );
             send_to_char( buf, ch );
             return;
         }
@@ -1941,7 +1941,7 @@ void do_track( CHAR_DATA * ch, char *argument )
     }
 #endif
 
-    if ( !( vict = get_char_world( ch, arg ) ) )
+    if ( !( vict = get_char_world( ch, arg ) ) || IS_SET( vict->imm_flags, IMM_TRACK ) ) /* Modified by JR */
     {
         send_to_char( "You can't find them.\n\r", ch );
         return;
@@ -1993,8 +1993,43 @@ void do_track( CHAR_DATA * ch, char *argument )
         }
 #endif
 
-        sprintf( buf, "You sense a trail %s from here!\n\r", dir_text[dir] );
-        send_to_char( buf, ch );
+        /*sprintf( buf, "You sense a trail %s from here!\n\r", dir_text[dir] );
+        send_to_char( buf, ch );*/
+
+        if( IS_SET( ch->act, PLR_AUTOTRACK ) ) /* Added by JR*/
+        {
+            sprintf( buf, "You follow a trail %s from here!\n\r", dir_text[dir] );
+            send_to_char( buf, ch );
+                     
+            switch ( dir )
+            {
+                case 0:
+                    move_char( ch, DIR_NORTH, FALSE );
+                    break;
+                case 1:
+                    move_char( ch, DIR_EAST, FALSE );
+                    break;
+                case 2:
+                    move_char( ch, DIR_SOUTH, FALSE );
+                    break;
+                case 3:
+                    move_char( ch, DIR_WEST, FALSE );
+                    break;
+                case 4:
+                    move_char( ch, DIR_UP, FALSE );
+                    break;
+                case 5:
+                    move_char( ch, DIR_DOWN, FALSE );
+                    break;
+                default:
+                    break;
+            }
+        }
+        else
+        {
+            sprintf( buf, "You sense a trail %s from here!\n\r", dir_text[dir] );
+            send_to_char( buf, ch );
+        }
         break;
     }
 }

@@ -484,7 +484,7 @@ void reset_char( CHAR_DATA * ch )
                     {
                     case APPLY_SEX:
                         ch->sex -= mod;
-                        if ( ch->sex < 0 || ch->sex > 2 )
+                        if ( ch->sex < 0 || ch->sex > 3 ) /* Modified by JR */
                             ch->sex = IS_NPC( ch ) ? 0 : ch->pcdata->true_sex;
                         break;
                     case APPLY_MANA:
@@ -524,9 +524,9 @@ void reset_char( CHAR_DATA * ch )
         ch->pcdata->perm_mana = ch->max_mana;
         ch->pcdata->perm_move = ch->max_move;
         ch->pcdata->last_level = ch->played / 3600;
-        if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2 )
+        if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 3 )
         {
-            if ( ch->sex > 0 && ch->sex < 3 )
+            if ( ch->sex > 0 && ch->sex < 4 )
                 ch->pcdata->true_sex = ch->sex;
             else
                 ch->pcdata->true_sex = 0;
@@ -538,7 +538,7 @@ void reset_char( CHAR_DATA * ch )
     for ( stat = 0; stat < MAX_STATS; stat++ )
         ch->mod_stat[stat] = 0;
 
-    if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2 )
+    if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 3 )
         ch->pcdata->true_sex = 0;
     ch->sex = ch->pcdata->true_sex;
     ch->max_hit = ch->pcdata->perm_hit;
@@ -829,7 +829,7 @@ void reset_char( CHAR_DATA * ch )
     }
 
     /* make sure sex is RIGHT!!!! */
-    if ( ch->sex < 0 || ch->sex > 2 )
+    if ( ch->sex < 0 || ch->sex > 3 )
         ch->sex = ch->pcdata->true_sex;
 }
 
@@ -3085,7 +3085,7 @@ char *affect_loc_name( int location )
     case APPLY_CON:
         return "constitution";
     case APPLY_SEX:
-        return "sex";
+        return "gender"; /* Modified by JR */
     case APPLY_CLASS:
         return "class";
     case APPLY_LEVEL:

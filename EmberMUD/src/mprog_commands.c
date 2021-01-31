@@ -1321,39 +1321,39 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
 
     case 'W':
         ch->position = POS_STANDING;
-        act( "$n awakens and groans loudly.", ch, NULL, NULL, TO_ROOM );
+        act( "$n awakens and puts on his spray tan.", ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'S':
         ch->position = POS_SLEEPING;
-        act( "$n lies down and falls asleep.", ch, NULL, NULL, TO_ROOM );
+        act( "$n lies down and falls asleep, dreaming of a world without Obamacare.", ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'a':
-        act( "$n says 'Hello Honey!'", ch, NULL, NULL, TO_ROOM );
+        act( "$n says 'You're fired!'", ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'b':
-        act( "$n says 'What a view!  I must do something about that dump!'",
+        act( "$n says 'Sad!'",
              ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'c':
-        act( "$n says 'Vandals!  Youngsters have no respect for anything!'",
+        act( "$n says 'Mexicans!  Those illegals have no respect for anything!'",
              ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'd':
-        act( "$n says 'Good day, citizens!'", ch, NULL, NULL, TO_ROOM );
+        act( "$n says 'We're going to win so much, you will get tired of winning!'", ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'e':
-        act( "$n says 'I hereby declare the city of Midgaard open!'",
+        act( "$n says 'You can come in, as long as you're not from a s***hole country'",
              ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'E':
-        act( "$n says 'I hereby declare the city of Midgaard closed!'",
+        act( "$n says 'Build the wall!'",
              ch, NULL, NULL, TO_ROOM );
         break;
 

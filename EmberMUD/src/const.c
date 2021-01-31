@@ -111,6 +111,12 @@ const struct race_type race_table[] = {
      B | M | V, A | B | C | D | E | F | G | H | I | J | K | U | V, FALSE},
 
     {
+     "Drow", TRUE,
+     0, AFF_DARK_VISION, 0,
+     0, RES_CHARM | RES_MAGIC, VULN_IRON | VULN_LIGHT,
+     A | H | M | V, A | B | C | D | E | F | G | H | I | J | K, FALSE},
+    
+    {
      "Wolf", FALSE,
      0, AFF_DARK_VISION, OFF_FAST | OFF_DODGE,
      0, 0, 0,
@@ -122,12 +128,6 @@ const struct race_type race_table[] = {
      OFF_BASH | OFF_FAST | OFF_DODGE,
      IMM_POISON, 0, VULN_LIGHT,
      B | Z | cc, A | C | D | E | F | H | J | K | Q | U | V | X, FALSE},
-
-    {
-     "Drow Elf", FALSE,
-     0, AFF_DARK_VISION, 0,
-     0, RES_CHARM, VULN_IRON | VULN_LIGHT,
-     A | H | M | V, A | B | C | D | E | F | G | H | I | J | K},
 
     {
      "bat", FALSE,
@@ -286,11 +286,6 @@ const struct pc_race_type pc_race_table[] = {
     },
 */
 
-/*    { 	
-	"drow elf",		"Drow ",	5,	{ 100, 125,  100, 120 }, 
-	{ "sneak", "hide" },
-	{ -1, 1, 0, 2, -2 },	{ 16, 20, 18, 21, 15 }, SIZE_MEDIUM
-    },*/
 
     {
      "dwarf", "  Dwarf   ", 8, {150, 100, 125, 100},
@@ -321,6 +316,11 @@ const struct pc_race_type pc_race_table[] = {
      "troll", "  Troll   ", 12, {175, 150, 125, 100},
      {""},
      {2, -1, 0, -2, 1}, {20, 17, 18, 16, 19}, SIZE_LARGE},
+    
+    {
+    "drow", "   Drow   ", 5, { 100, 130,  90, 120 }, 
+    { "sneak", "hide" },
+    { -1, 1, 0, 2, -2 }, { 16, 20, 18, 21, 15 }, SIZE_MEDIUM},
 
 };
 #endif
@@ -337,12 +337,6 @@ const struct pc_race_type pc_race_table[] = {
 	{ base stats },		{ max stats },		size 
     },
 */
-
-/*    { 	
-	"drow elf",		"Drow ",	5,	{ 100, 125,  100, 120 }, 
-	{ "sneak", "hide" },
-	{ -1, 1, 0, 2, -2 },	{ 16, 20, 18, 21, 15 }, SIZE_MEDIUM
-    },*/
 
     {
      "dwarf", "  Dwarf   ", 8, {150, 100, 125, 100},
@@ -373,6 +367,11 @@ const struct pc_race_type pc_race_table[] = {
      "troll", "  Troll   ", 12, {175, 150, 125, 100},
      {""},
      {2, -1, 0, -2, 1}, {20, 17, 18, 16, 26}, SIZE_LARGE},
+    
+    {
+     "drow", "   Drow   ", 5, { 100, 130, 90, 120 }, 
+     { "sneak", "hide" },
+     { -1, 1, 0, 2, -2 }, {16, 25, 19, 22, 15}, SIZE_MEDIUM},
 
 };
 #endif
@@ -1506,7 +1505,7 @@ struct skill_type skill_table[MAX_SKILL] = {
      "blackjack", {50, 50, 3, 3}, {0, 0, 4, 4},
      spell_null, TAR_IGNORE, POS_STANDING,
      &gsn_blackjack, SLOT( 0 ), 0, 24,
-     "blackjack", "Man what a headache, good thing its over."},
+     "blackjack", "Man what a headache, good thing it's over."},
 
     {
      "dirt kicking", {50, 50, 3, 3}, {0, 0, 4, 4},
@@ -1671,7 +1670,21 @@ struct skill_type skill_table[MAX_SKILL] = {
      "scribe", {25, 35, 80, 80}, {2, 3, 5, 8},
      spell_null, TAR_IGNORE, POS_STANDING,
      &gsn_scribe, SLOT( 0 ), 0, 24,
-     "", "!Scribe!"}
+     "", "!Scribe!"},
+
+    {
+     "circle", {50, 50, 12, 50}, {0, 0, 5, 0},
+     spell_null, TAR_IGNORE, POS_STANDING,
+     &gsn_circle, SLOT( 0 ), 0, 24,
+     "circle", "!Circle!"}, /* Added by JR. Maybe beats should be 36? */
+
+/* Added by JR */
+    {
+     "vicious strike", {50, 50, 50, 30}, {0, 0, 0, 5},
+     spell_null, TAR_IGNORE, POS_STANDING,
+     &gsn_vicious_strike, SLOT( 0 ), 0, 0,
+     "", "!Vicious!"}
+    
 
 };
 
@@ -1718,7 +1731,7 @@ const struct group_type group_table[MAX_GROUP] = {
     {
      "thief default", {-1, -1, 40, -1},
      {"whip", "sword", "backstab", "disarm", "dodge", "second attack",
-      "trip", "hide", "peek", "pick lock", "sneak"}
+      "trip", "hide", "peek", "pick lock", "sneak", "circle"}
      },
 
     {
@@ -1816,13 +1829,18 @@ const struct group_type group_table[MAX_GROUP] = {
     {
      "transportation", {4, 4, -1, -1},
      {"fly", "gate", "nexus", "pass door", "summon", "teleport",
-      "word of recall"}
+      "word of recall","vision"}
      },
 
     {
      "weather", {4, 4, -1, -1},
      {"call lightning", "control weather", "faerie fire", "faerie fog",
       "lightning bolt"}
-     }
+     },
+
+     {
+      "advanced combat", {7, -1, -1, -1},
+      {"firewind", "meteor swarm", "multi missile", "disintegrate", "ice ray"}
+      }
 
 };

@@ -172,6 +172,7 @@ const struct cmd_type cmd_table[] = {
     {"autoloot", do_autoloot, POS_DEAD, 0, LOG_NORMAL, 1},
     {"autosac", do_autosac, POS_DEAD, 0, LOG_NORMAL, 1},
     {"autosplit", do_autosplit, POS_DEAD, 0, LOG_NORMAL, 1},
+    {"autotrack", do_autotrack, POS_DEAD, 0, LOG_NORMAL, 1}, /* Added by JR */
     {"brief", do_brief, POS_DEAD, 0, LOG_NORMAL, 1},
     {"channels", do_channels, POS_DEAD, 0, LOG_NORMAL, 1},
     {"combine", do_combine, POS_DEAD, 0, LOG_NORMAL, 1},
@@ -298,6 +299,7 @@ const struct cmd_type cmd_table[] = {
     {"hide", do_hide, POS_RESTING, 0, LOG_NORMAL, 1},
     {"qui", do_qui, POS_DEAD, 0, LOG_NORMAL, 0},
     {"quit", do_quit, POS_DEAD, 0, LOG_NORMAL, 1},
+    {"logout", do_quit, POS_DEAD, 0, LOG_NORMAL, 1},
     {"recall", do_recall, POS_FIGHTING, 0, LOG_NORMAL, 1},
     {"/", do_recall, POS_FIGHTING, 0, LOG_NORMAL, 0},
     {"save", do_save, POS_DEAD, 0, LOG_NORMAL, 1},
@@ -334,11 +336,11 @@ const struct cmd_type cmd_table[] = {
     /*
      * Immortal commands.
      */
-    {"mpchangefaction", do_mpchangefaction, POS_DEAD, 0, LOG_NORMAL, 1},
-    {"mpsilentchangefaction", do_mpsilentchangefaction, POS_DEAD, 0, LOG_NORMAL,
+    {"mpcfac", do_mpchangefaction, POS_DEAD, 0, LOG_NORMAL, 1},
+    {"mpscfac", do_mpsilentchangefaction, POS_DEAD, 0, LOG_NORMAL,
      1},
     {"advance", do_advance, POS_DEAD, 1, LOG_ALWAYS, 1},
-    {"advance", do_levelgain, POS_DEAD, 0, LOG_NORMAL, 1},
+    {"raise", do_levelgain, POS_DEAD, 0, LOG_NORMAL, 1},
     {"award", do_award, POS_DEAD, 1, LOG_ALWAYS, 1},
     {"hotboo", do_hotboo, POS_DEAD, 1, LOG_ALWAYS, 1},
     {"hotboot", do_copyover, POS_DEAD, 1, LOG_ALWAYS, 1},

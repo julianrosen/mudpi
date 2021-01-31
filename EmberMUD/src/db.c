@@ -106,6 +106,7 @@ sh_int gsn_rescue;
 sh_int gsn_second_attack;
 sh_int gsn_third_attack;
 sh_int gsn_fourth_attack;
+sh_int gsn_vicious_strike; /* Added by JR */
 
 sh_int gsn_blindness;
 sh_int gsn_charm_person;
@@ -314,7 +315,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
         if ( !d->character || d->connected < 0 )    /* drop those logging on */
         {
             write_to_descriptor( d->descriptor,
-                                 "\n\rSorry, we are rebooting. Come back in a few minutes.\n\r",
+                                 "\n\rSorry, we are rebooting. Please reconnect.\n\r",
                                  66 );
             close_socket( d );  /* throw'em out */
         }
@@ -2127,8 +2128,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA * pMobIndex )
     mob->start_pos = pMobIndex->start_pos;
     mob->default_pos = pMobIndex->default_pos;
     mob->sex = pMobIndex->sex;
-    if ( mob->sex == 3 )        /* random sex */
-        mob->sex = number_range( 1, 2 );
+    if ( mob->sex == SEX_RANDOM )        /* random sex */
+        mob->sex = number_range( 1, NUM_SEXES ); /* Modified by JR */
     mob->race = pMobIndex->race;
     if ( pMobIndex->gold == 0 )
         mob->gold = 0;

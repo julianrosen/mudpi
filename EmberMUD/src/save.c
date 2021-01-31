@@ -216,7 +216,7 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
     if ( ch->long_descr[0] != '\0' )
         fprintf( fp, "LnD  %s~\n", ch->long_descr );
     if ( ch->description[0] != '\0' )
-        fprintf( fp, "Desc %s~\n\r", ch->description );
+        fprintf( fp, "Desc %s~\n", ch->description ); /* JR replace \n\r with \n */
     fprintf( fp, "Race %s~\n", pc_race_table[ch->race].name );
     fprintf( fp, "Sex  %d\n", ch->sex );
     fprintf( fp, "Cla  %d\n", ch->Class );
@@ -684,7 +684,8 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->pcdata->condition[COND_FULL] = 48;
     ch->pcdata->security = 0;   /* OLC */
     ch->pcdata->prompt =
-        str_dup( "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> " );
+        /*str_dup( "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> " ); */
+        str_dup( PROMPT_START ); /* JR changed default */
 /*    ch->pcdata->clan			= 0; */
     ch->beep = TRUE;
     ch->anonymous = FALSE;

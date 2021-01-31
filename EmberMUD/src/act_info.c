@@ -716,6 +716,12 @@ void do_autolist( CHAR_DATA * ch, char *argument )
     else
         send_to_char( "`ROFF`w\n\r", ch );
 
+    send_to_char( "autotrack      ", ch ); /* Added by JR */
+    if( IS_SET( ch->act, PLR_AUTOTRACK ) )
+        send_to_char( "`GON`w\n\r", ch );
+    else
+        send_to_char( "`ROFF`w\n\r", ch );
+    
     send_to_char( "prompt         ", ch );
     if ( IS_SET( ch->comm, COMM_PROMPT ) )
         send_to_char( "`GON`w\n\r", ch );
@@ -854,6 +860,23 @@ void do_autosplit( CHAR_DATA * ch, char *argument )
     }
 }
 
+void do_autotrack( CHAR_DATA * ch, char *argument)
+{
+    if ( IS_NPC( ch ) )
+        return;
+
+    if ( IS_SET( ch->act, PLR_AUTOTRACK ) )
+    {
+        send_to_char( "Automatic track following removed.\n\r", ch );
+        REMOVE_BIT( ch->act, PLR_AUTOTRACK );
+    }
+    else
+    {
+        send_to_char( "Automatic track following set.\n\r", ch );
+        SET_BIT( ch->act, PLR_AUTOTRACK );
+    }
+}
+
 void do_brief( CHAR_DATA * ch, char *argument )
 {
     if ( IS_SET( ch->comm, COMM_BRIEF ) )
@@ -890,7 +913,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
         {
             free_string( &ch->pcdata->prompt );
             ch->pcdata->prompt =
-                str_dup( "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> " );
+                str_dup( PROMPT_DEFAULT );
         }
 
         else if ( !strcmp( argument, "combat" ) )
@@ -898,7 +921,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             free_string( &ch->pcdata->prompt );
             ch->pcdata->prompt =
                 str_dup
-                ( "`gTank: %l  `rEnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K>" );
+                ( PROMPT_COMBAT );
         }
 
         else if ( !strcmp( argument, "ghioti" ) )
@@ -906,7 +929,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             free_string( &ch->pcdata->prompt );
             ch->pcdata->prompt =
                 str_dup
-                ( "`cMe: %s  `gTank: %l  `rEnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl>" );
+                ( PROMPT_GHIOTI );
         }
 
         else if ( IS_IMMORTAL( ch ) && !strcmp( argument, "imm" ) )
@@ -914,7 +937,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             free_string( &ch->pcdata->prompt );
             ch->pcdata->prompt =
                 str_dup
-                ( " %B `cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:>`W `w" );
+                ( PROMPT_IMM );
         }
 
         else
@@ -1709,7 +1732,7 @@ void do_examine( CHAR_DATA * ch, char *argument )
         case ITEM_CONTAINER:
         case ITEM_CORPSE_NPC:
         case ITEM_CORPSE_PC:
-            send_to_char( "When you look inside, you see:\n\r", ch );
+            /* send_to_char( "When you look inside, you see:\n\r", ch ); */ /* Removed by JR */
             sprintf( buf, "in %s", arg2 );
             do_look( ch, buf );
         }
@@ -1890,11 +1913,12 @@ void do_score( CHAR_DATA * ch, char *argument )
             sprintf( buf, "Satanic]                     `y|\n\r" );
         send_to_char( buf, ch );
         sprintf( buf,
-                 "     | `YCON:     `G%2d `W%s `y| `YSex: `G%s          `YCreation Points : `G%2d%s     `y|\n\r",
+                 "     | `YCON:     `G%2d `W%s `y| `YGender: `G%s   `YCreation Points : `G%2d%s     `y|\n\r",
                  ch->perm_stat[STAT_CON], statdiff( ch->perm_stat[STAT_CON],
                                                     get_curr_stat( ch,
                                                                    STAT_CON ) ),
-                 ch->sex == 0 ? "Sexless" : ch->sex == 1 ? "Male  " : "female",
+                 ch->sex == SEX_NB ? "Nonbinary " : ch->sex == SEX_MALE ? "Male      " : 
+                ch->sex == SEX_FEMALE ? "Female    " : "Unknown   ",
                  ch->pcdata->points, ch->pcdata->points >= 100 ? "" : " " );
         send_to_char( buf, ch );
         sprintf( buf,
@@ -3853,7 +3877,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
 
-    static char *const he_she[] = { "It", "He", "She" };
+    static char *const he_she[] = { "It", "He", "She", "They" }; /* Modified by JR */
     CHAR_DATA *victim;
     FILE *fp;
     char pfile[MAX_STRING_LENGTH], *title;
@@ -3949,10 +3973,16 @@ void do_finger( CHAR_DATA * ch, char *argument )
         else
             sprintf( buf2, "not a member of any clan." );
 
-        sprintf( buf, "     | `GSex  : `Y%-7s   `W%s is %s`y",
+        char be_verb[4];
+        if ( victim->sex == SEX_NB )
+            strcpy(be_verb,"are");
+        else
+            strcpy(be_verb,"is");
+        sprintf( buf, "     | `GGender:`Y%-10s`W%s %s %s`y",
                  victim->sex == 0 ? "Sexless" : victim->sex ==
-                 1 ? "Male" : "Female", he_she[URANGE( 0, victim->sex, 2 )],
-                 buf2 );
+                 SEX_MALE ? "Male" : victim->sex == SEX_FEMALE ? "Female" :
+                victim->sex == SEX_NB ? "Nonbinary" : "Unknown", he_she[URANGE( 0, victim->sex, 3 )], /* Modified by JR */
+                 be_verb, buf2 );
         send_to_char( buf, ch );
         x = str_len( buf );
         strcpy( buf, "\0" );
@@ -3971,8 +4001,8 @@ void do_finger( CHAR_DATA * ch, char *argument )
             strcat( buf, " " );
         strcat( buf, "|\n\r" );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `GAge  :`Y%3d        `W%s is a %s %s.`y",
-                 get_age( victim ), he_she[URANGE( 0, victim->sex, 2 )],
+        sprintf( buf, "     | `GAge  :`Y%3d        `W%s %s a %s %s.`y",
+                 get_age( victim ), he_she[URANGE( 0, victim->sex, 3 )], be_verb,
                  pc_race_table[victim->race].name,
                  class_table[victim->Class].name );
         send_to_char( buf, ch );
@@ -4177,9 +4207,15 @@ void do_finger( CHAR_DATA * ch, char *argument )
             else
                 sprintf( buf2, "not a member of any clan." );
             /*          sprintf(buf2,"not a member of any clan." ); */
-            sprintf( buf, "     | `GSex  : `Y%-7s   `W%s is %s`y",
-                     sex == 0 ? "Sexless" : sex == 1 ? "Male" : "Female",
-                     he_she[URANGE( 0, sex, 2 )], buf2 );
+            char be_verb[4];
+            if ( sex == SEX_NB )
+                strcpy(be_verb,"are");
+            else
+                strcpy(be_verb,"is");
+            sprintf( buf, "     | `GGender:`Y%-10s`W%s %s %s`y",
+                     sex == SEX_NEUTRAL ? "Sexless" : sex == SEX_MALE ? "Male" :
+                     sex == SEX_FEMALE ? "Female" : sex == SEX_NB ? "Nonbinary" : "Unknown",
+                     he_she[URANGE( 0, sex, 3 )], be_verb, buf2 ); /* Modified by JR */
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );
@@ -4197,9 +4233,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 strcat( buf, " " );
             strcat( buf, "|\n\r" );
             send_to_char( buf, ch );
-            sprintf( buf, "     | `GAge  :`Y%3ld        `W%s is a %s %s.`y",
+            sprintf( buf, "     | `GAge  :`Y%3ld        `W%s %s a %s %s.`y",
                      ( 17 + ( played / 72000 ) ),
-                     he_she[URANGE( 0, sex, 2 )], race, class );
+                     he_she[URANGE( 0, sex, 3 )], be_verb, race, class );
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );
@@ -4302,7 +4338,7 @@ void do_rebirth( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    if ( ch->level > 52 )
+    if ( ch->level > LEVEL_HERO )
     {
         send_to_char( "Why the hell would you want to do that?\n\r", ch );
         return;

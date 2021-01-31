@@ -961,6 +961,7 @@ extern sh_int gsn_peek;
 extern sh_int gsn_pick_lock;
 extern sh_int gsn_sneak;
 extern sh_int gsn_steal;
+extern sh_int gsn_vicious_strike;
 
 extern sh_int gsn_disarm;
 extern sh_int gsn_enhanced_damage;
@@ -1067,9 +1068,17 @@ void save_disabled args( ( void ) );
 				    (ch)->in_room->room_flags,              \
 				    ROOM_INDOORS))
 
-#define WAIT_STATE(ch, npulse)  ((ch)->wait = UMAX((ch)->wait, (npulse)))
-#define DAZE_STATE(ch, npulse)  ((ch)->daze = UMAX((ch)->daze, (npulse)))
 
+/* JR: Problem is each skill has a wait time, which is hardcoded in beats (pulses). So if PULSES_PER_SECOND or
+PULSE_VIOLENCE is changed, the number of times you can cast a spell during each combat round changes.
+The new interpretation of "beats" is "twelfths of a combat round".
+EmberMUD default is 12 pulses per combat round, so by default a beat is one pulse, but on modern hardware
+I find I get better performance with ~5 pulses per beat (i.e. ~60 pulses per second).
+*/
+
+#define WAIT_STATE(ch, npulse)  ((ch)->wait = UMAX((ch)->wait, (npulse)*PULSE_VIOLENCE/ONE_ROUND)) /* JR: now scales correctly*/
+#define DAZE_STATE(ch, npulse)  ((ch)->daze = UMAX((ch)->daze, (npulse)*PULSE_VIOLENCE/ONE_ROUND)) /* (changing PULSES_PER_SECOND
+											now will not change spells per round*/
 /*
  * Object macros.
  */

@@ -208,6 +208,7 @@ const struct flag_type sex_flags[] = {
     {"female", SEX_FEMALE, TRUE},
     {"neutral", SEX_NEUTRAL, TRUE},
     {"random", 3, TRUE},        /* ROM */
+    {"non-binary", SEX_NB, TRUE}, /* Added by JR */
     {"none", SEX_NEUTRAL, TRUE},
     {"", 0, 0}
 };
@@ -729,6 +730,7 @@ const struct flag_type imm_flags[] = {
     {"disease", IMM_DISEASE, TRUE},
     {"drowning", IMM_DROWNING, TRUE},
     {"light", IMM_LIGHT, TRUE},
+    {"track", IMM_TRACK, TRUE}, /* Added by JR */
     {"", 0, 0}
 };
 

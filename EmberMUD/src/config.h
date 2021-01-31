@@ -3,9 +3,34 @@
 
 #define CONFIG_FILE "ember.cfg"
 
+/* Added by JR */
+
+#define ENABLE_IMOTD  0 /* Enable imotd */
+#define PAUSE_MOTD    0 /* Pause at the MOTD during login */
+#define NO_KILL_STEAL 0 /* Is kill stealing prohibited? */
+#define AUTO_BOARD    0 /* Automatically display message boards on login */
+#define WAIT_STR      1 /* Display symbol when commands are blocked */
+
+/* Prompts */
+#define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
+#define PROMPT_COMBAT  "`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K>"
+#define PROMPT_GHIOTI  "`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl>"
+#define PROMPT_IMM     " %B `cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:>`W `w"
+#define PROMPT_START   PROMPT_COMBAT
+
+
+/* Time (in minutes) of inactivity before a character
+vanishes and quits.*/
+#define AUTO_AFK 15
+#define AUTO_VANISH 60
+#define AUTO_QUIT 180
+
+/* End JR */
+
+
 /* These strings probably should NOT contain color codes */
-#define CFG_QUIT "Alas, all good things must come to an end.\n\r"
-#define CFG_CONNECT_MSG "Welcome to a MUD based on EmberMUD.\n\r"
+#define CFG_QUIT "Bye bye, come again soon!\n\r"
+#define CFG_CONNECT_MSG "Welcome to Mudpi.\n\r"
 #define CFG_ASK_ANSI "Use ANSI Color? [Y/n]: "
 
 /* Do you want a music channel?  Can be used as any other
@@ -172,17 +197,18 @@ a line for if their cp is less than a certain number, their cp gets
 another number added to it.  This defines those to numbers.  The next has
 to do with how low can a "normal" character use trains to lower their
 cp. */
-#define CP_MIN_PENALTY  10
-#define CP_PENALTY      35
-#define CP_TRAIN_MIN    30
+#define CP_MIN_CREATE   25  /* JR: Minimum allowed CP on creation */
+#define CP_MIN_PENALTY  0
+#define CP_PENALTY      0
+#define CP_TRAIN_MIN    15
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
    peace command is used in the same room with them).  If you don't want
    to use it, uncomment #undef AUTO_HATE, and comment out #def AUTO_HATE
 */
-#define AUTO_HATE
-/* #undef AUTO_HATE */
+/*#define AUTO_HATE*/
+#undef AUTO_HATE 
 
 /* Recreation options:  This update to cvs (4/2002) brings in two possible
  * options for recreation after reaching hero.  It is recomended only one at
@@ -196,7 +222,6 @@ cp. */
 /*
 #define USE_REMORT
 */
-
 /* The next has to do with selling multiples of the same item, or when
    a shopkeeper already has at least 1 of something.  Set to 0 if you
    only want your shopkeepers buying 1 of an item. 
@@ -280,7 +305,7 @@ the higher values. Remeber only use 25 or 30 unless you edit
 the tables in const.c or you will get errors all over const.c 
 -Lancelight*/
 
-#define MAX_ATTAINABLE_STATS 25
+#define MAX_ATTAINABLE_STATS 30
 
 /* Another stat item.  This defines the penalty for re-rolling your stats
  * if you don't like the first roll.  This defines how close it is possible to 
@@ -304,7 +329,7 @@ the tables in const.c or you will get errors all over const.c
  * from cheating by giving god weapons to players.
  */
 
-#define MAX_MORTAL_WEAPON_DAMAGE    1000
+#define MAX_MORTAL_WEAPON_DAMAGE    100000
 
 /* ONLY_DAGGER_BS
  *
@@ -333,8 +358,8 @@ the tables in const.c or you will get errors all over const.c
 
    /* This is if you want to allow players to convert trains into practices
       the opposite of gain convert. */
-/* #define CAN_GAIN_REVERT */
-#undef CAN_GAIN_REVERT
+#define CAN_GAIN_REVERT 
+/*#undef CAN_GAIN_REVERT*/
 #define CAN_GAIN_CONVERT
 /* #undef CAN_GAIN_CONVERT */
 
@@ -423,14 +448,18 @@ sets the level of the obj, the second sets the level of the spells.*/
 #define WORN_HELD     "`K<`wheld`K>"
 #define WORN_WIELDED2 "`K<`wsecondary weapon`K>"
 
+
+
 /* Comment this if you do not want to have the anonymous command
 available*/
 
+/*
 #define ANONYMOUS
+*/
 
 /* This determines at what level the recall command no longer works for
 mortals. Set this to MAX_LEVEL if you dont want to use it. */
-#define RECALL_LEVEL 20
+#define RECALL_LEVEL MAX_LEVEL
 
 /* this determines if beacon is a mortal or immortal command.  Some muds
 have it one way, other another.  Beacon sets the recall room of the
@@ -464,7 +493,7 @@ runs. -Lancelight*/
                                    whoever the player killed. The higher the number,
                                    the less of a chance the killer has of getting an
                                    item from the poor victim. -Lancelight */
-#define LOOTING_ALLOWED 1       /* Change this to 0 if you do not want to allow player
+#define LOOTING_ALLOWED 0       /* Change this to 0 if you do not want to allow player
                                    looting at all.
                                    1 = Use random Looting
                                    2 = Allow full looting
@@ -515,7 +544,7 @@ aswell. Feel free to use this anyplace else in the mud aswell.
 -Lancelight
 */
 
-#define MUD_ADMIN_EMAIL	"mudadmin@whatever.com"
+#define MUD_ADMIN_EMAIL	"julianrosen@gmail.com"
 
 /* This vnums are for use with the banking system. The 1st one is for
 players that are not thieves. The second is the vnum of the thieves guild.
@@ -579,7 +608,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define cc                      268435456
 #define dd                      536870912
 #define ee                      1073741824
-
+#define ff                      2147483648
 /*
  * String and memory management parameters.
  */
@@ -623,25 +652,29 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_ALIAS                  20
 #define MAX_CLASS                   4
 #define MAX_PC_RACE                12
-#define MAX_LEVEL                  60
+#define MAX_LEVEL                  100
 #define MAX_EXP            2147483647
 #define MAX_CHUNKS                 80   /* Used in ssm.c */
 #define MAX_OUTPUT_BUFFER       32000
 /* Allows you to tune how easy/hard it is to level.  For instance 0.75 would give you only
  * 75% of the exp you'd normally get from any task basically making it 25% hard to level - Zane */
-#define EXP_MULTIPLIER				1
+#define EXP_MULTIPLIER             1
 #define MAX_ATTACK_TYPE            32
 #define MAX_LAST_LENGTH            20   /*How long can the last list be? */
 #define LEVEL_HERO                 (MAX_LEVEL - 9)
 #define LEVEL_IMMORTAL             (MAX_LEVEL - 7)
 #define LEVEL_ADMIN                (MAX_LEVEL - 3)
 
-#define PULSE_PER_SECOND            4
-#define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND )
+
+
+
+#define ONE_ROUND                   12 /* This is an unpleasant workaround, to avoid manually changing skill beats */
+#define PULSE_PER_SECOND            60  /*  */
+#define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
 #define PULSE_MOBILE              ( 4 * PULSE_PER_SECOND)
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
-#define PULSE_TICK                (30 * PULSE_PER_SECOND)
-#define PULSE_AREA                (60 * PULSE_PER_SECOND)
+#define PULSE_TICK                (20 * PULSE_PER_SECOND)
+#define PULSE_AREA                (30 * PULSE_PER_SECOND)
 #define AUCTION_LENGTH                    5
 #define MINIMUM_BID                     10  /*set this to whatever. -Lancelight */
 #define IMPLEMENTOR             MAX_LEVEL
@@ -786,14 +819,14 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MOB_VNUM_VAMPIRE           3404
 
 /* for newly created characters - Kyle */
-#define STARTING_PRACTICES 5
-#define STARTING_TRAINS 1
+#define STARTING_PRACTICES 10
+#define STARTING_TRAINS 5
 #define STARTING_TITLE "the newbie"
 
 /*Spicey "consider" comments*/
 
-#define CON_MSG1 "$N can kiss his ass goodbye!"
-#define CON_MSG2 "You can smell $N's fear as he knows your strength."
+#define CON_MSG1 "$N can kiss their ass goodbye!"
+#define CON_MSG2 "You can smell $N's fear as they know your strength."
 #define CON_MSG3 "$N can't walk the walk."
 #define CON_MSG4 "See if you can overcome an equal adversary."
 #define CON_MSG5 "You're in for quite a challenge."
@@ -1120,6 +1153,8 @@ of combat. */
 #define IMM_DISEASE             (Q)
 #define IMM_DROWNING            (R)
 #define IMM_LIGHT               (S)
+#define IMM_TRACK               (T) /* Added by JR */
+
 
 /* RES bits for mobs */
 #define RES_CHARM               (B)
@@ -1261,9 +1296,12 @@ of combat. */
  * Sex.
  * Used in #MOBILES.
  */
+#define SEX_RANDOM                    -1
 #define SEX_NEUTRAL                   0
 #define SEX_MALE                      1
 #define SEX_FEMALE                    2
+#define SEX_NB                        3 /* Added by JR. Turns out 3 is already taken */
+#define NUM_SEXES                     3 /* Not counting random or neutral */
 
 /* AC types */
 #define AC_PIERCE                       0
@@ -1621,6 +1659,7 @@ of combat. */
 #define PLR_AUTOSAC             (F)
 #define PLR_AUTOGOLD            (G)
 #define PLR_AUTOSPLIT           (H)
+#define PLR_AUTOTRACK           (ff) /* Added by JR*/
 #define PLR_CONSENT              (I)
 #define PLR_JAILED               (J)
 #define PLR_BUILDING		 (K)
@@ -1731,8 +1770,9 @@ of combat. */
 */
 
 #define TRACK_THROUGH_DOORS
-#define TRACK_IS_SKILL
-/* #undef TRACK_IS_SKILL */
+/*#undef TRACK_THROUGH_DOORS*/ /* Added by JR */
+/*#define TRACK_IS_SKILL*/
+#undef TRACK_IS_SKILL
 
 #define TRACK_NO_PATH          -1
 #define TRACK_ALREADY_THERE    -2
@@ -1822,10 +1862,10 @@ checked was inserted.   If you need that on for some reason, uncomment the above
    and making that character unusable.
  */
 
-/*
+
 #define USE_MORGUE
-#define ROOM_VNUM_MORGUE 3001
- */
+#define ROOM_VNUM_MORGUE 3360
+
 /* Set this to send all player corpses to the morgue when a player dies.  Room
    3001 is the temple, so you should probably create your own morgue and set 
    ROOM_VNUM_MORGUE to its vnum.
@@ -1838,9 +1878,8 @@ checked was inserted.   If you need that on for some reason, uncomment the above
    the amount done, then comment out #define DAMAGE_BY_AMOUNT.
  */
 
-/*
+
 #define SHOW_DAMAGE_TO_CHARS
-*/
 
 /* With this defined, characters see exactly how much damage they do to a mob.
    From experience, most players really like this feature.  However, many mud

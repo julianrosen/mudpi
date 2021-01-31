@@ -1873,7 +1873,7 @@ void spell_demonfire( int sn, int level, CHAR_DATA * ch, void *vo )
         send_to_char( "The demons turn upon you!\n\r", ch );
     }
 
-    ch->alignment = UMAX( -1000, ch->alignment - 50 );
+    ch->alignment = UMAX( -1000, ch->alignment - 20 );
 
     if ( victim != ch )
     {
@@ -2697,7 +2697,7 @@ void spell_energy_drain( int sn, int level, CHAR_DATA * ch, void *vo )
         return;
     }
 
-    ch->alignment = UMAX( -1000, ch->alignment - 50 );
+    ch->alignment = UMAX( -1000, ch->alignment - 20 );
     if ( victim->level <= 2 )
     {
         dam = ch->hit + 1;
@@ -3140,7 +3140,7 @@ void spell_nexus( int sn, int level, CHAR_DATA * ch, void *vo )
     }
 
     spawn_portal( ch->in_room->vnum, victim->in_room->vnum );
-    act( "$n waves his hands and a portal appears out of thin air.", ch, NULL,
+    act( "$n waves their hands and a portal appears out of thin air.", ch, NULL,
          NULL, TO_ROOM );
     send_to_char
         ( "As you wave your hands, a portal appears in front of you.\n\r", ch );
@@ -4971,7 +4971,7 @@ void spell_life_drain( int sn, int level, CHAR_DATA * ch, void
         return;
     }
 
-    ch->alignment = UMAX( -1000, ch->alignment - 50 );
+    ch->alignment = UMAX( -1000, ch->alignment - 20 );
     if ( victim->level <= 2 )
     {
         dam = ch->hit + 1;

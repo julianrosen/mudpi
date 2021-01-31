@@ -74,7 +74,7 @@ const struct olc_help_type help_table[] = {
     {"type", type_flags, "Types of objects."},
     {"extra", extra_flags, "Object attributes."},
     {"wear", wear_flags, "Where to wear object."},
-    {"sex", sex_flags, "Sexes."},
+    {"sex", sex_flags, "Genders."}, /* Modified by JR */
     {"addaffect", apply_flags, "Addaffect Locations."},
     {"ac", ac_type, "Ac for different attacks."},
     {"act", act_flags, "Mobile attributes."},
@@ -3266,7 +3266,8 @@ MEDIT( medit_show )
              flag_string( act_flags, pMob->act ) );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Vnum:        [%5d]\n\rSex:         [%s]\n\r", pMob->vnum, pMob->sex == SEX_MALE ? "male" : pMob->sex == SEX_FEMALE ? "female" : pMob->sex == 3 ? "random" : "neutral" ); /* ROM magic number */
+    sprintf( buf, "Vnum:        [%5d]\n\rGender:      [%s]\n\r", pMob->vnum, pMob->sex == SEX_MALE ? "male" : pMob->sex == SEX_FEMALE ? "female" : pMob->sex == SEX_RANDOM ? "random" : 
+            pMob->sex == SEX_NB ? "non-binary" : "neutral" ); /* ROM magic number */ /* Modifed by JR */
     send_to_char( buf, ch );
 
     sprintf( buf, "Race:        [%s]\n\r",  /* ROM OLC */
