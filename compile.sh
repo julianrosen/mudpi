@@ -25,7 +25,7 @@ Description=Mudpi server
 after=network.target
 
 [Service]
-User=mudpi
+User=mud
 ExecStart=$my_dir/start.sh
 WorkingDirectory=$my_dir
 Restart=on-failure
