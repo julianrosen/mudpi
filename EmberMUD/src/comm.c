@@ -2411,7 +2411,7 @@ check_ban function.
             ch->practice = STARTING_PRACTICES;
             set_title( ch, STARTING_TITLE );
             
-            sprintf( buf, "`G***  Entering mudpi  ***`w\n\r\n\r");
+            sprintf( buf, "`G*******  Entering mudpi  *******`w\n\r\n\r");
             send_to_char( buf, ch );
 
             do_outfit( ch, "" );
@@ -2440,13 +2440,7 @@ check_ban function.
         }
 
 #ifdef ANNOUNCE_CONNECTIONS
-        if ( ch->played == 0 )
-        {
-            sprintf( buf, "%s has entered the game for the first time.",
-                     ch->name );
-            do_sendinfo( ch, buf );
-        }
-        sprintf( buf, "%s has entered the game.", ch->name );
+        
 #ifdef IMMS_CAN_HIDE
         if ( IS_SET( ch->act, PLR_NO_ANNOUNCE ) )
         {
@@ -2456,7 +2450,14 @@ check_ban function.
         {
 #endif
             if ( !IS_SET( ch->act, PLR_WIZINVIS ) )
+            {
+                if ( ch->played == 0 )
+                    sprintf( buf, "%s has entered the game for the first time.",
+                        ch->name );
+                else
+                    sprintf( buf, "%s has entered the game.", ch->name );
                 do_sendinfo( ch, buf );
+            }
 #ifdef IMMS_CAN_HIDE
         }
 #endif
