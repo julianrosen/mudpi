@@ -1,5 +1,7 @@
 #!/bin/bash
 
+port=${1:-16377}
+
 ki()
 {
     echo -e "\nClosing mudpi..."   
@@ -9,11 +11,11 @@ ki()
 }
 
 trap ki SIGINT
-echo "Starting mudpi..."
+echo "Starting mudpi on port $port..."
 cd EmberMUD/src
 ./startup 20495 &
 cd ../../ttyd/build
-./ttyd -p 16377 -t cursorBlink=true -t titleFixed=Mudpi ../../tintin/start_tt.sh >/dev/null 2>/dev/null&
+./ttyd -p "$port" -t cursorBlink=true -t titleFixed=Mudpi ../../tintin/start_tt.sh >/dev/null 2>/dev/null&
 cd ../..
 sleep 2
 /usr/bin/tmux new -d -s botty EmberMUD/bot/botty.py &
