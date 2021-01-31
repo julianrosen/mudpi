@@ -303,8 +303,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
     do_asave( ch, "changed" );
     do_force( ch, "all save" );
     sprintf( buf,
-             "\n\r\n\rThe earth splits in two, as %s remolds the world as you know it.\n\r",
-             ch->name );
+             "\n\r\n\rA black can went past, and then another that looked just like it. Deja vu...\n\r");
 
     /* For each playing descriptor, save its state */
     for ( d = descriptor_list; d; d = d_next )
@@ -423,7 +422,7 @@ void copyover_recover( void )
 
         /* Write something, and check if it goes error-free */
         if ( !write_to_descriptor
-             ( desc, "\n\rThe earth reforms, new to you as you know it...\n\r",
+             ( desc, "\n\rA deja vu is a glitch in the matrix. Something has changed...\n\r",
                52 ) )
         {
             close( desc );      /* nope */
