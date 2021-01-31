@@ -1,45 +1,35 @@
 #HELPS
 
 -1 ANSIGREET~
-[2J[1;1H[1;[1;32mTHIS MUD IS BASED ON RIVERS OF MUD v2.3.
-
 [0;33m                      _________________________________
-[0;33m          __    _____|       [1;33m EmberMUD v0.9.47     [0;33m    |_____    __
+[0;33m          __    _____|                                 |_____    __
 [0;33m_________|  |__|    :|                                 |     |__|  |_________
-[0;33m\       :|  |::|    :|                                 |     |::|  |        /
+[0;33m\       :|  |::|    :|        Welcome to Mudpi!        |     |::|  |        /
 [0;33m  \     :|  |::|    :|                                 |     |::|  |      /
 [0;33m    >   :|  |::|    :|_________________________________|     |::|  |    <
 [0;33m  /     :|__|::|____:/                                 \.____|::|__|      \
 [0;33m/_______:/  \::/                                             \::/  \._______\
 [1;37m
-Welcome to a brand new EmberMUD!
 [0m
-  Original DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, 
-  Michael Seifert, and Sebastian Hammer.  Based on MERC 2.1 code 
-  by Hatchet, Furey, and Kahn.  ROM 2.3 code written by Alander.
-  EmberMUD improvements by Zane, Zak, Thexder, Lancelight, and
-  Dorzak.
+Derived from EmberMUD v0.9.47, with some modifications by Jules
+Hosted on a Raspberry pi 4B
 
 Welcome -- Who are you? ~
 -1 GREETING~
 . 
-`GTHIS MUD IS BASED ON RIVERS OF MUD v2.3.
+
 `y                      _________________________________
-`y          __    _____|       `Y EmberMUD v0.9.47     `y    |_____    __
+`y          __    _____|                                 |_____    __
 `y_________|  |__|    :|                                 |     |__|  |_________
-`y\       :|  |::|    :|                                 |     |::|  |        /
+`y\       :|  |::|    :|        Welcome to Mudpi!        |     |::|  |        /
 `y  \     :|  |::|    :|                                 |     |::|  |      /
 `y    >   :|  |::|    :|_________________________________|     |::|  |    <
 `y  /     :|__|::|____:/                                 \.____|::|__|      \
 `y/_______:/  \::/                                             \::/  \._______\
 `W
-Welcome to a brand new EmberMUD!
 `w
-  Original DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, 
-  Michael Seifert, and Sebastian Hammer.  Based on MERC 2.1 code 
-  by Hatchet, Furey, and Kahn.  ROM 2.3 code written by Alander.
-  EmberMUD improvements by Zane, Zak, Thexder, Lancelight, and
-  Dorzak.
+Derived from EmberMUD v0.9.47, with some modifications by Jules
+Hosted on a Raspberry pi 4B
 
 Welcome -- Who are you? ~
 -1 WIZLIST~
@@ -55,14 +45,10 @@ Welcome -- Who are you? ~
 ~
 -1 MOTD~
 .
-This is the MOTD.  It can be edited in the ember.are file in the area
-directory.
-
-[Hit Return to continue]
 ~
 51 IMOTD~
 .
-Welcome new EmberMUD immort!  This is the IMOTD from the ember.are file.
+You are an immortal.
 
 [Hit Return to continue]
 ~
@@ -83,25 +69,11 @@ available on most commands and abilities.
 `R Please create a job list!`w
 ~
 -1 RULES~
-These are the rules of EmberMUD.  For other matters, use common sense.
+These are the rules of Mudpi.
 
-`K* `WNo player stealing. Period.
-
-`K* `Wfoul and/or abusive language will not be tolerated, from anyone
-  (including gods). Punishments range from deletion to NOCHANNELing.
-
-`K* `Wsexual harassment of any form will not be tolerated, punishable by deletion
-
-`K* `Wyour presence here is a privilige not a right
+`K* `WMudpi might disappear at any time without warning.
  
-`K* `Wno multiple logins, multiple playing, or helping your own characters with 
-  other characters you own -- by any arrangment.
- 
-`K* `Wno kill stealing.  This means you cannot attack a mob someone else is 
-  fighting, unless they ask you to. Also avoid attacking fleeing mobs.
-
-`K* `Wcheating will not be tolerated.  This includes accepting favors from gods
-  and exploiting bugs. If you find a bug, report it, then do not use it.
+`K* `WFoul language, multiple logins, and the use of bots are allowed (and encouraged)! 
 
 ~
 -1 STORY~
@@ -116,6 +88,8 @@ Then came the EmberMUD team.  That's where we are now...
 ~
 -1 CHANGES~
 Changes from stock EmberMUD code should be listed here.
+
+
 ~
 -1 OLC EDIT~
 .
@@ -2010,12 +1984,8 @@ Characters who are fighting may not be summoned.
 Syntax: Just type pk twice to activate.
 
 Typing pk twice activates your "player killer" flag.  This is NOT
-REVERSABLE!  No matter how much you beg or plead, no god is allowed
-to remove this flag (although the Imps MIGHT be convinced. ;)
-
-When you are tagged "player killer", you may only attack other players
-who are tagged as such, and you may only be attacked by other players who
-are tagged as such.
+REVERSABLE! When you are tagged "player killer", you can attack and
+be attacked by other players who are tagged as such.
 
 ~
 0 TELEPORT~
@@ -2751,6 +2721,11 @@ This skill is similar to fast healing, but relies on the concentration and
 mantras to increase mana recovery when the character is sleeping or resting.
 Thieves and warriors, with their troubled minds and violent attitudes, have
 much trouble learning to meditate.
+~
+-1 VICIOUS STRIKE~
+Vicious strike is a passive ability that gives a warrior's attack the chance
+to deal substantial extra damage. The increase in damage ranges from 50% to
+500%, depending on the warrior's level and skill, and depending on chance.
 ~
 -1 STEAL~
 `KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w

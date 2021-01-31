@@ -1,6 +1,6 @@
 #AREADATA
 Name        { All } Diku    Midgaard~
-Builders    None~
+Builders    Test~
 VNUMs       3000 3399
 Security    9
 End
@@ -592,7 +592,7 @@ AHMV ABCDEFGHIJK M 0
 #3069
 cityguard guard~
 the cityguard~
-A cityguard is here, guarding the mayor.
+A cityguard is here, guarding Trump.
 ~
 A big, strong, helpful, trustworthy guard.
 ~
@@ -852,7 +852,7 @@ the secretary~
 A secretary is sitting at the desk.
 ~
 She looks very busy.
-The Secretary says 'Sorry, but the Mayor is extremely busy today'.
+The Secretary says 'Sorry, but President Trump is extremely busy today'.
 The Secretary says 'Please sit down and have a seat in the meantime'.
 ~
 Human~
@@ -864,11 +864,11 @@ FHI 0 0 0
 6 6 2 100
 AHMV ABCDEFGHIJK M 0
 #3143
-mayor~
-the mayor~
-The mayor is here.  He shakes your hand.
+donald trump~
+Donald Trump~
+Donald Trump is here.  He shakes your hand.
 ~
-He is a stocky, middle-aged man with thin, grey hair.
+He is a large, old man with a slight orange color.
 ~
 Human~
 AB N 900 S
@@ -1770,7 +1770,7 @@ A B AC AB D
 10 5 600 P
 E
 sword long~
-This is the ceremonial sword of the Mayor of Midgaard.
+This is the ceremonial sword of Donald Trump.
 ~
 #3129
 hand cuffs~
@@ -1997,47 +1997,47 @@ A 0 0 0 0
 E
 map midgaard~
 .
-                        * * * MIDGAARD * * *
-                         = = ========== = =
-                       (C) ROM, Mapped by Ezra
- 
-                                     Rainbow Bridge (Asgard and Valhalla)
-                                    /
-          North            Temple Altar   Mud School <--- ** NEWBIES **
-            |   /Up           (Healer)        |           ** GO HERE **
-            | /                  |       /Entrace to
-     West---+---East             |     /  Mud School
-          / |                 Temple of       |
-    Down/   |                   Mota        Arena
-          South               (Recall)--Donation Room
-                                 |
-                                 |   /In the Air   /Defunct Reception
-                  Cleric         | /             /
-       Northern   Guild----Temple Square---Grunting---Bar    Northern
-       Midgaard              (Fountain)    Boar Inn          Midgaard
-        (Empty)  Magic           |                           (Empty)
-           |     Shop   Bakery   |    Grocer    Weaponsmith     |
-           |       |      |      |       |           |          |
-To    <---West---Main-Street---Market----Main-Street-+--------East--->Cross
-Shire,    Gate     |      |    Square    |           |        Gate    Roads
-Forest of  |     Mage  Armoury   |     Jeweler    Warrior       |
-Hoan-Dor   |     Guild           |                 Guild     Wall Road
-          Wall                   |                              |
-          Road  Leather  Map     |    Grebe's  Pet   Apothecary |
-           |     Shop    Shop    |    Tavern   Shop  (Potions)  |
-           |      |       |    Common   |       |       |       |
-          Wall---Poor-Alley----Square---Dark-Alley------+----Wall Road
-          Road    |       |      |      |       |       |       |
-           |   Temple   Grubby   |   Thieves  Levee   Warehouse |
-           |  Of Stupid  Inn     |    Guild   (Boats) (Sailor)  |
-           |                    Dump            |               |
-          Wall  Mob      Sewers/ |              |             Wall
-          Road--Factory          |              |             Road
-           |                   South         Midgaard           |         To the
-         Bridge                Bridge         River---------> Bridge <--> Sands
-           |                     |                              |           of
-        Southern              Southern                       Southern     Sorrow
-        Midgaard              Midgaard                       Midgaard
+                            * * * MIDGAARD * * *
+                             = = ========== = =
+                           (C) ROM, Mapped by Ezra
+
+                                         Rainbow Bridge (Asgard and Valhalla)
+                                        /
+              North            Temple Altar   Mud School <--- ** NEWBIES **
+                |   /Up           (Healer)        |           ** GO HERE **
+                | /                  |       /Entrace to
+         West---+---East             |     /  Mud School
+              / |                 Temple of       |
+        Down/   |                   Mota        Arena
+              South      Morgue---(Recall)--Donation Room
+                                     |
+                                     |   /In the Air   /Defunct Reception
+                      Cleric         | /             /
+           Northern   Guild----Temple Square---Grunting---Bar    Northern
+           Midgaard              (Fountain)    Boar Inn          Midgaard
+            (Empty)  Magic           |                           (Empty)
+               |     Shop   Bakery   |    Grocer    Weaponsmith     |
+               |       |      |      |       |           |          |
+    To    <---West---Main-Street---Market----Main-Street-+--------East--->Cross
+    Shire,    Gate     |      |    Square    |           |        Gate    Roads
+    Forest of  |     Mage  Armoury   |     Jeweler    Warrior       |
+    Hoan-Dor   |     Guild           |                 Guild     Wall Road
+              Wall                   |                              |
+              Road  Leather  Map     |    Grebe's  Pet   Apothecary |
+               |     Shop    Shop    |    Tavern   Shop  (Potions)  |
+               |      |       |    Common   |       |       |       |
+              Wall---Poor-Alley----Square---Dark-Alley------+----Wall Road
+              Road    |       |      |      |       |       |       |
+               |   Temple   Grubby   |   Thieves  Levee   Warehouse |
+               |  Of Stupid  Inn     |    Guild   (Boats) (Sailor)  |
+               |                    Dump            |               |
+              Wall  Mob      Sewers/ |              |             Wall
+              Road--Factory          |              |             Road
+               |                   South         Midgaard           |         To the
+             Bridge                Bridge         River---------> Bridge <--> Sands
+Rainbow        |                     |                              |           of
+Keys  <--> Southern              Southern                       Southern     Sorrow
+            Midgaard              Midgaard                       Midgaard
 ~
 #3163
 map Thera~
@@ -2632,16 +2632,16 @@ unknown~
 #ROOMS
 #3001
 The Temple Of Mota~
-You are in the southern end of the temple hall in the Temple of Mota.
+You are in the southern end of the temple hall in the Temple of Mota. 
 The temple has been constructed from giant marble blocks, eternal in
 appearance, and most of the walls are covered by ancient wall paintings
-picturing gods, giants and peasants.
-   Large steps lead down through the grand temple gate, descending the huge
-mound upon which the temple is built and ends on the temple square below.
-   Equally large steps lead UP through a small door into the ENTRANCE to MUD 
-SCHOOL.  (type 'up' to go to MUD SCHOOL.)  A small plaque is on this wall.
+picturing gods, giants and peasants.  Large steps lead down through the
+grand temple gate, descending the huge mound upon which the temple is built
+and ends on the temple square below.  Equally large steps lead UP through a
+small door into the ENTRANCE to MUD SCHOOL.  (type 'up' to go to MUD
+SCHOOL.)  A small plaque is on this wall.  
 ~
-0 262156 0
+0 2359308 0
 E
 plaque~
 This entire world has been integrated, modified, debugged, and enhanced by
@@ -2654,7 +2654,8 @@ At the northern end of the temple hall is a statue and a huge altar.
 ~
 0 -1 3054
 D1
-(null)~
+You see the donation room.
+~
 ~
 0 0 3300
 D2
@@ -2662,6 +2663,11 @@ You see the temple square.
 ~
 ~
 0 -1 3005
+D3
+You see the morgue.
+~
+~
+0 -1 3360
 D4
 (null)~
 ~
@@ -2674,7 +2680,7 @@ the wall, just above the altar which is set against the western wall.  A well
 in the middle of the floor leads down into darkness.  Vile smells waft from
 the depths.
 ~
-0 262156 0
+0 2359308 0
 D1
 You see your favorite place, the bar of divination.
 ~
@@ -2690,7 +2696,7 @@ Cleric's Bar~
 The bar is one of the finest in the land, lucky it is members only.  Fine
 furniture is set all around the room.  A small sign is hanging on the wall.
 ~
-0 262156 0
+0 2359308 0
 E
 sign~
 The sign reads:
@@ -2717,7 +2723,7 @@ The entrance hall is a small modest room, reflecting the true nature of
 the Clerics.  The exit leads east to the temple square.  A small entrance to
 the bar is in the northern wall.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the bar, richly decorated with really stylish furniture.
 ~
@@ -2736,7 +2742,7 @@ temple gate.  The entrance to the Clerics Guild is to the west, and the old
 Grunting Boar Inn, is to the east.  Just south of here you see the market
 square, the center of Midgaard.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the temple.
 ~
@@ -2769,7 +2775,7 @@ You are standing in the entrance hall of the Grunting Boar Inn.  The hall
 has been wisely decorated with simple but functional furniture.  A small
 staircase leads up to the defunct reception room and the bar is to the east.
 ~
-0 262152 0
+0 2359304 0
 D1
 Surprise! You see the bar.
 ~
@@ -2794,7 +2800,7 @@ the western wall, and through the southeastern windows you can see the temple
 square.  This place makes you feel like home.
 A small sign with big letters is fastened to the bar.
 ~
-0 262152 0
+0 2359304 0
 E
 writing carving carvings symbols symbol~
 Although it is very hard to understand, you think it looks a lot like beer,
@@ -2820,7 +2826,7 @@ The Defunct Reception~
 You are standing in a dusty, defunct reception.  The staircase leads
 down to the entrance hall.
 ~
-0 262152 0
+0 2359304 0
 D5
 You see the entrance hall.
 ~
@@ -2834,7 +2840,7 @@ fine bread fills the room.  The bread and Danish are arranged in fine order
 on the shelves, and seem to be of the finest quality.
 A small sign is on the counter.
 ~
-0 262152 0
+0 2359304 0
 E
 sign~
 Free instructions provided by the store:
@@ -2865,7 +2871,7 @@ You are inside the general store.  All sorts of items are stacked on shelves
 behind the counter, safely out of your reach.
 A small note hangs on the wall.
 ~
-0 262152 0
+0 2359304 0
 E
 note~
 The note reads:
@@ -2886,7 +2892,7 @@ S
 The Weapon Shop~
 You are inside the weapon shop.  There is a small note on the counter.
 ~
-0 262152 0
+0 2359304 0
 E
 note~
 The note reads:
@@ -2910,7 +2916,7 @@ entrance to the Guild of Magic Users.  The street continues east towards the
 market square.  The magic shop is to the north and to the west is the city
 gate.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the magic shop.
 ~
@@ -2938,7 +2944,7 @@ You are on the main street passing through the City of Midgaard.  South of
 here is the entrance to the Armoury, and the bakery is to the north.  East of
 here is the market square.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the bakery.
 ~
@@ -2967,7 +2973,7 @@ A large, peculiar looking statue is standing in the middle of the square.
 Roads lead in every direction, north to the temple square, south to the
 common square, east and westbound is the main street.
 ~
-0 262144 1
+0 2359296 1
 E
 statue~
 What you see is the Midgaard Worm, stretching around the Palace of Midgaard.
@@ -2999,7 +3005,7 @@ You are on Main Street crossing through town.  To the north is the general
 store, and the main street continues east.  To the west you see and hear the
 market place and to the south is the Jeweller's Shop.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the general store.
 ~
@@ -3027,7 +3033,7 @@ The main street, to the north is the weapon shop and to the south is the
 Guild of Swordsmen.  To the east you leave town and to the west the street
 leads to the market square.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the weapon shop.
 ~
@@ -3053,7 +3059,7 @@ S
 Entrance to Mage's Guild~
 The entrance hall is a small, poor lighted room.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the main street.
 ~
@@ -3070,7 +3076,7 @@ Mage's Bar~
 The bar is one of the wierdest in the land.  Mystical images float around
 the air.  Illusions of fine furniture appear all around the room.
 ~
-0 262156 0
+0 2359308 0
 D0
 You see the lobby.
 ~
@@ -3092,7 +3098,7 @@ partially cleaned, some painful-looking letters faintly visible.  A well in
 the middle of the floor leads down into darkness.  Vile smells waft from the
 depths.
 ~
-0 262156 0
+0 2359308 0
 D3
 You see the bar.
 ~
@@ -3109,7 +3115,7 @@ The armoury with all kinds of armours on the walls and in the window.  You
 see helmets, shields and chain mails.  To the north is the main street.
 On the wall is a small note.
 ~
-0 262152 0
+0 2359304 0
 E
 note~
 You can use these commands for trading:
@@ -3134,7 +3140,7 @@ The entrance hall to the Guild of Swordsmen.  A place where one has to be
 careful not to say something wrong (or right).  To the east is the bar and to
 the north is the main street.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the main street.
 ~
@@ -3152,7 +3158,7 @@ The bar of swordsmen, once upon a time beautifully furnished.  But now the
 furniture is all around you in small pieces.  To the south is the yard, and
 to the west is the entrance hall.
 ~
-0 262156 0
+0 2359308 0
 D2
 You see the practice yard.
 ~
@@ -3169,7 +3175,7 @@ The Tournament and Practice Yard~
 The practice yard of the fighters.  To the north is the bar.  A well leads
 down into darkness.
 ~
-0 262156 0
+0 2359308 0
 D0
 You see the bar.
 ~
@@ -3186,7 +3192,7 @@ You are at the poor alley. South of here is the Grubby Inn and to the
 east you see common square. Melancholy's map shop is north. The alley continues 
 further west.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see Melancholy's Map Shop
 ~
@@ -3214,7 +3220,7 @@ The common square, people pass you, talking to each other.  To the west is
 the poor alley and to the east is the dark alley.  To the north, this square
 is connected to the market square.  From the south you notice a nasty smell.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the market square.
 ~
@@ -3242,7 +3248,7 @@ The dark alley, to the west is the common square and to the south is the
 Guild of Thieves.  Grebe's Tavern, the famous sailor's dive, is north.
 The alley continues east.
 ~
-0 262144 1
+0 2359296 1
 E
 guild~
 It is the thieves guild, don't enter if you care about your health or money.
@@ -3274,7 +3280,7 @@ The entrance hall to the thieves' and assassins' guild.  A place where you
 can lose both your life and your money, if you are not careful.  To the north
 is the dark alley and to the east is the thieves' bar.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the alley.
 ~
@@ -3293,7 +3299,7 @@ furnished, but now it seems almost empty.  To the south is the yard, and to
 the west is the entrance hall.
    (Maybe the furniture has been stolen?!)
 ~
-0 262156 0
+0 2359308 0
 E
 furniture~
 As you look at the furniture, the chair you sit on disappears.
@@ -3314,7 +3320,7 @@ The Secret Yard~
 The secret practice yard of thieves and assassins.  To the north is the
 bar.  A well leads down into darkness.
 ~
-0 262156 0
+0 2359308 0
 D0
 You see the bar.
 ~
@@ -3332,7 +3338,7 @@ garbage you can see a large junction of pipes, looks like the entrance to the
 sewer system.  South of here you see the river and to the north is the common
 square.  A rickety old bridge leads south to the promenade.
 ~
-0 262148 2
+0 2359300 2
 D0
 You see the common square.
 ~
@@ -3354,7 +3360,7 @@ The Pet Shop~
 The Pet Shop is a small crowded store, full of cages and animals of
 various sorts and sizes.  There is a sign on the wall.
 ~
-0 266248 0
+0 2363400 0
 E
 sign~
 The sign reads:
@@ -3390,7 +3396,7 @@ Dividing the room in two is a large desk, and on the wall behind it are
 numerous shelves crammed with jars, bottles, books and scrolls of all
 sorts and sizes.
 ~
-0 262152 0
+0 2359304 0
 E
 scrolls~
 Each scroll is stored in a leather tube that protects it from moist.
@@ -3417,7 +3423,7 @@ from the small oil lamps on the walls is reflected in the hard, polished
 surface of the big mahogany desk that stands in the centre of the room.
 A small sign with golden letters stands on the desk.
 ~
-0 262152 0
+0 2359304 0
 E
 sign~
 The golden letters say :-
@@ -3450,7 +3456,7 @@ hangs a big iron pot with boiling water.  In the middle of the room is a
 large oak table.
 A wooden sign is hanging above the fireplace.
 ~
-0 262152 0
+0 2359304 0
 E
 sign~
 The wooden sign says :-
@@ -3486,7 +3492,7 @@ You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  Main Street leads
 east and Wall Road leads both north and south from here.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3537,7 +3543,7 @@ connected with a footbridge across the heavy wooden gate.  Main Street leads
 west from here.  Wall road crosses the street, heading north and south along
 the city wall.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3584,7 +3590,7 @@ Wall Road~
 You are walking next to the western city wall.  The road continues further
 south and the city gate is just north of here.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3607,7 +3613,7 @@ You are walking next to the western city wall.  Wall Road continues further
 north and south.  A small, poor alley leads east.
 Some letters have been written on the wall here.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3638,7 +3644,7 @@ Poor Alley~
 You are in narrow and dirty alley leading east and west.  The leather shop
 is to the north.
 ~
-0 262144 1
+0 2359296 1
 D0
 The leather shop is to the north.
 ~
@@ -3665,7 +3671,7 @@ Alley at Levee~
 You are standing in the alley which continues east and west.  South of
 here you see the levee.  North is the Pet Shop.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see, hear, and smell the pet shop.
 ~
@@ -3694,7 +3700,7 @@ Wall road loops around the city to your east, and you can see an old
 three-story warehouse to the south.  The Fountain of Youth Apothecary is 
 north.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see a pricey-looking potion shop.
 ~
@@ -3723,7 +3729,7 @@ continues north.  South of here is a bridge across the river.  To the east,
 you see an odd looking building painted bright orange with purple trim...
 it must be the Mob Factory!
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3749,7 +3755,7 @@ Grubby Inn~
 You are inside the old Grubby Inn.  This place has not been cleaned for
 several decades, vile smells make you dizzy.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the alley.
 ~
@@ -3762,7 +3768,7 @@ You are at the levee.  South of here you see the river gently flowing west.
 The river bank is very low making it possible to enter the river.  Directly
 across the river you can see a small boat landing built off of Kate's Diner.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the Alley.
 ~
@@ -3780,7 +3786,7 @@ You are inside the only room in the old warehouse.  The place is very dusty
 and appears to have been unused for many years.  The skylight spills
 violet-tinged light.
 ~
-0 262152 0
+0 2359304 0
 D0
 You see the alley.
 ~
@@ -3797,7 +3803,7 @@ You are standing on the stone bridge crosses the river.  The bridge is
 built out from the western city wall and the river flows west through an
 opening in the wall ten feet below the bridge.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3830,7 +3836,7 @@ connected with a footbridge across the heavy wooden gate.  To the west you
 can see the edge of a big forest. A small dusty trail leads north along the
 wall.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3873,7 +3879,7 @@ connected with a footbridge across the heavy wooden gate.  To the east the
 plains stretch out in the distance. To the north a small dusty trail follow
 the city wall.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -3913,7 +3919,7 @@ behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 The back of the altar opens into a a beautiful atrium, above which can be
 seen a rainbow.
 ~
-0 263176 0
+0 2360328 0
 E
 statue Mota king god~
 The statue represents the Great God Mota, holding his staff.  He has long, grey
@@ -3942,7 +3948,7 @@ An old man putters around behind the counter, making strange love potions
 and curative philtres.  He turns as you enter, and looks on with avarice.
 Judging from the furnishings, he's been made very wealthy by his trade.
 ~
-0 262152 0
+0 2359304 0
 D2
 You see the eastern end of alley.
 ~
@@ -3953,7 +3959,7 @@ S
 In the air...~
 WOW you can fly!  You are floating in the air above Temple Square of Midgaard.
 ~
-0 262148 9
+0 2359300 9
 D4
 (null)~
 ~
@@ -3970,7 +3976,7 @@ You are at the concourse, the city wall is just west.  A small promenade
 goes east, and the bridge is just north of here.  The concourse continues
 south along the city wall.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the Bridge.
 ~
@@ -3993,7 +3999,7 @@ The river gently flows west just north of here.  The promenade continues
 further east and to the west you see the city wall.  Park Road leads south
 from here.
 ~
-0 262144 1
+0 2359296 1
 D1
 The promenade.
 ~
@@ -4019,7 +4025,7 @@ South of here you see the entrance to the park, and a small building seems
 to be just west of the entrance.  Austral Square, home Kate's Diner, lies
 to your east.
 ~
-0 262144 1
+0 2359296 1
 D0
 A rickety old bridge crosses the river, heading towards the city dump.
 ~
@@ -4050,7 +4056,7 @@ river lapping at the pilings of the dock by Kate's Diner, which is to your
 north.  Emerald Avenue begins to the south, the Promenade continues west,
 and the concourse ends to your east.
 ~
-0 262144 1
+0 2359296 1
 D0
 You smell the heavenly scents of Kate's Diner.
 ~
@@ -4079,7 +4085,7 @@ home of Kate's Diner, is west.  Looking across the river you see an old
 warehouse.  A strong stone bridge crosses the river to the north, where the
 concourse becomes wall road.  The Concourse continues south along the wall.
 ~
-0 262144 1
+0 2359296 1
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -4107,7 +4113,7 @@ You are standing just inside the small park of Midgaard.  To the north is
 the promenade and a small path leads south into the park.  To your east is
 the famous Park Cafe.
 ~
-0 262148 1
+0 2359300 1
 D0
 You see the promenade.
 ~
@@ -4131,7 +4137,7 @@ is built from large logs. Through the windows in the northern wall you
 see the river, and through the southern window you see many vigorous
 colorful plants.
 ~
-0 262152 0
+0 2359304 0
 D3
 You see the park entrance.
 ~
@@ -4143,7 +4149,7 @@ Small path through the park~
 You are walking along a small path through the park.  The path continues
 south and east.
 ~
-0 262144 1
+0 2359296 1
 D1
 (null)~
 ~
@@ -4159,7 +4165,7 @@ You are standing on a small path inside the park.  The park entrance is
 just north of here, and Park Cafe is just east of the entrance.  The path
 leads further east and west.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the northern park entrance.
 ~
@@ -4179,7 +4185,7 @@ Small path in the park~
 You are on a small path running through the park.  It continues west and
 south and just north of here you see the southern wall of Park Cafe.
 ~
-0 262144 1
+0 2359296 1
 D2
 (null)~
 ~
@@ -4194,7 +4200,7 @@ Cityguard Head Quarters~
 You are inside a tidy office.  A big desk made from dark wood is standing
 in the centre of the room.
 ~
-0 262152 0
+0 2359304 0
 D1
 You see Park Road.
 ~
@@ -4211,7 +4217,7 @@ Park Road~
 The road continues north and south.  A building is just west of here, you
 notice a sign on the door.  The park entrance is to the east.
 ~
-0 262144 1
+0 2359296 1
 E
 building door sign~
 The sign on the door says:-
@@ -4242,7 +4248,7 @@ Western Park Entrance~
 You are standing at the western end of the park.  A small path leads east
 into the park and going west through the entrance you will reach Park Road.
 ~
-0 262148 1
+0 2359300 1
 D1
 (null)~
 ~
@@ -4257,7 +4263,7 @@ A path in the park~
 You are in the park.  The paths lead north and west.  Westwards is the
 park entrance and to the east you see a small pond.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4278,7 +4284,7 @@ The Pond~
 You are swimming around in the pond, feeling rather stupid.  You can get
 back on the path from the eastern and western end of the pond.
 ~
-0 262144 6
+0 2359296 6
 D1
 (null)~
 ~
@@ -4293,7 +4299,7 @@ A path in the park~
 You are in the park.  The paths lead north and east.  Eastwards is the
 park entrance and to the west you see a small pond.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4313,7 +4319,7 @@ You are standing at the eastern end of the park.  A small path leads west
 into the park.  Going east through the entrance you will reach Emerald
 Avenue.
 ~
-0 262148 1
+0 2359300 1
 D1
 (null)~
 ~
@@ -4328,7 +4334,7 @@ Emerald Avenue~
 You are at Emerald Avenue which continues north and south.  To the west is
 the park entrance and to the east is the not very big Town Hall of Midgaard.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4350,7 +4356,7 @@ S
 Park Road~
 You are on Park Road which leads north and south.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4366,7 +4372,7 @@ You are standing at a bend on Emerald Avenue.  The road leads north and west.
 To the east, you see some run-down slums...it looks like the bad part of
 town.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4388,7 +4394,7 @@ at the centre of the road cross.  Its other end leads directly upwards towards
 the sky.
 A road sign is here.
 ~
-0 262144 1
+0 2359296 1
 E
 chain~
 The the chain reaches the clouds high above you.  It must take some really
@@ -4433,7 +4439,7 @@ Emerald Avenue~
 You are standing at a bend on Emerald Avenue.  The road leads south and
 east.
 ~
-0 262144 1
+0 2359296 1
 D1
 (null)~
 ~
@@ -4448,7 +4454,7 @@ Park Road~
 You are on Park Road which leads south and north.  Elm Street is east of
 here.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4467,7 +4473,7 @@ Elm Street~
 You are on Elm street.  Park Road is to the west and Elm Street continues
 in eastward direction.
 ~
-0 262144 1
+0 2359296 1
 D1
 (null)~
 ~
@@ -4483,7 +4489,7 @@ You near the end of Elm Street.  An old elm tree grows here.  A heavy
 iron grating is south, surrounding the city's graveyard.  You can see a sign
 hanging on the grate.  The concourse crosses Elm Street to the east.
 ~
-0 262144 1
+0 2359296 1
 E
 elm tree~
 The fresh young leaves of the elm tree wave gently in the wind.
@@ -4520,7 +4526,7 @@ Emerald Avenue~
 You are on Emerald Avenue which continues north.
 The Concourse is south of here.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4534,7 +4540,7 @@ S
 Park Road~
 You are on Park Road which continues north.  The Concourse is south of here.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4547,9 +4553,9 @@ S
 #3127
 On the Concourse~
 You are at the southwest corner of the city wall.  The Concourse leads
-both north and east.
+both north and east. To the west, you see a gate in the city wall.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4558,6 +4564,10 @@ D1
 (null)~
 ~
 0 -1 3128
+D3
+(null)~
+~
+1 0 5400
 S
 #3128
 On the Concourse~
@@ -4566,7 +4576,7 @@ the city of Midgaard.  The south gate of the city lies to your east, and the
 southwestern corner of the city wall is west.  Emerald Avenue stretches out
 to the north.
 ~
-0 262144 1
+0 2359296 1
 D0
 Emerald avenue lies to the north.
 ~
@@ -4588,7 +4598,7 @@ The concourse continues its path around the city.  The southern gates of the
 city are west of here, and park road lies north.  The northeastern corner of
 the city wall is east.
 ~
-0 262145 1
+0 2359297 1
 D0
 (null)~
 ~
@@ -4608,7 +4618,7 @@ On the Concourse~
 You are at the southeast corner of the city wall.  The Concourse leads
 both north and west.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4622,7 +4632,7 @@ S
 Park Road~
 You are at Park Road which continues north and south.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4637,7 +4647,7 @@ Emerald Avenue~
 You are standing on the north end of Emerald Avenue.  To the north is 
 Austral Square and Kate's Diner, to the east is the small street Penny Lane.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4656,7 +4666,7 @@ Emerald Avenue~
 You are standing at a bend on Emerald Avenue.  To the east the road goes on
 and to the south is the Road Crossing.
 ~
-0 262144 1
+0 2359296 1
 D1
 (null)~
 ~
@@ -4671,7 +4681,7 @@ Emerald Avenue~
 You are standing at a bend on Emerald Avenue.  To the west the road goes on
 and to the north is the Road Crossing.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4687,7 +4697,7 @@ You are at a bend on Park Road.  To the north the road goes on and to the
 east is the Road Crossing.  To the south, the ancient cliffs rise from deep
 under the ground, forming a wall.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4702,7 +4712,7 @@ Park Road~
 You are at a bend on Park Road.  To the south the road goes on and to the
 west is the Road Crossing.
 ~
-0 262144 1
+0 2359296 1
 D2
 (null)~
 ~
@@ -4717,7 +4727,7 @@ The Waiting Room~
 You are standing in the waiting room at the town hall.  Wooden chairs stand
 along the walls and a long desk is placed in the middle of the room.
 ~
-0 262152 0
+0 2359304 0
 D1
 It looks like some kind of office.
 ~
@@ -4730,13 +4740,13 @@ The exit west leads to Emerald Avenue.
 0 -1 3117
 S
 #3138
-The Mayor's Office~
-You are in the not very big office of the Mayor of Midgaard.  A large and
+The President's Office~
+You are in the not very big office of Donald Trump.  A large and
 polished but completely empty desk is standing in front of an armchair that
 looks so comfortable that it most of all resembles a bed with the head end
 raised slightly.
 ~
-0 262152 0
+0 2359304 0
 E
 chair armchair~
 This chair is really a masterpiece.  A chair where one can sit as comfortably
@@ -4753,7 +4763,7 @@ Penny Lane~
 You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
 continues in eastward direction.
 ~
-0 262144 1
+0 2359296 1
 D1
 (null)~
 ~
@@ -4768,7 +4778,7 @@ Penny Lane~
 You are on Penny Lane.  The narrow road continues north and west, and
 the concourse intersects this street to the east.
 ~
-0 262144 1
+0 2359296 1
 D0
 (null)~
 ~
@@ -4787,7 +4797,7 @@ S
 The end of Penny Lane~
 You are at the end of Penny Lane.  The only exit appears to be south.
 ~
-0 262144 1
+0 2359296 1
 D2
 (null)~
 ~
@@ -4798,7 +4808,7 @@ Captain's Office~
 You are in the Office of the Captain of the Guard.  The Midgaard Coat of
 Arms is hanging on the north wall and a heavy steel door is to the south.
 ~
-0 262152 0
+0 2359304 0
 E
 arms~
 Although a bit dusty the Coat of Arms is an excellent piece of work.
@@ -4819,7 +4829,7 @@ The Jail~
 You are in a dark and humid jail.  The dark stone walls are hard and cold
 to the touch.  A heavy steel door is to the north.
 ~
-0 1318920 0
+0 3416072 0
 E
 wall walls~
 The walls are marked with lots of scratches.  Some of them spell sentences
@@ -4847,7 +4857,7 @@ On most days you will find Kate here, testing a batch of stew or brewing
 a special pot of cinnamon coffee, eerily just in time for your arrival
 Pull up a chair, perhaps play a game, and take time out to talk.
 ~
-0 263176 0
+0 2360328 0
 E
 window landing~
 You can see a rickety bridge to your northwest, leading back into
@@ -4883,7 +4893,7 @@ case full of scrolls is behind the desk.  A bookcase is to the left of you,
 and to the left is a window overlooking the Common Square.  A small door, 
 half hidden by a stack of books, leads to a room in the back of the shop.
 ~
-0 262150 0
+0 2359302 0
 E
 window~
 You peer out the window and see a cityguard beating up an old lady.
@@ -4913,7 +4923,7 @@ full of Melancholy's trappings from her adventuring days.  On a small table
 under a window to the east is a vase with a single white rose.  Other than
 that, the room is quite bare.  
 ~
-0 262662 0
+0 2359814 0
 E
 chest~
 This chest is firmly locked, and the device by which it opens is beyond your
@@ -4938,7 +4948,7 @@ adjust, you realize that there are mud puddles all around the room, and
 this is some weird version of windows.  In a flash of revelation, you
 realize that you've entered the Temple of Stupid.
 ~
-0 262152 0
+0 2359304 0
 E
 puddle puddles~
 The puddles on the floor are filthy and exude a foul stench.
@@ -4959,7 +4969,7 @@ The arch under the bridge is covered by seaweed for one foot above the
 surface of the river.  The water gently flows through an opening in the lower
 part of the city wall.
 ~
-0 262144 7
+0 2359296 7
 E
 wall~
 It is built from large grey rocks that have been fastened to each other with
@@ -4979,7 +4989,7 @@ On the River~
 North of here you see the miserable buildings of the poor alley.  The
 river flows west towards the bridge.  The riverbanks are too steep to climb.
 ~
-0 262144 7
+0 2359296 7
 D1
 (null)~
 ~
@@ -4995,7 +5005,7 @@ North of here you see the dump.  The river flows from east to west.  The
 riverbanks are too steep to climb.  A bridge passes overhead, connecting the
 dump to the promenade.
 ~
-0 262144 7
+0 2359296 7
 D1
 (null)~
 ~
@@ -5010,7 +5020,7 @@ On the River~
 The levee is directly north of here, and a small boat landing for Kate's
 Diner is to the south.  The river flows in an east west direction.
 ~
-0 262148 7
+0 2359300 7
 D0
 (null)~
 ~
@@ -5036,7 +5046,7 @@ You see the warehouse on the northern riverbank.  East of here the river
 passes under the eastern bridge and through the city wall. The banks of the 
 levee are west, in the direction of the current.
 ~
-0 262144 7
+0 2359296 7
 D1
 (null)~
 ~
@@ -5052,7 +5062,7 @@ The river enters from a hole in the eastern city wall.  The hole has been
 blocked by several vertically positioned iron bars set into the wall. Overhead
 you can see the stone buttresses of the eastern bridge.
 ~
-0 262144 7
+0 2359296 7
 D1
 (null)~
 ~
@@ -5068,7 +5078,7 @@ Wall road extends north and south along the eastern walls of the city.
 The east gate is north of you, south is an intersection with a dark alley. You
 check to make sure you still have your wallet.
 ~
-0 262144 1
+0 2359296 1
 D0
 The eastern gate of the city is north.
 ~
@@ -5087,7 +5097,7 @@ between the east gate and a bridge to the south.  A dark, dirty alley lies east
 of here.  You step carefully around a pool of liquid...who knows what it could 
 be in a place this foul...
 ~
-0 262144 1
+0 2359296 1
 D0
 Wall road continues to the north, heading towards the gate.
 ~
@@ -5116,7 +5126,7 @@ from its enemies...you hope.  An intersection with a dark alley lies north,
 and a bridge over the Midgaard river is south.  Beyond the bridge wall road 
 turns in the concourse.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see an intersection with a dark alley.
 ~
@@ -5135,7 +5145,7 @@ Below you, the river flows into an opening in the city wall, sealed with
 strong metal bars.  North of you is wall road, south of here the concourse
 loops around the inside of the city walls.
 ~
-0 262144 1
+0 2359296 1
 E
 opening bars river~
 Hmm...some of the bars have been ripped out of the wall.  Enough to pass a
@@ -5161,7 +5171,7 @@ Midgaard.  You can smell the stench of the dump to the north, the fresher
 air of the promenade seems preferable.  Below you are the swift-moving 
 currents of the Midgaard river.
 ~
-0 262144 1
+0 2359296 1
 D0
 You can see the clutter of the City Dump.
 ~
@@ -5180,7 +5190,7 @@ to guard against the goblins that lurk in the southern forests.  You can exit
 the city to the south, if you dare, or walk down the concourse to the east
 or west.
 ~
-0 262144 1
+0 2359296 1
 D1
 The concourse heads east along the inside of the city wall.
 ~
@@ -5205,7 +5215,7 @@ the gate, as they stand watch to protect the city from the goblins of this
 forest.  The trees and goblins of the Miden'nir are south, the gate back to 
 Migaard lies north.
 ~
-0 262144 3
+0 2359296 3
 D0
 You see the southern gate.
 ~
@@ -5222,7 +5232,7 @@ You are walking along wall road, just north of the west gate of Midgaard.
 The road continues along the western wall to the north, towards an intersection
 with a busy market street.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see an intersection between wall road and a busy market street.
 ~
@@ -5240,7 +5250,7 @@ Wall road intersects with a crowded market street here, filled with shops and
 artisans.  The street stretches off to the east, towards the far wall of the
 city.  Wall road continues to the north and south.
 ~
-0 262144 1
+0 2359296 1
 D0
 Wall road continues to the north, towards the northwestern corner of the wall.
 ~
@@ -5264,7 +5274,7 @@ wall of Midgaard.  To the south, you can see an intersection with a crowded
 market street.  The northwestern corner of the city wall lies ahead to the
 north.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see the northwestern corner of the city wall.
 ~
@@ -5282,7 +5292,7 @@ You are standing beneath the northwestern corner of the city wall, on a turn
 in wall road.  You can head south, towards the west gate, or east, to the 
 north gate.
 ~
-0 262144 1
+0 2359296 1
 D1
 Wall road continues along the northern wall of the city.
 ~
@@ -5299,7 +5309,7 @@ Wall Road~
 The city walls tower over you as walk down wall road, between the northwestern
 corner of the wall to the west, and the northern gate of Midgaard to the east.
 ~
-0 262144 1
+0 2359296 1
 D1
 Wall road continues to the east, towards the northern gate of Midgaard.
 ~
@@ -5320,7 +5330,7 @@ the north, or continues along wall road to the west and east.  A teeming market
 street is visible to the south, and beyond that the graceful spires of the
 Temple of Mota, but there is no way to reach them from here.
 ~
-0 262144 1
+0 2359296 1
 D0
 The northern plains are visible through the gate.
 ~
@@ -5343,7 +5353,7 @@ You are walking along wall road, between the northern gate of the city and the
 northeastern corner of the city walls.  You can see bloodstains on the road...
 better be on guard for thieves.
 ~
-0 262144 1
+0 2359296 1
 D1
 You see the northeastern corner of the city walls.
 ~
@@ -5361,7 +5371,7 @@ Wall road turns the corner here, as you pass by the northeastern edge of the
 city wall.  The north gate lies to your west, and the road south leads to the
 eastern gate of Midgaard.
 ~
-0 262144 1
+0 2359296 1
 D2
 Wall road continues to the south, along the eastern wall of the city.
 ~
@@ -5379,7 +5389,7 @@ Just south of you is an intersection with a crowded market street.  The
 eastern wall of Midgaard is beside you, and to the north you can see the 
 northeast corner of the city wall.
 ~
-0 262144 1
+0 2359296 1
 D0
 You can see the northeast corner of the city wall.
 ~
@@ -5398,7 +5408,7 @@ west, and the far fall of the city.  You can smell spices, perfume, freshly
 cured hide, and other strange scents, all mingle together in one heady aroma.
 Wall road continues to the north and south.
 ~
-0 262144 1
+0 2359296 1
 D0
 Wall road continues to the north, along the eastern wall of the city.
 ~
@@ -5421,7 +5431,7 @@ You are near the center of wall road, just north of the east gate of the city.
 To the north, you can see an intersection with a crowded market street.
 The guards at the gate eye you suspiciously from afar.
 ~
-0 262144 1
+0 2359296 1
 D0
 You see an intersection with a busy market street.
 ~
@@ -5440,7 +5450,7 @@ trail is visibile to the north, it stretches around the walls of the city.
 Further north are the wide expanses of the northern plains, leading to the 
 village of Ofcol.  You can return to Midgaard to the south.
 ~
-0 262144 2
+0 2359296 2
 D0
 (null)~
 ~
@@ -5454,10 +5464,10 @@ S
 #3270
 On the Concourse~
 The strong stone walls of Midgaard rise up to the west, keeping evil at bay.
-The concourse heads towards a bridge to the north, and continues south 
+The concourse heads towards a bridge to the north, and continues south
 alongside a beautiful park.
 ~
-0 262144 1
+0 2359296 1
 D0
 The concourse continues to the north, along the city wall.
 ~
@@ -5475,7 +5485,7 @@ You are walking down the Concoruse, along the western wall of Midgaard.  To
 the north, the road passes by a beautiful park, to the south, you can see
 the southwest corner of the city wall.
 ~
-0 262144 1
+0 2359296 1
 D0
 The concourse heads north, passing by a beautiful park.
 ~
@@ -5494,7 +5504,7 @@ the concourse heads towards a bridge into northern Midgaard.  To the south,
 you can see an intersection with Elm Street.  The quaint paved streets of
 Penny Lane lie west.
 ~
-0 262144 1
+0 2359296 1
 D0
 The concourse continues to the north, towards the east bridge.
 ~
@@ -5517,7 +5527,7 @@ The air grows chill as you pass near the Elm Street graveyard.  The walls of
 Midgaard are to the east, and the concourse continues to the north and south.
 To your west, you see Elm Street at the graveyard entrance.
 ~
-0 262144 1
+0 2359296 1
 D0
 The concourse continues to the north, towards an intersection with Penny Lane.
 ~
@@ -5538,7 +5548,7 @@ S
 Donation Room~
 You are standing in a very cluttered donation room.
 ~
-0 786432 0
+0 2883584 0
 D3
 (null)~
 ~
@@ -5550,7 +5560,7 @@ You are standing on the western end of Market Road.  The traffic here
 is light.  This is a quieter section of Midgaard.  You can hear the sound of
 haggling coming from the east.
 ~
-0 262144 1
+0 2359296 1
 D1
 Market Road continues east.
 ~
@@ -5570,7 +5580,7 @@ Looking up, you realize that it is the butchers shop.  To the south of
 you is the jewellers shop.  Market Road continues on to the east and 
 the west.  
 ~
-0 262144 1
+0 2359296 1
 D0
 The butchers shop is to the north.
 ~
@@ -5597,7 +5607,7 @@ Market Road~
 The shops on this stretch of Market road are long-closed and boarded up.
 Not much traffic passes through this part, as there is nothing to buy.
 ~
-0 262144 1
+0 2359296 1
 D1
 Market Road continues to the east.
 ~
@@ -5618,7 +5628,7 @@ To the north of you is a large trading post.  The scents of spices and
 incense mix pleasantly and pour through the door.  Market road continues
 off to the east and west.
 ~
-0 262144 1
+0 2359296 1
 D0
 A large trading post is to the north.
 ~
@@ -5649,7 +5659,7 @@ happy patrons.  North of you is a small florists shop.  If you close
 your eyes, you can smell the roses, petunias, tulips, and carnations.
 Market Road continues to the east and west.
 ~
-0 262144 1
+0 2359296 1
 D0
 A small florists shop is to the north.
 ~
@@ -5677,7 +5687,7 @@ You are at the eastern end of Market Road.  To the east of you, the
 tall wall around the city looms up before you and casts its shadow on
 you.  Market Road continues to the west.  
 ~
-0 262144 1
+0 2359296 1
 D1
 Wall Road is east of here.
 ~
@@ -5699,7 +5709,7 @@ work bench is located to the front of the shop and a few tools are strewn
 about on it.  There is a heavy door in the back of the room.  You assume
 that it leads to the jewellers back room where he stores his valuables.
 ~
-0 262144 0
+0 2359296 0
 D0
 Market Road is to the north.
 ~
@@ -5716,7 +5726,7 @@ deer, rabbit and other animals hang on large hooks along the walls and
 in rest piles on butchering blocks.  A sign hangs nearby. Large wooden 
 numbers hang from a large nail on the sign.
 ~
-0 262144 0
+0 2359296 0
 E
 sign signs numbers~
 The sign says: Please take a number.  
@@ -5737,7 +5747,7 @@ decorations on the wall; they've all been ripped down in anger
 or for use as weapons at one time or another.  Looking around,
 you search vainly for a clean table to sit at, and then give up.
 ~
-0 262152 0
+0 2359304 0
 E
 wall walls~
 Bare, except for the holes.
@@ -5761,7 +5771,7 @@ strange boxes filled with mysterious goods and bound for exotic locations.
 A schedule for the various caravans is posted on the walls.  This is the
 local trading post.  It hums and buzzes with excitement.
 ~
-0 262144 0
+0 2359296 0
 E
 schedule~
 The writing is small and close.  You don't want to strain your eyes looking
@@ -5782,7 +5792,7 @@ spices rest on tables near the front of the room.  A counter stands in
 the back of the room.  A woman is there, trimming some sort of small,
 green plant.
 ~
-0 262144 0
+0 2359296 0
 D2
 Market Road is to the south.
 ~
@@ -5798,7 +5808,7 @@ that the needs of his customers are met.  The bar is to your south.  East
 of you is another section of the pub.  You know that there are rooms to
 be had somewhere around here...
 ~
-0 262144 0
+0 2359296 0
 D0
 Market Road is to the north.
 ~
@@ -5826,7 +5836,7 @@ is located to your west. The bar is to the south.  A set of steps occupy
 in a corner of the room.  They lead up to the inn section of this 
 prosperous establishment.  
 ~
-0 262144 0
+0 2359296 0
 D0
 Market Road is to the north.
 ~
@@ -5858,7 +5868,7 @@ glasses.  A couple of the bar maids stand in a corner and throw the most
 inviting glances your way.
 A sign is on the wall.
 ~
-0 262144 0
+0 2359296 0
 E
 sign~
 The sign says: Don't forget our dinner menu.
@@ -5878,7 +5888,7 @@ strong but friendly looking bartender stands next to the cask polishing
 glasses.  A couple of the bar maids stand in a corner and throw the most
 inviting glances your way.
 ~
-0 262144 0
+0 2359296 0
 E
 sign~
 The sign says: Don't forget our dinner menu.
@@ -5899,18 +5909,35 @@ wire-framed glasses sits behind the desk working dilligently on his books.
 He looks up as you enter the room.  He looks at you quizzically.  He is 
 probably waiting for you to ask him for a room.
 ~
-0 262144 0
+0 2359296 0
 D5
 The stairs lead back down to the pub.
 ~
 ~
 0 -1 3356
 S
+#3360
+The Morgue~
+You are in the morgue.  This is where the corpse goes when a PC dies.
+~
+0 2098188 0
+D1
+You see the temple.
+~
+~
+0 -1 3001
+S
+#3361
+~
+(null)~
+0 4 0
+S
 #0
 
 
 
 #RESETS
+D 0 3127 3 0
 D 0 3142 1 2
 D 0 3142 2 2
 D 0 3143 0 2
@@ -6151,8 +6178,8 @@ M 0 3144 0 3120 Load the town crier
 M 0 3005 0 3128 Load the thief
 E 0 3020 0 16 A dagger is loaded wielded of the thief
 M 0 3142 0 3137 Load the secretary
-M 0 3143 0 3138 Load the mayor
-E 0 3124 0 16 A long sword is loaded wielded of the mayor
+M 0 3143 0 3138 Load Donald Trump
+E 0 3124 0 16 A long sword is loaded wielded of Donald Trump
 M 0 3069 0 3138 Load the cityguard
 E 0 3365 0 0 A war banner is loaded as a light of the cityguard
 E 0 3364 0 1 A city guard signet ring is loaded on the left finger of the cityguard
@@ -6244,7 +6271,7 @@ M 3068 20 CityGuard Load to: the cityguard
 M 3069 20 CityGuard Load to: the cityguard
 M 3100 10 Offensive Cleric Load to: the maid
 M 3120 10 Offensive Cleric Load to: the sexton
-M 3143 12 Mayor Load to: the mayor
+M 3143 12 Mayor Load to: Donald Trump
 S
 
 
@@ -6269,6 +6296,11 @@ S
 3100 0 0 0 0 0 110 90 6 23
 3150 0 0 0 0 0 100 100 0 23
 3160 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 
