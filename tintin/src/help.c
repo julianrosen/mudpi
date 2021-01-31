@@ -396,7 +396,7 @@ struct help_type help_table[] =
 
 		"port run session sessionname snoop ssl zap"
 	},
-	{
+/*	{
 		"BELL",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #bell <178>{<278>flash<178>|<278>focus<178>|<278>margin<178>|<278>ring<178>|<278>volume<178>} {<278>argument<178>}<278>\n"
@@ -430,7 +430,7 @@ struct help_type help_table[] =
 		"           #delay {$cnt} {#show Volume $cnt: #bell volume $cnt;#bell}\n",
 
 		"screen"
-	},
+	},*/
 	{
 		"BREAK",
 		TOKEN_TYPE_STATEMENT,
@@ -507,7 +507,7 @@ struct help_type help_table[] =
 
 		"echo grep macro showme screen"
 	},
-	{
+/*	{
 		"BUTTON",
 		TOKEN_TYPE_CONFIG,
 		"<178>Command<278>: #button <178>{<278>square<178>} {<278>commands<178>} {<278>priority<178>}<278>\n"
@@ -547,7 +547,7 @@ struct help_type help_table[] =
 		"<178>Comment<278>: You can remove a button with the #unbutton command.\n",
 
 		"delay event ticker"
-	},
+	},*/
 	{
 		"CASE",
 		TOKEN_TYPE_STATEMENT,
@@ -627,7 +627,7 @@ struct help_type help_table[] =
 
 		"colors escape function mathematics pcre variable"
 	},
-	{
+/*	{
 		"CHAT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #chat <178>{<278>option<178>} {<278>argument<178>}\n"
@@ -696,7 +696,7 @@ struct help_type help_table[] =
 		"         <178>#chat {zap}        {buddy}            Close a connection\n",
 		
 		"port"
-	},
+	},*/
 	{
 		"CLASS",
 		TOKEN_TYPE_CONFIG,
@@ -812,7 +812,7 @@ struct help_type help_table[] =
 		
 		"characters colors escape mathematics pcre"
 	},
-	{
+/*	{
 		"CONFIG",
 		TOKEN_TYPE_CONFIG,
 		"<178>Command<278>: #config <178>{<278>option<178>} {<278>argument<178>}<278>\n"
@@ -839,7 +839,7 @@ struct help_type help_table[] =
 		"         #CONFIG {MCCP}         {ON|OFF} Enable or disable MCCP support.\n",
 
 		"class line"
-	},
+	},*/
 	{
 		"CONTINUE",
 		TOKEN_TYPE_STATEMENT,
@@ -884,7 +884,7 @@ struct help_type help_table[] =
 		,
 		"alias history keypad macro speedwalk tab"
 	},
-	{
+/*	{
 		"DAEMON",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #daemon <178>{<278>attach<178>|<278>detach<178>|<278>kill<178>|<278>list<178>} <178>[<278>name<178>]\n"
@@ -908,8 +908,8 @@ struct help_type help_table[] =
 		"         <278>  List all daemons or daemons with matching name.\n",
 		
 		"script system run"
-	},
-	{
+	},*/
+/*	{
 		"DEBUG",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #debug <178>{<278>listname<178>} {<278>on<178>|<278>off<178>|<278>log<178>}<278>\n"
@@ -926,7 +926,7 @@ struct help_type help_table[] =
 		"         Not every list has debug support yet.\n",
 		
 		"class ignore info kill message"
-	},
+	},*/
 	{
 		"DEFAULT",
 		TOKEN_TYPE_STATEMENT,
@@ -1072,7 +1072,7 @@ struct help_type help_table[] =
 		
 		"buffer format grep showme"
 	},
-	{
+/*	{
 		"EDIT",
 		TOKEN_TYPE_COMMAND,
 		"#edit <178>{<278>option<178>} <178>[<278>argument<178>]<278>\n"
@@ -1105,8 +1105,8 @@ struct help_type help_table[] =
 		"<178>Example<278>: #edit create {bli}{bla}{blo}\n",
 		
 		"cursor macro"
-	},
-	{
+	},*/
+/*	{
 		"EDITING",
 		TOKEN_TYPE_STRING,
 		"<278>\n"
@@ -1231,7 +1231,7 @@ struct help_type help_table[] =
 		"<268>└─────────────────────────┘└────────────────────────────────────────────┘<278>\n",
 
 		"cursor edit macro"
-	},
+	},*/
 
 	{
 		"ELSE",
@@ -1723,8 +1723,8 @@ struct help_type help_table[] =
 		"<178>Command<278>: #history <178>{<278>delete<178>}<278>                 Delete the last command.\n"
 		"         #history <178>{<278>insert<178>}    {<278>command<178>}<278>    Insert a command.\n"
 		"         #history <178>{<278>list<178>}<278>                   Display the entire command history.\n"
-		"         #history <178>{<278>read<178>}      {<278>filename<178>}<278>   Read a command history from file.\n"
-		"         #history <178>{<278>write<178>}     {<278>filename<178>}<278>   Write a command history to file.\n"
+//		"         #history <178>{<278>read<178>}      {<278>filename<178>}<278>   Read a command history from file.\n"
+//		"         #history <178>{<278>write<178>}     {<278>filename<178>}<278>   Write a command history to file.\n"
 		"\n"
 		"         Without an argument all available options are shown.\n"
 		"\n"
@@ -2548,7 +2548,7 @@ struct help_type help_table[] =
 		"format function math replace script variable"
 	},
 
-	{
+/*	{
 		"LOG",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #log <178>{<278>append<178>|<278>overwrite<178>|<278>off<178>} {<278>[filename]<178>}<278>\n"
@@ -2557,7 +2557,7 @@ struct help_type help_table[] =
 		"         plain, raw, or html with the config command.\n",
 		
 		"read scan textin write"
-	},
+	},*/
 
 	{
 		"LOOP",
@@ -2800,9 +2800,9 @@ struct help_type help_table[] =
 		"         <278>  Define the offset of the vtmap as a square. Without an argument\n"
 		"         <278>  it defaults to the entire top split region.\n"
 		"\n"
-		"         <178>#map read <filename>\n"
-		"         <278>  Will load the given map file.\n"
-		"\n"
+//		"         <178>#map read <filename>\n"
+//		"         <278>  Will load the given map file.\n"
+//		"\n"
 		"         <178>#map resize <size>\n"
 		"         <278>  Resize the map, setting the maximum number of rooms.\n"
 		"\n"
@@ -2851,10 +2851,10 @@ struct help_type help_table[] =
 		"         <278>  Set a map value for your current room, or given room if a room\n"
 		"         <278>  vnum is provided.\n"
 		"\n"
-		"         <178>#map sync <filename>\n"
-		"         <278>  Similar to #map read except the current map won't be unloaded\n"
-		"         <278>  or overwritten.\n"
-		"\n"
+//		"         <178>#map sync <filename>\n"
+//		"         <278>  Similar to #map read except the current map won't be unloaded\n"
+//		"         <278>  or overwritten.\n"
+//		"\n"
 		"         <178>#map terrain <name> <symbol> [flag]\n"
 		"         <278>  Set the terrain symbol and flag.\n"
 		"\n"
@@ -2901,11 +2901,11 @@ struct help_type help_table[] =
 		"\n"
 		"         <178>#map vnum <low> [high]\n"
 		"         <278>  Change the room vnum to the given number, if a range is\n"
-		"         <278>  provided the first available room in that range is selected.\n"
-		"\n"
-		"         <178>#map write <filename> [force]\n"
-		"         <278>  Will save the map, if you want to save a map to a .tin file\n"
-		"         <278>  you must provide the {force} argument.\n",
+		"         <278>  provided the first available room in that range is selected.\n",
+//		"\n"
+//		"         <178>#map write <filename> [force]\n"
+//		"         <278>  Will save the map, if you want to save a map to a .tin file\n"
+//		"         <278>  you must provide the {force} argument.\n",
 
 		"path pathdir"
 	},
@@ -3566,7 +3566,7 @@ struct help_type help_table[] =
 		"map path"
 	},
 
-	{
+/*	{
 		"PORT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #port <178>{<278>option<178>} {<278>argument<178>}<278>\n"
@@ -3617,7 +3617,7 @@ struct help_type help_table[] =
 		"         You can init with 0 as the port number to create a dummy session.\n",
 
 		"all chat run session sessionname snoop ssl zap"
-	},
+	},*/
 
 	{
 		"PROMPT",
@@ -3653,22 +3653,22 @@ struct help_type help_table[] =
 
 		"action gag highlight substitute"
 	},
-	{
-		"READ",
-		TOKEN_TYPE_COMMAND,
-		"<178>Command<278>: #read <178>{<278>filename<178>}<278>\n"
-		"\n"
-		"         Reads a commands file into memory.  The coms file is merged in with\n"
-		"         the currently loaded commands.  Duplicate commands are overwritten.\n"
-		"\n"
-		"         If you uses braces, { and } you can use several lines for 1 commands.\n"
-		"         This however means you must always match every { with a } for the read\n"
-		"         command to work.\n"
-		"\n"
-		"         You can comment out triggers using /* text */\n",
-
-		"log scan textin write"
-	},
+//	{
+//		"READ",
+//		TOKEN_TYPE_COMMAND,
+//		"<178>Command<278>: #read <178>{<278>filename<178>}<278>\n"
+//		"\n"
+//		"         Reads a commands file into memory.  The coms file is merged in with\n"
+//		"         the currently loaded commands.  Duplicate commands are overwritten.\n"
+//		"\n"
+//		"         If you uses braces, { and } you can use several lines for 1 commands.\n"
+//		"         This however means you must always match every { with a } for the read\n"
+//		"         command to work.\n"
+//		"\n"
+//		"         You can comment out triggers using /* text */\n",
+//
+//		"log scan textin write"
+//	},
 	{
 		"REGEXP",
 		TOKEN_TYPE_COMMAND,
@@ -3766,7 +3766,7 @@ struct help_type help_table[] =
 
 		"break continue foreach list loop parse repeat while"
 	},
-	{
+/*	{
 		"RUN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #run <178>{<278>name<178>} {<278>shell command<178>} {<278>file<178>}<278>\n"
@@ -3782,8 +3782,8 @@ struct help_type help_table[] =
 		"<178>Example<278>: #run {something} {tail -f chats.log}\n",
 
 		"all port session sessionname snoop ssl zap"
-	},
-	{
+	},*/
+/*	{
 		"SCAN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #scan <178>{<278>abort<178>|<278>csv<178><178>|<278>tsv<178><178>|<278>txt<178>} {<278>filename<178>}<278>\n"
@@ -3842,7 +3842,7 @@ struct help_type help_table[] =
 		"           stop the scan.\n",
 
 		"read textin"
-	},
+	},*/
 
 	{
 		"SCREEN",
@@ -3933,7 +3933,7 @@ struct help_type help_table[] =
 		"config"
 	},
 
-	{
+/*	{
 		"SCRIPT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #script <178>{<278>variable<178>}<178> {<278>shell command<178>}<278>\n"
@@ -3953,7 +3953,7 @@ struct help_type help_table[] =
 		"<178>Example<278>: #script {path} {pwd};#show The path is $path[1].\n",
 
 		"format function local math replace variable"
-	},
+	},*/
 
 	{
 		"SEND",
@@ -4144,7 +4144,7 @@ struct help_type help_table[] =
 
 		"echo prompt showme"
 	},
-	{
+/*	{
 		"SSL",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #ssl <178>{<278>name<178>} {<278>host<178>} {<278>port<178>} {<278>file<178>}\n"
@@ -4153,7 +4153,7 @@ struct help_type help_table[] =
 		"         and optional file name.\n",
 
 		"all port run sessionname snoop ssl zap"
-	},
+	},*/
 	{
 		"STATEMENTS",
 		TOKEN_TYPE_STRING,
@@ -4212,7 +4212,7 @@ struct help_type help_table[] =
 
 		"action gag highlight prompt"
 	},
-	{
+/*	{
 		"SUSPEND",
 		TOKEN_TYPE_STRING,
 		"<178>Command<278>: #cursor suspend\n"
@@ -4224,7 +4224,7 @@ struct help_type help_table[] =
 		"         suspended session running use the #detach command.\n",
 
 		"end"
-	},
+	},*/
 	{
 		"SWITCH",
 		TOKEN_TYPE_STATEMENT,
@@ -4245,7 +4245,7 @@ struct help_type help_table[] =
 
 		"statements"
 	},
-	{
+/*	{
 		"SYSTEM",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #system <178>{<278>command<178>}<278>\n"
@@ -4253,7 +4253,7 @@ struct help_type help_table[] =
 		"         Executes the command specified as a shell command.\n",
 
 		"detach script run"
-	},
+	},*/
 	{
 		"TAB",
 		TOKEN_TYPE_CONFIG,
@@ -4268,7 +4268,7 @@ struct help_type help_table[] =
 
 		"alias cursor history keypad macro speedwalk"
 	},
-	{
+/*	{
 		"TEXTIN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #textin <178>{<278>filename<178>} {<278>delay<178>}<278>\n"
@@ -4281,7 +4281,7 @@ struct help_type help_table[] =
 		"         cumulatively applied to each outgoing line.\n",
 
 		"scan send"
-	},
+	},*/
 	{
 		"TICKER",
 		TOKEN_TYPE_CONFIG,
@@ -4423,7 +4423,7 @@ struct help_type help_table[] =
 		"statements"
 	},
                                                                                                    
-	{
+/*	{
 		"WRITE",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #write <178>{<278><filename><178>} {<278>[FORCE]<178>}<278>\n"
@@ -4436,7 +4436,7 @@ struct help_type help_table[] =
 		"         protection.\n",
 
 		"log read scan textin"
-	},
+	},*/
 	{
 		"ZAP",
 		TOKEN_TYPE_COMMAND,

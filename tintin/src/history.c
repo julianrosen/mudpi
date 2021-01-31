@@ -232,6 +232,8 @@ DO_HISTORY(history_list)
 
 DO_HISTORY(history_read)
 {
+    show_message( ses, 0, "#HISTORY: READING IS DISABLED" );
+    return; // JR
 	struct listroot *root = ses->list[LIST_HISTORY];
 	FILE *file;
 
@@ -284,6 +286,8 @@ DO_HISTORY(history_size)
 
 DO_HISTORY(history_write)
 {
+    show_message( ses, 0, "#HISTORY: WRITING IS DISABLED" );
+    return; // JR
 	struct listroot *root = ses->list[LIST_HISTORY];
 	FILE *file;
 	int i;
