@@ -37,6 +37,7 @@
 11 2 create food
 11 2 locate object
 11 2 sleep
+12 4 circle
 12 2 create water
 12 2 detect evil
 12 2 detect hidden
