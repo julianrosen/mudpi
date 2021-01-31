@@ -1,0 +1,23 @@
+Mudpi is a online multiplayer text-based RPG, which runs on a
+Raspberry Pi. There are three software components:
+
+1. EmberMUD, the game itself
+2. TinTin++, a MUD client
+3. ttyd, a browser interface
+
+The EmberMUD and TinTin++ source have been modified by JR. Some day
+I might streamline the compilation process, but for now here is how to compile:
+1. Compile EmberMUD with 'cd EmberMUD/src; make; cd ../..'
+2. Compile TinTin++ with 'cd tintin/src; ./configure; make; cd ../..'
+3. Compile ttyd with 'mkdir ttyd/build; cd ttyd/build; cmake ..; make;
+     cd ../..'
+Now, start EmberMUD with 'EmberMUD/src/startup 20495' (or whatever
+port you want EmberMUD to listen on, if you use a different port be
+sure to edit tintin/mud_config). Then start ttyd with
+'ttyd/build/ttyd -p 16377 start.sh' (you should replace 16377
+with whatever port you want ttyd to listen on). Now point your
+browser to http://localhost:16377/. Enjoy!
+
+Theoretically this should work on platforms other than the Raspberry
+Pi, but I have been unable to compile on Ubuntu (of the three
+components, I could only get TinTin to work).
