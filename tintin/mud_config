@@ -1,0 +1,14 @@
+#config {speedwalk} {on}
+#split
+
+#gag {#SESSION}
+#gag {#TRYING}
+#ses mud_pi localhost 20495
+#ungag {#TRYING}
+y
+#delay {0.2}
+
+#event {SESSION DISCONNECTED}
+{
+    #end
+}
