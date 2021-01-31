@@ -2220,7 +2220,7 @@ help <name>  help on skills and groups, or other help topics
 done	     exit the character generation process
 ~
 -1 'MENU CHOICE'~
-Choice (add,drop,list,help)?~
+Choice  (list, learned, premise, add, drop, info, help, done): ~
 -1 'GROUPS' 'INFO' 'PREMISE'~
 The ROM skill system allows you to fully customize your new character, making
 him or her skilled in the skills you choose.  But beware, the skills you pick

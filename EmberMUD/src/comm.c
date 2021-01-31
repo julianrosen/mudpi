@@ -1881,7 +1881,7 @@ check_ban function.
         {
         case 'y':
         case 'Y':
-            sprintf( buf, "New character.\n\rGive me a password for %s: %s",
+            sprintf( buf, "\n\rNew character.\n\rGive me a password for %s: %s",
                      ch->name, echo_off_str );
             write_to_buffer( d, buf, 0 );
             d->connected = CON_GET_NEW_PASSWORD;
@@ -2036,7 +2036,7 @@ check_ban function.
         /* add cost */
         ch->pcdata->points = pc_race_table[race].points;
         ch->size = pc_race_table[race].size;
-        write_to_buffer( d, "What is your gender (M/F/N)? ", 0 );
+        write_to_buffer( d, "\n\rWhat is your gender (M/F/N)? ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
     
@@ -2062,7 +2062,7 @@ check_ban function.
             write_to_buffer( d, "That's not a gender.\n\rWhat IS your gender? ", 0 );
             return;
         }
-        write_to_buffer( d, "Press enter to start rolling your stats. ", 0 );
+        write_to_buffer( d, "\n\rPress enter to start rolling your stats. ", 0 );
         d->connected = CON_GET_STATS;
         break;
 
@@ -2082,7 +2082,7 @@ check_ban function.
                 ch->perm_stat[3] = stat4[atoi( argument )];
                 ch->perm_stat[4] = stat5[atoi( argument )];
 
-                strcpy( buf, "Select a class [" );
+                strcpy( buf, "\n\rSelect a class [" );
                 for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
                 {
                     if ( !class_table[iClass].remort_class ||
@@ -2270,9 +2270,9 @@ check_ban function.
         group_add( ch, class_table[ch->Class].base_group, FALSE );
         ch->pcdata->learned[gsn_recall] = 50;
         write_to_buffer( d, "Do you wish to customize this character?\n\r", 0 );
-        write_to_buffer( d,
+        /*write_to_buffer( d,
                          "Customization takes time, but allows a wider range of skills and abilities.\n\r",
-                         0 );
+                         0 );*/
         write_to_buffer( d, "Customize (Y/N)? ", 0 );
         d->connected = CON_DEFAULT_CHOICE;
         break;
@@ -2296,6 +2296,7 @@ check_ban function.
         case 'n':
         case 'N':
             group_add( ch, class_table[ch->Class].default_group, TRUE );
+            ch->train = (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS;
             write_to_buffer( d, "\n\r", 2 );
             do_help( ch, "motd" );
             d->connected = CON_READ_MOTD;
@@ -2310,26 +2311,31 @@ check_ban function.
         send_to_char( "\n\r", ch );
         if ( !str_cmp( argument, "done" ) ) /* !str_cmp( s1, s2 ) mean s1 *is* equal to s2 */
         {
-            if ( ch->pcdata->points < CP_MIN_CREATE )
+            /*if ( ch->pcdata->points < CP_MIN_CREATE )
             {
-                sprintf(buf, "You must have at least %d creation points\n\rYou currently have %d\n\r\n\r", CP_MIN_CREATE, ch->pcdata->points);
+                sprintf(buf, "Continue now with 25 CP, +%d trains (Y/N):", CP_MIN_CREATE - ch->pcdata->points, CP_MIN_CREATE,
+                       (CP_MIN_CREATE - ch->pcdata->points)/2);
                 send_to_char( buf, ch );
+                d->connected = CON_ACCEPT_CP;
+                return;
                 send_to_char
                 ( "Choices are: list,learned,premise,add,drop,info,help, and done.\n\r",
                   ch );
                 do_help( ch, "menu choice" );
                 return;
-            }
+            }*/
 
-            sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
-            send_to_char( buf, ch );
-            sprintf( buf,
-                     "Experience modifier: %d\% (Percent of difference from the norm)\n\r",
-                     figure_difference( ch->gen_data->points_chosen ) );
-            if ( ch->pcdata->points < 40 )
-                ch->train = ( 40 - ch->pcdata->points + 1 ) / 2; /* What is this? Seems to be overwritten anyway. */
-            send_to_char( buf, ch );
-            write_to_buffer( d, "\n\r", 2 );
+            //sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
+            //send_to_char( buf, ch );
+            //sprintf( buf,
+            //         "Experience modifier: %d\% (Percent of difference from the norm)\n\r",
+            //         figure_difference( ch->gen_data->points_chosen ) );
+            //if ( ch->pcdata->points < 40 )
+            //    ch->train = ( 40 - ch->pcdata->points + 1 ) / 2; /* What is this? Seems to be overwritten anyway. */
+            ch->train = (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS;
+            ch->pcdata->points = CP_MAX;
+            //send_to_char( buf, ch );
+            //write_to_buffer( d, "\n\r", 2 );
             do_help( ch, "motd" );
             d->connected = CON_READ_MOTD;
             break;
@@ -2337,11 +2343,12 @@ check_ban function.
 
         if ( !parse_gen_groups( ch, argument ) )
             send_to_char
-                ( "Choices are: list,learned,premise,add,drop,info,help, and done.\n\r",
+                ( "Invalid choice\n\r",
                   ch );
 
         do_help( ch, "menu choice" );
         break;
+            
 
     case CON_BEGIN_REMORT:
         write_to_buffer( d, "Now beginning the remorting process.\n\r\n\r", 0 );
@@ -2400,9 +2407,12 @@ check_ban function.
             ch->hit = ch->max_hit;
             ch->mana = ch->max_mana;
             ch->move = ch->max_move;
-            ch->train = STARTING_TRAINS;
+            // ch->train = STARTING_TRAINS; // Training sessions are now determined by CP
             ch->practice = STARTING_PRACTICES;
             set_title( ch, STARTING_TITLE );
+            
+            sprintf( buf, "`G***  Entering mudpi  ***`w\n\r\n\r");
+            send_to_char( buf, ch );
 
             do_outfit( ch, "" );
             obj_to_char( create_object( get_obj_index( OBJ_VNUM_MAP ), 0 ),

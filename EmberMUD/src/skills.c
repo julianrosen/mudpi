@@ -972,16 +972,18 @@ void list_group_costs( CHAR_DATA * ch )
         send_to_char( "\n\r", ch );
     send_to_char( "\n\r", ch );
     
-    if ( ch->pcdata->points < CP_MIN_CREATE ) /* Modified by JR */
-        sprintf( buf, "Creation points: %d (Minimum required: %d)\n\r", ch->pcdata->points, CP_MIN_CREATE );
-    else
-        sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
+    //if ( ch->pcdata->points < CP_MIN_CREATE ) /* Modified by JR */
+    //    sprintf( buf, "Creation points: %d (Minimum required: %d)\n\r", ch->pcdata->points, CP_MIN_CREATE );
+    //else
+    //    sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
+    sprintf( buf, "Creation points spent: %d (max %i)\n\r", ch->pcdata->points, CP_MAX );
     send_to_char( buf, ch );
-    sprintf( buf,
-             "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
-             figure_difference( ch->gen_data->points_chosen ) );
+    //sprintf( buf,
+    //         "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
+    //         figure_difference( ch->gen_data->points_chosen ) );
+    //send_to_char( buf, ch );
+    sprintf( buf, "Training sessions: %d\n\r\n\r", (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS ); // JR
     send_to_char( buf, ch );
-    return;
 }
 
 void list_group_chosen( CHAR_DATA * ch )
@@ -1042,11 +1044,13 @@ void list_group_chosen( CHAR_DATA * ch )
         send_to_char( "\n\r", ch );
     send_to_char( "\n\r", ch );
 
-    sprintf( buf, "Creation points: %d\n\r", ch->gen_data->points_chosen );
+    sprintf( buf, "Creation points spent: %d (max %i)\n\r", ch->pcdata->points, CP_MAX );
     send_to_char( buf, ch );
-    sprintf( buf,
-             "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
-             figure_difference( ch->gen_data->points_chosen ) );
+    //sprintf( buf,
+    //         "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
+    //         figure_difference( ch->gen_data->points_chosen ) );
+    //send_to_char( buf, ch );
+    sprintf( buf, "Training sessions: %d\n\r\n\r", (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS ); // JR
     send_to_char( buf, ch );
     return;
 }
@@ -1475,14 +1479,22 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
                     return TRUE;
                 }
             }
-
-            sprintf( buf, "%s group added\n\r", group_table[gn].name );
-            send_to_char( buf, ch );
-            ch->gen_data->group_chosen[gn] = TRUE;
-            ch->gen_data->points_chosen += group_table[gn].rating[ch->Class];
-            gn_add( ch, gn );
-            ch->pcdata->points += group_table[gn].rating[ch->Class];
-            return TRUE;
+            if ( ch->pcdata->points + group_table[gn].rating[ch->Class] <= CP_MAX )
+            {
+                sprintf( buf, "%s group added\n\r", group_table[gn].name );
+                send_to_char( buf, ch );
+                ch->gen_data->group_chosen[gn] = TRUE;
+                ch->gen_data->points_chosen += group_table[gn].rating[ch->Class];
+                gn_add( ch, gn );
+                ch->pcdata->points += group_table[gn].rating[ch->Class];
+                return TRUE;
+            }
+            else
+            {
+                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_MAX );
+                send_to_char( buf, ch );
+                return TRUE;
+            }
         }
 
         sn = skill_lookup( argument );
@@ -1500,13 +1512,23 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
                 send_to_char( "That skill is not available.\n\r", ch );
                 return TRUE;
             }
-            sprintf( buf, "%s skill added\n\r", skill_table[sn].name );
-            send_to_char( buf, ch );
-            ch->gen_data->skill_chosen[sn] = TRUE;
-            ch->gen_data->points_chosen += skill_table[sn].rating[ch->Class];
-            ch->pcdata->learned[sn] = 1;
-            ch->pcdata->points += skill_table[sn].rating[ch->Class];
-            return TRUE;
+            if ( ch->pcdata->points + skill_table[sn].rating[ch->Class] <= CP_MAX )
+            {
+                sprintf( buf, "%s skill added\n\r", skill_table[sn].name );
+                send_to_char( buf, ch );
+                ch->gen_data->skill_chosen[sn] = TRUE;
+                ch->gen_data->points_chosen += skill_table[sn].rating[ch->Class];
+                ch->pcdata->learned[sn] = 1;
+                ch->pcdata->points += skill_table[sn].rating[ch->Class];
+                return TRUE;
+            }
+            else
+            {
+                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_MAX );
+                send_to_char( buf, ch );
+                return TRUE;
+            }
+                
         }
 
         send_to_char( "No skills or groups by that name...\n\r", ch );

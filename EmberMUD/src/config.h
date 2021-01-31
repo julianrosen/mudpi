@@ -201,6 +201,7 @@ cp. */
 #define CP_MIN_PENALTY  0
 #define CP_PENALTY      0
 #define CP_TRAIN_MIN    15
+#define CP_MAX 40 /* JR: Minimum allowed CP on creation */
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
@@ -821,7 +822,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 /* for newly created characters - Kyle */
 #define STARTING_PRACTICES 10
 #define STARTING_TRAINS 5
-#define STARTING_TITLE "the newbie"
+#define STARTING_TITLE "the plain"
 
 /*Spicey "consider" comments*/
 
@@ -1035,6 +1036,7 @@ of combat. */
 #define CON_GET_ALIGNMENT                9
 #define CON_DEFAULT_CHOICE              10
 #define CON_GEN_GROUPS                  11
+#define CON_ACCEPT_CP                   26 // JR
 #define CON_PICK_WEAPON                 12
 #define CON_READ_IMOTD                  13
 #define CON_READ_MOTD                   14
@@ -1049,7 +1051,7 @@ of combat. */
 #define CON_NOTE_FINISH                 23
 #define CON_SHELL                       24
 #define CON_BEGIN_REMORT                25
-
+        
 /***************************************************************************
  *                                                                         *
  *                   VALUES OF INTEREST TO AREA BUILDERS                   *
