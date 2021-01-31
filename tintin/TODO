@@ -1,0 +1,309 @@
+* BUGS
+
+  - Look into escaped color codes in zmp, possibly msdp
+
+  - See about making @$var{} work.
+
+  - See about turning window close into a program termination event.
+
+  - finish BUFFER_SIZE replacement.
+
+  - WSL faq: #system cmd.exe /c start notepad
+
+  - update msdp scripts with #line msdp feature
+
+  - refresh input on session switch
+
+  - swap arg1, arg2, arg for do_port
+
+  - https://tintin.sourceforge.io/forum/viewtopic.php?f=5&t=2776
+    Need special casing for non capturing {?!} regex handling.
+
+  - #cursor get word option, maybe get the yank buffer as well.
+
+  - Look into config option to change the working directory
+
+  - Add a way to set env variables either 1) for the current process, and/or 2) as a parameter to #system (i.e. after fork in the child process).
+
+* STUFF THAT IS PROBABLY GONNA GET DONE
+
+  - Finish port proxy support: resizing, input, security
+
+  - look into transparent drawing
+
+  - if error pcre.h, need export C_INCLUDE_PATH= where it locate
+
+  - The #else command could follow a #foreach so as to create "for-else" loops
+    in case a loop is not broken.
+
+  - Add #line gag 2 +2 -2 support.
+
+  - Work on VT2020 protocol (mouse click)
+
+  - $var[%*][%*] support.
+  - make list sorting move nests as well
+
+  - #line convert utf-8 support.
+
+  - better #draw font support
+
+  - case insensitive tabbing (partial start with rewrite)
+  - tabbing on directory structure.
+  - tabbing on dictionary
+
+  - #map list {<exits>} breaks on rooms that have e mapped to eu.
+  - finish landmarks
+  - map sandbox mode support (flags to disable saving?)
+  - add ghosting to fix #map flag nofollow exit cmd issues?
+  ! #map legend support for unicode graphics.
+  - multi-line room symbols
+  - pancake mode to display rooms at all levels and annotations
+  - there might be a terrain density bug
+  - provide the coordinate of the X on the vtmap.
+  - add maze flag for maze handling.
+  - Request: aura around the character position. Something similar to terrain dense narrow. Could improve visibility of the character position on big resolutions. Furthermor config to allow modification of the character terrain. 
+  - vt map doesn't utilize all available space.
+  - Request: 'stop' #map center command, so i could see how the 'user' moves, rather map moves around him? 
+  - #map uninsert <vnum>
+  - make map spacing easier
+  - add configurable default symbol
+  - exit symbol?
+  - more data to #map list saving, and maybe easier sorting of tables.
+  - event for failed #map move.
+  - look into #send triggering follow map.
+
+  - truncate prompt longer than split.
+
+  - Make actions with a priority of 0. trigger always
+
+  - #draw table {1;2;3;4} {a;b;c;d}
+    #draw scrollbar
+    #draw graph
+    #draw button
+    #draw titanic
+
+  - proper vt100 skip detection for improper color codes.
+
+  - Make { match both a { and \x7B as it's an annoying issue to debug.
+
+  - Add VT100 filter to make outside sources respect terminal size constraints, also needed to run bash in vsplit mode.
+
+  - Remote script loading
+
+  - add class specific debug
+  - better class event and class size handling ?
+
+  - more potent long-click handling including held down ticks.
+
+  - look into discord api / arachnos
+
+  - better color syntax highlighting configuration.
+
+  - Add #log delete/remove option.
+
+  - See about adding SESSIONS to the list table.
+
+  - Add debugger to syntax highlighter, substitution highlighing, 256 color support, and variable expansion.
+
+  - fix readmud in net.c to not move the cursor on inactive sessions.
+
+  - add packets patched counter
+
+  - Fix arrow key up history recall overwriting the prompt (partial redesign)
+    Auto prompt fixing on overwrite.
+
+  - reportable_sounds
+
+  - https://tintin.sourceforge.io/forum/viewtopic.php?f=4&t=2597 #add #screen support
+
+  - TELNET documentation.
+
+  - Add JSON support to #scan
+
+  - see if #break 2 is possible, maybe #continue 2 as well.
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?p=9625 (map undo issue) (not a big issue)
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?t=2339 (map area data)
+
+  - IPv6 for chat
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?p=9109 (vt102 strip \e[2J\e[H )
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?p=8766#8766 (global verbose toggle?)
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?p=8745#8745 (verbose logging?)
+
+  - See about adding ~/ handling for file names.
+
+--------------------------------------------------------------------------------
+
+* LOW PRIORITY
+
+  - Add a file handler.
+
+  - multi-line buffer searches / captures / deletes
+
+  - multi-line triggers (use nested actions?)
+
+  - add color based auto unwrap routine.
+
+  - Start of line anchors aren't working in #replace.
+
+--------------------------------------------------------------------------------
+
+* ROADMAP
+
+  - dictionary +tabbing
+
+  - editor
+
+  - clickable link support
+
+  - tintin commander
+
+  - sixel graphics
+
+  - windowing
+
+  - blind automapping
+
+  - better attach/detach
+
+  - GUI mode
+
+  - Braille handling
+
+  - Allow converting tt++ scripts to C.
+
+  - session proxies
+
+--------------------------------------------------------------------------------
+
+* STUFF THAT MIGHT BE IMPLEMENTED
+
+  - ability to #read entire directories.
+
+  - fix ctrl-r ctrl-d / ctrl-c / enter
+
+  - Option to run #script in background.
+
+  - Make &0 to &99 local.
+
+  - Color compression (already partial support)
+
+  - SGA disabling
+
+  - BINARY TELOPT support.
+
+  - add #line gag {lines} option
+
+  - Add something like #log append $dir/logs/log.txt {%D %H:%M:%S}
+
+  - compact map view mode http://tintin.sourceforge.net/board/viewtopic.php?p=9994
+
+  - https://github.com/eliukblau/pixterm
+
+--------------------------------------------------------------------------------
+
+
+* BUGS THAT NEED FIXING
+
+  - Word wrap related scroll back problems.
+
+  - Crash on multiple session close
+
+  - \x7B\x7D_____\x7B\x7D_ doesn't match in #regex.
+
+--------------------------------------------------------------------------------
+
+* BUGS THAT MIGHT NEED FIXING
+
+  - http://tintin.sourceforge.net/board/viewtopic.php?p=7124
+
+  - There's a bug with prompt repetitions with packet patch set.
+
+  - Deal with escaping { } / ; in #script variables.
+
+  - Make tintin char setting by session instead of global.
+
+  - #cr doesn't reset the packet patch state
+
+    + tintin.sourceforge.net/board/viewtopic.php?t=36
+
+--------------------------------------------------------------------------------
+
+
+* MAPPING
+
+  - add option to show party members on the map
+
+  - add option to add a delay to each exit for #map run
+
+  - map where command that shows relative coordinates.
+
+  - Room creation event
+
+  - Add better table support for data fields.
+
+  - auto adjust max vnum size of mapper.
+
+  - global flag to only show the same area with the mapper.
+
+  - map color setting for hidden exits.
+
+  - Create global exits, (aka portals) like recall, that can be used
+    with #map run.
+
+  - Add something to indicate a non standard exit on the ASCII mapper.
+
+  - Display hidden exits differently.
+
+  - Better #map undo support using maybe timestamp, type, info.
+
+  - Add conditional if checks for room traversal.
+
+  - add highlight option
+
+  - Add #V version info
+
+--------------------------------------------------------------------------------
+
+* STUFF FOR A RAINY DAY
+
+- Fix up ipv6 support in chat.
+
+- Look into packet defragmentation for chat.
+
+- Look into using speech-dispatcher for text to speech.
+
+- Add %U (upper) %L (lower) support.
+  check https://www.boost.org/doc/libs/1_50_0/libs/regex/doc/html/boost_regex/syntax/basic_extended.html
+
+- cursor extension for vim
+
+- interactive script tutorial
+
+-------------------------------------------------------------------------------
+
+* STUFF I'M NOT SURE ABOUT
+
+- Keep last input visible with repeat enter enabled.
+
+- would be nice to have "#map list" show the variable being filtered on, instead of defaulting to roomname ie, I'm currently writing a script to save "#map list {roomnote} {{\w+}}" into a variable, then map get roomnote for each item in the list and display it...would be nice if when listing for a roomnote, it showed the roomnote
+
+-------------------------------------------------------------------------------
+
+* STUFF THAT WON'T BE IMPLEMENTED
+
+- Lua or any other scripting language, focus is on developing tintin scripting.
+
+-------------------------------------------------------------------------------
+
+* ISSUES
+
+- TinTin++ only allows 1 action triggering per line.
+
+- TinTin++ probably should substitute escapes in if checks.
+
+- TinTin++ is not handling #return inside #regex intuitively.

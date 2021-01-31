@@ -1,0 +1,882 @@
+#nop -------------------------------------------------------------------------
+#nop Learn by example
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop Loop through room 1 to 1000 and change the color of rooms with the
+#nop static (16) flag to <168>.
+#nop -------------------------------------------------------------------------
+
+#loop 1 1000 vnum
+{
+	#map at $vnum
+	{
+		#map get roomflags result;
+		#if {$result & 16}
+		{
+			#map set roomcolor <168>
+		}
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Capture system information. #script stores the output as a list,
+#nop hence the need to convert it into a normal variable.
+#nop -------------------------------------------------------------------------
+
+#script {dir} {pwd}
+#var dir $dir[1]
+
+#script {home} {echo $HOME}
+#var home $home[1]
+
+#nop -------------------------------------------------------------------------
+#nop Automatically reconnect on disconnect.
+#nop -------------------------------------------------------------------------
+
+#event {SESSION CONNECTED}
+{
+	#event {SESSION DISCONNECTED}
+	{
+		#gts #delay 5 {#session %0 %1 %3}
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Execute a random social at random time intervals.
+#nop -------------------------------------------------------------------------
+
+#tick {randomsocial}
+{
+	#delay {1d180}
+	{
+		#switch {1d4}
+		{
+			#case {1} {cheer}
+			#case {2} {greet all}
+			#case {3} {smile}
+			#case {4} {laugh self}
+		}
+	}
+}
+{200}
+
+#nop -------------------------------------------------------------------------
+#nop Maintain a friendlist. %i creates a case insensitive regex.
+#nop -------------------------------------------------------------------------
+
+#variable {friendlist}
+{
+	{bubba};{pamela};{cookie};{harry potter}
+}
+
+#function isfriend
+{
+	#return &friendlist[%i%0];
+}
+
+#act {%1 follows you.}
+{
+	#if {@isfriend{%1}}
+	{
+		group %1
+	};
+	#else
+	{
+		unfollow %1
+	}
+}
+
+#alias {addfriend}
+{
+	#format name %l {%0};
+
+	#var friendlist[$name] {};
+
+	#showme $name has been added to your friendlist.
+}
+
+#alias {delfriend}
+{
+	#format name %l {%0};
+
+	#if {@isfriend{$name}}
+	{
+		#unvar friendlist[$name];
+		#showme $name has been deleted from your friendlist.
+	};
+	#else
+	{
+		#showme $name is not on your friendlist.
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Append a goto to your current room when saving a map. You can use
+#nop #map return instead.
+#nop -------------------------------------------------------------------------
+
+#alias {savemap}
+{
+	#map write %0;
+	#map get roomvnum room;
+	#system echo '#map goto $room' >> %0
+}
+
+#nop -------------------------------------------------------------------------
+#nop Log all text to a file with a timestamp with decisecond precision.
+#nop -------------------------------------------------------------------------
+
+#function {timestamp}
+{
+	#format utime {%U};
+
+	#format result {%t.%m} {%Y-%m-%d %H:%M:%S} {$utime % 1000000 / 100000}
+}
+
+#event {RECEIVED LINE}
+{
+	#line log mylog.txt {<178>@timestamp{} \};
+	#line log mylog.txt
+}
+
+#nop -------------------------------------------------------------------------
+#nop Old school tick support.
+#nop -------------------------------------------------------------------------
+
+#tick {oldtick}
+{
+	#delay 50 #showme #10 SECONDS TO TICK!!;
+	#showme #TICK!!!
+}
+{60}
+
+#nop -------------------------------------------------------------------------
+#nop Execute speedwalks with .
+#nop -------------------------------------------------------------------------
+
+#alias {.%0}
+{
+	#var cnt {};
+
+	#parse {%0} {char}
+	{
+		#if {"$char" >= "0" && "$char" <= "9"}
+		{
+			#var cnt $cnt$char
+		};
+		#elseif {"$cnt" == ""}
+		{
+			#send $char
+		};
+		#else
+		{
+			#$cnt #send $char;
+			#var cnt {}
+		}
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Targetting script
+#nop -------------------------------------------------------------------------
+
+#var targets {}
+
+#alias {target}
+{
+	#if {"%0" == ""}
+	{
+		#showme {Current targets: $targets[]}
+	};
+	#elseif {&targets[%0]}
+	{
+		#unvar targets[%0];
+		#showme Target '%0' removed.
+	};
+	#else
+	{
+		#var targets[%0] {};
+		#showme Target '%0' added.
+	}
+}
+
+#act {%1 arrives}
+{
+	#if {&targets[%1]} {kill %1}
+}
+
+#act {%1 is standing here}
+{
+	#if {&targets[%1]} {kill %1}
+}
+
+#action {%1 is dead! R.I.P.}
+{
+	#if {&targets[%1]} {target %1}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Show xterm 256 colors.
+#nop -------------------------------------------------------------------------
+
+#var temp {}
+
+#foreach {0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15} {var1}
+{
+	#showme {$var1 \e[38;5;${var1}m}
+}
+
+#foreach {a;b;c;d;e;f} {var1}
+{
+	#foreach {a;b;c;d;e;f} {var2}
+	{
+		#foreach {a;b;c;d;e;f} {var3}
+		{
+			#var temp {$temp <$var1$var2$var3><<888>$var1$var2$var3>}
+		};
+		#showme $temp;
+		#var temp {}
+	}
+}
+
+#loop 0 23 cnt
+{
+	#format temp {$temp <g%+02s><<888>g%+02s} {$cnt} {$cnt};
+}
+
+#showme $temp
+
+#nop -------------------------------------------------------------------------
+#nop Draw a health bar.
+#nop -------------------------------------------------------------------------
+
+#alias {hpbar}
+{
+	#math {hp_percent}{100 * %1 / %2};
+	#math {hpbars1}   {$hp_percent / 5};
+	#math {hpbars2}   {20 - $hpbars1};
+
+	#format {hpbar} {<011>%+${hpbars1}s<099><000>%+${hpbars2}s<099> };
+
+	#showme [$hpbar]
+}
+
+#alias {test}
+{
+	hpbar 30 100
+}
+
+#nop -------------------------------------------------------------------------
+#nop Syntax: sleep <seconds to delay> {commands}
+#nop
+#nop If there is already a pending sleep the delay will be stacked.
+#nop -------------------------------------------------------------------------
+
+#var sleeptime 0
+#var sleepcurr 0
+
+#alias {sleep %1 %2}
+{
+	#format sleeptime %U;
+
+	#if {$sleeptime > $sleepcurr}
+	{
+		#math sleepcurr $sleeptime + (%1) * 1000000;
+
+		#delay {%1} %2;
+	};
+	#else
+	{
+		#math sleepcurr $sleepcurr + (%1) * 1000000;
+	
+		#delay {($sleepcurr - $sleeptime) / 1000000.000} %2
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop This function and substitution will highlight spelling errors as red.
+#nop -------------------------------------------------------------------------
+
+#function spellcheck
+{
+	#format result %S %1;
+	#if {$result == 0}
+	{
+		#var result %1
+	};
+	#else
+	{
+		#var result <118>%1<900>
+	}
+}
+
+#substitute {{\b[a-zA-Z]+\b}} {@spellcheck{%1}}
+
+#nop -------------------------------------------------------------------------
+#nop This function and substitution will add a speed reader to the split line
+#nop -------------------------------------------------------------------------
+
+#split
+
+#function spellcheck
+{
+        #format result %S %1;
+        #if {$result == 0}
+        {
+                #var result %1
+        };
+        #else
+        {
+                #var result <118>%1<900>
+        };
+        #list speedread ins -1 {$result}
+}
+
+#substitute {{\b[a-zA-Z]+\b}} {@spellcheck{%1}}
+
+#tick {speedread}
+{
+        #if {&{speedread[]}}
+        {
+                #draw tile -2 1 -2 20 {$speedread[1]};
+                #list speedread delete 1
+        }
+}
+{0.1}
+
+#nop -------------------------------------------------------------------------
+#nop This function tests the random number engine
+#nop -------------------------------------------------------------------------
+
+#alias random
+{
+	#var random {};
+	#loop 1 1000 cnt
+	{
+		#math tmp 1d1000000000 % 10;
+		#math random[$tmp] $random[$tmp] + 1
+	};
+	#var random
+}
+
+#nop -------------------------------------------------------------------------
+#nop This macro allows pasting multi-line code fragments on pressing ctrl-v
+#nop -------------------------------------------------------------------------
+
+#macro {\cv}
+{
+	#cursor {convert meta} on;
+	#line oneshot #event {CATCH RECEIVED INPUT}
+	{
+		#line sub {esc} #var paste {%0};
+		#replace paste {\\n\\n} {;};
+		#replace paste {\\n} {};
+		#replace paste {\\t} {};
+		#replace paste {;;} {;};
+		#1 {$paste}
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop This macro allows pasting multi-line code fragments on pressing ctrl-v
+#nop followed by pressing ctrl-enter
+#nop -------------------------------------------------------------------------
+
+#macro {\e[13;5u}
+{
+	#cursor get tmp;
+	#cursor home;
+	#cursor set {#line sub esc };
+	#cursor enter
+}
+
+#nop -------------------------------------------------------------------------
+#nop This event will cause tintin to always report your screen width as 80
+#nop columns
+#nop -------------------------------------------------------------------------
+
+#event {CATCH IAC DO NAWS}
+{
+	#screen get rows ROWS;
+	#format ROWS %a $ROWS;
+
+	#send {\xFF\xFB\x1F\xFF\xFA\x1F\x50\x00${ROWS}\x00\xFF\xF0\}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Remove duplicate lines and add a counter. Does not work in gts because
+#nop it uses named delays.
+#nop -------------------------------------------------------------------------
+
+#var repeat[str] {}
+#var repeat[cnt] 1
+
+#act {~%+}
+{
+	#if {{%0} === {$repeat[str]}}
+	{
+		#math repeat[cnt] $repeat[cnt] + 1;
+		#delay {repeat} {repeat_show} {0}
+	};
+	#else
+	{
+		repeat_show;
+		#var repeat[str] {%0}
+	};
+	#line gag
+}
+
+#alias {repeat_check}
+{
+	#if {$repeat[cnt] <= 1}
+	{
+		#line ignore #showme {$repeat[str]}
+	};
+	#else
+	{
+		#line ignore #showme {($repeat[cnt]) %0}
+	};
+	#var repeat[str] {};
+	#var repeat[cnt] 1
+}
+
+#nop -------------------------------------------------------------------------
+#nop These macros will allow you to move around with the arrow keys while
+#nop holding down the control key. You can move ne by pressing arrow up +
+#nop right simultaniously. Move up by pressing arrow up + down simultaniously.
+#nop Move down by pressing arrow left + right simultaniously.
+#nop -------------------------------------------------------------------------
+
+#macro {\e[1;5A} {#cursor preserve;#delay {move} {#cursor reset_macro;n} {0.05}}
+#macro {\e[1;5C} {#cursor preserve;#delay {move} {#cursor reset_macro;e} {0.05}}
+#macro {\e[1;5B} {#cursor preserve;#delay {move} {#cursor reset_macro;s} {0.05}}
+#macro {\e[1;5D} {#cursor preserve;#delay {move} {#cursor reset_macro;w} {0.05}}
+
+#macro {\e[1;5A\e[1;5A} {#undelay {move};#cursor reset_macro;n;n}
+#macro {\e[1;5C\e[1;5C} {#undelay {move};#cursor reset_macro;e;e}
+#macro {\e[1;5B\e[1;5B} {#undelay {move};#cursor reset_macro;s;s}
+#macro {\e[1;5D\e[1;5D} {#undelay {move};#cursor reset_macro;w;w}
+
+#macro {\e[1;5A\e[1;5B} {#undelay {move};#cursor reset_macro;u}
+#macro {\e[1;5B\e[1;5A} {#undelay {move};#cursor reset_macro;u}
+
+#macro {\e[1;5C\e[1;5D} {#undelay {move};#cursor reset_macro;d}
+#macro {\e[1;5D\e[1;5C} {#undelay {move};#cursor reset_macro;d}
+
+#macro {\e[1;5A\e[1;5C} {#undelay {move};#cursor reset_macro;ne}
+#macro {\e[1;5C\e[1;5A} {#undelay {move};#cursor reset_macro;ne}
+
+#macro {\e[1;5B\e[1;5C} {#undelay {move};#cursor reset_macro;se}
+#macro {\e[1;5C\e[1;5B} {#undelay {move};#cursor reset_macro;se}
+
+#macro {\e[1;5D\e[1;5B} {#undelay {move};#cursor reset_macro;sw}
+#macro {\e[1;5B\e[1;5D} {#undelay {move};#cursor reset_macro;sw}
+
+#macro {\e[1;5D\e[1;5A} {#undelay {move};#cursor reset_macro;nw}
+#macro {\e[1;5A\e[1;5D} {#undelay {move};#cursor reset_macro;nw}
+
+#nop -------------------------------------------------------------------------
+#nop Place tells in the top 5 lines of the screen
+#nop -------------------------------------------------------------------------
+
+#VARIABLE {COMMS} {}
+
+#ACTION {~%1 tells you %2}
+{
+	addtowin %1 tells you %2
+}
+
+#ACTION {~%1 chats %2}
+{
+	addtowin %1 chats %2
+}
+
+#ALIAS {addtowin}
+{
+	#format temp {%w} {%0};
+
+	#loop {1} {&temp[]} {cnt}
+	{
+		#list COMMS ins -1 {$temp[$cnt]}
+	};
+	#while {&COMMS[] > 100}
+	{
+		#list COMMS del 1
+	};
+	showwin
+}
+
+#ALIAS {showwin}
+{
+	#screen clear square 1 1 5 -1;
+
+	#list temp create $COMMS[-5..-1];
+
+	#loop {1} {&temp[]} {cnt}
+	{
+		#regexp {$temp[$cnt]} {^$}
+		{
+			#nop
+		};
+		#else
+		{
+			#line ignore #showme {$temp[$cnt]} {$cnt} {1}
+		}
+	}
+}
+
+#ALIAS {test}
+{
+	#split 5 1;
+	#showme <138>Bubba tells you 'hello';
+	#showme <158>Pamela chats 'bye';
+}
+
+#nop -------------------------------------------------------------------------
+#nop Display two sessions next to each other
+#nop -------------------------------------------------------------------------
+
+#event {SCREEN RESIZE}
+{
+	#var ROWS %0;
+	#var COLS %1;
+	#draw line 1 {$COLS / 2} -3 {$COLS / 2};
+
+	#left #screen scroll 1 1 -3 {$COLS / 2 - 1};
+	#right #screen scroll 1 {$COLS / 2 + 1} -3 -1;
+}
+
+#event {PROGRAM START}
+{
+	#screen raise SCREEN RESIZE;
+	#ses right localhost 4321;
+	#ses left localhost 4321;
+}
+
+#event {SESSION CREATED}
+{
+	#var name %0;
+}
+
+#event {SESSION ACTIVATED}
+{
+	#gts #var active %0;
+}
+
+#event {RECEIVED OUTPUT}
+{
+	#if {"@gts{$active}" == "$name"}
+	{
+		#return;
+	};
+
+	#switch {"$name"}
+	{
+		#case {"left"} {#draw Red boxed foreground buffer 1 1 -3 {$COLS / 2 - 1};};
+		#case {"right"}{#draw Red boxed foreground buffer 1 {$COLS / 2 + 1} -3 -1};
+	};
+}
+
+#nop -------------------------------------------------------------------------
+#nop Follow the group leader on the map.
+#nop -------------------------------------------------------------------------
+
+#var short_dir
+{
+	{north}{n}
+	{northeast}{ne}
+	{east}{e}
+	{southeast}{se}
+	{south}{s}
+	{southwest}{sw}
+	{west}{w}
+	{northwest}{nw}
+}
+
+#action {%1 walks %2.$}
+{
+	#var {follow_targets[%1]} {$short_dir[%2]}
+}
+
+#action {^You follow %1.$}
+{
+	#if {&follow_targets[%1]}
+	{
+		#map move $follow_targets[%1]
+	}
+}
+
+#nop -------------------------------------------------------------------------
+#nop Use mouse click to change the input cursor's position.
+#nop -------------------------------------------------------------------------
+
+#config mouse on
+
+#split
+
+#event {SHORT-CLICKED MOUSE BUTTON ONE -1}
+{
+	#cursor position %1
+}
+
+#nop -------------------------------------------------------------------------
+#nop Move the VT100 map from the top to the right of the screen
+#nop -------------------------------------------------------------------------
+
+#map create
+#map flag vtmap
+#map flag unicode
+#map goto 1
+
+#split 0 1 0 -80;
+#map offset 1 82 -5 -1
+
+#screen resize horizontal 120
+
+#nop -------------------------------------------------------------------------
+#nop Add clickable session tabs at the top of the screen
+#nop -------------------------------------------------------------------------
+
+#event {PROGRAM START}
+{
+    #split 3 1;
+    #config mouse on;
+    #var active gts;
+    session_activated gts;
+}
+
+#event {SESSION CREATED}
+{
+    #gts session_activated %0
+}
+
+#event {SESSION ACTIVATED}
+{
+    #gts session_activated %0
+}
+
+#alias {session_activated}
+{
+    #line sub esc #var sessions[$active] {<138>\e]68;2;TABS;#$active\a\e[4;24m$active\e[24m};
+    #var active {%0};
+    #line sub esc #var sessions[%0] {<128>\e]68;2;TABS;#nop\a\e[4;24m%0\e[24m};
+    #draw foreground Azure table 1 1 3 -1 {$sessions[%*]}
+}
+
+#event {PRESSED SECURE LINK TABS MOUSE BUTTON ONE}
+{
+    %4
+}
+
+
+#nop -------------------------------------------------------------------------
+#nop Add basic MXP link and color handling
+#nop -------------------------------------------------------------------------
+
+#config mouse on
+
+#event {IAC DO MXP}
+{
+    #send {\xFF\xFB\x5B\}
+}
+
+#function {mxp_link}
+{
+    #line sub esc #var result {\e]68;1;%1;%2\a\e[4m%3\e[24m}
+}
+
+#act {~\e[1z<VERSION>} {#send {\e[4z<VERSION MXP=1.0 CLIENT=TINTIN++ VERSION=2.02.04>}}
+#act {~\e[1z<SUPPORT>} {#send {\e[4z<SUPPORTS +SEND +COLOR>}}
+
+#sub {~\e[4z<COLOR #%1>%2\e[4z</COLOR>} {<f%1>%2<900>}
+
+#sub {~\e[4z<SEND HREF="%1">%2\e[4z</SEND>} {@mxp_link{MXP;%1;%2}}
+
+#event {PRESSED LINK MXP MOUSE BUTTON ONE}
+{
+    #send {%4}
+}
+
+#sub {~\e[4z{<RExits>|</RExits>|<RDesc>|</RDesc>|<PROMPT>|</PROMPT>|<RName>|</RName>}} {}
+
+#sub {~\e[4z<RNum %d />} {}
+
+#sub {&lt;} {<}
+#sub {&gt;} {>}
+
+#nop -------------------------------------------------------------------------
+#nop Example script for using #list indexing.
+#nop -------------------------------------------------------------------------
+
+#var players[1] {{name}{bubba}{age}{15}{level}{24}}
+#var players[2] {{name}{pamela}{age}{19}{level}{2}}
+#var players[3] {{name}{ronald}{age}{69}{level}{13}}
+#var players[4] {{name}{bubba}{age}{26}{level}{30}}
+#var players[5] {{name}{ronald}{age}{11}{level}{31}}
+
+#alias {display}
+{
+        #var out {};
+
+        #loop 1 &players[] cnt
+        {
+            #var out[$cnt] {$cnt;$players[+$cnt][name];$players[+$cnt][age];$players[+$cnt][level]};
+        };
+        #draw scroll grid table 1 1 2+&players[]*2 80 $out[%*]
+}
+
+#alias {test1}
+{
+    #list players index name;
+    #list players order;
+    display
+}
+
+#alias {test2}
+{
+    #list players index name;
+    #list players order;
+    #list players reverse;
+    display;
+}
+
+#alias {test3}
+{
+    #list players index name;
+    #list players order;
+    #list players index level;
+    #list players order;
+    display
+}
+
+#nop -------------------------------------------------------------------------
+#nop This creates two input lines that can be switched between using the tab
+#nop key.
+#nop -------------------------------------------------------------------------
+
+#line quiet #split
+
+#macro {\t} {inputswitch}
+
+#var input[width] 1
+
+#alias {inputswitch}
+{
+    #cursor get {input[current]};
+    #cursor clear;
+    #cursor set {$input[buffer2]};
+    #cursor end;
+    #var input[buffer2] {$input[current]};
+    #draw Ebony tile {-1-$input[width]} 1 -2 -1 {$input[buffer2]}
+}
+
+#nop -------------------------------------------------------------------------
+#nop This allows for split screen scroll back, just use the mouse wheel in
+#nop the upper half of the screen.
+#nop -------------------------------------------------------------------------
+
+#event {PROGRAM START}
+{
+    #config mouse on;
+    #var SCROLL[MODE] 0;
+    #split 0 1;
+    #screen raise SCREEN RESIZE;
+}
+
+#event {SCREEN RESIZE}
+{
+    #var ROWS %0;
+    #var COLS %1;
+    #screen get SCROLL_TOP_ROW SCROLL[TOP_ROW];
+    #screen get SCROLL_TOP_COL SCROLL[TOP_COL];
+    #screen get SCROLL_BOT_ROW SCROLL[BOT_ROW];
+    #screen get SCROLL_BOT_COL SCROLL[BOT_COL];
+}
+
+#EVENT {SCROLLED MOUSE WHEEL UP}
+{
+    #if {$SCROLL[MODE] == 0}
+    {
+        #if {%0 < $ROWS / 2}
+        {
+            #var SCROLL[MODE] 1;
+            #var SCROLL[OLD_ROW] $SCROLL[BOT_ROW];
+            #math SCROLL[BOT_ROW] $SCROLL[OLD_ROW] / 2;
+            #var BUFFER {};
+            #screen scroll $SCROLL[TOP_ROW] $SCROLL[TOP_COL] $SCROLL[BOT_ROW] $SCROLL[BOT_COL];
+
+            #draw red teed line $SCROLL[BOT_ROW]+1 $SCROLL[TOP_COL] $SCROLL[BOT_ROW]+1 $SCROLL[BOT_COL];
+
+            #screen clear square $SCROLL[BOT_ROW]+2 $SCROLL[TOP_COL] $SCROLL[OLD_ROW] $SCROLL[BOT_COL];
+        };
+    };
+    #if {$SCROLL[MODE] == 1}
+    {
+        #buffer up 1
+    }
+}
+
+#EVENT {SCROLLED MOUSE WHEEL DOWN}
+{
+    #if {$SCROLL[MODE] == 1}
+    {
+        #if {%0 < $ROWS / 2}
+        {
+            #buffer down 1;
+
+            #buffer info save SCROLL[INFO];
+
+            #if {$SCROLL[INFO][LINE] == -1}
+            {
+                #var SCROLL[MODE] 0;
+                #var SCROLL[BOT_ROW] $SCROLL[OLD_ROW];
+
+                #split 0 1;
+                #buffer end;
+            }
+        }
+    }
+}
+
+#event {RECEIVED LINE}
+{
+    #if {$SCROLL[MODE] == 1}
+    {
+        #if {&BUFFER[] > $ROWS}
+        {
+            #list BUFFER del 1
+        };
+        #list BUFFER add {%0};
+
+        #draw tile $SCROLL[BOT_ROW]+2 $SCROLL[TOP_COL] $SCROLL[OLD_ROW] $SCROLL[BOT_COL] $BUFFER[%*];
+    }
+}
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
+
+#nop -------------------------------------------------------------------------
+#nop 
+#nop -------------------------------------------------------------------------
