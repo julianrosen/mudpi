@@ -3267,7 +3267,7 @@ MEDIT( medit_show )
     send_to_char( buf, ch );
 
     sprintf( buf, "Vnum:        [%5d]\n\rGender:      [%s]\n\r", pMob->vnum, pMob->sex == SEX_MALE ? "male" : pMob->sex == SEX_FEMALE ? "female" : pMob->sex == SEX_RANDOM ? "random" : 
-            pMob->sex == SEX_NB ? "non-binary" : "neutral" ); /* ROM magic number */ /* Modifed by JR */
+            pMob->sex == SEX_NB ? "nonbinary" : "neutral" ); /* ROM magic number */ /* Modifed by JR */
     send_to_char( buf, ch );
 
     sprintf( buf, "Race:        [%s]\n\r",  /* ROM OLC */

@@ -209,7 +209,6 @@ int hit_gain( CHAR_DATA * ch )
             gain /= 6;
             break;
         }
-
         if ( ch->pcdata->condition[COND_FULL] == 0 )
             gain /= 2;
 
@@ -849,8 +848,11 @@ void char_update( void )
             if ( ch->level < LEVEL_IMMORTAL )
             {
                 gain_condition( ch, COND_DRUNK, -1 * time_info.hour % 2 );
-                gain_condition( ch, COND_FULL, -1 * time_info.hour % 2 );
-                gain_condition( ch, COND_THIRST, -1 * time_info.hour % 2 );
+                if ( HUNGER_THIRST )
+                {
+                    gain_condition( ch, COND_FULL, -1 * time_info.hour % 2 );
+                    gain_condition( ch, COND_THIRST, -1 * time_info.hour % 2 );
+                }
             }
         }
 

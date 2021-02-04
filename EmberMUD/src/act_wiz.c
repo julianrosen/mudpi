@@ -1795,7 +1795,7 @@ void do_mstat( CHAR_DATA * ch, char *argument )
              race_table[victim->race].name,
              victim->sex == SEX_MALE ? "male" :
              victim->sex == SEX_FEMALE ? "female" :
-             victim->sex == SEX_NB ? "non-binary" : "neutral", /* Modified by JR */
+             victim->sex == SEX_NB ? "nonbinary" : "neutral", /* Modified by JR */
              victim->in_room == NULL ? 0 : victim->in_room->vnum );
     send_to_char( buf, ch );
 

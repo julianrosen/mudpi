@@ -5,11 +5,14 @@
 
 /* Added by JR */
 
-#define ENABLE_IMOTD  0 /* Enable imotd */
-#define PAUSE_MOTD    0 /* Pause at the MOTD during login */
+#define ENABLE_IMOTD  0 /* Enable imotd? */
+#define PAUSE_MOTD    0 /* Pause at the MOTD during login? */
 #define NO_KILL_STEAL 0 /* Is kill stealing prohibited? */
-#define AUTO_BOARD    0 /* Automatically display message boards on login */
-#define WAIT_STR      1 /* Display symbol when commands are blocked */
+#define AUTO_BOARD    0 /* Automatically display message boards on login? */
+#define WAIT_STR      1 /* Display symbol when commands are blocked? */
+#define SHOW_CP       0 /* Display creation points and % XP in score? */
+#define HUNGER_THIRST 0 /* Players get hungry and thirsty? */
+
 
 /* Prompts */
 #define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
@@ -201,7 +204,7 @@ cp. */
 #define CP_MIN_PENALTY  0
 #define CP_PENALTY      0
 #define CP_TRAIN_MIN    15
-#define CP_MAX 40 /* JR: Minimum allowed CP on creation */
+#define CP_MAX 40 /* JR: Maximum allowed CP on creation */
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
@@ -656,7 +659,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_LEVEL                  100
 #define MAX_EXP            2147483647
 #define MAX_CHUNKS                 80   /* Used in ssm.c */
-#define MAX_OUTPUT_BUFFER       32000
+#define MAX_OUTPUT_BUFFER     3200000  // JR increased by factor of 100
 /* Allows you to tune how easy/hard it is to level.  For instance 0.75 would give you only
  * 75% of the exp you'd normally get from any task basically making it 25% hard to level - Zane */
 #define EXP_MULTIPLIER             1
@@ -1302,7 +1305,7 @@ of combat. */
 #define SEX_NEUTRAL                   0
 #define SEX_MALE                      1
 #define SEX_FEMALE                    2
-#define SEX_NB                        3 /* Added by JR. Turns out 3 is already taken */
+#define SEX_NB                        3 /* Added by JR. */
 #define NUM_SEXES                     3 /* Not counting random or neutral */
 
 /* AC types */

@@ -2781,7 +2781,7 @@ void act( const char *format, CHAR_DATA * ch, const void *arg1,
 char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                   const void *arg1, const void *arg2 )
 {
-    /* JR: added non-binary pronouns */
+    /* JR: added nonbinary pronouns */
     static char *const he_she[] = { "it", "he", "she", "they" };
     static char *const him_her[] = { "it", "him", "her", "them" };
     static char *const his_her[] = { "its", "his", "her", "their" };
@@ -2985,6 +2985,8 @@ char *act_new( const char *format, CHAR_DATA * ch, const void *arg1,
     }
 
     MOBtrigger = TRUE;
+    //if ( 'a' <= txt[0] && txt[0] <= 'z')
+    //    txt[0] = UPPER(txt[0]); // JR: I wonder if this will work?
     return txt;
 }
 
