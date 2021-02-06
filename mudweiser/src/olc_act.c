@@ -199,7 +199,7 @@ void show_spec_cmds( CHAR_DATA *ch )
     buf1[0] = '\0';
     col = 0;
     send_to_char( "Preceed special functions with 'spec_'\n\r\n\r", ch );
-    for (spec = 0; spec_table[spec].spec_fun[0] != '\0'; spec++)
+    for (spec = 0; spec_table[spec].spec_fun(0) != '\0'; spec++) // JR: changed [0] to (0)
     {
 	sprintf( buf, "%-19.18s", &spec_table[spec].spec_name[5] );
 	strcat( buf1, buf );

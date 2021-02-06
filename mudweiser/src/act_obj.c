@@ -900,8 +900,7 @@ OBJ_DATA *out, *in;
 
     if (in->item_type != ITEM_DRINK_CON)
     {
-        send_to_char("You can only pour into other drink 
-containers.\n\r",ch);
+        send_to_char("You can only pour into other drink containers.\n\r",ch);
         return;
     }
 

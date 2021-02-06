@@ -844,8 +844,7 @@ void do_whisper( CHAR_DATA *ch, char *argument )
 
     if ( victim->desc == NULL && !IS_NPC(victim))
     {
-	act("$N seems to have misplaced $S link...please try again
-later.",
+	act("$N seems to have misplaced $S link...please try again later.",
 	    ch,NULL,victim,TO_CHAR);
 	return;
     }
