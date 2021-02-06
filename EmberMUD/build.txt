@@ -1,0 +1,621 @@
+
+        *****   Welcome to Ember's OLC Guide.  *****
+                  Version 1.11 (12/3/1997)
+                ********************************
+
+What's in here ?
+--> 0.  Word from the Authors
+--> 1.  General notes before you actually enter OLC
+--> 2.  General Useful Commands
+--> 3.  EDIT AREA --------- area handling
+--> 4.  EDIT ROOM --------- room handling
+--> 5.  EDIT OBJECT ------- object handling
+--> 6.  EDIT MOB ---------- mobile handling
+--> 7.  Appendix A : Resets
+--> 8.  Appendix B : Shops
+--> 9.  Appendix C : Pet Shops
+--> 10. Appendix D : Commonly Asked Questions.
+--> 11. Appendix E : Recent Additions.
+
+
+******************************************************************** 
+** 0. Word from the Author.                                       **
+********************************************************************
+
+        Hiya dear builder!  You're looking at what one day will (hopefully)
+be a complete manual for OLC, as it is used on MUDweiser.  All
+comments, ideas or bugs can be mailed to boydky@ece.orst.edu and I
+would like to encourage everyone to do so.  This manual is based on a manual by
+Ambiorix, Administrator of Shadow MUD, ambiorix@dark.x.dtu.dk, 
+and if you think something important is missing, let me know and 
+I'll add it.  Thank you for trying to make MUDweiser an even nicer place !
+
+   Note that this manual won't cover most topics that are discussed in
+the online help system of Realms.  Help in OLC can be accessed either
+through 'HELP ' or '? ' depending on what you ask help on. So I won't
+be bugging you any longer with this rather boring introduction, off to
+the building !
+
+                                
+
+
+**********************************************************************
+** 1. General notes (readme.1st)                                    **
+**********************************************************************
+
+    First a little comment about notation in this manual.  When I type
+some text between quotes, it means you have to type all what's in
+between. When I use <>-brackets, it means that you have to replace the
+thing what's in between with the appropriate value.  For example 'HELP
+BUILDING' and HELP '.  Buttons you have to press straight away, I've
+typed between []. I'll try to use capitals to enhance readability.
+
+        Ok, now let's get started.  First thing you need is your own area. 
+You can't create this yourself, so you'll need to ask an CRE or IMP.
+So if you need a new area just leave me a note or write one an email.
+
+        Once someone has created an area for you (and probably the first
+room too) he'll tell you a number.  This is the vnum (virtual number)
+of your area.  You'll need it when you want to travel to your area, or
+in some other occasions as well.  So let's say your area has vnums 6500-
+6599, and the first room has vnum 6500.  We'll work further on from this
+example.
+
+        Don't forget to read 'HELP BUILDING' and *** 'HELP GUIDELINES' ***,
+assuming they exist on your mud.  Even when you've read them before, it won't
+ hurt you to check again if anything has changed.  If there is no help on 
+that, I just have not made the help entries yet.
+
+**********************************************************************
+** 2. GUC (or General Useful Commands).                             **
+**********************************************************************
+
+
+        When you have Builder status you'll have access to a couple of extra
+commands.  Most of these commands have online help, so I'll be short
+about them here.
+
+GOTO : This command is used to travel .  It takes a room vnum or character 
+       name as an argument.    So to go to your area you type
+       'GOTO [vnum/char]', where [vnum] is a vnum in your area.  To leave your
+       area you can type 'GOTO 3001' or 'RECALL', which is the same, or GOTO 
+       anywhere else.  Just try not to annoy other builders who are building.
+STAT : This command can be used on mobiles, rooms and objects of your own
+       area.  The output is like the 'identify' spell, but STAT will
+       show ALL the info about the subject.  Occasionally, you may need to
+       specify whether you are stat-ing a mob or an object by using stat obj [obj],
+       or stat mob [mob], and to stat a room type stat room.
+ALIST : Try and see what happens.  This command is very useful when you
+        forgot the vnums of your area.
+BEACON: This sets your recall point to wherever you are.  It's a good idea to set this
+        to the first room in your area, or to your immortal rooms if you have them.
+**********************************************************************
+** 3. Areas. (And how little you can change about them*grin*)       **
+**********************************************************************
+Ok, here we are, ready to have a look at the area configuration.  To
+get into OLC mode, type 'EDIT AREA' when you're standing in your area
+or type 'EDIT AREA [your area vnum from "alist"]' from anywhere else in the mud.  
+
+One thing to keep in mind is, that once you are in OLC you can always
+just press [ENTER] to get an overview of the subject you're currently
+editing. When you do it now, you'll get an overview of some variables
+of your area.
+
+        So if you press [ENTER] you'll get a list that looks like the
+following (I took the old Mud School as an example) :
+
+> Name:         [ 2 ]{ 1  5} Hatchet  Mud School 
+> Filename:     [ school.are ]
+> Security:     [ 9 ]  Type [ normal ]  
+> Builders:     [ None ]
+> Flags:        [ added changed ]
+> Age:          [ 13 ]
+> Players:      [ 1 ]
+
+        Some of these fields you can change yourself, others you
+can't because of insufficient security.  If you can't edit anything,
+don't bother trying.  You shouldn't really need to. If you really feel 
+that something in the area data needs changing, ask a IMP or CRE or note them.
+What follows is an explaination of the fields you probably can configure yourself.
+
+**** First the name.  It's kinda obvious what the purpose of this
+field is,  but may I draw your attention to the exact syntax of this
+field :
+
+        { 1  5} Hatchet  Mud School
+         ^^ ^^  ^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+So first you type the suggested level range, between {}, a space, then
+your own name followed by spaces till it counts up to 8, then another
+blank space, and finally the 'name' of the area.  If you're not sure
+you typed the spaces right, you can always do an 'ALIST' to see if the
+name is correctly lined up.  If your name is too long, shorten it to 8
+letters or just use one space no matter what.
+
+You shouldn't have to worry about any other fields, as they will be filled
+out automatically or by a high immortal.  Don't try to change those
+other values yourself please, you would do more harm than good.
+
+As soon as all these fields are changed to your wishes, you can save
+the changes by typing 'ASAVE AREA' when in OLC mode.  You can leave 
+OLC mode by typing 'DONE'.
+
+
+**********************************************************************
+** 4. Rooms. (To be in one or not to be in one)                     **
+**********************************************************************
+
+
+        Before we continue, let's assume you're now standing in the first
+room of your freshly created area.  In our example it would be room 6500
+of vnums 6500-6599.  Again, you can simply enter OLC mode 
+ by typing 'EDIT ROOM'.  Pressing [ENTER] will give you an
+overview of what you have so far.  When you do it now, it will look
+like : 
+
+> Description: 
+> 
+> Name:        [  ]
+> Area:        [   1] {xx xx} Yourname Area name
+> Vnum:        [ 6500 ]
+> Sector:      [ inside ]
+> Room flags:  [ none ]
+> Characters:  [ Yourname ]
+> Objects:     [ none ]
+
+
+        First I'll explain the use of the flags in this overview, and I'll
+get to creating rooms and exits later.  The flags 'Area' and 'Vnum'
+are filled out automatically, so no need to worry about them.  'Name'
+is the name of the room, as it will appear above the room description.
+ Therefor the name should be short, but very clear.  Also, most words 
+ in the name start with a capital etc etc.
+
+        Then we have 'Sector'.  Although it doesn't seem to be important to
+set this flag correctly to some builders, I must tell you that it is !
+For instance otherwise you would see the sun come up in the east when
+you're underwater, for instance.  Or when you're in a small closed
+room, you would be able to 'call lightning' and so on...  So although
+it's purpose might not be immediately clear to you, you better set the
+'Sector' flag correctly. Try '? SECTOR' to get a list of possible
+flags.  If the sector type you're looking for is not in the list, you
+should take the type that comes closest to what you need.
+
+        The last flag you can set is the 'Room flags'.  Try '? ROOM' to get
+a list of these flags.  Most of them are rather obvious to what they
+mean. **** WARNING **** Use ONLY following flags for normal room
+creation : dark, mo_recall, no_mob, safe, indoors, solitary, pet_shop
+or private.  Other flags are rather dangerous to tear down gameplay,
+and if you're wanting to use any of the others ALWAYS ASK A HIGHER IMM
+FIRST.  Flags like IMM_ONLY, HERO_ONLY, GOD_ONLY, IMP_ONLY and stuff should
+be only used for rooms in the immortal zone(usually rooms 1200-1299)
+
+        Finally there's the room description.  Enter the description editor
+by typing 'DESC' when in Room Edit Mode.  On a new line, enter '.h' to
+get a list of available options in the editor.  Type in your room
+description (remember to follow the rules as mentioned in the
+GUIDELINES, be imaginative), then try '.s' and NEVER forget '.f' 
+Leave the editor by typing a '@' on a new line and your first room is
+finished.
+
+General rule for making goods descriptions:
+
+Stay in the 3rd person.  An area looks much better if "you feel as if...."
+and "you see...." are replaced with "most would feel...." and "... is visible
+here."  
+
+If your area does not repeat rooms, don't make all your descriptions the same.
+If every room desc in your area begins with "Blah is visible here, with blah to 
+the north, and blah in all other directions.  A feeling of blah is here.  blah 
+blah blah...." it gets boring quick.
+
+Use good grammar and spelling.  Professionally made original areas make a mud look good.
+Common grammatical errors such as your/you're, there/their/they're, it's/its, etc. may sound
+the same when you're talking, but they look different.  Trust me when I say that
+IMPs hate going through area files to correct grammar of lesser gods.
+
+Don't make a desc too long or too short.  3 lines is the shortest any good 
+and a good length to stick to is 5 or 6 lines.  More than 8 lines is excessive
+and more than 10 lines is too much, except for very special rooms.  Excessive 
+color causes lag, so avoid it except to emphasize.
+
+*********   SAVE OFTEN   ****************
+
+        Type 'ASAVE AREA' in OLC mode or 'ASAVE ' when in
+normal mode to save your newly created room, and type 'DONE' to leave
+OLC mode.  Have a look at your freshly created room... Pretty neat huh
+:)
+
+                *** * * E X I T S * * ***
+
+        Now that your first room is finished, you might want to expand your
+area.  This brings us to the 'exits' part, a part which I seperated
+from the rest cause this one is usually a problem for newbie builders.
+ First thing to do now is, when in room edit mode, type 'HELP EXIT',
+which will give you a brief summary of available options.
+
+        Note that before EVERY exit creation command you need to type the
+direction in which you want to create/add the exit.  Let's first have
+a closer look at the DIG command.  This command accepts a room vmun as
+argument and does actually two things for you : it creates the room
+with the given vnum (if it didn't exist already) and then creates a
+two-way link to that room.  By checking you prompt, you'll see that
+you immediately moved to the new room, ready to edit it.  So if you're
+standing in room 6500 and you wish to create a room with vnum 6501, north
+from room one, you type '<DIRECTION> DIG 6501' when standing in room 6500.  Be
+careful, as although you can delete an exit/link, you can't delete any
+rooms.  Also, olc commands overwrite normal commands, so most abbreviations 
+for directions won't work, for instance 'n dig 6501' will change the 
+name of the room to 'dig 6501'.  This is due to the mud thinking "n" is an
+abbreviation for "name" instead of "north." This may vary between muds.
+
+        The LINK command is rather obvious : it will just create a link
+between two existing rooms.  *** WARNING *** If you link a room to
+itself, you'll create a loop from which you can't leave.
+
+        The link command is followed by the ROOM command.  I can't be clear
+enough about this : USE THIS WITH GREAT CAUTION and NEVER USE IT JUST
+FOR FUN.  The ROOM command creates a one way link, meaning that the
+player can go in that direction, but then can't return that way any
+more.  As you probably have played some muds yourself, you know how
+nasty and frustrating this can be.
+
+        Finally, you have some things to make your exits a little more
+'alive'.  You have the option to lock the door with a KEY (make an
+object of type 'key', give your door the 'closed' and 'locked' flag,
+and try the KEY command), give the exit a name (useful for doors, for
+instance you could name a door in the floor 'Grating' and then you can
+'open grating' instead of 'open down'), and give the exit a
+description (when a player looks in that direction, he'll see the
+desc).  Exit descriptions are usually one line and only need to be used if
+there is something significant in that direction.
+
+        If you mess up, you can always delete links you've made with the
+DELETE command(usage: '<DIRECTION> DELETE' ).  Normally, when you delete 
+a link from one room to another in the first room, the exit should be 
+deleted in the second room too, although this is not always the case.  
+So I can advise you to check both sides of the link after you deleted 
+it, to ensure you there are no leftovers of that link.
+
+        Once again, all help can be found in 'HELP EXIT' when in OLC mode,
+and when editing exits, never forget that you have to TYPE A DIRECTION
+IN FRONT OF YOUR EXIT COMMAND.
+
+
+**********************************************************************
+** 5. Objects. (The tough part)                                     **
+**********************************************************************
+
+
+        The tough part yes, not because of the editing (which is fairly
+simple), but because everyone wants HIS equipment to be used over that
+of another.  I must ensure you that we have the idea that most objects
+must be 'casual', like in real life, and that only very few objects
+can be 'special'.  It's somebody's job to check new areas, and too often they
+find too much equipment that is just too good to be brought in the
+game.  First you have to follow the rules when creating an object, but
+this doesn't mean you have to give ALL your objects extra affects. 
+The same thing goes for scrolls and potions.  There's no need for
+instance to make a potion that contains sanctuary, haste and bless, as
+this will unbalance the game... Unless, of course, you put it on a level 90
+mob.  I know this may sound rather awkward, but we know that if most 
+equipment is 'casual', all this equipment will be used, and only then.
+
+        Enough of my moralising talks, let's get on with the Objects.  I
+suppose you already know by now how to create a new object.  Just in
+case, you can create a new object by typing 'EDIT OBJECT CREATE <VNUM>' or you
+can edit an existing object by typing 'EDIT OBJECT <VNUM>'.   Pressing [ENTER] will
+give you an overview of what you have so far.
+
+        Again, there are lots of fields that you can edit.  I won't be
+discussing every field here, as most of them are either very clear, or
+either have good help in OLC itself (usually it's '? ' to obtain a
+list of possible values).  I'll discuss here some of the fields, which
+I think are the most important.
+
+        First I draw your attention to the linearity that needs to be
+present in the three followin fields : name - short desc - long desc. 
+I'll start with an example.  A sword could have as Name 'fighters
+sword', as Short Desc 'a Fighter's Sword' and as Long Desc 'A
+well-crafted sword lies here on the ground.'.  Notice that the MAIN
+KEYWORD (sword) is present in all three the fields.  The Long
+description is what you see when you LOOK at the object, or what you
+see when the object is lying on the ground in a room and you LOOK. 
+Short Description is used whenever you perform an action on the object
+(take, drop, wield, ...) and so should be rather short, but also
+providing enough information (like 'a sword' would be of no use, as
+the player won't know which sword).  Finally the name is the name the
+mud uses to address the object.  Note that a Long description should
+always have a verb in it (e.g. blah lies at your feet ... a blah catches your
+attention ... someone lost a blah here... use your imagination!).
+
+        Be sure to set the wear flags correctly.  An item that you want
+someone to be able to pick up should for instance have the 'take'
+flag.  A weapon needs to have the 'wield' flag etc.  Also never forget
+to set the weight and the cost (rather set these too little than too
+much, check the existing objects to have an idea of these values). 
+Although their purpose might not be immediately clear, they have one.
+
+Armor values are not corrently listed in the help files.  A good system is
+to make ac vs. slash, bash, and pierce equal to 1/2 the level of the object, 
+and ac vs. magic 1/3 of the level, rounded up.  As an example, a level 15 piece
+of armor might have values 8 8 8 5.  Special values are OK, for instance a magic
+robe of level 20 might have values 3 3 3 25 because it's resistant to magic, and
+a certain type of armor might have values 9 2 9 5 because it does not protect well
+against bashing.  Attempt to use common sense.  These standard values may vary between
+muds.  Ask an IMP if you're not sure.  Note:  this is for a 100 level mud.  If
+the mud you're on has 150 mortal levels, for a level 120 piece of gear, ac of
+60 60 60 40 may be excessive.  
+
+        Final thing I want to discuss about object are the AFFECTS.  Before
+I explain how to set them, let me make clear that ***** IT IS VERY
+IMPORTANT THAT YOU DO NOT MAKE EXCESSIVE AFFECTS *****
+There's no need to try to make big ones, as someone will check every item in
+a new area before connecting it.  This is not to bug you, but just to
+keep a certain balance in gameplay. Same thing goes for the other
+values you can set, like damdice for weapons ('HELP WEAPON_DICE'). 
+Ok, so now to add an apply, you use the command 'ADDAFFECT  '.  For
+instance 'ADDAFFECT WISDOM 2'.  Again, PLEASE RESPECT BALANCE FOR
+THESE KIND OF APPLIES.  Note: you have to type out the affect in full.
+ADDAFFECT WIS 2 won't work on standard EmberMUDS.
+
+
+**********************************************************************
+** 6. Mobs. (The little nastly living creatures)(mobiles)(MONSTERS!)**
+**********************************************************************
+
+
+        Now let's bring some life in your new area.  Adding mobs is very
+like adding objects.  Enter Mob Edit Mode as usual by typing 'EDIT MOB
+CREATE <VNUM>' to create a new mob, or 'EDIT MOB <VNUM>' to edit an existing 
+mob. Pressing [ENTER] will give you once again an overview of what you've
+got so far.  Many of the fields are kinda clear, I'll just try to
+explain some of the more difficult stuff about mobs here.  BE CAREFUL
+THOUGH NOT TO CREATE A MOB WITH THE NAME OF AN EXISTING PLAYER.  This
+will prevent the player from loging in.  If we find anyone abusing
+this, he'll loose his building privileges or more.
+
+        ----------------*** IMPORTANT ***--------------------
+For the values in hitdice, damdice, manadice, ac there are some helpfiles included
+ with the mud. THESE VALUES ARE NOT BINDING, meaning that you don't HAVE
+TO USE THESE, but use them with only small deviations possible.  Please respect
+these values, as they are important to keep the balance on Realms.  If you 
+are creating mobs that have a level where values are not given, try to average the
+values to the appropriate level.
+        ----------------*** IMPORTANT ***--------------------
+
+        Furthermore, you can reread the notes about the use of 'name',
+'short description' and 'long description', which I explained earlier
+in the paragraph about objects.  Note that with mobs you have the
+opportunity to type an extra description (using the editor), and I
+encourage you to make use of this.  Try to type a couple of lines
+about what the mobile looks like, what it's doing, even things like
+what it smelly like.
+
+        Other values which may need some explaination are align (how good
+the mob is... -1000 is satanic, 1000 is angelic), gold (don't load
+your mobs with too much gold... try to stay around 20 gold per level
+for a normal mob, with a general max of 500 gold or so) and hitroll 
+(usually you can take the same value as the level of the mob, with 
+variations for mob type).
+
+        ----------------*** IMPORTANT ***--------------------
+        Be very careful when filling out the IMM and RES fields.  For
+instance making a mob IMMune to weapon and magic makes it
+invulnerable.  Do not use these flags without any clear reason.  Same
+thing goes for the affects.  Don't use these for no reason.  And for
+instance a mob with dark_vision hasn't got much sense either.  Avoid
+this. 
+        ----------------*** IMPORTANT ***--------------------
+
+        So the only field left that needs some extra info is the 'act'
+field.  With '? ACT' you get a list of possible flags.  Here I'll give
+some extra info on some of these flags.  
+
+Sentinel : makes the mob always stay in the room it resets.
+Scavenger: makes the mob pick up things it finds lying around.
+aggressive: mob will attack everyone near him of lower level.
+wimpy    : mob will flee when it drops below certain hp level.
+stay_area: mob will never leave the area it resets in.  
+           YOU MUST EITHER SET THIS FLAG OR HAVE A NO_MOB ROOM AT
+           ALL EXITS TO YOUR AREA, UNLESS YOU ASK AN IMP TO DO OTHERWISE!
+pet      : mob will be a pet (see section about Pet Shops)
+undead   : mob won't be able to be resurrected
+
+The other flags are either not in use, or either are you not supposed
+to use them.  These flags include train, gain, practice, is_healer and
+killable_shopkeeper.  If you absolutely wish to use one of these
+flags, ask me first.
+
+
+**********************************************************************
+** Appendix A : Resets. (Or How bad Can it Get ?)                   **
+**********************************************************************
+
+
+        Now that you have object, mobiles and rooms, it's time to populate
+your area with all these nice thingies.  Making resets is not
+difficult at all, just read this section very carefully, and once
+you'll get the hang of it, it will be very easy.
+
+        First thing to know is that resetting stuff should happen WHEN IN
+ROOM EDIT MODE.  Go stand in a room in which you want to reset a
+certain thing and then type 'EDIT ROOM'.  
+
+
+Syntax: RESET <number> OBJ <vnum> <wear_loc>
+        RESET <number> OBJ <vnum> in <vnum>
+        RESET <number> OBJ <vnum> room
+        RESET <number> MOB <vnum> [<max #>]
+        RESET <number> DELETE
+        
+        RESET <number> MOB <vnum> [<max #>] Is probably what you want to do first,
+        to your entire area, so you can put objects on the mobs later.  Set max #
+        to the highest number of mobs you want in the ENTIRE area.  Otherwise only one
+        of each will reset.  The <number> field will matter more in the objects section.
+        The <number> is the order of what is reset first in that room.
+        
+        RESET <number> OBJ <vnum> room just stick an object on the ground.  Simple.
+        Watch out, if there is a scavenger mob reset into the same room, it won't be on
+        the ground long.....
+        
+        RESET <number> OBJ <vnum> <wear_loc> puts an object onto a mob. A list of wear
+        locations can be found with ? wear, or just use 'none' to put it in inventory.
+        The <number> field is very important, as it determines which mob loads that 
+        specific object.  If you're not sure you did it right, type RESET to see resets
+        for that room.
+        
+        RESET <number> OBJ <vnum> in <vnum> puts an object inside another(i.e. a ring into a 
+        jewlery case, a sword into a chest...).  Again, the number field is important.
+
+        You can get a list of current resets in the room by typing 'RESET'with no arguments, 
+        and you can delete unwanted resets by the command 'RESET <number> DELETE'.
+
+More online help can be found at 'HELP RESET'.
+
+        *** IMPORTANT NOTE *** It is very important that you enter the
+resets very tidy and logical.  First reset the mob, then its
+equipment, and only after that reset the next mob in the room.  If you
+would reset the two mobs first, it is very likely that all the objects
+will reset on only the last mob.  It's always good to check with
+'RESETS' after you finished all resets in the room to see if
+everything resets as desired.
+
+
+**********************************************************************
+** Appendix B : Shops. (Let's think business!)                      **
+**********************************************************************
+
+Shops can be added when in MOB EDIT MODE.  If, for instance, you
+want to make the existing mobile with vnum 6506 a shopkeeper, try 'MOB
+EDIT 6506'. The one and only command for shops is 'SHOP' (don't be so
+surprised!). Simply typing 'SHOP' when in Mob Edit Mode will give you
+a list of possible options.
+
+  This is fairly simple, so I'll just try to give you an idea on how
+it works by following example.  Let's say I want to make the existing
+mob with vnum 6506 a shopkeeper, and he sells item 6501 (food), item 6502
+(food), and item 6503 (which is a drink-container).  All these objects
+you make first as discussed in previous chapters. The commands to
+accomplish this are :
+
+EDIT MOB 6506 
+SHOP TYPE 0 FOOD 
+SHOP TYPE 1 DRINK-CONTAINER 
+SHOP HOURS 0 23 
+[makes him open all day... use 8 17 to make him open 8 am to 5 pm etc....]
+SHOP PROFIT 120 80
+[makes him charge 120% of cost to buy, and he pays you 80% to buy it from you }
+
+[goto the room where the shopkeeper is supposed to reset] 
+EDIT ROOM 
+RESET 1 mob 6506 
+RESET 2 obj 6501 none 
+RESET 3 obj 6502 none 
+RESET 4 obj 6503 none
+
+As you can see, you first reset the shopkeeper, and then all the
+items he's supposed to sell in his inventory.  Note that the items you
+reset on the shopkeeper need to be OF THE EXACT SAME TYPE as the
+type(s) defined in the SHOP LIST.  If this is not the case, the item
+will simply reset in the shopkeeper's inventory, without him offering
+to sell it.
+
+Perhaps a last warning about shopkeepers : NEVER (I repeat NEVER)
+make a shopkeeper with the intention of having him die.  Although
+a baker doesn't seem to have much money for instance, he can gather a
+fortune when everybody starts selling all kinds of food to him.  It
+would be a spoiler if you could get rich like that in a couple of
+seconds.  A good way to do this is to make him level 100 with 30000 hit points
+and affected by sancturary and have hitroll of 200 and things like that.
+Making shopkeepers immune to weapons and magic is OK if they truly must not be
+killed, such as if you make a jewler who buys stuff for millions and you have
+to put that much gold on him.
+
+**********************************************************************
+** Appendix C : Pet Shops. (Try to understand it at first reading!) **
+**********************************************************************
+
+Pet Shops are kinda annoying to get started with, but once you've
+done it, it's rather simple, as it is with so many things.  First
+things first.  Start with the room which you want to make the pet
+shop.  First thing you need to do, after you've finished making the
+room, is to give the room the 'pet_shop' flag.
+
+ Then reset a mob in this room which will be the pet shopkeeper. 
+Notice that you DON'T have to use the SHOP command on this mob.  Then
+the tricky thing is that you have to create a dummy room with vnum
+exactly one higher than the pet shop room vnum.  There shouldn't be
+any exits in this room, and it shouldn't be part of your area
+actually.  It's just a dummy room, solemly created to reset the pets
+in.  Create pets in exactly the same way as you created mobs, and then
+add the 'pet' flag.  Make these pets reset in the dummy room.
+
+Hint : use as name for the dummy room 'pet reset room' and type a
+short description about the fact that the room is not part of the
+game. That way, you'll always know the purpose of the room (and so
+will we) :)
+
+        I think this covers it.  If something's not to clear, try and
+experiment, it's not as hard as it seems.
+
+        I have not actually tried to make a pet shop.  This is all based
+on help files and the like.
+
+**********************************************************************
+** Appendix D : Commonly Asked Questions (CAQ's) -- AND answers!    **
+**********************************************************************
+********
+
+--> Additional help.
+ You can find additional help in many ways.  First, there's always the
+ online help.  In OLC you can type 'COMMANDS' to get a list of
+ possible commands, and then you can type 'HELP ' to get more help on
+ almost any of these commands.  Try '?' in OLC to get a list of extra
+ help files.  'HELP OLC' works too, and for the specific editors, try
+ 'HELP REDIT' 'HELP OEDIT' 'HELP MEDIT' 'HELP AEDIT'  If nothing else 
+ works, you can send a note to Kyle, or email me.
+
+--> Zmud special keys
+ I've got lots of questions from people who had some problems with the
+ .x commands inside the editor.  This is usually due to the fact that
+ they're using Zmud as Mud Client.  In Zmud, the dot '.' is a special
+ character, reserved for speedwalking.  So all you have to do to fix
+ the problem is to either replace that special key in Zmud or switch
+ them off.  This can be done by going through some menu opions in Zmud
+ itself.(I believe that in some versions there are 2 icons in the bottom
+ right corner, a gun and a computer.  I think clicking on the computer
+ fixes this problem.  Either that or turn off parsing from the menus or
+ something weird like that.)
+
+--> Deleting Stuff
+ In OLC it's not possible to delete items, mobs or rooms.  Instead,
+ you can just change all the fields of the thing you don't need any
+ more, and re-use it.   Like if you want to get rid of a certain item
+ you made, just make it into another item you do need.  If you just made
+ too many items, change everything to "none" "0" "trash" or whatever seems
+ right for that field.
+
+**********************************************************************
+**Appendix E: Recent Additions(add stuff specific to your mud here!)**
+**********************************************************************
+
+
+Random object loading:
+To have your mobs load objects of a certain type, use the "chance", 
+"number", and "types" commands to define these, and use ? randobj
+to see valid arguments for the "types" command.
+
+Anti-class flags:  In the "extra" section of objects, you can add flags 
+so an object can not be worn by certain classes.  PLEASE do this wherever 
+it makes sense... i.e. Full plate mail should be definately anti-mage, 
+and maybe anti-cleric, anti-thief, or anti-nightblade too.
+
+
+Additions changes to original builder's help guide by:
+Kyle Boyd
+boyd1@proaxis.com
+
+MUDweiser @ :
+mudweiser.mudservices.com 9000
+(may change, if you can't connect, try www.mudconnect.com to see if the 
+address there has changed.)
