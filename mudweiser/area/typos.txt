@@ -1,0 +1,18 @@
+[ 3745] Alendryal: inv
+[ 3014] Nido: I think the Gartner Snake should be Garter Snake.
+[ 7110] Nido: on the second space of Pixie Road, it should say look, not lok.
+[ 1505] Nido: on the Not-Quite-So Foggy Trail it says think instead of thick.
+[ 7138] Tanot: in the Treasure Room in the Pixie Castle, it says 
+[ 7138] Tanot: ummm... this is the end of the last typo note, 'pile of it around,'  it should say piles.  sorry about using two notes.
+[ 8213] Tanot: in the Black Cat Hotel, first room on the east, it says slef, instead of self.
+[ 1578] Tanot: in Scene 24, it says warms instead of warns.
+[ 1588] Tanot: tim says something can leep, I think it should say leap.
+[ 1131] Tanot: on the third part of the Road of the Dead, it says chop on them, instead of chomp on them.
+[ 1132] Tanot: by the key hole on Road of the Dead, it says a stone plague, it should say stone plaque.
+[ 1146] Tanot: ummm... LoneWolf is holding a sommerswerd,  should this be summersword?  or sommersword?
+[ 1149] Tanot: in Narr's Sanctuary he should have a throne, not a thrown.
+[ 1589] Tanot: on The Rocky Trail, just before the Bunny Rabbit, grewsome is spelled wrong, I think it should be gruesome.
+[ 3054] Nido: on the help desc screen it says wat instead of what.
+[ 6107] Ekim: the Amazonian Warrior's desc.  says here when it should say her.
+[ 5214] Ekim: on the desc. of a Dwarf Commoner he is a rather average ooking Dwarf.   it should say looking.
+[ 3054] Ekim: in the description help, it says wat instead of what.

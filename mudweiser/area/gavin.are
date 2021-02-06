@@ -1,0 +1,1114 @@
+#AREADATA
+Name        {12 55} Gavin   City of Babolini~
+Builders    None~
+VNUMs       8200 8299
+Security    6
+End
+
+
+
+#MOBILES
+#8200
+citizen~
+a citizen of babolini~
+A citizen of Babolini smiles as you pass him.
+~
+~
+Human~
+AGT N 100 S
+12 10 10d18+25 1d10+100 2d3+3 3
+1 1 1 3
+LP 0 B CI
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+#8201
+Lord Sage~
+Lord Sage~
+Lord Sage is in a bed, giggling.
+~
+~
+Human~
+AB 0 0 S
+41 10 15d84+512 0d0+0 5d8+18 0
+-15 -15 -15 -1
+F 0 0 0
+8 8 1 1500
+AHMV ABCDEFGHIJK M unknown
+#8202
+Lady Sage~
+Lady Sage~
+Lady Sage is underneath the covers.
+~
+~
+Human~
+AB 0 0 S
+40 15 15d84+490 0d0+0 5d8+18 0
+-15 -15 -15 -1
+K 0 0 0
+8 8 2 3000
+AHMV ABCDEFGHIJK M unknown
+#8203
+god of sun~
+the God of The Sun~
+The God of The Sun is here polishing his sword.
+~
+~
+Human~
+AB H 100 S
+45 55 30d100+900 100d100+100 7d10+20 21
+-18 -18 -18 -4
+EHK LQ P 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#8204
+bodyguard glud~
+Glud the BodyGuard~
+The BodyGuard of Lord & Lady Sage is here wide awake.
+~
+~
+goblin~
+ABF J -100 S
+55 30 14d173+799 0d0+0 7d12+20 8
+-30 -30 -30 -10
+0 0 Q C
+8 8 1 4500
+AHMV ABCDEFGHIJK M unknown
+#8205
+cyrax drunken warrior~
+Cyrax~
+A drunken warrior named Cyrax is here mumbling to his slef.
+~
+~
+orc~
+ABT J 0 S
+48 10 10d169+900 0d0+0 6d10+21 0
+-18 -18 -18 -4
+0 0 Q S
+8 8 1 3289
+AHMV ABCDEFGHIJK M unknown
+#8206
+Billy Hotel Clerk~
+Billy The Hotel Clerk~
+Billy the Hotel Clerk is sorting his paper-work.
+~
+~
+Human~
+ABQ H 500 S
+40 34 15d175+900 0d0+0 12d12+27 0
+-50 -50 -50 1
+FK 0 0 0
+8 8 1 1203
+AHMV ABCDEFGHIJK M unknown
+#8207
+female citizen~
+a female citizen of babolini~
+A female citizen of Babolini is here.
+~
+~
+Human~
+AG 0 250 S
+13 2 8d30+100 1d10+100 2d3+3 0
+-2 -2 -2 4
+0 0 0 0
+8 8 0 300
+AHMV ABCDEFGHIJK M unknown
+#8208
+wandering adventurer~
+a wandering adventurer~
+A wandering adventurer is passing through Babolini.
+~
+~
+Human~
+AG 0 0 S
+25 8 10d80+500 0d0+0 4d5+10 6
+-14 -14 -14 -2
+0 0 0 0
+8 8 3 3400
+AHMV ABCDEFGHIJK M unknown
+#8209
+arrilo~
+the powerful wizard Arrilo~
+Arrilo the Wizard of the Black Robes is here half awake.
+~
+~
+modron~
+AB HJ 250 S
+80 29 15d220+920 100d100+100 10d20+29 0
+-50 -50 -50 -19
+QR BMNPQ HIK 0
+8 8 1 9250
+H ABCGHJK M unknown
+#8210
+lazy hound dog~
+a lazy hound dog~
+A lazy hound dog lies on the floor sleeping.
+~
+~
+dog~
+AB 0 50 S
+35 10 10d61+416 0d0+0 5d6+15 32
+0 0 0 0
+H 0 0 0
+8 8 3 0
+AGV ACDEFHJKUV M unknown
+#8211
+john shopkeeper~
+John the shopkeeper~
+John the shopkeeper is waiting to sell you some supplys.
+~
+~
+Human~
+ABd DZ 0 S
+50 20 10d169+920 0d0+0 5d10+25 0
+0 0 0 0
+0 0 0 0
+8 8 0 10000
+AHMV ABCDEFGHIJK M unknown
+#8212
+gigantic jackel~
+the Gigantic Jackel~
+The Gigantic Jackel is here ready to attack!
+~
+~
+Giant~
+ABF 0 -500 S
+52 32 15d190+980 0d0+0 5d10+20 27
+-40 -40 -42 -12
+0 0 HI JP
+8 8 0 0
+AHMV ABCDEFGHIJK G unknown
+#8213
+Taylor~
+Taylor~
+Taylor is here aiding his sick brother who sneers at his effort.
+~
+~
+Human~
+AB 0 100 S
+35 17 10d61+416 90d90+90 5d6+15 0
+-12 -12 -12 -1
+0 0 0 0
+8 8 1 3823
+AHMV ABCDEFGHIJK M unknown
+#8214
+tommy~
+Tommy~
+Tommy is withdrawn in a corner mixing an aromatic cup of herbal brew.
+~
+~
+Human~
+ABT 0 75 S
+35 12 10d61+416 0d0+0 5d6+15 0
+-12 -12 -12 -1
+0 0 0 0
+8 8 1 2406
+AHMV ABCDEFGHIJK M unknown
+#8215
+nigel bartender~
+nigel the bartender~
+Nigel the Bartender is here ready to serve you a drink.
+~
+~
+Human~
+ABd 0 0 S
+90 33 100d100+100 10d10+10 10d10+20 0
+0 0 0 0
+0 0 0 0
+8 8 0 10000
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#8200
+can nuts~
+a can of nuts~
+A can of nuts lie here.~
+unknown~
+19 0 A
+ABCD 0 0 0 0
+0 2 25 P
+#8201
+canteen~
+a canteen~
+A canteen lies here.~
+unknown~
+17 0 A
+ADE ADE 0 0 0
+2 4 50 P
+#8202
+backpack back-pack~
+a worn-out backpack~
+A worn-out backpack lies here covered with dirt.~
+unknown~
+15 0 AK
+BDEFGH A 0 0 0
+10 5 200 P
+A
+18 1
+A
+19 1
+#8203
+sunsword sun sword~
+the Sword of The `YSun`W~
+A brightly flaming sword lies here.~
+unknown~
+5 AB AN
+A ABC AD AB A
+45 5 15034 P
+A
+19 6
+A
+18 5
+#8204
+bottle beer~
+a bottle of beer~
+A bottle of beer lies in the dust.~
+unknown~
+17 0 A
+BD BD A 0 0
+15 2 250 P
+#8205
+shot of whisky~
+a shot of whisky~
+A borken shot-glass with some whisky lies on the counter.~
+unknown~
+17 0 A
+B B AC 0 0
+15 0 100 P
+#8206
+black robe~
+a Black Robe~
+A powerfull black robe belonging to a powerfull wizard lies here.~
+unknown~
+9 ABSTUV AK
+ADE ADE ADE ADE 0
+75 2 42527 P
+A
+19 2
+A
+18 2
+A
+12 100
+#8207
+Cyrax's Battle Sword~
+`WCyrax's Battle Sword`w~
+A HUGE battle sword is here stuck in the ground.~
+unknown~
+5 BSWX AN
+0 D AC 0 C
+35 5 60000 P
+A
+18 4
+A
+19 6
+#8208
+ring of royalty~
+a Ring of Royalty~
+A royal looking ring hovers atop of the ground~
+unknown~
+9 A AB
+C C C D 0
+30 1 12048 P
+A
+1 1
+A
+17 -10
+A
+18 3
+A
+19 2
+#8209
+royal bracer~
+a Royal Bracer~
+A very expensive bracer lies here.~
+unknown~
+9 B AM
+BD BD BD BD 0
+30 2 13854 P
+A
+18 1
+A
+5 2
+A
+19 2
+#8210
+potion of invis~
+a potion of invisible~
+A potion of invisible is on the ground.~
+unknown~
+10 0 AO
+50 29 0 0 0
+18 1 89 P
+#0
+
+
+
+#ROOMS
+#8200
+The Entrance of Babolini~
+The narrow path you have been traveling upon suddenly opens up into a
+small village.  After taking a second look at your map, you recall being
+told that this is a gathering place of powerful adventurers seeking rest and
+company.  You also recall being told that a powerful Wizard of the black
+robes lives in a hidden place somewhere in the aspen forest north of
+Babolini.  
+~
+0 2097152 4
+D1
+~
+~
+0 0 8238
+D3
+~
+~
+0 0 8201
+S
+#8201
+A Village Path~
+This village path is nearly deserted except for the occasional wandering
+adventurer.  A little further down the road you can see some small shops and
+houses.  
+~
+0 2097152 4
+D1
+~
+~
+0 0 8200
+D3
+~
+~
+0 0 8202
+S
+#8202
+Outside a Small Cottage~
+As you stand on the village path heading east and west, you see two small
+cottages to the north and south.  The cottage to the north has a tall plume
+of smoke rising from the chimney.  
+~
+0 2097152 4
+D0
+~
+~
+1 0 8203
+D1
+~
+~
+0 0 8201
+D2
+~
+~
+1 0 8219
+D3
+~
+~
+0 0 8204
+S
+#8203
+A Well Kept Cottage~
+You are standing in the home of the local God of the Sun.  The God of the
+Sun is here polishing a piece of armor.  Seeing fellow adventurers enter his
+home, he quickly asks you to have a seat and share a strong drink of ale.  
+~
+0 2097152 0
+D2
+~
+~
+1 0 8202
+S
+#8204
+A Village Path~
+You stand on a path near the center of this small village.  As you look
+further west you begin to make out the faint image of what appears to be a
+local hotel of sorts.  The only exits from this location are to the east and
+west.  
+~
+0 2097152 4
+D1
+~
+~
+0 0 8202
+D3
+~
+~
+0 0 8205
+S
+#8205
+Center of Babolini~
+You now stand in the center of this small village.  To the north you see
+a small narrow path leading into an aspen forest.  To the south you see some
+rubble not allowing you to pass.  The village path continues east and west. 
+~
+0 2097152 4
+D0
+~
+~
+0 0 8220
+D1
+~
+~
+0 0 8204
+D3
+~
+~
+0 0 8206
+S
+#8206
+A Village Path~
+You stand on a road that travels east and west.  To the west you to see
+some small shops and a large hotel with a sign reading "The Black Cat
+Hotel".  
+~
+0 2097152 4
+D1
+~
+~
+0 0 8205
+D3
+~
+~
+0 0 8207
+S
+#8207
+Outside of a Tavern~
+You stand on a dusty street running through the middle of the village. 
+To the south you can hear the pleasant sound of fellow adventurers having
+drinks.  The windows of the tavern are illuminated with a warm glow that
+entices weary travelers finding their way into Babolini.  To the north you
+see a grassy commons.  
+~
+0 2097152 4
+D0
+~
+~
+0 0 8229
+D1
+~
+~
+0 0 8206
+D2
+~
+~
+0 0 8230
+D3
+~
+~
+0 0 8208
+S
+#8208
+Outside of the Black Cat Hotel~
+Wide steps lead up to a large hotel where most travelers who pass through
+Babolini seek accommodations in order to ease the burdens of harsh times. 
+To the north lies a small general store where people can go and get the
+supplies required for their travels.  
+~
+0 2097152 4
+D0
+~
+~
+0 0 8228
+D1
+~
+~
+0 0 8207
+D3
+~
+~
+0 0 8209
+S
+#8209
+The Black Cat Hotel~
+You are standing in a comfortable lobby with chairs along each wall and a
+large wooden desk facing you.  A large fire is burning in a nearby
+fireplace, and the glow from its flames gives you a sense of warmth and
+security.  A rosy cheeked desk clerk sits at the desk.  He appears to be
+willing to help you in any way that he can.  There is a long hallway leading
+to the south and an exit to the east.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 8208
+D2
+~
+~
+0 0 8210
+S
+#8210
+A Long Hallway~
+A long hallway of the Black Cat Hotel stretches out before you.  Dim
+light glows from the candles burning along each wall.  Rooms for guests are
+on either side of this hallway.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8209
+D1
+~
+~
+1 0 8213
+D2
+~
+~
+0 0 8211
+D3
+~
+~
+1 0 8214
+S
+#8211
+A Long Hallway~
+A long hallway of the Black Cat Hotel stretches out before you.  Dim
+light glows from the candles burning along each wall.  Rooms for guests are
+on either side of this hallway.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8210
+D1
+~
+~
+1 0 8216
+D2
+~
+~
+0 0 8212
+D3
+~
+~
+1 0 8215
+S
+#8212
+A Long Hallway~
+A long hallway of The Black Cat Hotel stretches out before you.  Dim
+lights glow from candles that are burning along the sides of the walls.  On
+either side of this hallway are rooms for the guests who visit the Hotel.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8211
+D1
+~
+~
+1 0 8217
+D3
+~
+~
+1 0 8218
+S
+#8213
+A Bedroom~
+You walk into a bedroom, and you are immediately hit in the face with the
+smell of the strong alcohol.  As soon as you gaze upon the bed you notice
+why.  Passed out in full battle armor is the once great warrior, Cyrax. 
+Your presence seems to only raise a faint snore, and he continues to
+lovingly embrace his battle worn sword.  
+~
+0 2097152 0
+D3
+~
+~
+1 0 8210
+S
+#8214
+An Empty Bedroom~
+This bedroom has been prepared for a guest that apparently hasn't arrived
+yet.  The bed is neatly made and there are towels and sheets laid out for
+the soon to arrive patron.  
+~
+0 2097156 0
+D1
+~
+~
+1 0 8210
+S
+#8215
+A Dark Smelly Bedroom~
+As soon as you look into this room you are taught a lesson by a very
+upset Goblin Over-Lord named Glud.  The room he is standing in is dark and
+smells of rotten food.  
+~
+0 2097152 0
+D1
+~
+~
+1 0 8211
+S
+#8216
+A Bedroom~
+This bedroom is decorated and adorned with flowers.  A pleasant scent
+enters your nostrils, and a soft glow emanates from a bedside candle. 
+Looking closer you become embarrassed as you realize that you have intruded
+upon two half naked lovers...  Ooops!  
+~
+0 2097152 0
+D3
+~
+~
+1 0 8211
+S
+#8217
+A Suite for Special Guests~
+Upon entering this room you notice a warm magical light glowing dimly
+beside a large occupied bed.  As you move further into the room you become
+startled as a frail, injured, old wizard beckons you to come closer.  
+~
+0 2097152 0
+D3
+~
+~
+1 0 8212
+S
+#8218
+The Desk Clerk's Room~
+The walls of this small room are decorated with paintings from the nearby
+scenery of the Boldback mountains.  A small oak desk covered with papers
+lies in one corner.  In the other corner lies an unmade bed with a bedside
+stand covered with plates of half-eaten food.  
+~
+0 2097152 0
+D1
+~
+~
+1 0 8212
+S
+#8219
+A Disheveled Cottage~
+It appears that this home was recently robbed!  There are various items
+strewn about the room, most of which have been badly damaged.  You wonder
+where the owners of this home may be, You then realize what they might think
+if they were to find you standing here.  
+~
+0 2097152 0
+D0
+~
+~
+1 0 8202
+S
+#8220
+The Entrance of an Aspen Forest~
+You stand on a narrow pathway that leads from Babolini into a large
+forest of aspen trees.  All about you are the sights and sounds of an active
+forest inhabited by woodland creatures.  
+~
+0 2097152 4
+D0
+~
+~
+0 0 8221
+D2
+~
+~
+0 0 8205
+S
+#8221
+Among the Aspen~
+You stand in the middle of a forest teeming with life.  Squirrels and
+birds scurry and scamper about you gathering berries and nuts.  From your
+current position you can travel in all directions.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 8225
+D1
+~
+~
+0 0 8222
+D2
+~
+~
+0 0 8220
+D3
+~
+~
+0 0 8223
+S
+#8222
+A Small Clearing~
+The path you were traveling on suddenly opens up to a small clearing
+surrounded by a large lake of teal blue.  The only exit is to the west.  
+~
+0 2097152 3
+D3
+~
+~
+0 0 8221
+S
+#8223
+The Corner of a Forest~
+You now stand deep in a forest of aspen tress.  The forest continues to
+the north and to the east.  A steep bluff blocks any further travel to the
+south and west.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8224
+D1
+~
+~
+0 0 8221
+S
+#8224
+Outside a Vine Covered Cave~
+You are in a dense part of the forest surrounded by towering aspens.  A
+lone hill rises to the west.  Tangled vines obscure an opening into the
+hill.  
+~
+0 2097152 3
+D2
+~
+~
+0 0 8223
+D3
+~
+vines~
+1 0 8236
+S
+#8225
+The Center of an Aspen Forest~
+Aspen trees tower above you.  Light shining through the canopy of leaves
+creates dancing green shadows across the forest floor.  The thick foliage
+hinders travel to the north and west.  The path continues south and east.  
+~
+0 2097152 3
+D1
+~
+~
+0 0 8226
+D2
+~
+~
+0 0 8221
+S
+#8226
+A Trail Through a Forest~
+Aspen trees line either side of the woodland trail.  The path continues
+west and north.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 8227
+D3
+~
+~
+0 0 8225
+S
+#8227
+Fork in a Forest Trail~
+You stand on a small trail beneath the towering aspen trees.  The trail
+runs east to west with another branch to the south.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 8233
+D2
+~
+~
+0 0 8226
+D3
+~
+~
+0 0 8234
+S
+#8228
+The Supply Shack~
+You have just entered a small wood-frame shack.  As you look around, you
+notice various pieces of equipment commonly used by adventurers and
+travelers.  A lazy hound is in the corner of this shed, yawning and
+scratching his fleas.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 8208
+S
+#8229
+Grassy Commons~
+This seems to be a very peaceful place to sit and relax.  There is a
+small pond nestled between a few large trees.  A rock bench lies underneath
+a large oak tree, providing shade from the hot summer sun.  
+~
+0 2097152 4
+D2
+~
+~
+0 0 8207
+S
+#8230
+`BThe `GGreen `BCloak Tavern`w~
+You have just entered a noisy bar filled with some of the heroes who are
+well known in local tales.  You gaze about in awe as members of all classes
+sit around at tables talking boldly of their latest adventures.  Some of the
+patrons in here are rather drunk and seem to be willing to brawl if
+provoked.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8207
+D2
+~
+~
+0 0 8231
+S
+#8231
+Along The Bar~
+You stand beside a long bar crafted from yellow pine.  Many worn stools
+line the outside of the bar.  A few patrons sit and enjoy a warm draught of
+ale to soothe the hard lives they lead.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8230
+D1
+~
+~
+0 0 8232
+S
+#8232
+`BA Dark Corner In The `GGreen `BCloak`w~
+In this dark corner lie a few small tables set apart from the main
+portion of the tavern.  It looks like a good place to have a quiet chat or a
+relaxing meal.  
+~
+0 2097152 0
+D3
+~
+~
+0 0 8231
+S
+#8233
+Atop a Boulder~
+You stand on a large boulder overlooking a valley.  To the north, south,
+and east is a steep drop-off leaving no exits, except one which leads to the
+path lying to the west.  
+~
+0 2097152 0
+D3
+~
+~
+0 0 8227
+S
+#8234
+A Forest Trail~
+You stand on a forest trail which continues to the east and north.  To
+the north it darkens as it tunnels through the underbrush.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 8235
+D1
+~
+~
+0 0 8227
+S
+#8235
+The Tunnel of Brush~
+You are standing on what appears to be the end of this narrowing woodland
+trail.  The thick underbrush has created a tunnel of sorts which ends at a
+peculiar stone set in the middle of the undergrowth.  Looking more closely
+at the stone, you notice slender arcane symbols etched into the face.  
+~
+0 2097152 3
+D2
+~
+~
+0 0 8234
+D4
+~
+~
+0 0 10400
+S
+#8236
+A Dark Musty Cavern~
+The cave you are standing in is very dark.  As your eyes adjust to the
+light and you look a little closer at your surroundings, you are horrified
+to discover that the floor of this cavern is covered with scattered bones!  
+~
+0 2097152 0
+D1
+~
+~
+1 0 8224
+S
+#8237
+Supply Room~
+This is where John keeps all his goods.
+~
+0 4 0
+S
+#8238
+The ancient path~
+The path runs west and east from here.  You notice some markers placed
+along the side of the path.  
+~
+0 2097156 0
+D1
+~
+~
+0 0 8239
+D3
+~
+~
+0 0 8200
+S
+#8239
+The ancient path~
+You are standing on the ancient path which runs east and west.  The path
+is hardly visible here.  You see another path branching off to the north
+into some friendly looking woods.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 12844
+D1
+~
+~
+0 0 8240
+D3
+~
+~
+0 0 8238
+S
+#8240
+A small path~
+This is a short path leading to a rarely traveled path.  The path runs
+east and west.  You see another path branching off to the north, where you
+can see a castle in the distance.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 15168
+D1
+~
+~
+0 0 3052
+D3
+~
+~
+0 0 8239
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+M 8206 spec_cast_cleric Load to: Billy The Hotel Clerk
+M 8209 spec_cast_mage Load to: the powerful wizard Arrilo
+M 8213 spec_cast_mage Load to: Taylor
+S
+
+
+
+#RESETS
+D 0 8202 0 0
+D 0 8202 2 0
+D 0 8203 2 0
+D 0 8210 1 0
+D 0 8210 3 0
+D 0 8211 1 0
+D 0 8211 3 0
+D 0 8212 1 0
+D 0 8212 3 0
+D 0 8213 3 0
+D 0 8214 1 0
+D 0 8215 1 0
+D 0 8216 3 0
+D 0 8217 3 0
+D 0 8218 1 0
+D 0 8219 0 0
+D 0 8224 3 0
+D 0 8236 1 0
+M 0 8200 1 8200
+M 0 8208 1 8202
+M 0 8203 1 8203
+E 0 8203 0 16
+M 0 8200 3 8204
+M 0 8207 1 8207
+M 0 8208 3 8208
+M 0 8206 1 8209
+M 0 8205 1 8213
+E 0 8207 0 16
+M 0 8204 1 8215
+M 0 8201 1 8216
+E 0 8208 0 2
+M 0 8202 1 8216
+E 0 8209 0 14
+M 0 8209 1 8217
+E 0 8206 0 12
+M 0 8208 2 8220
+M 0 8207 2 8221
+M 0 8208 4 8222
+M 0 8207 3 8226
+M 0 8210 1 8228
+M 0 8211 1 8228
+G 0 8200 0
+G 0 8201 0
+G 0 8202 0
+G 0 8210 0
+M 0 8215 1 8230
+G 0 8204 0
+G 0 8205 0
+M 0 8213 1 8232
+M 0 8214 1 8232
+M 0 8212 1 8236
+O 0 8200 0 8237
+O 0 8201 0 8237
+O 0 8202 0 8237
+S
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+8211 17 19 15 0 0 120 80 1 24
+8215 17 0 0 0 0 120 80 0 24
+0
+
+
+
+#$

@@ -1,0 +1,357 @@
+#AREADATA
+Name        {None } Kyle    Test area~
+Builders    Kyle~
+VNUMs       100 199
+Security    6
+End
+
+
+
+#MOBILES
+#100
+mob beating~
+a beating mob~
+A mob stands here ready to accept a beating.
+~
+~
+Human~
+AB 0 0 S
+50 200 1d1+25000 0d0+0 1d1+0 0
+100 100 100 100
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#101
+test shopkeeper~
+a test shopkeeper~
+A test shopkeeper.
+~
+~
+Human~
+AB 0 0 S
+88 0 1d1+29999 2d100+1 1d300+0 0
+-45 -45 -45 -20
+0 0 0 0
+8 8 0 10000
+AHMV ABCDEFGHIJK M unknown
+#109
+Reverend Bob~
+Reverend Bob~
+Reverend Bob stands here, ready to marry you.
+~
+Wearing fine robes and holding a bible, Reverend Bob is the stunning
+image of a devout priest.  
+~
+Human~
+A 0 900 S
+100 0 1d1+29999 0d0+0 1d1+0 19
+0 0 0 0
+0 CD 0 0
+8 8 0 50
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#100
+glowing turtle~
+a glowing turtle~
+A glowing turtle lies here.~
+unknown~
+5 H AN
+A CEFGHI A ACD C
+100 2 100000 P
+A
+18 100
+#101
+wet noodle~
+the wet noodle of doom~
+An ominous-looking noodle lies here.~
+unknown~
+5 0 AN
+ABC ADE A C 0
+1 10 100000 P
+#102
+cool sword~
+a cool sword~
+A cool sword is here~
+unknown~
+5 0 AN
+A BD BD ACD E
+14 15 100 P
+A
+18 20
+A
+19 20
+#103
+golden engagement ring~
+a golden engagement ring~
+A golden engagement ring lies here.~
+unknown~
+9 0 AB
+0 0 0 0 0
+93 1 1000 P
+A
+18 5
+#104
+flowers~
+flowers~
+Flowers.~
+unknown~
+15 0 A
+0 0 0 0 0
+0 0 0 P
+#109
+bible~
+a bible~
+A bible rests here.~
+unknown~
+2 IK AO
+0 3 0 0 0
+10 4 10 P
+#110
+`WSilk White Shoes~
+desc You see a pair of white silk shoes on Lips feet.~
+Desc Here you see a pair of beautiful white silk shoes on Lips feet.~
+unknown~
+9 ABGI G
+0 0 0 0 0
+93 0 100000000 P
+#111
+`WWhite Satin Wedding Gown~
+`WWhite Satin Wedding Gown~
+You see a beautiful white satin wedding gown.~
+unknown~
+11 0 AD
+0 0 0 0 0
+93 0 1000 P
+#113
+`WGenuine White Pearls~
+`WGenuine White Pearls~
+You see a string of genuine white pearls the underwater treasure.~
+unknown~
+11 0 AC
+0 0 0 0 0
+93 0 100000 P
+#114
+`WSatin Gloves`w~
+`WSatin Gloves`w~
+You see a pair of beautiful white satin gloves.~
+unknown~
+11 0 AH
+0 0 0 0 0
+93 0 1000 P
+#115
+`wSilver `WBracelet~
+`wSilver `WBracelet~
+You see a beautiful silver bracelet.~
+unknown~
+11 0 AM
+0 0 0 0 0
+93 0 1000 P
+#116
+The `YBright `WWhite Tourch~
+the `YBright `WWhite Tourch~
+You see a brightly lite tourch leading Lips's way.~
+unknown~
+1 0 AO
+0 0 10000 0 0
+93 0 1000 P
+#117
+`WSilk Stockings~
+`WSilk Stockings~
+Here are some very sexy sillk stockings.~
+unknown~
+11 0 AF
+0 0 0 0 0
+93 0 1000 P
+#118
+`mKethry's `BFlower`gdress~
+`mKethry's `BFlower`gdress~
+`mThis `Bbeautiful dress `mis made for the beautiful `MKethry.~
+unknown~
+11 ABGI AD
+0 0 0 0 0
+1 0 100000 P
+#119
+`mKethry `Band `bLips' `gFriendship~
+`mKethry `Band `bLips' `gFriendship~
+Here you see Lips and Kethry's friendship~
+unknown~
+11 ABGI AB
+0 0 0 0 0
+1 0 10000 P
+#120
+Kethry's `WSilk `bGloves~
+`wKethry's `WSilk `bGloves~
+You see Kethry's Silk Gloves on her hands.~
+unknown~
+11 ABGI AH
+0 0 0 0 0
+1 0 10000 P
+#123
+one thousand damage weapon~
+a weapon of 1000 damage~
+A cool weapon is here.~
+unknown~
+5 HJKL AE
+A DFGHIJ A 0 0
+1 20 0 P
+#124
+axe of 6666 damage~
+an axe of 6666 damage~
+An axe is here.~
+unknown~
+5 0 AG
+AC BDJLM A AB 0
+1 0 0 P
+#156
+war banner~
+a war banner~
+A war banner is on the floor here.~
+unknown~
+1 A AO
+0 0 999 0 0
+15 3 0 P
+A
+13 1000
+A
+19 50
+A
+18 100
+#189
+pizza~
+pizza~
+Pizza is here.~
+unknown~
+19 0 A
+BD 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#100
+Great Marble Gateway~
+Before you stands the entrance to a large and majestic palace.
+Quicly surveying the surrounding area, you marvel at the beauty
+and wonder that create this alluring atmosphere, beckoning you
+to enter the marvelous gateway and experience the pleasures that
+await your arrival.  Through the northern gate, you hear sounds
+or all sorts arousing your curiosity as to what event might be
+taking place.
+~
+0 65548 0
+D0
+~
+~
+0 0 101
+S
+#101
+The Market~
+People brush up against you from every direction as you walk
+through, what appears to be, the central courtyard.  The crowds
+have, obviously, gathered here for their daily shopping needs,
+some light-hearted conversation, and a pleasant stroll in the
+sun. To the north you see a large covered balcony extending
+from the palace and strethching to the eastern and western 
+buildings surrounding you.  Below the balcony stand numerous 
+pillars made of marble for support.  The courtyard continues in
+all directions.
+~
+0 0 0
+D1
+~
+~
+0 0 102
+D2
+~
+~
+0 0 100
+S
+#102
+South-east courtyard~
+~
+0 0 0
+D3
+~
+~
+0 0 101
+S
+#110
+Chapel of Love~
+The Chapel of Love, admistered by the Reverend Bob, is the local wedding
+chapel.  The ceiling is 20 feet high, and the walls are covered with stained
+glass, depicting scenes from Romeo & Juliet and other romances.  Light is
+provided by hundreds of candles about the room, and soft organ music is
+playing.  Eight rows of pews face the altar, with an aisle down the center. 
+~
+0 12 0
+S
+#145
+~
+>wear_prog 100-
+ 
+if class($n) != 3
+break
+endif
+if inroom($n) == 4766
+break
+endif
+if isfight($n)
+mpechoat $n You may not invoke this item while fighting.
+break
+endif
+mpechoat $n You are transported to the warrior's guild.
+mpechoaround $n $n invokes the symbol of $s guild and vanishes in a puff of smoke
+mptran $n 4766
+mpgoto 4766
+mpechoaround $n $n arrives in a beam of bright light..s
+~
+0 4 0
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 109 1 110
+E 0 109 0 17
+S
+
+
+
+#MOBPROGS
+M 109 109.prg
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+101 19 17 0 0 0 200 10 0 23
+0
+
+
+
+#$

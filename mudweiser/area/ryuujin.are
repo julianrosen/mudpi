@@ -1,0 +1,1694 @@
+#AREADATA
+Name        {15 90} Ryuujin Sunstone City~
+Builders    None~
+VNUMs       8400 8499
+Security    6
+End
+
+
+
+#MOBILES
+#8400
+Statue of Togashi Yokuni~
+Togashi Yokuni~
+A statue of Togashi Yokuni, Dragon Clan Champion, stands here.
+~
+A statue, about fifteen feet high, looks menacing and yet heroic at the
+same time.  It is made of some sort of strange, magical metal.  A plaque
+reads: "Here rests the soul of Togashi Yokuni, the great Dragon Clan
+Champion.  May his might live on and help all those who need him!"  A faint
+shimmer rises from the statue, but is quelled by the weather.  The statue is
+embued with possibly the most powerful spirit ever to exist.  Attacking it
+would not be a good idea.  
+~
+Human~
+ABQRTU 0 0 S
+95 100 25000d1+0 20d20+20 30d30+30 18
+-50 -50 -50 -50
+FIK ABNP HIL J
+8 8 1 10000
+AHMV ABCDEFGHIJK H unknown
+#8401
+guard sunstone gate~
+a Sunstone Guard~
+A young, beautiful female guard stands here in her glittering armor.
+~
+An incredibly gorgeous girl, about the age of twenty, stands here,
+wearing glittering Sunstone armor and wielding a spear of the same material.
+She looks young, but experienced somehow...
+ 
+~
+Halfelf~
+ABT JN 0 S
+40 20 10d100+0 0d0+0 5d25+5 1
+-15 -15 -15 -15
+U 0 B Z
+8 8 2 1000
+AHMV ABCDEFGHIJK M unknown
+#8402
+japanese chef~
+the Japanese chef~
+A Japanese chef is trying to serve you some sushi.
+~
+A Japanese chef is running all over the kitchen, chopping raw fish and
+making incredible amounts of sushi.  He spots you and immediately wants you
+to buy some.  
+~
+Human~
+AB 0 0 S
+10 15 10d100+10 99d1+1 100d1+10 0
+0 0 0 0
+0 CDP 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#8403
+coat rack~
+A coat rack with eyes~
+A coat rack with eyes stares at you, greedily holding a key.
+~
+This is by far the ugliest coat rack imaginable.  It holds a key with the
+words "The Key to the Shed" inscribed on it, and it won't give it up.  The
+coat rack makes some odd noises, and glares at you.  
+~
+Alien~
+AB 0 0 S
+10 10 100d10+10 1d1+1 5d10+0 9
+1 1 1 2
+HIM KL BQ HN
+8 8 0 0
+HJMQXc ABCDEFKLMQUVX M unknown
+#8404
+captain sunstone~
+a Sunstone Captain~
+A Sunstone Captain stands here, in charge of his archers.
+~
+A captain stands here, ready to lead his archers to victory against any
+foes.  He has a few battle scars, but they were well earned in glorious
+victorious battle.  His brown hair flows in the breeze and shines in the
+sunlight, giving him a sort of halo effect.  
+~
+Halfelf~
+AB J 0 S
+45 75 100d50+50 0d0+0 5d35+10 8
+-16 -16 -16 -16
+0 0 B Z
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#8405
+archer sunstone~
+a Sunstone Archer~
+A Sunstone Archer cleans his crossbow and looks out over the horizon.
+~
+A young Half-Elf, around the age of 19, stands here, cleaning his crossbow
+and wondering about what lies beyond the city.  He thoughts stray to other
+things and other places, as the wind flows through his dark hair and strange
+armor.  
+~
+Halfelf~
+AB J 0 S
+20 10 100d5+10 0d0+0 10d5+10 11
+-2 -2 -2 -2
+0 0 B Z
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#8406
+resaith commander sunstone~
+Resaith~
+Resaith, the Sunstone Commander stands here in her incredible beauty.
+~
+She stands with one leg up on the edge of the Tower.  Looking out over
+the horizon, ever vigilant and ready for battle.  She is the direct
+decendant of Togashi Yokuni, some say she may even be strnger than the great
+hero of old was.  She knows all that goes on in her area of defense.  Her
+armor glistens in the eternal sunlight.  She is a Legend in her own right,
+never defeated in battle, and most likely, never will be.  She is a holy
+terror on the field of battle.  Be warned, no one will live through a battle
+with her.  
+~
+Halfelf~
+AB J 1000 S
+100 1000 100d475+25 100d475+25 100d475+25 0
+-100 -100 -100 -100
+0 0 B Z
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#8407
+corpse unholy~
+Unholy Corpse~
+An Unholy Corpse moans and looks greedily at you.
+~
+A rotted corpse, endowed with another life by unholy means, wanders for
+eternity in the Catacombs.  It lives to take life from the living, and add
+to their ranks of the eternal darkness.  It will attack on sight.  It wants
+your brains.  Mm..  Brains...  *drool*...  Brains good...  
+~
+Human~
+ABFO JZ -300 S
+15 0 100d10+50 0d0+0 10d4+5 10
+2 2 2 0
+0 0 0 0
+8 8 0 10
+AHMV ABCDEFGHIJK M unknown
+#8408
+defender drow~
+Defender~
+The defender of the Drow stands here.
+~
+A huge, hulking shadowy figure stands here.  It has long silvery-white
+hair, and it looks evil, with such a twisted face.  His armor has the spider
+symbol of Lloth on it.  
+~
+DrowElf~
+AB JZ -1000 S
+30 10 5d100+100 0d0+0 10d5+10 27
+-9 -9 -9 0
+0 0 B SZ
+8 8 0 1000
+AHMV ABCDEFGHIJK M unknown
+#8409
+Rhaksi dwarf dwarven armorer~
+Rhaksi~
+Rhaksi stands behind the counter, ready for a sale.
+~
+A dwarf, rather strong, stands behind the counter ready to sell anything
+he's got.  He is his own weaponsmith, and his own armorer.  Quite possibly
+the best blacksmith in the realm.  Magic flows around him, too, as you can
+plainly tell his wares are of the enchanted variety.  He wonders why you're
+in his shop when he's supposed to be closed.  
+~
+Dwarf~
+ABd J 0 S
+40 0 100d100+100 0d0+0 100d100+100 0
+1 1 1 1
+0 CDP CLQ R
+8 8 1 10000000
+AHMV ABCDEFGHIJK M unknown
+#8410
+Sharra halfelf half-elf elf~
+Sharra~
+A good looking half-elf stands by the western wall, wearing sunglasses.
+~
+Sharra, the half-elf who owns and runs this store, is standing by the
+western wall of the Shop of Stuff.  She is wearing what is probably the most
+valuable item ever to come in this shop, a pair of Richard Nixon Sunglasses.
+~
+Halfelf~
+ABd J -1 S
+40 0 100d100+100 0d0+0 100d100+100 0
+1 1 1 1
+0 CDP B Z
+8 8 2 100000
+AHMV ABCDEFGHIJK M unknown
+#8411
+barman barkeep bartender bar Bucky~
+the barman~
+The barman stands here, wating for your order.
+~
+A man standing behind the bar, looks at you with sharp eyes.  He looks
+very burly, and is totally devoid of hair on top of his head.  He looks like
+he's seen a lot of battles.  And he doesn't look like he'd mind a few more. 
+He looks you over and says, 'What'll it be for ya?  ' 
+~
+Human~
+AB 0 10 S
+80 0 100d100+100 0d0+0 100d10+0 8
+10 10 10 10
+0 CDP 0 0
+8 8 1 10000
+AHMV ABCDEFGHIJK M unknown
+#8412
+barmaid serving maid servant Kitha~
+the barmaid~
+The serving maid stands here, ready to take your order.
+~
+A young barmaid stands here, smiling, ready to take your order.  She's
+alsways smiling, no matter what.  Some would call her perky, others possibly
+crazy, but in reality, she's just happy.  
+~
+Human~
+AB 0 10 S
+30 0 100d100+100 0d0+0 100d10+0 8
+10 10 10 10
+0 CDP 0 0
+8 8 2 10000
+AHMV ABCDEFGHIJK M unknown
+#8413
+Thirfaldinarlinaxiothidarnia elf elven mage magic~
+Thirfaldinarlinaxiothidarnia~
+The elven mage with the really long name stands here.
+~
+An very very old elf stands here.  He knows more about magic then most
+everyone else ever.  He makes potions and such just for kicks.  Sometimes he
+makes potions just for himself.  No one knows what
+Thirfaldinarlinaxiothidarnia really does, though, because his shop is hidden
+from all, even immortals with great power.  
+~
+Elf~
+AB J 100 S
+80 100 100d10+10 1000d1+0 0d0+0 0
+10 10 10 10
+0 CDP B Z
+8 8 1 100000
+AHMV ABCDEFGHIJK M unknown
+#8414
+jago~
+Jago~
+Jago stands here in his shredded battle attire.
+~
+Jago stands here, with a light blue mask covering the lower part of his
+face.  His brown hair hangs just above his eyes.  His light blue training
+clothes, with the shreds of swordfights, is his armor of choice, preferring
+mobility over sheer physical defense.  He is ready to practice with you, or
+train you for battles to come.  
+~
+Human~
+ABJKTb 0 0 S
+80 1000 1000d1+0 0d0+0 100d2+1 1
+10 10 10 10
+0 C P D
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#8415
+The Giant Fist of Rules Enforcement~
+The Giant Fist of Rules Enforcement~
+The Giant Fist of Rules Enforcement hovers above your head.
+~
+The Giant Fist of Rules Enforcement hovers above your head.  
+~
+Unknown~
+ABT 0 0 S
+90 25000 25000d1+0 25000d1+0 1000d1+0 8
+-10 -10 -10 -10
+HIM KL BQ HN
+8 8 0 0
+HJMQXc ABCDEFKLMQUVX M unknown
+#8416
+practice dummy~
+a practice dummy~
+A practice dummy stands here.
+~
+A shredded dummy stands here, animated with magic.
+~
+Human~
+AB 0 0 S
+10 0 200d1+0 0d0+0 1d6+0 12
+0 0 0 0
+0 0 0 0
+8 8 0 55
+AHMV ABCDEFGHIJK M unknown
+#8420
+A Sushi Vending Machine~
+A Sushi Vending Machine~
+A vending machine with pictures of fishes stands here.
+~
+It's a big shiny box.  Put gold in the slot and sushi pops out.  Neat huh?  
+~
+Human~
+ABQd 0 1 S
+1 1 1d1+0 0d0+0 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 0 10000000
+AHMV ABCDEFGHIJK M unknown
+#8435
+The Giant Fist of Roleplay Enforcement~
+The Giant Fist of Roleplay Enforcement~
+The Giant Fist of Roleplay Enforcement hovers above your head.
+~
+The Giant Fist of Roleplay Enforcement hovers above your head.
+~
+Unknown~
+AB 0 0 S
+90 25000 25000d1+0 1000d1+0 25000d1+0 8
+-10 -10 -10 -10
+HIM KL BQ HN
+8 8 0 0
+HJMQXc ABCDEFKLMQUVX M unknown
+#8498
+A Tickle Bunny!~
+A Tickle Bunny~
+A tickle bunny looks ready to pounce and tickle you!
+~
+A tickly tickle bunny is here, it looks ready to TICKLE YOU!!!
+~
+rabbit~
+ABd 0 0 S
+20 20 100d10+15 0d0+0 10d3+10 32
+0 0 0 0
+FH 0 0 0
+8 8 0 0
+AGV ACDEFHJK M unknown
+#8499
+An Elven Statue~
+a Statue of Caitlynne~
+A golden statue of Caitlynne stands here, with white robes.
+~
+A very beautiful statue of an elf stands here.  The statue is of an
+extraordinarily beautiful elf, Caitlynne.  The statue is wearing white
+robes, replicas of the real Caitlynne's.  In her hands she carries a golden
+book of healing, and she has a pleasant smile on her face.  She seems to
+glow a brighter color when Cornell's around.  
+~
+Elf~
+A J 1000 S
+100 100 10000d1+0 10000d1+0 1000d1+0 20
+-100 -100 -100 -100
+0 ACDEPR B Z
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#8400
+sunstone spear vampiric~
+sunstone spear~
+A sunstone spear hums with glowing warmth and magical power.~
+unknown~
+5 AB AN
+AB ABC D AB C
+40 10 10000 P
+A
+18 6
+A
+19 6
+#8401
+bodyarmor sunstone armor-body~
+sunstone bodyarmor~
+A suit of sunstone gleams with its own protective magic.~
+unknown~
+9 ABGISWX AD
+ADE ADE ADE ADE 0
+45 20 5000 P
+A
+12 15
+A
+17 -8
+A
+13 40
+A
+2 2
+A
+5 1
+#8402
+sushi pink seaweed meat~
+pink sushi~
+Pink sushi wrapped in green seaweed.~
+unknown~
+19 0 A
+ABCD 0 0 0 0
+0 10 1000 P
+#8403
+ruby shard light~
+a Ruby Shard~
+A shard of sparkling red ruby lies here~
+unknown~
+1 BH AO
+0 0 180 0 0
+0 0 0 P
+#8404
+sushi white rice meat~
+white sushi~
+White sushi coated in white rice.~
+unknown~
+19 0 A
+ABCD 0 0 0 0
+0 0 1000 P
+#8405
+sushi rainbow meat~
+rainbow sushi~
+Rainbow sushi smothered in some orange sauce.~
+unknown~
+19 0 A
+ABCD 0 0 0 0
+0 0 1000 P
+#8406
+bottle mountain spring water drink-water~
+bottled water~
+A bottle of mountain spring water.~
+unknown~
+17 0 A
+CE CE 0 0 0
+0 0 300 P
+#8407
+tea japanese ceremonial cup drink-tea~
+a tea cup~
+A high-quality Japanese ceremonial tea cup.~
+unknown~
+17 0 AO
+BD BD ABD 0 0
+0 0 100 P
+#8408
+fountain dragon~
+a blue marble dragon fountain~
+A dragon fountain made of blue marble is flowing with sparkling clear rainwater.~
+unknown~
+25 A 0
+0 0 0 0 0
+0 0 0 P
+#8409
+container shed small~
+a small shed~
+A small wooden shed stands here in the middle of the tower.~
+unknown~
+15 0 0
+DFGHIJ ACD BDEGHN 0 0
+0 0 0 P
+#8410
+key~
+the key to the shed~
+A key with the words, "The Key to the Shed" inscribed on it lies here.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#8411
+crossbow sunstone exotic~
+sunstone crossbow~
+A sunstone crossbow lies here, arrows at the ready.~
+unknown~
+5 ABR AN
+0 ABC D ABD 0
+40 0 25000 P
+#8412
+sunstone pendant armor-neck~
+a sunstone pendant~
+A magnificent pendant in the form of an ankh lies here.~
+unknown~
+9 AB AC
+BD AD BD ABD 0
+40 0 5000 P
+A
+17 -10
+A
+13 50
+A
+12 50
+#8413
+hole space container no-reset~
+a hole in space~
+A black nothingness lies here on the ground.~
+unknown~
+15 0 AL
+GJOQRST A 0 0 0
+1 0 5000 P
+#8414
+shelf furniture~
+a wooden shelf~
+A wooden shelf is mounted on the wall.~
+unknown~
+12 0 0
+0 0 0 0 0
+0 0 0 P
+#8415
+flask holy water drink-water~
+a flask of Holy Water~
+A crystal flask of pure Holy Water lies here, warding away evil.~
+unknown~
+17 AK AO
+BDEFGH BDEFGH 0 0 0
+0 0 0 P
+A
+5 3
+#8416
+sign furniture~
+a glowing sign~
+A sign reads, 'Beware the darkness, bring a light if you must continue!'~
+unknown~
+12 AG 0
+0 0 0 0 0
+0 0 0 P
+#8417
+chalice lloth drink-blood~
+a chalice of Lloth~
+A chalice of Lloth, the Unholy Spider Queen of the Drow, is lying here.~
+unknown~
+17 BJ A
+BDEFGH BDEFGH ACD 0 0
+0 0 0 P
+A
+1 3
+#8418
+ladder rope drow furniture~
+a Drow Ladder~
+A rope ladder of Drow origin leads into the darkness.~
+unknown~
+12 B 0
+0 0 0 0 0
+0 0 0 P
+#8419
+katana mithril~
+a mithril katana~
+A very fine, gleaming, balanced sword lies here, warding away dust.~
+unknown~
+5 BRWX AN
+A AC D AB D
+30 10 15000 P
+#8420
+splintmail splint mail~
+a suit of splintmail~
+A suit of splintmail lies here.~
+unknown~
+9 0 AD
+AB AB AB CD 0
+5 20 1000 P
+#8421
+gauntlets mithril~
+mithril gauntlets~
+A pair of shining mithril gauntlets lie here.~
+unknown~
+9 RWX AH
+D D D D 0
+25 5 15000 P
+A
+17 -2
+#8422
+boots mithril plated~
+mithril plated boots~
+A pair of mithril plated boots lies here on the ground.~
+unknown~
+9 SX AG
+D D D D 0
+25 5 15000 P
+A
+19 2
+A
+17 -2
+#8423
+helmet mithril crusader~
+a mithril crusader helmet~
+A mithril helmet of the crusader variety lies here.~
+unknown~
+9 R AE
+D D D D 0
+25 10 15000 P
+#8424
+necklace mithril chain~
+a mithril chain necklace~
+A chain necklace of mithril lies here.~
+unknown~
+9 0 AC
+D D D D 0
+25 1 15000 P
+#8425
+Fist Flames Flame Champion Champion's~
+the Champion's Fist of Flames~
+A shining fist of some sorts lies here on the ground.~
+unknown~
+5 ABSW AN
+0 AD ACD BE AE
+89 0 5000000 P
+A
+19 5
+A
+18 5
+A
+13 25
+A
+12 25
+A
+14 100
+#8426
+hairpin small jeweled~
+a small jeweled hairpin~
+A small jeweled haripin lies here on the ground.~
+unknown~
+8 A AE
+0 0 0 0 0
+0 0 100 P
+#8427
+sunglasses Richard Nixon~
+a pair of Nixon's Sunglasses~
+A pair of sunglasses worn by Richard Nixon lie here.~
+unknown~
+8 BJ AE
+0 0 0 0 0
+0 1 100000 P
+#8428
+bottlecap shiny~
+a shiny bottlecap~
+A very shiny shiny shiny bottlecap lies here, shining shiningly.~
+unknown~
+25 0 AO
+0 0 0 0 0
+0 0 500 P
+A
+2 -1
+#8429
+bottle mister clean mr. mr~
+a diluted bottle of Mr. Clean~
+A diluted bottle of Mr. Clean lies here.~
+unknown~
+10 A AO
+100 82 42 28 0
+0 0 100 P
+#8430
+ale dark~
+a bottle of dark ale~
+A dark bottle full of dark ale lies here.~
+unknown~
+17 0 A
+BD BD C 0 0
+0 0 20 P
+#8431
+beer light~
+a glass of light beer~
+A glass of light beer is lying here, somehow it hasn't spilled.~
+unknown~
+17 0 A
+BD BD A 0 0
+0 0 20 P
+#8432
+milk wimp wimps~
+a glass of milk~
+A glass of milk for total wimps lies here.~
+unknown~
+17 0 A
+BD BD BD 0 0
+0 0 20 P
+#8433
+phoenix special specialty~
+some Phoenix-In-A-Bottle~
+A bottle with the emblem of the Phoenix tavern lies here.~
+unknown~
+17 0 AO
+BD BD ABC 0 0
+0 0 50 P
+A
+5 1
+#8434
+lamb rack~
+an entire rack of lamb~
+An entire rack of lamb lies here, still edible and tasty-looking.~
+unknown~
+19 0 A
+CFG 0 0 0 0
+0 0 75 P
+#8435
+soup bowl hot sour~
+a bowl of hot and sour soup~
+A bowl of yummy hot and sour soup is here.~
+unknown~
+19 0 A
+CFG 0 0 0 0
+0 0 100 P
+#8436
+cheese cheeses~
+some assorted cheeses~
+A small basket of assorted cheeses is here.~
+unknown~
+19 0 A
+CFG 0 0 0 0
+0 0 50 P
+#8437
+might pill~
+a pill of might~
+A pill of might lies here.~
+unknown~
+26 0 A
+20 39 16 0 0
+20 0 1000 P
+#8438
+speed potion~
+a potion of speed~
+A potion of speed lies here foaming and bubbling.~
+unknown~
+10 0 A
+3 502 504 17 0
+5 0 15000 P
+#8439
+health pill~
+a pill of health~
+A pill of health lies here, healing the air.~
+unknown~
+26 0 A
+24 16 15 17 0
+25 0 55000 P
+#8440
+dragon dragon's potion volatile danger dangerous~
+a volatile dragon potion~
+A very dangerous potion of dragon's breath lies here.~
+unknown~
+10 0 A
+20 201 200 204 0
+3 1 2000 P
+#8441
+strength immortal potion~
+a potion of immortal strength~
+A potion of great strength lies here.~
+unknown~
+10 0 A
+34 39 502 3 0
+50 0 65000 P
+#8442
+key sunstone huge~
+a huge sunstone key~
+A huge sunstone key lies here, warming the ground.~
+unknown~
+5 0 ANO
+0 BD CD D C
+80 5 10000 P
+A
+3 5
+#8443
+tiger dagger td~
+a `YT`Ki`Yg`Ke`Yr `GD`ga`Gg`gg`Ge`gr`w~
+A striped dagger is here.~
+unknown~
+5 ABGI AN
+B BC AC B AC
+30 1 12500 P
+A
+18 10
+A
+2 1
+A
+4 1
+A
+19 6
+#8444
+tiger plate~
+a `YT`Ki`Yg`Ke`Yr `GP`gl`Ga`gt`Ge`w~
+A Tiger Plate lies here on the ground.~
+unknown~
+9 ABG AD
+D D D D 0
+18 5 12500 P
+A
+18 5
+A
+19 4
+#8445
+tiger cloak~
+a `YT`Ki`Yg`Ke`Yr `GC`gl`Go`ga`Gk`w~
+A Tiger Cloak lies here on the ground.~
+unknown~
+9 AB AK
+AC AC AC AC 0
+35 9 12500 P
+A
+13 30
+A
+12 30
+#8446
+no name~
+(no short description)~
+(no description)~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#8447
+tiger pants~
+some `YT`Ki`Yg`Ke`Yr `GP`ga`Gn`gt`Gs`w~
+A pair of tiger-stripes pants are here.~
+unknown~
+9 AB AF
+BC BC BC BC 0
+18 0 12500 P
+A
+12 10
+A
+13 10
+#8448
+Tiger Sleeves~
+some `YT`Ki`Yg`Ke`Yr `GS`gl`Ge`ge`Gv`ge`Gs`w~
+A pair of tiger-striped sleeves lie here.~
+unknown~
+9 AB AI
+ABC ABC ABC AC 0
+18 0 12500 P
+A
+14 75
+#8449
+Tiger Belt~
+a `YT`Ki`Yg`Ke`Yr `GB`ge`Gl`gt`w~
+A tiger-striped belt lies here.~
+unknown~
+9 AB AL
+D D D D 0
+20 0 12500 P
+A
+13 25
+A
+17 -1
+#8450
+tiger gloves~
+some `YT`Ki`Yg`Ke`Yr `GG`gl`Go`gv`Ge`gs`w~
+A pair of tiger-striped gloves lie here.~
+unknown~
+9 AB AH
+BC BC BC BC 0
+18 0 12500 P
+#8475
+Platinum No-Dachi Sword~
+a Platinum No-Dachi~
+A razor-edge, perfectly balanced platinum no-dachi lies here.~
+unknown~
+5 ABG AN
+A ABC A CDE CDE
+35 0 0 P
+A
+17 1
+A
+19 9
+A
+18 1
+A
+12 15
+A
+13 15
+#8476
+Ring of Shock~
+the Ring of Shock~
+A ring with a few lightning bolts crackling about it lies here.~
+unknown~
+9 ABG AB
+ABC ABC ABC ABC 0
+35 0 1000000 P
+A
+17 -1
+A
+12 35
+A
+13 35
+A
+3 1
+A
+1 1
+A
+5 1
+#8493
+fishnet key~
+a fishnet~
+A fishnet lies here, slightly wet.~
+unknown~
+25 B AM
+0 0 0 0 0
+92 0 10 P
+#8494
+The One Ring~
+the One Ring~
+A simple ring of gold lies here.~
+unknown~
+9 ABG AB
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+92 0 100 P
+A
+17 -900
+A
+19 500
+A
+18 1000
+#8495
+Sword of Rules~
+`YThe `GSword `Cof `BRules~
+A gleaming blade of mithril lies here, inscribed with the name "Ryuujin"~
+unknown~
+5 0 AN
+A DFGHIJ A ACE ABCDE
+95 0 0 P
+A
+18 5000
+A
+17 -1000
+A
+12 5000
+A
+13 5000
+A
+14 5000
+A
+19 5000
+#8496
+Sword of Roleplay~
+`YThe `GSword `Cof `RRoleplay~
+A gleaming blade of mithril lies here, inscribed with the name "Ryuujin"~
+unknown~
+5 0 AN
+A DFGHIJ A BC ABCDE
+95 0 0 P
+A
+19 5000
+A
+14 5000
+A
+13 5000
+A
+12 5000
+A
+18 5000
+A
+17 -1000
+#8497
+a plush velvet couch~
+a plush velvet couch~
+A plush velvet couch is keeping dry in the wet wet wet fishbowl.~
+unknown~
+12 B 0
+0 0 0 0 0
+1 0 10 P
+#8498
+potion~
+a potion~
+A potion lies here, bubbling away.~
+unknown~
+10 0 A
+100 28 28 28 0
+93 0 500000 P
+#8499
+An Object Token~
+a Object Token~
+An Object Token lies here.~
+unknown~
+8 ABI A
+0 0 0 0 0
+5 0 0 P
+#0
+
+
+
+#ROOMS
+#8400
+Path of Champions: Sunstone Square~
+A path made of a warm, oddly-colored stone is here, leading in all four
+directions.  To the north a massive tower of the same strange rock stands in
+immense power, and south lies a great chapel.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8401
+D1
+~
+~
+0 0 8403
+D2
+~
+~
+1 0 8402
+D3
+~
+~
+0 0 8404
+D4
+~
+~
+3 0 8499
+S
+#8401
+The Sunstone Tower: Outside the Gate~
+Standing outside the Sunstone Tower, you can see the power radiating from
+the sunstone walls and a magical field protects the surrounding area.  A
+great gate of ruby bars your way from entering, and a small emerald lock is
+near the left side of the gate.  
+~
+0 3153920 1
+D0
+~
+~
+6 8403 8405
+D2
+~
+~
+0 0 8400
+S
+#8402
+Chapel of Eternal Sunlight: Main Lobby~
+As you enter the Chapel, an intense light beams down on you from a
+sunlight embedded in the ceiling.  The walls, made of some sort of sheet
+rock, shine with the sunlight splaying off of its rough surface.  A window
+is open on the west side of the wall, allowing the sunlight to stream in.  A
+small guestbook lies on a oaken pedestal, with a golden feather pen and a
+small bottle of blue ink.  A shelf on the wall holds flasks of Holy Water,
+and a door on the south side of this room leads to the altar.  
+~
+0 2097152 0
+D0
+~
+~
+1 0 8400
+D2
+~
+~
+1 0 8408
+S
+#8403
+Path of Champions: Inside the Gates~
+The walls of the small, magical city of Sunstone, gleam in the strange
+eternal light of the sun.  They stand at least fifteen feet tall, with
+battlements and guards lining them the whole way around the city.  What they
+guard against is their own business.  The gate to the city is to the east,
+while the city's square is to the west.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8417
+D1
+~
+~
+0 0 8419
+D2
+~
+~
+0 0 8418
+D3
+~
+~
+0 0 8400
+S
+#8404
+Path of Champions: Market District~
+A few people stand about, looking at some of the wonderful items for sale
+in the shops here.  Unfortunately, the armor shop to the south is closed,
+but other wonderous items are for sale to the north.  The Path of Champions
+continues both east and west.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8415
+D1
+~
+~
+0 0 8400
+D2
+~
+~
+1 8426 8416
+S
+#8405
+The Sunstone Tower: Floor 1, Training Dojo~
+Welcome to the Sunstone Tower training dojo!  This is where the best and
+greatest come to train, from the most powerful mages to the most powerful of
+heroes.  Many training weapons line the walls and even more trophies line
+the wall, earned by those trained by the dojo in mortal combat.  The floor
+has a nice soft texture, and the walls have a padded sort of surface.  A
+strange man is in the back, totally smashing a training dummy, and a strange
+chamber lies on the western wall.  
+~
+0 3153920 0
+D2
+~
+~
+6 8403 8401
+D4
+~
+~
+0 0 8406
+S
+#8406
+The Sunstone Tower: Floor 2, Kitchen~
+This is the main kitchen area for the tower.  A great number of very
+well-made tapestries line the walls here, each one ornately done with
+handcrafted perfection and expertise.  The floor here is the same
+warm-to-the-touch stone that everything else here is made out of, only it is
+a different shade of color here.  A small band plays in the backround, and a
+few chefs are working in the preparation area.  Some tables and chairs are
+scattered around the room, and stairs on the western side of the tower lead
+both up and down.  
+~
+0 3153920 0
+D4
+~
+~
+0 0 8407
+D5
+~
+~
+0 0 8405
+S
+#8407
+The Sunstone Tower: Floor 3, Battlements~
+Up here on the third floor of the tower is the main battlements.  Many
+ballistae are up here, as are some troops.  A small shed in the middle
+houses some armor for the troops of the tower.  A view of the entire
+surrounding area gives this tower an enormous tactical advantage.  The sun is
+always visible overhead, even in foul weather or nighttime.  
+~
+0 3153920 0
+D5
+~
+~
+0 0 8406
+S
+#8408
+Chapel of Eternal Sunlight: The Altar Room~
+A great beam of sunlight gleams for a huge sunlight overhead, as the
+eternal sunlight of this area falls to rest on an altar made completely of
+solid light.  The altar seems to feed off the light from above, as well as
+give off its own holy light.  The room is obviously centered around this
+altar, as the room is is perfect symmetry around it.  Great tapestries of
+the ancient Sun Champion line the walls in resplendant beauty.  Glittering
+candles and shining holders add to the pure atmosphere of this room.  Peace
+is in this room, it houses it and holds it.  The altar glows with the power
+of the Eternal Sun.  A small trapdoor is behind the altar.  
+~
+0 2098176 0
+D0
+~
+~
+1 0 8402
+D5
+~
+~
+1 0 8409
+S
+#8409
+Catacombs of Twilight: Entrance~
+After decending the ladder behind the altar, you find yourself nearly in
+the dark.  The only thing still lighting your way is the altar above. 
+Visibilty is virtually nil past five or six feet.  A small glowing sign is
+clearly visible, however.  It's not too late to go back up to the sunlight. 
+~
+0 2097152 0
+D0
+~
+~
+0 0 8410
+D4
+~
+~
+1 0 8408
+S
+#8410
+Catacombs of Twilight: Level 1~
+The air is slightly stale, and the walls are condensing water on its cool
+surface.  A small winged something flits by your ear, and echoes can be
+heard from farther into the catacombs.  Strange markings engraved into the
+wall inidicate something.  What they indicate is a mystery.  The floor looks
+well worn here, most likely from priests hauling corpses to their eternal
+rest down here.  The glow from the altar in the chapel is visible to the
+south, but barely.  
+~
+0 2097153 0
+D0
+~
+~
+0 0 8412
+D2
+~
+~
+0 0 8409
+D3
+~
+~
+0 0 8411
+S
+#8411
+Catacombs of Twilight: Level 1~
+Darkness is all around, competeing with the stale air for dominance. 
+Some kind of algae manages to live on the walls, apparently living off of
+nothing.  A few holes are carved into the walls, giving resting places for
+the dead.  A great rune of unknown origin lies here on the floor.  Upon
+closer inspection, the dust around the rune seems to have been recently
+disturbed.  
+~
+0 2097153 0
+D1
+~
+~
+0 0 8410
+D5
+~
+~
+1 0 8413
+S
+#8412
+Catacombs of Twilight: Level 1~
+The walls seem to be closing in, as the air somehow becomes even stuffier
+and the moisture seems to permeate you.  Stalactites have started forming,
+and ancient crevices in the walls house the living impaired.  A chasm of
+titanic proportions crosses the walkway, preventing you from going any
+further.  
+~
+0 2097153 0
+D2
+~
+~
+0 0 8410
+S
+#8413
+Catacombs of Twilight: Level 2~
+The darkness here threatens to blot out any light.  A rope ladder of
+apparently elven design leads even further into the darkness.  What lies
+below is unknown.  
+~
+0 2097153 0
+D4
+~
+~
+1 0 8411
+D5
+~
+~
+0 0 8414
+S
+#8414
+Catacombs of Twilight: Level 3~
+An impenetrable wall of stone stands between you and the Drow city.  They
+will only open the wall when they wish, and now is not the time.  The only
+way out is back up the ladder.  
+~
+0 2097153 0
+D4
+~
+~
+0 0 8413
+S
+#8415
+The Shop of Stuff~
+This room is filled with all sorts of stuff.  Most of it is junk, but a
+few good items could be found here.  The shopkeeper stands by the western
+wall, wearing a great pair of sunglasses.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 8404
+S
+#8416
+Champion Armory~
+The walls are lined here with incredibly beautiful armor, shields of
+great strength and shining swords that dazzle and flash with speed and
+accuracy.  A short dwarven smith stands behind the counter.  The door out of
+the store is to the north.  
+~
+0 2097152 0
+D0
+~
+~
+1 8426 8404
+S
+#8417
+Soulfire's Workshop~
+You are in a small, cramped store.  In two corners of the room hover
+two small balls of `mpurple fire`w that illuminate the room with a soft
+glow.  Scanning  over the inventory, you see old stock disappearing
+quickly and there are signs that say "Going Out of Stock"...apparently,
+business is going well.  A large hole has been recently knocked into
+the eastern wall.  The store seems to be expanding.  A shopkeeper
+stands in front of the southern workshop door (barring your way),
+ready to sell you whatever you wish.
+ 
+    There is a `rLARGE SIGN`w here.
+    There is also a huge `gAD`w here.
+~
+0 2097160 0
+E
+fire~
+Small balls of purple fire hover nearby...they are obviously magical
+creations, but their permanency is quite a feat...
+whereas most magical spells fade and disappear with time,
+these seem to burn eternally...
+~
+E
+purple~
+Small balls of purple fire hover nearby...they are obviously magical
+creations, but their permanency is quite a feat...
+whereas most magical spells fade and disappear with time,
+these seem to burn eternally...
+~
+E
+ad~
+`mS`bG`mI`w!  The future of magical engineering!
+Take part in the wave of the future...magic and machinery...spellcraft
+and swordcraft...armor and arcane power...blended together carefully
+by the most skillful craftsman and finest tinkerers of the realms, the
+tinker gnomes!  Wonderous items adorn our shelves!
+Our Grand Opening held mostly our `mMage`w line of accessories,
+but further projects are planned involving objects usable by all ages
+and all professions!  Soon to open in further locations...
+ 
+`mS`bG`mI`w
+"Where wonders are an everyday occurence"
+~
+E
+sign~
+`wTo all valued customers:
+ 
+Soulfire Gnomish Industries `y(`mS`bG`mI`y)`w is proud to say that due to all
+of your assistance, the Worksop is quickly turning into a successful
+business venture...we already have raised enough proceeds to start adding
+`mC`bo`rl`go`yr`w to our inventory!!!
+If business continues to skyrocket, we will soon have a room desc as well!
+Future prospects are looking good as `mS`bG`mI`w considers expanding its
+operation...
+ 
+Once again thanx,
+Soulfire
+Manager-in-Chief, `mS`bG`mI`w
+~
+D1
+~
+~
+0 0 30001
+D2
+~
+~
+0 0 8403
+S
+#8418
+The Path of Wisemen~
+Here, on the Path of Wisemen, the eastern wall of the city towers over
+your head.  A bird flying overhead chirps, and a small squirrel jumps around
+one of the nearby trees.  A serene quality of peace is in this area,
+probably because the church is right to the west, and the window is open.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8403
+D2
+~
+~
+0 0 8420
+S
+#8419
+The Outer Gates of the Sunstone City~
+The massive gates of the city are wonderous.  The size and perfect
+symmetry are astounding and captivating to look at.  Any dwarf would be
+enthralled at the immense sunstone towers and the workmanship of the entire
+city.  The gates are heavily defended by three towers, one by the mountain
+surrouding the city on the north and west sides, and two here, one to the
+north and one to the south, both huge and powerful.  The stories claim the
+sun always shines here, and as it turns out, it's true.  
+~
+0 2097152 2
+D1
+~
+~
+0 0 3268
+D3
+~
+~
+0 0 8403
+S
+#8420
+The Path of Wisemen~
+This path continues on both north and south.  The church is still to the
+west, and the towering walls of sunstone are to the east.  The sounds of a
+bar are somewhere around here.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8418
+D2
+~
+~
+0 0 8421
+S
+#8421
+The Crossroads of Knowledge~
+The chipring of birds and the rustling of trees can still be heard, but
+the noise of a nearby tavern seems a bit more inviting.  A battle tower on
+the corner of the wall here has a few archers and a ballista, ready for any
+attack from the outer walls.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8420
+D3
+~
+~
+0 0 8422
+S
+#8422
+The Path of the Intelligent~
+The road here shines brightly, as the trees of the town wave and rustle overhead.  The southern walls cast shadows that are somehow non-threatening.  The noise from the tavern to the south is very inviting.
+~
+0 2097152 0
+D1
+~
+~
+0 0 8421
+D2
+~
+~
+0 0 8424
+D3
+~
+~
+0 0 8423
+S
+#8423
+The Path of the Intelligent~
+This is the end of the Path of the Intelligent.  To the north is some
+sort of odd magic shop.  The sunstone blocks that make up this road seem
+especially worn here, indicating this shop has been a popular place for many
+a year.  The nearby mountain is to the west, towering over the walls of the
+city.  
+~
+0 2097152 1
+D0
+~
+~
+0 0 8426
+D1
+~
+~
+0 0 8422
+S
+#8424
+The Tavern of The Flaming Phoenix~
+Welcome to one of the best taverns in the entire realm.  This is a major
+hub of communication, and a great place to meet, sit down, and have a drink.
+A huge door of some strong, light wood secures the lush interior of the
+tavern.  The entrance is huge, as is the tavern, to accomodate all sizes of
+customers.  Great smells waft in from the western side of the tavern.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 8422
+D3
+~
+~
+0 0 8425
+S
+#8425
+The Tavern of the Flaming Phoenix~
+The interior of the tavern extends out to the west, to this beautiful
+room.  Here adventurers and anyone else can come in and rest here.  A
+beautiful serving maid is waiting to take your order.  The sun is shining
+outside, and the tavern takes advantage of that by growing food just for
+their customers.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 8424
+S
+#8426
+Thirfaldinarlinaxiothidarnia's Magic Shop~
+This room looks completely devoid of anything magical.  The only thing
+magical about it is the shop owner's name.  The magical part is the relief
+one feels when they get through saying it.  Thirfaldinarlinaxiothidarnia
+claims the magic he sells is real, and this isn't the place he makes his
+magic.  That explains why the room is so bare.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 8423
+S
+#8498
+Inside the C&H Sugar Bag~
+Sugar is everywhere in here!  Obviously, somebody is very demented to
+live in here, which is apparent from some old pizza boxes laying about.  The
+walls are made of waxy paper, and it's a little dark.  If a spoonful of
+sugar makes the medicine go down, you'd be able to drink down an entire
+Pharmaceutical company.  
+~
+0 1048600 0
+D5
+~
+fishbowl~
+5 8493 8499
+S
+#8499
+Ryuujin's Fishbowl~
+A few bubbles float up, towards a dim green light above.  The water is a
+deep blue, and it is very disorienting.  A couch is here, and suddenly, you
+realize you can still breathe easily.  
+~
+0 3153948 6
+E
+up~
+Above you, the starlight shines above the water's surface in the night sky.
+~
+E
+down~
+The sushi machine is looking at you funny.
+~
+D5
+~
+machine~
+3 0 8400
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 8400 4 0
+D 0 8401 0 2
+D 0 8402 2 0
+D 0 8404 2 1
+D 0 8405 2 2
+D 0 8408 0 0
+D 0 8408 5 0
+D 0 8409 4 0
+D 0 8411 5 0
+D 0 8413 4 0
+D 0 8416 0 1
+D 0 8498 5 1
+D 0 8499 5 0
+M 0 8400 1 8400
+E 0 8442 0 17
+M 0 8401 1 8401
+E 0 8400 0 16
+E 0 8401 0 5
+O 0 8414 0 8402
+P 0 8415 0 8414
+M 0 8414 1 8405
+M 0 8416 25 8405
+O 0 8408 0 8406
+M 0 8402 1 8406
+G 0 8402 0
+G 0 8404 0
+G 0 8405 0
+G 0 8406 0
+G 0 8407 0
+M 0 8403 1 8407
+G 0 8410 0
+O 0 8409 0 8407
+M 0 8405 5 8407
+E 0 8411 0 16
+E 0 8401 0 5
+M 0 8404 2 8407
+E 0 8401 0 5
+M 0 8406 1 8407
+E 0 8401 0 5
+O 0 8409 0 8407
+P 0 8400 0 8409
+P 0 8411 0 8409
+P 0 8401 0 8409
+P 0 8412 0 8409
+O 0 8416 0 8409
+M 0 8407 5 8411
+E 0 8417 0 17
+M 0 8407 3 8412
+M 0 8407 1 8412
+O 0 8418 0 8413
+O 0 8418 0 8414
+O 0 8403 0 8414
+M 0 8408 1 8414
+M 0 8410 1 8415
+G 0 8426 0
+E 0 8427 0 6
+G 0 8428 0
+M 0 8409 1 8416
+G 0 8425 0
+G 0 8419 0
+G 0 8421 0
+G 0 8422 0
+G 0 8423 0
+G 0 8424 0
+G 0 8450 0
+G 0 8448 0
+G 0 8443 0
+G 0 8447 0
+G 0 8449 0
+G 0 8445 0
+G 0 8443 0
+G 0 8444 0
+G 0 8420 0
+M 0 4799 1 8417
+G 0 4740 0
+G 0 4741 0
+G 0 4742 0
+G 0 4743 0
+G 0 4744 0
+G 0 4745 0
+G 0 4747 0
+G 0 4748 0
+M 0 8411 1 8424
+G 0 8430 0
+G 0 8431 0
+G 0 8432 0
+G 0 8433 0
+M 0 8412 1 8425
+G 0 8434 0
+G 0 8435 0
+G 0 8436 0
+M 0 8413 1 8426
+G 0 8438 0
+G 0 8440 0
+G 0 8437 0
+G 0 8441 0
+G 0 8439 0
+O 0 8497 0 8499
+M 0 8415 1 8499
+E 0 8495 0 16
+M 0 8435 1 8499
+E 0 8496 0 16
+M 0 8420 1 8499
+G 0 8404 0
+G 0 8402 0
+G 0 8405 0
+S
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+8402 0 19 17 0 0 125 75 0 23
+8409 0 5 9 0 0 100 100 0 23
+8410 0 8 13 11 10 125 75 0 23
+8411 0 17 0 0 0 100 100 0 23
+8412 0 19 0 0 0 100 100 0 23
+8413 0 10 26 0 0 100 100 0 23
+8420 19 5 0 0 0 100 100 0 23
+0
+
+
+
+#$

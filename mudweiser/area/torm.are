@@ -1,0 +1,1516 @@
+#AREADATA
+Name        {15 30} Torm    Danger From Below~
+Builders    None~
+VNUMs       7900 7999
+Security    6
+End
+
+
+
+#MOBILES
+#7900
+Al, Fishguy~
+Al, the fish guy~
+Here stand Al, trying to sell you some fish.
+~
+This man is in his middle to late ages, has a black beard and mustache, and smells terribly like fish.
+~
+Human~
+ABd 0 0 S
+1 0 1d1+1 0d0+0 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7901
+Tom~
+Tom the general store owner~
+Here is Tom, a former pirate, who now owns the general store.
+~
+This is Tom, he is quite tall and thin, rumors say that he is cheap in both buying and selling.
+~
+Human~
+ABd 0 0 S
+1 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 10000
+AHMV ABCDEFGHIJK M unknown
+#7902
+Rich Noble~
+a rich customer~
+Here is a rich customer, drowning his sorrows in a mug of ale.
+~
+This looks like a rich noble person, he looks very sad.
+~
+Human~
+ABS 0 0 S
+15 10 5d30+161 0d0+0 3d5+8 0
+0 0 0 5
+BFK 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+#7903
+Serving Girl~
+a serving girl~
+Here is a serving girl, ready to serve you.
+~
+This woman is quite pretty, and you wonder why she is working here.
+~
+Human~
+AB 0 0 S
+15 15 200d1+100 0d0+0 2d8+2 16
+0 0 0 6
+0 0 0 0
+8 8 2 130
+AHMV ABCDEFGHIJK M unknown
+#7904
+Musician~
+a musician~
+Here is a musician, trying to play a tune everyone likes.
+~
+This man is in his middle ages, and looks like a well to do person, his
+rhythm is to beat and his crowd is large.  
+~
+Human~
+AB 0 500 S
+19 12 8d38+195 0d0+0 1d10+10 11
+-2 -2 -2 4
+I 0 0 0
+8 8 0 230
+AHMV ABCDEFGHIJK M unknown
+#7905
+Naked Lady~
+a naked woman~
+Here stands a naked woman, she freaks when she sees you!
+~
+This woman has long blonde hair and a beautiful smile, unfortunently you only see her smile for a little bit, because now she's pissed
+~
+Human~
+ABF 0 0 S
+17 17 200d1+130 0d0+0 7d2+2 16
+0 0 0 5
+0 0 0 0
+8 8 0 150
+AHMV ABCDEFGHIJK M unknown
+#7906
+traveling trainer~
+the trainer~
+The traveling trainer stands here.
+~
+This old man is tall and strong looking, he is wearing the finest silks from around the world
+~
+Human~
+ABJd H 0 S
+1 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7907
+Moe~
+Moe, the bartender~
+Moe stands here, trying to sell his drinks.
+~
+This is Moe, a short pudgy guy with a big beer belly, maybe he has been drinking to much chill?
+~
+Human~
+ABd 0 0 S
+1 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7908
+goblin~
+a goblin bucaneer~
+You meet the grin of a goblin pirate
+~
+This pirate is dirty and smelly and is goblin, making him smell even worse, he grins at you and carrys on with his business.
+~
+goblin~
+AB J 0 S
+20 22 10d45+200 0d0+0 2d20+1 0
+-2 -2 -2 4
+0 R Q C
+8 8 1 200
+AHMV ABCDEFGHIJK S unknown
+#7909
+Elrik~
+Elrik, the owner of this bar~
+Here stands Elrik, looking like he's waiting for something.
+~
+Here stands a slim tall man, with light blonde hair.  He is staring into
+his cup, looking up everytime someone opens his door. 
+~
+Human~
+ABTd 0 1000 S
+90 95 9000d1+1000 0d0+0 500d1+100 0
+-50 -50 -50 -50
+0 0 0 0
+8 8 1 900
+AHMV ABCDEFGHIJK M unknown
+#7910
+Van AnkleBitter~
+a Necromancer~
+Here stands Van AnkleBitter, a weak vampire.
+~
+This is Van AnkleBitter, nicknamed so because he could never kill people
+head on, and was said to bite peoples ankles.  He is of medium size, with a
+long dark cape with inner red trim, His eyes are white and is mouth is
+slightly opened, he wears two different tags on his inner vest.  The first
+tag says "I buy corpses", and the second says "Buy my key and go
+downstairs".  
+~
+Human~
+ABd 0 -1000 S
+1 0 1d1+1 0d0+0 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7911
+Undead seller~
+the undead seller~
+Here stands the undead seller.
+~
+She stands here waiting for you to place your order, what would you like?
+~
+Human~
+ABd 0 -1000 S
+1 0 1d1+1 0d0+0 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#7912
+Skeleton~
+a skeleton~
+A skeleton stands here
+~
+This is a simple animated human skeleton
+~
+Human~
+AIT 0 -1000 S
+15 15 150d1+0 0d0+0 1d10+1 3
+0 0 -5 3
+0 0 G 0
+8 8 0 0
+AHMV ABCDEFGHIJK S unknown
+#7913
+a zombie~
+a zombie~
+A human zombie stands here.
+~
+This is a simple animated male human zombie.
+ 
+~
+Human~
+AIT 0 -1000 S
+20 20 200d1+200 0d0+0 2d10+9 22
+-2 -5 -2 3
+0 0 E 0
+8 8 1 0
+AHIMV ABCDEFGHIJK M unknown
+#7914
+Mummy~
+a mummy~
+A mummy stands here.
+~
+Here stands a tall creature wrapped in bandages.  
+~
+Human~
+AIT 0 -1000 S
+25 25 200d1+70 0d0+0 3d10+0 17
+-5 -5 -5 0
+0 0 0 0
+8 8 2 0
+AHIMV ABCDEFGHIJK M unknown
+#7915
+a vampire~
+a human vampire~
+A vampire stands here
+~
+Here stands a tall man in a dark cape.
+~
+Human~
+A 0 -1000 S
+30 30 300d1+400 0d0+0 4d10+12 6
+-13 -9 -9 1
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7916
+a lich~
+a human lich~
+A lich stands here
+~
+This creature looks like a skeleton, but is wearing fine garments and jewels.
+~
+Human~
+AI 0 -1000 S
+35 35 10d81+416 500d1+300 4d8+0 0
+-12 -12 -12 -3
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7917
+Hal ~
+Hal~
+Hal stands here, trying to sell some magical items.
+~
+Hal is a short man with jet black hair and dark brown eyes.  
+~
+Human~
+ABd 0 0 S
+1 0 1d1+0 1d1+0 1d1+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#7918
+Giant Ant~
+a giant ant~
+A giant ant is here.
+~
+This creature looks like one of those little tiny weak things that walk
+down your street, you used to crush them when you were young, only this guy
+is a LOT bigger.  
+~
+centipede~
+AF Z 0 S
+25 24 8d40+234 0d0+0 5d5+11 10
+-6 -6 -6 0
+CDOU 0 FI E
+8 8 1 0
+0 0 M unknown
+#7919
+Queen giant ant~
+the queen ant~
+A huge ant stands here, trying to lay an egg
+~
+This is the cream of the crop, she is three times the size of a giant
+ant, and she dosen't look very happy at your intrusion into her lair.  
+~
+centipede~
+AB Z 0 S
+32 31 300d1+500 0d0+0 5d7+16 10
+-10 -10 -10 0
+0 0 FI E
+8 8 2 0
+0 0 M unknown
+#7920
+Lesser Giant Ant~
+a lesser ant~
+Here is a smaller giant ant, but still dangerous.
+~
+This ant is smaller then the rest of the giant ants, but he can still
+take a chunk out of you so be careful.  
+~
+centipede~
+ABF Z 0 S
+20 18 8d30+316 0d0+0 4d5+10 10
+-2 -2 -2 4
+0 0 FI E
+8 8 1 0
+0 0 M unknown
+#7921
+lesser earth elemental~
+a lesser earth elemental~
+Here is a rock shaped like a human.
+~
+This creature is made up of earth, and has very hard skin.
+~
+Human~
+AB 0 0 S
+30 30 300d1+300 0d0+0 5d6+13 8
+-9 -9 -9 0
+CDO EL BQ H
+8 8 0 500
+AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
+#0
+
+
+
+#OBJECTS
+#7900
+trout meat~
+a tasty looking trout~
+Here lies a delicious looking trout! ~
+unknown~
+19 0 A
+ABC 0 0 0 0
+1 1 40 P
+#7901
+salted herrings meat~
+100 salted herrings~
+Here is a big can filled with 100 salted herrings~
+unknown~
+19 0 A
+AD 0 0 0 0
+1 1 50 P
+#7902
+pike meat~
+a large pike~
+Here lies a large 25 pound pike~
+unknown~
+19 0 A
+ACD 0 0 0 0
+1 25 90 P
+#7903
+swordfish sword sharp vorpal~
+a SwordFish~
+Here lies a sharp swordfish.~
+unknown~
+5 A AN
+A BC C AB DE
+18 0 3000 P
+A
+19 4
+A
+18 -2
+#7904
+trunk container~
+a trunk~
+Here is a large trunk, you feel an evilness leaking from it.~
+unknown~
+15 ABEG 0
+BEF 0 0 0 0
+1 9000 0 P
+#7905
+voodoo dagger vampiric~
+vOoDoO DaGgEr~
+Here lies a dagger, seeping evilness~
+unknown~
+5 ABEJLTV AN
+B ABC AB ABD C
+19 3 4000 P
+#7906
+chill drink-beer~
+a CHILL~
+Here is an icy blue bottle.~
+unknown~
+17 0 A
+A A A 0 0
+1 1 5 P
+#7907
+da tank potion-all~
+da Tank~
+Here lies a dark black potion.~
+unknown~
+10 0 A
+33 1 66 0 0
+32 4 100000 P
+#7908
+purifier potion-defend~
+the Purifier~
+Here lies a clear white potion.~
+unknown~
+10 AB A
+20 43 501 35 0
+28 2 75000 P
+#7909
+master maladicter exotic flaming frost vampiric sharp vorpal~
+the Master Maladicter~
+Here lies a dull blade, with a minor demon mark on the hilt.~
+unknown~
+5 ABEGRU AN
+0 AB C AB ABCDE
+15 2 3000 P
+#7910
+spiders spear vampiric~
+spider's Spear~
+Here lies a long spear, spining its self a new owner.~
+unknown~
+5 GI AN
+AB C ABC ABD C
+20 3 2500 P
+A
+19 3
+A
+18 3
+A
+2 2
+#7911
+medusa's hair armor-head~
+medusa's Hair~
+Here lies some green snakes.~
+unknown~
+9 ABG AE
+AC AC AC AC 0
+18 10 2000 P
+A
+5 -2
+A
+1 1
+A
+3 2
+#7912
+trapdoor key~
+trap door key~
+Here lies the trapdoor key~
+unknown~
+18 0 A
+0 0 0 0 0
+1 1 50 P
+#7913
+firevall wand wand-attack~
+a fireball wand~
+Here lies a short stocky wand~
+unknown~
+3 0 AO
+CE CE CE 26 0
+20 3 2000 P
+#7914
+lightning wand wand-attack~
+lightning wand~
+Here lies a short thin wand.~
+unknown~
+3 0 AO
+CE CE CE 30 0
+20 3 2000 P
+#7915
+deadlydagger dagger sharp~
+a DeadlyDagger~
+Here lies a very sharp dagger~
+unknown~
+5 0 AN
+B AC AC ABD D
+19 1 2000 P
+#7916
+well fountain~
+a well~
+A well is here.~
+unknown~
+25 0 0
+0 0 0 0 0
+1 1 1 P
+#7917
+small trunk container~
+a trunk~
+A trunk is here.~
+unknown~
+15 0 A
+BEF 0 0 0 0
+1 50 0 P
+#7918
+gold nugget treasure~
+a gold nugget~
+Here lies a golden nugget~
+unknown~
+8 0 A
+0 0 0 0 0
+1 3 1000 P
+#7919
+huge hunk gold treasure~
+a HUGE HUNK of GOLD~
+Here is a HUGE HUNK of GOLD.~
+unknown~
+8 0 A
+0 0 0 0 0
+1 25 50000 P
+#7920
+idol talkin wand-defend~
+an idol of a Talkin~
+Here lies an idol of a Talkin~
+unknown~
+3 A AO
+ADE B B 15 0
+25 2 2500 P
+A
+12 -65
+A
+13 50
+A
+1 -1
+#7921
+invisibility potion potion-defend~
+an invis potion~
+Here lies a potion with a translucent liquid inside.~
+unknown~
+10 0 A
+24 29 0 0 0
+24 1 900 P
+#7922
+earth battleaxe axe two-hands~
+an earth BattleAxe~
+Here lies an axe molding into the ground~
+unknown~
+5 X ANPQRSTUVWXYZabcdef
+AC AD BC ADE F
+33 15 4000 P
+A
+1 2
+A
+5 1
+A
+2 -3
+A
+4 -3
+#7923
+trapdoor key~
+a trapdoor key~
+Here lies a small copper key.~
+unknown~
+18 0 A
+0 0 0 0 0
+1 1 500 P
+#7924
+key~
+a secret door key.~
+Here lies a key to a secret door.~
+unknown~
+18 0 A
+0 0 0 0 0
+1 1 1 P
+#0
+
+
+
+#ROOMS
+#7900
+Outside the West Entrance of Tillage~
+You are standing on the Old Road, which heads east through the city of
+Tillage.  This is a very small town, and poor by the looks of it.  There
+are signs and postings, most of them are saying missing, and someones name.  
+~
+0 0 0
+D1
+~
+~
+0 0 7901
+D3
+~
+~
+0 0 4175
+S
+#7901
+Inside the West Entrance of Tillage~
+You have entered what looks like a small plaza, to the north is the fish
+store, to the south is the general store, and to the east Old Road
+continues.  
+~
+0 0 0
+D0
+~
+~
+0 0 7902
+D1
+~
+~
+0 0 7904
+D2
+~
+~
+0 0 7903
+D3
+~
+~
+0 0 7900
+S
+#7902
+The Small Fishing Store~
+This is a small fishing store, packed with different kinds of fish and
+fishing equipment.  Behind the counter you see Pike, Herrings, Trout, and
+even some really exotic fish, all ready to be bought, cooked and eaten,
+mmmmmm.  
+~
+0 0 0
+D2
+~
+~
+0 0 7901
+S
+#7903
+The General Store~
+This is Tom's general store, and behind the counter is Tom.  Here you can
+find many different things, mostly others leftovers, who knows, maybe you
+will get lucky and find a good buy.  
+~
+0 0 0
+D0
+~
+~
+0 0 7901
+S
+#7904
+The Old Road~
+Here the Old Road continues east, further in the distance you can
+see what looks like the village square.  
+~
+0 0 0
+D1
+~
+~
+0 0 7905
+D3
+~
+~
+0 0 7901
+S
+#7905
+Village Square~
+This area is quiet for a Village Square, it makes since however, since
+this is a very small town.  To the east is the port, the north is the
+Lakeside Tavern, and to the south is an old abanondoned house.  There is a
+large well in the center of the Village Square, it seems to be newly dug but
+is working properly.  
+~
+0 0 0
+E
+sign~
+Many people have disapeered when they had been by this well, we do not
+know what lays below or do we want to, but we want you to be warned.  -Town
+Mayor- [OOC- This area is dangerous and is filled with many aggro mobs, but
+there are many treasures, try not to get yourself killed -Torm-] 
+~
+D0
+~
+~
+0 0 7907
+D1
+~
+~
+0 0 7906
+D2
+~
+~
+1 0 7918
+D3
+~
+~
+0 0 7904
+D5
+~
+~
+0 0 7922
+S
+#7906
+Entrance to the Port~
+You are standing on moist ground, near the port.  This place is full of
+pirates trying to sneak by, and bucanneers trying to make alot of money on
+their stolen merchandise.  
+~
+0 0 0
+D1
+~
+~
+0 0 7914
+D3
+~
+~
+0 0 7905
+S
+#7907
+The Lakeside Tavern~
+This room is full of rowdy drunks and singers and serving women, all
+looking to have a good time.  There is a sign posted here.  
+~
+0 8 0
+E
+sign~
+R*E*W*A*R*D* He or she who returns the SkullFace mask to Elrik shall
+recieve a great reward, it is said to be somewhere in or near this city.  
+~
+D1
+~
+~
+0 0 7915
+D2
+~
+~
+0 0 7905
+D3
+~
+~
+0 0 7913
+D4
+~
+~
+0 0 7908
+S
+#7908
+The Main Hallway~
+This room is the main hallway to all of the other rooms, it may be hard to find your room.
+~
+0 0 0
+D0
+~
+~
+0 0 7910
+D1
+~
+~
+0 0 7909
+D3
+~
+~
+0 0 7912
+D5
+~
+~
+0 0 7907
+S
+#7909
+Frantic Ladys Room~
+This room is full of flowers and other womanly things.  There are two beds
+and a wash stand in this room.  
+~
+0 0 0
+D3
+~
+~
+0 0 7908
+S
+#7910
+The Empty Room~
+This room is totally empty, there is nothing in this room at all, not
+even a washstand or bed.  The walls here are made of a darker wood, and the
+door has carvings in it.  
+~
+0 0 0
+D0
+~
+~
+1 7924 7911
+D2
+~
+~
+0 0 7908
+S
+#7911
+The Seceret Room~
+You have entered the seceret room, this room is full of death devices,
+guilitines, axes, swords and daggers, however none look useful.  
+~
+0 0 0
+D2
+~
+~
+1 0 7910
+S
+#7912
+The Trainer~
+This room is the room of the traveling trainer.  He travels around the
+world trainer young people in the way of different skills and spells.  
+~
+0 0 0
+D1
+~
+~
+0 0 7908
+S
+#7913
+The Bar~
+This is the bar, they serve some normal drinks and some magical drinks,
+why don't you buy one and find out what it does. 
+~
+0 0 0
+D1
+~
+~
+0 0 7907
+S
+#7914
+Smelly Port~
+This place has a lingering smell of tobacco, death and decay, Everyone
+here is either watching their back, watching their friends back, or watching
+your purse!  
+~
+0 0 0
+D1
+~
+~
+0 0 7916
+D3
+~
+~
+0 0 7906
+S
+#7915
+The Owners Personal Room~
+You have entered a very lavish looking room, it is adorned with things
+around the world.  Vases made from very rare materials, pictures drawn to an
+exquisite taste, and a large mirror, shining like a large pearl.  
+~
+0 0 0
+D3
+~
+~
+0 0 7907
+S
+#7916
+The Port~
+You have come to the heart of this port, to the east is a large ship,
+with many different sailors on it.  To the north is the sailors hangout, and
+to the south is the magic store.  
+~
+0 0 0
+D0
+~
+~
+0 0 7917
+D2
+~
+~
+0 0 7921
+D3
+~
+~
+0 0 7914
+S
+#7917
+The Sailors Hangout~
+This is a small bar, where all the sailors hangout, being that the rest
+of the town dislikes them.  Here you can find many different races of
+seafarers, all trying to get use to land again.  
+~
+0 4 0
+D2
+~
+~
+0 0 7916
+S
+#7918
+The Necromancer's House~
+This room is full of different items of destruction and torture. 
+Coffins, crypts, and tombs are scattered about in this huge house.  
+~
+0 0 0
+D0
+~
+~
+1 0 7905
+D5
+~
+trapdoor~
+1 7923 7919
+S
+#7919
+Undead Seller Service~
+You are standing in a small room that is filled with different people
+trying to buy an undead mercenary.  
+~
+0 4096 0
+D4
+~
+~
+1 0 7918
+S
+#7920
+Pet Repop Stop Shop~
+This is the room where the petshop pets will be and then someone can buy
+them from the seller.  
+~
+0 4 0
+S
+#7921
+The Magic Store~
+This room is small and has a lot of items hanging on the back shelf, they
+seem to be magical items for sale.  You see arcane words and marks all over
+the wood that makes up the house.  
+~
+0 0 0
+D0
+~
+~
+0 0 7916
+S
+#7922
+Entrance To What Is Below~
+You have climbed down the well, if you read the sign that is up from here
+and still choose to go below, then good luck.  
+~
+0 0 0
+D4
+~
+~
+0 0 7905
+D5
+~
+~
+0 0 7923
+S
+#7923
+A Bit Further~
+You have traveled a bit further down the well, it seems to keep going
+down and you start to wonder, when does it end, does it end, you are not
+sure anymore.  
+~
+0 0 0
+D4
+~
+~
+0 0 7922
+D5
+~
+~
+0 0 7924
+S
+#7924
+The First Branch~
+The well here becomes a bit more interesting as there is a branch in the
+wall that leads east, but however, it keeps going down also.  
+~
+0 0 0
+D1
+~
+~
+0 0 7925
+D4
+~
+~
+0 0 7923
+D5
+~
+~
+0 0 7926
+S
+#7925
+Maybe Not Such A Good Idea~
+This first branch is filled with carrion of some large type of creature,
+you wonder if it was such a good idea coming this way.  
+~
+0 0 0
+D1
+~
+~
+0 0 7931
+D3
+~
+~
+0 0 7924
+S
+#7926
+Deep In The Well Hole~
+This area is dirty and coarse, all that you can see is the side of the
+down going tunnel walls.  
+~
+0 0 0
+D3
+~
+~
+0 0 7935
+D4
+~
+~
+0 0 7924
+D5
+~
+~
+0 0 7927
+S
+#7927
+Deep Deep In The Well Hole~
+This area is dirty and coarse, all that you can see is the side of the
+down going tunnel walls.  
+~
+0 0 0
+D1
+~
+~
+0 0 7939
+D4
+~
+~
+0 0 7926
+D5
+~
+~
+0 0 7928
+S
+#7928
+Deep Deep Deep In The Well Hole~
+This area is starting to look the same over and over, but you do see a
+west going passage way here!  Well, at least you can die of curiosity and not
+boredom now.  
+~
+0 0 0
+D3
+~
+~
+0 0 7943
+D4
+~
+~
+0 0 7927
+D5
+~
+~
+0 0 7929
+S
+#7929
+Deep Deep Deep Deep..Well You Get The Point~
+This area is very small and it is getting harder to breath as the air is
+thinning, to the lower part of the tunnel you can see this trip will come to
+an end, unless you can go some other way then down.  
+~
+0 0 0
+D1
+~
+~
+0 0 7944
+D4
+~
+~
+0 0 7928
+D5
+~
+~
+0 0 7930
+S
+#7930
+Elemental Plane Of Earth Gate~
+This area is filled with the different forms of life that mineral rich
+soil can provide, there is alot of greenery and vegatation along the walls. 
+There is a large gate on the south wall, peering into it you see a new
+world.  
+~
+0 0 0
+D4
+~
+~
+0 0 7929
+S
+#7931
+Open Section~
+This area looks just like all of the other parts in the good-forsaken
+place, but you notice there are no cubby holes here where you have noticed
+some nasty little ants hiding.  
+~
+0 0 0
+D1
+~
+~
+0 0 7932
+D3
+~
+~
+0 0 7925
+S
+#7932
+Another Ant Hole~
+Here is another ant hole, hopefully you can get lucky and there will be
+no ants, or maybe you can try to run past them.  
+~
+0 0 0
+D1
+~
+~
+0 0 7933
+D3
+~
+~
+0 0 7931
+S
+#7933
+Entrance To The Treasury~
+This must be where all those stupid ants keep the treasure that they get
+from their victims, you see a huge treasure pile, hopefully it will still be
+there when you get there.  
+~
+0 0 0
+D1
+~
+~
+0 0 7934
+D3
+~
+~
+0 0 7932
+S
+#7934
+The Treasury~
+This room is odd looking, the walls are a more solid shape, and the only
+way out is back west, hope you don't get trapped in here.  
+~
+0 0 0
+D3
+~
+~
+0 0 7933
+S
+#7935
+Ant Guard Post~
+If you thought that ants were smart enough to make a post then you would
+be stupid.  But this area kinda looks like one, there are many different ant
+marks here.  
+~
+0 0 0
+D1
+~
+~
+0 0 7926
+D3
+~
+~
+0 0 7936
+S
+#7936
+An Open Area~
+This room is not occupied by of of those ant cubby holes, therefore you
+assume there to be no ants, but there still could be. 
+~
+0 0 0
+D1
+~
+~
+0 0 7935
+D3
+~
+~
+0 0 7937
+S
+#7937
+Nothing Important~
+This room is rather plain and ordinary, there is nothing in this room of
+interest.  
+~
+0 0 0
+D1
+~
+~
+0 0 7936
+D3
+~
+~
+0 0 7938
+S
+#7938
+Dead End~
+This room is a dead end, there is no way to go except back the way you
+came.  
+~
+0 4 0
+D1
+~
+~
+0 0 7937
+S
+#7939
+Ant Guard Hall~
+Looking down this hall you sell many tracks and a lot of ant carrion,
+this path is used by many ants.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 7940
+D3
+~
+~
+0 0 7927
+S
+#7940
+Short Hall~
+This is a short hall that is leading into a larger room, from a distance
+you can make out large white oval shaped objects on the fall of this large
+room.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 7941
+D3
+~
+~
+0 0 7939
+S
+#7941
+Entrance To The Large Room~
+You are standing right next to the entrance of the large room, you can
+now make out that the large white oval shaped things you saw before are in
+fact eggs, and being that you have seen many marks of ants you assume they
+are giant ant eggs.  
+ 
+~
+0 2097152 0
+D1
+~
+~
+0 0 7942
+D3
+~
+~
+0 0 7940
+S
+#7942
+The Large Room~
+This is the large room, and it is filled with giant ant eggs.  This must
+be the home of the queen ant, wonder if she is hiding around here somewhere.
+~
+0 2097152 0
+D3
+~
+~
+0 0 7941
+S
+#7943
+The Watery Hole~
+You are standing on the edge of a large, and what seems to be a very deep
+hole filled with water.  You wonder how all this water got here. You also
+wonder what could be down there?  
+~
+0 0 0
+D1
+~
+~
+0 0 7928
+S
+#7944
+The Ant Hole~
+Before coming into this room you thought that these ants were
+semi-intelligent, but now you can see that they are just plain stupid. 
+There is a large hole in the middle of the room, filled with ants.  
+~
+0 0 0
+D3
+~
+~
+0 0 7929
+D5
+~
+~
+0 0 7945
+S
+#7945
+I Think Your DEAD!~
+It was NOT a good idea to come here, but since you have you should search
+the ground to see if you can find something that you can drink to make you
+invisible so the ants to the east won't kill you.  
+~
+0 0 0
+D1
+~
+~
+0 0 7946
+D4
+~
+~
+0 0 7944
+S
+#7946
+Ok NOW Your Dead~
+This room is a pigsty, it is the worst place that you have ever seen. 
+There are many skeletons crushed on the ground.  
+~
+0 0 0
+D3
+~
+~
+0 0 7945
+S
+#7947
+Somewhere On The Elemental Plane Of Earth~
+You are now in the Elemental Plane of Earth, this is another world like
+the prime, but its residents are made up of mostly earth.  
+~
+0 4 0
+D1
+~
+~
+0 0 7948
+S
+#7948
+Thicker....~
+The area around this plane still looks the same, and it reminds you of a huge desert. The gas here is thicker, and you know that u can't go much longer in this kind of poison.
+~
+0 0 0
+D2
+~
+~
+0 0 7949
+D3
+~
+~
+0 0 7947
+S
+#7949
+A City?~
+This area looks just like everything else you have seen.  Wait a minute,
+to the east, is that a....  City?  
+~
+0 0 0
+D0
+~
+~
+0 0 7948
+D3
+~
+~
+0 0 7950
+S
+#7950
+Empty Area~
+This area is just as empty as most of this plane.  All around you is
+dirt, and bogs, and some quicksand, be careful.  
+~
+0 0 0
+D1
+~
+~
+0 0 7949
+D3
+~
+~
+0 0 7951
+S
+#7951
+A Slow Death~
+This is terrible, you have wondered right into a patch of quick sand,
+there is no way out, and you will slowly die.  Unless, maybe you can whip up
+some magic and get out of here, its your only chance.  
+~
+0 0 0
+D1
+~
+~
+0 0 7950
+S
+#0
+
+
+
+#RAFFECTS
+#7947
+1
+The Earth gases~
+$n inhales deadly earth gases!
+~
+You inhale deadly earth gases!
+~
+1 0 50 5 0 0
+#7948
+1
+earth~
+$n is hit by deadly earth gases!
+~
+You inhale deadly earth gases!
+~
+1 0 75 0 0 0
+#7949
+1
+earth~
+$n inhales deadly earth gases!
+~
+You inhale deadly earth gases!
+~
+1 0 50 0 0 0
+#7950
+1
+earth~
+$n inhales deadly earth gases!  
+~
+You inhale deadly earth gases!
+~
+1 0 50 0 0 0
+#7951
+1
+quicksand~
+$n starts to sink a little more, and breath a little less!
+~
+You start to sink a little further, and breath a little less!  
+~
+1 0 250 0 0 0
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 7905 2 0
+D 0 7910 0 1
+D 0 7911 2 1
+D 0 7918 0 0
+D 0 7918 5 1
+D 0 7919 4 1
+M 0 7900 1 7902
+G 0 7900 0
+G 0 7901 0
+G 0 7902 0
+G 0 7903 0
+M 0 7901 1 7903
+O 0 7916 0 7905
+P 0 7924 0 1
+M 0 7902 3 7907
+M 0 7903 2 7907
+M 0 7903 1 7907
+M 0 7904 1 7907
+M 0 7905 1 7909
+O 0 7904 0 7911
+O 0 7904 0 7911
+P 0 7905 0 7904
+M 0 7905 1 7912
+M 0 7906 1 7912
+M 0 7906 1 7913
+M 0 7907 1 7913
+G 0 7907 0
+G 0 7906 0
+G 0 7908 0
+M 0 7908 5 7914
+M 0 7909 1 7915
+M 0 7908 5 7917
+M 0 7910 1 7918
+G 0 7909 0
+G 0 7910 0
+G 0 7911 0
+G 0 7923 0
+M 0 7911 1 7919
+M 0 7912 1 7920
+M 0 7913 1 7920
+M 0 7914 1 7920
+M 0 7915 1 7920
+M 0 7916 1 7920
+M 0 7917 1 7921
+G 0 7913 0
+G 0 7914 0
+G 0 7915 0
+M 0 7918 10 7925
+M 0 7918 10 7932
+O 0 7917 0 7934
+O 0 7919 0 7934
+P 0 7920 0 7917
+M 0 7918 10 7935
+M 0 7918 10 7938
+M 0 7918 10 7939
+M 0 7919 1 7942
+O 0 7921 0 7945
+M 0 7920 10 7946
+M 0 7921 2 7947
+E 0 7922 0 16
+S
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+7900 19 5 28 0 0 110 80 0 23
+7901 11 5 8 0 0 20 10 0 23
+7907 17 19 26 0 0 80 130 0 23
+7910 0 0 0 0 0 120 90 0 23
+7911 11 8 0 0 0 120 70 0 23
+7917 3 10 4 2 1 100 100 0 23
+0
+
+
+
+#$

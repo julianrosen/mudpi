@@ -1,0 +1,6 @@
+/***************************************
+A little file to say whether this is the play or build site.
+*/
+
+#define	IS_PLAY_SITE
+

@@ -1,0 +1,1440 @@
+#AREADATA
+Name        { 1 30} Kyle    Playtester's arena~
+Builders    Kyle~
+VNUMs       400 499
+Security    8
+End
+
+
+
+#MOBILES
+#400
+vault guard guardian~
+a vault guard~
+The guardian of the forbidden vault blocks your passage.
+~
+This guard has been instruced to guard the mob against ANY unauthorized
+visitors.  Since the equipment inside may be unbalanced for play(hint hint),
+players are not intended to enter.  
+~
+Human~
+AB 0 200 S
+7 8 1d20+65 1d10+40 3d3+0 1
+5 5 5 7
+0 ABP 0 0
+8 8 0 150
+AGHMV ABCDEFGHIJK M unknown
+#401
+equpiment guardian~
+a large angry guardian monster~
+The guardian of the equipment does not look happy to see you.
+~
+~
+Human~
+ABF J 0 S
+10 0 5d10+110 1d1+99 5d3+3 15
+3 3 3 6
+FIJMN P B K
+8 8 0 0
+AHMSV ABCDEFGHIJKLMP H unknown
+#402
+puny mob~
+a puny mob~
+A puny mob runs away from you.
+~
+This mob is the puniest of them all.
+~
+Human~
+A 0 100 S
+1 2 1d4+7 1d1+10 1d3+1 16
+9 9 9 9
+F 0 0 0
+8 8 0 20
+AHMV ABCDEFGHIJK S unknown
+R 50 1 A 
+#403
+weak mob~
+a weak mob~
+A weak mob cowers at your approach.
+~
+This mob will die if you attack it.
+~
+Human~
+A 0 0 S
+2 4 4d8+1 1d20+0 1d4+1 9
+9 9 9 9
+0 0 0 0
+8 8 0 25
+AHMV ABCDEFGHIJK S unknown
+R 60 1 E 
+#404
+average mob~
+an average mob~
+An average-sized mob is here, hoping to live.
+~
+~
+Human~
+A 0 150 S
+3 4 2d3+25 2d11+1 1d4+2 17
+8 8 8 9
+0 0 0 0
+8 8 0 30
+AEHMV ABCDEFGHIJK M unknown
+R 50 2 AE 
+#405
+big mob~
+a big mob~
+A big mob stands here, thinking it can kill you.
+~
+This mob is the biggest mob in this part of the arena.  Hope you're up to
+killing it.  
+~
+Human~
+A 0 50 S
+4 5 4d6+28 1d1+19 2d4+0 5
+7 7 7 8
+IN 0 0 0
+8 8 0 40
+AHMV ABCDEFGHIJK M unknown
+R 50 1 C 
+#406
+deformed mob~
+A deformed mob~
+A deformed mob lurches around here.
+~
+This mob is so deformed you can't tell which way it's facing.  
+~
+Human~
+AC 0 -250 S
+8 8 5d25+80 1d100+0 1d15+2 12
+5 5 5 7
+M 0 0 G
+8 8 0 80
+AHMSV ABCDEFGHIJKM L unknown
+#407
+large mutant mob~
+A large mutant mob~
+A large mutant mob stands here, looking strong and almost intelligent.
+~
+This mutant mob covets a very nice piece of equipment.
+~
+Human~
+ABC 0 -400 S
+10 9 5d22+111 10d10+10 2d5+6 23
+4 4 4 7
+IM 0 C 0
+8 8 0 150
+AHMV ABCDEFGHIJK M unknown
+#408
+sneaky guard~
+A sneaky guard mob~
+A sneaky guard mob hides from you here.
+~
+~
+Human~
+ABF DFPQ 250 S
+8 7 2d22+80 1d6+42 2d5+2 18
+5 5 5 7
+0 0 0 0
+8 8 0 50
+AEHMV ABCDEFGHIJK M unknown
+#409
+old wise mob~
+An old, wise mob~
+An old, wise mob wishes you had never found him.
+~
+This old wise mob has been hiding here in this hideout for many years. 
+Now that you're here, he'll probably die.  
+~
+Human~
+A 0 100 S
+7 7 2d22+55 1d1+111 2d3+4 32
+6 6 6 8
+0 0 CHIS 0
+8 8 0 120
+AHMV ABCDEFGHIJK M unknown
+R 75 3 ABG 
+#410
+mob leader~
+the mob leader~
+The mob leader stands here plotting your demise.
+~
+This mob WILL beat you down should you attack it.  Trust me.  
+~
+Human~
+ABR 0 -400 S
+11 10 10d10+150 1d1+299 2d6+6 18
+2 2 2 5
+0 C 0 0
+8 8 0 800
+AHMSV ABCDEFGHIJKNY M unknown
+R 60 2 CF 
+#411
+smart mob~
+a smart mob~
+A smart mob wanders around waiting for the best time to attack.
+~
+~
+Human~
+AR 0 -250 S
+9 8 3d21+110 1d1+200 2d5+4 10
+4 4 4 7
+U 0 C 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+R 60 1 B 
+#0
+
+
+
+#OBJECTS
+#400
+key vault~
+a vault key~
+A key to the newbie test EQ vault lies here.~
+unknown~
+18 B A
+0 0 0 0 0
+1 1 0 P
+#401
+forbidden key~
+a forbidden key~
+A key lies here.  It's not yours! Don't pick it up!~
+unknown~
+18 A AO
+0 0 0 0 0
+1 1 0 P
+#402
+playtest sword~
+a playtest sword~
+A playtesting sword lies here.~
+unknown~
+5 0 AN
+A B BC AB 0
+4 9 10 P
+#403
+playtesters helmet~
+a playtester's helmet~
+A playtest helmet lies here.~
+unknown~
+9 0 AE
+B B B A 0
+3 10 0 P
+A
+19 1
+A
+3 1
+A
+4 1
+#404
+playtesters plate mail~
+playtester's plate mail~
+A suit of playtester's plate mail lies here.~
+unknown~
+9 0 AD
+C C C B 0
+5 12 20 P
+A
+19 2
+A
+18 2
+A
+13 10
+#405
+playtesters boots~
+playtester's boots~
+A pair of playtest boots lies here.~
+unknown~
+9 0 AG
+B B B A 0
+2 6 5 P
+A
+14 30
+A
+2 2
+#406
+playtesters cloak~
+a playtester's cloak~
+A playtesting cloak lies here.~
+unknown~
+9 0 AK
+B AB B A 0
+3 6 25 P
+A
+18 1
+A
+12 10
+#407
+playtesters leggings~
+playtester's leggings~
+A pair of playtester's leggings lies here.~
+unknown~
+9 0 AF
+AB B AB A 0
+4 4 20 P
+A
+2 1
+A
+14 25
+#408
+playtesters gloves~
+a pair of playtest gloves~
+A pair of playtester's gloves lies here.~
+unknown~
+9 0 AH
+B B B A 0
+3 3 30 P
+A
+18 1
+A
+1 1
+#409
+playtester's mace~
+a playtester's mace~
+A playtester's mace has been dropped here.~
+unknown~
+5 0 AN
+C B BC D 0
+2 9 30 P
+A
+4 1
+A
+18 1
+#410
+playtesters dagger~
+a playtester's dagger~
+A playtester's dagger lies here.~
+unknown~
+5 0 AN
+B B BC B 0
+2 7 25 P
+A
+18 1
+A
+2 1
+A
+3 1
+#411
+silver playtesters sword~
+a silver playtester's sword~
+A silver playtester's sword lies here.~
+unknown~
+5 0 AN
+A C AC AB 0
+8 11 100 P
+A
+18 3
+A
+19 1
+#412
+playtesters light source~
+a playtester's infinite light source~
+A playtester's light lies here.~
+unknown~
+1 A AO
+0 0 999 0 0
+5 10 20 P
+A
+19 1
+A
+18 1
+#413
+playtesters mana ring~
+a playtester's mana ring~
+A playtester's ring lies here.~
+unknown~
+9 0 AB
+0 0 0 AC 0
+5 2 40 P
+A
+12 30
+#414
+playtesters hitpoint ring~
+a playtester's hit point ring~
+A playtester's hit point ring lies here.~
+unknown~
+9 0 AB
+A A A A 0
+5 2 50 P
+A
+13 20
+#415
+playtesters bottomless drink~
+a playtester's bottomless drink~
+A playtester's drink lies here.~
+unknown~
+25 G A
+0 0 0 0 0
+3 15 100 P
+#416
+key~
+a supply key~
+A key lies here in the dust.~
+unknown~
+18 0 AO
+0 0 0 0 0
+1 2 0 P
+#417
+supply crate~
+a supply crate~
+A crate full of supplies is here.~
+unknown~
+15 0 0
+BD ACD FHI 0 0
+5 10 10 P
+#418
+playtesters survival rations~
+some playtester's survival rations~
+A few survival rations lie scattered about here.~
+unknown~
+19 0 A
+DG 0 0 0 0
+3 3 50 P
+#419
+playtesters belt~
+playtester's belt~
+A playtester's belt lies here.~
+unknown~
+9 0 AL
+AB AB AB B 0
+6 4 100 P
+A
+19 1
+A
+18 1
+A
+5 2
+#420
+playtesters shield~
+a playtester's shield~
+A playtester's shield lies here.~
+unknown~
+9 0 AJ
+C C C B 0
+5 6 100 P
+A
+13 10
+#421
+playtesters amulet~
+a playtester's amulet~
+A playtester's amulet lies here.~
+unknown~
+9 ABG AC
+AB AB AB AB 0
+10 4 150 P
+#422
+playtesters bracer~
+a playtester's bracer~
+A playtesters bracer lies here.~
+unknown~
+9 AG AM
+C C C C 0
+9 4 100 P
+A
+18 2
+A
+19 1
+#423
+playtesters sleeves~
+playtester's sleeves~
+A pair of playtester's sleeves lay here.~
+unknown~
+9 G AI
+C C C B 0
+8 4 75 P
+A
+1 2
+A
+18 1
+#424
+silver playtesters mace~
+a silver playtester's mace~
+A silver playtester's mace lies here.~
+unknown~
+5 0 AN
+C C AC ABC 0
+8 8 100 P
+A
+4 1
+A
+18 2
+#425
+playtesters silver dagger~
+a silver playtester's dagger~
+A silver playtester's dagger lies here.~
+unknown~
+5 0 AN
+B C AC B 0
+8 9 100 P
+#0
+
+
+
+#ROOMS
+#400
+Entrance to the playtesting arenas~
+You are in a dark, slightly damp room.  A ladder extends above you into
+the sunny city of Midgaard.  To your north, you see a large dirt arena where
+small creatures crawl around looking for food.  Torches light the arena to
+your north, so you need not have fear if you didn't bring a lantern with
+you.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 401
+D4
+~
+~
+0 0 3014
+S
+#401
+Entrance to the newbie arena~
+This is the entrance to the level 1 to 10 arena.  Mobs around here have
+some standardized equpiment you can use until more areas have been
+implemented.  Most EQ here will eventually be taken away, but you will be
+allowed to keep some in payment for playtesting.  
+~
+0 2098188 0
+D0
+~
+~
+0 0 402
+D1
+~
+~
+0 0 414
+D2
+~
+~
+0 0 400
+D3
+~
+~
+0 0 404
+S
+#402
+Newbie arena~
+The newbie arena continues in all directions with wimpy EQ mobs waiting
+to be killed.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 403
+D1
+~
+~
+0 0 415
+D2
+~
+~
+0 0 401
+D3
+~
+~
+0 0 405
+S
+#403
+Newbie arena~
+The newbie arena continues south, east, and west.
+~
+0 2097160 0
+D1
+~
+~
+0 0 416
+D2
+~
+~
+0 0 402
+D3
+~
+~
+0 0 406
+S
+#404
+Newbie arena~
+Low level mobs wander around here.  The arena continues to the north and
+east.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 405
+D1
+~
+~
+0 0 401
+S
+#405
+Newbie arena~
+The arena continues to the north, east, and south.
+~
+0 2097160 0
+D0
+~
+~
+0 0 406
+D1
+~
+~
+0 0 402
+D2
+~
+~
+0 0 404
+S
+#406
+Newbie arena~
+The main arena continues to the south and east while a side passage leads
+to the north.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 407
+D1
+~
+~
+0 0 403
+D2
+~
+~
+0 0 405
+S
+#407
+Hallway away from the arena~
+This hallway leads north, away from the arena to some of the more
+dangerous mobs.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 408
+D2
+~
+~
+0 0 406
+S
+#408
+Bend in the hallway~
+The hall bends here, with exits to the south and west.  Muffled sounds
+come from the northwest.  
+~
+0 2097164 0
+D2
+~
+~
+0 0 407
+D3
+~
+~
+0 0 409
+S
+#409
+Hallway~
+The hallway opens up into a room to the north.  Decrept and forgotten,
+some of the smarter arena mobs have taken shelter here.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 410
+D1
+~
+~
+0 0 408
+S
+#410
+Hideout~
+This is where the older and wiser mobs come to escape the ravages of the
+arena.  Many have taken with them valuable equipment to pretect them should
+their hideout be discovered.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 413
+D2
+~
+~
+0 0 409
+D3
+~
+~
+0 0 411
+S
+#411
+Hideout~
+This is the southwest part of the hideout.  You can hear shuffling and
+moving, but strangely, you see nothing moving.  Maybe you imagined it?  
+~
+0 2097160 0
+D0
+~
+~
+0 0 412
+D1
+~
+~
+0 0 410
+S
+#412
+Back of the hideout~
+This is the back of the hideout, where the old and wise mobs keep their
+supplies.  You can't but help to wonder if there is a guard here, hiding
+from you.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 413
+D2
+~
+~
+0 0 411
+S
+#413
+Hideout~
+This is the northeast corner of the hideout.  You think you see a mob
+hiding, but you turn to look at it and you see nothing.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 410
+D3
+~
+~
+0 0 412
+S
+#414
+Newbie arena~
+The newbie arena continues north and west.
+~
+0 2097160 0
+D0
+~
+~
+0 0 415
+D3
+~
+~
+0 0 401
+S
+#415
+Newbie arena~
+The newbie arena spans in all directions here.  Mobs wander by loaded
+with playtest gear.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 416
+D1
+~
+~
+0 0 418
+D2
+~
+~
+0 0 414
+D3
+~
+~
+0 0 402
+S
+#416
+Newbie arena~
+The newbie arena continues in all directions.  The mobs here beg you to
+kill them.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 417
+D1
+~
+~
+0 0 419
+D2
+~
+~
+0 0 415
+D3
+~
+~
+0 0 403
+S
+#417
+Newbie arena~
+The newbie arena continues to the east and south.
+~
+0 2097152 0
+D1
+~
+~
+0 0 420
+D2
+~
+~
+0 0 416
+S
+#418
+Newbie arena~
+The arena continues north and west.
+~
+0 2097160 0
+D0
+~
+~
+0 0 419
+D3
+~
+~
+0 0 415
+S
+#419
+Newbie arena~
+The newbie arena stretches to the north, west, and south and a hallway
+leads east.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 420
+D1
+~
+~
+0 0 428
+D2
+~
+~
+0 0 418
+D3
+~
+~
+0 0 416
+S
+#420
+Newbie arena~
+The newbie arena continues south and west, and a hallway leads north.
+~
+0 2097160 0
+D0
+~
+~
+0 0 421
+D2
+~
+~
+0 0 419
+D3
+~
+~
+0 0 417
+S
+#421
+Hallway~
+This hallway leads away from the main arena to the south.  Up ahead, it
+bends to the east.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 422
+D2
+~
+~
+0 0 420
+S
+#422
+Hallway~
+The hall here bends to the east and the arena is to the south.
+~
+0 2097160 0
+D1
+~
+~
+0 0 423
+D2
+~
+~
+0 0 421
+S
+#423
+Hallway~
+You are in a hallway in the newbie arena.  There appears to be an alcove
+to the northeast.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 424
+D3
+~
+~
+0 0 422
+S
+#424
+Hallway~
+The hallway here bends south and west.  To the north there is a strange
+alcove.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 429
+D2
+~
+~
+0 0 425
+D3
+~
+~
+0 0 423
+S
+#425
+Hallway~
+The hallway goes north and south here.  There is a bend in the tunnel to
+the north.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 424
+D2
+~
+~
+0 0 426
+S
+#426
+Hallway~
+This hallway leads north to more hallway and south to a bend in the
+hallway.  There appears to be a alcove in the wall to the north.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 425
+D2
+~
+~
+0 0 427
+S
+#427
+Hallway~
+The hallway bends to the north and west here.  To the west you can see
+the arena.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 426
+D3
+~
+~
+0 0 428
+S
+#428
+Hallway~
+This hallway leads to the arena to the west, and to a bend in the hallway
+to the east.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 427
+D3
+~
+~
+0 0 419
+S
+#429
+Alcove~
+A small cylindrical hole has been dug here, and there is a ladder in it
+leading down.  There is a stale-smelling draft from it.  To the south is a
+hallway.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 424
+D5
+~
+~
+0 0 430
+S
+#430
+Hidden tunnel~
+This tunnel appears to have not meant to be found.  Fresh tracks not
+unlike those of the arena monsters in the upper level of the arena are
+evident in the dust on the ground.  The tracks here seem bigger for some
+reason, and they lead north and west.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 437
+D3
+~
+~
+0 0 431
+D4
+~
+~
+0 0 429
+S
+#431
+Hidden tunnel~
+The tunnel continues west, and the footprints continueto the west also. 
+There is a sign here.  
+~
+0 2097160 0
+E
+sign~
+This area is for testing of new, powerful, mobs and equipment. 
+Authorized personell only.  
+~
+D1
+~
+~
+0 0 430
+D3
+~
+~
+0 0 432
+S
+#432
+Entrance to the forbidden vault~
+~
+0 2097160 0
+D0
+~
+~
+1 400 433
+D1
+~
+~
+0 0 431
+S
+#433
+Beginning of the forbidden vault~
+Hey!  You aren't supposed to be here!  The equipment here is too good!  
+~
+0 2097160 0
+D0
+~
+~
+0 0 434
+D2
+~
+~
+1 0 432
+S
+#434
+Forbidden vault~
+I mean it! Go away! There's a huge monster that will kill you
+before you can get to where the equipment is!
+~
+0 2097160 0
+D2
+~
+~
+0 0 433
+D3
+~
+~
+0 0 435
+S
+#435
+Forbidden vault~
+You're only one room away form a huge horrible mob guarding all that
+powerful equipment!  Leave now!  
+~
+0 2097160 0
+D1
+~
+~
+0 0 434
+D3
+~
+~
+0 0 436
+S
+#436
+Entrance to the equipment vault~
+You were warned! Now you're gonna die!
+~
+0 2097160 0
+D1
+~
+~
+0 0 435
+D3
+~
+~
+0 401 444
+S
+#437
+Hidden tunnel~
+This tunnel appears to have been undisturbed for a long time.  However,
+muffled sounds of movement are heard from the north.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 438
+D2
+~
+~
+0 0 430
+S
+#438
+Hidden tunnel~
+The sounds from the north are growing louder, yet are still
+indistinguishable.  A few shadows appear to be moving where the sounds are
+coming from.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 439
+D2
+~
+~
+0 0 437
+S
+#439
+Hidden tunnel~
+To the north you can see where some mobs are shuffling around.  It
+appears that this is a gathering place, where the mobs can escape from the
+ravages of the playtesters.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 440
+D2
+~
+~
+0 0 438
+S
+#440
+Secret hideout~
+A few mobs wander around here.  They must be pretty smart mobs to have
+decided to hide, so think twice before attacking one.  Smart mobs usually
+know spells.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 443
+D1
+~
+~
+0 0 441
+D2
+~
+~
+0 0 439
+S
+#441
+Secret hideout~
+This is where the smarter mobs hide from playtesters.  The hideout
+continues north and west.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 442
+D3
+~
+~
+0 0 440
+S
+#442
+Secret hideout~
+This appears to be the mob headquarters.  Preliminary plans to overwhelm
+the playtesters seem to be in the works, and there is one larger mob here
+who seems to be in charge.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 441
+D3
+~
+~
+0 0 443
+S
+#443
+Secret hideout~
+This is the secret mob hideout.  The exit is south of here, and to the
+east there is what appears to be the leader.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 442
+D2
+~
+~
+0 0 440
+S
+#444
+Just inside the vault~
+You are now in the vault of forbidden equipment.  A few mutant mobs
+appear to have been stored in here as well, and they must have picked up
+most of the equipment.  To the west you see them wandering aimlessly,
+occasionally bumping into each other.  
+~
+0 2097164 0
+D1
+~
+~
+0 0 436
+D3
+~
+~
+0 0 445
+S
+#445
+In the vault~
+The equipment vault stretches in all directions here.  Malformed, mutant
+mobs wander around, blissfully aware that they are carrying equipment you
+would kill them for.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 446
+D1
+~
+~
+0 0 444
+D2
+~
+~
+0 0 447
+D3
+~
+~
+0 0 449
+S
+#446
+In the vault~
+The vault continues south and west.  Southeast of here is the exit out.
+~
+0 2097160 0
+D2
+~
+~
+0 0 445
+D3
+~
+~
+0 0 448
+S
+#447
+In the vault~
+The vault exists to the north and west.  Northeast is the exit.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 445
+D3
+~
+~
+0 0 450
+S
+#448
+In the vault~
+The vault continues south and east.  Mutant mobs wander by with some of
+the best gear around.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 446
+D2
+~
+~
+0 0 449
+S
+#449
+In the vault~
+The vault continues to the north, south, and east.  Further to the east
+is the exit to the vault.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 448
+D1
+~
+~
+0 0 445
+D2
+~
+~
+0 0 450
+S
+#450
+In the vault~
+The rest of the vault lies to the east and north.  Here, one particularly
+large mutant mob seems to have become posessive over a certain piece of
+equipment.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 449
+D1
+~
+~
+0 0 447
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+M 410 spec_cast_mage Load to: the mob leader
+M 411 spec_cast_mage Load to: a smart mob
+S
+
+
+
+#RESETS
+D 0 432 0 1
+D 0 433 2 1
+M 0 404 1 402
+E 0 407 0 7
+M 0 402 5 402
+M 0 404 5 402
+E 0 402 0 16
+M 0 405 5 402
+M 0 402 5 403
+M 0 403 5 403
+E 0 409 0 16
+M 0 402 5 404
+E 0 405 0 8
+M 0 403 5 404
+M 0 404 5 405
+E 0 403 0 6
+M 0 403 5 405
+M 0 404 5 406
+E 0 402 0 16
+M 0 403 5 406
+M 0 409 4 410
+M 0 409 4 411
+M 0 409 4 411
+E 0 419 0 13
+M 0 408 1 412
+G 0 416 0
+O 0 417 0 412
+P 0 418 0 417
+M 0 409 4 413
+E 0 420 0 11
+M 0 404 5 414
+M 0 403 5 414
+M 0 405 5 414
+E 0 404 0 5
+M 0 402 5 418
+M 0 403 7 418
+E 0 410 0 16
+M 0 404 7 419
+E 0 406 0 12
+M 0 403 7 419
+M 0 405 5 420
+E 0 408 0 9
+M 0 402 5 420
+M 0 400 1 432
+G 0 400 0
+M 0 400 3 432
+M 0 401 1 436
+G 0 401 0
+M 0 411 5 440
+M 0 411 5 441
+M 0 411 5 441
+M 0 410 1 442
+E 0 425 0 16
+G 0 424 0
+E 0 421 0 3
+E 0 422 0 14
+M 0 411 5 443
+M 0 411 5 443
+E 0 423 0 10
+M 0 406 4 446
+M 0 406 4 447
+E 0 413 0 1
+M 0 406 4 448
+E 0 414 0 2
+M 0 406 4 449
+M 0 407 1 450
+E 0 411 0 16
+S
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

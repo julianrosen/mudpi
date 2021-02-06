@@ -1,0 +1,4137 @@
+#AREADATA
+Name        {91 99} ROM     Immortal Zone~
+Builders    None~
+VNUMs       1200 1499
+Security    7
+End
+
+
+
+#MOBILES
+#1200
+Heimdall~
+Heimdall~
+Heimdall, guardian of Bifrost, stands guard over the Rainbow Bridge.
+~
+Standing over 7 feet tall and muscled as only a god can be, Heimdall keeps
+his unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn never
+leaves his side, and shall remain unwinded until the dread ship Naglfar sails
+towards Valhalla on the dawn of Ragnarok 
+~
+Human~
+ABTV CDFJZ 1000 S
+57 30 1d1+19999 1d1+499 5d4+40 8
+-20 -20 -20 -10
+ACDEFHIKLNOT ABP CD 0
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#1201
+Heimdal~
+Heimdal~
+Heimdal, guardian of Bifrost, stands guard over the Rainbow Bridge.
+~
+Standing over 7 feet tall and muscled as only a god can be, Heimdall keeps
+his unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn never
+leaves his side, and shall remain unwinded until the dread ship Naglfar sails
+towards Valhalla on the dawn of Ragnarok 
+~
+Human~
+ABTV CDFJZ 1000 S
+99 30 1d1+19999 1d1+499 5d4+40 8
+-20 -20 -20 -10
+ACDEFHIKLNOT ABP CD 0
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#1202
+a Flame elemental~
+a flame elemental~
+A flame covered person is maruading through town
+~
+The fire elemental is about six feet tall.  You gaze into its eyes and
+see a landscape of scorched soil.  It chills you even though this thing is
+made of fire.  
+~
+Human~
+AF 0 0 S
+32 60 1000d1+20 60d10+100 45d1+0 29
+0 0 0 0
+0 H 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#1203
+snowman~
+a snowman~
+A snowman giggles madly at you.
+~
+This snowman is made of three big snowballs. It has coal eyes and a carrot
+nose, and it giggles hysterically at the sight of YOU!
+~
+Human~
+AF 0 0 S
+10 10 3d22+96 10d10+100 2d5+5 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#1204
+Lloth spider drowess~
+Lloth the Spider Queen~
+A beautiful drowess grins at you evilly.
+~
+This drowess stares at you with piercing red eyes.  Her long silver hair
+blows in a non-existant breeze, and she glides, not walks
+across the ground.  She wears jewelry made of live spiders, linked together
+with elven flesh by their legs.  She moves with a deep red aura
+about her, and you know immediately, this is Lloth. The spider Queen of the drow.
+~
+DrowElf~
+ABd DFJZ -1000 S
+92 92 30000d1+0 30000d1+0 1000d1+0 18
+0 0 0 0
+0 AB B SZ
+8 8 2 5000000
+AHMV ABCDEFGHIJK M unknown
+#1212
+nanny~
+The mud nanny~
+The mud's nanny stands here berating unruly players.
+~
+~
+Human~
+ABd 0 1000 S
+90 0 30000d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#1222
+french taunter soldier~
+A french soldier~
+A frenchman stands here taunting you.
+~
+~
+Human~
+A 0 0 S
+0 0 100d100+100 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1224
+wes wesley camel spitting~
+Wes the Spitting Camel~
+A Camel walks down the street, spitting at people.
+~
+This two-humped camel is a horribly evil creature.  Wesley spits on
+everyone, and is incredibly mean to small children and cats.  Watch out, he
+might just spit on you!  
+~
+Human~
+AB a -100 S
+20 20 10d30+200 20d10+100 4d5+10 10
+-2 -2 -2 4
+0 0 0 0
+8 8 1 20
+AHMV ABCDEFGHIJK M unknown
+#1228
+gasper guru~
+Gasper~
+Gasper, the Guru of Time is standing here, yet he is asleep.
+~
+Gasper is a man from ancient times that was transported here by the evil
+Queen Zeal.  He's made the best of things and build this building that you
+are in now.  Even he can grow bored though.  If you wake him, he may some
+valuable information for you.  He's also the legendary creater of the Chrono
+Trigger.  
+~
+Human~
+ABJKRb CDH 0 S
+100 20000 10000d10000+10000 100d10+100 1000d1000+10000 20
+0 0 0 0
+0 BCDMOQ 0 0
+8 8 1 5000000
+AHMV ABCDEFGHIJK M unknown
+#1229
+none~
+none~
+None
+~
+~
+Human~
+AB 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AV ABCDEFGHIJK M unknown
+#1230
+none~
+none~
+None
+~
+~
+Human~
+A 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#1233
+no name~
+(no short description)~
+(no long description)
+~
+~
+Human~
+A 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1234
+A huge bunny rabbit~
+a HUGE bunnya rabbit.~
+A HUGE bunny rabbit is here.
+~
+~
+Human~
+A Ha 100 S
+80 0 20d10+20000 1d1+9999 10d100+100 0
+-11 -11 -11 -11
+0 0 CD 0
+8 8 1 300
+AHMV ABCDEFGHIJK M unknown
+#1235
+none~
+none~
+None
+~
+~
+Human~
+A 0 0 S
+90 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+0 ABCDEFGHIJK M unknown
+#1236
+librarian guild standards~
+A librarian~
+A librarian stands here, silently organizing all the information around you.
+~
+~
+Alien~
+ABd 0 0 S
+100 0 100d100+0 0d0+0 0d0+0 0
+0 0 0 0
+HIM KL BQ HN
+8 8 2 0
+CHJMQXc ABCDEFKLMQUVX M unknown
+#1237
+none~
+none~
+None
+~
+~
+Unknown~
+A 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+H ABCDEFKL M unknown
+#1238
+none~
+none~
+None
+~
+~
+Human~
+A 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+H ABCDEFGHIJK M unknown
+#1239
+none~
+none~
+None
+~
+~
+Human~
+A 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 B 0
+8 8 1 10000
+MV ABCDEFGHIJK M unknown
+#1245
+no name~
+(no short description)~
+(no long description)
+~
+~
+Human~
+A 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1250
+The LagMonster~
+The LagMonster~
+The LagMonster is waiting here to steal your link.
+~
+~
+Human~
+AB 0 0 S
+96 20 225d225+225 10d10+10 150d150+600 0
+-50 -50 -50 -50
+0 AB 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK G unknown
+R 100 10 I 
+#1251
+IT 1~
+`RIT`W~
+`RIT`W is here.
+~
+~
+Hedgehog~
+A 0 0 S
+25 20 10d150+400 1d10+100 4d5+12 0
+-5 -5 -5 2
+HIM ABKL BQ HN
+8 8 0 234
+HJMQXc ABCDEFKLMQUVX M unknown
+#1252
+IT 2~
+`BIT`W~
+`BIT`W is here.
+~
+~
+Hedgehog~
+A 0 0 S
+26 23 10d60+410 10d10+10 5d7+12 0
+-5 -5 -5 2
+HIM KL BQ HN
+8 8 0 235
+HJMQXc ABCDEFKLMQUVX M unknown
+#1253
+IT 3~
+`YIT`W~
+`YIT`W is here.
+~
+~
+Hedgehog~
+A 0 0 S
+27 25 10d61+416 10d10+10 5d6+15 10
+-5 -5 -5 1
+HIM KL BQ HN
+8 8 0 250
+HJMQXc ABCDEFKLMQUVX M unknown
+#1254
+IT 4~
+`GIT`W~
+`GIT`W is here.
+~
+~
+Hedgehog~
+A 0 0 S
+28 25 10d60+400 10d10+10 5d6+15 10
+-6 -6 -6 -6
+HIM KL BQ HN
+8 8 0 250
+HJMQXc ABCDEFKLMQUVX M unknown
+#1255
+The Angel of Death~
+The Angel of Death~
+The Angel of Death is here Guarding the Realm
+~
+He is the loyal Guardian of Outkast, and a very deadly person.  If i were
+you i wouldn't mess with him!  
+~
+Shadow~
+ABO HPUZ 1000 S
+99 400 220d220+220 40d40+40 300d300+3000 20
+-100 -100 -100 -100
+DEFHIKMN ABDEHIJKLQ BEQ HNS
+8 8 0 600
+ACHJLMQVXc ABCDEFGHIJKLMQUVX G unknown
+#1256
+guildmaster~
+The Guildmaster~
+Outkast's Guildmaster is here willing to help you get stronger.
+~
+~
+Human~
+ABJKbd H 0 S
+80 100 50d50+50 0d0+0 60d60+60 7
+-40 -40 -40 -40
+EFIKN DH 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#1257
+me fake lord ok~
+`GOuTkAsT`w~
+`GOuTkAsT`c is standing here.`w
+~
+~
+Human~
+AB 0 0 S
+4 150 230d230+230 60d60+70 0d0+0 20
+-500 -500 -500 -500
+EFIK DEHIJQ 0 0
+8 8 1 2000
+AHMV ABCDEFGHIJK M unknown
+#1258
+BARF~
+`ROutKast`w~
+`ROutKast`c is standing here.`w
+~
+~
+Human~
+AB 0 0 S
+4 170 230d200+210 100d100+100 100d100+100 0
+-400 -400 -400 -400
+EFIKN EHIJLQ 0 0
+8 8 1 2400
+AHMV ABCDEFGHIJK H unknown
+R 95 4 I 
+#1259
+fake me lord~
+OutKast~
+`COutkast is standing here.`w
+~
+You look at the clone of Outkast and think wow!  They are very strong so
+don't mess with them.  They are here to do all of Outkast's dirty work.  
+~
+Human~
+ABT 0 0 S
+3 100 150d150+200 50d50+50 100d100+100 18
+-200 -200 -200 -200
+DEFIKN DHJLQ 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJK H unknown
+R 100 10 I 
+#1260
+none~
+(no short description)~
+(no long description)
+~
+~
+Human~
+ABJab 0 0 S
+100 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1261
+mayor Simion~
+Mayor Simion~
+Here is Mayor Simion, wearing his monk garments.
+~
+~
+Human~
+A 0 0 S
+30 0 10d150+300 0d0+0 10d6+0 17
+-9 -9 -9 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+R 90 5 0 
+#1262
+dark clad vampire man~
+a dark clad man~
+Here is a man in all dark clothes.
+~
+~
+Human~
+A TV -1000 S
+40 0 1000d1+0 0d0+0 50d1+0 8
+5 -90 -90 5
+0 0 0 0
+8 8 1 7000
+AHMV ABCDEFGHIJK M unknown
+#1263
+Michael~
+Michael~
+Michael the thief, stares you down
+~
+~
+Human~
+A HV 0 S
+40 40 2000d1+1 0d0+0 40d1+20 0
+-50 -50 -50 -50
+0 0 0 0
+8 8 1 10000
+AHMV ABCDEFGHIJK M unknown
+#1264
+priest mage Sky~
+High priest/mage~
+Here stands a very respected priest/mage.
+~
+~
+Elf~
+AQR HJ 0 S
+80 80 5000d1+1000 10000d1+5000 0d0+0 0
+-100 -100 -100 -100
+0 0 B Z
+8 8 2 50000000
+AHMV ABCDEFGHIJK M unknown
+#1265
+Elf female girl Kas' babe chick~
+An elven female~
+A beautiful elven female is here.
+~
+Property of `CKas.
+~
+Elf~
+AGR FHJ 1000 S
+93 100 93d10+2000 92d13+100 10d1+0 31
+-4 -4 -4 -4
+0 ABDHIJLMNOPQRS B KZ
+8 8 2 10000
+AHMV ABCDEFGHIJK M unknown
+#1266
+Align good~
+The alignment change~
+Ticket to goodness is here.
+~
+~
+Human~
+A 0 -1000 S
+1 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1267
+Punching bag practice~
+The punching bag~
+A punching bag is here.
+~
+~
+Human~
+AT VY 0 S
+1 150 1000d1+0 0d0+0 1d1+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1268
+Ticket Evil~
+The alignment change~
+Your ticket to evilness is here
+~
+~
+Human~
+AG 0 1000 S
+90 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1269
+Lion~
+a lion~
+Here is a furious lion.
+~
+~
+cat~
+ATU PVZ 0 S
+27 0 700d1+0 0d0+0 30d1+5 10
+-9 -9 -9 0
+FH 0 0 0
+8 8 1 0
+AGV ACDEFHJKQUV L unknown
+#1270
+A giant Duck~
+A giant duck~
+A giant duck says "QUACK!!!!!"
+~
+~
+Human~
+A 0 0 S
+1 3 1d1+500 0d0+0 1d1+1 0
+-40 -40 -40 -15
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1271
+Egg of ICC~
+`WEgg`w, the guardian of `B-`W*`B- Immortal Counsel Chambers -`W*`B-`w~
+`WEgg`c, the guardian of the `Bchambers`c watches over you closely`w
+~
+Scales of white, some sharp, others smooth and hardened like shell armor.
+Five horns protrude from the skull, three curl like rams horns, two on each
+side, and one curled back over the top of the head.  The other two curl in
+countermotion, and protrude outwards and up to the sky.  Hooked spinal bones
+run down the back between shoulderblades and down the tail.  Standing on two
+massively muscular hind legs, this tarrasque is completely white.  It
+remains quiet, and still, watching everyone pass through the mist and
+careful to keep mortal eyes away from Immortal acts.  So named `WEgg`w for
+its unusual white skin and scales, this charmed pet of the gods looks truly
+menacing.  
+~
+Tarrasque~
+AFTVd DFVac 0 S
+92 100 10000d2+1800 1000d1+1000 10000d3+50 18
+-500 -500 -500 -500
+CDEFGHIKLMNO ABCDHJKLN BEFGIMQR HN
+8 8 0 0
+AHJMQXc ABCDEFGHIJKLMQUVX G unknown
+#1272
+Blacksmith~
+a death blacksmith~
+Here is the `rMyrddraals `w blacksmith.
+~
+It looks human, but with no face, just blackness where a face would be. Its arms and legs are also pure black, and you assume that it is mindless.
+~
+Human~
+AB 0 -1000 S
+1 1 1d1+1 0d0+0 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1273
+blackhole wardeness celestia~
+Celestia, wardeness of the BlackHole~
+`cCelestia,`m Wardeness`w of the `KBlackHole`w, watches you with an icy stare
+~
+A beautiful maiden stands here, her features frozen in immortal youth. 
+White hair cascades down her shoulder, and her pink eyes send you an icy
+stare.  Her pale skin is accented with tiny silver star marks, one on each
+cheek, above her eyes, and on her biceps.  She wears a sleeveless seamless
+silver robe, bearing a single white star which read 'Wardeness'.  She pounds
+the floor with a star-tipped mace, commanding your complete attention.  
+~
+Human~
+ABd CDFHTV 91 S
+91 100 1d1+1 0d0+0 1d1+1 18
+0 0 0 0
+0 ABDI H 0
+8 8 2 0
+ACHLMV ABCDEFGHIJK M unknown
+#1275
+sage~
+an old sage~
+A very old sage
+~
+You look upon an old sage 
+~
+Human~
+ABUd 0 0 S
+0 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1279
+edit obj create 1279~
+(no short description)~
+(no long description)
+~
+~
+Human~
+A 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1287
+Xranth the Leprechaun~
+a leprechaun is here~
+A leprechaun is standing here
+~
+Wearing all green he is what you would suspect a leprechaun to be.  
+~
+Elf~
+A J 550 S
+50 0 10000d1+1 650d1+50 60d1+0 19
+10 10 10 10
+0 B B Z
+8 8 1 6500
+AHMV ABCDEFGHIJK M unknown
+#1294
+Capkirk-is-a-idiot~
+Capkirk-is-a-Idiot~
+(no long description)
+~
+~
+Human~
+A 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#1295
+Bonkers~
+Bonkers the Disgruntled Clown~
+Bonkers stands behind the counter.
+~
+~
+Human~
+ABd 0 -1000 S
+94 1000 1d1+0 0d0+0 0d0+0 0
+-10 -10 -10 -10
+0 A 0 0
+8 8 1 100000
+AHMV ABCDEFGHIJK M unknown
+#1298
+janitor~
+the janitor~
+A depressed janitor picks up trash with thoughts of suicide.
+~
+A suicidal old man who really need a vacation.  
+~
+Human~
+ACH F 0 S
+2 38 1d1+14 0d0+0 1d2+2 0
+-10 -10 -10 -10
+0 0 0 CDS
+8 8 1 250
+ABHMVZc ABCDEFGHIJKQUVX M unknown
+#1299
+auctioneer~
+the auctioneer~
+The auctioneer is here selling off stuff.
+~
+No description, sorry.
+~
+Human~
+ABVd DFPVZ 0 S
+95 200 1d1+599 1d1+687 1d1+109 0
+-30 -30 -30 -30
+CFHIN ABCDIKL LPQS S
+8 8 1 500000
+ABCGHJLMQVXZc ABCDEFGHIJKLMPQUVX S unknown
+#1300
+Barkeep~
+(no short description)~
+(no long description)
+~
+~
+Elf~
+ABd DFJ 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B Z
+8 8 3 0
+AHMV ABCDEFGHIJK M unknown
+#1307
+none~
+none~
+None
+~
+~
+Human~
+A 0 0 S
+0 0 1d1+1 1d1+1 1d1+1 0
+0 0 0 0
+0 0 0 0
+8 5 1 0
+HM BGI M unknown
+#1330
+Pop Machine~
+the Pop Machine~
+A pop machine sits against the left wall.
+~
+~
+Human~
+AGd 0 0 S
+1 1 1d1+5 0d0+0 1d1+5 0
+0 0 0 0
+0 0 0 0
+8 8 0 10000000
+AHMV ABCDEFGHIJK M unknown
+#1331
+drow~
+Elkar~
+`R(PK) `wElkar `Gi `RKILL `Gfor the glory of `KLLOTH `M-`G[`RRP`G]`M-`w
+~
+A tall dark shadow looms over your head, when you look up you see a dark elf
+he glares at you with his blue eyes, at the same time pulling out two large
+blue swords. Moving into a good position he begins to `RATTACK`w
+~
+DrowElf~
+A JZ 981 S
+55 64 1555d1+0 131d1+0 10d20+50 3
+-26 -25 -26 -24
+0 0 B SZ
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#1200
+Drink of Fire~
+a drink of flame~
+A drink made of pure fire~
+unknown~
+10 AB A
+93 15 28 508 0
+0 0 0 P
+#1201
+Astinus' Ball of history~
+a ball of light~
+A glowing ball of history~
+unknown~
+13 A 0
+0 0 0 0 0
+0 0 0 P
+#1202
+a multicolored scroll~
+a multicolored scroll~
+A multicolored scroll~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1203
+Flame elemental statue~
+a statue of a flame elemental~
+A statue of a flame elemental~
+unknown~
+13 A 0
+0 0 0 0 0
+0 0 0 P
+#1204
+Astinus' Desk~
+astinus' Desk~
+Astinus' desk sits here~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1221
+quest voucher~
+a Quest voucher~
+A voucher lies here.~
+unknown~
+13 0 AO
+0 0 0 0 0
+1 2 1000 P
+#1222
+a glowing silver star~
+a glowing silver star~
+A glowing silver star hangs brilliantly in the air.~
+unknown~
+18 A AO
+0 0 0 0 0
+93 0 0 P
+#1223
+glitter rainbow~
+a glittering rainbow~
+A glittering rainbow hangs in the air here.~
+unknown~
+1 A A
+0 0 999 0 0
+30 20 20000 P
+A
+19 4
+A
+18 4
+#1224
+cat mask~
+the Cat's Mask~
+A Mask that appears to be of a cat rests here.~
+unknown~
+9 0 AE
+BD BD BD D 0
+15 10 0 P
+A
+2 3
+#1225
+yummy cookie~
+a yummy cookie~
+A cookie sits on a table in the middle of the room~
+unknown~
+19 ABG A
+CFG 0 0 0 0
+0 0 0 P
+E
+cookie~
+This is the special chocolate chip cookie of RP!
+If you get it, it means you have done a good job.
+Way to go!
+~
+#1226
+badge midgaard sheriff~
+the Sheriff Badge of Midgaard~
+A shiny looking badge floats in the air, suspended by nothing.~
+unknown~
+9 AISVW AK
+ACG ACG ACG ACG 0
+69 69 69696969 P
+A
+13 69
+A
+12 69
+A
+4 5
+A
+1 4
+A
+18 21
+A
+19 21
+#1227
+huge telescope~
+a huge telescope~
+A huge telescope extends through the ceiling, dominating the center of the room.~
+unknown~
+12 A 0
+0 0 0 0 0
+0 0 0 P
+E
+telescope~
+This telescope matches the grandeur of the room. Dark black and emblazoned
+with silver stars, it offers a view of the heavens to the mere mortals who
+gaze through its lens.
+~
+#1228
+breath offire~
+a breath of fire~
+A breath of fire waits to be quaffed.~
+unknown~
+10 0 A
+93 508 0 0 0
+0 0 0 P
+#1229
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1230
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1231
+a shiny apple~
+a shiny apple~
+An apple was bitten by Eve.~
+unknown~
+18 ABG A
+0 0 0 0 0
+0 0 0 P
+#1232
+book~
+the Book of Life~
+A book shines brilliantly here.~
+unknown~
+18 ABG A
+0 0 0 0 0
+0 0 0 P
+#1233
+snowflakes cape `y*PRIZE*`w~
+a magical glittering cape of snowflakes~
+A beautiful cape shimmers in the light.~
+unknown~
+9 A AK
+E E E AD 0
+31 0 45000 P
+A
+1 1
+A
+18 1
+A
+19 1
+E
+cape~
+This beautiful cape is entirely made of snowflakes.  It shimmers in the light,
+and somehow all the strength of the snow has been captured in it.  However,
+it is not cold to the touch, and is even comfortable to wear.
+~
+#1234
+shadow lloth cloak~
+a shadow cloak of Lloth~
+A cloak fades in and out of reality.~
+unknown~
+9 JL AK
+ABCD ABCD ABCD ABCD 0
+30 5 1000000 P
+A
+19 8
+A
+18 6
+A
+12 20
+E
+cloak~
+This cloak is made entirely of shadows.  All over the cloak are
+little spiders, embroidered with flesh.  It fades in and out
+from view, but is always there.  On the back, outlined in blood,
+is a larger spider: Lloth the Spider Queen.
+~
+#1235
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+1 0 0 P
+#1236
+crown overseer~
+`mC`br`mo`bw`mn`b o`mf `bt`mh`be `mO`bv`me`br`ms`be`me`br`w~
+This is the crown that is worn by He who always watches, vigilantly and relentlessly...~
+unknown~
+9 AG AE
+BFG BFG BFG BFG 0
+98 0 0 P
+#1237
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1238
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1239
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1245
+katana tkom mysticism~
+a `RKatana `Gof `MM`By`Gs`yt`Wi`yc`Gi`Bs`Mm`w~
+An odd katana lies on the ground.~
+unknown~
+5 BGISU AN
+A A B AB ABCE
+96 0 1219712 P
+A
+13 1000
+A
+17 -120
+A
+1 5
+A
+2 5
+A
+19 100
+A
+18 100
+#1250
+light saber~
+`WGavin's `BL`Wi`Bg`Wh`Bt `WSaber`w~
+Gavin's Light Saber lies on the ground humming.~
+unknown~
+5 AB AN
+A A A AB AE
+94 0 0 P
+A
+19 20
+A
+18 20
+#1251
+wind pants~
+`RN`WI`RK`WE `RW`Wi`Rn`Wd`w `RP`Wa`Rn`Wt`Rs`w~
+Some pants lie here on the ground.~
+unknown~
+9 B AF
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 3 0 P
+A
+18 200
+A
+19 200
+#1252
+nike hat~
+a `BNike `WHat~
+A nike hat lies here.~
+unknown~
+9 0 AE
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+A
+19 200
+A
+18 200
+#1254
+a piece of magic~
+a piece of magic~
+A piece of magic~
+unknown~
+13 AG A
+0 0 0 0 0
+0 0 0 P
+#1255
+sapphire ring~
+`wThe `BSapphire`w Ring~
+A ring of greatness and power lies here.~
+unknown~
+9 ABF AB
+BD AC BD AC 0
+2 1 0 P
+A
+12 21
+A
+4 1
+A
+19 4
+A
+18 4
+A
+2 1
+A
+13 15
+#1256
+bottle of jack daniels~
+`GOutkast's`w Bottle of Jack Daniel's~
+A deadly bottle with a black label lies here~
+unknown~
+5 AB AN
+0 A A BCDE ABCDE
+94 5 0 P
+A
+17 -10000
+A
+18 500
+A
+19 500
+A
+12 500
+A
+9 100
+A
+13 4500
+#1257
+wings death~
+`cThe Wings of `RDeath`w~
+A deadly pair of Angels wings is lying here~
+unknown~
+9 ABG AK
+EGHIJK EGHIJK EGHIJK EGHIJK 0
+94 2 2435 P
+A
+17 -1000
+A
+19 500
+A
+18 500
+#1260
+maglite flashlight~
+a `KMAG-LITE `YFlashlight`g~
+A Long, Black flashlight lies on the ground, giving off light.~
+unknown~
+1 0 A
+0 0 999 0 0
+94 100 0 P
+A
+17 -2000
+A
+19 2000
+A
+18 2000
+#1261
+can of whoop @$~
+`WGanon's `Bcan `Wof `BWHOOP `W@$$`g~
+A humming can sits on the floor.~
+unknown~
+5 A AN
+0 A A BE DE
+94 0 0 P
+#1262
+ski boots~
+`RA pair of `CSki`R boots`w~
+Some odd looking plastic boots lie here.~
+unknown~
+9 0 AG
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+#1263
+neuralyzer~
+a `KM.I.B. `WNeuralyzer ~
+It doesn't matter what this is~
+unknown~
+3 0 AO
+BCDEG BD BD 82 0
+94 15 0 P
+#1265
+book giao yum jyun ging~
+`WThe Giao `rYum `bJyun `cGing~
+A strange book with words you can't understand lies here.~
+unknown~
+2 0 AH
+90 36 502 504 0
+0 1 0 P
+A
+17 -75
+A
+19 25
+A
+18 25
+E
+page~
+`WYou begin to read the `WGiao `RYum `BJyun `cGing. It holds within itself, the most
+powerful force in all the universe, Knowledge.
+~
+#1266
+energy~
+a container of Pure energy~
+Kas' container of Pure energy is here.~
+unknown~
+26 0 AO
+100 15 15 508 0
+200 1 1 P
+A
+17 -20
+A
+19 15
+A
+19 15
+#1267
+Thousand year old Ginseng~
+some `cThousand year old Ginseng~
+A strange looking plant grows here.~
+unknown~
+26 ABGOP AL
+95 14 501 43 0
+90 0 0 P
+A
+17 -30
+A
+19 15
+A
+18 20
+#1268
+Light wrath god kas~
+`cThe `rWrath `cof `rKas`w~
+Kas' wrath is here glowing brightly.~
+unknown~
+1 0 AO
+0 0 999 0 0
+90 1 0 P
+A
+12 376
+A
+17 -20
+A
+12 -20
+A
+13 -20
+A
+14 -20
+A
+18 25
+A
+19 20
+#1269
+`RKas' `CBlade~
+`CKas' `RBlade `M~
+`MA `BBlade `Wworthy of the `RGods `Wlies here.~
+unknown~
+5 ABGIRSTUVW AN
+B 0 0 ABCDE ABDE
+90 1 0 P
+A
+18 45
+A
+19 55
+#1270
+Spiffy EQ~
+some spiffy eq~
+Hey Look!  It's Spiffy EQ!~
+unknown~
+9 0 AD
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+A
+12 10000
+A
+19 500
+A
+18 500
+#1271
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+98 0 0 P
+#1272
+Taknar's Right Claw~
+the right claw of Taknar~
+Here lies and enormous claw.~
+unknown~
+5 0 AN
+0 A B AC ABCDE
+94 1 1 P
+A
+19 50
+A
+18 50
+A
+8 6
+#1273
+Heron Marked-flaming blade~
+a `Yheron-`Gmarked `Wblade `wof `Rflame `w~
+Here lies a blademasters sword~
+unknown~
+5 0 AN
+A A B AB AF
+94 0 0 P
+#1274
+flame saber~
+a `RFlame `ySaber `w~
+A burning sword lies here~
+unknown~
+5 G AN
+A D D A AC
+25 1 75000 P
+A
+3 5
+A
+18 7
+A
+19 7
+A
+2 5
+A
+5 5
+A
+4 5
+A
+1 5
+#1275
+a leather cord~
+a leather cord~
+Here lies a leather cord.~
+unknown~
+9 0 AC
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+98 1 2147483647 P
+A
+5 5
+A
+2 5
+A
+4 5
+A
+3 5
+A
+1 5
+A
+19 50
+A
+18 50
+#1276
+Black blade~
+a black blade~
+A black blade lies here.~
+unknown~
+5 ABEGJLPRUX AN
+A BC A ABE D
+60 1 0 P
+#1277
+golden necklace~
+golden necklace~
+Here lies a golden necklace~
+unknown~
+9 0 AC
+BD BD BD BD 0
+20 1 500000 P
+A
+1 5
+A
+2 5
+A
+5 5
+A
+3 5
+A
+4 5
+A
+18 5
+A
+19 5
+#1278
+ring ancient~
+an ancient ring~
+Here lies an ancient ring.~
+unknown~
+9 AB AB
+BD BD BD BD 0
+26 1 500000 P
+A
+2 3
+#1279
+silver belt~
+a silver belt~
+Here lies a silver belt~
+unknown~
+9 AB AL
+CE CE CE CE 0
+30 1 100000000 P
+A
+13 150
+A
+18 10
+A
+19 10
+#1280
+quest token taknar~
+a Quest Token from Taknar~
+A Token from the gods rests here~
+unknown~
+13 0 A
+0 0 0 0 0
+0 1 1 P
+#1285
+Guitar~
+`GA `BGUITAR`w~
+SPASM'S GEAR!!!!!!!!!!~
+unknown~
+5 ABGI AN
+B BD B CE ABCDE
+94 0 0 P
+#1286
+Guitar Pick~
+`GA `BGUITAR `MPICK`w~
+(no description)~
+unknown~
+9 ABGI AO
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+A
+12 1000
+A
+13 1000
+A
+18 1000
+A
+19 1000
+A
+17 -1000
+#1287
+Skates~
+`RA `BPAIR `GOF `MSKATES`w~
+SPASM'S GEAR!!!!!!!!!!~
+unknown~
+9 ABGI AG
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+A
+19 1000
+A
+18 1000
+A
+12 1000
+A
+13 1000
+A
+17 -1000
+#1288
+Jester's Hat~
+`GA `MJESTER'S `BHAT`w~
+SPASM'S GEAR!!!!!!!!!!~
+unknown~
+9 ABGI AE
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 0 P
+A
+19 1000
+A
+18 1000
+A
+13 1000
+A
+12 1000
+A
+17 -1000
+#1289
+insane jeans~
+`YPAIR `ROF `BINSANELY `MLARGE `CJEANS~
+A pair of huge jeans lie on the floor.~
+unknown~
+9 ABGI AF
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+94 0 2147483647 P
+A
+18 1000
+A
+19 1000
+A
+13 1000
+A
+12 1000
+A
+14 1000
+#1290
+Phaser~
+a metal phaser~
+Capkirk's phaser is here. ~
+unknown~
+5 H AN
+0 A A BC 0
+0 0 0 P
+#1291
+Captian's Uniform~
+a captian's uniform~
+A starfleet captians uniform is here.~
+unknown~
+9 GH ADFI
+EIJKN EIJKN EIJKN EIJKN 0
+94 0 0 P
+#1293
+ziggy~
+none~
+None~
+unknown~
+5 AB AN
+0 A B CE 0
+93 0 1 P
+#1294
+zif~
+zif~
+Zif~
+unknown~
+10 0 AO
+101 508 508 508 0
+91 0 1 P
+#1295
+chaos blade~
+the Blade of Chaos~
+The blade of chaos~
+unknown~
+5 A AN
+A A B CE 0
+94 0 1 P
+#1296
+jester's suit~
+a traditional black and white jester's suit~
+A black and white suit lies neatly folded on the ground~
+unknown~
+11 0 AD
+0 0 0 0 0
+94 0 1 P
+#1297
+jester's hat~
+a black and white jester's hat, with bells on the ends~
+A hat is here.~
+unknown~
+11 0 AE
+0 0 0 0 0
+94 0 1 P
+#1298
+rubber chicken~
+a rubber chicken~
+A silly rubber chicken lies on the ground looking all humorous, but beware!~
+unknown~
+5 IRTUVWX AN
+C A A ACD 0
+94 0 1 P
+#1299
+token~
+the TOKEN of Zane~
+Zane's token, worth nothing, lies here.  It is redeemable for one deletion.  Just ask Magius.~
+unknown~
+1 A AO
+0 0 5 0 0
+1 0 1 P
+#1301
+_~
+_~
+_~
+unknown~
+13 AB AN
+0 0 0 0 0
+93 0 0 P
+#1307
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#1330
+streeve bed~
+streeve's Bed~
+Here sits Streeves large , but comfortable looking bed.~
+unknown~
+12 0 0
+0 0 0 0 0
+0 100 0 P
+#1331
+rp couch~
+the Couch of RP~
+A gigantic round couch fills up the room.~
+unknown~
+12 0 0
+0 0 0 0 0
+0 150 100 P
+#1332
+can pepsi~
+a can of Pepsi~
+A can with a generation next sign on it rest here.~
+unknown~
+17 0 A
+CFG CFG ABCD 0 0
+1 0 5 P
+#1333
+can mountain dew~
+a can of Mountain Dew~
+A can with the phrase "Do the Dew" sits here.~
+unknown~
+17 0 A
+CFG CFG ABCD 0 0
+1 0 5 P
+#1334
+chair~
+a plush black chair~
+A plush chair looks inviting.~
+unknown~
+12 0 0
+0 0 0 0 0
+0 0 0 P
+#1335
+none~
+none~
+None~
+unknown~
+13 0 0
+0 0 0 0 0
+1 0 0 P
+#1336
+sandals~
+`csandals `wof `mcollected `Ymoonbeams`w~
+A pair of sandals glow brightly.~
+unknown~
+9 A AG
+CE CE CE CE 0
+93 0 0 P
+#1337
+dress~
+a `Wdress `mwoven `wfrom `Ws`Yt`Wa`Yr`Wl`Yi`Wg`Wh`Yt`w~
+A beautiful silver dress sparkles brightly.~
+unknown~
+9 0 AD
+BEF BEF BEF BEF 0
+93 0 0 P
+#1338
+bodice~
+a `cbodice `wof `Wsilver `Ys`Wt`Ya`Wr`Ys`w~
+A silvery bodice gleams in the light.~
+unknown~
+9 0 AK
+EHI EHI EHI EHI 0
+93 0 0 P
+#1339
+star mace~
+a star-tipped mace~
+An elegant black mace topped with a silver star rests here.~
+unknown~
+5 0 AN
+C BD ADFH CE 0
+93 0 0 P
+#1340
+marbles~
+themis's marbles~
+A bunch of marbles are here, helping Themis think.~
+unknown~
+8 0 AE
+0 0 0 0 0
+96 0 0 P
+A
+3 5
+E
+marbles~
+These marbles are serious in trying to help Themis think of things.  They
+look around with deep lines of thought, and ponder what they should do next.
+~
+#1398
+Floor~
+a piece of floor~
+The piece of floor~
+unknown~
+13 AB A
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#1200
+The Chat Room~
+You are lounging in a quiet cozy parlour, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  This is one of the many rooms
+where the heroes and gods come to socialize.  It is by far one of the most
+comfortable! 
+~
+0 1114632 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                91+
+           `B \       /
+            `B \_____/`w
+~
+D2
+Asgard lies to the south.
+~
+~
+0 -1 1213
+D3
+~
+~
+0 0 1257
+S
+#1201
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1202
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1203
+Valhalla~
+This is the huge Hall of Valhalla, where the Gods rule supreme.  The
+cavernous building stretches infinitely in all directions.  Valhalla 
+continues to the east, and the gods make their homes north and south of
+the halls.  The golden gates are to the west.  You know not what lies 
+upward...
+~
+0 1081352 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                92+
+           `B \       /
+            `B \_____/`w
+~
+D1
+Valhalla continues east.
+~
+~
+0 -1 1217
+D3
+The entrance to Valhalla is to the west.
+~
+~
+0 -1 1216
+D4
+If you want to know what is up there, you shall have to go look...
+~
+~
+0 -1 1
+S
+#1204
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1205
+The Eye of the Hurricane~
+The shrieking winds of a monstrous storm surround you, spinning you around
+in an endless web of fury. But then, in the middle of turmoil, you find a
+strange calm. You find yourself hovering in the calm eye of a hurricane. All
+around you you can see the desruction caused by the powerful storm. White
+hot flashes of lightning flicker from the depths of the hurricane.  But
+everything is strangely peaceful in here, with the sun shining in from above
+and a flock of birds winging across the sky.  You stretch out and relax, this
+storm is going to be here a while.
+~
+0 25092 9
+S
+#1206
+Walking on the Moon~
+The proud and lonely silence of Mare Imbrium surrounds you, as you gaze upon
+the sterile splendor of the moon.  All around is the velvet curtain of night,
+studded with a thousand gleaming jewels.  Below you hangs the beautiful
+fields of Earth, looking fragile and far away, but full of hope.  A sense of
+wistful regret touches you, as you think about what might have been, and what
+will be.
+~
+0 25092 0
+E
+crater mare imbrium~
+A small shipping tag is pinned to the ground with a worn hunting knife.
+Upon it is a dedication to Robert Anson Heinlein, the father of the future.
+~
+D5
+~
+~
+0 0 1223
+S
+#1207
+Tia's Study~
+Books, more books then you can possibly imagine cover every available
+inch of space, save for the small path leading to an antique writting desk
+in the corner.  Books from every time period in history overflow from the
+cluttered bookshelves and into stacks on the floor.  Despite the clutter,
+the room has a cozy feel to it, with a small fire burning in the fireplace
+set flush with the wall.  Looking around, you can see the great deal of
+knowledge and wisdom contained in these volumes, and you wonder what a
+Goddess of deceit would find so interesting.  Then you notice the small
+plaque on the wall.  
+~
+0 18956 0
+E
+plaque~
+The plaque is wooden, well worn, and appears to be hand carved.  The
+words of wisdom look back at you: Mans greatness is not found in his armies,
+for all men have armies.  Mans greatness is found in his ability to stop
+war, seek truth, and find courage instead.  
+~
+E
+desk~
+The desk is old, but looks to be well taken care of.  There are various
+qwill pens, paper, and reference books scattered about the top as if Tia was
+recently looking for something of importance.  
+~
+S
+#1208
+A Sea Cave~
+You are in a small cave in the cliff next to a deep green sea.  Fine
+gold and pink sand blanket the floor.  Shells are scattered and strewn
+about.  A blow hole in roof of the cave allows beams of light to stream
+in and illuminate the cave.  The wind blows outside the entrance, but
+you are protected from the weather in your cozy cave.  The foamy surf
+never seems to quite reach your feet.  Several boulders here have been
+worn by time into a shape similar to a comfortable chair.
+~
+0 1081868 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+D1
+~
+~
+0 0 1223
+S
+#1209
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1210
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1211
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1212
+UNCLAIMED~
+~
+0 1089548 0
+S
+#1213
+Asgard~
+You stand on a huge expanse of glass.  Below you are clouds and the pains
+of mortality.  As you stand in Asgard, home of the bravest of the brave, you
+are frozen in awe of the power held within these walls.  A huge mansion lies
+to the east behind a magnificant set of golden doors.  Vandals have broken
+in and painted 'Order of Chaos' all over the walls here.  
+~
+0 0 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                pc-area
+           `B \       /
+            `B \_____/`w
+~
+D0
+The chat room is to the north.
+~
+~
+0 -1 1200
+D1
+The golden doors of Valhalla are to the east
+~
+~
+0 -1 1216
+D5
+The Rainbow Bridge is below you.  You can barely see it through the clouds.
+~
+~
+0 -1 1215
+S
+#1214
+The Room of Lost Souls~
+This is the room full of souls that never made it to Asgard.  They are 
+trapped here eternally, left to wander about in misery.  They were infidels
+and cowards.  Their cries of misery send a shiver down your spine.
+~
+0 1081352 0
+D5
+~
+~
+0 -1 1219
+S
+#1215
+Head of the Rainbow Bridge~
+Standing on the mortal end of the Rainbow Bridge, the bridge arches up 
+before you and seems to disappear into the clouds.  You wonder if it is 
+wise to venture upward into the realm of the gods.  But it seems so calm
+and peaceful here that it would be a shame to leave...
+~
+0 0 1
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                pc-area
+           `B \       /
+            `B \_____/`w
+~
+D4
+The Rainbow Bridge stretches ahead before you.
+~
+~
+0 -1 1220
+D5
+The altar of Midgaard is below you.
+~
+~
+0 -1 3054
+S
+#1216
+The Entrance of Valhalla~
+The huge ornate entrance of Valhalla is before you.  It seems as though
+atleast eight-hundred soldiers could walk abreast of one another through
+these doors. You stare in awe at the sparkling mansion before you.  You
+wonder what secrets are held behind these doors and long to hear the stories
+of bravery and glory that you know are kept within the walls of Valhalla.
+~
+0 1081344 1
+D1
+Valhalla lies to the east.
+~
+~
+0 -1 1203
+D3
+Asgard lies to the west.
+~
+~
+0 -1 1213
+S
+#1217
+Valhalla~
+You are standing in the halls of Valhalla.  Pictures of Odin, Thor, Tyr,
+Loki, Freyr, Feyja, and Balder line the walls.  The cavernous hall extends
+to the east and west.  Rooms belonging to the gods lie to the north and 
+south.  There appears to be an exit above you, but you do not know what is
+up there...
+~
+0 1081344 0
+D1
+Valhalla continues east.
+~
+~
+0 -1 1218
+D3
+Valhalla continues west.
+~
+~
+0 -1 1203
+D4
+If you want to know what is up there you shall have to go and look...
+~
+~
+0 -1 1212
+S
+#1218
+Valhalla~
+You are standing in the halls of Valhalla.  Tapestries of the gods line
+the walls.  A statue of Odin is here.  The halls continue to the east and
+west, and there are doors to the north and south of you.  There is some 
+sort of exit above you, but you do not know where it leads...
+~
+0 1081344 0
+E
+statue odin~
+The statue of Odin has been exquisitely crafted.  It is of white marble
+with black and gold veins.  It looks to be of magical origin.
+~
+D1
+Valhalla continues east.
+~
+~
+0 -1 1219
+D3
+Valhalla continues west.
+~
+~
+0 -1 1217
+D4
+If you want to know what is up there you shall have to go up and see...
+~
+~
+0 -1 2
+S
+#1219
+Valhalla~
+You have reached the end of the halls of Valhalla.  There are heavy doors
+on 3 walls.  They lead into the rooms of the gods.  The hall goes back to
+the west, and there is some sort of an exit above you.  Torches sputter
+softly and the scent of incense is strong here.
+~
+0 1081344 0
+D3
+Valhalla goes back to the west.
+~
+~
+0 -1 1218
+D4
+If you want to know what is up from here, you shall have to go up and see...
+~
+~
+0 -1 1214
+S
+#1220
+On the Rainbow Bridge~
+You have reached the center of the Rainbow Bridge.  Clouds and mist swirl
+around your feet.  The view from here is incredible.  It is little wonder 
+that the heavens were saved for the gods personal pleasures.
+~
+0 0 1
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                pc-area
+           `B \       /
+            `B \_____/`w
+~
+E
+clouds~
+The clouds are beautiful.  There are shades of gray, pink and purple swirled
+into the blue sky.
+~
+D4
+The Rainbow Bridge continues upwards into the heavens.
+~
+~
+0 -1 1221
+D5
+The Rainbow Bridge disappears down into the clouds.
+~
+~
+0 -1 1215
+S
+#1221
+The End of the Rainbow Bridge~
+You have reached the end of the Rainbow Bridge.  Asgard stretches out above 
+you.  Looking around, you search for the legendary guardian of Asgard.  The
+clouds are far below you and a sense of beauty and peacefulness surrounds you. 
+~
+0 0 -1
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                pc-area
+           `B \       /
+            `B \_____/`w
+~
+D4
+Asgard is above you, spread out in all its glory.
+~
+~
+0 -1 1213
+D5
+Bifrost, the Rainbow Bridge leads down to the Temple of Midgaard.
+~
+~
+0 -1 1220
+S
+#1222
+Feroz's Coffee Station~
+This is the room Feroz frequents most often.  Along one wall is a
+counter.  Closer inspections of this counter shows that Feroz definitely
+likes his beverages.  You see Snapple bottles, Pepsi cans, Tea Bags, Coffee
+Jars, and several drinks that are unfamiliar to even you.  On one side of
+the counter a very large stack of glasses, coffee cups, and an ice machine. 
+A hole in the northern wall allows you to see into Feroz's Kitchen.  And to
+the south is Feroz's Office.  
+~
+0 1082380 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+D2
+~
+~
+0 0 1223
+S
+#1223
+Feroz's Main Office~
+This room is a hectic mess.  Piles of notes overflow out of the todo
+list, as they should from the todo list of any active IMP.  A collection of
+the notes made by mortals is kept in a rollodex on Feroz's desk.  A large
+computer hums away.  The hard disk may hold 1.  6 gibabytes of stuff but
+Feroz has somehow filled it up without a single program over 10 megabytes. 
+The desk and rollodex are joined by numerous pens and pencils that Feroz
+likes to chew on while he works.  The desk os made of solid cherry and still
+has a sweet smell as if it is straight from the factory.  The floor around
+the small trash can is littered with cans and bottles of various drinks that
+can't be recycled, while the recycling bin is overflowing with Mountain Dew
+cans.  Various doors lead in every direction, each one accidently left open
+as Feroz went running off to another important activity of some sort.  
+~
+0 1082380 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+D0
+~
+~
+0 0 1222
+D1
+~
+~
+0 0 1200
+D2
+~
+~
+0 0 1224
+D3
+~
+~
+0 0 1208
+D4
+~
+~
+0 0 1206
+D5
+~
+~
+0 0 1234
+S
+#1224
+The Bathroom at the End of Time~
+So, this is the end of time, huh?  You are obviously here because you've
+been bad, so listen to what the gods have to tell you and they might not
+purge you.  
+But maybe it's not so bad here, they do have running water.....
+~
+0 1074188 0
+S
+#1225
+The Swamp~
+The cool wind is refreshing and the starry night sky brings a cool to
+you.  Three frogs sit on lilypads, their croaking is melodic and soothing. 
+One croaks, "MUD!"  Then another croaks, "weis" to another beat.  The third
+then starts croaking, "er."  They three frogs croak to a different tempo and
+by chance, the three syllables become one word: MUDweiser!!!  This startles
+you from your dream and you awake on the floor of the bar.  Most of the
+patrons have left and near your mouth you see a large puddle puke that must
+be your own.  You remember having a few beers, but not this many.  It always
+seems to turn out like this...  
+Friends don't let friends drink and MUD!
+~
+0 1081348 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+S
+#1226
+The Beginning~
+In the beginning God created the heavens and the earth.  Now the earth
+was formless and empty, darkness was over the surface of the deep, and the
+Spirit of God was hovering over the waters.  And God said, "Let there be
+light," and there was light.  God saw that the light was good, and he
+separated the light from the darkness.  God called the light "day," and the
+darkness he called "night."  And there was evening, and there was
+morning--the first day.  And God said, "Let there be an expanse between the
+waters to separate water from water."  So God made the expanse and separated
+the water under the expanse from the water above it.  And it was so.  God
+called the expanse "sky."  And there was evening, and there was morning--the
+second day.  And God said, "Let the water under the sky be gathered to one
+place, and let dry ground appear."  And it was so.  God called the dry
+ground "land," and the gathered waters he called "seas."  And God saw that
+it was good.  Then God said, "Let the land produce vegetation: seed-bearing
+plants and trees on the land that bear fruit with seed in it, according to
+their various kinds."  And it was so.  The land produced vegetation: plants
+bearing seed according to their kinds and trees bearing fruit with seed in
+it according to their kinds.  And God saw that it was good.  And there was
+evening, and there was morning--the third day.  And God said, "Let there be
+lights in the expanse of the sky to separate the day from the night, and let
+them serve as signs to mark seasons and days and years, and let them be
+lights in the expanse of the sky to give light on the earth."  And it was
+so.  God made two great lights--the greater light to govern the day and the
+lesser light to govern the night.  He also made the stars.  God set them in
+the expanse of the sky to give light on the earth, to govern the day and the
+night, and to separate light from darkness.  And God saw that it was good. 
+And there was evening, and there was morning--the fourth day.  And God said,
+"Let the water teem with living creatures, and let birds fly above the earth
+across the expanse of the sky."  So God created the great creatures of the
+sea and every living and moving thing with which the water teems, according
+to their kinds, and every winged bird according to its kind.  And God saw
+that it was good.  God blessed them and said, "Be fruitful and increase in
+number and fill the water in the seas, and let the birds increase on the
+earth."  And there was evening, and there was morning--the fifth day.  And
+God said, "Let the land produce living creatures according to their kinds:
+livestock, creatures that move along the ground, and wild animals, each
+according to its kind."  And it was so.  God made the wild animals according
+to their kinds, the livestock according to their kinds, and all the
+creatures that move along the ground according to their kinds.  And God saw
+that it was good.  Then God said, "Let us make man in our image, in our
+likeness, and let them rule over the fish of the sea and the birds of the
+air, over the livestock, over all the earth, and over all the creatures that
+move along the ground."  So God created man in his own image, in the image
+of God he created him male and female he created them.  God blessed them and
+said to them, "Be fruitful and increase in number fill the earth and subdue
+it.  Rule over the fish of the sea and the birds of the air and over every
+living creature that moves on the ground."  Then God said, "I give you every
+seed-bearing plant on the face of the whole earth and every tree that has
+fruit with seed in it.  They will be yours for food.  And to all the beasts
+of the earth and all the birds of the air and all the creatures that move on
+the ground--everything that has the breath of life in it--I give every green
+plant for food."  And it was so.  God saw all that he had made, and it was
+very good.  And there was evening, and there was morning--the sixth day.  
+~
+0 1081348 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+D0
+~
+~
+4 0 1272
+S
+#1227
+The End~
+Then the angel showed me the river of the water of life, as clear as
+crystal, flowing from the throne of God and of the Lamb down the middle of
+the great street of the city.  On each side of the river stood the tree of
+life, bearing twelve crops of fruit, yielding its fruit every month.  And
+the leaves of the tree are for the healing of the nations.  No longer will
+there be any curse.  The throne of God and of the Lamb will be in the city,
+and his servants will serve him.  They will see his face, and his name will
+be on their foreheads.  There will be no more night.  They will not need the
+light of a lamp or the light of the sun, for the Lord God will give them
+light.  And they will reign for ever and ever.  The angel said to me, "These
+words are trustworthy and true.  The Lord, the God of the spirits of the
+prophets, sent his angel to show his servants the things that must soon take
+place."  Behold, I am coming soon!  Blessed is he who keeps the words of the
+prophecy in this book."  I, John, am the one who heard and saw these things.
+And when I had heard and seen them, I fell down to worship at the feet of
+the angel who had been showing them to me.  But he said to me, "Do not do
+it!  I am a fellow servant with you and with your brothers the prophets and
+of all who keep the words of this book.  Worship God!  Then he told me, "Do
+not seal up the words of the prophecy of this book, because the time is
+near.  Let him who does wrong continue to do wrong let him who is vile
+continue to be vile let him who does right continue to do right and let him
+who is holy continue to be holy."  Behold, I am coming soon!  My reward is
+with me, and I will give to everyone according to what he has done.  I am
+the Alpha and the Omega, the First and the Last, the Beginning and the End. 
+Blessed are those who wash their robes, that they may have the right to the
+tree of life and may go through the gates into the city.  Outside are the
+dogs, those who practice magic arts, the sexually immoral, the murderers,
+the idolaters and everyone who loves and practices falsehood.  I, Jesus,
+have sent my angel to give you this testimony for the churches.  I am the
+Root and the Offspring of David, and the bright Morning Star."  The Spirit
+and the bride say, "Come!"  And let him who hears say, "Come!"  Whoever is
+thirsty, let him come and whoever wishes, let him take the free gift of the
+water of life.  I warn everyone who hears the words of the prophecy of this
+book: If anyone adds anything to them, God will add to him the plagues
+described in this book.  And if anyone takes words away from this book of
+prophecy, God will take away from him his share in the tree of life and in
+the holy city, which are described in this book.  He who testifies to these
+things says, "Yes, I am coming soon."  Amen.  Come, Lord Jesus.  The grace
+of the Lord Jesus be with God's people.  Amen.  
+~
+0 1081348 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+D1
+~
+~
+4 0 1272
+S
+#1228
+The End of Time~
+You are surrounded by an empty void.  One could get really bored except
+for the strange building you are in.  Gaspar, the Guru of Time is asleep in
+the middle of the room and to the northwest are many gates to different time
+periods in the history of the world.  To your northeast is a door.  On the
+other side of that door is Seppuku, the Master of War.  To your west is a
+jar of magical refresh water and a save point and to your east a portal to
+the Day of Lavos.  To your south is a bridge that extends to some sort of
+flying vehicle dock.  You don't see a vehicle there and you wonder what type
+of vehicle would be in the end of time.  
+~
+0 1081356 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Feroz
+           `B \       /
+            `B \_____/`w
+~
+S
+#1229
+UNCLAIMED~
+~
+0 0 0
+S
+#1230
+UNCLAIMED~
+~
+0 0 0
+S
+#1231
+Reception~
+This is where mortals come to wait for an audience with the almighty
+Kyle.  The entire room is covered in bloodstains and occasional body parts. 
+Three chairs are available to sit in, but looking closer, you notice that
+they are covered with irregular bumps.  This entire room makes you want to
+leave.  Maybe that's why it's here?  
+ 
+To the north is Kyle's office.  Better get permission before going there.
+~
+0 1081356 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kyle
+           `B \       /
+            `B \_____/`w
+~
+D0
+~
+~
+0 0 1232
+S
+#1232
+Kyle's public office~
+This is the private office of everyone's favorite implementor.  A large
+desk of solid gold fills most of the room, and behind it lies a large gold
+chair studded with diamonds.  A flimsy wooden chair, obviously about to fall
+into pieces, is there for mortals to sit in.  
+~
+0 1081868 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kyle
+           `B \       /
+            `B \_____/`w
+~
+D2
+~
+~
+0 0 1231
+D4
+~
+~
+0 0 1233
+S
+#1233
+Kyle's immortal office~
+This office is intended for Kyle to meet with other lower-ranking
+immortals.  Two comfortable chairs are on either side of a desk, and there
+is a sofa against a wall.  Down is the mortal meeting room, and up is the
+implementor's room.  
+~
+0 1114125 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kyle
+           `B \       /
+            `B \_____/`w
+~
+D4
+~
+~
+0 0 1234
+D5
+~
+~
+0 0 1232
+S
+#1234
+Implementor's room~
+This room is where the implementors meet.  Maps of current and planned
+areas lie strewn about, and there is a computer where the records of all
+mortals and lesser gods can be accessed.  A table and three chairs are in a
+corner where the planning is done.  
+~
+0 1064968 0
+D4
+~
+~
+0 0 1223
+D5
+~
+~
+0 0 1233
+S
+#1235
+UNCLAIMED~
+~
+0 8 0
+S
+#1236
+Immortal Guild of Standards~
+This room has been dedicated to the persual of a standard system on
+the mud.  All the books and charts around you are meant to give all
+immortals a standard to judge creation from.  That way, balance can be
+more easily maintained and everything is much more organized.  Look
+at the `rbooks`w for information on MUD standards.
+ 
+`cIf anyone has any questions regarding protocol, post a personal note
+to someone that will actually do it so the place can be fixed.
+~
+0 1082380 0
+E
+quest~
+`rQuest Commands`w - These commands should never be played with, and should
+rarely be used outside of a Quest/RP environment.
+ 
+`mForce `w- `yTo be used to give life to mobs, but once again, emphasis is
+        placed on not "playing" with such a command.
+ 
+`mEcho `w -`y Echo should not be abused.  Such an example is "echo You are hungry."
+        Echo should be used only to remain anonymous to a user, or in personal
+        chat with another immort, unless it is within supervised RP.  Be aware
+        that impersonating another user by using echo is against the rules.
+        Also be familiar with rules concerning `mAt`y (read 2Dem).
+ 
+`mMurder `w- `yDo not play with or abuse this command.  It should be reserved
+         for quest/RP useage, and occasionally smiting very annoying people.
+         In either case, this should be accompanied in quest application
+         notes or messages on the Immboard, respectively.
+ 
+`cAll levels are responsible for reading the `rdisclaimer`c.
+Levels 94 and above should also be familiar with and `rread Dem`c and `r2Dem`c.
+~
+E
+2dem~
+`mAt     `w- `yDo not use this command to try and trick players, or confuse
+         them into believing you or something else is in the room.  Also,
+         do not use this to reveal locations of other players.  The same goes
+         for the extended abilities of `mWhere`y and `mMwhere `ywhich also
+         should not be used to give players any unfair advantage.
+ 
+`mNochannel/noshout/noemote/notell `w-`y Do not play with these commands or
+         use them to act out personal vendetas.  In any case tho, if these
+         are left "on" after a player quits, a note should be posted on the
+         Imm board explaining the reasons for the action along with if you
+         will allow other Imms to remove or change your settings.  Remember,
+         disciplinary actions on morts should *always* be handled by the
+         same Imm who implemented them.
+ 
+`cAll levels are responsible for reading the `rdisclaimer`c.
+Levels 94 and above should also be familar with and `rread Dem`c and `rQuest`c.
+~
+E
+ang~
+`mPeace `w- `yIf a newbie is in trouble, and doesn't yet understand the
+        concepts of the game, you may use this to avoid unnecessary confusion.
+        However, do not randomly go around and use it on people that are
+        experienced players, since, this would defeat the point of playing
+        on a MUD.
+ 
+`mVnum  `w- `yYou may use this to find eq that you want to wear, but do not
+        use it to tell characters what is avaliable, or what mobs can be
+        found for the purpose of giving players an unfair advantage.
+ 
+`cAll levels are responsible for reading the `rdisclaimer`c.
+~
+E
+immlvl~
+`w
+In the new MUD structure, only four levels of Administration will be shown
+on the wholist to the mortals.  The following list shows the new break
+in immortal levels.
+ 
+`WImplementor `w- `yLevel `W100`y only`w
+`mSupreme     `w- `yLevels `m99`y and `M98`w
+`bSenior      `w- `yLevels `b97`y, `B96`y, and `C95`w
+`cJunior      `w- `yLevels `c94`y, `g93`y, and `G92`w
+ 
+`W{`bCouncil`W}`w will be made up of levels `W100`w - `b97`w.  This group of
+administration has been formed to discus critical changes involving the MUD.
+Duties of the Council will be discussed in more detail in a new section
+of books that discusses formal organizations on this Mud.
+ 
+`YHeroes`w (level 91) are not part of our administration.  `rRead 91`w & `rHER
+`wfor more information.
+~
+E
+her~
+`mHolylight `w-`y A hero or immort of ANY level should never use this command
+            to expose other players, or in anyway that might be detrimental
+            to the RP environment we are trying to encourage.  (ie don't
+            scream out who's invisible just because you can see them.)  Use
+            discretion and maturity.`w
+ 
+`mImotd     `w- `yThe information listed in this command is not to be
+            announced or shared publically.  It is only for administration
+            to discuss and know.`w
+ 
+`cAny and all commands can and will be taken away from any level if they are
+found being abused or if the user is acting innapropriately.`w
+~
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Magius
+           `B \       /
+            `B \_____/`w
+~
+E
+sg2~
+`WClassifications, Chapter Five: `RSG2`w
+ 
+                                (Ignore)
+Call Lightning     Calm               Continual Light    Control Weather
+Create Food        Create Spring      Earthquake         Faerie Fog
+Gas Breath         Gate               Holy Word          Locate Object
+Mass Healing       Mass Invis         Summon             Ventriloquate
+Vision
+                                (Object)
+Create Water       Detect Poison      Enchant Armor      Enchant Weapon
+Identify
+                                 (Self)
+Detect Evil        Detect Hidden      Detect Invis       Detect Magic
+Pass Door          Protection Evil    Stone Skin         Teleport
+Word of Recall
+~
+E
+sg1~
+`WClassifications, Chapter four: `RSG1`w
+ 
+                            (Attack)
+Acid Blast         Acid Breath        Blindness          Burning Hands
+Cause Critical     Cause Light        Cause Serious      Chain Lightning
+Charm Person       Chill Touch        Colour Spray       Curse
+Demonfire          Disintegrate       Dispel Evil        Dispel Magic
+Energy Drain       Faerie Fire        Fire Breath        Fireball
+Firewind           Flamestrike        Frost Breath       General Purpose
+Harm               Hellfire           High Explosives    Ice Ray
+Ice Storm          Lightning Bolt     Lightning Breath   Magic Missle
+Meteor Swarm       Multi Missle       Plauge             Poison
+Shocking Grasp     Sleep              Test Area          Weaken
+                            (Defend)
+Armor              Bark Skin          Bless              Cancellation
+Change Sex         Cure Blindness     Cure Critical      Cure Disease
+Cure Light         Cure Poison        Cure Serious       Fly
+Frenzy             Giant Strength     Haste              Heal
+Infravision        Invis              Know Alignment     Refresh
+Regeneration       Remove Curse       Restoration        Sanctuary
+Shield             Web
+~
+E
+objclass3~
+Classifications, Chapter Three: `RObjClass3`w
+ 
+`G*`w All groups in this chapter are hyphenated, (loc) and (sg) explained at end.
+ 
+`R(Specific)`w - Armor-(loc), Cloth-(loc), Pill-(sg), Potion-(sg),
+             Scroll-(sg), Staff-(sg).
+ 
+(`Rloc`w) - About, Arms, Body, Feet, Finger, Head, Legs, Neck, Shield,
+        Two, Waist, Wrist.
+ 
+(`Rsg`w) - Attack, Defend, Ignore, Object, Self.
+       All (if object has more than one `Rs`wpell `Rg`wroup)
+ 
+Useage - Armor-About, Cloth-About, Pill-Attack, etc.
+ 
+Read Classifications, Chapter Four `RSG1`w for Attack and Defend spells.
+Read Classifications, Chapter Five `RSG2`w for Ignore, Object and Self.
+~
+E
+objclass2~
+Classifications, Chapter Two: `RObjClass2`w
+ 
+`R(Weapon Class)`w - Axe, Dagger, Exotic, Flail, Mace, Polearm, Spear,
+                 Sword, Whip.
+ 
+`R(Weapon Special)`w - Flaming, Frost, Sharp, Two-Hands, Vampiric, Vorpal.
+ 
+`R(Extra)`w - Immortal, No-Reset
+ 
+`R(Unusual)`w - Certain objects won't fall into their own TYPE catagory
+            so instead they will be listed under the closest, most logical
+            Type Field. (i.e. object -> keyword to search under )
+            `R*`w Books -> Furniture
+            `R*`w Ladders -> Furniture
+            `R*`w Signs -> Furniture
+~
+E
+2imm~
+~
+E
+dem~
+`mTeleport/Transfer `w- `yImms should `rNEVER`y assist players in getting from point
+           A to point B by means of a transfer.  Use of transfer should be
+           be limited to jailing/releasing user or for speaking with morts
+           (and if such a conversation is held, the mort should be
+           returned to where they were before transfer.  Use `mWhere`y)
+ 
+`mWizinvis`w - `yWizinvis should not be used to snoop on mort conversations.  Such
+           invasion of privacy is grounds for deletion.  Also, Imms are not
+           allowed to be in mortal areas for the afore stated reasons.
+ 
+`mPurge `w- `yJust like `mPeace`y (read ANG) this command should only be used
+        to "clean" a room.  For example, if someone has left a pet or a
+        group of charmed mobs in a room they can not leave.  Do not use
+        this command to any one players advantage.
+`y
+`cAll levels are responsible for reading the `rdisclaimer`c.
+Levels 94 and above should also be familiar with and `rread 2Dem`c and `rQuest`c.
+~
+E
+imp~
+`mAdvance`w - `yShould only be used if discussed and agreed to in Counsel.`w
+ 
+`mTrust`w - `yShould only be used if discussed and agreed to in Counsel.`w
+ 
+`mDeny, Set, Ban`w - `yUse own discretion, but report to imms if implemented.`w
+ 
+`mEdit`w - `yShould be used ONLY if necessary, and then reported to the Creator/s
+       whose job it is to keep the playsite in a state of balance.`w
+ 
+`mLog, Snoop`w -`y An IMP may freely log or snoop any mort or immort without
+             their knowing, respecting privacy.`w
+~
+E
+91~
+`YHero `b(`yHER`b)`w, `mLevel 91`w: `YPlayer Only`w
+`k  `w
+`gRESPONSIBILITIES`w:  Level 91, though listed on the immortal list are still
+considered mortals.  They are not a part of the administration of this MUD.
+Heroes should continue to RP with the other mortals.
+ 
+`rRULES`w:  Heroes, because they have been rewarded with minor Imm commands,
+are responsible for not abusing those commands.  Heroes should hopefully be
+an example of good RP to other players.  In some cases, one who reaches level
+91 may be considered for future Immship, however there is no gaurantee of
+this happening.
+ 
+`rRead HER`w for command restrictions and regulations of this level.
+~
+E
+92~
+`GAvatar `b(`yAVA`b)`w, `mLevel 92`w: `cJunior*`w
+ 
+`gRESPONSIBILITIES`w:  The first duty of an Avatar is to represent the
+Immortal community with maturity and kindness.  Although they do not
+possess all the commands necessary to be a full fledged newbie helper, they
+should strive to be polite and helpful to the mortal community.  Also
+this level should act as a lookout for troublemakers and help report
+bugs or problems.
+ 
+`rRULES`w:  Although the commands given to Avatars are minimal, care should
+be taken not to use them to give the imm or any player an advantage.
+This level can be looked at in two different ways. One is that of a brand new
+Immortal, someone that has been promoted from mortal status to the lowest
+administration level until they have shown appropriate interest and maturity
+to be considered for a higher level.  Or, because this is the lowest level,
+it can be used for probationary status for Imms that have been misbehaving.
+However, this is rare, as immaturity and abuse of imm commands is darkly
+frowned upon.
+ 
+`rRead AVA`w for command restrictions and regulations for this level.
+~
+E
+93~
+`gAngel `b(`yANG`b)`w, `mLevel 93`w: `cJunior**`w
+ 
+`gRESPONSIBILITIES`w:  Angels are Newbie helpers.  They should strive to
+educate newcomers about how to play, what the rules are, and the concepts
+of Role Playing.  Level 93 imms are here to assist the mortal community,
+hence they do not have wizi.  They should also help report bugs and to
+contribute to the evolution of the MUD.
+ 
+`rRULES`w:  Level 93 should at all times, strive to be helpful to the morts,
+especially the newbies.  Even tho the imms tend to jest quite a bit,
+Angels shoud try their hardest to be polite ambassadors, and should
+refrain from unnecessary rude or cruel comments.  Also, because you are 
+interacting with morts, it is imperative that you don't help beyond explaining
+rules, how to play.. etc.  Such as giving secret tips and hints or extra
+eq, gold.. etc.
+ 
+`rRead ANG`w for command restrictions and regulations for this level.
+~
+E
+94~
+`CDemi-God `b(`yDEM`b)`w, `mLevel 94`w: `cJunior***`w
+ 
+`gRESPONSIBILITIES`w: Level 94 is something of a "standard" level for immorts who
+have shown responsibility, hard work, and interest in the MUD and its affairs.
+The primary duty of a Demi-God is user control.  A Demi-God insures that
+troublemaking users who go out of their way to harass people are dealt with.
+This mean dealing with spammers, people who are a nuisance, people who break
+the rules (in any form), or people who generally misbehave in any way.  A level
+94 has all the necessary commands to effectively silence and imprison a user.
+ 
+`rRULES`w: Level 94 is the first level in which an immort gets any "significant"
+commands.  Hence, the potential for abuse is quite high.  This, Demi-God's are
+watched pretty closely (keep that in mind).  No Demi-Gods should abuse or "play"
+with their imm commands.  Any user who seems to be misbehaving should first be
+warned of such behavior, and then, if such behavior continues, should be
+punished accordingly.  All Demi-Gods should also be familiar with the rules on
+proper prison use (`rread prison`w).
+ 
+`rRead Dem`w, `r2Dem`w, and `rQuest`w for command restrictions and regulations for
+this level.
+~
+E
+95~
+`mImmortals `b(`yIMM`b)`w, `mLevel 95`w
+ 
+`gRESPONSIBILITIES`w: Level 95 is something of a reward to Demi-Gods who have
+shown consistent hard work, effort, and good sense for an extended period of
+time.  Such hard work and devotion to the MUD is rewarded (be aware that
+asking "Can I be level 95?" or bickering in any way about levels means we
+won't even consider a promotion).  Immortals share the main duties of the
+Demi-Gods below them with but a few differences.  It is assumed that an immort
+at Immortal level would have enough of a sense of responsibility to handle
+certain imm commands that have a very high potential of being abused.  Hence,
+Immortals are allowed use of string, sockets, freeze, disconnect, gecho, stat,
+and snoop (among other commands).  Additional duties of an Immortal include
+keeping an eye out for multiplayers (through use of socket and snoop) as well
+as being ready to snoop a user suspected of harassment or cheating.
+ 
+`rRULES`w: Overall, an Immortal should show appropriate responsibility for the
+level given.  This means not playing with or abusing the commands they have
+available to them.  Most rules that apply to an Immortal lie in the individual
+command use.  Hence, all Immortals should be VERY aware of the command
+restrictions and regulations for their level.
+ 
+`rlook 2IMM`w for command restrictions and regulations for this level.
+~
+E
+96~
+~
+E
+97~
+~
+E
+98~
+~
+E
+99~
+~
+E
+banned~
+`rBANNED`w:
+ 
+198.76.205.anynumber
+sailor.lib.md.us
+elrg-03-28.dialup.netins.net
+
+ 
+`mUntil the ban command is fixed, all immorts have orders to imprison
+and silence `rANY`m user that logs on with these IP addresses. (no exceptions)`w
+~
+E
+100~
+`mImplementors `b(`yIMP`b)`w, `mLevel 100`w
+ 
+`gRESPONSIBILITIES`w: `wIn simplest terms, Implementors are in charge
+of the MUD.  They pay the cost of keeping it alive and are the final
+ruling on all issues.  The main duty of an Implementor (beyond financial
+support) is to provide necessary coding assistance.
+ 
+`rRULES`w: Yes, even the head bosses have rules.  All Implementors
+must discuss major MUD changes in meeting with all Level 97+ immorts
+before putting such changes into play.
+When a meeting is not possible, news of a crucial change should be
+reported in a personal note to the aforesaid immorts.
+Examples of "crucial changes" include promotions, demotions, rule changes,
+and quest approval.
+ 
+`rlook IMP`w for command restrictions and regulations for this level.
+~
+E
+immrules~
+`mImmrules reference chart
+`w
+`WImplementor `b(`yIMP`b)`w, `mLevel 100`w: `rread 100`w, `rImp`w
+`mCreator     `b(`yCRE`b)`w, `mLevel 99`w:  `rread 99`w
+`mSupreme     `b(`ySUP`b)`w, `mLevel 98`w:  `rread 98`w
+`mDeity       `b(`yDEI`b)`w, `mLevel 97`w:  `rread 97`w
+`mGod         `b(`yGOD`b)`w, `mLevel 96`w:  `rread 96`w
+`mImmortal    `b(`yIMM`b)`w, `mLevel 95`w:  `rread 95`w
+`CDemi-God    `b(`yDEM`b)`w, `mLevel 94`w:  `rread 94`w, `rDem`w, `r2Dem`w, `rQuest`w
+`gAngel       `b(`yANG`b)`w, `mLevel 93`w:  `rread 93`w, `rAng`w
+`GAvatar      `b(`yAVA`b)`w, `mLevel 92`w:  `rread 92`w, `rAva`w
+`YHero        `b(`yHER`b)`w, `mLevel 91`w:  `rread 91`w, `rHer`w
+ 
+*ALL* levels are responsible for knowing and reading the `rdisclaimer`w.
+~
+E
+prison~
+A `r*USER PRISON*`w is a designated area for the detainment of
+troublemakers...  Any mortal found in such an area is `rNOT`w to be removed
+unless you put them there yourself or you are a level 98+ and have a DAMN
+good reason to remove them...  Prisoners who continue to hassle players from
+prison using either channels, shouts, or tells are to be nochanneled,
+noshouted, or notelled accordingly.  If they continue to cause trouble,
+report them to a higher immortal.
+A `r*USER PRISON`w may be used by any level 94+ that has good reason to
+imprison or detain a user.  Be forewarned however, that you remain
+responsible for your actions and jailing innocents is frowned upon here.
+Finally, prisons are NOT TO BE USED as chat rooms.
+ 
+`m** ALL ADDITIONS OR REMOVALS FROM PRISON SHOULD BE ACCOMPANIED **
+               ** BY A NOTE ON THE IMMORTAL BOARD **`w
+`rNOTE`w: Make sure the user has nothing that they can kill themselves with.
+ 
+Current available prisons include:  `rAbyss`w, `rScales`w, and `rBlackhole`w
+To imprison a user, simply use "`ytrans <user> <prison name>`w"
+`yExample:  trans Themis scales `wor `ytrans Trilex abyss`w
+~
+E
+books~
+You scan the shelves for useful books:
+ 
+`gUSER PRISONS`w: `rread prison`w
+`gBANNED SITES`w: `rread banned`w
+`mIMMORTAL LEVELS`w: `rread immlvl`w
+`mCOMMAND STRUCTURE`w: `rread commandlvl
+`mIMMORTAL RULES`w: `rread immrules `K<`Y<`K< `Yunder construction `K>`Y>`K>`w
+`bKEYWORD CLASSIFICATION`w: `rread classification, class2`w
+~
+E
+commandlvl~
+`W     Implementor`w
+`W(100)`w clan, shutdown, advance, trust, reboot, chaos, setprog, mpstat `W*`w
+`m     Supreme`w
+`m(99)`w reward, setedit, sinfo `m*`w
+`M(98)`w deny, set, wizlock, hotboot `M*`w
+`b     Senior
+`b(97)`w edit, resets, switch, return, raffect, wiznet, asave, alist `b*`w
+`B(96)`w cut, log, ban, load, clone, allow, repop, restore, newlock, pardon `B*`w
+`C(95)`w string, sockets, freeze, disconnect, slay, pecho `C*`w
+     `C*`w gecho, objcheck, stat, snoop `C*`w
+`c     Junior`w
+`c(94)`w teleport, transfer, at, nochannels, notell, noshout, noemote `c*`w
+     `c*`w wizinvis, purge, force, memory, mwhere, echo, murder `c*`w
+`g(93)`w vnum, beacon, peace `g*`w
+`G(92)`w immtalk, poofin, poofout, goto `G*`w
+`Y     Player`w
+`Y(91)`w holylight, wizhelp, imotd `Y*`w
+ 
+`R***`w Read `rImmrules`w for responsibilities and rules for each level `R***`w
+~
+E
+classification~
+`WClassification Keywords for Building and Searching for Objects and Mobs`w
+ 
+     The following chapters include keywords, that should be included in the
+NAME field of edit building.  More than one might apply and should be added.
+These keywords are used for searching for specific Objects and Mobs, based
+on several different catagories.
+     Objects are based upon the Type field and have been separated into
+three chapters and a total of eight catagories.
+`RObjClass1`w:  (null) - Objects with only one type.
+            (Food) - various types of edible objects.
+           `G*`w(Drink) - various types of thirst-quenching objects.
+`RObjClass2`w:  (Weapon Class) - wielding keywords
+            (Weapon Special) - Extra flags on weapons
+            (Extra) - those dealing outside of regular play.
+            (Unusual) - Objects that fall outside of the Type field.
+`RObjClass3`w: `G*`w(Specific) - Objects with secondary qualifiers.
+ 
+See `WClass2`w for page two of the Classification Index.
+~
+E
+objclass1~
+Classifications, Chapter One: `RObjClass1`w
+ 
+`R(Null)`w - Boat, Container, Furniture, Fountain, Key, Light, money
+         npc, Protect, Treasure, Trash.
+ 
+`R(Food)`w - Baked, Dessert, Food-Dish, Fruit, Meat, Poison, Snack, Vegetable.
+ 
+`R(Drink) `G*`w Ale, Beer, Blood, Coffee, Cola, Dark, Fire, Lemon
+          Local, Milk, Salt, Slime, Water, Whisky, Wine.
+          `G(`w The `G*`w means the keyword is hyphonated. i.e. Drink-ale`G )`w
+~
+E
+class2~
+`WClassification Keywords, Page 2`w
+ 
+     Spell groups have been included to aid in Specific Object Classification
+and have been split into two chapters.  Note: These are not keywords to
+search under, only to aid with `RObjClass3`w.
+`RSG1`w:  (Attack) - Harmful Spells
+      (Defend) - Curative and Offensive Spells
+`RSG2`w:  (Ignore) - Nature and "Null to Others" Spells
+      (Object) - Enhance and Identify Spells
+      (Self) - "Null to Self" Spells
+~
+E
+ava~
+`mPoofin/out `w- `yAlthough these commands are, for the most part, a fun 
+             addition to being an Imm, one should not make them offensive or
+             let them resemble parts of the game.  (ie, The cityguard has
+             arrived with Kyle)`w
+ 
+`mGoto       `w-`y An essential command for all Imms and very useful.  The
+             only restriction is that Imms should not use this command to try
+             and find walking paths, secret rooms, hidden objects, other
+             players, etc .. for the purpose of helping ANY mortal for
+             ANY reason.
+ 
+`mImmtalk    `w- `yDon't spam :>  Other than that, please make a note that
+             formal conversations (anything dealing with policy, morts, etc)
+             should not be repeated or discussed publically.  Use discretion
+             and maturity.`w
+ 
+`cAll levels are responsible for reading the `rdisclaimer`c.
+~
+E
+disclaimer~
+`r                             **Disclaimer**`y
+ 
+Any and all commands can and will be taken away from any level if they are
+found being abused, be that for means of amusement, personal vendetas, or
+if the Imm is acting in an overall immature manner.  Each and every level
+is responsible for knowing the rules, responsibilities and command
+restrictions and regulations for his/her level and all those below his/her
+assigned level.
+ 
+Be aware that most commands are logged.
+ 
+If any Imm, of any level, suspects "foul or immature" use of another Imms
+commands, it should be reported to `rCouncil`y, or if in the case of the
+irresponsible Imm is 97+ to a solitary Implementor for private discussion.
+Just as there is a Law of Parties in real life, failure to report and/or
+aiding or assisting in poor behaviour will result in disciplinary actions
+such as removal of commands, demotions or Imm status being completely revoked.
+~
+E
+council~
+Council...                                                          
+Not completed yet.
+Will be added after Immrules are finished, and the new book of formal
+organizations have been set up.
+~
+D0
+~
+~
+1 0 1271
+S
+#1237
+UNCLAIMED~
+~
+0 0 0
+S
+#1238
+UNCLAIMED~
+~
+0 0 1
+S
+#1239
+UNCLAIMED~
+~
+0 0 1
+S
+#1240
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1241
+Shawn's Den~
+~
+0 1081348 0
+S
+#1242
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1243
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1244
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1245
+`r*** `gArmaments Hall `r***  `c: `yTesting Facility~
+`w`W`cThis is the `yTesting Facility`c for the many new weapons and
+torture methods the `gImplementor Trilex`c has created.  The room is scarred and
+badly burned all around.  Fragments of metal and wood are scattered all over.  
+It would be advisable not to stick around too much longer.  You never know when
+a fireball, ice storm, or piece of schrapnal will wiz by.
+~
+0 1081868 0
+E
+down~
+You see a healing sanctum below you. How fitting.
+~
+D5
+~
+~
+0 0 1246
+S
+#1246
+Trilex's Sanctum of Healing~
+This room hums with a lawful good essence.  The healing power
+that radiates in the walls wears off on you.  The supreme feeling of justice
+amazes you.  You know you are safe here, if you're a follower of the law.
+~
+0 1344524 0
+D4
+~
+~
+0 0 1245
+S
+#1250
+Gavin's Dungeon~
+You are standing in a large cave with water up to your knees.  There are
+corpses floating everywhere in the water.  You would think that it might
+smell here, but actually it smells quite fresh.  You are frightened by the
+horrifying groans coming from deep inside the cave.  With all of the noise
+and corpses you think to yourself "How could a person live here"?  But this
+is the place Gavin calls home.  Large `RRed`w glowing eyes follow your every
+move!  
+~
+0 1081352 0
+D2
+~
+~
+0 0 1253
+D3
+~
+~
+0 0 1251
+S
+#1251
+Gavin's Thinking Room~
+This is where Gavin does all his thinking.  There is a desk, along with
+his computer.  There are papers piled on his desk for every thing he needs
+to get acomplished.  By what you can see it looks like Gavin is a very busy
+man.  If you need anything just drop a note on his desk along with all the
+other papers.  
+~
+0 1081352 0
+D1
+~
+~
+0 0 1250
+S
+#1252
+Ryuujins 1st room~
+i've given you the following vnums to do with whatever you need to.
+1252
+1254
+1255
+1256
+~
+0 1081348 0
+S
+#1253
+Gavin's Bathroom~
+This is where Gavin does all of his.....  Business.  The toilet takes up
+about half of the room, and the hot-tub takes up the rest.  There is just
+enough room to walk in between them to get to the sink.  The mirror above
+the sink folds back into the wall, displaying a Movie Theator size TV
+screen.  
+~
+0 1081344 0
+D0
+~
+~
+0 0 1250
+S
+#1254
+Ryuujin's Fishbowl~
+A few bubbles float up, towards a dim green light above.  The water is a
+deep blue, and it is very disorienting.  A couch is here, and suddenly, you
+realize you can still breathe easily.
+~
+0 1089564 6
+D4
+~
+~
+7 0 1272
+S
+#1255
+Ryuujin's 3rd room~
+this room has an annoying room affect. talk to an imp about erasing it.
+~
+0 1081364 0
+S
+#1256
+Ryuujin's 4th room~
+~
+0 1081348 0
+S
+#1257
+Couch Surfing Central    (Maly's Pad!)~
+Finally!  A place to call his own.. with plenty of couchs and chaise lounges
+and armchairs and beanbags for everyone!  The big open room is perfect for
+a party, plush carpeting to crash on.. a nice deep blue to hide chip crumbs
+and soda stains, warm tan walls with lots of lights, and even a complete
+mini bar and kitchen to whip up the perfect munchie.  And what pad would
+be complete without a big screen tv.. 50"!  With a satellite dish and a
+video library of over 100 movies, this, is definitely the place to do some
+good ole fashioned, couch surfin'.     (hey, are you gonna eat those chips?)
+~
+0 1081348 0
+D1
+~
+~
+0 0 1200
+D3
+~
+~
+0 0 1236
+S
+#1258
+Scooby's 1st room~
+~
+0 1081348 0
+S
+#1259
+Scooby's 2nd room~
+~
+0 1081348 0
+S
+#1260
+Scooby's 3rd room~
+~
+0 1081356 0
+S
+#1261
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1262
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1263
+UNCLAIMED~
+~
+0 1082372 0
+S
+#1264
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1265
+Kas' private area~
+~
+0 1089536 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kas
+           `B \       /
+            `B \_____/`w
+~
+D1
+~
+~
+0 0 1266
+D2
+~
+~
+0 0 1200
+S
+#1266
+Kas' room~
+This is Kas' room.
+~
+0 1089536 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kas
+           `B \       /
+            `B \_____/`w
+~
+D3
+~
+~
+0 0 1265
+D5
+~
+~
+0 0 1267
+S
+#1267
+Kas' dining room~
+~
+0 1089536 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kas
+           `B \       /
+            `B \_____/`w
+~
+D3
+~
+window~
+7 0 1268
+D4
+~
+~
+0 0 1266
+S
+#1268
+A Great view of the world.~
+You enter the room and the view continues on forever. Little flakes of snow
+fall from the sky and softly land on your head. West is a massive forest of
+giant trees. Piles of snow has covered the ground completely and it is freezing.
+But none of that matters. Tiny bits of grass reach out of the ground and
+are crushed beneath the weight of a Mammoth. The sunlight glints off the snow
+covering the brown fur of the Mammoth. 
+~
+0 5276176 3
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 25 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kas
+           `B \       /
+            `B \_____/`w
+~
+D1
+You see a portal forming to another realm of existance. Should you enter it?
+~
+portal~
+7 0 1267
+S
+#1269
+The Lucky Men's Club~
+This room is a special gentleman's club, known for it's spontinatiety and
+spunk.  Lots of guys have gotten lucky here, and as such it's known as the
+Lucky Men's Club.  Just don't "drop the soap" if you're not prepared.  
+~
+0 1081348 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Kas
+           `B \       /
+            `B \_____/`w
+~
+S
+#1270
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1271
+`B-`W*`B-`W*`B-`W*`B- Immortal Counsel Chambers -`W*`B-`W*`B-`W*`B-`w~
+Upon passing through a refreshing, tingling shell of mist, a cool soft
+light surrounds your body and welcomes you into the chamber.  The `Kwalls`w
+seem to continually shift and change appearance to resemble endless textures
+and styles of construction.  A large oval `Ktable`w dominates the center of
+the room.  It is here where new ideas are hatched, and old quarrels are
+discussed and settled.  At the four cardinal points rest four magnificent
+`Kthrones`w.  Three of obvious splendor and size, and a fourth slightly
+smaller for the implementors assistant.  Flanked around the table between
+the thrones, rest several `Kchairs`w of unique design.  Each one signifies
+the immortals' personality and responsibility.  Hovering above each chair is
+a small glowing globe, giving light to a small area around the chair.  In
+addition, five larger globes swirl around each other like a slow atom, high
+above the table near the top of the dome.  
+~
+0 1081356 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 23 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Council (97+)
+           `B \       /
+            `B \_____/`w
+~
+E
+th_kyle~
+The mist seems to fade in and out in the shape of a large throne.  You
+can't seem to make out any details.  It rests at the head of the great
+table, across from Feroz's Throne.  Apparently the owner of this throne
+hasn't had time to finish constructing his rest/work space.  
+ 
+`Y****`w Future throne of `YImplementor Kyle`w - Bossdude, Coder, Builder `Y****`w 
+~
+E
+ch_loth~
+Before you sits a big blue bean bag collecting dust for years. 
+Underneath the dust, the bean bag has been patched with red and green pieces
+of felt.  Someone has sit on it for long periods of time leaving a definite
+mold to it.  
+ 
+** This is the chair of `WDemi-God Loth`w - Coder, `B(`yAC`B)`w, Builder, `R*`BM`Re`Br`Rc`Bs`R*`w **
+~
+E
+chairs~
+Surrounding the great table are the chairs of the immortals.  One for
+each, and each with a unique design, formed to the owners personality and
+responsibility.  
+`Y**`y94`Y** `W*`w ch_Loth `W*`w ch_Malystryx `W*`w
+`G**`g95`G** `W*`w ch_Caitlynne `W*`w ch_Ryuujin `W*`w ch_Zane `W*`w
+`B**`b96`B** `W*`w ch_Cornell `W*`w
+`M**`m97`M** `W*`w ch_Themis `W*`w
+~
+E
+thrones~
+At each of the cardinal points rest four outstanding thrones, one smaller
+than the other three, around the table.  Each one is flanked by two globes
+of light, who's colour changes with the preferance of the owner.  They
+have a very powerful feeling to them and yet an eerie security of control.
+`Y**`w th_Kyle `Y**`K ***`C **`w th_Feroz`C ** `K***`G ** `wth_Trilex `G** `K*** `M**`w th_Magius `M**`w
+~
+E
+table~
+The shell of mist appears to rise in a smooth columnar motion to support
+a gigantic oval table top with a hole in the center.  The mist pushes up on
+the inner edges, slides underneath and swirls back down to the ground.  A
+dim bluish gold light emminates from within the mist, resembling a starry
+dusk sunset from the edge of the earth.  The table top resembles a marbled
+mixture of electrolized titanium and black granite, smoothed to a perfect
+polish.  The hole in the center appears to resemble a mirror, or a large cut
+of crystal laid over silver.  When a new subject is discussed, the center
+mirror glows softly and produces a hologram of all relevant material.  The
+great table looks fairly new, but a quiet hum reveals vibrations to the ears
+of immortals that it has stood the test of time.  
+~
+E
+walls~
+Glancing around the shell of mist, you feel enclosed in a blanket of
+complete privacy.  The chamber is very spacious to allow each immortal to
+rest and work in a comfortable atmosphere.  The mist pulsates a bit,
+continually changing colour and texture, along with design.  For a moment,
+the mist builds into gigantic columns, and slowly blends from white to what
+seems to be very real carved limestone.  A few smaller bundles of the mist
+flock each of the columns, and large broadleaf ferns appears.  The scene
+lasts for a few moments, and then just as quietly and quickly as it was
+built, the columns and plants dissapear.  The mist fades from a dull white
+and peach and blends perfectly into a dark red.  The mist builds straight
+lines which become tall flying butresses and chair rails of a rich
+mahoghany, forcing the room to resemble an aspe.  Once again, the chamber
+walls hold still, keeping the illusion, and then break free and shift into
+yet another form.  From caves to rooftops, and buildings of all sorts, the
+walls never cease adapting to the personalities of those within its shell.  
+~
+E
+ch_caitlynne~
+This chair is coverd in a faint silver stardust.  On the back of it you
+can make out "Caitlynne's Chair of RP Rules" in a spidery silver
+handwriting.  The chair itself is finely crafted out of stars and silver
+framing.  It shimmers in the light with brilliant flashes of silver beams. 
+Every so often, a star falls from the body, creating a beautiful startburst
+as it slowly shimmers to the ground and fades away.  
+ 
+*** This is the chair of `WImmortal Caitlynne`w - `b(`yAC`b)`w, Builder, `M{`GNHG`M}`w ***
+~
+E
+th_feroz~
+This throne constantly shifts and changes in accordance with the whims of
+it's owner.  Sometimes a soft bed will suit his tastes, other times it is a
+large chair, or a hole in the ground or even nothing at all.  Each form
+flickers and phases into and out of reality, causing your head to spin.  You
+try to avoid looking, but your eyes are drawn towards the strange throne of
+the man that has moods that must change similarly.  On different occasions
+punishment, thanks or help will all take place while he rests here.  All of
+these things are done to his fullest potential.  And because of his work,
+this magnificent throne belongs to one who is insightful, ingenious,
+intelligent, just and moral.  
+ 
+`C**##`w This is the throne of `CImplementor Feroz`w - the man of few words `C##**`w
+~
+E
+ch_malystryx~
+A dark wooden chair, made from a single piece of twisted wood and inlaid
+with hundreds of priceless gems.  A warm feeling radiates from it and you
+feel drawn closer, like an object you have always yearned for, but never
+found.  It's markings swirl hypnotically, and you start to loose your grip
+on reality.  The chair seems to be the smallest among those at the great
+table, but is still taller than the tallest giant.  You feel awed in its
+presence.  The sight of it gives you a feeling of enlightenment, like a
+trusted teacher giving you the first lesson in a long awaited class.  
+ 
+*** This is the chair of `WDemi-God Malystryx`w - `M{`GNHG`M}`w ***
+~
+E
+ch_zane~
+The chair before you is of rather average design in structure with a
+checkered seat pattern.  In a hidden compartment at the bottom of the chair
+is a spare cream pie and a small bottle of setzer.  The back of the chair is
+engraved with the design of a "Z".  The arms of the chair are in the shapes
+of arms making fist, one holding a small scepter.  On the head of the
+scepter is a tiny face wearing a golden Jester's hat.  
+ 
+****** This is the chair of `WImmortal Zane`w - MultiBuilder, `w*`rCHAOS`w* ******
+~
+E
+th_trilex~
+A large throne, compsed completely of highly ticklish chicken feathers
+rests across the table from Magius's throne of burning magic.  The whole
+throne screams "TICKLE ME TILL I CRY!"  .  A big crown of feathers rests on
+the seat, which, itself seems to sway in a light breeze.  It looks to be
+some sort of sadistic torture chair for a clown.  
+ 
+`G***`w Future throne of `GImplementor Trilex`w - Coder, MultiBuilder, `M{`GNHG`M} `G***`w
+~
+E
+ch_ryuujin~
+A plush green chair decorated with fish is here.  It is covered with cat
+hair, and in the owners absence, a black and white cat named Cutie sits in
+it.  
+ 
+***** Future chair of `WImmortal Ryuujin`w - Builder, `rDominion`w ****
+~
+D2
+Through an archway in the mist, shelves upon shelves stacked with
+magnificent old dusty books can be seen, illuminated softly by a few
+floating globes of mellow gold magic.  
+ 
+~
+library~
+1 0 1236
+S
+#1272
+`CCaitlynne's `WS`Yt`Wa`Yr `CPalace`w~
+There is a faint shimmery glow all around you, the familiar silver glow of
+stardust.  The walls are all painted black, and silver stars are stenciled
+everywhere.  The room has no visible way of light, but it is still bright
+enough to see here.  The center of the room holds a telescope, which extends
+out a hole in the ceiling.  An exit is visible to the north.
+~
+0 1081352 0
+E
+stars~
+The stars all around you shimmer with stardust.  They sparkle and shift in
+the light, and they seem to draw on their own magic for their glow.
+~
+D0
+~
+~
+0 0 1274
+D1
+A glittering portal invites you eastward.
+~
+portal~
+0 0 1334
+D2
+To the south lies the beginning of time.
+~
+beginning~
+4 1231 1226
+D3
+To the west you can see the end of the world.
+~
+end~
+4 1232 1227
+D4
+Up you can see a glittering gate of stars offering passage into the great
+expanse of space.
+~
+stars~
+6 1222 1273
+D5
+~
+~
+7 0 1254
+S
+#1273
+`KA `Rt`yw`Ri`ys`Rt`yi`Rn`yg `KBlackHole  `r*** USER PRISON ***`w~
+You're floating in dark space.  No brilliant stars or planets, just
+darkness.  The air twists you rapidly, pulling you farther and farther into
+a deadly prison.  Occasionally a huge chunk of an asteroid streams by you,
+almost smashing your body to bits.  It's so cold here the water in your body
+starts to solidify.  Better find a way out of here quickly.  
+~
+0 1090605 0
+D5
+Down you can see a glittering gate of stars, beckoning you to come back
+to earth.
+~
+stars~
+6 1222 1272
+S
+#1274
+`CA `WB`Ye`Wa`Yu`Wt`Yi`Wf`Yu`Wl `CStarburst`w~
+The endless night sky lies all around, the view encompassing all your
+field of vision.  The stars sparkle in the sky, some near, some far.  A
+nearby star expands into a supernova, creating a very beautiful starburst,
+sending colors and flaring tendrils of stardust in all direction, each part
+glowing with magic and light.  
+~
+0 1090560 9
+E
+south~
+To the south lies a shimmering palace of starlight.
+~
+D2
+~
+~
+0 0 1272
+S
+#1275
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1276
+UNCLAIMED~
+~
+0 1081344 0
+D3
+~
+~
+0 0 1277
+S
+#1277
+UNCLAIMED~
+~
+0 1081344 0
+D1
+~
+~
+0 0 1276
+S
+#1278
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1279
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1280
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1281
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1282
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1283
+UNCLAIMED~
+~
+0 4 0
+S
+#1284
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1289
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1292
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1293
+Zane's Living Room~
+You are in Zane's living room.  There is a dirty old couch and a huge TV
+in front of it.  Junk food is laying all over the floor along with dirty
+clothes and broken glass.  Pictures of Zane hang on the walls, picture_one,
+picture_two, and picture_three.  
+~
+0 1081344 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+E
+picture_one~
+This is a picture of Zane entertaining the Imms at Ryuujin's Fishbowl. 
+What a guy!  
+~
+E
+picture_three~
+This is a picture of Zane catching a refrigerator out of the Hudson
+River.  What a proud moment!  
+~
+E
+picture_two~
+This is a picture of Zane lounging around his house.  
+~
+E
+picture~
+This is a picture of Zane in his Jester's suit, performing for Emperor
+Kyle in the Fishbowl.  
+~
+D4
+~
+~
+0 0 1296
+S
+#1294
+The End of Time~
+There is nothing.  Blackness.  Well, occasionally a moose or a beaver fly
+by, but they live here in a cozy little...  But that's not the point. 
+Darkness, black, blah, blah, blah, you get the idea.  Woooo, your flying... 
+~
+0 1345036 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+D5
+~
+~
+0 0 1296
+S
+#1295
+Zane's Quaint Little Shop~
+You are in a small, quaint little shop where Zane buys things from his
+trusty friend, Bonkers.  
+~
+0 1081344 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+D1
+~
+~
+0 0 1296
+S
+#1296
+Zane's Office~
+You are in Zane's office where mortals must wait if they want to talk to
+him.  There is a desk with a computer on top of it that contains all of the
+files of mortals.  
+~
+0 1081352 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+E
+computer~
+Don't even think of touching Zane's computer!!!  
+~
+D0
+~
+~
+0 0 1299
+D1
+~
+~
+0 0 1297
+D2
+~
+~
+0 0 1298
+D3
+~
+~
+0 0 1295
+D4
+~
+~
+0 0 1294
+D5
+~
+~
+0 0 1293
+S
+#1297
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1298
+The Endless Void in Zane's Refrigerator~
+You are in a gigantic refrigerator where all of Zane's food is kept, if
+you want to call it that.  Openings in the space-time continuem open
+constantly and lettuce and week old potatoes fly all about your head.  In
+the back is where you don't want to go: the green, unrecognizable stuff,
+ewwww.  
+~
+0 1081356 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 24 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+D0
+~
+~
+0 0 1296
+S
+#1299
+The Auction House~
+This is the auction house where rich people can buy some wierd stuff. 
+There are several rows of seats and people from all over gather aroung.  I
+hear it's run by Zane.  
+~
+0 1089548 0
+E
+rsa~
+`B|\__                         __/|
+`B\__ \____   `m _______   `B ____/ __/`w    Room Approved
+`B \`b /    `B \ `m / `M ___ `m \ `B /    `b \`B /
+`B |`b/ / /  `B \`m/  `M \_/  `m \`B/`b   \ \ \`B|`w     Sept. 25 1998
+`B  \`b/ / / `m (   `M / \   `m )`b  \ \ \`B/
+  `B ``b/ / / `m \  `M \_/  `m / `b \ \ \`B'`w       Owned By:
+   `B \`b/`B_`b/`B_`b//\`m\_______/`b/\\`B_`b\`B_`b\`B/
+           `B \       /`W                Zane
+           `B \       /
+            `B \_____/`w
+~
+D2
+~
+~
+0 0 1296
+S
+#1300
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1305
+UNCLAIMED~
+~
+0 0 0
+S
+#1306
+UNCLAIMED~
+~
+0 3178504 0
+S
+#1307
+UNCLAIMED~
+~
+0 3178504 0
+S
+#1330
+UNCLAIMED~
+~
+0 1081348 0
+S
+#1331
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1332
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1333
+UNCLAIMED~
+~
+0 1081356 0
+S
+#1334
+`WThe `YBig `WDipper`w~
+This room is painted black, with silver stars stenciled in the form of
+the big dipper.  A long wooden counter is painted silver, and holds several
+bottles.  A few plush chairs sit around, inviting guests to have a drink,
+sitting and relaxing.  
+~
+0 1081352 0
+D3
+~
+~
+0 0 1272
+S
+#1335
+UNCLAIMED~
+~
+0 8 0
+S
+#0
+
+
+
+#RAFFECTS
+#1246
+1
+lawful healing~
+$n seems filled with a power of goodness.
+~
+You feel an essence of lawful goodness enter your being.
+~
+1 0 -100 -100 0 0
+#1253
+1
+heal~
+$n flushes the toilet, and looks very relieved.
+~
+The stinking aroma from the toilet revives you.
+~
+1 0 -10 -10 0 0
+#1255
+1
+nothing~
+$n is blessed by the power from Outkast's room.  
+~
+You are blessed with the power from the Gods!  
+~
+1000 0 0 -400 0 0
+#1267
+1
+healing~
+$n is healed by this room.
+~
+You feel better.
+~
+1 0 -200 -200 0 0
+#1268
+1
+supreme healing~
+$n is `Chealed `wby the magnificent view.
+~
+You are `Cinspired `Wby the magnificent view.
+~
+1 0 -750 -750 0 0
+#0
+
+
+#SPECIALS
+M 1202 spec_breath_fire Load to: a flame elemental
+M 1222 spec_french_taunter Load to: A french soldier
+M 1250 spec_breath_any Load to: The LagMonster
+M 1251 spec_puff Load to: `RIT`W
+M 1252 spec_puff Load to: `BIT`W
+M 1253 spec_puff Load to: `YIT`W
+M 1254 spec_puff Load to: `GIT`W
+M 1255 spec_breath_any Load to: The Angel of Death
+M 1258 spec_breath_any Load to: `ROutKast`w
+M 1265 spec_puff Load to: An elven female
+M 1271 spec_guard Load to: `WEgg`w, the guardian of `B-`W*`B- Immortal Counsel Chambers -`W*`B-`w
+M 1298 spec_janitor Load to: the janitor
+M 1299 spec_fido Load to: the auctioneer
+S
+
+
+
+#RESETS
+D 0 1226 0 2
+D 0 1227 1 2
+D 0 1254 4 0
+D 0 1267 3 0
+D 0 1268 1 0
+D 0 1272 2 2
+D 0 1272 3 2
+D 0 1272 4 2
+D 0 1272 5 0
+D 0 1273 5 2
+M 0 1224 1 1222
+M 0 1228 1 1228
+M 0 1236 1 1236
+M 0 1250 1 1250
+M 0 1251 1 1251
+M 0 1252 1 1251
+M 0 1253 1 1251
+M 0 1254 1 1251
+O 0 8497 0 1254
+M 0 8415 1 1254
+E 0 8495 0 16
+M 0 8435 1 1254
+E 0 8496 0 16
+M 0 8420 1 1254
+G 0 8404 0
+G 0 8402 0
+G 0 8405 0
+O 0 1267 0 1268
+M 0 1271 1 1271
+O 0 1227 0 1272
+M 0 1273 1 1273
+E 0 1339 0 16
+M 0 1295 1 1295
+G 0 1296 0
+G 0 1297 0
+G 0 1298 0
+G 0 1299 0
+G 0 1295 0
+G 0 1293 0
+M 0 1299 1 1299
+O 0 30005 0 1305
+O 0 1334 0 1334
+S
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+1295 11 13 3 0 0 100 0 0 23
+1272 5 9 3 4 4 100 100 1 23
+1295 11 13 3 0 0 100 0 0 23
+1300 0 0 0 0 0 100 100 0 23
+1330 17 0 0 0 0 100 100 0 24
+0
+
+
+
+#$

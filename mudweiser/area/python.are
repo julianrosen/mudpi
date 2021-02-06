@@ -1,0 +1,2965 @@
+#AREADATA
+Name        { 5 45) Feroz   Quest for the Grail~
+Builders    Feroz~
+VNUMs       1500 1699
+Security    8
+End
+
+
+
+#MOBILES
+#1500
+A Moose~
+A Moose~
+A Moose is here, filling out complicated insurance forms.
+~
+This moose looks very dumb, but it has been trained to fill out
+complicated insurance forms, so appearances are not everything.  
+~
+Hobbit~
+A J 0 S
+7 5 10d10+25 7d10+81 1d14+1 10
+4 7 4 7
+0 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#1501
+A Castle Guard~
+A Castle Guard~
+A castle guard is here, engaged in a serious chat with another guard.
+~
+This guard seems to know quite a lot for a castle guard.  Him and his
+partern are engaged in a conversation about swallows and coconuts.  You
+wonder how they might have started down this choice of conversation.  
+~
+Human~
+AB 0 0 S
+5 4 4d30+35 5d10+100 3d3+0 17
+7 7 7 8
+0 0 0 0
+8 8 1 80
+AHMV ABCDEFGHIJK M unknown
+#1502
+peasant peon farmer~
+A Peasant~
+A Peasant is here, harvesting mud.
+~
+This peasant is covered with filth and seems to go around gathering mud. 
+What such a person could do with mud, you can't figure out but these people
+gather it with vigor.  Their only tools are pointed sticks.  
+~
+Human~
+A 0 0 S
+6 6 5d30+35 1d10+100 3d2+3 17
+6 6 6 9
+0 0 0 0
+8 8 0 30
+AHMV ABCDEFGHIJK M unknown
+R 20 2 I 
+#1503
+dennis peon farmer~
+Dennis~
+Dennis the Peasant is here, blabbing on about government.
+~
+Dennis looks to be very smart.  He certainly knows his government.  He's
+blabbing on about monarchies, democracies, and anarcho-syndicate communes. 
+He annoys you quickly and you really want to shut him up.  He stands for
+freedom and rights and the other peasants rally to his cause.  He really
+hates be called bloody peasant.  
+~
+Human~
+AB 0 0 S
+23 24 5d60+300 23d10+100 5d4+11 17
+-4 -4 -4 4
+0 0 0 0
+8 8 1 230
+AHMV ABCDEFGHIJK M unknown
+R 50 4 I 
+#1504
+black knight~
+The Black Knight~
+A knight wearing black armor blocks your way across the bridge.
+~
+This Knight is one the best in the land.  He guards this bridge night day
+and will not even stand aside for the King of England, himself.  
+~
+Human~
+ABF DF -300 S
+10 12 3d22+90 10d10+100 2d6+3 3
+4 4 4 7
+0 0 0 0
+8 8 1 150
+AHMV ABCDEFGHIJK M unknown
+#1505
+crowd people~
+A Crowd~
+A crowd is here having a witch trial.
+~
+This mob may not be the smartest one you have ever seen but it sure it
+pumped up about burning a witch.  If you bug them, they may get angry at you
+too!  You'd best leave them alone and move along.  
+~
+Human~
+AB 0 0 S
+15 20 5d22+200 15d10+100 3d4+7 0
+0 0 0 5
+0 0 0 0
+8 8 0 250
+AHMV ABCDEFGHIJK M unknown
+#1506
+witch~
+A Witch~
+A Witch is here, looking for help
+~
+You're not to sure about the validaty of this Witch's claim.  She is
+wearing a carrot on her nose and a tin hat.  The crowd must have dressed her
+up like this.  
+~
+Human~
+AB 0 100 S
+9 9 2d22+95 9d10+100 2d4+5 16
+5 5 5 6
+0 0 0 0
+8 8 2 90
+AHMV ABCDEFGHIJK M unknown
+#1507
+dorf fish fisherman~
+Dorf the Fisherman~
+A very short fisherman by the name of Dorf is here.
+~
+Dorf is a friendly fisherman but he has very short legs.  He's has a full
+set of fishing supplies with him that might help you if you could get your
+hands on them.  
+~
+Human~
+AB 0 0 S
+10 10 3d22+96 10d10+100 1d1+10 17
+4 4 4 7
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#1508
+french soldier~
+A French Soldier~
+A French soldier is here, taunting English knights.
+~
+This French soldier is the master of all insults, his degrading and
+unhumane humor chill you to the bone.  You find him incredibly annoying,
+kill him or move on before you go insane.  
+~
+Human~
+ABV 0 -200 S
+13 15 7d32+102 13d10+100 3d5+4 16
+1 1 1 10
+0 0 0 0
+8 8 1 80
+AGHMV ABCDEFGHIJK M unknown
+#1509
+captain british officer decision~
+Captain Decision~
+A British Army Officer is here, offering guidance
+~
+This man is named Captain Decision.  He is here to help you choose a
+path.  You have a long journey ahead and whichever path you choose may help
+you reach your goal and the Holy Grail.  You ask him which way is best and
+makes this decision: It's best to go home unless you are 20th level or
+higher from this point on.  The dangers beyond me are more dangerous and the
+evil more evil.  Go forward, but only if ye be men of valor.  
+~
+Human~
+AB H 1000 S
+20 25 5d35+200 20d10+100 5d4+9 21
+-2 -2 -2 3
+0 0 0 0
+8 8 0 300
+AHMV ABCDEFGHIJK M unknown
+#1510
+wolf black~
+A Black Wolf~
+A black wolf is here, howling at you
+~
+This wolf looks rather hungry, I wouldn't mess with him.  It might be
+best to continue onwards is search of the grail.  
+~
+Wolf~
+AB Z 0 S
+20 20 1d1+274 20d10+100 5d4+10 10
+-2 -2 -2 4
+FH 0 0 0
+8 8 0 150
+AGV ACDEFJKQV M unknown
+#1511
+virgin girl~
+A Virgin~
+A young virgin, dressed in white, walks the halls
+~
+This virgin is somewhere from seventeen and twentyone and a half.  She
+has longs hair, braided with golden strands.  She wears all white and her
+dress reaches to the floor.  She seems bored and could use a man.  
+~
+Human~
+A 0 200 S
+21 25 1d1+222 22d10+100 5d4+12 16
+-4 -4 -4 -4
+0 0 0 0
+8 8 2 210
+AHMV ABCDEFGHIJK M unknown
+#1512
+virgin zeut~
+Zeut, the Leader of the Virgins~
+Zeut, the Leader of the Virgins welcomes you to Castle Anthrax
+~
+Zeut is dressed in a long white dress is about 20 years old.  She looks
+stunningly beautiful and crafty.  Even though her great looks, she appears
+bored and is looking for a man to be with.  
+~
+Human~
+AB 0 -100 S
+31 32 10d61+416 31d10+100 5d6+15 16
+-9 -9 -9 0
+0 0 0 0
+8 8 2 150
+AHMV ABCDEFGHIJK M unknown
+#1513
+dingo virgin~
+Dingo, Zeut's Identical Twin Sister~
+A virgin that look similar to Zeut stands in from the door
+~
+This virgin looks very similar to Zeut, in fact, she is Zeut's identical
+twin sister.  Her name is Dingo, and she looks equally stunning as Zeut
+does.  In her hand she holds key, most likely to the door she blocks.  
+~
+Human~
+AB 0 100 S
+30 30 10d61+416 30d10+100 5d6+17 16
+-9 -9 -9 0
+0 0 0 0
+8 8 2 160
+AHMV ABCDEFGHIJK M unknown
+#1514
+knight~
+A Knight~
+A knight is here to rescue you from certain peril
+~
+This knight is full knightly armor and you can not see and of his face. 
+He is about six feet tall and his armor is covered with the dents of many
+fights.  He is here to rescue you from the certain temptation of Castle
+Anthrax.  
+~
+Human~
+AB 0 500 S
+25 25 10d50+400 25d10+100 5d4+13 3
+-5 -5 -5 2
+0 0 0 0
+8 8 1 180
+AHMV ABCDEFGHIJK M unknown
+#1515
+knight sir lancelot launcelot~
+Sir Launcelot~
+Sir Launcelot, the bravest of the knights, stands here ready for danger.
+~
+Sir Launcelot is the strongest and the bravest of all of King Arthur's
+knights.  He scoffs at danger and rushes into the face of peril.  No other
+knight has yet to defeat him in combat.  He also acts as a advisor and
+trusted friend of King Arthur.  
+~
+Human~
+AB 0 1000 S
+30 30 10d61+416 30d10+100 6d6+20 3
+-9 -9 -9 -1
+0 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+#1516
+guard mercenary wedding~
+A Wedding Guard~
+A guard is here guarding the wedding guests
+~
+This guard doesn't look like the brightest but he good at what he does. 
+He's all decked up for the wedding of the prince.  
+~
+Human~
+ABT 0 1000 S
+21 21 10d30+161 21d10+100 5d4+10 17
+-2 -2 -2 4
+0 0 0 0
+8 8 1 150
+AHMV ABCDEFGHIJK M unknown
+#1517
+musician~
+A Musician~
+A Musician is here, playing music
+~
+He's obviously enjoying the festivities and plays his instrument with all
+of his heart.  
+~
+Human~
+AB 0 200 S
+20 20 20d20+100 1d1+150 5d4+5 17
+-4 -4 -4 2
+0 0 0 0
+8 8 0 200
+AHMV ABCDEFGHIJK M unknown
+#1518
+wedding guest~
+A Wedding Guest~
+A wedding guest is here, making merry.
+~
+This wedding guest is enjoying himself thouroughly.  The wedding of the
+prince is quite the event, with much merriement, joy, and free alcohol.  
+~
+Human~
+A 0 20 S
+12 12 4d20+96 12d10+100 4d4+4 17
+3 3 3 6
+0 0 0 0
+8 8 0 150
+AHMV ABCDEFGHIJK M unknown
+#1519
+prince~
+The Prince~
+The Prince is here, tying together blankets to escape out of the window
+~
+This unfortunate young man is being forced to marry against his will.  He
+only wants to sing.  He's trying to escape his father so he will not have to
+marry.  
+~
+Human~
+A 0 200 S
+18 25 10d30+416 25d10+100 5d5+10 0
+-5 -5 -5 2
+0 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+#1520
+fat girl bride bridesmaid~
+The Bridesmaid~
+The Bridesmaid is here, fixing her hair.
+~
+There sure is a LOT of bridesmaid.  She is the hugest girl you have ever
+seen.  She is busy braiding her hair, waiting to be married to the prince of
+Swamp Castle.  
+~
+Human~
+AB 0 1 S
+20 20 10d61+416 20d10+100 4d4+8 16
+10 10 10 10
+0 0 0 0
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#1521
+three head knight evil~
+The Three-Headed Knight~
+A three-headed knight is looking for Knights of the Round Table to eat
+~
+This ten foot giant has three heads and towers of above you.  He looks
+around for knights to eat, and you are one of them.  Good luck, you'll need
+it!  
+~
+Giant~
+ABFTc 0 -1000 S
+31 32 10d61+416 31d10+100 5d6+15 18
+-9 -9 -9 0
+0 0 HI JP
+8 8 1 0
+AHMV ABCDEFGHIJK H unknown
+#1522
+roger shrubber~
+Roger the Shrubber~
+Roger the Shrubber is here, selling shrubberies.
+~
+Roger the Shrubber is a shrubber.  He arranges, designs, and sells
+shrubberies.  One might come in handy on the trail ahead.  
+~
+Human~
+AB 0 150 S
+25 30 10d45+518 25d10+100 5d5+13 17
+-5 -5 -5 2
+0 0 0 0
+8 8 1 250
+AHMV ABCDEFGHIJK M unknown
+#1523
+knight nee~
+A Knight of Nee~
+A Knight who says "Nee!" stands here, saying "Nee!"
+~
+This is one of the legendary knight who say "Nee!"  Those who hear them
+seldom live to tell the tale.  It is rumored that The Knights who say "Nee!"
+Are partial to shruberies, but nobody is certain of this.  
+~
+Human~
+ABT 0 -200 S
+30 30 10d60+420 30d10+100 6d5+15 3
+-9 -9 -9 0
+0 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+R 80 5 I 
+#1524
+tim enchanter~
+Tim the Enchanter~
+Tim the Enchanter is here, offering a warning to you.  Go no further!
+~
+Tim the Enchanter is an old man with long wispy hair.  His bones may be
+fragile, but his mind appears, at first, still powerful.  His magical
+abilities rival the strongest of wizards and his magical staff grants him
+further power.  He is a bit crazy, as many old men become.  He says that
+down the trail to the east is the most fearsome of all creatures, with huge
+pointy teeth and can leep many feet.  
+~
+Human~
+AB 0 400 S
+30 29 10d61+416 30d10+100 6d5+15 18
+-9 -9 -9 0
+0 0 0 0
+8 8 1 450
+AHMV ABCDEFGHIJK M unknown
+#1525
+cute little white rabbit bunny~
+A Bunny Rabbit~
+A cute little white bunny rabbit is here, jumping around.
+~
+This bunny appears to be a nondescript little white bunny, but as it
+whips into action, you are reminded of Tim the Enchanter's warnings.  
+~
+Reddragon~
+ABFc JT -1000 S
+40 60 10d40+400 40d10+100 5d10+25 32
+-15 -15 -15 -2
+M H O I
+8 8 0 0
+HXZ ACDEFHJKQUVX M unknown
+#1526
+black beast~
+The Black Beast~
+The Legendary Black Beast of Aaaahhhhh...., the animated terror, is here.
+~
+This animated cartoon insprises fear in your heart, the battle with the
+vicious guardian of the cave has already weakened you and this battle may do
+you in.  You'll need a miracle to save you.  
+~
+Giant~
+ABF 0 -400 S
+30 30 10d61+416 30d10+100 5d6+15 5
+-9 -9 -9 0
+0 0 HI JP
+8 8 0 0
+AHMV ABCDEFGHIJK L unknown
+#1527
+bridge keeper bridgekeeper old man~
+Bridge Keeper~
+The Bridgekeeper of Death stands here, asking questions to all that wish to pass.
+~
+This old man has held this post for many years and knows his work.  He
+asks you three questions, if you answer wrong, you'll will be thrown into
+the gorge of eternal peril, if you answer correctly, you can walk the Bridge
+of Eternal Peril 
+~
+Human~
+AB 0 -500 S
+30 29 10d61+416 30d10+100 5d6+15 17
+-9 -9 -9 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+R 100 6 I 
+#1528
+elite french guard soldier~
+An Elite French Soldier~
+A French Guard is here, taunting those who wish to gain the grail.
+~
+This French soldier is the master of all insults, his degrading and
+unhumane humor chill you to the bone.  You find him incredibly annoying,
+kill him or move on before you go insane.  
+~
+Human~
+A 0 -800 S
+35 35 10d62+850 35d10+100 5d8+17 17
+-12 -12 -12 -1
+0 0 0 0
+8 8 1 500
+AHMV ABCDEFGHIJK M unknown
+R 50 5 I 
+#1529
+captain french soldier~
+The French Captain~
+The Captain of the french soldiers is here, leading his soldiers.
+~
+The captain of the soldiers is no slouch when it comes to taunting
+himself, and all of his soldiers love him and would protect him with their
+lives.  In his hand, he holds the key to the door that glows with a bright
+light.  
+~
+Human~
+ABT 0 -1000 S
+45 45 10d169+416 45d10+100 5d9+22 17
+-18 -18 -18 -4
+0 0 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJK M unknown
+R 100 10 I 
+#1530
+knight eeeeckyeckyeckyeckypikangzoomboing~
+A Knight who says Eeee-ecky-ecky-ecky-pitang-zooooom-boing~
+A knight stands here who says... who says.... who so recently said "Nee".
+~
+~
+Human~
+AB 0 -300 S
+50 30 10d60+420 30d10+100 6d5+15 3
+-5 -5 -5 2
+0 0 0 0
+8 8 1 5000
+AHMV ABCDEFGHIJK M unknown
+R 100 5 I 
+#1531
+police officer~
+A Police Officer~
+A Police Officer is here, looking for a Knight suspected of murder.
+~
+This police officer is looking for a knight that has recently commited a
+horrible crime, it best not be you!  
+~
+Human~
+AB 0 0 S
+45 40 10d61+920 40d10+100 5d10+12 13
+-15 -15 -15 -2
+0 0 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJK M unknown
+R 50 4 I 
+#1532
+peasant peon farmer~
+A peasant~
+A peasant is here, harvesting mud.
+~
+~
+Human~
+AB 0 0 S
+6 6 5d30+35 0d0+0 3d2+3 17
+6 6 6 9
+0 0 0 0
+8 8 0 30
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#1500
+rags peasantD~
+peasant's Rags~
+A pile of muddy rags is lying on the ground here.~
+unknown~
+9 0 AD
+AB C B B 0
+0 2 1 P
+#1501
+pointed stick~
+a Pointed Stick~
+A stick so sharp it could poke out your eyes is laying on the ground.~
+unknown~
+5 0 AN
+B BC AC ABD D
+20 10 700 P
+A
+19 2
+#1502
+helmet black knight~
+black Helmet~
+A black helmet lies on the ground here.~
+unknown~
+9 X AE
+AC C BC AB 0
+10 12 500 P
+#1503
+black sword knight~
+black Sword~
+A heavy, black sword lies here.~
+unknown~
+5 RSWX AN
+A C C AB 0
+10 15 500 P
+#1504
+fish pole fishing~
+fishing Pole~
+A long wooden pole lies here.~
+unknown~
+5 B AN
+AB AC B ABCD 0
+8 18 350 P
+A
+19 1
+A
+18 5
+#1505
+watch rolex~
+rolex watch~
+An expensive watch has been left here.~
+unknown~
+9 0 AM
+AB B AB A 0
+12 5 600 P
+A
+19 2
+#1506
+mace decision~
+the Mace of Decision Making~
+A heavy looking mace rests here, flowing with power~
+unknown~
+5 ABSWX AN
+C AB ABCD BE F
+30 21 100 P
+A
+4 2
+A
+3 2
+#1507
+flower~
+a Beautiful Flower~
+A beautiful flower stands out from the other in the field.~
+unknown~
+13 0 A
+0 0 0 0 0
+0 2 20 P
+#1508
+brush hairbrush~
+the Flaming Hairbrush of Antioch~
+A hairbrush sits on a table here, looking nondescript.~
+unknown~
+1 0 A
+0 0 300 0 0
+22 20 100 P
+A
+13 1
+A
+19 1
+A
+18 1
+A
+12 1
+A
+1 1
+A
+4 1
+A
+5 1
+A
+3 1
+A
+2 1
+#1509
+tarot cards~
+tarot Cards~
+Some cards lay strewn about the ground.~
+unknown~
+4 RST AO
+ABD CE CE 3 0
+11 20 500 P
+#1510
+key gold bright~
+a bright golden key~
+A bright golden key looks important and valuable.~
+unknown~
+18 0 AO
+0 0 0 0 0
+20 30 200 P
+#1511
+fake holy grail~
+fake Grail~
+A glowing, golden grail rests here.~
+unknown~
+1 0 A
+0 0 96 0 0
+25 100 1 P
+A
+19 1
+A
+18 -2
+#1512
+plate mail knight~
+knight's Plate Mail~
+A steel set of mail rests here.~
+unknown~
+9 X AD
+ABD BD CD C 0
+20 50 500 P
+#1513
+knight sword~
+knight's Sword~
+A steel sword rests here.~
+unknown~
+5 RSWX AN
+A AC ABC AB D
+20 30 100 P
+#1514
+knight gauntlets~
+knight's Gauntlets~
+A pair of steel gauntlets rests here~
+unknown~
+9 0 AH
+C C C C 0
+20 20 100 P
+#1515
+coconut~
+a coconut~
+A coconut looks oddly out of place here.~
+unknown~
+26 0 A
+20 81 16 3 0
+20 30 400 P
+#1516
+leggings leg chain knight~
+knight's Chain Leggings~
+A pair of heavy looking chain leggings rests here.~
+unknown~
+9 0 AF
+AD ABD D BC 0
+25 50 100 P
+#1517
+white overlay knight~
+a Knight's White Overlay~
+A white piece of cloth lies here, it appears to be some type of overlay.~
+unknown~
+9 0 AK
+BD AD BD CD 0
+25 10 50 P
+#1518
+laurel flower wreath~
+a Wreath of Flowering Laurel~
+A wreath of flowering laurel sits here.~
+unknown~
+9 GI AE
+B B B AB 0
+10 5 20 P
+A
+19 1
+A
+12 20
+#1519
+fountain beer barrel~
+a beer barrel~
+A large beer barrel rests here, brimming with beer.~
+unknown~
+25 0 0
+0 0 0 0 0
+0 5000 1 P
+#1520
+knight sleeves~
+a pair of knight's sleeves~
+A pair of heavy looking knight's sleeves rests here.~
+unknown~
+9 0 AI
+BCD ACD ABCD AD 0
+25 40 2000 P
+#1521
+ring courage~
+the Ring of Courage~
+A ring that fills you with courage rests here.~
+unknown~
+9 AGI AB
+AB AB AB AB 0
+29 5 10 P
+A
+19 2
+A
+18 4
+A
+13 20
+A
+4 -2
+#1522
+shrubbery~
+a Shrubbery~
+A shrubbery rests here, looking shrubbish.~
+unknown~
+18 0 AEO
+0 0 0 0 0
+20 50 1500 P
+A
+1 1
+A
+17 18
+A
+19 1
+#1523
+goat skull~
+a Goat's Skull~
+A skull of a goat lies here.~
+unknown~
+9 GISTU AE
+BD BD BD BD 0
+30 20 200 P
+A
+12 50
+A
+19 2
+#1524
+fireball staff wood wooden oak oaken~
+a Staff of Fireballs~
+An oaken staff rests in middair, seemingly supported by nothing.~
+unknown~
+4 BRSTU AO
+ADE CE CE 26 0
+25 30 200 P
+#1525
+dragon ship boat~
+dragon Ship~
+A dragon ship rests here, beached up onto the grass.~
+unknown~
+22 0 A
+0 0 0 0 0
+30 300 1000 P
+#1526
+golden key glowing~
+a Glowing, Golden Key~
+A glowing, golden key shines with a bright light.~
+unknown~
+18 A A
+0 0 0 0 0
+40 10 100 P
+#1527
+holy grail~
+the Holy Grail~
+A golden, glowing grail is resting here.~
+unknown~
+1 A A
+0 0 20000 0 0
+30 20 20000 P
+A
+17 -20
+A
+18 3
+A
+19 3
+A
+13 10
+#1528
+crown england~
+the Crown of England~
+An extremely valuable crown rests on a chair here.~
+unknown~
+9 AB AE
+ADE ADE ADE ADE 0
+45 10 100000 P
+A
+19 3
+A
+4 3
+#1529
+nightstick stick mace black~
+the Nightstick~
+A long, smooth black stick rests on the ground.~
+unknown~
+5 STUVWX AN
+C BD A ACD 0
+30 10 500 P
+A
+19 29
+#0
+
+
+
+#ROOMS
+#1500
+The beginning of the Quest~
+Welcome to the Quest for the Holy Grail, Monty Python style!  This area
+is designed for players from level 5 to 45.  Some of the monsters found
+later in the quest will be too hard for the lower end of those players.  If
+you are able to complete the quest (not even King Arthur was able to do
+this), then you will be greatly rewarded.  To the north is a foggy trail
+leading up to a castle.  
+~
+0 2098180 0
+D0
+~
+~
+0 0 1501
+D2
+~
+crack~
+1 0 3260
+S
+#1501
+A foggy trail~
+The foggy mists swirl about you and it's hard to see what is around you. 
+A large castle looms to the east and you the trail continues to the north. 
+The entrance of the quest is to the south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1504
+D1
+~
+~
+0 0 1502
+D2
+~
+~
+0 0 1500
+S
+#1502
+At the Foot of a Large Castle~
+This castle is so large that you can barely see the top of it through the
+swirlings mists.  On the parapet above you are two men that might offer some
+advice to help you on your quest.  
+ 
+~
+0 2097152 0
+D3
+~
+~
+0 0 1501
+D4
+~
+~
+0 0 1503
+S
+#1503
+The Top of the Castle~
+You could get a nice view of the surrounding countryside from this up on
+the castle except for the swirling mists.  Two men are here standing guard,
+but they fallen lax on their duties.  They are so involved in a discussion
+that don't even hear you speak.  You would have better luck asking somebody
+else to help you.  
+~
+0 2097152 0
+D5
+~
+~
+0 0 1502
+S
+#1504
+The Not-Quite-So Foggy Trail~
+The fog is not as think here as it is to the south, and to the north you
+can see an open grassland.  
+~
+0 2097156 0
+D0
+~
+~
+0 0 1505
+D2
+~
+~
+0 0 1501
+S
+#1505
+The Grassy Field~
+All around on the grassy field, you see peasants gathering mud for some
+unseen task.  Far to the north you can see a forest of some sort.  There is
+more field to the west and east and to the south is a foggy trail.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1506
+D1
+~
+~
+0 0 1508
+D2
+~
+~
+0 0 1504
+D3
+~
+~
+0 0 1507
+S
+#1506
+The Grassy Field~
+To the north, a trail leads into a forest where you can hear the sounds
+of a small creek.  The grassy field extends to the east, west, and south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1511
+D1
+~
+~
+0 0 1510
+D2
+~
+~
+0 0 1505
+D3
+~
+~
+0 0 1509
+S
+#1507
+The South-Western Corner of the Grassy Field~
+You are in the south-western corner of the grassy field.  Peasants are
+gathering mud nearby.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1509
+D1
+~
+~
+0 0 1505
+S
+#1508
+The South-Eastern Corner of the Grassy Field~
+You are in the south-eastern corner of the grassy field.  Peasants are
+gathering mud nearby.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1510
+D3
+~
+~
+0 0 1505
+S
+#1509
+The North-Western Corner of the Grassy Field~
+This is the north-western corner of the grassy field.  Peasants are
+gathering mud nearby.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1506
+D2
+~
+~
+0 0 1507
+S
+#1510
+The North-Eastern Corner of the Grassy Field~
+You are in the north-eastern corner of the grassy field.  Peasants are
+gathering mud nearby.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 1508
+D3
+~
+~
+0 0 1506
+S
+#1511
+In the Forest, by the Creek~
+The forest is not very dense and the sunlight easily penetrates to the
+ground.  To the south you see a grassy field.  To your north is a bridge
+over a small creek.  You see a knight standing on the bridge.  
+~
+0 2097156 0
+D0
+~
+~
+0 0 1512
+D2
+~
+~
+0 0 1506
+S
+#1512
+On the Bridge Over the Creek~
+You stand on the bridge over a small creek, to your north and south is
+forest.  A black knight stands here challenging all who wish to pass.  As
+you look down the creek, you wonder why they even built the bridge, the
+creek is a mere three feet across and only contains a trickle of water.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1513
+D2
+~
+~
+0 0 1511
+S
+#1513
+On the Northern Side of the Bridge~
+The Forest surrounds you and to your south is a small creek with a wooden
+bridge spanning it.  To your north is a small village where you see a great
+gathering of people.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1514
+D2
+~
+~
+0 0 1512
+S
+#1514
+In a small village~
+You walk into the village to discover that a young woman is about to be
+burned as a witch.  A large crowd is busy making their accusations and it
+looks extremely hopeless for the young woman.  The scales of balance rest
+here.  To your east is a small lake, to the south is a trail leading into
+the forest and to the north is the road to Camelot.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1516
+D1
+~
+~
+0 0 1515
+D2
+~
+~
+0 0 1513
+S
+#1515
+Along the Lake~
+You stand at the shore of the lake.  A very short legged fisherman is
+amusing crowds of children.  To your west is a small village.  
+~
+0 2097152 0
+D3
+~
+~
+0 0 1514
+S
+#1516
+The road to Camelot~
+You are on a heavily travelled road.  To the south is a small village and
+to your north (after a commercial break) lies the great Castle of Camelot
+where you may find help for your quest.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1517
+D2
+~
+~
+0 0 1514
+S
+#1517
+A Commercial Break~
+If you had purchased the real version of the Quest for Grail, this
+wouldn't be happening, but there is no turning back now.  Actors, Film Crew,
+and Extras stand around drinking coffee and socializing before getting back
+to work.  You notice some of the knights don't seem very chivalrous when
+smoking cigarettes and hitting on some of the actresses.  To the distant
+south is small village and to the north is the Castle of Camelot.  
+~
+0 3146764 0
+D0
+~
+~
+0 0 1518
+D2
+~
+~
+0 0 1516
+S
+#1518
+Outside the Castle of Camelot~
+You stand at the foot of the great Castle of Camelot.  From the inside
+you hear singing, dancing, and merriment.  Unfortunately, the castle is only
+a model and they artists forgot to add a door, so there is no way inside. 
+To the south is the road leading back to a small village and to the east,
+the road heads up a hill.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1519
+D2
+~
+~
+0 0 1517
+S
+#1519
+On Top of a Small Hill~
+A large SIGN is staked into the ground here, with instructions from God,
+himself.  You best read it!  To the west is the Castle of Camelot and the
+road continues to the north.  
+~
+0 2097152 0
+E
+sign~
+This is God speaking!  I'm busy shooting another movie right now, so I've
+left my instructions here.  In there dark times, I wish for all knights to
+go out and seek the Holy Grail.  In this way, I shall test my knights valor
+and courage.  Since King Arthur was paid a much greater sum of money to act
+in a major hollywood film, I have decided that the knight to find the grail
+shall be crowned King of all England.  
+Good luck,
+ 
+God
+~
+D0
+~
+~
+0 0 1520
+D3
+~
+~
+0 0 1518
+S
+#1520
+To the South of the Forest~
+To the south is a small hill and to the north is a forest.  Far into the
+forest, you can see a castle jotting up above the trees.  Inside the forest
+you hear the sounds of lumber being cut.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1521
+D2
+~
+~
+0 0 1519
+S
+#1521
+In the Forest~
+All around you, men wearing aluminum armor are cutting wood using strange
+devices that they call chainsaws.  To the south is a road leading to a hill,
+and to the north is a grassland surrounding a castle.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1522
+D2
+~
+~
+0 0 1520
+S
+#1522
+On the Field Below the Castle~
+The field is littered with dead animals and rotten vegietables.  The
+smell gets to you quickly and you decide it would be good if you moved on. 
+To the south is a trail in the forest and to the north is the castle.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1523
+D2
+~
+~
+0 0 1521
+S
+#1523
+Inside the French Castle~
+Noboby knows how the French got here, but they have certainly become
+quite the nuisance.  You see several French Guards patrolling around as well
+as several catapults loaded with cows and other animals.  Exits out onto the
+field are to the north and south.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1524
+D2
+~
+~
+0 0 1522
+S
+#1524
+On the field on the Northern Side of the Castle~
+The French Castle lies to your south and to the north is the forest.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1525
+D2
+~
+~
+0 0 1523
+S
+#1525
+The Crossroads~
+Here lies a great decision for you.  Many paths leave from this point but
+not all of them may take you to the grail.  Choose your choice wisely.  To
+the South is the French Castle.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1551
+D1
+~
+~
+0 0 1576
+D2
+~
+~
+0 0 1524
+D3
+~
+~
+0 0 1526
+S
+#1526
+An Old, Unused Trail~
+This trail is covered with brambles and grass shoots up from the middle
+of the trail.  You see no footprints of any kind on the trail and wonder why
+it never gets used.  As you travel to the west, the trail gets more covered
+and the forest grows thicker and darker.  To east is the crossroads.  
+~
+0 2097152 3
+D1
+~
+~
+0 0 1525
+D3
+~
+~
+0 0 1527
+S
+#1527
+The Brambles~
+The trail is so overgrown now that you are crawling up the bramble bush
+instead of walking.  If the trail gets any worse, you wonder if you will be
+able to continue.  
+~
+0 2097152 3
+D1
+~
+~
+0 0 1526
+D3
+~
+~
+0 0 1528
+S
+#1528
+The Flowery Meadow~
+Just as it seems you can go no further, you suddenly emerge from the
+forest to find yourself in a flowery meadow with a castle on the northern
+end.  From the castle shines a bright beacon in the shape of a grail.  This
+may be the answer to your quest!  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1529
+D1
+~
+~
+0 0 1527
+S
+#1529
+At the Front Gate of the Castle~
+The gate is just to your north and you quickly hurry towards what must be
+the end of your long quest.  
+~
+0 2097156 0
+D0
+~
+gate~
+1 0 1530
+D2
+~
+~
+0 0 1528
+S
+#1530
+Just inside the Castle~
+You hurridly walk into the castle, hoping to get your hands on the Grail.
+You are quite surprised to find the room full of fifteen to nineteen year
+virgin girls.  This wasn't quite what you expected when you found the
+guardians of the Grail.  You can leave the castle by going south.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1539
+D1
+~
+~
+0 0 1538
+D2
+~
+gate~
+1 0 1529
+D3
+~
+~
+0 0 1531
+S
+#1531
+The South-Western Corner of the First Floor of the Castle~
+The castle is filled with virgins.  A guy could get to like it here.  But
+you must think of your quest for the grail.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1532
+D1
+~
+~
+0 0 1530
+S
+#1532
+On the First Floor of the Castle~
+The Castle is filled with virgins.  A guy could get to like it here.  But
+you must think if your quest for the grail.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1533
+D2
+~
+~
+0 0 1531
+S
+#1533
+The North-Western Corner of the First Floor of the Castle~
+In this corner of the castle, you see several virgins look out small
+windows in the wall with forlorn eyes.  Their lives must become boring.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 1534
+D2
+~
+~
+0 0 1532
+S
+#1534
+On the First Floor of the Castle~
+The castle is full of virgins.  A guy could get to like it here, but you
+must think of your quest.  The back door of the castle is to the north.  
+~
+0 2097160 0
+D0
+~
+backdoor~
+1 0 1535
+D1
+~
+~
+0 0 1536
+D3
+~
+~
+0 0 1533
+S
+#1535
+Just Outside the Back Door of the Castle~
+The back door of the castle is to your south and a trail goes into the
+woods to your north.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1549
+D2
+~
+backdoor~
+1 0 1534
+S
+#1536
+The North-Eastern Corner of the First Floor of the Castle~
+This Castle is filled with virgins.  A guy could get to like it here, but
+you must think of your quest.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 1537
+D3
+~
+~
+0 0 1534
+S
+#1537
+On the First Floor of the Castle~
+Along with part of the hallway, several virgins are playing some sort of
+card game.  As you approach, they all drop their cards at the excitement of
+seeing somebody new in their castle.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1536
+D2
+~
+~
+0 0 1538
+S
+#1538
+The South-Eastern Corner of the First Floor of the Castle~
+The castle is full of virgins.  A guy could get to like it here, but you
+must think of your quest.  A staircase goes up the tower here.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1537
+D3
+~
+~
+0 0 1530
+D4
+~
+~
+0 0 1543
+S
+#1539
+On the First Floor of the Castle~
+To your south is the entrance of the castle and to your west and east our
+bedrooms.  To your north is a very large bathroom.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1542
+D1
+~
+~
+0 0 1541
+D2
+~
+~
+0 0 1530
+D3
+~
+~
+0 0 1540
+S
+#1540
+A Virgin's Bedroom~
+The bedroom is nicely furnished with a large bed, a bureau, and a small
+bookcase.  Closer inspection of the bookcase shows some interesting titles. 
+Such books as How To Get a Man, The Pleasures of Sex, and other nastier
+titles make you wonder about some of these virgins.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 1539
+S
+#1541
+A Virgin's Bedroom~
+This Virgin's Bedroom contains nothing but a small bed and a bedside
+table.  On the table you see a hairbrush, but you see nothing else in the
+room.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 1539
+S
+#1542
+The Virgin's Bathroom~
+This bathroom is quite spacious and is filled with virgins bathing,
+dressing, undressing, knitting exciting underwear and brushing their hair.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 1539
+S
+#1543
+On the Second Floor of the Castle~
+Down below is the first floor, and up the stairs is the tower.  There are
+also exits to your west and north.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1546
+D3
+~
+~
+0 0 1544
+D4
+~
+~
+0 0 1547
+D5
+~
+~
+0 0 1538
+S
+#1544
+On the Second Floor of the Castle~
+The castle is full of virgins.  A guy could really get to like it here,
+but you must think of your quest for the grail.  Exits are to the north and
+east.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 1545
+D1
+~
+~
+0 0 1543
+S
+#1545
+On the Second Floor of the Castle~
+From a small hole in the floor, you can see several virgins below you,
+looking out small holes in the wall.  Their forlorn eyes tell you that their
+life must become boring at times with nobody new around.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 1546
+D2
+~
+~
+0 0 1544
+S
+#1546
+On the Second Floor of the Castle~
+As you round the corner, you see several virgins eyeing you.  They walk
+by you and say hello to you.  You wonder what they are thinking.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 1543
+D3
+~
+~
+0 0 1545
+S
+#1547
+In the tower of Castle Anthrax~
+You are at the top of the tower.  Out several windows, you get a nice
+view of the surrounding forest.  To your north is a locked door.  
+~
+0 2097160 0
+D0
+~
+~
+1 1510 1548
+D5
+~
+~
+0 0 1543
+S
+#1548
+The Grail Room~
+A grail rests on a table here.  It shines with a bright light and you can
+see the window where you saw the light.  
+~
+0 2097160 0
+D2
+~
+~
+1 1510 1547
+S
+#1549
+A trail heading into the forest~
+Castle Anthrax is to your south and to your north you see a barren
+wasteland of some sort.  You can climb the tree above you.  
+~
+0 2097156 0
+D0
+~
+~
+0 0 1586
+D2
+~
+~
+0 0 1535
+D4
+~
+~
+0 0 1550
+S
+#1550
+In the Coconut Tree~
+As you climb the tree you wonder why you where so dumb as to want to be
+in a tree.  You also notice that this is a strange looking tree.  
+~
+0 2097152 0
+D5
+~
+~
+0 0 1549
+S
+#1551
+On the trail in the Forest~
+The forest is fresh and green.  The road appears to be well traveled and
+the sun lights your way, coming down through the trees.  You can take the
+trail to the west or to the north.  The crossroads are to the south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1570
+D2
+~
+~
+0 0 1525
+D3
+~
+~
+0 0 1552
+S
+#1552
+A Trail in the Light Forest~
+The forest is alive with the sounds of birds and other forest creatures. 
+The leaves are ablaze in autumn color and the sun shines to the ground here.
+To your west is a creek and the crossroads can be found if you head east.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1551
+D3
+~
+~
+0 0 1553
+S
+#1553
+On the Southern Side of the Creek~
+The creek is bubbling and clear.  You can see a few fish swimming through
+it.  You can cross the creek by climbing over the rocks to the north.  The
+trail continues into the forest to your east.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1554
+D1
+~
+~
+0 0 1552
+S
+#1554
+On the Northern Side of the Creek~
+The forest disapears to your north and you can see a castle far to the
+north.  To you south is a creek that looks clear and clean.  You can cross
+by climbing over the rocks.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1555
+D2
+~
+~
+0 0 1553
+S
+#1555
+At the Front Gate of the Castle~
+You seem to walk forever through the grassy field, coming no closer to
+the front gate of the castle, and then, all of a sudden, you are standing in
+the gate.  Not only does this surprise you, but it also seems to surprise
+the guards here.  You can enter the castle through the gate, to the north.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1556
+D2
+~
+~
+0 0 1554
+S
+#1556
+In the Gate~
+It is a bit dark inside of the gate, but to your north, you see the
+sounds of merriement and partying.  It looks like some kind of a wedding. 
+To your south, you can leave the castle.  
+~
+0 2098180 0
+D0
+~
+~
+0 0 1557
+D2
+~
+~
+0 0 1555
+S
+#1557
+The Courtyard~
+Wedding Guests are here chatting, laughing, and dancing.  It is obviously
+a happy occasion.  The courtyard continues to the north, west, and east.  To
+the front gate of the castle is to the south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1561
+D1
+~
+~
+0 0 1559
+D2
+~
+~
+0 0 1556
+D3
+~
+~
+0 0 1558
+S
+#1558
+The Courtyard~
+Wedding guests mull about, chatting and making merry.  The courtyard
+continues to the north and east.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1560
+D1
+~
+~
+0 0 1557
+S
+#1559
+The Courtyard~
+Wedding guests mull about, chatting and making merry.  The courtyard
+continues to your north and west.  To your north you see a group of
+musicians and some dancers.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1562
+D3
+~
+~
+0 0 1557
+S
+#1560
+The Courtyard~
+Wedding guests mull about, drinking, talking, and making merry.  To your
+east, you see the beer cart and beyond that, you hear the sounds of music
+and dancing.  The courtyard extends to the north, south, and east.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1563
+D1
+~
+~
+0 0 1561
+D2
+~
+~
+0 0 1558
+S
+#1561
+The Center of the Courtyard~
+You are in the center of the courtyard and can see merriement in all
+directions.  To your east, you can see musicians playing and women dancing. 
+Nearby, you see the beer cart.  Drink up!  The courtyard continues in the
+cardinal directions.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1564
+D1
+~
+~
+0 0 1562
+D2
+~
+~
+0 0 1557
+D3
+~
+~
+0 0 1560
+S
+#1562
+The Courtyard~
+Up on a gazebo, you see several musicians playing happy wedding music. 
+Young women dance around in a circle, enjoying themselves thouroughly.  To
+your west is the beer cart.  The courtyard continues to the north, south,
+and west.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1565
+D2
+~
+~
+0 0 1559
+D3
+~
+~
+0 0 1561
+S
+#1563
+The Courtyard~
+Wedding guests mull about, chatting and making merry.  The courtyard
+continues to the south and east.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1564
+D2
+~
+~
+0 0 1560
+S
+#1564
+The Courtyard~
+Wedding guests mull about, chatting, drinking, and making merry.  The
+courtyard continues to your south, east, and west.  To your south, you see
+the beer cart and to your east, you see a starcase.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1565
+D2
+~
+~
+0 0 1561
+D3
+~
+~
+0 0 1563
+S
+#1565
+The Courtyard~
+Wedding guests mull about, chatting and making merry.  The courtyard
+continues to the west and south.  To your south, you hear the sounds of
+music and dancing.  A staircase goes up into the castle here.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 1562
+D3
+~
+~
+0 0 1564
+D4
+~
+~
+0 0 1566
+S
+#1566
+The Great Hall~
+The great hall is alive with activity.  You see wild beasts roasting over
+a fire.  At the table, a group of young men are drinking themselves silly. 
+You see the bride and her bridesmaids doing there hair to one side of the
+room and you see the priest preparing for the ceremony at the north end of
+the hall.  A staircase goes down to the courtyard and up to the tower.  
+~
+0 2097160 0
+D4
+~
+~
+0 0 1567
+D5
+~
+~
+0 0 1565
+S
+#1567
+The Staircase~
+The staircase continues up and down.  Up above you, you see a door and
+below you, you hear the sounds of the great hall.  
+~
+0 2097160 0
+D4
+~
+~
+0 0 1568
+D5
+~
+~
+0 0 1566
+S
+#1568
+The Top of the Tower~
+You reach the top of the tower to see a door to your south.  Below you is
+the great hall.  
+~
+0 2097160 0
+D2
+~
+~
+1 0 1569
+D5
+~
+~
+0 0 1567
+S
+#1569
+The Bedroom~
+This bedroom is nicely equipped and you guess that is the lucky groom's
+room.  Your guess is comfirmed by the fact that a young man is near the
+window, tying sheets together.  Two guards stand at the entrance of the
+room, guarding the young man.  
+~
+0 2097160 0
+D0
+~
+~
+1 0 1568
+S
+#1570
+The Trail in the Deep Forest~
+As you travel northwards, the forest seems to grow darker and you hear
+fewer sounds of life.  To the north, the forest is even darker and far to
+the south is the crossroads.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1571
+D2
+~
+~
+0 0 1551
+S
+#1571
+The Trail in the Deep, Dark Forest~
+The sun is almost completely blotted out by the thick canopy of trees. 
+The forest grows even darker to the north and if you were not a brave
+knight, you would return to the south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1572
+D2
+~
+~
+0 0 1570
+S
+#1572
+The Dark Forest of Yewing~
+This forest is known for its great evil aura and you know why.  You feel
+cold and chilled inside.  The sun is all but blotted out by the thick canopy
+of evil, twisted trees, casting long shadows and making it all seem even
+more evil and grotesque.  There is a SIGN here and you better read it.  
+~
+0 2097152 0
+E
+sign~
+CAUTION!!!  The dark forest's guardian lies to the north.  If ye be the
+faint of heart, then ye best leave this foul place at once!  You have been
+warned!  
+~
+D0
+~
+~
+0 0 1573
+D2
+~
+~
+0 0 1571
+S
+#1573
+The Dark Forest of Yewing~
+In front of you, stand the most tremendous site, you have ever seen!  A
+three-headed giant stands here, towering over you.  Around him are scattered
+the bodies of unfortunate knights that dared to defy him.  He doesn't look
+very happy to see you here.  You can leave to the east or the south.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1574
+D2
+~
+~
+0 0 1572
+S
+#1574
+The Dark Forest of Yewing~
+To your west, you can see the bodies of squashed knights and you think it
+would not be a good idea to go their.  To your north, you can see the forest
+begin to lighten.  You think that it would be best to leave this horrible
+place.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1575
+D3
+~
+~
+0 0 1573
+S
+#1575
+The Forest~
+The forest goes to your south and to your east.  To the south, the forest
+looks dark and twisted.  To the east, the forest looks sickly and is covered
+with a layer of fog.  You wonder which is worse.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1582
+D2
+~
+~
+0 0 1574
+S
+#1576
+The Grassy Hill~
+To your west lies the crossroads and to your east appears to be some sort
+of ramshackle hut.  The people inside may be able to help you on your quest
+for the grail.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1577
+D3
+~
+~
+0 0 1525
+S
+#1577
+In the Grassy Valley~
+The grass grows lush and green here, in the warm sunshine.  To your south
+is an old hut, you hear the sounds of cooking inside.  To your north, a
+trail leads into a village.  Up to your west is a grassy hill.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1579
+D2
+~
+~
+0 0 1578
+D3
+~
+~
+0 0 1576
+S
+#1578
+Scene 24~
+As you enter the cabin, an old man greets you and beckons you to sit.  He
+tells you that to find the grail, you must cross the Bridge of Death.  But
+he warms you, only go forth if you are men of valor and courage for much
+danger lies ahead.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1577
+S
+#1579
+The Path to the Village~
+To your north lies a typical village.  To your south, the trail continues
+and you can see an old hut of some sort.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1580
+D2
+~
+~
+0 0 1577
+S
+#1580
+The Village~
+The village is your typical village, except for the man sitting atop a
+horse nearby.  He sells shruberies and you never know when a shrubery could
+come in handy.  I suggest you buy one.  The trails leads into a grassy
+valley to your south and a foggy forest to your north.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1581
+D2
+~
+~
+0 0 1579
+S
+#1581
+The Foggy Forest~
+The forest is suddenly covered by a thick fog.  You hear noises and think
+you can see glimpses of knights all around you.  The forest continues to the
+north and south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1582
+D2
+~
+~
+0 0 1580
+S
+#1582
+The Foggy Forest~
+As you walk through the forest, you suddenly become aware of a group
+knights standing over you.  These knights must be the legendary Knights who
+say "Nee!"  Those who hear them seldom live to tell the tale.  The foggy
+forest continues to the north, west, and south.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1583
+D2
+~
+~
+0 0 1581
+D3
+~
+~
+0 0 1575
+S
+#1583
+The Foggy Forest~
+The forest is coverend with a thick fog and you are surrounded by the
+Knights who say "Nee!"  To your north, is a thick clump of trees with a hole
+in the ground in front of them the perfect size of a shrubbery.  
+~
+0 2097152 0
+D0
+~
+trees~
+1 1522 1584
+D2
+~
+~
+0 0 1582
+S
+#1584
+The Forest~
+On this side of the trees, the fog seems to have lifted and you no longer
+see the any more of The Knights who say "Nee!"  To your north is a barren
+wasteland of some sort.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1585
+D2
+~
+trees~
+1 1522 1583
+S
+#1585
+The Frozen Land of Nador~
+No vegation grows anywhere around here.  You see a a forest to your south
+and a rarely walked trail leading to the west.  
+~
+0 2097152 0
+D2
+~
+~
+0 0 1584
+D3
+~
+~
+0 0 1586
+S
+#1586
+The Frozen Land of Nador~
+No vegatation grows nearby.  To the south is a dark, evil looking
+forest.  An almost unused trail goes to the east and to your north, you see
+a rocky hill and hear some sort of excitement.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1587
+D1
+~
+~
+0 0 1585
+D2
+~
+~
+0 0 1549
+S
+#1587
+The Trail Leading Up a Rocky Hill~
+To your south is a barren wasteland and to the north is the top of the
+hill.  At the top of the hill, you can see some fire and hear some noise of
+some sort.  You wonder what is up there.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1588
+D2
+~
+~
+0 0 1586
+S
+#1588
+The Top of the Rocky Hill~
+From the the top of this hill, you get a nice view of your surroundings. 
+To the south, you see a barren wasteland and on the other side of the
+wasteland is forest.  To your east is a dark cave.  However, these sites
+pale in comparison with the man standing before you.  With a flick of his
+wrist, he can throw fire or make things explode.  He also looks very wise,
+he might know where the grail is.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1589
+D2
+~
+~
+0 0 1587
+S
+#1589
+The Rocky Trail~
+To your west is the top of a hill and to your north is the entrance to a
+large cave.  This is the legendary Cave of Kair'Banorg and the legends have
+it that it is guarded by the most foul, grewsome beast known to man.  Go
+forward only if ye be men of valor.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1590
+D3
+~
+~
+0 0 1588
+S
+#1590
+Entrance to the Cave of Kair'Banorg~
+Bodies of 40 brave knights litter the rocky ground.  Whoever did this to
+these must certainly be a great beast.  But you have nothing to fear, the
+only living thing nearby is your friends and a cute, little bunny rabbit.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1591
+D2
+~
+~
+0 0 1589
+S
+#1591
+The Cave of Kair'Banorg~
+To your south, you can still see a bit of light from the cave entrance
+but it grows quickly dark.  To cave continues to your north.  The ground is
+rocky, so you should watch your step.  
+~
+0 2097161 0
+D0
+~
+~
+0 0 1592
+D2
+~
+~
+0 0 1590
+S
+#1592
+The Cave of Kair'Banorg~
+The cave is dark and large boulders litter the ground, making it slow to
+walk.  To cave continues to the south and east.  You see something written
+on the WALL here, it may be a clue.  
+~
+0 2097161 0
+E
+wall~
+Here are written the last words of Joseph of Aramathea.  For those brave
+enough to seek the grail, you can find if at the Castle Aaaahhhhh.....  
+ 
+ 
+(Hrmm, what do you suppose that could mean?)
+~
+D1
+~
+~
+0 0 1593
+D2
+~
+~
+0 0 1591
+S
+#1593
+The Cave of Kair'Banorg~
+The cave is dark and rocky, so you have to walk carefully and slow.  The
+cave continues to your west and east.  To the east, you can see some light. 
+Unfortunately, just as you were about to get out of the cave, the Legendary
+Black Beast found you.  
+~
+0 2097161 0
+D1
+~
+~
+0 0 1594
+D3
+~
+~
+0 0 1592
+S
+#1594
+Outside the Cave of Kair'Banorg~
+You exit from the cave to find yourself on one side of a horrible looking
+chasm.  Up above you is a bridge with a man standing in front of it.  From
+here, the bridge doesn't look very safe, but you can't think of any other
+way over, and you are sure that the grail is on the other side.  
+~
+0 2097152 0
+D3
+~
+~
+0 0 1593
+D4
+~
+~
+0 0 1595
+S
+#1595
+The South End of the Bridge of Death~
+The bridgekeeper is here.  Any who wish to cross the bridge must answer
+his questions or be cast into the Gorge of Eternal Peril.  Are you up to it?
+A trail leads down into a cave and on the other side of the bridge, you see
+a trail leading up to a grassy meadow.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1596
+D5
+~
+~
+0 0 1594
+S
+#1596
+The Bridge of Death~
+This bridge is in a state of ill-repair and you decide if would be best
+if you continuesd on your way.  Below you is a nice view of the Gorge of
+Eternal Peril, you're glad you didn't fail your test.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1597
+D2
+~
+~
+0 0 1595
+S
+#1597
+Intermission~
+You suddenly realize, how badly you have to go to the bathroom and so you
+decide that this would be the perfect time to do so.  On your way back, you
+might want to grab some chips and a drink.  The bridge continues to the
+north.  
+~
+0 3146756 0
+D0
+~
+~
+0 0 1598
+D2
+~
+~
+0 0 1596
+S
+#1598
+The Bridge of Death~
+This bridge is in a state of disrepair.  From here, you can get a nice
+view of the Gorge of Eternal Peril, far below you.  You are glad you didn't
+fail the bridgekeeper's test.  The northern side of the bridge is only a few
+steps away and beyond that is a grassy plain.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1599
+D2
+~
+~
+0 0 1597
+S
+#1599
+On the Northern Side of the Bridge of Death~
+To your south is the Bridge of Death and beyond that, the Cave of
+Kair'Banorg.  Those are two experiences you don't want to ever have to live
+through again.  To your north is a grassy field and beyond that is a lake. 
+On an island in the lake is a castle.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 1600
+D2
+~
+~
+0 0 1598
+S
+#1600
+The Grassy Field~
+To your east is a lake and you see an island in the middle of the lake. 
+Upon the island is a castle.  You are drawn to the castle for some strange
+reason.  It must be the resting place of the most Holy Grail!  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1601
+D2
+~
+~
+0 0 1599
+S
+#1601
+On the Western Shore of the Lake~
+To your west is a grassy field, but that does not occupy your thoughts. 
+To your east is a castle.  It is one castle in the particular.  It is the
+Castle of Aaaahhhhh.....!!!  The water is not deep and you can easily walk
+to the other side.  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1602
+D3
+~
+~
+0 0 1600
+S
+#1602
+Beneath the Castle Aaaahhhhh.....~
+You stand in the shadow of the Castle Aaaahhhhh.....  , a door stands
+between you and the resting place of the Holy Grail.  Advance with caution,
+there is most likely a guardian of the Holy Grail.  
+~
+0 2097156 0
+D1
+~
+~
+1 0 1603
+D3
+~
+~
+0 0 1601
+S
+#1603
+The Entrance of the Castle Aaaahhhhh.....~
+You walk into this most holy castle to find that is controlled by the
+foul French soldiers.  You must hurry to the grail so that it won't fall
+into the enemies hands.  The country of England is at stake!  
+~
+0 2097152 0
+D1
+~
+~
+0 0 1604
+D3
+~
+~
+1 0 1602
+S
+#1604
+The Courtyard of the Castle Aaaahhhhh.....~
+You enter into the courtyard to find that the castle is nothing more than
+a thick wall surrounding a tower.  The tower is very tall and near the top,
+it surrounded by a golden glow.  
+~
+0 2097152 0
+D1
+~
+~
+1 0 1605
+D3
+~
+~
+0 0 1603
+S
+#1605
+The Bottom of the Tower~
+A marble straircase goes up the tower and you can easily see by the
+golden glow coming from far above you.  The only thing that seems to take
+away from the moment are the french soldiers, who defame this sacred place
+with their crude jokes and insults.  The door out is to the west and the
+straircase goes up from here.  
+~
+0 2097160 0
+D3
+~
+~
+1 0 1604
+D4
+~
+~
+0 0 1606
+S
+#1606
+Climbing the Tower~
+The tower spirals ever upward.  You have been climbing for some time, but
+you know that the tower goes much higher.  As you climb, you notice that the
+golden glow increases.  French guards still lurk about the tower.  The tower
+continues up and down.  
+~
+0 2097160 0
+D4
+~
+~
+0 0 1607
+D5
+~
+~
+0 0 1605
+S
+#1607
+Higher in the Tower~
+As you continue up the stairs, the golden glow grows even brighter.  A
+french soldier that seems to lead the others is standing on the marble steps
+here.  Other french soldiers go up and down the stairs.  You can sense the
+Holy Grail's nearness.  You must hurry upwards!  
+~
+0 2097160 0
+D4
+~
+~
+0 0 1608
+D5
+~
+~
+0 0 1606
+S
+#1608
+Even Higher in the Tower~
+In may be an illusion of the many steps, but it feels to you that you are
+know well above the tops of the wall of the castle and even what you thought
+would be the top of the tower.  The golden glow is now very brighter.  You
+walk with your hand blocking the light from your eyes as you continue
+upwards.  
+~
+0 2097160 0
+D4
+~
+~
+0 0 1609
+D5
+~
+~
+0 0 1607
+S
+#1609
+At the Golden Door~
+Just as seems that your legs will fail you from climbing the many steps,
+your spirit is renewed by the sight of a door at the end of the stairs.  The
+doors seems to glow with a bright golden light.  On closer inspections, it
+appears that the glow is from the other side of the door and is so bright
+that is wells through the wood.  The door is locked.  The french soldiers
+must have taken the key.  
+~
+0 2097160 0
+D4
+~
+~
+1 1526 1610
+D5
+~
+~
+0 0 1608
+S
+#1610
+The Grail Room~
+This is the resting place of the most Holy Grail!  Your quest is at an
+end!  The Holy Grail sits on a pedastal in the center of the room.  It glows
+with a bright light that fills your soul with peace and the sound of joyous
+music.  The stairways continue upwards to another locked door.  A SIGN is on
+the door above you.  It could be important information about the grail.  
+~
+0 3146764 0
+E
+sign~
+This is god again.  Since King Arthur was paid millions of dollars to
+appear in a major hollywood blockbuster, your country has no king.  This
+makers of this low budget film could not afford to get a replacement king so
+I have decided that whoever holds the Holy Grail shall be crowned King of
+England.  Your crown lies beyond.  
+~
+D4
+~
+~
+1 0 1611
+D5
+~
+~
+1 1526 1609
+S
+#1611
+The Throne Room of England~
+This is a most solemn occasion.  As you walk through the door, you are
+suddenly transported to The Throne Room of England.  An empty chair is in
+front of you, a golden crown sits on the throne.  Nobles and knights usher
+you forward to recieve your rightful prize for completing the quest. 
+Congratulations!  You are the King of England!  
+~
+0 3146764 0
+D5
+~
+~
+1 0 1610
+S
+#1612
+Room for extra peasants~
+~
+0 1048580 0
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+M 1508 spec_french_taunter Load to: A French Soldier
+M 1516 spec_guard Load to: A Wedding Guard
+M 1523 spec_nee Load to: A Knight of Nee
+M 1524 spec_tim Load to: Tim the Enchanter
+M 1528 spec_french_taunter Load to: An Elite French Soldier
+M 1529 spec_french_taunter Load to: The French Captain
+S
+
+
+
+#RESETS
+D 0 1500 2 0
+D 0 1529 0 0
+D 0 1530 2 0
+D 0 1534 0 0
+D 0 1535 2 0
+D 0 1547 0 1
+D 0 1548 2 1
+D 0 1568 2 0
+D 0 1569 0 0
+D 0 1583 0 1
+D 0 1584 2 1
+D 0 1602 1 0
+D 0 1603 3 0
+D 0 1604 1 0
+D 0 1605 3 0
+D 0 1609 4 1
+D 0 1610 4 0
+D 0 1610 5 1
+D 0 1611 5 0
+M 0 1500 1 1501
+M 0 1501 2 1503
+E 0 3022 0 16
+M 0 1503 1 1505
+E 0 1500 0 5
+E 0 1501 0 16
+M 0 1502 9 1505
+E 0 1500 0 5
+M 0 1502 4 1506
+E 0 1500 0 5
+M 0 1502 12 1507
+M 0 1502 12 1508
+M 0 1502 20 1509
+M 0 1502 9 1510
+M 0 1504 1 1512
+E 0 1503 0 16
+E 0 1502 0 6
+M 0 1506 1 1514
+M 0 1505 1 1514
+M 0 1507 1 1515
+E 0 1504 0 16
+M 0 1508 5 1523
+M 0 1509 1 1525
+E 0 1506 0 16
+P 0 1507 0 1
+M 0 1510 1 1527
+O 0 1507 0 1528
+M 0 1512 1 1530
+M 0 1511 20 1532
+E 0 1513 0 16
+E 0 1512 0 5
+M 0 1514 2 1535
+E 0 1512 0 5
+E 0 1513 0 16
+E 0 1514 0 9
+M 0 1511 5 1537
+E 0 1509 0 17
+O 0 1508 0 1541
+M 0 1511 50 1542
+M 0 1511 50 1545
+M 0 1513 1 1547
+E 0 1510 0 17
+O 0 1511 0 1548
+O 0 1515 0 1550
+M 0 1515 1 1553
+E 0 1517 0 12
+E 0 1516 0 7
+M 0 1516 3 1555
+E 0 1518 0 6
+M 0 1516 7 1557
+M 0 1516 1 1557
+M 0 1516 9 1558
+M 0 1516 1 1558
+M 0 1516 1 1559
+M 0 1516 10 1560
+M 0 1516 1 1560
+O 0 1519 0 1561
+M 0 1516 10 1561
+M 0 1516 1 1561
+M 0 1517 4 1562
+M 0 1516 10 1562
+M 0 1516 1 1562
+M 0 1516 10 1563
+M 0 1516 1 1563
+M 0 1516 10 1564
+M 0 1516 1 1564
+M 0 1516 10 1565
+M 0 1516 2 1565
+M 0 1520 1 1566
+M 0 1518 20 1566
+M 0 1516 4 1569
+M 0 1519 1 1569
+M 0 1521 1 1573
+E 0 1520 0 10
+O 0 1521 0 1578
+M 0 1522 1 1580
+G 0 1522 0
+M 0 1523 8 1582
+M 0 1523 8 1583
+M 0 1524 1 1588
+E 0 1524 0 17
+E 0 1523 0 6
+M 0 1525 1 1590
+M 0 1526 1 1593
+M 0 1527 1 1595
+M 0 1531 1 1600
+E 0 1529 0 16
+O 0 1525 0 1600
+M 0 1528 11 1603
+M 0 1528 11 1604
+M 0 1528 12 1605
+M 0 1528 12 1606
+M 0 1528 12 1607
+M 0 1528 12 1608
+M 0 1529 1 1609
+E 0 1526 0 17
+M 0 1528 14 1609
+O 0 1527 0 1610
+O 0 1528 0 1611
+M 0 1532 4 1612
+M 0 1532 4 1612
+M 0 1532 4 1612
+M 0 1532 4 1612
+S
+
+
+
+#MOBPROGS
+M 1503 1503.prg
+M 1523 1523.prg
+M 1532 1532.prg
+S
+
+
+
+#ROOMPROGS
+S
+
+
+
+#OBJPROGS
+S
+
+
+
+#SHOPS
+1522 18 18 0 0 0 150 50 0 23
+0
+
+
+
+#$
