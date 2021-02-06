@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -183,7 +183,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
     if ( IS_AFFECTED( ch, AFF_CHARM )
          && ch->master != NULL && in_room == ch->master->in_room )
     {
-        send_to_char( "What?  And leave your beloved master?\n\r", ch );
+        send_to_char( "What? And leave your beloved master?\n\r", ch );
         return;
     }
 
@@ -1298,7 +1298,7 @@ void do_sleep( CHAR_DATA * ch, char *argument )
         rprog_sleep_trigger( ch );
         if ( argument[0] == '\0' && ch->on == NULL )
         {
-            send_to_char( "You go to sleep.  Messages are being recorded.\n\r",
+            send_to_char( "You go to sleep. Messages are being recorded.\n\r",
                           ch );
             act( "$n goes to sleep.", ch, NULL, NULL, TO_ROOM );
             ch->position = POS_SLEEPING;
@@ -1334,17 +1334,17 @@ void do_sleep( CHAR_DATA * ch, char *argument )
             ch->on = obj;
             if ( IS_SET( obj->value[2], SLEEP_AT ) )
             {
-                act( "You go to sleep at $p.  Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep at $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
                 act( "$n goes to sleep at $p.", ch, obj, NULL, TO_ROOM );
             }
             else if ( IS_SET( obj->value[2], SLEEP_ON ) )
             {
-                act( "You go to sleep on $p.  Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep on $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
                 act( "$n goes to sleep on $p.", ch, obj, NULL, TO_ROOM );
             }
             else
             {
-                act( "You go to sleep in $p.  Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep in $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
                 act( "$n goes to sleep in $p.", ch, obj, NULL, TO_ROOM );
             }
             ch->position = POS_SLEEPING;
@@ -1352,7 +1352,7 @@ void do_sleep( CHAR_DATA * ch, char *argument )
         break;
 
     case POS_FIGHTING:
-        send_to_char( "You are already fighting!\n\r", ch );
+        send_to_char( "No way! You are still fighting!\n\r", ch );
         break;
     }
 
@@ -1544,7 +1544,7 @@ void do_recall( CHAR_DATA * ch, char *argument )
             lose = ( int ) ( 0.05 * exp_per_level( ch, ch->pcdata->points ) );
             gain_exp( ch, 0 - lose );
             check_improve( ch, gsn_recall, TRUE, 4 );
-            sprintf( buf, "You recall from combat!  You lose %d exps.\n\r",
+            sprintf( buf, "You recall from combat! You lose %d exps.\n\r",
                      lose );
             send_to_char( buf, ch );
         }
@@ -1846,7 +1846,7 @@ void track_clear_queue( void )
  *  step on the shortest path from the source to the target.
  *
  *  Intended usage: in mobile_activity, give a mob a dir to go if they're
- *  tracking another mob or a PC.  Or, a 'track' skill for PCs.
+ *  tracking another mob or a PC. Or, a 'track' skill for PCs.
  */
 
 int find_first_step( ROOM_INDEX_DATA * src, ROOM_INDEX_DATA * target )

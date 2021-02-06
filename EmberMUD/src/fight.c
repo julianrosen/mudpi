@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -360,7 +360,7 @@ void mob_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
             return;
     }
 
-    /* oh boy!  Fun stuff! */
+    /* oh boy! Fun stuff! */
 
     if ( ch->wait > 0 )
         return;
@@ -1794,8 +1794,9 @@ bool is_safe_spell( CHAR_DATA * ch, CHAR_DATA * victim, bool area )
 
     else                        /* Not NPC */
     {
-        if ( IS_IMMORTAL( ch ) && !area )
-            return FALSE;
+        /* if ( IS_IMMORTAL( ch ) && !area )
+            return FALSE; */ /* JR: this was a little strange. Imms could not attack another player,
+            but could cast an offensive spell*/
 
         /* no pets */
         if ( IS_NPC( victim ) && IS_SET( victim->act, ACT_PET ) )
@@ -1871,7 +1872,7 @@ void check_killer( CHAR_DATA * ch, CHAR_DATA * victim )
      * And current killers stay as they are.
      *
      * You can't be fighting a Hero unless he attacked you first or
-     * you're both PK.  So if you're not PK and fighting an IMM
+     * you're both PK. So if you're not PK and fighting an IMM
      * don't set your PK flag cuz the Hero probably started it. :)
      */
     if ( IS_NPC( ch )
@@ -2411,12 +2412,12 @@ void group_gain( CHAR_DATA * ch, CHAR_DATA * victim )
             continue;
 
         /* This code looks bad, it gives XP on a per kill basis if your xp stack is
-         * empty.  I don't think this code is actually ever called and if it IS
+         * empty. I don't think this code is actually ever called and if it IS
          * called it shouldn't be so I'm removing it.  -Zane */
         /* Changed again to deal with rapid alignment shifts.   With alignment being
          * changed with every hit_xp_compute, players could go from good to satanic
-         * with a couple of hits on the mob.  Change is so that we call this at
-         * mob death if the player contributed to the death.  Alignment calls are
+         * with a couple of hits on the mob. Change is so that we call this at
+         * mob death if the player contributed to the death. Alignment calls are
          * taken out of hit_xp_compute. - Dorzak
          */
         if ( gch->exp_stack > 0 )
@@ -2429,7 +2430,7 @@ void group_gain( CHAR_DATA * ch, CHAR_DATA * victim )
             send_to_char( buf, gch );
         }
         /* This code looks bad, it gives XP on a per kill basis if your xp stack is
-         * empty.  I don't think this code is actually ever called and if it IS
+         * empty. I don't think this code is actually ever called and if it IS
          * called it shouldn't be so I'm removing it.  -Zane */
         /* Reenabling this as part of the above mentioned changes about align. -Dorzak */
         if ( gch->exp_stack > 0 )
@@ -2915,7 +2916,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
     if ( xp > ( exp_per_level( gch, gch->pcdata->points ) / 2 ) )
         xp = ( exp_per_level( gch, gch->pcdata->points ) / 2 );
     xp = xp * 1 / 10;           /* This function only runs if you didn't hit the mob
-                                   so you don't gain much experience.  But hey, it's
+                                   so you don't gain much experience. But hey, it's
                                    better than nothing. */
     if ( xp > 0 )
     {
@@ -4183,8 +4184,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             if ( dam > 0 )
                 if ( ch == victim )
                 {
-                    sprintf( buf1, "`w$n's %s `R%s`w $m%c", attack, vp, punct );
-                    sprintf( buf2, "`wYour %s `R%s`w you%c", attack, vp,
+                    sprintf( buf1, "`w$n's %s `R%s`w $m for `g%d`w points of damage%c", attack, vp, dam, punct );
+                    sprintf( buf2, "`wYour %s `R%s`w you for `g%d`w points of damage%c", attack, vp, dam,
                              punct );
                 }
                 else
@@ -4763,7 +4764,7 @@ void do_trip( CHAR_DATA * ch, char *argument )
          || ( !IS_NPC( ch )
               && ch->level < skill_table[gsn_trip].skill_level[ch->Class] ) )
     {
-        send_to_char( "Tripping?  What's that?\n\r", ch );
+        send_to_char( "Tripping? What's that?\n\r", ch );
         return;
     }
 
@@ -4900,7 +4901,7 @@ void do_kill( CHAR_DATA * ch, char *argument )
 
     if ( victim == ch )
     {
-        send_to_char( "You hit yourself.  Ouch!\n\r", ch );
+        send_to_char( "You hit yourself. Ouch!\n\r", ch );
         multi_hit( ch, ch, TYPE_UNDEFINED );
         return;
     }
@@ -4993,7 +4994,7 @@ void do_murder( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         sprintf( buf, "`YHelp! I am being attacked by %s!`w", ch->short_descr );
     else
-        sprintf( buf, "`YHelp!  I am being attacked by %s!`w", ch->name );
+        sprintf( buf, "`YHelp! I am being attacked by %s!`w", ch->name );
     do_yell( victim, buf );
     check_killer( ch, victim );
     multi_hit( ch, victim, TYPE_UNDEFINED );
@@ -5777,7 +5778,7 @@ bool check_block( CHAR_DATA * ch, CHAR_DATA * victim )
         ( get_curr_stat( ch, STAT_DEX ) / 4 ) + ( ( ch->level ) / 2 ) +
         ( get_curr_stat( ch, STAT_WIS ) / 3 );
 
-/* A high chance is good.  A low chance means a failed parry */
+/* A high chance is good. A low chance means a failed parry */
     if ( number_percent(  ) >= chance + ( ( victim->level ) / 2 ) - chancea )
         return FALSE;
     dnum = number_range( 1, 5 );

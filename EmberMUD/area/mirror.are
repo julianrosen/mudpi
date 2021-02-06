@@ -14,8 +14,8 @@ the baby beholder~
 You meet a baby beholder's cute gaze!
 ~
 It has a large central eye that blinks like a guppy and eyestalks atop the 
-round body which can charm you with its cuteness.  Baby beholders are known for
-their playful personality.  Hmmm....  It looks like the baby is teething!
+round body which can charm you with its cuteness. Baby beholders are known for
+their playful personality. Hmmm.... It looks like the baby is teething!
 ~
 Human~
 ABCHT D 500 S
@@ -46,7 +46,7 @@ citizen man~
 a citizen of Thalos~
 A citizen of Thalos is here, conversing with everyone.
 ~
-He smiles at you, almost as if he knows you.  He is so friendly, you have no
+He smiles at you, almost as if he knows you. He is so friendly, you have no
 choice but to reciprocate.
 ~
 Human~
@@ -62,7 +62,7 @@ guard imperial cityguard~
 an imperial cityguard~
 An imperial cityguard is here, keeping the peace of Thalos.
 ~
-He is dressed in plate, and he looks quite formidable.  At the moment, though,
+He is dressed in plate, and he looks quite formidable. At the moment, though,
 he is just giggling with a kid running about.
 ~
 Human~
@@ -78,7 +78,7 @@ citizen woman female~
 a female citizen of Thalos~
 A female citizen of Thalos is here, showing off her new dress.
 ~
-She is beautiful, dressed in a sundress that sparkles with gems sown in.  She
+She is beautiful, dressed in a sundress that sparkles with gems sown in. She
 smiles at you, and your heart flutters at the thought that you have her
 attention, if only for a moment.
 ~
@@ -96,9 +96,9 @@ Gordon the Brave~
 Gordon the Brave, the Defender of Thalos, is here, looking at no
 one but you, the only stranger in town.
 ~
-Gordon is dressed in full mithril plate, and he looks indestructible.  He eyes
+Gordon is dressed in full mithril plate, and he looks indestructible. He eyes
 you suspiciously not only because you are a stranger, but because you are an
-ARMED stranger.  Better not do any funny stuff in his presence.
+ARMED stranger. Better not do any funny stuff in his presence.
 ~
 Human~
 AT H 1000 S
@@ -113,10 +113,10 @@ priest~
 the fanatic priest~
 A fanatic priest is here, foretelling the destruction of Thalos.
 ~
-The priest must have lost his mind.  He keeps saying that one day, evil will
-prevail and take over Thalos and bring the whole city down.  Obviously, no one
-listens to this fool.  The priest's right fist is covered in golden silk,
-and he clenches it at you.  Other than that, he is dressed all in black.
+The priest must have lost his mind. He keeps saying that one day, evil will
+prevail and take over Thalos and bring the whole city down. Obviously, no one
+listens to this fool. The priest's right fist is covered in golden silk,
+and he clenches it at you. Other than that, he is dressed all in black.
 ~
 Human~
 ABHT 0 -500 S
@@ -132,7 +132,7 @@ the priest of Thalos~
 The priest of Thalos tells you of the glories of this city.
 ~
 He stands here gloriously telling of Thalos's history, how it is now referred by
-the world as 'The City of Peace'.  He is very happy to be the high priest here.
+the world as 'The City of Peace'. He is very happy to be the high priest here.
 ~
 Human~
 ABT H 1000 S
@@ -148,7 +148,7 @@ the stone golem~
 In the corner you see a large, stone golem faithfully standing watch.
 ~
 It is a big chunk of rock that has been magically formed into a giant
-stone creature.  It stands here guarding the city.
+stone creature. It stands here guarding the city.
 ~
 Human~
 ABT N 1000 S
@@ -163,7 +163,7 @@ mayor~
 the mayor of Thalos~
 The mayor of Thalos is sitting here, doing his paperwork.
 ~
-He looks very busy, but he takes the time to say, 'Hi!  Welcome to Thalos!'
+He looks very busy, but he takes the time to say, 'Hi! Welcome to Thalos!'
 He looks very proud of his work.
 ~
 Human~
@@ -301,7 +301,7 @@ masseuse woman~
 a beautiful masseuse~
 A beautiful woman is here offering you a massage.
 ~
-She is beautiful, dressed in a sundress that sparkles with gems sown in.  She
+She is beautiful, dressed in a sundress that sparkles with gems sown in. She
 smiles at you, and your heart flutters at the thought that you have her
 attention, and you jump to her offer for a massage.
 ~
@@ -318,7 +318,7 @@ bather man~
 a man~
 A man is here bathing.
 ~
-He smiles at you, almost as if he knows you.  He is so friendly, you have no
+He smiles at you, almost as if he knows you. He is so friendly, you have no
 choice but to reciprocate and join him and the others in the soothing pool.
 ~
 Human~
@@ -334,7 +334,7 @@ guard imperial cityguard~
 An imperial cityguard~
 An imperial cityguard overseeing patrols in the city.
 ~
-He is dressed in plate, and he looks quite formidable.  At the moment,
+He is dressed in plate, and he looks quite formidable. At the moment,
 he is looking at a map of Thalos aside his fellow co-workers keeping
 track of each city patrol.
 ~
@@ -351,7 +351,7 @@ guard cityguard~
 an imperial cityguard~
 An imperial cityguard guards the Grand Gate.
 ~
-He is dressed in plate, and he looks quite formidable.  At the moment,
+He is dressed in plate, and he looks quite formidable. At the moment,
 he is watching the children play with amusement.
 ~
 Human~
@@ -367,7 +367,7 @@ doe~
 a doe~
 A doe munches on grass.
 ~
-This peaceful creature looks at you with big dark eyes.  Her nose twitches as
+This peaceful creature looks at you with big dark eyes. Her nose twitches as
 she sniffs at you, but she goes back to chewing some grass.
 ~
 Human~
@@ -383,7 +383,7 @@ deer~
 a deer~
 A deer stares back at you.
 ~
-The deer looks angered at your intrusion.  He butts his head against you, 
+The deer looks angered at your intrusion. He butts his head against you, 
 albeit ineffectively.
 ~
 Human~
@@ -399,7 +399,7 @@ stag deer~
 a stag~
 A large deer stag protects his territory.
 ~
-He eyes you with contained anger.  You'd better leave him alone!
+He eyes you with contained anger. You'd better leave him alone!
 ~
 Human~
 AFGHT 0 0 S
@@ -616,8 +616,8 @@ BD BD 0 0 0
 2 0 20 P
 E
 fountain~
-You see the most beautiful fountain in the world.  The white marble glistens
-as sunlight hits its wet surfaces.  Fish swim around in the inner fountain, and
+You see the most beautiful fountain in the world. The white marble glistens
+as sunlight hits its wet surfaces. Fish swim around in the inner fountain, and
 an exterior fountain is reserved just for drinking.
 ~
 #5307
@@ -630,7 +630,7 @@ CFG ACD DFGKM 0 0
 18 0 180 P
 E
 desk~
-The sea shell desk here is just gorgeous.  The creamy white of the table
+The sea shell desk here is just gorgeous. The creamy white of the table
 surface makes you dream of being in a pool swimming among mermaids.
 ~
 #5308
@@ -644,7 +644,7 @@ CEFGHI ACD BDFGKM 0 0
 E
 cabinet~
 A cabinet made of oak and mahogany, this piece of woodmanship is just splendid 
-to view.  The wood is varnished with a very strong stain that looks as if it
+to view. The wood is varnished with a very strong stain that looks as if it
 would last longer than the cabinet itself.
 ~
 #5309
@@ -720,12 +720,12 @@ unknown~
 A AC C AB 0
 16 5 160 P
 A
-19 2
-A
 18 2
+A
+19 2
 E
 sword~
-You see a sword of great craftsmanship.  Imprinted on the side is:
+You see a sword of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5318
@@ -737,12 +737,12 @@ unknown~
 C AC C ABC 0
 16 5 160 P
 A
-19 2
-A
 18 2
+A
+19 2
 E
 mace~
-You see a mace of great craftsmanship.  Imprinted on the side is:
+You see a mace of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5319
@@ -755,7 +755,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 chest plate~
-You see a chest plate of great craftsmanship.  Stamped on the side is:
+You see a chest plate of great craftsmanship. Stamped on the side is:
 Merc Industries
 ~
 #5320
@@ -768,7 +768,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 shield~
-You see a shield of great craftsmanship.  Imprinted on the side is:
+You see a shield of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5321
@@ -781,7 +781,7 @@ BC BC BC 0 0
 17 5 170 P
 E
 cloak~
-You see a cloak of great craftsmanship.  Imprinted on the side is:
+You see a cloak of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5322
@@ -794,7 +794,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 helm~
-You see a helm of great craftsmanship.  Imprinted on the side is:
+You see a helm of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5323
@@ -807,7 +807,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 plate leggings~
-You see plate leggings of great craftsmanship.  Imprinted on the side is:
+You see plate leggings of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5324
@@ -820,7 +820,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 plate boots~
-You see plate boots of great craftsmanship.  Imprinted on the side is:
+You see plate boots of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5325
@@ -833,7 +833,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 plate gloves~
-You see plate gloves of great craftsmanship.  Imprinted on the side is:
+You see plate gloves of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5326
@@ -846,7 +846,7 @@ BC BC BC 0 0
 16 5 160 P
 E
 plate sleeves~
-You see plate sleeves of great craftsmanship.  Imprinted on the side is:
+You see plate sleeves of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5327
@@ -859,7 +859,7 @@ BC BC BC 0 0
 17 5 170 P
 E
 cape~
-You see a cape of great craftsmanship.  Imprinted on the side is:
+You see a cape of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5328
@@ -872,7 +872,7 @@ BC BC BC 0 0
 17 5 170 P
 E
 belt~
-You see a belt of great craftsmanship.  Imprinted on the side is:
+You see a belt of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5329
@@ -885,7 +885,7 @@ BC BC BC 0 0
 17 5 170 P
 E
 metal bracer~
-You see a metal bracer of great craftsmanship.  Imprinted on the side is:
+You see a metal bracer of great craftsmanship. Imprinted on the side is:
 Merc Industries
 ~
 #5330
@@ -897,9 +897,9 @@ unknown~
 BC BC BC 0 0
 17 1 170 P
 A
-24 -2
-A
 17 -6
+A
+24 -2
 #5331
 imperial banner~
 an imperial war banner~
@@ -909,9 +909,9 @@ unknown~
 0 0 999 0 0
 16 1 160 P
 A
-17 -2
-A
 24 -2
+A
+17 -2
 E
 banner~
 This is the official Merc war banner to see you through the darkest realm!
@@ -924,9 +924,9 @@ This is the official Merc war banner to see you through the darkest realm!
 #5300
 The Grand Gate of Thalos~
 You stand in the archway of a gigantic stone archway. The two
-steel gates look indestructible, yet they are elaborate in engravings.  You can
-hear laughter and good cheer from the other side of these gates.  Obviously, 
-the city is teeming with activity!  There is a small gold plaque on mounted
+steel gates look indestructible, yet they are elaborate in engravings. You can
+hear laughter and good cheer from the other side of these gates. Obviously, 
+the city is teeming with activity! There is a small gold plaque on mounted
 on the archway.
 ~
 0 0 1
@@ -952,8 +952,8 @@ S
 Main Street~
 This is a magnificent street, immaculate all over. The streets are filled
 with people rushing from building to building and a balmy zephyr blows by
-you.  The whole city is teeming with activity.  A cobbled alley leads north
-and south.  Children run pass you as they play tag.
+you. The whole city is teeming with activity. A cobbled alley leads north
+and south. Children run pass you as they play tag.
 ~
 0 0 1
 D0
@@ -979,11 +979,11 @@ Main Street lies this way.
 S
 #5302
 Main Street~
-This is a magnificent street, immaculate all over.  The streets are filled
+This is a magnificent street, immaculate all over. The streets are filled
 with people rushing from building to building and a balmy zephyr blows by you.
-The whole city is teeming with activity.  On one side is a beautiful house 
-while on the other is the entrance to a large mansion.  Sounds of people hard
-at work echo within the mansion.  Near the center of town you see a large 
+The whole city is teeming with activity. On one side is a beautiful house 
+while on the other is the entrance to a large mansion. Sounds of people hard
+at work echo within the mansion. Near the center of town you see a large 
 domed building, magnificent and immense.
 ~
 0 0 1
@@ -1012,7 +1012,7 @@ S
 A Garden Path~
 A circular path surrounds a magnificent domed temple in the center
 of the city. Flowers grow on the sides of the path and the lush trees are 
-laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+laden with fruit. Vines and ivy snake up the sides of the temple, making this
 temple truly a blend of nature and man's work of art.
 ~
 0 0 1
@@ -1041,7 +1041,7 @@ S
 A Garden Path~
 A circular path surrounds a magnificent domed temple in the center
 of the city. Flowers grow on the sides of the path and the lush trees are
-laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+laden with fruit. Vines and ivy snake up the sides of the temple, making this
 temple truly a blend of nature and man's work of art.
 ~
 0 0 1
@@ -1065,7 +1065,7 @@ S
 A garden path~
 A circular path surrounds a magnificent domed temple in the center
 of the city. Flowers grow on the sides of the path and the lush trees are
-laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+laden with fruit. Vines and ivy snake up the sides of the temple, making this
 temple truly a blend of nature and man's work of art.
 ~
 0 0 1
@@ -1084,7 +1084,7 @@ S
 A Garden Path~
 A circular path surrounds a magnificent domed temple in the center
 of the city. Flowers grow on the sides of the path and the lush trees are
-laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+laden with fruit. Vines and ivy snake up the sides of the temple, making this
 temple truly a blend of nature and man's work of art.
 ~
 0 0 1
@@ -1102,7 +1102,7 @@ S
 #5307
 The market place~
 You stand in the middle of a large square lined on each side with
-baskets, carts, and stands of all shapes and sizes.  The little shops are 
+baskets, carts, and stands of all shapes and sizes. The little shops are 
 filled with goods sold to the demanding public.
 ~
 0 0 1
@@ -1125,7 +1125,7 @@ S
 #5308
 The market place~
 You stand in the middle of a large square lined on each side with
-baskets, carts, and stands of all shapes and sizes.  The little shops are
+baskets, carts, and stands of all shapes and sizes. The little shops are
 filled with goods sold to the demanding public.
 ~
 0 0 1
@@ -1170,7 +1170,7 @@ S
 A Side Street~
 You are in the common section of the city. More buildings made of
 clay and stone be dazzles you. Most of these homes are designed so
-beautifully you just cant keep your eyes off them.  The street
+beautifully you just cant keep your eyes off them. The street
 continues north and south and buildings line the street.
 ~
 0 0 1
@@ -1196,8 +1196,8 @@ S
 #5311
 A Side Street~
 This small side street leads away from the garden path to the south.
-Around you stand large numbers of commoners' houses.  Many citizens
-pass by you with a friendly hello.  You almost feel like home here.
+Around you stand large numbers of commoners' houses. Many citizens
+pass by you with a friendly hello. You almost feel like home here.
 ~
 0 0 1
 D0
@@ -1225,7 +1225,7 @@ A side street~
 This small side street leads south away from the temple into the
 business section of town. To the east is the famous City Hall of Thalos.  
 Well disciplined guards stand at attention, watching over the city hall, but
-you don't see any source of threats in THIS city.  North is a garden path,
+you don't see any source of threats in THIS city. North is a garden path,
 west is a smithy, and this side street continues south.
 ~
 0 0 1
@@ -1235,7 +1235,7 @@ A small garden path encircles the temple.
 ~
 0 0 5306
 D1
-You see what is most definitely city hall.  This building is the most
+You see what is most definitely city hall. This building is the most
 elaborate of all the building here in Thalos.
 ~
 ~
@@ -1246,7 +1246,7 @@ D2
 0 0 5313
 D3
 Inside the building you see long pieces of metal, an oven, and some
-anvils.  Obviously a smithy.
+anvils. Obviously a smithy.
 ~
 ~
 0 0 5321
@@ -1276,7 +1276,7 @@ D2
 0 0 5314
 D3
 This seems to be the only guild house in the entire city. You feel uneasy
-about this building.  For some reason it seems not to belong.
+about this building. For some reason it seems not to belong.
 ~
 ~
 0 0 5319
@@ -1307,7 +1307,7 @@ S
 #5315
 Under another grand watchtower~
 You stand at the base of a tall ivy covered watchtower built to
-protect the city from invaders.  You get the feeling of safety here in
+protect the city from invaders. You get the feeling of safety here in
 Thalos.
 ~
 0 0 1
@@ -1327,7 +1327,7 @@ S
 #5316
 A back alley~
 This alley leads to the rear of meat stand. The aroma of fresh and
-char-broiled meat catches your sense of smell.  You wipe the drool
+char-broiled meat catches your sense of smell. You wipe the drool
 off your chin the instant you know it is there.
 ~
 0 0 1
@@ -1345,8 +1345,8 @@ S
 #5317
 The meat stand~
 A large stand has been set up here with metal hooks and wooden racks
-in the background.  Hanging on the hooks are huge slabs of meat
-and other game.  This stand is packed with produce, and a sudden burst
+in the background. Hanging on the hooks are huge slabs of meat
+and other game. This stand is packed with produce, and a sudden burst
 of laughter catches you by surprise as little children play around
 your ankles.
 ~
@@ -1357,7 +1357,7 @@ The market place lies this way.
 ~
 0 0 5308
 D1
-This is a cart full of fresh vegetables and fruits.  You are almost
+This is a cart full of fresh vegetables and fruits. You are almost
 tempted to take some.
 ~
 ~
@@ -1386,9 +1386,9 @@ A tall watchtower stands a silent vigil over the city.
 S
 #5319
 The guild house~
-You are standing in this city's ONLY guild house.  Tables and chairs
-are set about for the occupants' comfort.  Weapons are stacked neatly on the
-weapons rack.  Each weapon looks polished, sharpened, and oiled.
+You are standing in this city's ONLY guild house. Tables and chairs
+are set about for the occupants' comfort. Weapons are stacked neatly on the
+weapons rack. Each weapon looks polished, sharpened, and oiled.
 Draped along the back wall is the proud banner of Thalos in all its glory.
 ~
 0 8 1
@@ -1430,7 +1430,7 @@ A small side street runs past the building.
 S
 #5322
 The tapestry stand~
-Beautiful tapestries and rugs hang all over the walls.  Fancy
+Beautiful tapestries and rugs hang all over the walls. Fancy
 robes and various articles of clothing hang about for sale. You stare with
 awe at how much work must have been put into these cloths.
 ~
@@ -1469,7 +1469,7 @@ S
 #5324
 Under the watchtower~
 You stand under one of the city watchtowers built to protect
-the city from invaders.  You know that you are safe from any danger.
+the city from invaders. You know that you are safe from any danger.
 ~
 0 0 1
 D1
@@ -1488,7 +1488,7 @@ Above you stands a tall watchtower.
 S
 #5325
 The jewelery stand~
-A table stands covered with fine jewelery and gems.  The jeweler
+A table stands covered with fine jewelery and gems. The jeweler
 stands proudly over his collection as he polishes and cleans each one.
 ~
 0 0 1
@@ -1508,7 +1508,7 @@ S
 A simple clay dwelling~
 This is a very plain house with a few chairs and a bed.
 A warmed and lit fireplace suggests that the dwelling is currently
-occupied.  You should leave before the owner finds you here.
+occupied. You should leave before the owner finds you here.
 ~
 0 8 1
 D1
@@ -1562,7 +1562,7 @@ S
 #5330
 The Tavern of the Sun~
 A glorious place, this tavern is second home for many citizens of
-Thalos.  Tables and chairs are set in rows, bottles and glasses filled, and
+Thalos. Tables and chairs are set in rows, bottles and glasses filled, and
 a small performance stage teaming with dazzling entertainment. Musical
 instruments and personal belongings lie in piles belonging to each member
 of this room.
@@ -1578,8 +1578,8 @@ S
 South wing of the city hall~
 You stand in a large room attached to this end of the hallway which
 leads back north to the reception area. Pedestals and columns stand
-faithfully.  Valuable items hang from the walls each to be admired
-by onlookers.  Chairs lie around, and a large curved desk. To the east
+faithfully. Valuable items hang from the walls each to be admired
+by onlookers. Chairs lie around, and a large curved desk. To the east
 is a vine-covered archway leading out into a private courtyard.
 ~
 0 8 1
@@ -1598,7 +1598,7 @@ The city hall~
 This is the main reception area of Thalos' city hall. The walls have
 been painted in pure white and thick lush carpet line the floor wall to wall.
 A side door on the west wall allows you to go out to one of the city's side 
-streets.  Hallways lead south and east.
+streets. Hallways lead south and east.
 ~
 0 8 1
 D0
@@ -1624,7 +1624,7 @@ S
 #5333
 East wing of the city hall~
 Here lies fancy office, possibly the mayor's. A few green plants
-and pieces of furniture make this place breathtaking.  There is a large
+and pieces of furniture make this place breathtaking. There is a large
 glass cabinet along the wall. A long hallway leads west back to the
 reception area and an ivy-covered archway leads south into a private
 courtyard.
@@ -1642,8 +1642,8 @@ S
 #5334
 The private gardens and courtyard of Thalos~
 You stare in awe as the beauty of this place takes you by
-surprise.  Exotic flowers and trees are planted in neat rows and lawn
-benches line the walk ways.  A large marble fountain in the center of the
+surprise. Exotic flowers and trees are planted in neat rows and lawn
+benches line the walk ways. A large marble fountain in the center of the
 courtyard stands. Above stands one of the four watchtowers. Archways
 north and west lead back into the city hall.
 ~
@@ -1659,8 +1659,8 @@ D3
 S
 #5335
 A small guard house~
-This is the barracks for Thalos' cityguards.  Guards populate this
-shack ready, willing, and able to ward off any trouble.  This small
+This is the barracks for Thalos' cityguards. Guards populate this
+shack ready, willing, and able to ward off any trouble. This small
 shack stands guarding both to the entrance to the city and to the city hall.
 ~
 0 0 1
@@ -1672,8 +1672,8 @@ The alley runs by this building.
 S
 #5336
 An impressive house~
-This house houses the Defender of Thalos.  He represents all that
-is good and right in this city.  As the most skilled fighting machine,
+This house houses the Defender of Thalos. He represents all that
+is good and right in this city. As the most skilled fighting machine,
 he is the commander of the guard.
 ~
 0 0 1
@@ -1685,7 +1685,7 @@ Main street runs past this dwelling.
 S
 #5337
 A Public Library~
-This seems to be the tallest structure in the city.  Rows and rows of books
+This seems to be the tallest structure in the city. Rows and rows of books
 line the 20 foot tall bookcases, and a quiet serenity can be felt by all here.
 ~
 0 8 1
@@ -1707,8 +1707,8 @@ You see a second floor to the library.
 S
 #5338
 The Library Addition~
-There are more shelves and tables here.  Vials of strange potions line a
-section of the wall, and books and other items of power line another.  The exit
+There are more shelves and tables here. Vials of strange potions line a
+section of the wall, and books and other items of power line another. The exit
 is to the west.
 ~
 0 8 1
@@ -1721,7 +1721,7 @@ S
 #5339
 A back alley~
 A narrow back alley goes south to main street and north towards
-a watchtower.  People quietly pass you by.
+a watchtower. People quietly pass you by.
 ~
 0 0 1
 D0
@@ -1738,7 +1738,7 @@ S
 #5340
 A back alley~
 A narrow back alley leads north to one of the city watchtowers
-and south towards main street.  The shade cast by the watchtower is very
+and south towards main street. The shade cast by the watchtower is very
 refreshing.
 ~
 0 0 1
@@ -1796,7 +1796,7 @@ S
 A back alley~
 A narrow back alley leads west to a small side street and east to one
 of the city watchtowers. Great amounts of steam issue forth from the
-building to the south.  It looks very inviting.
+building to the south. It looks very inviting.
 ~
 0 0 1
 D1
@@ -1817,9 +1817,9 @@ A side street greets you.
 S
 #5344
 A Resting Room~
-You are in a resting room.  Soft mats line the floor, and you see many
-people just relaxing on them.  The comfort of this place is so inviting, you 
-want to join them.  Great amounts of steam issue forth from the hole in the 
+You are in a resting room. Soft mats line the floor, and you see many
+people just relaxing on them. The comfort of this place is so inviting, you 
+want to join them. Great amounts of steam issue forth from the hole in the 
 east wall.
 ~
 0 8 1
@@ -1835,8 +1835,8 @@ A small side street runs past the building.
 S
 #5345
 On the second floor of the library~
-You see more books here.  Through windows, you have a glorious view of
-a nearby bay.  Birds fly by your window.
+You see more books here. Through windows, you have a glorious view of
+a nearby bay. Birds fly by your window.
 ~
 0 0 1
 D5
@@ -1847,7 +1847,7 @@ S
 #5346
 The north-west watchtower~
 You stand atop one of the city watchtowers. The view is magnificent
-from here and you can see all the way to the western mountains.  You are 
+from here and you can see all the way to the western mountains. You are 
 confident nothing can touch this tower.
 ~
 0 0 1
@@ -1861,7 +1861,7 @@ S
 The south-west watchtower~
 You stand atop one of the city watchtowers. The view is magnificent
 from here and you can see all the way to the western mountains. To the
-south bay stretches to the horizon.  You are confident nothing can touch this
+south bay stretches to the horizon. You are confident nothing can touch this
 tower.
 ~
 0 0 1
@@ -1874,7 +1874,7 @@ S
 #5348
 The north-east watchtower~
 You stand atop one of the city watchtowers. The view is magnificent
-from here.  Green fields stretch to the horizon.  You are confident nothing
+from here. Green fields stretch to the horizon. You are confident nothing
 can touch this tower.
 ~
 0 0 1
@@ -1908,7 +1908,7 @@ S
 #5351
 A back alley~
 A narrow alley leads east to a wider street and west to one of
-the city watchtowers.  Little kids play tag around you.
+the city watchtowers. Little kids play tag around you.
 ~
 0 0 1
 D1
@@ -1925,7 +1925,7 @@ S
 #5352
 Under a watchtower~
 You stand at the base of a tall watchtower built to protect the city
-from invaders.  From the looks of things, its doing a great job.
+from invaders. From the looks of things, its doing a great job.
 ~
 0 0 1
 D0
@@ -1961,7 +1961,7 @@ S
 The south-east watchtower~
 You stand atop one of the city watchtowers. The view is magnificent
 from here and you can see all the way to the western mountains. To the
-south the you see the bay.  You're confident nothing can touch this tower.
+south the you see the bay. You're confident nothing can touch this tower.
 ~
 0 0 1
 D5
@@ -1973,7 +1973,7 @@ S
 #5355
 A back alley~
 A narrow alley leads north to the main street, and south toward a tall
-watchtower.  A building is to the west.
+watchtower. A building is to the west.
 ~
 0 0 1
 D0
@@ -1994,8 +1994,8 @@ S
 #5356
 A trail at the end of the dwarf forest~
 The trail ends here, with tall, leafy, green trees all around you.
-To the west, you can see a huge beautiful and radiant city.  Something
-about it gives you a relaxed feeling.  To the east is your way back home.
+To the west, you can see a huge beautiful and radiant city. Something
+about it gives you a relaxed feeling. To the east is your way back home.
 ~
 0 0 2
 D1
@@ -2011,8 +2011,8 @@ You see Thalos!
 S
 #5357
 A trail at the end of the dwarf forest~
-A side trail here leads from the dwarf forest.  It is definitely milder
-here.  The trail continues to the east from here.
+A side trail here leads from the dwarf forest. It is definitely milder
+here. The trail continues to the east from here.
 ~
 0 0 2
 D1
@@ -2028,7 +2028,7 @@ You see the trail continue on.
 S
 #5358
 The dwarf forest~
-You see tall, healthy green trees here.  The trail bends north to
+You see tall, healthy green trees here. The trail bends north to
 west from here.
 ~
 0 0 3
@@ -2045,8 +2045,8 @@ You see the trail bend west.
 S
 #5359
 The dwarf forest~
-You see more big green trees here.  It looks almost as if this place was
-blessed by a god to be green and mild.  The trail leads north and south.
+You see more big green trees here. It looks almost as if this place was
+blessed by a god to be green and mild. The trail leads north and south.
 ~
 0 0 3
 D0
@@ -2062,8 +2062,8 @@ You see the trail continue south.
 S
 #5360
 The dwarf forest~
-You see more big green trees here.  It looks almost as if this place was
-blessed by a god to be green and mild.  The trail leads north and south.
+You see more big green trees here. It looks almost as if this place was
+blessed by a god to be green and mild. The trail leads north and south.
 ~
 0 0 3
 D0
@@ -2079,8 +2079,8 @@ You see the trail continue south.
 S
 #5361
 The dwarf forest~
-You see many big green trees here.  You see many leaves on these huge
-trees.  Grass layer the ground with 2 inches of padding.
+You see many big green trees here. You see many leaves on these huge
+trees. Grass layer the ground with 2 inches of padding.
 ~
 0 0 3
 D0
@@ -2096,9 +2096,9 @@ You see the trail continue south.
 S
 #5362
 The Cross Roads~
-The roads cross here.  Midgaard is to the west.  To the east, you see the
-stately oaks and poplars of the holy grove.  A wide path leads south through
-the dwarven forest.  To the north is a very desolate trail.
+The roads cross here. Midgaard is to the west. To the east, you see the
+stately oaks and poplars of the holy grove. A wide path leads south through
+the dwarven forest. To the north is a very desolate trail.
 ~
 0 0 1
 D0
@@ -2158,7 +2158,7 @@ wind can howl undisturbed since nothing but you bars its way. However you
 are not the first to wander here. Before you somebody has left footprints.
 The footprints make a path that looks rather bewildered and is not the kind
 of path to lead to anywhere significant or important but it seems to have
-made up its mind to enter the hills far away north.  A little distance
+made up its mind to enter the hills far away north. A little distance
 further, you lose the trail and decide not to get lost.
 ~
 0 0 1
@@ -2310,8 +2310,8 @@ area through the trees, while paths lead away north and west.
 E
 foundation~
 The foundation looks like it is for a sprawling, two-story affair with three
-wings.  On the ground is some building material, marble would do, if marble
-changed color slowly, continuously, through the entire spectrum.  There are
+wings. On the ground is some building material, marble would do, if marble
+changed color slowly, continuously, through the entire spectrum. There are
 also large panes of glass stacked over near one of the corners of the
 foundation.
 ~
@@ -2345,8 +2345,8 @@ really matter to you.
 E
 foundation construction~
 The foundation looks like it is for a sprawling, two-story affair with three
-wings.  On the ground is some building material, marble would do, if marble
-changed color slowly, continuously, through the entire spectrum.  There are
+wings. On the ground is some building material, marble would do, if marble
+changed color slowly, continuously, through the entire spectrum. There are
 also large panes of glass stacked over near one of the corners of the
 foundation.
 ~
@@ -2379,8 +2379,8 @@ patterns of the clouds as they gently drift across the sky.
 E
 dome construction structure east e~
 The foundation looks like it is for a sprawling, two-story affair with three
-wings.  On the ground is some building material, marble would do, if marble
-changed color slowly, continuously, through the entire spectrum.  There are
+wings. On the ground is some building material, marble would do, if marble
+changed color slowly, continuously, through the entire spectrum. There are
 also large panes of glass stacked over near one of the corners of the
 foundation.
 ~
@@ -2407,8 +2407,8 @@ sunny summers after-noon.
 E
 dome construction south s~
 The foundation looks like it is for a sprawling, two-story affair with three
-wings.  On the ground is some building material, marble would do, if marble
-changed color slowly, continuously, through the entire spectrum.  There are
+wings. On the ground is some building material, marble would do, if marble
+changed color slowly, continuously, through the entire spectrum. There are
 also large panes of glass stacked over near one of the corners of the
 foundation.
 ~
@@ -2420,14 +2420,19 @@ To the north, the winding stone path leads into the holy grove.
 S
 #5375
 The Void~
-You are standing in the middle of something you cannot explain.  You see
-stars yet you cannot see what you are standing on.  You are not standing
+You are standing in the middle of something you cannot explain. You see
+stars yet you cannot see what you are standing on. You are not standing
 on any sort of physical 'ground' as you can see yet you are not floating
-either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
-rainbow then back to its normal state.  In the middle of this room is
+either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
+D4
+You see stars.
+~
+~
+0 0 5376
 D3
 You see stars.
 ~
@@ -2443,11 +2448,6 @@ You see a fuzzy portal of some sort and a little green.
 ~
 ~
 0 0 5368
-D4
-You see stars.
-~
-~
-0 0 5376
 D5
 You see stars.
 ~
@@ -2456,68 +2456,68 @@ You see stars.
 S
 #5376
 The Void~
-You are standing in the middle of something you cannot explain.  You see
-stars yet you cannot see what you are standing on.  You are not standing
+You are standing in the middle of something you cannot explain. You see
+stars yet you cannot see what you are standing on. You are not standing
 on any sort of physical 'ground' as you can see yet you are not floating
-either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
 rainbow then back to its normal state.
 ~
 0 0 3
-D4
-You see stars.
-~
-~
-0 0 5375
 D5
 You see stars.
 ~
 ~
 0 0 5375
-D0
-You see stars.
-~
-~
-0 0 5377
 D1
 You see stars.
 ~
 ~
 0 0 5376
-D3
+D0
 You see stars.
 ~
 ~
-0 0 5376
+0 0 5377
 D2
 You see stars.
 ~
 ~
 0 0 5377
+D4
+You see stars.
+~
+~
+0 0 5375
+D3
+You see stars.
+~
+~
+0 0 5376
 S
 #5377
 The Void~
-You are standing in the middle of something you cannot explain.  You see
-stars yet you cannot see what you are standing on.  You are not standing
+You are standing in the middle of something you cannot explain. You see
+stars yet you cannot see what you are standing on. You are not standing
 on any sort of physical 'ground' as you can see yet you are not floating
-either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
 rainbow then back to its normal state.
 ~
 0 0 3
-D2
-You see stars.
-~
-~
-0 0 5376
 D5
 You see stars.
 ~
 ~
 0 0 5378
-D1
+D3
 You see stars.
 ~
 ~
 0 0 5377
+D2
+You see stars.
+~
+~
+0 0 5376
 D4
 You see stars.
 ~
@@ -2528,7 +2528,7 @@ You see stars.
 ~
 ~
 0 0 5376
-D3
+D1
 You see stars.
 ~
 ~
@@ -2536,24 +2536,14 @@ You see stars.
 S
 #5378
 The Void~
-You are standing in the middle of something you cannot explain.  You see
-stars yet you cannot see what you are standing on.  You are not standing
+You are standing in the middle of something you cannot explain. You see
+stars yet you cannot see what you are standing on. You are not standing
 on any sort of physical 'ground' as you can see yet you are not floating
-either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
-rainbow then back to its normal state.  In the middle of this room is
+either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
-D3
-You see stars.
-~
-~
-0 0 5375
-D2
-You see a fuzzy portal of some sort and a little green.
-~
-~
-0 0 8903
 D1
 You see stars.
 ~
@@ -2564,6 +2554,16 @@ You see stars.
 ~
 ~
 0 0 5377
+D2
+You see a fuzzy portal of some sort and a little green.
+~
+~
+0 0 8903
+D3
+You see stars.
+~
+~
+0 0 5375
 D5
 You see stars.
 ~
@@ -2578,7 +2578,7 @@ appearance, and most of the walls are covered by ancient wall paintings
 picturing Gods, Giants and peasants.
    Large steps lead down through the grand temple gate, descending the huge
 mound upon which the temple is built and ends on the temple square below.
-   You notice that this building is quite new.  A small plaque is on this wall.
+   You notice that this building is quite new. A small plaque is on this wall.
 ~
 0 1036 0
 E
@@ -2600,9 +2600,9 @@ You see the temple square.
 S
 #5380
 The Temple Square~
-You are standing on the temple square.  Huge marble steps lead up to the
-temple gate.  The ground is just dirt but there are plans to make the road
-cobble stone.  Just south of here you see a blooming market square, the
+You are standing on the temple square. Huge marble steps lead up to the
+temple gate. The ground is just dirt but there are plans to make the road
+cobble stone. Just south of here you see a blooming market square, the
 center of Midgaard.
 ~
 0 0 1
@@ -2619,9 +2619,9 @@ You see the Market Square.
 S
 #5381
 Market Square~
-You are standing on the market square, the Square of Midgaard.  It seems
+You are standing on the market square, the Square of Midgaard. It seems
 that a large, peculiar looking statue is being built here in the middle of
-the square.  Roads lead to the north and east, north to the temple square,
+the square. Roads lead to the north and east, north to the temple square,
 east is the main street.
 ~
 0 0 1
@@ -2643,8 +2643,8 @@ You see the main street.
 S
 #5382
 The Main Street~
-You are on Main Street crossing through this booming town.  The main
-street continues east.  To the west you see and hear a small market place.
+You are on Main Street crossing through this booming town. The main
+street continues east. To the west you see and hear a small market place.
 ~
 0 0 1
 D1
@@ -2683,9 +2683,15 @@ Main Street leads west from here.
 ~
 0 0 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood. They have been
+reinforced with large iron bands to make them even more sturdy. One of the
+doors is equipped with a very big lock.
 ~
 E
 tower towers~
@@ -2693,15 +2699,9 @@ Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 E
-gate~
-It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
-~
-E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar. It is far too high to climb.
 ~
 D1
 You see the city gate.
@@ -2716,14 +2716,20 @@ S
 #5385
 Outside the East Gate of Midgaard~
 You are by two small towers that have been built into the city wall and
-connected with a footbridge across the heavy wooden gate.  To the east the
+connected with a footbridge across the heavy wooden gate. To the east the
 plains stretch out in the distance.
 ~
 0 0 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood. They have been
+reinforced with large iron bands to make them even more sturdy. One of the
+doors is equipped with a very big lock.
 ~
 E
 tower towers~
@@ -2731,15 +2737,9 @@ Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 E
-gate~
-It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
-~
-E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar. It is far too high to climb.
 ~
 D1
 You see the plains.~
@@ -2759,16 +2759,16 @@ behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 ~
 0 1032 0
 E
-statue odin king god~
-The statue represents the one-eyed Odin sitting on a his throne.  He has
-long, grey hair and beard and a strict look on his face.  On top of the
-throne, just above his shoulders, his two ravens Hugin and Munin are sitting
-and at his feet are his wolves Gere and Freke.
-~
-E
 altar~
 Even though the altar is more than ten feet long it appears to be made from a
 single block of white virgin marble.
+~
+E
+statue odin king god~
+The statue represents the one-eyed Odin sitting on a his throne. He has
+long, grey hair and beard and a strict look on his face. On top of the
+throne, just above his shoulders, his two ravens Hugin and Munin are sitting
+and at his feet are his wolves Gere and Freke.
 ~
 D2
 You see the southern end of the temple.
@@ -3093,6 +3093,11 @@ S
 5313 5 9 0 0 0 130 70 5 21
 5314 1 8 12 13 22 135 65 8 18
 5317 2 3 4 10 0 120 50 9 17
+0
+
+
+
+#FACTIONAFFS
 0
 
 

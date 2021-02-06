@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -125,10 +125,10 @@ void gain_exp( CHAR_DATA * ch, int gain )
     if ( IS_NPC( ch ) || ch->level >= LEVEL_HERO )
         return;
 
-    /* XP tuner here.  Makes it easier for us to adjust how fast people are leveling. -Zane */
-    /* Commented out here.  If we modify it here, they see their exp 
+    /* XP tuner here. Makes it easier for us to adjust how fast people are leveling. -Zane */
+    /* Commented out here. If we modify it here, they see their exp 
        awards in an unmodified amount, but gain the modified amount.
-       Players notice.  Moved to part of the xp_compute sections 
+       Players notice. Moved to part of the xp_compute sections 
        - Dorzak 11/28/2001 */
     /*  if ( gain > 0 ) */
     /*      gain = ( int ) ( gain * EXP_MULTIPLIER ); */
@@ -1194,8 +1194,8 @@ void obj_update( void )
  */
 
 /*
- * Changed this a bit.  Now instead of using char_list it uses player_list which is solely a list of
- * players that are logged on.  MUCH faster than using char_list since we don't have to pick a few
+ * Changed this a bit. Now instead of using char_list it uses player_list which is solely a list of
+ * players that are logged on. MUCH faster than using char_list since we don't have to pick a few
  * players out of thousands of mobs.
  *
  * -Zane
@@ -1215,9 +1215,9 @@ void aggr_update( void )
     {
         wch_next = wch->next_player;
 
-        /* FIXME!  Remove this code alltogether.  Having delayed act-progs is a problem.
-         * What is someone triggers an act prog then runs out of the room?  The TriggeredBy is then
-         * set and the mob/obj/room will try to act like that player is still in the room.  If you want
+        /* FIXME! Remove this code alltogether. Having delayed act-progs is a problem.
+         * What is someone triggers an act prog then runs out of the room? The TriggeredBy is then
+         * set and the mob/obj/room will try to act like that player is still in the room. If you want
          * delayed triggers then maybe we should get a command queue system put in. - Zane */
 /*	if ( IS_NPC( wch ) && wch->mpactnum > 0
 	    && wch->in_room->area->nplayer > 0 )

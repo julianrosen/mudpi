@@ -219,7 +219,7 @@ bool helpsedit_create( CHAR_DATA * ch, char *argument )
 
     if ( !pHelp )
     {
-        send_to_char( "ERROR!  Could not create a new help!\n\r", ch );
+        send_to_char( "ERROR! Could not create a new help!\n\r", ch );
         return FALSE;
     }
 
@@ -261,7 +261,7 @@ bool helpsedit_keyword( CHAR_DATA * ch, char *argument )
 
     if ( strlen( argument ) != str_len( argument ) )
     {
-        send_to_char( "ERROR!  Color codes are not allowed in keywords.\n\r",
+        send_to_char( "ERROR! Color codes are not allowed in keywords.\n\r",
                       ch );
         return FALSE;
     }

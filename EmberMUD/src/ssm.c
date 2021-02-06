@@ -341,9 +341,9 @@ char *str_dup( const char *str )
  * strings are freed with standard free.
  * Never call free/delete externally on a shared string.
  *
- * You must now pass a pointer to the string pointer you're wanting to free.  This
+ * You must now pass a pointer to the string pointer you're wanting to free. This
  * way free_string can set that pointer to NULL and not rely on the caller to 
- * set the pointer to null after call free_string.  This method makes it so
+ * set the pointer to null after call free_string. This method makes it so
  * no-one can free the same string twice (which was causing major string-space
  * corruption). -Zane
  *

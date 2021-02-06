@@ -13,7 +13,7 @@ juve~
 a juve~
 A juve is standing here plotting mischief.
 ~
-He is a tall, thin boy.  He is looking for his gang mates.  He and his
+He is a tall, thin boy. He is looking for his gang mates. He and his
 mates have cost city authorities many millions of creds a week in
 vandalism repairs.
 ~
@@ -111,7 +111,7 @@ a rookie judge~
 A Rookie judge is on his first beat here.
 ~
 A member of Mega-City One's Justice Department is here considering what
-crimes you have committed.  Being a rookie he will probably be easier on
+crimes you have committed. Being a rookie he will probably be easier on
 you though.
 ~
 Human~
@@ -144,7 +144,7 @@ Pinkerton Throt~
 Pinky Throt is here Wringing his hands.
 ~
 He is a thin angular crook, pretty close to everyone's idea of Ebeneezer
-Scrooge.  Indeed, the only thing guaranteed to bring a spark to his dead
+Scrooge. Indeed, the only thing guaranteed to bring a spark to his dead
 eyes is the mention of money.
 ~
 Human~
@@ -161,7 +161,7 @@ Ernie Ramirez~
 Ernie Ramirez is here collecting for the mob.
 ~
 Ramirez is a dour man who knows that he's never going to get a better
-deal out of life.  He is content to run the bite fights for Throt and
+deal out of life. He is content to run the bite fights for Throt and
 Gleep.
 ~
 Human~
@@ -177,7 +177,7 @@ Judge Eckersely~
 Judge Eckersely~
 Judge Eckersely is here shaking down a Perp.
 ~
-He is a dedicated, if somewhat pessimistic Judge.  He is the Senior Judge
+He is a dedicated, if somewhat pessimistic Judge. He is the Senior Judge
 of the Downtown Quadrant.
 ~
 Human~
@@ -235,7 +235,7 @@ ACF BD BD 401 0
 16 2 160 P
 E
 spit gun~
-A standard weapon in Mega-City One.  It uses general
+A standard weapon in Mega-City One. It uses general
 purpose ammunition.
 ~
 #8001
@@ -248,7 +248,7 @@ AB AB AB 0 0
 4 3 40 P
 E
 knee pads~
-It is a set of Grak Brothers knee pads.  They are currently
+It is a set of Grak Brothers knee pads. They are currently
 popular with the juve and punk gangs.
 ~
 #8002
@@ -275,7 +275,7 @@ ACF BD BD 402 0
 26 2 260 P
 E
 lawgiver gun~
-The standard weapon for the city's Judges.  It uses general
+The standard weapon for the city's Judges. It uses general
 high explosive ammunition.
 ~
 #8004
@@ -325,13 +325,13 @@ unknown~
 B AC AC AB 0
 19 2 190 P
 A
-18 2
-A
-19 2
+2 1
 A
 5 1
 A
-2 1
+19 2
+A
+18 2
 E
 vibroblade~
 Obviously of alien manufacture, this blade enhances fighting
@@ -388,7 +388,7 @@ A
 19 2
 E
 judge club~
-It is a standard Justice Hall issue club.  Many a Perp's
+It is a standard Justice Hall issue club. Many a Perp's
 head has been bashed with this baby.
 ~
 #8012
@@ -422,7 +422,7 @@ It looks like it fits a slot somewhere.
 #ROOMS
 #8001
 Entrance to Mega-City One~
-A road begins here in the glowing sands.  You follow it through a gate
+A road begins here in the glowing sands. You follow it through a gate
 in a Plasteen wall onto the Megway of Mega-City One.
 ~
 0 0 1
@@ -440,7 +440,7 @@ S
 #8002
 Mahmount Allesh Megway~
 You are on one mile of over 13 and a half billion kilometers of
-roadway in Mega-City One.  The Megway continues north and south.
+roadway in Mega-City One. The Megway continues north and south.
 ~
 0 0 1
 D0
@@ -456,7 +456,7 @@ There is an intersection ahead.
 S
 #8003
 Intersection of Junket Way and Megway~
-The Megway intersects with Junket Way here.  Junket Way is to the east,
+The Megway intersects with Junket Way here. Junket Way is to the east,
 the Megway continues north and south, and the Pustule Palace Cafe is
 to the west.
 ~
@@ -503,11 +503,11 @@ The Megway continues in this direction.
 S
 #8005
 Mahmount Allesh Megway~
-The Megway continues north and south.  On the off-ramps here you see
-many of the citizens of Mega-City One doing nothing.  You see of
+The Megway continues north and south. On the off-ramps here you see
+many of the citizens of Mega-City One doing nothing. You see of
 every hundred citizens, it can be guaranteed that 87 of them will
 be totally unemployed, and that a further five will not work more
-than ten hours a week.  To the east there is a dark alley and to the
+than ten hours a week. To the east there is a dark alley and to the
 west is Rietzik's Shuggy Hall.
 ~
 0 0 1
@@ -534,8 +534,8 @@ A building is in this direction.
 S
 #8006
 Central Plaza~
-You are at the Central Plaza of the downtown district.  There are a couple
-of juves Boingging (tm) in the air above you.  Max Jaffa Boulevard goes
+You are at the Central Plaza of the downtown district. There are a couple
+of juves Boingging (tm) in the air above you. Max Jaffa Boulevard goes
 east, the Megway continues north and south, and Bazza's Home for the
 Terminally Sarky is to the west.
 ~
@@ -564,8 +564,8 @@ S
 #8007
 Corner of Ed Hilldreth Memorial Parkway and Megway~
 Another major intersection which is being negotiated by vehicles that
-are bound to minimum speed limits.  Many Slow Driving offenses are being
-handed out by the Judges.  The Megway goes north and south, a Parkway
+are bound to minimum speed limits. Many Slow Driving offenses are being
+handed out by the Judges. The Megway goes north and south, a Parkway
 goes east, and Nu Phisog Parlour is west.
 ~
 0 0 1
@@ -594,7 +594,7 @@ S
 Mahmount Allesh Megway~
 As you travel the Megway you notice many citizens participating in their
 favorite hobbies such as spot welding and metalwork, scratch building
-fashion Kneepads, giving blood, or just looking out the window.  The
+fashion Kneepads, giving blood, or just looking out the window. The
 Megway continues north and south.
 ~
 0 0 1
@@ -611,7 +611,7 @@ The Megway continues in this direction.
 S
 #8009
 Mahmount Allesh Megway~
-The Megway ends here.  To the west is Ziggi Piggi's Home for the
+The Megway ends here. To the west is Ziggi Piggi's Home for the
 Semi-Stiff, to the east and south are construction areas, and the
 Megway goes north.
 ~
@@ -655,8 +655,8 @@ An intersection is ahead.
 S
 #8011
 Davies Alley~
-You are in a very dark and seedy alley.  This is just the right place for
-a bite fight.  Bite fighting is an illegal activity where both combatants
+You are in a very dark and seedy alley. This is just the right place for
+a bite fight. Bite fighting is an illegal activity where both combatants
 can only use their sharpened teeth as weapons.
 ~
 0 1 1
@@ -705,7 +705,7 @@ An intersection is ahead.
 S
 #8014
 Construction site of the Harold Finkelbaum Block.~
-A Mega-City One City Block is being constructed at this site.  A
+A Mega-City One City Block is being constructed at this site. A
 typical block is from 100 to 1000 stories high with hundreds of
 thousands inhabitants.
 ~
@@ -719,7 +719,7 @@ S
 #8015
 Corner of Junket Way and Threep Lane~
 There is a second-hand kneepad stall is doing a brisk business with a
-group of juves on their way to school.  Junket Way goes west and Threep
+group of juves on their way to school. Junket Way goes west and Threep
 Lane travels south.
 ~
 0 0 1
@@ -736,7 +736,7 @@ Junket Way is ahead.
 S
 #8016
 Threep Lane~
-Threep Lane continues north and south.  There is a building to the east
+Threep Lane continues north and south. There is a building to the east
 with a sign next to the door.
 ~
 0 0 1
@@ -762,7 +762,7 @@ Threep Lane continues south.
 S
 #8017
 Threep Lane~
-Threep Lane continues north and south.  There is a dark alley to the west.
+Threep Lane continues north and south. There is a dark alley to the west.
 ~
 0 0 1
 D0
@@ -783,7 +783,7 @@ A dark alley is west.
 S
 #8018
 Corner of Max Jaffa Blvd and Threep Way~
-A proprietor of Uncle Sumpty's Ugly Emporium meanders by.  Threep Lane
+A proprietor of Uncle Sumpty's Ugly Emporium meanders by. Threep Lane
 continues north and south while Max Jaffa Boulevard goes west.
 ~
 0 0 1
@@ -834,7 +834,7 @@ An intersection lies north.
 S
 #8021
 Pustule Palace Cafe~
-A scabrous hole.  Run by Ernie Ramirez, an ex-perp, it is a meeting place
+A scabrous hole. Run by Ernie Ramirez, an ex-perp, it is a meeting place
 for the low-life in the area.
 ~
 0 8 0
@@ -846,7 +846,7 @@ An intersection lies east.
 S
 #8022
 Rietzik's Shuggy Hall~
-A sleazy dive and the meeting place of a lot of perps.  Shuggy is a
+A sleazy dive and the meeting place of a lot of perps. Shuggy is a
 twenty-second Century version of pool, played on a hilly table, usually
 with large side bets.
 ~
@@ -859,7 +859,7 @@ An intersection lies east.
 S
 #8023
 Bazza's Home for the Terminally Sarky~
-This is an experimental psychiatric home.  Named after a 20th Century
+This is an experimental psychiatric home. Named after a 20th Century
 vid-critic, the home attempts, by various methods, to readjust the
 socially unacceptable attitudes of the inmates.
 ~
@@ -873,7 +873,7 @@ S
 #8024
 Nu Phisog Parlour~
 Opened as a direct rival to the New You Face Parlour chain to offer quick
-and cheap face-changing facilities to the general public.  However,
+and cheap face-changing facilities to the general public. However,
 since the closure of Sump's Ugly clinics, the craze for face-changing has
 died down.
 ~
@@ -886,8 +886,8 @@ An intersection lies east.
 S
 #8025
 Ziggi Piggi's Home for the Semi-Stiff~
-The only suspended animation parlour in the area.  It has a high turnover
-rate.  It is rumored that the patrons are being used in body sharking and
+The only suspended animation parlour in the area. It has a high turnover
+rate. It is rumored that the patrons are being used in body sharking and
 organ legging activities.
 ~
 0 8 0
@@ -900,8 +900,8 @@ S
 #8026
 Throt & Gleep's Megger Store~
 This place promises to provide everything that the citizens don't need,
-with the utmost discourtesy.  Of course, something as crazy as this was
-bound to succeed.  There is a door to the north with a slot next to it.
+with the utmost discourtesy. Of course, something as crazy as this was
+bound to succeed. There is a door to the north with a slot next to it.
 There is also a sign next to the slot.
 ~
 0 8 0
@@ -920,13 +920,13 @@ door~
 S
 #8027
 Stockroom of Throt & Gleep's Megger Store~
-Many useless items stock the shelves of this stockroom.  A door leads
+Many useless items stock the shelves of this stockroom. A door leads
 south and large vault door is to the north.
 ~
 0 8 0
 E
 vault door~
-This vault seems impervious to breaking.  There is a keyhole in the lock
+This vault seems impervious to breaking. There is a keyhole in the lock
 however.
 ~
 D0
@@ -1032,6 +1032,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

@@ -36,14 +36,14 @@ vanishes and quits.*/
 #define CFG_CONNECT_MSG "Welcome to Mudpi.\n\r"
 #define CFG_ASK_ANSI "Use ANSI Color? [Y/n]: "
 
-/* Do you want a music channel?  Can be used as any other
+/* Do you want a music channel? Can be used as any other
  * channel name by changing the info in the channel layout and
  * names.
  */
 #define USE_MUSIC
 
 /* Do you want a high level imm only channel calling admintalk
- * if so, remove the comments from the section below.  In
+ * if so, remove the comments from the section below. In
  * addition there is also gocials and herotalk.
  */
 
@@ -89,9 +89,9 @@ vanishes and quits.*/
 #define CFG_MUS_NAME "MUSIC"
 #define CFG_GOC_NAME "GOCIAL"
 /* 
- * Drunk.  Here is where you can define whether a channel is 
- * going to check for drunk status.  If it is defined here, the 
- * channel will check.  The only one off by default is tells.
+ * Drunk. Here is where you can define whether a channel is 
+ * going to check for drunk status. If it is defined here, the 
+ * channel will check. The only one off by default is tells.
  * Also you can turn on or off drunk movement.
  */
 
@@ -145,7 +145,7 @@ allow item type above!!!! */
 /*
  * DISABLE_AUC_INFO
  * If this is defined, the "free" identify of any item that
- * is being auctioned is disabled.  This is a temp-fix for
+ * is being auctioned is disabled. This is a temp-fix for
  * the issue mentioned in SourceForge bug #478557 until I
  * can think of a better solution.
  * This has been replaced by the expanded auction options
@@ -176,11 +176,11 @@ allow item type above!!!! */
 
 /*
  * These settings determine the minimum position to use certain
- * channels, and to use tells.  Some people like to dampen all 
+ * channels, and to use tells. Some people like to dampen all 
  * RP related communication while sleeping, other prefer to let
  * players talk while sleeping, these allow you to decide for
- * your individual MUD.  These are in the process of being
- * implemented.  Currently they are only defined, and not 
+ * your individual MUD. These are in the process of being
+ * implemented. Currently they are only defined, and not 
  * used.
  */
 
@@ -193,11 +193,11 @@ allow item type above!!!! */
 #define MIN_POS_SHOUT           POS_RESTING
 #define MIN_POS_AUCTION         POS_SLEEPING
 
-/* The following settings have to do with how low cp can go.  I recently
+/* The following settings have to do with how low cp can go. I recently
 had a player come on a create a 0 cp human warrior, and level like there
-was no tomorrow.  Changing the exp tables would hurt everybody so I added
+was no tomorrow. Changing the exp tables would hurt everybody so I added
 a line for if their cp is less than a certain number, their cp gets
-another number added to it.  This defines those to numbers.  The next has
+another number added to it. This defines those to numbers. The next has
 to do with how low can a "normal" character use trains to lower their
 cp. */
 #define CP_MIN_CREATE   25  /* JR: Minimum allowed CP on creation */
@@ -208,17 +208,17 @@ cp. */
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
-   peace command is used in the same room with them).  If you don't want
+   peace command is used in the same room with them). If you don't want
    to use it, uncomment #undef AUTO_HATE, and comment out #def AUTO_HATE
 */
 /*#define AUTO_HATE*/
 #undef AUTO_HATE 
 
 /* Recreation options:  This update to cvs (4/2002) brings in two possible
- * options for recreation after reaching hero.  It is recomended only one at
- * a time be used.  They are rebirth - you stay the same class, but get hp
- * bonuses, and keep your skills.  Remort - you recreate with additional
- * race/class options.  Uncomment the ones you want to use, if any.
+ * options for recreation after reaching hero. It is recomended only one at
+ * a time be used. They are rebirth - you stay the same class, but get hp
+ * bonuses, and keep your skills. Remort - you recreate with additional
+ * race/class options. Uncomment the ones you want to use, if any.
  */
 
 #define USE_REBIRTH
@@ -227,15 +227,15 @@ cp. */
 #define USE_REMORT
 */
 /* The next has to do with selling multiples of the same item, or when
-   a shopkeeper already has at least 1 of something.  Set to 0 if you
+   a shopkeeper already has at least 1 of something. Set to 0 if you
    only want your shopkeepers buying 1 of an item. 
 */
 
 #define MORE_COST_MULTIPLIER  .75
 
 /* The following affect how successful mobs are at rescue, particularly
-   when a pet tries to rescue its master.  Higher the number, the greater
-   chance they will fail.  Don't make it to high, or it will do funny
+   when a pet tries to rescue its master. Higher the number, the greater
+   chance they will fail. Don't make it to high, or it will do funny
    things.  10 is probably as high as you would want to go.  */
 
 #define RESCUE_PENALTY 5
@@ -265,7 +265,7 @@ player B anyways. So, if player B had nosummon on, player A could not
 gate/summon/portal to player B whatsoever. If player B did NOT have
 nosummon on, then the NOSUMMONLEVELNONPK restriction will kick in. So if
 player A is 5 levels below player B, they could not gate. If they were 4
-levels under, it would be allowed.  This is an example of a NON-PK victim,
+levels under, it would be allowed. This is an example of a NON-PK victim,
 mobs work the same way as non-pk victims.
 
 The difference kicks in, when the VICTIM is flagged as PK.
@@ -293,8 +293,8 @@ NOSUMMONLEVELPK) then define NOSUMMONPKSAME to 1)
 #define NOSUMMONLEVELNONPK 5    /* This is not the same as the above 2!!
                                    Read the above examples for reasons why */
 
-/*  This has to do with a way to buy for free.  You buy a bunch of stuff
- *  from the shopkeeper then kill him.  You get your gold back and then
+/*  This has to do with a way to buy for free. You buy a bunch of stuff
+ *  from the shopkeeper then kill him. You get your gold back and then
  *  some.  
  */
 
@@ -311,12 +311,12 @@ the tables in const.c or you will get errors all over const.c
 
 #define MAX_ATTAINABLE_STATS 30
 
-/* Another stat item.  This defines the penalty for re-rolling your stats
- * if you don't like the first roll.  This defines how close it is possible to 
+/* Another stat item. This defines the penalty for re-rolling your stats
+ * if you don't like the first roll. This defines how close it is possible to 
  * role stats to the max stat in the pc race table.   When rolling stats it 
  * was being penalized by 5 which meant if your race could get a 22 in DEX, 
  * the highest you could roll during creation was 18.   With this you can 
- * adjust that number.  This was suggested by Zak on the mailing list.  This 
+ * adjust that number. This was suggested by Zak on the mailing list. This 
  * number should be positive because it is subtracted from the value that is rolled.
  *
  * Default is 0 or the penalty is OFF.
@@ -329,7 +329,7 @@ the tables in const.c or you will get errors all over const.c
  *
  * If a player does more than this amount of damage in a single hit
  * with a weapon then the damage is logged, reset to 0 and the
- * weapon is destroyed.  This is really to prevent builders and IMMs
+ * weapon is destroyed. This is really to prevent builders and IMMs
  * from cheating by giving god weapons to players.
  */
 
@@ -347,11 +347,11 @@ the tables in const.c or you will get errors all over const.c
  * 
  * If the skill check on a counter-attack succeeds then we roll a 1d100
  * die and check against MAX_COUNTER_PERCENTAGE to see if we proceed with
- * the counter attack.  The default is 20 (or 20%), this means that if a
+ * the counter attack. The default is 20 (or 20%), this means that if a
  * player has 100% counter then at MOST they'll counter-attack 20% of the
  * time.
  *
- * NEVER SET THIS TO 100!  For your own safety anything over 100 will be
+ * NEVER SET THIS TO 100! For your own safety anything over 100 will be
  * set to 99 since 100 would cause the mud to go into an infinite loop if
  * two players with 100% counter skill were to fight each other.
  *
@@ -374,14 +374,6 @@ the tables in const.c or you will get errors all over const.c
  */
 
 #define BONUS_INCARNATIONS
-
-/* If NO_RDNS is defined the mud won't try and look up the host name
-from the IP address.  This prevents the reverse DNS lag that sometimes
-happens when players connect. (Can lag the whole mud)  The downside
-is you won't have hostnames in your log file and you won't be able
-to ban players by hostname.  NO_RDNS is commented out by default. */
-
-#define NO_RDNS
 
 /* These 2 values control what level spells/items that brew and scribe
 will produce. The default value is .40 (40% of chars level) the 1st one
@@ -465,11 +457,11 @@ available*/
 mortals. Set this to MAX_LEVEL if you dont want to use it. */
 #define RECALL_LEVEL MAX_LEVEL
 
-/* this determines if beacon is a mortal or immortal command.  Some muds
-have it one way, other another.  Beacon sets the recall room of the
-person who types beacon.  It can not be used to set anothers beacon.  One
+/* this determines if beacon is a mortal or immortal command. Some muds
+have it one way, other another. Beacon sets the recall room of the
+person who types beacon. It can not be used to set anothers beacon. One
 caveat is there is no reset portion to it, so if you set it to a mortal
-command, realize that.  However word of recall spell and recall scrolls
+command, realize that. However word of recall spell and recall scrolls
 are not affected by this. 1 for imm, 0 for mortal */
 
 #define BEACON_WIZ  1
@@ -624,9 +616,9 @@ players that are not thieves. The second is the vnum of the thieves guild.
  * strings are being loaded and guess at the number of duplicates. :)
  * -Zane
  */
-#define MAX_KEY_HASH            65413
-#define MAX_STRING_LENGTH        4096
-#define MAX_INPUT_LENGTH          256
+#define MAX_KEY_HASH          1000003  /* JR: changed from 65413 */
+#define MAX_STRING_LENGTH       16384  /* JR: changed from 4096 */
+#define MAX_INPUT_LENGTH         2048  /* JR: changed from 256 */
 #define PAGELEN                    22
 
 /*
@@ -656,11 +648,11 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_ALIAS                  20
 #define MAX_CLASS                   4
 #define MAX_PC_RACE                12
-#define MAX_LEVEL                  100
+#define MAX_LEVEL                 100
 #define MAX_EXP            2147483647
 #define MAX_CHUNKS                 80   /* Used in ssm.c */
 #define MAX_OUTPUT_BUFFER     3200000  // JR increased by factor of 100
-/* Allows you to tune how easy/hard it is to level.  For instance 0.75 would give you only
+/* Allows you to tune how easy/hard it is to level. For instance 0.75 would give you only
  * 75% of the exp you'd normally get from any task basically making it 25% hard to level - Zane */
 #define EXP_MULTIPLIER             1
 #define MAX_ATTACK_TYPE            32
@@ -677,8 +669,8 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
 #define PULSE_MOBILE              ( 4 * PULSE_PER_SECOND)
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
-#define PULSE_TICK                (20 * PULSE_PER_SECOND)
-#define PULSE_AREA                (30 * PULSE_PER_SECOND)
+#define PULSE_TICK                (20 * PULSE_PER_SECOND)   /* Ticks are a little faster on Mudpi */
+#define PULSE_AREA                (30 * PULSE_PER_SECOND)   /* Area repops are faster too */
 #define AUCTION_LENGTH                    5
 #define MINIMUM_BID                     10  /*set this to whatever. -Lancelight */
 #define IMPLEMENTOR             MAX_LEVEL
@@ -1794,7 +1786,7 @@ of combat. */
 /* Begin other config options.
    A large amount of thes options are turned off to start with.
    Next to each one is a brief description of what changes when
-   the option is enabled or disabled.  When one of these options
+   the option is enabled or disabled. When one of these options
    is changed, it is usually best to recompile all the object files
    and not just the ones affected.   - Kyle 
  */
@@ -1812,15 +1804,15 @@ of combat. */
  */
 /* This actives a command called "setedit" and makes it so all players
    not at MAX_LEVEL cannot use the edit command unless an IMP uses setedit
-   on them first.  Use this option if you don't want unauthorized building going on.
+   on them first. Use this option if you don't want unauthorized building going on.
  */
 
 /*
 #define REQUIRE_MUDPROG_PERMISSION
  */
-/* Same as REQUIRE_EDIT_PERMISSION, but only for MudProgs.  This way, only
-   approved players can create mprogs.  This is useful to prevent crashes and 
-   abuse of mprogs by some uneducated or beginning imms.  The IMP command is
+/* Same as REQUIRE_EDIT_PERMISSION, but only for MudProgs. This way, only
+   approved players can create mprogs. This is useful to prevent crashes and 
+   abuse of mprogs by some uneducated or beginning imms. The IMP command is
    "setprog".
  */
 
@@ -1828,14 +1820,14 @@ of combat. */
 #define HEAVY_DEBUG
  */
 /* This option uses a HUGE amount of disk access, so it will probably lag your mud
-   unless you have extremely fast disk access time.  Enabling this causes the mud to
+   unless you have extremely fast disk access time. Enabling this causes the mud to
    record what it does before it does it in certain critical functions, namely interpret()
-   and the XXXX_update functions.  If you do not have a debugger or your debugger is not
-   producing usable results then try enabling this.  It will create a ####.last file in the
-   log directory, where #### is the number of the current log file.  It is a small file
-   and will be only 3 lines long at all times.  However, it will be updated over 30 times
-   per second.  When the mud crashes, check the most recent ####.last file and it will tell
-   you what the mud was doing at the time of the crash.  This alternative to log all will
+   and the XXXX_update functions. If you do not have a debugger or your debugger is not
+   producing usable results then try enabling this. It will create a ####.last file in the
+   log directory, where #### is the number of the current log file. It is a small file
+   and will be only 3 lines long at all times. However, it will be updated over 30 times
+   per second. When the mud crashes, check the most recent ####.last file and it will tell
+   you what the mud was doing at the time of the crash. This alternative to log all will
    not spam the log files like log all, remains set over crashes, and will tell you if the
    mud crashes doing something besides interpreting a command.  -Kyle
  */
@@ -1850,7 +1842,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 
 #define ANNOUNCE_CONNECTIONS
 /* Defining this sets the option to announce the entry into the mud of players via the
-   info channel.  Wizinvis imms are not announced. */
+   info channel. Wizinvis imms are not announced. */
 
 #ifdef ANNOUNCE_CONNECTIONS
 #define IMMS_CAN_HIDE
@@ -1871,7 +1863,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 #define USE_MORGUE
 #define ROOM_VNUM_MORGUE 3360
 
-/* Set this to send all player corpses to the morgue when a player dies.  Room
+/* Set this to send all player corpses to the morgue when a player dies. Room
    3001 is the temple, so you should probably create your own morgue and set 
    ROOM_VNUM_MORGUE to its vnum.
  */
@@ -1887,8 +1879,8 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 #define SHOW_DAMAGE_TO_CHARS
 
 /* With this defined, characters see exactly how much damage they do to a mob.
-   From experience, most players really like this feature.  However, many mud
-   administrators do not like it.  It's your choice.
+   From experience, most players really like this feature. However, many mud
+   administrators do not like it. It's your choice.
  */
 
 #define NO_OLC_WEATHER
@@ -1911,7 +1903,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
  * to help OLC */
 #define TODO_EDIT_LEVEL MAX_LEVEL
 
-/* With this defined, the amount of faction change will be shown.  Comment
+/* With this defined, the amount of faction change will be shown. Comment
  * it out if you don't like it. */
 #define FACTION_SHOW_CHANGE_AMOUNT
 
@@ -1956,7 +1948,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 #define CFG_FACTION_SHOPKEEPER_ABSOLUTE_MIN -75
 
 /* These multipliers affect the cost of an item based upon your faction
- * standing with the shopkeeper.  Note: If a shopkeeper gives someone
+ * standing with the shopkeeper. Note: If a shopkeeper gives someone
  * a discount when they buy from him, he'll also offer the same percent 
  * more when that person sells to him. */
 #define CFG_FACTION_SHOPKEEPER_MIN   3  /* 200% mark-up  */

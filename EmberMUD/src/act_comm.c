@@ -43,7 +43,9 @@ void do_delet( CHAR_DATA * ch, char *argument )
 void do_delete( CHAR_DATA * ch, char *argument )
 {
     char strsave[MAX_INPUT_LENGTH];
-
+    char strbackup[MAX_INPUT_LENGTH];
+    char buf[MAX_INPUT_LENGTH];
+    
     if ( IS_NPC( ch ) )
         return;
 
@@ -76,8 +78,12 @@ void do_delete( CHAR_DATA * ch, char *argument )
         {
             sprintf( strsave, "%s/%s", sysconfig.player_dir,
                      capitalize( ch->name ) );
+            sprintf( strbackup, "%s/deleted/%d-%s", sysconfig.player_dir,
+                     time( NULL ), capitalize( ch->name ) );
+            sprintf( buf, "%s has deleted.", ch->name );
+            do_sendinfo( ch, buf );
             do_quit( ch, "" );
-            unlink( strsave );
+            rename( strsave, strbackup ); // JR: Backup deleted chars
             return;
         }
     }
@@ -90,7 +96,7 @@ void do_delete( CHAR_DATA * ch, char *argument )
 
     send_to_char( "Type delete again to confirm this command.\n\r", ch );
     send_to_char
-        ( "WARNING: this command is irreversible and your character will be permanently gone.\n\r",
+        ( "WARNING: this command can only be reversed by an admin.\n\r",
           ch );
     send_to_char( "Typing delete with an argument will undo delete status.\n\r",
                   ch );
@@ -389,7 +395,7 @@ void do_gossip( CHAR_DATA * ch, char *argument )
 
 #ifdef USE_GOCIAL
 
-/*  This is an attempt to add gocials to EmberMUD.  They will be
+/*  This is an attempt to add gocials to EmberMUD. They will be
  *  fully configurable and documented in config.h when I am done
  *
  */
@@ -2357,7 +2363,7 @@ const struct pose_table_type pose_table[] = {
       "You levitate as $n prays.",
       "You produce a coin from everyone's ear.",
       "$n produces a coin from your ear.",
-      "Oomph!  You squeeze water out of a granite boulder.",
+      "Oomph! You squeeze water out of a granite boulder.",
       "Oomph!  $n squeezes water out of a granite boulder."}
      },
 
@@ -3060,11 +3066,11 @@ void do_split( CHAR_DATA * ch, char *argument )
     ch->gold += share + extra;
 
     sprintf( buf,
-             "You split %d gold coins.  Your share is %d gold coins.\n\r",
+             "You split %d gold coins. Your share is %d gold coins.\n\r",
              amount, share + extra );
     send_to_char( buf, ch );
 
-    sprintf( buf, "$n splits %d gold coins.  Your share is %d gold coins.",
+    sprintf( buf, "$n splits %d gold coins. Your share is %d gold coins.",
              amount, share );
 
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
@@ -3197,7 +3203,7 @@ void do_spousetalk( CHAR_DATA * ch, char *argument )
 
     /*
      * Look through all the currently connected players for the player's
-     * spouse.  If we don't find the spouse online let the calling player
+     * spouse. If we don't find the spouse online let the calling player
      * know.
      */
     for ( d = descriptor_list; d != NULL; d = d->next )

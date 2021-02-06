@@ -13,7 +13,7 @@ wyvern~
 the wyvern~
 A monstrous wyvern slowly circles just above your head.
 ~
-This huge winged creature looks really menacing.  You are happy it doesn't
+This huge winged creature looks really menacing. You are happy it doesn't
 APPEAR to be very hungry ... yet.
 ~
 Wyvern~
@@ -22,7 +22,7 @@ AG DFT -200 S
 100 0 0 0 8d8+80 1d1+149 2d6+1 10
 5 4 5 6
 CDFHNR L 0 S
-8 8 3 0
+8 8 -1 0
 BZc ACDEFHJKQUVX H 0
 #3501
 goblin mountain~
@@ -61,7 +61,7 @@ the Innkeeper~
 The Innkeeper stands here, cleaning glasses.
 ~
 The Innkeeper now spends most of his days waiting for customers, while the
-nights are spent watching out for goblins.  His inn is no longer the happy
+nights are spent watching out for goblins. His inn is no longer the happy
 place that is used to be in days past.
 ~
 Human~
@@ -77,7 +77,7 @@ bard~
 the bard~
 A sullen bard is here, drinking away his problems.
 ~
-You can smell the alcohol on his breath from across the room.  This poor bard
+You can smell the alcohol on his breath from across the room. This poor bard
 has been sitting here quite a while, drinking himself into oblivion.
 ~
 Human~
@@ -125,7 +125,7 @@ goblin leader~
 the goblin leader~
 The goblin leader surveys the room.
 ~
-The leader doesn't look too happy that you have found him here.  He grabs
+The leader doesn't look too happy that you have found him here. He grabs
 for his shortsword and lunges for your neck.
 ~
 goblin~
@@ -258,8 +258,8 @@ S
 #3502
 The Cross Roads~
 Here, the great eastern road intersects with an older road between the mines
-of Moria and the ruined city of Thalos.  The outskirts of Midgaard lie to your
-west, and the highway continues the the east.  An old northern road leads to
+of Moria and the ruined city of Thalos. The outskirts of Midgaard lie to your
+west, and the highway continues the the east. An old northern road leads to
 the dwarven kingdom and the abandoned mines of Moria, while the southern road
 shows the scars of the war which destroyed Thalos.
 ~
@@ -488,9 +488,9 @@ The forest continues here.
 S
 #3513
 The Miden'nir~
-The forest is dark, and becomes even darker west.  You sense
-that there is something evil hidden in these woods.  The forest gets
-lighter to the north.  The wind kicks up as you ponder your options.
+The forest is dark, and becomes even darker west. You sense
+that there is something evil hidden in these woods. The forest gets
+lighter to the north. The wind kicks up as you ponder your options.
 ~
 0 0 3
 D0
@@ -507,7 +507,7 @@ S
 #3514
 Deep Forest~
 It is quite dark here, forest surrounds you. With each step, the forest
-seems to close around you, and get darker and more foreboding.  It might just
+seems to close around you, and get darker and more foreboding. It might just
 be time to head back to somewhere safe.
 ~
 0 0 3
@@ -535,7 +535,7 @@ S
 #3515
 Light Forest~
 The forest is light here and you can easily pick your way through the 
-trail.  To the east, the forest becomes thick and darker. South, the trail
+trail. To the east, the forest becomes thick and darker. South, the trail
 continues.
 ~
 0 0 3
@@ -620,7 +620,7 @@ Dark forests.
 S
 #3519
 The Dark Path~
-You are hemmed in by trees on either side of you.  The path continues
+You are hemmed in by trees on either side of you. The path continues
 north and south, and while is much to thick to explore west, you can head
 off into the woods to the east.  
 ~
@@ -643,9 +643,9 @@ There is a strong stench coming from this direction.
 S
 #3520
 The Dark Forest~
-You stomp your way through the underbrush.  The dark forest of Miden'nir
+You stomp your way through the underbrush. The dark forest of Miden'nir
 get pretty thick here, and the branches high above your head are so thick that
-they block out all direct sunlight.  While it is much too thick to go
+they block out all direct sunlight. While it is much too thick to go
 further east, you might be able to make your way though the forest to the
 south and west.
 ~
@@ -713,7 +713,7 @@ S
 #3523
 The Dark Forest~
 The branches above you block out all direct sunlight, making the forest
-in this area rather dark.  The forest continues east, where it meets the
+in this area rather dark. The forest continues east, where it meets the
 mountains. The air is still and stuffy - a stench comes from the west and an
 ugly feeling causes the hair to rise on the back of your neck!
 ~
@@ -736,7 +736,7 @@ S
 #3525
 Along the Eastern Road~
 You are walking along a well-travelled road between Midgaard and lands
-east.  A northern road crosses this one to the west, towards Midgaard.  You
+east. A northern road crosses this one to the west, towards Midgaard. You
 hear faint, happy singing to the north.
 ~
 0 0 1
@@ -759,8 +759,8 @@ S
 #3526
 Along the Eastern Road~
 You are travelling down the eastern road between Midgaard and the eastern
-lands.  The road back to Midgaard is west of you, and a heavily guarded
-checkpoint is east.  A beautiful grove of trees is north, and a dirt path 
+lands. The road back to Midgaard is west of you, and a heavily guarded
+checkpoint is east. A beautiful grove of trees is north, and a dirt path 
 wanders off to the south.
 ~
 0 0 1
@@ -787,8 +787,8 @@ The road continues west towards midgaard.
 S
 #3527
 The Checkpoint~
-You are met by a group of heavily armored knights.  They check you over
-for contraband, and then allow you to pass on.  One ofthe knights cautions to
+You are met by a group of heavily armored knights. They check you over
+for contraband, and then allow you to pass on. One ofthe knights cautions to
 not stray into the desert, lest you lose your way.
 ~
 0 0 1
@@ -806,8 +806,8 @@ S
 #3528
 Along the Eastern Road~
 You are walking along a well-travelled road, just east of a heavily 
-guarded checkpoint.  You have covered about half the distance between
-the city of Midgaard and New Thalos.  The air is getting drier and the heat
+guarded checkpoint. You have covered about half the distance between
+the city of Midgaard and New Thalos. The air is getting drier and the heat
 more oppressive as you near the the barren wastes of the Sands of Sorrow.
 ~
 0 0 1
@@ -825,7 +825,7 @@ S
 #3529
 Along the Eastern Road~
 The tempatures are climbing as you near the Sands of Sorrow, a barren
-wasteland blasted by arcane powers.  Ahead of you, the road is partially
+wasteland blasted by arcane powers. Ahead of you, the road is partially
 buried by the creeping sands, and the air grows even hotter.
 ~
 0 0 1
@@ -842,9 +842,9 @@ The road continues to the west, towards distant Midgaard.
 S
 #3530
 Near the Sands of Sorrow~
-The eastern road is losing ground to the creeping desert here.  You stagger
-in the growing heat, and wonder if you have enough water.  The endless waste
-of the Sands of Sorrows is south, and the road continues east and west.  The 
+The eastern road is losing ground to the creeping desert here. You stagger
+in the growing heat, and wonder if you have enough water. The endless waste
+of the Sands of Sorrows is south, and the road continues east and west. The 
 sun paints illusions at the edge of your vision, one of them looks like a far 
 off city...
 ~
@@ -862,8 +862,8 @@ You see a clearer section of road.
 S
 #3531
 Near the Sands of Sorrow~
-The road is almost completely swallowed by the desert here.  The heat is
-sucking the life from your body, you wonder if it will ever end.  To your
+The road is almost completely swallowed by the desert here. The heat is
+sucking the life from your body, you wonder if it will ever end. To your
 south, the Sands of Sorrow stretch on for miles, and to the east you think
 you see the towers of a magnificent city...or is it just a mirage?
 ~
@@ -881,9 +881,9 @@ The desert thins a little to the west.
 S
 #3532
 On the Outskirts of New Thalos~
-The sun is hot enough to melt your armor, but salvation is at hand.  To the
+The sun is hot enough to melt your armor, but salvation is at hand. To the
 east, you see the mighty gates of New Thalos, one of the most prosperous cities
-of all of Thera.  To the south, you see the endless wasteland of the Sands
+of all of Thera. To the south, you see the endless wasteland of the Sands
 of Sorrows, and to the west you can barely make out a faint, but well-used,
 road leading to the City of Midgaard. 
 ~
@@ -902,7 +902,7 @@ S
 #3550
 At The Foot of The Mountains~
 You find yourself at the foot of the mountains, where it is much to steep
-to continue north or east.  You see the lush, green forest of Miden'nir to the
+to continue north or east. You see the lush, green forest of Miden'nir to the
 south and west.
 ~
 0 0 5
@@ -920,7 +920,7 @@ S
 #3551
 The Deep in the Forest of Miden'nir~
 The branches above you block out all direct sunlight, making the forest
-in this area very dark.  The forest continues west, but mountains block
+in this area very dark. The forest continues west, but mountains block
 further exploration in all other directions, except south, where you notice a
 small tunnel dug into the mountainside.
 ~
@@ -937,7 +937,7 @@ S
 #3552
 A Tunnel in the Mountains~
 The walls of this tunnel were carved out many years ago by the goblins of
-this forest.  The floor is well worn, and continues south, into the
+this forest. The floor is well worn, and continues south, into the
 mountain, or back north out into the forest.
 ~
 0 1 1
@@ -955,7 +955,7 @@ S
 #3553
 A Tunnel in the Mountains~
 The tunnel gets lighter to the north, presumably leading out, while to
-the south the passage gets smaller and smaller.  A small alcove has been
+the south the passage gets smaller and smaller. A small alcove has been
 carved into the east wall.
 ~
 0 1 1
@@ -977,7 +977,7 @@ The tunnel gets smaller in this direction.
 S
 #3554
 A Small Alcove~
-A small alcove has been carved out here.  There are a bunch of twigs
+A small alcove has been carved out here. There are a bunch of twigs
 and leaves thrown into a pile here, probably serving as a bed.
 ~
 0 1 1
@@ -995,8 +995,8 @@ S
 #3555
 A Tunnel in the Mountains~
 As you explore further into the mountainside, the tunnel gets smaller and
-smaller to the south.  You almost have to hunch over to make your way thru
-this area.  A small archway to the south leads into a large chamber.
+smaller to the south. You almost have to hunch over to make your way thru
+this area. A small archway to the south leads into a large chamber.
 ~
 0 1 1
 D0
@@ -1013,7 +1013,7 @@ S
 #3556
 The Goblin Headquarters~
 The tunnel widens into a large (well, large for goblins) cavern that
-serves as the living quarters for the goblins of Miden'nir.  The bones of
+serves as the living quarters for the goblins of Miden'nir. The bones of
 numbers woodland creatures are strewn about the room, the remanents of a
 recent meal.
 ~
@@ -1034,11 +1034,6 @@ return to the forest.
 ~
 0 0 3
 E
-sign~
-The sign reads:
-   The Woodsman
-~
-E
 credits credit author~
 +-------------------------------------------------+
 | This zone originally written for Copper II DIKU |
@@ -1046,6 +1041,11 @@ credits credit author~
 | Modification and alterations for MERCmud DIKU   |
 |   by VampLestat                        1 JAN 93 |
 +-------------------------------------------------+
+~
+E
+sign~
+The sign reads:
+   The Woodsman
 ~
 D0
 You can go north around the inn.
@@ -1071,7 +1071,7 @@ S
 #3571
 North of the Inn~
 You are standing north of the inn. Things don't look much different
-from this angle.  The air here is filled with smells of smoke and cooking.
+from this angle. The air here is filled with smells of smoke and cooking.
 South, the front porch is waiting for you... or you can see if there is
 a back door.
 ~
@@ -1084,8 +1084,8 @@ You see the front of the Inn.
 S
 #3572
 South of the Inn~
-You are standing south of the inn.  You could easily go north and enter
-through the front door, or west and to the rear of the establishment.  You
+You are standing south of the inn. You could easily go north and enter
+through the front door, or west and to the rear of the establishment. You
 here some muffled cries from a tiny trail leading south of here.
 ~
 0 0 3
@@ -1158,7 +1158,7 @@ S
 The Ambush Point~
 This is a overgrown foot-trail south of the inn. It leads west, but you
 would be hard pressed to follow it far. A number of bushes are trampled on
-and some medium sized branches have been knocked down.  Obviously there has
+and some medium sized branches have been knocked down. Obviously there has
 been a battle here rather recently.
 ~
 0 0 3
@@ -1189,8 +1189,8 @@ You may retreat south back to the common room.
 S
 #3577
 The Bard's Table~
-You are in a darker corner in the Inn.  A large round table with a few
-wooden chairs sits here.  There is a large stain on the table, the remnants
+You are in a darker corner in the Inn. A large round table with a few
+wooden chairs sits here. There is a large stain on the table, the remnants
 of a spilled drink.
 ~
 0 8 1
@@ -1202,7 +1202,7 @@ You see the main floor of the Inn to the east.
 S
 #3578
 Garbage dump~
-You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+You stand knee deep in garbage. YECCH!!! It smells terrible and who knows
 what vermin live in these piles of filth ...
 ~
 0 0 3
@@ -1226,7 +1226,7 @@ You see the common room.
 S
 #3581
 On the Trail of the Horsemen~
-The path continues east and west of here.  You notice fresh tracks in
+The path continues east and west of here. You notice fresh tracks in
 the soft ground that show the horsemen fled to the west.
 ~
 0 0 3
@@ -1243,7 +1243,7 @@ The trail continues.
 S
 #3582
 On the Trail of the Horsemen~
-The path continues east and south.  You notice fresh tracks in
+The path continues east and south. You notice fresh tracks in
 the soft ground that show the horsemen turned, and fled south.
 ~
 0 0 3
@@ -1261,7 +1261,7 @@ S
 #3583
 On the Trail of the Horsemen~
 The trail of the horsemen continues east and north along this path through
-the forest.  The tracks are still fresh, so they must be near.
+the forest. The tracks are still fresh, so they must be near.
 ~
 0 0 3
 D0
@@ -1278,8 +1278,8 @@ S
 #3584
 A Dead End Trail~
 The path comes to an abrupt end here, as the trees close around you and
-make any further exploration impossible.  Fresh tracks cover the ground, and
-end right here.  The horsemen must be nearby.
+make any further exploration impossible. Fresh tracks cover the ground, and
+end right here. The horsemen must be nearby.
 ~
 0 0 3
 D1
@@ -1347,6 +1347,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

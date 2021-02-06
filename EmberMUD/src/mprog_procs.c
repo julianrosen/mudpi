@@ -7,16 +7,16 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
 /***************************************************************************
- * MudProgs has been completely rewritten by Zane.  The only thing that    *
+ * MudProgs has been completely rewritten by Zane. The only thing that    *
  * remains the same is how triggers are handled.  -Zane                    *
  *                                                                         *
  * Original MobProgs by N'Atas-ha.                                         *
@@ -46,8 +46,8 @@ extern void parse_command_var( char var, char *outbuf );
  *     'N'  - No args
  * 
  * Execproc guarantees that the proper argument type is passed to avoid
- * crashes.  If you specify the wrong argtype here and expect a different argtype
- * in your proc then you will crash.  All arguments passed to these procs are of
+ * crashes. If you specify the wrong argtype here and expect a different argtype
+ * in your proc then you will crash. All arguments passed to these procs are of
  * type (void *) and need to be cast to the proper type before used.
  *
  * -Zane

@@ -7,14 +7,14 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Thanks to abaddon for proof-reading our comm.c and pointing out bugs.  *
  *  Any remaining bugs are, of course, our work, not his.  :)              *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -714,7 +714,7 @@ int game_loop( int control )
         if ( reap_shells )
         {
             CHAR_DATA *ch;
-            /* No one in the shell list?  Then don't reap shells anymore! */
+            /* No one in the shell list? Then don't reap shells anymore! */
             if ( !shell_char_list )
             {
                 reap_shells = FALSE;
@@ -1043,26 +1043,12 @@ void new_descriptor( int control )
                  ( addr >> 8 ) & 0xFF, ( addr ) & 0xFF );
         sprintf( log_buf, "Sock.sinaddr:  %s", buf );
         log_string( log_buf );
-
-        /* 
-         * If NO_RDNS is defined don't try to look up the host name by IP.
-         * Documented in config.h
-         */
-#ifndef NO_RDNS
-        from = gethostbyaddr( ( char * ) &sock.sin_addr,
-                              sizeof( sock.sin_addr ), AF_INET );
-        if ( from && ( !str_cmp( from->h_name, "ursula.uoregon.edu" )
-                       || !str_cmp( from->h_name, "monet.ucdavis.edu" ) ) )
-            dnew->host = str_dup( "white.nextwork.rose-hulman.edu" );
-        else
-            dnew->host = str_dup( from ? from->h_name : buf );
-#else
         dnew->host = str_dup( buf );
-#endif
+
     }
 
     /*
-     * Swiftest: I added the following to ban sites.  I don't
+     * Swiftest: I added the following to ban sites. I don't
      * endorse banning of sites, but Copper has few descriptors now
      * and some people from certain sites keep abusing access by
      * using automated 'autodialers' and leaving connections hanging.
@@ -1076,7 +1062,7 @@ void new_descriptor( int control )
     dnew->next = descriptor_list;
     descriptor_list = dnew;
     /*write_to_buffer( dnew, CFG_CONNECT_MSG, 0 );
-    write_to_buffer( dnew, CFG_ASK_ANSI, 0 );*/ /* Removed by JR*/
+    write_to_buffer( dnew, CFG_ASK_ANSI, 0 );*/ /* Removed by JR to streamline web interface */
     return;
 }
 
@@ -1822,7 +1808,7 @@ check_ban function.
 
 /* RT's code for breaking link sucked... you could cheat and duplicate all your gear. 
    This version disconnects the old character and prompts you to re-enter your name 
-   password.  This way you won't have loaded the pfile containing objects and such
+   password. This way you won't have loaded the pfile containing objects and such
    which you may have dropped on the ground, resulting in two copies of any object,
    even special or quest objects. -- Kyle */
 

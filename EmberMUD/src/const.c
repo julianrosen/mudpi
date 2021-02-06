@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -385,7 +385,7 @@ const struct pc_race_type pc_race_table[] = {
    VERY screwed up.  
 
    Another very important thing:
-   Don't forget the console class!  If you add any more classes,
+   Don't forget the console class! If you add any more classes,
    you NEED to remember that the console class is the fifth one
    but you can probably just put zeroes for all its values.
 
@@ -789,7 +789,7 @@ const struct liq_type liq_table[LIQ_MAX] = {
  */
 #define SLOT(n)	n
 
-struct skill_type skill_table[MAX_SKILL] = {
+struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry are level and CP. But these get overwritten by Class */
 
 /*
  * Magic spells.
@@ -875,7 +875,7 @@ struct skill_type skill_table[MAX_SKILL] = {
      "lightning", "!Chain Lightning!"},
 
     {
-     "change sex", {53, 53, 53, 53}, {1, 1, 2, 2},
+     "change sex", {20, 15, 50, 50}, {1, 1, 2, 2},
      spell_change_sex, TAR_CHAR_DEFENSIVE, POS_FIGHTING,
      NULL, SLOT( 82 ), 15, 0,
      "", "Your body feels familiar again."},
@@ -1622,13 +1622,15 @@ struct skill_type skill_table[MAX_SKILL] = {
      spell_null, TAR_IGNORE, POS_STANDING,
      &gsn_sneak, SLOT( 0 ), 0, 0,
      "", "You no longer feel stealthy."},
-
+    
     {
      "steal", {50, 50, 5, 50}, {0, 0, 4, 0},
      spell_null, TAR_IGNORE, POS_STANDING,
      &gsn_steal, SLOT( 0 ), 0, 24,
      "", "!Steal!"},
+    
 
+    
     {
      "scrolls", {1, 1, 1, 1}, {2, 3, 5, 8},
      spell_null, TAR_IGNORE, POS_STANDING,
@@ -1683,9 +1685,8 @@ struct skill_type skill_table[MAX_SKILL] = {
      "vicious strike", {50, 50, 50, 30}, {0, 0, 0, 5},
      spell_null, TAR_IGNORE, POS_STANDING,
      &gsn_vicious_strike, SLOT( 0 ), 0, 0,
-     "", "!Vicious!"}
+     "", "!Vicious!"},
     
-
 };
 
 const struct group_type group_table[MAX_GROUP] = {

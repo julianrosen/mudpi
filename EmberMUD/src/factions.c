@@ -323,7 +323,7 @@ bool factedit_create( CHAR_DATA * ch, char *argument )
 
     if ( !pFact )
     {
-        send_to_char( "ERROR!  Could not create a new faction!\n\r", ch );
+        send_to_char( "ERROR! Could not create a new faction!\n\r", ch );
         return FALSE;
     }
 
@@ -366,14 +366,14 @@ bool factedit_name( CHAR_DATA * ch, char *argument )
     if ( strlen( argument ) != str_len( argument ) )
     {
         send_to_char
-            ( "ERROR!  Color codes are not allowed in faction names.\n\r", ch );
+            ( "ERROR! Color codes are not allowed in faction names.\n\r", ch );
         return FALSE;
     }
 
     if ( strlen( argument ) > 20 )
     {
         send_to_char
-            ( "ERROR!  Faction names must be 20 characters or less.\n\r", ch );
+            ( "ERROR! Faction names must be 20 characters or less.\n\r", ch );
         return FALSE;
     }
 
@@ -519,13 +519,13 @@ void affect_factions( CHAR_DATA * ch, CHAR_DATA * victim )
 
     if ( IS_NPC( ch ) )
     {
-        bug( "affect_factions: ch is an NPC?  Doing nothing.", 0 );
+        bug( "affect_factions: ch is an NPC? Doing nothing.", 0 );
         return;
     }
 
     if ( !IS_NPC( victim ) )
     {
-        bug( "affect_factions: victim isn't an NPC?  Doing nothing.", 0 );
+        bug( "affect_factions: victim isn't an NPC? Doing nothing.", 0 );
         return;
     }
 
@@ -933,7 +933,7 @@ void set_faction( CHAR_DATA * ch, CHAR_DATA * victim, sh_int vnum,
         }
     }
 
-    printf_to_char( ch, "%s has no faction #%d.  Creating...\n\r", victim->name,
+    printf_to_char( ch, "%s has no faction #%d. Creating...\n\r", victim->name,
                     vnum );
 
     pFactPC = alloc_mem( sizeof( FACTIONPC_DATA ) );

@@ -614,7 +614,6 @@ void do_spells( CHAR_DATA * ch, char *argument )
     {
         if ( skill_table[sn].name == NULL )
             break;
-
         if ( skill_table[sn].skill_level[ch->Class] < LEVEL_HERO &&
              skill_table[sn].spell_fun != spell_null &&
              ch->pcdata->learned[sn] > 0 )

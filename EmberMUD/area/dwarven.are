@@ -89,7 +89,7 @@ the giant lizard~
 A giant lizard is here.
 ~
 This scaly creature looks like it is well adapted to it's underground
-habitat.  He looks very powerful.
+habitat. He looks very powerful.
 ~
 lizard~
 AGT D 100 S
@@ -190,7 +190,7 @@ AHMV ABCDEFGHIJK M 0
 #6512
 dwarf son~
 the unwanted son~
-An unwanted son is here.  You feel sorry for the guy.
+An unwanted son is here. You feel sorry for the guy.
 ~
 (null)~
 Dwarf~
@@ -204,7 +204,7 @@ AHMV ABCDEFGHIJK M 0
 #6513
 dwarf daughter~
 the unwanted daughter~
-An unwanted daughter is here.  You feel sorry for her.
+An unwanted daughter is here. You feel sorry for her.
 ~
 (null)~
 Dwarf~
@@ -232,7 +232,7 @@ AHMV ABCDEFGHIJK M 0
 #6515
 man~
 the man in waiting~
-A man in waiting is here.  He looks nervous and unsure of himself.
+A man in waiting is here. He looks nervous and unsure of himself.
 ~
 (null)~
 Human~
@@ -334,9 +334,9 @@ unknown~
 AC AC C A F
 17 5 170 P
 A
-1 2
-A
 18 2
+A
+1 2
 #6510
 helmet~
 a dwarven helmet~
@@ -354,9 +354,9 @@ unknown~
 0 0 0 0 0
 19 1 1000 P
 A
-19 1
-A
 18 1
+A
+19 1
 #6512
 gloves~
 dwarven gloves~
@@ -366,9 +366,9 @@ unknown~
 BC BC BC 0 0
 19 2 1000 P
 A
-2 1
-A
 1 1
+A
+2 1
 #6513
 note~
 a note~
@@ -379,7 +379,7 @@ unknown~
 7 0 70 P
 E
 note letter letters~
-It seems to be a hot love letter from the Queen.  Unfortunately,
+It seems to be a hot love letter from the Queen. Unfortunately,
 it's not suitable for transmission across a public data network.
 ~
 #6514
@@ -425,7 +425,7 @@ unknown~
 E
 birth control pills pill~
 They are in a circular container, and there are numbers corresponding
-to the day that they are to be taken.  You can tell they haven't been
+to the day that they are to be taken. You can tell they haven't been
 used for a while.
 ~
 #6520
@@ -459,7 +459,7 @@ map castle strangelove~
                                 \ Stairs  \
                                  \_________\    * - You need the Deep Green
                                     |               Key to get beyond this
-                __________     _____|____           point.  This key can be
+                __________     _____|____           point. This key can be
                 \ Door to \    \ Inside  \          found on the Wraith in
                  \ Castle  \-[]-\ Castle  \         the wine cellar or on one
                   \_________\    \_________\        of the Dwarven Guards on
@@ -485,9 +485,9 @@ map castle strangelove~
 #6500
 Path to Dwarven Village~
 All around you are the mountains of the southern range, home of dwarves and 
-giants.  You can climb back down the mountains to the west and leave these 
-realms, or seek riches in the northern mineshafts.  A dirt road leads south, 
-towards a small building.  You can hear crying and shrieking coming from it.
+giants. You can climb back down the mountains to the west and leave these 
+realms, or seek riches in the northern mineshafts. A dirt road leads south, 
+towards a small building. You can hear crying and shrieking coming from it.
 ~
 0 0 2
 D0
@@ -508,7 +508,7 @@ A rocky road leads back to Midgaard and the mines of Moria.
 S
 #6501
 Path, base of mountain~
-Now you are at the bottom of a rugged mountain.  The forest around you is
+Now you are at the bottom of a rugged mountain. The forest around you is
 very dense, and it seems very dark to the north.
 ~
 0 0 4
@@ -542,8 +542,8 @@ The base of the mountain is near.
 S
 #6503
 Top of mountain~
-You are now on the top of the mountain.  To the south you see a path
-leading down the mountain.  To the east and west you see entrances to
+You are now on the top of the mountain. To the south you see a path
+leading down the mountain. To the east and west you see entrances to
 what seems like mines.
 ~
 0 0 4
@@ -565,8 +565,8 @@ There is an entrance to the mountain.
 S
 #6504
 Narrow Path~
-This is a narrow path leading to the Dwarven Kingdom.  It looks less
-travelled than the others, and it is very creepy.  The path opens up
+This is a narrow path leading to the Dwarven Kingdom. It looks less
+travelled than the others, and it is very creepy. The path opens up
 to the south, and continues to the north.
 ~
 0 8 0
@@ -581,7 +581,7 @@ D2
 S
 #6505
 Entrance to Mountain~
-Here is an entrance to the mountain.  The door looks very well built,
+Here is an entrance to the mountain. The door looks very well built,
 and you can hear noise coming from within.
 ~
 0 0 2
@@ -596,8 +596,8 @@ door~
 S
 #6506
 Bend in Narrow Path~
-This is a narrow path that bends to the east here.  The trees hang over
-the path, and it is very overgrown.  The narrow path continues to the
+This is a narrow path that bends to the east here. The trees hang over
+the path, and it is very overgrown. The narrow path continues to the
 south and to the east.
 ~
 0 8 0
@@ -630,7 +630,7 @@ D3
 S
 #6508
 Narrow north-south path~
-This path leads to the north and south.  To the north you can see a
+This path leads to the north and south. To the north you can see a
 door, and to the south the path continues.
 ~
 0 8 0
@@ -645,7 +645,7 @@ D2
 S
 #6509
 Door to Kingdom~
-Here the path turns to the west.  You can see a door in front of you,
+Here the path turns to the west. You can see a door in front of you,
 and the path continues to the west and south.
 ~
 0 8 0
@@ -664,7 +664,7 @@ D3
 S
 #6510
 Path to the Castle~
-You are on a path that will eventually lead to the castle.  It
+You are on a path that will eventually lead to the castle. It
 continues north to the castle, and there is a door on the western wall.
 ~
 0 8 0
@@ -680,7 +680,7 @@ S
 #6511
 Still on the path to the Castle~
 You are still on the path to the castle, or back to the Dwarven village,
-whichever way you wish to go.  The path continues to the north and south.  
+whichever way you wish to go. The path continues to the north and south.  
 ~
 0 8 0
 D0
@@ -694,9 +694,9 @@ D2
 S
 #6512
 Door to Castle~
-Here there is a door to the castle to the east.  The castle
+Here there is a door to the castle to the east. The castle
 is elegantly designed, and looks much like a roll of toilet paper
-standing on end.  A sign says:
+standing on end. A sign says:
 
               ******************************************
               *  WELCOME TO THE CASTLE OF STRANGELOVE  *
@@ -715,7 +715,7 @@ D2
 S
 #6513
 Inside the entrance~
-Everything here is covered in soot and very grimy.  The path continues
+Everything here is covered in soot and very grimy. The path continues
 to the east and north, and there is a door to the west.
 ~
 0 8 0
@@ -768,7 +768,7 @@ The Hide & Tooth shop is seen to the west.
 S
 #6516
 Hide & Tooth Shop~
-You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
+You are in the Hide & Tooth shop. Here you may buy the finest in Dwarven
 weapons and armors. The path continues to the north and east.
 ~
 0 8 0
@@ -783,7 +783,7 @@ D1
 S
 #6517
 Path to the north of shop~
-You are on a path to the north of the Hide & Tooth shop.  The path continues
+You are on a path to the north of the Hide & Tooth shop. The path continues
 to the north, and there is Granite Head's bakery to the west.
 ~
 0 8 0
@@ -817,7 +817,7 @@ D2
 S
 #6519
 Path by Hospital~
-Here the path passes by the Hospital to the north.  It continues
+Here the path passes by the Hospital to the north. It continues
 to the east to the barracks, and to the west.
 ~
 0 8 0
@@ -866,7 +866,7 @@ S
 #6522
 Guard House~
 You are in the guard house to the west of the entrance
-to the castle.  There are nude posters covering the walls.
+to the castle. There are nude posters covering the walls.
 ~
 0 8 0
 E
@@ -880,7 +880,7 @@ D1
 S
 #6523
 First Barrack room~
-Here is the first of two main rooms of barracks.  The
+Here is the first of two main rooms of barracks. The
 barracks continue to the south, and you can leave the room
 to the north.
 ~
@@ -896,7 +896,7 @@ D2
 S
 #6524
 Back of Barracks~
-Here is the back of the dwarven barracks.  There are rows
+Here is the back of the dwarven barracks. There are rows
 of beds here, and there is a stench that is unbearable.
 ~
 0 8 0
@@ -911,8 +911,8 @@ floorboards boards~
 S
 #6525
 Inside of Castle Strangelove~
-You are just inside the castle.  It is very tubular in shape, and it is
-very featureless.  There is a set of stairs that lead up, and the door leads
+You are just inside the castle. It is very tubular in shape, and it is
+very featureless. There is a set of stairs that lead up, and the door leads
 out of the castle to the west.  
 ~
 0 8 0
@@ -927,7 +927,7 @@ D4
 S
 #6526
 A store room~
-There is a layer of dust on the floor at least 3 inches thick!  It is
+There is a layer of dust on the floor at least 3 inches thick! It is
 probable that not many people have been in here for many months.
 ~
 0 9 0
@@ -976,8 +976,8 @@ D5
 S
 #6529
 Stairs~
-You are still circling around on the stairs.  You are starting to get
-dizzy from going around and around and around and around and around.  The
+You are still circling around on the stairs. You are starting to get
+dizzy from going around and around and around and around and around. The
 stairs continue up and down.  
 ~
 0 8 0
@@ -992,7 +992,7 @@ D5
 S
 #6530
 Top of stairs~
-You are at the top of the stairs in the castle.  There is an exit to the
+You are at the top of the stairs in the castle. There is an exit to the
 east, and the stairs lead down.  
 ~
 0 8 0
@@ -1007,9 +1007,9 @@ D5
 S
 #6531
 Queen's waiting room~
-This is the Queen's waiting room.  Here the men literally 'wait' for the
-queen.  You've heard that the queen really likes to get to 'know' her
-people, in the biblical sense.  The queen's bedroom is to the north, and you
+This is the Queen's waiting room. Here the men literally 'wait' for the
+queen. You've heard that the queen really likes to get to 'know' her
+people, in the biblical sense. The queen's bedroom is to the north, and you
 can see stairs to the west.  
 ~
 0 8 0
@@ -1024,7 +1024,7 @@ D3
 S
 #6532
 Bedroom~
-This is the Queen's bedroom.  The bed is all ruffled, and there
+This is the Queen's bedroom. The bed is all ruffled, and there
 is a stack of dirty sheets piled in the corner.
 
 A note has been scrawled in lipstick on the mirror:
@@ -1040,7 +1040,7 @@ door~
 S
 #6534
 Hospital~
-You are inside the Dwarven Hospital.  It smells like rubbing
+You are inside the Dwarven Hospital. It smells like rubbing
 alcohol, and there is blood all over the walls.
 ~
 0 8 0
@@ -1051,7 +1051,7 @@ D2
 S
 #6535
 Granite Head's Bakery~
-The aroma coming from this room is sensuous.  You can almost taste
+The aroma coming from this room is sensuous. You can almost taste
 the pastries dissolving in your mouth.
 ~
 0 8 0
@@ -1097,7 +1097,7 @@ S
 #6542
 Inside the mine~
 There are holes everywhere from the places that the workers blew
-away the rock to get to whatever they were looking for.  A path leads
+away the rock to get to whatever they were looking for. A path leads
 down and up.
 ~
 0 9 0
@@ -1112,7 +1112,7 @@ D5
 S
 #6543
 Path in the mine~
-You are deep inside the mine, and you feel very uncomfortable.  The
+You are deep inside the mine, and you feel very uncomfortable. The
 path continues to the east, and leads to the mineshaft to the west.
 ~
 0 9 0
@@ -1127,7 +1127,7 @@ D3
 S
 #6544
 Mine crossroad~
-You are at a crossroad in the mine.  There is a door to the north,
+You are at a crossroad in the mine. There is a door to the north,
 and the path continues to the south, east, and west.
 ~
 0 9 0
@@ -1151,7 +1151,7 @@ S
 #6545
 Coal Room~
 You are inside the storage area for the raw materials
-that are found down here.  The room is very unsturdy as the
+that are found down here. The room is very unsturdy as the
 supports are very rickety.
 ~
 0 9 0
@@ -1162,7 +1162,7 @@ D3
 S
 #6546
 Mine Maze~
-You have entered the maze of the mines.  To the east you
+You have entered the maze of the mines. To the east you
 can see some inscriptions, and you can exit to the south.
 ~
 0 9 0
@@ -1234,7 +1234,7 @@ S
 #6551
 Mining equipment room~
 This is the storage room for equipment used by the
-Dwarven miners.  It is very small, and you can tell that
+Dwarven miners. It is very small, and you can tell that
 not many miners actually use any equipment.
 ~
 0 9 0
@@ -1245,10 +1245,10 @@ D0
 S
 #6552
 Solved the Maze.~
-You have solved the maze.  You can tell by the last few moves
+You have solved the maze. You can tell by the last few moves
 that there is no way that a dumb worker could have figured that
-out.  It seems pretty desolate here.  To the south is a bleak room.
-To the north, you see the maze.  There is a sign above the south exit:
+out. It seems pretty desolate here. To the south is a bleak room.
+To the north, you see the maze. There is a sign above the south exit:
 
     Those who enter, plan on a timely death.
     Especially if you're loyal to the queen.
@@ -1265,8 +1265,8 @@ D3
 S
 #6553
 The Mazekeeper's Room~
-You have entered the Mazekeeper's room.  There are pictures of
-the Queen with darts thrown in it.  Spray-painted on the wall are
+You have entered the Mazekeeper's room. There are pictures of
+the Queen with darts thrown in it. Spray-painted on the wall are
 things like 'the queen shall suffer' and 'Catholics Rule'.
 ~
 0 9 0
@@ -1277,8 +1277,8 @@ D1
 S
 #6554
 Bottom of mineshaft~
-You are at the bottom of the mineshaft.  The air here is very sooty, and
-it is very hard to breath.  The mineshaft leads up and east.
+You are at the bottom of the mineshaft. The air here is very sooty, and
+it is very hard to breath. The mineshaft leads up and east.
 ~
 0 9 0
 D1
@@ -1294,7 +1294,7 @@ S
 The mountains of the dwarven kingdom~
 You are standing at the foot of the mountains of the dwarven kingdom, where
 dwarves and giants toil endlessly to pry gems and mithril from the mother 
-earth.  Here lies the palace of the dwarven queen, and untold riches.
+earth. Here lies the palace of the dwarven queen, and untold riches.
 But beware, for the mines are said to be haunted by demon and spirit alike.
 The dwarven kingdom lies to the east.
 ~
@@ -1442,6 +1442,11 @@ S
 #SHOPS
 6503 0 0 0 0 0 150 50 0 23
 6504 0 0 0 0 0 150 50 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

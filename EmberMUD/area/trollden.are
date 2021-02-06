@@ -13,9 +13,9 @@ guardian beast~
 the guardian beast~
 A guardian beast stares at you and snarls in rage.
 ~
-Jet black fur covers this beast.  You stare at his two huge red eyes.  You can
-count at least 50 teeth on this monster.  You can't tell whether it is blood or
-saliva dripping from the beast's jaw.  The guardian beast snarls again.
+Jet black fur covers this beast. You stare at his two huge red eyes. You can
+count at least 50 teeth on this monster. You can't tell whether it is blood or
+saliva dripping from the beast's jaw. The guardian beast snarls again.
 ~
 Human~
 ABCFGT DPQ -200 S
@@ -31,7 +31,7 @@ the young troll~
 A young troll is sitting down, chewing on a bone.
 ~
 He is a tall, wiry, furry humanoid.
-Your eyes lock with his.  He smiles, puts down his bone, and reaches for one
+Your eyes lock with his. He smiles, puts down his bone, and reaches for one
 of yours!!
 ~
 Human~
@@ -115,7 +115,7 @@ fat worm~
 a fat worm~
 A fat worm scurries around, looking for food.
 ~
-It is thick and long.  You can't find a head on this thing.
+It is thick and long. You can't find a head on this thing.
 It moves quickly, from corpse to corpse.
 ~
 Human~
@@ -132,9 +132,9 @@ the roving beast~
 A roving beast is searching for prey.
 ~
 Jet black fur covers this beast.
-You stare at his two huge red eyes.  You can count at least 50 teeth on this
-beast.  You can't tell whether it is blood or saliva dripping from the beast's
-jaw.  The roving beast snarls at you.
+You stare at his two huge red eyes. You can count at least 50 teeth on this
+beast. You can't tell whether it is blood or saliva dripping from the beast's
+jaw. The roving beast snarls at you.
 ~
 Human~
 ABCFGT DP -200 S
@@ -194,7 +194,7 @@ A
 1 1
 E
 troll skin~
-This is the skin from a huge (and dead) beast.  It looks bad, smells bad,
+This is the skin from a huge (and dead) beast. It looks bad, smells bad,
 and feels bad.
 ~
 #2803
@@ -232,9 +232,9 @@ unknown~
 C B BC ABC 0
 6 3 60 P
 A
-18 -1
-A
 19 -1
+A
+18 -1
 E
 bone~
 This piece of bone looks sturdy enough to be used as a weapon, but you
@@ -247,8 +247,8 @@ wouldn't want to entrust your life to it.
 #ROOMS
 #2801
 Wastedump~
-This room is filled with bone shards and fragments.  Something (or things)
-very big lives here.  A small plaque is on the wall.
+This room is filled with bone shards and fragments. Something (or things)
+very big lives here. A small plaque is on the wall.
 ~
 0 9 0
 E
@@ -269,15 +269,15 @@ You find the stench is stronger inside.
 S
 #2802
 Troll's Larder~
-This room has blood and grime all over the walls.  You see maggots and other
-insects crawling up them.  The resident is definitely uncivilized.  Half-eaten
+This room has blood and grime all over the walls. You see maggots and other
+insects crawling up them. The resident is definitely uncivilized. Half-eaten
 and rotting body parts scatter the floor, each having its own colony of flies,
 worms, and maggots.
 ~
 0 9 0
 E
 Half-eaten body rotting corpse~
-YUCK!  You find worms crawling in and out this poor unfortunate former human.
+YUCK! You find worms crawling in and out this poor unfortunate former human.
 ~
 D1
 You welcome the fresh breeze coming from the east, but wrinkle your nose when
@@ -288,7 +288,7 @@ the stench bears down on you once more.
 S
 #2803
 Troll's Living Room~
-This small cave opens to the north, south, east, and west.  You are
+This small cave opens to the north, south, east, and west. You are
 overcome by the stench and consider turning around.
 ~
 0 9 0
@@ -298,13 +298,13 @@ There is a trail of bone shards and fragments leading north.
 ~
 0 0 2801
 D1
-Good God!  You spy corpses all over the floor in there.  It looks like a
+Good God! You spy corpses all over the floor in there. It looks like a
 virtual graveyard in there.
 ~
 ~
 0 0 2804
 D2
-Whoa!  You reel back from the stench.  You believe you have found the source
+Whoa! You reel back from the stench. You believe you have found the source
 of this bad smell.
 ~
 ~
@@ -318,9 +318,9 @@ as they bore new holes into a corpse laying on the far wall of the west room.
 S
 #2804
 The Playpen~
-The walls are covered with blood (and body parts!?!?).  Plastered on the far
-wall you see what looks like a human arm.  A half-eaten body lies here with
-its chest ripped out.  The predator seems disinterested in it.
+The walls are covered with blood (and body parts!?!?). Plastered on the far
+wall you see what looks like a human arm. A half-eaten body lies here with
+its chest ripped out. The predator seems disinterested in it.
 ~
 0 9 0
 E
@@ -337,10 +337,10 @@ the stench bears down on you once more.
 S
 #2805
 Troll's Bedroom~
-Obviously something REALLY big lives here.  The stench is quite unbearable.
+Obviously something REALLY big lives here. The stench is quite unbearable.
 There are piles and piles of rotten and half-eaten body parts of animals,
-orcs, (and humans?) strewn across the floor.  There is a larger, more
-prominent pile of rotten parts over in a corner.  It seems to have been
+orcs, (and humans?) strewn across the floor. There is a larger, more
+prominent pile of rotten parts over in a corner. It seems to have been
 flattened by something.
 ~
 0 13 5
@@ -390,6 +390,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

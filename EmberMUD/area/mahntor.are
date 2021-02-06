@@ -570,9 +570,9 @@ unknown~
 D D D 0 0
 29 6 290 P
 A
-19 1
-A
 18 1
+A
+19 1
 E
 gloves combat~
 These gloves are plated with metal plates that provide strength and 
@@ -613,9 +613,9 @@ unknown~
 0 AC ABC BC 0
 29 24 290 P
 A
-19 3
-A
 18 3
+A
+19 3
 #2305
 cloak pitch black~
 a pitch black cloak~
@@ -677,9 +677,9 @@ unknown~
 A AC ABC ABD 0
 30 9 300 P
 A
-19 3
-A
 18 3
+A
+19 3
 E
 nightbringer short sword shortsword~
 The runes "NiGHtBrINgeR" are scrawled along the blade.
@@ -693,9 +693,9 @@ unknown~
 AD AD AD 0 0
 31 15 310 P
 A
-3 1
-A
 4 1
+A
+3 1
 #2311
 breast plate gilded gold~
 a gilded gold breast plate~
@@ -735,9 +735,9 @@ unknown~
 C AC ABC BC 0
 31 24 310 P
 A
-19 3
-A
 18 3
+A
+19 3
 E
 dawnbringer mace huge~
 The runes "DAwNbRIngER" are scrawled along the handle.
@@ -793,9 +793,9 @@ unknown~
 AB AC ABC BC 0
 31 10 310 P
 A
-19 3
-A
 18 3
+A
+19 3
 E
 staff gnarled magius~
 It appears to be simply a gnarled old limb. It feels powerful though.
@@ -851,9 +851,9 @@ unknown~
 C AC ABC BC 0
 30 13 300 P
 A
-19 2
-A
 18 2
+A
+19 2
 #2324
 symbol holy golden~
 a golden holy symbol~
@@ -917,9 +917,9 @@ unknown~
 AB AC ABC BC 0
 31 13 310 P
 A
-12 20
-A
 18 2
+A
+12 20
 E
 staff ice~
 The runes "FrIgID" are inscribed in the icy staff.
@@ -933,9 +933,9 @@ unknown~
 AD AD AD 0 0
 30 3 300 P
 A
-19 1
-A
 18 1
+A
+19 1
 #2331
 horn life~
 the horn of life~
@@ -981,9 +981,9 @@ unknown~
 0 AC ABC ABC 0
 30 15 300 P
 A
-19 1
-A
 18 1
+A
+19 1
 #2335
 pack leather small~
 a small leather pack~
@@ -1033,9 +1033,9 @@ unknown~
 A AC ABC ABD 0
 31 11 310 P
 A
-19 1
-A
 18 1
+A
+19 1
 E
 sword wicked short shortsword~
 It looks just perfect for backstabbing.
@@ -1063,9 +1063,9 @@ unknown~
 AD AD AD 0 0
 34 12 340 P
 A
-5 1
-A
 1 1
+A
+5 1
 #2342
 buckler spiked~
 a spiked buckler~
@@ -1103,9 +1103,9 @@ unknown~
 AC AC D AB 0
 34 26 340 P
 A
-19 2
-A
 18 2
+A
+19 2
 E
 axe great~
 The runes "DeAtH" are scrawled along the blade.
@@ -1145,9 +1145,9 @@ unknown~
 0 AC BC AB 0
 25 3 250 P
 A
-19 1
-A
 18 1
+A
+19 1
 E
 blade ethereal~
 You can almost see through it.
@@ -1324,9 +1324,9 @@ unknown~
 D AC AC AB 0
 20 18 200 P
 A
-19 1
-A
 18 1
+A
+19 1
 #2369
 visor blue steel helm~
 a blue steel helm and visor~
@@ -1360,9 +1360,9 @@ unknown~
 A AC BC AB F
 24 18 240 P
 A
-19 2
-A
 18 2
+A
+19 2
 #2373
 visor helm steel red~
 a red steel helm and visor~
@@ -1396,9 +1396,9 @@ unknown~
 D AC BC AB 0
 26 19 260 P
 A
-19 1
-A
 18 1
+A
+19 1
 #2377
 visor helm crimson steel~
 a crimson steel helm and visor~
@@ -1432,9 +1432,9 @@ unknown~
 C AC BC BC 0
 27 20 270 P
 A
-19 2
-A
 18 2
+A
+19 2
 E
 star morning morningstar~
 It looks damaging.
@@ -1528,11 +1528,11 @@ unknown~
 D D D 0 0
 25 13 250 P
 A
-17 10
+1 4
 A
 19 3
 A
-1 4
+17 10
 E
 gauntlets ogre power~
 They look very "handy".
@@ -2083,13 +2083,13 @@ There are small inscriptions on the rock at the base of the portal.
 ~
 0 0 2
 E
+small inscriptions inscription~
+"Enter all ye who wish to join the Brotherhood!"
+~
+E
 portal blue~
 You see a swirling blue portal of light. You think you can see glimpses of
 something moving on the "other side".
-~
-E
-small inscriptions inscription~
-"Enter all ye who wish to join the Brotherhood!"
 ~
 D0
 (null)~
@@ -2233,18 +2233,18 @@ your mind. You lose all concept of direction. Small, silent giggles can be
 heard all around. You can wander in any direction.
 ~
 0 8201 4
-D3
-(null)~
-~
-0 0 2334
-D0
-(null)~
-~
-0 0 2337
 D2
 (null)~
 ~
 0 0 2335
+D0
+(null)~
+~
+0 0 2337
+D3
+(null)~
+~
+0 0 2334
 D1
 (null)~
 ~
@@ -2258,7 +2258,7 @@ almost caresses your body as it floats about you. You can wander in any
 direction.......
 ~
 0 8201 3
-D0
+D2
 (null)~
 ~
 0 0 2333
@@ -2270,7 +2270,7 @@ D1
 (null)~
 ~
 0 0 2336
-D2
+D0
 (null)~
 ~
 0 0 2333
@@ -2282,22 +2282,22 @@ covering you in a damp sheen. There is no sound, all light is eagerly devoured
 by the mist. You feel totally and hopelessly lost.
 ~
 0 8201 4
-D2
-(null)~
-~
-0 0 2336
-D1
-(null)~
-~
-0 0 2332
 D3
 (null)~
 ~
 0 0 2332
+D2
+(null)~
+~
+0 0 2336
 D0
 (null)~
 ~
 0 0 2338
+D1
+(null)~
+~
+0 0 2332
 S
 #2335
 Lost in the Mist~
@@ -2306,10 +2306,6 @@ and denied you exit. This mist is your jailor. You cannot tell where you are.
 You hear quiet laughter all about you.
 ~
 0 8201 4
-D3
-(null)~
-~
-0 0 2331
 D2
 (null)~
 ~
@@ -2322,6 +2318,10 @@ D1
 (null)~
 ~
 0 0 2333
+D3
+(null)~
+~
+0 0 2331
 S
 #2336
 Lost in the Mist~
@@ -2330,14 +2330,6 @@ what appears to be trees and hills to the east. The mist itself thickens to
 the west, while it grows thin to the east.
 ~
 0 8201 4
-D0
-(null)~
-~
-0 0 2334
-D2
-(null)~
-~
-0 0 2338
 D3
 (null)~
 ~
@@ -2346,6 +2338,14 @@ D1
 (null)~
 ~
 0 0 2339
+D0
+(null)~
+~
+0 0 2334
+D2
+(null)~
+~
+0 0 2338
 S
 #2337
 Lost in the Mist~
@@ -2355,14 +2355,6 @@ on, but this noise is absorbed by the mist and does not travel. You can wander
 in any direction.
 ~
 0 8201 4
-D0
-(null)~
-~
-0 0 2335
-D1
-(null)~
-~
-0 0 2338
 D2
 (null)~
 ~
@@ -2371,6 +2363,14 @@ D3
 (null)~
 ~
 0 0 2338
+D1
+(null)~
+~
+0 0 2338
+D0
+(null)~
+~
+0 0 2335
 S
 #2338
 Lost in the Mist~
@@ -2379,15 +2379,15 @@ direction. You stumble blindly through the mist, oblivious to your
 surroundings.
 ~
 0 8201 3
-D3
-(null)~
-~
-0 0 2337
 D0
 (null)~
 ~
 0 0 2336
 D1
+(null)~
+~
+0 0 2337
+D3
 (null)~
 ~
 0 0 2337
@@ -2621,10 +2621,6 @@ The cold cuts to the bone. Swirling snow and wind make impossible for you to
 discern any directions.
 ~
 0 0 5
-D0
-(null)~
-~
-0 0 2353
 D2
 (null)~
 ~
@@ -2637,6 +2633,10 @@ D1
 (null)~
 ~
 0 0 2352
+D0
+(null)~
+~
+0 0 2353
 S
 #2352
 The frigid wastelands~
@@ -2645,22 +2645,22 @@ The cold cuts to the bine. Swirling snow and wind make it impossible to
 discern any directions.
 ~
 0 0 5
-D0
-(null)~
-~
-0 -1 2357
 D1
 (null)~
 ~
 0 -1 2354
-D2
-(null)~
-~
-0 -1 2358
 D3
 (null)~
 ~
 0 0 2351
+D2
+(null)~
+~
+0 -1 2358
+D0
+(null)~
+~
+0 -1 2357
 S
 #2353
 The Glacier Temple~
@@ -2690,10 +2690,6 @@ D0
 (null)~
 ~
 0 0 2359
-D2
-(null)~
-~
-0 0 2356
 D1
 (null)~
 ~
@@ -2702,6 +2698,10 @@ D3
 (null)~
 ~
 0 0 2352
+D2
+(null)~
+~
+0 0 2356
 S
 #2355
 The frigid wastelands~
@@ -2742,14 +2742,14 @@ D3
 (null)~
 ~
 0 0 2355
-D2
-(null)~
-~
-0 0 2359
 D0
 (null)~
 ~
 0 0 2354
+D2
+(null)~
+~
+0 0 2359
 S
 #2357
 The frigid wastelands~
@@ -2758,10 +2758,6 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D1
-(null)~
-~
-0 0 2358
 D2
 (null)~
 ~
@@ -2770,6 +2766,10 @@ D0
 (null)~
 ~
 0 0 2355
+D1
+(null)~
+~
+0 0 2358
 D3
 (null)~
 ~
@@ -2782,22 +2782,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any direction.
 ~
 0 0 5
-D1
-(null)~
-~
-0 0 2359
 D0
 (null)~
 ~
 0 0 2352
-D2
+D1
 (null)~
 ~
-0 0 2360
+0 0 2359
 D3
 (null)~
 ~
 0 0 2357
+D2
+(null)~
+~
+0 0 2360
 S
 #2359
 The frigid wastelands~
@@ -2806,6 +2806,10 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
+D3
+(null)~
+~
+0 0 2358
 D2
 (null)~
 ~
@@ -2818,10 +2822,6 @@ D1
 (null)~
 ~
 0 0 2357
-D3
-(null)~
-~
-0 0 2358
 S
 #2360
 The edge of the frigid wastes~
@@ -3318,12 +3318,12 @@ door is to the west. To the east, you see a heavy stone door.
 ~
 0 8 0
 E
-huge stone~
-A very formidable looking door.
-~
-E
 gold~
 Looks like the back of a secret door of sorts.
+~
+E
+huge stone~
+A very formidable looking door.
 ~
 D1
 (null)~
@@ -3385,12 +3385,12 @@ itself leads south and north.
 ~
 0 8 0
 E
-yellow~
-You see a yellow door. It has the name "Sumaron" written on it.
-~
-E
 red~
 You see a red door. It has the name "Gorak" written on it.
+~
+E
+yellow~
+You see a yellow door. It has the name "Sumaron" written on it.
 ~
 D0
 (null)~
@@ -3417,12 +3417,12 @@ black door. The hall itself leads north and south.
 ~
 0 8 0
 E
-maroon~
-You see a maroon door here. It has the name "Amyrok" written on it.
-~
-E
 black~
 You see a black door. It has the name "Darkoth" inscribed on it.
+~
+E
+maroon~
+You see a maroon door here. It has the name "Amyrok" written on it.
 ~
 D0
 (null)~
@@ -3483,12 +3483,12 @@ south.
 ~
 0 8 0
 E
-green~
-You see a green door here. It has the name "Nasturn" written on it.
-~
-E
 white~
 You see a white door here. It has the name "Tyrgoth" inscribed on it.
+~
+E
+green~
+You see a green door here. It has the name "Nasturn" written on it.
 ~
 D0
 (null)~
@@ -3580,12 +3580,12 @@ itself leads north back along the rows of doors.
 ~
 0 8 0
 E
-grey~
-You see a grey door here. It has the name "Dorgar" written on it.
-~
-E
 brown~
 You see a brown door here. It has the name "Belrak" written on it.
+~
+E
+grey~
+You see a grey door here. It has the name "Dorgar" written on it.
 ~
 D0
 (null)~
@@ -3902,6 +3902,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

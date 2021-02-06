@@ -66,9 +66,9 @@ You cackle gleefully.~
 $n throws back $s head and cackles with insane glee!~
 You cackle gleefully at $N~
 $n cackles gleefully at $N.~
-$n cackles gleefully at you.  Better keep your distance from $m.~
+$n cackles gleefully at you. Better keep your distance from $m.~
 You can't find a friend to cackle with.~
-You cackle at yourself.  Now, THAT'S strange!~
+You cackle at yourself. Now, THAT'S strange!~
 $n is really crazy now!  $e cackles at $mself.~
 #8
 giggle~
@@ -76,7 +76,7 @@ You giggle.~
 $n giggles.~
 You giggle in $S presence.~
 $n giggles at $N's actions.~
-$n giggles at you.  Hope it's not contagious!~
+$n giggles at you. Hope it's not contagious!~
 You giggle by yourself, since you can't find a partner to giggle with.~
 You giggle at yourself, which makes you giggle at yourself, which makes you ...~
 $n giggles at $mself.  $e must be nervous or something.~
@@ -105,21 +105,21 @@ growl~
 Grrrrrrrrrr...~
 $n growls.~
 Grrrrrrrrrr....take that, $N!!!~
-$n growls at $N.  Better leave the room before the fighting starts.~
-$n growls at you.  Hey, two can play it that way!~
+$n growls at $N. Better leave the room before the fighting starts.~
+$n growls at you. Hey, two can play it that way!~
 No one can see you growl that far.~
-You growl at yourself.  Boy, do you feel bitter!~
-$n growls at $mself.  This could get interesting...~
+You growl at yourself. Boy, do you feel bitter!~
+$n growls at $mself. This could get interesting...~
 #12
 scream~
 ARRRRRRRRRRGH!!!!!~
 $n screams loudly!~
-ARRRRRRRRRRGH!!!!!  Yes, it MUST have been $S fault!!!~
-$n screams loudly at $N.  Better leave before $n blames you, too!!!~
-$n screams at you!  That's not nice!  *sniff*~
+ARRRRRRRRRRGH!!!!! Yes, it MUST have been $S fault!!!~
+$n screams loudly at $N. Better leave before $n blames you, too!!!~
+$n screams at you! That's not nice!  *sniff*~
 Your lungs can't reach that far!~
-You scream at yourself.  Yes, that's ONE way of relieving tension!~
-$n screams loudly at $mself!  Is there a full moon up?~
+You scream at yourself. Yes, that's ONE way of relieving tension!~
+$n screams loudly at $mself! Is there a full moon up?~
 #13
 comfort~
 Do you feel uncomfortable?~
@@ -136,10 +136,10 @@ You sigh.~
 $n sighs.~
 You sigh as you think of $M.~
 $n sighs at the sight of $N.~
-$n sighs as $e thinks of you.  Touching, huh?~
+$n sighs as $e thinks of you. Touching, huh?~
 You really sigh, since you don't see your friend.~
-You sigh at yourself.  You MUST be lonely.~
-$n sighs at $mself.  What a sorry sight.~
+You sigh at yourself. You MUST be lonely.~
+$n sighs at $mself. What a sorry sight.~
 #15
 sulk~
 You sulk.~
@@ -179,7 +179,7 @@ $n cuddles $N.~
 $n cuddles you.~
 They aren't here.~
 You must feel very cuddly indeed ... :)~
-$n cuddles up to $s shadow.  What a sorry sight.~
+$n cuddles up to $s shadow. What a sorry sight.~
 #19
 nuzzle~
 Nuzzle who??~
@@ -216,10 +216,10 @@ You grin evilly.~
 $n grins evilly.~
 You grin evilly at $M.~
 $n grins evilly at $N.~
-$n grins evilly at you.  Hmmm.  Better keep your distance.~
+$n grins evilly at you. Hmmm. Better keep your distance.~
 You must be delirious.~
-You grin at youself.  You must be getting very bad thoughts.~
-$n grins at $mself.  You must wonder what's in $s mind.~
+You grin at youself. You must be getting very bad thoughts.~
+$n grins at $mself. You must wonder what's in $s mind.~
 #23
 bow~
 You bow deeply.~
@@ -236,17 +236,17 @@ Clap, clap, clap.~
 $n gives a round of applause.~
 You clap at $N's actions.~
 $n claps at $N's actions.~
-$n gives you a round of applause.  You MUST'VE done something good!~
+$n gives you a round of applause. You MUST'VE done something good!~
 You give your imaginary round of applause to your imaginary friend.~
-You applaud at yourself.  Boy, are we conceited!~
-$n applauds at $mself.  Boy, are we conceited!~
+You applaud at yourself. Boy, are we conceited!~
+$n applauds at $mself. Boy, are we conceited!~
 #25
 blush~
 Your cheeks are burning.~
 $n blushes.~
 You get all flustered up seeing $M.~
 $n blushes as $e sees $N here.~
-$n blushes as $e sees you here.  Such an effect on people!~
+$n blushes as $e sees you here. Such an effect on people!~
 You blush as you notice that person isn't here.~
 You blush at your own folly.~
 $n blushes as $e notices $s boo-boo.~
@@ -259,7 +259,7 @@ $n burps loudly in response to $N's remark.~
 $n burps loudly in response to your remark.~
 You can't find your victim.~
 You burp at yourself.~
-$n burps at $mself.  What a sick sight.~
+$n burps at $mself. What a sick sight.~
 #27
 chuckle~
 You chuckle politely.~
@@ -304,19 +304,19 @@ $n curtseys to $mself, since no one is paying attention to $m.~
 fart~
 Where are your manners ?~
 $n lets off a real rip-roarer ... a greenish cloud envelops $n!~
-You fart at $M.  Boy, you are sick.~
-$n farts in the direction of $N.  Better flee before $e turns to you!~
-$n farts in your direction.  You gasp for air.~
+You fart at $M. Boy, you are sick.~
+$n farts in the direction of $N. Better flee before $e turns to you!~
+$n farts in your direction. You gasp for air.~
 You can't hold it that long!~
-You fart at yourself.  You deserve it.~
-$n farts at $mself.  Better $m than you.~
+You fart at yourself. You deserve it.~
+$n farts at $mself. Better $m than you.~
 #32
 flip~
 You flip head over heels.~
 $n flips head over heels.~
 You flip $M over your shoulder.~
 $n flips $N over $s shoulder.~
-$n flips you over $s shoulder.  Hmmmm.~
+$n flips you over $s shoulder. Hmmmm.~
 You can't find the person.~
 You tumble all over the room.~
 $n does some nice tumbling and gymnastics.~
@@ -338,8 +338,8 @@ You frown at what $E did.~
 $n frowns at what $E did.~
 $n frowns at what you did.~
 You don't see any reason to frown.~
-You frown at yourself.  Poor baby.~
-$n frowns at $mself.  What a sad puppy....~
+You frown at yourself. Poor baby.~
+$n frowns at $mself. What a sad puppy....~
 #35
 gasp~
 You gasp in astonishment.~
@@ -416,7 +416,7 @@ You start to moan.~
 $n starts moaning.~
 You moan for the loss of $M.~
 $n moans for the loss of $N.~
-$n moans at the sight of you.  Hmmmm.~
+$n moans at the sight of you. Hmmmm.~
 You see no cause to moan.~
 You moan at yourself.~
 $n makes $mself moan.~
@@ -459,14 +459,14 @@ $n shrugs in response to $N's question.~
 $n shrugs in response to your question.~
 You shrug to no one in particular.~
 You shrug to yourself.~
-$n shrugs to $mself.  What a strange person.~
+$n shrugs to $mself. What a strange person.~
 #47
 sing~
 You raise your clear (?) voice towards the sky.~
 HEY CLERICS! I COULD USE A HEAL!  $n has begun to sing.~
 You sing a ballad to $M.~
 $n sings a ballad to $N.~
-$n sings a ballad to you!  How sweet!~
+$n sings a ballad to you! How sweet!~
 You see no one to sing to.~
 You sing a little ditty to yourself.~
 $n sings a little ditty to $mself.~
@@ -488,7 +488,7 @@ You smirk at $S saying.~
 $n smirks at $N's saying.~
 $n smirks at your saying.~
 You want to smirk to whom?~
-You smirk at yourself.  Okay.....~
+You smirk at yourself. Okay.....~
 $n smirks at $s own 'wisdom'.~
 #50
 snap~
@@ -529,7 +529,7 @@ $n sniffs sadly at the way $N is treating $m.~
 $n sniffs sadly at the way you are treating $m.~
 You see no reason to sniff.~
 You sniff sadly at your lost opportunities.~
-$n sniffs sadly at $mself.  Something MUST be bothering $m.~
+$n sniffs sadly at $mself. Something MUST be bothering $m.~
 #54
 snore~
 Zzzzzzzzzzzzzzzzz.~
@@ -596,7 +596,7 @@ You wave.~
 $n waves happily.~
 You wave goodbye to $N.~
 $n waves goodbye to $N.~
-$n waves goodbye to you.  Have a good journey.~
+$n waves goodbye to you. Have a good journey.~
 They didn't wait for you to wave goodbye.~
 Are you going on adventures as well??~
 $n waves goodbye to $mself.~
@@ -672,7 +672,7 @@ You pull your hair, but it will not be combed.~
 $n tries to comb $s tangled hair.~
 #68
 massage~
-Massage what?  Thin air?~
+Massage what? Thin air?~
 $~
 You gently massage $N's shoulders.~
 $n massages $N's shoulders.~
@@ -706,10 +706,10 @@ You swear loudly for a long time.~
 $n swears : #@*"*&^*#%@*&! !!!!!~
 You swear at $M.~
 $n swears at $N.~
-$n swears at you!  Where are the manners?~
+$n swears at you! Where are the manners?~
 You can't find the victim of your frustrations.~
 You swear at your own mistakes.~
-$n starts swearing at $mself.  Why don't you help?~
+$n starts swearing at $mself. Why don't you help?~
 #72
 pray~
 You feel righteous, and maybe a little foolish.~
@@ -806,10 +806,10 @@ Punch whom?~
 none~
 You punch $M playfully.~
 $n punches $N playfully.~
-$n punches you playfully.  OUCH!~
+$n punches you playfully. OUCH!~
 You can't find your boxing partner.~
-You punch yourself.  You deserve it.~
-$n punches $mself.  Why don't you join in?~
+You punch yourself. You deserve it.~
+$n punches $mself. Why don't you join in?~
 #82
 snarl~
 You grizzle your teeth and look mean.~
@@ -826,7 +826,7 @@ Spank whom?~
 none~
 You spank $M playfully.~
 $n spanks $N playfully.~
-$n spanks you playfully.  OUCH!~
+$n spanks you playfully. OUCH!~
 Your hand can't find your victim!~
 You spank yourself....HMMMMMMM...~
 $n spanks $mself....HMMMMMMM...~
@@ -835,8 +835,8 @@ hand~
 Kiss whose hand?~
 none~
 You kiss $S hand.~
-$n kisses $N's hand.  How continental!~
-$n kisses your hand.  How continental!~
+$n kisses $N's hand. How continental!~
+$n kisses your hand. How continental!~
 You can't find a lady in THIS group.~
 You kiss your own hand.~
 $n kisses $s own hand.~
@@ -849,7 +849,7 @@ $n yodels to $N.~
 $n yodels to you...you cringe and turn away.~
 That person just escaped!~
 Well, it's up to you if you want to damage your hearing.~
-$n yodels to $mself.  What a sado-masochist.~
+$n yodels to $mself. What a sado-masochist.~
 #86
 faint~
 You faint.~
@@ -953,7 +953,7 @@ $n teases $mself.~
 #96
 knee~
 Be careful, you could hurt someone!!~
-$n raises $s knee up.  UH OH!~
+$n raises $s knee up. UH OH!~
 You place your knee in $S groin, you'd better get away QUICK!~
 $N doubles over in pain as $n places $s knee in $S groin.~
 $n places $s knee in your groin - you fall to your knees in agony.~
@@ -1043,7 +1043,7 @@ none~
 #105
 hush~
 SHHHHHHHHHHHHHHHHHHHHHH~
-$n requests everyone quiet down.  Shhhhhhhhhhh...~
+$n requests everyone quiet down. Shhhhhhhhhhh...~
 You nicely ask $N to be more quiet.~
 $n nicely asks $N to be more quiet.~
 $n kindly requests that you please quiet down.~
@@ -1097,7 +1097,7 @@ $n raises an eyebrow.~
 You raise your eyebrow at $N.~
 $n raises an eyebrow at $N's weird actions.~
 $n raises an eyebrow at you.~
-Forget it.  They aren't here.~
+Forget it. They aren't here.~
 none~
 none~
 #111
@@ -1108,15 +1108,15 @@ You raise your voice in a loving serenade to $N.~
 $n raises $s voice in a loving serenade to $N.~
 $n serenades you, you are swept away by $s voice.~
 The one that you wish to serenade has left you to sing to yourself.~
-You sing a loud serenade to yourself.  What type of person are you?!~
-$n serenades $mself.  What an ego!~
+You sing a loud serenade to yourself. What type of person are you?!~
+$n serenades $mself. What an ego!~
 #112
 grimace~
 You grimace painfully at the thought.~
 $n grimaces painfully at the thought.~
 You grimace at $N.~
 $n grimaces at $n.~
-$n grimaces at you.  What could be wrong?~
+$n grimaces at you. What could be wrong?~
 You grimace at no one in particular.~
 You grimace painfully at your thoughts.~
 $n grimaces painfully to $mself.~
@@ -1127,8 +1127,8 @@ $n boggles at the concept.~
 You boggle at $N.~
 $n boggles at $n.~
 $n boggles at you.~
-Boggle away.  They've left.~
-You boggle at yourself.  Hmmm...intriguing.~
+Boggle away. They've left.~
+You boggle at yourself. Hmmm...intriguing.~
 $n boggles quietly to $mself.~
 #114
 beckon~
@@ -1143,23 +1143,23 @@ $n beckons to $s shadow to follow.~
 #115
 wonder~
 You wonder about how things could have been.~
-$n gets a blank stare on $s face.  What could $e be wondering about?~
+$n gets a blank stare on $s face. What could $e be wondering about?~
 You look at $N and wonder what will happen.~
 $n looks at $N and wonders....~
 $n looks at you quizzically.~
 You wonder what would have happened had they been here.~
 You wonder about yourself and your purpose here.~
-A blank stare crosses $n's face.  What could $e be wondering about?~
+A blank stare crosses $n's face. What could $e be wondering about?~
 #116
 worry~
 You worry about what's going to happen.~
-A troubled look suddenly crosses $n's face.  Wonder what's wrong?~
+A troubled look suddenly crosses $n's face. Wonder what's wrong?~
 You look at $N worriedly.~
 $n looks at $N with a troubled gaze.~
 $n looks at you worriedly.~
 Well they obviously aren't worried -- they left!~
 You worry about what's going to happen.~
-A troubled look suddenly crosses $n's face.  Wonder what's wrong?~
+A troubled look suddenly crosses $n's face. Wonder what's wrong?~
 #117
 drool~
 You drool down the front of your shirt.~
@@ -1179,7 +1179,7 @@ $n nods at $N.~
 $n nods at you in agreement.~
 Nod your head off -- they aren't here.~
 You attempt to nod at yourself and get dizzy instead.~
-$n nods quietly to $mself.  What a wacko.~
+$n nods quietly to $mself. What a wacko.~
 #119
 purr~
 MMMMMMEEEEEEEEEOOOOOOOOOOOOOWWWWWWWWWWW!!!!!!!!!!!~
@@ -1187,7 +1187,7 @@ $n purrs contentedly.~
 You rub up against $N and purr contentedly.~
 $n rubs against $N and purrs contentedly.~
 $n rubs up against you and purrs contentedly.~
-You silly cat!  They aren't here.~
+You silly cat! They aren't here.~
 You purr quietly to yourself.~
 $n purrs contentedly to $mself.~
 #120
@@ -1196,7 +1196,7 @@ You point in every direction.~
 $n points excitedly!~
 You point at $N.~
 $n points excitedly at $N!~
-$n points at you.  How rude!~
+$n points at you. How rude!~
 You point at no one in particular.~
 You point at yourself, obviously very confused.~
 $n points at $mself, obviously very confused.~
@@ -1216,8 +1216,8 @@ bleed~
 You bleed profusely -- making a horrible mess!~
 $n weakly bleeds all over the floor.~
 You bleed on $N -- ewww!~
-$n bleeds on $N.  Watch out, YOU might be next!~
-$n bleeds on you -- ewww!  Get away!!~
+$n bleeds on $N. Watch out, YOU might be next!~
+$n bleeds on you -- ewww! Get away!!~
 Bleed on whom?~
 You bleed all over yourself.~
 $n bleeds profusely all over $mself.~
@@ -1227,18 +1227,18 @@ You jump in the air and give a BIG high five to...umm...absolutely nothing.~
 $n wildly high fives the air, looking very foolish -- very foolish indeed.~
 You jump in the air and give a BIG high five to $N!~
 $n enthusiastically high-five's $N!~
-$n gives you a BIG high five!  Way to go!!~
+$n gives you a BIG high five! Way to go!!~
 Sorry, they have already left.~
-You try to give yourself a high five.  What ARE you thinking?~
+You try to give yourself a high five. What ARE you thinking?~
 $n tries to high five $mself, but ends up looking foolish instead.~
 #124
 propose~
 You propose to everyone in the room.~
-$n proposes to everyone in the room.  Very odd.~
+$n proposes to everyone in the room. Very odd.~
 You kneel and romantically propose to $N.~
 $n gets on one knee and proposes to $N.~
 $n gets down on one knee and romantically proposes to you.~
-You must be lonely.  They aren't here.~
+You must be lonely. They aren't here.~
 You are SO full of yourself!~
 $n proposes to $mself -- how narcissistic!~
 #125
@@ -1270,7 +1270,7 @@ $n encompasses $N in an ENORMOUS bearhug!~
 $n clutches you tightly in an overwhelming bearhug!~
 Perhaps you should shower your affections on someone who is here?~
 You vainly clutch yourself in a bearhug for consolation.~
-$n hugs $mself as tightly as possible.  Looks like $e could use a hand.~
+$n hugs $mself as tightly as possible. Looks like $e could use a hand.~
 #128
 innocent~
 You innocently whistle a tune.~
@@ -1294,7 +1294,7 @@ none~
 #130
 stretch~
 You lean back and streeeeeettch your arms and legs.~
-$n stretches luxuriously.  Kinda makes you want to doesn't it?~
+$n stretches luxuriously. Kinda makes you want to doesn't it?~
 none~
 none~
 none~
@@ -1318,8 +1318,8 @@ $n boasts loudly in a pigheaded fashion.~
 You boast to $N of all your great deeds.~
 $n boasts to $N.~
 Once again, $n boasts to you, what a bloated ego!~
-Your ego takes a blow.  They've already left.~
-You boast to yourself of all your great feats!  Your own biggest fan.~
+Your ego takes a blow. They've already left.~
+You boast to yourself of all your great feats! Your own biggest fan.~
 $n boasts to $mself -- what an ego!~
 #133
 squirm~
@@ -1333,14 +1333,14 @@ none~
 none~
 #134
 moo~
-You chew your cud and moo plaintively.  Muh-OOOOO!~
+You chew your cud and moo plaintively. Muh-OOOOO!~
 $n turns cowlike eyes on you, chews $s cud, and moos plaintively.~
-You focus all your bovine Zen on $N, and speak your thoughts.  Muh-OOOOO!~
+You focus all your bovine Zen on $N, and speak your thoughts. Muh-OOOOO!~
 Slowly, $n looks at $N, chews $s cud, and muh-OOOOs!~
-$n moos at you.  What could that possibly mean?~
+$n moos at you. What could that possibly mean?~
 You'd better find someone else to moo at.~
 You settle down into the center of your bovine Zen; the foolish world thinks you're just mooing.~
-$n is mooing at $mself again...  You look for an exit...~
+$n is mooing at $mself again... You look for an exit...~
 #135
 moon~
 You drop your drawers and moon everyone in the room!~
@@ -1373,7 +1373,7 @@ none~
 none~
 #138
 type~
-You can't type for crap tonight!  You give up in frustration!~
+You can't type for crap tonight! You give up in frustration!~
 $n throws $s hands up in disgust at $s lousy typing skills!~
 none~
 none~
@@ -1437,10 +1437,10 @@ You whine to anyone who will listen to you.~
 $n whines pathetically to anyone who will listen.~
 You whine to $M, hoping desperately that at least $E will give a damn.~
 $n whines pathetically to $N.~
-$n whines pathetically to you.  What a loser!~
+$n whines pathetically to you. What a loser!~
 They really don't care.~
 You whine to yourself, probably the only one who will listen.~
-$n whines to $mself.  At least $e isn't bitching to YOU.~
+$n whines to $mself. At least $e isn't bitching to YOU.~
 #145
 flex~
 You flex your muscles proudly!~
@@ -1527,7 +1527,7 @@ You mosh insanely around the room!~
 $n moshes insanely around the room!~
 You mosh sadistically against $N ... you WILL be punished.~
 $n bounces off of $N in a vain attempt to mosh... what a LOSER.~
-$n slams into you, moshing painfully against you.  That REALLY hurts!~
+$n slams into you, moshing painfully against you. That REALLY hurts!~
 Hmmm...  your victim found a new dance partner.~
 Masochist!~
 $n throws $mself on the floor, grinding $mself into a bloody pulp~
@@ -1555,9 +1555,9 @@ none~
 tweak~
 Tweak who?~
 none~
-You gently tweak $S cheek.  Isn't $E so CUTE?~
+You gently tweak $S cheek. Isn't $E so CUTE?~
 $n tweaked $N's cheek... don't they look so adorable together?~
-$n lovingly tweaks your cheek.  It reminds you of Grandma... sniff...~
+$n lovingly tweaks your cheek. It reminds you of Grandma... sniff...~
 *Sniff*  That cheek seems to be missing.~
 You can't DO that.~
 none~
@@ -1580,13 +1580,13 @@ $n burns holes through $N with his explosive anger!~
 $n is ANGRY with you... I'd run if I were you!!!~
 Temper Temper... they left.~
 Your soul burns brightly then fades to nothing.~
-$n implodes!!!  Only a grease spot remains where $e once stood.~
+$n implodes!!! Only a grease spot remains where $e once stood.~
 #159
 raspberry~
 You stick your tongue out at ... well, no one.~
 $n sticks $s tongue out, catching a few flies in the process.~
 You give $N the raspberry... and spit all over yourself.~
-$n gives $N the raspberry... PHBT!  What a mess... Spit EVERYWHERE!~
+$n gives $N the raspberry... PHBT! What a mess... Spit EVERYWHERE!~
 You are splattered with saliva as $n gives you the raspberry... HOW RUDE!~
 Hang your tongue out if you like, $e isn't here.~
 You try to stick your tongue out at yourself... somehow, it isn't the same.~
@@ -1596,7 +1596,7 @@ flash~
 You grin and strut as you open your coat and show what you've got!~
 $n rips $s clothes off and parades naked around the room!~
 Swiftly you jerk open your jacket, trying to get $M to notice you.~
-Cover your eyes, $n is exposing $mself to $n!  EWWWW!~
+Cover your eyes, $n is exposing $mself to $n! EWWWW!~
 You gasp!  $n has just revealed $s "equipment" to you!~
 Exhibitionist, that person isn't here!~
 That's sick.~
@@ -1648,7 +1648,7 @@ $n cheers and sings... $e is just BURSTING with joy!~
 You cheer $N on and wish $M good luck!~
 *Yay!*  Go $N!!!  $n cheers $M on.~
 You are cheered on by $n... you feel so loved!~
-Who? Huh? Where?  They're not here, that's for sure~
+Who? Huh? Where? They're not here, that's for sure~
 You cheer silently for yourself since nobody else will~
 $n resorts to cheering for $mself... how sad.~
 #166
@@ -1664,12 +1664,12 @@ none~
 #167
 charge~
 You charge into the fray!~
-$n charges into the fray!  All guts, no brains.~
+$n charges into the fray! All guts, no brains.~
 With surprising dexterity, you head-butt $N!~
 $n ducks down low, charges forward, and head-butts $N!~
-OOF!  $n rammed $s head into your stomach!  That HURT.~
+OOF!  $n rammed $s head into your stomach! That HURT.~
 Nobody 'round with that name, Mister!~
-You run your head into a brick wall.  OUCH!~
+You run your head into a brick wall. OUCH!~
 none~
 #168
 criticize~
@@ -1757,13 +1757,13 @@ You cower in a corner.~
 $n cowers in a corner and whimpers softly.~
 You cower away from $N and $S harsh words.~
 $n cowers in a corner, terrified that $N will come after $m.~
-You scared poor $n!  Now $S is cowering in a corner, afraid for $s life.~
+You scared poor $n! Now $S is cowering in a corner, afraid for $s life.~
 That person is AWOL at the moment.~
 You are afraid of your own shadow!~
 $n cowers in the corner afraid of $s own shadow~
 #177
 noogie~
-You can't noogie the AIR!  It has no head.~
+You can't noogie the AIR! It has no head.~
 none~
 You grab $N, get $M in a head lock and NOOGIE $M!~
 $n grabs $N in a head lock and NOOGIES $M... ARGH!!!~
@@ -1790,7 +1790,7 @@ $n glares at $n.... $n is SOOO PISSED at $m!~
 $n is pissed at you now... What do you think $e'll DO?~
 That person is not here...~
 You are PISSED at yourself!~
-$n is so pissed at $mself.  How could $e be so stupid???~
+$n is so pissed at $mself. How could $e be so stupid???~
 #180
 passout~
 You belch and pass out.~
@@ -1814,7 +1814,7 @@ none~
 #182
 scratch~
 You scratch yourself contentedly.~
-$n reaches down and scratches $mself...  Now $e looks VERY happy.~
+$n reaches down and scratches $mself... Now $e looks VERY happy.~
 none~
 none~
 none~
@@ -1887,7 +1887,7 @@ Whose laces?~
 none~
 With the greatest of stealth, you tie $S shoelaces together.~
 $n sneaks up to $N and ties $S shoelaces together.~
-You try to take a step, and you hit the world facedown!  Someone must have tied your shoelaces together!~
+You try to take a step, and you hit the world facedown! Someone must have tied your shoelaces together!~
 Whose laces?~
 You tie your own shoelaces together, try to walk, and promptly fall.~
 $n cleverly ties $s own shoelaces together, tries to walk, and sprawls flat on the floor.~
@@ -1895,15 +1895,15 @@ $n cleverly ties $s own shoelaces together, tries to walk, and sprawls flat on t
 tag~
 Tag whom?~
 $n casts about for someone to tag.~
-From nowhere, you pounce on $N and TAG $M remorselessly!  BWAHAHA!!!~
+From nowhere, you pounce on $N and TAG $M remorselessly! BWAHAHA!!!~
 $n dives from the shadows and TAGS $N.  $N IS IT!~
-$n pounces on you and >>> TAGS <<< you!  You're IT!~
+$n pounces on you and >>> TAGS <<< you! You're IT!~
 Who were you going to tag, then? Primus? :)~
 Unable to catch anyone else, you do the intelligent thing and tag yourself. You're still IT!~
-Unable to catch anyone else, $n tags $mself.  Are you impressed?~
+Unable to catch anyone else, $n tags $mself. Are you impressed?~
 #191
 tank~
-You boldly offer to tank for your everyone else.  Are you sure you know what you're getting into?~
+You boldly offer to tank for your everyone else. Are you sure you know what you're getting into?~
 $n offers to tank!~
 You offer to tank for $N.~
 $n offers to tank for $N.~
@@ -1914,10 +1914,10 @@ In dazzling chivalry, $n offers to tank-- for $mself!~
 #192
 starve~
 You show your prominent ribs and hope that someone will take pity.~
-$n is withering before your eyes!  Starvation!~
+$n is withering before your eyes! Starvation!~
 You throw yourself upon $S mercy, begging for food.~
-$n begs $N for food.  One would think that magic would have cured hunger by now...~
-$n is starving before your eyes!  Could you spare some food, please?~
+$n begs $N for food. One would think that magic would have cured hunger by now...~
+$n is starving before your eyes! Could you spare some food, please?~
 Sorry, but that person isn't around-- looks like you'll starve.~
 none~
 none~
@@ -1934,7 +1934,7 @@ $n screams in frustration at $s own stupidity!~
 #194
 homework~
 Your suddenly remember that you have to defend your thesis today...~
-$n looks stricken.  Could $e have blown off some important homework?~
+$n looks stricken. Could $e have blown off some important homework?~
 none~
 none~
 none~
@@ -1989,7 +1989,7 @@ You stare daggers at $N, jabbing pins into $S effigy.~
 $n glares balefully at $N while stabbing a pin into a voodoo doll.~
 Your heart lurches in your chest, and fiery pain stabs through your skull!~
 Your hatred finds no such target.~
-You stab a pin into your own voodoo doll!  Agony!~
+You stab a pin into your own voodoo doll! Agony!~
 $n jabs a pin into $s own voodoo doll, and almost collapses!~
 #200
 laugh~
@@ -1997,10 +1997,10 @@ You fall down laughing.~
 $n falls down laughing.~
 You laugh at $N mercilessly.~
 $n laughs at $N mercilessly.~
-$n laughs at you mercilessly.  Hmmmmph.~
+$n laughs at you mercilessly. Hmmmmph.~
 You can't find the butt of your joke.~
-You laugh at yourself.  I would, too.~
-$n laughs at $mself.  Let's all join in!!!~
+You laugh at yourself. I would, too.~
+$n laughs at $mself. Let's all join in!!!~
 #201
 poke~
 Poke who??~

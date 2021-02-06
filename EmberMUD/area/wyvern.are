@@ -470,9 +470,9 @@ unknown~
 A AB AC AB 0
 9 12 90 P
 A
-19 1
-A
 18 1
+A
+19 1
 #1606
 rod might~
 the rod of might~
@@ -482,9 +482,9 @@ unknown~
 C AC C BC 0
 16 13 160 P
 A
-1 1
-A
 18 2
+A
+1 1
 #1612
 black kite shield~
 a black kite shield~
@@ -527,9 +527,9 @@ unknown~
 ABC ABC ABC 0 0
 20 2 200 P
 A
-12 5
-A
 17 -6
+A
+12 5
 #1621
 dark red potion~
 a dark red potion~
@@ -620,9 +620,9 @@ unknown~
 A A ABC AB 0
 0 10 0 P
 A
-19 3
-A
 18 3
+A
+19 3
 #1711
 fur cap~
 a fur cap~
@@ -659,7 +659,7 @@ A
 #1601
 Rough East-West Path~
 You are on a very rough and overgrown path heading east-west over rugged
-terrain.  To the east the path passes between low hills.
+terrain. To the east the path passes between low hills.
 ~
 0 0 4
 D1
@@ -753,7 +753,7 @@ S
 #1606
 Cluster of Buildings~
 You are in the middle of a cluster of small buildings. There is a building
-to the north, east, and west.  A sign over the eastern building says
+to the north, east, and west. A sign over the eastern building says
 'House of Pancakes'.
 ~
 0 0 1
@@ -781,7 +781,7 @@ S
 #1607
 House of Pancakes~
 The moment you enter this room, the ceiling descends and crushes you
-into a pancake.  Don't you hate it when that happens?
+into a pancake. Don't you hate it when that happens?
 ~
 0 6 0
 S
@@ -799,7 +799,7 @@ S
 #1609
 Empty Room~
 This room appears to be completely empty. The only exit seems to be the
-way you came.  There are some scratches around the floor.
+way you came. There are some scratches around the floor.
 ~
 0 9 0
 D2
@@ -825,8 +825,8 @@ D4
 S
 #1620
 Western Moat~
-You are in the middle of the moat, on the west side of the tower.  There is a
-landing on both sides of the moat.  Deep throated 'ribbids' come from the
+You are in the middle of the moat, on the west side of the tower. There is a
+landing on both sides of the moat. Deep throated 'ribbids' come from the
 water all around you.
 ~
 0 0 7
@@ -849,8 +849,8 @@ D3
 S
 #1621
 Northern Moat~
-You are in the middle of the moat, on the north side of the tower.  There is
-no place to land here.  Deep throated 'ribbids' come from the water all
+You are in the middle of the moat, on the north side of the tower. There is
+no place to land here. Deep throated 'ribbids' come from the water all
 around you.
 ~
 0 0 7
@@ -861,8 +861,8 @@ D2
 S
 #1622
 Southern Moat~
-You are in the middle of the moat, on the south side of the tower.  There is
-no place to land here.  Deep throated 'ribbids' come from the water all
+You are in the middle of the moat, on the south side of the tower. There is
+no place to land here. Deep throated 'ribbids' come from the water all
 around you.
 ~
 0 0 7
@@ -874,7 +874,7 @@ S
 #1623
 Tower Foyer~
 You are on a foyer on the west side of the structure. The moat is west of 
-here. There is also a large door eastward into the structure.  You notice that
+here. There is also a large door eastward into the structure. You notice that
 the walls are ornately decorated with very life-like stone gargoyles.
 ~
 0 9 0
@@ -890,9 +890,9 @@ S
 #1624
 The Grand Lobby~
 You have entered a vast lobby. This lobby appears to have once been very
-ornately furnished, but now everything is decayed and moldering.  A highly
+ornately furnished, but now everything is decayed and moldering. A highly
 ornate balcony surrounds the lobby. To the east, below the balcony, is an
-opening. The door leading out is west.  You notice that the balcony is
+opening. The door leading out is west. You notice that the balcony is
 covered in highly ornate and life-like stone gargoyles.
 ~
 0 9 0
@@ -909,7 +909,7 @@ S
 Base of the Western Tower~
 You stand in the center of the Western tower's base. Torch brackets occupy
 the four corners of this huge room. Above each torch is a lifelike ornate
-stone gargoyle.  There are doors north and south, and passages east and west.
+stone gargoyle. There are doors north and south, and passages east and west.
 ~
 0 8 0
 D0
@@ -956,7 +956,7 @@ S
 Kitchen~
 You have entered what must once have been a kitchen. The rusting remains of
 various utensils lie on countertops. There is also an old wash basin and a
-pot-belly stove.  There is a door south, and a serving hatch east.
+pot-belly stove. There is a door south, and a serving hatch east.
 ~
 0 9 0
 D2
@@ -967,7 +967,7 @@ S
 #1628
 Conservatory~
 You are in the tower's private conservatory. However, through years of neglect,
-the plants have grown into a hideous jungle.  The only exit is north.
+the plants have grown into a hideous jungle. The only exit is north.
 ~
 0 9 0
 D0
@@ -977,9 +977,9 @@ D0
 S
 #1629
 The Dining Hall~
-You have entered a fabulous dining hall.  The wrecked remains of a long table
+You have entered a fabulous dining hall. The wrecked remains of a long table
 dominate the room. A horrible odor pervades the room, like some foul-smelling
-beast has been eating and shitting in here.  There is a serving hatch west and
+beast has been eating and shitting in here. There is a serving hatch west and
 a door south.
 ~
 0 9 0
@@ -991,7 +991,7 @@ S
 #1630
 Art Gallery~
 You are in the ruined remains of an art gallery. Everything appears to
-have been stolen long ago, however.  The only exit is north.
+have been stolen long ago, however. The only exit is north.
 ~
 0 9 1
 D0
@@ -1001,10 +1001,10 @@ D0
 S
 #1631
 Base of the Eastern Tower~
-You stand in the center of the Eastern tower's base.  Torch brackets
-occupy the four corners of this huge room.  Above each torch is a lifelike
-ornate stone gargoyle.  There are are open doors to the north and south, and
-a passage west.  In addition, a spiral staircase leads up to the next level
+You stand in the center of the Eastern tower's base. Torch brackets
+occupy the four corners of this huge room. Above each torch is a lifelike
+ornate stone gargoyle. There are are open doors to the north and south, and
+a passage west. In addition, a spiral staircase leads up to the next level
 of this tower.  
 ~
 0 8 1
@@ -1030,7 +1030,7 @@ S
 The Common Room~
 You are in what must once have been a common room for all residents of the
 tower. There is a huge fire pit with a chimney in the center, and the smashed
-remains of a great many table and chairs.  The exit is south.
+remains of a great many table and chairs. The exit is south.
 ~
 0 8 0
 D2
@@ -1038,7 +1038,7 @@ D2
 ~
 0 0 1631
 D5
-You notice a grate in the bottom of the fire pit.  Maybe it's an opening ...
+You notice a grate in the bottom of the fire pit. Maybe it's an opening ...
 ~
 ~
 1 -1 1634
@@ -1047,7 +1047,7 @@ S
 Servant's Quarters~
 You are in what once was the servant's quarters, as evidenced by the shabby
 belongings and decor. What little remains is rotting and of little value
-anyway.  The only exit is north.
+anyway. The only exit is north.
 ~
 0 9 0
 D0
@@ -1058,7 +1058,7 @@ S
 #1634
 A Large Murky Cellar~
 You are in a large, murky cellar. An almost tangible air of horror pervades
-the room.  A thin layer of nitre covers the walls and ceiling.  Rotting
+the room. A thin layer of nitre covers the walls and ceiling. Rotting
 furniture looms obliquely about the room.
 ~
 0 9 1
@@ -1086,7 +1086,7 @@ S
 Second Level of the Eastern Tower~
 You are in the center of the second level of the Eastern tower. This large
 room appears quite empty, except for the candle abras firmly fixed to the
-walls.  An opening leads westward, and a spiral staircase leads down.
+walls. An opening leads westward, and a spiral staircase leads down.
 ~
 0 9 1
 D3
@@ -1102,7 +1102,7 @@ S
 The Elegant Hall~
 You are in what was once a elegant hall, although everything is moldering now.
 The rotted remains of a plush carpet covers the floor, while several moldy
-tapestries adorn the each side of the hall.  There are door north and south,
+tapestries adorn the each side of the hall. There are door north and south,
 and openings east and west.
 ~
 0 9 0
@@ -1126,8 +1126,8 @@ S
 #1638
 The Shaman's Room~
 You have entered an elegantly furnished room that looks to be still in use!
-Costly paintings and pieces of furniture are tastefully situated.  On the
-north wall is an altar to Knar, the ghastly patron of Gargoyles.  The only
+Costly paintings and pieces of furniture are tastefully situated. On the
+north wall is an altar to Knar, the ghastly patron of Gargoyles. The only
 exit is south.
 ~
 0 8 0
@@ -1138,7 +1138,7 @@ D2
 S
 #1639
 The Library~
-This room appears to have been a library.  Empty book shelves line each wall.
+This room appears to have been a library. Empty book shelves line each wall.
 The only exit is north.
 ~
 0 9 0
@@ -1149,9 +1149,9 @@ D0
 S
 #1640
 Second Level of the Western Tower~
-You are in the center of the western tower's second floor.  A large spiral 
-staircase of 29 steps connects this level with the third.  There are doors
-to the east and west.  Except for a torch bracket in each corner, the 
+You are in the center of the western tower's second floor. A large spiral 
+staircase of 29 steps connects this level with the third. There are doors
+to the east and west. Except for a torch bracket in each corner, the 
 room is barren.
 ~
 0 8 1
@@ -1171,8 +1171,8 @@ You see the spiral staircase leading up.
 S
 #1641
 On the Balcony~
-You are on the balcony overlooking the Grand lobby.  You have a fabulous
-view of the entire room.  The only exit is the way you came in.
+You are on the balcony overlooking the Grand lobby. You have a fabulous
+view of the entire room. The only exit is the way you came in.
 ~
 0 8 2
 D1
@@ -1183,7 +1183,7 @@ S
 #1642
 The Spiral Stairs~
 You are on a large spiral staircase of 29 steps, leading between the 
-second and third floors.  You can go up or down.
+second and third floors. You can go up or down.
 ~
 0 8 2
 D4
@@ -1197,9 +1197,9 @@ D5
 S
 #1643
 Third Level of Western Tower~
-You stand in the center of the western tower's third floor.  This large room
-glows mysteriously with a strange light all its own.  From a door to the east
-comes a strange inky blackness.  A spiral staircase leads down.
+You stand in the center of the western tower's third floor. This large room
+glows mysteriously with a strange light all its own. From a door to the east
+comes a strange inky blackness. A spiral staircase leads down.
 ~
 0 8 1
 D1
@@ -1235,8 +1235,8 @@ S
 #1645
 The Armory~
 In this room, which has somehow evaded the ravages of time, are neatly stored
-racks of common weapons.  They appear to be quite ordinary; however, a chest
-in one corner catches your eye.  The only exit is the way you came in.
+racks of common weapons. They appear to be quite ordinary; however, a chest
+in one corner catches your eye. The only exit is the way you came in.
 ~
 0 9 0
 D2
@@ -1250,7 +1250,7 @@ You have entered a lavish but functional room decked out in a military style.
 Murals on the wall show battle scenes in gargoyles, minotaurs, and huge,
 flying snake-like reptiles with poisonous tails fight humans and dwarves.
 Various objects in the room give evidence that it is occupied by individuals
-of authority.  The only door is north.
+of authority. The only door is north.
 ~
 0 9 0
 D0
@@ -1260,10 +1260,10 @@ D0
 S
 #1647
 Third Level of Eastern Tower~
-You are in the center of the Eastern Tower's third floor.  The room you are in
-glows with a mysterious light that has no source.  In the center of the room a
-ladder climbs up to a hatchway in the ceiling.  The hatchway is a strange
-looking keyhole.  There is also a door to the west.
+You are in the center of the Eastern Tower's third floor. The room you are in
+glows with a mysterious light that has no source. In the center of the room a
+ladder climbs up to a hatchway in the ceiling. The hatchway is a strange
+looking keyhole. There is also a door to the west.
 ~
 0 8 1
 D3
@@ -1271,16 +1271,16 @@ D3
 ~
 1 -1 1644
 D4
-The hatchway appears securely fastened.  In it is a strange keyhole.
+The hatchway appears securely fastened. In it is a strange keyhole.
 ~
 ~
 1 -1 1648
 S
 #1648
 Turret of the Eastern Tower~
-You stand in the turret of the eastern tower.  A huge hole has been
+You stand in the turret of the eastern tower. A huge hole has been
 made in the roof by some enormous beast, letting the daylight (or moonlight)
-in.  There is a hatchway in the floor, and an opening to the west leading out
+in. There is a hatchway in the floor, and an opening to the west leading out
 onto a catwalk.
 ~
 0 0 1
@@ -1297,10 +1297,10 @@ S
 #1649
 On the Catwalk~
 You are outdoors on a catwalk between the turrets of the eastern and 
-western towers.  There is a 40 foot drop to the north and south.  You have
+western towers. There is a 40 foot drop to the north and south. You have
 a fabulous view of the surrounding countryside, which consists of a bleak
-wilderness.  At the east end of the catwalk is a small opening leading
-inside the eastern turret.  At the western end, a strange mirror-like portal
+wilderness. At the east end of the catwalk is a small opening leading
+inside the eastern turret. At the western end, a strange mirror-like portal
 leads into the western turret.
 ~
 0 0 3
@@ -1316,9 +1316,9 @@ A mirror-like portal glimmers, allowing entry into the western turret.
 S
 #1650
 Turret of the Western Tower~
-You are in the turret of the western tower.  You feel very strange here.
+You are in the turret of the western tower. You feel very strange here.
 Scattered about this room are a great many coins and valuable articles.
-Yet you can't get rid of a feeling of dread!  A mirror-like portal is in the
+Yet you can't get rid of a feeling of dread! A mirror-like portal is in the
 western wall.
 ~
 0 9 0
@@ -1335,7 +1335,7 @@ S
 #1651
 On the Other Side~
 You are outdoors on a catwalk between the turrets of the Eastern and Western
-towers.  There is no opening into the western tower of any kind.  You have a
+towers. There is no opening into the western tower of any kind. You have a
 fabulous view of your surroundings, a murky city partially obscured by strange
 smoke that creeps along the ground instead of rising. The city stretches as far
 as the eye can see under the conditions.
@@ -1363,9 +1363,9 @@ D1
 S
 #1701
 Main Eastern Road~
-You are on the old Eastern Road.  The crossroads to the east joins ANOTHER
-northern route to this road, which continues east.  South of the crossroads is
-an old building.  The area around here is lightly timbered.
+You are on the old Eastern Road. The crossroads to the east joins ANOTHER
+northern route to this road, which continues east. South of the crossroads is
+an old building. The area around here is lightly timbered.
 ~
 0 4 3
 D1
@@ -1382,7 +1382,7 @@ S
 Crossroads to the Wilderness~
 You are at a crossroads to the wilderness areas east and north of here,
 and the more civilized areas to the west. The main road is west, an
-older road continues east, and a simple trail heads north.  To the south,
+older road continues east, and a simple trail heads north. To the south,
 an old ram-shackle building is being used as a trading post for the
 surrounding wilderness. 
 ~
@@ -1440,7 +1440,7 @@ A major crossroads and a building lie in this direction.
 S
 #1705
 Trail south of forest~
-You are on a primitive north-south trail.  Just north of here looms the
+You are on a primitive north-south trail. Just north of here looms the
 entrance to a deep, dark forest. To the south the trail continues.
 ~
 0 0 3
@@ -1458,7 +1458,7 @@ S
 #1706
 Entrance to the forest~
 You are at the entrance to dark forest comprised mostly of huge black oak
-and towering firs.  A trail from the south continues north on into the
+and towering firs. A trail from the south continues north on into the
 woods at this point.
 ~
 0 0 3
@@ -1476,8 +1476,8 @@ S
 #1707
 Trail in Dark Oak Forest~
 The trail here passes through groves of closely knit Black Oak. Some of
-these trees are of enormous size.  Rustling and other low noises come
-from the forest on either side of the trail.  The trail continues on north
+these trees are of enormous size. Rustling and other low noises come
+from the forest on either side of the trail. The trail continues on north
 and south.
 ~
 0 0 4
@@ -1494,7 +1494,7 @@ The edge of the forest is visible in this direction.
 S
 #1708
 Junction in Dark Forest~
-You are in the midst of a deep dark forest of huge oak trees.  There is a
+You are in the midst of a deep dark forest of huge oak trees. There is a
 junction of trails here, with paths leading south, west and east.
 ~
 0 0 4
@@ -1516,7 +1516,7 @@ You see the path to the Centaur village.
 S
 #1709
 Path to Centaur Village~
-You are on an east-west path in the forest.  Here the forest is mostly
+You are on an east-west path in the forest. Here the forest is mostly
 towering firs, not quite as dense as the oak groves that can be seen eastward.
 Westward, the trail heads toward a small clearing.
 ~
@@ -1534,9 +1534,9 @@ There is a small clearing in this direction.
 S
 #1710
 The East side of the Centaur Clearing~
-You are on the east side of a clearing.  Small primitive huts are scattered
-about the edges of this clearing.  Beyond these on all sides are towering
-fir trees.  A path leads east out of the clearing. The clearing continues to
+You are on the east side of a clearing. Small primitive huts are scattered
+about the edges of this clearing. Beyond these on all sides are towering
+fir trees. A path leads east out of the clearing. The clearing continues to
 the west.
 ~
 0 0 2
@@ -1564,8 +1564,8 @@ S
 #1711
 West side of the Centaur Clearing~
 You are on the west side of the clearing in the center of the Centaur village.
-Huts surround the clearing on all sides, and beyond are towering firs.  The
-clearing continues to the east.  To the west is a very large hut.
+Huts surround the clearing on all sides, and beyond are towering firs. The
+clearing continues to the east. To the west is a very large hut.
 ~
 0 0 2
 D0
@@ -1591,7 +1591,7 @@ There is a hut here.
 S
 #1712
 A Centaur's Hut~
-You are inside a smallish hut, the home of a family of Centaurs.  The hut
+You are inside a smallish hut, the home of a family of Centaurs. The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
 0 8 0
@@ -1603,7 +1603,7 @@ The opening leads out onto the clearing.
 S
 #1713
 A Centaur's Hut~
-You are inside a smallish hut, the home of a family of Centaurs.  The hut
+You are inside a smallish hut, the home of a family of Centaurs. The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
 0 8 0
@@ -1615,7 +1615,7 @@ The opening leads out onto the clearing.
 S
 #1714
 A Centaur's Hut~
-You are inside a smallish hut, the home of a family of Centaurs.  The hut
+You are inside a smallish hut, the home of a family of Centaurs. The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
 0 8 0
@@ -1627,7 +1627,7 @@ The opening leads out onto the clearing.
 S
 #1715
 A Centaur's Hut~
-You are inside a smallish hut, the home of a family of Centaurs.  The hut
+You are inside a smallish hut, the home of a family of Centaurs. The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
 0 8 0
@@ -1639,8 +1639,8 @@ The opening leads out onto the clearing.
 S
 #1716
 Entrance to a Large Hut~
-You are in the entry foyer of a large hut.  A curtain separates this section
-of the hut from the next section to the west.  To the east is an opening out
+You are in the entry foyer of a large hut. A curtain separates this section
+of the hut from the next section to the west. To the east is an opening out
 onto the clearing.
 ~
 0 8 0
@@ -1657,9 +1657,9 @@ There is a curtain here separating this section from the next.
 S
 #1717
 Back of a Large Hut~
-You are in the back of a large hut.  A curtain separates this section from
-the front of the hut to the east.  This room is finely decorated, if
-somewhat primitive.  The decor suggests someone of authority lives here.
+You are in the back of a large hut. A curtain separates this section from
+the front of the hut to the east. This room is finely decorated, if
+somewhat primitive. The decor suggests someone of authority lives here.
 ~
 0 8 0
 D1
@@ -1670,8 +1670,8 @@ There is a curtain here separating this room from the front of the hut.
 S
 #1720
 Eastern Path in Dark Forest~
-You are on an east-west path through extremely old growths of oak.  The path
-is fairly faint here.  Undergrowth closes in so closely that little can
+You are on an east-west path through extremely old growths of oak. The path
+is fairly faint here. Undergrowth closes in so closely that little can
 be seen in any direction.
 ~
 0 0 4
@@ -1779,6 +1779,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

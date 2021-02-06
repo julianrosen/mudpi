@@ -370,7 +370,7 @@ bool socialedit_create( CHAR_DATA * ch, char *argument )
 
     if ( !pSocial )
     {
-        send_to_char( "ERROR!  Could not create a new social!\n\r", ch );
+        send_to_char( "ERROR! Could not create a new social!\n\r", ch );
         return FALSE;
     }
 
@@ -413,13 +413,13 @@ bool socialedit_name( CHAR_DATA * ch, char *argument )
     if ( strlen( argument ) != str_len( argument ) )
     {
         send_to_char
-            ( "ERROR!  Color codes are not allowed in social names.\n\r", ch );
+            ( "ERROR! Color codes are not allowed in social names.\n\r", ch );
         return FALSE;
     }
 
     if ( strlen( argument ) > 20 )
     {
-        send_to_char( "ERROR!  Social names must be 20 characters or less.\n\r",
+        send_to_char( "ERROR! Social names must be 20 characters or less.\n\r",
                       ch );
         return FALSE;
     }

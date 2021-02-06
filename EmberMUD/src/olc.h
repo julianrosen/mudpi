@@ -5,7 +5,7 @@
  *  File: olc.h                                                            *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -15,8 +15,8 @@
  ***************************************************************************/
 
 /*
- * This is a header file for all the OLC files.  Feel free to copy it into
- * merc.h if you wish.  Many of these routines may be handy elsewhere in
+ * This is a header file for all the OLC files. Feel free to copy it into
+ * merc.h if you wish. Many of these routines may be handy elsewhere in
  * the code.  -Jason Dinkel
  */
 
@@ -31,7 +31,7 @@
  **************************************************************************/
 
 /*
- * The version info.  Please use this info when reporting bugs.
+ * The version info. Please use this info when reporting bugs.
  * It is displayed in the game by typing 'version' while editing.
  * Do not remove these from the code - by request of Jason Dinkel
  */

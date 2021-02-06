@@ -21,7 +21,7 @@ ACGT J -5 S
 100 0 0 0 1d4+30 1d1+99 1d4+2 13
 7 6 7 10
 DJR 0 CLQ R
-6 8 3 10
+6 8 -1 10
 AHMV ABCDEFGHIJK S 0
 #6601
 teddy bear~
@@ -104,7 +104,7 @@ nanny~
 the nanny~
 An old wrinkled nanny stands here, looking over the little ones.
 ~
-You see an old dwarven lady who has been hunched over with age.  However, it
+You see an old dwarven lady who has been hunched over with age. However, it
 appears that there is still some fight left in her.
 ~
 Dwarf~
@@ -136,7 +136,7 @@ brat spoiled~
 the spoiled brat~
 A spoiled brat is crying here.
 ~
-You see a little tyke who has always gotten what he wanted.  You have the
+You see a little tyke who has always gotten what he wanted. You have the
 biggest urge to put him out of his misery.
 ~
 Dwarf~
@@ -173,9 +173,9 @@ unknown~
 0 0 0 0 0
 3 1 1200 G
 A
-13 4
-A
 1 1
+A
+13 4
 E
 ring pink ice~
 How strange...it's made of ice, but it doesn't melt. It feels pleasantly 
@@ -190,12 +190,12 @@ unknown~
 A B A A A
 3 5 2000 G
 A
-12 5
-A
 4 1
+A
+12 5
 E
 robe linen~
-It radiates an aura of peace and wisdom.  The perfect garb for a teacher.
+It radiates an aura of peace and wisdom. The perfect garb for a teacher.
 ~
 #6622
 broom~
@@ -206,9 +206,9 @@ unknown~
 AB B AB ABC F
 0 3 50 W
 A
-18 -1
-A
 17 -1
+A
+18 -1
 E
 broom~
 It's worn and tired, probably from swatting too many children.
@@ -265,7 +265,7 @@ You'll put your eye out, kid!
 #6601
 The Dwarven Drop Off~
 This is where the dwarven mommies and daddies come to drop off their
-annoying little brats.  You have the urge to leave.  There is a sign here.
+annoying little brats. You have the urge to leave. There is a sign here.
 ~
 0 12 0
 E
@@ -284,8 +284,8 @@ You see a large room full of noisy brats.
 S
 #6602
 Day Care Center~
-You are in the north-east corner of the main part of the center.  Toys and
-toddlers are all over the room.  There is a kitchen to the east.
+You are in the north-east corner of the main part of the center. Toys and
+toddlers are all over the room. There is a kitchen to the east.
 ~
 0 8 0
 D0
@@ -311,8 +311,8 @@ You see a large room full of noisy brats.
 S
 #6603
 Day Care Center~
-You are in the north-west corner of the main part of the center.  Toys and
-toddlers are all over the room.  There is a bathroom to the west.
+You are in the north-west corner of the main part of the center. Toys and
+toddlers are all over the room. There is a bathroom to the west.
 ~
 0 8 0
 D1
@@ -333,8 +333,8 @@ You see a messy bathroom.
 S
 #6604
 Day Care Center~
-You are in the south-east corner of the main part of the center.  Toys and
-toddlers are all over the room.  There is a playground to the east.
+You are in the south-east corner of the main part of the center. Toys and
+toddlers are all over the room. There is a playground to the east.
 ~
 0 8 0
 D0
@@ -355,8 +355,8 @@ You see a large room full of noisy brats.
 S
 #6605
 Day Care Center~
-You are in the south-west corner of the main part of the center.  Toys and
-toddlers are all over the room.  There is a staircase to the west.
+You are in the south-west corner of the main part of the center. Toys and
+toddlers are all over the room. There is a staircase to the west.
 ~
 0 8 0
 D0
@@ -378,7 +378,7 @@ S
 #6606
 The Messy Bathroom~
 You hold your nose as you realize you have made the worst mistake of your
-life.  The air is rancid and the walls are stained.
+life. The air is rancid and the walls are stained.
 ~
 0 8 0
 D1
@@ -390,7 +390,7 @@ S
 #6607
 The Staircase~
 You stand on top of a staircase leading down, and wonder what mystery could
-lie down under.  Beware!
+lie down under. Beware!
 ~
 0 8 0
 D1
@@ -475,7 +475,7 @@ You see the playground.
 S
 #6612
 Entrance to the Mini-Maze~
-You stand in the entrance to a small, but confusing maze.  You really hope
+You stand in the entrance to a small, but confusing maze. You really hope
 that you don't get lost.
 ~
 0 13 2
@@ -494,6 +494,10 @@ Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
+D2
+(null)~
+~
+0 -1 6615
 D1
 (null)~
 ~
@@ -502,10 +506,6 @@ D3
 (null)~
 ~
 0 -1 6612
-D2
-(null)~
-~
-0 -1 6615
 S
 #6614
 Mini-Maze~
@@ -526,14 +526,14 @@ Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
-D0
-(null)~
-~
-0 -1 6613
 D1
 (null)~
 ~
 0 -1 6616
+D0
+(null)~
+~
+0 -1 6613
 S
 #6616
 Mini-Maze~
@@ -544,24 +544,24 @@ D3
 (null)~
 ~
 0 -1 6615
-D2
-(null)~
-~
-0 -1 6624
 D0
 (null)~
 ~
 0 -1 6614
+D2
+(null)~
+~
+0 -1 6624
 S
 #6624
 End of the Mini-Maze~
-You stand at the end of your journey.  There is a big sign here and you had
+You stand at the end of your journey. There is a big sign here and you had
 better read it!
 ~
 0 9 2
 E
 sign~
-If you are not level 6 or above, then don't go south!!!!  It is a dangerous
+If you are not level 6 or above, then don't go south!!!! It is a dangerous
 area, but congrats for getting this far - Sandman
 ~
 D0
@@ -575,7 +575,7 @@ D2
 S
 #6626
 Messy Kitchen~
-You stand in the kitchen and eating area of the day care center.  Pots and
+You stand in the kitchen and eating area of the day care center. Pots and
 pans are everywhere, while the toddlers continue to create chaos.
 ~
 0 8 0
@@ -587,7 +587,7 @@ You see a large room full of noisy brats.
 S
 #6631
 The End?~
-You have reached the final lair.  It is dominated by a huge five headed
+You have reached the final lair. It is dominated by a huge five headed
 dragon (actually an overgrown brat with a Halloween mask).
 ~
 0 9 2
@@ -664,6 +664,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

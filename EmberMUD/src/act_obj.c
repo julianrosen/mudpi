@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -2275,14 +2275,14 @@ void do_steal( CHAR_DATA * ch, char *argument )
     }
 
     WAIT_STATE( ch, skill_table[gsn_steal].beats );
-    percent = number_percent(  ) + ( IS_AWAKE( victim ) ? 10 : -50 );
-
+    percent = number_percent(  ) - ( IS_AWAKE( victim ) ? 10 : -50 ); // JR made the sign -
+    
     if ( ch->level + 5 < victim->level || victim->position == POS_FIGHTING
 #ifdef NO_PLAYER_STEALING
          || ( !IS_NPC( ch ) && !IS_NPC( victim ) )
 #endif
          || ( IS_NPC( ch ) && !IS_NPC( victim )
-              && percent > ( victim->level - ch->level ) * 20 )
+              && percent < ( victim->level - ch->level ) * 20 ) /* JR changed direction of inequality */
          || ( !IS_NPC( ch ) && percent > ch->pcdata->learned[gsn_steal] ) )
     {
         /*
@@ -2355,7 +2355,7 @@ void do_steal( CHAR_DATA * ch, char *argument )
 
         ch->gold += amount;
         victim->gold -= amount;
-        sprintf( buf, "Bingo!  You got %d gold coins.\n\r", amount );
+        sprintf( buf, "Bingo! You got %d gold coins.\n\r", amount );
         send_to_char( buf, ch );
         check_improve( ch, gsn_steal, TRUE, 2 );
         return;
@@ -3662,7 +3662,7 @@ jail. */
 }
 
 /*
- * The lore skill.  Basically compare the object's level against your level.
+ * The lore skill. Basically compare the object's level against your level.
  * The difference in levels (and your lore skill level) determines wether or not
  * you can identify the object. Also, partial identification can occur based on
  * how well you succeed.  -Zane

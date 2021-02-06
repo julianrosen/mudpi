@@ -2,7 +2,7 @@
  *  File: olc_act.c                                                        *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -74,7 +74,7 @@ const struct olc_help_type help_table[] = {
     {"type", type_flags, "Types of objects."},
     {"extra", extra_flags, "Object attributes."},
     {"wear", wear_flags, "Where to wear object."},
-    {"sex", sex_flags, "Genders."}, /* Modified by JR */
+    {"gender", sex_flags, "Genders."}, /* Modified by JR */
     {"addaffect", apply_flags, "Addaffect Locations."},
     {"ac", ac_type, "Ac for different attacks."},
     {"act", act_flags, "Mobile attributes."},
@@ -1479,7 +1479,7 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
 
             /*
              * If the connected room's exit maps back to us then set it's
-             * flags also.  Otherwise ignore it.
+             * flags also. Otherwise ignore it.
              */
             if ( pToRoom->exit[rev] && pToRoom->exit[rev]->u1.to_room == pRoom )
             {
@@ -1495,7 +1495,7 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
     /* If we make it to here, user has typed an invalid command. */
 
     send_to_char
-        ( "That is not a valid exit command!  Type \"help exit\" for help.\n\r",
+        ( "That is not a valid exit command! Type \"help exit\" for help.\n\r",
           ch );
     return FALSE;
 }
@@ -3762,13 +3762,13 @@ MEDIT( medit_sex )              /* Moved out of medit() due to naming conflicts 
         {
             pMob->sex = value;
 
-            send_to_char( "Sex set.\n\r", ch );
+            send_to_char( "Gender set.\n\r", ch );
             return TRUE;
         }
     }
 
-    send_to_char( "Syntax: sex [sex]\n\r"
-                  "Type '? sex' for a list of flags.\n\r", ch );
+    send_to_char( "Syntax: gender [gender]\n\r"
+                  "Type '? gender' for a list of flags.\n\r", ch );
     return FALSE;
 }
 
@@ -4568,7 +4568,7 @@ MPEDIT( mpedit_delete )
     }
 
     /*
-     * Check to see if this mudprog is in use or is in a group.  If either is
+     * Check to see if this mudprog is in use or is in a group. If either is
      * true then don't allow the deletion.  -Zane
      */
     switch ( pMudProg->prog_type )
@@ -4966,7 +4966,7 @@ MPEDIT( mpedit_triggertype )
         /*
          * If this isn't a new MudProg then search all mobs/objs/rooms to see
          * if this prog is in use and if it is change their progtypes to reflect
-         * the new prog type.  Clunky but shouldn't happen too often. -Zane
+         * the new prog type. Clunky but shouldn't happen too often. -Zane
          */
         if ( pMudProg->vnum )
         {
@@ -5616,7 +5616,7 @@ MPGEDIT( mpgedit_delete )
     }
 
     /*
-     * Check to see if this mudprog group is in use.  If it is
+     * Check to see if this mudprog group is in use. If it is
      * then don't allow the deletion.  -Zane
      */
     switch ( pMprogGroup->prog_type )

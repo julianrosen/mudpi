@@ -29,7 +29,7 @@ griffin~
 A griffin~
 A large black winged griffin swoops into an attack.
 ~
-Golden maned and black all over.  It's quite a beautiful creature if not
+Golden maned and black all over. It's quite a beautiful creature if not
 for the fact it is hungry and is attacking you!
 ~
 Human~
@@ -1228,6 +1228,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

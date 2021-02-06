@@ -7,29 +7,29 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
 /***************************************************************************
- *  The MOBprograms have been contributed by N'Atas-ha.  Any support for   *
- *  these routines should not be expected from Merc Industries.  However,  *
+ *  The MOBprograms have been contributed by N'Atas-ha. Any support for   *
+ *  these routines should not be expected from Merc Industries. However,  *
  *  under no circumstances should the blame for bugs, etc be placed on     *
- *  Merc Industries.  They are not guaranteed to work on all systems due   *
- *  to their frequent use of strxxx functions.  They are also not the most *
+ *  Merc Industries. They are not guaranteed to work on all systems due   *
+ *  to their frequent use of strxxx functions. They are also not the most *
  *  efficient way to perform their tasks, but hopefully should be in the   *
  *  easiest possible way to install and begin using. Documentation for     *
- *  such installation can be found in INSTALL.  Enjoy........    N'Atas-Ha *
+ *  such installation can be found in INSTALL. Enjoy........    N'Atas-Ha *
  ***************************************************************************/
 
 /***************************************************************************
  * do_mpremember(), do_mpforget(), and do_mptrack() added by Zak of the    *
- * EmberMUD coding team.  EmberMUD improvements on ROM 2.3 base code are   *
- * Copyright 1996 by the EmberMUD development team.  See EmberMUD.license. *
+ * EmberMUD coding team. EmberMUD improvements on ROM 2.3 base code are   *
+ * Copyright 1996 by the EmberMUD development team. See EmberMUD.license. *
  ***************************************************************************/
 
 #include <sys/types.h>
@@ -653,7 +653,7 @@ void do_mpecho( CHAR_DATA * ch, char *argument )
 
 }
 
-/* lets the mobile load an item or mobile.  All items
+/* lets the mobile load an item or mobile. All items
 are loaded into inventory.  you can specify a level with
 the load object portion as well. */
 
@@ -753,7 +753,7 @@ void do_mpoload( CHAR_DATA * ch, char *argument )
 }
 
 /* lets the mobile purge all objects and other npcs in the room,
-   or purge a specified object or mob in the room.  It can purge
+   or purge a specified object or mob in the room. It can purge
    itself, but this had best be the last command in the MudProg
    otherwise ugly stuff will happen */
 
@@ -1339,7 +1339,7 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
         break;
 
     case 'c':
-        act( "$n says 'Mexicans!  Those illegals have no respect for anything!'",
+        act( "$n says 'Mexicans! Those illegals have no respect for anything!'",
              ch, NULL, NULL, TO_ROOM );
         break;
 

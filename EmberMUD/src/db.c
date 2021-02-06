@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -875,7 +875,7 @@ systems. -Lancelight */
         area_update(  );
         load_boards(  );        /* Load all boards */
         load_bans(  );          /* Letz ban those SOB's. -Lancelight */
-        load_classes(  );       /* Load classes for Askill usage -Lancelight */
+        load_classes(  );       /* Load classes for Askill usage -Lancelight */ /* This overwrites skill/spell level/CP in const.c */
         load_disabled(  );      /* Load disabled commands. -Lancelight */
         save_notes(  );
         MOBtrigger = TRUE;
@@ -1017,7 +1017,7 @@ void skip_section( FILE * fp, char *section )
 /*
  * OLC
  * Use these macros to load any new area formats that you choose to
- * support on your MUD.  See the load_area format below for
+ * support on your MUD. See the load_area format below for
  * a short example.
  */
 #if defined(KEY)
@@ -1042,7 +1042,7 @@ void skip_section( FILE * fp, char *section )
 				}
 
 /* OLC
- * Snarf an 'area' header line.   Check this format.  MUCH better.  Add fields
+ * Snarf an 'area' header line.   Check this format. MUCH better. Add fields
  * too.
  *
  * #AREAFILE
@@ -1221,7 +1221,7 @@ void load_todo( FILE * fp )
 }
 
 /*
- * Adds a reset to a room.  OLC
+ * Adds a reset to a room. OLC
  * Similar to add_reset in olc.c
  */
 void new_reset( ROOM_INDEX_DATA * pR, RESET_DATA * pReset )
@@ -1419,9 +1419,9 @@ void load_resets( FILE * fp )
             }
             /*
              * By calling new_reset we are assigning reset data for doors.
-             * This data is not used in updating the game any longer.  But
+             * This data is not used in updating the game any longer. But
              * displaying resets in this manner may be to your liking.
-             * I have left the code here so you may do so.  Uncomment data in
+             * I have left the code here so you may do so. Uncomment data in
              * display_resets in olc.c if you wish to do this.
              *
              *
@@ -1761,7 +1761,7 @@ void area_update( void )
 }
 
 /* OLC
- * Reset one room.  Called by reset_area and olc.
+ * Reset one room. Called by reset_area and olc.
  */
 void reset_room( ROOM_INDEX_DATA * pRoom )
 {
@@ -2886,7 +2886,7 @@ void fread_to_eol( FILE * fp )
 
 /*
  * Allocate memory for a string, read one word from a file,
- *  and return a pointer to the word.  Please remember to
+ *  and return a pointer to the word. Please remember to
  *  free this pointer when you're done with it...
  */
 char *get_word( FILE * fp )
@@ -2994,7 +2994,7 @@ void *alloc_mem( int sMem )
  * Free some memory.
  *
  * You have to pass the address of the pointer pointing to the memory
- * being freed.  This way we can set that pointer to null.  Safer than
+ * being freed. This way we can set that pointer to null. Safer than
  * allowing the user to set it to null later. - Zane
  *
  * All calls to free_mem should look something like:
@@ -3114,7 +3114,7 @@ unsigned int str_len( const char *str )
 
 #if defined(_MSC_VER)
 /*
- * MSVC doesn't have a snprintf() function, it has _snprintf().  I'm wrapping that function
+ * MSVC doesn't have a snprintf() function, it has _snprintf(). I'm wrapping that function
  * so we can use snprintf() to our heart's desire.
  */
 void snprintf( char *buffer, size_t count, const char *format, ... )
@@ -3167,7 +3167,7 @@ char *str_str( char *str1, char *str2 )
 }
 
 /*
- * Uppercase a string.  Added because not all OS's have strupr().
+ * Uppercase a string. Added because not all OS's have strupr().
  */
 char *str_upr( char *str )
 {
@@ -4369,7 +4369,7 @@ int load_config_file( void )
         if ( !str_cmp( buf, "[Paths]" ) )
         {
             /*
-             * Read in each line of the section.  If a new section header is 
+             * Read in each line of the section. If a new section header is 
              * encountered then end this section.
              */
             while ( !bEOF )
@@ -4430,7 +4430,7 @@ int load_config_file( void )
         else if ( !str_cmp( buf, "[Files]" ) )
         {
             /*
-             * Read in each line of the section.  If a new section header is 
+             * Read in each line of the section. If a new section header is 
              * encountered then end this section.
              */
             while ( !bEOF )
@@ -4531,7 +4531,7 @@ int load_config_file( void )
 }
 
 /*
- * Accept a string and buffer as an arg.  Filter the string for a value after
+ * Accept a string and buffer as an arg. Filter the string for a value after
  * an = sign and return a pointer to the buffer.
  */
 char *get_config_value( char *inbuf, char *outbuf )

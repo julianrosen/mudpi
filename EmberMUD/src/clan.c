@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -19,7 +19,7 @@
  * File:  Clan.c                                                           *
  * Written by: Kyle Boyd                                                   *
  * Partially inspired by some code written by Zane(E.J. Wilburn), as well  *
- * as clan code from SMAUG(?) and ROM muds.  None of what you see here was *
+ * as clan code from SMAUG(?) and ROM muds. None of what you see here was *
  * directly copied from those versions of clan code, just some of the      *
  * ideas were used.                                                        *
  ***************************************************************************/
@@ -1100,7 +1100,7 @@ void do_join( CHAR_DATA * ch, char *argument )
 
     if ( ch->pcdata->clan != 0 )
     {
-        send_to_char( "You are already a member of a clan!  Duh!\n\r", ch );
+        send_to_char( "You are already a member of a clan! Duh!\n\r", ch );
         return;
     }
 
@@ -1253,12 +1253,12 @@ void do_join( CHAR_DATA * ch, char *argument )
         return;
     case JOIN_CONSIDERING:
     case JOIN_OFFERING:
-        send_to_char( "Doh, a bug.  Ignore this.\n\r", ch );
+        send_to_char( "Doh, a bug. Ignore this.\n\r", ch );
         bug( "Ch without clan in JOIN_CONSIDERING or JOIN_OFFERING", 0 );
         ch->pcdata->join_status = JOIN_START;
         return;
     default:
-        send_to_char( "Doh, a bug.  Ignore this.\n\r", ch );
+        send_to_char( "Doh, a bug. Ignore this.\n\r", ch );
         bug( "Unknown join_status %d!", ch->pcdata->join_status );
         ch->pcdata->join_status = JOIN_START;
         return;
@@ -1337,7 +1337,7 @@ void do_petition( CHAR_DATA * ch, char *argument )
 
     if ( victim->pcdata->clan_ch == ch )
     {
-        send_to_char( "You are already petitioning them!  Be patient!\n\r",
+        send_to_char( "You are already petitioning them! Be patient!\n\r",
                       ch );
         return;
     }
@@ -1769,7 +1769,7 @@ void do_clan( CHAR_DATA * ch, char *argument )
     {
         if ( clan_first == NULL )
         {
-            send_to_char( "There are no clans.  Use 'edit clan create'.\n\r",
+            send_to_char( "There are no clans. Use 'edit clan create'.\n\r",
                           ch );
             return;
         }
@@ -1880,7 +1880,7 @@ void do_clan( CHAR_DATA * ch, char *argument )
             if ( !can_ch_join( victim, clan, TRUE ) == FALSE )
             {
                 send_to_char
-                    ( "WARNING!  This player does not meet the requirements of that clan!\n\r",
+                    ( "WARNING! This player does not meet the requirements of that clan!\n\r",
                       ch );
             }
 
@@ -2306,7 +2306,7 @@ void do_crecall( CHAR_DATA * ch, char *argument )
             lose = ( int ) ( 0.02 * exp_per_level( ch, ch->pcdata->points ) );
             gain_exp( ch, 0 - lose );
             check_improve( ch, gsn_recall, TRUE, 4 );
-            sprintf( buf, "You recall from combat!  You lose %d exps.\n\r",
+            sprintf( buf, "You recall from combat! You lose %d exps.\n\r",
                      lose );
             send_to_char( buf, ch );
         }

@@ -1,7 +1,7 @@
 #MOBPROGS
 #1
 Poison Bite~
-Poisons the person the mob is fighting with.  Chance based on mob's level.~
+Poisons the person the mob is fighting with. Chance based on mob's level.~
 fight_prog 100~
 if(getrand(50) <= level($i))
   mpechoat $i You bite $n!
@@ -281,7 +281,7 @@ if(isfight($i))
   break
 endif
 if(crimethief($n))
-  yell $n is a thief!  PROTECT THE INNOCENT!  MORE BLOOOOD!!!
+  yell $n is a thief! PROTECT THE INNOCENT! MORE BLOOOOD!!!
   mpmload 3060
   mpmload 3060
   mpkill $n
@@ -306,7 +306,7 @@ if(isfight($i))
   break
 endif
 if(crimethief($n))
-  yell $n is a thief!  PROTECT THE INNOCENT!  BANZAI!!!
+  yell $n is a thief! PROTECT THE INNOCENT! BANZAI!!!
   mpkill $n
   break
 endif
@@ -320,7 +320,7 @@ if(isfight($i))
   break
 endif
 if(fightinroom() && alignment($x) < 300)
-  :screams 'PROTECT THE INNOCENT!!  BANZAI!!'
+  :screams 'PROTECT THE INNOCENT!! BANZAI!!'
   mpkill $x
   break
 endif

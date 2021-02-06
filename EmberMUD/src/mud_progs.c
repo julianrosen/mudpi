@@ -7,16 +7,16 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
 /***************************************************************************
- * MudProgs has been completely rewritten by Zane.  The only thing that    *
+ * MudProgs has been completely rewritten by Zane. The only thing that    *
  * remains the same is how triggers are handled.  -Zane                    *
  *                                                                         *
  * Original MobProgs by N'Atas-ha.                                         *
@@ -119,8 +119,8 @@ void mprog_driver( char *prog )
 }
 
 /*
- * Main script parsing function.  Passes strings off to parse_if and parse_command
- * for processing.  Also correctly handles breaks.
+ * Main script parsing function. Passes strings off to parse_if and parse_command
+ * for processing. Also correctly handles breaks.
  */
 char *parse_script( char *script )
 {
@@ -295,7 +295,7 @@ char *parse_if( char *instring )
         }
     }
 
-    /* Call parse_script again.  This will process commands and allow for nested if's */
+    /* Call parse_script again. This will process commands and allow for nested if's */
     if ( ifvalue )
         if ( ( ptr = parse_script( ptr ) ) == NULL )
             return NULL;
@@ -2296,38 +2296,38 @@ void oprog_hit_trigger( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * obj )
  * any way except for commercial publication other than as part of your own        *
  * program. This means you are explicitly granted the right to:                    *
  *                                                                                 *
- * 1.  Use these files to create applications for any use, private or commercial,  *
+ * 1. Use these files to create applications for any use, private or commercial,  *
  *     without any license fee.                                                    *
  *                                                                                 *
- * 2.  Copy or otherwise publish copies of the source files so long as the         *
+ * 2. Copy or otherwise publish copies of the source files so long as the         *
  *     original copyright notice is not removed and that such publication is       *
  *     free of any charges other than the costs of duplication and distribution.   *
  *                                                                                 *
- * 3.  Distribute modified versions of the source files so long as the original    *
+ * 3. Distribute modified versions of the source files so long as the original    *
  *     copyright notice is not removed, and that the modified nature is clearly    *
  *     noted in the source file, and that such distribution is free of any         *
  *     charges other than the costs of duplication and distribution.               *
  *                                                                                 *
- * 4.  Distribute object files and/or libraries compiled from the supplied         *
+ * 4. Distribute object files and/or libraries compiled from the supplied         *
  *     source files, provided that such publication is free of any charges other   *
  *     than the costs of duplication and distribution.                             *
  *                                                                                 *
  * Rights reserved to the copyright holder include:                                *
  *                                                                                 *
- * 1.  The right to publish these works commercially including, but not limited    *
+ * 1. The right to publish these works commercially including, but not limited    *
  *     to, books, magazines, and commercial software libraries.                    *
  *                                                                                 *
- * 2.  The commercial rights, as cited above, to all derivative source and/or      *
+ * 2. The commercial rights, as cited above, to all derivative source and/or      *
  *     object modules. Note that this explicitly grants to the user all rights,    *
  *     commercial or otherwise, to any and all executable programs created using   *
  *     MicroFirm copyrighted source or object files contained in SNIPPETS.         *
  *                                                                                 *
  * Users are specifically prohibited from:                                         *
  *                                                                                 *
- * 1.  Removing the copyright notice and claiming the source files or any          *
+ * 1. Removing the copyright notice and claiming the source files or any          *
  *     derivative works as their own.                                              *
  *                                                                                 *
- * 2.  Publishing the source files, the compiled object files, or libraries of     *
+ * 2. Publishing the source files, the compiled object files, or libraries of     *
  *     the compiled object files commercially.                                     *
  *                                                                                 *
  * In other words, you are free to use these files to make programs, not to make   *

@@ -21,14 +21,14 @@ ABF D -200 S
 100 0 0 0 11d9+110 1d1+99 3d4+2 10
 -1 0 3 6
 FHNOR 0 FL I
-8 8 3 0
+8 8 -1 0
 AGRXYc ADEFKLQVX L 0
 #4001
 garter snake~
 the garter snake~
 A small green garter snake slithers along the floor.
 ~
-It looks harmless enough.  Or is it?
+It looks harmless enough. Or is it?
 ~
 snake~
 ABU 0 -100 S
@@ -36,7 +36,7 @@ ABU 0 -100 S
 100 0 0 0 7d7+60 1d1+99 1d10+1 10
 2 3 5 8
 FHR 0 EL I
-8 8 3 0
+8 8 -1 0
 AGRXYc ADEFKLQVX S 0
 #4002
 centipede~
@@ -66,12 +66,12 @@ ACGT J -100 S
 100 0 0 0 4d4+40 1d1+99 1d4+1 5
 7 7 7 10
 R 0 L C
-8 8 3 18
+8 8 -1 18
 ABHMV ABCDEFGHIJKQ S 0
 #4004
 orc~
 the orc~
-This orc is frothing around the mouth.  Better stay away.
+This orc is frothing around the mouth. Better stay away.
 ~
 You notice a slight tinge of madness in his eyes.
 ~
@@ -96,14 +96,14 @@ ACGT J -500 S
 100 0 0 0 6d7+70 1d1+99 1d8+2 17
 4 5 5 8
 CJR 0 Q S
-8 8 3 120
+8 8 -1 120
 AHMV ABCDEFGHIJK M 0
 #4050
 warrior~
 the warrior~
 This tall warrior has more scars than even you!
 ~
-He's surely a strong, brainless fighter.  Like you.
+He's surely a strong, brainless fighter. Like you.
 ~
 Human~
 ABCFT 0 -300 S
@@ -118,7 +118,7 @@ warrior~
 the warrior~
 This veteran warrior is old enough to be your father.
 ~
-He seems to know his way with weapons.  And he wants
+He seems to know his way with weapons. And he wants
 to show you what he can do!
 ~
 Human~
@@ -135,7 +135,7 @@ the hobgoblin~
 A small beat-up hobgoblin cringes in the corner.
 ~
 Looking into the eyes of this poor soul makes you feel
-sad as you see the terror and fear in its eyes.  Why
+sad as you see the terror and fear in its eyes. Why
 don't you put it out of its misery?
 ~
 hobgoblin~
@@ -151,7 +151,7 @@ snake~
 the snake~
 A sickly brown snake watches you with caution.
 ~
-A closer look reveals a hungry demeanor.  Don't get too close!
+A closer look reveals a hungry demeanor. Don't get too close!
 ~
 snake~
 ABFU 0 -600 S
@@ -159,7 +159,7 @@ ABFU 0 -600 S
 100 0 0 0 4d10+100 1d1+99 2d6+1 10
 0 2 2 5
 FGNR 0 EFL I
-8 8 3 0
+8 8 -1 0
 AGRXYc ADEFKLQVX M 0
 #4054
 centipede~
@@ -206,7 +206,7 @@ ACFGT J -800 S
 100 0 0 0 3d10+90 1d1+99 1d8+2 13
 3 3 2 5
 CNR 0 Q S
-8 8 3 60
+8 8 -1 60
 AHMV ABCDEFGHIJK M 0
 #4057
 lion mountain~
@@ -214,7 +214,7 @@ the mountain lion~
 A mountain lion bears its teeth at the sight of more food.
 ~
 Huge claws and big teeth make quite a fearsome opponent for
-the weary.  Are you next?
+the weary. Are you next?
 ~
 cat~
 AFG Z -100 S
@@ -222,15 +222,15 @@ AFG Z -100 S
 100 0 0 0 4d10+100 1d1+99 2d6+1 5
 0 0 0 4
 EFHR 0 E 0
-8 8 3 0
+8 8 -1 0
 AGV ACDEFHJKQUV L 0
 #4058
 giant hill~
 the hill giant~
-A hill giant is here tossing rocks around.  Marbles perhaps?
+A hill giant is here tossing rocks around. Marbles perhaps?
 ~
 The hill giant looks like he's about 9 feet tall. By his actions you
-come to the conclusion that he's not very intelligent.  A perfect
+come to the conclusion that he's not very intelligent. A perfect
 playmate for you.
 ~
 Giant~
@@ -287,14 +287,14 @@ ABCF 0 -700 S
 100 0 0 0 4d10+100 1d1+99 2d6+1 10
 0 0 2 6
 HMNOR 0 FL GI
-8 8 3 0
+8 8 -1 0
 AGRXYc ADEFKLQVX M 0
 #4104
 orc~
 the orc~
 An ugly orc is standing here waiting for someone to practice on.
 ~
-Yrkk..  He belches in your face!
+Yrkk.. He belches in your face!
 ~
 orc~
 ACFGHT J -200 S
@@ -309,7 +309,7 @@ centipede~
 a centipede~
 A small harmless centipede is here looking for some vegetation to eat.
 ~
-It doesn't seem to pay any attention towards you.  You are probably
+It doesn't seem to pay any attention towards you. You are probably
 not important.
 ~
 centipede~
@@ -325,7 +325,7 @@ warrior~
 the Warrior~
 A human warrior grins an evil grin in your face.
 ~
-He doesn't look friendly at all...  He is no Mr. Rogers!
+He doesn't look friendly at all... He is no Mr. Rogers!
 ~
 Human~
 ACFGT 0 -300 S
@@ -340,7 +340,7 @@ kobold~
 the green kobold~
 A green kobold hobbles along the cave walls puking periodically.
 ~
-It looks a little sick.  Something he ate maybe?
+It looks a little sick. Something he ate maybe?
 ~
 kobold~
 ACFGT J -100 S
@@ -348,14 +348,14 @@ ACFGT J -100 S
 100 0 0 0 8d4+50 1d1+99 2d4+1 5
 5 5 5 10
 NR 0 L C
-8 8 3 25
+8 8 -1 25
 ABHMV ABCDEFGHIJKQ S 0
 #4150
 bat blue~
 the blue bat~
 A blue bat flies in circles while electrical charges arc here and there.
 ~
-Bzzzt.  Zap.  Crackle.  Speak about static electricity!
+Bzzzt. Zap. Crackle. Speak about static electricity!
 ~
 bat~
 ABF TZ -100 S
@@ -363,14 +363,14 @@ ABF TZ -100 S
 100 0 0 0 3d10+70 1d1+99 1d9+1 28
 4 4 4 6
 FHR J 0 RSYZ
-8 8 3 0
+8 8 -1 0
 AGW ACDEFHJKP T 0
 #4151
 bat red~
 the red bat~
 A red bat hangs upside down from the ceiling, glowing.
 ~
-You can definitely feel some heat from this thing.  A fever perhaps?
+You can definitely feel some heat from this thing. A fever perhaps?
 ~
 bat~
 ABF TZ -100 S
@@ -378,14 +378,14 @@ ABF TZ -100 S
 100 0 0 0 3d10+70 1d1+99 1d9+1 29
 4 4 4 6
 FHR H 0 IRS
-8 8 3 0
+8 8 -1 0
 AGW ACDEFHJKP T 0
 #4152
 bat green~
 the green bat~
 A green bat flies from wall to wall leaving an awful smell.
 ~
-Whew!  What a stinker!
+Whew! What a stinker!
 ~
 bat~
 ABF TZ -100 S
@@ -393,14 +393,14 @@ ABF TZ -100 S
 100 0 0 0 3d10+70 1d1+99 1d9+1 10
 4 4 4 6
 FHR L 0 S
-8 8 3 0
+8 8 -1 0
 ABGW ACDEFHJKP T 0
 #4153
 bat white~
 the white bat~
-A white bat rests on the ceiling.  You wonder where the cold is coming from.
+A white bat rests on the ceiling. You wonder where the cold is coming from.
 ~
-Brrr!  You almost can't distinguish this bat from an ice cube.
+Brrr! You almost can't distinguish this bat from an ice cube.
 ~
 bat~
 ABF TZ -100 S
@@ -408,14 +408,14 @@ ABF TZ -100 S
 100 0 0 0 3d10+70 1d1+99 1d9+1 30
 4 4 4 6
 FHR I 0 HS
-8 8 3 0
+8 8 -1 0
 AGW ACDEFHJKP T 0
 #4154
 bat black~
 the black bat~
 A black bat flies from wall to wall leaving something hissing behind.
 ~
-Amazing!  This bat is grooming itself with acid!
+Amazing! This bat is grooming itself with acid!
 ~
 bat~
 ABF TZ -100 S
@@ -423,14 +423,14 @@ ABF TZ -100 S
 100 0 0 0 3d10+70 1d1+99 1d9+1 31
 4 4 4 6
 FHR K 0 S
-8 8 3 0
+8 8 -1 0
 AGW ACDEFHJKP T 0
 #4155
 thief~
 the thief~
 A sneaky thief appears and disappears within the shadows.
 ~
-He definitely knows what he's doing.  Trust him.
+He definitely knows what he's doing. Trust him.
 ~
 Human~
 ACGS BQ 400 S
@@ -445,7 +445,7 @@ troll~
 the troll~
 A large ugly troll is here mumbling something.
 ~
-He looks quite mean.  Don't mess with him.
+He looks quite mean. Don't mess with him.
 ~
 Troll~
 ABCFT Jc -700 S
@@ -460,7 +460,7 @@ mage~
 the Mage~
 A small man is here researching magical incantations.
 ~
-His little head is buried into his magic books.  He'd be very
+His little head is buried into his magic books. He'd be very
 angry should you bother his studies.
 ~
 Human~
@@ -485,14 +485,14 @@ ABFU 0 200 S
 100 0 0 0 2d10+100 1d1+99 1d12+1 10
 1 3 3 6
 FGNR 0 EFL I
-7 7 3 0
+7 7 -1 0
 AGRXYc ADEFKLQVX M 0
 #4159
 troll~
 the small troll~
-A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
+A 'small' troll is here happily dancing. Trala-la-la. La-la.
 ~
-He is so happy, you are disgusted.  Kill him now!
+He is so happy, you are disgusted. Kill him now!
 ~
 Troll~
 ACFGT Jc -300 S
@@ -515,7 +515,7 @@ ACFGT J -200 S
 100 0 0 0 3d10+100 1d1+99 1d8+2 13
 2 2 1 5
 CJNR 0 Q S
-8 8 3 150
+8 8 -1 150
 AHMV ABCDEFGHIJK M 0
 #0
 
@@ -546,7 +546,7 @@ unknown~
 0 100 0 P
 E
 corpse~
-Ew.  This must have been the mapper that was lost in Moria.  His rotted hand
+Ew. This must have been the mapper that was lost in Moria. His rotted hand
 still clutches a partially digested map...
 ~
 #4002
@@ -593,7 +593,7 @@ A
 18 -2
 E
 club tree~
-This is the biggest club you have ever seen!  The giant didn't even bother to
+This is the biggest club you have ever seen! The giant didn't even bother to
 trim the roots off the end.
 ~
 #4006
@@ -654,9 +654,9 @@ unknown~
 B B AC B 0
 10 2 850 G
 A
-19 1
-A
 18 1
+A
+19 1
 E
 dirk~
 It's a medium sized, beautifully crafted dirk made from grey alloy.
@@ -698,13 +698,13 @@ unknown~
 BC A ABC ABDE 0
 5 7 260 A
 A
-17 1
-A
 19 2
+A
+17 1
 E
 flail~
 It's a stout wooden rod with two spiked balls attached, each weighing over 2
-pounds.  It's a little worn for wear, but looks most painful.
+pounds. It's a little worn for wear, but looks most painful.
 ~
 #4057
 mace heavy~
@@ -763,15 +763,15 @@ You'll become as evil as the weapon, if you use it!
 #4101
 gloves~
 swordsman's gloves~
-Some gloves are here.  They look like the right equipment for fighting.~
+Some gloves are here. They look like the right equipment for fighting.~
 unknown~
 9 G AH
 A AB AB A A
 8 1 1500 G
 A
-19 1
-A
 18 2
+A
+19 1
 #4102
 scroll ysafg~
 a scroll which reads "ysafg"~
@@ -843,12 +843,12 @@ unknown~
 ABCD C B 27 0
 11 5 3000 G
 E
-runes~
-The runes says : Funthark.
-~
-E
 staff oak~
 You see it has some sort of runes on it.
+~
+E
+runes~
+The runes says : Funthark.
 ~
 #4152
 dagger light silver~
@@ -859,9 +859,9 @@ unknown~
 B B C B 0
 7 2 1500 P
 A
-17 -1
-A
 18 1
+A
+17 -1
 E
 dagger light silver~
 It looks like an excellent weapon for thieves.
@@ -875,9 +875,9 @@ unknown~
 C B BC ABDE 0
 10 12 400 G
 A
-2 -1
-A
 19 1
+A
+2 -1
 E
 star morning~
 It's a huge length of wood studded with iron spikes and bands. You wouldn't
@@ -1033,9 +1033,9 @@ The dusty trail turns left around the corner of the wall, behind it Haon-Dor.
 S
 #3904
 The long dusty trail following the north wall.~
-You are just outside the northern gate of Midgaard.  You can continue along
+You are just outside the northern gate of Midgaard. You can continue along
 the trail to the east or west, head onwards to the plains of the north, or
-enter Midgaard to the south.  You can just barely make out the buildings of
+enter Midgaard to the south. You can just barely make out the buildings of
 Midgaard from here, the Temple of Mota looks impressive even from this
 distance.  
 ~
@@ -1161,9 +1161,9 @@ S
 The hills~
 You are surrounded by dark and sinister hills. Although they seemed fairly
 small from a distance you now get the feeling that they're closing in on you,
-towering over you, overwhelming you ...  The small path seems to have second
+towering over you, overwhelming you ... The small path seems to have second
 thoughts about these hills because it starts winding unnecessarily, turning
-several times around itself.  To the south the hills have a lighter hue of
+several times around itself. To the south the hills have a lighter hue of
 dark. To the north however, the hills have become nightblack holes in the
 distant mountains.
 ~
@@ -1182,11 +1182,15 @@ End of the path~
 At this point the path has had enough. With a terrified shudder it cowers
 to the ground, only staying here because you're standing on it. with a slight
 feeling of unease you look around noticing only a few bushes and a large sign
-carved into the mountain.  You feel you can hear the cry of help from a
+carved into the mountain. You feel you can hear the cry of help from a
 thousand silent voices all coming from an even darker hole in the mountain to
 the north marking the entrance to a cave (or a grave :-).
 ~
 0 4 4
+E
+bushes~
+Small crippled bushes desperately trying to grow south.
+~
 E
 sign~
 The sign says:
@@ -1204,10 +1208,6 @@ The sign says:
                  | |
                  | |
                  | |
-~
-E
-bushes~
-Small crippled bushes desperately trying to grow south.
 ~
 D0
 (null)~
@@ -1280,7 +1280,7 @@ D1
 S
 #4013
 The tunnel~
-This tunnel, leading east-west, seems seldom used.  A thick layer of dust
+This tunnel, leading east-west, seems seldom used. A thick layer of dust
 covers the floor, making the air stuffy and dry. 
 ~
 0 9 3
@@ -1425,7 +1425,7 @@ D5
 S
 #4022
 The damp tunnel~
-You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues
+You are in a damp tunnel. Your clothes feel wet. The tunnel continues
 to the north; to the west you see a hole in the floor; and to the east
 there is a large cave.
 ~
@@ -1460,7 +1460,7 @@ D2
 S
 #4024
 The damp tunnel~
-You are in a corner of a damp tunnel.  You can go west or south.
+You are in a corner of a damp tunnel. You can go west or south.
 ~
 0 9 3
 D2
@@ -1474,7 +1474,7 @@ D3
 S
 #4025
 The cave~
-You are in the north end of a cave.  To the east you see many tunnels.
+You are in the north end of a cave. To the east you see many tunnels.
 ~
 0 9 2
 D1
@@ -1591,7 +1591,7 @@ S
 #4032
 The foothills~
 You are on a winding path that leads through the foothills on the
-other side of the mountain.  The path continues north.
+other side of the mountain. The path continues north.
 ~
 0 0 2
 D0
@@ -1605,7 +1605,7 @@ D2
 S
 #4033
 The intersection in the foothills~
-The small path you are following splits here.  The path continues
+The small path you are following splits here. The path continues
 north and south or you can follow a trail east into the mountains.
 ~
 0 0 2
@@ -1624,9 +1624,9 @@ D2
 S
 #4034
 The grassy area of the foothills~
-The grass here is unusually high.  You notice several areas where
-someone or something large has crush spots of the down.  Several very
-large rocks litter this area.  You can go north, west or south.
+The grass here is unusually high. You notice several areas where
+someone or something large has crush spots of the down. Several very
+large rocks litter this area. You can go north, west or south.
 ~
 0 0 2
 D0
@@ -1644,8 +1644,8 @@ D3
 S
 #4035
 The foothills end~
-At this point you are leaving the foothills.  You see a plains area
-to the north of here.  You can spot a small city in the distance from
+At this point you are leaving the foothills. You see a plains area
+to the north of here. You can spot a small city in the distance from
 here.
 ~
 0 0 2
@@ -1660,7 +1660,7 @@ D2
 S
 #4036
 The plains~
-The plains.  Exits are south.
+The plains. Exits are south.
 ~
 0 0 2
 D2
@@ -1854,7 +1854,7 @@ D3
 S
 #4055
 The maze~
-You are in a maze of small damp tunnels.  The only exit is west.
+You are in a maze of small damp tunnels. The only exit is west.
 ~
 0 9 3
 D3
@@ -2746,7 +2746,7 @@ D2
 S
 #4161
 The wet tunnel~
-You are in a north-south leading tunnel.  The floor is fully
+You are in a north-south leading tunnel. The floor is fully
 covered by water.
 ~
 0 9 3
@@ -3104,6 +3104,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

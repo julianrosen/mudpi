@@ -7,11 +7,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  **************************************************************************/
 
@@ -86,7 +86,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
                      capitalize( ch->name ) );
             stop_fighting( ch, TRUE );
             send_to_char
-                ( "You have chosen to remort.  You will now be dropped in at the race\n\r",
+                ( "You have chosen to remort. You will now be dropped in at the race\n\r",
                   ch );
             send_to_char
                 ( "selection section of character creation, and will be allowed to choose from\n\r",
@@ -115,7 +115,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
             /*
              * Delete the pfile, but don't boot the character.
              * Instead, do a load_char_obj to get a new ch,
-             * saving the password, and the incarnations.  Then,
+             * saving the password, and the incarnations. Then,
              * set the PLR_REMORT bit and drop the player in at
              * CON_BEGIN_REMORT.
              */
@@ -132,7 +132,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
 
     if ( argument[0] != '\0' )
     {
-        send_to_char( "Just type remort.  No argument.\n\r", ch );
+        send_to_char( "Just type remort. No argument.\n\r", ch );
         return;
     }
 

@@ -47,7 +47,7 @@ elder druid~
 an elder druid~
 An elder druid stands here, watching the local flora and wildlife.
 ~
-He looks ageless, as do all druids.  His grey beard contrasts strongly with
+He looks ageless, as do all druids. His grey beard contrasts strongly with
 his lack of wrinkles.
 ~
 Human~
@@ -63,7 +63,7 @@ elder druidess~
 an elder druidess~
 An elder druidess stands here, watching the local fauna and feeding rabbits.
 ~
-She looks ageless, as do all druids.  She smiles a beautiful smile at you.
+She looks ageless, as do all druids. She smiles a beautiful smile at you.
 ~
 Human~
 AGHT N 1000 S
@@ -78,7 +78,7 @@ doe~
 a doe~
 A doe is here, munching on grass.
 ~
-This peaceful creature looks at you with big dark eyes.  Her nose twitches as
+This peaceful creature looks at you with big dark eyes. Her nose twitches as
 she sniffs at you, but she goes back to chewing some grass.
 ~
 Human~
@@ -94,7 +94,7 @@ deer~
 a deer~
 A deer is here, staring back at you.
 ~
-The deer looks angered at your intrusion.  He butts his head against you, 
+The deer looks angered at your intrusion. He butts his head against you, 
 albeit ineffectively.
 ~
 Human~
@@ -110,7 +110,7 @@ stag deer large~
 a stag~
 A large deer stag is here, protecting his territory.
 ~
-He eyes you with contained anger.  You'd better leave him alone!
+He eyes you with contained anger. You'd better leave him alone!
 ~
 Human~
 AFGHT 0 0 S
@@ -409,7 +409,7 @@ S
 A clearing in the woods~
 You are standing in a clearing in the light woods. Somehow, this place
 seems powerfully DIFFERENT from the rest of the forest, as if something is
-severely strained in the fabric of reality here.  There is a small tablet 
+severely strained in the fabric of reality here. There is a small tablet 
 on one of the trees.
 ~
 0 4 3
@@ -473,7 +473,7 @@ harvest in the fall, and where lovers stroll in summer. You feel seasons of
 remembered happiness and joy taking Your sorrows and worries away from You,
 leaving You calm and invigorated, ready for the world. Paths lead into the
 holy grove to the east, north and west, while to the south a wide, sunny field
-slopes down to a sparkling lake.  Above you is a strange shimmering, almost
+slopes down to a sparkling lake. Above you is a strange shimmering, almost
 like something from another world....
 ~
 0 0 3
@@ -634,7 +634,7 @@ S
 The foyer~
 You are standing in the foyer of Dragon's mansion. The wide double door to
 the croquet lawn is to the north, flanked by large windows. The walls are
-panelled in oak and hung with strange paintings.  There is door in the south
+panelled in oak and hung with strange paintings. There is door in the south
 wall.
 ~
 0 12 0
@@ -852,8 +852,8 @@ S
 #8950
 At the edge of the grove~
 You are standing at the entrace of a beautiful grove of trees, and your
-heart is filled with pure, peaceful thoughts.  This looks like a safe place
-to recover from the wounds of adventuring.  A faint path through the grove
+heart is filled with pure, peaceful thoughts. This looks like a safe place
+to recover from the wounds of adventuring. A faint path through the grove
 lies to the north, and you can see the eastern road to the south.
 ~
 0 0 3
@@ -871,8 +871,8 @@ S
 #8951
 Inside the grove~
 As you walk among the stately oaks of this grove, you feel at peace and 
-in harmony with this beautiful forest.  If only the rest of the lands were
-so tranquil.  The trail turns towards the east, leading into the secluded
+in harmony with this beautiful forest. If only the rest of the lands were
+so tranquil. The trail turns towards the east, leading into the secluded
 trees of the druids' holy grove, and a path back to the eastern road lies
 south.
 ~
@@ -979,6 +979,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

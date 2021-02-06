@@ -2,7 +2,7 @@
  *  File: bit.c                                                            *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was written by Jason Dinkel and inspired by Russ Taylor,     *
@@ -12,8 +12,8 @@
  ***************************************************************************/
 /*
  The code below uses a table lookup system that is based on suggestions
- from Russ Taylor.  There are many routines in handler.c that would benefit
- with the use of tables.  You may consider simplifying your code base by
+ from Russ Taylor. There are many routines in handler.c that would benefit
+ with the use of tables. You may consider simplifying your code base by
  implementing a system like below with such functions. -Jason Dinkel
  */
 
@@ -32,8 +32,8 @@ struct flag_stat_type {
 /*****************************************************************************
  Name:          flag_stat_table
  Purpose:       This table catagorizes the tables following the lookup
-		functions below into stats and flags.  Flags can be toggled
-		but stats can only be assigned.  Update this table when a
+		functions below into stats and flags. Flags can be toggled
+		but stats can only be assigned. Update this table when a
 		new set of flags is installed.
  ****************************************************************************/
 const struct flag_stat_type flag_stat_table[] = {
@@ -97,9 +97,9 @@ bool is_stat( const struct flag_type *flag_table )
 }
 
 /*
- * This function is Russ Taylor's creation.  Thanks Russ!
+ * This function is Russ Taylor's creation. Thanks Russ!
  * All code copyright (C) Russ Taylor, permission to use and/or distribute
- * has NOT been granted.  Use only in this OLC package has been granted.
+ * has NOT been granted. Use only in this OLC package has been granted.
  */
 /*****************************************************************************
  Name:          flag_lookup( flag, table )
@@ -123,7 +123,7 @@ int flag_lookup( const char *name, const struct flag_type *flag_table )
 
 /*****************************************************************************
  Name:          flag_value( table, flag )
- Purpose:       Returns the value of the flags entered.  Multi-flags accepted.
+ Purpose:       Returns the value of the flags entered. Multi-flags accepted.
  Called by:     olc.c and olc_act.c.
  ****************************************************************************/
 int flag_value( const struct flag_type *flag_table, char *argument )
@@ -207,7 +207,7 @@ const struct flag_type sex_flags[] = {
     {"male", SEX_MALE, TRUE},
     {"female", SEX_FEMALE, TRUE},
     {"neutral", SEX_NEUTRAL, TRUE},
-    {"random", 3, TRUE},        /* ROM */
+    {"random", SEX_RANDOM, TRUE},        /* ROM */ /* Edited by JR */
     {"nonbinary", SEX_NB, TRUE}, /* Added by JR */
     {"none", SEX_NEUTRAL, TRUE},
     {"", 0, 0}

@@ -15,7 +15,7 @@ You meet a beholder's deadly gaze!
 ~
 It has a large central eye that projects an anti-magic ray and ten
 eyestalks atop the round body which can do anything from charm you
-to disintegrate you.  Beholders are not known for their personality.
+to disintegrate you. Beholders are not known for their personality.
 ~
 Human~
 ABFHT D -870 S
@@ -31,7 +31,7 @@ The lamia~
 A strange lamia stands here waiting for her next meal.
 ~
 This is a creature with the upper torso of a beautiful woman, but the lower
-body of a four-legged beast.  She licks her lips as she looks at you greedily.
+body of a four-legged beast. She licks her lips as she looks at you greedily.
 ~
 Human~
 ACFGT 0 -999 S
@@ -158,9 +158,9 @@ unknown~
 D D D 0 0
 26 30 260 P
 A
-19 1
-A
 1 2
+A
+19 1
 #5201
 helm mithril~
 a mithril helm~
@@ -180,9 +180,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 19 1
+A
+18 1
 #5203
 sleeves mithril~
 some mithril sleeves~
@@ -192,9 +192,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 19 1
+A
+18 1
 #5204
 boots mithril~
 a pair of mithril boots~
@@ -204,9 +204,9 @@ unknown~
 D D D 0 0
 26 6 260 P
 A
-18 1
-A
 2 1
+A
+18 1
 #5205
 leggings mithril~
 a set of mithril leggings~
@@ -216,9 +216,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 2 1
+A
+18 1
 #5206
 girth mithril~
 a mithril girth~
@@ -248,9 +248,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-20 -2
-A
 21 -2
+A
+20 -2
 #5210
 potion black~
 a black potion~
@@ -308,9 +308,9 @@ unknown~
 AC AC AC 0 0
 10 11 100 P
 A
-1 -10
-A
 2 -8
+A
+1 -10
 #5219
 venison chunk~
 a chunk of venison~
@@ -336,9 +336,9 @@ unknown~
 A AC BC AB F
 26 24 260 P
 A
-18 2
-A
 19 3
+A
+18 2
 #5222
 robe black silk~
 a black silk robe~
@@ -522,9 +522,9 @@ unknown~
 B AB AC ABD 0
 10 4 100 P
 A
-18 1
-A
 19 1
+A
+18 1
 #0
 
 
@@ -553,8 +553,8 @@ S
 #5201
 Main Street~
 This was once a magnificent street, but now is in total ruin. The
-streets are barren and windswept and the silence is unending.  A dark alley
-leads north and south.  Howls and screams echo through the deserted city.
+streets are barren and windswept and the silence is unending. A dark alley
+leads north and south. Howls and screams echo through the deserted city.
 ~
 0 0 1
 D0
@@ -1177,7 +1177,7 @@ S
 #5231
 South wing of the city hall~
 You stand in a large room attached to this end of the hallway which
-leads back north to the reception area.  Pedestals and columns have fallen
+leads back north to the reception area. Pedestals and columns have fallen
 and most of the valuable items have been taken, leaving worthless debris.
 A few chairs have survived, as well as a large curved desk. To the east
 is a vine-covered archway leading out into a private courtyard.
@@ -1573,7 +1573,7 @@ The south-east watchtower~
 You stand atop one of the city watchtowers. The view is magnificent
 from here and you can see all the way to the western mountains. To the
 south the desert stretches to the horizon. No wonder this place stood
-for so long.  There is a small plaque on the stones.
+for so long. There is a small plaque on the stones.
 ~
 0 0 1
 E
@@ -1591,7 +1591,7 @@ S
 #5255
 A back alley~
 A narrow alley leads north to the main street, and south toward a tall
-watchtower.  A ruined building is to the west.
+watchtower. A ruined building is to the west.
 ~
 0 0 1
 D0
@@ -1612,8 +1612,8 @@ S
 #5256
 A trail at the end of the dwarf forest~
 The trail ends here, with short, dry stumps of trees all around you.
-To the west, you can see the ruins of a huge city.  Something about it gives
-you an uneasy feeling.  To the east is your way back to home and safety.
+To the west, you can see the ruins of a huge city. Something about it gives
+you an uneasy feeling. To the east is your way back to home and safety.
 ~
 0 0 2
 D1
@@ -1629,8 +1629,8 @@ You see Thalos!
 S
 #5257
 A trail at the end of the dwarf forest~
-A side trail here leads from the dwarf forest.  It is definitely drier
-and hotter here.  The trail continues to the west, and to the east, you see
+A side trail here leads from the dwarf forest. It is definitely drier
+and hotter here. The trail continues to the west, and to the east, you see
 the T-intersection.
 ~
 0 0 2
@@ -1647,7 +1647,7 @@ You see the trail continue on.
 S
 #5258
 The dwarf forest~
-You see more stunted trees here.  A side trail leads west from here.
+You see more stunted trees here. A side trail leads west from here.
 To the east, you THINK you see a trail, but you can never be sure.
 ~
 0 0 3
@@ -1669,8 +1669,8 @@ You see the trail branch off.
 S
 #5259
 The dwarf forest~
-You see more stunted trees here.  It looks almost as if this place was
-cursed by a god to be short and dry.  The trail leads north and south.
+You see more stunted trees here. It looks almost as if this place was
+cursed by a god to be short and dry. The trail leads north and south.
 ~
 0 0 3
 D0
@@ -1686,8 +1686,8 @@ You see the trail continue south.
 S
 #5260
 The dwarf forest~
-You see more stunted trees here.  It looks almost as if this place was
-cursed by a god to be short and dry.  The trail leads north and south.
+You see more stunted trees here. It looks almost as if this place was
+cursed by a god to be short and dry. The trail leads north and south.
 ~
 0 0 3
 D0
@@ -1703,8 +1703,8 @@ You see the trail continue south.
 S
 #5261
 The dwarf forest~
-You see many stunted trees here.  You don't see any leaves on these barren
-trees.  No grass grows on the ground.
+You see many stunted trees here. You don't see any leaves on these barren
+trees. No grass grows on the ground.
 ~
 0 0 3
 D0
@@ -1720,8 +1720,8 @@ You see the trail continue south.
 S
 #5262
 The dwarf forest~
-You see more stunted trees here.  It looks almost as if this place was
-cursed by a god to be short and dry.  The trail leads east and west.  It looks
+You see more stunted trees here. It looks almost as if this place was
+cursed by a god to be short and dry. The trail leads east and west. It looks
 dark toward the east.
 ~
 0 0 3
@@ -1738,8 +1738,8 @@ You see the lighter forest and the T-intersection west.
 S
 #5263
 The darker dwarf forest~
-You see a more dense foliage in these stunted trees.  The gloom caused
-by them is enhanced by a draft coming from all around.  The trail turns south
+You see a more dense foliage in these stunted trees. The gloom caused
+by them is enhanced by a draft coming from all around. The trail turns south
 from the west.
 ~
 0 1 3
@@ -1756,8 +1756,8 @@ You see the dwarf forest.
 S
 #5264
 The darker dwarf forest~
-You see a more dense foliage in these stunted trees.  The gloom caused
-by them is enhanced by a draft coming from all around.  The trail turns east
+You see a more dense foliage in these stunted trees. The gloom caused
+by them is enhanced by a draft coming from all around. The trail turns east
 from the north.
 ~
 0 1 3
@@ -1774,8 +1774,8 @@ You see nothing in the gloom east of you.
 S
 #5265
 The darker dwarf forest~
-You see a more dense foliage in these stunted trees.  The gloom caused
-by them is enhanced by a draft coming from all around.  The trail leads
+You see a more dense foliage in these stunted trees. The gloom caused
+by them is enhanced by a draft coming from all around. The trail leads
 east and west.
 ~
 0 1 3
@@ -1792,8 +1792,8 @@ You see nothing in the gloom west of you.
 S
 #5266
 The darker dwarf forest~
-You see a more dense foliage in these stunted trees.  The gloom caused
-by them is enhanced by a draft coming from all around.  The trail leads
+You see a more dense foliage in these stunted trees. The gloom caused
+by them is enhanced by a draft coming from all around. The trail leads
 down into a valley and west.
 ~
 0 1 3
@@ -1810,8 +1810,8 @@ You see the trail lead down into gloom.
 S
 #5267
 A valley in the dark dwarf forest~
-You are in a valley in the dark dwarf forest.  Short black grass grows
-around you.  Trails lead in all directions.
+You are in a valley in the dark dwarf forest. Short black grass grows
+around you. Trails lead in all directions.
 ~
 0 1 3
 D0
@@ -1839,14 +1839,14 @@ D4
 S
 #5268
 A small ugly cave~
-You see a small cave.  Skeletons of many types of creatures litter the area.
-Obviously, no fox lives here!  The oppression makes you want to leave and
+You see a small cave. Skeletons of many types of creatures litter the area.
+Obviously, no fox lives here! The oppression makes you want to leave and
 vomit.
 ~
 0 1 3
 E
 skeleton skeletons~
-Something is strange about these skeletons.  Upon further investigation, these
+Something is strange about these skeletons. Upon further investigation, these
 skeletons appear illusionary.
 ~
 D1
@@ -1862,21 +1862,21 @@ You see more of the cave.
 S
 #5269
 A small ugly cave~
-You are in a small ugly cave.  More skeletons lie around.  It is obvious
-that the owner doesn't want you here.  The exit north is still visible.
+You are in a small ugly cave. More skeletons lie around. It is obvious
+that the owner doesn't want you here. The exit north is still visible.
 Some writings are on this wall.
 ~
 0 1 3
+E
+skeleton skeletons~
+Something is strange about these skeletons. Upon further investigation, these
+skeletons appear illusionary.
+~
 E
 writings writing words~
 This cave along with the valley and dwarf forest is made by Hatchet for any
 Merc Mud.
 copyright 1992
-~
-E
-skeleton skeletons~
-Something is strange about these skeletons.  Upon further investigation, these
-skeletons appear illusionary.
 ~
 D0
 You see more of the cave.
@@ -1891,14 +1891,14 @@ You see a path leading down into the dark gloom.
 S
 #5270
 Down the path into a dead end~
-You are down the path.  There is no obvious exit in this place, exit the
-one back up north.  All around you, you see skeletons.
+You are down the path. There is no obvious exit in this place, exit the
+one back up north. All around you, you see skeletons.
 ~
 0 1 3
 E
 skeleton skeletons~
-Something is strange about these skeletons.  Upon further investigation, these
-skeletons appear illusionary.  In fact, through the skeletons, you see a
+Something is strange about these skeletons. Upon further investigation, these
+skeletons appear illusionary. In fact, through the skeletons, you see a
 secret door!!
 ~
 D4
@@ -1914,8 +1914,8 @@ secret~
 S
 #5271
 The Valley in the dark dwarf forest~
-You are in a valley in the forest.  To the north is a trail out of this
-dark valley.  South is more of this valley.
+You are in a valley in the forest. To the north is a trail out of this
+dark valley. South is more of this valley.
 ~
 0 1 3
 D0
@@ -1931,8 +1931,8 @@ You see more of this gloomy valley.
 S
 #5272
 A dim trail in the dwarf forest~
-You are in a dim trail in the dwarf forest.  Not much light passes through
-here.  To the south is a gloomy valley, while to the north the light grows
+You are in a dim trail in the dwarf forest. Not much light passes through
+here. To the south is a gloomy valley, while to the north the light grows
 brighter.
 ~
 0 1 3
@@ -1949,9 +1949,9 @@ You can barely see the gloomy valley south of you.
 S
 #5273
 A dim trail in the dwarf forest~
-You are in a dim trail in the dwarf forest.  Not much light passes through
-here.  The trail runs north and south, and the light seems to come from the
-north.  To the east, you see a small path into darkness.
+You are in a dim trail in the dwarf forest. Not much light passes through
+here. The trail runs north and south, and the light seems to come from the
+north. To the east, you see a small path into darkness.
 ~
 0 0 3
 D0
@@ -1972,8 +1972,8 @@ You see the dim trail lead south.
 S
 #5274
 A dim trail in the dwarf forest~
-You are in a dim trail in the dwarf forest.  Not much light passes through
-here.  The trail runs north and south, and the light seems to come from the
+You are in a dim trail in the dwarf forest. Not much light passes through
+here. The trail runs north and south, and the light seems to come from the
 north.
 ~
 0 0 3
@@ -1990,8 +1990,8 @@ You see the dim trail lead south.
 S
 #5275
 A bend in the dim trail in the dwarf forest~
-You are in a dim trail in the dwarf forest.  Not much light passes through
-here.  The trail runs south and west.  The trail west looks much friendlier
+You are in a dim trail in the dwarf forest. Not much light passes through
+here. The trail runs south and west. The trail west looks much friendlier
 than the one leading south.
 ~
 0 0 3
@@ -2008,8 +2008,8 @@ You see the trail lead west.
 S
 #5276
 A trail in the dwarf forest~
-You are in a trail in the dwarf forest.  The trees are stunted and it
-looks dry around here.  The trail leads east and west.  It looks dimmer to
+You are in a trail in the dwarf forest. The trees are stunted and it
+looks dry around here. The trail leads east and west. It looks dimmer to
 the east.
 ~
 0 0 3
@@ -2026,8 +2026,8 @@ The trail continues west.
 S
 #5277
 A trail in the dwarf forest~
-You are in a trail in the dwarf forest.  The trees are stunted and it
-looks dry around here.  The trail leads east and west.
+You are in a trail in the dwarf forest. The trees are stunted and it
+looks dry around here. The trail leads east and west.
 ~
 0 0 3
 D1
@@ -2043,8 +2043,8 @@ The trail continues west.
 S
 #5278
 A trail in the dwarf forest~
-You are in a trail in the dwarf forest.  The trees are stunted and it
-looks dry around here.  The trail leads east and west.
+You are in a trail in the dwarf forest. The trees are stunted and it
+looks dry around here. The trail leads east and west.
 ~
 0 0 3
 D1
@@ -2060,8 +2060,8 @@ The trail continues west.
 S
 #5279
 The bend in the trail in the dwarf forest~
-You are in a bend in the trail in the forest.  The trees are stunted, but
-not so dry around here.  The trail leads east, and to the south, you see a
+You are in a bend in the trail in the forest. The trees are stunted, but
+not so dry around here. The trail leads east, and to the south, you see a
 waterfall.
 ~
 0 0 3
@@ -2078,7 +2078,7 @@ You see a beautiful waterfall.
 S
 #5280
 A dark bend in the forest~
-You are in a dark bend in the forest.  To the west, you see the trail
+You are in a dark bend in the forest. To the west, you see the trail
 leading back to the dwarven forest, and to the south, you see a dark and
 dismal path.
 ~
@@ -2096,7 +2096,7 @@ You see the trail back to the Dwarven Forest.
 S
 #5281
 By the beautiful waterfall~
-You see a VERY beautiful waterfall here.  It looks almost as if diamonds are
+You see a VERY beautiful waterfall here. It looks almost as if diamonds are
 falling down the mountain.  (You reach out and grab and no, it IS only water.)
 It looks so nice here, you feel like taking a nap.
 The trail leads north and south.
@@ -2216,6 +2216,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

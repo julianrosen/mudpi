@@ -131,8 +131,12 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
     /*
      * If there were no objects in the list, return and do nothing.
      */
-    if ( count <= 0 )
+    if ( count <= 0 ) // JR: Fixed display of "Nothing."
+    {
+        if ( fShowNothing )
+            send_to_char( "`g     Nothing.\n\r`w", ch );
         return;
+    }
 
     prgpstrShow = alloc_mem( count * sizeof( char * ) );
     prgnShow = alloc_mem( count * sizeof( int ) );
@@ -1081,7 +1085,7 @@ void do_afk( CHAR_DATA * ch, char *argument )
     }
     else
     {
-        send_to_char( "You are now set AFK.  Messages are being recorded.\n\r",
+        send_to_char( "You are now set AFK. Messages are being recorded.\n\r",
                       ch );
         SET_BIT( ch->act, PLR_AFK );
         act( "`W$n is away from $s keyboard for awhile.`w", ch, NULL, NULL,
@@ -1106,7 +1110,7 @@ void do_anonymous( CHAR_DATA * ch, char *argument )
     else
     {
         send_to_char
-            ( "You are now set `KA`wN`WO`wN`KY`wM`WO`wU`KS`w.  Your Level, Race, and Class will no longer be displayed under \"who\".\n\r",
+            ( "You are now set `KA`wN`WO`wN`KY`wM`WO`wU`KS`w. Your Level, Race, and Class will no longer be displayed under \"who\".\n\r",
               ch );
         ch->anonymous = TRUE;
     }
@@ -2680,7 +2684,7 @@ void do_whoname( CHAR_DATA * ch, char *argument )
             }
 
             /* a little formatting */
-/* Yes, I know this new version is messy.  Really messy in fact.
+/* Yes, I know this new version is messy. Really messy in fact.
    Clean it up if you like.  -Kyle */
             sprintf( buf, "`K[`W%2d `Y%s `G%s`K] %s%s%s%s%s%s%s`w%s%s%s\n\r", ( wch->level > MAX_LEVEL ? MAX_LEVEL : wch->level ), wch->pcdata != NULL && wch->pcdata->who_race ? wch->pcdata->who_race : wch->race < MAX_PC_RACE ? pc_race_table[wch->race].who_name : "          ", Class, IS_NPC( wch ) ? "" : ( wch->pcdata->clan == 0 ) ? "" : pre_clan( wch, ch, empty, private, secret ), IS_NPC( wch ) ? "" : ( wch->pcdata->clan == 0 ) ? "" : who_clan( wch, ch, empty ), "", /* <---- if you need to add something, remove this */
                      IS_SET( wch->act, PLR_WIZINVIS ) ? "W" : "",
@@ -2957,7 +2961,7 @@ void do_who( CHAR_DATA * ch, char *argument )
          * Format it up.
          */
 
-        /* Yes, I know this new version is messy.  Really messy in fact.
+        /* Yes, I know this new version is messy. Really messy in fact.
            Clean it up if you like.  -Kyle */
         if ( who_list[length]->anonymous )
         {
@@ -3141,7 +3145,7 @@ void do_compare( CHAR_DATA * ch, char *argument )
 
     if ( obj1 == obj2 )
     {
-        msg = "You compare $p to itself.  It looks about the same.";
+        msg = "You compare $p to itself. It looks about the same.";
     }
     else if ( obj1->item_type != obj2->item_type )
     {
@@ -3728,7 +3732,7 @@ void do_password( CHAR_DATA * ch, char *argument )
 
     /*
      * Can't use one_argument here because it smashes case.
-     * So we just steal all its code.  Bleagh.
+     * So we just steal all its code. Bleagh.
      */
     pArg = arg;
     while ( isspace( *argument ) )
@@ -3777,7 +3781,7 @@ void do_password( CHAR_DATA * ch, char *argument )
     if ( strcmp( crypt( arg, ch->pcdata->pwd ), ch->pcdata->pwd ) )
     {
         WAIT_STATE( ch, 40 );
-        send_to_char( "Wrong password.  Wait 10 seconds.\n\r", ch );
+        send_to_char( "Wrong password. Wait 10 seconds.\n\r", ch );
         return;
     }
 
@@ -4424,11 +4428,11 @@ void do_rebirth( CHAR_DATA * ch, char *argument )
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 

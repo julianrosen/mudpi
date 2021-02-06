@@ -13,7 +13,7 @@ skeleton bony~
 the bony skeleton~
 A bony skeleton is here.
 ~
-Brown bones with tufts of clothing still hanging from them.  This
+Brown bones with tufts of clothing still hanging from them. This
 skeleton looks very mindless but still dangerous ...
 ~
 Human~
@@ -29,7 +29,7 @@ undead zombie~
 the undead zombie~
 An undead zombie sits here munching on something ...
 ~
-His body is totally white and slowly rotting away.  Each Zombie looks
+His body is totally white and slowly rotting away. Each Zombie looks
 quite different from the next because they were, of course, once alive and
 human.
 ~
@@ -46,7 +46,7 @@ undead ghoul~
 The ghoul~
 A ghoul is here staring at you hungrily.
 ~
-The ghoul no longer resembles the adventurer he once was.  Nonetheless
+The ghoul no longer resembles the adventurer he once was. Nonetheless
 he looks like he hasn't forgot his fighting skills.
 ~
 Human~
@@ -62,7 +62,7 @@ undead wraith~
 The wraith~
 You spot a wraith advancing towards you from the shadows.
 ~
-The wraith no longer has a material form.  He is wearing a tattered
+The wraith no longer has a material form. He is wearing a tattered
 black robe which hides all but the darkness of his face and the glimmer
 in his eyes.
 ~
@@ -79,7 +79,7 @@ undead guardian vampire~
 The guardian vampire~
 A vampire is here hiding his face from your light source.
 ~
-The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
+The guardian vampire looks quite EVIL. Just by looking at him the hair on your
 arms raises. He looks mighty tough to be just a minor minion.
 ~
 Human~
@@ -97,7 +97,7 @@ A priest of God stands here solemnly speaking words of praise.
 ~
 Obviously a goodly man, you feel closer to God just by gazing upon this man.
 Dressed in white, fine white hair, and a soft slightly wrinkled face ...
-this man has a sacred beauty.  You see a halo around his head.
+this man has a sacred beauty. You see a halo around his head.
 ~
 Human~
 ABLT DFH 1000 S
@@ -115,7 +115,7 @@ A Mi-Go is crawling here.
 Mi-Go, the Fungi from Yuggoth ... it is a pinkish being about five feet long;
 with a crustaceous body bearing a vast pair of membranous wings and several
 sets of articulate limbs, body a sort of convoluted ellipsoid, covered with
-multitudes of very small antennae, where a head would ordinarily be.  These
+multitudes of very small antennae, where a head would ordinarily be. These
 beings sometimes walk on all their legs and sometimes on the hind pair only.
 ~
 Human~
@@ -133,7 +133,7 @@ A nightgaunt is standing here
 ~
 ... shocking and uncouth black thing with smooth, oily, skin, unpleasant horns
 that curve inward toward each other, bat wings whose beating make no sound,
-ugly prehensile paws, and a barbed tail that lashes disquietingly.  And worst
+ugly prehensile paws, and a barbed tail that lashes disquietingly. And worst
 of all, it makes absolutely no sound or speech and smiles not at all because
 it has no face, only a suggestive blackness where a face ought to be ...
 ~
@@ -152,9 +152,9 @@ The hunting horror is here in wait of an unwary traveler.
 ~
 Serving Nyarlathotep and Roch'tar, these beings are hunting for victims.
 They resemble enormous ropy black serpents or worms possessing bat-like or
-umbrella-like wings.  Their forms continually shift and change, twitching
-and writhing, so it is hard to look at them.  They speak in great harsh
-voices.  A hunting horror is HUGE, normally around 40 feet long.
+umbrella-like wings. Their forms continually shift and change, twitching
+and writhing, so it is hard to look at them. They speak in great harsh
+voices. A hunting horror is HUGE, normally around 40 feet long.
 ~
 Human~
 AFT DF -1000 S
@@ -203,8 +203,8 @@ An X-ist flesh eater is sitting here munching on some coffin remains
 ~
 A large hairy monstrous beast, the only LIVE thing you have seen down here.
 It stands approximately 8 feet tall and hunches over to fit in this
-small room.  It has a pair of tremendous claws that it uses to rip and tear.
-It has dog-like face except ... different.  Bright glowing eyes and a grimace
+small room. It has a pair of tremendous claws that it uses to rip and tear.
+It has dog-like face except ... different. Bright glowing eyes and a grimace
 lead you to believe that he knew that you were coming.
 ~
 Human~
@@ -224,7 +224,7 @@ Floating above the ground here and looking a bit dead, he whispers
 softly into the air:
 
     The forces of evil have unlocked my spirit as
-    well as one other.  Free me from this misery,
+    well as one other. Free me from this misery,
     anyone that can hear. The peace of the grave
     calls me but I am blocked from its quiet.
 ~
@@ -241,7 +241,7 @@ rock slug~
 the rock slug~
 A rock slug is slowly creeping along, leaving a slime trail behind it.
 ~
-It is a large brownish slug.  Got any salt?  Didn't think so ...
+It is a large brownish slug. Got any salt? Didn't think so ...
 ~
 Human~
 ACT 0 0 S
@@ -256,15 +256,15 @@ etcher~
 The mad etcher~
 The mad etcher is sitting here babbling to himself and working on the wall.
 ~
-Quite insane, the mad etcher has been here for two decades.  His hair is
+Quite insane, the mad etcher has been here for two decades. His hair is
 white; he babbles nonsense to himself; a layer of dust covers his out-of-date
 clothing; and he seems to be working on the same portion of the wall near
 the base ... oh and he seems quite blind.
 
 He leers insanely at you and says 'heh heh what can I do for you children?
 Please don't mind my wife, she is always like that ... hello dear can you
-make some tea for our company?  Oh good!  Now sit right down will you?
-Would you like hot or cold tea?  Yes the weather is ...'
+make some tea for our company? Oh good! Now sit right down will you?
+Would you like hot or cold tea? Yes the weather is ...'
 
 And on he babbles ...
 ~
@@ -282,9 +282,9 @@ The spectral etcher's wife~
 The spectral wife of the etcher is very faintly floating here.
 ~
 You can barely make her out ... though it almost makes you vomit.
-She is missing half her head.  The remaining half is smashed in horribly like
-she took a nasty fall.  Her one damaged eye hangs on its own.  She smiles
-insanely at you thru a broken jaw and missing teeth.  One hand of hers is
+She is missing half her head. The remaining half is smashed in horribly like
+she took a nasty fall. Her one damaged eye hangs on its own. She smiles
+insanely at you thru a broken jaw and missing teeth. One hand of hers is
 resting on the shoulder of the etcher ... her husband.
 ~
 Human~
@@ -325,7 +325,7 @@ unknown~
 14 5 140 P
 E
 candlestick~
-It is a rather old-looking three-armed candlestick made from pewter.  Its
+It is a rather old-looking three-armed candlestick made from pewter. Its
 candles are a yellowish white colour.
 ~
 #3402
@@ -337,9 +337,9 @@ unknown~
 ABC AB AC AC 0
 10 8 100 P
 A
-18 1
-A
 19 2
+A
+18 1
 E
 tickler~
 A horrid black mass of gooey tentacles obviously ripped from the corpse
@@ -355,7 +355,7 @@ AC AC AC 0 0
 11 10 110 P
 E
 plasma webbing~
-Yuck, mossy and wet.  It looks like some sort of webbing.
+Yuck, mossy and wet. It looks like some sort of webbing.
 ~
 #3410
 rod key~
@@ -367,7 +367,7 @@ unknown~
 5 5 50 P
 E
 rod key~
-This rod looks sort of octagonal, and sort of like a key and crowbar.  You
+This rod looks sort of octagonal, and sort of like a key and crowbar. You
 recognize that it will probably fit the lock at the entrance of the tombs.
 ~
 #3411
@@ -405,9 +405,9 @@ unknown~
 0 0 0 0 0
 16 2 160 P
 A
-14 10
-A
 24 1
+A
+14 10
 E
 black marble ring~
 It is pitch black and has beautiful swirls characteristic of marble all
@@ -422,9 +422,9 @@ unknown~
 A AC C ABD 0
 16 4 160 P
 A
-2 2
-A
 18 1
+A
+2 2
 E
 thin rapier~
 It seems so thin that it would be useless but at the same time it looks deadly.
@@ -498,7 +498,7 @@ BD AC ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 5 1000 50 P
 E
 rathcor~
-Ah HA!  A hidden compartment!
+Ah HA! A hidden compartment!
 ~
 #3421
 rusty sword curved scimitar~
@@ -596,9 +596,9 @@ unknown~
 D D D 0 0
 28 10 280 P
 A
-13 10
-A
 17 10
+A
+13 10
 E
 dark black cape~
 The cape is gently flows and pulls in the light so evenly and perfectly
@@ -651,17 +651,17 @@ for the altar...
 #ROOMS
 #3405
 Inside the Chapel~
-You are in a small, dark chapel.  The dark brown glass in the tiny windows
-do not let much light through.  A few rows of worn wooden benches stand here.
+You are in a small, dark chapel. The dark brown glass in the tiny windows
+do not let much light through. A few rows of worn wooden benches stand here.
 ~
 0 0 1
 E
-glass windows~
-The windows must be meant to be dark.  At least they are completely clean.
-~
-E
 benches rows~
 The benches are not of the comfortable kind.
+~
+E
+glass windows~
+The windows must be meant to be dark. At least they are completely clean.
 ~
 D0
 The chapel door is made of dark wood.
@@ -691,7 +691,7 @@ S
 The Acolyte's Bedroom~
 This is why you were not welcomed at the entrance by the tomb's faithful
 servants ... blood and gore is ankle deep in here.
-Oh NO! the door shut behind you!  It's a trap!
+Oh NO! the door shut behind you! It's a trap!
 A bloodied corpse of an acolyte is lying here ...
 A bloodied corpse of an acolyte is lying here ...
 A bloodied corpse of an acolyte is lying here ...
@@ -730,19 +730,19 @@ D0
 S
 #3412
 The Grand Hall of Kings~
-You are at the west end of the Grand Hall of Kings.  There is a doorway to the
-south with something strange written above it.  Also on the floor are dried
+You are at the west end of the Grand Hall of Kings. There is a doorway to the
+south with something strange written above it. Also on the floor are dried
 blood stains, but their color seems a little wrong.
 ~
 0 9 0
 E
-stain stains~
-That's odd ... they seem a little GREEN.
+door writing~
+Above the door is some strange writing! It is worn with age, but it refers
+to an ancient ruler named 'Shohan'.
 ~
 E
-door writing~
-Above the door is some strange writing!  It is worn with age, but it refers
-to an ancient ruler named 'Shohan'.
+stain stains~
+That's odd ... they seem a little GREEN.
 ~
 D1
 (null)~
@@ -758,9 +758,9 @@ S
 The Shrine of Shohan~
 BLOOD EVERYWHERE!
 The walls are coated with blood, bits of bloody flesh lie at your feet,
-and torn clothing is scattered about.  It wouldn't disturb you in the least
-except that it is all FRESH!  What ever used to pass as an altar here,
-lies overturned and smashed.  Doors lead to the south and to the north.
+and torn clothing is scattered about. It wouldn't disturb you in the least
+except that it is all FRESH! What ever used to pass as an altar here,
+lies overturned and smashed. Doors lead to the south and to the north.
 ~
 0 9 0
 D0
@@ -775,16 +775,16 @@ S
 #3414
 The Tomb of Shohan~
 Once beautiful, this place has been turned into a slaughterhouse by the hands
-of evil beings ... even more blood and dead, rotting flesh.  This place looks
-like the feeding grounds of beasts and monsters.  The overturned sarcophagus
-of the once powerful King Shohan lies here.  A door leads to the north and a
+of evil beings ... even more blood and dead, rotting flesh. This place looks
+like the feeding grounds of beasts and monsters. The overturned sarcophagus
+of the once powerful King Shohan lies here. A door leads to the north and a
 doorway has been hewn to the east.
 ~
 0 9 0
 E
 coffin sarcophagus~
 Now destroyed ... there is writing on it: 'All hail the new king; we serve
-the Roch'tar, the Undying One!  Those who decline his worship shall be
+the Roch'tar, the Undying One! Those who decline his worship shall be
 slaughtered!'
 ~
 D0
@@ -801,18 +801,18 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D3
-(null)~
-~
-0 0 3410
-D1
-(null)~
-~
-0 0 3420
 D2
 (null)~
 ~
 0 0 3416
+D1
+(null)~
+~
+0 0 3420
+D3
+(null)~
+~
+0 0 3410
 S
 #3416
 Entrance to the Lower Chambers~
@@ -823,7 +823,7 @@ The passage slopes upward here and also continues to the north.
 0 8201 0
 E
 walls~
-Something BIG must have done this job!  There are traces of BLOOD in the
+Something BIG must have done this job! There are traces of BLOOD in the
 claw marks.
 ~
 D0
@@ -837,7 +837,7 @@ tunnel~
 S
 #3417
 The Grand Hall of Kings~
-This is the western wing of the Grand Hall of Kings.  Your only exits are to
+This is the western wing of the Grand Hall of Kings. Your only exits are to
 the east and west in this gloomy hallway.
 ~
 0 9 0
@@ -852,33 +852,33 @@ D3
 S
 #3418
 The Shrine of Cristis~
-Different than the rest, this place has not been desecrated.  An altar still
+Different than the rest, this place has not been desecrated. An altar still
 stands here and the walls show scenes from the life of Cristis the Kind,
-a ruler of the outlying regions west of Midgaard.  There is a stone staircase
-leading down.  The Ghost of Cristis the Kind stands here.
+a ruler of the outlying regions west of Midgaard. There is a stone staircase
+leading down. The Ghost of Cristis the Kind stands here.
 ~
 0 9 0
 E
-altar~
-It stands 2 feet high with the remnants of candle-wax on top.  There is
-an inscription on the side:  'Praise the almighty Cristis the bringer of
-good and justice to the world.  He who fought the evilest finally is at
-peace.  May the Gods remember him forever ...'
-~
-E
 ghost cristis~
 His rest has been disturbed by evil creatures who have invaded his domain
-and grave.  He holds up a parchment for you to read:
+and grave. He holds up a parchment for you to read:
 
      Hello stranger and last hope for Midgaard and this tomb!
    This is a plea for aid by a man long since dead from this Earth.
      The forces of evil have taken control of this tomb and the
    Kings of old need your aid to free us and deliver us to peace
-   once again.  I think that I alone have been able to appear and
+   once again. I think that I alone have been able to appear and
    communicate with the mortal world.
      Roch'tar, the reincarnate Vampire, now rules these tombs.
    You must find and defeat him and his minions!
      May God bless you on your Quest!
+~
+E
+altar~
+It stands 2 feet high with the remnants of candle-wax on top. There is
+an inscription on the side:  'Praise the almighty Cristis the bringer of
+good and justice to the world. He who fought the evilest finally is at
+peace. May the Gods remember him forever ...'
 ~
 D2
 (null)~
@@ -908,48 +908,25 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D3
-(null)~
-~
-0 0 3415
 D1
 (null)~
 ~
 0 0 3425
+D3
+(null)~
+~
+0 0 3415
 S
 #3421
 Entrance Chamber to the Grand Hall of Kings~
-Whoever built this place must have been very rich indeed!  Though you did
+Whoever built this place must have been very rich indeed! Though you did
 enter through a rather small door this place has enough room to hold several
-score of people.  The floor has a beautifully woven carpet, and the walls are
+score of people. The floor has a beautifully woven carpet, and the walls are
 covered in finely crafted tapestries. You can tell that these things must have
-been worth much but they have not lasted well throughout the ages.  Massive
+been worth much but they have not lasted well throughout the ages. Massive
 doors lead off to the south and a large stone staircase leads up.
 ~
 0 9 0
-E
-stone door trapdoor~
-It's rather small and looks quite heavy but maybe with some kind of leverage
-you could move it.  It has a queerly shaped hole that looks big enough
-for an equally queerly shaped pole to fit inside.  If only you had it!
-~
-E
-tapestry tapestries~
-The tapestries were woven into beautiful and exciting scenes of battles
-long ago.  One on the left your shows the historic battle between Jubal the
-Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
-course).
-~
-E
-staircase stairs~
-Though quite cracked they do look very stable.
-~
-E
-oak~
-They're HUGE!  They are at least 12 feet tall and about 10 feet wide.
-If not for one thing they would be perfectly preserved.  There appears
-to be some letters crudely scratched into the wood.
-~
 E
 letters graffiti~
 'Beware here all of man, because past here lies only death.'
@@ -958,6 +935,29 @@ letters graffiti~
 
 Beneath, there are two criss-crossing scratchmarks in an X formation that
 look like someone (or something) raked their claws across the wood.
+~
+E
+oak~
+They're HUGE! They are at least 12 feet tall and about 10 feet wide.
+If not for one thing they would be perfectly preserved. There appears
+to be some letters crudely scratched into the wood.
+~
+E
+staircase stairs~
+Though quite cracked they do look very stable.
+~
+E
+tapestry tapestries~
+The tapestries were woven into beautiful and exciting scenes of battles
+long ago. One on the left your shows the historic battle between Jubal the
+Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
+course).
+~
+E
+stone door trapdoor~
+It's rather small and looks quite heavy but maybe with some kind of leverage
+you could move it. It has a queerly shaped hole that looks big enough
+for an equally queerly shaped pole to fit inside. If only you had it!
 ~
 D2
 Finely polished oak doors stand to the south.
@@ -973,9 +973,9 @@ stone trapdoor door~
 S
 #3422
 The Grand Hall of Kings~
-A long hallway stretches east and west.  On the southern side of the hall
+A long hallway stretches east and west. On the southern side of the hall
 there are many doors, each with the name of a king who has died and is
-entombed here.  The hallway is beautiful yet chilling.  Even though the area
+entombed here. The hallway is beautiful yet chilling. Even though the area
 has been kept well by acolytes, there remains a stench of the undead.
 ~
 0 9 0
@@ -1002,8 +1002,8 @@ S
 The Shrine of Crotus~
 Mostly rubble, this place used to be the shrine of the famous king Crotus,
 who saved the northern regions from being overrun by the goblin hordes of
-100 years ago.  If not for him, Midgaard of course would have eventually been
-conquered as well.  Though Crotus was a goodly king, it was rumored that he
+100 years ago. If not for him, Midgaard of course would have eventually been
+conquered as well. Though Crotus was a goodly king, it was rumored that he
 turned to the dark ways in his dying years ... and died an evil man.
 ~
 0 9 0
@@ -1061,7 +1061,7 @@ D1
 S
 #3427
 The Grand Hall of Kings~
-You are in the western part of the Grand Hall of Kings.  To the south is a
+You are in the western part of the Grand Hall of Kings. To the south is a
 door and to the east and west the hall continues.
 ~
 0 9 0
@@ -1081,7 +1081,7 @@ S
 #3428
 The Shrine of Mitnar~
 Mitnar was a gruesome beast of a man ... he loved battle ... and nothing
-else.  Warriors did love Mitnar, and all fighting men honored him.
+else. Warriors did love Mitnar, and all fighting men honored him.
 On the wall is depicted battle after battle after battle.
 A small opening has been shaped carefully to the east.
 ~
@@ -1103,7 +1103,7 @@ S
 The Tomb of Mitnar~
 The wall paintings show men and women warriors alike bowing down to Mitnar,
 prisoners of war being put to the sword by Mitnar, and great heaps of gold
-and weapons under the feet of Mitnar.  Where his coffin was, there is now
+and weapons under the feet of Mitnar. Where his coffin was, there is now
 only a rectangular blemish on the floor of the dusty room.
 ~
 0 9 0
@@ -1121,6 +1121,10 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D2
+(null)~
+~
+0 0 3431
 D1
 (null)~
 ~
@@ -1129,10 +1133,6 @@ D3
 (null)~
 ~
 0 0 3426
-D2
-(null)~
-~
-0 0 3431
 S
 #3431
 The Lower Chambers and Tombs of the Undead~
@@ -1164,8 +1164,8 @@ D3
 S
 #3433
 The Shrine of Frath~
-Little chunks of dried meat are spattered throughout this room.  The walls
-are covered in gore.  Almost as if they were painted ... ICK!  You can
+Little chunks of dried meat are spattered throughout this room. The walls
+are covered in gore. Almost as if they were painted ... ICK! You can
 almost make out the design!
 ~
 0 9 0
@@ -1180,8 +1180,8 @@ D3
 S
 #3434
 The Tomb of Frath~
-UGH!  The sarcophagus is opened up and the mummified body lies out in the
-open, ripped to pieces.  Gnawed pieces of flesh and bone are strewn here.
+UGH! The sarcophagus is opened up and the mummified body lies out in the
+open, ripped to pieces. Gnawed pieces of flesh and bone are strewn here.
 ~
 0 9 0
 D5
@@ -1198,14 +1198,14 @@ D2
 (null)~
 ~
 0 0 3436
-D1
-(null)~
-~
-0 0 3440
 D3
 (null)~
 ~
 0 0 3430
+D1
+(null)~
+~
+0 0 3440
 S
 #3436
 The Lower Chambers and Tombs of the Undead~
@@ -1227,7 +1227,7 @@ D3
 S
 #3437
 The Grand Hall of Kings~
-You are at the western end of the Grand Hall of Kings.  There is a
+You are at the western end of the Grand Hall of Kings. There is a
 door leading north and the hallway continues west.
 ~
 0 9 0
@@ -1242,7 +1242,7 @@ D3
 S
 #3438
 The Shrine of Jubal~
-This was once beautiful.  Now the huge tapestries have been torn down and the
+This was once beautiful. Now the huge tapestries have been torn down and the
 carpeting pulled up ... the paintings on the ceiling are unreadable and the
 altar is crumbled.
 ~
@@ -1258,7 +1258,7 @@ D3
 S
 #3439
 The Tomb of Jubal~
-The smell coming off of the opened sarcophagus is nauseating.  The floor is
+The smell coming off of the opened sarcophagus is nauseating. The floor is
 slightly crumpled and walls are raked ... but the worst part is the mummy ...
 Jubal the Benevolent is missing his head!
 ~
@@ -1277,6 +1277,10 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D1
+(null)~
+~
+0 0 3445
 D2
 (null)~
 ~
@@ -1285,28 +1289,24 @@ D3
 (null)~
 ~
 0 0 3435
-D1
-(null)~
-~
-0 0 3445
 S
 #3441
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3446
-D3
-(null)~
-~
-0 0 3436
 D0
 (null)~
 ~
 0 0 3440
+D3
+(null)~
+~
+0 0 3436
+D1
+(null)~
+~
+0 0 3446
 S
 #3442
 The Lower Chambers and Tombs of the Undead~
@@ -1327,56 +1327,56 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3444
 D0
 (null)~
 ~
 0 0 3442
+D2
+(null)~
+~
+0 0 3444
 S
 #3444
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 9 0
-D0
-(null)~
-~
-0 0 3443
 D1
 (null)~
 ~
 0 0 3449
+D0
+(null)~
+~
+0 0 3443
 S
 #3445
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D3
-(null)~
-~
-0 0 3440
 D2
 (null)~
 ~
 0 0 3446
+D3
+(null)~
+~
+0 0 3440
 S
 #3446
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3447
 D0
 (null)~
 ~
 0 0 3445
+D2
+(null)~
+~
+0 0 3447
 D3
 (null)~
 ~
@@ -1387,10 +1387,6 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D3
-(null)~
-~
-0 0 3442
 D0
 (null)~
 ~
@@ -1399,11 +1395,15 @@ D2
 (null)~
 ~
 0 0 3448
+D3
+(null)~
+~
+0 0 3442
 S
 #3448
 The Lower Chambers and Tombs of the Undead~
 This room has been totally hollowed out and smoothed, and a pit has been
-drilled in the center of the floor.  There are extensive gruesome paintings
+drilled in the center of the floor. There are extensive gruesome paintings
 of beasts and monsters terrorizing the countryside; vampires sucking the
 blood of beasts and humans alike.
 ~
@@ -1434,9 +1434,9 @@ door~
 S
 #3450
 Entrance to the Forbidden Catacombs~
-You have entered the forbidden catacombs.  This cave system must have been
-built long ago.  The air is dank and smells of something dead ...  or maybe
-undead.  Enter here at your own risk ... something evil abides.
+You have entered the forbidden catacombs. This cave system must have been
+built long ago. The air is dank and smells of something dead ...  or maybe
+undead. Enter here at your own risk ... something evil abides.
 ~
 0 9 0
 D0
@@ -1604,8 +1604,8 @@ You see something's den.
 S
 #3460
 Den of the Vampire~
-Your mind whirls in the hideous madness of this place.  The stench
-is horrendous and dead bodies, sucked of life, lay all over.  One coffin
+Your mind whirls in the hideous madness of this place. The stench
+is horrendous and dead bodies, sucked of life, lay all over. One coffin
 lies in the center of the room ... waiting for YOU!
 ~
 0 9 0
@@ -1690,10 +1690,10 @@ Too dark to tell.
 S
 #3465
 The Gilded Hallway~
-Wow!  Although this hallway is quite filthy and dusty, it is noticeably
+Wow! Although this hallway is quite filthy and dusty, it is noticeably
 different than the rest of the catacombs ... but you don't feel safe yet.
 The walls faintly show ancient detailed etchings in gold and silver of
-ancient rituals ... not all of which seem pleasant.  The hallway continues
+ancient rituals ... not all of which seem pleasant. The hallway continues
 north into the catacombs and further south as long as you can see.
 ~
 0 9 0
@@ -1715,7 +1715,7 @@ S
 #3466
 The Gilded Hallway~
 Ancient etchings and writing in intricate gold and silver designs fill these
-walls.  You are tempted to linger and examine them closely.  Your light source
+walls. You are tempted to linger and examine them closely. Your light source
 flickers off the walls showing you exits north and south.
 ~
 0 9 0
@@ -1737,7 +1737,7 @@ S
 #3467
 The Gilded Hallway~
 Ancient etchings and writing in intricate gold and silver designs fill these
-walls.  You are tempted to linger and examine them closely.  Your light source
+walls. You are tempted to linger and examine them closely. Your light source
 flickers off the walls showing you exits north and south.
 ~
 0 9 0
@@ -1759,7 +1759,7 @@ S
 #3468
 The Gilded Hallway~
 Ancient etchings and writing in intricate gold and silver designs fill these
-walls.  You are tempted to linger and examine them closely.  Your light source
+walls. You are tempted to linger and examine them closely. Your light source
 flickers off the walls showing you exits north and south.
 ~
 0 9 0
@@ -1781,7 +1781,7 @@ S
 #3469
 The Gilded Hallway~
 Ancient etchings and writing in intricate gold and silver designs fill these
-walls.  You are tempted to linger and examine them closely.  Your light source
+walls. You are tempted to linger and examine them closely. Your light source
 flickers off the walls showing you exits north.
 ~
 0 9 0
@@ -1797,7 +1797,7 @@ Your light reveals more of the hallway.
 S
 #3470
 A Secret Passageway~
-A secret passage!  You wonder where it may lead!
+A secret passage! You wonder where it may lead!
 ~
 0 9 0
 E
@@ -1812,7 +1812,7 @@ Too dark to tell.
 S
 #3471
 A Secret Passageway~
-A secret passage!  You wonder where it may lead!
+A secret passage! You wonder where it may lead!
 ~
 0 9 0
 D0
@@ -1845,7 +1845,7 @@ But even in Hell we give you another chance.
 S
 #3475
 Inside the coffin~
-You are inside a coffin.  It seems rather cramped in here.  You can climb
+You are inside a coffin. It seems rather cramped in here. You can climb
 up out of the coffin, or you can wait for here the real occupant to join you.
 ~
 0 9 0

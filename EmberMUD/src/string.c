@@ -2,7 +2,7 @@
  *  File: string.c                                                         *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -30,7 +30,7 @@ char *line_delete args( ( char *orig, int line ) );
 
 /*
    The line_replace, count_lines, and line_delete functions
-   were provided by Thanatos (Jonathan Rose).  I wrote the new 
+   were provided by Thanatos (Jonathan Rose). I wrote the new 
    line_add and show_line_numbers functions and modified the 
    string_add function.  --Kyle Boyd
 */
@@ -660,7 +660,7 @@ char *format_string( char *oldstring /*, bool fSpace */  )
 }
 
 /*
- * Used above in string_add.  Because this function does not
+ * Used above in string_add. Because this function does not
  * modify case if fCase is FALSE and because it understands
  * parenthesis, it would probably make a nice replacement
  * for one_argument.
@@ -796,7 +796,7 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
         if ( *string == '\n' || *string == '\r' )
         {
             /*
-             * Allow for both \n\r and \r\n and \n.  Don't expect two chars
+             * Allow for both \n\r and \r\n and \n. Don't expect two chars
              * because you could condense two rows down to one in the case of
              * \n\n
              */

@@ -3,7 +3,7 @@
  *  File: olc_save.c                                                       *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -43,7 +43,7 @@ extern void save_factionaffs( FILE * fp, AREA_DATA * pArea );
 
 /*
  *  Verbose writes reset data in plain english into the comments
- *  section of the resets.  It makes areas considerably larger but
+ *  section of the resets. It makes areas considerably larger but
  *  may aid in debugging.
  */
 
@@ -119,7 +119,7 @@ void save_area_list(  )
 
 /*
  * ROM OLC
- * Used in save_mobile and save_object below.  Writes
+ * Used in save_mobile and save_object below. Writes
  * flags on the form fread_flag reads.
  * 
  * buf[] must hold at least 32+1 characters.
@@ -526,7 +526,7 @@ void save_mudprogs_area( FILE * fp, AREA_DATA * pArea )
                              pGroupList->mprog_group->name,
                              pMobIndex->short_descr );
 
-                /* Write the vnum of all progs not in the groups listed above.  Yes I know three nested
+                /* Write the vnum of all progs not in the groups listed above. Yes I know three nested
                    loops are bad but considering most mobs will only have one or two progs or groups this
                    doesn't concern me. - Zane */
                 for ( pList = pMobIndex->mudprogs; pList; pList = pList->next )
@@ -561,7 +561,7 @@ void save_mudprogs_area( FILE * fp, AREA_DATA * pArea )
                              pGroupList->mprog_group->vnum,
                              pGroupList->mprog_group->name, pRoom->name );
 
-                /* Write the vnum of all progs not in the groups listed above.  Yes I know three nested
+                /* Write the vnum of all progs not in the groups listed above. Yes I know three nested
                    loops are bad but considering most rooms will only have one or two progs or groups this
                    doesn't concern me. - Zane */
                 for ( pList = pRoom->mudprogs; pList; pList = pList->next )
@@ -596,7 +596,7 @@ void save_mudprogs_area( FILE * fp, AREA_DATA * pArea )
                              pGroupList->mprog_group->vnum,
                              pGroupList->mprog_group->name, pObj->short_descr );
 
-                /* Write the vnum of all progs not in the groups listed above.  Yes I know three nested
+                /* Write the vnum of all progs not in the groups listed above. Yes I know three nested
                    loops are bad but considering most objects will only have one or two progs or groups this
                    doesn't concern me. - Zane */
                 for ( pList = pObj->mudprogs; pList; pList = pList->next )
@@ -625,8 +625,8 @@ void save_mudprogs_area( FILE * fp, AREA_DATA * pArea )
 }
 
 /*
- * This function is obsolete.  It it not needed but has been left here
- * for historical reasons.  It is used currently for the same reason.
+ * This function is obsolete. It it not needed but has been left here
+ * for historical reasons. It is used currently for the same reason.
  *
  * I don't think it's obsolete in ROM -- Hugin.
  */
@@ -706,7 +706,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                         if ( pReset->vnum < 0 || pReset->arg3 < 0 ) /* Allow <= -1 for infinate values in arg2 */
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -730,7 +730,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                              pReset->arg2 < 0 || pReset->arg3 < -1 )
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -759,7 +759,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                              pReset->arg2 < 0 || pReset->arg3 < -1 )
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -783,7 +783,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                              pReset->arg2 < 0 || pReset->arg3 < -1 )
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -814,7 +814,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                              pReset->arg2 < 0 || pReset->arg3 < -1 )
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -841,7 +841,7 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                              pReset->arg2 < 0 || pReset->arg3 < 0 )
                         {
                             bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                            bug( "Save_resets: in file %s.  Reset not saved",
+                            bug( "Save_resets: in file %s. Reset not saved",
                                  pArea->filename );
                             break;
                         }
@@ -864,7 +864,7 @@ case 'M':
                          pReset->arg2 < 0 || pReset->arg3 < 0 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }
@@ -882,7 +882,7 @@ case 'O':
                          pReset->arg2 < 0 || pReset->arg3 < -1 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }
@@ -900,7 +900,7 @@ case 'P':
                          pReset->arg2 < 0 || pReset->arg3 < -1 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }
@@ -917,7 +917,7 @@ case 'G':
                          pReset->arg2 < 0 || pReset->arg3 < -1 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }
@@ -933,7 +933,7 @@ case 'E':
                          pReset->arg2 < 0 || pReset->arg3 < -1 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }
@@ -952,7 +952,7 @@ case 'R':
                          pReset->arg2 < 0 || pReset->arg3 < 0 )
                     {
                         bug( "Save_resets: Bad Reset data: vnum(%d) arg2(%d) arg3(%d)", pReset->vnum, pReset->arg2, pReset->arg3 );
-                        bug( "Save_resets: in file %s.  Reset not saved",
+                        bug( "Save_resets: in file %s. Reset not saved",
                              pArea->filename );
                         break;
                     }

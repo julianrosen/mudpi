@@ -2,7 +2,7 @@
  *  File: mem.c                                                            *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -78,7 +78,7 @@ void free_reset_data( RESET_DATA * pReset )
 
  /*
   *  Removes all color codes from the given string and returns a
-  *  A string with no color codes.  Used for proper string formating
+  *  A string with no color codes. Used for proper string formating
   *
   *    -Thanatos
   */

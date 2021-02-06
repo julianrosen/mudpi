@@ -3,7 +3,7 @@
  *  File: olc.c                                                            *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  *                                                                         *
  *  This code was freely distributed with the The Isles 1.1 source code,   *
@@ -39,7 +39,7 @@ char buf[MAX_STRING_LENGTH];
 AREA_DATA *get_area_data args( ( int vnum ) );
 int get_new_mprog_vnum args( ( void ) );
 
-/* Executed from comm.c.  Minimizes compiling when changes are made. */
+/* Executed from comm.c. Minimizes compiling when changes are made. */
 bool run_olc_editor( DESCRIPTOR_DATA * d )
 {
     if ( IS_NPC( d->character ) )
@@ -315,7 +315,7 @@ const struct olc_cmd_type medit_table[] = {
     {"short", medit_short},
     {"show", medit_show},
 
-    {"sex", medit_sex},         /* ROM */
+    {"gender", medit_sex},         /* ROM */
     {"ac", medit_ac},           /* ROM */
     {"act", medit_act},         /* ROM */
     {"affect", medit_affect},   /* ROM */
@@ -1198,7 +1198,7 @@ void display_resets( CHAR_DATA * ch )
     final[0] = '\0';
 
     send_to_char
-        ( " No.  Loads    Description       Location         Vnum    Max  Description"
+        ( " No. Loads    Description       Location         Vnum    Max  Description"
           "\n\r"
           "==== ======== ============= =================== ======== ===== ==========="
           "\n\r", ch );
@@ -1555,7 +1555,7 @@ void do_resets( CHAR_DATA * ch, char *argument )
         {
             /*
              * Check to see if the mob or object to be reset exists
-             * in the game.  This is added because of Rajic's fat 
+             * in the game. This is added because of Rajic's fat 
              * fingers - Dorzak Tempestuous Realms
              */
             if ( !str_cmp( arg2, "mob" ) )

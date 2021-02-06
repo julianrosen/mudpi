@@ -675,7 +675,7 @@ rand_weapon_table[type].damage_mod );*/
     if ( ismagic == TRUE && rand_weapon_table[type].magic_mod > 0 )
     {
         /* I snatched this code from the freely distributed ROM random obj code(which sucks :),
-         * but I couldn't find the name of who wrote it.  Anyone know? 
+         * but I couldn't find the name of who wrote it. Anyone know? 
          */
         static int attrib_types[] =
             { APPLY_STR, APPLY_STR, APPLY_DEX, APPLY_INT, APPLY_STR, APPLY_WIS,
@@ -959,7 +959,7 @@ OBJ_DATA *make_rand_armor( sh_int level, bool ismagic )
     else
     {
         sprintf( buf,
-                 "Buggy long description.  Tell an IMP if you see this description." );
+                 "Buggy long description. Tell an IMP if you see this description." );
         sprintf( logbuf, "make_rand_obj Long Desc bug, material=%s, type=%s. ",
                  rand_material_table[material].name,
                  rand_armor_table[type].name );
@@ -982,7 +982,7 @@ OBJ_DATA *make_rand_armor( sh_int level, bool ismagic )
     if ( ismagic == TRUE && rand_armor_table[type].magic_mod > 0 )
     {
         /* I snatched this code from the freely distributed ROM random obj code(which sucks :),
-         * but I couldn't find the name of who wrote it.  Anyone know? 
+         * but I couldn't find the name of who wrote it. Anyone know? 
          */
         static int attrib_types[] =
             { APPLY_STR, APPLY_STR, APPLY_DEX, APPLY_INT,

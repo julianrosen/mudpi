@@ -13,7 +13,7 @@ hatchling dragon baby~
 the dragon hatchling~
 A dragon hatchling is here, chewing on a bone.
 ~
-This small dragon hisses at you as you enter the room.  Although it is only a
+This small dragon hisses at you as you enter the room. Although it is only a
 few feet long, its sharp teeth make you think twice about petting it.
 ~
 Human~
@@ -29,8 +29,8 @@ draconian~
 the Draconian~
 The Draconian is standing here.
 ~
-This horrible creature is a bizarre cross between a man and a dragon.  He 
-has black scales and a seven foot wingspan.  He scowls at you and hefts his 
+This horrible creature is a bizarre cross between a man and a dragon. He 
+has black scales and a seven foot wingspan. He scowls at you and hefts his 
 spear as you enter the room.
 ~
 Human~
@@ -61,7 +61,7 @@ man mage wizard~
 a powerful mage~
 A man is here, studying some books.
 ~
-A powerful looking mage is standing in this room studying his spells.  You are
+A powerful looking mage is standing in this room studying his spells. You are
 surprised at the fact that he is human, and realize that he must be very
 powerful to have been accepted by the creatures which live here.
 ~
@@ -78,7 +78,7 @@ cleric draconian~
 the holy Draconian~
 A Draconian is here, deep in thought.          
 ~
-A Draconian stands here, dressed in simple robes.  Around his neck you 
+A Draconian stands here, dressed in simple robes. Around his neck you 
 notice a golden medallion in the shape of a five headed dragon.  
 ~
 Human~
@@ -94,8 +94,8 @@ king draconian~
 the Draconian King~
 A Draconian wearing fine clothes is here, pondering his greatness.          
 ~
-The king of the draconians sits here on a golden throne.  He looks as 
-though he could crush your head with a single blow.  Yet you sense that he 
+The king of the draconians sits here on a golden throne. He looks as 
+though he could crush your head with a single blow. Yet you sense that he 
 is controlled by a greater power. 
 ~
 Human~
@@ -111,8 +111,8 @@ concubine draconian~
 a concubine~
 A concubine is resting here. 
 ~
-This is a concubine of the king.  She is lounging here, wearing nothing at 
-all.  You find yourself strangely repulsed as she draws a knife and 
+This is a concubine of the king. She is lounging here, wearing nothing at 
+all. You find yourself strangely repulsed as she draws a knife and 
 prepares to defend herself. 
 ~
 Human~
@@ -128,7 +128,7 @@ bodyguard draconian~
 A bodyguard~
 A bodyguard is here, staring at you menacingly. 
 ~
-This creature has devoted its life to defending the king.  Your intrusion has
+This creature has devoted its life to defending the king. Your intrusion has
 not pleased it.
 ~
 Human~
@@ -144,7 +144,7 @@ tiamat dragon~
 Tiamat~
 A five headed dragon hisses at you as you enter this room.
 ~
-You see before you the master of this Tower, Tiamat.  She frowns at you as she
+You see before you the master of this Tower, Tiamat. She frowns at you as she
 prepares to make you pay for your insolence ... with your lives!
 ~
 Human~
@@ -160,7 +160,7 @@ dragon red~
 the Great Red Dragon~
 A red dragon is here, contemplating your existence. 
 ~
-This huge red dragon dominates the chamber.  As you turn to flee, he grins at
+This huge red dragon dominates the chamber. As you turn to flee, he grins at
 you and invites you to stay ... forever! 
 ~
 Human~
@@ -176,7 +176,7 @@ dragon black~
 the Great Black Dragon~
 A black dragon is here, laughing at your insolence. 
 ~
-This huge black wyrm laughs at your puny weapons.  You realize that he is not
+This huge black wyrm laughs at your puny weapons. You realize that he is not
 going to roll over and die for you.
 ~
 Human~
@@ -192,8 +192,8 @@ dragon white~
 the Great White Dragon~
 A white dragon is here, waiting for you. 
 ~
-This dragon towers over you.  Recalling your previous experiences with white
-dragons, you are not afraid.  She smiles at you and says 'I think you will find
+This dragon towers over you. Recalling your previous experiences with white
+dragons, you are not afraid. She smiles at you and says 'I think you will find
 me a greater challenge than my offspring.'
 ~
 Human~
@@ -211,7 +211,7 @@ A green dragon is here, looking distraught.
 ~
 This huge beast appears to be the most directly related to the draconians. 
 She looks at you with sorrow in her eyes and says 'You have slaughtered my 
-children.  Prepare to die.'
+children. Prepare to die.'
 ~
 Human~
 ABCFT DF -1000 S
@@ -226,7 +226,7 @@ hydra~
 a large hydra~
 A hydra is here, blocking the doorway. 
 ~
-A hydra is here, guarding the entrance to a sealed vault.  You have the feeling
+A hydra is here, guarding the entrance to a sealed vault. You have the feeling
 it isn't happy to see you.
 ~
 Human~
@@ -242,7 +242,7 @@ slave human~
 A human slave~
 A Human slave is here, hard at work.          
 ~
-He looks like he's under a lot of stress.  He would probably like it if you
+He looks like he's under a lot of stress. He would probably like it if you
 left him alone.
 ~
 Human~
@@ -258,7 +258,7 @@ zombie draconian~
 a Draconian zombie~
 A Draconian zombie is here, staring at nothing in particular.
 ~
-This used to be one of the warriors of this tribe.  He was denied his final
+This used to be one of the warriors of this tribe. He was denied his final
 rest, however, and now guards this corridor tirelessly as a zombie.
 ~
 Human~
@@ -290,7 +290,7 @@ the draconian fool~
 A Fool is here, making fun of you.          
 ~
 This dragon man looks VERY foolish, dressed in a green and blue striped 
-suit.  As you enter the room, he points at you and laughs. 
+suit. As you enter the room, he points at you and laughs. 
 ~
 Human~
 AGHT 0 0 S
@@ -305,7 +305,7 @@ queen draconian~
 the Draconian Queen~
 A Female Draconian sits, here, looking very important.          
 ~
-This draconian looks VERY busy as she orders her slaves around.  You think 
+This draconian looks VERY busy as she orders her slaves around. You think 
 it might be a good idea to leave her alone. 
 ~
 Human~
@@ -346,9 +346,9 @@ unknown~
 B AC BC ABD 0
 27 8 270 P
 A
-19 2
-A
 2 1
+A
+19 2
 #2203
 bracelet dragon~
 a dragon skin bracelet~
@@ -430,9 +430,9 @@ unknown~
 AB AB AB 0 0
 0 6 0 P
 A
-19 3
-A
 18 3
+A
+19 3
 #2230
 ring copper~
 a copper ring~
@@ -574,9 +574,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-1 1
-A
 19 2
+A
+1 1
 #2260
 scimitar golden~
 a golden scimitar~
@@ -586,9 +586,9 @@ unknown~
 A AC AC AB 0
 19 10 190 P
 A
-4 1
-A
 3 1
+A
+4 1
 #2261
 brooch diamond~
 a diamond brooch~
@@ -636,9 +636,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-13 10
-A
 1 1
+A
+13 10
 #2280
 leggings dragon scale~
 a pair of dragon scale leggings~
@@ -664,9 +664,9 @@ unknown~
 ABC AC AD C 0
 40 14 400 P
 A
-19 2
-A
 18 2
+A
+19 2
 #2286
 hammer copper~
 a copper hammer~
@@ -690,16 +690,16 @@ unknown~
 #ROOMS
 #2201
 The Tower Gates~
-You are at the entrance to a tall tower.  Lightning flashes periodically and
-it is raining.  You think it might be a good idea to turn back into the grove.
+You are at the entrance to a tall tower. Lightning flashes periodically and
+it is raining. You think it might be a good idea to turn back into the grove.
 ~
 0 1 1
 E
 gate~
-The gate is tall and secure.  Whoever built it values privacy.
+The gate is tall and secure. Whoever built it values privacy.
 ~
 D0
-You see a large steel gate.  Beyond is the Foyer of the Tower.
+You see a large steel gate. Beyond is the Foyer of the Tower.
 ~
 gate steel~
 2 2231 2202
@@ -711,14 +711,14 @@ The shadows cloud your vision.
 S
 #2202
 The Foyer~
-This is the entrance to the Tower.  The hallway continues to the north,
-leading towards a staircase.  You notice a grim painting on the wall,  and 
+This is the entrance to the Tower. The hallway continues to the north,
+leading towards a staircase. You notice a grim painting on the wall,  and 
 quickly look away.
 ~
 0 12 0
 E
 painting~
-This painting depicts the grisly death of a foolish human.  You hope you do 
+This painting depicts the grisly death of a foolish human. You hope you do 
 not share his fate.
 ~
 D0
@@ -734,7 +734,7 @@ You see the gate.
 S
 #2203
 Hallway~
-This hallway seems to stretch on forever.  You notice a stairway in  
+This hallway seems to stretch on forever. You notice a stairway in  
 the distance. 
 ~
 0 8 0
@@ -751,16 +751,16 @@ You see the foyer.
 S
 #2204
 Hallway~
-You trudge down the hallway.  You notice doors to the east and west. 
+You trudge down the hallway. You notice doors to the east and west. 
 ~
 0 8 0
 E
-inscription~
-It says "STORAGE"
-~
-E
 sign~
 The sign says "NURSERY" in bold letters.     
+~
+E
+inscription~
+It says "STORAGE"
 ~
 D0
 The hall continues. 
@@ -768,7 +768,7 @@ The hall continues.
 ~
 0 -1 2207
 D1
-You see a door.  You notice a sign. 
+You see a door. You notice a sign. 
 ~
 door~
 1 -1 2205
@@ -778,14 +778,14 @@ The hall continues.
 ~
 0 -1 2203
 D3
-You see an oak door.  There is an inscription on it. 
+You see an oak door. There is an inscription on it. 
 ~
 oak~
 1 -1 2206
 S
 #2205
 Nursery~
-It looks like a tornado has been through here.  Toys are scattered everywhere,
+It looks like a tornado has been through here. Toys are scattered everywhere,
 and a small group of dragon hatchlings are fighting over a bone. 
 ~
 0 8 1
@@ -822,14 +822,14 @@ trapdoor~
 S
 #2207
 End of the Hallway~
-You have finally reached the end of the hallway.  A huge staircase leads up.
+You have finally reached the end of the hallway. A huge staircase leads up.
 You see a sign at the base of the staircase. 
 ~
 0 8 0
 E
 sign~
 The sign reads:
-    This area is kind of tough.  You probably shouldn't go up these stairs 
+    This area is kind of tough. You probably shouldn't go up these stairs 
     alone if you are under 18th level, or at all if you under 14th level.  
     Have fun! -- Wench
 ~
@@ -847,7 +847,7 @@ S
 #2208
 Guardian's Room~
 You climb down the rickety stairs and find yourself face to face with a 
-gargantuan hydra.  How fast can you climb UP stairs? 
+gargantuan hydra. How fast can you climb UP stairs? 
 ~
 0 8 1
 D2
@@ -863,9 +863,9 @@ door trap trapdoor~
 S
 #2209
 The Treasure Room~
-You have made it past the hydra into the vault.  You are astounded by 
-the treasure here.  Not only are you now rich, you can probably rest here
-safely.  The west wall seems to have a large door made entirely of ruby.
+You have made it past the hydra into the vault. You are astounded by 
+the treasure here. Not only are you now rich, you can probably rest here
+safely. The west wall seems to have a large door made entirely of ruby.
 ~
 0 12 1
 D0
@@ -881,8 +881,8 @@ door ruby~
 S
 #2210
 The Second Floor~
-You have made it up to the second floor.  You hear hissing and see several
-dragon men rushing you.  You wonder how long you will be staying here.
+You have made it up to the second floor. You hear hissing and see several
+dragon men rushing you. You wonder how long you will be staying here.
 ~
 0 8 1
 D2
@@ -898,7 +898,7 @@ You see the first floor.
 S
 #2211
 The Court~
-You have entered what seems to be a large court.  The people guarding it
+You have entered what seems to be a large court. The people guarding it
 don't seem happy to see you ...
 ~
 0 8 1
@@ -932,7 +932,7 @@ You see the Court.
 S
 #2213
 The Court~
-You are continuing down the hall.  To the east and west you see ornate doors.
+You are continuing down the hall. To the east and west you see ornate doors.
 ~
 0 0 1
 D0
@@ -958,7 +958,7 @@ door white~
 S
 #2214
 The Library~
-You have entered a huge room, filled with books.  A peaceful man is
+You have entered a huge room, filled with books. A peaceful man is
 sitting at a table, studying.
 ~
 0 8 1
@@ -970,7 +970,7 @@ door black~
 S
 #2215
 The Sanctum~
-This small room is modestly decorated with small dragon icons.  Its sole
+This small room is modestly decorated with small dragon icons. Its sole
 occupant is deep in thought.
 ~
 0 8 1
@@ -982,8 +982,8 @@ door white~
 S
 #2216
 The Court Ends~
-You have reached the end of the court.  A huge Draconian is sitting in a
-chair here.  As you enter, he motions with his hand and you are rushed by three
+You have reached the end of the court. A huge Draconian is sitting in a
+chair here. As you enter, he motions with his hand and you are rushed by three
 of his bodyguards.
 ~
 0 8 1
@@ -1000,7 +1000,7 @@ You see a private chamber.
 S
 #2217
 bedroom~
-This is the personal room of the draconian king.  It is not empty.
+This is the personal room of the draconian king. It is not empty.
 ~
 0 8 1
 D3
@@ -1011,7 +1011,7 @@ You see Court.
 S
 #2218
 Entrance to the Crypt~
-You have entered a large room which smells heavily of reptile.  You wonder
+You have entered a large room which smells heavily of reptile. You wonder
 what awaits you here.
 ~
 0 8 1
@@ -1028,8 +1028,8 @@ You see the Crypt.
 S
 #2219
 Crypt~
-You are in a large room which continues to the west.  You notice many
-coffins here.  Open coffins reveal remains of something other than man.  
+You are in a large room which continues to the west. You notice many
+coffins here. Open coffins reveal remains of something other than man.  
 The smell of reptile is very strong here.
 ~
 0 8 1
@@ -1046,7 +1046,7 @@ You see nothing special.
 S
 #2220
 The Lair~
-You have entered a large room dominated by a great white dragon.  It growls
+You have entered a large room dominated by a great white dragon. It growls
 at you before it attacks.
 ~
 0 8 1
@@ -1058,7 +1058,7 @@ You the cave opening.
 S
 #2221
 A Lair~
-You have entered a large room dominated by a great black dragon.  It looks
+You have entered a large room dominated by a great black dragon. It looks
 as though it is amused by your presence.
 ~
 0 8 1
@@ -1070,13 +1070,13 @@ You the cave opening.
 S
 #2222
 The Crypt Ends~
-You have come to the end of the Crypt.  It seems deserted.  There is a 
+You have come to the end of the Crypt. It seems deserted. There is a 
 strange coffin lying against the wall.
 ~
 0 8 1
 E
 coffin~
-A coffin lies a against the east wall.  It is closed.
+A coffin lies a against the east wall. It is closed.
 ~
 D1
 You see the Crypt.
@@ -1090,8 +1090,8 @@ D3
 S
 #2223
 Entrance to the Great Hall~
-You have entered a huge hall.  It has been carefully decorated with
-beautiful tapestries depicting a great battle between dragons and men.  The
+You have entered a huge hall. It has been carefully decorated with
+beautiful tapestries depicting a great battle between dragons and men. The
 dragons appear to be the victors.
 ~
 0 8 1
@@ -1108,7 +1108,7 @@ door stone~
 S
 #2224
 The Great Hall~
-You are working your way down the Hall.  To the north, you notice a smaller
+You are working your way down the Hall. To the north, you notice a smaller
 passageway, while the main hall continues to the east.
 ~
 0 8 1
@@ -1129,7 +1129,7 @@ This Passageway branches off from the main hall and leads somewhere ... where?
 ~
 0 8 1
 D0
-You see a large Lair.  It looks dangerous.
+You see a large Lair. It looks dangerous.
 ~
 ~
 0 -1 2226
@@ -1141,9 +1141,9 @@ You see the great hall.
 S
 #2226
 Lair~
-You have entered a large lair with bones strewn about the ground.  You
+You have entered a large lair with bones strewn about the ground. You
 notice the source of these as you come face to face with a rather large red
-dragon.  You notice a trap door in the floor.
+dragon. You notice a trap door in the floor.
 ~
 0 8 1
 D2
@@ -1159,7 +1159,7 @@ door trap trapdoor~
 S
 #2227
 Underground Tunnel~
-You have entered an underground tunnel.  It is dark and dirty, and you find
+You have entered an underground tunnel. It is dark and dirty, and you find
 yourself wishing you were back in Midgaard.
 ~
 0 9 2
@@ -1176,7 +1176,7 @@ door trap trapdoor~
 S
 #2228
 Underground Tunnel~
-This tunnel has come to a dead end.  You feel nervous about being trapped here.
+This tunnel has come to a dead end. You feel nervous about being trapped here.
 ~
 0 13 2
 D2
@@ -1187,14 +1187,14 @@ You see the tunnel.
 S
 #2229
 The Great Hall Ends.~
-You have come to the end of the great hall.  You see before you a huge
-golden door, it must be at least twenty feet tall!  It has beautiful etchings
-of dragons.  You see a sign on the door.
+You have come to the end of the great hall. You see before you a huge
+golden door, it must be at least twenty feet tall! It has beautiful etchings
+of dragons. You see a sign on the door.
 ~
 0 8 1
 E
 sign~
-Congratulations on making it this far!  Watch out, it gets a little
+Congratulations on making it this far! Watch out, it gets a little
     nasty here... :) - Wench
 ~
 D1
@@ -1210,7 +1210,7 @@ You see the hall.
 S
 #2230
 THE Lair~
-You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west.
+You have entered a huge lair. You feel that something big lives here or at least did. The golden door lies back to the west.
 ~
 0 8 2
 D3
@@ -1221,8 +1221,8 @@ door golden great~
 S
 #2231
 The End...~
-You have reached the final lair.  It is dominated by a huge five headed
-dragon.  You suddenly realize that you have SERIOUS problems...
+You have reached the final lair. It is dominated by a huge five headed
+dragon. You suddenly realize that you have SERIOUS problems...
 ~
 0 8 2
 D2
@@ -1233,8 +1233,8 @@ You see the top of the mountain.
 S
 #2232
 Stairwell~
-This is an old decrepit stairwell that leads to the wine cellar.  It looks
-like it hasn't been used for decades.  Well, at least not by anything living.
+This is an old decrepit stairwell that leads to the wine cellar. It looks
+like it hasn't been used for decades. Well, at least not by anything living.
 ~
 0 8 2
 D1
@@ -1248,9 +1248,9 @@ A wine cellar~
 S
 #2233
 Wine cellar~
-This is the old wine cellar of the Dragon Tower.  The shelves are empty.
-Nothing living has been in here for a long time.  You see a tunnel leading
-off to the east and boy does it smell bad.  Kinda of like rotting flesh.
+This is the old wine cellar of the Dragon Tower. The shelves are empty.
+Nothing living has been in here for a long time. You see a tunnel leading
+off to the east and boy does it smell bad. Kinda of like rotting flesh.
 ~
 0 1 2
 D1
@@ -1266,9 +1266,9 @@ The stairwell
 S
 #2234
 Tunnel~
-This tunnel seems to stretch for miles.  You try to distinguish the end but
-your eyes soon tire from the strain.  The smell here has increased two fold.
-The tunnel continues to go to the east.  The wine cellar lies back to the 
+This tunnel seems to stretch for miles. You try to distinguish the end but
+your eyes soon tire from the strain. The smell here has increased two fold.
+The tunnel continues to go to the east. The wine cellar lies back to the 
 west.
 ~
 0 257 2
@@ -1290,9 +1290,9 @@ A tunnel
 S
 #2235
 A cave opening~
-You stand at the opening of a giant cave.  There are many bones strewn across
-the room.  Some human, some indistinguishable.  It smells very bad in here.
-You can hear movement in the cave to the north.  The tunnel goes back to the
+You stand at the opening of a giant cave. There are many bones strewn across
+the room. Some human, some indistinguishable. It smells very bad in here.
+You can hear movement in the cave to the north. The tunnel goes back to the
 south.
 ~
 0 257 2
@@ -1309,9 +1309,9 @@ The tunnel
 S
 #2236
 The End of the tunnel~
-You have finally come to the end of the tunnel.  Back to the west lies
-the miles of tunnels you have walked through.  You see the faint outline of
-a trapdoor above you.  A bride over an underground river lies to the south.
+You have finally come to the end of the tunnel. Back to the west lies
+the miles of tunnels you have walked through. You see the faint outline of
+a trapdoor above you. A bride over an underground river lies to the south.
 ~
 0 257 2
 D2
@@ -1332,8 +1332,8 @@ trapdoor
 S
 #2237
 The Bridge~
-You are walking along an old wooden bridge.  Its not that secure.  You 
-might want to hurry along.  To the south, on the other side of the bridge,
+You are walking along an old wooden bridge. Its not that secure. You 
+might want to hurry along. To the south, on the other side of the bridge,
 lies a small opening.
 ~
 0 9 2
@@ -1350,9 +1350,9 @@ A small opening
 S
 #2238
 A small opening~
-You are standing in a small opening.  To the north lies the old wooden
-bridge.  To your south the you can see a clearing.  You can see sunlight
-again.  What a welcome relief!
+You are standing in a small opening. To the north lies the old wooden
+bridge. To your south the you can see a clearing. You can see sunlight
+again. What a welcome relief!
 ~
 0 9 2
 D0
@@ -1368,23 +1368,23 @@ clearing
 S
 #2239
 Clearing~
-You stand out in a clearing.  Mountains are all around you.  There is a 
-well in the middle of the clearing.  Lying against the well is a sign.  A
-path leads up the mountain.  The small opening is back to the north.
+You stand out in a clearing. Mountains are all around you. There is a 
+well in the middle of the clearing. Lying against the well is a sign. A
+path leads up the mountain. The small opening is back to the north.
 ~
 0 0 2
 E
-sign~
-The sign reads:
-         This is a bottomless pit cleverly disguised as a well.  People have
-fallen in and never been heard from again.  Trust me, you don't want to go 
-down there.
-                        The All Powerful Well Keeper
+well~
+You peer over the side of the well. It looks VERY, VERY deep. It appears
+to be ENDLESS.
 ~
 E
-well~
-You peer over the side of the well.  It looks VERY, VERY deep.  It appears
-to be ENDLESS.
+sign~
+The sign reads:
+         This is a bottomless pit cleverly disguised as a well. People have
+fallen in and never been heard from again. Trust me, you don't want to go 
+down there.
+                        The All Powerful Well Keeper
 ~
 D0
 the small opening
@@ -1404,8 +1404,8 @@ The well
 S
 #2240
 A path~
-This path leads up the side of the mountain.  A clearing lies below you.
-There is a cave opening to the west.  The path continues up the mountain.
+This path leads up the side of the mountain. A clearing lies below you.
+There is a cave opening to the west. The path continues up the mountain.
 ~
 0 0 2
 D3
@@ -1426,9 +1426,9 @@ clearing
 S
 #2241
 A cave opening~
-You stand before a huge cave opening.  You hearing heavy breathing from
-within the cave.  There are a few skeletons lying about.  The cave lies to 
-the south.  The path is back to the east.
+You stand before a huge cave opening. You hearing heavy breathing from
+within the cave. There are a few skeletons lying about. The cave lies to 
+the south. The path is back to the east.
 ~
 0 0 2
 D1
@@ -1444,7 +1444,7 @@ A lair
 S
 #2242
 The path continues~
-The path continues up the mountain to the top.  The path also goes down.
+The path continues up the mountain to the top. The path also goes down.
 Thats it, nothing more to see.
 ~
 0 0 2
@@ -1461,13 +1461,13 @@ path
 S
 #2243
 The top of the mountain~
-You are standing at the top of the mountain.  It feels more like the top of
-the world.  To your north lies a huge platinum door.  You hear very pronounced
-grumbling from behind the doors.  It sounds like something huge and hungry.
+You are standing at the top of the mountain. It feels more like the top of
+the world. To your north lies a huge platinum door. You hear very pronounced
+grumbling from behind the doors. It sounds like something huge and hungry.
 But if you don't have the key you don't have to worry because you can't get it.
-If you do have the key I would suggest not going in.  Some believe the Five
-Headed dragon Tiamat was imprisoned here by the gods.  But who believes in 
-fairy tales.  Well, if you're scared, you can always go down the mountain.
+If you do have the key I would suggest not going in. Some believe the Five
+Headed dragon Tiamat was imprisoned here by the gods. But who believes in 
+fairy tales. Well, if you're scared, you can always go down the mountain.
 ~
 0 0 2
 E
@@ -1494,8 +1494,8 @@ O
       o
        !
 
-   I warned you!  You have fallen into the bottomless pit.  You life flashes
-right before your eyes.  Pretty pathetic isn't it?  Next time you'll know
+   I warned you! You have fallen into the bottomless pit. You life flashes
+right before your eyes. Pretty pathetic isn't it? Next time you'll know
 to listen to the God of Laughs.
 ~
 0 6 0
@@ -1638,6 +1638,11 @@ S
 
 
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

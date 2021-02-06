@@ -15,11 +15,11 @@
  *                                                                         *
  *  In order to use any part of this Merc Diku Mud, you must comply with   *
  *  both the original Diku license in 'license.doc' as well the Merc       *
- *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  license in 'license.txt'. In particular, you may not remove either of *
  *  these copyright notices.                                               *
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
- *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  benefitting. We hope that you share your changes too. What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
 
@@ -1473,7 +1473,7 @@ void do_rstat( CHAR_DATA * ch, char *argument )
     send_to_char( buf, ch );
 
     sprintf( buf,
-             "Vnum: %d.  Sector: %d.  Light: %d.\n\r",
+             "Vnum: %d. Sector: %d. Light: %d.\n\r",
              location->vnum, location->sector_type, location->light );
     send_to_char( buf, ch );
 
@@ -1523,7 +1523,7 @@ void do_rstat( CHAR_DATA * ch, char *argument )
         if ( ( pexit = location->exit[door] ) != NULL )
         {
             sprintf( buf,
-                     "Door: %d.  To: %d.  Key: %d.  Exit flags: %d.\n\rKeyword: '%s'.  Description: %s",
+                     "Door: %d. To: %d. Key: %d. Exit flags: %d.\n\rKeyword: '%s'. Description: %s",
                      door,
                      ( pexit->u1.to_room ==
                        NULL ? -1 : pexit->u1.to_room->vnum ), pexit->key,
@@ -3070,6 +3070,7 @@ void do_purge( CHAR_DATA * ch, char *argument )
 
         act( "$n disintegrates $N.", ch, 0, victim, TO_NOTVICT );
         act( "You disintegrate $N.", ch, 0, victim, TO_CHAR );
+        act( "$n disintegrates you.", ch, 0, victim, TO_VICT );
 
         save_char_obj( victim );
 
@@ -3909,7 +3910,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
         if ( value < victim->pcdata->vnum_range[0] )
         {
             send_to_char
-                ( "Invalid VNUM.  The Vnum must be greater then the lower vnum.\n\r",
+                ( "Invalid VNUM. The Vnum must be greater then the lower vnum.\n\r",
                   ch );
             return;
         }
@@ -5188,7 +5189,7 @@ void do_rlist( CHAR_DATA * ch, char *argument )
 /*
 Object checking function, by Kyle Boyd.
 This cycles through a given set of vnums and identifies problems
-in the objects.  Useful for quickly debugging objects in new areas.
+in the objects. Useful for quickly debugging objects in new areas.
 */
 void do_objcheck( CHAR_DATA * ch, char *argument )
 {
@@ -6105,7 +6106,7 @@ void do_shell( CHAR_DATA * ch, char *argument )
         /* Close the slave tty <shrug> */
         close( slave_fd );
 
-        /* Exec the shell!  YES! */
+        /* Exec the shell! YES! */
         execl( SHELL_PATH, "MUDSHELL", ( char * ) 0 );
 
         /* If we get here, something went wrong with the exec. */
@@ -6138,7 +6139,7 @@ void do_shell( CHAR_DATA * ch, char *argument )
      * who to put back in the game. */
     close( ch->fdpair[1] );
 
-    /* Exit this process.  MUD will take the user over from here. */
+    /* Exit this process. MUD will take the user over from here. */
     exit( 0 );
 }
 #endif
