@@ -25,7 +25,7 @@ D 0 BE CDEFHKP
 BMV ABCDEFGHIJKUV L unknown
 #19102
 scantily clad amazonian warrior~
-A scantily clad Amazonian Warrior~
+a scantily clad Amazonian Warrior~
 A scantily clad Amazonian Warrior is resting here.
 ~
 A barbaric, yet beatiful, woman is wearing a skimpy suit. Still, I
@@ -125,7 +125,7 @@ the Slavedriver~
 The Slavedriver hits a slave across the back as it runs.
 ~
 A large man in a black mask stands here whipping slaves as they run from
-him.  "You can't run from me!"  "Ahhhh ha ha ha ha!!"  
+him. "You can't run from me!" "Ahhhh ha ha ha ha!!"  
 ~
 Human~
 AB 0 0 S
@@ -170,7 +170,7 @@ AHMV ABCDEFGHIJK T unknown
 #19111
 bouncer~
 a Bouncer~
-A Bouncer is here, blocking you passage inward
+A Bouncer is here, blocking you passage inward.
 ~
 This bouncer looks big and mean. His biceps are the size of tree trunks
 and he pushes you backwards.  
@@ -341,7 +341,7 @@ Magemaster~
 The Magemaster is here, training his spells.
 ~
 A larger mage in a blue cloak is before you. He shushs you and says "Be
-quiet, this is a library!"  And al the mages look up from their books. Uh
+quiet, this is a library!" And al the mages look up from their books. Uh
 oh. Better be quiet.  
 ~
 Human~
@@ -373,7 +373,7 @@ innkeeper inn~
 the Innkeeper~
 The Innkeeper sits behind the bar serving drinks.
 ~
-The Innkeeper sits at a stool behind the bar.  "Would you like a room?"  
+The Innkeeper sits at a stool behind the bar. "Would you like a room?"  
 ~
 Elf~
 ABd DFJ 0 S
@@ -738,7 +738,7 @@ A
 19 4
 #19109
 The Dining Table~
-an elegant dining table.~
+an elegant dining table~
 An elegant dining table sits here.~
 unknown~
 12 M 0
@@ -801,7 +801,7 @@ unknown~
 #19118
 whip uuuuu~
 the whip of Uuuuu~
-Uuuuu's whip glows brightly~
+Uuuuu's whip glows brightly.~
 unknown~
 5 ATV AN
 ABC AC ABC C 0
@@ -953,7 +953,7 @@ unknown~
 #19148
 slavedriver's whip~
 the Slavedriver's whip~
-A long, black whip lies here~
+A long, black whip lies here.~
 unknown~
 5 0 AN
 ABC AB AC C 0
@@ -1073,7 +1073,7 @@ A AC ABD ACDE A
 #19177
 skull key~
 a skull key~
-A key with a skull on the handle lies here~
+A key with a skull on the handle lies here.~
 unknown~
 18 AB AO
 0 0 0 0 0
@@ -1582,8 +1582,8 @@ The Shadowdragon's Loot~
 The rooms gleams with hidden treasure! Gold is everywhere, too much for
 one man to carry. Your jaw drops to the floor in amazement. You eyes open
 wide when you realize your rich. You reach to take the gold and your hand
-passes through it.  "Ha ha ha ha ha!"  Laughs someone.  "How easily these
-mortals are fooled!"  You've just been royally ripped off!  
+passes through it. "Ha ha ha ha ha!" Laughs someone. "How easily these
+mortals are fooled!" You've just been royally ripped off!  
 ~
 0 2097160 0
 D2
@@ -1756,7 +1756,7 @@ S
 VanBlanc's Study~
 The wall is lined with many many bookshelves. When you try to touch a
 book, a lightning bolt zaps you backwards and a powerful mage appears in
-front of you.  "Now you will die mortal!"  
+front of you. "Now you will die mortal!"  
 ~
 0 2105352 0
 D1
@@ -1771,8 +1771,8 @@ S
 #19183
 VanBlanc's Training Room~
 A large arena type room. A sword was dropped on the ground. You reach
-for it and a warrior steps on your hand.  "No no, you mortal, that is mine."
-He picks you up and takes his fighting stance.  "Prepare to die MORTAL!"  
+for it and a warrior steps on your hand. "No no, you mortal, that is mine."
+He picks you up and takes his fighting stance. "Prepare to die MORTAL!"  
 ~
 0 2105352 0
 D3
@@ -2611,7 +2611,7 @@ The Local Pharmacy~
 You are suprised to walk into a normal sized room, without any pixies. 
 It appears to be some sort of pharmacy. A man in a white labcoat walks out
 of the backroom. He looks at you and says, "Good! We have a customer. Can
-I get you a prescription? You may have a cola while you wait."  He seem
+I get you a prescription? You may have a cola while you wait." He seem
 friendly enough.  
 ~
 0 12 0

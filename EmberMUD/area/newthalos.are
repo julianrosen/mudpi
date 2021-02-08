@@ -335,7 +335,7 @@ ABGT 0 10 S
 AHMV ABCDEFGHIJK M 0
 #9521
 statue~
-The statue of Tempest~
+the statue of Tempest~
 The statue of Tempest stands here.
 ~
 (null)~
@@ -349,7 +349,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9522
 statue~
-The statue of Ezra~
+the statue of Ezra~
 The statue of Ezra stands here.
 ~
 (null)~
@@ -363,7 +363,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9523
 statue~
-The statue of Seth~
+the statue of Seth~
 The statue of Seth stands here.
 ~
 A statue of Seth.
@@ -378,7 +378,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9524
 statue~
-The statue of Pontius~
+the statue of Pontius~
 The statue of Pontius stands here.
 ~
 A statue of Pontius.
@@ -393,7 +393,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9525
 statue~
-The statue of Lisa~
+the statue of Lisa~
 The statue of Lisa stands here.
 ~
 A statue of Lisa.
@@ -408,7 +408,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9526
 statue~
-The statue of Kate~
+the statue of Kate~
 The statue of Kate stands here.
 ~
 A statue of Kate.
@@ -423,7 +423,7 @@ ABQTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9527
 statue~
-The statue of Furey~
+the statue of Furey~
 There a statue of Furey standing here.
 ~
 A statue of Furey.
@@ -438,7 +438,7 @@ ABQRTX 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9528
 statue~
-The statue of Alander~
+the statue of Alander~
 The statue of Alander stands here.
 ~
 A statue of Alander.
@@ -513,7 +513,7 @@ ACGHT D 0 S
 AHMV ABCDEFGHIJK M 0
 #9533
 nomad merchant~
-A nomad merchant~
+a nomad merchant~
 A nomad merchant looks you over.
 ~
 This robust fellow returns your gaze with a smile, but something inside
@@ -529,7 +529,7 @@ ACFHT 0 -100 S
 AHMV ABCDEFGHIJK M 0
 #9534
 bodyguard~
-A bodyguard~
+a bodyguard~
 A bodyguard sizes you up.
 ~
 The large half-orc quickly glances you over and returns to his duties.
@@ -772,7 +772,7 @@ AEFRT U -750 S
 AHMV ABCDEFGHIJK M 0
 #9550
 sultan~
-The Sultan~
+the Sultan~
 The Sultan rests here on his throne.
 ~
 You see a large wealthy man in red robes smiling at you.
@@ -972,7 +972,7 @@ ABGT 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #9563
 sultans guard chief~
-The chief guard~
+the chief guard~
 The chief of the sultan's guard stands here.
 ~
 You see a large man skilled in hunting and killing.
@@ -1267,7 +1267,7 @@ ABEQT DH 1000 S
 AHMV ABCDEFGHIJK M 0
 #9582
 royal guard elite~
-The Royal Guard~
+the Royal Guard~
 An Elite Royal Guard stands here smiling happily.
 ~
 You see one of the Royal Guards from Midgaard who seems to have gone
@@ -1284,7 +1284,7 @@ AHMV ABCDEFGHIJK M 0
 #9583
 patch bartender~
 Patch the bartender~
-A large half-orc with a patch over one eye pours beer behind the counter
+A large half-orc with a patch over one eye pours beer behind the counter.
 ~
 You see a really big guy here who seems to have lost an eye in one manner
 or another.
@@ -1299,7 +1299,7 @@ ABHTVXYZ D -500 S
 AHMV ABCDEFGHIJK M 0
 #9584
 stitch~
-Stitch, the leather dude.~
+Stitch, the leather dude~
 Stitch, the leather dude reclines in his chair.
 ~
 You see a small hobbit with his feet kicked up on his desk waiting for
@@ -1453,7 +1453,7 @@ A 0 0 0 0
 #9501
 city key~
 the Key to the City of New Thalos~
-The heavy city key lies here in the dust~
+The heavy city key lies here in the dust.~
 unknown~
 18 0 ACO
 A 0 0 0 0
@@ -1601,7 +1601,7 @@ A
 #9520
 wooden shield~
 a wooden shield~
-A wooden shield lies here~
+A wooden shield lies here.~
 unknown~
 9 0 AJ
 AC AC AC 0 0
@@ -1641,7 +1641,7 @@ AC AC AC 0 0
 #9525
 cap leather~
 a leather cap~
-A leather cap lies here~
+A leather cap lies here.~
 unknown~
 9 0 AE
 AC AC AC 0 0
@@ -1713,7 +1713,7 @@ AC AC AC 0 0
 #9534
 sack~
 a sack~
-A sack lies here~
+A sack lies here.~
 unknown~
 15 0 AO
 BEF 0 0 0 0
@@ -1721,7 +1721,7 @@ BEF 0 0 0 0
 #9535
 oil lamp oillamp~
 an oil lamp~
-An oil lamp lies here~
+An oil lamp lies here.~
 unknown~
 1 0 A
 0 0 48 0 0
@@ -1729,7 +1729,7 @@ unknown~
 #9536
 backpack back pack~
 a backpack~
-A backpack lies here~
+A backpack lies here.~
 unknown~
 15 0 AK
 ABDG A 0 0 0
@@ -1745,7 +1745,7 @@ BEF 0 0 0 0
 #9538
 belt pouch~
 a belt pouch~
-A belt pouch lies here~
+A belt pouch lies here.~
 unknown~
 15 0 AL
 ADE 0 0 0 0
@@ -1753,7 +1753,7 @@ ADE 0 0 0 0
 #9539
 candle~
 a candle~
-A candle lies here~
+A candle lies here.~
 unknown~
 1 0 AO
 0 0 50 0 0
@@ -2089,7 +2089,7 @@ AC BD BD 1 0
 #9582
 wand faerie fire~
 a pink wand~
-A pink wand lies here~
+A pink wand lies here.~
 unknown~
 3 G AO
 AB AB AB 72 0
@@ -2105,7 +2105,7 @@ B AB AC E 0
 #9584
 meat cleaver~
 a meat cleaver~
-A meat cleaver lies here~
+A meat cleaver lies here.~
 unknown~
 5 KL AN
 B AB AC AD 0
@@ -2217,13 +2217,13 @@ unknown~
 AB AB AB 0 0
 0 1 0 P
 A
-14 10
-A
 2 1
+A
+14 10
 #9598
 daemon claw~
 the Daemon Claw~
-A glove with blades mounted on it lies here~
+A glove with blades mounted on it lies here.~
 unknown~
 5 B AN
 0 B BC AC 0
@@ -2247,9 +2247,9 @@ unknown~
 D AC BC AB 0
 25 16 250 P
 A
-19 2
-A
 18 2
+A
+19 2
 #9601
 fountain water~
 a fountain~
@@ -2297,9 +2297,14 @@ tavern of the Dancing Daemon Inn, and your future adventures in New Thalos.
 ~
 0 124 0
 E
-1.1picture~
-You see a picture of Felix here, standing before the arena.
-He seems to be doing a body count.
+4.picture~
+You see a picture of Loki... at least you think it's Loki.
+He seems to be hiding from the camera.
+~
+E
+3.picture~
+You see a picture of Hammor on the front porch of the Danjerhaus,
+drinking a guinness stout and petting Big Guy the Cat.
 ~
 E
 2.picture~
@@ -2308,14 +2313,9 @@ Through a window in the back you see a large aquarium. The newbie seems to
 be cowering in fear.
 ~
 E
-3.picture~
-You see a picture of Hammor on the front porch of the Danjerhaus,
-drinking a guinness stout and petting Big Guy the Cat.
-~
-E
-4.picture~
-You see a picture of Loki... at least you think it's Loki.
-He seems to be hiding from the camera.
+1.1picture~
+You see a picture of Felix here, standing before the arena.
+He seems to be doing a body count.
 ~
 D5
 The stairs lead down to the Daemon.
@@ -4642,6 +4642,10 @@ blood, there is a barely readable sign.
 ~
 0 120 0
 E
+vat~
+You think you hear noises from the vat....nah.
+~
+E
 note sign~
 LIST : gives you a list of items for sale.
 VALUE : tells you how much an item is worth
@@ -4649,10 +4653,6 @@ SELL : sells an item to Butch for a generous sum
 BUY : Butch's FAVORITE command lets you have an item for his low low price.
 
                                         NEWBEE INTRUCTOR COMMITEE
-~
-E
-vat~
-You think you hear noises from the vat....nah.
 ~
 D3
 (null)~
@@ -5568,13 +5568,13 @@ hallway.
 ~
 0 8 0
 E
-mirror~
-You see a the fighting image of some armor clad humanoid wielding a weapon.
-~
-E
 window~
 Looking out this window you can see the grounds of the palace that
 seperate the walls of the palace from the building itself.
+~
+E
+mirror~
+You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 D0
 (null)~
@@ -6802,9 +6802,9 @@ S
 #9796
 The Dragon Sea~
 You are on the clear blue seas of the Dragon Sea.
- Water extends in all directions as far as the eye
- can see. Off in the distance you think you might
- see a small dock to the west.
+Water extends in all directions as far as the eye
+can see. Off in the distance you think you might
+see a small dock to the west.
 ~
 0 0 7
 D0
@@ -6956,11 +6956,11 @@ M 0 9537 2 9506 Load the tax collector
 G 0 9500 0 The palace key of new thalos is given to the tax collector
 M 0 9540 0 9506 Load Raistlin
 O 0 9601 0 9506 A fountain loaded to The Center of Market Square
-M 0 9582 2 9507 Load The Royal Guard
-M 0 9582 2 9508 Load The Royal Guard
+M 0 9582 2 9507 Load the Royal Guard
+M 0 9582 2 9508 Load the Royal Guard
 M 0 9592 0 9509 Load the bodyguard
 M 0 9592 0 9509 Load the bodyguard
-M 0 9533 10 9509 Load A nomad merchant
+M 0 9533 10 9509 Load a nomad merchant
 M 0 9542 4 9510 Load the wandering prophet
 M 0 9509 20 9510 Load a beggar
 M 0 9547 0 9511 Load the dirt devil
@@ -6978,13 +6978,13 @@ M 0 9562 3 9513 Load the sultans guard
 E 0 9513 0 16 A scimitar is loaded wielded of the sultans guard
 E 0 9517 0 5 A suit of field plate is loaded on the body of the sultans guard
 E 0 9521 0 11 A splinted shield is loaded as a shield of the sultans guard
-M 0 9582 2 9514 Load The Royal Guard
+M 0 9582 2 9514 Load the Royal Guard
 M 0 9541 0 9515 Load Curley GreenLeaf
 M 0 9538 0 9515 Load Gord
-M 0 9582 2 9516 Load The Royal Guard
+M 0 9582 2 9516 Load the Royal Guard
 M 0 9592 2 9517 Load the bodyguard
 M 0 9592 2 9517 Load the bodyguard
-M 0 9533 0 9517 Load A nomad merchant
+M 0 9533 0 9517 Load a nomad merchant
 M 0 9561 2 9518 Load the sultan's guard
 E 0 9517 0 5 A suit of field plate is loaded on the body of the sultan's guard
 E 0 9521 0 11 A splinted shield is loaded as a shield of the sultan's guard
@@ -7039,14 +7039,14 @@ M 0 9536 3 9534 Load the dockworker
 M 0 9536 2 9534 Load the dockworker
 M 0 9536 2 9535 Load the dockworker
 M 0 9536 2 9543 Load the dockworker
-M 0 9582 2 9544 Load The Royal Guard
+M 0 9582 2 9544 Load the Royal Guard
 M 0 9561 2 9544 Load the sultan's guard
-M 0 9582 2 9545 Load The Royal Guard
+M 0 9582 2 9545 Load the Royal Guard
 M 0 9561 2 9545 Load the sultan's guard
 M 0 9561 2 9546 Load the sultan's guard
 M 0 9561 2 9547 Load the sultan's guard
-M 0 9582 2 9550 Load The Royal Guard
-M 0 9582 0 9552 Load The Royal Guard
+M 0 9582 2 9550 Load the Royal Guard
+M 0 9582 0 9552 Load the Royal Guard
 M 0 9544 2 9553 Load the vulture
 M 0 9545 0 9555 Load the old man
 E 0 9590 0 16 A chessboard is loaded wielded of the old man
@@ -7071,11 +7071,11 @@ M 0 9544 2 9607 Load the vulture
 M 0 9542 2 9608 Load the wandering prophet
 M 0 9542 2 9609 Load the wandering prophet
 M 0 9592 0 9611 Load the bodyguard
-M 0 9524 0 9611 Load The statue of Pontius
-M 0 9528 0 9611 Load The statue of Alander
-M 0 9523 0 9611 Load The statue of Seth
-M 0 9521 0 9611 Load The statue of Tempest
-M 0 9533 2 9612 Load A nomad merchant
+M 0 9524 0 9611 Load the statue of Pontius
+M 0 9528 0 9611 Load the statue of Alander
+M 0 9523 0 9611 Load the statue of Seth
+M 0 9521 0 9611 Load the statue of Tempest
+M 0 9533 2 9612 Load a nomad merchant
 M 0 9557 0 9612 Load the guildguard
 M 0 9542 3 9613 Load the wandering prophet
 M 0 9592 2 9613 Load the bodyguard
@@ -7101,10 +7101,10 @@ G 0 9559 0 A fig is given to Vera the veggie lady
 G 0 9558 0 A tomato is given to Vera the veggie lady
 G 0 9557 0 A carrot is given to Vera the veggie lady
 G 0 9556 0 An egg is given to Vera the veggie lady
-M 0 9522 0 9616 Load The statue of Ezra
-M 0 9527 0 9616 Load The statue of Furey
-M 0 9526 0 9616 Load The statue of Kate
-M 0 9525 0 9616 Load The statue of Lisa
+M 0 9522 0 9616 Load the statue of Ezra
+M 0 9527 0 9616 Load the statue of Furey
+M 0 9526 0 9616 Load the statue of Kate
+M 0 9525 0 9616 Load the statue of Lisa
 M 0 9544 2 9622 Load the vulture
 M 0 9515 0 9622 Load Butch the meatcutter
 E 0 9584 0 16 A meat cleaver is loaded wielded of Butch the meatcutter
@@ -7125,7 +7125,7 @@ G 0 9581 0 A wand of oak is given to Braheem
 G 0 9579 0 A grey-silver wand is given to Braheem
 G 0 9578 0 A scroll of recall is given to Braheem
 M 0 9556 0 9625 Load the guildguard
-M 0 9533 2 9626 Load A nomad merchant
+M 0 9533 2 9626 Load a nomad merchant
 M 0 9558 0 9626 Load the guildguard
 M 0 9511 0 9628 Load the shopkeeper
 G 0 9538 0 A belt pouch is given to the shopkeeper
@@ -7152,7 +7152,7 @@ G 0 9543 0 Some iron rations is given to the baker
 G 0 9542 0 Some dry rations is given to the baker
 G 0 9541 0 A bread is given to the baker
 G 0 9540 0 A hunk of cheese is given to the baker
-M 0 9533 2 9636 Load A nomad merchant
+M 0 9533 2 9636 Load a nomad merchant
 M 0 9517 0 9636 Load Igor the weaponsmith
 E 0 9591 0 17 A sesame seed is loaded held in the hands of Igor the weaponsmith
 G 0 9514 0 A rapier is given to Igor the weaponsmith
@@ -7167,19 +7167,19 @@ G 0 9506 0 A bec de corbine is given to Igor the weaponsmith
 G 0 9505 0 A bardiche is given to Igor the weaponsmith
 G 0 9504 0 An awl-pike is given to Igor the weaponsmith
 G 0 9503 0 A morningstar is given to Igor the weaponsmith
-M 0 9584 0 9637 Load Stitch, the leather dude.
-G 0 9533 0 A leather shield is given to Stitch, the leather dude.
-G 0 9532 0 A pair of studded leather gloves is given to Stitch, the leather dude.
-G 0 9531 0 A pair of studded leather pants is given to Stitch, the leather dude.
-G 0 9530 0 A pair of studded leather sleeves is given to Stitch, the leather dude.
-G 0 9529 0 A studded leather jacket is given to Stitch, the leather dude.
-G 0 9528 0 A pair of padded leather boots is given to Stitch, the leather dude.
-G 0 9527 0 A pair of leather gloves is given to Stitch, the leather dude.
-G 0 9526 0 A pair of leather pants is given to Stitch, the leather dude.
-G 0 9525 0 A leather cap is given to Stitch, the leather dude.
-G 0 9524 0 A pair of leather sleeves is given to Stitch, the leather dude.
-G 0 9523 0 A leather jacket is given to Stitch, the leather dude.
-G 0 9522 0 A buckler is given to Stitch, the leather dude.
+M 0 9584 0 9637 Load Stitch, the leather dude
+G 0 9533 0 A leather shield is given to Stitch, the leather dude
+G 0 9532 0 A pair of studded leather gloves is given to Stitch, the leather dude
+G 0 9531 0 A pair of studded leather pants is given to Stitch, the leather dude
+G 0 9530 0 A pair of studded leather sleeves is given to Stitch, the leather dude
+G 0 9529 0 A studded leather jacket is given to Stitch, the leather dude
+G 0 9528 0 A pair of padded leather boots is given to Stitch, the leather dude
+G 0 9527 0 A pair of leather gloves is given to Stitch, the leather dude
+G 0 9526 0 A pair of leather pants is given to Stitch, the leather dude
+G 0 9525 0 A leather cap is given to Stitch, the leather dude
+G 0 9524 0 A pair of leather sleeves is given to Stitch, the leather dude
+G 0 9523 0 A leather jacket is given to Stitch, the leather dude
+G 0 9522 0 A buckler is given to Stitch, the leather dude
 M 0 9583 0 9638 Load Patch the bartender
 G 0 9577 0 A shot is given to Patch the bartender
 G 0 9576 0 A barrel of beer is given to Patch the bartender
@@ -7212,7 +7212,7 @@ M 0 9544 0 9668 Load the vulture
 M 0 9592 0 9668 Load the bodyguard
 M 0 9543 2 9669 Load the alley cat
 M 0 9561 0 9672 Load the sultan's guard
-M 0 9533 2 9672 Load A nomad merchant
+M 0 9533 2 9672 Load a nomad merchant
 M 0 9585 0 9678 Load the gardener
 M 0 9588 0 9680 Load the mimic
 M 0 9561 5 9681 Load the sultan's guard
@@ -7233,7 +7233,7 @@ M 0 9551 0 9687 Load a harem girl
 M 0 9551 0 9687 Load a harem girl
 M 0 9551 0 9687 Load a harem girl
 M 0 9561 5 9688 Load the sultan's guard
-M 0 9550 0 9689 Load The Sultan
+M 0 9550 0 9689 Load the Sultan
 M 0 9552 0 9691 Load the jailer
 G 0 9593 0 The jail key is given to the jailer
 M 0 9587 0 9696 Load the wolverine

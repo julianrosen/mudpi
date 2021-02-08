@@ -105,7 +105,7 @@ AHMV ABCDEFGHIJK M unknown
 R 50 1 C 
 #13406
 deformed mob~
-A deformed mob~
+a deformed mob~
 A deformed mob lurches around here.
 ~
 This mob is so deformed you can't tell which way it's facing.  
@@ -120,7 +120,7 @@ M 0 0 G
 AHMSV ABCDEFGHIJKM L unknown
 #13407
 large mutant mob~
-A large mutant mob~
+a large mutant mob~
 A large mutant mob stands here, looking strong and almost intelligent.
 ~
 This mutant mob covets a very nice piece of equipment.
@@ -135,7 +135,7 @@ IM 0 C 0
 AHMV ABCDEFGHIJK M unknown
 #13408
 sneaky guard~
-A sneaky guard mob~
+a sneaky guard mob~
 A sneaky guard mob hides from you here.
 ~
 ~

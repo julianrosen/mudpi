@@ -116,7 +116,7 @@ AB J 1000 S
 AHMV ABCDEFGHIJK M 0
 #12813
 lemonade vendor~
-A lemonade vendor~
+a lemonade vendor~
 A lemonade vendor peddles his wares here.
 ~
 This young elf sells lemonade and lemon stix. He carries his wares in a
@@ -152,7 +152,7 @@ AHMV ABCDEFGHIJK M 0
 #12823
 Rienne~
 Rienne~
-Rienne the Seamstress
+Rienne the Seamstress is here.
 ~
 This elven woman smiles at you, a tape measure around her neck. Her
 blonde hair falls gracefully past her shoulders, and her hands are
@@ -170,10 +170,10 @@ AHMV ABCDEFGHIJK M 0
 #12825
 Kael~
 Kael~
-Kael the Tailor
+Kael the Tailor is here.
 ~
-This tall elven man greets you firmly with a handshake.  'I'm Kael, 'he
-says, 'Welcome to my shop!  ' His black hair is cut closely to his head, and
+This tall elven man greets you firmly with a handshake. 'I'm Kael', he
+says, 'Welcome to my shop!' His black hair is cut closely to his head, and
 his ice blue eyes twinkle.  
 ~
 Elf~
@@ -187,11 +187,11 @@ AHMV ABCDEFGHIJK M 0
 #12828
 Lillith~
 Lillith~
-Lillith the Barmaid
+Lillith the Barmaid is here.
 ~
 This lovely buxom elven woman wears bright colors and lots of silver
 chains. She smiles at you and says, 'My name is Lillith, and welcome to
-Crossed 'Wiv Silver!  ' She points at several empty tables and beckons for
+Crossed 'Wiv Silver!' She points at several empty tables and beckons for
 you to sit down.  
 ~
 Elf~
@@ -207,9 +207,9 @@ maiden~
 a beautiful elf~
 A beautiful elven maiden hands you a program.
 ~
-This elven maiden smiles at you warmly.  'Welcome to the Amphitheatre! 
-Feel free to enjoy our beautiful gardens before the show!  ' she says to
-you.  'Only 3 coins for a ticket or program.  ' 
+This elven maiden smiles at you warmly. 'Welcome to the Amphitheatre! 
+Feel free to enjoy our beautiful gardens before the show!' she says to
+you. 'Only 3 coins for a ticket or program.' 
 ~
 Elf~
 ABd J 1000 S
@@ -239,8 +239,8 @@ ABd J 1000 S
 AHMV ABCDEFGHIJK M 0
 #12840
 gypsy man~
-A burly gypsy man~
-A burly gypsy man takes a break from the festivites
+a burly gypsy man~
+A burly gypsy man takes a break from the festivites.
 ~
 A large strong human with a joyous air about him sits among his fellow
 gypsy travelers. He wears a pair of loose colourful pants and a silk vest
@@ -257,11 +257,11 @@ AHMV ABCDEFGHIJK M 0
 #12841
 Draeke~
 Draeke~
-Draeke the Boatsman
+Draeke the Boatsman is here.
 ~
 This elven man smiles at you from behind the counter. His long brown
-hair is pulled back in a ponytail, and his brown eyes twinkle.  'Aye,' he
-says, 'I'm Draeke. Take yer pick of the boats there.  ' 
+hair is pulled back in a ponytail, and his brown eyes twinkle. 'Aye,' he
+says, 'I'm Draeke. Take yer pick of the boats there.' 
 ~
 Elf~
 ABd J 0 S
@@ -273,7 +273,7 @@ ABd J 0 S
 AHMV ABCDEFGHIJK M 0
 #12850
 Gypsy Girl~
-A sleeping gypsy girl.~
+a sleeping gypsy girl~
 A sleeping gypsy girl lays here on some pillows.
 ~
 A beautifully tanned human girl dressed in fancy silks of all colors,
@@ -292,11 +292,11 @@ AHMV ABCDEFGHIJK M 0
 #12872
 Makim~
 Makim~
-Makim the Jeweller
+Makim the Jeweller is here.
 ~
 This elf smiles at you, with a twinkle in his eyes faintly resembling the
 jewels he sells. He firmly shakes your hand and says, 'Hello hello I am
-Makim! May I interest you in some fine gold or silver?  ' 
+Makim! May I interest you in some fine gold or silver?' 
 ~
 Elf~
 ABd J 0 S
@@ -309,12 +309,12 @@ AHMV ABCDEFGHIJK M 0
 #12873
 Silver~
 Silver~
-Mistress Silver
+Mistress Silver is here.
 ~
 This elven woman has beautiful silver hair that flows down to the floor. 
 Her silver eyes gleam in the candlelight, and flash with something
 mysterious. She looks at you and the words, 'Hello I am Silver. Make your
-choice.  ' 
+choice.' 
 ~
 Elf~
 ABd J 0 S
@@ -327,11 +327,11 @@ AHMV ABCDEFGHIJK M 0
 #12874
 Adrienne~
 Adrienne~
-Adrienne the Gardener
+Adrienne the Gardener is here.
 ~
 This elven woman smiles at you in greeting. Her green eyes sparkle, and
-she extends her hand to you.  'I'm Adrienne, sample the fruits of my garden!
-' she says to you, before assisting a clerk with the scales.  
+she extends her hand to you. 'I'm Adrienne, sample the fruits of my garden!'
+she says to you, before assisting a clerk with the scales.  
 ~
 Elf~
 ABd J 0 S
@@ -344,12 +344,12 @@ AHMV ABCDEFGHIJK M 0
 #12875
 Dakia~
 Dakia~
-Dakia the Weaponsmistress
+Dakia the Weaponsmistress is here.
 ~
 This elven woman looks tough as nails. She wears a suit of chainmail and
 mithril plating. She grins at you from behind the counter and places a
-bottle of oil down before extending her hand.  'I'm Dakia. Take a look
-around and see what you like!  ' she says.  
+bottle of oil down before extending her hand. 'I'm Dakia. Take a look
+around and see what you like!' she says.  
 ~
 Elf~
 ABd J 0 S
@@ -362,11 +362,11 @@ AHMV ABCDEFGHIJK M 0
 #12876
 Kaeron~
 Kaeron~
-Kaeron the Baker
+Kaeron the Baker is here.
 ~
 The elven lady's face is dotted with flour, and she wipes her hands with
-a towel before extending a hand in greeting.  'I am Kaeron,' she says,
-'Please, take your pick of the fine breads and pastries!  ' 
+a towel before extending a hand in greeting. 'I am Kaeron,' she says,
+'Please, take your pick of the fine breads and pastries!' 
 ~
 Elf~
 ABd J 0 S
@@ -379,12 +379,12 @@ AHMV ABCDEFGHIJK M 0
 #12877
 Lorin~
 Lorin~
-Lorin the Butcher
+Lorin the Butcher is here.
 ~
 This elven man has a kind face, although lined. He wears a
 blood-spattered apron, and his clothes are faded. He grins at you, wiping
-off his hands to greet.  'Hi I'm Lorin the butcher! What can I do for you? 
-' he says, extending his hand.  
+off his hands to greet. 'Hi I'm Lorin the butcher! What can I do for you?'
+he says, extending his hand.  
 ~
 Elf~
 ABd J 0 S
@@ -397,12 +397,12 @@ AHMV ABCDEFGHIJK M 0
 #12878
 Danzen~
 Danzen~
-Danzen the Waiter
+Danzen the Waiter is here.
 ~
 This elven man smiles at you warmly with a mischevious glint in his eyes.
 His greying hair is cropped around his pointed ears. He's wearing a white
 apron, and says to you, 'Welcome to the Backstage Pass! I'm Danzen, and
-I'll be your waiter! Can I get you a drink?  ' 
+I'll be your waiter! Can I get you a drink?' 
 ~
 Elf~
 ABd J 0 S
@@ -415,12 +415,12 @@ AHMV ABCDEFGHIJK M 0
 #12879
 Oreon~
 Oreon~
-Oreon the Armorer
+Oreon the Armorer is here.
 ~
 This elven man looks up from welding, and removes a mask, revealing
 twinkling brown eyes. His hair is mussed up from the helmet he wears,
-protecting him from the flying sparks. He says to you, "I am Oreon, take a
-look around!"  
+protecting him from the flying sparks. He says to you, 'I am Oreon, take a
+look around!'
 ~
 Elf~
 ABd J 0 S
@@ -455,7 +455,7 @@ A fortune teller gazes at you over a crystal ball.
 ~
 This woman stares at you with eyes that flash with a hint of silver as
 you look at her. Her long black hair is covered with a scarf and she seems
-to not quite be sitting on the ground.  'Come child, let Mianna tell your
+to not quite be sitting on the ground. 'Come child, let Mianna tell your
 fortune,' she says to you in a dark, rich voice.  
 ~
 Human~

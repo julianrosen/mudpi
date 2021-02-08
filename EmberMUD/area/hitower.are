@@ -41,7 +41,7 @@ AHMV ABCDEFGHIJK M 0
 #1302
 edgar~
 Edgar~
-Edgar the Human Swordpupil
+Edgar the Human Swordpupil is here.
 ~
 Edgar says 'pardon me, can you tell me where to buy cups?'
 
@@ -133,7 +133,7 @@ ABGT D -500 S
 AHMV ABCDEFGHIJK M 0
 #1308
 assistant mage~
-The cook's assistant~
+the cook's assistant~
 The cook's assistant is here assisting the cook.
 ~
 (null)~
@@ -147,7 +147,7 @@ ABGHT D -200 S
 AHMV ABCDEFGHIJK M 0
 #1309
 prisoner~
-The prisoner~
+the prisoner~
 A prisoner is chained to the wall here.
 ~
 Though his clothes are all in rags, you can see that at one time they must
@@ -287,7 +287,7 @@ ABGHT 0 350 S
 AHMV ABCDEFGHIJK M 0
 #1318
 apprentice young~
-A young apprentice~
+a young apprentice~
 A young apprentice is here teasing a cornered kitten.
 ~
 He looks like a mischievous youth.
@@ -319,7 +319,7 @@ AHMV ABCDEFGHIJK M 0
 #1320
 student~
 a student~
-A student of spells is here looking quite bored
+A student of spells is here looking quite bored.
 ~
 The student yawns.
 ~
@@ -393,7 +393,7 @@ AHMV ABCDEFGHIJK M 0
 #1325
 wizard speaker mage~
 a wizard~
-An old wizard is here making a speech
+An old wizard is here making a speech.
 ~
 (null)~
 Human~
@@ -495,7 +495,7 @@ AHMV ABCDEFGHIJK M 0
 #1332
 master scribe~
 the master scribe~
-The master scribe is here looking a little upset
+The master scribe is here looking a little upset.
 ~
 He seems to be so old, his skin has become nothing but a giant wrinkle.
 The master scribe screams 'How dare you interrupt my important work???'
@@ -675,7 +675,7 @@ AHMV ABCDEFGHIJK M 0
 #1344
 golem flesh~
 a flesh golem~
-A flesh golem stands guard here
+A flesh golem stands guard here.
 ~
 It looks to be made of a potpourri of different body parts; some don't even
 resemble anything human.
@@ -752,7 +752,7 @@ AHMV ABCDEFGHIJK M 0
 #1349
 necromancer master~
 the Necromancer~
-The Necromancer is here raising undead servants
+The Necromancer is here raising undead servants.
 ~
 Attired all in black, the Necromancer is tall and gangly, but still quite
 an imposing figure. A dark cowl shrouds most of his face, but two blazing
@@ -958,7 +958,7 @@ FH 0 0 0
 AGV ACDEFHJKQUV M 0
 #1362
 master guildmaster white~
-The master of goodness~
+the master of goodness~
 The master of goodness is here frowning at your intrusion.
 ~
 He looks like a self-righteous bastard.
@@ -973,8 +973,8 @@ ABGT DH 1000 S
 AHMV ABCDEFGHIJK M 0
 #1363
 cat calico familiar~
-A calico cat~
-A large calico cat is here
+a calico cat~
+A large calico cat is here.
 ~
 It looks incredibly large for a cat, no doubt a giant of its species.
 A beautiful jewel encrusted collar about its neck is its only adornment.
@@ -989,7 +989,7 @@ FH 0 0 0
 AGV ACDEFHJKQUV M 0
 #1364
 guildmaster grand mistress~
-The Grand Mistress~
+the Grand Mistress~
 The Grand Mistress of Magic is sitting here.
 ~
 She looks quite comfortable on her emerald throne. Amazingly young and
@@ -1139,7 +1139,7 @@ unknown~
 #1314
 hammer mithril~
 a mithril hammer~
-A mithril hammer has been left here~
+A mithril hammer has been left here.~
 unknown~
 5 G AN
 C C C ABC 0
@@ -1225,7 +1225,7 @@ DHIJM ABCD ACDFIK 0 0
 #1323
 key old~
 an old key~
-An old key is here~
+An old key is here.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -1249,7 +1249,7 @@ BDFIK 0 0 0 0
 #1326
 staff red white~
 a red and white staff~
-A red and white staff is leaning against the wall here~
+A red and white staff is leaning against the wall here.~
 unknown~
 4 0 AO
 CE AB AB 28 0
@@ -1273,7 +1273,7 @@ CE AB AB 22 0
 #1329
 wand wooden~
 a wooden stick~
-A wooden stick is here~
+A wooden stick is here.~
 unknown~
 3 0 AO
 CE BD BD 3 0
@@ -1305,7 +1305,7 @@ unknown~
 #1333
 eye eyeball~
 an eyeball~
-An eyeball has been left here~
+An eyeball has been left here.~
 unknown~
 13 0 AO
 0 0 0 0 0
@@ -1313,7 +1313,7 @@ unknown~
 #1334
 book tome~
 the book of magic~
-An enormous book is lying open here~
+An enormous book is lying open here.~
 unknown~
 15 A A
 CEFGHI 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
@@ -1391,7 +1391,7 @@ A
 #1342
 chameleon poncho~
 a chameleon poncho~
-Some multicolored cloth is on the ground here~
+Some multicolored cloth is on the ground here.~
 unknown~
 9 G AK
 CD CD CD 0 0
@@ -1453,7 +1453,7 @@ B AC AC A 0
 #1356
 shackles chain~
 some chain shackles~
-Some chain shackles have been discarded here~
+Some chain shackles have been discarded here.~
 unknown~
 13 GH A
 0 0 0 0 0
@@ -1559,7 +1559,7 @@ unknown~
 #1369
 potion effervescent~
 an efervecent potion~
-An efervecent potion is bubbling away here~
+An efervecent potion is bubbling away here.~
 unknown~
 10 G A
 16 18 19 20 0
@@ -1659,7 +1659,7 @@ A
 #1380
 wand ashen~
 an ashen wand~
-An ashen wand is here~
+An ashen wand is here.~
 unknown~
 3 J AO
 CE C C 63 0
@@ -1807,7 +1807,7 @@ A
 #1394
 ivory dagger~
 an ivory hilted dagger~
-An ivory hilted dagger has been left here~
+An ivory hilted dagger has been left here.~
 unknown~
 5 GIK AN
 B AC ABC ABD 0

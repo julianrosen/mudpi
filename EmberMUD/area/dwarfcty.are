@@ -10,7 +10,7 @@ End
 #MOBILES
 #18202
 Hill Giant~
-A Hill Giant~
+a Hill Giant~
 A Hill Giant stands here.
 ~
 You are looking at a huge hill giant. He is wearing an odd patchwork
@@ -43,7 +43,7 @@ ABCF 0 -1000 S
 AHMV ABCDEFGHIJK H unknown
 #18242
 Dwarf Guard~
-A Dwarf Guard~
+a Dwarf Guard~
 A Dwarf Guard stands here.
 ~
 This looks like a typical dwarf, about four feet tall, wide and round. 
@@ -60,7 +60,7 @@ CKR 0 CLQ R
 AHMV ABCDEFGHIJK M unknown
 #18244
 Dwarf Commoner~
-A Dwarf Commoner~
+a Dwarf Commoner~
 A Dwarf Commoner stands here.
 ~
 This is a rather average ooking Dwarf:  Short, wide, and round. This one

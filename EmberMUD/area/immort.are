@@ -47,7 +47,7 @@ AHMV ABCDEFGHIJK L unknown
 #14202
 a Flame elemental~
 a flame elemental~
-A flame covered person is maruading through town
+A flame covered person is maruading through town.
 ~
 The fire elemental is about six feet tall. You gaze into its eyes and
 see a landscape of scorched soil. It chills you even though this thing is
@@ -98,7 +98,7 @@ ABd DFJZ -1000 S
 AHMV ABCDEFGHIJK M unknown
 #14212
 nanny~
-The mud nanny~
+the mud nanny~
 The mud's nanny stands here berating unruly players.
 ~
 ~
@@ -112,7 +112,7 @@ ABd 0 1000 S
 AHMV ABCDEFGHIJK M unknown
 #14222
 french taunter soldier~
-A french soldier~
+a french soldier~
 A frenchman stands here taunting you.
 ~
 ~
@@ -204,7 +204,7 @@ A 0 0 S
 AHMV ABCDEFGHIJK M unknown
 #14234
 A huge bunny rabbit~
-a HUGE bunnya rabbit.~
+a HUGE bunnya rabbit~
 A HUGE bunny rabbit is here.
 ~
 ~
@@ -232,7 +232,7 @@ A 0 0 S
 0 ABCDEFGHIJK M unknown
 #14236
 librarian guild standards~
-A librarian~
+a librarian~
 A librarian stands here, silently organizing all the information around you.
 ~
 ~
@@ -302,7 +302,7 @@ A 0 0 S
 AHMV ABCDEFGHIJK M unknown
 #14250
 The LagMonster~
-The LagMonster~
+the LagMonster~
 The LagMonster is waiting here to steal your link.
 ~
 ~
@@ -373,8 +373,8 @@ HIM KL BQ HN
 HJMQXc ABCDEFKLMQUVX M unknown
 #14255
 The Angel of Death~
-The Angel of Death~
-The Angel of Death is here Guarding the Realm
+the Angel of Death~
+The Angel of Death is here Guarding the Realm.
 ~
 He is the loyal Guardian of Outkast, and a very deadly person. If i were
 you i wouldn't mess with him!  
@@ -389,7 +389,7 @@ DEFHIKMN ABDEHIJKLQ BEQ HNS
 ACHJLMQVXc ABCDEFGHIJKLMQUVX G unknown
 #14256
 guildmaster~
-The Guildmaster~
+the Guildmaster~
 Outkast's Guildmaster is here willing to help you get stronger.
 ~
 ~
@@ -493,7 +493,7 @@ AHMV ABCDEFGHIJK M unknown
 #14263
 Michael~
 Michael~
-Michael the thief, stares you down
+Michael the thief, stares you down.
 ~
 ~
 Human~
@@ -535,7 +535,7 @@ AGR FHJ 1000 S
 AHMV ABCDEFGHIJK M unknown
 #14266
 Align good~
-The alignment change~
+the alignment change~
 Ticket to goodness is here.
 ~
 ~
@@ -549,7 +549,7 @@ A 0 -1000 S
 AHMV ABCDEFGHIJK M unknown
 #14267
 Punching bag practice~
-The punching bag~
+the punching bag~
 A punching bag is here.
 ~
 ~
@@ -563,8 +563,8 @@ AT VY 0 S
 AHMV ABCDEFGHIJK M unknown
 #14268
 Ticket Evil~
-The alignment change~
-Your ticket to evilness is here
+the alignment change~
+Your ticket to evilness is here.
 ~
 ~
 Human~
@@ -591,7 +591,7 @@ FH 0 0 0
 AGV ACDEFHJKQUV L unknown
 #14270
 A giant Duck~
-A giant duck~
+a giant duck~
 A giant duck says "QUACK!!!!!"
 ~
 ~
@@ -645,7 +645,7 @@ AHMV ABCDEFGHIJK M unknown
 #14273
 blackhole wardeness celestia~
 Celestia, wardeness of the BlackHole~
-`cCelestia,`m Wardeness`w of the `KBlackHole`w, watches you with an icy stare
+`cCelestia,`m Wardeness`w of the `KBlackHole`w, watches you with an icy stare.
 ~
 A beautiful maiden stands here, her features frozen in immortal youth. 
 White hair cascades down her shoulder, and her pink eyes send you an icy
@@ -665,7 +665,7 @@ ACHLMV ABCDEFGHIJK M unknown
 #14275
 sage~
 an old sage~
-A very old sage
+A very old sage is here.
 ~
 You look upon an old sage 
 ~
@@ -694,7 +694,7 @@ AHMV ABCDEFGHIJK M unknown
 #14287
 Xranth the Leprechaun~
 a leprechaun is here~
-A leprechaun is standing here
+A leprechaun is standing here.
 ~
 Wearing all green he is what you would suspect a leprechaun to be.  
 ~
@@ -831,7 +831,7 @@ AHMV ABCDEFGHIJK M unknown
 #14200
 Drink of Fire~
 a drink of flame~
-A drink made of pure fire~
+A drink made of pure fire is here.~
 unknown~
 10 AB A
 93 15 28 508 0
@@ -839,7 +839,7 @@ unknown~
 #14201
 Astinus' Ball of history~
 a ball of light~
-A glowing ball of history~
+A glowing ball of history is here.~
 unknown~
 13 A 0
 0 0 0 0 0
@@ -847,7 +847,7 @@ unknown~
 #14202
 a multicolored scroll~
 a multicolored scroll~
-A multicolored scroll~
+A multicolored scroll is here.~
 unknown~
 13 0 0
 0 0 0 0 0
@@ -855,7 +855,7 @@ unknown~
 #14203
 Flame elemental statue~
 a statue of a flame elemental~
-A statue of a flame elemental~
+A statue of a flame elemental is here.~
 unknown~
 13 A 0
 0 0 0 0 0
@@ -863,7 +863,7 @@ unknown~
 #14204
 Astinus' Desk~
 astinus' Desk~
-Astinus' desk sits here~
+Astinus' desk sits here.~
 unknown~
 13 0 0
 0 0 0 0 0
@@ -909,7 +909,7 @@ A
 #14225
 yummy cookie~
 a yummy cookie~
-A cookie sits on a table in the middle of the room~
+A cookie sits on a table in the middle of the room.~
 unknown~
 19 ABG A
 CFG 0 0 0 0
@@ -1162,7 +1162,7 @@ A
 #14256
 bottle of jack daniels~
 `GOutkast's`w Bottle of Jack Daniel's~
-A deadly bottle with a black label lies here~
+A deadly bottle with a black label lies here.~
 unknown~
 5 AB AN
 0 A A BCDE ABCDE
@@ -1182,7 +1182,7 @@ A
 #14257
 wings death~
 `cThe Wings of `RDeath`w~
-A deadly pair of Angels wings is lying here~
+A deadly pair of Angels wings is lying here.~
 unknown~
 9 ABG AK
 EGHIJK EGHIJK EGHIJK EGHIJK 0
@@ -1226,7 +1226,7 @@ DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
 #14263
 neuralyzer~
 a `KM.I.B. `WNeuralyzer ~
-It doesn't matter what this is~
+It doesn't matter what this is.~
 unknown~
 3 0 AO
 BCDEG BD BD 82 0
@@ -1351,7 +1351,7 @@ A
 #14273
 Heron Marked-flaming blade~
 a `Yheron-`Gmarked `Wblade `wof `Rflame `w~
-Here lies a blademasters sword~
+Here lies a blademasters sword.~
 unknown~
 5 0 AN
 A A B AB AF
@@ -1359,7 +1359,7 @@ A A B AB AF
 #14274
 flame saber~
 a `RFlame `ySaber `w~
-A burning sword lies here~
+A burning sword lies here.~
 unknown~
 5 G AN
 A D D A AC
@@ -1411,7 +1411,7 @@ A BC A ABE D
 #14277
 golden necklace~
 golden necklace~
-Here lies a golden necklace~
+Here lies a golden necklace.~
 unknown~
 9 0 AC
 BD BD BD BD 0
@@ -1443,7 +1443,7 @@ A
 #14279
 silver belt~
 a silver belt~
-Here lies a silver belt~
+Here lies a silver belt.~
 unknown~
 9 AB AL
 CE CE CE CE 0
@@ -1457,7 +1457,7 @@ A
 #14280
 quest token taknar~
 a Quest Token from Taknar~
-A Token from the gods rests here~
+A Token from the gods rests here.~
 unknown~
 13 0 A
 0 0 0 0 0
@@ -1545,7 +1545,7 @@ A
 #14290
 Phaser~
 a metal phaser~
-Capkirk's phaser is here. ~
+Capkirk's phaser is here.~
 unknown~
 5 H AN
 0 A A BC 0
@@ -1569,7 +1569,7 @@ unknown~
 #14294
 zif~
 zif~
-Zif~
+Zif is here.~
 unknown~
 10 0 AO
 101 508 508 508 0
@@ -1577,7 +1577,7 @@ unknown~
 #14295
 chaos blade~
 the Blade of Chaos~
-The blade of chaos~
+The blade of chaos is here.~
 unknown~
 5 A AN
 A A B CE 0
@@ -1585,7 +1585,7 @@ A A B CE 0
 #14296
 jester's suit~
 a traditional black and white jester's suit~
-A black and white suit lies neatly folded on the ground~
+A black and white suit lies neatly folded on the ground.~
 unknown~
 11 0 AD
 0 0 0 0 0
@@ -2269,8 +2269,8 @@ S
 The Swamp~
 The cool wind is refreshing and the starry night sky brings a cool to
 you. Three frogs sit on lilypads, their croaking is melodic and soothing. 
-One croaks, "MUD!"  Then another croaks, "weis" to another beat. The third
-then starts croaking, "er."  They three frogs croak to a different tempo and
+One croaks, "MUD!" Then another croaks, "weis" to another beat. The third
+then starts croaking, "er." They three frogs croak to a different tempo and
 by chance, the three syllables become one word: MUDweiser!!! This startles
 you from your dream and you awake on the floor of the bar. Most of the
 patrons have left and near your mouth you see a large puddle puke that must
@@ -2300,53 +2300,53 @@ was formless and empty, darkness was over the surface of the deep, and the
 Spirit of God was hovering over the waters. And God said, "Let there be
 light," and there was light. God saw that the light was good, and he
 separated the light from the darkness. God called the light "day," and the
-darkness he called "night."  And there was evening, and there was
+darkness he called "night." And there was evening, and there was
 morning--the first day. And God said, "Let there be an expanse between the
-waters to separate water from water."  So God made the expanse and separated
+waters to separate water from water." So God made the expanse and separated
 the water under the expanse from the water above it. And it was so. God
-called the expanse "sky."  And there was evening, and there was morning--the
+called the expanse "sky." And there was evening, and there was morning--the
 second day. And God said, "Let the water under the sky be gathered to one
-place, and let dry ground appear."  And it was so. God called the dry
-ground "land," and the gathered waters he called "seas."  And God saw that
+place, and let dry ground appear." And it was so. God called the dry
+ground "land," and the gathered waters he called "seas." And God saw that
 it was good. Then God said, "Let the land produce vegetation: seed-bearing
 plants and trees on the land that bear fruit with seed in it, according to
-their various kinds."  And it was so. The land produced vegetation: plants
+their various kinds." And it was so. The land produced vegetation: plants
 bearing seed according to their kinds and trees bearing fruit with seed in
 it according to their kinds. And God saw that it was good. And there was
 evening, and there was morning--the third day. And God said, "Let there be
 lights in the expanse of the sky to separate the day from the night, and let
 them serve as signs to mark seasons and days and years, and let them be
-lights in the expanse of the sky to give light on the earth."  And it was
+lights in the expanse of the sky to give light on the earth." And it was
 so. God made two great lights--the greater light to govern the day and the
 lesser light to govern the night. He also made the stars. God set them in
 the expanse of the sky to give light on the earth, to govern the day and the
 night, and to separate light from darkness. And God saw that it was good. 
 And there was evening, and there was morning--the fourth day. And God said,
 "Let the water teem with living creatures, and let birds fly above the earth
-across the expanse of the sky."  So God created the great creatures of the
+across the expanse of the sky." So God created the great creatures of the
 sea and every living and moving thing with which the water teems, according
 to their kinds, and every winged bird according to its kind. And God saw
 that it was good. God blessed them and said, "Be fruitful and increase in
 number and fill the water in the seas, and let the birds increase on the
-earth."  And there was evening, and there was morning--the fifth day. And
+earth." And there was evening, and there was morning--the fifth day. And
 God said, "Let the land produce living creatures according to their kinds:
 livestock, creatures that move along the ground, and wild animals, each
-according to its kind."  And it was so. God made the wild animals according
+according to its kind." And it was so. God made the wild animals according
 to their kinds, the livestock according to their kinds, and all the
 creatures that move along the ground according to their kinds. And God saw
 that it was good. Then God said, "Let us make man in our image, in our
 likeness, and let them rule over the fish of the sea and the birds of the
 air, over the livestock, over all the earth, and over all the creatures that
-move along the ground."  So God created man in his own image, in the image
+move along the ground." So God created man in his own image, in the image
 of God he created him male and female he created them. God blessed them and
 said to them, "Be fruitful and increase in number fill the earth and subdue
 it. Rule over the fish of the sea and the birds of the air and over every
-living creature that moves on the ground."  Then God said, "I give you every
+living creature that moves on the ground." Then God said, "I give you every
 seed-bearing plant on the face of the whole earth and every tree that has
 fruit with seed in it. They will be yours for food. And to all the beasts
 of the earth and all the birds of the air and all the creatures that move on
 the ground--everything that has the breath of life in it--I give every green
-plant for food."  And it was so. God saw all that he had made, and it was
+plant for food." And it was so. God saw all that he had made, and it was
 very good. And there was evening, and there was morning--the sixth day.  
 ~
 0 1081348 0
@@ -2382,8 +2382,8 @@ light of a lamp or the light of the sun, for the Lord God will give them
 light. And they will reign for ever and ever. The angel said to me, "These
 words are trustworthy and true. The Lord, the God of the spirits of the
 prophets, sent his angel to show his servants the things that must soon take
-place."  Behold, I am coming soon! Blessed is he who keeps the words of the
-prophecy in this book."  I, John, am the one who heard and saw these things.
+place." Behold, I am coming soon! Blessed is he who keeps the words of the
+prophecy in this book." I, John, am the one who heard and saw these things.
 And when I had heard and seen them, I fell down to worship at the feet of
 the angel who had been showing them to me. But he said to me, "Do not do
 it! I am a fellow servant with you and with your brothers the prophets and
@@ -2391,7 +2391,7 @@ of all who keep the words of this book. Worship God! Then he told me, "Do
 not seal up the words of the prophecy of this book, because the time is
 near. Let him who does wrong continue to do wrong let him who is vile
 continue to be vile let him who does right continue to do right and let him
-who is holy continue to be holy."  Behold, I am coming soon! My reward is
+who is holy continue to be holy." Behold, I am coming soon! My reward is
 with me, and I will give to everyone according to what he has done. I am
 the Alpha and the Omega, the First and the Last, the Beginning and the End. 
 Blessed are those who wash their robes, that they may have the right to the
@@ -2399,15 +2399,15 @@ tree of life and may go through the gates into the city. Outside are the
 dogs, those who practice magic arts, the sexually immoral, the murderers,
 the idolaters and everyone who loves and practices falsehood. I, Jesus,
 have sent my angel to give you this testimony for the churches. I am the
-Root and the Offspring of David, and the bright Morning Star."  The Spirit
-and the bride say, "Come!"  And let him who hears say, "Come!"  Whoever is
+Root and the Offspring of David, and the bright Morning Star." The Spirit
+and the bride say, "Come!" And let him who hears say, "Come!" Whoever is
 thirsty, let him come and whoever wishes, let him take the free gift of the
 water of life. I warn everyone who hears the words of the prophecy of this
 book: If anyone adds anything to them, God will add to him the plagues
 described in this book. And if anyone takes words away from this book of
 prophecy, God will take away from him his share in the tree of life and in
 the holy city, which are described in this book. He who testifies to these
-things says, "Yes, I am coming soon."  Amen. Come, Lord Jesus. The grace
+things says, "Yes, I am coming soon." Amen. Come, Lord Jesus. The grace
 of the Lord Jesus be with God's people. Amen.  
 ~
 0 1081348 0

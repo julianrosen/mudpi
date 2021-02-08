@@ -143,7 +143,7 @@ ABCT BDFHNT 1000 S
 AHMV ABCDEFGHIJK M 0
 #909
 handmaid golden~
-A Golden Maiden~
+a Golden Maiden~
 A Handmaid of gold is here, assisting the smith.
 ~
 As you gaze upon this creation, you realize that she is made from solid
@@ -159,7 +159,7 @@ ABCT BDFHNT 0 S
 AHMV ABCDEFGHIJK M 0
 #910
 soldier~
-A Soldier~
+a Soldier~
 A soldier is here, assisting Ares.
 ~
 This man is waiting on Ares. Although he does not look very strong, you
@@ -191,7 +191,7 @@ ABCT BDFHT 1000 S
 AHMV ABCDEFGHIJK M 0
 #912
 boy serving servant~
-A serving boy~
+a serving boy~
 A servant is here, feeding Athena her grapes.
 ~
 This boy is truly lucky to be able to serve Athena herself.
@@ -206,7 +206,7 @@ ABCT BDFHT 1000 S
 AHMV ABCDEFGHIJK M 0
 #913
 hound dog war~
-A hound of war~
+a hound of war~
 A large hound snarls at you.
 ~
 This great beast can barely be called a dog. It has been bred to cause fear
@@ -371,7 +371,7 @@ ACT BDFHNT 0 S
 AHMV ABCDEFGHIJK M 0
 #923
 citizen resident~
-A citizen~
+a citizen~
 A citizen of this town is strolling down the street here.
 ~
 He looks happy and carefree. He smiles and tips his hat to you.
@@ -402,7 +402,7 @@ ACT BDFHNT 0 S
 AHMV ABCDEFGHIJK M 0
 #925
 cook~
-A Cook~
+a Cook~
 A cook is here, hard at work.
 ~
 This man looks as is he has been spending WAY too much time in the kitchen.
@@ -417,7 +417,7 @@ ABCT BDFHNT 1000 S
 AHMV ABCDEFGHIJK M 0
 #926
 jailer~
-The Jailer~
+the Jailer~
 The jailer is here, watching for intruders.
 ~
 He looks as though he has spent a lot of time underground, guarding the

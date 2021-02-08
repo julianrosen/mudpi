@@ -10,8 +10,8 @@ End
 #MOBILES
 #26103
 trombone player~
-The Trombone Player~
-The trombone player is standing here, working a tough song
+the Trombone Player~
+The trombone player is standing here, working a tough song.
 ~
 ~
 Human~
@@ -24,8 +24,8 @@ A 0 0 S
 AHMV ABCDEFGHIJK M unknown
 #26104
 Bunny~
-A bunny~
-A cute little purple bunny hops around here
+a bunny~
+A cute little purple bunny hops around here.
 ~
 You look upon a cute purple bunny.  
 Why would anyone want to hurt it?
@@ -42,7 +42,7 @@ BGV ACDEFHJKQV S unknown
 #26105
 trumpet~
 Trumpet Player~
-The trumpet player is standing here, poking fun at the clarinet
+The trumpet player is standing here, poking fun at the clarinet.
 ~
 ~
 Human~
@@ -56,7 +56,7 @@ AHMV ABCDEFGHIJK M unknown
 #26106
 clarinet~
 clarinet player~
-The clarinet player is sitting here, exchanging insults with the trum pet player
+The clarinet player is sitting here, exchanging insults with the trum pet player.
 ~
 ~
 Human~
@@ -69,8 +69,8 @@ A 0 1000 S
 AHMV ABCDEFGHIJK S unknown
 #26107
 Bass Player~
-The Bass player~
-The bass player is standing here, playing his chords
+the Bass player~
+The bass player is standing here, playing his chords.
 ~
 ~
 Human~
@@ -83,8 +83,8 @@ A 0 378 S
 AHMV ABCDEFGHIJK M unknown
 #26108
 Guard of Lousi~
-The Guard of Lousi~
-The lazy guard of the village of Lousi is resting here
+the Guard of Lousi~
+The lazy guard of the village of Lousi is resting here.
 ~
 You look upon the lazy guard of Lousi. He is resting now, but then again
 his job takes up 12 hours of his day. He does not seem to have any 
@@ -100,8 +100,8 @@ EKTU B 0 0
 AHMV ABCDEFGHIJK M unknown
 #26109
 saxophone player~
-The Saxophone player~
-The saxophone player is sitting here, making up a solo
+the Saxophone player~
+The saxophone player is sitting here, making up a solo.
 ~
 ~
 Human~
@@ -114,8 +114,8 @@ A 0 453 S
 AHMV ABCDEFGHIJK M unknown
 #26110
 The Conductor~
-The Conductor~
-The conductor of the band is here, conducting his band
+the Conductor~
+The conductor of the band is here, conducting his band.
 ~
 ~
 Human~
@@ -128,8 +128,8 @@ A 0 399 S
 AHMV ABCDEFGHIJK M unknown
 #26111
 The tuba~
-The tuba player~
-The tuba player of the band is sitting here, blowing his lips off
+the tuba player~
+The tuba player of the band is sitting here, blowing his lips off.
 ~
 ~
 Human~
@@ -142,8 +142,8 @@ A 0 423 S
 AHMV ABCDEFGHIJK M unknown
 #26112
 drummer ~
-The Drummer~
-The drummer is here, drumming away
+the Drummer~
+The drummer is here, drumming away.
 ~
 ~
 Human~
@@ -157,7 +157,7 @@ AHMV ABCDEFGHIJK M unknown
 #26121
 Female Citizen~
 Female Citizen of Lousi~
-A female citizen of Lousi is here, cleaning the house
+A female citizen of Lousi is here, cleaning the house.
 ~
 ~
 Human~
@@ -188,7 +188,7 @@ BEFIJ ABLMQ P 0
 AHMV ABCDEFGHIJK M unknown
 #26128
 male citizen~
-A male citizen of Lousi~
+a male citizen of Lousi~
 A male citizen of Lousi is sitting in a chair here.
 ~
 ~
@@ -216,7 +216,7 @@ U B 0 0
 AHMV ABCDEFGHIJK M unknown
 #26141
 beast~
-The Beast~
+the Beast~
 The Beast!! Oh no!
 ~
 ~
@@ -231,7 +231,7 @@ AHMV ABCDEFGHIJK L unknown
 #26146
 deer animal~
 a deer~
-A deer of this forest is eating here
+A deer of this forest is eating here.
 ~
 ~
 Human~
@@ -259,7 +259,7 @@ BGV ACDEFHJKQV M unknown
 #26158
 a bear~
 a bear~
-A bear of the forest is growling at you here
+A bear of the forest is growling at you here.
 ~
 ~
 Human~
@@ -288,8 +288,8 @@ DF P C 0
 AHMV ABCDEFGHIJK M unknown
 #26173
 A Scaleman~
-A Scaleman~
-A Scaleman is here, swimming in the mud
+a Scaleman~
+A Scaleman is here, swimming in the mud.
 ~
 ~
 Human~
@@ -316,8 +316,8 @@ DI BNPS C YZ
 AHMV ABCDEFGHIJK M unknown
 #26195
 ape~
-A baby ape~
-A baby ape is sitting here, roaring away
+a baby ape~
+A baby ape is sitting here, roaring away.
 ~
 ~
 Troll~
@@ -330,7 +330,7 @@ D 0 E HKP
 BMV ABCDEFGHIJKUV M unknown
 #26199
 old scaleman~
-A old scaleman~
+a old scaleman~
 A old scaleman is laying here, acting dead.
 ~
 ~
@@ -368,7 +368,7 @@ A
 #26101
 Playtester's Playtest Weapon~
 playtest weapon~
-Some of Darkrose's Former Playtest gear lays here~
+Some of Darkrose's Former Playtest gear lays here.~
 unknown~
 5 ABI AN
 ACDEHIJKLMNOPQRSTUVWXYZabcdef BEF BEF ACDEHIJKLMNOPQRSTUVWXYZabcdef 0
@@ -384,7 +384,7 @@ A
 #26102
 playtester's playtest armor~
 playtest Armor~
-Some of darkrose's former playtest gear lays here~
+Some of darkrose's former playtest gear lays here.~
 unknown~
 9 ABI AD
 DEGJ DEGJ DEGJ DEGJ 0
@@ -392,7 +392,7 @@ DEGJ DEGJ DEGJ DEGJ 0
 #26103
 anti guild master thing~
 iron wepaon~
-An iron wepaon lays here~
+An iron wepaon lays here.~
 unknown~
 13 0 0
 0 0 0 0 0
@@ -424,7 +424,7 @@ A AC AC AB 0
 #26118
 bullet proof vest~
 a bullet proof vest~
-A vest is left here by a police officer~
+A vest is left here by a police officer.~
 unknown~
 9 0 AD
 CFG CFG CFG CFG 0
@@ -480,7 +480,7 @@ A
 #26135
 oops~
 oops~
-A hemp necklace is here, waiting for a owner~
+A hemp necklace is here, waiting for a owner.~
 unknown~
 9 0 AC
 CFG CFG CFG CFG 0

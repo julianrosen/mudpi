@@ -132,7 +132,7 @@ AHMV ABCDEFGHIJK M unknown
 #20908
 goblin~
 a goblin bucaneer~
-You meet the grin of a goblin pirate
+You meet the grin of a goblin pirate.
 ~
 This pirate is dirty and smelly and is goblin, making him smell even worse, he grins at you and carrys on with his business.
 ~
@@ -198,7 +198,7 @@ AHMV ABCDEFGHIJK M unknown
 #20912
 Skeleton~
 a skeleton~
-A skeleton stands here
+A skeleton stands here.
 ~
 This is a simple animated human skeleton
 ~
@@ -244,7 +244,7 @@ AHIMV ABCDEFGHIJK M unknown
 #20915
 a vampire~
 a human vampire~
-A vampire stands here
+A vampire stands here.
 ~
 Here stands a tall man in a dark cape.
 ~
@@ -259,7 +259,7 @@ AHMV ABCDEFGHIJK M unknown
 #20916
 a lich~
 a human lich~
-A lich stands here
+A lich stands here.
 ~
 This creature looks like a skeleton, but is wearing fine garments and jewels.
 ~
@@ -306,7 +306,7 @@ CDOU 0 FI E
 #20919
 Queen giant ant~
 the queen ant~
-A huge ant stands here, trying to lay an egg
+A huge ant stands here, trying to lay an egg.
 ~
 This is the cream of the crop, she is three times the size of a giant
 ant, and she dosen't look very happy at your intrusion into her lair.  
@@ -358,7 +358,7 @@ AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
 #20900
 trout meat~
 a tasty looking trout~
-Here lies a delicious looking trout! ~
+Here lies a delicious looking trout!~
 unknown~
 19 0 A
 ABC 0 0 0 0
@@ -366,7 +366,7 @@ ABC 0 0 0 0
 #20901
 salted herrings meat~
 100 salted herrings~
-Here is a big can filled with 100 salted herrings~
+Here is a big can filled with 100 salted herrings.~
 unknown~
 19 0 A
 AD 0 0 0 0
@@ -374,7 +374,7 @@ AD 0 0 0 0
 #20902
 pike meat~
 a large pike~
-Here lies a large 25 pound pike~
+Here lies a large 25 pound pike.~
 unknown~
 19 0 A
 ACD 0 0 0 0
@@ -402,7 +402,7 @@ BEF 0 0 0 0
 #20905
 voodoo dagger vampiric~
 vOoDoO DaGgEr~
-Here lies a dagger, seeping evilness~
+Here lies a dagger, seeping evilness.~
 unknown~
 5 ABEJLTV AN
 B ABC AB ABD C
@@ -470,7 +470,7 @@ A
 #20912
 trapdoor key~
 trap door key~
-Here lies the trapdoor key~
+Here lies the trapdoor key.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -478,7 +478,7 @@ unknown~
 #20913
 firevall wand wand-attack~
 a fireball wand~
-Here lies a short stocky wand~
+Here lies a short stocky wand.~
 unknown~
 3 0 AO
 CE CE CE 26 0
@@ -494,7 +494,7 @@ CE CE CE 30 0
 #20915
 deadlydagger dagger sharp~
 a DeadlyDagger~
-Here lies a very sharp dagger~
+Here lies a very sharp dagger.~
 unknown~
 5 0 AN
 B AC AC ABD D
@@ -518,7 +518,7 @@ BEF 0 0 0 0
 #20918
 gold nugget treasure~
 a gold nugget~
-Here lies a golden nugget~
+Here lies a golden nugget.~
 unknown~
 8 0 A
 0 0 0 0 0
@@ -534,7 +534,7 @@ unknown~
 #20920
 idol talkin wand-defend~
 an idol of a Talkin~
-Here lies an idol of a Talkin~
+Here lies an idol of a Talkin.~
 unknown~
 3 A AO
 ADE B B 15 0
@@ -556,7 +556,7 @@ unknown~
 #20922
 earth battleaxe axe two-hands~
 an earth BattleAxe~
-Here lies an axe molding into the ground~
+Here lies an axe molding into the ground.~
 unknown~
 5 X ANPQRSTUVWXYZabcdef
 AC AD BC ADE F
@@ -579,7 +579,7 @@ unknown~
 1 1 500 P
 #20924
 key~
-a secret door key.~
+a secret door key~
 Here lies a key to a secret door.~
 unknown~
 18 0 A

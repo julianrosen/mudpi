@@ -40,7 +40,7 @@ EFI J H 0
 AHMV ABCDEFGHIJK M unknown
 #21004
 evil god thunder~
-The Evil God of Thunder~
+the Evil God of Thunder~
 The God of Thunder is here, waiting to kill you.
 ~
 ~
@@ -54,8 +54,8 @@ DEFKN H B 0
 AHMV ABCDEFGHIJK G unknown
 #21005
 lord shadow~
-The Lord of the Shadows~
-The Lord of the Shadows is here sitting in his Throne
+the Lord of the Shadows~
+The Lord of the Shadows is here sitting in his Throne.
 ~
 ~
 goblin~
@@ -68,7 +68,7 @@ DFIK EH Q C
 AHMV ABCDEFGHIJK M unknown
 #21006
 god lightning~
-The God of Lightning~
+the God of Lightning~
 The God of Lightning is here practicing his magical powers.
 ~
 ~
@@ -170,7 +170,7 @@ AHMV ABCDEFGHIJK M unknown
 #21013
 huge vampire~
 a huge Vampire~
-A huge Vampire appears from his Coffin
+A huge Vampire appears from his Coffin.
 ~
 ~
 goblin~
@@ -183,8 +183,8 @@ DEFIK IJ Q C
 AHMV ABCDEFGHIJK M unknown
 #21014
 ghost darkness~
-The Ghost of DaRkNeSs~
-The Ghost of DaRkNeSs is floating around here
+the Ghost of DaRkNeSs~
+The Ghost of DaRkNeSs is floating around here.
 ~
 ~
 goblin~
@@ -197,7 +197,7 @@ AB BHJT 1 S
 AHMV ABCDEFGHIJK M unknown
 #21015
 guardian realm~
-A Guardian of the Realm~
+a Guardian of the Realm~
 A Guardian of the Realm is here guarding his life away.
 ~
 ~
@@ -212,7 +212,7 @@ AHMV ABCDEFGHIJK L unknown
 #21016
 guildmaster realm~
 the guildmaster~
-Your Guildmaster is standing here
+Your Guildmaster is standing here.
 ~
 ~
 Human~
@@ -225,7 +225,7 @@ EFIKN DHIJ S 0
 AHMV ABCDEFGHIJK H unknown
 #21019
 grim reaper dead~
-The Grim Reaper~
+the Grim Reaper~
 The Grim Reaper is here waiting to kill you.
 ~
 ~
@@ -267,7 +267,7 @@ DEFK HK S 0
 AHMV ABCDEFGHIJK S unknown
 #21022
 goddess love~
-The Goddess of Love~
+the Goddess of Love~
 The Goddess of Love is standing here winking at you.
 ~
 She is a very beautiful and sexy woman. She stands at about 6 feet tall
@@ -283,7 +283,7 @@ EIKN HS 0 0
 AHMV ABCDEFGHIJK M unknown
 #21023
 soultaker~
-The Soultaker~
+the Soultaker~
 The Soultaker is here, waiting to take your Soul.
 ~
 ~
@@ -325,7 +325,7 @@ FIK H Q C
 AHMV ABCDEFGHIJK L unknown
 #21029
 demon hellraiser~
-The HellRaiser~
+the HellRaiser~
 The Gigantic HellRaiser rises up from the Smoke!
 ~
 ~
@@ -368,7 +368,7 @@ EHIKMN JKL BQ CHN
 AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
 #21034
 Pallbearer~
-A Pallbearer~
+a Pallbearer~
 A Pallbearer is here holding his urn.
 ~
 ~
@@ -382,7 +382,7 @@ FIKN AKLQ 0 0
 AHMV ABCDEFGHIJK M unknown
 #21035
 The Reaper of the Realm~
-The Reaper of the Realm~
+the Reaper of the Realm~
 The Reaper of the Realm is here to decide your fate.
 ~
 ~
@@ -397,7 +397,7 @@ AHJMQVXc ABCDEFGHIJKLMQUVX G unknown
 #21038
 evil skeleton~
 a Evil Skeleton~
-A Evil Skeleton is on the floor like a pile of bones
+A Evil Skeleton is on the floor like a pile of bones.
 ~
 ~
 school monster~
@@ -410,7 +410,7 @@ EIKN AB 0 C
 AMV ABCDEFHJKQU M unknown
 #21040
 Master of the Shadows~
-The Master of the Shadows~
+the Master of the Shadows~
 The Master of the Shadows is here selling some of his sweet stuff!
 ~
 ~
@@ -444,7 +444,7 @@ A
 #21004
 Thunder staff~
 the Staff of Thunder~
-A very powerful staff lies here~
+A very powerful staff lies here.~
 unknown~
 4 A AO
 ABF BD BD 23 0
@@ -452,7 +452,7 @@ ABF BD BD 23 0
 #21005
 throne lord shadow~
 the Lord's Throne~
-Lord Shadow's Golden Throne is here~
+Lord Shadow's Golden Throne is here.~
 unknown~
 12 A 0
 0 0 0 0 0
@@ -460,7 +460,7 @@ unknown~
 #21006
 wand lightning rod~
 a Lightning Rod~
-A rod with electricity flaming off of it is here~
+A rod with electricity flaming off of it is here.~
 unknown~
 3 BI AO
 EG D D 30 0
@@ -478,7 +478,7 @@ A
 #21007
 lords sceptre~
 the Lord's Golden Sceptre~
-A Golden Sceptre lies here~
+A Golden Sceptre lies here.~
 unknown~
 1 AB A
 0 0 250 0 0
@@ -494,7 +494,7 @@ A
 #21008
 potion shadows~
 a Potion of the `bS`bh`Ba`Bd`co`Cw`Cs`w~
-A shadowy potion lies here~
+A shadowy potion lies here.~
 unknown~
 10 A AO
 15 29 19 44 0
@@ -524,7 +524,7 @@ unknown~
 #21011
 collar spiked~
 a spiked collar~
-A huge spiked collar lies here~
+A huge spiked collar lies here.~
 unknown~
 9 GI AC
 AC AC AC D 0
@@ -536,7 +536,7 @@ A
 #21013
 coffin~
 a Coffin~
-A big black Coffin is here~
+A big black Coffin is here.~
 unknown~
 12 BC 0
 0 0 0 0 0
@@ -556,7 +556,7 @@ A
 #21019
 scythe crystal death~
 a Crystal Scythe of Death~
-A huge weapon of Death lies here~
+A huge weapon of Death lies here.~
 unknown~
 5 ASUWX AN
 0 BD BD A BCDEF
@@ -568,7 +568,7 @@ A
 #21021
 white bracelet~
 a white bracelet~
-A beautiful white bracelet lies here~
+A beautiful white bracelet lies here.~
 unknown~
 9 BGSU AM
 D D D AD 0
@@ -582,7 +582,7 @@ A
 #21022
 bow love~
 `RCupid's Bow of Love`w~
-A beautiful little bow is lying here~
+A beautiful little bow is lying here.~
 unknown~
 5 KTUV AN
 0 BC AB BDE DE
@@ -598,7 +598,7 @@ A
 #21023
 pile gold coins~
 a pile of gold coins~
-A pile of gold coins~
+A pile of gold coins.~
 unknown~
 20 0 A
 EGHIJK 0 0 0 0
@@ -636,7 +636,7 @@ A
 #21029
 shield fire~
 `RThe Shield of Fire`w~
-A huge Shield with flames around it lies here~
+A huge Shield with flames around it lies here.~
 unknown~
 9 0 AJ
 BEF BEF BEF BEF 0
@@ -654,7 +654,7 @@ A
 #21030
 something~
 something~
-Something is here~
+Something is here.~
 unknown~
 5 ABG AN
 0 D AD A C
@@ -672,7 +672,7 @@ A
 #21031
 fountain realm~
 a Beautiful Fountain~
-A beautiful fountain of the Realm is here~
+A beautiful fountain of the Realm is here.~
 unknown~
 25 A 0
 0 0 0 0 0
@@ -694,7 +694,7 @@ A
 #21034
 urn ashes crystal~
 a Crystal Urn~
-A Crystal Urn with the Ashes of the Dead is here~
+A Crystal Urn with the Ashes of the Dead is here.~
 unknown~
 9 0 AO
 BD AC D BD 0
@@ -706,7 +706,7 @@ A
 #21035
 book judgement~
 the Book of Judgement~
-The Book of Death lies here~
+The Book of Death lies here.~
 unknown~
 9 0 AO
 CE CE CE CE 0
@@ -726,7 +726,7 @@ A
 #21036
 Golden Scythe~
 a Golden Scythe of Death~
-A wicked looking Scythe lies here~
+A wicked looking Scythe lies here.~
 unknown~
 5 ABG AN
 0 CDEF CDEF CE CD
@@ -823,7 +823,7 @@ S
 The Chamber of DaRkNeSs~
 Your still floating but as soon as you enter the chamber your feet hit
 the ground. The chambers up here are almost as big as a mansion. A huge
-figure is here chanting the words "Do not Pass" "Or You Will Die!!."  He has
+figure is here chanting the words "Do not Pass" "Or You Will Die!!." He has
 a very powerful aura to him, and is guarded by a couple of guardians.  
 ~
 0 1048576 0

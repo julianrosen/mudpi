@@ -1097,6 +1097,9 @@ void do_oedit( CHAR_DATA * ch, char *argument )
 
         ch->desc->pEdit = ( void * ) pObj;
         ch->desc->editor = ED_OBJECT;
+        SET_BIT( ch->act, PLR_BUILDING );
+        act( "$n has entered the Object Editor.", ch, NULL, NULL,
+                     TO_ROOM ); // JR added these two lines
         return;
     }
     else

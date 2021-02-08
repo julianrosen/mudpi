@@ -136,7 +136,7 @@ ABJKbd J 0 S
 AHMV ABCDEFGHIJK M 0
 #17708
 elf elven shopkeeper young~
-A young elf~
+a young elf~
 A young elven shopkeeper stands here waiting to help you.
 ~
 (null)~
@@ -164,7 +164,7 @@ ABd J 0 S
 AHMV ABCDEFGHIJK M 0
 #17710
 crooked drow old~
-A crooked drow~
+a crooked drow~
 `kA crooked drow is concealed in the shadows.
 ~
 (null)~
@@ -178,7 +178,7 @@ ABd JZ 0 S
 AHMV ABCDEFGHIJK M 0
 #17711
 mage equipper~
-A mage~
+a mage~
 A Mage Equipper stands here ready to aid you.
 ~
 (null)~
@@ -192,7 +192,7 @@ ABd JZ 0 S
 AHMV ABCDEFGHIJK M 0
 #17712
 wizard great mage~
-The Great Wizard~
+the Great Wizard~
 The Greatest of all Wizards floats before you on a cloud of sparks.
 ~
 You should not poke your nose where it shouldn't be. This 
@@ -225,7 +225,7 @@ ABJKbd J 0 S
 AHMV ABCDEFGHIJK M 0
 #17714
 bartender~
-The bartender~
+the bartender~
 The bartender sits here waiting to listen to you or sell you a drink.
 ~
 (null)~
@@ -284,7 +284,7 @@ ABJKbd JUZ 0 S
 AHMV ABCDEFGHIJK M 0
 #17718
 bartender dwarf dwarven~
-A bartender~
+a bartender~
 A bartender smiles and offers you a drink.
 ~
 (null)~
@@ -378,7 +378,7 @@ FK 0 BC SZ
 AHMV ABCDEFGHIJK M 0
 #17724
 mystic drow ~
-A mystic~
+a mystic~
 `RA mystic is here, awaiting your next move.
 ~
 (null)~
@@ -392,7 +392,7 @@ FK 0 BC SZ
 AHMV ABCDEFGHIJK M 0
 #17725
 dog fido~
-A dog~
+a dog~
 A dog sits here panting happily.
 ~
 (null)~
@@ -406,7 +406,7 @@ H 0 0 D
 AGV ACDEFHJKUV S 0
 #17726
 cat~
-A cat~
+a cat~
 A cat purrs as you walk by.
 ~
 (null)~
@@ -476,7 +476,7 @@ A JV -650 S
 AHMV ABCDEFGHIJK M 0
 #17731
 business owner supervisor~
-A business owner~
+a business owner~
 A business owner stands here carefully directing his crew.
 ~
 (null)~
@@ -490,7 +490,7 @@ EFK 0 C D
 AHMV ABCDEFGHIJK M 0
 #17732
 worker builder~
-A Worker~
+a Worker~
 A worker stands here building happily.
 ~
 (null)~
@@ -591,7 +591,7 @@ ABJKbd HJZ 0 S
 AHMV ABCDEFGHIJK M 0
 #17739
 scar-faced mean mercenary killer~
-A mercenary~
+a mercenary~
 A mean, scar-faced mercenary spits at you.
 ~
 This scar-faced, mean ole mercenary tortures the weak and hunts
@@ -608,7 +608,7 @@ CDEFHKN 0 BC SZ
 AHMV ABCDEFGHIJK M 0
 #17740
 solider trainee cadet~
-A cadet~
+a cadet~
 A young dwarven cadet stands here at attention.
 ~
 This young cadet is intent on following the orders of the drill 
@@ -625,7 +625,7 @@ CFHKOR 0 CEFLQ GOR
 AHMV ABCDEFGHIJK M 0
 #17741
 drill captain commander dwarf~
-A drill captain~
+a drill captain~
 A drill captain keeps the young cadets in order.
 ~
 This drill captain is harsh. He keeps his young cadets in shape and
@@ -659,7 +659,7 @@ M H O I
 HXZ ACDEFHJKQUVX M 0
 #17743
 shadow man~
-`RThe `kShadow `GMan.~
+`RThe `kShadow `GMan~
 `RThe `kShadow `GMan `Cstands here.
 ~
 This man is dark and deceptive and sells Shadow Equipment. That
@@ -1038,7 +1038,7 @@ D 0 0 0 0
 #17717
 paladin's cloak cotp~
 a Paladin's Cloak~
-A magical cloak lies on the ground~
+A magical cloak lies on the ground.~
 unknown~
 11 RSTVWX AK
 0 0 0 0 0
@@ -1088,7 +1088,7 @@ A
 #17720
 enchanted sleeves of magic enhancing~
 a Pair of Sleeves of Magic Enhancing~
-A pair of sleeves lies on the ground~
+A pair of sleeves lies on the ground.~
 unknown~
 9 GRSTUVW AI
 D ABC D AD 0
@@ -2844,7 +2844,7 @@ S
 #17771
 Thief Trading Post: The "Black Market"~
 This is the darkened room where a thief can buy and sell various
-items others have "acquired."  There is an old scarred man who stands here
+items others have "acquired." There is an old scarred man who stands here
 waiting to buy and sell you the latest "hot" items fromt he streets.
 ~
 0 8 0
@@ -2975,7 +2975,7 @@ past traditions of the meetings.
 0 8 0
 E
 the_floor~
-This is the "floor."  He who holds it has the right to speak
+This is the "floor." He who holds it has the right to speak
 uniterrupted during a meeting. If you wish to say something, politely
 request the floor from the current speaker.
 ~

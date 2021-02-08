@@ -25,7 +25,7 @@ F H 0 I
 AHIMV ABCDEFGHIJK L unknown
 #17201
 body guard bodyguard diablo~
-The Bodyguard of Diablo~
+the Bodyguard of Diablo~
 The Bodyguard of Diablo laughs at your mortal ways!
 ~
 ~
@@ -39,8 +39,8 @@ DF H 0 I
 AHMV ABCDEFGHIJK G unknown
 #17202
 demon~
-The Demon~
-The Demon stands here, eating his food
+the Demon~
+The Demon stands here, eating his food.
 ~
 The Demon looks as if he is chewing on something. You get a bit closer, just
 enough to see over his shoulder, and you see that he is gnawing on a human's
@@ -70,8 +70,8 @@ ABF H -1000 S
 AHMV ABCDEFGHIJK G unknown
 #17204
 guardian hell~
-A Guardian of Hell~
-The Guardian of Hell is here, looking very serious about his job
+a Guardian of Hell~
+The Guardian of Hell is here, looking very serious about his job.
 ~
 ~
 Human~
@@ -84,7 +84,7 @@ CFT 0 0 N
 ACHMV ABCDEFGHIJK L unknown
 #17205
 Phantom crazed craze~
-A Crazed Phantom~
+a Crazed Phantom~
 A Crazed Phantom is here, acting rather peculiar.
 ~
 ~
@@ -98,7 +98,7 @@ F H 0 I
 AHKMV ABCDEFGHIJK M unknown
 #17206
 meta metabuse~
-The Metabuse~
+the Metabuse~
 The Metabuse sits on the throne, eyes you with an evil glare.
 ~
 A large scaled humanoid creature. Red eyes gleam in the dim firelight. 
@@ -115,7 +115,7 @@ ABF H -750 S
 AHMVZ ABCDEFGHIJK L unknown
 #17207
 neural para parasite~
-A Neural Parasite~
+a Neural Parasite~
 A Neural Parasite is here, trying to find a way to your brain.
 ~
 ~
@@ -129,7 +129,7 @@ C H 0 I
 AHMOV ABCDEFGHIJK M unknown
 #17208
 trap trapper soul~
-The Soul Trapper~
+the Soul Trapper~
 The Soul Trapper is here, playing with evil men's souls.
 ~
 A young looking woman with dark brown skin. A human with large white
@@ -147,7 +147,7 @@ CFK H 0 I
 AHMV ABCDEFGHIJKP M unknown
 #17209
 damn damned soul~
-A Damned Soul~
+a Damned Soul~
 A Damned Soul is here, contemplating why he is here.
 ~
 ~
@@ -161,7 +161,7 @@ FI H 0 I
 AHIMV ABCDEFGHIJK M unknown
 #17210
 blood brother 1~
-A Blood Brother~
+a Blood Brother~
 A Blood Brother is here, plotting the world's destruction.
 ~
 This seemingly innocent and even playful looking man wears simple black
@@ -178,7 +178,7 @@ CIK H 0 I
 AHMVc ABCDEFGHIJK L unknown
 #17211
 blood brother 2~
-A Blood Brother~
+a Blood Brother~
 A Blood Brother is here, plotting world destruction.
 ~
 This human male wears all black, rather simple clothing, and his white
@@ -209,7 +209,7 @@ A 0 -250 S
 AHIMV ABCDEFGHIJK M unknown
 #17213
 devil devils associate~
-A Devil's Associate~
+a Devil's Associate~
 A Devil's Associate is here, protecting it's master.
 ~
 ~
@@ -256,7 +256,7 @@ M BH O I
 ACHMVXZ ABCDEFGHIJKPQUVX G unknown
 #17216
 guardian key~
-The Guardian of the Key~
+the Guardian of the Key~
 The Guardian of the Key is here, grinning broadly at you.
 ~
 This giant man stands absolutely still in front of the doors. Well built
@@ -399,7 +399,7 @@ A
 #17210
 devil devils key~
 the Devil's Key~
-The Devil's Key lies here~
+The Devil's Key lies here.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -860,7 +860,7 @@ S
 Second Circle of Underworld~
 As you first walk into this part of the second circle of Underworld, you
 are overwhelmed with the sense that you are danger. Your heart says "go
-forth!"  But your sensible side urges you to go back. Only you can make the
+forth!" But your sensible side urges you to go back. Only you can make the
 final decision.  
 ~
 0 8 0
@@ -1685,7 +1685,7 @@ Sixth Circle of Underworld~
 You remember the piece of advice that was given you before venturing to
 the depths of this world, at they were "Whatever you do, don't listen to the
 music of the sixth circle for to long. They will start to hypnotize you and
-make you start hallucinating."  Well, so far you don't have any of those
+make you start hallucinating." Well, so far you don't have any of those
 symptoms. It must have been just a nasty rumor... Wait... Now that you
 think about it the little animal that just started running around does look
 sort of suspicious.  

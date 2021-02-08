@@ -43,7 +43,7 @@ ABFT DF -100 S
 AHMV ABCDEFGHIJK M 0
 #3402
 undead ghoul~
-The ghoul~
+the ghoul~
 A ghoul is here staring at you hungrily.
 ~
 The ghoul no longer resembles the adventurer he once was. Nonetheless
@@ -59,7 +59,7 @@ AFT D -500 S
 AHMV ABCDEFGHIJK M 0
 #3403
 undead wraith~
-The wraith~
+the wraith~
 You spot a wraith advancing towards you from the shadows.
 ~
 The wraith no longer has a material form. He is wearing a tattered
@@ -76,7 +76,7 @@ ABFT BDF -750 S
 AHMV ABCDEFGHIJK M 0
 #3404
 undead guardian vampire~
-The guardian vampire~
+the guardian vampire~
 A vampire is here hiding his face from your light source.
 ~
 The guardian vampire looks quite EVIL. Just by looking at him the hair on your
@@ -128,8 +128,8 @@ AFT 0 -500 S
 AHMV ABCDEFGHIJK M 0
 #3407
 nightgaunt~
-The nightgaunt~
-A nightgaunt is standing here
+the nightgaunt~
+A nightgaunt is standing here.
 ~
 ... shocking and uncouth black thing with smooth, oily, skin, unpleasant horns
 that curve inward toward each other, bat wings whose beating make no sound,
@@ -147,7 +147,7 @@ AFGT PQ -1000 S
 AHMV ABCDEFGHIJK M 0
 #3408
 hunting horror~
-The hunting horror~
+the hunting horror~
 The hunting horror is here in wait of an unwary traveler.
 ~
 Serving Nyarlathotep and Roch'tar, these beings are hunting for victims.
@@ -198,8 +198,8 @@ ABT D -750 S
 AHMV ABCDEFGHIJK M 0
 #3411
 X-ist eater~
-The X-ist flesh eater~
-An X-ist flesh eater is sitting here munching on some coffin remains
+the X-ist flesh eater~
+An X-ist flesh eater is sitting here munching on some coffin remains.
 ~
 A large hairy monstrous beast, the only LIVE thing you have seen down here.
 It stands approximately 8 feet tall and hunches over to fit in this
@@ -253,7 +253,7 @@ ACT 0 0 S
 AHMV ABCDEFGHIJK M 0
 #3414
 etcher~
-The mad etcher~
+the mad etcher~
 The mad etcher is sitting here babbling to himself and working on the wall.
 ~
 Quite insane, the mad etcher has been here for two decades. His hair is
@@ -278,7 +278,7 @@ AGT A 1000 S
 AHMV ABCDEFGHIJK M 0
 #3415
 wife ghost specter~
-The spectral etcher's wife~
+the spectral etcher's wife~
 The spectral wife of the etcher is very faintly floating here.
 ~
 You can barely make her out ... though it almost makes you vomit.
@@ -297,7 +297,7 @@ ABT Q 1000 S
 AHMV ABCDEFGHIJK M 0
 #3416
 body~
-The half-decomposed body~
+the half-decomposed body~
 A half-decomposed body is lying in the corner here.
 ~
 YUK! It's ugly, disgusting ... it smells ... it also moves a bit!
@@ -348,7 +348,7 @@ of a nightgaunt ... disgusting.
 #3403
 plasma webbing~
 disgusting pinkish plasma webbing~
-A pile of pink material is lying here~
+A pile of pink material is lying here.~
 unknown~
 9 JL AD
 AC AC AC 0 0
@@ -373,7 +373,7 @@ recognize that it will probably fit the lock at the entrance of the tombs.
 #3411
 large black dirty key~
 a large black dirty key~
-A large black dirty key is lying here~
+A large black dirty key is lying here.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -470,7 +470,7 @@ The wine should be nicely aged.
 #3418
 coins~
 a mound of coins fit for a dead king~
-You see a mound of coins fit for a dead king here~
+You see a mound of coins fit for a dead king here.~
 unknown~
 20 0 A
 CEFH 0 0 0 0
@@ -478,7 +478,7 @@ CEFH 0 0 0 0
 #3419
 key~
 key to the coffin~
-The key to the coffin is lying here~
+The key to the coffin is lying here.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -503,7 +503,7 @@ Ah HA! A hidden compartment!
 #3421
 rusty sword curved scimitar~
 a rusty curved scimitar~
-A sword has been left lying here~
+A sword has been left lying here.~
 unknown~
 5 0 AN
 A A AD AB 0
@@ -516,7 +516,7 @@ its cutting edge.
 #3422
 piece slime~
 a piece of slime~
-You step on a piece of slime...your foot squishes a bit~
+You step on a piece of slime...your foot squishes a bit!~
 unknown~
 19 0 A
 ABCD 0 0 0 0
@@ -544,7 +544,7 @@ It is very old an smells of paint, mildew, and rot.
 #3424
 scroll tightly rolled~
 a tightly rolled scroll~
-A yellowing tightly rolled scroll is here~
+A yellowing tightly rolled scroll is here.~
 unknown~
 2 G AO
 15 10 12 32 0
@@ -564,7 +564,7 @@ unreadable but the scroll has a seal on it with a grey :
 #3425
 auburn orb~
 an auburn-colored orb~
-An orb is here~
+An orb is here.~
 unknown~
 4 BG AO
 BD B B 7 0
@@ -577,7 +577,7 @@ inside of this rare and beautiful object.
 #3426
 bar gold~
 a bar of gold~
-A bar of gold is lying here~
+A bar of gold is lying here.~
 unknown~
 8 0 A
 0 0 0 0 0
@@ -590,7 +590,7 @@ on it...The emblem is a large 'J'
 #3427
 cape dark black~
 a dark black cape~
-A dark black cape is lying here~
+A dark black cape is lying here.~
 unknown~
 9 G AK
 D D D 0 0
@@ -606,8 +606,8 @@ that the cape seems to be simply a void of blackness. It is quite beautiful
 ~
 #3428
 flaming sword long longsword~
-a pitch-black longsword that flames brightly...~
-A sword lies here~
+a pitch-black longsword that flames brightly~
+A sword lies here.~
 unknown~
 5 G AN
 A AC ABC AB 0

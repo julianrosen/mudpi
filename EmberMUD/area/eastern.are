@@ -10,7 +10,7 @@ End
 #MOBILES
 #5000
 dervish raggity~
-The dervish~
+the dervish~
 The raggity dervish walks on aimlessly.
 ~
 Dressed in loose fitting rags, this man looks like he could use
@@ -26,7 +26,7 @@ ACGHT P 900 S
 AHMV ABCDEFGHIJK M 0
 #5001
 dervish large~
-The dervish~
+the dervish~
 The large dervish watches for signs of trouble.
 ~
 Dressed in loose fitting rags, this man looks like he could use
@@ -42,7 +42,7 @@ AFGT P 650 S
 AHMV ABCDEFGHIJK M 0
 #5002
 snake coral~
-The coral snake~
+the coral snake~
 A brightly colored snake slithers along the sands.
 ~
 This relatively harmless snake has bright alternating bands of red, yellow
@@ -58,7 +58,7 @@ AGT 0 -10 S
 AGRXYc ADEFKLQVX M 0
 #5003
 scorpion small~
-The small scorpion~
+the small scorpion~
 A small, red scorpion scuttles away at your approach.
 ~
 The little tail is mighty dangerous for such a small creature.
@@ -73,7 +73,7 @@ AGT 0 -50 S
 AHMV ABCDEFGHIJK M 0
 #5004
 worm giant purple~
-The giant, purple sand worm~
+the giant, purple sand worm~
 A giant, purple sand worm thrusts up out of the sand and attacks!
 ~
 He's big, mean, and purple. Watch out!
@@ -103,7 +103,7 @@ ABCFT DH 450 S
 AHMV ABCDEFGHIJK M 0
 #5006
 nomad leader~
-The nomad leader~
+the nomad leader~
 The nomad leader sits silently in prayer.
 ~
 He is clad in silk robes lined with gold thread. At his side
@@ -120,7 +120,7 @@ AGHLT 0 950 S
 AHMV ABCDEFGHIJK M 0
 #5007
 nomad commander~
-The nomad commander~
+the nomad commander~
 The nomad commander stands here staring suspiciously at you.
 ~
 This is the nomad leader's second in command. His clothes are richly
@@ -136,7 +136,7 @@ ABLT 0 900 S
 AHMV ABCDEFGHIJK M 0
 #5008
 nomad warrior~
-The nomad warrior~
+the nomad warrior~
 A proud nomad warrior stands here.
 ~
 (null)~
@@ -150,7 +150,7 @@ ABT 0 700 S
 AHMV ABCDEFGHIJK M 0
 #5009
 slave young~
-The slave~
+the slave~
 A young slave sits here staring at you with pleading eyes.
 ~
 (null)~
@@ -164,7 +164,7 @@ ABHT 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #5010
 dracolich lich~
-The dracolich~
+the dracolich~
 A pile of bones rises up to form a skeletal dracolich.
 ~
 The dracolich is now only bone with pieces of flesh hanging from it.
@@ -180,7 +180,7 @@ ABFLT DH -1000 S
 AHMV ABCDEFGHIJK M 0
 #5011
 drider drow~
-The drider~
+the drider~
 The drider looks at you viciously while it draws its sword.
 ~
 This half-spider, half-drow creature is a formidable opponent.
@@ -195,7 +195,7 @@ AFGT D -1000 S
 AHMV ABCDEFGHIJK M 0
 #5012
 duergar dwarf~
-The dark dwarf~
+the dark dwarf~
 A duergar is here mining precious stones with his pick.
 ~
 The duergar could crush your head as easily as it does those rocks.
@@ -226,7 +226,7 @@ AGHT D 850 S
 AHMV ABCDEFGHIJK M 0
 #5014
 myconoid shaman~
-The myconoid shaman~
+the myconoid shaman~
 A rather large myconoid stands here chanting in a strange tongue.
 ~
 The shaman shoots spores into the air.
@@ -241,7 +241,7 @@ ABHT DH 850 S
 AHMV ABCDEFGHIJK M 0
 #5015
 dustdigger~
-The dustdigger~
+the dustdigger~
 A small oasis invites you to dive in.
 ~
 (null)~
@@ -255,7 +255,7 @@ ABCFT 0 -200 S
 AHMV ABCDEFGHIJK M 0
 #5017
 camel~
-The rabid camel~
+the rabid camel~
 A very dangerous rabid camel snorts at you.
 ~
 Don't mess with this animal.

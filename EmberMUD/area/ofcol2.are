@@ -192,7 +192,7 @@ Jack is here slaughtering away at the animals.
 ~
 Jack is the son of Marty, and you can see the family resemblance (especially in
 their shared affinity for slaughtering animals.)  Jack leers at you as you
-enter.  "Came by to watch, eh?", he asks.
+enter. "Came by to watch, eh?", he asks.
 ~
 Human~
 ABFHT 0 200 S
@@ -352,7 +352,7 @@ the girl~
 A girl is here, playing jump jacks and other kids' games.
 ~
 The little girl looks up at you and says, 'Hi. Can I have a pretty little
-coin?'  She then smiles and runs away, remembering her game.
+coin?' She then smiles and runs away, remembering her game.
 ~
 Human~
 AHT 0 500 S
@@ -367,7 +367,7 @@ maid woman~
 the maid~
 A maid is here, cleaning the house and preparing the next meal.
 ~
-The maid startles at your presence.  'You are ruining my floors! Wait till
+The maid startles at your presence. 'You are ruining my floors! Wait till
 Master and Mistress come back. You will get me in trouble! Shoo!', she says.
 She hits you with her broom.
 ~
@@ -500,7 +500,7 @@ Chaplain Jerrold~
 Jerrold, the chaplain of this Citadel, is here 
 directing the activities of the people around here.
 ~
-He smiles at you, with the enthusiasm of a little kid.  "What're you doing just
+He smiles at you, with the enthusiasm of a little kid. "What're you doing just
 STANDING here, young man? Go help that other squire there!", he yells. He
 turns to you and with a consipatory tone, whispers, "Kids!"
 ~
@@ -531,7 +531,7 @@ ABT BHN 1000 S
 AHMV ABCDEFGHIJK M 0
 #631
 dragon gold~
-The Ancient Gold Dragon~
+the Ancient Gold Dragon~
 An old dragon shimmering with the colors of this 
 cavern peers at you sleepily.
 ~
@@ -1269,7 +1269,7 @@ A
 #662
 claw golden~
 the Golden Claw~
-A huge golden claw is on the floor~
+A huge golden claw is on the floor.~
 unknown~
 5 GK AN
 0 AC AC AC 0

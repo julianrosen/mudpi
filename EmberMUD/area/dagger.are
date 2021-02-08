@@ -31,7 +31,7 @@ G BI BFM SZ
 AHMV ABCDEFGHIJK M unknown
 #17101
 shoppkeeper drow dark~
-A Dark Drow~
+a Dark Drow~
 A dark drow tends this shop.
 ~
 This drow is dark and mysterious. You don't want to be around him long
@@ -47,7 +47,7 @@ ABd JZ 0 S
 AHMV ABCDEFGHIJK M unknown
 #17102
 dark drow shopkeeper young~
-A young drow~
+a young drow~
 A strange young drow keeps this store.
 ~
 This strange young drow is hesitant to let anyone know anything about
@@ -79,7 +79,7 @@ AOR EPQVZ -1000 S
 CL ABCDEGHIJK M unknown
 #17105
 ghostly ghost presence phantom~
-A ghostly presence~
+a ghostly presence~
 Here floats a ghostly presence acting as a shopkeeper.
 ~
 ~
@@ -370,7 +370,7 @@ unknown~
 #17119
 crystal amulet omulet~
 a `CCrystal `WAmulet`w~
-An enchanted crystal amulet lies here~
+An enchanted crystal amulet lies here.~
 unknown~
 9 GI AC
 A A A A 0
@@ -642,7 +642,7 @@ A
 #17152
 bracer of dark bonding~
 a `rBracer `cof `kEvil `bBonding`w~
-A bracer of evil bonding lies on the ground~
+A bracer of evil bonding lies on the ground.~
 unknown~
 9 BCMU AM
 BC BC BC BC 0
@@ -658,7 +658,7 @@ A
 #17153
 pair of black silk gloves~
 a pair of Black Silk Gloves~
-A pair of black silk gloves lies on the ground~
+A pair of black silk gloves lies on the ground.~
 unknown~
 9 C AH
 C C C C 0

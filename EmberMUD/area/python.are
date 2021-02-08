@@ -10,7 +10,7 @@ End
 #MOBILES
 #14500
 A Moose~
-A Moose~
+a Moose~
 A Moose is here, filling out complicated insurance forms.
 ~
 This moose looks very dumb, but it has been trained to fill out
@@ -26,7 +26,7 @@ A J 0 S
 AHMV ABCDEFGHIJK M 0
 #14501
 A Castle Guard~
-A Castle Guard~
+a Castle Guard~
 A castle guard is here, engaged in a serious chat with another guard.
 ~
 This guard seems to know quite a lot for a castle guard. Him and his
@@ -43,7 +43,7 @@ AB 0 0 S
 AHMV ABCDEFGHIJK M 0
 #14502
 peasant peon farmer~
-A Peasant~
+a Peasant~
 A Peasant is here, harvesting mud.
 ~
 This peasant is covered with filth and seems to go around gathering mud. 
@@ -79,7 +79,7 @@ AB 0 0 S
 AHMV ABCDEFGHIJK M 0
 #14504
 black knight~
-The Black Knight~
+the Black Knight~
 A knight wearing black armor blocks your way across the bridge.
 ~
 This Knight is one the best in the land. He guards this bridge night day
@@ -95,7 +95,7 @@ ABF DF -300 S
 AHMV ABCDEFGHIJK M 0
 #14505
 crowd people~
-A Crowd~
+a Crowd~
 A crowd is here having a witch trial.
 ~
 This mob may not be the smartest one you have ever seen but it sure it
@@ -112,8 +112,8 @@ AB 0 0 S
 AHMV ABCDEFGHIJK M 0
 #14506
 witch~
-A Witch~
-A Witch is here, looking for help
+a Witch~
+A Witch is here, looking for help.
 ~
 You're not to sure about the validaty of this Witch's claim. She is
 wearing a carrot on her nose and a tin hat. The crowd must have dressed her
@@ -146,7 +146,7 @@ AB 0 0 S
 AHMV ABCDEFGHIJK M 0
 #14508
 french soldier~
-A French Soldier~
+a French Soldier~
 A French soldier is here, taunting English knights.
 ~
 This French soldier is the master of all insults, his degrading and
@@ -164,7 +164,7 @@ AGHMV ABCDEFGHIJK M 0
 #14509
 captain british officer decision~
 Captain Decision~
-A British Army Officer is here, offering guidance
+A British Army Officer is here, offering guidance.
 ~
 This man is named Captain Decision. He is here to help you choose a
 path. You have a long journey ahead and whichever path you choose may help
@@ -183,8 +183,8 @@ AB H 1000 S
 AHMV ABCDEFGHIJK M 0
 #14510
 wolf black~
-A Black Wolf~
-A black wolf is here, howling at you
+a Black Wolf~
+A black wolf is here, howling at you.
 ~
 This wolf looks rather hungry, I wouldn't mess with him. It might be
 best to continue onwards is search of the grail.  
@@ -199,8 +199,8 @@ FH 0 0 0
 AGV ACDEFJKQV M 0
 #14511
 virgin girl~
-A Virgin~
-A young virgin, dressed in white, walks the halls
+a Virgin~
+A young virgin, dressed in white, walks the halls.
 ~
 This virgin is somewhere from seventeen and twenty-one and a half. She
 has longs hair, braided with golden strands. She wears all white and her
@@ -217,7 +217,7 @@ AHMV ABCDEFGHIJK M 0
 #14512
 virgin zeut~
 Zeut, the Leader of the Virgins~
-Zeut, the Leader of the Virgins welcomes you to Castle Anthrax
+Zeut, the Leader of the Virgins welcomes you to Castle Anthrax.
 ~
 Zeut is dressed in a long white dress is about 20 years old. She looks
 stunningly beautiful and crafty. Even though her great looks, she appears
@@ -234,7 +234,7 @@ AHMV ABCDEFGHIJK M 0
 #14513
 dingo virgin~
 Dingo, Zeut's Identical Twin Sister~
-A virgin that look similar to Zeut stands in from the door
+A virgin that look similar to Zeut stands in from the door.
 ~
 This virgin looks very similar to Zeut, in fact, she is Zeut's identical
 twin sister. Her name is Dingo, and she looks equally stunning as Zeut
@@ -250,8 +250,8 @@ AB 0 100 S
 AHMV ABCDEFGHIJK M 0
 #14514
 knight~
-A Knight~
-A knight is here to rescue you from certain peril
+a Knight~
+A knight is here to rescue you from certain peril.
 ~
 This knight is full knightly armor and you can not see and of his face. 
 He is about six feet tall and his armor is covered with the dents of many
@@ -286,8 +286,8 @@ AB 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #14516
 guard mercenary wedding~
-A Wedding Guard~
-A guard is here guarding the wedding guests
+a Wedding Guard~
+A guard is here guarding the wedding guests.
 ~
 This guard doesn't look like the brightest but he good at what he does. 
 He's all decked up for the wedding of the prince.  
@@ -302,8 +302,8 @@ ABT 0 1000 S
 AHMV ABCDEFGHIJK M 0
 #14517
 musician~
-A Musician~
-A Musician is here, playing music
+a Musician~
+A Musician is here, playing music.
 ~
 He's obviously enjoying the festivities and plays his instrument with all
 of his heart.  
@@ -318,7 +318,7 @@ AB 0 200 S
 AHMV ABCDEFGHIJK M 0
 #14518
 wedding guest~
-A Wedding Guest~
+a Wedding Guest~
 A wedding guest is here, making merry.
 ~
 This wedding guest is enjoying himself thouroughly. The wedding of the
@@ -334,7 +334,7 @@ A 0 20 S
 AHMV ABCDEFGHIJK M 0
 #14519
 prince~
-The Prince~
+the Prince~
 The Prince is here, tying together blankets to escape out of the window
 ~
 This unfortunate young man is being forced to marry against his will. He
@@ -351,7 +351,7 @@ A 0 200 S
 AHMV ABCDEFGHIJK M 0
 #14520
 fat girl bride bridesmaid~
-The Bridesmaid~
+the Bridesmaid~
 The Bridesmaid is here, fixing her hair.
 ~
 There sure is a LOT of bridesmaid. She is the hugest girl you have ever
@@ -368,8 +368,8 @@ AB 0 1 S
 AHMV ABCDEFGHIJK M 0
 #14521
 three head knight evil~
-The Three-Headed Knight~
-A three-headed knight is looking for Knights of the Round Table to eat
+the Three-Headed Knight~
+A three-headed knight is looking for Knights of the Round Table to eat.
 ~
 This ten foot giant has three heads and towers of above you. He looks
 around for knights to eat, and you are one of them. Good luck, you'll need
@@ -401,12 +401,12 @@ AB 0 150 S
 AHMV ABCDEFGHIJK M 0
 #14523
 knight nee~
-A Knight of Nee~
+a Knight of Nee~
 A Knight who says "Nee!" stands here, saying "Nee!"
 ~
-This is one of the legendary knight who say "Nee!"  Those who hear them
+This is one of the legendary knight who say "Nee!" Those who hear them
 seldom live to tell the tale. It is rumored that The Knights who say "Nee!"
-Are partial to shruberies, but nobody is certain of this.  
+Are partial to shrubberies, but nobody is certain of this.  
 ~
 Human~
 ABT 0 -200 S
@@ -438,7 +438,7 @@ AB 0 400 S
 AHMV ABCDEFGHIJK M 0
 #14525
 cute little white rabbit bunny~
-A Bunny Rabbit~
+a Bunny Rabbit~
 A cute little white bunny rabbit is here, jumping around.
 ~
 This bunny appears to be a nondescript little white bunny, but as it
@@ -454,7 +454,7 @@ M H O I
 HXZ ACDEFHJKQUVX M 0
 #14526
 black beast~
-The Black Beast~
+the Black Beast~
 The Legendary Black Beast of Aaaahhhhh...., the animated terror, is here.
 ~
 This animated cartoon insprises fear in your heart, the battle with the
@@ -506,7 +506,7 @@ A 0 -800 S
 AHMV ABCDEFGHIJK M 0
 #14529
 captain french soldier~
-The French Captain~
+the French Captain~
 The Captain of the french soldiers is here, leading his soldiers.
 ~
 The captain of the soldiers is no slouch when it comes to taunting
@@ -524,7 +524,7 @@ ABT 0 -1000 S
 AHMV ABCDEFGHIJK M 0
 #14530
 knight eeeeckyeckyeckyeckypikangzoomboing~
-A Knight who says Eeee-ecky-ecky-ecky-pitang-zooooom-boing~
+a Knight who says Eeee-ecky-ecky-ecky-pitang-zooooom-boing~
 A knight stands here who says... who says.... who so recently said "Nee".
 ~
 (null)~
@@ -538,7 +538,7 @@ AB 0 -300 S
 AHMV ABCDEFGHIJK M 0
 #14531
 police officer~
-A Police Officer~
+a Police Officer~
 A Police Officer is here, looking for a Knight suspected of murder.
 ~
 This police officer is looking for a knight that has recently commited a
@@ -554,7 +554,7 @@ AB 0 0 S
 AHMV ABCDEFGHIJK M 0
 #14532
 peasant peon farmer~
-A peasant~
+a peasant~
 A peasant is here, harvesting mud.
 ~
 (null)~
@@ -614,9 +614,9 @@ unknown~
 AB AC B ABCD 0
 8 18 350 P
 A
-18 5
-A
 19 1
+A
+18 5
 #14505
 watch rolex~
 rolex watch~
@@ -630,15 +630,15 @@ A
 #14506
 mace decision~
 the Mace of Decision Making~
-A heavy looking mace rests here, flowing with power~
+A heavy looking mace rests here, flowing with power.~
 unknown~
 5 ABSWX AN
 C AB ABCD BE F
 30 21 100 P
 A
-3 2
-A
 4 2
+A
+3 2
 #14507
 flower~
 a Beautiful Flower~
@@ -656,23 +656,23 @@ unknown~
 0 0 300 0 0
 22 20 100 P
 A
-2 1
-A
-3 1
-A
-5 1
-A
-4 1
-A
-1 1
-A
-12 1
-A
-18 1
+13 1
 A
 19 1
 A
-13 1
+18 1
+A
+12 1
+A
+1 1
+A
+4 1
+A
+5 1
+A
+3 1
+A
+2 1
 #14509
 tarot cards~
 tarot Cards~
@@ -698,9 +698,9 @@ unknown~
 0 0 96 0 0
 25 100 1 P
 A
-18 -2
-A
 19 1
+A
+18 -2
 #14512
 plate mail knight~
 knight's Plate Mail~
@@ -720,7 +720,7 @@ A AC ABC AB D
 #14514
 knight gauntlets~
 knight's Gauntlets~
-A pair of steel gauntlets rests here~
+A pair of steel gauntlets rests here.~
 unknown~
 9 0 AH
 C C C C 0
@@ -758,9 +758,9 @@ unknown~
 B B B AB 0
 10 5 20 P
 A
-12 20
-A
 19 1
+A
+12 20
 #14519
 fountain beer barrel~
 a beer barrel~
@@ -786,13 +786,13 @@ unknown~
 AB AB AB AB 0
 29 5 10 P
 A
-4 -2
-A
-13 20
+19 2
 A
 18 4
 A
-19 2
+13 20
+A
+4 -2
 #14522
 shrubbery~
 a Shrubbery~
@@ -802,11 +802,11 @@ unknown~
 0 0 0 0 0
 20 50 1500 P
 A
-19 1
+1 1
 A
 17 18
 A
-1 1
+19 1
 #14523
 goat skull~
 a Goat's Skull~
@@ -816,9 +816,9 @@ unknown~
 BD BD BD BD 0
 30 20 200 P
 A
-19 2
-A
 12 50
+A
+19 2
 #14524
 fireball staff wood wooden oak oaken~
 a Staff of Fireballs~
@@ -852,13 +852,13 @@ unknown~
 0 0 20000 0 0
 30 20 20000 P
 A
-13 10
-A
-19 3
+17 -20
 A
 18 3
 A
-17 -20
+19 3
+A
+13 10
 #14528
 crown england~
 the Crown of England~
@@ -868,9 +868,9 @@ unknown~
 ADE ADE ADE ADE 0
 45 10 100000 P
 A
-4 3
-A
 19 3
+A
+4 3
 #14529
 nightstick stick mace black~
 the Nightstick~
@@ -2292,7 +2292,7 @@ S
 The Foggy Forest~
 As you walk through the forest, you suddenly become aware of a group
 knights standing over you. These knights must be the legendary Knights who
-say "Nee!"  Those who hear them seldom live to tell the tale. The foggy
+say "Nee!" Those who hear them seldom live to tell the tale. The foggy
 forest continues to the north, west, and south.  
 ~
 0 2097152 0
@@ -2312,7 +2312,7 @@ S
 #14583
 The Foggy Forest~
 The forest is coverend with a thick fog and you are surrounded by the
-Knights who say "Nee!"  To your north, is a thick clump of trees with a hole
+Knights who say "Nee!" To your north, is a thick clump of trees with a hole
 in the ground in front of them the perfect size of a shrubbery.  
 ~
 0 2097152 0
@@ -2328,7 +2328,7 @@ S
 #14584
 The Forest~
 On this side of the trees, the fog seems to have lifted and you no longer
-see the any more of The Knights who say "Nee!"  To your north is a barren
+see the any more of The Knights who say "Nee!" To your north is a barren
 wasteland of some sort.  
 ~
 0 2097152 0
@@ -2841,46 +2841,46 @@ D 0 14609 4 1
 D 0 14610 4 0
 D 0 14610 5 1
 D 0 14611 5 0
-M 0 14500 0 14501 Load A Moose
-M 0 14501 2 14503 Load A Castle Guard
-E 0 16022 0 16 A long sword is loaded wielded of A Castle Guard
+M 0 14500 0 14501 Load a Moose
+M 0 14501 2 14503 Load a Castle Guard
+E 0 16022 0 16 A long sword is loaded wielded of a Castle Guard
 M 0 14503 0 14505 Load Dennis
 E 0 14500 0 5 Peasant's rags is loaded on the body of Dennis
 E 0 14501 0 16 A pointed stick is loaded wielded of Dennis
-M 0 14502 9 14505 Load A Peasant
-E 0 14500 0 5 Peasant's rags is loaded on the body of A Peasant
-M 0 14502 4 14506 Load A Peasant
-E 0 14500 0 5 Peasant's rags is loaded on the body of A Peasant
-M 0 14502 12 14507 Load A Peasant
-M 0 14502 12 14508 Load A Peasant
-M 0 14502 20 14509 Load A Peasant
-M 0 14502 9 14510 Load A Peasant
-M 0 14504 0 14512 Load The Black Knight
-E 0 14503 0 16 Black sword is loaded wielded of The Black Knight
-E 0 14502 0 6 Black helmet is loaded over the head of The Black Knight
-M 0 14506 0 14514 Load A Witch
-M 0 14505 0 14514 Load A Crowd
+M 0 14502 9 14505 Load a Peasant
+E 0 14500 0 5 Peasant's rags is loaded on the body of a Peasant
+M 0 14502 4 14506 Load a Peasant
+E 0 14500 0 5 Peasant's rags is loaded on the body of a Peasant
+M 0 14502 12 14507 Load a Peasant
+M 0 14502 12 14508 Load a Peasant
+M 0 14502 20 14509 Load a Peasant
+M 0 14502 9 14510 Load a Peasant
+M 0 14504 0 14512 Load the Black Knight
+E 0 14503 0 16 Black sword is loaded wielded of the Black Knight
+E 0 14502 0 6 Black helmet is loaded over the head of the Black Knight
+M 0 14506 0 14514 Load a Witch
+M 0 14505 0 14514 Load a Crowd
 M 0 14507 0 14515 Load Dorf the Fisherman
 E 0 14504 0 16 Fishing pole is loaded wielded of Dorf the Fisherman
-M 0 14508 5 14523 Load A French Soldier
+M 0 14508 5 14523 Load a French Soldier
 M 0 14509 0 14525 Load Captain Decision
 E 0 14506 0 16 The mace of decision making is loaded wielded of Captain Decision
 P 0 14507 0 1 A beautiful flower put inside a Beautiful Flower
-M 0 14510 0 14527 Load A Black Wolf
+M 0 14510 0 14527 Load a Black Wolf
 O 0 14507 0 14528 A beautiful flower loaded to The Flowery Meadow
 M 0 14512 0 14530 Load Zeut, the Leader of the Virgins
-M 0 14511 20 14532 Load A Virgin
-E 0 14513 0 16 Knight's sword is loaded wielded of A Virgin
-E 0 14512 0 5 Knight's plate mail is loaded on the body of A Virgin
-M 0 14514 2 14535 Load A Knight
-E 0 14512 0 5 Knight's plate mail is loaded on the body of A Knight
-E 0 14513 0 16 Knight's sword is loaded wielded of A Knight
-E 0 14514 0 9 Knight's gauntlets is loaded on the hands of A Knight
-M 0 14511 5 14537 Load A Virgin
-E 0 14509 0 17 Tarot cards is loaded held in the hands of A Virgin
+M 0 14511 20 14532 Load a Virgin
+E 0 14513 0 16 Knight's sword is loaded wielded of a Virgin
+E 0 14512 0 5 Knight's plate mail is loaded on the body of a Virgin
+M 0 14514 2 14535 Load a Knight
+E 0 14512 0 5 Knight's plate mail is loaded on the body of a Knight
+E 0 14513 0 16 Knight's sword is loaded wielded of a Knight
+E 0 14514 0 9 Knight's gauntlets is loaded on the hands of a Knight
+M 0 14511 5 14537 Load a Virgin
+E 0 14509 0 17 Tarot cards is loaded held in the hands of a Virgin
 O 0 14508 0 14541 The flaming hairbrush of antioch loaded to A Virgin's Bedroom
-M 0 14511 50 14542 Load A Virgin
-M 0 14511 50 14545 Load A Virgin
+M 0 14511 50 14542 Load a Virgin
+M 0 14511 50 14545 Load a Virgin
 M 0 14513 0 14547 Load Dingo, Zeut's Identical Twin Sister
 E 0 14510 0 17 A bright golden key is loaded held in the hands of Dingo, Zeut's Identical Twin Sister
 O 0 14511 0 14548 Fake grail loaded to The Grail Room
@@ -2888,46 +2888,46 @@ O 0 14515 0 14550 A coconut loaded to In the Coconut Tree
 M 0 14515 0 14553 Load Sir Launcelot
 E 0 14517 0 12 A knight's white overlay is loaded about the shoulders of Sir Launcelot
 E 0 14516 0 7 Knight's chain leggings is loaded on the legs of Sir Launcelot
-M 0 14516 3 14555 Load A Wedding Guard
-E 0 14518 0 6 A wreath of flowering laurel is loaded over the head of A Wedding Guard
-M 0 14516 7 14557 Load A Wedding Guard
-M 0 14516 0 14557 Load A Wedding Guard
-M 0 14516 9 14558 Load A Wedding Guard
-M 0 14516 0 14558 Load A Wedding Guard
-M 0 14516 0 14559 Load A Wedding Guard
-M 0 14516 10 14560 Load A Wedding Guard
-M 0 14516 0 14560 Load A Wedding Guard
+M 0 14516 3 14555 Load a Wedding Guard
+E 0 14518 0 6 A wreath of flowering laurel is loaded over the head of a Wedding Guard
+M 0 14516 7 14557 Load a Wedding Guard
+M 0 14516 0 14557 Load a Wedding Guard
+M 0 14516 9 14558 Load a Wedding Guard
+M 0 14516 0 14558 Load a Wedding Guard
+M 0 14516 0 14559 Load a Wedding Guard
+M 0 14516 10 14560 Load a Wedding Guard
+M 0 14516 0 14560 Load a Wedding Guard
 O 0 14519 0 14561 A beer barrel loaded to The Center of the Courtyard
-M 0 14516 10 14561 Load A Wedding Guard
-M 0 14516 0 14561 Load A Wedding Guard
-M 0 14517 4 14562 Load A Musician
-M 0 14516 10 14562 Load A Wedding Guard
-M 0 14516 0 14562 Load A Wedding Guard
-M 0 14516 10 14563 Load A Wedding Guard
-M 0 14516 0 14563 Load A Wedding Guard
-M 0 14516 10 14564 Load A Wedding Guard
-M 0 14516 0 14564 Load A Wedding Guard
-M 0 14516 10 14565 Load A Wedding Guard
-M 0 14516 2 14565 Load A Wedding Guard
-M 0 14520 0 14566 Load The Bridesmaid
-M 0 14518 20 14566 Load A Wedding Guest
-M 0 14516 4 14569 Load A Wedding Guard
-M 0 14519 0 14569 Load The Prince
-M 0 14521 0 14573 Load The Three-Headed Knight
-E 0 14520 0 10 A pair of knight's sleeves is loaded on the arms of The Three-Headed Knight
+M 0 14516 10 14561 Load a Wedding Guard
+M 0 14516 0 14561 Load a Wedding Guard
+M 0 14517 4 14562 Load a Musician
+M 0 14516 10 14562 Load a Wedding Guard
+M 0 14516 0 14562 Load a Wedding Guard
+M 0 14516 10 14563 Load a Wedding Guard
+M 0 14516 0 14563 Load a Wedding Guard
+M 0 14516 10 14564 Load a Wedding Guard
+M 0 14516 0 14564 Load a Wedding Guard
+M 0 14516 10 14565 Load a Wedding Guard
+M 0 14516 2 14565 Load a Wedding Guard
+M 0 14520 0 14566 Load the Bridesmaid
+M 0 14518 20 14566 Load a Wedding Guest
+M 0 14516 4 14569 Load a Wedding Guard
+M 0 14519 0 14569 Load the Prince
+M 0 14521 0 14573 Load the Three-Headed Knight
+E 0 14520 0 10 A pair of knight's sleeves is loaded on the arms of the Three-Headed Knight
 O 0 14521 0 14578 The ring of courage loaded to Scene 24
 M 0 14522 0 14580 Load Roger the Shrubber
 G 0 14522 0 A shrubbery is given to Roger the Shrubber
-M 0 14523 8 14582 Load A Knight of Nee
-M 0 14523 8 14583 Load A Knight of Nee
+M 0 14523 8 14582 Load a Knight of Nee
+M 0 14523 8 14583 Load a Knight of Nee
 M 0 14524 0 14588 Load Tim the Enchanter
 E 0 14524 0 17 A staff of fireballs is loaded held in the hands of Tim the Enchanter
 E 0 14523 0 6 A goat's skull is loaded over the head of Tim the Enchanter
-M 0 14525 0 14590 Load A Bunny Rabbit
-M 0 14526 0 14593 Load The Black Beast
+M 0 14525 0 14590 Load a Bunny Rabbit
+M 0 14526 0 14593 Load the Black Beast
 M 0 14527 0 14595 Load Bridge Keeper
-M 0 14531 0 14600 Load A Police Officer
-E 0 14529 0 16 The nightstick is loaded wielded of A Police Officer
+M 0 14531 0 14600 Load a Police Officer
+E 0 14529 0 16 The nightstick is loaded wielded of a Police Officer
 O 0 14525 0 14600 Dragon ship loaded to The Grassy Field
 M 0 14528 11 14603 Load An Elite French Soldier
 M 0 14528 11 14604 Load An Elite French Soldier
@@ -2935,29 +2935,29 @@ M 0 14528 12 14605 Load An Elite French Soldier
 M 0 14528 12 14606 Load An Elite French Soldier
 M 0 14528 12 14607 Load An Elite French Soldier
 M 0 14528 12 14608 Load An Elite French Soldier
-M 0 14529 0 14609 Load The French Captain
-E 0 14526 0 17 A glowing, golden key is loaded held in the hands of The French Captain
+M 0 14529 0 14609 Load the French Captain
+E 0 14526 0 17 A glowing, golden key is loaded held in the hands of the French Captain
 M 0 14528 14 14609 Load An Elite French Soldier
 O 0 14527 0 14610 The holy grail loaded to The Grail Room
 O 0 14528 0 14611 The crown of england loaded to The Throne Room of England
-M 0 14532 4 14612 Load A peasant
-M 0 14532 4 14612 Load A peasant
-M 0 14532 4 14612 Load A peasant
-M 0 14532 4 14612 Load A peasant
+M 0 14532 4 14612 Load a peasant
+M 0 14532 4 14612 Load a peasant
+M 0 14532 4 14612 Load a peasant
+M 0 14532 4 14612 Load a peasant
 S
 
 
 
 #PROGS
 M 14503 2006 Mudweiser MOBProgs/1503.prg Load to: Dennis
-M 14508 102 Stub French Taunter Load to: A French Soldier
-M 14516 20 CityGuard Load to: A Wedding Guard
-M 14523 2007 Mudweiser MOBProgs/1523.prg Load to: A Knight of Nee
-M 14523 103 Stub Nee Load to: A Knight of Nee
+M 14508 102 Stub French Taunter Load to: a French Soldier
+M 14516 20 CityGuard Load to: a Wedding Guard
+M 14523 2007 Mudweiser MOBProgs/1523.prg Load to: a Knight of Nee
+M 14523 103 Stub Nee Load to: a Knight of Nee
 M 14524 104 Stub Tim Load to: Tim the Enchanter
 M 14528 102 Stub French Taunter Load to: An Elite French Soldier
-M 14529 102 Stub French Taunter Load to: The French Captain
-M 14532 2008 Mudweiser MOBProgs/1532.prg Load to: A peasant
+M 14529 102 Stub French Taunter Load to: the French Captain
+M 14532 2008 Mudweiser MOBProgs/1532.prg Load to: a peasant
 S
 
 

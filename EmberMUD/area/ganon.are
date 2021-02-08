@@ -11,47 +11,47 @@ End
 #21703
 homeless man~
 a homeless man~
-A scragly, looking homeless man is here sleeping, he seems to be cuddling a key of some sort
+A scraggly-looking homeless man is here sleeping. He seems to be cuddling a key of some sort.
 ~
-~
+(null)~
 Human~
 AB A 100 S
-3 1
+3 1 
 100 0 0 0 2d5+4 10d7+3 3d1+6 13
 -1 0 0 0
 0 I 0 LQ
 4 4 1 100
-AHMQV ABCDEFGHIJK S unknown
+AHMQV ABCDEFGHIJK S 0
 #21705
 Dragon~
-A Huge Dragon~
+a Huge Dragon~
 A Huge Dragon senses you, and attacks.
 ~
 The huge dragon looks around 7 feet tall, 400 lbs. Not someone you would want to 
 mess with..
 ~
-Bluedragon~
+unique~
 AFG JKT -1000 S
-52 10
+52 10 
 100 0 0 0 10d169+920 52d10+100 5d10+25 27
 -4 -4 -4 -2
 M J IO K
 8 8 1 0
-AHMVXZ ABCDEFGHIJKLPQUVX L unknown
+AHMVXZ ABCDEFGHIJKLPQUVX L 0
 #21708
 wererat~
 An ugly wererat~
 An ugly wererat growls angrily at you.
 ~
-~
+(null)~
 Wolf~
 ABF Z -1000 S
-53 30
+53 30 
 100 0 0 0 10d169+940 53d10+100 5d12+25 5
 -4 -4 -4 -2
 FH 0 0 0
 8 8 0 0
-AGV ACDEFJKQV M unknown
+AGV ACDEFJKQV M 0
 #21710
 Darkoth~
 Darkoth~
@@ -62,68 +62,68 @@ his head.
 ~
 Human~
 AF 0 -1000 S
-55 25
+55 25 
 100 0 0 0 10d180+940 55d10+100 5d15+27 3
 0 0 0 0
 0 0 0 0
 8 8 0 300
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21718
 Concubine~
-A concubine~
+a concubine~
 A concubine growls angrily at you.
 ~
-~
+(null)~
 pig~
 ACH 0 800 S
-6 6
+6 6 
 100 0 0 0 14d14+15 6d10+100 2d3+4 22
 0 0 0 0
 M 0 0 0
 8 8 1 0
-AGV ACDEFHJK S unknown
+AGV ACDEFHJK S 0
 #21719
 Gleep~
-A tiny gleep~
+a tiny gleep~
 A tiny Gleep is here chasing it's tail.
 ~
-~
+(null)~
 Human~
 AH Q 1000 S
-5 4
+5 4 
 100 0 0 0 2d25+99 4d10+100 1d6+6 10
 0 0 0 0
 C 0 0 0
 8 8 2 0
-AGHMV ABCDEFGHIJK S unknown
+AGHMV ABCDEFGHIJK S 0
 #21720
 drider~
-A drider~
+a drider~
 A drider stands here looking for a way to pass time.
 ~
-~
+(null)~
 lizard~
 AC 0 750 S
-5 6
+5 6 
 100 0 0 0 3d41+130 7d10+100 2d3+3 9
 0 0 0 0
 0 0 L I
 8 8 0 0
-AGHMVXc ABCDEFGHIJKQV S unknown
+AGHMVXc ABCDEFGHIJKQV S 0
 #21721
 Newt~
 a newt~
 A newt is trying to bury itself in the dirt.
 ~
-~
+(null)~
 Human~
 AQ W 500 S
-5 5
+5 5 
 100 0 0 0 1d17+42 5d10+100 2d3+2 16
 0 0 0 0
 0 0 0 0
 8 8 2 0
-AGHMV ABCDEFGHIJK S unknown
+AGHMV ABCDEFGHIJK S 0
 #21722
 Phardon~
 Phardon~
@@ -135,96 +135,96 @@ straight up in his cage.
 ~
 bear~
 AF 0 -500 S
-48 25
+48 25 
 100 0 0 0 10d169+920 48d10+100 5d10+25 18
 -4 -4 -4 -2
 DEO 0 EI 0
 8 8 0 0
-AGV ABCDEFHJKUV M unknown
+AGV ABCDEFHJKUV M 0
 #21723
 albino lizard~
 An albino lizard~
 An albino lizard is here licking itself.
 ~
-~
+(null)~
 lizard~
 A 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 1 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #21724
 red/green lizard~
-A redish green lizard~
+a redish green lizard~
 A redish green lizard is here digging in the sand.
 ~
-~
+(null)~
 lizard~
 A 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 0 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #21725
 striped lizard~
-A striped lizard~
+a striped lizard~
 A striped lizard is here relaxing.
 ~
-~
+(null)~
 lizard~
 A 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 2 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #21726
 polka lizard~
-A polka-dot lizard~
+a polka-dot lizard~
 A polka-dot lizard is here relaxing.
 ~
-~
+(null)~
 lizard~
 AG 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 1 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #21727
 green lizard~
-A green lizard~
+a green lizard~
 A green lizard is here.
 ~
-~
+(null)~
 lizard~
 AH 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 2 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #21728
 brown lizard~
-A brown lizard~
+a brown lizard~
 A brown lizard is here crawling around.
 ~
-~
+(null)~
 lizard~
 A 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 15d10+100 3d5+8 5
 -1 -1 -1 0
 0 0 L I
 8 8 1 0
-AGXc ACDEFHKQV M unknown
+AGXc ACDEFHKQV M 0
 #0
 
 
@@ -285,11 +285,11 @@ purple vines cover the gate.
 ~
 0 4 10
 D2
-~
+(null)~
 ~
 0 0 21701
 D3
-~
+(null)~
 ~
 0 0 16053
 S
@@ -303,15 +303,15 @@ To the east is a rather worn down looking guard house.
 ~
 0 1024 10
 D0
-~
+(null)~
 ~
 0 0 21700
 D1
-~
+(null)~
 ~
 0 0 21703
 D2
-~
+(null)~
 ~
 0 0 21706
 S
@@ -325,11 +325,11 @@ into it. There is a tiny stream of water trickling underneath.
 ~
 0 2097152 10
 D1
-~
+(null)~
 ~
 0 0 21706
 D3
-~
+(null)~
 ~
 0 0 21704
 S
@@ -342,7 +342,7 @@ the ceiling.
 ~
 0 9 0
 D3
-~
+(null)~
 ~
 0 0 21701
 S
@@ -356,19 +356,19 @@ south and the north, maybe this place isn't deserted after all?
 ~
 0 2097152 10
 D0
-~
+(null)~
 ~
 0 0 21707
 D1
-~
+(null)~
 ~
 0 0 21702
 D2
-~
+(null)~
 ~
 0 0 21709
 D3
-~
+(null)~
 ~
 1 21703 21705
 S
@@ -381,7 +381,7 @@ doesn't help with a big Dragon breathing down your neck either.
 ~
 0 2097152 10
 D1
-~
+(null)~
 ~
 1 0 21704
 S
@@ -392,15 +392,15 @@ garden. A big wooden sign nailed to a tree is visible here.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21701
 D2
-~
+(null)~
 ~
 0 0 21712
 D3
-~
+(null)~
 ~
 0 0 21702
 S
@@ -413,11 +413,11 @@ rackett.
 ~
 0 2097152 10
 D2
-~
+(null)~
 ~
 0 0 21704
 D3
-~
+(null)~
 ~
 1 21703 21708
 S
@@ -430,7 +430,7 @@ old cage, and had needed a new one.
 ~
 0 2097152 10
 D1
-~
+(null)~
 ~
 1 21703 21707
 S
@@ -444,15 +444,15 @@ way, but no one is certain. The path continues to the south.
 ~
 0 2097152 10
 D0
-~
+(null)~
 ~
 0 0 21704
 D2
-~
+(null)~
 ~
 0 0 21722
 D3
-~
+(null)~
 ~
 1 21703 21710
 S
@@ -466,7 +466,7 @@ stand is company.
 ~
 0 0 10
 D1
-~
+(null)~
 ~
 1 0 21709
 S
@@ -478,15 +478,15 @@ waterfall. There is a small island to the south.
 ~
 0 4 7
 D1
-~
+(null)~
 ~
 0 0 21724
 D2
-~
+(null)~
 ~
 0 0 21725
 D3
-~
+(null)~
 ~
 0 0 21717
 S
@@ -497,15 +497,15 @@ garden. A big fountain here gushes up, creating a arch around you.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21706
 D1
-~
+(null)~
 ~
 0 0 21715
 D2
-~
+(null)~
 ~
 0 0 21713
 S
@@ -517,15 +517,15 @@ there is a water supply around here making the grass grow?
 ~
 0 1024 10
 D0
-~
+(null)~
 ~
 0 0 21712
 D1
-~
+(null)~
 ~
 0 0 21716
 D2
-~
+(null)~
 ~
 0 0 21714
 S
@@ -538,11 +538,11 @@ is, as you hear a lake of water splashing around to the east.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21713
 D1
-~
+(null)~
 ~
 0 0 21717
 S
@@ -554,11 +554,11 @@ you. Thick vines grow all through it. To the east is a lattace door.
 ~
 0 0 10
 D1
-~
+(null)~
 ~
 1 21703 21719
 D3
-~
+(null)~
 ~
 0 0 21712
 S
@@ -570,7 +570,7 @@ looking for food.
 ~
 0 0 10
 D3
-~
+(null)~
 ~
 0 0 21713
 S
@@ -583,11 +583,11 @@ continues to the east.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 21711
 D3
-~
+(null)~
 ~
 0 0 21714
 S
@@ -599,11 +599,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21720
 D3
-~
+(null)~
 ~
 0 0 21719
 S
@@ -615,15 +615,15 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21721
 D1
-~
+(null)~
 ~
 0 0 21718
 D3
-~
+(null)~
 ~
 1 21703 21715
 S
@@ -635,11 +635,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D2
-~
+(null)~
 ~
 0 0 21718
 D3
-~
+(null)~
 ~
 0 0 21721
 S
@@ -651,11 +651,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D1
-~
+(null)~
 ~
 0 0 21720
 D2
-~
+(null)~
 ~
 0 0 21719
 S
@@ -668,11 +668,11 @@ much smaller than the other's.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21709
 D3
-~
+(null)~
 ~
 1 21703 21723
 S
@@ -684,7 +684,7 @@ small monster. The cage looks fairly decent, nothing out of the ordenary...
 ~
 0 0 10
 D1
-~
+(null)~
 ~
 1 0 21722
 S
@@ -709,15 +709,15 @@ relaxing. You can't blame the lizards for wanting to stay here.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21711
 D1
-~
+(null)~
 ~
 0 0 21726
 D2
-~
+(null)~
 ~
 0 0 21728
 S
@@ -729,7 +729,7 @@ is back to the west, the way you came.
 ~
 0 0 10
 D3
-~
+(null)~
 ~
 0 0 21725
 S
@@ -742,7 +742,7 @@ red bottle sticking out of the sand.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 21728
 S
@@ -755,11 +755,11 @@ about anywhere else you could possibly look.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 21725
 D1
-~
+(null)~
 ~
 0 0 21727
 S
@@ -776,27 +776,27 @@ D 0 21715 1 1
 D 0 21719 3 1
 D 0 21722 3 0
 D 0 21723 1 0
-M 0 21703 1 21703
-E 0 21703 0 17
-M 0 21705 1 21705
-O 0 21706 0 21706
-M 0 21708 1 21708
-M 0 21710 1 21710
-O 0 21711 0 21712
-O 0 21715 0 21716
-O 0 21716 0 21716
-M 0 21718 1 21718
-M 0 21719 1 21719
-M 0 21720 1 21720
-M 0 21719 1 21720
-M 0 21721 1 21721
-M 0 21722 1 21723
-M 0 21724 1 21725
-M 0 21725 1 21725
-M 0 21726 1 21726
-M 0 21728 1 21727
-M 0 21723 1 21727
-M 0 21727 1 21728
+M 0 21703 0 21703 Load a homeless man
+E 0 21703 0 17 A big, silver key is loaded held in the hands of a homeless man
+M 0 21705 0 21705 Load a Huge Dragon
+O 0 21706 0 21706 A sign loaded to A stone walkway
+M 0 21708 0 21708 Load An ugly wererat
+M 0 21710 0 21710 Load Darkoth
+O 0 21711 0 21712 A gushing fountain loaded to A stone walkway
+O 0 21715 0 21716 A hollow tree loaded to Premonade
+O 0 21716 0 21716 A cozy little bench loaded to Premonade
+M 0 21718 0 21718 Load a concubine
+M 0 21719 0 21719 Load a tiny gleep
+M 0 21720 0 21720 Load a drider
+M 0 21719 0 21720 Load a tiny gleep
+M 0 21721 0 21721 Load a newt
+M 0 21722 0 21723 Load Phardon
+M 0 21724 0 21725 Load a redish green lizard
+M 0 21725 0 21725 Load a striped lizard
+M 0 21726 0 21726 Load a polka-dot lizard
+M 0 21728 0 21727 Load a brown lizard
+M 0 21723 0 21727 Load An albino lizard
+M 0 21727 0 21728 Load a green lizard
 S
 
 
@@ -805,7 +805,13 @@ S
 S
 
 
+
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

@@ -43,7 +43,7 @@ ACDEFHIKLNOT ABIP CDH NS
 CL ABCDEGHIJK H unknown
 #25702
 cleric shopkeeper blue-hooded~
-A blue-hooded Cleric~
+a blue-hooded Cleric~
 A blue-hooded Cleric acts as a shopkeeper.
 ~
 An old wise man with a long white beard. A blue cloak hangs around his
@@ -208,7 +208,7 @@ CL ABCDEGHIJK M unknown
 #25712
 warrior shopkeeper~
 a warrior shopkeeper~
-A warrior takes the part of shopkeeper
+A warrior takes the part of shopkeeper.
 ~
 This man looks similar to the other warriors roaming the city streets. 
 He opened business in Darkmere hoping to attract more young adventurers.  
@@ -451,7 +451,7 @@ CL ABCDEGHIJK M unknown
 #25728
 dealer shopkeep~
 the dealer~
-The dealer waits for your order
+The dealer waits for your order.
 ~
 A large man, probably very stupid. He is very tall, and also very fat. 
 You might want to check you reflection in his shiny bald head, but he may
@@ -782,8 +782,8 @@ shopkeeper antiques dealer~
 the Antiques Dealer~
 A stubby Dwarf sits behind a counter.
 ~
-A stubby little dwarf with one eye squinting at you.  "Is that you
-Charley boy?"  He says seniley. His pants are dirty and covered in dust,
+A stubby little dwarf with one eye squinting at you. "Is that you
+Charley boy?" He says seniley. His pants are dirty and covered in dust,
 almost hiding their dull red color. His drab brown eyes look as if they are
 failing him, and he wears small, round glasses on the end of his long,
 skinny nose. His cheeks are puffy and rosy red, and his voice is that of an
@@ -1189,7 +1189,7 @@ A
 #25726
 armor pithcus armor-body~
 the armor of Pithcus~
-Some glowing armor with an engraved mark, %P%~
+Some glowing armor with an engraved mark, %P%.~
 unknown~
 9 ARSUVWX AD
 ABDE ABDE ABDE CE 0
@@ -1203,7 +1203,7 @@ A
 #25727
 shield pithcus armor-shield~
 the shield of Pithcus~
-A glowing shield with the engraving, %P%~
+A glowing shield with the engraving, %P%.~
 unknown~
 9 ARSUVWX AJ
 DE DE DE BE 0
