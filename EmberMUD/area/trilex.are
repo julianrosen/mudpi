@@ -1,0 +1,3553 @@
+#AREADATA
+Name        { 5 65} Trilex  Daggerford~
+Builders    Trilex~
+VNUMs       17700 17799
+Security    6
+End
+
+
+
+#MOBILES
+#17700
+yence warrior apprentice dwarf~
+Yence, Shopkeeper~
+Yence the shopkeeper stands here ready to help you.
+~
+Yence the young shopkeeper is an apprentice to Thorkill.  Running this 
+shop is his community service duty.  Yence is a fine young dwarf, wise
+in the ways of making weapons.
+~
+Dwarf~
+ABd J 0 S
+70 0 
+100 0 0 0 2000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+FK BCD CLQ R
+8 8 0 10000000
+AHMV ABCDEFGHIJK M 0
+#17701
+thorkill warrior teacher master~
+Thorkill~
+Thorkill stands here waiting to help young students practice.
+~
+Thorkill is a large Reddragon Warrior. He has spent many years perfecting
+his skills and now wishes to guide young warriors.  He stands here before
+you as a friend and master.  Do not think of attempting to cross him, for 
+he does not like traitors.
+~
+unique~
+ABJKbd HJT 0 S
+70 0 
+100 0 0 0 2500d1+500 0d0+0 9d9+20 21
+-10 -10 -10 -8
+M BCDH O I
+8 8 0 1000
+HXZ ACDEFHJKQUVX L 0
+#17702
+priest cleric priestly shopkeeper keeper~
+Priestly shopkeeper~
+A priestly shopkeeper greets you with a smile.
+~
+This young dwarf works this shop out of the kindness of his heart. His
+bargains so far its a wonder he can stay in buisness.  Attacking him is
+out of the question
+~
+Dwarf~
+ABd J 0 S
+90 0 
+100 0 0 0 4000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD CLQ R
+8 8 0 1000000000
+AHMV ABCDEFGHIJK M 0
+#17703
+adarkar teacher instructor~
+Adarkar~
+Adarkar stands here helping you train.
+~
+This is Timion's old teacher Adarkar.  Adarkar is a very wise sage who
+was granted immortality when his finest student, Timion recieved title as
+diety.  He stands here to help you practice, train and gain new skills and
+spells.  You would never think of attacking this humble, kind, old man.
+~
+Elf~
+ABJKbd HJ 1000 S
+90 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B Z
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17704
+bartender bar tender dwarf~
+bartender~
+A Bartender sits here waiting to serve you.
+~
+(null)~
+Dwarf~
+AB JV 1000 S
+30 45 
+100 0 0 0 120d9+14 100d24+30 9d6+25 13
+0 0 0 0
+DFK BFHI CDLQ MR
+8 8 0 2456
+AHMV ABCDEFGHIJK M 0
+#17705
+frantic shopkeeper~
+a frantic shopkeeper~
+A frantic shopkeeper runs about.
+~
+(null)~
+Elf~
+ABd J 0 S
+90 30 
+100 0 0 0 10000d1+50 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B Z
+8 8 0 100000
+AHMV ABCDEFGHIJK M 0
+#17706
+old man~
+An Old Man~
+An old, scar-faced man stands here.
+~
+(null)~
+Elf~
+ABd J 0 S
+90 0 
+100 0 0 0 1000d10+10 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B Z
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17707
+master thief shadow~
+a Shadow~
+`kShadows conceal the Master of Thieves.
+~
+(null)~
+Elf~
+ABJKbd J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B Z
+8 8 0 10000
+AHMV ABCDEFGHIJK M 0
+#17708
+elf elven shopkeeper young~
+A young elf~
+A young elven shopkeeper stands here waiting to help you.
+~
+(null)~
+Elf~
+ABd J 0 S
+10 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B Z
+8 8 0 1000000
+AHMV ABCDEFGHIJK M 0
+#17709
+dwarf dwarven bartender~
+Dwarven Bartender~
+A large dwarven bartender rests here ready to listen.
+~
+(null)~
+Dwarf~
+ABd J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD CLQ R
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17710
+crooked drow old~
+A crooked drow~
+`kA crooked drow is concealed in the shadows.
+~
+(null)~
+unique~
+ABd JZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 10000
+AHMV ABCDEFGHIJK M 0
+#17711
+mage equipper~
+A mage~
+A Mage Equipper stands here ready to aid you.
+~
+(null)~
+unique~
+ABd JZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 10000
+AHMV ABCDEFGHIJK M 0
+#17712
+wizard great mage~
+The Great Wizard~
+The Greatest of all Wizards floats before you on a cloud of sparks.
+~
+You should not poke your nose where it shouldn't be.  This 
+wizard's magic might blind you. You look away.
+~
+unique~
+ABJKRbd JZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17713
+devale paladin~
+Devale~
+Master of Paladins, Devale, rests here.
+~
+This mighty paladin shows no sign of fear towards you.  You know that
+this is not because he hates, but because he welcomes.  He is here to
+help you train, practice, and gain.  Do not cross him or you will die!
+~
+Dwarf~
+ABJKbd J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD CLQ R
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17714
+bartender~
+The bartender~
+The bartender sits here waiting to listen to you or sell you a drink.
+~
+(null)~
+Dwarf~
+ABd J 0 S
+90 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 CLQ R
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17715
+malatus shopkeeper~
+Malatus~
+Malatus, the shopkeeper, greets you with a smile.
+~
+(null)~
+Dwarf~
+ABd J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD CLQ R
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17716
+Transon~
+Transon~
+Transon sits behind his desk.
+~
+Transon sits behind his desk, ever studiously.  FOr some reason you don't
+think messing with him would be a good idea.  For why would a desk clerk
+wield the powerful golden scimitars?
+~
+Human~
+ABGT 0 0 S
+10 200 
+100 0 0 0 50d10+60 0d0+0 3d10+2 0
+0 0 0 0
+0 0 C 0
+8 8 1 0
+AHMV ABCDEFGHIJK L 0
+#17717
+shadows magical magic~
+`kShadows~
+`GM`Ra`yg`Mi`Bc `kshadows `Rs`Cw`Mi`Cr`Rl `Gabout.
+~
+(null)~
+unique~
+ABJKbd JUZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17718
+bartender dwarf dwarven~
+A bartender~
+A bartender smiles and offers you a drink.
+~
+(null)~
+Dwarf~
+ABd J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 CLQ R
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17719
+timion diety god cleric priest~
+Timion, Powerful Diety~
+Timion the Mighty Diety meditates here.
+~
+You see before you, the Great Diety, Timion.  He glows with an essence of
+overwhelming calming neutrality.  His powers are great and his intellect and
+knowledge of lawfulness unmatched, even by those who wrote the laws.  He
+appears to be quite strong, even bare and weaponless this diety could defeat
+the mightiest player.  You can almost feel a great aura eminating from him. 
+His chosen form, as radiant as his immortality, is that of a young adult
+male at about the age of 35 and standing an impressive six and one half feet
+tall.  Well built, but not overly for a human, his stature is also graceful
+and swift, however, his exact facial features are a bit hard to focus upon
+due to the aura that constantly tingles your skin.  
+~
+Human~
+ABJKTb CFHV 0 S
+90 500 
+100 0 0 0 25000d1+5304 40d5+100 3000d3+587 20
+-500 -500 -500 -550
+CDEFKN CHILNOQS DEKMP 0
+8 8 1 1000
+AHMV ABCDEFGHIJK L 0
+#17720
+shopkeeper drow elf~
+Drow~
+A drow shopkeeper stands here.
+~
+(null)~
+unique~
+ABd JZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B SZ
+8 8 0 10000
+AHMV ABCDEFGHIJK M 0
+#17721
+gate watchman ~
+a Gate Watchman~
+A gate watchman stands here eyeing you closely as you enter the city.
+~
+(null)~
+Human~
+AB JV -1000 S
+31 34 
+100 0 0 0 25d55+55 0d0+0 8d5+8 7
+-5 -5 -5 3
+CDEFKNU 0 BD C
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#17722
+militiaman man~
+a militiaman~
+A militiaman strolls along.
+~
+(null)~
+Human~
+AT JV -500 S
+18 18 
+100 100 7 AE 10d60+150 0d0+0 9d3+4 0
+-4 -4 -4 -5
+CDEFKT 0 C F
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17723
+mage magic user~
+`MA Mage`w~
+`MA mage is here.`w
+~
+(null)~
+unique~
+AR HJVZ -250 S
+15 8 
+100 0 0 0 10d30+100 100d1+150 2d9+1 18
+-6 -6 -6 -5
+FK 0 BC SZ
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17724
+mystic drow ~
+A mystic~
+`RA mystic is here, awaiting your next move.
+~
+(null)~
+unique~
+AR HJVZ -250 S
+30 23 
+100 96 4 BCF 450d1+2 100d2+200 6d6+2 18
+-7 -7 -7 -6
+FK 0 BC SZ
+8 8 0 3333
+AHMV ABCDEFGHIJK M 0
+#17725
+dog fido~
+A dog~
+A dog sits here panting happily.
+~
+(null)~
+dog~
+A 0 -15 S
+5 5 
+100 0 0 0 45d1+3 0d0+0 4d2+0 10
+0 0 0 0
+H 0 0 D
+8 8 0 0
+AGV ACDEFHJKUV S 0
+#17726
+cat~
+A cat~
+A cat purrs as you walk by.
+~
+(null)~
+cat~
+A Z 0 S
+5 0 
+100 0 0 0 35d1+0 0d0+0 3d2+0 5
+0 0 0 0
+FH 0 0 0
+8 8 0 0
+AGV ACDEFHJKQUV S 0
+#17727
+beggar~
+a beggar~
+A beggar is here asking for donations.
+~
+(null)~
+Human~
+A 0 100 S
+7 0 
+100 0 0 0 70d1+0 0d0+0 5d2+0 0
+0 0 0 0
+F 0 0 0
+8 8 0 1
+AHMV ABCDEFGHIJK M 0
+#17728
+citizen~
+a citizen~
+A citizen strolls along casually.
+~
+(null)~
+Human~
+A V -450 S
+8 8 
+100 0 0 0 98d1+0 0d0+0 5d2+1 16
+0 0 0 0
+CFK 0 0 C
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17729
+farmer~
+a farmer~
+A farmer stands here looking for someone who wants to buy corn.
+~
+(null)~
+Human~
+A V 0 S
+10 10 
+100 0 0 0 113d1+0 0d0+0 6d3+1 17
+-1 -1 -1 0
+CDFIKN 0 C 0
+8 8 0 500
+AHMV ABCDEFGHIJK M 0
+#17730
+merchant traveling~
+a merchant~
+A merchant stands here ready to sell you anything.
+~
+(null)~
+Elf~
+A JV -650 S
+12 15 
+100 50 4 AEG 194d1+0 0d0+0 11d3+1 13
+-2 -2 -2 0
+0 0 B Z
+8 8 0 2500
+AHMV ABCDEFGHIJK M 0
+#17731
+business owner supervisor~
+A business owner~
+A business owner stands here carefully directing his crew.
+~
+(null)~
+Human~
+AB HNVW -500 S
+30 45 
+100 0 0 0 40d30+15 0d0+0 6d7+3 9
+-3 -3 -3 -2
+EFK 0 C D
+8 8 1 10000
+AHMV ABCDEFGHIJK M 0
+#17732
+worker builder~
+A Worker~
+A worker stands here building happily.
+~
+(null)~
+Dwarf~
+AB JV -750 S
+15 25 
+100 0 0 0 35d10+25 0d0+0 6d7+7 7
+0 0 0 0
+CDFHIKN 0 CDLQ CIJNR
+8 8 0 25
+AHMV ABCDEFGHIJK M 0
+#17733
+thief~
+a thief~
+A thief manuevers through the shadows.
+~
+(null)~
+unique~
+AS BJPQVZ -1000 S
+20 20 
+100 0 0 0 411d1+30 0d0+0 11d3+1 0
+0 0 0 0
+BEFGHK 0 B SZ
+8 8 0 15000
+AHMV ABCDEFGHIJK M 0
+#17734
+bartender dwarf dwarven innkeeper keeper~
+an innkeeper~
+An innkeeper is here to offer you the customary drink.
+~
+(null)~
+Dwarf~
+ABd J 0 S
+100 0 
+100 0 0 0 1000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 CLQ R
+8 8 0 100
+AHMV ABCDEFGHIJK M 0
+#17735
+jeweller~
+a Jeweller~
+A jeweller is here applying finishes to precious gems.
+~
+(null)~
+Human~
+ABd 0 0 S
+100 0 
+100 0 0 0 1000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 1000000000
+AHMV ABCDEFGHIJK M 0
+#17736
+florist rose~
+Rose~
+Rose, the florist, is here to help you.
+~
+(null)~
+Human~
+ABd 0 0 S
+100 0 
+100 0 0 0 1000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 B 0 0
+8 8 0 100
+AHMV ABCDEFGHIJK M 0
+#17737
+baker~
+a baker~
+A baker is here, covered in flour.
+~
+(null)~
+Human~
+ABd 0 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 1000
+AHMV ABCDEFGHIJK M 0
+#17738
+kaxus guildmaster~
+Kaxus, Avenger Guildmaster~
+Kaxus, Avenger Guildmaster stares intently at you.
+~
+Kaxus Stands before.  His tall dark figure looms over you like 
+nothing you have seen before.  You know that the power he posesses is far
+superior to your own.  You bow before him and beg his blessings.
+~
+unique~
+ABJKbd HJZ 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B SZ
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#17739
+scar-faced mean mercenary killer~
+A mercenary~
+A mean, scar-faced mercenary spits at you.
+~
+This scar-faced, mean ole mercenary tortures the weak and hunts
+the strong.  He kills to live, and would gladly kill you.  He scoffs
+at you and calls you bad names.  You feel like you want to cry.
+~
+unique~
+AT JVZ -1000 S
+15 20 
+100 100 6 AE 60d15+50 0d0+0 8d2+3 27
+-2 -2 -2 -2
+CDEFHKN 0 BC SZ
+8 8 1 4500
+AHMV ABCDEFGHIJK M 0
+#17740
+solider trainee cadet~
+A cadet~
+A young dwarven cadet stands here at attention.
+~
+This young cadet is intent on following the orders of the drill 
+captain.  You sense she is well versed in the ways of combat.  You
+decide it wouldn't be wise to attack her.
+~
+Dwarf~
+ABT JVa -500 S
+25 25 
+100 0 0 0 50d15+450 0d0+0 8d3+7 13
+-4 -4 -4 -4
+CFHKOR 0 CEFLQ GOR
+8 8 2 350
+AHMV ABCDEFGHIJK M 0
+#17741
+drill captain commander dwarf~
+A drill captain~
+A drill captain keeps the young cadets in order.
+~
+This drill captain is harsh.  He keeps his young cadets in shape and
+obedient through fear.  He rules with an iron fist, a fist you don't want to
+be hit with.
+~
+Dwarf~
+ABT JVa -750 S
+45 45 
+100 0 0 0 65d15+450 0d0+0 8d4+8 27
+-5 -5 -5 -5
+CFHIKNO 0 CLQ R
+8 8 1 5435
+AHMV ABCDEFGHIJK M 0
+#17742
+arcades shopkeeper~
+Arcades~
+Arcades is here waiting to help you with your purchase.
+~
+Arcades is a massive dragon.  For some reason, you feel safe here though.
+The large dragon is actually quite friendly.  He stands here ready to
+display his large selection of weapons and armour.
+~
+unique~
+ABd JT 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+M H O I
+8 8 0 1000000
+HXZ ACDEFHJKQUVX M 0
+#17743
+shadow man~
+`RThe `kShadow `GMan.~
+`RThe `kShadow `GMan `Cstands here.
+~
+This man is dark and deceptive and sells Shadow Equipment.  That
+is how he became the shadow man.  You ferar his power and think nothing
+of attacking him and decide just to buy his eq.
+~
+Elf~
+ABd J -1000 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B Z
+8 8 0 100000
+AHMV ABCDEFGHIJK M 0
+#17744
+gate watchman~
+a Gate Watchman~
+A gate watchman stands here eyeing you closely as you enter the city.
+~
+(null)~
+Human~
+AB V -1000 S
+32 34 
+100 0 0 0 25d55+55 0d0+0 8d5+8 7
+-5 -5 -5 3
+CDEFKNTU 0 D H
+8 8 1 2000
+AHMV ABCDEFGHIJK M 0
+#17745
+gate watchman~
+a Gate Watchman~
+A gate watchman stands here eyeing you closely as you enter the city.
+~
+(null)~
+Human~
+AB V -1000 S
+32 34 
+100 0 0 0 25d55+55 0d0+0 8d5+8 7
+-5 -5 -5 3
+CDEFKNU 0 D C
+8 8 3 7500
+AHMV ABCDEFGHIJK M 0
+#17746
+gate watchman~
+a Gate Watchman~
+A gate watchman stands here eyeing you closely as you enter the city.
+~
+(null)~
+Human~
+AB V -1000 S
+32 34 
+100 0 0 0 25d55+55 0d0+0 8d5+8 7
+-5 -5 -5 3
+CDEFKNU 0 D C
+8 8 3 7500
+AHMV ABCDEFGHIJK M 0
+#17747
+lil old lady~
+a Li'l old lady~
+A smiling li'l old lady is here.
+~
+(null)~
+Elf~
+AB J 0 S
+100 0 
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B Z
+8 8 2 100
+AHMV ABCDEFGHIJK M 0
+#17760
+creature~
+Enslaved Creature~
+An enslaved creature is bound here.
+~
+This creature lies here enslaved by the great TImion, his sores are many
+and show that he once fought the Great Diety, and lost.  These magical 
+chains bind him to the floor, yet still allow him to attack when needed.
+~
+hobgoblin~
+AB J -1000 S
+20 100 
+100 0 0 0 12d40+150 0d0+0 9d10+13 8
+0 0 0 0
+CDEFKO M CHILQ D
+8 8 0 0
+X ABCDFGIQVWX M 0
+#17761
+guard gold~
+Gold Guard~
+A golden guard of Timion watches you.
+~
+This Guard is a masterful warrior with much training in sword and hand-
+to-hand.  In the Hall Of Justice Timion has bestowed upon them the power of
+gold.  Not only gold but magically enchanted gold that lightens the weight
+while increasing the strength. You sense it would not be a good idea to 
+think of attacking this guard...
+~
+Human~
+AT CDFGHWa 1000 S
+25 0 
+100 0 0 0 10d50+200 0d0+0 5d8+8 1
+-5 -5 -5 -4
+DFIKT BHNOS CFIM E
+8 8 1 0
+AHMV ABCDEFGHIJK M 0
+#17762
+tulsa cleric priest servant~
+Tulsa~
+Tulsa, the Chosen Cleric stands before you.
+~
+Tulsa is a mighty dwarf chosen for his exceptional clerical abilities.  
+Under the masterful Timion, Tulsa has honed his abilities and become
+a great and powerful cleric.  You sense an indescrible aura about him.
+You don't want to mess with him.
+~
+Dwarf~
+AB CDFHJN 0 S
+35 50 
+100 0 0 0 9d150+125 5d75+75 5d10+15 18
+0 0 0 0
+DEFKOT BCFHNS CLMOQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M 0
+#17799
+gearbox box gnomish assistant gnome~
+Gearbox, Soulfire's gnomish assistant~
+Gearbox, Soulfire's assistant is tinkering with a large, odd-looking apparatus.
+~
+Judging from his singed beard and blackened face, this gnomish
+tinkerer is an expert at his field...tinkering.  He is Soulfire's #1
+man for marketing and sales (Soulfire just said that so he wouldn't kill
+himself in the inventing room).
+~
+goblin~
+ABd J 0 S
+0 0 
+100 0 0 0 12000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 Q C
+8 8 1 100000
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+
+#OBJECTS
+#17700
+dwarven battle axe~
+a Dwarven Battle Axe~
+A dwarven battle-axe lies here.~
+unknown~
+5 ISWX AN
+AC BC AC ADE D
+15 8 5000 P
+A
+18 10
+A
+1 1
+#17701
+silver broad sword~
+a Silver Broad Sword~
+A silver broad sword rests here.~
+unknown~
+5 BGS AN
+A C AC AB E
+10 9 4500 P
+A
+17 -5
+A
+18 2
+A
+19 2
+#17702
+dwarven platemail mail dpm~
+a Dwarven Plate Mail~
+A dwarven plate mail has been left here.~
+unknown~
+9 SWX AD
+D D D BC 0
+14 23 2000 P
+A
+17 -9
+A
+13 15
+A
+18 2
+A
+19 2
+#17703
+dwarven fullplate full plate dfp~
+a Dwarven Fullplate~
+A dwarven fullplate rests here.~
+unknown~
+9 ISWX AD
+ABCD ABCD ABCD BCD 0
+20 30 8500 P
+A
+20 -3
+A
+19 4
+A
+18 3
+A
+13 20
+#17704
+sword of fortune ~
+a Sword of Fortune~
+A Sword of Fortune rests here.~
+unknown~
+5 BIRSUVWX AN
+A D AC A ABF
+30 10 50000 P
+A
+3 1
+A
+19 8
+A
+18 8
+#17705
+morning star mace~
+a Morning Star Mace~
+A morning star mace is here.~
+unknown~
+5 AI AN
+C AC BC D 0
+20 9 10000 P
+A
+4 1
+A
+1 1
+A
+19 7
+A
+18 5
+A
+12 15
+#17706
+blessed holy mace club~
+a Blessed Holy Mace~
+A blessed holy mace lies here.~
+unknown~
+5 GI AN
+C AB AC ABC 0
+10 8 1500 P
+A
+19 2
+A
+18 3
+A
+4 1
+A
+3 1
+A
+1 1
+#17707
+dwarven ale mug~
+a Mug of Dwarven Ale~
+The wickedest ale you've seen rests here in a mug.~
+unknown~
+17 0 AO
+ADE AC C 0 0
+5 5 100 P
+#17708
+black boots~
+a pair of black boots~
+A pair of black boots lie here.~
+unknown~
+11 I AG
+0 0 0 0 0
+0 3 150 P
+A
+17 -2
+A
+2 1
+A
+14 30
+#17709
+cape clerical~
+a Cape of the Cleric~
+A cape of the cleric lies here.~
+unknown~
+11 GSTUVWX AK
+0 0 0 0 0
+5 9 250 P
+A
+3 1
+A
+4 2
+A
+17 -7
+#17710
+fullplate plate adarkarian fpoa~
+an Adarkarian Fullplate~
+A shimmering fullplate lies here.~
+unknown~
+9 ISWX AD
+ABE ABE ABE ABE 0
+30 27 30000 P
+A
+19 1
+A
+18 3
+A
+13 30
+A
+2 1
+A
+4 1
+#17711
+leather suit of adarkar lsoa~
+a Leather Suit of Adarkar~
+A magical leather suit lies here.~
+unknown~
+9 GISTVWX AD
+BD BD BD AD 0
+15 23 15000 P
+A
+13 15
+A
+2 2
+A
+4 1
+#17712
+chainmail elven mail ec~
+an Elven Chainmail~
+A finely crafted elven chainmail rests here.~
+unknown~
+9 I AD
+AD AC AD BC 0
+9 15 900 P
+A
+13 15
+A
+19 1
+A
+18 1
+A
+2 1
+#17713
+elven boots elvb~
+a pair of Elven Boots~
+A pair of boots fit for the finest lie here.~
+unknown~
+9 0 AG
+B B B B 0
+8 1 450 P
+A
+14 30
+A
+2 2
+#17714
+wicked elven brew web glass~
+a Glass of Wicked Elven Brew~
+A glass of some wicked brew rests here.~
+unknown~
+17 0 AO
+ADE AC D 0 0
+5 1 125 P
+#17715
+the "floor"~
+the Floor~
+"The Floor" is here. `R("look the_floor")~
+unknown~
+13 RTUVWX 0
+0 0 0 0 0
+0 0 0 P
+#17716
+peanuts some~
+a handful of peanuts~
+A pile of peanuts lie on the floor.~
+unknown~
+19 0 A
+D 0 0 0 0
+0 0 15 P
+#17717
+paladin's cloak cotp~
+a Paladin's Cloak~
+A magical cloak lies on the ground~
+unknown~
+11 RSTVWX AK
+0 0 0 0 0
+15 9 500 P
+A
+2 1
+A
+4 1
+A
+17 -5
+#17718
+mace of good faith mogf~
+a Mace of Good Faith~
+A holy club with sharp points lies on the ground.~
+unknown~
+5 BISTUVWX AN
+C C AC ABDE 0
+15 13 2500 P
+A
+1 1
+A
+4 1
+A
+3 1
+A
+19 7
+A
+18 1
+A
+12 10
+#17719
+magical kris dagger blade crokked~
+a Magical Kris Dagger~
+A crooked, magical blade lies on the floor.~
+unknown~
+5 GRSTUV AN
+B BC AC ABD 0
+25 6 8000 P
+A
+19 2
+A
+12 20
+A
+3 1
+A
+4 1
+#17720
+enchanted sleeves of magic enhancing~
+a Pair of Sleeves of Magic Enhancing~
+A pair of sleeves lies on the ground~
+unknown~
+9 GRSTUVW AI
+D ABC D AD 0
+18 2 1500 P
+A
+3 1
+A
+12 60
+A
+24 -4
+#17721
+claymore large sword~
+a Claymore~
+A large sword lies here.~
+unknown~
+5 BRSWX ANPQRSTUVWXYZabcdef
+A ABC ABC AB EF
+20 25 10000 P
+A
+18 5
+A
+19 5
+A
+1 1
+#17722
+spiked arm wraps spkaw~
+the `GSpiked `RArm `yWraps`w~
+A nasty pair of sleeves is on the groud.~
+unknown~
+9 BRSUVWX AI
+D D D ABC 0
+35 12 15000 P
+A
+19 8
+A
+18 3
+A
+13 10
+A
+1 1
+A
+17 -10
+#17723
+gauntlets of timion power gotp~
+the `RGauntlets `yof `GTimion `RPower`w~
+Powerful gauntlets lie on the groud, humming anti-evil.~
+unknown~
+9 ISVWX AH
+D D D D 0
+40 25 350000 P
+A
+24 -6
+A
+13 10
+A
+12 5
+A
+18 4
+A
+19 4
+A
+1 3
+#17724
+mace holy old crusader's crsmc~
+a Crusader's Mace~
+A holy mace of old lies on the ground.~
+unknown~
+5 SVWX AN
+C AC D ABDE 0
+30 9 12000 P
+A
+24 -1
+A
+20 -1
+A
+12 20
+A
+18 7
+A
+19 6
+A
+4 1
+#17725
+sleeves of divine magics~
+the Sleeves of `MDivine `GMagics`w~
+A pair of holy sleeves lie on the ground.~
+unknown~
+9 ISTWX AI
+ABC ABC ABC AC 0
+23 5 2300 P
+A
+12 20
+A
+1 1
+A
+13 5
+A
+20 -1
+#17726
+sword of the dark knight stkn~
+the `CSword of the `KDark `RKnight`w~
+An dark sword lies on the ground.~
+unknown~
+5 CESUWX ANPQRSTUVWXYZabcdef
+A D ABC ACE CEF
+33 25 12000 P
+A
+19 5
+A
+13 5
+A
+20 -2
+A
+18 5
+#17727
+spike-toe boots toe spiked vicious~
+the `RSpike`y-`GToed `CBoots`w~
+A vicious pair of boots lies on the ground.~
+unknown~
+9 RSWX AG
+ABC ABC ABC AC 0
+30 12 30000 P
+A
+18 3
+A
+19 1
+A
+2 1
+A
+14 100
+A
+13 5
+#17728
+great helm gh the~
+the `GGreat `KHelm`w~
+A great helm lies on the ground.~
+unknown~
+9 RSWX AE
+BC BC BC AC 0
+20 12 2000 P
+A
+4 1
+A
+3 1
+A
+18 4
+A
+19 4
+#17729
+cloak of evil power very~
+a `CCloak of `REvil `MPower`w~
+A very evil cloak lies on the ground.~
+unknown~
+9 CE AK
+BC BC BC ABC 0
+25 5 25000 P
+A
+12 15
+A
+20 -5
+A
+19 5
+A
+18 3
+#17740
+the sol ring~
+`rS`yo`rl `yR`ri`yn`rg`w~
+A brilliant, shining ring lies on the floor.~
+unknown~
+9 0 AB
+ABC ABC ABC AD 0
+35 3 15000 P
+A
+12 50
+A
+24 -3
+#17741
+sunstone~
+`yS`cu`yn`cs`yt`co`yn`ce`w~
+A pure rock of sunstone lies here.  It is said mages use such stones to channel magic through.~
+unknown~
+1 ASTUV AO
+0 0 210 0 0
+45 6 22500 P
+A
+3 1
+A
+4 2
+A
+12 70
+A
+13 20
+A
+17 -5
+#17742
+belt of fortitude strange looking~
+`gBelt `bof `gFortitude`w~
+A strange looking belt lies here.~
+unknown~
+9 0 AL
+BC BC BC BC 0
+20 12 7500 P
+A
+1 2
+A
+5 2
+A
+20 -3
+A
+14 20
+#17743
+leggings of the backwards mage not right~
+`yLeggings `bof `ythe `bBack`yWards `bMage`w~
+Leggings that just don't seem right are here.~
+unknown~
+9 0 AF
+AC AC AC AB 0
+8 0 850 P
+A
+1 1
+A
+4 1
+A
+3 -1
+A
+24 1
+A
+18 1
+A
+19 1
+A
+12 -10
+A
+13 10
+#17744
+sandals of stealth shadowy apparel~
+`gSandals `rof `KStealth`w~
+Shadowy foot apparel lie on the ground.~
+unknown~
+9 TUV AG
+A A A A 0
+15 2 1000 P
+A
+2 3
+A
+14 30
+#17745
+blade of light object~
+`cBlade `gof `yLight`w~
+An object glowing with incredible light lies on the ground.~
+unknown~
+5 AVW AN
+B BC BC BE 0
+35 11 20000 P
+A
+18 9
+A
+19 -3
+A
+1 -1
+A
+17 -10
+A
+13 50
+A
+12 50
+#17746
+gloves of spell weaving~
+`cGloves`g of `mSpell `bWeaving`w~
+A pair of delicate gloves lies on the ground.~
+unknown~
+9 GRSTUV AH
+D D D CD 0
+25 2 5000 P
+A
+13 -25
+A
+12 100
+A
+3 1
+#17747
+food ambrosia~
+`rambrosia`w~
+A food looking like that of the gods rests here.~
+unknown~
+19 I A
+CFG 0 0 0 0
+5 0 200 P
+#17748
+potion of the sun light~
+`cPotion `gof `bthe `ySun`w~
+A potion that pulses with an odd light lies here.~
+unknown~
+10 A A
+20 57 15 81 0
+20 2 15000 P
+#17749
+flame saber burning sword flaming fb~
+the `RFlame `ySaber`w~
+A burning sword lies on the groud.~
+unknown~
+5 A AN
+A BC BC A A
+25 12 75000 P
+A
+19 6
+A
+12 10
+A
+18 3
+#17750
+gold-riveted silver fullplate grsfp~
+a `yGold`R-`GRiveted `CSilver `KFullplate`w~
+An expensive peice of armor lies upon the ground.~
+unknown~
+9 BSWX AD
+AE AE AE AE 0
+30 10 100000 P
+A
+18 5
+A
+2 1
+A
+12 15
+A
+13 15
+A
+17 -5
+A
+24 -3
+#17751
+justice sword js~
+the `CJustice `GSword`w~
+A very powerful sword lies on the ground.~
+unknown~
+5 BISVWX AN
+A AD AC AB CE
+40 12 500000 P
+A
+18 9
+A
+19 9
+A
+13 25
+A
+24 -4
+#17752
+sword of white light swl gleaming~
+a Sword of `WWhite `yLight`w~
+A gleaming white sword lies on the ground.~
+unknown~
+5 AISVW AN
+A AC AC A A
+15 9 2500 P
+A
+18 5
+A
+19 5
+A
+12 5
+A
+13 5
+#17753
+gnarled wooden ring~
+a Wooden Ring~
+A gnarled wooden ring lies on the ground.~
+unknown~
+9 GI AB
+AB AB AB AB 0
+11 2 15 P
+A
+13 15
+A
+12 15
+A
+5 1
+#17780
+gold scimitar~
+a Golden Scimitar~
+This scimitar is made of magically crafted gold and vibrates with power.~
+unknown~
+5 AG AN
+A AB BC AB 0
+5 5 850 P
+#17781
+gold fullplate plate full ~
+a Golden Fullplate~
+A Golden Fullplate lies here.~
+unknown~
+9 AGSWX AD
+ABE E BE CE 0
+25 10 15000 P
+A
+19 5
+A
+18 2
+A
+2 1
+A
+13 25
+#17782
+gold sword broad broadsword~
+a Golden Broadsword~
+A Golden Broadsword lies here.~
+unknown~
+5 AGISVWX AN
+A BC BC AB E
+25 10 5000 P
+A
+19 3
+A
+18 3
+#17783
+timion fullplate plate tfp~
+a `yTimion `GFullplate`w~
+A Fullplate of Timion lies here.~
+unknown~
+9 AGISVWX AD
+CE ACE ACE CE 0
+30 15 100000 P
+A
+2 2
+A
+5 2
+A
+13 50
+A
+17 -5
+#17784
+sword of timion sot~
+a `RSword `Gof `yTimion`w~
+A Sword of Timion rests here.~
+unknown~
+5 BGISVWX ANPQRSTUVWXYZabcdef
+A AD D A DEF
+30 8 400000 P
+A
+1 1
+A
+18 10
+A
+19 8
+#17785
+shield of justice soj~
+a Shield of Justice~
+A shield of the Lawbringer lies here.~
+unknown~
+9 0 AJ
+ADE ADE ADE ADE 0
+5 3 2000 P
+#17786
+sword of law sol~
+a Sword of Law~
+A sword that emits a lawful aura lies on the ground.~
+unknown~
+5 SVWX AN
+A AC BC ACE DE
+20 8 200000 P
+A
+18 5
+A
+19 6
+A
+17 -5
+A
+13 10
+#17787
+warrior guild symbol~
+a symbol of the warrior's guild~
+A symbol composed of a sword and a shield lies on the ground here.~
+unknown~
+4 RSUVWX AO
+0 A A 0 0
+1 1 20000 P
+#17788
+mage guild symbol~
+a symbol of the mage's guild~
+A pendant shaped like a book lies here.~
+unknown~
+4 RSTUVW AO
+A A A 0 0
+1 3 20000 P
+#17798
+medallion faith timion~
+`cMedallion `mof `gFaith `r(`yTimion`r)`w~
+The truly faithful will sacrifice great power to wear a humble symbol of their God...on the medallion is inscribed the symbol of the Lawbringer, the balance.  Those who devote themselves to Him however may never remove it without grave consequences.~
+unknown~
+9 ADGIMSVW AC
+0 0 0 0 0
+1 0 0 P
+A
+4 5
+#17799
+sleeves~
+a pair of Immortal sleeves~
+A pair of sleeves you won't touch lies here.~
+unknown~
+9 0 AI
+CEFGHI CEFGHI CEFGHI CEFGHI 0
+90 1 0 P
+A
+19 10000
+A
+18 10000
+#0
+
+
+
+#ROOMS
+#17700
+The Entrance to the Hall of Justice~
+You see before you the ivory, marble, and gold entrance
+to the Hall of Justice.  A solid gold door is surrounded by
+massive towering marble pillars.  A lawful aura floats amongst
+the air.  Evil presences cower in fear from thie place.  You
+feel quite safe here.
+~
+0 4 2
+D0
+(null)~
+~
+0 0 17701
+D2
+(null)~
+~
+0 0 17717
+S
+#17701
+Hall of Justice: Entrance Way~
+You are awestruck by the brightness and glory of this Hall.  Magnificent
+marble pillars line the sides of the Hall.  Beautiful green plants grow
+around you in golden pots.  Pictures of the Great Timion and of his
+Mightiest Followers align the bare white walls.  
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17702
+D2
+(null)~
+~
+0 0 17700
+S
+#17702
+The Hall Of Justice~
+The Hall finally opens up around you.  The decor is of the consistantly
+bright and powerful elements.  You see exits leading almost everywhere,
+each gleaming with the lawfulness of the Great Timion.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17703
+D1
+(null)~
+~
+0 0 17709
+D2
+(null)~
+~
+0 0 17701
+D3
+(null)~
+~
+0 0 17710
+D4
+(null)~
+~
+0 0 17786
+S
+#17703
+Hall of Justice: Entrance to the Inner Sanctum~
+If any unlawful creature has dared to travel this far into the Great
+Cleric's own Hall, he is warned to TURN BACK NOW!!  For upon entrance
+into Timion's own Inner Sanctum, the unlawful trespasser SHALL BE SLAIN!!
+Enter at your own risk.
+
+
+~
+0 12 0
+D0
+(null)~
+~
+0 0 17704
+D2
+(null)~
+~
+0 0 17702
+S
+#17704
+The High Priest's Inner Sanctum~
+Here stands the most loyal Servant to Timion, Tulsa.  His clerical 
+abilities have far surpassed any other mortal and so Timion has chosen
+him to guard the Most Holy place in the Hall, the Divine Inner Sanctum.
+The room is bare but powerful, with only an alter resting at Tulsa's 
+feet.  You can see a magical hole in the ground, beware, it is said to 
+be the very portal to the Mighty Timion.
+~
+0 8200 0
+D2
+(null)~
+~
+0 0 17703
+D5
+(null)~
+~
+7 0 17705
+S
+#17705
+Under the Sanctum: Path to Timion~
+You've fallen through that magic portal, now you lay here in darkness.
+You can see a distant light coming from far north, maybe you should check it out?
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17706
+D4
+(null)~
+~
+7 0 17704
+S
+#17706
+Underground: A Path to Timion~
+The light is getting brighter, but the darkness still overcomes.  It
+is said the darkness conceals evil, but could it be true so near to such
+an opposite force?
+~
+0 12 0
+D0
+(null)~
+~
+0 0 17707
+D2
+(null)~
+~
+0 0 17705
+S
+#17707
+Underground: Close to Timion~
+The light is the brightest its been so far.  You sense an aura of good
+through the darkness spiraling around you.  You know you are close to the
+Mighty Diety.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17708
+D2
+(null)~
+~
+0 0 17706
+S
+#17708
+Timion's Divine Inner Sanctum~
+The light, you've reached it!  And now before you sits the Mighty Diety,
+his shape seems to shift and flicker with ever present lawfulness.  His
+glare dispels the chaos in every soul.  Around you the walls glow with a
+brightly warm golden essence.  You're blinded by the beauty of the room and
+the power of the Great and Wise Timion.
+~
+0 8200 0
+D2
+(null)~
+~
+0 0 17707
+S
+#17709
+Hall of Justice: Guard Office~
+Here stands a tall warrior guard readied for what evil is willing
+to try a round or two.  The same magically lawful essence can be
+found here as in all the Hall.  A desk sits in one corner, a weapons'
+rack in another.  An elegant couch sits here for the guards to rest
+their aching selves.  You notice it has a magical aura about it.
+~
+0 8 0
+D3
+(null)~
+~
+0 0 17702
+S
+#17710
+Hall of Justice~
+The usual decor you've come to expect from the Hall continues in this
+room.  To the north you see the something odd, maybe you should check it out.
+The Hall continues west.
+~
+0 2097160 0
+D0
+(null)~
+~
+0 0 17711
+D1
+(null)~
+~
+0 0 17702
+D3
+(null)~
+~
+0 0 17713
+S
+#17711
+Hall of Justice: A Strange Place~
+The once bright and gleaming power of the Hall is consumed by a strange
+evil darkness.  You sense an evil presence to the north and can hear crys
+of pain and solitude.
+~
+0 12 0
+D0
+(null)~
+~
+0 0 17712
+D2
+(null)~
+~
+0 0 17710
+S
+#17712
+Hall of Justice: Dark Dungeon~
+Here is chained the evilest, ugliest creature you have ever seen.  This
+once powerful evil dragon is now bound by the powers of Timion to this room
+where he must spend an eternity of torture.  The surrounding darkness and 
+moldy smell spears at your very soul.  You know evil is contained in this
+room.
+~
+0 8 0
+D2
+(null)~
+~
+0 0 17711
+S
+#17713
+Hall of Justice~
+This is the far west wall of the Hall of Justice.  The Hall itself 
+continues to the north.  You see a library to the south.
+~
+0 2097160 0
+D0
+(null)~
+~
+0 0 17715
+D1
+(null)~
+~
+0 0 17710
+D2
+(null)~
+~
+0 0 17714
+S
+#17714
+Hall of Justice: Library of Law~
+Rows and rows of books line the walls of this grande library.  You see
+several important books by Confucious in glass cases in the center of the
+room.  Other books on knight valantry and tales of chivalry are contained
+on bookcases.  The Gutenberg Bible sits dead center with a Holy Light from
+above shining down on it.  Other works you notice are Summa Teologia by the 
+Great Calvin, and Macbeth by the Master of all literature, Shakespear.
+~
+0 2097160 0
+D0
+(null)~
+~
+0 0 17713
+D1
+(null)~
+bookcase~
+7 0 17781
+S
+#17715
+Hall of Justice: Clerk's Office~
+This is the clustered office of Transon, Clerk of Justice.  His desk is
+full with papers of filed complaints, whereabouts of wanted criminals and
+many other junk mail items.  Never-the-less he cracks a smile and offers
+you help as soon as he sees you.  Don't be mistaken by his friendly 
+attitude and book-wormish look, he's still quite the warrior.
+~
+0 2097160 0
+D2
+(null)~
+~
+0 0 17713
+S
+#17717
+Near the Hall of Justice~
+You feel more secure now.  A lawful aura can be felt around this place
+and it makes you wonder how much closer to the Hall you actually are.  
+This path is pretty trodden and you sense the chances of ambush are slim
+to none.
+~
+0 0 3
+D0
+(null)~
+~
+0 0 17700
+D2
+(null)~
+~
+0 0 17718
+S
+#17718
+Path to The Hall of Justice~
+You are now drawing closer to the Great Hall of Justice.  You feel as if
+the evil that once surrounded you is being parted.
+~
+0 0 3
+D0
+(null)~
+~
+0 0 17717
+D1
+(null)~
+~
+0 0 17720
+S
+#17720
+Outside of Daggerford: Path to The Hall of Justice~
+To the east you can see the evil and dark city of Daggerford.  Known 
+for the unexpected ambushes and evil inhabitants, this city makes you 
+quiver.  Just as well, it is a serious trade town, and for that reason
+you move on.
+~
+0 0 3
+D1
+(null)~
+~
+0 0 17721
+D3
+(null)~
+~
+0 0 17718
+S
+#17721
+Outside of Daggerford: Path to the Hall of Justice~
+Already you feel the evil of the town being crushed by
+the Hall's lawfulness.  To the east you see the West Gate of
+Daggerford
+~
+0 0 3
+D0
+(null)~
+~
+7 0 17198
+D1
+(null)~
+~
+0 0 17722
+D2
+(null)~
+~
+0 0 17724
+D3
+(null)~
+~
+0 0 17720
+S
+#17722
+City Of Daggerford: West Gate~
+You stand at the West Gate of the bustling city of Daggerford.  Though 
+this city is known for its mostly evil inhabitants, it is strangely a 
+major trading point in the area.  Here at the gate, a Watchman over-looks
+in and out going traffic.  Many people pass by you as you consider 
+entering this busy town.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 17723
+D3
+(null)~
+~
+0 0 17721
+S
+#17723
+City of Daggerford: Inside the West Gate~
+The hustle and bustle about this town are quite evident as you stand 
+here.  A few passerbys bump into you, almost knocking you to the floor, 
+while others stand suspiciously against the sides of buildings.  You see
+people dealing, you just aren't sure if its legal or not.  Limit Road 
+continues north and south, while Main Street heads off to the east.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17726
+D1
+(null)~
+~
+0 0 17728
+D2
+(null)~
+~
+0 0 17740
+D3
+(null)~
+~
+0 0 17722
+S
+#17724
+Outside of Daggerford: A Strange Place~
+This place is odd, you notice a lot of dead leaves on the ground and 
+drooping Weeping willows of deep shades around you.  The ground seems 
+somewhat unstable.  Something causes your skin to crawl and you feel a sharp
+chill up your back.  You do not feel safe here.
+~
+0 4 3
+D0
+(null)~
+~
+0 0 17721
+D5
+(null)~
+~
+7 0 17725
+S
+#17725
+Entrance Way to the Hall of Rogues~
+You stand in the grande entrance to the Hall of Rogues.  This Hall is
+the focal points for all the stealthy inhabitants of Daggerford.  But, you
+are here because you are one of the rogues.  You must never tell anyone of
+the secret that lies below Daggerford.  The Hall continues to the north.
+~
+0 16777228 0
+D0
+(null)~
+~
+0 0 17770
+D4
+(null)~
+~
+7 0 17724
+S
+#17726
+Limit Road~
+Limit Road runs around the city of Daggerford.  It is perhaps a slightly
+less traveled road and thus makes you feel uncomfortable.  You see a 
+tavern to the east. 
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17745
+D1
+(null)~
+~
+0 0 17727
+D2
+(null)~
+~
+0 0 17723
+S
+#17727
+Lady Luck Tavern~
+You have entered the greatest of all taverns, the Lady Luck Tavern.  The
+bar tender's warm smile greets you as someone pukes their fill of alcohol
+up at your feet.  You see collapsed drunks lying in the corner and 
+desperate gamblers throwing dice and playing cards on the tables around
+you.  You decide the place is quite homely and that you'll stay and have
+a few drinks.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17763
+D2
+(null)~
+~
+0 0 17728
+D3
+(null)~
+~
+0 0 17726
+S
+#17728
+Main Street: Near the West Gate~
+Main Street, Daggerford, is everything you expected it to be.  People 
+cram both sides of the streets, making moving nearly impossible.  People
+bump into you, possibly on purpose, just to be an annoyance.  You hope
+to find many shops and the likes on this street.  Main Street continues
+east.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17727
+D1
+(null)~
+~
+0 0 17729
+D3
+(null)~
+~
+0 0 17723
+S
+#17729
+Intersection of Main Street and Lander's Way~
+You stand at the intersection of Main Street and Lander's Way.  People
+buzz by you like bees in this busy part of town.  Lander's Way heads north
+and south while Main Street continues east and west.
+~
+0 4 1
+D0
+(null)~
+~
+0 0 17748
+D1
+(null)~
+~
+0 0 17730
+D2
+(null)~
+~
+0 0 17752
+D3
+(null)~
+~
+0 0 17728
+S
+#17730
+Main Street~
+People of all races pass by you, some stop to look at you, while others
+just move along unattentively.  To the north you see a weapon's shop and
+to the south, a general store.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17731
+D1
+(null)~
+~
+0 0 17733
+D2
+(null)~
+~
+0 0 17732
+D3
+(null)~
+~
+0 0 17729
+S
+#17731
+Arcades Weapon's Shop~
+Weapon's racks align the entire sides of this shop.  Many brilliant
+glass cases encase the mightiest weapons found in Daggerford.  A large
+man stands behind one of the counters, greeting you and offering 
+asssistance.  Main Street is to the south.
+~
+0 12 1
+D2
+(null)~
+~
+0 0 17730
+S
+#17732
+Daggerford General Store~
+You escape from the confusion of Main Street only to find this shop is
+just as busy as that street.  Here in the General Store, many items can
+be bought and sold.  You see many people in the check out line though.
+Main Street is to the North.
+~
+0 12 1
+D0
+(null)~
+~
+0 0 17730
+S
+#17733
+Business Square: Intersection of Main Street and Commerce Way~
+This busy road meets the other busy road in town, Commerce Way.  Many
+people run, walk, slither, and slide by you.  You are amazed for you have
+never seen so many people in such an area.  Commerce Way heads both north 
+and south, while Main Street continues east and west.
+~
+0 4 1
+D0
+(null)~
+~
+0 0 17106
+D1
+(null)~
+~
+0 0 17734
+D2
+(null)~
+~
+0 0 17111
+D3
+(null)~
+~
+0 0 17730
+S
+#17734
+Main Street~
+Here on Main Street the traffic is continuely heavy.  People crowd the
+streets here. To the west you see the intersection of Commerce Way and 
+Main street, while Main Street continues east and west.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 17735
+D3
+(null)~
+~
+0 0 17733
+S
+#17735
+Main Street~
+This busy street is cluttered with people of all races and sizes.  A few
+mysterious travelers wander about.  You see Mystic Way to the north and
+south, while Main Street continues east and west.
+~
+0 4 1
+D0
+(null)~
+~
+0 0 17137
+D1
+(null)~
+~
+0 0 17736
+D2
+(null)~
+~
+0 0 17142
+D3
+(null)~
+~
+0 0 17734
+S
+#17736
+Main Street: Near the East Gate~
+The hustle and bustle of the city are apparant now that you stand inside
+the city.  The diversity of people amazes you.  Main Street continues west,
+there is a bank to the south, and the West Gate lies to the east.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 17737
+D2
+(null)~
+~
+0 0 17739
+D3
+(null)~
+~
+0 0 17735
+S
+#17737
+Inside the East Gate of Daggerford~
+You stand inside the gate of the city of Daggerford.  You are amazed at
+the diversity of people you find in this city.  Buisness is the backbone
+of this great trading city.  With all these people carrying their money
+around, you are sure there are thieves running amuck.  You are cautious,
+but ready to spend your money.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 17165
+D1
+(null)~
+~
+0 0 17738
+D2
+(null)~
+~
+0 0 17166
+D3
+(null)~
+~
+0 0 17736
+S
+#17738
+City of Daggerford: East Gate~
+You stand at the east gate to the bustling city of Daggerford.  You 
+see many people of all shapes and sizes cramming to get in and out of
+the gate.  There is an evil feeling lurking about, but you decide to 
+continue, because you know not what lies inside. You are curious to 
+find out.  You enter to do business, then plan to leave.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 22200
+D3
+(null)~
+~
+0 0 17737
+S
+#17739
+First Bank of Daggerford~
+This is the First Bank of Daggerford.  You see many tellers ready to 
+help you and the many other travelers in line here.  Oddly, you feel safe
+here.  To open an account, type: open.  If you wish to deposit: deposit, 
+and if you want to withdrawl, withdrawl. Thank you and have a nice day. 
+~
+0 12 1
+D0
+(null)~
+~
+0 0 17736
+S
+#17740
+Limit Road~
+You are on Limit Road.  This road wraps around the city of Daggerford. 
+To the north you can see the West Gate.  Limit Road continues south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17723
+D2
+(null)~
+~
+0 0 17741
+S
+#17741
+Limit Road~
+You are walking on Limit Road, the road which wraps around the entire 
+city of Daggerford.  To the east there is a warehouse.  Limit Road continues
+north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17740
+D1
+(null)~
+~
+0 0 17759
+D2
+(null)~
+~
+0 0 17742
+S
+#17742
+Limit Road~
+You are walking on Limit Road.  Not too many people use this part of the
+road, so you feel unsafe.  This road runs along the inside of the walls of
+the great city.  Limit Road continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17741
+D2
+(null)~
+~
+0 0 17743
+S
+#17743
+Limit Road~
+You are walking the famous Limit Road. It traverses the inside wall of 
+Daggerford.  You see almost no one around.  The wall looks quite abused 
+around here.  Several small cracks can be seen.  You don't think twice 
+about it.  Perhaps it was damaged in a seige.  You move on.  Limit Road
+continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17742
+D2
+(null)~
+~
+0 0 17744
+D3
+(null)~
+cracks~
+7 0 17121
+S
+#17744
+Limit Road: SouthWest Corner~
+This is the southwest corner of the city of Daggerford.  You sense more
+people to the north and east.  For some reason, you feel mildly 
+uncomfortable here.  Limit Road continues north and east.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17743
+D1
+(null)~
+~
+0 0 17757
+S
+#17745
+Limit Road~
+You are walking along Limit Road, the road which encircles the city of
+Daggerford. To the south you can see the entrance to the Lady Luck Tavern.
+Limit Road continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17746
+D2
+(null)~
+~
+0 0 17726
+S
+#17746
+Limit Road~
+You are traveling on Limit Road.  You can see the northwesetern corner 
+of the city to the north.  However, you do not feel safe around here.  You
+see the Limit Road continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17747
+D2
+(null)~
+~
+0 0 17745
+S
+#17747
+Limit Road: NorthWest Corner~
+This is the  far northwestern corner of Daggerford.  This part of the 
+is not traveled heavily.  You feel a little unsafe here due to the scarcity
+of people.  The only people you can see seem dark and devious. You make
+your way throught this part of town rather hastily.  Limit Road continues
+east and south.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 17758
+D2
+(null)~
+~
+0 0 17746
+S
+#17748
+Lander's Way~
+You are walking along Lander's Way, the street used by the militia for 
+training and the likes. You see Main Street to the south.  Lander's Way 
+continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17749
+D2
+(null)~
+~
+0 0 17729
+S
+#17749
+Lander's Way~
+You are walking along the military road dedicated to the great commander
+of the daggerofrd militia, Tobius Lander.  Lander's Way continues north 
+and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17750
+D2
+(null)~
+~
+0 0 17748
+S
+#17750
+Lander's Way~
+You stand on extreme northern end of Lander's Way.  You can see Limit
+Road to the north.  Lander's Way continues south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17751
+D2
+(null)~
+~
+0 0 17749
+S
+#17751
+Lander's Way and Limit Road~
+This is the intersection of Lander's Way and Limit Road.  Lander's Way is
+Daggerford's Militia street.  Limit Road wraps around the entire city. 
+Lander's Way is to the south, while Limit road continues east and west.
+~
+0 4 1
+D1
+(null)~
+~
+0 0 17110
+D2
+(null)~
+~
+0 0 17750
+D3
+(null)~
+~
+0 0 17758
+S
+#17752
+Lander's Way~
+You are walking along the military street of Daggerford, Lander's Way. To
+the north is Main Street.  Lander's Way continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17729
+D2
+(null)~
+~
+0 0 17753
+S
+#17753
+Lander's Way~
+You are walking along Lander's Way, the great military street of the city
+of Daggerford.  To the east you see an abandoned barrcks.  Lander's Way
+continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17752
+D1
+(null)~
+~
+0 0 17100
+D2
+(null)~
+~
+0 0 17754
+S
+#17754
+Lander's Way~
+You stand on Lander's Way, the great military street of Daggerford.  You 
+see a drill field to the east.  Lander's Way continues north and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17753
+D1
+(null)~
+~
+0 0 17799
+D2
+(null)~
+~
+0 0 17755
+S
+#17755
+Lander's Way~
+You stand on Lander's Way, dedicated to the Great Commander of the 
+Daggerford Militia, Tobius Lander.  You see army barracks' about.  To the
+west a door has carelessly been left open.  Lander's Way continues north 
+and south.
+~
+0 0 1
+D0
+(null)~
+~
+0 0 17754
+D2
+(null)~
+~
+0 0 17756
+D3
+(null)~
+~
+0 0 17764
+S
+#17756
+Limit Road and Lander's Way~
+You stand at the southern most end of Lander's Way.  This is where it 
+meets the famous Limit Road.  You see Lander's Way to the north.  Limit
+Road continues east and west.
+~
+0 4 1
+D0
+(null)~
+~
+0 0 17755
+D1
+(null)~
+~
+0 0 17116
+D3
+(null)~
+~
+0 0 17757
+S
+#17757
+Limit Road~
+You are walking along the south wall of Dagerford on Limit Road.  You  
+sense a lot of activity to the north somewhere.  Limit Road continues
+east and west.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 17756
+D3
+(null)~
+~
+0 0 17744
+S
+#17758
+Limit Road~
+This is Limit Road, the road that wraps around Daggerford.  To the east
+you can see where Limit Road meets Lander's Way. Limit road continues east
+and west.
+~
+0 0 1
+D1
+(null)~
+~
+0 0 17751
+D3
+(null)~
+~
+0 0 17747
+S
+#17759
+Old Warehouse~
+This is the old warehouse of a once popular Daggerford wagon builder.  
+Cob webs are everywhere, making it hard to see much of what things are.  
+The amount of dust in the room causes you to cough.  You do notice some
+stairs in the far corner and several other tables and vices set up for
+building wagons and chariots.  You hear a creaking from the stairs, but
+you don't think it's anything important.
+~
+0 4 1
+E
+stairs~
+These creacky old stairs appear to be still strong enough to support
+someone.
+~
+D3
+(null)~
+~
+0 0 17741
+D5
+(null)~
+stairs~
+7 0 17101
+S
+#17760
+A Small Privately Owned Business Still Under Construction~
+Here you stand in the way of busy workers.  These warkers were hired
+by the business owner, who is supervising now, to build as fast as they can.
+They turn this mess of boards and bricks into a beautiful store of some 
+sort.  You can't wait to see what kind of store it will be.  Commerce Way 
+is to the west.
+~
+0 8 0
+D3
+(null)~
+~
+0 0 17112
+S
+#17761
+Daggerford Pet Shop~
+This is a quaint little store, at first look.  However, upon a closer
+investigation you discover the sounds of viscious animals encaged somewhere
+behind the employee only doors.  The smell of the animal excretions is quite
+foul around certain areas.  An old lady tends this store.
+~
+0 4104 0
+D1
+(null)~
+~
+0 0 17114
+S
+#17762
+PET STORAGE~
+(null)~
+0 4 0
+S
+#17763
+Lady Luck Tavern: Gambling House~
+You stand inside the musty, dimly lit, gambling room of the Lady Luck 
+Tavern.  You notice the floor is creacky.  A foul odor of alcohol floats
+through the air.  You see gamblers crouched over their hand of cards, and
+others throwing their dice and screaming.  You don't feel safe here.
+~
+0 0 1
+D2
+(null)~
+~
+0 0 17727
+D5
+(null)~
+~
+7 0 17776
+S
+#17764
+Inside a Militia Barracks~
+You stand inside a militia barracks in the city of Daggerford.  A bench
+sits by the door on the eastern wall.  By the northern wall there is a 
+sign that reads: "Warrior's Training Area -> North." Many articles of 
+clothes are scattered about the floor and weapons lay haphazardly against
+the walls.  All in all, it seems a normal barracks.
+~
+0 8 1
+D0
+(null)~
+~
+0 0 17765
+D1
+(null)~
+~
+0 0 17755
+S
+#17765
+Warrior Practice Yard~
+This is the practice yard of many past, present, and future warriors of
+greatness.  You see many warriors practicing with many different weapons
+all around you.  A path through the grass leads to a stone staircase going
+down.  The grass is green, but trodden, due to the amount of traffic 
+through here daily.  The staircase leads down the chambers of the warrior,
+Thorkill.
+~
+0 4 1
+D2
+(null)~
+~
+0 0 17764
+D5
+(null)~
+~
+0 0 17766
+S
+#17766
+A hall in the Chamber's of Thorkill~
+This is the chamber of the great warrior, Thorkill.  He has devoted his 
+life to the ways of the warrior, and now, he shares with all.  The majesty
+of this chamber inspires awe inside you.  The dimly lit gray walls, barely
+show if not for the light of a few torches.  Even so, you can see the 
+private chambers of Thorkill east, a shop to the west, and the training
+room north.  The exit to the training yard is up from here.
+~
+0 33554440 0
+D0
+(null)~
+~
+0 0 17769
+D1
+(null)~
+~
+0 0 17768
+D3
+(null)~
+~
+0 0 17767
+D4
+(null)~
+~
+0 0 17765
+S
+#17767
+Thorkill's Warrior Weapon and Armour Depot~
+This weapon shop is like any other shop you've been in.  Except these
+weapons cannot be found anywhere else.  These are the masterwork of the old,
+wise, dwarven apprentice to Thorkill, Yence.  Here you will find various
+items to aid you in your journeys and encounters.
+~
+0 33554440 0
+D1
+(null)~
+~
+0 0 17766
+S
+#17768
+Thorkill's Private Chamber~
+This is the very chamber of the great warrior Thorkill.  You see this
+grande instructor is very simplistic in lifestyle.  You see a bed, a small
+table, a book shelf containing books of warrior tactics, and a small candle
+lit by the bedside to provide just enough light.
+~
+0 33554440 0
+D3
+(null)~
+~
+0 0 17766
+S
+#17769
+Thorkill's Practice Room~
+This is the training room of the great warrior Thorkill.  He is old now,
+and no longer utilizes the room for himself, he aids others in their quest
+for excellence.  He stands here ready to help any who need it.
+~
+0 33554440 0
+D2
+(null)~
+~
+0 0 17766
+S
+#17770
+Hall of Rogues~
+You stand in this dimly lit hall, able to feel the darkness and
+evil that surround you.  The walls are made of deep black marble and a
+few torches align them.  To the west is a trading post, and to the east 
+there is a magic shop.  The Hall continues north and south.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17773
+D1
+(null)~
+~
+0 0 17772
+D2
+(null)~
+~
+0 0 17725
+D3
+(null)~
+~
+0 0 17771
+S
+#17771
+Thief Trading Post: The "Black Market"~
+This is the darkened room where a thief can buy and sell various
+items others have "acquired."  There is an old scarred man who stands here
+waiting to buy and sell you the latest "hot" items fromt he streets.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17770
+S
+#17772
+Hall of Rogues: Magic Shop~
+This dark, misty room contains the scrolls, wands and potions
+that a thief could use.  Though limited, these items add to a thief's power
+and knowledge.
+~
+0 8 0
+D3
+(null)~
+~
+0 0 17770
+S
+#17773
+Hall of Rogues~
+This Hall is overpoweringly deceptive and dark.  This reflects
+the very essence of a thief.  The walls are dark marble with a few
+torches every so many feet.  To the west is the bar, and east there is
+a council room.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17774
+D1
+(null)~
+~
+0 0 17778
+D2
+(null)~
+~
+0 0 17770
+D3
+(null)~
+~
+0 0 17777
+S
+#17774
+Hall of Rogues~
+This is the Hall of Rogues.  It is dark and misty. The walls 
+are dark marble with torches every so many feet.  The humid air fills your
+lungs and strikes at your insides as putred.  To the east there is 
+a place of training.  To the west there is an equipment shop.  The Hall 
+continues up and south.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17785
+D2
+(null)~
+~
+0 0 17773
+D3
+(null)~
+~
+0 0 17779
+D4
+(null)~
+~
+0 0 17775
+S
+#17775
+Entrance Way to The Hall of Rogues~
+Down from you begins the Hall of Rogues.  Rogues are the traditionally
+stealthy, often unfair, masters of their art, thievery.  You are here 
+because you are a rogue.  If you ever should happen to tell anyone of this
+great secret of Daggerford, you are certain your rogue brothers will not
+take a liking to you. The Hall of Rogues continues down.
+~
+0 16777224 0
+D4
+(null)~
+~
+0 0 17776
+D5
+(null)~
+~
+0 0 17774
+S
+#17776
+Under the Lady Luck Tavern~
+You've fallen through the boards of the LAdy Luck Tavern. Here below,
+you see some light coming from below you.  But if you are not a rogue, I
+don't think it be such a good idea to utilize this exit.  You best be 
+going back to the surface where you belong.
+~
+0 12 0
+D4
+(null)~
+~
+7 0 17763
+D5
+(null)~
+~
+0 0 17775
+S
+#17777
+Hall of Rogues: Rogue Bar~
+In this bar, many a thief has fallen to the power that is the
+special blend of alcohols used in their wicked brews.  This is, in fact,
+part of their training.  What would a drunken thief do if he was caught?
+There is an atmosphere of brotherhood among the drunken patrons of this
+bar.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17773
+S
+#17778
+Hall Of Rogues: Rogue Council Room~
+This is the room in which the rogue council meeting is held.
+There is a large table with many chairs surrounding it.  All rogues
+who wish to come to council are welcome to, so long as they respect the
+past traditions of the meetings.
+~
+0 8 0
+E
+the_floor~
+This is the "floor."  He who holds it has the right to speak
+uniterrupted during a meeting.  If you wish to say something, politely
+request the floor from the current speaker.
+~
+D3
+(null)~
+~
+0 0 17773
+S
+#17779
+Rogue Equipment Shop~
+In this room there is vast amounts of equipment.  This
+is where the thief comes to equip him/herself properly.  The gear 
+found here is designed specially for thieves.  Do not let this gear
+out into the realms unattended.  It would be dangerous to the guild.
+A young elf tends this store.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17774
+S
+#17780
+Clerical Clothing Depot~
+You stand here in the clothing depot of the cleric guild.  This store was
+created due to the large amount items needed by clerics.  The storekeeper 
+runs around frantically trying to keep tab on the over flow items from the
+Cleric's Armoury.  The guild is to the west.
+~
+0 8 0
+D3
+(null)~
+~
+0 0 17788
+S
+#17781
+A Secret Room: Shadow Shop~
+This is a secret shop in the Hall of Justice.  Here you can 
+buy shadow equipment and a few others objects of power.  We ask that
+only the wise enter this shop, therefore: `RDo not tell anyone about
+`Rit!!!!!`w
+   
+~
+0 2098188 0
+D3
+(null)~
+~
+7 0 17714
+S
+#17785
+Rogue Place of Training~
+This dark room conceals the master of thievery.  He dwells here
+for only one purpose, to train other thieves.  For he has achieved the
+highest honors and ranks of any thief who has passed through these realms
+and now he has chosen the path of the enlightened.  He is here for you.
+~
+0 8 0
+D3
+(null)~
+~
+0 0 17774
+S
+#17786
+Second Floor of the Hall of Justice: Guilds~
+This is the second floor of the Hall of Justice.  This floor is reserved 
+for any lawful guilds which the city of Daggerford cannot accomodate.  As 
+of now, only two guilds reside here, clerics and paladins.  Timion has 
+granted these two guilds space here for he feels their followers will be 
+just and lawful.  You see the CLERIC's guild to the EAST, and the PALADIN's
+guild to the WEST.  The Hall of Justice is down from here.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17787
+D3
+(null)~
+~
+0 0 17793
+D5
+(null)~
+~
+0 0 17702
+S
+#17787
+Entrance to the Cleric Guild~
+This is the entrance to the Cleric's Guild above the Hall of Justice. The
+decor here is elegant, yet somewhat holy.  You hear faint heavenly chanting
+but you can't tell from where.  The Cleric's Guild starts just east of here
+with the stairs from which you came, to the west.
+~
+0 12 0
+D1
+(null)~
+~
+0 0 17788
+D3
+(null)~
+~
+0 0 17786
+S
+#17788
+Cleric Guild of Daggerford~
+You are in your guild, safe from all the evils of the outside.  The 
+powers of the cleric are almost unknown to common people.  Under the 
+guidance of Timion and his few chosen apprentices, you can improve your 
+skills and learn new abilities.  You can become a great Cleric, of 
+legendary proportions.  This goal is not easy to meet, but can be done. 
+To the north starts the chambers of Timion's chosen aid, Adarkar.  To the 
+south you see a shop and a lounge for resting.
+~
+0 8388616 0
+D0
+(null)~
+~
+0 0 17789
+D1
+(null)~
+~
+0 0 17780
+D2
+(null)~
+~
+0 0 17790
+D3
+(null)~
+~
+0 0 17787
+S
+#17789
+Cleric Guild: Chambers of Adarkar~
+You are in the chambers of the great Cleric Master, Adarkar.  He is very
+old, older than Timion.  When Timion surpassed his master, Adarkar, he was
+granted immortality, and eventually became a diety.  In order to repay his
+great Master, Timion granted him immortality also.  Here in this chamber 
+you see a rocking chair, a bookcase filled with spell books, law books, and
+books on Clerical Mysticism.  You are amazed that this is all a wise sage 
+such as Adarkar would need to survive.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17792
+D2
+(null)~
+~
+0 0 17788
+S
+#17790
+Cleric's Guild: Armoury~
+This si the armoury of clerics.  Here you will find the finest items you
+require to be followers of the law.  This shop sells many items for this 
+very purpose, ranging from potions, scrolls, wands, staves, weapons, and 
+armors.  To the east you see the Cleric's Lounge.
+~
+0 8388616 0
+D0
+(null)~
+~
+0 0 17788
+D1
+(null)~
+~
+0 0 17791
+S
+#17791
+Cleric's Lounge~
+This is the cleric's lounge.  Timion thought it a necessity for everyone
+to have a place of rest and recreation.  Here you are provided with both.
+You may sit at the bar and have a few drinks, or lay back in the fluffy 
+couches that adorn the walls.  The armoury is to the west.
+~
+0 24 0
+D3
+(null)~
+~
+0 0 17790
+S
+#17792
+Inner Chambers of Adarkar~
+These are the inner chambers of Adarkar.  He stands before for no other 
+reason than to train and teach young clerics.  Timion deemed him immortal,
+and for this, he has chosen to spend his eternity teaching and training
+the young clerics who pass through these realms.  It would not be wise to
+challenge this mighty instructor.
+~
+0 24 0
+D3
+(null)~
+~
+0 0 17789
+S
+#17793
+Entrance to the Paladin's Guild~
+This is the Paladin's Guild of Daggerford.  Timion was known as a great
+battle cleric, and such is why he has permitted the Paladins to rent his
+very own hall.  The usual decor of the hall is consistent here, the same
+lawful aura floats about.  The Paladin's Guild continues west.
+~
+0 67108876 0
+D1
+(null)~
+~
+0 0 17786
+D3
+(null)~
+~
+0 0 17794
+S
+#17794
+Paladin's Guild of Daggerford~
+These rooms of the Paladin guild are the rooms that Timion has the most
+pride in.  For the players who pass through here, pass by with the same 
+persistence, strength, and concentration he began with.  Now Timion makes
+sure he looks after those that may one day become his followers, or maybe,
+surpass his own powers.
+To the north is the Paladin Training rooms, to the south, the armoury and
+lounge.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17795
+D1
+(null)~
+~
+0 0 17793
+D2
+(null)~
+~
+0 0 17797
+S
+#17795
+Paladin's Guild~
+The Paladin guild was organized under decree of the Mighty Diety, Timion.
+He thought important that one should be able to fend off assailants without
+revealing his mysticism and only use that mysticism as a last resort.  This
+is why he has arranged the balance of spells and attack into his guild, the
+Paladin.  While he is still very rooted in the cleric guild, Timion is the
+founder of this great guild.  He and his devoted co-founder, Devale, have
+struggled, argued, and balanced the spells with levels that are appropiate
+to the guild.  Warrior skills may be learned by Paladins also.  To the west
+you see Devale's Training Room.
+~
+0 8 0
+D2
+(null)~
+~
+0 0 17794
+D3
+(null)~
+~
+0 0 17796
+S
+#17796
+Paladin's Guild: Devale's Training Room~
+You are in Devale's Training Room.  Devale is a great warrior whom Timion
+chose to teach the warrior side of this guild.  IN his accepting Timion's 
+invitation to co-found this guild, Timion blessed him with great knowledge
+of the ways of the cleric.  For a long time, Timion and Devale worked hard
+to achieve the perfect balance of spells and skills.  Now these skills are
+being taught to you, be grateful.  In exchange for this great knowledge 
+Timion granted him, devale decided to stay with the guild and train the
+young apprentices.
+~
+0 24 0
+D1
+(null)~
+~
+0 0 17795
+S
+#17797
+Paladin's Guild: Armoury~
+In this shop, the Diety Timion has constructed for you, you see endless
+supplies.  Anything from Swords to Potions can be purchased here.  It is 
+very important that these items stay within the range of good and far from
+the grasps of evil, for their full power is known only by Timion himself.
+You see the lounge to the west.
+~
+0 8 0
+D0
+(null)~
+~
+0 0 17794
+D3
+(null)~
+~
+0 0 17798
+S
+#17798
+Paladin's Lounge~
+Here in the Paladin's Lounge, weary holy warriors rest their bones and
+engage in social activities.  Timion thought it important for everyone to
+have a place to rest and relax.  He also believed that one must socialize 
+in order to acquire friends and followers.  Here you can do both.  You can
+down a few drinks while chatting at the bar, or you can rest your weary 
+bones on the fluffy couch that sits in the corner.  The shop is to the 
+east.
+~
+0 8 0
+D1
+(null)~
+~
+0 0 17797
+S
+#17799
+Militia Drill Field~
+You are in a drill field used by the Daggerford Militia.  You see young
+cadets in training, running about in form.  The commanders stand, hands 
+behind back, just observing.  The scene is quite picturesque.  These fields
+are grassy green with cobblestone walkways on which the cadets practice 
+their march.  Lander's Way is to the west.
+~
+0 4 1
+D3
+(null)~
+~
+0 0 17754
+S
+#0
+
+
+
+#RESETS
+D 0 17714 1 0
+D 0 17721 0 0
+D 0 17743 3 0
+D 0 17763 5 0
+D 0 17776 4 0
+D 0 17781 3 0
+M 0 17761 8 17701
+E 0 17781 0 5
+E 0 17782 0 16
+E 0 17785 0 17
+M 0 17762 0 17704
+M 0 17719 0 17708
+M 0 17761 8 17709
+E 0 17782 0 16
+E 0 17781 0 5
+E 0 17785 0 17
+M 0 17760 0 17712
+M 0 17716 0 17715
+E 0 17780 0 16
+E 0 17702 0 5
+M 0 17733 5 17721
+M 0 17745 2 17722
+M 0 17722 40 17722
+M 0 17728 40 17723
+M 0 17728 40 17723
+M 0 17722 40 17723
+M 0 17725 40 17726
+M 0 17734 0 17727
+G 0 17707 0
+G 0 17714 0
+G 0 17716 0
+M 0 17728 40 17727
+M 0 17739 10 17728
+M 0 17725 40 17728
+M 0 17722 40 17729
+M 0 17739 10 17730
+M 0 17728 40 17730
+M 0 17728 40 17730
+M 0 17727 40 17730
+M 0 17725 40 17730
+M 0 17742 0 17731
+G 0 17101 0
+G 0 17708 0
+G 0 17129 0
+G 0 17712 0
+G 0 17713 0
+G 0 17130 0
+G 0 17131 0
+O 0 17134 0 17733
+M 0 17722 40 17733
+M 0 17728 40 17734
+M 0 17728 40 17734
+M 0 17739 10 17736
+M 0 17722 40 17736
+M 0 17733 5 17737
+M 0 17728 40 17737
+M 0 17728 40 17737
+M 0 17725 40 17737
+M 0 17726 40 17737
+M 0 17746 2 17738
+M 0 17722 40 17738
+M 0 17729 20 17744
+M 0 17727 40 17744
+M 0 17726 40 17744
+M 0 17725 40 17744
+M 0 17725 40 17745
+M 0 17722 40 17745
+M 0 17722 40 17745
+M 0 17729 20 17747
+M 0 17727 40 17747
+M 0 17722 40 17747
+M 0 17739 10 17749
+M 0 17729 20 17749
+M 0 17727 40 17750
+M 0 17722 40 17752
+M 0 17729 20 17753
+M 0 17727 40 17753
+M 0 17722 40 17753
+M 0 17739 10 17754
+M 0 17727 40 17754
+M 0 17722 40 17755
+M 0 17722 40 17755
+M 0 17726 40 17756
+M 0 17725 40 17756
+M 0 17739 10 17758
+M 0 17731 0 17760
+M 0 17732 4 17760
+M 0 17732 4 17760
+M 0 17732 4 17760
+M 0 17722 40 17764
+M 0 17700 0 17767
+G 0 17700 0
+G 0 17701 0
+G 0 17702 0
+G 0 17704 0
+G 0 17703 0
+G 0 17103 0
+G 0 17101 0
+G 0 17122 0
+G 0 17124 0
+G 0 17125 0
+G 0 17123 0
+G 0 17722 0
+G 0 17727 0
+G 0 17728 0
+G 0 17721 0
+M 0 17701 0 17769
+M 0 17706 0 17771
+M 0 17710 0 17772
+G 0 16040 0
+G 0 17156 0
+G 0 17159 0
+G 0 17158 0
+G 0 17157 0
+G 0 16041 0
+M 0 17709 0 17777
+G 0 17707 0
+G 0 17714 0
+G 0 17716 0
+O 0 17715 0 17778
+M 0 17708 0 17779
+G 0 17121 0
+G 0 17101 0
+G 0 17194 0
+G 0 17152 0
+G 0 17100 0
+G 0 17105 0
+G 0 17102 0
+G 0 17708 0
+G 0 17712 0
+G 0 17150 0
+G 0 17713 0
+G 0 17153 0
+G 0 17154 0
+M 0 17705 0 17780
+G 0 17708 0
+G 0 17709 0
+M 0 17743 0 17781
+G 0 17128 0
+G 0 17127 0
+G 0 17151 0
+M 0 17707 0 17785
+M 0 17702 0 17790
+G 0 17702 0
+G 0 17703 0
+G 0 17705 0
+G 0 17706 0
+G 0 16088 0
+G 0 16086 0
+G 0 16080 0
+G 0 16092 0
+G 0 17710 0
+G 0 17711 0
+G 0 17718 0
+G 0 17724 0
+G 0 17725 0
+M 0 17704 0 17791
+G 0 17707 0
+G 0 17714 0
+G 0 17716 0
+M 0 17703 0 17792
+M 0 17713 0 17796
+M 0 17715 0 17797
+G 0 17708 0
+G 0 17701 0
+G 0 17103 0
+G 0 17717 0
+G 0 17786 0
+G 0 17135 0
+G 0 17122 0
+G 0 17749 0
+G 0 17125 0
+G 0 17728 0
+G 0 17124 0
+G 0 17123 0
+G 0 17750 0
+M 0 17714 0 17798
+G 0 17707 0
+G 0 17714 0
+G 0 17716 0
+M 0 17741 0 17799
+M 0 17740 5 17799
+M 0 17740 5 17799
+M 0 17740 5 17799
+S
+
+
+
+#PROGS
+M 17719 2009 Mudweiser MOBProgs/4719.prg Load to: Timion, Powerful Diety
+M 17719 10 Offensive Cleric Load to: Timion, Powerful Diety
+M 17721 2010 Mudweiser MOBProgs/4721.prg Load to: a Gate Watchman
+M 17721 20 CityGuard Load to: a Gate Watchman
+M 17723 13 Offensive Mage Load to: `MA Mage`w
+M 17724 13 Offensive Mage Load to: A mystic
+M 17725 16 Fido Load to: A dog
+M 17733 21 Thief Load to: a thief
+M 17739 2011 Mudweiser MOBProgs/4739.prg Load to: A mercenary
+M 17744 2012 Mudweiser MOBProgs/4744.prg Load to: a Gate Watchman
+M 17744 20 CityGuard Load to: a Gate Watchman
+M 17745 2013 Mudweiser MOBProgs/4745.prg Load to: a Gate Watchman
+M 17745 20 CityGuard Load to: a Gate Watchman
+M 17746 2014 Mudweiser MOBProgs/4746.prg Load to: a Gate Watchman
+M 17746 20 CityGuard Load to: a Gate Watchman
+O 17749 2015 Mudweiser OBJProgs/4749.prg Load to: the `RFlame `ySaber`w
+O 17753 2016 Mudweiser OBJProgs/4753.prg Load to: a Wooden Ring
+M 17761 20 CityGuard Load to: Gold Guard
+M 17762 10 Offensive Cleric Load to: Tulsa
+O 17783 2017 Mudweiser OBJProgs/4783.prg Load to: a `yTimion `GFullplate`w
+O 17787 2018 Mudweiser OBJProgs/4787.prg Load to: a symbol of the warrior's guild
+O 17788 2019 Mudweiser OBJProgs/4788.prg Load to: a symbol of the mage's guild
+O 17798 2020 Mudweiser OBJProgs/4798.prg Load to: `cMedallion `mof `gFaith `r(`yTimion`r)`w
+S
+
+
+
+#SHOPS
+17700 9 5 11 0 0 110 80 0 23
+17702 5 9 2 10 0 100 100 0 23
+17704 17 0 0 0 0 120 90 0 23
+17705 11 9 0 0 0 100 100 0 23
+17706 11 18 15 19 13 70 130 0 23
+17708 9 5 11 0 0 110 90 0 23
+17709 17 19 0 0 0 100 100 0 23
+17710 2 4 10 3 0 100 100 0 23
+17711 9 11 5 0 0 100 100 0 23
+17714 17 19 0 0 0 100 100 0 23
+17715 5 10 9 11 2 100 100 0 23
+17718 19 17 0 0 0 100 100 0 23
+17720 9 5 11 0 0 100 100 0 23
+17734 17 19 0 0 0 100 100 0 23
+17735 13 9 0 0 0 150 50 0 23
+17736 13 0 0 0 0 100 100 0 23
+17737 19 0 0 0 0 110 90 0 23
+17742 5 9 11 0 0 100 100 0 23
+17743 5 9 11 0 0 100 100 0 23
+17747 0 19 0 0 0 100 100 0 23
+17799 5 9 1 19 10 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
+0
+
+
+
+#$

@@ -1,0 +1,645 @@
+#AREADATA
+Name        { ALL } CLAN    Clan halls~
+Builders    None~
+VNUMs       32000 32399
+Security    8
+End
+
+
+
+#MOBILES
+#32000
+Mirumoto Hitomi~
+Mirumoto Hitomi~
+Mirumoto Hitomi stands ready.
+~
+Standing at slightly under 5 and a half feet, a stone-faced woman stands
+near a wall.  Her left hand has been "removed" somehow.  In it's place, the
+black haired, black-eyed person has a magical hand made of Obsidian.  She
+flexes it abesntmindedly, and lets a very light smile to you.  "Welcome to
+the Dominion hall, brother.  What is your wish?"  You notice she has the
+same small emblem of the Dragon Clan..  She's related to Togashi Yokuni in
+some way.  
+~
+Human~
+ABCGJKUabcd CDEFHJNPTVZac 0 S
+91 100
+100 0 0 0 3000d1+0 3000d1+0 3000d1+0 8
+10 10 10 10
+0 MN 0 0
+8 8 2 500000000
+AHMV ABCDEFGHIJK M unknown
+R 1 1 0 
+#32001
+A fire elemental~
+A Fire Elemental~
+A flickering flame swirls here.
+~
+A flickering flame elemental swirls, occasionally in the form of a
+sensual female..  
+~
+Elf~
+ART HJV 100 S
+35 30
+100 0 0 0 15d20+5 500d1+0 5d8+6 16
+0 0 0 0
+0 BH B IZ
+8 8 2 0
+AHMV ABCDEFGHIJK M unknown
+#32020
+Strike~
+Strike, the clan hall shopkeeper~
+Here stands Strike, the clan shopkeeper
+~
+~
+Human~
+ABd 0 1000 S
+1 1
+100 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#32022
+statue streeve~
+Streeve: The Deity of Balance~
+Here stands a large statue of Streeve filling up the room.
+~
+~
+Human~
+AGad 0 0 S
+100 1
+100 0 0 0 1d1+5 0d0+0 1d1+5 20
+0 0 0 0
+0 0 0 0
+8 8 0 1000000
+AHMV ABCDEFGHIJK M unknown
+#32060
+sven bartender merc mercenarie~
+Sven, the bartender~
+Sven is here, wanting to serve you a drink.
+~
+You look upon Sven, the bartender.  He is a small man about 5'6".
+He has blond hair, and big hands.  He all ways seems to be smiling,
+and some how, it does not get on your nerves.  The rooms is dark, so
+you do not notice much else about him.
+~
+Human~
+ABCQRTd CDEF 500 S
+91 120
+100 0 0 0 100d40+500 100d30+100 16d16+85 21
+-40 -40 -40 -40
+EFHIKP 0 0 0
+8 8 1 2147483647
+AHMV ABCDEFGHIJK S unknown
+#0
+
+
+
+#OBJECTS
+#32000
+gauntlets thunder~
+the `KGauntlets `bof `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
+A pair of thunder gauntlets lie here.~
+unknown~
+9 0 AH
+BE BE BE BE 0
+47 0 1000000 P
+C 4
+A
+1 2
+A
+2 2
+A
+12 50
+A
+13 25
+#32001
+Ring of Thunder~
+the `KRing `bof `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
+A ring made of controlled lightning crackles loudly.~
+unknown~
+9 ABI AB
+BD BD BD BD 0
+47 0 1000000 P
+C 4
+A
+5 1
+A
+3 1
+A
+13 35
+A
+12 35
+A
+4 -1
+A
+19 4
+A
+18 4
+#32002
+thunder tachi~
+the `YT`Bh`Wu`Yn`Wd`Be`Yr`w `RT`ra`mc`rh`Ri`w~
+A shining, long samurai sword lies here.~
+unknown~
+5 ABI AN
+A BD BD ACE CDEF
+47 0 1000000 P
+C 4
+A
+19 10
+A
+18 13
+A
+13 20
+A
+12 20
+A
+17 -2
+#32003
+Scroll of Soul's Thunder~
+a `CS`cc`Gr`go`Bl`bl`w of `RS`ro`Ru`rl`R'`rs `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
+A scroll, crackling with something lies here.~
+unknown~
+2 A AO
+45 1 0 3 0
+45 0 30000 P
+C 4
+#32004
+thunderbolt~
+a `YT`Bh`Wu`Yn`Wd`Be`Yr`Bbo`Wl`Yt`w~
+A small thunderbolt spits and crackles.~
+unknown~
+8 ABI AO
+0 0 0 0 0
+35 0 0 P
+C 4
+#32020
+Balance sword~
+a Sword of Balance~
+Here lies right side up a sword belonging to the clan Balance.~
+unknown~
+5 AB AN
+A ABC ABC AB AC
+30 5 500000 P
+C 6
+A
+2 1
+#32021
+breastplate of Balance~
+the Breastplate of Balance~
+Here lies a well balanced berastlapte.~
+unknown~
+9 AB AD
+ABCD ABCD ABCD ABCD 0
+30 10 500000 P
+C 6
+A
+4 1
+A
+5 1
+A
+12 50
+A
+2 1
+A
+1 1
+A
+3 1
+#32022
+the Belt of Great Balance~
+the Belt of Great Balance~
+Here lies a belt with Balance engraved into it.~
+unknown~
+9 AB AL
+ABCD ABCD ABCD ABCD 0
+30 1 500000 P
+C 6
+A
+3 1
+A
+5 1
+A
+13 10
+#32023
+treasure chest Balance~
+the Donation Chest~
+A donation chest sits here ready to hold unused items ~
+unknown~
+15 AB 0
+DFGHIJ 0 0 0 0
+1 1 100 P
+C 6
+#32024
+barons desk~
+`WMarrows `wDesk~
+Here is `WMarrows `wDesk, covered in papers.~
+unknown~
+12 0 0
+0 0 0 0 0
+1 1000 1000 P
+C 6
+#32025
+boots of Balance~
+the Boots of Ultimate Balance~
+Here rest some nicely crafted boots.~
+unknown~
+9 AB AG
+ABCD ABCD ABCD ABCD 0
+30 1 500000 P
+C 6
+A
+3 1
+#32026
+leggings Balance~
+the Leggings of Extreme Balance~
+Here lies thick leggings made of chain.~
+unknown~
+9 AB AF
+CD CD CD CD 0
+30 3 500000 P
+C 6
+A
+19 5
+A
+18 5
+A
+2 3
+A
+18 4
+A
+19 4
+#32027
+light balance~
+the Balanced Light~
+A very shiny ball of light floats in front of you.~
+unknown~
+1 AB A
+0 0 999 0 0
+30 1 500000 P
+C 6
+A
+19 3
+A
+18 7
+A
+13 50
+A
+2 2
+A
+18 4
+A
+19 4
+#32028
+ring of balance~
+the Ring of Superb Balance~
+A ring here looks as if it would fit on you nicely.~
+unknown~
+9 AB AB
+ABCD ABCD ABCD ABCD 0
+30 1 500000 P
+C 6
+A
+19 4
+A
+18 4
+A
+2 1
+A
+4 1
+#32030
+dagger balance~
+a Dagger of Balance~
+Here lies and extremely sharp dagger.~
+unknown~
+5 0 AN
+B BC D BDE D
+30 19 500000 P
+#32031
+no name~
+(no short description)~
+(no description)~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#32034
+streeve token excellence~
+`YS`WT`BR`YE`WE`BV`YE`Ws `w Token of Excellance~
+A token given to a clan member by Streeve for a job well done rest here.~
+unknown~
+8 A A
+0 0 0 0 0
+0 0 10 P
+#32399
+cheattest~
+the Sword of the Odd~
+A weird looking sword lies here~
+unknown~
+5 0 AN
+A D D 0 C
+99 5 319 P
+#0
+
+
+
+#ROOMS
+#32000
+`BOutside the `rDominion`B Hall`w~
+The giant crystalline geodesic dome in front of you pales in comparison
+to the lighting dome overhead.  A small protruding lock on the dome in front
+of you is the only hint of a way in.  
+~
+0 1049604 2
+D0
+~
+irondoor~
+4 32004 32001
+S
+#32001
+`BThe `rDominion`B Hall's Lounge`w~
+A few plush couches lie here, a small drink bar in the corner, and a
+massive amount of weapons line the walls in decorations.  
+~
+0 1057804 0
+D2
+~
+irondoor~
+4 32004 32000
+D5
+~
+~
+0 0 32002
+S
+#32002
+`BThe `rDominion `BBarracks`w~
+A few cots are mounted on the walls here, with nice blue and gold paint
+around.  Lights barely illuminate this part of the hall.  A picture of
+Togashi Yokuni is on the ceiling.  
+ 
+~
+0 1057820 0
+D4
+~
+~
+0 0 32001
+D5
+~
+~
+0 0 32003
+S
+#32003
+`BThe `rDominion `BTraining Hall`w~
+Many practice dummies lie around, as do practice weapons.  The walls are
+made of paper and bamboo, giving a real style and feel of a place to train
+at.  
+~
+0 1056776 0
+D4
+~
+~
+0 0 32002
+D5
+~
+~
+0 0 32004
+S
+#32004
+`BThe `rDominion `BWar Room`w~
+The lighting here is dim, except over the large round table in the center
+of the room.  The table is embossed with the `rDominion`w emblem, with a
+thunderbolt shooting out, marking the place of each of the chairs
+surrounding it.  The floor is a high-quality, very expensive carpet.  The
+walls are made of a nice wooded paneling.  The stairs are on the northern
+side of this cylindrical room.  
+~
+0 1057804 0
+D4
+~
+~
+0 0 32003
+S
+#32020
+Balance Clan Hall~
+Welcome to the clan hall that belongs to the most balanced people on this
+world.  Here the members of clan Balance seek complete balance among each
+other.  To the south of ehre, you can see a glowing light.  
+~
+0 12 0
+D0
+~
+~
+0 0 32023
+D1
+~
+~
+0 0 32022
+D2
+~
+~
+0 0 32025
+D3
+~
+~
+0 0 32021
+S
+#32021
+The Clan Shopekeeper~
+This room is full of items hanging on the wall, all of the items have the
+mark of the clan Balance on them.  Strike the clan shop keeper here will
+sell you some of these items for a good deal.  Type list to see your
+choices.  
+~
+0 8 0
+D1
+~
+~
+0 0 32020
+S
+#32022
+Clan Donation Room~
+This room is quite large, it has a few chairs around for people to sit,
+and a large treasure chest in the middle of the room.  Here you can leave
+the items you don't need, maybe other clan members will need them.  
+~
+0 8 0
+D3
+~
+~
+0 0 32020
+S
+#32023
+Waiting Room~
+This is the waiting room, here you can talk with some of your fellow clan
+member as you await your appointment with the Baron.  
+~
+0 8 0
+D0
+~
+~
+1 0 32024
+D2
+~
+~
+0 0 32020
+S
+#32024
+`YM`Wa`Br`Yr`Wo`Bw`Ys `w Office~
+This room has a large desk, where `WMarrow `walways sits.  There are also
+many different paintings of things you have never seen before hangings among
+the walls.  On the desk you see alot of letters and sealed documents, he is
+a very busy man.  On the wall to a right, a portrait catches your eye.  It
+is of the most dedictaed members of Balane shown with their God.  It shows
+MKwarrior, STgermain, Marrow, and their God Streeve.  
+~
+0 8 0
+D2
+~
+~
+1 0 32023
+S
+#32025
+Streeves Glowing Shrine~
+You look around and before you stands a large statue...  Composed of
+solid `yGold`w.  The statue is that of STREEVE : The Deity of Balance.  This
+is a quiet and tranquil place with no forces of good or evil pulling at your
+will, but only the greyness of neutrality.  It is where Balance members go
+to gain their indifference.  There is a focus here, and a peace.  
+~
+0 8 0
+D0
+~
+~
+0 0 32020
+S
+#32030
+~
+~
+0 4 0
+S
+#32060
+On the surface~
+You are on the surface of this planet.  You appear to be in a desert.
+Rolling hills of sand surround you, but in a couble of days, these
+hills will be no more.  The ever changing sands have claimed many.
+Under your feet you feel something different then sand.  Something
+hard and unmoving.  You look down and see a trap door pulled aside
+so that you can look into a fairly dark chamber.  A rope ladder wines
+its way down to the room beneath.
+~
+0 1040 10
+D5
+~
+~
+0 0 32061
+S
+#32061
+Map room of the Mercenaries~
+You enter a large room filled with piles of stuff.  Book shelves
+line the walls filled with hundreds of old books.  Maps and scrolls
+lay on a table at the center of this round room.  You are beneath the
+earth so the air is stuffy, and most of the light comes from torchs
+on the walls.  You spot a hole in the ceiling with a ladder hanging down.
+It leads up to the surface, and to the entrance to this hideout.
+To the east and west you see doorways.
+~
+0 24 0
+D1
+~
+~
+0 0 32062
+D3
+~
+~
+0 0 32063
+D4
+~
+~
+0 0 32060
+S
+#32062
+The bar~
+You are now in the bar of the mercenaries.  The mercenaries know how
+to live a good life, for Sven, the bartender, serves the best food
+and drink you have every had before.  Large stools and chairs fill
+the room, and many of them look very comfortable.  The atomosphere
+is very casual, so your entrance does not seem to displease anyone.
+To the west is the map room, and to the north you see a large metal door.
+~
+0 1048 0
+D3
+~
+~
+0 0 32061
+S
+#32063
+The training room ~
+You are in a huge chamber.  On the walls many weapons look of steel.
+Some dummys are here, so that young warriors can train to become
+greater warriors.  Jaime, the retired warrior stands here instructing
+the ways of combat.  It is a wonder that anything can withstand the
+skill of these young mercenaries, for they have the best teachers.
+To the north is the vault, and to the east you can see the map room.
+~
+0 24 0
+D0
+~
+~
+0 0 32064
+D1
+~
+~
+0 0 32061
+S
+#32064
+In the vault~
+You in a small room compared to the rest of this hideout.  Lots of valuble
+things are here.  You see some clan eq, that will be given to worthy
+members of the Mercenaries.  A giant door, when locked and closed
+ceils this room of to the rest of these clan hideout.  A lock, that
+even the best pick locks could not pick, is on the door.  There are
+no other exits from this room, so the only other way to get out is to
+some how burrow through the metal walls.  To the south, through the open
+door is the training room.
+~
+0 24 0
+D2
+~
+~
+0 0 32063
+S
+#0
+
+
+
+#RESETS
+D 0 32000 0 2
+D 0 32001 2 2
+D 0 32023 0 0
+D 0 32024 2 0
+M 0 32000 1 32003
+G 0 32000 0
+G 0 32001 0
+G 0 32002 0
+G 0 32003 0
+O 0 32023 0 32022
+M 0 21420 1 32023
+O 0 32024 0 32024
+M 0 32060 1 32062
+S
+
+
+
+#PROGS
+S
+
+
+#SHOPS
+32000 9 5 19 17 2 100 100 0 23
+32020 5 9 0 0 0 100 100 0 23
+32060 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#$

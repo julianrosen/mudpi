@@ -163,22 +163,7 @@ break
 Mayor Wander~
 Mayor wanders around town closing and opening town gates depending on the time.~
 rand_prog 100~
-if(isfight($i))
-  break
-endif
-if(hour() == 6)
-  mpfollowpath W3a3003b33000c111d0d111Oe333333Oe22c222112212111a1S. restart
-  break
-endif
-if(hour() == 20)
-  mpfollowpath W3a3003b33000c111d0d111CE333333CE22c222112212111a1S. restart
-  break
-endif
-if(hour() >= 6 && hour() < 19)
-  mpfollowpath W3a3003b33000c111d0d111Oe333333Oe22c222112212111a1S. continue
-  break
-endif
-mpfollowpath W3a3003b33000c111d0d111CE333333CE22c222112212111a1S. continue
+say Hiya
 break
 ~
 #13
@@ -386,11 +371,323 @@ fightgroup_prog 25~
 cast 'teleport' $n
 break
 ~
-#25
-Test~
-Testing.~
+#101
+Stub Sea Captain~
+A stub for Mudweiser spec_sea_captain~
 rand_prog 100~
-say #level($i)*3#
+say I'm supposed to be a sea captain, but I don't remember what that means
+break
+~
+#102
+Stub French Taunter~
+A stub for Mudweiser spec_french_taunter~
+rand_prog 100~
+say I'm supposed to be a French taunter, but I don't remember what that means
+break
+~
+#103
+Stub Nee~
+A stub for Mudweiser spec_nee~
+rand_prog 100~
+say Nee!
+break
+~
+#104
+Stub Tim~
+A stub for Mudweiser spec_tim~
+rand_prog 100~
+say I'm supposed to be Tim the Enchanter, but I don't remember what that means
+break
+~
+#105
+Stub Reaper~
+A stub for Mudweiser spec_reaper~
+rand_prog 100~
+say I'm supposed to be a reaper, but I don't remember what that means
+break
+~
+#200
+Mudweiser MOBProgs/3011.prg-1~
+Mudweiser MOBProgs/3011.prg-1~
+rand_prog 1~
+say Man, I'm bored.
+break
+~
+#201
+Mudweiser MOBProgs/3011.prg-2~
+Mudweiser MOBProgs/3011.prg-2~
+speech_prog qwqwqwasxdazsfkuahsdakjshdljkshfa~
+if ispc($n)
+ shout everyone SUCKS!
+endif
+break
+~
+#202
+Mudweiser MOBProgs/109.prg-1~
+Mudweiser MOBProgs/109.prg-1~
+speech_prog p die, bob!~
+say $n, that was not very nice.
+break
+~
+#203
+Mudweiser MOBProgs/1503.prg-1~
+Mudweiser MOBProgs/1503.prg-1~
+hitprcnt_prog 95~
+break
+~
+#204
+Mudweiser MOBProgs/1503.prg-2~
+Mudweiser MOBProgs/1503.prg-2~
+death_prog 100~
+mpecho $i yells "Now we see the violence inherent in the system!"
+mpasound $i yells "Now we see the violence inherent in the system!"
+break
+~
+#205
+Mudweiser MOBProgs/1503.prg-3~
+Mudweiser MOBProgs/1503.prg-3~
+bribe_prog 1~
+say I don't want your filthy money.
+break
+~
+#206
+Mudweiser MOBProgs/1503.prg-4~
+Mudweiser MOBProgs/1503.prg-4~
+speech_prog p old woman~
+say Man!
+break
+~
+#207
+Mudweiser MOBProgs/1503.prg-5~
+Mudweiser MOBProgs/1503.prg-5~
+speech_prog p old woman!~
+say Man!
+break
+~
+#208
+Mudweiser MOBProgs/1503.prg-6~
+Mudweiser MOBProgs/1503.prg-6~
+speech_prog p old man~
+say I'm 37, I'm not old.
+break
+~
+#209
+Mudweiser MOBProgs/1503.prg-7~
+Mudweiser MOBProgs/1503.prg-7~
+speech_prog p old man!~
+say I'm 37, I'm not old.
+break
+~
+#210
+Mudweiser MOBProgs/1503.prg-8~
+Mudweiser MOBProgs/1503.prg-8~
+speech_prog p am king~
+say King of the who?
+break
+~
+#211
+Mudweiser MOBProgs/1503.prg-9~
+Mudweiser MOBProgs/1503.prg-9~
+speech_prog briton~
+say Who are the Britons?
+break
+~
+#212
+Mudweiser MOBProgs/1503.prg-10~
+Mudweiser MOBProgs/1503.prg-10~
+speech_prog britons~
+say Who are the Britons?
+break
+~
+#213
+Mudweiser MOBProgs/1503.prg-11~
+Mudweiser MOBProgs/1503.prg-11~
+speech_prog p am your king~
+say I didn't vote for you.
+break
+~
+#214
+Mudweiser MOBProgs/1503.prg-12~
+Mudweiser MOBProgs/1503.prg-12~
+speech_prog p don't vote~
+say Well, I could become king then.
+break
+~
+#215
+Mudweiser MOBProgs/1503.prg-13~
+Mudweiser MOBProgs/1503.prg-13~
+speech_prog lord~
+say We don't have a lord.  We're a anarcho-syndicalist commune.
+say We take it in turns to act as a sort of executive officer of the 
+say week.
+break
+~
+#216
+Mudweiser MOBProgs/1503.prg-14~
+Mudweiser MOBProgs/1503.prg-14~
+speech_prog p order~
+say Order, eh?  Who do you think you are?
+break
+~
+#217
+Mudweiser MOBProgs/1503.prg-15~
+Mudweiser MOBProgs/1503.prg-15~
+speech_prog p shut up!~
+say Supreme power derives from a mandate from the masses, not from some
+say farcical aquatic ceremony.
+break
+~
+#218
+Mudweiser MOBProgs/1503.prg-16~
+Mudweiser MOBProgs/1503.prg-16~
+speech_prog p shut up~
+say Supreme power derives from a mandate from the masses, not from some
+say farcical aquatic ceremony.
+break
+~
+#219
+Mudweiser MOBProgs/1503.prg-17~
+Mudweiser MOBProgs/1503.prg-17~
+speech_prog p lady of the lake~
+say Strange women lying in ponds distributing swords is no basis for a 
+say system of government.
+break
+~
+#220
+Mudweiser MOBProgs/1503.prg-18~
+Mudweiser MOBProgs/1503.prg-18~
+speech_prog p lady of the lake,~
+say Strange women lying in ponds distributing swords is no basis for a 
+say system of government.
+break
+~
+#221
+Mudweiser MOBProgs/1503.prg-19~
+Mudweiser MOBProgs/1503.prg-19~
+speech_prog p be quiet!~
+say Well, you can't expect to wield supreme executive power just because
+say some watery tart threw a sword at you!
+break
+~
+#222
+Mudweiser MOBProgs/1503.prg-20~
+Mudweiser MOBProgs/1503.prg-20~
+speech_prog p bloody peasant~
+say Oh, what a give away.
+say Did you hear that, did you hear that, eh?
+say That's what I'm on about -- did you see him?
+say Did you see him repressing me?  You saw it didn't you?
+break
+~
+#223
+Mudweiser MOBProgs/1503.prg-21~
+Mudweiser MOBProgs/1503.prg-21~
+speech_prog p bloody peasant!~
+say Oh, what a give away.
+say Did you hear that, did you hear that, eh?
+say That's what I'm on about -- did you see him?
+say Did you see him repressing me?  You saw it didn't you?
+break
+~
+#224
+Mudweiser MOBProgs/1523.prg-1~
+Mudweiser MOBProgs/1523.prg-1~
+death_prog 10~
+mpmload 1530
+mpforce eeee mpoload 1522
+mpforce eeeeckyeckyeckyeckypikangzoomboing say We are no longer the knights who say Nee!
+mpforce eeeeckyeckyeckyeckypikangzoomboing say We are now the knights who say Eeee-ecky-ecky-ecky-pitang-zooooom-boing!
+break
+~
+#225
+Mudweiser MOBProgs/1532.prg-1~
+Mudweiser MOBProgs/1532.prg-1~
+speech_prog blah~
+say Check.
+ 
+if inroom($i) == 1505
+say check one
+if ispc($r)
+say check two
+else
+say check npc two
+endif
+say $r sucks.
+endif
+say $i is me
+say $n is $$n
+say $r is $$r
+break
+~
+#226
+Mudweiser MOBProgs/4719.prg-1~
+Mudweiser MOBProgs/4719.prg-1~
+act_prog p bows before you~
+mpoload 4193
+give hammer $n
+break
+~
+#227
+Mudweiser MOBProgs/4721.prg-1~
+Mudweiser MOBProgs/4721.prg-1~
+fight_prog 15~
+yell HELP! $n is attacking me!
+mpmload 4180
+break
+~
+#228
+Mudweiser MOBProgs/4739.prg-1~
+Mudweiser MOBProgs/4739.prg-1~
+rand_prog 85~
+emote flicks you the bird.
+say Get the hell out of my town.
+say Got anyone you need erased?
+emote spits.
+break
+~
+#229
+Mudweiser MOBProgs/4739.prg-2~
+Mudweiser MOBProgs/4739.prg-2~
+look_prog 100~
+if isnpc($n)
+      slap $n
+         say Who  the hell are you looking at me?
+else
+    if level ($n) <= 18
+           tell $n I warn you.. Do NOT look at me.. 
+else
+if level($n) > 18
+     say Big mistake..
+     say Who gave you permission to look at me?
+     say Now, you die..
+     kill $n
+     break
+endif
+endif
+break
+~
+#230
+Mudweiser MOBProgs/4744.prg-1~
+Mudweiser MOBProgs/4744.prg-1~
+fight_prog 15~
+yell HELP! $n is attacking me!
+mpmload 4180
+break
+~
+#231
+Mudweiser MOBProgs/4745.prg-1~
+Mudweiser MOBProgs/4745.prg-1~
+fight_prog 15~
+yell HELP! $n is attacking me!
+mpmload 4180
+break
+~
+#232
+Mudweiser MOBProgs/4746.prg-1~
+Mudweiser MOBProgs/4746.prg-1~
+fight_prog 15~
+yell HELP! $n is attacking me!
+mpmload 4180
 break
 ~
 #0
@@ -398,6 +695,200 @@ break
 
 
 #OBJPROGS
+#1234
+Blah~
+Blah~
+wear_prog 100~
+mpechoat $n You shimmer and begin to fade.
+mpechoaround $n $n begins to fade.
+cast 'invis' $n
+break
+~
+#600
+Mudweiser OBJProgs/4151.prg-1~
+Mudweiser OBJProgs/4151.prg-1~
+wear_prog 100~
+mpechoat $n You shimmer and begin to fade.
+mpechoaround $n $n begins to fade.
+cast 'invis' $n
+break
+~
+#601
+Mudweiser OBJProgs/4151.prg-2~
+Mudweiser OBJProgs/4151.prg-2~
+remove_prog 100~
+cast 'continual light' $n
+break
+~
+#602
+Mudweiser OBJProgs/4152.prg-1~
+Mudweiser OBJProgs/4152.prg-1~
+remove_prog 100~
+cast 'curse' $n
+break
+~
+#603
+Mudweiser OBJProgs/4152.prg-2~
+Mudweiser OBJProgs/4152.prg-2~
+fight_prog 100~
+break
+~
+#604
+Mudweiser OBJProgs/4152.prg-3~
+Mudweiser OBJProgs/4152.prg-3~
+remove_prog 100~
+mppurge test
+break
+~
+#605
+Mudweiser OBJProgs/4194.prg-1~
+Mudweiser OBJProgs/4194.prg-1~
+wear_prog 100~
+mpecho The accursed pendant seems to radiate darkness and evil.
+cast 'curse' $n
+mpechoaround $n $n seems to be cursed.
+mpechoat $n You have been cursed by the pendant.
+break
+~
+#606
+Mudweiser OBJProgs/4194.prg-2~
+Mudweiser OBJProgs/4194.prg-2~
+speech_prog p pendant to blade~
+mpecho An accursed pendant shudders violently and explodes.
+mpoload 4198 21
+drop accbl
+mpforce $n sac accpnd
+mpforce $n get accbl
+break
+~
+#607
+Mudweiser OBJProgs/4194.prg-3~
+Mudweiser OBJProgs/4194.prg-3~
+remove_prog 98~
+mpecho The accursed pendant's curse loses its effectiveness.
+cast 'remove curse' $n
+cast 'cause serious' $n
+break
+~
+#608
+Mudweiser OBJProgs/4199.prg-1~
+Mudweiser OBJProgs/4199.prg-1~
+wear_prog 100~
+mpecho The TEST weapon hums with power as it is wielded.
+break
+~
+#609
+Mudweiser OBJProgs/4199.prg-2~
+Mudweiser OBJProgs/4199.prg-2~
+fight_prog 100~
+break
+~
+#610
+Mudweiser OBJProgs/4749.prg-1~
+Mudweiser OBJProgs/4749.prg-1~
+use_prog 100~
+mpecho The `RFlame `yBlade `wflickers momentarily and erupts into flame.
+break
+~
+#611
+Mudweiser OBJProgs/4753.prg-1~
+Mudweiser OBJProgs/4753.prg-1~
+wear_prog 100~
+mpechoat $n You recieve nature's blessing.
+mpechoaround $n $n is granted nature's blessing.
+cast 'bless' $n
+cast 'cure light' $n
+cast 'remove curse' $n
+break
+~
+#612
+Mudweiser OBJProgs/4753.prg-2~
+Mudweiser OBJProgs/4753.prg-2~
+remove_prog 100~
+mpecho The wooden ring loses its powers and disintegrates.
+mpforce $n junk gnarled wooden ring
+break
+~
+#613
+Mudweiser OBJProgs/4783.prg-1~
+Mudweiser OBJProgs/4783.prg-1~
+wear_prog 100~
+mpecho A `yTimion `GFullplate `yglows `Cwith a radiant `Ressence.`w
+break
+~
+#614
+Mudweiser OBJProgs/4783.prg-2~
+Mudweiser OBJProgs/4783.prg-2~
+remove_prog 100~
+mpecho A `yTimion `GFullplate `Cshimmers briefly and `Kfades.`w
+break
+~
+#615
+Mudweiser OBJProgs/4787.prg-1~
+Mudweiser OBJProgs/4787.prg-1~
+wear_prog 100~
+if class($n) != 3
+break
+endif
+if inroom($n) == 4766
+break
+endif
+if isfight($n)
+mpechoat $n You may not invoke this item while fighting.
+break
+endif
+mpechoat $n You are transported to the warrior's guild.
+mpechoaround $n $n invokes the symbol of $s guild and vanishes in a puff of smoke.
+mptran $n 4766
+mpgoto 4766
+mpechoaround $n $n arrives in a beam of bright light.
+break
+~
+#616
+Mudweiser OBJProgs/4788.prg-1~
+Mudweiser OBJProgs/4788.prg-1~
+wear_prog 100~
+if class($n) == 0
+or class($n) == 7
+if inroom($n) == 4155
+break
+endif
+if isfight($n)
+mpechoat $n You may not invoke this item while fighting.
+break
+endif
+mpechoat $n You are transported to the mage's guild.
+mpechoaround $n $n invokes the symbol of $s guild and vanishes in a puff of smoke.
+mptran $n 4155
+mpgoto 4155
+mpechoaround $n $n arrives in a beam of bright light.
+break
+endif
+break
+~
+#617
+Mudweiser OBJProgs/4798.prg-1~
+Mudweiser OBJProgs/4798.prg-1~
+remove_prog 100~
+mpechoat $n `rYou have angered the mighty diety, prepare to be punished.`w
+mpecho `mTimion, God of Justice, eyes the room and glares at $N.
+mpechoat $n `gTimion says, 'You have disowned me, prepare to die!'
+cast 'harm' $n
+cast 'curse' $n
+cast 'blindness' $n
+mpasound `rYou hear Timion's laughter.
+break
+~
+#618
+Mudweiser OBJProgs/4798.prg-2~
+Mudweiser OBJProgs/4798.prg-2~
+wear_prog 100~
+mpechoaround `r$n's figure shimmers briefly.`w
+mpechoat $n `gTimion says, 'Congratulations $N, for choosing the ways of Justice.'`w
+mpechoat $n `gTimion says, 'Be fair and just in your decisions and follow the way of the law'`w
+mpechoat $n `mTimion blesses you and his likeness fades.`w
+break
+~
 #0
 
 
@@ -411,7 +902,6 @@ break
 #12
 Mayor~
 Mayor wanders around the city opening and closing gates and he fights like a cleric.~
-M 10
 M 11
 ~
 #20
@@ -425,6 +915,142 @@ Puff~
 Figure it out. :)~
 M 22
 M 23
+~
+#2000
+Mudweiser MOBProgs/3011.prg~
+Mudweiser MOBProgs/3011.prg~
+M 201
+M 200
+~
+#2001
+Mudweiser MOBProgs/109.prg~
+Mudweiser MOBProgs/109.prg~
+M 202
+~
+#2002
+Mudweiser OBJProgs/4151.prg~
+Mudweiser OBJProgs/4151.prg~
+O 601
+O 600
+~
+#2003
+Mudweiser OBJProgs/4152.prg~
+Mudweiser OBJProgs/4152.prg~
+O 604
+O 603
+O 602
+~
+#2004
+Mudweiser OBJProgs/4194.prg~
+Mudweiser OBJProgs/4194.prg~
+O 607
+O 606
+O 605
+~
+#2005
+Mudweiser OBJProgs/4199.prg~
+Mudweiser OBJProgs/4199.prg~
+O 609
+O 608
+~
+#2006
+Mudweiser MOBProgs/1503.prg~
+Mudweiser MOBProgs/1503.prg~
+M 223
+M 222
+M 221
+M 220
+M 219
+M 218
+M 217
+M 216
+M 215
+M 214
+M 213
+M 212
+M 211
+M 210
+M 209
+M 208
+M 207
+M 206
+M 205
+M 204
+M 203
+~
+#2007
+Mudweiser MOBProgs/1523.prg~
+Mudweiser MOBProgs/1523.prg~
+M 224
+~
+#2008
+Mudweiser MOBProgs/1532.prg~
+Mudweiser MOBProgs/1532.prg~
+M 225
+~
+#2009
+Mudweiser MOBProgs/4719.prg~
+Mudweiser MOBProgs/4719.prg~
+M 226
+~
+#2010
+Mudweiser MOBProgs/4721.prg~
+Mudweiser MOBProgs/4721.prg~
+M 227
+~
+#2011
+Mudweiser MOBProgs/4739.prg~
+Mudweiser MOBProgs/4739.prg~
+M 229
+M 228
+~
+#2012
+Mudweiser MOBProgs/4744.prg~
+Mudweiser MOBProgs/4744.prg~
+M 230
+~
+#2013
+Mudweiser MOBProgs/4745.prg~
+Mudweiser MOBProgs/4745.prg~
+M 231
+~
+#2014
+Mudweiser MOBProgs/4746.prg~
+Mudweiser MOBProgs/4746.prg~
+M 232
+~
+#2015
+Mudweiser OBJProgs/4749.prg~
+Mudweiser OBJProgs/4749.prg~
+O 610
+~
+#2016
+Mudweiser OBJProgs/4753.prg~
+Mudweiser OBJProgs/4753.prg~
+O 612
+O 611
+~
+#2017
+Mudweiser OBJProgs/4783.prg~
+Mudweiser OBJProgs/4783.prg~
+O 614
+O 613
+~
+#2018
+Mudweiser OBJProgs/4787.prg~
+Mudweiser OBJProgs/4787.prg~
+O 615
+~
+#2019
+Mudweiser OBJProgs/4788.prg~
+Mudweiser OBJProgs/4788.prg~
+O 616
+~
+#2020
+Mudweiser OBJProgs/4798.prg~
+Mudweiser OBJProgs/4798.prg~
+O 618
+O 617
 ~
 #0
 

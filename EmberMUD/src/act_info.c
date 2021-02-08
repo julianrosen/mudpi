@@ -66,6 +66,10 @@ void show_char_to_char_0 args( ( CHAR_DATA * victim, CHAR_DATA * ch ) );
 void show_char_to_char_1 args( ( CHAR_DATA * victim, CHAR_DATA * ch ) );
 void show_char_to_char args( ( CHAR_DATA * list, CHAR_DATA * ch ) );
 bool check_blind args( ( CHAR_DATA * ch ) );
+/***/
+CLAN_DATA * get_clan    args( ( int clannum ) ); // From Mudweiser
+
+
 
 /*
  * externs
@@ -418,7 +422,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
             strcat( buf, "." );
         }
         else
-            strcat( buf, "somone who left??" );
+            strcat( buf, "someone who left??" );
         break;
     }
     if ( IS_AFFECTED( victim, AFF_WEB ) )
@@ -1088,7 +1092,7 @@ void do_afk( CHAR_DATA * ch, char *argument )
         send_to_char( "You are now set AFK. Messages are being recorded.\n\r",
                       ch );
         SET_BIT( ch->act, PLR_AFK );
-        act( "`W$n is away from $s keyboard for awhile.`w", ch, NULL, NULL,
+        act( "`W$n is away from $s keyboard for a while.`w", ch, NULL, NULL,
              TO_ROOM );
         sprintf( buf2, "%s has gone AFK.", ch->name );
         if ( !IS_SET( ch->act, PLR_WIZINVIS ) )
@@ -3031,7 +3035,7 @@ void do_who( CHAR_DATA * ch, char *argument )
     }
 
     sprintf( buf2,
-             "`wTotal Players Online: `W%d\n\r`wTo see the legend for the [---] format, type help wlegend\n\r",
+             "`wTotal Players Online: `W%d\n\r`w",
              count );
     strcat( output, buf2 );
     page_to_char( output, ch );
@@ -4330,6 +4334,7 @@ void do_levelgain( CHAR_DATA * ch, char *argument )
     else
         send_to_char( "\n\rYou're not quite ready yet.\n\r", ch );
 }
+
 void do_rebirt( CHAR_DATA * ch, char *argument )
 {
     send_to_char( "If you want to REBIRTH, spell it out!\n\r", ch );

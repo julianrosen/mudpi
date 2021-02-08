@@ -890,8 +890,8 @@ struct area_data {
     char *filename;             /* OLC */
     char *builders;             /* OLC *//* Listing of */
     int security;               /* OLC *//* Value 1-9  */
-    int lvnum;                  /* OLC *//* Lower vnum */
-    int uvnum;                  /* OLC *//* Upper vnum */
+    long lvnum;                  /* OLC *//* Lower vnum */ // JR changed int to long
+    long uvnum;                  /* OLC *//* Upper vnum */
     int vnum;                   /* OLC *//* Area vnum  */
     int area_flags;             /* OLC */
 };
@@ -1388,7 +1388,7 @@ void free_mudprog args( ( MPROG_DATA * mprog ) );
 MPROG_GROUP *new_mudprog_group args( ( void ) );
 void free_mudprog_group args( ( MPROG_GROUP * pMprogGroup ) );
 char fread_letter args( ( FILE * fp ) );
-int fread_number args( ( FILE * fp ) );
+long fread_number args( ( FILE * fp ) );
 long fread_flag args( ( FILE * fp ) );
 void fread_to_eol args( ( FILE * fp ) );
 char *get_word args( ( FILE * fp ) );

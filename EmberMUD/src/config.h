@@ -6,7 +6,7 @@
 /* Added by JR */
 
 #define ENABLE_IMOTD  0 /* Enable imotd? */
-#define PAUSE_MOTD    0 /* Pause at the MOTD during login? */
+#define PAUSE_MOTD    1 /* Pause at the MOTD during login? */
 #define NO_KILL_STEAL 0 /* Is kill stealing prohibited? */
 #define AUTO_BOARD    0 /* Automatically display message boards on login? */
 #define WAIT_STR      1 /* Display symbol when commands are blocked? */
@@ -27,6 +27,8 @@ vanishes and quits.*/
 #define AUTO_AFK 15
 #define AUTO_VANISH 60
 #define AUTO_QUIT 180
+
+#define VNUM_OFFSET 13000 // Increase all hardcoded vnums in config.h by this amount
 
 /* End JR */
 
@@ -58,11 +60,12 @@ vanishes and quits.*/
  * Both variables MUST be present!
  */
 #define CFG_OOC        "`K[`WOOC`K]`w $n`K: `c'`C$t`c'`0"
+//#define CFG_OOC        "`C$n OOC: '$t`C'\n\r`w"
 #define CFG_GOS        "`K[`WGOSSIP`K]`w $n`K: `b'`B$t`b'`0"
 #define CFG_QUESTION   "`K[`WQUESTION`K]`w $n`K: `r'`R$t`r'`0"
 #define CFG_ANSWER     "`K[`WANSWER`K]`w $n`K: `r'`R$t`r'`0"
 #define CFG_IMM        "`K[`WIMM`K]`w $n`K: `w'`W$t`w'`0"
-#define CFG_MUS        "`K[`WMUSIC`K]`w $n`K sings:  `m'`M$t`m'`0"
+#define CFG_MUS        "`K[`WMUSIC`K]`w $n`K sings: `m'`M$t`m'`0"
 #define CFG_ADMIN      "`K[`WADMIN`K]`w $n`K: `y'`Y$t`y'`0"
 #define CFG_HERO       "`K[`WHERO`K]`w $n`K: `y'`Y$t`y'`0"
 
@@ -464,7 +467,7 @@ caveat is there is no reset portion to it, so if you set it to a mortal
 command, realize that. However word of recall spell and recall scrolls
 are not affected by this. 1 for imm, 0 for mortal */
 
-#define BEACON_WIZ  1
+#define BEACON_WIZ  0
 
 /* IMPORTANT!!!!!!!!!!!
    Do NOT Turn on OLC_AUTOSAVE unless you and your builders KNOW what your
@@ -515,10 +518,10 @@ dont compile just the affected object file or else you will find that the
 changes will not work.
 -Lancelight
 */
-#define JAIL_RELEASE_VNUM 3001
+#define JAIL_RELEASE_VNUM 3001+VNUM_OFFSET
 #define JAIL_RELEASE_RECALL 1
 
-#define JAIL_CELL_VNUM 3143     /* The actual jail room vnum */
+#define JAIL_CELL_VNUM 3143+VNUM_OFFSET     /* The actual jail room vnum */
 #define JAIL_REMOVES_EQ 1       /*Removes eq from the char to their inv */
 #define JAIL_CAN_WEAR 0         /*Can they wear things while in jail */
 #define JAIL_NOCHANNEL 1
@@ -547,8 +550,8 @@ players that are not thieves. The second is the vnum of the thieves guild.
 -Lancelight
 */
 
-#define ROOM_VNUM_BANK        3008
-#define ROOM_VNUM_BANK_THIEF  3029
+#define ROOM_VNUM_BANK        3008+VNUM_OFFSET
+#define ROOM_VNUM_BANK_THIEF  3029+VNUM_OFFSET
 
 /* Color defines for use in config.h primarily */
 #define GREY          "`w"
@@ -810,9 +813,14 @@ players that are not thieves. The second is the vnum of the thieves guild.
  * Well known mob virtual numbers.
  * Defined in #MOBILES.
  */
+/*
 #define MOB_VNUM_FIDO              3090
 #define MOB_VNUM_CITYGUARD         3060
-#define MOB_VNUM_VAMPIRE           3404
+#define MOB_VNUM_VAMPIRE           3404*/
+// From Mudweiser
+#define MOB_VNUM_FIDO              16062
+#define MOB_VNUM_CITYGUARD         16067
+#define MOB_VNUM_VAMPIRE           16066 // Alley cat for now
 
 /* for newly created characters - Kyle */
 #define STARTING_PRACTICES 10
@@ -821,6 +829,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 
 /*Spicey "consider" comments*/
 
+/*
 #define CON_MSG1 "$N can kiss their ass goodbye!"
 #define CON_MSG2 "You can smell $N's fear as they know your strength."
 #define CON_MSG3 "$N can't walk the walk."
@@ -828,6 +837,16 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define CON_MSG5 "You're in for quite a challenge."
 #define CON_MSG6 "$N will chew you up and spit you out."
 #define CON_MSG7 "$N will open up a whole case of whoop-ass on you."
+*/
+
+// From Mudweiser:
+#define CON_MSG1 "You can kill $N naked and weaponless."
+#define CON_MSG2 "$N is no match for you."
+#define CON_MSG3 "$N looks like an easy kill."
+#define CON_MSG4 "$N is the perfect match!"
+#define CON_MSG5 "$N says 'Do you feel lucky, punk?'."
+#define CON_MSG6 "$N laughs at you mercilessly."
+#define CON_MSG7 "Death will thank you for your gift."
 
 /* Define this if you want a some 'Different' and a few more damage
 messages. 
@@ -1339,19 +1358,19 @@ of combat. */
 #define OBJ_VNUM_LIGHT_BALL          21
 #define OBJ_VNUM_SPRING              22
 
-#define OBJ_VNUM_PIT               3010
+#define OBJ_VNUM_PIT               3010+VNUM_OFFSET
 
-#define OBJ_VNUM_SCHOOL_MACE       3700
-#define OBJ_VNUM_SCHOOL_DAGGER     3701
-#define OBJ_VNUM_SCHOOL_SWORD      3702
-#define OBJ_VNUM_SCHOOL_VEST       3703
-#define OBJ_VNUM_SCHOOL_SHIELD     3704
-#define OBJ_VNUM_SCHOOL_BANNER     3716
-#define OBJ_VNUM_MAP               3162
-#define OBJ_VNUM_BLANK_SCROLL      3398
-#define OBJ_VNUM_EMPTY_VIAL        3399
+#define OBJ_VNUM_SCHOOL_MACE       3700+VNUM_OFFSET
+#define OBJ_VNUM_SCHOOL_DAGGER     3701+VNUM_OFFSET
+#define OBJ_VNUM_SCHOOL_SWORD      3702+VNUM_OFFSET
+#define OBJ_VNUM_SCHOOL_VEST       3703+VNUM_OFFSET
+#define OBJ_VNUM_SCHOOL_SHIELD     3704+VNUM_OFFSET
+#define OBJ_VNUM_SCHOOL_BANNER     3716+VNUM_OFFSET
+#define OBJ_VNUM_MAP               3162+VNUM_OFFSET
+#define OBJ_VNUM_BLANK_SCROLL      3398+VNUM_OFFSET
+#define OBJ_VNUM_EMPTY_VIAL        3399+VNUM_OFFSET
 
-#define OBJ_VNUM_PORTAL       3392  /* This is the vnum of the portal
+#define OBJ_VNUM_PORTAL       3392+VNUM_OFFSET  /* This is the vnum of the portal
                                        created using the Nexus Spell */
 /*
  * Item types.
@@ -1526,11 +1545,11 @@ of combat. */
  * Defined in #ROOMS.
  */
 #define ROOM_VNUM_LIMBO               2
-#define ROOM_VNUM_CHAT             1200
-#define ROOM_VNUM_TEMPLE           3001
-#define ROOM_VNUM_ALTAR            3054
-#define ROOM_VNUM_SCHOOL           3700
-#define ROOM_VNUM_DONATE           "3300"
+#define ROOM_VNUM_CHAT             1200+VNUM_OFFSET
+#define ROOM_VNUM_TEMPLE           3001+VNUM_OFFSET
+#define ROOM_VNUM_ALTAR            3054+VNUM_OFFSET
+#define ROOM_VNUM_SCHOOL           3700+VNUM_OFFSET
+#define ROOM_VNUM_DONATE           3300+VNUM_OFFSET
 
 /*
  * Room flags.
@@ -1861,8 +1880,8 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 
 
 #define USE_MORGUE
-#define ROOM_VNUM_MORGUE 3360
-
+//#define ROOM_VNUM_MORGUE 3360+VNUM_OFFSET
+#define ROOM_VNUM_MORGUE 16333
 /* Set this to send all player corpses to the morgue when a player dies. Room
    3001 is the temple, so you should probably create your own morgue and set 
    ROOM_VNUM_MORGUE to its vnum.

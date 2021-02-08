@@ -1,12 +1,3 @@
-/**************************************************************************
- * Mudprogram's (Mobprogram, Objprogram and Roomprogram) originaly        *
- * by the SMAUG development team                                          *
- * Ported to EmberMUD by Thanatos and Tyrluk of ToED                      *
- * (Temple of Eternal Death)                                              *
- * Tyrluk   - morn@telmaron.com or dajy@mindspring.com                    *
- * Thanatos - morn@telmaron.com or jonathan_w._rose@ffic.com              *
- **************************************************************************/
-
 /* act_comm.c */
 
 #if defined(WIN32)
@@ -1443,19 +1434,19 @@ void do_tell( CHAR_DATA * ch, char *argument )
         add2queue( ch, victim->desc->original, argument );
     }
 
-    act_new( COLOR_TELL "`WYou tell $N`Y '$t" COLOR_TELL "`Y'`w", ch, argument,
+    act_new( COLOR_TELL "`WYou tell $N `Y'$t" COLOR_TELL "`Y'`w", ch, argument,
              switched ? victim->desc->original : victim, TO_CHAR,
              MIN_POS_TELL );
 
     if ( victim->beep )
-        act_new( COLOR_TELL "`W$n \atells you, `Y  '$t" COLOR_TELL "`Y'`w", ch,
+        act_new( COLOR_TELL "`W$n \atells you `Y'$t" COLOR_TELL "`Y'`w", ch,
                  argument, victim, TO_VICT, MIN_POS_TELL );
     else
-        act_new( COLOR_TELL "`W$n tells you, `Y '$t" COLOR_TELL "`Y'`w", ch,
+        act_new( COLOR_TELL "`W$n tells you `Y'$t" COLOR_TELL "`Y'`w", ch,
                  argument, victim, TO_VICT, MIN_POS_TELL );
 
-    sprintf( buf, COLOR_TELL "`W%s tells you, `Y'%s" COLOR_TELL "`Y'`w\n\r",
-             ch->name, argument );
+    sprintf( buf, COLOR_TELL "`W%s tells you `Y'%s" COLOR_TELL "`Y'`w\n\r",
+             ch->name, argument ); // JR: seems buf is written to but not used
     add2tell( ch, switched ? victim->desc->original : victim, FALSE, argument );
 
     victim->reply = ch;
@@ -1509,15 +1500,15 @@ void do_reply( CHAR_DATA * ch, char *argument )
         add2queue( ch, victim, argument );
     }
 
-    act_new( COLOR_TELL "`WYou tell $N,`Y '$t" COLOR_TELL "`Y'`w", ch, argument,
+    act_new( COLOR_TELL "`WYou tell $N `Y'$t" COLOR_TELL "`Y'`w", ch, argument,
              victim, TO_CHAR, MIN_POS_TELL );
     if ( victim->beep )
-        act_new( COLOR_TELL "`W$n \atells you,`Y '$t" COLOR_TELL "`Y'`w", ch,
+        act_new( COLOR_TELL "`W$n \atells you `Y'$t" COLOR_TELL "`Y'`w", ch,
                  argument, victim, TO_VICT, MIN_POS_TELL );
     else
-        act_new( COLOR_TELL "`W$n tells you,`Y '$t" COLOR_TELL "`Y'`w", ch,
+        act_new( COLOR_TELL "`W$n tells you `Y'$t" COLOR_TELL "`Y'`w", ch,
                  argument, victim, TO_VICT, MIN_POS_TELL );
-    sprintf( buf, COLOR_TELL "`W%s tells you,`Y '%s" COLOR_TELL "`Y'`w\n\r",
+    sprintf( buf, COLOR_TELL "`W%s tells you `Y'%s" COLOR_TELL "`Y'`w\n\r",
              ch->name, argument );
     add2tell( ch, victim, FALSE, argument );
     victim->reply = ch;
@@ -3274,4 +3265,62 @@ void do_spousetalk( CHAR_DATA * ch, char *argument )
     send_to_char
         ( "Your spouse isn't currently online, please try again later.\n\r",
           ch );
+}
+
+
+/*      From Mudweiser     */
+void do_wiznet( CHAR_DATA *ch, char *argument )
+{
+   char       arg1 [ MAX_INPUT_LENGTH ];
+   int level;
+    if ( argument[0] == '\0' )
+    {
+      if (IS_SET(ch->comm,COMM_NOWIZ))
+      {
+	send_to_char("`WImmortal channels are now ON\n\r`w",ch);
+	REMOVE_BIT(ch->comm,COMM_NOWIZ);
+      }
+      else
+      {
+	send_to_char("`WImmortal channels are now OFF\n\r`w",ch);
+	SET_BIT(ch->comm,COMM_NOWIZ);
+      } 
+      return;
+    }
+
+    REMOVE_BIT(ch->comm,COMM_NOWIZ);
+    argument = one_argument( argument, arg1 );
+    
+    if (!is_number(arg1))
+	{
+		send_to_char("Syntax to send wiznet message is wiznet <minlevel> <message>.", ch);
+		return;
+	}
+    
+    level = atoi( arg1 );
+    
+    if ( level < LEVEL_HERO || level > MAX_LEVEL)
+    {
+       send_to_char( "The minimum level must be 91 to 100.\n\r", ch );
+       return;
+    }
+
+   send_wiz(level, argument);
+
+    return;
+}
+
+void send_wiz(int level, char *message)
+{
+	DESCRIPTOR_DATA *d;
+	
+	for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+	if ( d->connected == CON_PLAYING && 
+	     d->character->level >= level &&
+	     !IS_SET(d->character->comm,COMM_NOWIZ) )
+	{
+	    printf_to_char(d->character, "`w[`rWIZNET`w](`r%d`w):%s`G\n\r", level, message);
+	}
+    }
 }

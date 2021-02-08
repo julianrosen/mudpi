@@ -58,12 +58,12 @@ void do_auction( CHAR_DATA * ch, char *argument )
         if ( IS_SET( ch->comm, COMM_NOAUCTION ) )
         {
             REMOVE_BIT( ch->comm, COMM_NOAUCTION );
-            send_to_char( "Auction channel is now ON.\n\r", ch );
+            send_to_char( "`mAuction channel is now ON.\n\r", ch );
             return;
         }
 
         SET_BIT( ch->comm, COMM_NOAUCTION );
-        send_to_char( "Auction channel is now OFF.\n\r", ch );
+        send_to_char( "`mAuction channel is now OFF.\n\r", ch );
         return;
     }
 

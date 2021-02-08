@@ -58,7 +58,8 @@ const struct attack_type attack_table[] = {
     {"chomp", DAM_PIERCE},
     {"weapon's bite", DAM_NEGATIVE},
     {"weapon's flame", DAM_FIRE},
-    {"weapon's frost", DAM_COLD}    /* 35 */
+    {"weapon's frost", DAM_COLD},    /* 35 */
+    {"chomp",DAM_PIERCE}  // From Mudweiser
 };
 
 /* race table */

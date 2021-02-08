@@ -205,7 +205,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
                 if ( iClass != ch->Class
                      && to_room->vnum == class_table[iClass].guild[iGuild] )
                 {
-                    send_to_char( "You aren't allowed in there.\n\r", ch );
+                    send_to_char( "You class is not allowed in there.\n\r", ch );
                     return;
                 }
             }

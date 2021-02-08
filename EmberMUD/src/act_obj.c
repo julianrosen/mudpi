@@ -3028,7 +3028,7 @@ void do_list( CHAR_DATA * ch, char *argument )
                     send_to_char( "Pets for sale:\n\r", ch );
                 }
 
-                sprintf( buf, "[%2d] %8d - %s\n\r",
+                sprintf( buf, "`w[%2d] %8d - %s\n\r",
                          pet->level,
                          10 * pet->level * pet->level, pet->short_descr );
 
@@ -3103,7 +3103,7 @@ void do_list( CHAR_DATA * ch, char *argument )
                     send_to_char( "[Lv Price] Item\n\r", ch );
                 }
 
-                sprintf( buf, "[%2d %5d] %s.\n\r",
+                sprintf( buf, "`w[%2d %5d] %s.\n\r",
                          obj->level, cost, obj->short_descr );
 
                 send_to_char( buf, ch );

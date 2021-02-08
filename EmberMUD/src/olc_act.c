@@ -928,8 +928,8 @@ AEDIT( aedit_vnum )
     AREA_DATA *pArea;
     char lower[MAX_INPUT_LENGTH];
     char upper[MAX_INPUT_LENGTH];
-    int ilower;
-    int iupper;
+    long ilower; // JR long
+    long iupper; // JR long
 
     EDIT_AREA( ch, pArea );
 

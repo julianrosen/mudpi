@@ -1,0 +1,1970 @@
+#AREADATA
+Name        {10 40} Zane    Beryllium Forge~
+Builders    None~
+VNUMs       23700 23799
+Security    6
+End
+
+
+
+#MOBILES
+#23700
+blacksmith smith~
+a blacksmith~
+A sweaty blacksmith pounds on a piece of metal.
+~
+A large man with huge biceps.  
+~
+Human~
+AB 0 0 S
+10 20
+100 0 0 0 3d22+100 0d0+0 2d5+5 0
+4 4 4 7
+0 0 0 0
+8 8 1 10
+AHMV ABCDEFGHIJK M unknown
+#23701
+blacksmith smith~
+a blacksmith~
+A blacksmith constantly melts down beryllium rocks.
+~
+~
+Human~
+AB 0 0 S
+10 20
+100 0 0 0 3d22+100 0d0+0 2d5+5 0
+4 4 4 7
+0 0 0 0
+8 8 1 10
+AHMV ABCDEFGHIJK M unknown
+#23702
+slave~
+a slave~
+A slave turns a crank which moves a conveyour belt along.
+~
+~
+Human~
+AB 0 0 S
+5 8
+100 0 0 0 1d17+40 0d0+0 2d3+8 0
+0 0 0 5
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#23704
+blacksmith smith~
+a blacksmith~
+One of the blacksmith cools a newly forged weapon and places it on the conveyour belt.
+~
+~
+Human~
+AB 0 0 S
+10 20
+100 0 0 0 3d22+100 0d0+0 2d5+5 0
+4 4 4 7
+0 0 0 0
+8 8 1 10
+AHMV ABCDEFGHIJK M unknown
+#23705
+blacksmith smith~
+a blacksmith~
+A skilled blacksmith starts to hammer metal into the shape of weapons.
+~
+~
+Human~
+AB 0 0 S
+10 20
+100 0 0 0 3d22+100 0d0+0 2d5+5 0
+4 4 4 7
+0 0 0 0
+8 8 1 20
+AHMV ABCDEFGHIJK M unknown
+#23706
+vault guard~
+a vault guard~
+An extremly powerful vault guard stands ready.
+~
+~
+Human~
+AB V 0 S
+12 25
+100 0 0 0 3d23+120 0d0+0 3d5+5 0
+3 3 3 6
+EIN 0 0 0
+8 8 1 10
+AHMV ABCDEFGHIJK M unknown
+#23707
+meese guard~
+one of Meese's guards~
+One of Meese's private guards stands ready for battle.
+~
+~
+Human~
+AB 0 0 S
+12 25
+100 0 0 0 3d22+100 0d0+0 2d4+4 0
+5 5 5 7
+EIN 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#23708
+Meese minor blacksmith~
+Meese~
+Meese, the minor blacksmith, basks in his throne.
+~
+~
+Human~
+AB 0 0 S
+13 30
+100 0 0 0 3d25+120 0d0+0 2d5+6 0
+2 2 2 6
+E 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#23709
+blacksmith smith~
+a blacksmith~
+A pretty large blacksmith hammers a piece of beryllium.
+~
+~
+Human~
+AB 0 0 S
+20 38
+100 0 0 0 9d56+200 0d0+0 5d5+12 0
+-2 -2 -2 4
+0 0 0 0
+8 8 1 300
+AHMV ABCDEFGHIJK L unknown
+#23710
+vault guard~
+a vault guard~
+A very powerful guard stands ready to fight off intruders.
+~
+~
+Human~
+ABT V 0 S
+17 30
+100 0 0 0 5d30+380 0d0+0 4d5+10 0
+-1 -1 -1 4
+0 0 0 0
+8 8 1 150
+AHMV ABCDEFGHIJK M unknown
+#23711
+vault guardian~
+a vault guardian~
+An armored soldier guards the vault attentivly.
+~
+~
+Human~
+AB Va 0 S
+24 36
+100 0 0 0 7d50+400 0d0+0 5d5+16 0
+-5 -5 -5 2
+0 0 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJK M unknown
+#23712
+vault guard~
+a powerful vault guard~
+A vault guard looks somewhat of a powerhouse.
+~
+~
+Human~
+A 0 0 S
+25 0
+100 0 0 0 8d55+300 0d0+0 6d6+12 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#23714
+miner worker~
+a miner~
+A miner chips away pieces of beryllium.
+~
+~
+Human~
+AB 0 0 S
+10 24
+100 0 0 0 3d22+100 0d0+0 2d5+5 0
+4 4 4 7
+0 0 0 0
+8 8 1 20
+AHMV ABCDEFGHIJK M unknown
+#23715
+blacksmith smith~
+a blacksmith~
+Steam fills the room as a blacksmith dips hot metal in a tub of water.
+~
+~
+Human~
+AB V 0 S
+20 35
+100 0 0 0 9d56+400 0d0+0 5d5+12 0
+-2 -2 -2 4
+0 0 0 0
+8 8 1 20
+AHMV ABCDEFGHIJK M unknown
+#23716
+vault guard powerhouse~
+a powerhouse vault guard~
+A powerhouse vault guard will not let you pass into the vaults.
+~
+~
+Human~
+ABT 0 0 S
+25 40
+100 0 0 0 7d55+300 0d0+0 5d5+16 0
+-5 -5 -5 2
+0 0 0 0
+8 8 1 3500
+AHMV ABCDEFGHIJK M unknown
+#23717
+guard moose's~
+moose's guard~
+One of Moose's guards protects him.
+~
+A powerful bodyguard.  He will die protecting Moose.  
+~
+Human~
+AB 0 0 S
+25 40
+100 0 0 0 7d50+304 0d0+0 5d5+13 0
+-5 -5 -5 2
+0 0 0 0
+8 8 1 1300
+AHMV ABCDEFGHIJK M unknown
+#23718
+moose~
+Moose~
+Moose, minor blacksmith, sits on his throne.
+~
+~
+Human~
+AB 0 0 S
+25 2
+100 0 0 0 7d50+300 0d0+0 3d5+0 0
+-5 -5 -5 1
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#23719
+beryllium blacksmith smith~
+a blacksmith~
+Huge iron hammers clank down as a smith does his work.
+~
+~
+Human~
+AB 0 0 S
+30 40
+100 0 0 0 10d50+400 0d0+0 5d5+18 0
+-10 -10 -10 -1
+0 0 0 0
+8 8 1 1500
+AHMV ABCDEFGHIJK M unknown
+#23720
+beryllium blacksmith smith~
+an odd blacksmith~
+A blacksmith looks at you as you pass by.
+~
+A strange man carrying a glowing hammer.  
+~
+Human~
+A B 0 S
+30 50
+100 0 0 0 20d300+300 0d0+0 2d4+10 0
+-15 -15 -15 -3
+0 0 0 0
+8 8 1 2000
+AHMV ABCDEFGHIJK M unknown
+#23721
+powersmith smith blacksmith~
+a powersmith~
+A blacksmith looks at you as you pass by.
+~
+~
+Human~
+AB 0 0 S
+30 37
+100 0 0 0 10d60+420 0d0+0 5d6+20 0
+-9 -9 -9 0
+0 0 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJK M unknown
+#23722
+forge worker~
+a forge worker~
+A forge worker swiftly carries off pieces of forged rock.
+~
+~
+Human~
+A 0 0 S
+30 36
+100 0 0 0 10d61+400 0d0+0 5d6+15 0
+-12 -12 -12 -2
+0 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK M unknown
+#23723
+vault guard powerful~
+a powerful vault guard~
+A powerful vault guard pushes you out of the way and laughs.
+~
+This guy looks at you funny and snorts!  
+~
+Human~
+AB V 0 S
+30 50
+100 0 0 0 5d40+500 0d0+0 5d6+19 0
+-12 -12 -12 -1
+0 0 0 0
+8 8 1 400
+AHMV ABCDEFGHIJK M unknown
+#23741
+mose blacksmith~
+Mose~
+Mose the blacksmith sits behind his guards at his throne.
+~
+~
+Human~
+AB 0 0 S
+36 50
+100 0 0 0 10d70+5000 0d0+0 5d7+20 0
+-13 -13 -13 -3
+DNO 0 0 0
+8 8 1 2000
+AHMV ABCDEFGHIJK M unknown
+#23742
+Mose's guard~
+Mose's guard~
+One of Mose's guards makes sure to keep distance between you and Mose.
+~
+~
+Human~
+ABT 0 0 S
+37 50
+100 0 0 0 10d60+600 0d0+0 5d8+20 0
+-13 -13 -13 -3
+DNO 0 0 0
+8 8 1 200
+AHMV ABCDEFGHIJK L unknown
+#23799
+Mace~
+Mace~
+Mace, the most powerful blacksmith, is ready to take you down.
+~
+~
+Human~
+AB a 0 S
+59 100
+100 0 0 0 10d500+4000 0d0+0 5d10+20 0
+-24 -24 -24 -7
+CH 0 0 0
+8 8 1 5000
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#23700
+beryllium metal rock trash~
+a beryllium rock~
+A lump of metal has been left here.~
+unknown~
+13 0 A
+0 0 0 0 0
+0 0 0 P
+#23701
+iron hammer mace~
+an iron hammer~
+A blacksmith's hammer is here.~
+unknown~
+5 0 AN
+C C C ABC 0
+10 3 0 P
+#23702
+key armor~
+the armor vault key~
+The key to a large vault door has been left behind.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23703
+key weapon~
+the weapon's vault key~
+A vault key has been left here.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23704
+meese's hammer mace~
+the hammer of Meese~
+The hammer of a powerful blacksmith is here.~
+unknown~
+5 0 AN
+C AB ABC ABDE 0
+13 3 0 P
+#23705
+beryllium short sword~
+a beryllium short sword~
+A beryllium short sword lies here.~
+unknown~
+5 0 AN
+A C BC AB 0
+10 1 0 P
+A
+1 2
+A
+19 2
+#23706
+beryllium dagger sharp~
+a beryllium dagger~
+A small pointed dagger is leaning against the wall.~
+unknown~
+5 0 AN
+B AB ABC ABD D
+15 1 0 P
+A
+2 1
+A
+18 5
+A
+19 3
+#23707
+beryllium mace~
+a beryllium mace~
+A long slender mace leans against the wall.~
+unknown~
+5 0 AN
+C C AC ABC 0
+10 1 0 P
+A
+12 20
+A
+4 1
+A
+18 2
+#23708
+beryllium pole spear~
+a beryllium pole~
+A long pole with a pointed blade rests against the wall.~
+unknown~
+5 0 AN
+AB C AC ABCD 0
+10 1 0 P
+A
+5 2
+A
+19 1
+A
+18 1
+#23709
+beryllium axe~
+a beryllium axe~
+An axe with a sharp blade sits on the far wall.~
+unknown~
+5 0 AN
+AC C BC ADE 0
+10 1 0 P
+A
+1 2
+A
+19 1
+#23710
+beryllium chain mail armor-body~
+a suit of beryllium chain mail~
+Finely woven armor lies waiting for an owner.~
+unknown~
+9 RUX AD
+BC BC BC C 0
+10 0 0 P
+#23711
+beryllium gauntlets armor-hands~
+a pair of beryllium gauntlets~
+A pair of strong metal gauntlets lie at your feet.~
+unknown~
+9 X AH
+AC AC AC AB 0
+10 0 0 P
+A
+1 1
+A
+2 1
+#23712
+beryllium shield~
+a beryllium shield~
+A steel bolted shield is in excellent condition.~
+unknown~
+9 VX AJ
+ABC AB AC AB 0
+10 0 0 P
+A
+5 1
+#23713
+beryllium helmet~
+a beryllium helmet~
+A sturdy helmet lies here.~
+unknown~
+9 X AE
+C ABC AC B 0
+10 0 0 P
+A
+3 1
+#23714
+beryllium bracer~
+a beryllium bracer~
+A small metal wristband is here.~
+unknown~
+9 0 AM
+AC AC AC A 0
+10 0 0 P
+A
+13 5
+#23715
+beryllium sword~
+a beryllium sword~
+A sword with a slender blade rests on the floor.~
+unknown~
+5 RX AN
+A C BC AB 0
+15 0 0 P
+A
+1 1
+A
+18 3
+A
+19 5
+#23716
+beryllium duel axe~
+a beryllium duel axe~
+A pointy, double-bladed axe gleams brightly.~
+unknown~
+5 RSVX AN
+AC C BC ADE 0
+15 0 0 P
+#23717
+beryllium spear~
+a berllium spear~
+A slender spear has rests here.~
+unknown~
+5 0 AN
+AB C BC ABCD 0
+0 1 0 P
+A
+19 4
+A
+18 3
+A
+5 2
+#23718
+sharp beryllium dagger~
+a sharp beryllium dagger~
+A pointy dagger has been dropped.~
+unknown~
+5 0 AN
+B C BC ABD D
+15 1 0 P
+A
+19 1
+A
+18 3
+A
+2 2
+#23719
+spiked beryllium mace~
+a spiked beryllium mace~
+A spiked mace rests against the wall.~
+unknown~
+5 SW AN
+C C BC ABC 0
+0 0 0 P
+A
+19 1
+A
+18 1
+A
+3 1
+A
+4 1
+#23720
+metal box stoarge crate~
+a metal storage crate~
+A big metal box sits in the middle of the floor.~
+unknown~
+15 0 0
+CFG AC 0 0 0
+0 0 0 P
+#23721
+weapon's vault key~
+the weapon's vault key~
+A metal vault key lies here.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23722
+armor vault key~
+an armor vault key~
+You kick a metal vault ket across the floor.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23723
+beryllium plate mail~
+a suit of beryllium plate mail~
+Strong plate armor lies here.~
+unknown~
+9 VX AD
+ABC ABC D C 0
+15 3 0 P
+A
+13 20
+#23724
+beryllium wrist guard armor-wrist~
+a beryllium wrist guard~
+A small metal wrist guard lies on the floor.~
+unknown~
+9 0 AM
+ABC ABC ABC C 0
+15 1 0 P
+#23725
+collar armor-neck~
+a black collar~
+A black leather collar with 2 inch spikes is here.~
+unknown~
+9 0 AC
+ABC ABC ABC C 0
+15 0 0 P
+#23726
+studded shield armor-shield~
+a studded shield~
+A small studded shield lies here.~
+unknown~
+9 RSX AJ
+D D D C 0
+15 2 0 P
+A
+19 2
+#23727
+beryllium boots armor-feet~
+a pair of standard beryllium boots~
+A pair of metal boots are neatly side by side.~
+unknown~
+9 0 AG
+ABC ABC ABC C 0
+15 0 0 P
+#23728
+beryllium helmet horned armor-head~
+a beryllium horned helmet~
+A metal helmet with bull horns sits here.~
+unknown~
+9 X AE
+ABC ABC ABC C 0
+15 0 0 P
+A
+19 1
+A
+18 1
+#23729
+beryllium longsword sword~
+a beryllium longsword~
+A long-bladed sword hangs on the wall.~
+unknown~
+5 RX AN
+A AC BC AB 0
+20 1 0 P
+A
+19 5
+A
+18 4
+A
+1 1
+#23730
+beryllium jack-knife knife dagger~
+a beryllium jack-knife~
+A small, but sharp, jack-knife hangs on the wall.~
+unknown~
+5 0 AN
+B AC BC ABD 0
+20 1 0 P
+A
+2 1
+A
+18 4
+A
+19 4
+#23731
+beryllium battle axe~
+a beryllium battle axe~
+A large, two-sided axe hangs upside down on the wall.~
+unknown~
+5 RSVX AN
+AC AC BC ADE 0
+20 0 0 P
+#23732
+beryllium lancet spear~
+a beryllium lancet~
+A small lancet is hanging on the wall.~
+unknown~
+5 0 AN
+AB AC BC ABCD 0
+20 0 0 P
+A
+5 2
+A
+18 4
+A
+19 4
+#23733
+beryllium flail cylindar~
+a beryllium flail~
+A spiked cylindar attached to a chain hangs on a hook.~
+unknown~
+5 0 AN
+BC AC BC ABC 0
+20 0 0 P
+A
+4 2
+A
+19 5
+A
+18 2
+#23734
+beryllium half plate armor-body~
+a suit of beryllium half plate ~
+Some half plate armor has been dropped near-by.~
+unknown~
+9 0 AD
+BD BD BD BC 0
+20 4 0 P
+A
+18 5
+A
+19 5
+#23735
+beryllium war helmen armor-head~
+a beryllium war helmet~
+A sturdy metal helmet sits in the center of the room.~
+unknown~
+9 0 AE
+BD BD BD AC 0
+20 1 0 P
+A
+18 4
+A
+13 50
+A
+19 4
+A
+2 -2
+A
+12 -100
+#23736
+beryllium power bracers armor-wrist~
+beryllium power bracers~
+Strong bracers lie here.~
+unknown~
+9 0 AM
+BD BD BD BC 0
+20 0 0 P
+A
+13 30
+#23737
+beryllium power gauntlets armor-hands~
+beryllium power gauntlets~
+Powerful gauntlets for a warrior lie here.~
+unknown~
+9 RSUVWX AH
+AD AD ABD B 0
+20 0 0 P
+A
+13 25
+A
+3 -1
+A
+2 -1
+A
+1 3
+#23738
+key weapon's vault~
+the level 20 weapon's vault key~
+A key made of beryllium lies here.~
+unknown~
+18 0 A
+0 0 0 0 0
+20 0 0 P
+#23739
+key armor vault~
+the level 20 armor vault key~
+A well crafted key has been left here.~
+unknown~
+18 0 A
+0 0 0 0 0
+20 0 0 P
+#23740
+moose's hammer mace~
+the hammer of Moose~
+A mighty hammer has fallen to the ground.~
+unknown~
+5 X AN
+C AC BC ABC 0
+20 2 0 P
+A
+1 1
+A
+18 1
+#23741
+level 30 vault weapon's key~
+level 30 weapon's vault key~
+A small cast iron key is here.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23742
+key vault level 30 armor~
+the level 30 armor vault key~
+A small bent key lies in the dust.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
+#23743
+beryllium boardsword sword vampiric~
+a beryllium broadsword~
+A wide-bladed sword has been struck into the ground.~
+unknown~
+5 RX AN
+A ABC AC BCDE C
+30 2 0 P
+A
+13 10
+A
+3 -1
+A
+18 9
+A
+19 6
+#23744
+beryllium blade backstabbing dagger vampiric sharp~
+a beryllium blade of backstabbing~
+A blade made for backstabbers lie here waiting for an owner.~
+unknown~
+5 JRTUVX AN
+B ABC BC ABD CD
+30 1 0 P
+A
+18 10
+A
+19 4
+#23745
+beryllium morningstar mace~
+a beryllium morningstar~
+A spiked ball on a chain lies here.~
+unknown~
+5 0 AN
+C BC BC ACD 0
+30 1 0 P
+A
+19 6
+A
+18 7
+A
+1 1
+A
+4 1
+#23746
+beryllium power armor armor-body~
+the beryllium power armor~
+A suit of nearly indestructable armor lies here.~
+unknown~
+9 ILRSUVWX AD
+AE ABE ACE ABE 0
+30 1 0 P
+A
+5 3
+A
+18 4
+A
+13 50
+#23747
+spiked power wristband bracer armor-wrist~
+the spiked bracer of power~
+A small wristband with 2" spikes sits on the floor.~
+unknown~
+9 A AM
+D D D BC 0
+30 1 0 P
+A
+1 2
+#23748
+beryllium legbands armor-legs~
+a pair of beryllium legbands~
+Metal legbands have been carefully laid down.~
+unknown~
+9 RX AF
+BD BD BD BD 0
+30 1 0 P
+A
+5 2
+#23750
+sword vampiric~
+the Sword of Mace~
+The most powerful sword of all lies here in the dust.~
+unknown~
+5 ARSWX AN
+A AD AD ABE C
+59 0 50000 P
+A
+1 2
+A
+5 2
+A
+18 11
+#23796
+acid acidic blade sword sharp~
+acidic blade~
+A short blade lying in a pool of acid.~
+unknown~
+5 G AN
+A AD BD ABCDE D
+65 22 0 P
+#23797
+odd key~
+an odd key~
+A very strange moldy key lies in waste.~
+unknown~
+18 0 A
+0 0 0 0 0
+30 0 0 P
+#23798
+mose mace vampiric~
+the mace of Mose~
+A powerful blacksmith's hammer has been finely forged.~
+unknown~
+5 AVX AN
+C ABC BC D C
+30 1 0 P
+#23799
+odd hammer mace two-hands~
+the odd hammer~
+A strange looking hammer radiates a wierd glow.~
+unknown~
+5 0 ANPQRSTUVWXYZabcdef
+C BC ABC ABC F
+30 3 2300 P
+A
+13 -150
+A
+1 4
+A
+18 5
+A
+19 3
+A
+12 -50
+A
+2 -1
+#0
+
+
+
+#ROOMS
+#23700
+Secret Passageway~
+This is what appears to be a small ventilation shaft of some sort.  Thick
+black clouds of smoke come through every once in a while, making it extremly
+hard to breathe.  
+~
+0 1 0
+D4
+~
+~
+7 0 22562
+D5
+~
+~
+0 0 23701
+S
+#23701
+Secret Passageway~
+You are crawling down a narrow, boxlike shaft, probably used to get rid
+of the black smoke coming your way.  
+~
+0 0 0
+D4
+~
+~
+0 0 23700
+D5
+~
+~
+0 0 23702
+S
+#23702
+Secret Passageway~
+This is a narrow shaft through which fumes and smoke exit through from
+below.  The smog forces the air out of your lungs and you find it hard to
+breathe.  
+~
+0 2097152 0
+D4
+~
+~
+0 0 23701
+D5
+~
+~
+0 0 23703
+S
+#23703
+Secret Passageway~
+You are at the end of a ventilation shaft far down below the earth. 
+Below you there is a grate where emense heat radiates.  
+~
+0 2097152 0
+D4
+~
+~
+0 0 23702
+D5
+~
+grate~
+1 0 23704
+S
+#23704
+Inside an Oven~
+You are inside a stove right in the middle of a fire!  The flames burn
+you as you struggle to get to an exit.  There is a steel door north and a
+grate above you.  
+~
+0 2097152 0
+D0
+~
+~
+1 0 23705
+D4
+~
+~
+1 0 23703
+S
+#23705
+Beryllium Forge~
+You are in a large room where the heat makes you sweat continously. 
+There is a sign on the wall which reads as follows: 
+Welcome to the Beryllium Forge.
+For safety purposes, level 10
+stay to the east, level 20 to
+your west, and level 30 may 
+pass forward. When the level
+30 area is completed, there 
+is another area to be found.
+ 
+Mace, Head Blacksmith
+ 
+~
+0 2097160 0
+D0
+~
+~
+0 0 23708
+D1
+~
+~
+0 0 23706
+D2
+~
+~
+1 0 23704
+D3
+~
+~
+0 0 23707
+S
+#23706
+Entrance to the Level 10 Forges~
+This area is made as a challenge for level 10 players.  If you are level
+15, you have no forge, but your vaults are located due west from here.  
+~
+0 2097164 0
+D1
+~
+~
+0 0 23709
+D3
+~
+~
+0 0 23705
+S
+#23707
+Entrance to the Level 20 Forges~
+Past this point are level 20 mobs and eq.  For convienance, the level 15
+eq is located strait west.  WARNING to level 15 players, if you procede into
+the level 20 vaults and get killed it is your own fault.  No excuses.  Level
+20 players will find this a challenge, while those closer to 30 will find it
+a little easier.  Have fun.  
+~
+0 2097164 0
+D1
+~
+~
+0 0 23705
+D3
+~
+~
+0 0 23721
+S
+#23708
+Entrance to the Level 30 Forges~
+This is the entrance to the level 30 forges.  If you are below level 30
+you will most likely have a hard time here.  Level 30+ characters, however,
+should trudge on ahead.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 23731
+D2
+~
+~
+0 0 23705
+S
+#23709
+Beryllium Forge~
+This is an extremly large room were a blacksmith places some beryllium in
+a fire and welds it into the desired shape.  Beryllium is light weight, yet
+incredibly durable metal which is mined from within the earth.  Whoever
+built this forge hit paydirt.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23710
+D3
+~
+~
+0 0 23706
+S
+#23710
+Beryllium Forge~
+This is small room where blacksmiths melt the beryllium.  Man-powered
+conveyour belts carry coal and other such flamable elements into a strongly
+burning fire.  On the other side of the room is another conveyour belt where
+the mined beryllium is sent in.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23714
+D1
+~
+~
+0 0 23713
+D2
+~
+~
+0 0 23709
+D3
+~
+~
+0 0 23711
+S
+#23711
+Beryllium Mine~
+You are in a cave where the walls gleam with rocks.  Miners chip away at
+them and place them on a conveyour belt.  A slave turns a crank which powers
+the belt.  
+~
+0 8 0
+D1
+~
+~
+0 0 23710
+D5
+~
+~
+0 0 23712
+S
+#23712
+Beryllium Mine Shaft~
+A small shaft descends down into the dark caverns below the earth.  The
+elevator must be at the bottom so you have no way to get down there.  
+~
+0 8 0
+D4
+~
+~
+0 0 23711
+S
+#23713
+Beryllium Forge~
+You are in forge room where skilled blacksmiths forge weapons and armor
+from heated metal.  The melted beryllium is constantly brought in by a
+conveyour belt powered by a slave.  
+~
+0 8 0
+D1
+~
+~
+0 0 23715
+D3
+~
+~
+0 0 23710
+S
+#23714
+Beryllium Forge~
+You stand in a forge room where blacksmiths are constantly molding metal
+fragments with large iron hammers.  The pieces are carefully dipped in water
+where they sizzle and give off steam.  Then they are placed on conveyour
+belts and carried off east.  
+~
+0 8 0
+D2
+~
+~
+0 0 23710
+S
+#23715
+Beryllium Forge~
+You are in another forge room where some of the world's best blacksmiths
+hammer metal into swords and daggers.  Sparks fly al over the room as each
+piece is smashed into shape by iron hammers.  
+~
+0 8 0
+D1
+~
+~
+0 0 23716
+D3
+~
+~
+0 0 23713
+S
+#23716
+Beryllium Forge~
+This is some sort of cooling room where the heated metal is places in
+cooled water.  Each piece sizzles and gives of a large amount of steam with
+every dunk.  The weapons all seem to be heading north on a conveyour belt.  
+~
+0 8 0
+D0
+~
+~
+0 0 23717
+D3
+~
+~
+0 0 23715
+S
+#23717
+Beryllium Forge~
+This large room is filled with blacksmiths and workers who take the newly
+forged metal and take it to the vaults east and west of you.  The west vault
+has a shield over it, indicating armor, and the east vault has a sword over
+it, most likely weapons.  North is a brightly lit room.  
+~
+0 8 0
+D0
+~
+~
+0 0 23720
+D1
+~
+~
+6 23703 23718
+D2
+~
+~
+0 0 23716
+D3
+~
+~
+6 23702 23719
+S
+#23718
+Weapon's Vault~
+This is a large room with strong, sturdy steels walls encasing it. 
+Weapons racks hold all kinds of weapons on them.  The weapons look good for
+fighting but you couldn't get much from selling them.  
+~
+0 8 0
+D3
+~
+~
+6 0 23717
+S
+#23719
+Armor Vault~
+You are definitely in a valuable room, the armor vault.  Important pieces
+of armor lie on the ground in neat little groups.  They look strong enough
+to protect you against many a foes, but no armouror would buy them.  
+~
+0 8 0
+D1
+~
+~
+6 0 23717
+S
+#23720
+Meese's Room~
+You stand in the room of Meese, head blacksmith of the level 10 forges. 
+He is known the world over for his excellent blacksmithing abilities.  He
+rises from his throne and looks at you.  "Yes?"  "Can I help you?"  
+~
+0 0 0
+D2
+~
+~
+0 0 23717
+S
+#23721
+Beryllium Forge~
+This is a large factory type room where large men are cracking large
+pieces of metal with iron hammers.  Conveyour belts move to-be-forged
+Beryllium along.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23725
+D1
+~
+~
+0 0 23707
+D3
+~
+~
+0 0 23722
+S
+#23722
+Beryllium Forge~
+You are in a small hallway where guards stand watch at vaults to your
+west and north.  A tattered sign reads as follows: Attention: Level 15
+Vaults Do Not Enter Moose, Minor Blacksmith 
+~
+0 2097160 0
+D0
+~
+~
+6 23721 23724
+D1
+~
+~
+0 0 23721
+D3
+~
+~
+6 23722 23723
+S
+#23723
+Level 15 Vault~
+You are in a very secure vault with 2' steel walls.  Strong armor lies
+neatly sorted on the ground.  
+~
+0 8 0
+D1
+~
+~
+6 0 23722
+S
+#23724
+Level 15 Vault~
+This is a small vault with steel walls and cold metal floor.  A metal
+storage crate lies in the middle of the room.  
+~
+0 8 0
+D2
+~
+~
+6 0 23722
+S
+#23725
+Beryllium Forge~
+This appears to be a forging room where the beryllium is molded into
+swords and shields.  Blacksmiths are constantly banging and molding the
+precious metal in the desired shape.  Sparks fly all over the room ever time
+a hammer clangs down.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23726
+D2
+~
+~
+0 0 23721
+S
+#23726
+Beryllium Forge~
+You are in a cooling room where the finished weapons are dipped into tubs
+of water, releasing steam which fills the room.  Every dip sounds off a
+'sizzle' which sends chills down your spine.  The finished weapons are then
+transported west to the vaults.  
+~
+0 8 0
+D2
+~
+~
+0 0 23725
+D3
+~
+~
+0 0 23727
+S
+#23727
+Beryllium Forge~
+This is a solid metal room where exits lead in all directions.  South is
+the armor vault and to you west is the weapons vault.  North lies Moose's
+chamber, where he oversees all of the workers.  
+~
+0 8 0
+D0
+~
+~
+0 0 23730
+D1
+~
+~
+0 0 23726
+D2
+~
+~
+6 23739 23729
+D3
+~
+~
+6 23738 23728
+S
+#23728
+Level 20 Vault~
+You are in a large steel room where weapons are neatly assorted on the
+wall.  
+~
+0 8 0
+D1
+~
+~
+6 0 23727
+S
+#23729
+Level 20 Vault~
+This is a small room with lots of armor layed out on the cold floor.  It
+is grouped in small piles for inspection by Moose.  
+~
+0 8 0
+D0
+~
+~
+6 0 23727
+S
+#23730
+Moose's Chamber~
+You are in Moose's Chamber where he looks after all of the forge workers.
+He takes one look at you and tells you to get back to work.  
+~
+0 8 0
+D2
+~
+~
+0 0 23727
+S
+#23731
+Beryllium Forge~
+You are in a very large forge where many workers forge at the same time. 
+The continuous clanking is giving you one heck of a headache.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23732
+D2
+~
+~
+0 0 23708
+S
+#23732
+Beryllium Forge~
+This is a mass assembly line cooling room where forged metal is taken off
+of man-powered assembly lines and dipped in tubs of water.  Each dip gives
+off a sizzle and steam fills the room.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23733
+D2
+~
+~
+0 0 23731
+S
+#23733
+Beryllium Forge~
+This room is filled with workers and other laborors who take the pieces
+of armor and carry them off west.  East is where all of the workers carry
+the weapons.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23738
+D1
+~
+~
+0 0 23736
+D2
+~
+~
+0 0 23732
+D3
+~
+~
+0 0 23734
+S
+#23734
+Beryllium Forge~
+You are in a small hallway leading to the vaults where the armor is
+carried off to.  The vault guards stop you though and won't let you pass
+without proper authorization.  I guess your stinking authorization is the
+blade of your sword!  
+~
+0 2097160 0
+D1
+~
+~
+0 0 23733
+D3
+~
+~
+6 23742 23735
+S
+#23735
+Armor Vault~
+A large vault where all of the armor is taken to.  
+~
+0 2097160 0
+D1
+~
+~
+6 0 23734
+S
+#23736
+Beryllium Forge~
+You stand in small hallway where you are constantly bumped and pushed out
+of the way by workers carrying newly forged weapons to the vault.  The
+guards tell you that no one gets through without autorization.  
+~
+0 2097160 0
+D1
+~
+~
+6 23741 23737
+D3
+~
+~
+0 0 23733
+S
+#23737
+Weapon's Vault~
+A large room where weapons are stacked neatly on the wall.  
+~
+0 2097160 0
+D3
+~
+~
+6 0 23736
+S
+#23738
+Beryllium Forge~
+This is a large hall where at the end sits the second commanding
+blacksmith.  He controls all of the vaults you have seen except the last.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23739
+D2
+~
+~
+0 0 23733
+S
+#23739
+Mose's Chamber~
+Mose sits on a throne at the end of the room where he orders his servants
+to give messages to his workers.  He looks down at you and tells you, 'Who
+gave authorization for you to be here?  Leave at once!"  
+~
+0 2097160 0
+D0
+~
+throne~
+4 23797 23740
+D2
+~
+~
+0 0 23738
+S
+#23740
+Secret Passageway~
+You are behind Mose's throne in what appears to be an unused part of the
+forge.  Dust and cobwebs lay strewn about.  
+~
+0 2097161 0
+D0
+~
+~
+0 0 23741
+D2
+~
+~
+4 0 23739
+S
+#23741
+Entrance to the Level 40 Forge~
+This is the entrance into the level 40 forges.  This place was hidden
+from people like you.  If you are strong enough, head for the head
+blacksmith.  Valuable eq can be found within the master level of the forges.
+~
+0 2097160 0
+D0
+~
+~
+0 0 23742
+D2
+~
+~
+0 0 23740
+S
+#23742
+Beryllium Forge~
+This looks as though the part of the forge was in use at one time but now
+hammers and old rusted anvils lay to waste.  Cobwebs hang from the walls and
+get in you throat.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23743
+D2
+~
+~
+0 0 23741
+S
+#23743
+Beryllium Forge~
+The room ahead opens into a large cross-section with exits leading in all
+four cardinal directions.  This place is very dusty and has not been in use
+for many many years.  It looks as though you wouldn't find anything useful
+in here.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23744
+D2
+~
+~
+0 0 23742
+S
+#23744
+Beryllium Forge~
+This is the room where armor and weapons were hauled off to the armor and
+weapon's vault that lie ahead.  Now it lay unused for many a year, just
+collecting dust.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23745
+D2
+~
+~
+0 0 23743
+S
+#23745
+Beryllium Forge~
+This room is where the armor and weapons were taken to the main vaults,
+which are now rusted and broken.  Ahead lies a sort of main chamber.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23746
+D1
+~
+~
+0 0 23748
+D2
+~
+~
+0 0 23744
+S
+#23746
+Beryllium Forge~
+You are in a small corridor where many men have been laid to rest by the
+guards on failed burglary attempts.  The vault now lies open to all, the
+door rusted and broken off.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23750
+D2
+~
+~
+0 0 23745
+D3
+~
+~
+0 0 23747
+S
+#23747
+Armor Vault~
+This is a large steel room with mold all over the walls.  Rusted armor
+lies unused all about and it would provide as much protection as a piece of
+paper.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 23746
+S
+#23748
+Beryllium Forge~
+Another small corridor leading to a once used weapons vault, it harboured
+some of the worlds most dangerous swords.  Now the only thing to be seen is
+the strewn about skeleton's of the past guards.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 23749
+D3
+~
+~
+0 0 23745
+S
+#23749
+Weapon's Vault~
+Where you stand was once a symbol of great pride.  The finest weapons in
+the world were once held here.  Now all you can find is an acid covered
+black blade.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 23748
+S
+#23750
+Beryllium Forge~
+This is a small hallway which leads north to a brightly lit room.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 23751
+D2
+~
+~
+0 0 23746
+S
+#23751
+Mace's Chamber~
+You are in an old dusty room with a faint light emminating from the
+throne which sits in the middle.  Mace, the head blacksmith of all of the
+forges, sits upon it.  He looks younger than ever and he stands up.  " I am
+ready to take you on.  You will be deafeted."  'Order of Chaos' grafitti has
+been painted all over the walls here.  
+~
+0 2097160 0
+D2
+~
+~
+0 0 23750
+S
+#0
+
+
+
+#RESETS
+D 0 23700 4 0
+D 0 23703 5 0
+D 0 23704 0 0
+D 0 23704 4 0
+D 0 23705 2 0
+D 0 23717 1 2
+D 0 23717 3 2
+D 0 23718 3 2
+D 0 23719 1 2
+D 0 23722 0 2
+D 0 23722 3 2
+D 0 23723 1 2
+D 0 23724 2 2
+D 0 23727 2 2
+D 0 23727 3 2
+D 0 23728 1 2
+D 0 23729 0 2
+D 0 23734 3 2
+D 0 23735 1 2
+D 0 23736 1 2
+D 0 23737 3 2
+D 0 23739 0 2
+D 0 23740 2 2
+M 0 23700 1 23709
+E 0 23701 0 16
+M 0 23701 1 23710
+M 0 23702 2 23710
+M 0 23714 1 23711
+M 0 23702 2 23711
+M 0 23700 5 23713
+E 0 23701 0 16
+M 0 23701 1 23713
+E 0 23701 0 16
+M 0 23700 5 23714
+E 0 23701 0 16
+M 0 23704 2 23714
+M 0 23705 3 23715
+E 0 23701 0 16
+M 0 23704 2 23716
+M 0 23706 2 23717
+G 0 23702 0
+M 0 23706 2 23717
+G 0 23703 0
+O 0 23705 0 23718
+O 0 23706 0 23718
+O 0 23707 0 23718
+O 0 23708 0 23718
+O 0 23709 0 23718
+O 0 23710 0 23719
+O 0 23712 0 23719
+O 0 23711 0 23719
+O 0 23713 0 23719
+O 0 23714 0 23719
+M 0 23708 1 23720
+E 0 23704 0 16
+M 0 23707 6 23720
+M 0 23707 6 23720
+M 0 23707 6 23720
+M 0 23707 6 23720
+M 0 23707 6 23720
+M 0 23707 6 23720
+M 0 23709 4 23721
+M 0 23710 2 23722
+G 0 23721 0
+M 0 23710 2 23722
+G 0 23722 0
+O 0 23723 0 23723
+O 0 23724 0 23723
+O 0 23725 0 23723
+O 0 23726 0 23723
+O 0 23727 0 23723
+O 0 23728 0 23723
+O 0 23720 0 23724
+P 0 23715 0 23720
+P 0 23716 0 23720
+P 0 23717 0 23720
+P 0 23718 0 23720
+M 0 23709 4 23725
+M 0 23715 2 23726
+M 0 23716 2 23727
+G 0 23738 0
+M 0 23716 2 23727
+G 0 23739 0
+O 0 23729 0 23728
+O 0 23730 0 23728
+O 0 23731 0 23728
+O 0 23732 0 23728
+O 0 23733 0 23728
+O 0 23734 0 23729
+O 0 23735 0 23729
+O 0 23736 0 23729
+O 0 23737 0 23729
+M 0 23718 1 23730
+E 0 23740 0 16
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23717 7 23730
+M 0 23718 1 23730
+M 0 23719 3 23731
+M 0 23719 3 23731
+M 0 23719 3 23731
+M 0 23720 1 23732
+E 0 23799 0 16
+M 0 23721 2 23732
+M 0 23721 2 23732
+M 0 23722 3 23733
+M 0 23722 3 23733
+M 0 23722 3 23733
+M 0 23723 4 23734
+M 0 23723 4 23734
+G 0 23742 0
+O 0 23746 0 23735
+O 0 23747 0 23735
+O 0 23748 0 23735
+M 0 23723 4 23736
+M 0 23723 4 23736
+G 0 23741 0
+O 0 23743 0 23737
+O 0 23744 0 23737
+O 0 23745 0 23737
+M 0 23741 1 23739
+E 0 23798 0 16
+G 0 23797 0
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+M 0 23742 9 23739
+O 0 23796 0 23749
+M 0 23799 1 23751
+E 0 23750 0 16
+S
+
+
+
+#PROGS
+M 23706 20
+M 23707 20
+M 23710 20
+M 23716 20
+M 23717 20
+M 23742 20
+S
+
+
+#SHOPS
+0
+
+
+
+#$

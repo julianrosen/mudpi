@@ -1,0 +1,1234 @@
+#AREADATA
+Name        {10 20} Zane    Pixie Forests~
+Builders    None~
+VNUMs       20100 20199
+Security    6
+End
+
+
+
+#MOBILES
+#20100
+green pixie~
+a green pixie~
+A bright green pixie flies over your head.
+~
+A bright green pixie!  
+~
+Human~
+AGS T 0 S
+10 7
+100 0 0 0 3d22+50 0d0+0 2d4+5 0
+4 4 4 7
+0 0 0 0
+8 8 3 1
+AHMV ABCDEFGHIJKP T unknown
+#20101
+red pixie~
+a red pixie~
+A bright red pixie flys circles around your feet.
+~
+A bright red pixie!  
+~
+Human~
+AGS T 1000 S
+10 7
+100 0 0 0 3d22+50 0d0+0 2d4+5 0
+4 4 4 7
+0 0 0 0
+8 8 3 1
+AHMV ABCDEFGHIJKP T unknown
+#20102
+blue pixie~
+a blue pixie~
+A blue pixie whizzes by.
+~
+A bright blue pixie 
+~
+Human~
+AGS T 1000 S
+10 7
+100 0 0 0 3d22+50 0d0+0 2d4+5 0
+4 4 4 7
+0 0 0 0
+8 8 3 1
+AHMV ABCDEFGHIJKP T unknown
+#20103
+annoying purple pixie~
+an annoying purple pixie~
+An annoying purple pixie flies around your head.
+~
+A bright purple pixie!  
+~
+Human~
+AS T 1000 S
+10 7
+100 0 0 0 3d10+0 0d0+0 2d3+2 0
+4 4 4 7
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJKP T unknown
+#20104
+orange pixie~
+an orange pixie~
+An orange pixie lands on your shoulder, giggles, and then flys off.
+~
+A bright orange pixie!  
+~
+Human~
+AGS T 1000 S
+10 7
+100 0 0 0 3d22+50 0d0+0 2d4+5 0
+4 4 4 7
+0 0 0 0
+8 8 3 1
+AHMV ABCDEFGHIJKP T unknown
+#20105
+Amber pixie princess~
+Amber~
+Amber the pixie princess is here looking pretty.
+~
+A beatiful yellow pixie, she rules all the other pixies.  She is very
+sweet to all visitors.  
+~
+Human~
+AB T 1000 S
+20 24
+100 0 0 0 6d35+170 0d0+0 3d5+9 0
+-2 -2 -2 4
+0 0 0 0
+8 8 2 2000
+AHMV ABCDEFGHIJKP T unknown
+#20106
+pixie vender~
+a pixie vender~
+A pixie vender is here selling food.
+~
+A small pixie selling various foods.  
+~
+Human~
+ABd T 1000 S
+90 100
+100 0 0 0 10d1000+10 0d0+0 10d1000+10 0
+-10 -10 -10 -10
+0 0 CD 0
+8 8 1 100000
+AHMV ABCDEFGHIJKP T unknown
+#20107
+pixie pet dealer~
+a pixie pet dealer~
+A pixie pet dealer is standing here.
+~
+~
+Human~
+ABd T 1000 S
+90 100
+100 0 0 0 100d100+100 0d0+0 100d100+100 0
+-10 -10 -10 -10
+0 0 0 0
+8 8 1 100000
+AHMV ABCDEFGHIJKP T unknown
+#20108
+pixie dog~
+a pixie dog~
+A flying pixie dog is here.
+~
+Awwww, a cute little doggy.  
+~
+dog~
+A T 0 S
+5 3
+100 0 0 0 1d17+42 0d0+0 2d4+5 0
+5 5 5 10
+H 0 0 0
+8 8 0 0
+AGV ACDEFHJKPUV T unknown
+#20109
+pixie kitten~
+a pixie kitten~
+A flying pixie kitten is here.
+~
+Look at the cute little cat!  It even has wings, awwwwww.  
+~
+cat~
+A TZ 0 S
+1 2
+100 0 0 0 2d10+1 0d0+0 2d6+10 0
+10 10 10 10
+FH 0 0 0
+8 8 0 0
+AGV ACDEFHJKPQUV T unknown
+#20110
+gypsy pixie~
+a gypsy pixie~
+An old gypsy pixie wanders aroung the room checking her items
+~
+An old woman in a cloak.  
+~
+Human~
+ABd T -200 S
+90 100
+100 0 0 0 100d100+100 0d0+0 100d100+100 0
+-10 -10 -10 -10
+0 0 0 0
+8 8 2 1000000
+AHMV ABCDEFGHIJKP T unknown
+#20111
+old pixie man~
+an old pixie man~
+An old pixie man wants to know if you want to buy a staff
+~
+A very old and wrinkled man, people say he used to be a world wide
+traveler.  Now he is retired and devotes his life to selling staffs.  
+~
+Human~
+ABd 0 1000 S
+90 100
+100 0 0 0 100d100+100 0d0+0 100d100+100 0
+-10 -10 -10 -10
+0 0 0 0
+8 8 1 1000
+AHMV ABCDEFGHIJKP T unknown
+#20112
+pixie arms dealer~
+the pixie arms dealer~
+The pixie arms dealer tells you to leave.
+~
+A small pixie in battle gear.  
+~
+Human~
+AB T 100 S
+15 13
+100 0 0 0 5d30+150 0d0+0 3d5+5 0
+0 0 0 5
+0 0 0 D
+8 8 1 100
+AHMV ABCDEFGHIJKP T unknown
+#20113
+frantic pixie~
+a frantic pixie~
+A frantic pixie runs around screaming!
+~
+A frantic pixie!  
+~
+Human~
+AB T 1000 S
+5 2
+100 0 0 0 1d15+30 0d0+0 2d3+2 0
+7 7 7 10
+0 0 0 0
+8 8 3 23
+AHMV ABCDEFGHIJKP T unknown
+#20114
+pixie basket weaver~
+a pixie basket weaver~
+A pixie basket weaver sells her wares here.
+~
+An old pixie lady in raggy clothes just trying to make a few bucks.  
+~
+Human~
+ABd T 1000 S
+90 100
+100 0 0 0 100d100+100 0d0+0 100d100+100 0
+-20 -20 -20 -25
+0 0 CD 0
+8 8 2 1000
+AHMV ABCDEFGHIJKP M unknown
+#20115
+preppy pixie~
+a preppy pixie~
+A preppy little pixie is here, wearing the latest fashion style.
+~
+~
+Human~
+AB T 1000 S
+10 5
+100 0 0 0 3d20+100 0d0+0 2d4+4 0
+4 4 4 7
+0 0 0 0
+8 8 2 20
+AHMV ABCDEFGHIJKP T unknown
+#20116
+guard royal pixie elite~
+a pixie guard~
+A guard of the royal pixie elite stands here.
+~
+~
+Human~
+A T 1000 S
+15 18
+100 0 0 0 1d17+42 0d0+0 3d5+8 0
+0 0 0 5
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJKP M unknown
+#20117
+royal pixie servant~
+a royal pixie servant~
+One of Amber's royal pixie servants stands here waiting to take orders.
+~
+~
+Human~
+A T 1000 S
+10 7
+100 0 0 0 3d22+100 0d0+0 3d5+8 0
+4 4 4 7
+0 0 0 0
+8 8 1 12
+AHMV ABCDEFGHIJKP M unknown
+#20119
+creature~
+a vicious creature~
+A vicious creature snarls at you.
+~
+~
+goblin~
+AB J -1000 S
+5 3
+100 0 0 0 1d6+25 0d0+0 2d3+2 0
+7 7 7 10
+0 0 Q C
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#20123
+bear large~
+a large bear~
+A large bear snarls at you.
+~
+A large mean bear.  
+~
+bear~
+ABF 0 -1000 S
+15 22
+100 0 0 0 5d30+161 0d0+0 3d5+8 0
+0 0 0 5
+DEO 0 EI 0
+8 8 0 0
+AGV ABCDEFHJKUV M unknown
+#0
+
+
+
+#OBJECTS
+#20100
+pixie pie~
+a pixie pie~
+A pixie pie~
+unknown~
+19 0 A
+AC 0 0 0 0
+0 0 15 P
+#20101
+pixie berries~
+some pixie berries~
+Some pixie berries~
+unknown~
+19 0 A
+A 0 0 0 0
+0 0 5 P
+#20102
+small leg turkey~
+a small leg of turkey~
+A small leg of turkey~
+unknown~
+19 0 A
+BD 0 0 0 0
+0 0 30 P
+#20103
+cup pixie tea~
+a cup of pixie tea~
+A cup of pixie tea~
+unknown~
+17 0 0
+B B ABD 0 0
+0 0 5 P
+#20104
+pixie fountain~
+a pixie fountain~
+A small pixie fountain is gushing fresh spring water.~
+unknown~
+25 M 0
+0 0 0 0 0
+0 999 0 P
+#20105
+devil's deed~
+the Devil's Deed~
+An evil deed lies on the floor.~
+unknown~
+2 EHJ AO
+20 7 0 0 0
+10 1 66600 P
+A
+1 0
+#20106
+cursed amulet~
+the cursed amulet~
+An amulet radiates an evil glow.~
+unknown~
+9 EHM AC
+BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
+0 100 1 P
+A
+1 -1
+A
+3 -1
+A
+13 -10
+#20107
+cursed belt~
+the cursed belt~
+A belt radiates an evil glow here.~
+unknown~
+9 EHM AL
+BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
+0 100 1 P
+A
+5 -2
+A
+12 -10
+A
+19 0
+#20108
+walking stick~
+a tiny tiny walking stick~
+A itsy bitsy walking stick lies on the groud at your feet.~
+unknown~
+4 0 AO
+0 0 0 0 0
+1 1 10 P
+A
+4 1
+#20109
+pixie staff~
+a small pixie staff~
+You barely miss a tiny pixie staff as you walk by.~
+unknown~
+4 0 AO
+A AC B 12 0
+1 1 11 P
+#20110
+pixie armor~
+some pixie armor~
+Some pixie armor lies here, too small for you to wear.~
+unknown~
+9 0 A
+0 0 0 0 0
+9 1 10 P
+#20113
+pixie basket~
+a small pixie basket~
+A tiny basket lies here.~
+unknown~
+15 0 A
+A 0 0 0 0
+1 1 4 P
+#20119
+gold coins~
+some gold coins~
+A pile of gold coins sits here waiting to be taken.~
+unknown~
+20 0 A
+CGHIL 0 0 0 0
+0 0 0 P
+#20120
+dresser oak~
+an oak dresser~
+A beautiful oak dresser sits here.~
+unknown~
+15 M 0
+A AC 0 0 0
+0 0 0 P
+#20121
+amber key~
+a bright yellow key~
+The key to the pixie treasures lies here.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 1 0 P
+#20122
+pixie sword~
+a pixie sword~
+You are stepping on a tiny pixie sword.~
+unknown~
+5 0 AN
+A C AC AB A
+15 1 6969 P
+#20130
+tiki statue ~
+a stone statue of the great tiki god~
+A small statue rests here.~
+unknown~
+8 A AC
+0 0 0 0 0
+1 3 0 P
+A
+19 1
+#0
+
+
+
+#ROOMS
+#20100
+Dark Forest Trail~
+Still as dark, you think of turning back.  A bright green light flies
+around your head and you bat at it with your weapon.  A strange giggle fills
+the air.  "Hehehe....."  
+~
+0 2097153 3
+D1
+~
+~
+0 0 20101
+D3
+~
+~
+0 0 19195
+S
+#20101
+Dark Forest Trail~
+This dark trail continues throughout the darkness.  Even more numerous
+lights appear, seemingly all around.  Brightly lit eyes look at you as you
+here whispers.  You attempt to creep up on one of the creatures but as you
+do all the lights flies off in different directions.  
+~
+0 2097153 3
+D0
+~
+~
+0 0 20102
+D2
+~
+~
+0 0 20103
+D3
+~
+~
+0 0 20100
+S
+#20102
+Dark Forest Trail~
+You approach a dim path to your east where the lights are in clear view. 
+You peer off into the distance, but aren't close enough.  When you step
+forward all the lights blink out.  You know you've seen such strange
+behavior before.  
+~
+0 2097153 3
+D1
+~
+~
+0 0 20104
+D2
+~
+~
+0 0 20101
+S
+#20103
+Off the Trail~
+You are walking along the dense trail when a large bear attacks you.  You
+dodge it as it starts to make for you again.  Quick think fast!  
+~
+0 2097153 3
+D0
+~
+~
+0 0 20101
+S
+#20104
+Dim Forest Path~
+The forest path is dim, but you can see very clearly.  Too bad all the
+light are gone, you could have found out what they were.  Wait!  You here
+that same strange laughter to the east.  Better check it out.  Don't you
+know that mischievous sound?  
+~
+0 2097152 3
+D1
+~
+~
+0 0 20105
+D3
+~
+~
+0 0 20102
+S
+#20105
+Dimly Lit Path~
+A bright colored light comes face to face with you.  A pixie!  Of
+course!  She stares at you and gives a high pitched giggle.  "Your funny! 
+Hehehe!"  She flies of north to, what looks like an inhabitance.  
+~
+0 2097156 3
+D0
+~
+~
+0 0 20106
+D1
+~
+~
+0 0 20107
+D2
+~
+~
+0 0 20108
+D3
+~
+~
+0 0 20104
+S
+#20106
+Entrance to the Pixie Forests~
+To the north is where all the pixie seem to be coming from.  Its almost
+blinding to see so many colors at once all flying in different directions.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20110
+D2
+~
+~
+0 0 20105
+S
+#20107
+A Dark Cave~
+The cave is very and dank and there is nothing that you can see of
+importance.  Better go on and come back another time.  
+~
+0 2097161 0
+D3
+~
+~
+0 0 20105
+S
+#20108
+Dim Forest Path~
+You are on a dim forest path still, moving away from the voices, lights,
+and laughter.  It gets kinda dark up ahead and you should turn back.  There
+is a cave to your east 
+~
+0 2097152 3
+D0
+~
+~
+0 0 20105
+D1
+~
+~
+0 0 20109
+S
+#20109
+A Dark Cave ~
+Inside the cave, a foul stench fills your nostrils.  You see red beady
+eyes looking all around you as you realize it's a trap!  All of the monsters
+try to jump you but your too quick.  Kill them and get back to the forest.  
+~
+0 2097153 0
+D3
+~
+~
+0 0 20108
+S
+#20110
+Pixie Road~
+A small woodland clearing pixie fly all about.  They leave different
+colored trails all throughout the air.  Some lok at you and giggle at you're
+wierd appearance.  They all seem to have never seen humans.  You are some
+kind of main road through the middle of the forest.  Little pixie houses are
+on the sides of the road.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20113
+D1
+~
+~
+0 0 20111
+D2
+~
+~
+0 0 20106
+D3
+~
+~
+0 0 20112
+S
+#20111
+A Pixie House~
+One of the many houses made of hollowed out trees.  You stand in the
+entire house without any room to move.  Little pixies fuss at you for your
+intrusion.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 20110
+S
+#20112
+A Pixie House~
+A small house has been made out of a hollowed out tree.  You can fit
+inside the opening but it's a really tight squeeze.  I hope the little
+pixies don't mind you just squashed all their furniture.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 20110
+S
+#20113
+Pixie Road~
+Pixie road continues north throughout this small village.  Pixies stop
+along their way to talk to each other and borrow stuff.  Their conversations
+consists mostly of the humans that have been entering their village and
+smashing up their houses.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20114
+D1
+~
+~
+0 0 20115
+D2
+~
+~
+0 0 20110
+D3
+~
+~
+0 0 20116
+S
+#20114
+Pixie Road~
+Pixie Road continues north to Pixie Square where little pixie deal and
+sell their goods.  Little cobblestone paths lead east and west to more
+houses.  Pixies are looking at you and giggling as they fly by.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20117
+D1
+~
+~
+0 0 20119
+D2
+~
+~
+0 0 20113
+D3
+~
+~
+0 0 20118
+S
+#20115
+A Pixie House~
+A small wooded house is way too small for you to fit inside of.  Little
+pixies walk in and out talking and telling jokes with one another.  
+~
+0 2097152 3
+D3
+~
+~
+0 0 20113
+S
+#20116
+A Pixie House~
+The house you just stepped on appeared to be a small log cabin.  A pixie
+crawls out of the rubble and yells at you.  It walks off mumbling under it's
+breath.  
+~
+0 2097152 3
+D1
+~
+~
+0 0 20113
+S
+#20117
+Pixie Square~
+Pixie Road ends here, and Pixie Lane runs east and west in either
+direction.  There is a tiny fountain mounted here as pixies gather around
+for lunch.  A small pixie vender is selling tiny, tiny food.  To the north
+is a castle, huge to the pixies, normal sized to you.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20122
+D1
+~
+~
+0 0 20121
+D2
+~
+~
+0 0 20114
+D3
+~
+~
+0 0 20120
+S
+#20118
+A Pixie House~
+Yet another pixie house is brought down by the great house-smashing
+creature, as the pixies have dubbed you.  The pixies in this house crawl out
+of the ruins and cuss you out.  "Stay away you big oaf!"  
+~
+0 2097152 3
+D1
+~
+~
+0 0 20114
+S
+#20119
+A Pixie House~
+One of the pixie houses made from hollowed out trees, you can actually
+fit inside of this one.  A pixie gets up off of a stool and kicks you in the
+head.  "You can't fit in here," it yells, "Get the hell out!"  Ooooo, a
+pixie with an attitude.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 20114
+S
+#20120
+Pixie Lane~
+Pixie Lane is where most of the little pixie shops are located.  Of
+course they are way too small for you to just go in and buy something, so
+the dealers have agreed to come outside.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20125
+D1
+~
+~
+0 0 20117
+D2
+~
+~
+0 0 19136
+D3
+~
+~
+0 0 20123
+S
+#20121
+Pixie Lane~
+Pixie Lane is where most of the pixie's business is conducted, but these
+shops are WAY too small for you to fit in.  Because they don't want their
+shops crushed, the shopkeepers have graciously agrees to come outside to sell
+to you.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20129
+D1
+~
+~
+0 0 20124
+D2
+~
+~
+0 0 20130
+D3
+~
+~
+0 0 20117
+S
+#20122
+Entrance to Amber's Castle~
+The entrance to the castle is quite large for a pixie structure.  You can
+fit inside if you squat down a bit.  Inside is where the pixie monarchy
+resides.  From what you here, the pixie kingdom is ruled by Amber, who is
+quite nice.  
+~
+0 2097156 3
+D0
+~
+~
+0 0 20133
+D2
+~
+~
+0 0 20117
+S
+#20123
+Pixie Lane~
+Little pixie hustle about buying and trading little pixie clothes and
+trinkets and all sorts of neat junk.  The clothing shop is to the north
+while the basket shop is to the south.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20131
+D1
+~
+~
+0 0 20120
+D2
+~
+~
+0 0 20132
+S
+#20124
+Pixie Lane~
+Little pixie shops are to the north and south.  You can buy objects
+infused with pixie magic to the south.  To the north is a shop for tiny
+pixie staffs.  
+~
+0 2097152 3
+D0
+~
+~
+0 0 20128
+D2
+~
+~
+0 0 20127
+D3
+~
+~
+0 0 20121
+S
+#20125
+A Pixie Pet Shop~
+You are outside of a pet shop where a little pixie vender is standing
+outside of his shop with his arms full of tiny pets.  "Well," he says, "are
+ya just gonna stand there and stare or do you wanna buy something?"  
+~
+0 2101248 3
+D2
+~
+~
+0 0 20120
+S
+#20126
+Pixie Pet Shop Reset Room~
+Not at all part of my area, here the pixie pet shop pets will reset.
+ 
+Zane the Insane
+~
+0 1060876 0
+S
+#20127
+A Pixie Magic Shop~
+You are outside a tiny tiny shop when colorful swirls engulf you.  You
+shrink down to pixie size and walk inside.  Weird smells fill the misty air
+as a small gypsy pixie appears behind the counter in a swirling mist.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 20124
+S
+#20128
+A Pixie Staff Shop~
+You are in front of a small shop when an old man creeps on out of his
+shop.  He tries to say something but you can't hear him.  You lean over to
+him and he climbs onto your shoulder.  "Would you like to buy a staff?"  "I
+guess you couldn't find a use for them being so small and all."  "Oh well,
+would you buy one anyway?"  "No?"  The old man goes back inside.  
+~
+0 2097152 3
+D2
+~
+~
+0 0 20124
+S
+#20129
+A Pixie Arms Shop~
+A tiny little structure is exactly like all the others you've seen.  A
+small pixie in battle gear comes out of his shop.  In case of a war, he
+supplies the army with state of the art weaponry.  Unfortunately he won't
+sell to you and he goes back inside.  That jerk.  He walks back out and
+tells you to leave, you're scaring the customers!  
+~
+0 2097152 3
+D2
+~
+~
+0 0 20121
+S
+#20130
+A Pixie House~
+A very tiny tiny house made of oak.  Loud noises and laughter come from
+inside as though they're having a party.  You step on the house as pixie run
+out the front door screaming.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 20121
+S
+#20131
+A Pixie Clothing Boutique~
+The pixies have refused to sell you any clothes because there is no way
+you're going to wear them.  There's nothing to see here except preppy little
+pixie running in and out buying all the latest clothes.  
+~
+0 2097152 3
+D2
+~
+~
+0 0 20123
+S
+#20132
+A Pixie Basket Shop~
+Just one of the many places you can't go into, the little pixie peasants
+have reluctantly agreed to come outside and sell you their little hand woven
+baskets.  However, I don't think you'll be able to fit much in there.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 20123
+S
+#20133
+Entrance Hall~
+The entrance hall of the castle is quite small for you, but to the pixies
+it would be rather large.  You have to get down on your hands and knees and
+crawl just to get around.  Two little pixie guards stand by the doors at
+attention but they don't seem to mind you being here.  I guess they don't
+have much of a choice if they're going to let you in or not.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 20134
+D1
+~
+~
+1 0 20135
+D2
+~
+~
+0 0 20122
+D3
+~
+~
+1 0 20136
+S
+#20134
+Main Hall~
+As you crawl further down the hallway there are more and more guards all
+over the place.  There are some small rooms to your east and west, and up
+ahead is the throne room where Amber commands her people.  She is a widely
+respected pixie so you better be careful about how you act around her.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 20137
+D1
+~
+~
+1 20121 20138
+D2
+~
+~
+0 0 20133
+D3
+~
+~
+1 20121 20139
+S
+#20135
+A Guest Bedroom~
+This guest bedroom is decorated with very expensive furniture and it is
+in very good taste.  All royal visitors get to stay here if they like but
+you are way too big and would crush all of the furniture.  You better find
+another place to stay.  
+~
+0 2097160 0
+D3
+~
+~
+1 0 20133
+S
+#20136
+A Guest Bedroom~
+A tiny room that is decorated with expensive furniture and very fine
+taste.  The guest bedrooms are for royal visitors to the castle.  You would
+be able to stay but the room is way too small, and you would crush the bed
+and all of the furniture.  
+~
+0 2097160 0
+D1
+~
+~
+1 0 20133
+S
+#20137
+Amber's Throne Room~
+This room is larger than all the others in the castle, but you still have
+to duck down pretty low to fit in it.  Amber, the royal pixie, sits on her
+throne while servants do her bidding.  The place is crawling with guards and
+there is gold laying everywhere.  
+~
+0 2097160 0
+D0
+~
+~
+0 0 20140
+D2
+~
+~
+0 0 20134
+S
+#20138
+A Treasure Room~
+As you walk into the room you are struck by gleaming bright lights
+reflecting off of the gold.  There are pile of it around, but to you it's
+about one average pile.  Take whatever you want.  
+~
+0 2097152 0
+D3
+~
+~
+1 0 20134
+S
+#20139
+A Treasure Room~
+One of Amber's treasure rooms, it is overflowing with gold.  There is so
+much gold in her castle, Amber is running out of places to put it!  Take
+some off of her hands and help her out.  
+~
+0 2097152 0
+D1
+~
+~
+1 0 20134
+S
+#20140
+Amber's Bedroom~
+This is princess Amber's bedroom!  What do you think your doing in here. 
+Better leave before she gets mad!  
+~
+0 2097164 0
+D2
+~
+~
+0 0 20137
+S
+#0
+
+
+
+#RESETS
+D 0 20134 1 1
+D 0 20134 3 1
+D 0 20138 3 1
+D 0 20139 1 1
+M 0 20123 1 20103
+M 0 20100 20 20106
+M 0 20101 20 20106
+M 0 20102 20 20106
+M 0 20104 20 20106
+M 0 20119 5 20109
+E 0 20130 0 3
+M 0 20100 20 20110
+M 0 20101 20 20110
+M 0 20102 20 20110
+M 0 20104 20 20110
+M 0 20100 20 20113
+M 0 20101 20 20113
+M 0 20102 20 20113
+M 0 20104 20 20113
+M 0 20100 20 20114
+M 0 20101 20 20114
+M 0 20102 20 20114
+M 0 20104 20 20114
+O 0 20104 0 20117
+M 0 20106 1 20117
+G 0 20100 0
+G 0 20102 0
+G 0 20101 0
+G 0 20103 0
+M 0 20100 20 20117
+M 0 20101 20 20117
+M 0 20102 20 20117
+M 0 20104 20 20117
+M 0 20103 1 20117
+M 0 20100 5 20120
+M 0 20101 4 20120
+M 0 20100 30 20121
+M 0 20101 30 20121
+M 0 20102 30 20121
+M 0 20104 30 20121
+M 0 20102 30 20123
+M 0 20104 30 20123
+M 0 20100 30 20124
+M 0 20101 30 20124
+M 0 20102 30 20124
+M 0 20104 30 20124
+M 0 20107 1 20125
+M 0 20108 1 20126
+M 0 20109 1 20126
+M 0 20110 1 20127
+G 0 20105 0
+G 0 20106 0
+G 0 20107 0
+M 0 20112 1 20129
+E 0 20122 0 16
+M 0 20113 3 20130
+M 0 20115 4 20131
+M 0 20114 1 20132
+G 0 20113 0
+M 0 20116 15 20133
+M 0 20117 5 20133
+M 0 20116 15 20134
+M 0 20117 5 20134
+M 0 20105 1 20137
+M 0 20116 15 20137
+M 0 20117 10 20137
+O 0 20119 0 20137
+O 0 20119 0 20138
+O 0 20119 0 20139
+O 0 20120 0 20140
+P 0 20121 0 20120
+S
+
+
+
+#PROGS
+M 20100 21
+M 20101 21
+M 20102 21
+M 20103 24
+M 20104 21
+M 20116 20
+S
+
+
+#SHOPS
+20106 19 17 0 0 0 100 0 0 23
+20110 2 8 17 0 0 100 0 0 23
+20111 4 0 0 0 0 100 99 0 23
+20114 15 0 0 0 0 100 25 0 23
+0
+
+
+
+#$

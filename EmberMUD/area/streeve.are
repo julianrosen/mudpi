@@ -1,0 +1,2501 @@
+#AREADATA
+Name        {25 45} Streeve Dark and Light~
+Builders    None~
+VNUMs       26800 26899
+Security    6
+End
+
+
+
+#MOBILES
+#26801
+Cyprite~
+Cyprite~
+You see a Cyprite coming straight for you.
+~
+You see a creature very similar to a dryad. Except for one thing...
+it is a Cyprite and everyone knows Cyprites are very territorial.
+~
+Treanti~
+AF c -450 S
+25 35
+100 0 0 0 115d1+5 0d0+0 4d12+12 25
+-7 -7 -7 -7
+0 BS D HJQ
+8 8 2 150
+CE ABCDEGIKM L unknown
+#26802
+Darkling~
+Darkling~
+A Darkling catches your eye and you go parenoid cause he has disappeared.
+~
+~
+Alien~
+AF H -10000 S
+15 16
+100 0 0 0 5d30+161 15d10+100 3d5+8 0
+0 0 0 5
+HIM BIKL BQ HNS
+8 8 0 210
+CHJLMQXc ABCDEFGHIJKLMQUVX M unknown
+R 100 1 0 
+#26803
+Teenager Auntie Joel~
+Auntee Joel~
+Here you see a weird looking teenager sitting upon his throne.
+~
+You see a wierd looking teenager.
+He appears to be not of this world yet he knows all about it.
+He invites you into his room with a smile.
+He seems weak at first but then you sense a strong aura around him.
+~
+Alien~
+ATV H 450 S
+40 40
+100 0 0 0 10d61+616 7d15+20 7d12+15 0
+-15 -15 -15 -5
+HIJMQ ABKLNR BEHQ HLNX
+6 8 1 5000
+CHJMQXc ABCDEFKLMQUVX M unknown
+#26804
+Staver figure~
+Staver~
+A glowing figure is all you can see as you struggle for your sight.
+~
+Once your eyes finally focus and adjust to the bright light, you see a
+hideous alien about the same size as a human.  His skin is covered in scales
+and on his back you notice a hard red shell.  A snout with a forked tongue
+protruding and long eye-stalks hardly gives Staver any beauty.  
+~
+Alien~
+ABGOT H 0 S
+40 45
+100 0 0 0 10d65+650 40d10+100 10d5+25 0
+-15 -15 -15 -5
+HIM KL BQ HN
+8 8 0 1200
+HJMQXc ABCDEFKLMQUVX M unknown
+R 100 2 EF 
+#26805
+Dwarf Keeper~
+A kindly wrinkled old Dwarf selling pets~
+An old Dwarf Keeper of pets stands here with a wrinkled smile
+~
+The short old Dwarf behind the counter greets you with a smile.  His hair
+is reddish grey and he walks with a slight limp.  "Would you like a friendly
+pet to accompany you on your dangerous journey?  I'm sure it would lighten
+your mood," he asks.  
+~
+Dwarf~
+ABGd J 0 S
+25 0
+100 0 0 0 4d3+10 0d0+0 0d0+0 0
+0 0 0 0
+0 0 BCL RZ
+8 8 1 100000
+AHMV ABCDEFGHIJK M unknown
+#26806
+Wonder Guard~
+a Wonder Guard~
+A Wonder Guard stands here protecting the Shrine.
+~
+A gigantic guard stands here.  It wears a long cloth robe decorated with
+a simple round design.  Inside the circle is a symbol for one of the wonders
+of life, and a sword of defense.  
+~
+Giant~
+ABFG 0 0 S
+35 35
+100 0 0 0 10d62+535 35d10+25 5d8+10 0
+-3 -3 -3 -10
+R 0 0 P
+8 8 0 1000
+AHMV ABCDEFGHIJK M unknown
+#26807
+Undead Headless Mage~
+A Headless Mage~
+Here a mage is soaring right for you.
+~
+~
+Human~
+AFO NT -500 S
+30 30
+100 0 0 0 650d1+100 30d10+100 6d7+15 18
+-9 -9 -9 -1
+0 0 0 0
+8 8 0 500
+AHMV ABCDEFGHIJK M unknown
+#26808
+Bright Red Lizard~
+a bright red lizard~
+A small bright red fire breathing lizard.
+~
+As you look at this little creature it breathes a short burst of flame at
+you then runs away.  
+~
+lizard~
+A 0 -35 S
+20 20
+100 0 0 0 14d20+10 0d0+0 8d11+2 29
+8 7 7 7
+0 0 L I
+8 8 3 0
+AGXc ACDEFHKQV S unknown
+#26809
+Huge Turtle~
+a huge Turtle ~
+A huge Turtle with long fangs trudges by quietly.
+~
+A huge dark green and brown turtle with long fangs protruding from under
+it's beak lumbers by.  Though it seems slow, the armor-like shell and claws
+makes you second guess it's vulnerability.  
+~
+lizard~
+A PQ 150 S
+30 30
+100 0 0 0 10d61+416 0d0+0 5d10+3 32
+0 0 0 1
+D 0 L I
+8 8 3 0
+AGHMXc ABCDEFGHIJKQV L unknown
+R 15 1 I 
+#26810
+Small Boy~
+A small young boy~
+A small young boy sits here timidly.
+~
+~
+Human~
+ABGad H 0 S
+0 0
+100 0 0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#26811
+Giant Warrior Mage Slayer~
+A Mage Slayer~
+Here charges a Giant Warrior straight at YOU!
+~
+~
+Giant~
+AG 0 500 S
+30 33
+100 0 0 0 40d35+50 30d10+100 7d7+8 0
+-9 -9 -9 -2
+0 0 0 P
+8 8 0 500
+AHMV ABCDEFGHIJK M unknown
+#26812
+Huge Centipede~
+a Fat Juicy Centipede~
+A Centipede is filling up the room.
+~
+~
+centipede~
+AG Z 0 S
+20 15
+100 0 0 0 500d1+50 20d10+100 4d5+20 12
+-1 -1 -1 2
+R 0 FI E
+8 8 0 0
+0 0 M unknown
+#26813
+Alien Warrior~
+a Alien Warrior~
+You notice this large Alien warrior staring at you.
+~
+When you look at this Alien you notice more than a few muscle showing
+through its skin.  You think twice about attacking this being.  
+~
+Alien~
+AT 0 250 S
+23 32
+100 0 0 0 24d26+50 0d0+0 6d5+12 3
+17 17 17 12
+HIMR KL BQ HN
+8 8 3 150
+HJMQXc ABCDEFKLMQUVX M unknown
+R 85 2 AF 
+#26814
+Huge Bat~
+One BIG Bat~
+A Huge Bat is flying your way.
+~
+A large hairy black bat with small red spots on it's wings screeches by
+you.  
+~
+water fowl~
+AB Tb 0 S
+25 45
+100 0 0 0 50d60+20 50d10+50 10d3+10 23
+0 0 0 0
+0 0 R 0
+8 8 0 0
+AGW ACDEFHKP S unknown
+#26815
+an Old Cleric~
+Gustar the old Cleric~
+Here is an old cleric who is slowing dying.
+~
+You see an old cleric who wishes nothing more than to live and die in a
+world without undead.  So even in his dying days he fights on against them. 
+~
+Alien~
+AB H 0 S
+35 40
+100 0 0 0 30d40+50 35d10+100 5d7+25 20
+-9 -9 -9 -1
+HIM KL BQ HN
+8 8 0 1000
+HJMQXc ABCDEFKLMQUVX M unknown
+#26816
+Powerful Alien Divine Being~
+a Alien divine being~
+A powerful Alien stands here.
+~
+As you look at this being you are blinded by its intense glow.  You try
+to shield your eyes when you do he turns to speak to you.  
+~
+Alien~
+ABGQRST DFH 1000 S
+35 47
+100 0 0 0 125d11+20 20d15+25 10d5+20 19
+20 20 20 21
+HIMQ KL BQ HN
+8 8 0 0
+HJMQXc ABCDEFKLMQUVX M unknown
+R 96 4 BFI 
+#26817
+Evil Doer~
+an Evil Doer~
+An Evil Doer.
+~
+~
+modron~
+AG J -1000 S
+28 29
+100 0 0 0 500d1+75 25d3+100 4d4+25 17
+-6 -6 -6 0
+QR BMNPQ HIK 0
+8 8 0 1330
+H ABCGHJK M unknown
+#26818
+cute little gnome~
+a cute Gnome~
+Here a cute little gnome looks for a place to hide.
+~
+~
+Dwarf~
+A J 0 S
+15 20
+100 0 0 0 100d2+75 15d10+75 10d4+10 13
+-3 -3 -3 2
+0 0 CL R
+8 8 0 300
+AHMV ABCDEFGHIJK M unknown
+#26819
+Spirit of Light~
+a being of light~
+A spirit of light.
+~
+You try to look at this being but find it is too extraordinarily bright to see clearly.
+~
+Human~
+A 0 175 S
+16 25
+100 0 0 0 100d1+50 0d0+0 8d5+8 20
+3 3 3 4
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#26820
+Alien Thief Shadow~
+an Alien Being~
+A Alien shadow is hiding from you.
+~
+You look at what appears to be a pitiful little being.  As you ponder
+this idea he jumps at you from behind screaming madly.  
+~
+Alien~
+AFS PQ 250 S
+34 37
+100 0 0 0 42d32+40 0d0+0 12d5+5 2
+14 14 13 12
+BHIM KL BQ HN
+8 8 3 450
+HJMQXc ABCDEFKLMQUVX M unknown
+R 76 1 E 
+#26821
+Lawman of Light~
+a lawman of the light~
+A lawman of the light approaches you.
+~
+You look into the worried face of this officer of the law.  He is
+beginning to look pale.  
+~
+Human~
+AFGT 0 255 S
+20 30
+100 0 0 0 125d2+6 20d10+100 9d5+5 13
+5 5 5 6
+Q 0 0 0
+8 8 0 300
+AHMV ABCDEFGHIJK M unknown
+#26822
+Cleric of Light~
+a Cleric of Light~
+A Cleric of the Light demands what you are doing here.
+~
+You look upon the peaceful face of this old cleric.  You think how
+shameful it would be if he was to die.  
+~
+Elf~
+ABGQ HJ 550 S
+27 33
+100 0 0 0 24d30+40 15d10+1 10d6+5 19
+0 0 0 0
+0 0 B Z
+8 8 3 150
+AHMV ABCDEFGHIJK M unknown
+#26823
+Tower Guard~
+a Tower Guard~
+Here stands a Tower Guard pacing back and forth guarding the Tower.
+~
+~
+Human~
+ABG 0 100 S
+18 20
+100 0 0 0 125d1+2 18d10+75 10d3+15 3
+-3 -3 -3 -1
+R 0 0 0
+8 8 3 400
+AHMV ABCDEFGHIJK M unknown
+#26824
+Staver's Bodyguard~
+a Bodyguard~
+A Bodyguard approaches you and will not let you pass.
+~
+~
+Tarrasque~
+ABFG 0 0 S
+30 30
+100 0 0 0 225d3+5 30d10+100 7d6+5 15
+-9 -9 -9 -2
+HIMR KL BQ HN
+8 8 0 300
+HJMQXc ABCDEFKLMQUVX M unknown
+#26825
+Surgeo~
+(no short description)~
+(no long description)
+~
+~
+Human~
+Ad 0 0 S
+0 0
+100 0 0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#26827
+Wizard of Light~
+a Wizard of Light~
+A great glowing wizard walks towards you.
+~
+This mage is readying himself for battle.  His face looks tired, as if he
+has already been fighting for a long time.  He stares at you blankly,
+nodding an absent-minded greeting before going back to his business.
+~
+Tarrasque~
+ABGR 0 375 S
+30 28
+100 0 0 0 145d1+10 17d14+12 9d8+1 0
+17 17 17 20
+HIM KL BNQ HN
+8 8 0 35
+HJMQXc ABCDEFKLMQUVX M unknown
+R 25 1 I 
+#26828
+Spirit of Darkness~
+a Spirit of Darkness~
+A Spirit of Darkness grins evilly at you.
+~
+As you look upon this shadow like being you feel a great chill.  As you
+realize you will never be able to fathom its evilness.  
+~
+DrowElf~
+ABGT JZ -250 S
+17 22
+100 0 0 0 100d1+55 0d0+0 8d4+5 26
+2 2 2 3
+0 0 B SZ
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#26829
+Criminal of Darkness~
+a Criminal of Darkness~
+A very stealthy criminal is reaching for your purse.
+~
+You look upon this criminal who is little more than a shadow.  Then you
+smell its foul breath and realize this servant of evil is a troll.  
+~
+Troll~
+AGST Jc -278 S
+22 28
+100 0 0 0 125d2+20 0d0+0 10d5+7 31
+7 7 7 5
+D 0 E HKP
+8 8 0 5
+BMV ABCDEFGHIJKUV M unknown
+R 85 1 E 
+#26830
+Wizard of Darkness~
+a Wizard of Darkness~
+A wizard chanting strange words is here.
+~
+You look upon the musty robes of this wizard and realize he has been down here for a while. You feel an aura of power surrounding him and decide it is best to leave him alone.
+~
+DrowElf~
+ABGR JZ -460 S
+26 29
+100 0 0 0 16d30+30 14d16+8 6d11+2 3
+0 0 0 0
+0 0 B SZ
+8 8 0 100
+AHMV ABCDEFGHIJK M unknown
+#26831
+Cleric of Darkness~
+a Cleric of Darkness~
+A cleric is raising the undead in this once holy place.
+~
+You look upon the hidious face of this cleric. His skin is falling off as you realize he is one of the undead that is being raised. A very cold chill runs to your very soul.
+~
+Wyvern~
+ABGOQ DFT -650 S
+32 31
+100 0 0 0 200d3+5 10d10+15 8d9+5 19
+-1 -1 -1 -1
+CFH L 0 S
+8 8 0 500
+BZc ACDEFHJKQUVX M unknown
+R 55 1 I 
+#26832
+Pretty Kitty~
+a Pretty Kitty~
+A small pretty kitty mew's at you.
+~
+With oversized paws and perky long haired ears, this adorable little
+fuzzball kitten looks like a miniature lynx.  A bobbed tail and a few dark
+spots add to the wildcat appearance.  
+~
+cat~
+AI Z 1000 S
+25 20
+100 0 0 0 10d48+350 35d10+100 2d3+4 22
+-3 -3 -3 1
+FH 0 0 0
+8 8 3 0
+AGV ACDEFHJKQUV S unknown
+#26833
+An Old Cave Dweller~
+an Old Cave Dweller~
+An old but foul looking cave dweller sits here among the rocks.
+~
+~
+Human~
+A 0 500 S
+20 22
+100 0 0 0 100d4+2 20d10+10 20d1+2 17
+-2 -2 -2 0
+0 0 0 0
+8 8 0 100
+AHMV ABCDEFGHIJK M unknown
+#26834
+Gigantic Beetle~
+a Gigantic Beetle~
+A gigantic beetle crawls over your feet.
+~
+~
+centipede~
+A Z 0 S
+20 20
+100 0 0 0 100d3+5 20d10+10 7d3+2 10
+-1 -1 -1 -1
+0 0 FI E
+8 8 0 0
+ADO ACDFHKWX M unknown
+#26865
+Large Slug~
+A large slug~
+A large slug slithers by leaving a nasty slime trail.
+~
+A large grayish slug about two feet long oozes over your feet.
+~
+snake~
+A 0 -300 S
+25 25
+100 0 0 0 7d40+200 0d0+0 5d5+11 14
+0 0 0 0
+0 0 L IS
+8 8 0 0
+AGHMRXYc ADEFKLQVX M unknown
+#26879
+Bright Firefly~
+A tiny bright firefly~
+A tiny bright firefly buzzes around in a dance like formation.
+~
+Upon inspection of this tiny insect, you can almost see through it.  It
+glows a bright white light and has two sets of wings, along with 8 legs.  
+~
+song bird~
+A JT 0 S
+25 27
+100 0 0 0 6d32+230 0d0+0 5d6+14 26
+0 0 0 0
+FHR S 0 0
+8 8 0 0
+AGW ACDEFHKP T unknown
+#0
+
+
+
+#OBJECTS
+#26801
+staver ld sword flaming frost~
+the `yStaver `rof `mLD`w~
+Gazing at this weapon of combined powers of Light and Dark it hurts your vision. You must look away.~
+unknown~
+5 ABC AN
+A AC AD 0 AB
+25 5 1000 P
+#26802
+auntee joel's wonder staff-defend~
+a staff of wonder~
+A glowing staff of wonder's belonging to Auntee Joel~
+unknown~
+4 BFSTUW AN
+ADE ADE ADE 504 0
+25 3 1500 P
+#26803
+ring staver armor-finger~
+a ring of staver~
+A glistening black ring lies at your feet~
+unknown~
+9 BG AB
+ABC AC BC D 0
+26 2 1000 P
+#26804
+staver sword flaming~
+sword of Staver~
+A shining white sword floats at your waist~
+unknown~
+5 A AN
+A BC AD 0 A
+32 8 7000 P
+#26805
+staver armor-shield~
+a Shield of Staver~
+A plain grey shield is leaning against the wall~
+unknown~
+9 HIM AJ
+AE AE AE BE 0
+28 9 0 P
+#26819
+staver's burning opal light~
+staver's `rB`Ru`Yr`Wn`Yi`Rn`rg `COpal`w~
+A giant opal, glowing with fire rests in the velvet lined chest.~
+unknown~
+1 0 AC
+0 0 500 0 0
+25 50 2500 P
+#26820
+staver's pile money~
+a large pile of coins ~
+A large pile of Staver's Treasure is stacked in the corner.~
+unknown~
+20 A A
+BDEFJMO 0 0 0 0
+0 20 0 P
+#26821
+ebony ivory chest container~
+ebony and Ivory Chest~
+A huge chest of carved ebony and laced with ivory.~
+unknown~
+15 B A
+EHI ACD BCDEFGHIKMN 0 0
+25 5000 0 P
+#26822
+Ivory Key~
+an ivory key.~
+A key of carved ivory lays here.~
+unknown~
+18 B AO
+0 0 0 0 0
+25 5 50 P
+#26840
+Themis's Blindness cloth-head immortal~
+`gThemis's `KBlindness`w - `bAidan `KD`Wr`Ka`Wg`Ko`Wn`KS`Wi`Kl`Wk`w blindfold~
+A blindfold of `KTrue Sight`g made of Aidan `KD`Wr`Ka`Wg`Ko`Wn`KS`Wi`Kl`Wk`g floats with no movement  above the Scales.`w~
+unknown~
+11 CI AE
+0 0 0 0 0
+98 0 0 P
+#26850
+Castle Fountain ~
+a gleaming fountain of gold and silver.~
+A gleaming fountain of gold and silver sits here in the middle of the room.~
+unknown~
+25 O 0
+0 0 0 0 0
+0 0 0 P
+#26863
+button mushroom vegetable poison~
+a Button Mushroom~
+A small half rotten brownish button mushroom grows here.~
+unknown~
+19 0 AO
+BD 0 0 A 0
+20 1 0 W
+#26866
+tiny web trash~
+a tiny web sticking to your body~
+A tiny spider web dangles on the rocks.~
+unknown~
+13 H AD
+0 0 0 0 0
+20 0 0 G
+#26875
+guilded harp furniture~
+a magnificent guilded harp of crystal and jade strums by itself.~
+A magnificent guilded `Yharp`g of crystal and jade strums soothing melodies by itself.~
+unknown~
+12 BI 0
+0 0 0 0 0
+45 0 0 P
+#26897
+pool water fountain~
+a Pool of Water~
+A pool of water lies here in the ground.~
+unknown~
+25 0 0
+0 0 0 0 0
+0 200 10000 P
+#26898
+hp ring armor-finger~
+hp ring~
+A powerful ring~
+unknown~
+9 0 AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef 0
+35 0 100000 P
+A
+5 2
+A
+13 30
+#26899
+glowing ring armor-finger~
+glowing Ring of Power~
+A Glowing Ring lies here in its own light.~
+unknown~
+9 A AB
+CE CE CE CE 0
+20 1 200000 P
+A
+5 3
+#0
+
+
+
+#ROOMS
+#26800
+Entry to the Dark Prairie~
+The grass is darkest green, some patches stained red.  As you look around
+the huge field the first thing you notice is a horrid gut wrenching rotten
+smell of undead creatures nearby.  You wonder if it would be wise to press
+any further on this journey.  
+~
+0 4 2
+D0
+~
+~
+0 0 26801
+D2
+~
+~
+0 0 22556
+S
+#26801
+Outer Edge of the Dark Prairie~
+The ground is relatively flat, but long grass swaying in the open breeze
+brings eerie life to the surrounding area.  The smell of those slayed before
+you is pungent and sour.  Another glance around at these dark lands
+heightens your curiosity and fear as to what could lay ahead.  
+~
+0 0 2
+D0
+~
+~
+0 0 26803
+D2
+~
+~
+0 0 26800
+S
+#26803
+Middle of the Dark Prairie~
+Red stained dirt and patches of long grass fill the vast expanse of the
+field.  Scanning to the east and west you finally find the source of the
+repulsive stench.  A few shallow trenches doubling as make-do graves for
+unskilled adventurers that came before you.  Half rotted bodies of every
+race are strewn about.  Gazing ahead you can make out some rocky hills.  
+~
+0 0 2
+D0
+~
+~
+0 0 26804
+D2
+~
+~
+0 0 26801
+S
+#26804
+Valley of the Dark Prairie~
+The curve of the mountain range blocks the air and stench from
+dissapaiting.  The ground is mostly stained dirt, and very solid.  Glancing
+around you notice three cave entrances hidden partially behin thick vines
+and large leaves.  From the east, various animal squawks and screeches
+sound.  The west however seems much quieter, and to the north, an eerie
+silence.  
+~
+0 1028 2
+D0
+~
+vines~
+7 0 26812
+D1
+~
+~
+0 0 26810
+D2
+~
+~
+0 0 26803
+D3
+~
+~
+0 0 26805
+S
+#26805
+The Base of the Mountain~
+The prairie is interrupted here by a mountain.  The grass is soft and
+there is a gentle breeze blowing.  The atmosphere is soothing, and you feel
+very relaxed here.  Everything seems quite safe.  Towards your north you
+notice a large group of thick vines covering a cave.  
+~
+0 1052 4
+D0
+~
+vines~
+7 0 26821
+D1
+~
+~
+0 0 26804
+S
+#26806
+Inside the Mountain~
+Continuing through the tunnel, the air is stale but moist.  There is an
+abundance of plant life growing along the walls including woody vines, tiny
+ferns and dim moss lumens on the rocks.  Looking at the carved ground, it's
+obvious that something other than plants inhabits this mountain.  
+~
+0 8 0
+D0
+~
+~
+0 0 26807
+D3
+~
+~
+0 0 26821
+S
+#26807
+Inside the Mountain~
+The tunnel is rather large, indicating it's inhabitants are tall
+creatures.  A few small trickles of water fall over the rocks, seeping into
+the crevices of the walls.  Thick woody vines make walking uneasy, and small
+spider webs keep getting stuck onto your body.  
+~
+0 8 0
+D0
+~
+~
+0 0 26808
+D2
+~
+~
+0 0 26806
+S
+#26808
+Inside the Mountain~
+The walls here are covered in small ferns and more large woody vines. 
+The air is moist, but there is a slight breeze.  Perhaps there is an opening
+up ahead.  The moss lumens here cover the ground and rocks, adding a dim
+green light to the cave.  
+~
+0 8 0
+D0
+~
+~
+0 0 26809
+D2
+~
+~
+0 0 26807
+S
+#26809
+Inside the Mountain~
+The woody vines here resemble enourmous roots and the fern leaves are
+much larger.  The air is warm and moist, swirling about you in a tiny
+fluster.  Small water puddles cover the ground and little trickles fall over
+the walls.  
+~
+0 8 0
+D1
+~
+~
+0 0 26823
+D2
+~
+~
+0 0 26808
+S
+#26810
+Staver's Pet Shoppe~
+Entering the roughly carved stone cave through a curtain of old vines,
+you notice a smell, hardly pleasant, but a definite relief from the rotten
+stench outside.  There are a few cages with animals, and a kindly aged dwarf
+behind a small counter.  He greets you with a big crinkled smile and shows
+you his pets for sale.  
+~
+0 4104 0
+D3
+~
+~
+0 0 26804
+S
+#26811
+Pet Reset Room~
+This is where the pets for Staver's Pet shoppe Reset in.  
+~
+0 4 0
+S
+#26812
+Entrance to a Dark Cave~
+The stench of dead bodies is faint inside the cave.  Along the ground and
+the wall, tiny plants spurt from the cracks of rock, leaning towards the
+entrance for whatever sunlight they can get.  The atmosphere is dank and
+wet, but it seems lighter than you might imagine.  Glancing around you find
+a pit in the floor and curiosity gnaws at your belly.  
+~
+0 2097164 0
+D0
+~
+~
+0 0 26899
+D2
+~
+~
+7 0 26804
+D5
+~
+~
+0 0 26813
+S
+#26813
+Entrance of Dark Pit~
+The walls jut out in a natural rock step ladder, letting you climb
+easily.  The cavern is a bit brighter than you might expect for a cave.  As
+you gaze to the east you feel a warm tingle surge though your body.  A
+glance to the west gathers butterflies in your stomach and a sudden sense of
+fear.  
+~
+0 2097161 0
+D1
+~
+~
+0 0 26828
+D3
+~
+~
+0 0 26827
+D4
+~
+~
+0 0 26812
+D5
+~
+~
+0 0 26814
+S
+#26814
+Gray Pit~
+Another small cavern with small bits of moss growing on slightly carved
+stone.  The separated feeling of warmness and fear you feel as you glance to
+the two passageways seems less intense.  But at the same time, the
+combination has its own powerful surge.
+~
+0 2097161 0
+D1
+~
+~
+0 0 26830
+D3
+~
+~
+0 0 26829
+D4
+~
+~
+0 0 26813
+D5
+~
+~
+0 0 26815
+S
+#26815
+Strobe Pit~
+Descending further, you enter a large cavern.  The ceiling is covered
+with dripping rock spikes and the floor mirrors the the sharp roof.  Shadows
+dance over the walls as an eerie light flickers from the center of the room,
+making it very difficult to see clearly.  
+~
+0 2097161 0
+D1
+~
+~
+0 0 26832
+D3
+~
+~
+0 0 26831
+D4
+~
+~
+0 0 26814
+D5
+~
+~
+0 0 26816
+S
+#26816
+The Birth Reaction~
+`W***`YBANG`W***`w  Standing in this gigantic cavern you feel a rush of
+intense surging energy flood your mind and body.  The light fills the
+room so completely it mimics a sense of blindness.  The energy of
+light and dark seems to have collided in a serious mistaken accident.
+~
+0 2097161 0
+D1
+~
+~
+0 0 26833
+D3
+~
+~
+0 0 26834
+D4
+~
+~
+0 0 26815
+D5
+~
+~
+0 0 26817
+S
+#26817
+A Barely Lit Cave~
+The lowest cavern on the steps is quite spacious and the ground is
+slightly damp.  The rocks and stones have been carefully carved and a few
+even sculpted near the northern passageway.  The walls emit a soft glow and
+a few small patches of moss lumens grow in the crevices.  Though it is
+poorly lit, you keep catching small movements out of the corner of your eye.
+~
+0 2097165 0
+D0
+~
+~
+0 0 26818
+D4
+~
+~
+0 0 26816
+S
+#26818
+A Lit Cave~
+A bright light from the cavern ahead practically blinds you.  The walls
+here are smooth and decorated with various symbols of combat.  On a large
+primative cave painting there is a scene of Light and Dark Ethos being
+created and separated by ancient gods of time.  
+~
+0 2097161 0
+D0
+~
+~
+0 0 26819
+D2
+~
+~
+0 0 26817
+S
+#26819
+The Glowing Shrine of Staver~
+The walls here are perfectly smooth and emminate a bright, warm light.  A
+man stands in front of a highly decorated glowing altar.  He appears to be
+the protector of the Glowing Shrine.  Glancing around you see a large
+beautiful door behind the man and wonder what it could be that he is
+defending.  
+~
+0 2097160 0
+D0
+~
+~
+6 26822 26820
+D2
+~
+~
+0 0 26818
+S
+#26820
+Staver's Treasure Vault~
+As you enter the room, you are astonished at the mass of wealth you see
+piled up in every corner of this beautiful vault.  The walls are carved into
+gigantic pillars and even the ceiling has decorations.  There are a few
+torches lined on the walls; the firelight sparkles off the gold and jewels. 
+~
+0 8 0
+D2
+~
+~
+6 26822 26819
+S
+#26821
+Hidden Tunnel~
+Several thick woody vines grow inside this passageway.  The air is moist
+and heavy, and there is a strong scent of plant life.  The tunnel looks
+relatively short, but a few scattered weapons and bones of earlier
+adventurers make you wonder just how safe it is.  
+~
+0 8 0
+D0
+~
+~
+0 0 26822
+D1
+~
+~
+0 0 26806
+D2
+~
+~
+7 0 26805
+S
+#26822
+Base of the Mountain~
+The rocky mountain is covered with vines and the ground is soft.  Tall
+dark greenish-gray prairie grass grows in abundance.  
+~
+0 4 4
+D0
+~
+~
+0 0 26824
+D2
+~
+~
+0 0 26821
+S
+#26823
+Inside the Mountain~
+The roots are thick, sturdy and ripple in a cascade down the rocks on the
+walls.  The ferns grow in heavy abundance and water drops fall from above,
+dropping on your head, spilling over the walls and pools at your feet.  
+~
+0 8 0
+D3
+~
+~
+0 0 26809
+D4
+~
+~
+0 0 26838
+S
+#26824
+Small Field Below the Castle~
+The tall dark grayish grass grows up to your waist in this tiny field. 
+To your east and west the mountain continues but seems completely
+impassible.  It's obvious the owner of the formidable tower like castle
+chose to build here due to the strategic location.  
+~
+0 0 2
+D0
+~
+~
+0 0 26825
+D2
+~
+~
+0 0 26822
+S
+#26825
+Before the Gates~
+Before you stands an odd tower which is at least 10 stories tall.  You
+think to yourself "Who could live in there?"  Glancing at the gates you can
+see it's heavily guarded.  The Tower itself appears to be literally carved
+from the mountain that wraps behind it.  
+~
+0 0 2
+D0
+~
+~
+1 0 26826
+D2
+~
+~
+0 0 26824
+S
+#26826
+Just Inside Castle of Auntee Joel~
+Upon entering the tower you see a huge stone column carved with unusual
+symbols, and at the base it reads, "Auntee Joel".  The name makes you blink,
+and you start wondering who really lives here.  The entrance room is large
+and made from mountain rocks, but appears very sturdy.  Towards the end of
+the room you notice a set of stairs heading up.  
+~
+0 0 0
+D2
+~
+~
+1 0 26825
+D4
+~
+~
+0 0 26835
+S
+#26827
+Haven of the Dark Spirits~
+Inky blackness surrounds you, as the Spirits of the Dark continue their
+search for the Spirits of the Light.  The spirits surround you, pressing
+against you as they fly furiously, continually seeking and destroying the
+enemy.
+~
+0 2097160 0
+D1
+~
+~
+0 0 26813
+S
+#26828
+Haven of Light Spirits~
+This room is very bright, as the Spirits of the Light seek solace here
+from the Spirits of the Dark.  The spirits here are pale, as though their
+powers are slowly slipping away.  Several spirits are crouched in a corner,
+in an attempt to hide from the evil that is seeking them out.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 26813
+S
+#26829
+A Criminals Hideout~
+Criminals hide from the law in this little room.  Each one must have
+committed a serious crime recently due to their quiet suspicious demeanor. 
+Most are kicking back having a drink of whiskey and a smoke or exchanging
+stories of skilled thefts.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 26814
+S
+#26830
+A Lawmen's Station~
+Several officers of the law stand around a large round table arguing.  The
+source seems to be the locations of the criminals who supposedly cause the
+mix of the Dark and the Light.  One lawman points at a map, motioning, while
+the others clearly disagree.
+~
+0 2097160 0
+D3
+~
+~
+0 0 26814
+S
+#26831
+The Graveyard of the Unholy Prophets~
+This graveyard has an eerie aura as you enter it.  The Unholy Prophets
+surround you, chanting in strange words.  Their faces are blocked by black
+hoods they wear on their heads.  Each one moves with clear, deliberate
+steps.  You feel their gaze heavy upon your body, and looking at one heading
+towards you, you see deep red glowing eyes.  They look at you, demanding to
+know without words why you have violated their sanctuary.  
+~
+0 2097160 0
+D1
+~
+~
+0 0 26815
+S
+#26832
+Paradise of the Holy Prophets~
+It feels peaceful here, as the Holy Prophets surround you, chanting
+strange prayer rituals.  They appear to be asking the gods to intervene in
+the war between the Dark and Light by letting the Light survive.  A cluster
+of prophets stand near an altar.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 26815
+S
+#26833
+The Unseen Light~
+Entering this cavern you are blinded by several different light sources. 
+It seems to be a training room for powers of light.  A multitude of
+different beings practice their powers of good and lawful ethos.  
+~
+0 2097160 0
+D3
+~
+~
+0 0 26816
+S
+#26834
+The Unseen Dark~
+Even before you pass through the doors, screams of terror and agony echo
+in your ears.  The hideous sights of the darkness fill your mind with
+unimaginable fear and disgust.  In several sections of the room, dark
+wizards practice evil spells on helpless victims.  Before this day you might
+have seen horrible acts, but this surely is true evil!  
+~
+0 2097160 0
+D1
+~
+~
+0 0 26816
+S
+#26835
+2nd Floor in the Castle~
+You have entered the second floor of the castle.  The hallway appears
+endless as you scan ahead.  The darkness of the passageway makes you feel a
+bit uneasy about continuing this quest, but an urgency pushes you forward.  
+~
+0 12 0
+D1
+~
+~
+0 0 26836
+D5
+~
+~
+0 0 26826
+S
+#26836
+A Long Hallway~
+This hallway stretches for a long way, until it disappears into a point.
+Paintings line the stone walls, and the floor is tiled.  As you gaze down
+the hallway, you are struck with a feeling of dread...you may be here for a long time.
+~
+0 8 0
+D1
+~
+~
+0 0 26837
+D3
+~
+~
+0 0 26835
+S
+#26837
+A Long Hallway~
+Continuing down the passageway you notice a few paintings on the rock
+wall.  Most of the pictures don't seem to make any sense.  While glancing at
+the wall, you hear a small skitter of steps behind you.  Turning to find the
+source of the noise leaves you staring down the empty hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 26839
+D3
+~
+~
+0 0 26836
+S
+#26838
+Climbing the Roots~
+Gripping the hairy roots, you manage to climb up and down the walls.  The
+air is a bit cooler, but still very warm and moist on your skin.  Water
+falling down the roots and walls, along with soft moss, makes the climb very
+slippery and slow.  
+~
+0 8 0
+D4
+~
+~
+0 0 26883
+D5
+~
+~
+0 0 26823
+S
+#26839
+End of the Long Hallway~
+The end of the hallway is dim at best and practically empty.  Does anyone
+even live here?  A set of carved stone steps leads up to the next floor from
+which you can barely make out a few sounds of life.  
+~
+0 12 0
+D3
+~
+~
+0 0 26837
+D4
+~
+~
+0 0 26840
+S
+#26840
+3rd Floor in Castle~
+The hallway is shorter in height and it doesn't appear to be quite as
+long.  Glancing down the walls you notice a few cute paintings on the stone,
+and several boulders and rocks along the walls.  There is a soft light
+ahead, perhaps it is the end of the hallway.  All around you the sound of
+little feet and soft giggling fills your ears.  Several cute gnomes are here
+playing hide and seek.  
+~
+0 8 0
+D3
+~
+~
+0 0 26842
+D5
+~
+~
+0 0 26839
+S
+#26841
+A LONG Hallway~
+Finally, up ahead you can see the end of the LONG Hallway.  You feel
+relieved.  You quickly move on to the end of the hallway for it seems like
+you have been walking for ever.  
+~
+0 8 0
+D1
+~
+~
+0 0 26839
+D3
+~
+~
+0 0 26837
+S
+#26842
+A short Hallway~
+You search the room and you find little green gnomes hiding everywhere. 
+AWW how cute. A gnome is in the open because he cannot find a place to hide,
+he starts to cry.
+~
+0 8 0
+D1
+~
+~
+0 0 26840
+D3
+~
+~
+0 0 26843
+S
+#26843
+A short Hallway~
+Here you see a gnome counting " 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ...  READY
+OR NOT HERE I COME !  ".  He starts to search aimlessly looking for all of
+his friends.  He's having trouble finding them.  
+~
+0 8 0
+D1
+~
+~
+0 0 26842
+D3
+~
+~
+0 0 26844
+S
+#26844
+A short Hallway~
+Here more gnomes struggle to find a hiding place for the finder is coming
+in the room behind you.  It starts to get pretty crazy in this room.  So you
+leave.  Several little gnome skitter around quickly looking for hiding
+places.  What you thought was the end of the hallway appears to be just a
+window.  Looking out you can see the tower guards and the field below.  
+~
+0 8 0
+D1
+~
+~
+0 0 26843
+D3
+~
+~
+0 0 26845
+S
+#26845
+A short Hallway~
+Along the walls there are several small holes.  Upon closer appearance
+they seem to be tiny caves, or homes for all these playful gnomes.  The rest
+of the hallway is somewhat bare, except for a few small painted rocks on the
+ground.  
+~
+0 8 0
+D1
+~
+~
+0 0 26844
+D3
+~
+~
+0 0 26846
+S
+#26846
+End of the Short Hallway~
+Looks like your at the end of the short hallway.  Maybe it wasn't that
+short after all.  Once again the exit is up.  This castle must be at least 8
+floors high.  
+~
+0 8 0
+D1
+~
+~
+0 0 26845
+D4
+~
+~
+0 0 26847
+S
+#26847
+The 4th Floor in the Castle~
+After clearing the fourth set of stairs, you glance around at the new
+hallway and decide it seems relatively safe.  It might even make a good
+place to rest a moment and have a bite to eat.  
+~
+0 12 0
+D1
+~
+~
+0 0 26848
+D5
+~
+~
+0 0 26846
+S
+#26848
+A Tranquil Hallway~
+The walls here are a mixture of carved stone and wooden beams, no doubt
+to support the weight of the tower above.  The outer walls have been cut and
+filled with window bars, allowing a clear view of the mountains.  The floor
+is covered with a thick layer of soft moss.  All in all it seems very
+relaxing and peaceful here.  
+~
+0 1024 0
+D1
+~
+~
+0 0 26849
+D3
+~
+~
+0 0 26847
+S
+#26849
+A Tranquil Hallway~
+A few small ferns grow on the window sill and thin green vines cover the
+bars.  Looking out you can see the field and mountain range covered with
+giant trees.  The ground is covered thickly with soft moss and the walls are
+carved smooth and have a few small strange symbols embedded on them.  
+~
+0 1024 0
+D1
+~
+~
+0 0 26850
+D3
+~
+~
+0 0 26848
+S
+#26850
+A Tranquil Hallway~
+In the center of this room a huge fountain gurgles fresh water, most
+likely from a small aquifer nearby.  It gleams of silver and gold, but the
+base is covered in soft moss and a few small vines.  
+~
+0 1032 0
+D1
+~
+~
+0 0 26851
+D3
+~
+~
+0 0 26849
+S
+#26851
+End of the Tranquil Hallway~
+The walls are sharply carved, the ground is bare stone and there is no
+window to let in extra light from the outdoors.  Another stone staircase
+lays ahead of you and from above you can hear several large creatures
+talking amongst themselves.  
+~
+0 1036 0
+D3
+~
+~
+0 0 26850
+D4
+~
+~
+0 0 26852
+S
+#26852
+The 5th Floor of the Castle~
+Just by gazing down this hallway you know that you are going to have a
+hard time making it to the end without loosing some blood.  The walls are
+jagged and covered with horrid symbols of dark powers.  A solitary torch on
+the wall lights your way, casting large shadows all around.  
+~
+0 8 0
+D3
+~
+~
+0 0 26853
+D5
+~
+~
+0 0 26851
+S
+#26853
+The Evil Hallway~
+Several different creatures roam the hallway, some moaning deep pangs of
+agony.  Others float by with glowing eyes and tattered clothing.  The walls
+are sharp and bare, except for two torches to bring light to the room.  
+~
+0 8 0
+D1
+~
+~
+0 0 26852
+D3
+~
+~
+0 0 26854
+S
+#26854
+The Evil Hallway~
+Several nasty looking evil ones meander around the corridor.  Maybe it
+would be best to walk by quietly.  On the ground are the broken remains of
+those that came before you, leaving a slight rotten stench in the air.  The
+occasion sound of two of the evil ones clashing in mock battles rings in
+your ear and urges you to hurry on.  
+~
+0 8 0
+D1
+~
+~
+0 0 26853
+D3
+~
+~
+0 0 26855
+S
+#26855
+The Evil Hallway~
+The room seems to be filled with these evil beings.  Most are wandering
+around looking for something to rip to shreads.  The floor is almost
+carpeted with bones and body parts of unfortunate adventurers.  The walls
+are jagged and uneven with a few random symbols of dark magic.  
+~
+0 8 0
+D1
+~
+~
+0 0 26854
+D3
+~
+~
+0 0 26856
+S
+#26856
+The End of the Evil Hallway~
+The stairs are just ahead.  Perhaps it would be wise to hurry away from
+the danger of this hallway.  Cursing under your breath you make your way to
+the end, remembering the fierce monsters.  
+~
+0 12 0
+D1
+~
+~
+0 0 26855
+D4
+~
+~
+0 0 26857
+S
+#26857
+6th Floor of the Castle~
+As you gaze down this hallway, you get a feeling of good in your heart. 
+It just makes you want to help the innocent and slay the evil dragons.  Then
+you notice that in the next room, strange beings are standing there.  
+~
+0 8 0
+D1
+~
+~
+0 0 26858
+D5
+~
+~
+0 0 26856
+S
+#26858
+The Good Hallway~
+As you walk down this hallway you see dozens of little eyes staring at
+you.  You hear the shake of a tail and look up, finding yourself surrounded
+by an alien people.  The walls are round and carved very ornately.  Spiral
+pillars line the walkway, each one covered with symbols of light magic.  The
+ground has a bit of moss carpeting and a few small oval windows have been
+added to bring in outside light.  
+~
+0 8 0
+D1
+~
+~
+0 0 26859
+D3
+~
+~
+0 0 26857
+S
+#26859
+The Good Hallway~
+You sense great power emminating from the alien figure standing before
+you.  He calls for your aide to destroy any undead in these parts.  The old
+cleric points down the hall and urges you to hurry on.  
+~
+0 8 0
+D1
+~
+~
+0 0 26860
+D3
+~
+~
+0 0 26858
+S
+#26860
+The Good Hallway~
+As you pass through the sounds decrease into almost nothing.  You wonder
+where everyone went but you sense some type of hidden presence.  
+~
+0 8 0
+D1
+~
+~
+0 0 26861
+D3
+~
+~
+0 0 26859
+S
+#26861
+End of the Good Hallway~
+You enter the end of the hallway only to see a great prescence in the
+middle of casting its spells to rid the world of Evil.  Do you join him in
+his efforts or continue your climb to the top of this strange tower?  
+~
+0 8 0
+D3
+~
+~
+0 0 26860
+D4
+~
+~
+0 0 26862
+S
+#26862
+7th Floor of Castle~
+The top of the stairs is covered in dozens of spider webs and the floor
+is rocky and uncut.  The room looks like a cave in the mountain instead of
+part of the tower.  The air is damp and there is very little light, except
+for a few small patches of moss lumens.  
+~
+0 13 0
+D3
+~
+~
+0 0 26863
+D5
+~
+~
+0 0 26861
+S
+#26863
+Uncarved Corridor~
+It appears this area is completely unfinished and simply part of the
+mountain.  Several cave insects dwell here, leaving webs and slime trails
+over the rocky, uneven ground.  The air is slightly damp and the walls are
+patched with a few moss lumens.  A few button mushrooms grow in the crevices
+of the ground.  
+~
+0 8 0
+D1
+~
+~
+0 0 26862
+D3
+~
+~
+0 0 26864
+S
+#26864
+Uncarved Corridor~
+Continuing down this quiet corridor you relax and even yawn a few times. 
+Suddenly, out of the corner of your eye, a huge bat screeches and flies past
+you.  
+~
+0 9 0
+D1
+~
+~
+0 0 26863
+D3
+~
+~
+0 0 26865
+S
+#26865
+Uncarved Corridor~
+Hundreds of spider webs stick to your clothes and skin as you make your
+way through the cavern.  Walking is uneasy due to small slime trails on the
+jagged rock path.  The air is dense, warm and very stagnant.  A few patches
+of moss lumens and mushrooms grow on the ground.  
+~
+0 9 0
+D1
+~
+~
+0 0 26864
+D3
+~
+~
+0 0 26866
+S
+#26866
+End of Uncarved Corridor~
+The mountain walls here are a tad more sculpted as the cave rejoins the
+outer tower.  Sounds of clashing weapons ring in your ears as you near the
+roughly carved steps.  A small curtain of spider webs filters a bit of torch
+light from the hallway above.  
+~
+0 8 0
+D1
+~
+~
+0 0 26865
+D4
+~
+~
+0 0 26867
+S
+#26867
+8th Floor of the Castle~
+Several large torches line the walls of this corridor.  A couple large
+centipede shells are scattered near the walls, and the ground is stained red
+and green, and various other shades of blood.  
+~
+0 12 0
+D1
+~
+~
+0 0 26868
+D5
+~
+~
+0 0 26866
+S
+#26868
+Hallway of Battle~
+Everything about this hallway indicates there has been several bloody
+battles fought within it's walls.  Dead bodies with broken weapons locked
+between broken bones are strewn everywhere.  Several torches light the
+walls.  
+~
+0 8 0
+D1
+~
+~
+0 0 26869
+D3
+~
+~
+0 0 26867
+S
+#26869
+Hallway of Battle~
+Entering this section of the hallway you notice several giants fighting
+with dark mages.  One manages to slice off the head of another, while a
+second giant tumbles to the ground, splashing blood all over the walls.  The
+stench of rotting bodies fills the air.  
+~
+0 8 0
+D1
+~
+~
+0 0 26870
+D3
+~
+~
+0 0 26868
+S
+#26870
+Hallway of Battle~
+Gasping at the sheer horror and bloodiness of this corridor you notice
+many symbols of weapons and torture carved on the walls.  Several torches
+cast dancing shadows everywhere.  The mage you thought was dead is here.  He
+is indeed dead and he is coming right at you holding his head in his hands. 
+~
+0 8 0
+D1
+~
+~
+0 0 26871
+D3
+~
+~
+0 0 26869
+S
+#26871
+End of The Hallway of Battle~
+At last you reach the end of the needless bloodshed.  From here on you
+hear the sound of soothing music.  You have an urge to follow it upstairs.  
+~
+0 12 0
+D3
+~
+~
+0 0 26870
+D4
+~
+~
+0 0 26872
+S
+#26872
+9th Floor of the Castle~
+You seem to be very high in the castle for you have climbed about 9
+floors.  You think to yourself , "When will I make it to the top ?"  You
+glance down the hallway to a peaceful sight.  The walls here are painted
+with bright colors, and fabulous artwork.  Several large windows in fancy
+fleur du lis's let in an abundance of light, and there even seems to be soft
+music filling the air.  
+~
+0 8 0
+D3
+~
+~
+0 0 26873
+D5
+~
+~
+0 0 26871
+S
+#26873
+Hallway of Peace~
+A soothing tranquility passes over you as you enter into these white
+halls.  You sheath your weapon and feel like dancing to the constant music
+playing in the air.  Giant exquisitly carved windows here without any bars
+allow a flood of light onto the bright walls.  
+~
+0 8 0
+D1
+~
+~
+0 0 26872
+D3
+~
+~
+0 0 26874
+S
+#26874
+Hallway of Peace~
+Continuing down this magnificent hallway of marble pillars and jewel
+studded columns, you feel safe and relaxed.  The music fills the air and
+calms your soul.  Several fancy windows have been added to allow large
+amounts of light to flood in.  
+~
+0 8 0
+D1
+~
+~
+0 0 26873
+D3
+~
+~
+0 0 26875
+S
+#26875
+Hallway of Peace~
+As you enter into this room you see a young child sitting in front of
+you.  He may be small but he reaches out and touches your leg.  A great
+soothing feeling comes over your body and some of your wounds have been
+healed.  A huge harp strums magically on its own, sending delicate rippling
+chords and swirling melodies echoing throughout the hallway.  
+~
+0 1048 0
+D1
+~
+~
+0 0 26874
+D3
+~
+~
+0 0 26876
+S
+#26876
+Hallway of Peace~
+As you continue on your way you hear the music slowly fade away.  All of
+the anger that has left you comes jolting back into your being.  You can see
+some stairs further along this hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 26875
+D3
+~
+~
+0 0 26877
+S
+#26877
+End of the Hallway of Peace~
+You feel like staying on this floor of the castle because it is so
+peaceful here, but you should continue your quest for Auntee Joel.  
+~
+0 12 0
+D1
+~
+~
+0 0 26876
+D4
+~
+~
+0 0 26878
+S
+#26878
+Entrance to Hallway of Wonders~
+As you gaze down this hallway you start to feel lucid as your mind is
+filled with dreams and visions of another world.  You have difficulty
+keeping your mind clear and set on this quest.  Apparently Auntee Joel is a
+very powerful person.  
+~
+0 8 0
+D1
+~
+~
+0 0 26879
+D5
+~
+~
+0 0 26877
+S
+#26879
+Hallway on Wonders~
+The walls have been whitewashed and a few small hanging lanterns cast an
+eerie solid white light.  Dozens of tiny bright fireflies swarm around,
+almost dancing with each other in rhythm.  There are no windows, but you
+have a strange sense of dizziness, most likely from being up so terribly
+high in this mountain tower.  
+~
+0 8 0
+D1
+~
+~
+0 0 26880
+D3
+~
+~
+0 0 26878
+S
+#26880
+Hallway on Wonders~
+Several unnamable wonders are painted on the bright walls.  The walls are
+so smooth it doesn't even look like part of the mountain.  A few small hives
+where the fireflies must nest are stuck near the ceiling and corners.  
+~
+0 8 0
+D1
+~
+~
+0 0 26881
+D3
+~
+~
+0 0 26879
+S
+#26881
+Gates to Auntee Joels' Chamber~
+The walls are stark white all around, and a huge set of faux golden gates
+blocks the room to the east.  Several priest looking guards stand and look
+at you with a blank gaze.  
+~
+0 8 0
+D1
+~
+~
+1 0 26882
+D3
+~
+~
+0 0 26880
+S
+#26882
+The Wonder Shrine of Auntee Joel~
+As you look around you see all the wonders, dreams and thoughts you have
+ever had.  It's as you were in a deep sleep and something had come to your
+rescue.  Auntee Joel then notices you and doesn't like your presence in this
+room.  You better make your move quick !  This could get dreamy so watch
+out.  
+~
+0 8 0
+D3
+~
+~
+1 0 26881
+S
+#26883
+Climbing the Roots~
+You find yourself about halfway up these giant roots.  Your hands and
+clothes are soaked and sticking to your skin from the wetness of the walls.
+The air is almost cool and slightly refreshing from the humidity below.  The
+fern leaves brush at your skin, almost filling the tunnel, filtering the
+light above, and more spiderwebs stick to your body.  
+~
+0 8 0
+D4
+~
+~
+0 0 26884
+D5
+~
+~
+0 0 26838
+S
+#26884
+On Top of the Mountain~
+Upon reaching the peak of your climb you step out on to the top of a
+mountain.  Right away you notice huge trees growing among the rocks of this
+mountain.  Over the edge of the mountain you can see a gigantic tower
+resting at the end of a field.  The air is really starting to get cooler up
+here.  You start to feel relaxed.  
+~
+0 0 5
+D1
+~
+~
+0 0 26885
+D5
+~
+~
+0 0 26883
+S
+#26885
+On Top of the Mountain~
+Several rocks skitter down the mountainside as you walk around.  The
+rocks slice through your boots as you press forward, and several times you
+lose your footing because of a loose stone.  The top of the mountain looms
+all around you, and from your viewpoint you can see for miles.  
+~
+0 0 5
+D1
+~
+~
+0 0 26886
+D3
+~
+~
+0 0 26884
+S
+#26886
+On Top of the Mountain~
+You breath is taken away by the force of the wind as it picks up.  It's
+really starting to get cool here.  As you look around you notice that snow
+lies among the ground in small deposits.  You think to yourself , "What if I
+get stranded up here ?"  You are scared by the thought and you quickly move
+forward.  
+~
+0 0 5
+D1
+~
+~
+0 0 26887
+D3
+~
+~
+0 0 26885
+S
+#26887
+On Top of the Mountain~
+Just as it starts to snow you notice a hole below you in the side of the
+mountain peak.  You seek a warm spot, so down is probably the right way to
+go.  Your legs are aching with pain from climbing this mountain. You slowly
+lower yourself into the hole with whatever strength you have left in your
+body.
+~
+0 0 5
+D3
+~
+~
+0 0 26886
+D5
+~
+~
+0 0 26889
+S
+#26888
+In the Hole~
+~
+0 0 0
+D4
+~
+~
+0 0 26887
+S
+#26889
+Climbing the Roots~
+The roots here are covered in thin bark and slightly damp from the
+melting snow.  The ferns are smaller, and dark green, almost leathery to
+adjust to the harsh cool climate.  Several smaller thin leaf vines are
+curled over the rocks, mixing with soft moss.  The air is fresh and cool.  
+~
+0 0 0
+D4
+~
+~
+0 0 26887
+D5
+~
+~
+0 0 26890
+S
+#26890
+Climbing the Roots~
+The roots here almost fill the tunnel because of their size.  A few
+spiderwebs have been spun over the ferns.  Water drops fall over your face
+and the air is fresh, and cool.  
+~
+0 8 0
+D4
+~
+~
+0 0 26889
+D5
+~
+~
+0 0 26891
+S
+#26891
+Climbing the Roots~
+The rocks jut out in a step like formation, and the gigantic hairy roots
+make for semi-easy climbing.  The numerous broad leaf ferns tickle your
+arms.  Melting snow from the mountain above drips over the rocks and dampens
+the soft moss and various vines.  
+~
+0 8 0
+D4
+~
+~
+0 0 26890
+D5
+~
+~
+0 0 26892
+S
+#26892
+Inside the Mountain~
+The air spins around about you at the base of this cave.  Gigantic ferns
+and huge hairy roots cascade over the walls.  The roots are woody and cling
+to the stones like a step ladder.  Moss grows thick and slippery over a few
+stones.  
+~
+0 8 0
+D3
+~
+~
+0 0 26893
+D4
+~
+~
+0 0 26891
+S
+#26893
+Inside the Mountain~
+A horrible stench looms in the stagnant air.  A cross between dead
+carcasses and rotting vegitation sends your stomach twisting and turning. 
+Your face grows pale and a moist feeling fills your mouth.  The rocks are
+covered with tiny mushrooms and moss lumens.  
+~
+0 9 0
+D1
+~
+~
+0 0 26892
+D3
+~
+~
+0 0 26894
+S
+#26894
+Inside the Mountain~
+Upon entering this cavern in the mountain you notice pools of water on
+the ground and light beaming down on you.  The walls are made of all rock. 
+You look up and realize that you are in a old well, in the mountain.  As you
+look up longer you can see birds flying over the well hole.  
+~
+0 8 0
+D1
+~
+~
+0 0 26893
+D3
+~
+~
+0 0 26895
+S
+#26895
+Inside the Mountain~
+Upon entering this part of the mountain you start to hear an odd sound. 
+With every step you hear a blunt crackling noise, kind of like fortune
+cookies.  Glancing down at the cave floor you see large beetle husks
+everywhere.  
+~
+0 8 0
+D1
+~
+~
+0 0 26894
+D2
+~
+~
+0 0 26897
+D3
+~
+~
+0 0 26896
+S
+#26896
+A Dead End~
+It seems that the tunnel just stops.  Wet and moist mud is sliding down
+the wall as bugs and other sick looking insects pour out of tiny crevices. 
+The air is getting more dense and the humidity is rising.  You are really
+starting to sweat.  Maybe you should move on.  
+~
+0 0 0
+D1
+~
+~
+0 0 26895
+S
+#26897
+Inside the Mountain~
+Upon entering this section of the tunnel you feel moisture on your skin. 
+Several stalagtites on the ceiling catch your eye and drip water into little
+puddles on the ground, and on your cheeks.  A very refreshing feeling.  The
+ground is dotted with moss covered rocks.  
+~
+0 8 0
+D0
+~
+~
+0 0 26895
+D2
+~
+~
+0 0 26898
+S
+#26898
+Inside the Mountain~
+A careful scan of this cave reveals several tiny creatures hiding under
+the abundance of ferns and woody vines.  A curtain of spiderwebs hangs like
+tattered rags from the ceiling.  
+~
+0 8 0
+D0
+~
+~
+0 0 26897
+D2
+~
+~
+0 0 26899
+S
+#26899
+Back Door out of The Mountain~
+Light seeps through several thick woody vines and a group of spawning
+ferns.  The air in the cave is slightly moist with a slight warm breeze. 
+The ground is covered in soft moss lumens, but you can still feel the hard
+stone underneath.  Little water droplets trickle out of a few crevices in
+the walls.  
+~
+0 8 0
+D0
+~
+~
+0 0 26898
+D2
+~
+~
+0 0 26812
+S
+#0
+
+
+
+#RESETS
+D 0 26804 0 0
+D 0 26805 0 0
+D 0 26812 2 0
+D 0 26819 0 2
+D 0 26820 2 2
+D 0 26821 2 0
+D 0 26825 0 0
+D 0 26826 2 0
+D 0 26881 1 0
+D 0 26882 3 0
+M 0 26801 2 26807
+M 0 26833 2 26808
+M 0 26834 3 26809
+M 0 26801 3 26809
+M 0 26805 1 26810
+M 0 26808 1 26811
+M 0 26809 1 26811
+M 0 26832 1 26811
+M 0 26824 2 26818
+M 0 26804 1 26819
+E 0 26822 0 13
+E 0 26803 0 2
+E 0 26804 0 16
+O 0 26820 0 26820
+O 0 26821 0 26820
+P 0 26819 0 26821
+O 0 23415 0 26820
+M 0 26801 3 26822
+M 0 22324 4 26823
+M 0 26823 5 26825
+M 0 26828 3 26827
+M 0 26819 3 26828
+M 0 26829 3 26829
+M 0 26821 3 26830
+M 0 26821 2 26830
+M 0 26830 4 26831
+M 0 26827 1 26832
+M 0 26822 3 26833
+M 0 26831 3 26834
+M 0 26833 2 26838
+M 0 26818 8 26842
+M 0 26818 1 26843
+M 0 26818 6 26844
+M 0 26818 5 26845
+M 0 26818 1 26845
+O 0 26850 0 26850
+P 0 26897 0 1
+P 0 26863 0 1
+M 0 26817 3 26853
+M 0 26817 3 26854
+M 0 26817 3 26855
+M 0 26813 3 26858
+M 0 26815 1 26859
+M 0 26820 2 26860
+M 0 26816 1 26861
+M 0 22324 4 26863
+M 0 26814 1 26864
+M 0 26865 4 26865
+M 0 26812 5 26865
+M 0 22324 3 26866
+O 0 26866 0 26866
+M 0 26812 7 26868
+M 0 26811 3 26869
+M 0 26807 3 26870
+M 0 26810 1 26875
+O 0 26875 0 26875
+M 0 26879 12 26879
+M 0 26806 6 26881
+M 0 26803 1 26882
+E 0 26802 0 17
+M 0 26801 4 26883
+M 0 22324 5 26883
+O 0 26866 0 26883
+M 0 26833 1 26885
+M 0 26801 1 26886
+M 0 26834 3 26887
+M 0 22324 3 26890
+O 0 26866 0 26890
+M 0 26801 2 26891
+M 0 26834 2 26891
+M 0 26833 1 26892
+M 0 22324 4 26892
+O 0 26863 0 26893
+M 0 26801 3 26895
+M 0 26834 5 26895
+M 0 26833 2 26896
+M 0 26834 1 26896
+M 0 22324 4 26896
+M 0 26833 1 26897
+M 0 26834 2 26898
+O 0 26866 0 26898
+M 0 22324 3 26898
+S
+
+
+
+#PROGS
+M 26803 8
+M 26816 9
+M 26820 21
+M 26821 20
+M 26822 10
+M 26827 13
+M 26829 21
+M 26830 13
+M 26831 14
+S
+
+
+#SHOPS
+26805 0 5 0 0 0 120 80 0 23
+0
+
+
+
+#$

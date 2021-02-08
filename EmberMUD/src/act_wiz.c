@@ -5195,7 +5195,7 @@ void do_objcheck( CHAR_DATA * ch, char *argument )
 {
     OBJ_INDEX_DATA *obj;
     char arg[MAX_INPUT_LENGTH];
-    int lvnum, hvnum, i = 0, x = 0;
+    long lvnum, hvnum, i = 0, x = 0;
 
     argument = one_argument( argument, arg );
     if ( argument[0] == '\0' ||

@@ -686,6 +686,7 @@ systems. -Lancelight */
             else
             {
                 sprintf( strPath, "%s/%s", sysconfig.area_dir, strArea );
+                printf("Opening %s/%s\n", sysconfig.area_dir, strArea ); // JR: debug
                 if ( ( fpArea = fopen( strPath, "r" ) ) == NULL )
                 {
 #if defined(cbuilder)
@@ -718,6 +719,7 @@ systems. -Lancelight */
                     break;
                 else if ( !str_cmp( word, "AREADATA" ) )
                     load_area( fpArea );
+                    
                 else if ( !str_cmp( word, "CLANS" ) )
                     load_clans( fpArea );
                 else if ( !str_cmp( word, "HELPS" ) )
@@ -1089,7 +1091,8 @@ void load_area( FILE * fp )
             {
                 pArea->lvnum = fread_number( fp );
                 pArea->uvnum = fread_number( fp );
-
+                if (pArea->lvnum<0 || pArea->uvnum<0)
+                    printf("Negative vnums: %d %d!!!\n",pArea->lvnum,pArea->uvnum); // JR: debug
             }
             break;
         case 'E':
@@ -1107,6 +1110,10 @@ void load_area( FILE * fp )
                 /* Check to ensure we have unique vnums. */
                 for ( pTempArea = area_first; pTempArea;
                       pTempArea = pTempArea->next )
+                {
+                    if ( pTempArea->vnum != pArea->vnum
+                         && (pTempArea->lvnum < 0 || pTempArea->uvnum < 0))
+                        printf("Neg: %ld %ld\n",pTempArea->lvnum,pTempArea->uvnum);
                     if ( pTempArea->vnum != pArea->vnum
                          &&
                          ( ( pArea->lvnum >= pTempArea->lvnum
@@ -1114,13 +1121,17 @@ void load_area( FILE * fp )
                            || ( pArea->uvnum >= pTempArea->lvnum
                                 && pArea->uvnum <= pTempArea->uvnum ) ) )
                     {
-                        bug( "Overlapping vnum range!", pArea->name );
+                        bug( "Overlapping ssvnum range!", pArea->name);
+                        printf("%s %ld %ld %s %ld %ld\n",pArea->name,
+                            pArea->lvnum, pArea->uvnum, pTempArea->name,
+                           pTempArea->lvnum, pTempArea->uvnum); // JR: debug
 #if defined(cbuilder)
                         return -1;
 #else
                         exit( 1 );
 #endif
                     }
+                }
                 return;
             }
             break;
@@ -1139,7 +1150,7 @@ void load_area( FILE * fp )
 /*
  * Sets vnum range for area using OLC protection features.
  */
-void assign_area_vnum( int vnum )
+void assign_area_vnum( long vnum )
 {
     if ( area_last->lvnum == 0 || area_last->uvnum == 0 )
         area_last->lvnum = area_last->uvnum = vnum;
@@ -1829,7 +1840,6 @@ void reset_room( ROOM_INDEX_DATA * pRoom )
                     bug( "Reset_room: 'M': bad vnum %d.", pReset->vnum );
                     continue;
                 }
-
                 pMob = create_mobile( pMobIndex );
 
                 /*
@@ -2745,9 +2755,9 @@ char fread_letter( FILE * fp )
 /*
  * Read a number from a file.
  */
-int fread_number( FILE * fp )
+long fread_number( FILE * fp ) // JR: made this a long instead of an int
 {
-    int number;
+    long number;
     bool sign;
     signed char c;
 
