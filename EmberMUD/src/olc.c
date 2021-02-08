@@ -1212,7 +1212,7 @@ void display_resets( CHAR_DATA * ch )
         ROOM_INDEX_DATA *pRoomIndex;
 
         final[0] = '\0';
-        sprintf( final, "[%2d] ", ++iReset );
+        sprintf( final, "`w[%2d] ", ++iReset );
 
         switch ( pReset->command )
         {

@@ -2867,7 +2867,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         send_to_char( "  uncurse: remove curse         250 gold\n\r", ch );
         send_to_char( "  refresh: restore movement      25 gold\n\r", ch );
         send_to_char( "  mana:  restore mana            50 gold\n\r", ch );
-        send_to_char( "  cancel:  cancel spells	       250 gold\n\r", ch );
+        send_to_char( "  cancel:  cancel spells        250 gold\n\r", ch );
         send_to_char( " Type heal <type> to be healed.\n\r", ch );
         return;
     }
