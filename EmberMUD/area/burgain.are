@@ -86,8 +86,8 @@ Guard of Lousi~
 The Guard of Lousi~
 The lazy guard of the village of Lousi is resting here
 ~
-You look upon the lazy guard of Lousi.  He is resting now, but then again
-his job takes up 12 hours of his day.  He does not seem to have any 
+You look upon the lazy guard of Lousi. He is resting now, but then again
+his job takes up 12 hours of his day. He does not seem to have any 
 sense of duty to his job.
 ~
 Human~
@@ -173,7 +173,7 @@ sufank old man~
 Sufank~
 An old man is here, he looks tired.
 ~
-You look upon an aged man.  He is about 75, but still very dexterous.
+You look upon an aged man. He is about 75, but still very dexterous.
 He stands 6ft tall, when he was young he might have been 6' 1".
 He used to adventure, but now he has retired to sell things.
 But he is broke...
@@ -275,8 +275,8 @@ witch doctor~
 witch doctor~
 The witch doctor is here, chanting.
 ~
-You look upon the witch doctor.  He is the owner of this hut.
-He does not appear to notice you enter.  He looks like a nice guy...
+You look upon the witch doctor. He is the owner of this hut.
+He does not appear to notice you enter. He looks like a nice guy...
 ~
 Human~
 ABQ 0 0 S
@@ -644,11 +644,11 @@ A
 #ROOMS
 #26100
 Entrance to Southland~
-You enter Southland, the land of hills.  Hills surround you on all sides,
-and trees are visable all over.  Animals are seen jumping through fields,
-and singing in trees.  You seem at peace with your self, and feel like you
-need a nap.  But just as you want to go rest under a tree, dark clouds
-gather.  It seems like it is going to rain, so you push on.  A path is
+You enter Southland, the land of hills. Hills surround you on all sides,
+and trees are visable all over. Animals are seen jumping through fields,
+and singing in trees. You seem at peace with your self, and feel like you
+need a nap. But just as you want to go rest under a tree, dark clouds
+gather. It seems like it is going to rain, so you push on. A path is
 visable to the south, and the north.  
 ~
 0 4 4
@@ -659,10 +659,10 @@ D2
 S
 #26101
 On the path Of Southland~
-You continue into the land of the hills.  Some of the hills smooth out into
+You continue into the land of the hills. Some of the hills smooth out into
 plains, but most stay the same. Bears, cougars, and deer live here.
-Many birds sing in the trees around you.  An old man walks up to you and
-asks you to leave the land of the south.  He says it is dangerous.
+Many birds sing in the trees around you. An old man walks up to you and
+asks you to leave the land of the south. He says it is dangerous.
 You may continue on the path to the south or to the north.
 ~
 0 0 4
@@ -677,10 +677,10 @@ D2
 S
 #26102
 Passing Through the Hills~
-You enter into more hills.  The hills here are smoother here then the 
-northern part of Southland.  A trig snaps and a hunter runs by, with his 
-bow ready.  He nods to you, and passes.  He runs toward what appears to be
-a crossroads, to the south.  You look north and see more of the hills of
+You enter into more hills. The hills here are smoother here then the 
+northern part of Southland. A trig snaps and a hunter runs by, with his 
+bow ready. He nods to you, and passes. He runs toward what appears to be
+a crossroads, to the south. You look north and see more of the hills of
 Southland.
 ~
 0 0 4
@@ -696,8 +696,8 @@ S
 #26103
 Crossroads~
 You stand at the Crossroads. The ground is total mud, do to the fact that 
-so many people come this way.  It is the center of Southland.  A stream 
-runs to a river to your west.  To your east the hills turn into trees and
+so many people come this way. It is the center of Southland. A stream 
+runs to a river to your west. To your east the hills turn into trees and
 fields. To your north are the famed hills of Southland. And to your south
 is what appears to be a small village.  
 ~
@@ -717,10 +717,10 @@ D3
 S
 #26104
 Road to Village~
-You are traveling on the road to Lousi, a small village.  The sky is sunny
-and no clouds cover the sky.  It seems happy here...too happy...
+You are traveling on the road to Lousi, a small village. The sky is sunny
+and no clouds cover the sky. It seems happy here...too happy...
 At every turn of the road you think you will see purple animals jump
-out and say hello to you.  To the north is the crossroads and to the south
+out and say hello to you. To the north is the crossroads and to the south
 is the village Lousi.
 ~
 0 0 2
@@ -735,10 +735,10 @@ D2
 S
 #26105
 West from the Crossroads~
-You on a path west from the crossroads.  The ground is dry, but getting 
+You on a path west from the crossroads. The ground is dry, but getting 
 wetter. You can see animals around, but mostly the common ones.
 The hills of Southland smooth out here, and become forests and fields.
-To the east you see the crossroads.  And to the west you see a field.
+To the east you see the crossroads. And to the west you see a field.
 ~
 0 4 2
 D1
@@ -752,9 +752,9 @@ D3
 S
 #26106
 On the road to Lousi~
-You are on the out skirts of the village Lousi.  You see a sleepy guard
-guarding the road to the village.  No gates or doors bar your entrance
-to Lousi, a road leads right through it.  You look north and see the cross
+You are on the out skirts of the village Lousi. You see a sleepy guard
+guarding the road to the village. No gates or doors bar your entrance
+to Lousi, a road leads right through it. You look north and see the cross
 roads. To the south you see the village.
 ~
 0 4 1
@@ -769,9 +769,9 @@ D2
 S
 #26107
 The entrance to the plantation village of Lousi~
-You enter Lousi.  All you see is a few houses, and a giant plantation 
-house. The lazy guard rests in a chair here.  You see the famed Lousi
-band performing south of here.  And the crossroads far north of here.
+You enter Lousi. All you see is a few houses, and a giant plantation 
+house. The lazy guard rests in a chair here. You see the famed Lousi
+band performing south of here. And the crossroads far north of here.
 ~
 0 0 1
 D0
@@ -791,8 +791,8 @@ S
 Near the Gazebo~
 You can hear the Lousi village band performing south from here.
 All around you the sky seems bright with the joyous mood of the
-village. The center of the village is west from here.  The guard
-of Lousi is north from here.  And the band plays south from here
+village. The center of the village is west from here. The guard
+of Lousi is north from here. And the band plays south from here
 ~
 0 4 1
 D0
@@ -810,8 +810,8 @@ D3
 S
 #26109
 The lazy guard's house~
-You enter the lazy guard's house.  It is messy, dirty cloths fill the
-floor space.  Half eaten food sits on tables.
+You enter the lazy guard's house. It is messy, dirty cloths fill the
+floor space. Half eaten food sits on tables.
 You feel like you should pick it up...
 ~
 0 8 0
@@ -822,10 +822,10 @@ D1
 S
 #26110
 At the gazebo~
-Here, at the gazebo the Lousi band plays.  The band is bigger then the
-watchers. But oh well.  You here the melodys of dixieland music draw you
-into the crowd, well, the couple of people watching.  To the northwest is
-the center of this village.  And to the north is the entrance to Lousi.
+Here, at the gazebo the Lousi band plays. The band is bigger then the
+watchers. But oh well. You here the melodys of dixieland music draw you
+into the crowd, well, the couple of people watching. To the northwest is
+the center of this village. And to the north is the entrance to Lousi.
 ~
 0 0 1
 D0
@@ -835,12 +835,12 @@ D0
 S
 #26111
 The Village Square~
-You are standing in the center of the village Lousi.  You can see a couple
-people around.  And about 20 or so houses.  The shops are closed, not
-enough business i guess.  But the thing that catchs you eye is the plantation
-house. It is far to you west.  It is probally the biggest building you
-have ever seen in your life.  To the southeast the Lousi village band
-is playing dixieland music.  And all around you are houses.
+You are standing in the center of the village Lousi. You can see a couple
+people around. And about 20 or so houses. The shops are closed, not
+enough business i guess. But the thing that catchs you eye is the plantation
+house. It is far to you west. It is probally the biggest building you
+have ever seen in your life. To the southeast the Lousi village band
+is playing dixieland music. And all around you are houses.
 ~
 0 0 1
 D1
@@ -858,8 +858,8 @@ D3
 S
 #26112
 A closed shop~
-You are in a closed shop.  No one bothered to close the door, for
-there is nothing in here worth jack.  From the things in here, you
+You are in a closed shop. No one bothered to close the door, for
+there is nothing in here worth jack. From the things in here, you
 can tell it used to be a bakery.
 ~
 0 8 0
@@ -870,9 +870,9 @@ D0
 S
 #26113
 In the market district~
-You are getting closer to the plantation house of Lousi.  But you are
-still in the market distict.  There are closed up shops north and
-south from here.  To the west you see a small collection of houses, about
+You are getting closer to the plantation house of Lousi. But you are
+still in the market distict. There are closed up shops north and
+south from here. To the west you see a small collection of houses, about
 20 or so.
 ~
 0 0 1
@@ -896,7 +896,7 @@ S
 #26114
 In a closed shop~
 From the looks of this place you can tell it used to be a armor shop.
-It most of gone out of business because it had no custumers.  You
+It most of gone out of business because it had no custumers. You
 can see nothing of real value here, just pieces of metal, and leather.
 To you northeast you can go to the village square.
 ~
@@ -908,8 +908,8 @@ D0
 S
 #26115
 In a closed shop~
-You in a closed shop.  You see all sorts of blunt objects laying around.
-They once were probally sharp things, like swords.  But now the shop is
+You in a closed shop. You see all sorts of blunt objects laying around.
+They once were probally sharp things, like swords. But now the shop is
 closed, maybe beacuse they did not get enough custumers...
 ~
 0 8 0
@@ -921,8 +921,8 @@ S
 #26116
 In the village of Lousi~
 You standing on the road that goes from the village square to the gates of
-the plantation.  To the north and south is the road that the houses of 
-Lousi are off of.  To the west is the plantation.  And to the east is
+the plantation. To the north and south is the road that the houses of 
+Lousi are off of. To the west is the plantation. And to the east is
 the village square.
 ~
 0 4 1
@@ -1014,7 +1014,7 @@ D1
 S
 #26121
 In a house~
-You are in a house of a citizen of Lousi.  They keep their doors open 
+You are in a house of a citizen of Lousi. They keep their doors open 
 because they don't believe that anyone in their village would steal.
 ~
 0 8 0
@@ -1025,7 +1025,7 @@ D0
 S
 #26122
 In a house~
-You are in a house of a citizen of Lousi.  They keep their doors open
+You are in a house of a citizen of Lousi. They keep their doors open
 beacause they don't think anyone in their village would steal.
 ~
 0 8 0
@@ -1047,7 +1047,7 @@ D3
 S
 #26124
 In a house~
-You are in a house of a citizen of Lousi.  They keep their doors open
+You are in a house of a citizen of Lousi. They keep their doors open
 beacuse they don't believe that anyone in their village would steal.
 ~
 0 8 0
@@ -1080,7 +1080,7 @@ D3
 S
 #26126
 In a house~
-You are in a house of a citizen of Lousi.  They keep their door open
+You are in a house of a citizen of Lousi. They keep their door open
 because they don't believe anyone in their village would steal.
 ~
 0 8 0
@@ -1091,7 +1091,7 @@ D1
 S
 #26127
 In a House~
-You are in a house of a citizen of Lousi.  They keep their doors open
+You are in a house of a citizen of Lousi. They keep their doors open
 because they don't believe anyone in their village would steal.
 ~
 0 8 0
@@ -1102,7 +1102,7 @@ D3
 S
 #26128
 In a house~
-You are in house of a citizen of Lousi.  They keep their doors open
+You are in house of a citizen of Lousi. They keep their doors open
 because they don't believe anyone in their village would steal
 from them.
 ~
@@ -1114,8 +1114,8 @@ D2
 S
 #26129
 The Entrance To Corgon's Plantation~
-You are at the entrance to Corgon's plantation.  A giant metal gate blocks
-you passage to the plantation.  No one is around to let you in.  Through
+You are at the entrance to Corgon's plantation. A giant metal gate blocks
+you passage to the plantation. No one is around to let you in. Through
 the gate you can see slave houses, the plantation house, the stables, and
 the fields and fields of sugar cane.
 ~
@@ -1127,19 +1127,19 @@ D1
 S
 #26135
 Burgain's Personal Room~
-You are in Southland somewhere.  This is Burgain's house.  If you are here
+You are in Southland somewhere. This is Burgain's house. If you are here
 he will get angry...
 There is a TV here, with cable, a couch, an endless bag of chips, some
-of his eq, some of his mobs, and some of his trash.  There are no exits.
+of his eq, some of his mobs, and some of his trash. There are no exits.
 For he is the only one that needs to leave...
 ~
 0 8220 0
 S
 #26138
 A field~
-You are standing in a field.  You are not in the hill country of 
-Southland any longer.  To the east are some small remains of the 
-hills. In the distance towards the west, is a river.  To the north
+You are standing in a field. You are not in the hill country of 
+Southland any longer. To the east are some small remains of the 
+hills. In the distance towards the west, is a river. To the north
 lies an entrance to some caves.
 ~
 0 4 2
@@ -1158,9 +1158,9 @@ D3
 S
 #26139
 Just inside the caves~
-You stand just inside the entrance to the caves.  Its is very dark, 
-more dark then it should be.  To the south you see light, and
-what appears to be a field.  To the north you can travel farther into 
+You stand just inside the entrance to the caves. Its is very dark, 
+more dark then it should be. To the south you see light, and
+what appears to be a field. To the north you can travel farther into 
 the caves.
 ~
 0 1 0
@@ -1176,7 +1176,7 @@ S
 #26140
 Deep inside the caves~
 You can hardly see, you can not make out anything.  
-To the west you can hear noises.  To the south, a small
+To the west you can hear noises. To the south, a small
 light is visable.
 ~
 0 5 0
@@ -1193,7 +1193,7 @@ S
 The Beast's Lair~
 As you enter you notice that the only thing making this part
 of the cave visable is a fire. Hunched over the fire is some strange
-beast munching on something.  The beast notices you entrance and quickly
+beast munching on something. The beast notices you entrance and quickly
 attacks with a roar.
 ~
 0 0 0
@@ -1204,9 +1204,9 @@ D1
 S
 #26142
 Waterly Field~
-You enter a waterly field.  Your feet get wet walking through, no 
-matter what you do.  You see a flowerly field to the east.  And a
-river to the west.  There appears to be some trees to the southwest of
+You enter a waterly field. Your feet get wet walking through, no 
+matter what you do. You see a flowerly field to the east. And a
+river to the west. There appears to be some trees to the southwest of
 you. And a swampland to the northwest.
 ~
 0 4 2
@@ -1223,8 +1223,8 @@ S
 On the East bank of the river Missichipi~
 You look to the west, you see the mighty river Missichipi.
 You have heard about it before, some say you can't see accross it.  
-Others think it is not a river, but a giant Ocean.  But all you see
-is a small stream, and mostly dried up at that.  You can go accross the
+Others think it is not a river, but a giant Ocean. But all you see
+is a small stream, and mostly dried up at that. You can go accross the
 Missichipi to your west. Or go to a field to your east.
 ~
 0 4 2
@@ -1240,8 +1240,8 @@ S
 #26144
 On the West Bank of the Missichipi~
 You are standing on the muddy west bank of the dried river Missichipi.
-Every where you look you see mud.  Your boots quickly fill with mud.
-To the east you see the Missichipi.  To the west, more mud.  And to
+Every where you look you see mud. Your boots quickly fill with mud.
+To the east you see the Missichipi. To the west, more mud. And to
 the south you see the mud start turning into a forest.
 ~
 0 4 2
@@ -1260,9 +1260,9 @@ D3
 S
 #26145
 At the edge of a forest~
-You are on the edge of a forest.  You can see animals staring at you
-through the trees.  To the north you can see the muddy west banks of 
-the river Missichipi.  To the west is the entrance to the forest.
+You are on the edge of a forest. You can see animals staring at you
+through the trees. To the north you can see the muddy west banks of 
+the river Missichipi. To the west is the entrance to the forest.
 ~
 0 4 3
 D0
@@ -1276,8 +1276,8 @@ D3
 S
 #26146
 Th entrance to the forest~
-You enter the woods of Southland.  Animals look at you from all around.
-They don't look cute and stuff-animal-like.  These deer and bears
+You enter the woods of Southland. Animals look at you from all around.
+They don't look cute and stuff-animal-like. These deer and bears
 look like they would tear you limb from limb.
 ~
 0 0 3
@@ -1296,8 +1296,8 @@ D3
 S
 #26147
 In the forest~
-You are farther into the woods.  Animals stare at you, and wish they
-could take a big chomp out of you.  There are mainly deer here,
+You are farther into the woods. Animals stare at you, and wish they
+could take a big chomp out of you. There are mainly deer here,
 but you can hear bears from the south. To the east, west, and south
 is more forest.
 ~
@@ -1317,8 +1317,8 @@ D3
 S
 #26148
 In the forest~
-You are now standing in what appears to be more of this forest.  Tall
-trees loom over you, and animals stare at you.  It seems to peaceful
+You are now standing in what appears to be more of this forest. Tall
+trees loom over you, and animals stare at you. It seems to peaceful
 for your liking..
 To the west, east, and south there is more woods.
 ~
@@ -1338,8 +1338,8 @@ D3
 S
 #26149
 In the forest~
-You are now in the corner of this forest.  For to the west and north
-giant cliffs of rock block your way.  Animals stare at you  from the 
+You are now in the corner of this forest. For to the west and north
+giant cliffs of rock block your way. Animals stare at you  from the 
 cover of the trees to the south and east.
 ~
 0 2097152 3
@@ -1354,8 +1354,8 @@ D2
 S
 #26150
 In the forest~
-You walk through more of this peaceful forest.  Animals stare at you from
-a safe distance.  Just think if you fell, they would be on you in a second.
+You walk through more of this peaceful forest. Animals stare at you from
+a safe distance. Just think if you fell, they would be on you in a second.
 They look peaceful, but you know what they are thinking.  
 To the west is a rock cliff, and to the north, east, and south is more
 of this forest.
@@ -1377,8 +1377,8 @@ S
 #26151
 In the forest~
 You are now in what appears to be the center of this forest of trees.
-The animals are every where, eyeing your every move.  In all directions
-the forest contiues.  A small stream bubbles towards the Missichipi, to
+The animals are every where, eyeing your every move. In all directions
+the forest contiues. A small stream bubbles towards the Missichipi, to
 the northeast.
 ~
 0 2097152 3
@@ -1403,7 +1403,7 @@ S
 In the forest~
 You are near a stream which goes through the forest, to the
 Missichipi. It travels across the forest, from the southwest corner, 
-to the Missichipi, in the northeast corner.  The animals still stare at 
+to the Missichipi, in the northeast corner. The animals still stare at 
 you, from behind the trees.
 ~
 0 0 3
@@ -1427,8 +1427,8 @@ S
 #26153
 In the forest~
 You walk quickly through this part of the Southland woods, for the 
-animals here seem to be more aggressive.  For when you slipped on a rock
-some deer darted out and pecked at you.  You better not go to sleep...
+animals here seem to be more aggressive. For when you slipped on a rock
+some deer darted out and pecked at you. You better not go to sleep...
 ~
 0 0 3
 D0
@@ -1446,9 +1446,9 @@ D3
 S
 #26154
 In the forest~
-You enter more of the woods.  You see some bears around, and even more
-to the south.  The deer lessen out, and you are glad for that.  The bears
-growl at you, but don't act suspicious.  To the south is bear country, 
+You enter more of the woods. You see some bears around, and even more
+to the south. The deer lessen out, and you are glad for that. The bears
+growl at you, but don't act suspicious. To the south is bear country, 
 and to the north and west, deer watch you.
 ~
 0 0 3
@@ -1468,8 +1468,8 @@ S
 #26155
 In the forest~
 The animals in this part of the woods seem to be more friendly,
-then the northern animals.  The ground turns almost into a complete
-drop off to the south.  And to the north, west, and east is more forest.
+then the northern animals. The ground turns almost into a complete
+drop off to the south. And to the north, west, and east is more forest.
 ~
 0 0 3
 D0
@@ -1491,8 +1491,8 @@ D3
 S
 #26156
 In the forest~
-You are now at the top of a cliff.  You are still in the forest, but
-the forest suddenly ends.  As you look over the cliff, you see bear
+You are now at the top of a cliff. You are still in the forest, but
+the forest suddenly ends. As you look over the cliff, you see bear
 country. The trees are the same, but there are no deer, just bears.
 To the west, north, and east is more forest.
 ~
@@ -1512,8 +1512,8 @@ D3
 S
 #26157
 In the forest~
-You are now at the top of a cliff.  You are still in the forest, but
-the forest suddenly ends.  As you look over the cliff, you see bear
+You are now at the top of a cliff. You are still in the forest, but
+the forest suddenly ends. As you look over the cliff, you see bear
 country. The trees are the same, but there are no deer, just bears.  
 To the north and west is more of this forest.
 ~
@@ -1529,8 +1529,8 @@ D1
 S
 #26158
 In the forest~
-You enter the southeast corner of the Southland forest.  Bears roam 
-here, for it is bear country.  To the north and west you can venture
+You enter the southeast corner of the Southland forest. Bears roam 
+here, for it is bear country. To the north and west you can venture
 to more of this forest.
 ~
 0 0 3
@@ -1545,9 +1545,9 @@ D3
 S
 #26159
 In the forest~
-You are in more of the forest.  Bears and deer roam here.
-The deer here watch your ever move.  All the bear do is growl.  To the
-north is the deer part of the forest.  And to the west, south, and east
+You are in more of the forest. Bears and deer roam here.
+The deer here watch your ever move. All the bear do is growl. To the
+north is the deer part of the forest. And to the west, south, and east
 there is bear country.
 ~
 0 0 3
@@ -1570,8 +1570,8 @@ D3
 S
 #26160
 In the forest~
-You are standing in more of this forest.  You see a giant cliff to the
-north, and a small clearing to the west.  To the south and east is more
+You are standing in more of this forest. You see a giant cliff to the
+north, and a small clearing to the west. To the south and east is more
 bear country.
 ~
 0 0 3
@@ -1590,10 +1590,10 @@ D3
 S
 #26161
 In a clearing~
-You stand in a small clearing.  You can spot animals in the trees all 
-around you.  Bears, deer, and the like.  You see a small hut to the
+You stand in a small clearing. You can spot animals in the trees all 
+around you. Bears, deer, and the like. You see a small hut to the
 west. The hut most have a fire in it, because you see smoke coming
-out of a holde in the top.  To the south and east is more forest.
+out of a holde in the top. To the south and east is more forest.
 ~
 0 0 3
 D1
@@ -1611,10 +1611,10 @@ D3
 S
 #26162
 Outside the hut~
-You are outside the a hut.  Smoke rises out of a hole on the top of the 
-hut. Strange smells are in the air, of spices, and decay.  The hut
-is made out of wood from the forest.  You notice that there is no 
-door, but a doorway.  To your west is inside the hut, and to your east
+You are outside the a hut. Smoke rises out of a hole on the top of the 
+hut. Strange smells are in the air, of spices, and decay. The hut
+is made out of wood from the forest. You notice that there is no 
+door, but a doorway. To your west is inside the hut, and to your east
 is a small clearing.
 ~
 0 4 3
@@ -1630,9 +1630,9 @@ S
 #26163
 In the hut~
 You are just inside the hut. It appears to be deserted, but then you hear
-chanting coming from the west.  Only smoke is visible to the west. So if
+chanting coming from the west. Only smoke is visible to the west. So if
 you wanted to find out what is there you would have to go there...
-To the east is the entrance to the hut.  To the north is more hut.
+To the east is the entrance to the hut. To the north is more hut.
 ~
 0 8 0
 D0
@@ -1650,9 +1650,9 @@ D3
 S
 #26164
 In the witch doctor's lair~
-A witch doctor is visible here, chanting.  He most be the owner of
-this hut.  He is waving around dolls, and throughing spices every where
-when doing his chanting.  He seems not to notice you.  Exits are to the
+A witch doctor is visible here, chanting. He most be the owner of
+this hut. He is waving around dolls, and throughing spices every where
+when doing his chanting. He seems not to notice you. Exits are to the
 north and east, to more of this hut.
 ~
 0 8 0
@@ -1667,8 +1667,8 @@ D1
 S
 #26165
 Inside the hut~
-You are in the northeast section of the hut.  All around on the walls
-spices, dolls, and herbs hang.  You wonder what could live here.
+You are in the northeast section of the hut. All around on the walls
+spices, dolls, and herbs hang. You wonder what could live here.
 To the south you here chanting, and to the east is more hut.
 ~
 0 8 0
@@ -1683,7 +1683,7 @@ D2
 S
 #26166
 In the hut~
-You are in the hut.  You see spices, and herbs hanging on the walls.
+You are in the hut. You see spices, and herbs hanging on the walls.
 The ground is made of dirt, no carpets here. To the south, west,
 and east is more of this hut.
 ~
@@ -1703,7 +1703,7 @@ D3
 S
 #26167
 In the hut~
-You are standing in the hut.  You see dolls, and spices hanging on the
+You are standing in the hut. You see dolls, and spices hanging on the
 walls. There is a giant pot on the ground here, used for who knows what.
 To your east is more hut.
 ~
@@ -1715,7 +1715,7 @@ D3
 S
 #26168
 In the forest~
-You walk through more of the Southland woods.  Bear are all around, and 
+You walk through more of the Southland woods. Bear are all around, and 
 some of the deer from te north part of the forest have come down here.
 To the north and east you see more forest.
 ~
@@ -1731,7 +1731,7 @@ D1
 S
 #26169
 In the forest~
-You enter more of bear country.  Some of the deer have come here from
+You enter more of bear country. Some of the deer have come here from
 the north part of the woods, put mostly bears roam these parts.
 To the north, west, and east is more woods.
 ~
@@ -1764,8 +1764,8 @@ D3
 S
 #26171
 Close to the Swamp~
-You are covered in mud by this point.  There was no way you could have 
-kept clean.  The mud gets deeper and more waterly as you walk west.  
+You are covered in mud by this point. There was no way you could have 
+kept clean. The mud gets deeper and more waterly as you walk west.  
 To the north is the muddy swamp. To the east you see the banks of the 
 river Missichipi.
 ~
@@ -1781,9 +1781,9 @@ D1
 S
 #26172
 On the edge of the swamp~
-You are now in the swamp.  Whole trees are covered in mud, from the high 
-point of last year's flood.  You almost have to swim to get any wher
-e. To the south you see less mud.  To the north you can walk/swim deeper
+You are now in the swamp. Whole trees are covered in mud, from the high 
+point of last year's flood. You almost have to swim to get any wher
+e. To the south you see less mud. To the north you can walk/swim deeper
 into the swamp, if you dare.
 ~
 0 4 2
@@ -1798,9 +1798,9 @@ D2
 S
 #26173
 In the Swamp~
-You are now up to your chin in mud.  You move about a inch every minute.
-You see what you think are large fish swimming around you.  But suddenly
-you notice that they are not fish! They are the scale people.  They do
+You are now up to your chin in mud. You move about a inch every minute.
+You see what you think are large fish swimming around you. But suddenly
+you notice that they are not fish! They are the scale people. They do
 not attack at first, so you decide it is safe...
 To the south is the entrance to this mudland, and to the west is more of
 the swamp.
@@ -1817,10 +1817,10 @@ D3
 S
 #26174
 Deep in the Mud~
-Every few minutes you feel something brush by your leg.  You are the only
-human with in miles of here.  Just think if they started to dislike you.
+Every few minutes you feel something brush by your leg. You are the only
+human with in miles of here. Just think if they started to dislike you.
 Most people would have been out of here by now, freaked out of their minds.
-To the west is more mud! To the east is more mud too.  When will it end.
+To the west is more mud! To the east is more mud too. When will it end.
 ~
 0 0 2
 D1
@@ -1834,7 +1834,7 @@ D3
 S
 #26175
 Deep in the Swamp~
-It is dark in this part of the swamp.  Scaleman crowd around you.
+It is dark in this part of the swamp. Scaleman crowd around you.
 You can not be told apart from the mud, beacuse you are so muddy.  
 The scaleman still do not take notice of you.
 ~
@@ -1854,9 +1854,9 @@ D3
 S
 #26176
 In the Mud~
-You are covered in mud.  Scaleman crowd around, hogging the dry places.
+You are covered in mud. Scaleman crowd around, hogging the dry places.
 It is dark here, and MUDDY. You have to push aganist the waves of mud.
-You can hardly move at all.  You wonder why you are here.  And how to get
+You can hardly move at all. You wonder why you are here. And how to get
 out.
 ~
 0 1 2
@@ -1871,9 +1871,9 @@ D3
 S
 #26177
 In the muck of the swamp~
-This just sucks.  More and more mud where ever you look.
-It is starting to piss you off.  And all those scalemen too.
-You are just pissed.  You can take your anger out on those stupid
+This just sucks. More and more mud where ever you look.
+It is starting to piss you off. And all those scalemen too.
+You are just pissed. You can take your anger out on those stupid
 scalepeople...
 ~
 0 1 2
@@ -1892,8 +1892,8 @@ D3
 S
 #26178
 Deep in the mud~
-You are in the mud, you can not see anything but mud.  In fact you
-can hardly see anything at all.  Scaleman still crowd around grunting,
+You are in the mud, you can not see anything but mud. In fact you
+can hardly see anything at all. Scaleman still crowd around grunting,
 and hogging the dry places.
 ~
 0 1 2
@@ -1916,8 +1916,8 @@ D3
 S
 #26179
 In the Swamp~
-You are being pushed around by the scalemen.  Not beacuse they dislike
-you, but because there are so many of them.  You are starting to get pissed
+You are being pushed around by the scalemen. Not beacuse they dislike
+you, but because there are so many of them. You are starting to get pissed
 off. The scalemen hog all the dry land.  
 Mud, mud, every where you look.
 ~
@@ -1937,8 +1937,8 @@ D3
 S
 #26180
 Deeper in the mud~
-The scalepeople keep on coming.  They hog the dry land, and push you 
-around. It is almost to dark to see.  But you see light coming
+The scalepeople keep on coming. They hog the dry land, and push you 
+around. It is almost to dark to see. But you see light coming
 from the northwest corner of the swamp.  
 In all directions you see swamp...
 ~
@@ -1962,9 +1962,9 @@ D3
 S
 #26181
 In the swamp~
-You are really deep in the muck now.  It is dark, but getting lighter.
+You are really deep in the muck now. It is dark, but getting lighter.
 You see light coming from the west.The scalemen seem to not
-be as thick here.  You can manage to climb up on some less muddy
+be as thick here. You can manage to climb up on some less muddy
 land and dry your self off.
 Every direction you look you see mud, and more mud.
 ~
@@ -2005,9 +2005,9 @@ D3
 S
 #26183
 Deep in the swamp~
-You are now deep in the swamp.  It is dark here, but you see light
-to the northwest.  You are getting cold from the mud.  The scalemen
-push aganist you, and hog the dry places.  You are starting to get pissed
+You are now deep in the swamp. It is dark here, but you see light
+to the northwest. You are getting cold from the mud. The scalemen
+push aganist you, and hog the dry places. You are starting to get pissed
 off. You can take your anger out on the scalemen...
 ~
 0 1 2
@@ -2049,7 +2049,7 @@ S
 In the swamp~
 You are being pushed around by the scalemen.
 They hog the cry places, and fight with each other.
-You are starting to get pissed off.  It is dark here, but
+You are starting to get pissed off. It is dark here, but
 to the northwest you see light.
 Every where you look, mud.
 ~
@@ -2073,8 +2073,8 @@ D3
 S
 #26186
 Deep in the Mud~
-You get pulled under by the mud.  You are under for about 30 seconds 
-before you can surface.  You are scared by that near death experience.
+You get pulled under by the mud. You are under for about 30 seconds 
+before you can surface. You are scared by that near death experience.
 The scalemen around you take no notice, for they are to busy fighting
 for the dry places.
 All around you, you see scalemen, and mud.
@@ -2125,8 +2125,8 @@ D3
 S
 #26189
 In the swamp~
-You enter more mud.  The scalemen here push you around, and hog the 
-dry places.  It is dark here, but you see light coming from the northwest.
+You enter more mud. The scalemen here push you around, and hog the 
+dry places. It is dark here, but you see light coming from the northwest.
 You are getting cold from the wet mud.
 ~
 0 0 2
@@ -2152,9 +2152,9 @@ S
 #26191
 Close to the Caves~
 You are on soft ground now, not as muddy as the swamp, but not as hard
-as to the west.  You see light coming from the west.  You look over
+as to the west. You see light coming from the west. You look over
 to try to pinpoint the light, and you see it is coming from some
-caves to the west.  No scalmen roam here, but you see hundreds of them
+caves to the west. No scalmen roam here, but you see hundreds of them
 in the swamp to the east.
 ~
 0 4 2
@@ -2169,10 +2169,10 @@ D3
 S
 #26192
 Outside the caves~
-You are outside the entrance to the caves.  Light comes from inside
-them. No scalemen are here, for it is hard ground here.  Grass grows 
-here! Rocks are spread all around.  The light seems to be from a fire
-and not a big fire.  To the west is the caves, and to your east is the
+You are outside the entrance to the caves. Light comes from inside
+them. No scalemen are here, for it is hard ground here. Grass grows 
+here! Rocks are spread all around. The light seems to be from a fire
+and not a big fire. To the west is the caves, and to your east is the
 swamp with hundreds of scalepeople.
 ~
 0 4 2
@@ -2187,8 +2187,8 @@ D3
 S
 #26193
 Inside the cave~
-You are inside the cave.  Light comes from the northpart of the cave.
-You see cave paintings on the cave walls.  The paintings depict scalemen
+You are inside the cave. Light comes from the northpart of the cave.
+You see cave paintings on the cave walls. The paintings depict scalemen
 coming into the caves, and being slaughtered by some thing foul.
 To the east is the swamp, and to go farther into the
 caves you can go north or south.
@@ -2225,9 +2225,9 @@ D3
 S
 #26195
 Something's Lair~
-You enter the lair of something.  But whatever it was, was slain when 
-the hermit came to the caves.  It most have been the thing that slaughtered
-the scalepeople.  You see a small ape here, roaring like it is mad.
+You enter the lair of something. But whatever it was, was slain when 
+the hermit came to the caves. It most have been the thing that slaughtered
+the scalepeople. You see a small ape here, roaring like it is mad.
 You wonder what an ape is doing here...
 ~
 0 0 0
@@ -2243,8 +2243,8 @@ S
 #26196
 Close to the awful smell~
 You are close to a awful decaying smell. You can hardly bear it.
-You also hear roaring coming from the north.  And see light coming
-from the northeast part of the caves.  To the west is where the  smell
+You also hear roaring coming from the north. And see light coming
+from the northeast part of the caves. To the west is where the  smell
 most come from.
 ~
 0 4 0
@@ -2263,9 +2263,9 @@ D3
 S
 #26197
 In the cave~
-You in the caves near the swampland of Southland.  A smell of decaying
-fills the air here.  It is dark here, but light comes from the north east
-corner of the caves.  You can travel north, closer to the decaying smell.
+You in the caves near the swampland of Southland. A smell of decaying
+fills the air here. It is dark here, but light comes from the north east
+corner of the caves. You can travel north, closer to the decaying smell.
 Or east, back out of the caves.
 ~
 0 1 0
@@ -2280,9 +2280,9 @@ D1
 S
 #26198
 Inside the Cave~
-You are inside a cave.  Light comes from the north.  You see cave 
-paintings on the walls of the cave.  You can go north towards the light
-or west to more cave.  You hear a roar coming from the northwest. 
+You are inside a cave. Light comes from the north. You see cave 
+paintings on the walls of the cave. You can go north towards the light
+or west to more cave. You hear a roar coming from the northwest. 
 You wonder what it could be.
 ~
 0 4 0
@@ -2297,11 +2297,11 @@ D3
 S
 #26199
 The Old Scalemen's Lair~
-You look upon the remains of thousands of scalemen.  Your hatred for
-them lessens as you look upon this graveyard.  Most people would feel
-sick looking at the remains.  Some of them look like they are still
-alive. Then you notice they are!  So this is why there are no old
-ones in the swamp.  When they get old, they are put in here...
+You look upon the remains of thousands of scalemen. Your hatred for
+them lessens as you look upon this graveyard. Most people would feel
+sick looking at the remains. Some of them look like they are still
+alive. Then you notice they are! So this is why there are no old
+ones in the swamp. When they get old, they are put in here...
 ~
 0 1 0
 D1

@@ -484,7 +484,7 @@ void reset_char( CHAR_DATA * ch )
                     {
                     case APPLY_SEX:
                         ch->sex -= mod;
-                        if ( ch->sex < 0 || ch->sex > 3 ) /* Modified by JR */
+                        if ( ch->sex < 0 || ch->sex > NUM_SEXES ) /* Modified by JR */
                             ch->sex = IS_NPC( ch ) ? 0 : ch->pcdata->true_sex;
                         break;
                     case APPLY_MANA:
@@ -524,7 +524,7 @@ void reset_char( CHAR_DATA * ch )
         ch->pcdata->perm_mana = ch->max_mana;
         ch->pcdata->perm_move = ch->max_move;
         ch->pcdata->last_level = ch->played / 3600;
-        if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 3 )
+        if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > NUM_SEXES )
         {
             if ( ch->sex > 0 && ch->sex < 4 )
                 ch->pcdata->true_sex = ch->sex;
@@ -538,7 +538,7 @@ void reset_char( CHAR_DATA * ch )
     for ( stat = 0; stat < MAX_STATS; stat++ )
         ch->mod_stat[stat] = 0;
 
-    if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 3 )
+    if ( ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > NUM_SEXES )
         ch->pcdata->true_sex = 0;
     ch->sex = ch->pcdata->true_sex;
     ch->max_hit = ch->pcdata->perm_hit;

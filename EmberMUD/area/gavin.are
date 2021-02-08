@@ -132,7 +132,7 @@ AG 0 0 S
 100 0 0 0 10d80+500 0d0+0 4d5+10 6
 -14 -14 -14 -2
 0 0 0 0
-8 8 3 3400
+8 8 -1 3400
 AHMV ABCDEFGHIJK M unknown
 #21209
 arrilo~
@@ -160,7 +160,7 @@ AB 0 50 S
 100 0 0 0 10d61+416 0d0+0 5d6+15 32
 0 0 0 0
 H 0 0 0
-8 8 3 0
+8 8 -1 0
 AGV ACDEFHJKUV M unknown
 #21211
 john shopkeeper~
@@ -365,9 +365,9 @@ unknown~
 #21200
 The Entrance of Babolini~
 The narrow path you have been traveling upon suddenly opens up into a
-small village.  After taking a second look at your map, you recall being
+small village. After taking a second look at your map, you recall being
 told that this is a gathering place of powerful adventurers seeking rest and
-company.  You also recall being told that a powerful Wizard of the black
+company. You also recall being told that a powerful Wizard of the black
 robes lives in a hidden place somewhere in the aspen forest north of
 Babolini.  
 ~
@@ -384,7 +384,7 @@ S
 #21201
 A Village Path~
 This village path is nearly deserted except for the occasional wandering
-adventurer.  A little further down the road you can see some small shops and
+adventurer. A little further down the road you can see some small shops and
 houses.  
 ~
 0 2097152 4
@@ -400,7 +400,7 @@ S
 #21202
 Outside a Small Cottage~
 As you stand on the village path heading east and west, you see two small
-cottages to the north and south.  The cottage to the north has a tall plume
+cottages to the north and south. The cottage to the north has a tall plume
 of smoke rising from the chimney.  
 ~
 0 2097152 4
@@ -423,8 +423,8 @@ D3
 S
 #21203
 A Well Kept Cottage~
-You are standing in the home of the local God of the Sun.  The God of the
-Sun is here polishing a piece of armor.  Seeing fellow adventurers enter his
+You are standing in the home of the local God of the Sun. The God of the
+Sun is here polishing a piece of armor. Seeing fellow adventurers enter his
 home, he quickly asks you to have a seat and share a strong drink of ale.  
 ~
 0 2097152 0
@@ -435,9 +435,9 @@ D2
 S
 #21204
 A Village Path~
-You stand on a path near the center of this small village.  As you look
+You stand on a path near the center of this small village. As you look
 further west you begin to make out the faint image of what appears to be a
-local hotel of sorts.  The only exits from this location are to the east and
+local hotel of sorts. The only exits from this location are to the east and
 west.  
 ~
 0 2097152 4
@@ -452,9 +452,9 @@ D3
 S
 #21205
 Center of Babolini~
-You now stand in the center of this small village.  To the north you see
-a small narrow path leading into an aspen forest.  To the south you see some
-rubble not allowing you to pass.  The village path continues east and west. 
+You now stand in the center of this small village. To the north you see
+a small narrow path leading into an aspen forest. To the south you see some
+rubble not allowing you to pass. The village path continues east and west. 
 ~
 0 2097152 4
 D0
@@ -472,7 +472,7 @@ D3
 S
 #21206
 A Village Path~
-You stand on a road that travels east and west.  To the west you to see
+You stand on a road that travels east and west. To the west you to see
 some small shops and a large hotel with a sign reading "The Black Cat
 Hotel".  
 ~
@@ -490,8 +490,8 @@ S
 Outside of a Tavern~
 You stand on a dusty street running through the middle of the village. 
 To the south you can hear the pleasant sound of fellow adventurers having
-drinks.  The windows of the tavern are illuminated with a warm glow that
-entices weary travelers finding their way into Babolini.  To the north you
+drinks. The windows of the tavern are illuminated with a warm glow that
+entices weary travelers finding their way into Babolini. To the north you
 see a grassy commons.  
 ~
 0 2097152 4
@@ -536,10 +536,10 @@ S
 #21209
 The Black Cat Hotel~
 You are standing in a comfortable lobby with chairs along each wall and a
-large wooden desk facing you.  A large fire is burning in a nearby
+large wooden desk facing you. A large fire is burning in a nearby
 fireplace, and the glow from its flames gives you a sense of warmth and
-security.  A rosy cheeked desk clerk sits at the desk.  He appears to be
-willing to help you in any way that he can.  There is a long hallway leading
+security. A rosy cheeked desk clerk sits at the desk. He appears to be
+willing to help you in any way that he can. There is a long hallway leading
 to the south and an exit to the east.  
 ~
 0 2097152 0
@@ -554,8 +554,8 @@ D2
 S
 #21210
 A Long Hallway~
-A long hallway of the Black Cat Hotel stretches out before you.  Dim
-light glows from the candles burning along each wall.  Rooms for guests are
+A long hallway of the Black Cat Hotel stretches out before you. Dim
+light glows from the candles burning along each wall. Rooms for guests are
 on either side of this hallway.  
 ~
 0 2097152 0
@@ -578,8 +578,8 @@ D3
 S
 #21211
 A Long Hallway~
-A long hallway of the Black Cat Hotel stretches out before you.  Dim
-light glows from the candles burning along each wall.  Rooms for guests are
+A long hallway of the Black Cat Hotel stretches out before you. Dim
+light glows from the candles burning along each wall. Rooms for guests are
 on either side of this hallway.  
 ~
 0 2097152 0
@@ -602,8 +602,8 @@ D3
 S
 #21212
 A Long Hallway~
-A long hallway of The Black Cat Hotel stretches out before you.  Dim
-lights glow from candles that are burning along the sides of the walls.  On
+A long hallway of The Black Cat Hotel stretches out before you. Dim
+lights glow from candles that are burning along the sides of the walls. On
 either side of this hallway are rooms for the guests who visit the Hotel.  
 ~
 0 2097152 0
@@ -623,8 +623,8 @@ S
 #21213
 A Bedroom~
 You walk into a bedroom, and you are immediately hit in the face with the
-smell of the strong alcohol.  As soon as you gaze upon the bed you notice
-why.  Passed out in full battle armor is the once great warrior, Cyrax. 
+smell of the strong alcohol. As soon as you gaze upon the bed you notice
+why. Passed out in full battle armor is the once great warrior, Cyrax. 
 Your presence seems to only raise a faint snore, and he continues to
 lovingly embrace his battle worn sword.  
 ~
@@ -637,7 +637,7 @@ S
 #21214
 An Empty Bedroom~
 This bedroom has been prepared for a guest that apparently hasn't arrived
-yet.  The bed is neatly made and there are towels and sheets laid out for
+yet. The bed is neatly made and there are towels and sheets laid out for
 the soon to arrive patron.  
 ~
 0 2097156 0
@@ -649,7 +649,7 @@ S
 #21215
 A Dark Smelly Bedroom~
 As soon as you look into this room you are taught a lesson by a very
-upset Goblin Over-Lord named Glud.  The room he is standing in is dark and
+upset Goblin Over-Lord named Glud. The room he is standing in is dark and
 smells of rotten food.  
 ~
 0 2097152 0
@@ -660,10 +660,10 @@ D1
 S
 #21216
 A Bedroom~
-This bedroom is decorated and adorned with flowers.  A pleasant scent
+This bedroom is decorated and adorned with flowers. A pleasant scent
 enters your nostrils, and a soft glow emanates from a bedside candle. 
 Looking closer you become embarrassed as you realize that you have intruded
-upon two half naked lovers...  Ooops!  
+upon two half naked lovers... Ooops!  
 ~
 0 2097152 0
 D3
@@ -674,7 +674,7 @@ S
 #21217
 A Suite for Special Guests~
 Upon entering this room you notice a warm magical light glowing dimly
-beside a large occupied bed.  As you move further into the room you become
+beside a large occupied bed. As you move further into the room you become
 startled as a frail, injured, old wizard beckons you to come closer.  
 ~
 0 2097152 0
@@ -686,8 +686,8 @@ S
 #21218
 The Desk Clerk's Room~
 The walls of this small room are decorated with paintings from the nearby
-scenery of the Boldback mountains.  A small oak desk covered with papers
-lies in one corner.  In the other corner lies an unmade bed with a bedside
+scenery of the Boldback mountains. A small oak desk covered with papers
+lies in one corner. In the other corner lies an unmade bed with a bedside
 stand covered with plates of half-eaten food.  
 ~
 0 2097152 0
@@ -698,8 +698,8 @@ D1
 S
 #21219
 A Disheveled Cottage~
-It appears that this home was recently robbed!  There are various items
-strewn about the room, most of which have been badly damaged.  You wonder
+It appears that this home was recently robbed! There are various items
+strewn about the room, most of which have been badly damaged. You wonder
 where the owners of this home may be, You then realize what they might think
 if they were to find you standing here.  
 ~
@@ -712,7 +712,7 @@ S
 #21220
 The Entrance of an Aspen Forest~
 You stand on a narrow pathway that leads from Babolini into a large
-forest of aspen trees.  All about you are the sights and sounds of an active
+forest of aspen trees. All about you are the sights and sounds of an active
 forest inhabited by woodland creatures.  
 ~
 0 2097152 4
@@ -727,8 +727,8 @@ D2
 S
 #21221
 Among the Aspen~
-You stand in the middle of a forest teeming with life.  Squirrels and
-birds scurry and scamper about you gathering berries and nuts.  From your
+You stand in the middle of a forest teeming with life. Squirrels and
+birds scurry and scamper about you gathering berries and nuts. From your
 current position you can travel in all directions.  
 ~
 0 2097152 3
@@ -752,7 +752,7 @@ S
 #21222
 A Small Clearing~
 The path you were traveling on suddenly opens up to a small clearing
-surrounded by a large lake of teal blue.  The only exit is to the west.  
+surrounded by a large lake of teal blue. The only exit is to the west.  
 ~
 0 2097152 3
 D3
@@ -762,8 +762,8 @@ D3
 S
 #21223
 The Corner of a Forest~
-You now stand deep in a forest of aspen tress.  The forest continues to
-the north and to the east.  A steep bluff blocks any further travel to the
+You now stand deep in a forest of aspen tress. The forest continues to
+the north and to the east. A steep bluff blocks any further travel to the
 south and west.  
 ~
 0 2097152 0
@@ -778,8 +778,8 @@ D1
 S
 #21224
 Outside a Vine Covered Cave~
-You are in a dense part of the forest surrounded by towering aspens.  A
-lone hill rises to the west.  Tangled vines obscure an opening into the
+You are in a dense part of the forest surrounded by towering aspens. A
+lone hill rises to the west. Tangled vines obscure an opening into the
 hill.  
 ~
 0 2097152 3
@@ -794,9 +794,9 @@ vines~
 S
 #21225
 The Center of an Aspen Forest~
-Aspen trees tower above you.  Light shining through the canopy of leaves
-creates dancing green shadows across the forest floor.  The thick foliage
-hinders travel to the north and west.  The path continues south and east.  
+Aspen trees tower above you. Light shining through the canopy of leaves
+creates dancing green shadows across the forest floor. The thick foliage
+hinders travel to the north and west. The path continues south and east.  
 ~
 0 2097152 3
 D1
@@ -810,7 +810,7 @@ D2
 S
 #21226
 A Trail Through a Forest~
-Aspen trees line either side of the woodland trail.  The path continues
+Aspen trees line either side of the woodland trail. The path continues
 west and north.  
 ~
 0 2097152 3
@@ -825,7 +825,7 @@ D3
 S
 #21227
 Fork in a Forest Trail~
-You stand on a small trail beneath the towering aspen trees.  The trail
+You stand on a small trail beneath the towering aspen trees. The trail
 runs east to west with another branch to the south.  
 ~
 0 2097152 0
@@ -844,9 +844,9 @@ D3
 S
 #21228
 The Supply Shack~
-You have just entered a small wood-frame shack.  As you look around, you
+You have just entered a small wood-frame shack. As you look around, you
 notice various pieces of equipment commonly used by adventurers and
-travelers.  A lazy hound is in the corner of this shed, yawning and
+travelers. A lazy hound is in the corner of this shed, yawning and
 scratching his fleas.  
 ~
 0 2097152 0
@@ -857,8 +857,8 @@ D2
 S
 #21229
 Grassy Commons~
-This seems to be a very peaceful place to sit and relax.  There is a
-small pond nestled between a few large trees.  A rock bench lies underneath
+This seems to be a very peaceful place to sit and relax. There is a
+small pond nestled between a few large trees. A rock bench lies underneath
 a large oak tree, providing shade from the hot summer sun.  
 ~
 0 2097152 4
@@ -870,8 +870,8 @@ S
 #21230
 `BThe `GGreen `BCloak Tavern`w~
 You have just entered a noisy bar filled with some of the heroes who are
-well known in local tales.  You gaze about in awe as members of all classes
-sit around at tables talking boldly of their latest adventures.  Some of the
+well known in local tales. You gaze about in awe as members of all classes
+sit around at tables talking boldly of their latest adventures. Some of the
 patrons in here are rather drunk and seem to be willing to brawl if
 provoked.  
 ~
@@ -887,8 +887,8 @@ D2
 S
 #21231
 Along The Bar~
-You stand beside a long bar crafted from yellow pine.  Many worn stools
-line the outside of the bar.  A few patrons sit and enjoy a warm draught of
+You stand beside a long bar crafted from yellow pine. Many worn stools
+line the outside of the bar. A few patrons sit and enjoy a warm draught of
 ale to soothe the hard lives they lead.  
 ~
 0 2097152 0
@@ -904,7 +904,7 @@ S
 #21232
 `BA Dark Corner In The `GGreen `BCloak`w~
 In this dark corner lie a few small tables set apart from the main
-portion of the tavern.  It looks like a good place to have a quiet chat or a
+portion of the tavern. It looks like a good place to have a quiet chat or a
 relaxing meal.  
 ~
 0 2097152 0
@@ -915,7 +915,7 @@ D3
 S
 #21233
 Atop a Boulder~
-You stand on a large boulder overlooking a valley.  To the north, south,
+You stand on a large boulder overlooking a valley. To the north, south,
 and east is a steep drop-off leaving no exits, except one which leads to the
 path lying to the west.  
 ~
@@ -927,7 +927,7 @@ D3
 S
 #21234
 A Forest Trail~
-You stand on a forest trail which continues to the east and north.  To
+You stand on a forest trail which continues to the east and north. To
 the north it darkens as it tunnels through the underbrush.  
 ~
 0 2097152 3
@@ -943,8 +943,8 @@ S
 #21235
 The Tunnel of Brush~
 You are standing on what appears to be the end of this narrowing woodland
-trail.  The thick underbrush has created a tunnel of sorts which ends at a
-peculiar stone set in the middle of the undergrowth.  Looking more closely
+trail. The thick underbrush has created a tunnel of sorts which ends at a
+peculiar stone set in the middle of the undergrowth. Looking more closely
 at the stone, you notice slender arcane symbols etched into the face.  
 ~
 0 2097152 3
@@ -959,7 +959,7 @@ D4
 S
 #21236
 A Dark Musty Cavern~
-The cave you are standing in is very dark.  As your eyes adjust to the
+The cave you are standing in is very dark. As your eyes adjust to the
 light and you look a little closer at your surroundings, you are horrified
 to discover that the floor of this cavern is covered with scattered bones!  
 ~
@@ -977,7 +977,7 @@ This is where John keeps all his goods.
 S
 #21238
 The ancient path~
-The path runs west and east from here.  You notice some markers placed
+The path runs west and east from here. You notice some markers placed
 along the side of the path.  
 ~
 0 2097156 0
@@ -992,8 +992,8 @@ D3
 S
 #21239
 The ancient path~
-You are standing on the ancient path which runs east and west.  The path
-is hardly visible here.  You see another path branching off to the north
+You are standing on the ancient path which runs east and west. The path
+is hardly visible here. You see another path branching off to the north
 into some friendly looking woods.  
 ~
 0 2097152 0
@@ -1012,8 +1012,8 @@ D3
 S
 #21240
 A small path~
-This is a short path leading to a rarely traveled path.  The path runs
-east and west.  You see another path branching off to the north, where you
+This is a short path leading to a rarely traveled path. The path runs
+east and west. You see another path branching off to the north, where you
 can see a castle in the distance.  
 ~
 0 2097152 0

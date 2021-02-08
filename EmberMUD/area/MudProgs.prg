@@ -82,7 +82,7 @@ break
 #9
 Adepts~
 Chance of casting a beneficial spell on a random player in the room.~
-rand_prog 15~
+rand_prog 25~
 if(sgetrand(6) == 1)
   cast 'armor' $r
   break
@@ -92,15 +92,15 @@ if(sgetrand(6) == 2)
   break
 endif
 if(sgetrand(6) == 3)
-  cast 'cure blindness' $r
+  cast 'heal' $r
   break
 endif
 if(sgetrand(6) == 4)
-  cast 'cure light' $r
+  cast 'heal' $r
   break
 endif
 if(sgetrand(6) == 5)
-  cast 'cure poison' $r
+  cast 'heal' $r
   break
 endif
 if(sgetrand(6) == 6)
@@ -375,14 +375,54 @@ break
 Stub Sea Captain~
 A stub for Mudweiser spec_sea_captain~
 rand_prog 100~
-say I'm supposed to be a sea captain, but I don't remember what that means
+if (!isfight($i))
+    if (sgetrand(20) <= 10)
+      break
+    elseif (sgetrand(20 <= 18))
+      say Die, landlubbers!
+      break
+    else
+      say Arrr.....
+      break
+    endif
+endif
 break
 ~
 #102
 Stub French Taunter~
 A stub for Mudweiser spec_french_taunter~
 rand_prog 100~
-say I'm supposed to be a French taunter, but I don't remember what that means
+if (sgetrand(10) == 1)
+  say Go and boil your bottom, you son of a silly person!
+  break
+elseif (sgetrand(10) == 2)
+  say I blow my nose on you, you silly person!
+  break
+elseif (sgetrand(10) == 3)
+  emote puts his hands to his ears and blows a raspberry.
+  break
+elseif (sgetrand(10) == 4)
+  say I don't wanna talk to you anymore, you empty-headed animal-food-trough wiper!
+  break
+elseif (sgetrand(10) == 5)
+  say I fart in your general direction!
+  break
+elseif (sgetrand(10) == 6)
+  say Your mother was a hamster and your father smelt of elderberries!
+  break
+elseif (sgetrand(10) == 7)
+  say Now go away, or I shall taunt you a second time!
+  break
+elseif (sgetrand(10) == 8)
+  say I burst my pimples at you, you tiny-brained wiper of other people's bottoms!
+  break
+elseif (sgetrand(10) == 9)
+  say I unclog my nose towards you, you son of a window dresser!
+  break
+elseif (sgetrand(10) == 10)
+  say I wave my private parts at your aunties, you brightly-colored, mealy-templed, cranberry-smelling, electric donkey-bottom biters!
+  break
+endif
 break
 ~
 #103
@@ -517,7 +557,7 @@ break
 Mudweiser MOBProgs/1503.prg-13~
 Mudweiser MOBProgs/1503.prg-13~
 speech_prog lord~
-say We don't have a lord.  We're a anarcho-syndicalist commune.
+say We don't have a lord. We're a anarcho-syndicalist commune.
 say We take it in turns to act as a sort of executive officer of the 
 say week.
 break
@@ -526,7 +566,7 @@ break
 Mudweiser MOBProgs/1503.prg-14~
 Mudweiser MOBProgs/1503.prg-14~
 speech_prog p order~
-say Order, eh?  Who do you think you are?
+say Order, eh? Who do you think you are?
 break
 ~
 #217
@@ -576,7 +616,7 @@ speech_prog p bloody peasant~
 say Oh, what a give away.
 say Did you hear that, did you hear that, eh?
 say That's what I'm on about -- did you see him?
-say Did you see him repressing me?  You saw it didn't you?
+say Did you see him repressing me? You saw it didn't you?
 break
 ~
 #223
@@ -586,7 +626,7 @@ speech_prog p bloody peasant!~
 say Oh, what a give away.
 say Did you hear that, did you hear that, eh?
 say That's what I'm on about -- did you see him?
-say Did you see him repressing me?  You saw it didn't you?
+say Did you see him repressing me? You saw it didn't you?
 break
 ~
 #224
@@ -907,20 +947,20 @@ M 11
 #20
 CityGuard~
 Kills thieves and fights evil.~
-M 17
 M 18
+M 17
 ~
 #24
 Puff~
 Figure it out. :)~
-M 22
 M 23
+M 22
 ~
 #2000
 Mudweiser MOBProgs/3011.prg~
 Mudweiser MOBProgs/3011.prg~
-M 201
 M 200
+M 201
 ~
 #2001
 Mudweiser MOBProgs/109.prg~
@@ -930,53 +970,53 @@ M 202
 #2002
 Mudweiser OBJProgs/4151.prg~
 Mudweiser OBJProgs/4151.prg~
-O 601
 O 600
+O 601
 ~
 #2003
 Mudweiser OBJProgs/4152.prg~
 Mudweiser OBJProgs/4152.prg~
-O 604
-O 603
 O 602
+O 603
+O 604
 ~
 #2004
 Mudweiser OBJProgs/4194.prg~
 Mudweiser OBJProgs/4194.prg~
-O 607
-O 606
 O 605
+O 606
+O 607
 ~
 #2005
 Mudweiser OBJProgs/4199.prg~
 Mudweiser OBJProgs/4199.prg~
-O 609
 O 608
+O 609
 ~
 #2006
 Mudweiser MOBProgs/1503.prg~
 Mudweiser MOBProgs/1503.prg~
-M 223
-M 222
-M 221
-M 220
-M 219
-M 218
-M 217
-M 216
-M 215
-M 214
-M 213
-M 212
-M 211
-M 210
-M 209
-M 208
-M 207
-M 206
-M 205
-M 204
 M 203
+M 204
+M 205
+M 206
+M 207
+M 208
+M 209
+M 210
+M 211
+M 212
+M 213
+M 214
+M 215
+M 216
+M 217
+M 218
+M 219
+M 220
+M 221
+M 222
+M 223
 ~
 #2007
 Mudweiser MOBProgs/1523.prg~
@@ -1001,8 +1041,8 @@ M 227
 #2011
 Mudweiser MOBProgs/4739.prg~
 Mudweiser MOBProgs/4739.prg~
-M 229
 M 228
+M 229
 ~
 #2012
 Mudweiser MOBProgs/4744.prg~
@@ -1027,14 +1067,14 @@ O 610
 #2016
 Mudweiser OBJProgs/4753.prg~
 Mudweiser OBJProgs/4753.prg~
-O 612
 O 611
+O 612
 ~
 #2017
 Mudweiser OBJProgs/4783.prg~
 Mudweiser OBJProgs/4783.prg~
-O 614
 O 613
+O 614
 ~
 #2018
 Mudweiser OBJProgs/4787.prg~
@@ -1049,8 +1089,8 @@ O 616
 #2020
 Mudweiser OBJProgs/4798.prg~
 Mudweiser OBJProgs/4798.prg~
-O 618
 O 617
+O 618
 ~
 #0
 

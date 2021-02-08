@@ -14,7 +14,7 @@ a vault guard~
 The guardian of the forbidden vault blocks your passage.
 ~
 This guard has been instruced to guard the mob against ANY unauthorized
-visitors.  Since the equipment inside may be unbalanced for play(hint hint),
+visitors. Since the equipment inside may be unbalanced for play(hint hint),
 players are not intended to enter.  
 ~
 Human~
@@ -91,7 +91,7 @@ big mob~
 a big mob~
 A big mob stands here, thinking it can kill you.
 ~
-This mob is the biggest mob in this part of the arena.  Hope you're up to
+This mob is the biggest mob in this part of the arena. Hope you're up to
 killing it.  
 ~
 Human~
@@ -169,7 +169,7 @@ mob leader~
 the mob leader~
 The mob leader stands here plotting your demise.
 ~
-This mob WILL beat you down should you attack it.  Trust me.  
+This mob WILL beat you down should you attack it. Trust me.  
 ~
 Human~
 ABR 0 -400 S
@@ -211,7 +211,7 @@ unknown~
 #13401
 forbidden key~
 a forbidden key~
-A key lies here.  It's not yours! Don't pick it up!~
+A key lies here. It's not yours! Don't pick it up!~
 unknown~
 18 A AO
 0 0 0 0 0
@@ -485,9 +485,9 @@ B C AC B 0
 #ROOMS
 #13400
 Entrance to the playtesting arenas~
-You are in a dark, slightly damp room.  A ladder extends above you into
-the sunny city of Midgaard.  To your north, you see a large dirt arena where
-small creatures crawl around looking for food.  Torches light the arena to
+You are in a dark, slightly damp room. A ladder extends above you into
+the sunny city of Midgaard. To your north, you see a large dirt arena where
+small creatures crawl around looking for food. Torches light the arena to
 your north, so you need not have fear if you didn't bring a lantern with
 you.  
 ~
@@ -503,9 +503,9 @@ D4
 S
 #13401
 Entrance to the newbie arena~
-This is the entrance to the level 1 to 10 arena.  Mobs around here have
+This is the entrance to the level 1 to 10 arena. Mobs around here have
 some standardized equpiment you can use until more areas have been
-implemented.  Most EQ here will eventually be taken away, but you will be
+implemented. Most EQ here will eventually be taken away, but you will be
 allowed to keep some in payment for playtesting.  
 ~
 0 2098188 0
@@ -569,7 +569,7 @@ D3
 S
 #13404
 Newbie arena~
-Low level mobs wander around here.  The arena continues to the north and
+Low level mobs wander around here. The arena continues to the north and
 east.  
 ~
 0 2097160 0
@@ -636,7 +636,7 @@ D2
 S
 #13408
 Bend in the hallway~
-The hall bends here, with exits to the south and west.  Muffled sounds
+The hall bends here, with exits to the south and west. Muffled sounds
 come from the northwest.  
 ~
 0 2097164 0
@@ -651,7 +651,7 @@ D3
 S
 #13409
 Hallway~
-The hallway opens up into a room to the north.  Decrept and forgotten,
+The hallway opens up into a room to the north. Decrept and forgotten,
 some of the smarter arena mobs have taken shelter here.  
 ~
 0 2097164 0
@@ -667,7 +667,7 @@ S
 #13410
 Hideout~
 This is where the older and wiser mobs come to escape the ravages of the
-arena.  Many have taken with them valuable equipment to pretect them should
+arena. Many have taken with them valuable equipment to pretect them should
 their hideout be discovered.  
 ~
 0 2097160 0
@@ -686,8 +686,8 @@ D3
 S
 #13411
 Hideout~
-This is the southwest part of the hideout.  You can hear shuffling and
-moving, but strangely, you see nothing moving.  Maybe you imagined it?  
+This is the southwest part of the hideout. You can hear shuffling and
+moving, but strangely, you see nothing moving. Maybe you imagined it?  
 ~
 0 2097160 0
 D0
@@ -702,7 +702,7 @@ S
 #13412
 Back of the hideout~
 This is the back of the hideout, where the old and wise mobs keep their
-supplies.  You can't but help to wonder if there is a guard here, hiding
+supplies. You can't but help to wonder if there is a guard here, hiding
 from you.  
 ~
 0 2097160 0
@@ -717,7 +717,7 @@ D2
 S
 #13413
 Hideout~
-This is the northeast corner of the hideout.  You think you see a mob
+This is the northeast corner of the hideout. You think you see a mob
 hiding, but you turn to look at it and you see nothing.  
 ~
 0 2097152 0
@@ -746,7 +746,7 @@ D3
 S
 #13415
 Newbie arena~
-The newbie arena spans in all directions here.  Mobs wander by loaded
+The newbie arena spans in all directions here. Mobs wander by loaded
 with playtest gear.  
 ~
 0 2097160 0
@@ -769,7 +769,7 @@ D3
 S
 #13416
 Newbie arena~
-The newbie arena continues in all directions.  The mobs here beg you to
+The newbie arena continues in all directions. The mobs here beg you to
 kill them.  
 ~
 0 2097160 0
@@ -861,7 +861,7 @@ D3
 S
 #13421
 Hallway~
-This hallway leads away from the main arena to the south.  Up ahead, it
+This hallway leads away from the main arena to the south. Up ahead, it
 bends to the east.  
 ~
 0 2097160 0
@@ -890,7 +890,7 @@ D2
 S
 #13423
 Hallway~
-You are in a hallway in the newbie arena.  There appears to be an alcove
+You are in a hallway in the newbie arena. There appears to be an alcove
 to the northeast.  
 ~
 0 2097160 0
@@ -905,7 +905,7 @@ D3
 S
 #13424
 Hallway~
-The hallway here bends south and west.  To the north there is a strange
+The hallway here bends south and west. To the north there is a strange
 alcove.  
 ~
 0 2097160 0
@@ -924,7 +924,7 @@ D3
 S
 #13425
 Hallway~
-The hallway goes north and south here.  There is a bend in the tunnel to
+The hallway goes north and south here. There is a bend in the tunnel to
 the north.  
 ~
 0 2097160 0
@@ -940,7 +940,7 @@ S
 #13426
 Hallway~
 This hallway leads north to more hallway and south to a bend in the
-hallway.  There appears to be a alcove in the wall to the north.  
+hallway. There appears to be a alcove in the wall to the north.  
 ~
 0 2097160 0
 D0
@@ -954,7 +954,7 @@ D2
 S
 #13427
 Hallway~
-The hallway bends to the north and west here.  To the west you can see
+The hallway bends to the north and west here. To the west you can see
 the arena.  
 ~
 0 2097160 0
@@ -985,7 +985,7 @@ S
 #13429
 Alcove~
 A small cylindrical hole has been dug here, and there is a ladder in it
-leading down.  There is a stale-smelling draft from it.  To the south is a
+leading down. There is a stale-smelling draft from it. To the south is a
 hallway.  
 ~
 0 2097160 0
@@ -1000,9 +1000,9 @@ D5
 S
 #13430
 Hidden tunnel~
-This tunnel appears to have not meant to be found.  Fresh tracks not
+This tunnel appears to have not meant to be found. Fresh tracks not
 unlike those of the arena monsters in the upper level of the arena are
-evident in the dust on the ground.  The tracks here seem bigger for some
+evident in the dust on the ground. The tracks here seem bigger for some
 reason, and they lead north and west.  
 ~
 0 2097164 0
@@ -1054,7 +1054,7 @@ D1
 S
 #13433
 Beginning of the forbidden vault~
-Hey!  You aren't supposed to be here!  The equipment here is too good!  
+Hey! You aren't supposed to be here! The equipment here is too good!  
 ~
 0 2097160 0
 D0
@@ -1084,7 +1084,7 @@ S
 #13435
 Forbidden vault~
 You're only one room away form a huge horrible mob guarding all that
-powerful equipment!  Leave now!  
+powerful equipment! Leave now!  
 ~
 0 2097160 0
 D1
@@ -1112,7 +1112,7 @@ D3
 S
 #13437
 Hidden tunnel~
-This tunnel appears to have been undisturbed for a long time.  However,
+This tunnel appears to have been undisturbed for a long time. However,
 muffled sounds of movement are heard from the north.  
 ~
 0 2097164 0
@@ -1128,7 +1128,7 @@ S
 #13438
 Hidden tunnel~
 The sounds from the north are growing louder, yet are still
-indistinguishable.  A few shadows appear to be moving where the sounds are
+indistinguishable. A few shadows appear to be moving where the sounds are
 coming from.  
 ~
 0 2097160 0
@@ -1143,7 +1143,7 @@ D2
 S
 #13439
 Hidden tunnel~
-To the north you can see where some mobs are shuffling around.  It
+To the north you can see where some mobs are shuffling around. It
 appears that this is a gathering place, where the mobs can escape from the
 ravages of the playtesters.  
 ~
@@ -1159,8 +1159,8 @@ D2
 S
 #13440
 Secret hideout~
-A few mobs wander around here.  They must be pretty smart mobs to have
-decided to hide, so think twice before attacking one.  Smart mobs usually
+A few mobs wander around here. They must be pretty smart mobs to have
+decided to hide, so think twice before attacking one. Smart mobs usually
 know spells.  
 ~
 0 2097160 0
@@ -1179,7 +1179,7 @@ D2
 S
 #13441
 Secret hideout~
-This is where the smarter mobs hide from playtesters.  The hideout
+This is where the smarter mobs hide from playtesters. The hideout
 continues north and west.  
 ~
 0 2097160 0
@@ -1194,7 +1194,7 @@ D3
 S
 #13442
 Secret hideout~
-This appears to be the mob headquarters.  Preliminary plans to overwhelm
+This appears to be the mob headquarters. Preliminary plans to overwhelm
 the playtesters seem to be in the works, and there is one larger mob here
 who seems to be in charge.  
 ~
@@ -1210,7 +1210,7 @@ D3
 S
 #13443
 Secret hideout~
-This is the secret mob hideout.  The exit is south of here, and to the
+This is the secret mob hideout. The exit is south of here, and to the
 east there is what appears to be the leader.  
 ~
 0 2097160 0
@@ -1225,9 +1225,9 @@ D2
 S
 #13444
 Just inside the vault~
-You are now in the vault of forbidden equipment.  A few mutant mobs
+You are now in the vault of forbidden equipment. A few mutant mobs
 appear to have been stored in here as well, and they must have picked up
-most of the equipment.  To the west you see them wandering aimlessly,
+most of the equipment. To the west you see them wandering aimlessly,
 occasionally bumping into each other.  
 ~
 0 2097164 0
@@ -1242,7 +1242,7 @@ D3
 S
 #13445
 In the vault~
-The equipment vault stretches in all directions here.  Malformed, mutant
+The equipment vault stretches in all directions here. Malformed, mutant
 mobs wander around, blissfully aware that they are carrying equipment you
 would kill them for.  
 ~
@@ -1266,7 +1266,7 @@ D3
 S
 #13446
 In the vault~
-The vault continues south and west.  Southeast of here is the exit out.
+The vault continues south and west. Southeast of here is the exit out.
 ~
 0 2097160 0
 D2
@@ -1280,7 +1280,7 @@ D3
 S
 #13447
 In the vault~
-The vault exists to the north and west.  Northeast is the exit.  
+The vault exists to the north and west. Northeast is the exit.  
 ~
 0 2097160 0
 D0
@@ -1294,7 +1294,7 @@ D3
 S
 #13448
 In the vault~
-The vault continues south and east.  Mutant mobs wander by with some of
+The vault continues south and east. Mutant mobs wander by with some of
 the best gear around.  
 ~
 0 2097160 0
@@ -1309,7 +1309,7 @@ D2
 S
 #13449
 In the vault~
-The vault continues to the north, south, and east.  Further to the east
+The vault continues to the north, south, and east. Further to the east
 is the exit to the vault.  
 ~
 0 2097160 0
@@ -1328,7 +1328,7 @@ D2
 S
 #13450
 In the vault~
-The rest of the vault lies to the east and north.  Here, one particularly
+The rest of the vault lies to the east and north. Here, one particularly
 large mutant mob seems to have become posessive over a certain piece of
 equipment.  
 ~

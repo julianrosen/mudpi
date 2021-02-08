@@ -13,8 +13,8 @@ Hill Giant~
 A Hill Giant~
 A Hill Giant stands here.
 ~
-You are looking at a huge hill giant.  He is wearing an odd patchwork
-tunic, and wielding a very large club.  The Dwarfs in this area have
+You are looking at a huge hill giant. He is wearing an odd patchwork
+tunic, and wielding a very large club. The Dwarfs in this area have
 troubles with these giants all the time.  
 ~
 Giant~
@@ -30,7 +30,7 @@ Ogre~
 An Ogre~
 An Ogre stands here.
 ~
-This looks like a typical Ogre: Big, ugly, and very stupid.  It's
+This looks like a typical Ogre: Big, ugly, and very stupid. It's
 probably getting ready to beat you into the ground.  
 ~
 Giant~
@@ -39,7 +39,7 @@ ABCF 0 -1000 S
 100 0 0 0 8d44+321 1d10+100 5d5+10 13
 -2 -2 -2 4
 0 0 HI JP
-8 8 3 100
+8 8 -1 100
 AHMV ABCDEFGHIJK H unknown
 #18242
 Dwarf Guard~
@@ -47,7 +47,7 @@ A Dwarf Guard~
 A Dwarf Guard stands here.
 ~
 This looks like a typical dwarf, about four feet tall, wide and round. 
-Like all dwarfs, he has a beard.  He is holding an axe and he's ready to
+Like all dwarfs, he has a beard. He is holding an axe and he's ready to
 give his life to defend this stronghold.  
 ~
 Dwarf~
@@ -63,7 +63,7 @@ Dwarf Commoner~
 A Dwarf Commoner~
 A Dwarf Commoner stands here.
 ~
-This is a rather average ooking Dwarf:  Short, wide, and round.  This one
+This is a rather average ooking Dwarf:  Short, wide, and round. This one
 is dressed in average peasant's clothes.  
 ~
 Dwarf~
@@ -72,7 +72,7 @@ AC J 750 S
 100 0 0 0 3d22+96 1d10+100 2d5+5 0
 4 4 4 6
 R 0 CLQ R
-8 8 3 200
+8 8 -1 200
 AHMV ABCDEFGHIJK M unknown
 #18245
 Bartender~
@@ -80,7 +80,7 @@ a Dwarf bartender~
 A Dwarf Bartender is standing behind the bar, waiting to serve you.
 ~
 This Dwarf is dressed in clothing made out of very valuable looking
-material.  He is ready to serve you.  
+material. He is ready to serve you.  
 ~
 Dwarf~
 ABd J 750 S
@@ -129,7 +129,7 @@ the Dwarf general~
 The Dwarf's general is here, planning the Dwarf's next military conquests.
 ~
 As you look at this Dwarf's uniform, you see that he is decorated with
-all kinds of medals and you think that this must be the general.  He looks
+all kinds of medals and you think that this must be the general. He looks
 like he has fought in many wars and is a battle-hardened warrior.  
 ~
 Dwarf~
@@ -145,7 +145,7 @@ Dwarf Worker~
 a dwarf worker~
 A Dwarf worker is here, blowing up stone to expand the stronghold.
 ~
-This Dwarf is working very hard to expand this tunnel.  He has a pick axe
+This Dwarf is working very hard to expand this tunnel. He has a pick axe
 and some explosives to blow the stone to bits.  
 ~
 Dwarf~
@@ -162,7 +162,7 @@ a Dwarf engineer~
 A Dwarf engineer stands here, overseeing the workers.
 ~
 This Dwarf is dressed completely differently diffferently than the
-others.  He is wearing a nice long white coat, a hard hat, and he's holding
+others. He is wearing a nice long white coat, a hard hat, and he's holding
 a clipboard.  
 ~
 Dwarf~
@@ -194,7 +194,7 @@ Dwarf Bodyguard~
 the king's bodyguard~
 The king's bodyguard is standing here.
 ~
-This is the bodyguard of the king.  He is well armed and ready to give
+This is the bodyguard of the king. He is well armed and ready to give
 his life to protect the king.  
 ~
 Dwarf~
@@ -210,7 +210,7 @@ Dwarf King~
 the Dwarf king~
 The Dwarf king is here, sitting on his golden throne.
 ~
-This is the king of the Dwarfs!  He is wearing a lavish, colorful robe
+This is the king of the Dwarfs! He is wearing a lavish, colorful robe
 made out of a very fine fabric, wearing a beautiful golden crown, and
 wielding a huge axe.  
 ~
@@ -227,7 +227,7 @@ Drinking Dwarf~
 a drunk Dwarf~
 A Dwarf is here, drinking.
 ~
-This Dwarf appears to be quite drunk.  He is singing and swinging his
+This Dwarf appears to be quite drunk. He is singing and swinging his
 tankard all around, sloshing ale on to the floor.  
 ~
 Dwarf~
@@ -273,7 +273,7 @@ a Dwarf alchemist~
 A Dwarf alchemist is here, trying to make gold.
 ~
 This Dwarf is sitting at his little workstation, trying to make gold out
-of other stuff (Dwarfs are so greedy).  He is wearing a white lab coat.  
+of other stuff (Dwarfs are so greedy). He is wearing a white lab coat.  
 ~
 Dwarf~
 AB J 750 S
@@ -441,8 +441,8 @@ A
 #ROOMS
 #18200
 The Foot of the Mountain~
-You stand at the foot of an ominously large mountain.  As you look up, it
-looks like there is some sort of building up towards the top.  There is a
+You stand at the foot of an ominously large mountain. As you look up, it
+looks like there is some sort of building up towards the top. There is a
 small, rocky path that leads up the mountain, to the north.  
 ~
 0 4 5
@@ -458,7 +458,7 @@ S
 #18201
 The Beginning of the Path~
 As you begin to go up the mountain, you notice how incredibly steep it
-is.  The path seems to go on forever, on and on up the mountain.  
+is. The path seems to go on forever, on and on up the mountain.  
 ~
 0 0 5
 D0
@@ -472,7 +472,7 @@ D2
 S
 #18203
 On the Path~
-You're still on the path.  It continues on up the mountain, to the north.  
+You're still on the path. It continues on up the mountain, to the north.  
 ~
 0 0 5
 D0
@@ -486,7 +486,7 @@ D2
 S
 #18204
 On the Path~
-You're still on the path.  It continues on up the mountain, to the north.  
+You're still on the path. It continues on up the mountain, to the north.  
 ~
 0 0 5
 D0
@@ -500,9 +500,9 @@ D2
 S
 #18205
 The Turning Point~
-Here the path splits.  To the east, and just a little ways up, you can
-see the entrance to a cave.  To the north, the path continues on up.  Now,
-you can clearly see the building at the top of the mountain.  It appears to
+Here the path splits. To the east, and just a little ways up, you can
+see the entrance to a cave. To the north, the path continues on up. Now,
+you can clearly see the building at the top of the mountain. It appears to
 be a huge set of doors, with two wall sections on either side.  
 ~
 0 0 5
@@ -535,8 +535,8 @@ D3
 S
 #18207
 Outside of the Cave~
-You are standing in front of a small cave.  It looks as though it is some
-creature's den, but you are not sure what creature that might be.  As you
+You are standing in front of a small cave. It looks as though it is some
+creature's den, but you are not sure what creature that might be. As you
 look at the ground, you see bones from all sorts of creatures laying here.  
 ~
 0 0 5
@@ -552,7 +552,7 @@ S
 #18208
 Inside the Cave~
 As you step inside, you know for sure what creature this den belongs to,
-an Ogre.  There are bones lying all around, and one of the worst scents
+an Ogre. There are bones lying all around, and one of the worst scents
 you've ever smelled is emminating from somewhere inside this cave.  
 ~
 0 8 0
@@ -564,7 +564,7 @@ S
 #18209
 Path to the Dwarven Stronghold~
 You are quite far up the mountain now, and the Dwarven stronghold is not
-too far off.  The path continues right on up to the stronghold.  
+too far off. The path continues right on up to the stronghold.  
 ~
 0 0 5
 D0
@@ -579,7 +579,7 @@ S
 #18210
 Path to the Dwarven Stronghold~
 You are quite far up the mountain now, and the Dwarven stronghold is not
-too far off.  The path continues right on up to the stronghold.  To the
+too far off. The path continues right on up to the stronghold. To the
 east, there is a watch tower.  
 ~
 0 0 5
@@ -598,8 +598,8 @@ D2
 S
 #18211
 Inside of the Watch Tower~
-You are standing inside of the Dwarven watch tower.  Besides the table
-and cot, there is no other furniture in the room.  A ladder leads up to the
+You are standing inside of the Dwarven watch tower. Besides the table
+and cot, there is no other furniture in the room. A ladder leads up to the
 top of the tower.  
 ~
 0 8 0
@@ -614,7 +614,7 @@ D4
 S
 #18212
 Top of the Watch Tower~
-You are standing on the top of the watch tower.  As you look out, you can
+You are standing on the top of the watch tower. As you look out, you can
 see a large area of the mountain.  
 ~
 0 0 5
@@ -626,7 +626,7 @@ S
 #18213
 The Front of the Stronghold~
 You stand in front of a set of huge doors, which are carved out of the
-stone and have very ornate carvings all over them.  To both sides there are
+stone and have very ornate carvings all over them. To both sides there are
 small sections of wall.  
 ~
 0 0 5
@@ -641,9 +641,9 @@ D2
 S
 #18214
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -666,9 +666,9 @@ D3
 S
 #18215
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -683,9 +683,9 @@ D3
 S
 #18216
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -700,9 +700,9 @@ D1
 S
 #18217
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -721,9 +721,9 @@ D2
 S
 #18218
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -746,9 +746,9 @@ D3
 S
 #18219
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -767,9 +767,9 @@ D3
 S
 #18220
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold..f
 ~
 0 8 0
@@ -784,10 +784,10 @@ D3
 S
 #18221
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
-clan that inhabits this stronghold.  Here, there is a long stair, leading
+high. On the walls of the hall are many banners showing the heraldy of the
+clan that inhabits this stronghold. Here, there is a long stair, leading
 down.  
 ~
 0 8 0
@@ -810,9 +810,9 @@ D5
 S
 #18222
 The Entry Hallway~
-You are standing in a large hallway.  There are giant marble pillars
+You are standing in a large hallway. There are giant marble pillars
 which stretch from the floor to the ceiling, which is about thirty feet
-high.  On the walls of the hall are many banners showing the heraldy of the
+high. On the walls of the hall are many banners showing the heraldy of the
 clan that inhabits this stronghold.  
 ~
 0 8 0
@@ -827,7 +827,7 @@ D2
 S
 #18223
 The Stair~
-You are on a long stairway.  It goes down in a corkscrew shape, and is
+You are on a long stairway. It goes down in a corkscrew shape, and is
 carved out of the stone, just like the walls.  
 ~
 0 12 0
@@ -842,9 +842,9 @@ D5
 S
 #18224
 The Nexus of the Halls~
-You are standing at the nexus of four halls.  The walls here are lavishly
+You are standing at the nexus of four halls. The walls here are lavishly
 decorated with ornate carvings, yet this is only a simple hall, with a
-celing about ten feet tall, and no pillars.  The stair continues on down.  
+celing about ten feet tall, and no pillars. The stair continues on down.  
 ~
 0 8 0
 D0
@@ -874,8 +874,8 @@ D5
 S
 #18225
 An Enclave~
-You are standing in a small enclave.  The walls in here are plain, not
-decorated like in the rest of the stronghold.  On the floor there is a
+You are standing in a small enclave. The walls in here are plain, not
+decorated like in the rest of the stronghold. On the floor there is a
 trapdoor.  
 ~
 0 8 0
@@ -890,8 +890,8 @@ trapdoor~
 S
 #18226
 The Store Room~
-You are in a store room.  This appears to be where the Dwarfs keep their
-ale.  In the center of the room is a wooden ladder that leads up to a trap
+You are in a store room. This appears to be where the Dwarfs keep their
+ale. In the center of the room is a wooden ladder that leads up to a trap
 door.  
 ~
 0 9 0
@@ -917,7 +917,7 @@ D3
 S
 #18228
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
 and there are many Dwarfs here, performing their various duties.  
 ~
 0 8 0
@@ -936,7 +936,7 @@ D3
 S
 #18229
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
 and there are many Dwarfs here, performing their various duties.  
 ~
 0 8 0
@@ -955,7 +955,7 @@ D3
 S
 #18230
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
 and there are many Dwarfs here, performing their various duties.  
 ~
 0 8 0
@@ -970,7 +970,7 @@ D3
 S
 #18231
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
 and there are many Dwarfs here, performing their various duties.  
 ~
 0 8 0
@@ -985,8 +985,8 @@ D3
 S
 #18232
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
-and there are many Dwarfs here, performing their various duties.  There is a
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
+and there are many Dwarfs here, performing their various duties. There is a
 door to the south.  
 ~
 0 8 0
@@ -1009,7 +1009,7 @@ D3
 S
 #18233
 The Barracks~
-You are standing in the Dwarfs' Barracks.  Rows of beds line the walls,
+You are standing in the Dwarfs' Barracks. Rows of beds line the walls,
 and there are many Dwarfs here, performing their various duties.  
 ~
 0 8 0
@@ -1025,8 +1025,8 @@ S
 #18234
 The War Room~
 You are standing in room that appears to be where the Dwarfs plan their
-military campains.  There are many maps stuck to the walls, which are stone,
-but not decorated like most walls here.  There is a table in the center of
+military campains. There are many maps stuck to the walls, which are stone,
+but not decorated like most walls here. There is a table in the center of
 the room, which has a map with many lines drawn on it.  
 ~
 0 8 0
@@ -1037,8 +1037,8 @@ D0
 S
 #18235
 The Unfinished Tunnel~
-You are in a tunnel that is only partially finished.  The walls are plain
-and not completely smothed out yet.  You can see that the end of this tunnel
+You are in a tunnel that is only partially finished. The walls are plain
+and not completely smothed out yet. You can see that the end of this tunnel
 is not very far off.  
 ~
 0 8 0
@@ -1053,8 +1053,8 @@ D3
 S
 #18236
 The End of the Unfinished Tunnel~
-You are standing at the end of an unfinished tunnel.  The walls are rough
-and plain.  This tunnel is obviously no where near finished, though you
+You are standing at the end of an unfinished tunnel. The walls are rough
+and plain. This tunnel is obviously no where near finished, though you
 can't guess where it will lead to.  
 ~
 0 8 0
@@ -1065,7 +1065,7 @@ D1
 S
 #18237
 Passage to the King's Chamber~
-You are in a large passage that leads to the Dwarf King's chamber.  It is
+You are in a large passage that leads to the Dwarf King's chamber. It is
 very elaboratley decorated, and you see a pair of large doors in the
 distance.  
 ~
@@ -1081,8 +1081,8 @@ D2
 S
 #18238
 Passage to the King's Chamber~
-You are standing in the hall that leads to the king's chamber.  It is the
-most elaboratley decorated of all the halls.  To your south are a large set
+You are standing in the hall that leads to the king's chamber. It is the
+most elaboratley decorated of all the halls. To your south are a large set
 of doors.  
 ~
 0 8 0
@@ -1097,9 +1097,9 @@ D2
 S
 #18239
 The Dwarf King's Chamber~
-You are standing in the chamber of the Dwarf King.  Huge ornately
+You are standing in the chamber of the Dwarf King. Huge ornately
 decorated columns stretch from the floor to the fifty foot high ceiling. 
-Banners with clan symbols and names of past kings hang on the walls.  The
+Banners with clan symbols and names of past kings hang on the walls. The
 king sits on a beautiful golden throne on top of a large stone dias.  
 ~
 0 8 0
@@ -1110,9 +1110,9 @@ D0
 S
 #18240
 The Foot of the Stair~
-You are standing at the foot of the stair.  You are at a crossing of
+You are standing at the foot of the stair. You are at a crossing of
 several tunnels, which are smaller than the previous ones, and have plain
-walls.  To the east you see an inn.  
+walls. To the east you see an inn.  
 ~
 0 8 0
 D0
@@ -1130,7 +1130,7 @@ D4
 S
 #18262
 In Front of the Bloody Axe Inn~
-You are standing by a door leading into the Bloody Axe inn.  A stream of
+You are standing by a door leading into the Bloody Axe inn. A stream of
 light is coming out of the window cut into the rock wall, and you can hear
 sounds of singing and partying.  
 ~
@@ -1146,8 +1146,8 @@ D3
 S
 #18263
 The Bloody axe~
-You are standing at the bar of the Bloody Axe inn.  The sound of singing
-fills the room, as all the drunk Dwarfs around won't shut up.  The sleeping
+You are standing at the bar of the Bloody Axe inn. The sound of singing
+fills the room, as all the drunk Dwarfs around won't shut up. The sleeping
 room is to the north.  
 ~
 0 8 0
@@ -1162,7 +1162,7 @@ D3
 S
 #18264
 The Resting Room~
-This is the resting room of the Bloody Axe inn.  It is much quieter in
+This is the resting room of the Bloody Axe inn. It is much quieter in
 here than in the rest of the inn, and there are odd looking runes carved
 into the wall.  
 ~
@@ -1174,7 +1174,7 @@ D2
 S
 #18269
 Main Street~
-This appears to be the main street of the Dwarfs' city.  The arms and
+This appears to be the main street of the Dwarfs' city. The arms and
 armor store is to the east.  
 ~
 0 8 0
@@ -1193,7 +1193,7 @@ D2
 S
 #18270
 Arms and Armor Store~
-This is the arms and armor store.  There are many fine looking weapons
+This is the arms and armor store. There are many fine looking weapons
 hanging on the wall, and there is a Dwarf smith here, ready to sell you his
 goods.  
 ~
@@ -1205,8 +1205,8 @@ D3
 S
 #18273
 Main Street~
-This appears to be the main street of the Dwarfs' city.  The training
-hall is to the west, and a door is to the east.  The street seems to end
+This appears to be the main street of the Dwarfs' city. The training
+hall is to the west, and a door is to the east. The street seems to end
 here.  
 ~
 0 8 0
@@ -1225,7 +1225,7 @@ D3
 S
 #18274
 The Training Hall~
-This is the Dwarfs' training room.  There are stuffed dummies lying
+This is the Dwarfs' training room. There are stuffed dummies lying
 around and the floor has a has a soft padded area in the center of the room
 .  
 ~
@@ -1237,7 +1237,7 @@ D1
 S
 #18276
 The Alchemist's Lab~
-This is the lab of the alchemist.  The room is cluttered with all sorts
+This is the lab of the alchemist. The room is cluttered with all sorts
 of lab equipment, and there is a small table in the center of the room that
 the alchemist works at.  
 ~

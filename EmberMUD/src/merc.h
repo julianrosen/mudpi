@@ -1309,6 +1309,15 @@ void stop_follower args( ( CHAR_DATA * ch ) );
 void nuke_pets args( ( CHAR_DATA * ch ) );
 void die_follower args( ( CHAR_DATA * ch ) );
 bool is_same_group args( ( CHAR_DATA * ach, CHAR_DATA * bch ) );
+// JR: pronouns
+/*
+char * he_she( int ); char * He_she( int );
+char * him_her( int ); char * Him_her( int );
+char * his_her( int ); char * His_her( int );
+char * his_hers( int ); char * His_hers( int );
+char * be_verb( int ); char * Be_verb( int );
+char * gender( int ); char * Gender( int );
+*/
 
 extern bool reap_shells;
 extern const char echo_off_str[];

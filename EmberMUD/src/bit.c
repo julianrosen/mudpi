@@ -206,9 +206,8 @@ const struct flag_type area_flags[] = {
 const struct flag_type sex_flags[] = {
     {"male", SEX_MALE, TRUE},
     {"female", SEX_FEMALE, TRUE},
-    {"neutral", SEX_NEUTRAL, TRUE},
-    {"random", SEX_RANDOM, TRUE},        /* ROM */ /* Edited by JR */
     {"nonbinary", SEX_NB, TRUE}, /* Added by JR */
+    {"random", SEX_RANDOM, TRUE},        /* ROM */ /* Edited by JR */
     {"none", SEX_NEUTRAL, TRUE},
     {"", 0, 0}
 };

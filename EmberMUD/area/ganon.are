@@ -57,7 +57,7 @@ Darkoth~
 Darkoth~
 Darkoth stares at you with his dark brown eyes.
 ~
-Darkoth has an intellectual kind of look.  He wears an old beat up pair of glasses on
+Darkoth has an intellectual kind of look. He wears an old beat up pair of glasses on
 his head.
 ~
 Human~
@@ -277,10 +277,10 @@ unknown~
 #ROOMS
 #21700
 Entrance to the secret garden~
-You are standing at the entrance to a magical garden.  There have been
-rumors about this place, but few people have ever believed them.  It looks
-kind of deserted, as if no one's been here in a long time.  To the south is
-the entrance gate, which is creaking freely in the wind.  Deep green and
+You are standing at the entrance to a magical garden. There have been
+rumors about this place, but few people have ever believed them. It looks
+kind of deserted, as if no one's been here in a long time. To the south is
+the entrance gate, which is creaking freely in the wind. Deep green and
 purple vines cover the gate.  
 ~
 0 4 10
@@ -295,9 +295,9 @@ D3
 S
 #21701
 Inside the gate~
-From here there is a grand view of the whole garden.  Beautiful flowers,
-vines, and shrubs spring up all over.  The view alone was worth the risk of
-entering.  The faint stench of decay is in the air.  It doesn't appear that
+From here there is a grand view of the whole garden. Beautiful flowers,
+vines, and shrubs spring up all over. The view alone was worth the risk of
+entering. The faint stench of decay is in the air. It doesn't appear that
 anyone has been around in years, yet strange animal sounds echo throughout. 
 To the east is a rather worn down looking guard house.  
 ~
@@ -318,10 +318,10 @@ S
 #21702
 On the bridge~
 The draw-bridge leads over to all the restless animals on the west side
-of the garden.  It must have been here to keep the animals seperated from
-land when the bridge was raised.  The little wooden bridge is quite a sight,
+of the garden. It must have been here to keep the animals seperated from
+land when the bridge was raised. The little wooden bridge is quite a sight,
 it's gorgeously crafted handrails show all the time and hard work that went
-into it.  There is a tiny stream of water trickling underneath.  
+into it. There is a tiny stream of water trickling underneath.  
 ~
 0 2097152 10
 D1
@@ -335,9 +335,9 @@ D3
 S
 #21703
 In the guard house~
-Eeew...  The smell in here is overwhelming.  The source of the smell is
-sleeping in the corner.  Seems that some poor homeless man has made this
-place his home.  The walls here are rotting and big chunks are falling from
+Eeew... The smell in here is overwhelming. The source of the smell is
+sleeping in the corner. Seems that some poor homeless man has made this
+place his home. The walls here are rotting and big chunks are falling from
 the ceiling.  
 ~
 0 9 0
@@ -348,10 +348,10 @@ D3
 S
 #21704
 Outside the Dragon cage~
-It is rumored that many have entered here, but never returned.  Soon, you
-discover why...  Directly to the west is a HUGE Dragon.  The hot flames of
-the dragon make this a very humid place to be.  Over top the Dragon
-snorting, there are still more sounds.  They seem to be coming from both the
+It is rumored that many have entered here, but never returned. Soon, you
+discover why... Directly to the west is a HUGE Dragon. The hot flames of
+the dragon make this a very humid place to be. Over top the Dragon
+snorting, there are still more sounds. They seem to be coming from both the
 south and the north, maybe this place isn't deserted after all?  
 ~
 0 2097152 10
@@ -374,9 +374,9 @@ D3
 S
 #21705
 In the Dragon Cage~
-It's amazing that this brittle cage could hold the enormous beast.  There
+It's amazing that this brittle cage could hold the enormous beast. There
 is Dragon saliva, along with other things on the ground which make it hard
-to stand up.  It is roasting HOT in here, and very hard to breathe.  It
+to stand up. It is roasting HOT in here, and very hard to breathe. It
 doesn't help with a big Dragon breathing down your neck either.  
 ~
 0 2097152 10
@@ -388,7 +388,7 @@ S
 #21706
 A stone walkway~
 A half dirt, half stone walkway leads straight through the center of the
-garden.  A big wooden sign nailed to a tree is visible here.  
+garden. A big wooden sign nailed to a tree is visible here.  
 ~
 0 0 10
 D0
@@ -407,7 +407,7 @@ S
 #21707
 North west corner of the garden~
 The cage to the west is kind of out of the way and hidden from the other
-cages.  Almost like someone is trying to hide it.  Cobwebs and dust are
+cages. Almost like someone is trying to hide it. Cobwebs and dust are
 flying all over the place, whatever is in the cage is making quite a
 rackett.  
 ~
@@ -424,7 +424,7 @@ S
 #21708
 The wererat's cage~
 The home of the dreaded wererat looks like new, as if someone has been
-taking care of it.  The shiny new bars glisten and sparkle.  There are fresh
+taking care of it. The shiny new bars glisten and sparkle. There are fresh
 teethmarks on them, that would make one believe he had chewed through his
 old cage, and had needed a new one.  
 ~
@@ -437,10 +437,10 @@ S
 #21709
 Outside Darkoth's cage~
 As the path continues to the south, there is yet another cage with an
-unusual monster in it to the west.  Now this is getting just plain freaky. 
-How did all these animals get here?  The most logical answer anyone has been
+unusual monster in it to the west. Now this is getting just plain freaky. 
+How did all these animals get here? The most logical answer anyone has been
 able to come up with is that they were put here to keep them out of harm's
-way, but no one is certain.  The path continues to the south.  
+way, but no one is certain. The path continues to the south.  
 ~
 0 2097152 10
 D0
@@ -458,8 +458,8 @@ D3
 S
 #21710
 Inside Darkoth's cage~
-By the looks of it Darkoth is a fairly peaceful monster.  His cage is
-kept neat and there is a big stack of books over in the corner.  He likes to
+By the looks of it Darkoth is a fairly peaceful monster. His cage is
+kept neat and there is a big stack of books over in the corner. He likes to
 keep clean too, because a shower stall is comming from the north wall. 
 However, as you may have discovered by now, the one thing that Darkoth can't
 stand is company.  
@@ -473,8 +473,8 @@ S
 #21711
 On the lake~
 As you continue down the lake the current starts moving faster and
-faster.  That's probably because to the east, the lake turns into a gushing
-waterfall.  There is a small island to the south.  
+faster. That's probably because to the east, the lake turns into a gushing
+waterfall. There is a small island to the south.  
 ~
 0 4 7
 D1
@@ -493,7 +493,7 @@ S
 #21712
 A stone walkway~
 A half dirt, half stone walkway leads straight through the center of the
-garden.  A big fountain here gushes up, creating a arch around you.  
+garden. A big fountain here gushes up, creating a arch around you.  
 ~
 0 0 10
 D0
@@ -511,8 +511,8 @@ D2
 S
 #21713
 A stone walkway~
-As the stone path continues to the south, it splits off to the east.  The
-grass around the path appears to be getting longer as it continues.  Maybe
+As the stone path continues to the south, it splits off to the east. The
+grass around the path appears to be getting longer as it continues. Maybe
 there is a water supply around here making the grass grow?  
 ~
 0 1024 10
@@ -532,8 +532,8 @@ S
 #21714
 End of the road~
 You have reached the end of the little stone path and the far end of the
-garden.  The grass is really green and tall here.  The other forms of plants
-here are also doing extremely well.  You think that you discover why this
+garden. The grass is really green and tall here. The other forms of plants
+here are also doing extremely well. You think that you discover why this
 is, as you hear a lake of water splashing around to the east.  
 ~
 0 0 10
@@ -548,9 +548,9 @@ D1
 S
 #21715
 Entrance to the unwanted animal pen~
-This little side trail branches off from the main path.  It looks like an
-odd entrance way of some sort.  Lattace covers the north, south, and above
-you.  Thick vines grow all through it.  To the east is a lattace door.  
+This little side trail branches off from the main path. It looks like an
+odd entrance way of some sort. Lattace covers the north, south, and above
+you. Thick vines grow all through it. To the east is a lattace door.  
 ~
 0 0 10
 D1
@@ -564,8 +564,8 @@ D3
 S
 #21716
 Premonade~
-You are standing on a little brick patio off of the main path.  There is
-a cozy looking bench here to rest on.  A few pigeons are hanging around
+You are standing on a little brick patio off of the main path. There is
+a cozy looking bench here to rest on. A few pigeons are hanging around
 looking for food.  
 ~
 0 0 10
@@ -576,9 +576,9 @@ D3
 S
 #21717
 On the lake~
-You have discovered the mystical lake of the secret garden.  The water is
-beautiful.  Looking down through the crystal clear water, you can see
-straight to the bottom.  All sorts of aquatic life grow on it.  The lake
+You have discovered the mystical lake of the secret garden. The water is
+beautiful. Looking down through the crystal clear water, you can see
+straight to the bottom. All sorts of aquatic life grow on it. The lake
 continues to the east.  
 ~
 0 0 7
@@ -593,9 +593,9 @@ D3
 S
 #21718
 Southeast corner of the pen~
-This is the pen where all the unwanted animals are kept.  It is covered
+This is the pen where all the unwanted animals are kept. It is covered
 by bushes planted around the perimiter, to make sure the animals don't
-escape.  The floor is covered with what seems to be a heavy tarp.  
+escape. The floor is covered with what seems to be a heavy tarp.  
 ~
 0 0 10
 D0
@@ -609,9 +609,9 @@ D3
 S
 #21719
 The southwest corner of the pen~
-This is the pen where all the unwanted animals are kept.  It is covered
+This is the pen where all the unwanted animals are kept. It is covered
 by bushes planted around the perimiter, to make sure the animals don't
-escape.  The floor is covered with what seems to be a heavy tarp.  
+escape. The floor is covered with what seems to be a heavy tarp.  
 ~
 0 0 10
 D0
@@ -629,9 +629,9 @@ D3
 S
 #21720
 The Pen~
-This is the pen where all the unwanted animals are kept.  It is covered
+This is the pen where all the unwanted animals are kept. It is covered
 by bushes planted around the perimiter, to make sure the animals don't
-escape.  The floor is covered with what seems to be a heavy tarp.  
+escape. The floor is covered with what seems to be a heavy tarp.  
 ~
 0 0 10
 D2
@@ -645,9 +645,9 @@ D3
 S
 #21721
 Northwest corner of the pen~
-This is the pen where all the unwanted animals are kept.  It is covered
+This is the pen where all the unwanted animals are kept. It is covered
 by bushes planted around the perimiter, to make sure the animals don't
-escape.  The floor is covered with what seems to be a heavy tarp.  
+escape. The floor is covered with what seems to be a heavy tarp.  
 ~
 0 0 10
 D1
@@ -661,9 +661,9 @@ D2
 S
 #21722
 A dead end~
-You've reached the end of the tiny path.  This road seemed like it would
-continue on forever, but it just stops here all of the sudden.  There is a
-solid wall of shrubs blocking the way to the south.  To the west is a cage,
+You've reached the end of the tiny path. This road seemed like it would
+continue on forever, but it just stops here all of the sudden. There is a
+solid wall of shrubs blocking the way to the south. To the west is a cage,
 much smaller than the other's.  
 ~
 0 0 10
@@ -679,8 +679,8 @@ S
 #21723
 Inside Phardon's cell~
 This place is really cramped, you have to duck just so you don't hit your
-head on the ceiling.  It only makes sense though to have a small cage for a
-small monster.  The cage looks fairly decent, nothing out of the ordenary...
+head on the ceiling. It only makes sense though to have a small cage for a
+small monster. The cage looks fairly decent, nothing out of the ordenary...
 ~
 0 0 10
 D1
@@ -690,22 +690,22 @@ D1
 S
 #21724
 At the bottom of the falls~
-AAAAHHHHH...  As you tumble down the waterfall the sharp rocks cut into
-you and the water bashes against you.  What were you thinking, trying to go
-down a waterfall?  When you reach the bottom, the water makes it impossible
-to swim back to the surface.  After struggling for a minute your eyes close
+AAAAHHHHH... As you tumble down the waterfall the sharp rocks cut into
+you and the water bashes against you. What were you thinking, trying to go
+down a waterfall? When you reach the bottom, the water makes it impossible
+to swim back to the surface. After struggling for a minute your eyes close
 and you black out.  
 ~
 0 5 7
 S
 #21725
 On lizard island~
-You have made it to lizard island.  If you don't know, it's called lizard
-island because well..  This is where all the lizards go as a kind of get
-away from all the other races.  But i guess they need a new hideout now,
-because you have found them.  The island itself is just amazing.  The soft
+You have made it to lizard island. If you don't know, it's called lizard
+island because well.. This is where all the lizards go as a kind of get
+away from all the other races. But i guess they need a new hideout now,
+because you have found them. The island itself is just amazing. The soft
 white sand feels so good on your feet, and the tropical atmosphere is so
-relaxing.  You can't blame the lizards for wanting to stay here.  
+relaxing. You can't blame the lizards for wanting to stay here.  
 ~
 0 0 10
 D0
@@ -723,8 +723,8 @@ D2
 S
 #21726
 Lizard island~
-The east part of the island isn't much different than the rest.  You see
-water for miles and miles, but not much more.  It looks like the only exit
+The east part of the island isn't much different than the rest. You see
+water for miles and miles, but not much more. It looks like the only exit
 is back to the west, the way you came.  
 ~
 0 0 10
@@ -735,9 +735,9 @@ D3
 S
 #21727
 Far corner ~
-This is the far corner of the island.  The water around here is a darker
-blue, and the sand is also a little darker.  A big palm tree shades the
-whole area making it a nice place to take a nap.  You think you see a little
+This is the far corner of the island. The water around here is a darker
+blue, and the sand is also a little darker. A big palm tree shades the
+whole area making it a nice place to take a nap. You think you see a little
 red bottle sticking out of the sand.  
 ~
 0 0 0
@@ -749,7 +749,7 @@ S
 #21728
 Lizard Island~
 As you explore the island deeper, the thought of all these lizards
-around you gets to be pretty disturbing.  There are lizards everywhere
+around you gets to be pretty disturbing. There are lizards everywhere
 you look, up trees, under stones, in the sand, under logs, and just
 about anywhere else you could possibly look.
 ~

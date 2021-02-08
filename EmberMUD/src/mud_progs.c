@@ -739,9 +739,11 @@ char *parse_command( char *instring )
 void parse_command_var( char var, char *outbuf )
 {
     char buf[MAX_STRING_LENGTH];
+    /*
     static char *he_she[] = { "it", "he", "she" };
     static char *him_her[] = { "it", "him", "her" };
     static char *his_her[] = { "its", "his", "her" };
+    */
 
     *outbuf = '\0';
     *buf = '\0';
@@ -824,7 +826,7 @@ void parse_command_var( char var, char *outbuf )
         if ( ProgTriggeredBy )
         {
             if ( can_see( ProgSource, ProgTriggeredBy ) )
-                strcat( outbuf, he_she[ProgTriggeredBy->sex] );
+                strcat( outbuf, he_she(ProgTriggeredBy->sex) );
             else
                 strcat( outbuf, "someone" );
         }
@@ -834,7 +836,7 @@ void parse_command_var( char var, char *outbuf )
         if ( ProgVictim )
         {
             if ( can_see( ProgSource, ProgVictim ) )
-                strcat( outbuf, he_she[ProgVictim->sex] );
+                strcat( outbuf, he_she(ProgVictim->sex) );
             else
                 strcat( outbuf, "someone" );
         }
@@ -855,7 +857,7 @@ void parse_command_var( char var, char *outbuf )
         return;
     case 'j':
         if ( ProgSource )
-            strcat( outbuf, he_she[ProgSource->sex] );
+            strcat( outbuf, he_she(ProgSource->sex) );
 
         return;
     case 'J':
@@ -863,12 +865,12 @@ void parse_command_var( char var, char *outbuf )
             mprog_get_RandomPC(  );
 
         if ( RandomPC )
-            strcat( outbuf, he_she[RandomPC->sex] );
+            strcat( outbuf, he_she(RandomPC->sex) );
 
         return;
     case 'k':
         if ( ProgSource )
-            strcat( outbuf, him_her[ProgSource->sex] );
+            strcat( outbuf, him_her(ProgSource->sex) );
 
         return;
     case 'K':
@@ -876,12 +878,12 @@ void parse_command_var( char var, char *outbuf )
             mprog_get_RandomPC(  );
 
         if ( RandomPC )
-            strcat( outbuf, him_her[RandomPC->sex] );
+            strcat( outbuf, him_her(RandomPC->sex) );
 
         return;
     case 'l':
         if ( ProgSource )
-            strcat( outbuf, his_her[ProgSource->sex] );
+            strcat( outbuf, his_her(ProgSource->sex) );
 
         return;
     case 'L':
@@ -889,14 +891,14 @@ void parse_command_var( char var, char *outbuf )
             mprog_get_RandomPC(  );
 
         if ( RandomPC )
-            strcat( outbuf, his_her[RandomPC->sex] );
+            strcat( outbuf, his_her(RandomPC->sex) );
 
         return;
     case 'm':
         if ( ProgTriggeredBy )
         {
             if ( can_see( ProgSource, ProgTriggeredBy ) )
-                strcat( outbuf, him_her[ProgTriggeredBy->sex] );
+                strcat( outbuf, him_her(ProgTriggeredBy->sex) );
             else
                 strcat( outbuf, "someone" );
         }
@@ -906,7 +908,7 @@ void parse_command_var( char var, char *outbuf )
         if ( ProgVictim )
         {
             if ( can_see( ProgSource, ProgVictim ) )
-                strcat( outbuf, him_her[ProgVictim->sex] );
+                strcat( outbuf, him_her(ProgVictim->sex) );
             else
                 strcat( outbuf, "someone" );
         }
@@ -976,7 +978,7 @@ void parse_command_var( char var, char *outbuf )
         if ( ProgTriggeredBy )
         {
             if ( can_see( ProgSource, ProgTriggeredBy ) )
-                strcat( outbuf, his_her[ProgTriggeredBy->sex] );
+                strcat( outbuf, his_her(ProgTriggeredBy->sex) );
             else
                 strcat( outbuf, "someone" );
         }
@@ -986,7 +988,7 @@ void parse_command_var( char var, char *outbuf )
         if ( ProgVictim )
         {
             if ( can_see( ProgSource, ProgVictim ) )
-                strcat( outbuf, his_her[ProgVictim->sex] );
+                strcat( outbuf, his_her(ProgVictim->sex) );
             else
                 strcat( outbuf, "someone" );
         }

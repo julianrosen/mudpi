@@ -48,6 +48,8 @@ int get_cost
 args( ( CHAR_DATA * ch, CHAR_DATA * keeper, OBJ_DATA * obj, bool fBuy ) );
 #undef  CD
 
+
+
 /* RT part of the corpse looting code */
 
 bool can_loot( CHAR_DATA * ch, OBJ_DATA * obj )
@@ -2205,7 +2207,7 @@ void do_steal( CHAR_DATA * ch, char *argument )
             break;
         case 1:
             sprintf( buf, "%s couldn't rob %s way out of a paper bag!",
-                     name, ( ch->sex == 2 ) ? "her" : "his" );
+                     name, his_her( ch->sex ) );
             break;
         case 2:
             sprintf( buf, "%s tried to rob me!", name );
@@ -2241,7 +2243,7 @@ void do_steal( CHAR_DATA * ch, char *argument )
             break;
         case 1:
             sprintf( buf, "%s couldn't rob %s way out of a paper bag!",
-                     name, ( ch->sex == 2 ) ? "her" : "his" );
+                     name, his_her( ch->sex ) );
             break;
         case 2:
             sprintf( buf, "%s tried to rob me!", name );
@@ -2301,7 +2303,7 @@ void do_steal( CHAR_DATA * ch, char *argument )
             break;
         case 1:
             sprintf( buf, "%s couldn't rob %s way out of a paper bag!",
-                     name, ( ch->sex == 2 ) ? "her" : "his" );
+                     name, his_her( ch->sex ) );
             break;
         case 2:
             sprintf( buf, "%s tried to rob me!", name );

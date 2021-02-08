@@ -224,7 +224,7 @@ guard moose's~
 moose's guard~
 One of Moose's guards protects him.
 ~
-A powerful bodyguard.  He will die protecting Moose.  
+A powerful bodyguard. He will die protecting Moose.  
 ~
 Human~
 AB 0 0 S
@@ -976,7 +976,7 @@ A
 #ROOMS
 #23700
 Secret Passageway~
-This is what appears to be a small ventilation shaft of some sort.  Thick
+This is what appears to be a small ventilation shaft of some sort. Thick
 black clouds of smoke come through every once in a while, making it extremly
 hard to breathe.  
 ~
@@ -1008,7 +1008,7 @@ S
 #23702
 Secret Passageway~
 This is a narrow shaft through which fumes and smoke exit through from
-below.  The smog forces the air out of your lungs and you find it hard to
+below. The smog forces the air out of your lungs and you find it hard to
 breathe.  
 ~
 0 2097152 0
@@ -1038,8 +1038,8 @@ grate~
 S
 #23704
 Inside an Oven~
-You are inside a stove right in the middle of a fire!  The flames burn
-you as you struggle to get to an exit.  There is a steel door north and a
+You are inside a stove right in the middle of a fire! The flames burn
+you as you struggle to get to an exit. There is a steel door north and a
 grate above you.  
 ~
 0 2097152 0
@@ -1087,7 +1087,7 @@ D3
 S
 #23706
 Entrance to the Level 10 Forges~
-This area is made as a challenge for level 10 players.  If you are level
+This area is made as a challenge for level 10 players. If you are level
 15, you have no forge, but your vaults are located due west from here.  
 ~
 0 2097164 0
@@ -1102,11 +1102,11 @@ D3
 S
 #23707
 Entrance to the Level 20 Forges~
-Past this point are level 20 mobs and eq.  For convienance, the level 15
-eq is located strait west.  WARNING to level 15 players, if you procede into
-the level 20 vaults and get killed it is your own fault.  No excuses.  Level
+Past this point are level 20 mobs and eq. For convienance, the level 15
+eq is located strait west. WARNING to level 15 players, if you procede into
+the level 20 vaults and get killed it is your own fault. No excuses. Level
 20 players will find this a challenge, while those closer to 30 will find it
-a little easier.  Have fun.  
+a little easier. Have fun.  
 ~
 0 2097164 0
 D1
@@ -1120,8 +1120,8 @@ D3
 S
 #23708
 Entrance to the Level 30 Forges~
-This is the entrance to the level 30 forges.  If you are below level 30
-you will most likely have a hard time here.  Level 30+ characters, however,
+This is the entrance to the level 30 forges. If you are below level 30
+you will most likely have a hard time here. Level 30+ characters, however,
 should trudge on ahead.  
 ~
 0 2097164 0
@@ -1137,8 +1137,8 @@ S
 #23709
 Beryllium Forge~
 This is an extremly large room were a blacksmith places some beryllium in
-a fire and welds it into the desired shape.  Beryllium is light weight, yet
-incredibly durable metal which is mined from within the earth.  Whoever
+a fire and welds it into the desired shape. Beryllium is light weight, yet
+incredibly durable metal which is mined from within the earth. Whoever
 built this forge hit paydirt.  
 ~
 0 2097160 0
@@ -1153,9 +1153,9 @@ D3
 S
 #23710
 Beryllium Forge~
-This is small room where blacksmiths melt the beryllium.  Man-powered
+This is small room where blacksmiths melt the beryllium. Man-powered
 conveyour belts carry coal and other such flamable elements into a strongly
-burning fire.  On the other side of the room is another conveyour belt where
+burning fire. On the other side of the room is another conveyour belt where
 the mined beryllium is sent in.  
 ~
 0 2097160 0
@@ -1178,8 +1178,8 @@ D3
 S
 #23711
 Beryllium Mine~
-You are in a cave where the walls gleam with rocks.  Miners chip away at
-them and place them on a conveyour belt.  A slave turns a crank which powers
+You are in a cave where the walls gleam with rocks. Miners chip away at
+them and place them on a conveyour belt. A slave turns a crank which powers
 the belt.  
 ~
 0 8 0
@@ -1194,7 +1194,7 @@ D5
 S
 #23712
 Beryllium Mine Shaft~
-A small shaft descends down into the dark caverns below the earth.  The
+A small shaft descends down into the dark caverns below the earth. The
 elevator must be at the bottom so you have no way to get down there.  
 ~
 0 8 0
@@ -1206,7 +1206,7 @@ S
 #23713
 Beryllium Forge~
 You are in forge room where skilled blacksmiths forge weapons and armor
-from heated metal.  The melted beryllium is constantly brought in by a
+from heated metal. The melted beryllium is constantly brought in by a
 conveyour belt powered by a slave.  
 ~
 0 8 0
@@ -1222,8 +1222,8 @@ S
 #23714
 Beryllium Forge~
 You stand in a forge room where blacksmiths are constantly molding metal
-fragments with large iron hammers.  The pieces are carefully dipped in water
-where they sizzle and give off steam.  Then they are placed on conveyour
+fragments with large iron hammers. The pieces are carefully dipped in water
+where they sizzle and give off steam. Then they are placed on conveyour
 belts and carried off east.  
 ~
 0 8 0
@@ -1235,7 +1235,7 @@ S
 #23715
 Beryllium Forge~
 You are in another forge room where some of the world's best blacksmiths
-hammer metal into swords and daggers.  Sparks fly al over the room as each
+hammer metal into swords and daggers. Sparks fly al over the room as each
 piece is smashed into shape by iron hammers.  
 ~
 0 8 0
@@ -1251,8 +1251,8 @@ S
 #23716
 Beryllium Forge~
 This is some sort of cooling room where the heated metal is places in
-cooled water.  Each piece sizzles and gives of a large amount of steam with
-every dunk.  The weapons all seem to be heading north on a conveyour belt.  
+cooled water. Each piece sizzles and gives of a large amount of steam with
+every dunk. The weapons all seem to be heading north on a conveyour belt.  
 ~
 0 8 0
 D0
@@ -1267,9 +1267,9 @@ S
 #23717
 Beryllium Forge~
 This large room is filled with blacksmiths and workers who take the newly
-forged metal and take it to the vaults east and west of you.  The west vault
+forged metal and take it to the vaults east and west of you. The west vault
 has a shield over it, indicating armor, and the east vault has a sword over
-it, most likely weapons.  North is a brightly lit room.  
+it, most likely weapons. North is a brightly lit room.  
 ~
 0 8 0
 D0
@@ -1292,7 +1292,7 @@ S
 #23718
 Weapon's Vault~
 This is a large room with strong, sturdy steels walls encasing it. 
-Weapons racks hold all kinds of weapons on them.  The weapons look good for
+Weapons racks hold all kinds of weapons on them. The weapons look good for
 fighting but you couldn't get much from selling them.  
 ~
 0 8 0
@@ -1303,8 +1303,8 @@ D3
 S
 #23719
 Armor Vault~
-You are definitely in a valuable room, the armor vault.  Important pieces
-of armor lie on the ground in neat little groups.  They look strong enough
+You are definitely in a valuable room, the armor vault. Important pieces
+of armor lie on the ground in neat little groups. They look strong enough
 to protect you against many a foes, but no armouror would buy them.  
 ~
 0 8 0
@@ -1316,7 +1316,7 @@ S
 #23720
 Meese's Room~
 You stand in the room of Meese, head blacksmith of the level 10 forges. 
-He is known the world over for his excellent blacksmithing abilities.  He
+He is known the world over for his excellent blacksmithing abilities. He
 rises from his throne and looks at you.  "Yes?"  "Can I help you?"  
 ~
 0 0 0
@@ -1328,7 +1328,7 @@ S
 #23721
 Beryllium Forge~
 This is a large factory type room where large men are cracking large
-pieces of metal with iron hammers.  Conveyour belts move to-be-forged
+pieces of metal with iron hammers. Conveyour belts move to-be-forged
 Beryllium along.  
 ~
 0 2097160 0
@@ -1348,7 +1348,7 @@ S
 #23722
 Beryllium Forge~
 You are in a small hallway where guards stand watch at vaults to your
-west and north.  A tattered sign reads as follows: Attention: Level 15
+west and north. A tattered sign reads as follows: Attention: Level 15
 Vaults Do Not Enter Moose, Minor Blacksmith 
 ~
 0 2097160 0
@@ -1367,7 +1367,7 @@ D3
 S
 #23723
 Level 15 Vault~
-You are in a very secure vault with 2' steel walls.  Strong armor lies
+You are in a very secure vault with 2' steel walls. Strong armor lies
 neatly sorted on the ground.  
 ~
 0 8 0
@@ -1378,7 +1378,7 @@ D1
 S
 #23724
 Level 15 Vault~
-This is a small vault with steel walls and cold metal floor.  A metal
+This is a small vault with steel walls and cold metal floor. A metal
 storage crate lies in the middle of the room.  
 ~
 0 8 0
@@ -1390,8 +1390,8 @@ S
 #23725
 Beryllium Forge~
 This appears to be a forging room where the beryllium is molded into
-swords and shields.  Blacksmiths are constantly banging and molding the
-precious metal in the desired shape.  Sparks fly all over the room ever time
+swords and shields. Blacksmiths are constantly banging and molding the
+precious metal in the desired shape. Sparks fly all over the room ever time
 a hammer clangs down.  
 ~
 0 2097160 0
@@ -1407,8 +1407,8 @@ S
 #23726
 Beryllium Forge~
 You are in a cooling room where the finished weapons are dipped into tubs
-of water, releasing steam which fills the room.  Every dip sounds off a
-'sizzle' which sends chills down your spine.  The finished weapons are then
+of water, releasing steam which fills the room. Every dip sounds off a
+'sizzle' which sends chills down your spine. The finished weapons are then
 transported west to the vaults.  
 ~
 0 8 0
@@ -1423,8 +1423,8 @@ D3
 S
 #23727
 Beryllium Forge~
-This is a solid metal room where exits lead in all directions.  South is
-the armor vault and to you west is the weapons vault.  North lies Moose's
+This is a solid metal room where exits lead in all directions. South is
+the armor vault and to you west is the weapons vault. North lies Moose's
 chamber, where he oversees all of the workers.  
 ~
 0 8 0
@@ -1458,7 +1458,7 @@ D1
 S
 #23729
 Level 20 Vault~
-This is a small room with lots of armor layed out on the cold floor.  It
+This is a small room with lots of armor layed out on the cold floor. It
 is grouped in small piles for inspection by Moose.  
 ~
 0 8 0
@@ -1496,7 +1496,7 @@ S
 #23732
 Beryllium Forge~
 This is a mass assembly line cooling room where forged metal is taken off
-of man-powered assembly lines and dipped in tubs of water.  Each dip gives
+of man-powered assembly lines and dipped in tubs of water. Each dip gives
 off a sizzle and steam fills the room.  
 ~
 0 2097160 0
@@ -1512,7 +1512,7 @@ S
 #23733
 Beryllium Forge~
 This room is filled with workers and other laborors who take the pieces
-of armor and carry them off west.  East is where all of the workers carry
+of armor and carry them off west. East is where all of the workers carry
 the weapons.  
 ~
 0 2097160 0
@@ -1536,8 +1536,8 @@ S
 #23734
 Beryllium Forge~
 You are in a small hallway leading to the vaults where the armor is
-carried off to.  The vault guards stop you though and won't let you pass
-without proper authorization.  I guess your stinking authorization is the
+carried off to. The vault guards stop you though and won't let you pass
+without proper authorization. I guess your stinking authorization is the
 blade of your sword!  
 ~
 0 2097160 0
@@ -1563,7 +1563,7 @@ S
 #23736
 Beryllium Forge~
 You stand in small hallway where you are constantly bumped and pushed out
-of the way by workers carrying newly forged weapons to the vault.  The
+of the way by workers carrying newly forged weapons to the vault. The
 guards tell you that no one gets through without autorization.  
 ~
 0 2097160 0
@@ -1589,7 +1589,7 @@ S
 #23738
 Beryllium Forge~
 This is a large hall where at the end sits the second commanding
-blacksmith.  He controls all of the vaults you have seen except the last.  
+blacksmith. He controls all of the vaults you have seen except the last.  
 ~
 0 2097160 0
 D0
@@ -1604,8 +1604,8 @@ S
 #23739
 Mose's Chamber~
 Mose sits on a throne at the end of the room where he orders his servants
-to give messages to his workers.  He looks down at you and tells you, 'Who
-gave authorization for you to be here?  Leave at once!"  
+to give messages to his workers. He looks down at you and tells you, 'Who
+gave authorization for you to be here? Leave at once!"  
 ~
 0 2097160 0
 D0
@@ -1620,7 +1620,7 @@ S
 #23740
 Secret Passageway~
 You are behind Mose's throne in what appears to be an unused part of the
-forge.  Dust and cobwebs lay strewn about.  
+forge. Dust and cobwebs lay strewn about.  
 ~
 0 2097161 0
 D0
@@ -1634,9 +1634,9 @@ D2
 S
 #23741
 Entrance to the Level 40 Forge~
-This is the entrance into the level 40 forges.  This place was hidden
-from people like you.  If you are strong enough, head for the head
-blacksmith.  Valuable eq can be found within the master level of the forges.
+This is the entrance into the level 40 forges. This place was hidden
+from people like you. If you are strong enough, head for the head
+blacksmith. Valuable eq can be found within the master level of the forges.
 ~
 0 2097160 0
 D0
@@ -1651,7 +1651,7 @@ S
 #23742
 Beryllium Forge~
 This looks as though the part of the forge was in use at one time but now
-hammers and old rusted anvils lay to waste.  Cobwebs hang from the walls and
+hammers and old rusted anvils lay to waste. Cobwebs hang from the walls and
 get in you throat.  
 ~
 0 2097160 0
@@ -1667,8 +1667,8 @@ S
 #23743
 Beryllium Forge~
 The room ahead opens into a large cross-section with exits leading in all
-four cardinal directions.  This place is very dusty and has not been in use
-for many many years.  It looks as though you wouldn't find anything useful
+four cardinal directions. This place is very dusty and has not been in use
+for many many years. It looks as though you wouldn't find anything useful
 in here.  
 ~
 0 2097160 0
@@ -1684,7 +1684,7 @@ S
 #23744
 Beryllium Forge~
 This is the room where armor and weapons were hauled off to the armor and
-weapon's vault that lie ahead.  Now it lay unused for many a year, just
+weapon's vault that lie ahead. Now it lay unused for many a year, just
 collecting dust.  
 ~
 0 2097160 0
@@ -1700,7 +1700,7 @@ S
 #23745
 Beryllium Forge~
 This room is where the armor and weapons were taken to the main vaults,
-which are now rusted and broken.  Ahead lies a sort of main chamber.  
+which are now rusted and broken. Ahead lies a sort of main chamber.  
 ~
 0 2097160 0
 D0
@@ -1719,7 +1719,7 @@ S
 #23746
 Beryllium Forge~
 You are in a small corridor where many men have been laid to rest by the
-guards on failed burglary attempts.  The vault now lies open to all, the
+guards on failed burglary attempts. The vault now lies open to all, the
 door rusted and broken off.  
 ~
 0 2097160 0
@@ -1738,7 +1738,7 @@ D3
 S
 #23747
 Armor Vault~
-This is a large steel room with mold all over the walls.  Rusted armor
+This is a large steel room with mold all over the walls. Rusted armor
 lies unused all about and it would provide as much protection as a piece of
 paper.  
 ~
@@ -1751,7 +1751,7 @@ S
 #23748
 Beryllium Forge~
 Another small corridor leading to a once used weapons vault, it harboured
-some of the worlds most dangerous swords.  Now the only thing to be seen is
+some of the worlds most dangerous swords. Now the only thing to be seen is
 the strewn about skeleton's of the past guards.  
 ~
 0 2097160 0
@@ -1766,8 +1766,8 @@ D3
 S
 #23749
 Weapon's Vault~
-Where you stand was once a symbol of great pride.  The finest weapons in
-the world were once held here.  Now all you can find is an acid covered
+Where you stand was once a symbol of great pride. The finest weapons in
+the world were once held here. Now all you can find is an acid covered
 black blade.  
 ~
 0 2097160 0
@@ -1793,9 +1793,9 @@ S
 #23751
 Mace's Chamber~
 You are in an old dusty room with a faint light emminating from the
-throne which sits in the middle.  Mace, the head blacksmith of all of the
-forges, sits upon it.  He looks younger than ever and he stands up.  " I am
-ready to take you on.  You will be deafeted."  'Order of Chaos' grafitti has
+throne which sits in the middle. Mace, the head blacksmith of all of the
+forges, sits upon it. He looks younger than ever and he stands up.  " I am
+ready to take you on. You will be deafeted."  'Order of Chaos' grafitti has
 been painted all over the walls here.  
 ~
 0 2097160 0

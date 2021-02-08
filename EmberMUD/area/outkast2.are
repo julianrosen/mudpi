@@ -20,7 +20,7 @@ AH 0 0 S
 100 0 0 0 2d21+96 0d0+0 2d4+5 16
 0 0 0 0
 IK 0 0 0
-8 8 3 19
+8 8 -1 19
 AHMV ABCDEFGHIJK M unknown
 #22301
 a Gartner Snake~
@@ -146,7 +146,7 @@ AH a -10 S
 100 0 0 0 11d12+13 2d2+2 1d3+5 17
 0 0 0 -1
 HIK AL 0 J
-8 8 3 90
+8 8 -1 90
 AHMV ABCDEFGHIJK M unknown
 #22311
 weak misfit oddville~
@@ -181,9 +181,9 @@ old wizard~
 The old Wizard~
 The old Wizard is here practicing his magic.
 ~
-He stands about 6 feet tall, and is very majestical.  He has lived in the
-Shrine for many years.  He was once a respectible wizard, but he went crazy
-one day and did many dumb things.  I wouldn't mess with him if i were you.  
+He stands about 6 feet tall, and is very majestical. He has lived in the
+Shrine for many years. He was once a respectible wizard, but he went crazy
+one day and did many dumb things. I wouldn't mess with him if i were you.  
 ~
 Human~
 AB H 1 S
@@ -282,7 +282,7 @@ werewolf guardian~
 a Werewolf Guardian~
 A Werewolf Guardian is here guarding the forest.
 ~
-He is half man, half wolf.  No one can control what they do so i'd watch
+He is half man, half wolf. No one can control what they do so i'd watch
 your every move.  
 ~
 Wolf~
@@ -361,7 +361,7 @@ AB 0 0 S
 100 0 0 0 12d16+17 1d1+1 1d2+4 13
 0 0 0 0
 FI 0 0 0
-8 8 3 16
+8 8 -1 16
 AHMV ABCDEFGHIJK M unknown
 #22329
 mean old lady~
@@ -480,7 +480,7 @@ naked woman~
 a naked woman~
 A naked woman is streaking around here!
 ~
-She is totally naked!  You gasp at the sight of someone running naked
+She is totally naked! You gasp at the sight of someone running naked
 down a public street!  
 ~
 Human~
@@ -787,9 +787,9 @@ B B B 0 0
 #ROOMS
 #22300
 The Road to Oddville~
-The road you're on is torn up a bit, and has many potholes.  This road
-leads to the town of Oddville!  You've heard many things about the town, but
-not many good things.  You're curious so you go explore the towns anyway.  
+The road you're on is torn up a bit, and has many potholes. This road
+leads to the town of Oddville! You've heard many things about the town, but
+not many good things. You're curious so you go explore the towns anyway.  
 ~
 0 4 4
 D0
@@ -804,8 +804,8 @@ S
 #22301
 On The Road~
 Finally, after a long walk you see a sign up ahead that says "Welcome to
-Oddville" You start to see some civilization.  At least you think that is
-what it is.  You get so sick of avoiding the potholes you just wanna run to
+Oddville" You start to see some civilization. At least you think that is
+what it is. You get so sick of avoiding the potholes you just wanna run to
 get off of the road.  
 ~
 0 0 4
@@ -821,8 +821,8 @@ S
 #22302
 The Entrance to Oddville~
 Before you enter the town of Oddville you stop and wonder why they call
-it that.  It boggles your mind, and then you start to notice strange things
-going on from up ahead.  To the north you notice some sort of shop.  
+it that. It boggles your mind, and then you start to notice strange things
+going on from up ahead. To the north you notice some sort of shop.  
 ~
 0 0 0
 D0
@@ -840,9 +840,9 @@ D2
 S
 #22303
 Oddville's Local Pet Shop~
-Of all the places you had to come here.  A local weirdo named Loonie
-Larry is here trying to sell you a deformed pet.  You feel sorry for the man
-so you buy one of his pets.  He just smiles at you!  You feel as though
+Of all the places you had to come here. A local weirdo named Loonie
+Larry is here trying to sell you a deformed pet. You feel sorry for the man
+so you buy one of his pets. He just smiles at you! You feel as though
 you've done a good deed, and you leave with a smile on your face also.  
 ~
 0 4096 0
@@ -853,7 +853,7 @@ D2
 S
 #22304
 Loonie Larry's Stock Room~
-This is where Larry keeps all his extra supplies and animals.  The smell
+This is where Larry keeps all his extra supplies and animals. The smell
 is so bad you can't believe it.  
 ~
 0 4 0
@@ -861,7 +861,7 @@ S
 #22305
 Inside the Town of Oddville~
 You start to feel bothered as you look around at all the loonies around
-here.  To the north is some sort of street, and it attracts your eye.  You
+here. To the north is some sort of street, and it attracts your eye. You
 start to think you should keep out on the look for all the weirdos.  
 ~
 0 0 4
@@ -876,9 +876,9 @@ D3
 S
 #22306
 The Road to Oddville~
-You have found the small, but faithful town of Oddville.  The road
-continues north for a bit.  You wish you had a horse so you don't have to
-walk.  You've heard there are many interesting things, and people living in
+You have found the small, but faithful town of Oddville. The road
+continues north for a bit. You wish you had a horse so you don't have to
+walk. You've heard there are many interesting things, and people living in
 this town.  
 ~
 0 4 0
@@ -893,9 +893,9 @@ D2
 S
 #22307
 Odd Street~
-This street is filled with people and many shops.  You hear people
-screaming and yelling everywhere.  You see some sort of shop that interests
-you to the east.  All of a sudden a crazy man jumps out in front of you!  He
+This street is filled with people and many shops. You hear people
+screaming and yelling everywhere. You see some sort of shop that interests
+you to the east. All of a sudden a crazy man jumps out in front of you! He
 thinks he's some sort of superhero, and you just laugh at him mercilessly.  
  
 ~
@@ -916,8 +916,8 @@ S
 #22308
 Oddville's Armor Shop~
 This is where everyone buys their armor around here to protect themselves
-from all the loonies.  A strange and tall man stands here waiting for you to
-buy his merchandise.  He stares at you like you're a thief.  
+from all the loonies. A strange and tall man stands here waiting for you to
+buy his merchandise. He stares at you like you're a thief.  
 ~
 0 0 0
 D0
@@ -931,8 +931,8 @@ D3
 S
 #22309
 Jack's Supply Room~
-This is Jack's Secret Supply Room.  Jack built this room so he can hide
-from all the odd people that come on his store.  Jack spends alot of time in
+This is Jack's Secret Supply Room. Jack built this room so he can hide
+from all the odd people that come on his store. Jack spends alot of time in
 here.  
  
 ~
@@ -944,10 +944,10 @@ D2
 S
 #22310
 North of Odd Street~
-You continue on odd street, and the farther you go the odder it gets.  To
-the west is the weapon shop, and the street continues to the north.  You
+You continue on odd street, and the farther you go the odder it gets. To
+the west is the weapon shop, and the street continues to the north. You
 here screams coming from everywhere, and you start getting a headache from
-all the noise.  The Oddville park is to the east, and Loco Street is to the
+all the noise. The Oddville park is to the east, and Loco Street is to the
 north.  
 ~
 0 2097152 0
@@ -975,7 +975,7 @@ S
 #22311
 Down Odd Street~
 You feel the urge to be alone right now because of all the weirdos
-bothering you to death.  To the north you can buy supplies and food.  Also
+bothering you to death. To the north you can buy supplies and food. Also
 to the west a weird building of some sort is there.  
 ~
 0 2097152 1
@@ -994,9 +994,9 @@ D4
 S
 #22312
 Oddville's Weapon Shop~
-You are glad to be here from all the weird people.  As you look the
-weaponsmith offers you some of his used weapons, but you refuse them.  The
-weapons were rusted and bloody.  He has a big selection of weapons so you
+You are glad to be here from all the weird people. As you look the
+weaponsmith offers you some of his used weapons, but you refuse them. The
+weapons were rusted and bloody. He has a big selection of weapons so you
 take a look around.  
 ~
 0 2097152 0
@@ -1007,10 +1007,10 @@ D1
 S
 #22313
 The Shrine of Oddville~
-You have entered the sacred Shrine of Oddville.  A strange man is here
-practicing his magic.  He notices you and comes over to greet you.  He says
-he's a master of healing.  He is some sort of wizard.  He is a very kind
-man, but if you make him mad he can be very nasty.  To the north you see a
+You have entered the sacred Shrine of Oddville. A strange man is here
+practicing his magic. He notices you and comes over to greet you. He says
+he's a master of healing. He is some sort of wizard. He is a very kind
+man, but if you make him mad he can be very nasty. To the north you see a
 huge temple.  
 ~
 0 8192 0
@@ -1025,9 +1025,9 @@ D1
 S
 #22314
 The Temple of the Stupid~
-You have entered the rather large temple of the stupid.  This temple was
-built for the less fortunate around here.  You feel insecure about being
-here so you feel the urge to leave.  To the west leads into Oddvilles
+You have entered the rather large temple of the stupid. This temple was
+built for the less fortunate around here. You feel insecure about being
+here so you feel the urge to leave. To the west leads into Oddvilles
 forest.  
  
 ~
@@ -1047,9 +1047,9 @@ D3
 S
 #22315
 The Entrance to Oddville's Forest~
-As you enter the forest you notice how dense it gets.  You hear something
-coming from the forest, but it doesn't bother you.  It gets kinda dark as
-you step into the forest.  The forest continues to the north.  
+As you enter the forest you notice how dense it gets. You hear something
+coming from the forest, but it doesn't bother you. It gets kinda dark as
+you step into the forest. The forest continues to the north.  
 ~
 0 0 3
 D0
@@ -1064,7 +1064,7 @@ S
 #22316
 The Oddville Training Yard~
 If you wish to grow strong you can train here with the citizens of
-Oddville.  You laugh as you notice all the misfits trying to get stronger. 
+Oddville. You laugh as you notice all the misfits trying to get stronger. 
 Gorak the trainer is here forcing people into working harder.  
  
 ~
@@ -1076,8 +1076,8 @@ D2
 S
 #22317
 Inside Oddville's Forest~
-You step into the eerie forest and look around.  The path continues north
-and branches off to the east.  Also you see some sort of boy.  At least you
+You step into the eerie forest and look around. The path continues north
+and branches off to the east. Also you see some sort of boy. At least you
 think he's a boy.  
 ~
 0 0 3
@@ -1093,7 +1093,7 @@ S
 #22318
 A Divided Path~
 You have come to a part of the path where you must choose your
-destination.  The path continues north and also goes west.  To the west is a
+destination. The path continues north and also goes west. To the west is a
 sign that reads "Beware of the dead" You think to yourself and wonder what
 that means.  
 ~
@@ -1114,7 +1114,7 @@ S
 #22319
 A Path to the Oddville Cemetary~
 This path has mist flowing up from the ground, and seems kinda
-dangerous.  A frightened man is here talking to the dead.  The cemetary is
+dangerous. A frightened man is here talking to the dead. The cemetary is
 to the north.  
 ~
 0 0 0
@@ -1130,9 +1130,9 @@ S
 #22320
 The Cemetary~
 This is the place where all the people of Oddville don't wish to explore.
-This place is too wierd even for all the wackos in Oddville.  People say
-many strange things go on at night around here.  All the graves around here
-are either tipped over or broken.  Suddenly you hear noises, and something
+This place is too wierd even for all the wackos in Oddville. People say
+many strange things go on at night around here. All the graves around here
+are either tipped over or broken. Suddenly you hear noises, and something
 pops up from the depths of the ground!  
 ~
 0 0 3
@@ -1143,9 +1143,9 @@ D2
 S
 #22321
 Through the Forest~
-The forest continues to be very dense and dark.  To the west you see a
-large cave, and it attracts your attention.  You can also head north if you
-choose.  When you look you notice two bright red eyes staring you down like
+The forest continues to be very dense and dark. To the west you see a
+large cave, and it attracts your attention. You can also head north if you
+choose. When you look you notice two bright red eyes staring you down like
 a piece of meat.  
 ~
 0 0 3
@@ -1164,9 +1164,9 @@ D3
 S
 #22322
 Outside the Dark Cave~
-Noises are coming from the cave.  You are scared, but you feel like going
-north anyway to explore what is in the dark cave.  You accidently step on a
-twig and it snaps.  The cave suddenly gets quiet.  
+Noises are coming from the cave. You are scared, but you feel like going
+north anyway to explore what is in the dark cave. You accidently step on a
+twig and it snaps. The cave suddenly gets quiet.  
 ~
 0 0 3
 D0
@@ -1181,10 +1181,10 @@ S
 #22323
 Inside the Cave~
 At first you don't see a thing but then you hear something coming from
-the ceiling of the cave.  You look up and a huge spider is hanging on the
-wall.  He drops down right before your very eyes.  Theres something
-different about him though....  He can talk!  He starts to mumble and all
-you can make out is "get away" It sounds like he has more to say though.  To
+the ceiling of the cave. You look up and a huge spider is hanging on the
+wall. He drops down right before your very eyes. Theres something
+different about him though.... He can talk! He starts to mumble and all
+you can make out is "get away" It sounds like he has more to say though. To
 the east is a den filled with small spiders.  
 ~
 0 0 3
@@ -1200,8 +1200,8 @@ S
 #22324
 The Spiders Den~
 Its kinda dark in here but you can see the bright red eyes of the little
-creepy spiders.  They give you the creeps of just thinking of them crawling
-on you.  There are webs everywhere, and you keep getting caught in them.  
+creepy spiders. They give you the creeps of just thinking of them crawling
+on you. There are webs everywhere, and you keep getting caught in them.  
 ~
 0 0 0
 D3
@@ -1212,7 +1212,7 @@ S
 #22325
 Deep into the Forest~
 It's getting too far into the forest, and you hope you can find your way
-back to civilization.  You can still keep going north, but it looks as
+back to civilization. You can still keep going north, but it looks as
 though from here that it's all the farther you'll be going.  
  
 ~
@@ -1228,8 +1228,8 @@ D2
 S
 #22326
 The End of the Forest~
-You made it this far, and you can't go any farther.  A colossal tree
-blocks all the paths.  Looks like you'll have to turn back after all that
+You made it this far, and you can't go any farther. A colossal tree
+blocks all the paths. Looks like you'll have to turn back after all that
 work to get here.  
 ~
 0 0 0
@@ -1240,8 +1240,8 @@ D2
 S
 #22327
 Oddville's Supply Store~
-This is where you can stalk up on your supplies.  As soon as you step in
-the store you can smell a little bit of spoiled food.  You're hungry though
+This is where you can stalk up on your supplies. As soon as you step in
+the store you can smell a little bit of spoiled food. You're hungry though
 so you just ignore the smell.  
 ~
 0 0 0
@@ -1252,8 +1252,8 @@ D2
 S
 #22328
 The Entrance to Oddville Park~
-You see many hyper children playing around here.  They act like all they
-eat is pure sugar.  The park continues to the east.  
+You see many hyper children playing around here. They act like all they
+eat is pure sugar. The park continues to the east.  
 ~
 0 2097152 1
 D1
@@ -1267,10 +1267,10 @@ D3
 S
 #22329
 Oddville Park~
-You feel kinda tired, and you feel like resting a little bit.  Luckily a
-nice metal bench is here.  To the north you see a pond of some sort.  As
+You feel kinda tired, and you feel like resting a little bit. Luckily a
+nice metal bench is here. To the north you see a pond of some sort. As
 soon as you get to the bench a old lady sits right down on it before you get
-the chance.  The park continues south.  
+the chance. The park continues south.  
 ~
 0 0 0
 D0
@@ -1288,10 +1288,10 @@ D3
 S
 #22330
 A Pond~
-The pond has murky stuff on the top of the water.  It doesn't look very
-deep at all, but doesn't look like it's good enough to swim in either.  Some
-weird looking animals are looking at you.  You have just enough room to walk
-along side of the pond.  You can continue north around the pond.  
+The pond has murky stuff on the top of the water. It doesn't look very
+deep at all, but doesn't look like it's good enough to swim in either. Some
+weird looking animals are looking at you. You have just enough room to walk
+along side of the pond. You can continue north around the pond.  
 ~
 0 0 6
 D0
@@ -1306,7 +1306,7 @@ S
 #22331
 Outside the Mayor's Office~
 The building looks small from the outside, but you never know till you go
-inside.  A metal door is shut so you'll have to open it then go right in to
+inside. A metal door is shut so you'll have to open it then go right in to
 see the mayor of Oddville.  
 ~
 0 4 1
@@ -1321,8 +1321,8 @@ D3
 S
 #22332
 The End of the Park~
-This is the end of the park.  To the east is a small building.  It looks
-small, but very important.  A fence surrounds all the others exits, and you
+This is the end of the park. To the east is a small building. It looks
+small, but very important. A fence surrounds all the others exits, and you
 can't go in any other direction.  
 ~
 0 0 0
@@ -1337,8 +1337,8 @@ D1
 S
 #22333
 The Waiting Room~
-You are standing in the waiting room of the mayor's office.  Chairs
-surround the room, but they are never used.  A secretary kindly informs the
+You are standing in the waiting room of the mayor's office. Chairs
+surround the room, but they are never used. A secretary kindly informs the
 mayor that you are here to see him.  
 ~
 0 0 0
@@ -1353,9 +1353,9 @@ D2
 S
 #22334
 The Oddville Mayor's Office~
-As soon as you enter you gasp for your breath.  This room smells of pure
-alcohol, and the mayor is on the floor passed out cold.  This guy is the
-pride and joy of Oddville!  Just think, he runs the city of Oddville.  
+As soon as you enter you gasp for your breath. This room smells of pure
+alcohol, and the mayor is on the floor passed out cold. This guy is the
+pride and joy of Oddville! Just think, he runs the city of Oddville.  
 ~
 0 0 0
 D2
@@ -1365,9 +1365,9 @@ D2
 S
 #22335
 Along the Pond~
-You are walking around the steep edges of the pond.  It looks like this
-is all the farther you can go.  You see three frogs down along the bank of
-the pond.  These frogs aren't your everyday frogs.  
+You are walking around the steep edges of the pond. It looks like this
+is all the farther you can go. You see three frogs down along the bank of
+the pond. These frogs aren't your everyday frogs.  
  
 ~
 0 0 0
@@ -1379,8 +1379,8 @@ S
 #22336
 Loco Street~
 After you think you've seen it all, but you haven't even begun to explore
-all the odities of Oddville.  As soon as you enter this street a man starts
-cursing at you for no reason.  You try to ignore him, but it's kinda hard
+all the odities of Oddville. As soon as you enter this street a man starts
+cursing at you for no reason. You try to ignore him, but it's kinda hard
 to.  
 ~
 0 2097152 1
@@ -1395,9 +1395,9 @@ D3
 S
 #22337
 West of Loco Street~
-You are heading west down Loco Street.  You look and you thought you just
-saw someone streaking.  You take a second glance, and you weren't seeing
-things!  To the north is a bar of some sort.  
+You are heading west down Loco Street. You look and you thought you just
+saw someone streaking. You take a second glance, and you weren't seeing
+things! To the north is a bar of some sort.  
 ~
 0 2097152 0
 D0
@@ -1415,8 +1415,8 @@ D3
 S
 #22338
 The End of Loco Street~
-After you've come this far it suddenly becomes a dead end.  Whoever built
-these streets must be a total moron.  As you look you notice one more shop. 
+After you've come this far it suddenly becomes a dead end. Whoever built
+these streets must be a total moron. As you look you notice one more shop. 
 This shop is almost hidden, but you get a glimpse out of the corner of your
 eye of it.  
 ~
@@ -1432,8 +1432,8 @@ D1
 S
 #22339
 The Odds 'N' Ends Store~
-This store is almost secretly hidden for some reason.  There must be some
-special items in this store.  A weird man is standing here waiting for your
+This store is almost secretly hidden for some reason. There must be some
+special items in this store. A weird man is standing here waiting for your
 business.  
 ~
 0 0 0
@@ -1444,9 +1444,9 @@ D2
 S
 #22340
 The Oddville Pub~
-Woo hoo!  You may have actually found a place with no wackos.  The drunks
-make up for them though.  While you're here you might as well have a drink
-or two.  Barney the bartender is here serving the drinks.  
+Woo hoo! You may have actually found a place with no wackos. The drunks
+make up for them though. While you're here you might as well have a drink
+or two. Barney the bartender is here serving the drinks.  
 ~
 0 0 0
 D2

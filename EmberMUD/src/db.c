@@ -686,7 +686,6 @@ systems. -Lancelight */
             else
             {
                 sprintf( strPath, "%s/%s", sysconfig.area_dir, strArea );
-                printf("Opening %s/%s\n", sysconfig.area_dir, strArea ); // JR: debug
                 if ( ( fpArea = fopen( strPath, "r" ) ) == NULL )
                 {
 #if defined(cbuilder)
@@ -1709,6 +1708,12 @@ void fix_exits( void )
         }
     }
 
+    /*
+    JR: The code below checks that going through doors is reversible.
+    In many cases we don't necessarily want it to be reversible, so I'm
+    disabling the check.
+    */
+    /*
     for ( iHash = 0; iHash < MAX_KEY_HASH; iHash++ )
     {
         for ( pRoomIndex = room_index_hash[iHash];
@@ -1731,7 +1736,7 @@ void fix_exits( void )
                 }
             }
         }
-    }
+    } */
 
     return;
 }

@@ -37,28 +37,22 @@ What is your name? ~
 ~
 -1 MOTD~
 `YNew features`w
-
     1. Mudweiser has returned! Kyle Boyd provided me with the source
        code, and areas, races, classes, skills, and other bits of
        Mudweiser have been incorporated here.
-       
     2. The stock EmberMUD areas are still accessible. There are two
        Midgaards. By default you start in Mudweiser's Midgaard. You
        can travel between the two via a portal in the Temple Square.
        All rooms in the stock Midgaard are colored `Ggreen`w.
-       
     3. You can now choose where you recall. Type 'beacon' to set your
-       recall point to you current room. If you get stuck, you can reset
-       your beacon point to the Temple of Mota with 'beacon reset'.
-
+       recall point to the current room. If you get stuck, you can reset
+       your beacon to the Temple of Mota with 'beacon reset'.
     4. Mudpi now has a browser interface (with TinTin running on
        the server). To connect, visit http://67.251.14.149/mudpi/
-       
     5. The Mudpi bot has been removed. However, healing rates in the temple altar
        have been greatly increased.
-
     6. Eating and drinking are no longer necessary.
-[Press any key to continue]
+    7. Press any key to continue to Mudpi. You can view this list any time with 'motd'.
 ~
 51 IMOTD~
 .

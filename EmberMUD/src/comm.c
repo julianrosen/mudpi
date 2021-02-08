@@ -2666,7 +2666,11 @@ void stop_idling( CHAR_DATA * ch )
 void send_to_char( const char *txt, CHAR_DATA * ch )
 {
     if ( txt != NULL && ch->desc != NULL )
+    {
+        //write_to_buffer( ch->desc, "`w", 1 ); // JR: trying to fix a text color bug
         write_to_buffer( ch->desc, txt, strlen( txt ) );
+    }
+        
     return;
 }
 
@@ -2752,7 +2756,7 @@ void show_string( struct descriptor_data *d, char *input )
 /* quick sex fixer */
 void fix_sex( CHAR_DATA * ch )
 {
-    if ( ch->sex < 0 || ch->sex > 4 ) /* Modified by JR */
+    if ( ch->sex < 0 || ch->sex > NUM_SEXES ) /* Modified by JR */
         ch->sex = IS_NPC( ch ) ? 0 : ch->pcdata->true_sex;
 }
 
@@ -2763,14 +2767,16 @@ void act( const char *format, CHAR_DATA * ch, const void *arg1,
     act_new( format, ch, arg1, arg2, type, POS_RESTING );
 }
 
+
+
 #define NAME(ch)	(IS_NPC(ch) ? ch->short_descr : ch->name)
 char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                   const void *arg1, const void *arg2 )
 {
     /* JR: added nonbinary pronouns */
-    static char *const he_she[] = { "it", "he", "she", "they" };
+    /* static char *const he_she[] = { "it", "he", "she", "they" };
     static char *const him_her[] = { "it", "him", "her", "them" };
-    static char *const his_her[] = { "its", "his", "her", "their" };
+    static char *const his_her[] = { "its", "his", "her", "their" }; */
     static char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
     char *point;
@@ -2782,6 +2788,10 @@ char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
 
     bzero( buf, sizeof( buf ) );
     point = buf;
+    
+    *point++ = '`'; // Added by JR
+    *point++ = 'w'; // Always start fresh
+    
     while ( *str )
     {
         if ( *str != '$' )
@@ -2818,22 +2828,22 @@ char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                 i = ( to ? PERS( vch, to ) : NAME( vch ) );
                 break;
             case 'e':
-                i = he_she[URANGE( 0, ch->sex, NUM_SEXES )]; /* JR: changed 2 to NUM_SEXES */
+                i = he_she( ch->sex );
                 break;
             case 'E':
-                i = he_she[URANGE( 0, vch->sex, NUM_SEXES )];
+                i = he_she( vch->sex );
                 break;
             case 'm':
-                i = him_her[URANGE( 0, ch->sex, NUM_SEXES )];
+                i = him_her( ch->sex );
                 break;
             case 'M':
-                i = him_her[URANGE( 0, vch->sex, NUM_SEXES )];
+                i = him_her( vch->sex );
                 break;
             case 's':
-                i = his_her[URANGE( 0, ch->sex, NUM_SEXES )];
+                i = his_her( ch->sex );
                 break;
             case 'S':
-                i = his_her[URANGE( 0, vch->sex, NUM_SEXES )];
+                i = his_her( vch->sex );
                 break;
             case 'p':
                 i = ( !to || can_see_obj( to, obj1 )
@@ -3368,7 +3378,7 @@ char *doparseprompt( CHAR_DATA * ch )
         case 'B':
             if ( IS_SET( ch->act, PLR_BUILDING ) )
             {
-                sprintf( workstr, "`Y[`RBuilding`Y]`w" );
+                sprintf( workstr, "`Y[`RBuilding`Y]`w " );
                 strcat( finished_prompt, workstr );
                 fp_point += strlen( workstr );
             }

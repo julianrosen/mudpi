@@ -86,8 +86,8 @@ Guard of Lousi~
 The Guard of Lousi~
 The lazy guard of the village of Lousi is resting here
 ~
-You look upon the lazy guard of Lousi.  He is resting now, but then again
-his job takes up 12 hours of his day.  He does not seem to have any 
+You look upon the lazy guard of Lousi. He is resting now, but then again
+his job takes up 12 hours of his day. He does not seem to have any 
 sense of duty to his job.
 ~
 Human~
@@ -173,7 +173,7 @@ sufank old man~
 Sufank~
 An old man is here, he looks tired.
 ~
-You look upon an aged man.  He is about 75, but still very dexterous.
+You look upon an aged man. He is about 75, but still very dexterous.
 He stands 6ft tall, when he was young he might have been 6' 1".
 He used to adventure, but now he has retired to sell things.
 But he is broke...
@@ -275,8 +275,8 @@ witch doctor~
 witch doctor~
 The witch doctor is here, chanting.
 ~
-You look upon the witch doctor.  He is the owner of this hut.
-He does not appear to notice you enter.  He looks like a nice guy...
+You look upon the witch doctor. He is the owner of this hut.
+He does not appear to notice you enter. He looks like a nice guy...
 ~
 Human~
 ABQ 0 0 S
@@ -644,13 +644,13 @@ A
 #ROOMS
 #26000
 Quest Briefing Room~
-Welcome to the Quest.  You are here because you want to be, 
+Welcome to the Quest. You are here because you want to be, 
 please keep that in mind before complaining about anything stupid.
 This is the room in which all the players participating in a quest gather.
 Please follow the instructions of the Immortal in charge, or you will be
-BEATEN!  No funny stuff in this room, we need to maintain order before we
-can allow the lack of order to follow.  So just stay calm for a few 
-minutes.  Enjoy the ride, Have a nice day, and please, come again.
+BEATEN! No funny stuff in this room, we need to maintain order before we
+can allow the lack of order to follow. So just stay calm for a few 
+minutes. Enjoy the ride, Have a nice day, and please, come again.
 ~
 0 1036 0
 S

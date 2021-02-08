@@ -33,6 +33,8 @@ DECLARE_DO_FUN( do_save );
 
 char buf[MAX_STRING_LENGTH];
 
+
+
 char *const where_name[] = {
     WORN_LIGHT,
     WORN_FINGER,
@@ -1931,8 +1933,7 @@ void do_score( CHAR_DATA * ch, char *argument )
                  ch->perm_stat[STAT_CON], statdiff( ch->perm_stat[STAT_CON],
                                                     get_curr_stat( ch,
                                                                    STAT_CON ) ),
-                 ch->sex == SEX_NB ? "Nonbinary " : ch->sex == SEX_MALE ? "Male      " : 
-                ch->sex == SEX_FEMALE ? "Female    " : "Unknown   ");
+                 Gender( ch->sex ) );
         send_to_char( buf, ch);
         if ( SHOW_CP )
             sprintf( buf, "`YCreation Points : `G%2d%s     `y|\n\r",
@@ -2068,7 +2069,7 @@ void do_score( CHAR_DATA * ch, char *argument )
 
         sprintf( buf, "Race: %s  Sex: %s  Class:  %s\n\r",
                  race_table[ch->race].name,
-                 ch->sex == 0 ? "sexless" : ch->sex == 1 ? "male" : "female",
+                 gender( ch->sex ),
                  IS_NPC( ch ) ? "mobile" : class_table[ch->Class].name );
         send_to_char( buf, ch );
 
@@ -3898,7 +3899,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
 
-    static char *const he_she[] = { "It", "He", "She", "They" }; /* Modified by JR */
+    //static char *const he_she[] = { "It", "He", "She", "They" }; /* Modified by JR */
     CHAR_DATA *victim;
     FILE *fp;
     char pfile[MAX_STRING_LENGTH], *title;
@@ -3994,16 +3995,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
         else
             sprintf( buf2, "not a member of any clan." );
 
-        char be_verb[4];
-        if ( victim->sex == SEX_NB )
-            strcpy(be_verb,"are");
-        else
-            strcpy(be_verb,"is");
         sprintf( buf, "     | `GGender: `Y%-10s  `W%s %s %s`y",
-                 victim->sex == 0 ? "Sexless" : victim->sex ==
-                 SEX_MALE ? "Male" : victim->sex == SEX_FEMALE ? "Female" :
-                victim->sex == SEX_NB ? "Nonbinary" : "Unknown", he_she[URANGE( 0, victim->sex, 3 )], /* Modified by JR */
-                 be_verb, buf2 );
+                 Gender( victim->sex ), he_she( victim->sex, 3 ), /* Modified by JR */
+                 be_verb( victim->sex ), buf2 );
         send_to_char( buf, ch );
         x = str_len( buf );
         strcpy( buf, "\0" );
@@ -4023,7 +4017,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
         strcat( buf, "|\n\r" );
         send_to_char( buf, ch );
         sprintf( buf, "     | `GAge  :`Y%3d           `W%s %s a %s %s.`y",
-                 get_age( victim ), he_she[URANGE( 0, victim->sex, 3 )], be_verb,
+                 get_age( victim ), he_she( victim->sex ), be_verb( victim->sex ),
                  pc_race_table[victim->race].name,
                  class_table[victim->Class].name );
         send_to_char( buf, ch );
@@ -4228,15 +4222,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
             else
                 sprintf( buf2, "not a member of any clan." );
             /*          sprintf(buf2,"not a member of any clan." ); */
-            char be_verb[4];
-            if ( sex == SEX_NB )
-                strcpy(be_verb,"are");
-            else
-                strcpy(be_verb,"is");
             sprintf( buf, "     | `GGender:`Y%-10s`W%s %s %s`y",
-                     sex == SEX_NEUTRAL ? "Sexless" : sex == SEX_MALE ? "Male" :
-                     sex == SEX_FEMALE ? "Female" : sex == SEX_NB ? "Nonbinary" : "Unknown",
-                     he_she[URANGE( 0, sex, 3 )], be_verb, buf2 ); /* Modified by JR */
+                     Gender( sex ),
+                     he_she( sex ), be_verb( sex ), buf2 ); /* Modified by JR */
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );
@@ -4256,7 +4244,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
             send_to_char( buf, ch );
             sprintf( buf, "     | `GAge  :`Y%3ld        `W%s %s a %s %s.`y",
                      ( 17 + ( played / 72000 ) ),
-                     he_she[URANGE( 0, sex, 3 )], be_verb, race, class );
+                     he_she( sex ), be_verb( sex ), race, class );
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );

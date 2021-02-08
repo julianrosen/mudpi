@@ -238,7 +238,7 @@ AH J 1000 S
 100 0 0 0 3d22+90 0d0+0 2d5+5 0
 4 4 4 7
 0 0 B Z
-8 8 3 4
+8 8 -1 4
 AHMV ABCDEFGHIJK M unknown
 #22516
 elven elf guard~
@@ -461,9 +461,9 @@ S
 #22501
 Crossroads~
 The crossroads are where many paths lead out in every one of the cardinal
-directions to any place imaginable.  A dusty path leads north into the
+directions to any place imaginable. A dusty path leads north into the
 plains, where an omnivous structure can be seem looming over all to the
-north.  The other paths are worn down a bit but are still useable.  
+north. The other paths are worn down a bit but are still useable.  
 ~
 0 0 2
 D0
@@ -482,7 +482,7 @@ S
 #22502
 A Path into the Plains~
 The path continues into a large open plain, the only life visible for
-miles are vermin and such.  On the horizon line you can make out a barely
+miles are vermin and such. On the horizon line you can make out a barely
 visible structure.  
 ~
 0 4 2
@@ -498,7 +498,7 @@ S
 #22503
 Worn Down Path in the Plains~
 The path starts to wear down from not being used as mush as it was and is
-barely visible.  The plains open up to an all around view, and the structure
+barely visible. The plains open up to an all around view, and the structure
 up north is still barely visible.  
 ~
 0 0 2
@@ -522,7 +522,7 @@ S
 #22504
 Plains~
 The plains open up into nothing but grass visible for miles in either
-diection.  You wonder why you are just wandering through nothing but fields
+diection. You wonder why you are just wandering through nothing but fields
 and barren land.  
 ~
 0 0 2
@@ -552,7 +552,7 @@ D1
 S
 #22506
 Worn Down Path in the Plains~
-The still barely visible path continues north through the plains.  It
+The still barely visible path continues north through the plains. It
 serves as some kind of guideline as to where you are going.  
 ~
 0 0 2
@@ -600,7 +600,7 @@ S
 #22508
 Plains~
 Wandering through the plains, little mice crawl and run all around your
-feet.  You step on one of their tails as all the rest run and scatter in
+feet. You step on one of their tails as all the rest run and scatter in
 fear that they will be squished.  
 ~
 0 0 2
@@ -620,7 +620,7 @@ S
 #22509
 Plains~
 Grass grows in all directions as you stumble across a little burrow in
-the ground.  A little mole lifts his head in curiousity of his new visitor. 
+the ground. A little mole lifts his head in curiousity of his new visitor. 
 ~
 0 0 2
 D0
@@ -639,7 +639,7 @@ S
 #22510
 Plains~
 The grass grows around your ankles and you wonder if you should travel so
-far out without knowing where you are going.  The field mice gather aroung
+far out without knowing where you are going. The field mice gather aroung
 some bits of grain that have been dropped and run away.  
 ~
 0 0 2
@@ -659,7 +659,7 @@ S
 #22511
 Plains ~
 Little mice run around your feet as a big fat rat scurries after them in
-a bullying manner.  A small bird is sticking its beak in the ground in an
+a bullying manner. A small bird is sticking its beak in the ground in an
 attempt to catch some worms.  
 ~
 0 0 2
@@ -679,7 +679,7 @@ S
 #22512
 Plains~
 The path has gradually faded into the ground here over time and you are
-now just in the plains wandering with the rodents.  You see little grains of
+now just in the plains wandering with the rodents. You see little grains of
 sand on the ground.  
 ~
 0 0 2
@@ -702,8 +702,8 @@ D3
 S
 #22513
 Plains~
-The fields are grssy as grass can get.  There are little grains of sands
-in tiny quantities around here.  To the north the sand content gets heavier
+The fields are grssy as grass can get. There are little grains of sands
+in tiny quantities around here. To the north the sand content gets heavier
 as the structure ahead gets larger as you advance.  
 ~
 0 0 2
@@ -722,8 +722,8 @@ D2
 S
 #22514
 Plains~
-You step and slip on a small pile of slick sand.  You get up and brush
-yourself off and notice the sand gets more and more ahead.  Mice don't
+You step and slip on a small pile of slick sand. You get up and brush
+yourself off and notice the sand gets more and more ahead. Mice don't
 wander as much around here.  
 ~
 0 0 2
@@ -742,8 +742,8 @@ D3
 S
 #22515
 Plains~
-The sand on the ground is in small piles all around you.  The grass
-starts to this out as you see the sand form into a desert ahead.  The large
+The sand on the ground is in small piles all around you. The grass
+starts to this out as you see the sand form into a desert ahead. The large
 structure still isn't clearly defined yet.  
 ~
 0 0 2
@@ -783,7 +783,7 @@ S
 #22517
 Plains~
 The plains are thinning out into sandy deserts ahead as you continue
-forward.  Little creatures run across the sands all around your feet.  The
+forward. Little creatures run across the sands all around your feet. The
 large structure to the north is starting to come into view.  
 ~
 0 0 2
@@ -799,7 +799,7 @@ S
 #22518
 Entry to Jade's Desert~
 The sand becomes into full fledged desert now and is all in your boots. 
-You drudge forward to what now looks like a plateau.  A broken wooden SIGN
+You drudge forward to what now looks like a plateau. A broken wooden SIGN
 has been staked into the sand.  
 ~
 0 4 10
@@ -811,21 +811,21 @@ sign~
 ~
 E
 sign~
-Ahh, I see you have discovered my desert.  That means that the sands that
-have buried it for thousands of years have uncovered it.  Be warned.  No one
+Ahh, I see you have discovered my desert. That means that the sands that
+have buried it for thousands of years have uncovered it. Be warned. No one
 shall get to my treasures that lie beyond, for I have enchanted this
-meaningless heap of sand.  What may seem like a six foot walk may in turn be
-a six day journy.  Directions here have no meaning.  Where you have come
-from disappears before your eyes into a new place.  Head this warning, for
+meaningless heap of sand. What may seem like a six foot walk may in turn be
+a six day journy. Directions here have no meaning. Where you have come
+from disappears before your eyes into a new place. Head this warning, for
 Jade does not take lightly to trespassers.  
 ~
 E
 sign~
-Ahhh, I see you have discovered my desert.  That means that the sands
-that covered it for thousands of years have uncovered it.  I sense your
-greed and have prepared for this.  You shall never obtain my treasures which
-lie beyond this barren wasteland.  Head the warning of Jade, for all who
-have entered my desert...  Have not returned.  
+Ahhh, I see you have discovered my desert. That means that the sands
+that covered it for thousands of years have uncovered it. I sense your
+greed and have prepared for this. You shall never obtain my treasures which
+lie beyond this barren wasteland. Head the warning of Jade, for all who
+have entered my desert... Have not returned.  
 ~
 D0
 ~
@@ -838,8 +838,8 @@ D2
 S
 #22519
 Jade's Desert~
-Welcome to hell, kid.  All who have entered here have not come out. 
-Praying to your gods for transportation is now useless.  Have Fun!  
+Welcome to hell, kid. All who have entered here have not come out. 
+Praying to your gods for transportation is now useless. Have Fun!  
 ~
 0 2105348 0
 D0
@@ -858,7 +858,7 @@ S
 #22520
 Jade's Desert~
 The burning heat from the sun is getting to you as you trudge through
-this desert.  The only visible life are scorpions and other desert dwellers.
+this desert. The only visible life are scorpions and other desert dwellers.
 ~
 0 2105344 10
 D0
@@ -876,7 +876,7 @@ D2
 S
 #22521
 Jade's Desert~
-From here the sands hit your face with great speed, causing injury.  The
+From here the sands hit your face with great speed, causing injury. The
 only life sustainable here roams around and scatters when you arrive.  
 ~
 0 2105344 10
@@ -907,7 +907,7 @@ S
 #22523
 Jade's Desert~
 The heat makes your eyes see fuzzy images all around and you think you
-have been this way before.  There is however no way to tell.  Little
+have been this way before. There is however no way to tell. Little
 creatures roam underneath the sands and pop up for air every now and then.  
 ~
 0 2097152 10
@@ -923,7 +923,7 @@ S
 #22524
 Jade's Desert~
 The heat makes you collapse but you get back up and feel like you have
-been roaming in circles.  You trudge forward through the sands.  
+been roaming in circles. You trudge forward through the sands.  
 ~
 0 2105344 10
 D1
@@ -937,7 +937,7 @@ D3
 S
 #22525
 Jade's Desert~
-The hot air makes you thirsty for water.  You think you see a spring to
+The hot air makes you thirsty for water. You think you see a spring to
 the north that you can drink from but you best bet that it's a mirage.  
 ~
 0 2105344 10
@@ -953,7 +953,7 @@ S
 #22526
 Jade's Desert~
 The heat is really getting to you and you are still going in circles. 
-You try to pray for teleportation but nothing happens.  You continue through
+You try to pray for teleportation but nothing happens. You continue through
 the desert helplessly.  
 ~
 0 2105344 10
@@ -972,7 +972,7 @@ D3
 S
 #22527
 Jade's Desert~
-The desert is making you woozy and you don't know what to do.  In the
+The desert is making you woozy and you don't know what to do. In the
 sand the inscirption "turn back..."  Appears and is washed away by the
 sands.  
 ~
@@ -993,7 +993,7 @@ S
 #22528
 Jade's Desert~
 You continue to miserably trudge on and on and on and well you get the
-point.  The heat makes you head spin and you think you hear noises that
+point. The heat makes you head spin and you think you hear noises that
 aren't there.  
 ~
 0 2105344 10
@@ -1012,7 +1012,7 @@ D3
 S
 #22529
 Jade's Desert~
-You have made it halfway through the desert which deserves a reward!  You
+You have made it halfway through the desert which deserves a reward! You
 may now recall, but not before taking a drink from the bubbling spring that
 flows from the earth.  
 ~
@@ -1029,7 +1029,7 @@ S
 #22530
 Jade's Desert~
 The desert seems like there is no end but feer not, you feel as though
-you will leave soon.  Until that time you keep wandering randomly.  
+you will leave soon. Until that time you keep wandering randomly.  
 ~
 0 2105344 10
 D1
@@ -1044,7 +1044,7 @@ S
 #22531
 Jade's Desert~
 The desert continues on and on as you keep on going towards the plateau
-ahead.  One wrong move could send you back to the begining though.  
+ahead. One wrong move could send you back to the begining though.  
 ~
 0 2105344 10
 D0
@@ -1066,7 +1066,7 @@ D3
 S
 #22532
 Jade's Desert~
-You feel like the desert is almost to an end but can't be sure.  You
+You feel like the desert is almost to an end but can't be sure. You
 still might end up taking a wrong turn so choose your path wisely.  
 ~
 0 2105344 10
@@ -1105,7 +1105,7 @@ S
 #22534
 South Face of Jade Plateau~
 You find a rock jutting out from the north face of the plateau and climb
-up it.  There is a long way to go before you reach the top.  If you keep
+up it. There is a long way to go before you reach the top. If you keep
 climbing you may never come back down.  
 ~
 0 2097156 5
@@ -1120,9 +1120,9 @@ D5
 S
 #22535
 Jade's Desert~
-Finally after wandering around you reach the end of the desert.  In front
-of you is a massive plateau which blocks your path.  You could recall now or
-just climb up the side of it.  Your choice.  
+Finally after wandering around you reach the end of the desert. In front
+of you is a massive plateau which blocks your path. You could recall now or
+just climb up the side of it. Your choice.  
 ~
 0 2105348 10
 D2
@@ -1137,7 +1137,7 @@ S
 #22536
 South Face of Jade Plateau~
 You are lucky enough to continue to find rocks to climb on as you make
-your way up the side of the massive plateau.  Birds and vultures swoop by
+your way up the side of the massive plateau. Birds and vultures swoop by
 you as you climb up, hoping to get dinner.  
 ~
 0 2097152 5
@@ -1153,7 +1153,7 @@ S
 #22537
 South Face of Jade Plateau~
 You climb onto a small ledge which looks extremely weak and might not
-hold your weight.  A branch extends east to a small nest 
+hold your weight. A branch extends east to a small nest 
 ~
 0 0 5
 D1
@@ -1172,7 +1172,7 @@ S
 #22538
 A Nest~
 You climb out on a thin branch to a nest of what looks like little baby
-eagles.  They are chirping for food and are getting on your nerve.  One of
+eagles. They are chirping for food and are getting on your nerve. One of
 them grabs a holt of boot and you shake it off.  
 ~
 0 0 9
@@ -1184,7 +1184,7 @@ S
 #22539
 South Face of Jade Plateau~
 You are still climbing up the side of the plateau when the rock you are
-holding on to gives way.  You manage to catch yourself...  This time.  
+holding on to gives way. You manage to catch yourself... This time.  
 ~
 0 0 5
 D4
@@ -1199,7 +1199,7 @@ S
 #22540
 South Face of Jade Plateau~
 You continue to climb the craggy side of the plateau, climbing ledge to
-ledge in a very dangerous maner.  The top is within your sight now.  
+ledge in a very dangerous maner. The top is within your sight now.  
 ~
 0 4 5
 D4
@@ -1213,7 +1213,7 @@ D5
 S
 #22541
 South Face of Jade Plateau~
-You continue to climb and notice the top is just a few steps away.  Who
+You continue to climb and notice the top is just a few steps away. Who
 knows what lies above the rocky cliffs?  
 ~
 0 0 5
@@ -1229,7 +1229,7 @@ S
 #22542
 Jade Plateau~
 After climbing a while you finally peer over the top of the large cliff. 
-It looks like nothing but barren lands though.  There is, however, a large
+It looks like nothing but barren lands though. There is, however, a large
 canyon ahead, probably created from some sort of earthquake.  
 ~
 0 0 10
@@ -1245,7 +1245,7 @@ S
 #22543
 Jade Plateau~
 You walk across the desert flatland on top of the plateau to the canyon
-ahead.  There is little to your east or west so you find no reason to go
+ahead. There is little to your east or west so you find no reason to go
 there.  
 ~
 0 0 10
@@ -1260,7 +1260,7 @@ D2
 S
 #22544
 Jade Plateau~
-You are at the edge of the canyon.  You may climb down into it, though it
+You are at the edge of the canyon. You may climb down into it, though it
 looks mighty dangerous, or you could cross the bridge to the other side of
 the plateau.  
 ~
@@ -1281,7 +1281,7 @@ S
 #22545
 Bridge across the Canyon~
 You are on a rickity old wood bridge which is held up only by two rotting
-pieces of torn rope.  It looks unsafe but it seems to support your weight.  
+pieces of torn rope. It looks unsafe but it seems to support your weight.  
 ~
 0 0 10
 D0
@@ -1296,7 +1296,7 @@ S
 #22546
 Jade Plateau~
 You cross the old bridge and decide it best to not go back across unless
-entirely necessary.  Ahead lies flat plateau that stretches to the horizon,
+entirely necessary. Ahead lies flat plateau that stretches to the horizon,
 where is steeply drops off into the north face.  
 ~
 0 0 10
@@ -1322,7 +1322,7 @@ D2
 S
 #22548
 Jade Plateau~
-You stand above the north face of the plateau.  Looks as though you could
+You stand above the north face of the plateau. Looks as though you could
 climb down the rocky ledges 
 ~
 0 0 0
@@ -1338,7 +1338,7 @@ S
 #22549
 Canyon~
 You attempt to climb down the walls when you slide on the rocks and land
-on a ledge.  You get up and look down the canyon.  A chain on the ground
+on a ledge. You get up and look down the canyon. A chain on the ground
 leads west, while you could also climb down to the river in the deep parts
 of the canyon.  
 ~
@@ -1354,7 +1354,7 @@ D5
 S
 #22550
 Canyon~
-You crawl down to a small ledge in hopes of reaching another.  To your
+You crawl down to a small ledge in hopes of reaching another. To your
 lower east is another small ledge you could hop onto.  
 ~
 0 0 0
@@ -1369,7 +1369,7 @@ D4
 S
 #22551
 Canyon~
-The ledge gets smaller around here and is starting to give way.  You can
+The ledge gets smaller around here and is starting to give way. You can
 junp over to the last on or try and make it to the lower one.  
 ~
 0 0 0
@@ -1384,8 +1384,8 @@ D5
 S
 #22552
 Canyon~
-The ledge you were just on gives way as you slide down helplessly.  You
-manage to grab a hold of this ledge and pull yourself back up.  Below you is
+The ledge you were just on gives way as you slide down helplessly. You
+manage to grab a hold of this ledge and pull yourself back up. Below you is
 another lower ledge, almost ground level to the river.  
 ~
 0 0 0
@@ -1396,7 +1396,7 @@ D5
 S
 #22553
 Canyon~
-You are about ten feet of the ground next to the river.  To your lower
+You are about ten feet of the ground next to the river. To your lower
 east looks like a safe ledge to climb down from.  
 ~
 0 0 0
@@ -1411,7 +1411,7 @@ D4
 S
 #22554
 Canyon~
-You are on a small ledge and below you is the river.  There looks like a
+You are on a small ledge and below you is the river. There looks like a
 person is down there.  
 ~
 0 0 0
@@ -1442,7 +1442,7 @@ D4
 S
 #22556
 On the River~
-You are traveling on the river in the canyon below Jade Plateau.  There
+You are traveling on the river in the canyon below Jade Plateau. There
 is a dark prarie to the north.  
 ~
 0 0 7
@@ -1495,7 +1495,7 @@ S
 #22559
 By the Shore~
 You are on the shore of a river which lies at the bottom of a canyon in
-Jade Plateau.  You are at the very bottom of the plateau on the east side.  
+Jade Plateau. You are at the very bottom of the plateau on the east side.  
 ~
 0 0 10
 D1
@@ -1509,7 +1509,7 @@ D3
 S
 #22560
 On the River~
-You are on the river at the bootom of the canyon of Jade Plateau.  The
+You are on the river at the bootom of the canyon of Jade Plateau. The
 current pulls strong and it is getting harder to pursue west.  
 ~
 0 0 7
@@ -1525,7 +1525,7 @@ S
 #22561
 On the River~
 West you see many buildings and such through a shimmering vortex which
-lies on the river.  You can see an old retired captain and a small cafe
+lies on the river. You can see an old retired captain and a small cafe
 along it.  
 ~
 0 0 7
@@ -1540,9 +1540,9 @@ D3
 S
 #22562
 Canyon~
-This narrow ledge is thin and you have to walk around it carefully.  Near
+This narrow ledge is thin and you have to walk around it carefully. Near
 the center the ledge widens out and the large wrought iron chains stop and
-lead into the ground.  The ground seems a bit warm here.  
+lead into the ground. The ground seems a bit warm here.  
 ~
 0 0 0
 D1
@@ -1554,7 +1554,7 @@ D3
 ~
 0 0 22563
 D5
-A large chain stops and leads into the dust.  You think you see some kind
+A large chain stops and leads into the dust. You think you see some kind
 of trapdoor.  
 ~
 trapdoor~
@@ -1576,7 +1576,7 @@ D3
 S
 #22564
 Canyon~
-The canyon ledge continues west where it stops abruptly.  Below it is a
+The canyon ledge continues west where it stops abruptly. Below it is a
 very long way to the bottom.  
 ~
 0 0 0
@@ -1592,7 +1592,7 @@ S
 #22565
 Canyon Ledge~
 This part of the ledge juts out past the canyon far above the green
-hills.  Far in the distance, along the horizon, You can see a small valley
+hills. Far in the distance, along the horizon, You can see a small valley
 with inhabitants.  
 ~
 0 0 5
@@ -1603,8 +1603,8 @@ D1
 S
 #22566
 North Face of Jade Plateau~
-You are climbing on the north face of the massive Jade Plateau.  Above is
-the top of the cliff where the plateau's table lies.  Below is a small
+You are climbing on the north face of the massive Jade Plateau. Above is
+the top of the cliff where the plateau's table lies. Below is a small
 valley.  
 ~
 0 0 5
@@ -1620,7 +1620,7 @@ S
 #22567
 North Face of Jade Plateau~
 You climb the north face of the plateau which reaches into the clouds. 
-Above you can make out the top of a cliff through the blinding sun.  Below
+Above you can make out the top of a cliff through the blinding sun. Below
 you is a steep drop to the sands surrounding the plateau.  
 ~
 0 0 5
@@ -1636,7 +1636,7 @@ S
 #22568
 North Face of Jade Plateau~
 The rocky north face has many small ledges jutting out of the side of the
-cliff and lots of places to grab onto.  You see a small cliff to your west 
+cliff and lots of places to grab onto. You see a small cliff to your west 
 ~
 0 0 5
 D3
@@ -1654,7 +1654,7 @@ D5
 S
 #22569
 Small Ledge~
-You are on a small ledge on the north face of the plateau.  To the south
+You are on a small ledge on the north face of the plateau. To the south
 you see a fairly large crack in the wall.  
 ~
 0 4 5
@@ -1670,7 +1670,7 @@ S
 #22570
 North Face of Jade Plateau~
 You are halfway between the top of the mountain and the ground below you.
-The cliff is craggy, but not too dangerous.  Looking out north, below you in
+The cliff is craggy, but not too dangerous. Looking out north, below you in
 the distance, a small green valley can be seen.  
 ~
 0 0 5
@@ -1685,8 +1685,8 @@ D5
 S
 #22571
 North Face of Jade Plateau~
-You climb up the side of the surface moving from rock to rock.  One slip
-and you could plummet about 25 feet down to the ground.  Better hope we
+You climb up the side of the surface moving from rock to rock. One slip
+and you could plummet about 25 feet down to the ground. Better hope we
 don't have to scape you up with a spatula.  
 ~
 0 0 5
@@ -1701,7 +1701,7 @@ D5
 S
 #22572
 North Face of Jade Plateau~
-You are just barely above the ground on the north face.  You can climb
+You are just barely above the ground on the north face. You can climb
 down and pass through the sands, or climb up to the top.  
 ~
 0 0 5
@@ -1717,7 +1717,7 @@ S
 #22573
 Entry to Jade's Desert~
 The ground is covered with sands all about and it looks as though you
-would be walking into the middle of a sandstorm north.  There is a sign
+would be walking into the middle of a sandstorm north. There is a sign
 here.  
 ~
 0 0 10
@@ -1732,8 +1732,8 @@ D4
 S
 #22574
 Jade's Desert~
-Welcome to hell kid.  Try to find your way out if you can.  Oh yeah,
-praying to your gods for teleportation is useless.  Ha ha ha ha ha.....  
+Welcome to hell kid. Try to find your way out if you can. Oh yeah,
+praying to your gods for teleportation is useless. Ha ha ha ha ha.....  
 ~
 0 8192 10
 D0
@@ -1744,7 +1744,7 @@ S
 #22575
 Jade's Desert~
 You are wandering through the endless desert known as Jade's Desert,
-others like to call it hell.  Enjoy!  
+others like to call it hell. Enjoy!  
 ~
 0 8192 10
 D1
@@ -1762,8 +1762,8 @@ D3
 S
 #22576
 Jade's Desert~
-Welcome to hell kid.  Try to find your way out if you can.  Oh yeah,
-praying to gods for teleportation is useless.  Ha ha ha ha ha.....  
+Welcome to hell kid. Try to find your way out if you can. Oh yeah,
+praying to gods for teleportation is useless. Ha ha ha ha ha.....  
 ~
 0 8192 10
 D0
@@ -1774,7 +1774,7 @@ S
 #22577
 Jade's Desert~
 You are wandering through the endless desert known as Jade's Desert,
-others like to call it hell.  Enjoy!  
+others like to call it hell. Enjoy!  
 ~
 0 8192 10
 D1
@@ -1792,8 +1792,8 @@ D3
 S
 #22578
 Jade's Desert~
-Welcome to hell kid.  Try to find your way out if you can.  Oh yeah,
-praying to you gods for teleportation is useless.  Ha ha ha ha ha.....  
+Welcome to hell kid. Try to find your way out if you can. Oh yeah,
+praying to you gods for teleportation is useless. Ha ha ha ha ha.....  
 ~
 0 8192 10
 D0
@@ -1804,7 +1804,7 @@ S
 #22579
 Jade's Desert~
 The endless deserts do not seem so endless anymore as you easily find
-your way out of the desert!  You found this desert a breeze!  To the north
+your way out of the desert! You found this desert a breeze! To the north
 you think you see a field.  
 ~
 0 8192 10
@@ -1815,7 +1815,7 @@ D0
 S
 #22580
 Field~
-You are standing in a field and aren't sure how you got here.  To the
+You are standing in a field and aren't sure how you got here. To the
 south used to be a desert but there is nothing but field for miles and
 miles.  
 ~
@@ -1845,7 +1845,7 @@ D2
 S
 #22582
 Entrance to the Valley of Elves~
-You are on the rim high above the valley of elves.  A safe passages leads
+You are on the rim high above the valley of elves. A safe passages leads
 down into the valley.  
 ~
 0 0 2
@@ -1876,7 +1876,7 @@ S
 #22584
 Valley of Elves~
 You are in the southern part of the valley whilest elves move around you
-every where you go.  The elven guards around here were told to stand at
+every where you go. The elven guards around here were told to stand at
 attention and watch all humans and such closely.  
 ~
 0 0 2
@@ -1900,7 +1900,7 @@ S
 #22585
 Valley of Elves~
 You are in the western part of the valley where many elves walk around
-freely.  When you pass by mothers grab their children and step away from
+freely. When you pass by mothers grab their children and step away from
 you.  
 ~
 0 0 2
@@ -1916,7 +1916,7 @@ S
 #22586
 Valley of Elves~
 You are in the east side of the tiny valley where elves pass by giving
-you strange looks.  Some of them tell you to leave or get the hell out of
+you strange looks. Some of them tell you to leave or get the hell out of
 here with just a glance.  
 ~
 0 0 2
@@ -1932,7 +1932,7 @@ S
 #22587
 Valley of Elves~
 You are in the center of the valley where elves are bustling with
-activity and gossip until you arrive.  Then they all stay to the sides and
+activity and gossip until you arrive. Then they all stay to the sides and
 don't speak.  
 ~
 0 0 2
@@ -1956,7 +1956,7 @@ S
 #22588
 Valley of Elves~
 You are at the northern most point in the valley where a wall of stone
-stops you from passing any further.  Guards stand at attention like some
+stops you from passing any further. Guards stand at attention like some
 sort of 'elf police'.  
 ~
 0 0 2
@@ -1968,7 +1968,7 @@ S
 #22589
 Valley of Elves~
 You are in the western-northern part of the small valley where elves live
-in secrecy from the rest of the world.  When they notice you and your
+in secrecy from the rest of the world. When they notice you and your
 ugliness they gag and walk away.  
 ~
 0 0 0
@@ -2009,7 +2009,7 @@ D3
 S
 #22592
 Cave Dwelling~
-You are in a small cave where a fire has just been snuffed out.  Small
+You are in a small cave where a fire has just been snuffed out. Small
 eyes run too and fro to the south.  
 ~
 0 1 0
@@ -2048,7 +2048,7 @@ S
 #22594
 Overlook~
 You are deep within the canyon in Jade Plateau overlooking the fast
-running river below.  Across the canyon is a ledge leading around the west
+running river below. Across the canyon is a ledge leading around the west
 side of the canyon.  
 ~
 0 4 0
@@ -2059,7 +2059,7 @@ D0
 S
 #22596
 A Goblin Bedroom~
-You are in a small dark room with a makeshift bed of bloody animals.  You
+You are in a small dark room with a makeshift bed of bloody animals. You
 hear the little critters roaming around everywhere.  
 ~
 0 1 0
@@ -2075,7 +2075,7 @@ S
 #22597
 A Goblin Bedroom~
 Obviously a large goblin family lives here judging by the amount of
-bedrooms.  The little creatures filthy stench is in the air so you know they
+bedrooms. The little creatures filthy stench is in the air so you know they
 can't be far.  
 ~
 0 1 0
@@ -2090,7 +2090,7 @@ D3
 S
 #22598
 A Goblin Hoard~
-The room is filled with the goblin's stolen treasures.  There is mostly a
+The room is filled with the goblin's stolen treasures. There is mostly a
 little gold and a sword.  
 ~
 0 0 0

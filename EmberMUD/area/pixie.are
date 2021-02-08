@@ -21,7 +21,7 @@ AGS T 0 S
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
-8 8 3 1
+8 8 -1 1
 AHMV ABCDEFGHIJKP T unknown
 #20101
 red pixie~
@@ -36,7 +36,7 @@ AGS T 1000 S
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
-8 8 3 1
+8 8 -1 1
 AHMV ABCDEFGHIJKP T unknown
 #20102
 blue pixie~
@@ -51,7 +51,7 @@ AGS T 1000 S
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
-8 8 3 1
+8 8 -1 1
 AHMV ABCDEFGHIJKP T unknown
 #20103
 annoying purple pixie~
@@ -81,14 +81,14 @@ AGS T 1000 S
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
-8 8 3 1
+8 8 -1 1
 AHMV ABCDEFGHIJKP T unknown
 #20105
 Amber pixie princess~
 Amber~
 Amber the pixie princess is here looking pretty.
 ~
-A beatiful yellow pixie, she rules all the other pixies.  She is very
+A beatiful yellow pixie, she rules all the other pixies. She is very
 sweet to all visitors.  
 ~
 Human~
@@ -148,7 +148,7 @@ pixie kitten~
 a pixie kitten~
 A flying pixie kitten is here.
 ~
-Look at the cute little cat!  It even has wings, awwwwww.  
+Look at the cute little cat! It even has wings, awwwwww.  
 ~
 cat~
 A TZ 0 S
@@ -179,7 +179,7 @@ an old pixie man~
 An old pixie man wants to know if you want to buy a staff
 ~
 A very old and wrinkled man, people say he used to be a world wide
-traveler.  Now he is retired and devotes his life to selling staffs.  
+traveler. Now he is retired and devotes his life to selling staffs.  
 ~
 Human~
 ABd 0 1000 S
@@ -217,7 +217,7 @@ AB T 1000 S
 100 0 0 0 1d15+30 0d0+0 2d3+2 0
 7 7 7 10
 0 0 0 0
-8 8 3 23
+8 8 -1 23
 AHMV ABCDEFGHIJKP T unknown
 #20114
 pixie basket weaver~
@@ -471,8 +471,8 @@ A
 #ROOMS
 #20100
 Dark Forest Trail~
-Still as dark, you think of turning back.  A bright green light flies
-around your head and you bat at it with your weapon.  A strange giggle fills
+Still as dark, you think of turning back. A bright green light flies
+around your head and you bat at it with your weapon. A strange giggle fills
 the air.  "Hehehe....."  
 ~
 0 2097153 3
@@ -487,9 +487,9 @@ D3
 S
 #20101
 Dark Forest Trail~
-This dark trail continues throughout the darkness.  Even more numerous
-lights appear, seemingly all around.  Brightly lit eyes look at you as you
-here whispers.  You attempt to creep up on one of the creatures but as you
+This dark trail continues throughout the darkness. Even more numerous
+lights appear, seemingly all around. Brightly lit eyes look at you as you
+here whispers. You attempt to creep up on one of the creatures but as you
 do all the lights flies off in different directions.  
 ~
 0 2097153 3
@@ -509,8 +509,8 @@ S
 #20102
 Dark Forest Trail~
 You approach a dim path to your east where the lights are in clear view. 
-You peer off into the distance, but aren't close enough.  When you step
-forward all the lights blink out.  You know you've seen such strange
+You peer off into the distance, but aren't close enough. When you step
+forward all the lights blink out. You know you've seen such strange
 behavior before.  
 ~
 0 2097153 3
@@ -525,8 +525,8 @@ D2
 S
 #20103
 Off the Trail~
-You are walking along the dense trail when a large bear attacks you.  You
-dodge it as it starts to make for you again.  Quick think fast!  
+You are walking along the dense trail when a large bear attacks you. You
+dodge it as it starts to make for you again. Quick think fast!  
 ~
 0 2097153 3
 D0
@@ -536,9 +536,9 @@ D0
 S
 #20104
 Dim Forest Path~
-The forest path is dim, but you can see very clearly.  Too bad all the
-light are gone, you could have found out what they were.  Wait!  You here
-that same strange laughter to the east.  Better check it out.  Don't you
+The forest path is dim, but you can see very clearly. Too bad all the
+light are gone, you could have found out what they were. Wait! You here
+that same strange laughter to the east. Better check it out. Don't you
 know that mischievous sound?  
 ~
 0 2097152 3
@@ -553,8 +553,8 @@ D3
 S
 #20105
 Dimly Lit Path~
-A bright colored light comes face to face with you.  A pixie!  Of
-course!  She stares at you and gives a high pitched giggle.  "Your funny! 
+A bright colored light comes face to face with you. A pixie! Of
+course! She stares at you and gives a high pitched giggle.  "Your funny! 
 Hehehe!"  She flies of north to, what looks like an inhabitance.  
 ~
 0 2097156 3
@@ -577,7 +577,7 @@ D3
 S
 #20106
 Entrance to the Pixie Forests~
-To the north is where all the pixie seem to be coming from.  Its almost
+To the north is where all the pixie seem to be coming from. Its almost
 blinding to see so many colors at once all flying in different directions.  
 ~
 0 2097152 3
@@ -593,7 +593,7 @@ S
 #20107
 A Dark Cave~
 The cave is very and dank and there is nothing that you can see of
-importance.  Better go on and come back another time.  
+importance. Better go on and come back another time.  
 ~
 0 2097161 0
 D3
@@ -604,7 +604,7 @@ S
 #20108
 Dim Forest Path~
 You are on a dim forest path still, moving away from the voices, lights,
-and laughter.  It gets kinda dark up ahead and you should turn back.  There
+and laughter. It gets kinda dark up ahead and you should turn back. There
 is a cave to your east 
 ~
 0 2097152 3
@@ -619,9 +619,9 @@ D1
 S
 #20109
 A Dark Cave ~
-Inside the cave, a foul stench fills your nostrils.  You see red beady
-eyes looking all around you as you realize it's a trap!  All of the monsters
-try to jump you but your too quick.  Kill them and get back to the forest.  
+Inside the cave, a foul stench fills your nostrils. You see red beady
+eyes looking all around you as you realize it's a trap! All of the monsters
+try to jump you but your too quick. Kill them and get back to the forest.  
 ~
 0 2097153 0
 D3
@@ -631,10 +631,10 @@ D3
 S
 #20110
 Pixie Road~
-A small woodland clearing pixie fly all about.  They leave different
-colored trails all throughout the air.  Some lok at you and giggle at you're
-wierd appearance.  They all seem to have never seen humans.  You are some
-kind of main road through the middle of the forest.  Little pixie houses are
+A small woodland clearing pixie fly all about. They leave different
+colored trails all throughout the air. Some lok at you and giggle at you're
+wierd appearance. They all seem to have never seen humans. You are some
+kind of main road through the middle of the forest. Little pixie houses are
 on the sides of the road.  
 ~
 0 2097152 3
@@ -657,8 +657,8 @@ D3
 S
 #20111
 A Pixie House~
-One of the many houses made of hollowed out trees.  You stand in the
-entire house without any room to move.  Little pixies fuss at you for your
+One of the many houses made of hollowed out trees. You stand in the
+entire house without any room to move. Little pixies fuss at you for your
 intrusion.  
 ~
 0 2097160 0
@@ -669,8 +669,8 @@ D3
 S
 #20112
 A Pixie House~
-A small house has been made out of a hollowed out tree.  You can fit
-inside the opening but it's a really tight squeeze.  I hope the little
+A small house has been made out of a hollowed out tree. You can fit
+inside the opening but it's a really tight squeeze. I hope the little
 pixies don't mind you just squashed all their furniture.  
 ~
 0 2097160 0
@@ -681,8 +681,8 @@ D1
 S
 #20113
 Pixie Road~
-Pixie road continues north throughout this small village.  Pixies stop
-along their way to talk to each other and borrow stuff.  Their conversations
+Pixie road continues north throughout this small village. Pixies stop
+along their way to talk to each other and borrow stuff. Their conversations
 consists mostly of the humans that have been entering their village and
 smashing up their houses.  
 ~
@@ -707,8 +707,8 @@ S
 #20114
 Pixie Road~
 Pixie Road continues north to Pixie Square where little pixie deal and
-sell their goods.  Little cobblestone paths lead east and west to more
-houses.  Pixies are looking at you and giggling as they fly by.  
+sell their goods. Little cobblestone paths lead east and west to more
+houses. Pixies are looking at you and giggling as they fly by.  
 ~
 0 2097152 3
 D0
@@ -730,7 +730,7 @@ D3
 S
 #20115
 A Pixie House~
-A small wooded house is way too small for you to fit inside of.  Little
+A small wooded house is way too small for you to fit inside of. Little
 pixies walk in and out talking and telling jokes with one another.  
 ~
 0 2097152 3
@@ -741,8 +741,8 @@ D3
 S
 #20116
 A Pixie House~
-The house you just stepped on appeared to be a small log cabin.  A pixie
-crawls out of the rubble and yells at you.  It walks off mumbling under it's
+The house you just stepped on appeared to be a small log cabin. A pixie
+crawls out of the rubble and yells at you. It walks off mumbling under it's
 breath.  
 ~
 0 2097152 3
@@ -754,8 +754,8 @@ S
 #20117
 Pixie Square~
 Pixie Road ends here, and Pixie Lane runs east and west in either
-direction.  There is a tiny fountain mounted here as pixies gather around
-for lunch.  A small pixie vender is selling tiny, tiny food.  To the north
+direction. There is a tiny fountain mounted here as pixies gather around
+for lunch. A small pixie vender is selling tiny, tiny food. To the north
 is a castle, huge to the pixies, normal sized to you.  
 ~
 0 2097152 3
@@ -779,7 +779,7 @@ S
 #20118
 A Pixie House~
 Yet another pixie house is brought down by the great house-smashing
-creature, as the pixies have dubbed you.  The pixies in this house crawl out
+creature, as the pixies have dubbed you. The pixies in this house crawl out
 of the ruins and cuss you out.  "Stay away you big oaf!"  
 ~
 0 2097152 3
@@ -791,7 +791,7 @@ S
 #20119
 A Pixie House~
 One of the pixie houses made from hollowed out trees, you can actually
-fit inside of this one.  A pixie gets up off of a stool and kicks you in the
+fit inside of this one. A pixie gets up off of a stool and kicks you in the
 head.  "You can't fit in here," it yells, "Get the hell out!"  Ooooo, a
 pixie with an attitude.  
 ~
@@ -803,7 +803,7 @@ D3
 S
 #20120
 Pixie Lane~
-Pixie Lane is where most of the little pixie shops are located.  Of
+Pixie Lane is where most of the little pixie shops are located. Of
 course they are way too small for you to just go in and buy something, so
 the dealers have agreed to come outside.  
 ~
@@ -828,7 +828,7 @@ S
 #20121
 Pixie Lane~
 Pixie Lane is where most of the pixie's business is conducted, but these
-shops are WAY too small for you to fit in.  Because they don't want their
+shops are WAY too small for you to fit in. Because they don't want their
 shops crushed, the shopkeepers have graciously agrees to come outside to sell
 to you.  
 ~
@@ -852,9 +852,9 @@ D3
 S
 #20122
 Entrance to Amber's Castle~
-The entrance to the castle is quite large for a pixie structure.  You can
-fit inside if you squat down a bit.  Inside is where the pixie monarchy
-resides.  From what you here, the pixie kingdom is ruled by Amber, who is
+The entrance to the castle is quite large for a pixie structure. You can
+fit inside if you squat down a bit. Inside is where the pixie monarchy
+resides. From what you here, the pixie kingdom is ruled by Amber, who is
 quite nice.  
 ~
 0 2097156 3
@@ -870,7 +870,7 @@ S
 #20123
 Pixie Lane~
 Little pixie hustle about buying and trading little pixie clothes and
-trinkets and all sorts of neat junk.  The clothing shop is to the north
+trinkets and all sorts of neat junk. The clothing shop is to the north
 while the basket shop is to the south.  
 ~
 0 2097152 3
@@ -889,8 +889,8 @@ D2
 S
 #20124
 Pixie Lane~
-Little pixie shops are to the north and south.  You can buy objects
-infused with pixie magic to the south.  To the north is a shop for tiny
+Little pixie shops are to the north and south. You can buy objects
+infused with pixie magic to the south. To the north is a shop for tiny
 pixie staffs.  
 ~
 0 2097152 3
@@ -929,8 +929,8 @@ Zane the Insane
 S
 #20127
 A Pixie Magic Shop~
-You are outside a tiny tiny shop when colorful swirls engulf you.  You
-shrink down to pixie size and walk inside.  Weird smells fill the misty air
+You are outside a tiny tiny shop when colorful swirls engulf you. You
+shrink down to pixie size and walk inside. Weird smells fill the misty air
 as a small gypsy pixie appears behind the counter in a swirling mist.  
 ~
 0 2097160 0
@@ -942,7 +942,7 @@ S
 #20128
 A Pixie Staff Shop~
 You are in front of a small shop when an old man creeps on out of his
-shop.  He tries to say something but you can't hear him.  You lean over to
+shop. He tries to say something but you can't hear him. You lean over to
 him and he climbs onto your shoulder.  "Would you like to buy a staff?"  "I
 guess you couldn't find a use for them being so small and all."  "Oh well,
 would you buy one anyway?"  "No?"  The old man goes back inside.  
@@ -955,10 +955,10 @@ D2
 S
 #20129
 A Pixie Arms Shop~
-A tiny little structure is exactly like all the others you've seen.  A
-small pixie in battle gear comes out of his shop.  In case of a war, he
-supplies the army with state of the art weaponry.  Unfortunately he won't
-sell to you and he goes back inside.  That jerk.  He walks back out and
+A tiny little structure is exactly like all the others you've seen. A
+small pixie in battle gear comes out of his shop. In case of a war, he
+supplies the army with state of the art weaponry. Unfortunately he won't
+sell to you and he goes back inside. That jerk. He walks back out and
 tells you to leave, you're scaring the customers!  
 ~
 0 2097152 3
@@ -969,8 +969,8 @@ D2
 S
 #20130
 A Pixie House~
-A very tiny tiny house made of oak.  Loud noises and laughter come from
-inside as though they're having a party.  You step on the house as pixie run
+A very tiny tiny house made of oak. Loud noises and laughter come from
+inside as though they're having a party. You step on the house as pixie run
 out the front door screaming.  
 ~
 0 2097152 0
@@ -982,7 +982,7 @@ S
 #20131
 A Pixie Clothing Boutique~
 The pixies have refused to sell you any clothes because there is no way
-you're going to wear them.  There's nothing to see here except preppy little
+you're going to wear them. There's nothing to see here except preppy little
 pixie running in and out buying all the latest clothes.  
 ~
 0 2097152 3
@@ -995,7 +995,7 @@ S
 A Pixie Basket Shop~
 Just one of the many places you can't go into, the little pixie peasants
 have reluctantly agreed to come outside and sell you their little hand woven
-baskets.  However, I don't think you'll be able to fit much in there.  
+baskets. However, I don't think you'll be able to fit much in there.  
 ~
 0 2097152 0
 D0
@@ -1006,9 +1006,9 @@ S
 #20133
 Entrance Hall~
 The entrance hall of the castle is quite small for you, but to the pixies
-it would be rather large.  You have to get down on your hands and knees and
-crawl just to get around.  Two little pixie guards stand by the doors at
-attention but they don't seem to mind you being here.  I guess they don't
+it would be rather large. You have to get down on your hands and knees and
+crawl just to get around. Two little pixie guards stand by the doors at
+attention but they don't seem to mind you being here. I guess they don't
 have much of a choice if they're going to let you in or not.  
 ~
 0 2097160 0
@@ -1032,8 +1032,8 @@ S
 #20134
 Main Hall~
 As you crawl further down the hallway there are more and more guards all
-over the place.  There are some small rooms to your east and west, and up
-ahead is the throne room where Amber commands her people.  She is a widely
+over the place. There are some small rooms to your east and west, and up
+ahead is the throne room where Amber commands her people. She is a widely
 respected pixie so you better be careful about how you act around her.  
 ~
 0 2097160 0
@@ -1057,8 +1057,8 @@ S
 #20135
 A Guest Bedroom~
 This guest bedroom is decorated with very expensive furniture and it is
-in very good taste.  All royal visitors get to stay here if they like but
-you are way too big and would crush all of the furniture.  You better find
+in very good taste. All royal visitors get to stay here if they like but
+you are way too big and would crush all of the furniture. You better find
 another place to stay.  
 ~
 0 2097160 0
@@ -1070,7 +1070,7 @@ S
 #20136
 A Guest Bedroom~
 A tiny room that is decorated with expensive furniture and very fine
-taste.  The guest bedrooms are for royal visitors to the castle.  You would
+taste. The guest bedrooms are for royal visitors to the castle. You would
 be able to stay but the room is way too small, and you would crush the bed
 and all of the furniture.  
 ~
@@ -1083,8 +1083,8 @@ S
 #20137
 Amber's Throne Room~
 This room is larger than all the others in the castle, but you still have
-to duck down pretty low to fit in it.  Amber, the royal pixie, sits on her
-throne while servants do her bidding.  The place is crawling with guards and
+to duck down pretty low to fit in it. Amber, the royal pixie, sits on her
+throne while servants do her bidding. The place is crawling with guards and
 there is gold laying everywhere.  
 ~
 0 2097160 0
@@ -1100,8 +1100,8 @@ S
 #20138
 A Treasure Room~
 As you walk into the room you are struck by gleaming bright lights
-reflecting off of the gold.  There are pile of it around, but to you it's
-about one average pile.  Take whatever you want.  
+reflecting off of the gold. There are pile of it around, but to you it's
+about one average pile. Take whatever you want.  
 ~
 0 2097152 0
 D3
@@ -1111,8 +1111,8 @@ D3
 S
 #20139
 A Treasure Room~
-One of Amber's treasure rooms, it is overflowing with gold.  There is so
-much gold in her castle, Amber is running out of places to put it!  Take
+One of Amber's treasure rooms, it is overflowing with gold. There is so
+much gold in her castle, Amber is running out of places to put it! Take
 some off of her hands and help her out.  
 ~
 0 2097152 0
@@ -1123,7 +1123,7 @@ D1
 S
 #20140
 Amber's Bedroom~
-This is princess Amber's bedroom!  What do you think your doing in here. 
+This is princess Amber's bedroom! What do you think your doing in here. 
 Better leave before she gets mad!  
 ~
 0 2097164 0

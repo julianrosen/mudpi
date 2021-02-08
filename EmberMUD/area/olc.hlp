@@ -12,14 +12,14 @@ Syntax: RESET  See Help Resets.			- Set Game Resets.
 
 Definition: [optional]  <required>  (combined arguments)
 
-     The above commands are used to expand the game world.  The original
+     The above commands are used to expand the game world. The original
 code is based on was written by Surreality and installed in The Isles by Locke.
 It was then converted to work with Envy by Jason Dinkel, and ported to ROM
 by Hans Birkeland (Hugin).
 
      Inside an editor, typing COMMANDS lists working commands and ? gives
 help. AEDIT and REDIT default to the current area or room. EDIT ROOM RESET
-resets the current room.  Most commands with no arguments display syntax.
+resets the current room. Most commands with no arguments display syntax.
 See also help: AEDIT REDIT MEDIT OEDIT
 ~
 
@@ -94,7 +94,7 @@ desc               - edit the description of the exit
 delete             - delete this exit
 <exit-flags>       - type ? EXIT for a list(make exit door, locked etc.)
 
-The exit flags are presented in the following manner.  The capitalized
+The exit flags are presented in the following manner. The capitalized
 flags are ones not included in the reset info.  i.e. closed is due to
 a player closing the door and not due to the door being set to be closed.
 
@@ -187,7 +187,7 @@ Suggested values are:
 	30:     10d61+416   426(419)  1026(1026)   726( 723)
 	50:    10d169+920   930(923)  2610(2610)  1770(1767)
 
-Diff = max - min.  Mean is the arithmetic mean.
+Diff = max - min. Mean is the arithmetic mean.
 The values in parenthesis are the the standard merc values.
 ~
 
@@ -219,7 +219,7 @@ Suggested values are:
        30         5d6+15     20       45      33
        50         5d10+25    30       75      53
 
-Mean is the arithmetic mean.  The values in parenthesis are the the
+Mean is the arithmetic mean. The values in parenthesis are the the
 standard merc values.  (Will be put in when there's time to calculate
 them...)
 ~
@@ -259,14 +259,14 @@ Syntax: RESET <number> OBJ <vnum> <location on body>    - equips last mobile
         RESET <number> MOB <vnum> [<max #>]             - load a mobile
         RESET <number> DELETE                           - delete a reset
 
-RESET alone will display the resets in the current room.  The <number> will
-be displayed with this list.  Typing ? WEAR-LOC will list possible locations
-that an object can be loaded to.  The [<max #>] is the maximum number of
+RESET alone will display the resets in the current room. The <number> will
+be displayed with this list. Typing ? WEAR-LOC will list possible locations
+that an object can be loaded to. The [<max #>] is the maximum number of
 mobiles allowed in this room and will default to 1 if no number is entered.
 
 For resets to be successful make sure that you add them in a logical order.
 For example if you are equiping a mobile don't load a container in the room
-and fill it with some objects and then continue equiping the mobile.  It is
+and fill it with some objects and then continue equiping the mobile. It is
 likely that resets will backfire if they are not carefully entered.
 
 If you wish to reset the room then use EDIT ROOM RESET.  
@@ -367,8 +367,8 @@ help WEAPON_DICE
 
 0 WEAPON_DICE~
 These are the values the server generates automatically when
-converting a merc-format mobile to ROM format.  A higher
-number of dice gives less variance in damage.  There is no
+converting a merc-format mobile to ROM format. A higher
+number of dice gives less variance in damage. There is no
 dice-bonus on weapon dice.
 
       level:   dice 

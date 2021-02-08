@@ -118,7 +118,7 @@ void load_classes(  )
     for ( i = 0; i < MAX_CLASS; i++ )
     {
         for ( j = 0; j < MAX_SKILL; j++ )
-            skill_table[j].skill_level[i] = LEVEL_IMMORTAL; /* So what is the point of having levels in const.c? */
+            skill_table[j].skill_level[i] = LEVEL_IMMORTAL; /* So what's the point of having levels in const.c? */
 
         load_class( i );
     }

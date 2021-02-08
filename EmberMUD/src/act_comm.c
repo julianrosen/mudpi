@@ -24,6 +24,89 @@ args( ( CHAR_DATA * ch, char *command, char *argument ) );
  * Local functions.
  */
 
+/* JR: Genders and pronouns */
+char * HE_SHE[] = { "it", "he", "she", "they" };
+char * HIM_HER[] = { "it", "him", "her", "them" };
+char * HIS_HER[] = { "its", "his", "her", "their" };
+char * HIS_HERS[] = { "its", "his", "hers", "theirs" };
+char * GENDER[] = { "none", "male", "female", "nonbinary" };
+char * BE_VERB[] = { "is", "is", "is", "are" };
+
+
+char * he_she( int sex )
+{
+    return HE_SHE[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * him_her( int sex )
+{
+    return HIM_HER[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * his_her( int sex )
+{
+    return HIS_HER[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * his_hers( int sex )
+{
+    return HIS_HERS[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * He_she( int sex )
+{
+    char * buf = strdup( he_she( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+char * Him_her( int sex )
+{
+    char * buf = strdup( him_her( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+char * His_her( int sex )
+{
+    char * buf = strdup( his_her( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+char * His_hers( int sex )
+{
+    char * buf = strdup( his_hers( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+char * gender( int sex )
+{
+    return GENDER[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * Gender( int sex )
+{
+    char * buf = strdup( gender( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+char * be_verb( int sex )
+{
+    return BE_VERB[URANGE( 0, sex, NUM_SEXES )];
+}
+
+char * Be_verb( int sex )
+{
+    char * buf = strdup( be_verb( sex ) );
+    buf[0] = UPPER(buf[0]);
+    return buf;
+}
+
+
+
 /* RT code to delete yourself */
 void do_delet( CHAR_DATA * ch, char *argument )
 {
@@ -2222,8 +2305,8 @@ void do_emote( CHAR_DATA * ch, char *argument )
         argument = makedrunk( argument, ch );
 #endif
 
-    act( "$n $T`w", ch, NULL, argument, TO_ROOM );
-    act( "$n $T`w", ch, NULL, argument, TO_CHAR );
+    act( "`W$n $T`w", ch, NULL, argument, TO_ROOM );
+    act( "`W$n $T`w", ch, NULL, argument, TO_CHAR );
     return;
 }
 

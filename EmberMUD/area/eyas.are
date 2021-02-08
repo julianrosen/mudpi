@@ -84,7 +84,7 @@ a servant and a barrel of wine~
 A servant is here, trying to keep his balance while hauling a barrel of wine.
 ~
 A small person wanders about the crowd trying to get to a place to set
-the barrel down.  The servant has trouble not spilling the wine and keeping
+the barrel down. The servant has trouble not spilling the wine and keeping
 away from the guests.  
 ~
 Human~
@@ -93,15 +93,15 @@ AB 0 0 S
 100 0 0 0 3d22+96 5d8+7 4d4+4 8
 4 4 4 7
 N 0 0 E
-8 8 3 20
+8 8 -1 20
 AHMV ABCDEFGHIJK M unknown
 #28105
 servant~
 a servant with a cart of food~
 A servant struggles to keep all the food on their cart.
 ~
-A servant wheels a cart around with all types of food on it.  There are
-heads of horses, fried seagull, and monkey brains.  All of which are
+A servant wheels a cart around with all types of food on it. There are
+heads of horses, fried seagull, and monkey brains. All of which are
 followed around by a servant with a barrel of wine and caeser salad.  
 ~
 Human~
@@ -110,7 +110,7 @@ AG 0 0 S
 100 0 0 0 5d30+161 3d5+9 3d5+9 17
 4 4 4 7
 N 0 0 0
-8 8 3 20
+8 8 -1 20
 AHMV ABCDEFGHIJK M unknown
 #28106
 Guard~
@@ -118,7 +118,7 @@ A guard~
 A guard stands here guarding his exit.
 ~
 A tall person is clad in armor from head to toe and stands at attention. 
-Even when you look at him or talk to him he does not move.  He watches
+Even when you look at him or talk to him he does not move. He watches
 everything coming near his door and does not let fiends in or prisoners out.
 ~
 Human~
@@ -151,7 +151,7 @@ magic dummy~
 a magic dummy~
 A practice dummy waits here to be attacked.
 ~
-A finely stitched dummy stands here brought to life magically.  It seems
+A finely stitched dummy stands here brought to life magically. It seems
 like an easy kill yet it doesn't. There is an aura of power emitting from
 it. Some powerful mage must have made it.
 ~
@@ -214,7 +214,7 @@ AB 0 500 S
 100 0 0 0 1d17+42 5d10+100 2d3+2 10
 0 0 0 0
 FH 0 0 0
-8 8 3 0
+8 8 -1 0
 AGHMV ABCDEFGHIJK M unknown
 #28112
 Bugs~
@@ -222,8 +222,8 @@ An Evil Bug~
 Some little black creepy things scuttle around the room.
 ~
 Little flat creepy bugs scamper around the floor running from you and the
-light.  They are completely black and have little antenae that are about 6
-inches long.  Little pinchers are mounted on what can be decided as their
+light. They are completely black and have little antenae that are about 6
+inches long. Little pinchers are mounted on what can be decided as their
 front.  
 ~
 centipede~
@@ -256,9 +256,9 @@ Cleaning Woman~
 A frustrated cleaning woman scrubs the floor with a mop.~
 A frustrated cleaning woman scrubs the floor with a mop.
 ~
-A woman in her 30's stands here, slightly hunched over.  She grumbles
+A woman in her 30's stands here, slightly hunched over. She grumbles
 quietly to herself at the task at hand, scrubbing the floor continuously
-with a long handled mop.  She wears a faded dress with short sleeves, and a
+with a long handled mop. She wears a faded dress with short sleeves, and a
 very dirty apron.  
 ~
 Human~
@@ -475,8 +475,8 @@ S
 #28101
 Approaching the Throne~
 Continuing on a red carpet, more lords and ladies look and inspect anyone
-approaching the throne.  The ladies whisper to themselves, while servants
-run between everyone, serving red wine.  Tapestries of eagles and other
+approaching the throne. The ladies whisper to themselves, while servants
+run between everyone, serving red wine. Tapestries of eagles and other
 animals hang from the ceiling making the room seem smaller than it really
 is.  
 ~
@@ -500,7 +500,7 @@ D3
 S
 #28102
 Entering the Castle~
-A red carpet greets all who enter.  This is for a royal procession. 
+A red carpet greets all who enter. This is for a royal procession. 
 There are many lords and ladies all around the red carpet trying to get a
 peek at who is coming in, like paparatzis.  
 ~
@@ -525,7 +525,7 @@ S
 #28103
 Among the Lords and Ladies~
 Lords and Ladies dressed in finest silks and furs, lined with velvet
-crowd to the front trying to see the King and Queen of the realm.  The room
+crowd to the front trying to see the King and Queen of the realm. The room
 is noisy and bustling with servants passing out goblets of wine.  
 ~
 0 2097160 0
@@ -544,8 +544,8 @@ D3
 S
 #28104
 Amidst the Lords and Ladies~
-The crowd of lords and ladies seem to grow by the minute.  There are so
-many different people garbed in exquisite materials and furs.  More servants
+The crowd of lords and ladies seem to grow by the minute. There are so
+many different people garbed in exquisite materials and furs. More servants
 maneuver through the crowds serving food and wine.  
 ~
 0 2097160 0
@@ -569,7 +569,7 @@ S
 #28105
 East of the Carpet~
 There are many lords and ladies arriving by the minute each filing off to
-one side or the other.  This area seems to be kept clear except for an
+one side or the other. This area seems to be kept clear except for an
 occasional servant running around for more wine.  
 ~
 0 2097160 0
@@ -588,8 +588,8 @@ D3
 S
 #28106
 Banquet hall~
-An exquisite banquet hall lies beforehand.  There is a large and long
-ebony table with silverware settings for 100.  Butlers and all types of
+An exquisite banquet hall lies beforehand. There is a large and long
+ebony table with silverware settings for 100. Butlers and all types of
 servants come from the kitchen, bringing in a giant feast with game birds,
 exotic fruits and even two entire roasted wild boar.  
 ~
@@ -614,7 +614,7 @@ S
 #28107
 In the Middle of the table~
 A long ebony table stretches from one end of the hall to the other, with
-settings for 100 people of this finest calliber.  There are servants running
+settings for 100 people of this finest calliber. There are servants running
 about with trays of boiled lobster, steamed mountain oysters and several
 other aquatic delicassies.  
 ~
@@ -680,9 +680,9 @@ D4
 S
 #28110
 East Entrance to the Castle~
-A gate to the east signals that this is the east exit.  Guards stand next
+A gate to the east signals that this is the east exit. Guards stand next
 to the gate keeping fiends out and letting the lords and ladies through. 
-The floor is a mosaic of a planet on fire.  To the north and south
+The floor is a mosaic of a planet on fire. To the north and south
 stairwells can be seen. To the west is the banquet, and to the east is a
 side path of the castle.  
 ~
@@ -706,10 +706,10 @@ D3
 S
 #28111
 South East Stairwell~
-The walls are ebony and have been charred by a fire.  The stairwell,
-however is in perfect condition; polished ebony marble.  The floor is a
-mosaic of a person and a dagger destroying the world.  The wall is being
-painted over with a mural of the world in ashes.  What could have happened? 
+The walls are ebony and have been charred by a fire. The stairwell,
+however is in perfect condition; polished ebony marble. The floor is a
+mosaic of a person and a dagger destroying the world. The wall is being
+painted over with a mural of the world in ashes. What could have happened? 
 ~
 0 2097164 0
 D0
@@ -728,7 +728,7 @@ S
 #28112
 Nearing the Warrior's Table~
 An open area covered with a dark red carpet, rests between the thrones
-and the warriors table.  Cheerful giggles and small talk can be heard to the
+and the warriors table. Cheerful giggles and small talk can be heard to the
 east, while grunts and hearty laughter comes from the west.  
 ~
 0 2097160 0
@@ -748,7 +748,7 @@ S
 #28113
 Amidst the lords and ladies~
 There are more lords and ladies still entering, but trying not to get too
-close to the warrior table and the messy brawls.  A few brave servants
+close to the warrior table and the messy brawls. A few brave servants
 carrying food and wine head towards the warrior table.  
 ~
 0 2097160 0
@@ -818,9 +818,9 @@ D5
 S
 #28116
 Middle of the Warrior Table~
-This is the middle of the warriors table.  Drunken warriors stand on top
-of it screaming at each other and passing servants.  Others throw wine every
-where and hit or trip the servants as they come near.  It seems to be a
+This is the middle of the warriors table. Drunken warriors stand on top
+of it screaming at each other and passing servants. Others throw wine every
+where and hit or trip the servants as they come near. It seems to be a
 barbaric festival of brutality.  
 ~
 0 2097160 0
@@ -909,9 +909,9 @@ D3
 S
 #28120
 Southwest Stairwell~
-A stairwell of ivory marble leads upwards.  There are tapestries hanging
-from the sides of the spiraling stairwell.  The floor is a mosaic of some
-priest hiding and burying something.  Parts of the design are missing.  The
+A stairwell of ivory marble leads upwards. There are tapestries hanging
+from the sides of the spiraling stairwell. The floor is a mosaic of some
+priest hiding and burying something. Parts of the design are missing. The
 wall is covered by a huge tapestry praising the mages.  
 ~
 0 2097164 0
@@ -930,8 +930,8 @@ D4
 S
 #28121
 North West stairwell~
-This is a very dark and moist room.  The walls are black and covered in a
-thick red gooey substance.  The stairwell however is clean ebony marble. 
+This is a very dark and moist room. The walls are black and covered in a
+thick red gooey substance. The stairwell however is clean ebony marble. 
 There are some small red globes and sconces that illuminate the room dimly. 
 ~
 0 2097160 0
@@ -970,8 +970,8 @@ D2
 S
 #28123
 South West Stairwell~
-This is a creepy room with a stairwell leading downwards.  There is a
-thick red gooey film on the walls.  There are demonic symbols everywhere and
+This is a creepy room with a stairwell leading downwards. There is a
+thick red gooey film on the walls. There are demonic symbols everywhere and
 globes of dim light resting on the floor.  
 ~
 0 2097160 0
@@ -987,9 +987,9 @@ S
 #28124
 King's Shrine~
 A large circle with two triangles arranged to form a six pointed star
-inscirbed in it greets people.  It has a finely carved demon's face in the
-middle of the star.  There is a red goo coating all the walls.  There is no
-light, except that from your torch.  A pedestal with a big book of spells
+inscirbed in it greets people. It has a finely carved demon's face in the
+middle of the star. There is a red goo coating all the walls. There is no
+light, except that from your torch. A pedestal with a big book of spells
 stands in front of the circle on the wall.  
 ~
 0 2097160 0
@@ -1004,9 +1004,9 @@ D2
 S
 #28125
 Beginning of Western Hallway~
-This is the begining of a long hallway.  There is a door to the north and
-south.  The walls are ebony marble on the south and ivory marble on the
-north wall.  The floor is a mix of ebony and ivory marble mostly ebony
+This is the begining of a long hallway. There is a door to the north and
+south. The walls are ebony marble on the south and ivory marble on the
+north wall. The floor is a mix of ebony and ivory marble mostly ebony
 though.  
 ~
 0 2097160 0
@@ -1029,9 +1029,9 @@ D3
 S
 #28126
 King's Bedroom~
-A bed of spikes greets you.  Bugs scamper around the room avoiding the
-light seeping under the door and you.  There is red goo dripping off spikes
-on the ceiling.  There are demonic symbols everywhere and an evil presence
+A bed of spikes greets you. Bugs scamper around the room avoiding the
+light seeping under the door and you. There is red goo dripping off spikes
+on the ceiling. There are demonic symbols everywhere and an evil presence
 all around you.  
 ~
 0 2097160 0
@@ -1046,11 +1046,11 @@ D1
 S
 #28127
 King's Trophy Room~
-This is a horrifying room.  There are heads of animals of all types
-mounted on the walls.  There are even humans and other races stuffed and
-mounted.  The floor has a pentagon carved into it's ebony surface.  There
-are onyx gems placed at each of the corners of the pentagon.  The ceiling is
-charred with smoke from a fire.  This is very creepy.  Maces hang from the
+This is a horrifying room. There are heads of animals of all types
+mounted on the walls. There are even humans and other races stuffed and
+mounted. The floor has a pentagon carved into it's ebony surface. There
+are onyx gems placed at each of the corners of the pentagon. The ceiling is
+charred with smoke from a fire. This is very creepy. Maces hang from the
 wall in an omnimous fashion.  
 ~
 0 2097161 0
@@ -1088,9 +1088,9 @@ D3
 S
 #28129
 King's Bathroom~
-Exploring the previous room leads to here.  A large tub filled with black
-liquid rests near the east wall.  A demon's face has been carved in the wall
-above the tub.  Torches stick out of the walls but will not light.  Perhaps
+Exploring the previous room leads to here. A large tub filled with black
+liquid rests near the east wall. A demon's face has been carved in the wall
+above the tub. Torches stick out of the walls but will not light. Perhaps
 it would be wise not to wait around for the King's company.  
 ~
 0 2097160 0
@@ -1110,7 +1110,7 @@ in the air with a dark aura.
 0 2097161 0
 E
 page_two~
-Hellfire- A deadly spell from the depths of hell.  Has tendency to jump
+Hellfire- A deadly spell from the depths of hell. Has tendency to jump
 from target to target.  
 ~
 E
@@ -1147,11 +1147,11 @@ D3
 S
 #28131
 The Middle of the Hallway~
-This is the center of the hallway.  On either side is a door going to
-either the King's chambers or the Queen's chambers.  The floor is constantly
-being scrubbed by a cleaning woman.  To the east, a long hallway of mostly
-ivory marble can be seen.  To the west, a dark ominous path leads into black
-marble.  A few muffled voices echo in the stone hallway, and glancing up you
+This is the center of the hallway. On either side is a door going to
+either the King's chambers or the Queen's chambers. The floor is constantly
+being scrubbed by a cleaning woman. To the east, a long hallway of mostly
+ivory marble can be seen. To the west, a dark ominous path leads into black
+marble. A few muffled voices echo in the stone hallway, and glancing up you
 see a large black spot on the ceiling.  
 ~
 0 2097160 0
@@ -1182,10 +1182,10 @@ D5
 S
 #28132
 Queen's Treasury~
-A beautiful heavenly sound greets you.  A golden lyre lays on the floor
-next to a stack of books.  Several white pillar candles lit on top of the
-books cascade melting wax down the sides.  Other instruments are neatly
-arranged in a corner.  There is a bookshelf on the east wall and many
+A beautiful heavenly sound greets you. A golden lyre lays on the floor
+next to a stack of books. Several white pillar candles lit on top of the
+books cascade melting wax down the sides. Other instruments are neatly
+arranged in a corner. There is a bookshelf on the east wall and many
 crosses everywhere to bless the room.  
 ~
 0 2097160 0
@@ -1200,10 +1200,10 @@ D1
 S
 #28133
 Queen's Bathroom~
-The room is pure white marble.  There is a porceline bathtub against the
-west wall with a spigot for hot and cold water.  There are flowers filling
-several vases giving the room a sweet scent.  The floor is surprisingly warm
-to the touch for being marble.  There is a toilet decorated with delicate
+The room is pure white marble. There is a porceline bathtub against the
+west wall with a spigot for hot and cold water. There are flowers filling
+several vases giving the room a sweet scent. The floor is surprisingly warm
+to the touch for being marble. There is a toilet decorated with delicate
 flower paintings and a cross carved into the west wall above the bathtub.  
 ~
 0 2097160 0
@@ -1215,8 +1215,8 @@ S
 #28134
 Hallway~
 As the hallway continues, the walls have been decorated with paintings of
-birds and other animals.  The floor is an equal mix of ebony and ivory
-marble.  The room is lit by a floating magic ball of light, hovering about
+birds and other animals. The floor is an equal mix of ebony and ivory
+marble. The room is lit by a floating magic ball of light, hovering about
 seven feet up in the air.  
 ~
 0 2097164 0
@@ -1231,11 +1231,11 @@ D3
 S
 #28135
 Queen's Trophy Room~
-This is a beautiful place.  The walls are ivory and have many holy
-symbols carved into them.  There are books of poetry and other works of art.
+This is a beautiful place. The walls are ivory and have many holy
+symbols carved into them. There are books of poetry and other works of art.
 A large cross has been carved into the floor with diamonds embedded at each
-point.  Some statues and busts of famous people and paintings of the Queen
-herself grace the walls.  It seems to be a very holy place.  
+point. Some statues and busts of famous people and paintings of the Queen
+herself grace the walls. It seems to be a very holy place.  
 ~
 0 2097160 0
 D1
@@ -1250,10 +1250,10 @@ S
 #28136
 Queen's Bedroom~
 There is a featherbed in the middle of the room pressed against the north
-wall, and covered with beautiful white silk sheets.  Two marble nightstands
-rest on either side of the bed.  Magical bulbs of light float all around the
-room, casting a warm inviting glow.  A vase filled with white lillies and a
-few poetry books rest on the nightstands.  An arched passageway, veiled by
+wall, and covered with beautiful white silk sheets. Two marble nightstands
+rest on either side of the bed. Magical bulbs of light float all around the
+room, casting a warm inviting glow. A vase filled with white lillies and a
+few poetry books rest on the nightstands. An arched passageway, veiled by
 silk sheets heads to the west.  
 ~
 0 2097160 0
@@ -1268,9 +1268,9 @@ D3
 S
 #28137
 Beginning of the Eastern Hallway~
-This is the beginning of a long hallway.  There are two doors to the
-north and south.  The south walls are ebony while those to the north are
-ivory.  The floor is a swirled pattern of mostly ivory, and has small
+This is the beginning of a long hallway. There are two doors to the
+north and south. The south walls are ebony while those to the north are
+ivory. The floor is a swirled pattern of mostly ivory, and has small
 stripes of ebony marble.  
 ~
 0 2097160 0
@@ -1293,10 +1293,10 @@ D3
 S
 #28138
 Queen's Shrine~
-A large pure white cross dominates the east wall.  Several white pillar
-candles burn brightly everywhere.  The walls are pure white and have been
-draped with fine silk sheets.  The room seems as if no one has ever dared to
-defile it.  The candles burn so brightly that a passageway to the west can
+A large pure white cross dominates the east wall. Several white pillar
+candles burn brightly everywhere. The walls are pure white and have been
+draped with fine silk sheets. The room seems as if no one has ever dared to
+defile it. The candles burn so brightly that a passageway to the west can
 be seen.  
 ~
 0 2097160 0
@@ -1311,10 +1311,10 @@ D3
 S
 #28139
 North East stairwell~
-A small room greets you.  There are ivory stairs going down and an ivory
-cross on the north wall.  Globes of white light float seven feet off the
-floor nicely illuminating the room.  A rose has been carved into the east
-wall and highlighted with ruby dust.  Very romantic.  
+A small room greets you. There are ivory stairs going down and an ivory
+cross on the north wall. Globes of white light float seven feet off the
+floor nicely illuminating the room. A rose has been carved into the east
+wall and highlighted with ruby dust. Very romantic.  
 ~
 0 2097160 0
 D2
@@ -1328,10 +1328,10 @@ D5
 S
 #28140
 East Landing~
-A cross greets you on the east wall.  There are diamonds embedded in the
-cross at all four points.  The floor, walls and ceiling is all ivory that
-seems to emit a lovely glow and lights itself.  The floor has a cross carved
-into it, maybe used for rituals.  It seems to be a holy place.  
+A cross greets you on the east wall. There are diamonds embedded in the
+cross at all four points. The floor, walls and ceiling is all ivory that
+seems to emit a lovely glow and lights itself. The floor has a cross carved
+into it, maybe used for rituals. It seems to be a holy place.  
 ~
 0 2097160 0
 D0
@@ -1349,10 +1349,10 @@ D3
 S
 #28141
 South East stairwell~
-Smooth walls greet you as you enter a pure ivory room.  There are
-beautiful stairs spiraling down.  A cross is finely carved on the south
-wall.  One cross-shaped window dares expose the inside of the castle to
-outside light.  A book of prayer has been placed on the window sill and
+Smooth walls greet you as you enter a pure ivory room. There are
+beautiful stairs spiraling down. A cross is finely carved on the south
+wall. One cross-shaped window dares expose the inside of the castle to
+outside light. A book of prayer has been placed on the window sill and
 appears to be old and worn.  
 ~
 0 2097160 0
@@ -1367,13 +1367,13 @@ D5
 S
 #28142
 Magi Secret Quarters (Void in Space)~
-This is a lavish place.  The floor is constantly changing color and
-texture.  There are little balls of light suspended in the air around the
-room and a large table for the magi of the castle to meet.  Several beds
-appear and then fade from view.  There is a trainer and a place to
-constantly practice.  The mage that built this must have been skilled.  The
+This is a lavish place. The floor is constantly changing color and
+texture. There are little balls of light suspended in the air around the
+room and a large table for the magi of the castle to meet. Several beds
+appear and then fade from view. There is a trainer and a place to
+constantly practice. The mage that built this must have been skilled. The
 only things that stay constant are the initials "SB & JC 4ever" carved into
-the floor.  The whole room has a quiet aura about it, keeping it hidden from
+the floor. The whole room has a quiet aura about it, keeping it hidden from
 unskilled eyes.  
 ~
 0 6291464 9
@@ -1384,8 +1384,8 @@ D5
 S
 #28143
 South of the Castle~
-A small gap in the castle shows the main entrance.  There are guards that
-seem very strict and attentive ahead.  There is a bright red tapestry
+A small gap in the castle shows the main entrance. There are guards that
+seem very strict and attentive ahead. There is a bright red tapestry
 hanging above the guards and paths that wind around the castle to the east
 and west.  
 ~
@@ -1432,7 +1432,7 @@ S
 Continuing around the Castle~
 Continuing along the wall and path, the flower beds are filled with
 petunias, sunflowers and tulips, and the path is a mix of wood chips and
-cobblestons.  Around the bend you can see the south edge of the inn.  
+cobblestons. Around the bend you can see the south edge of the inn.  
 ~
 0 2097152 3
 D1
@@ -1446,8 +1446,8 @@ D3
 S
 #28146
 East Edge of the Castle~
-The edge of the castle can be seen.  There is a path that continues and
-turns at the edge.  There are rose bushes at the edge of the forest, but no
+The edge of the castle can be seen. There is a path that continues and
+turns at the edge. There are rose bushes at the edge of the forest, but no
 path leading in.  
 ~
 0 2097152 3
@@ -1478,9 +1478,9 @@ D3
 S
 #28148
 South East Wall~
-An ivory wall goes along the west of you.  There are rose bushes at the
-edge of the the dense forest to the east.  The cobblestone path is
-beatifully crafted and shimmers with a bit of rain water.  Some guards can
+An ivory wall goes along the west of you. There are rose bushes at the
+edge of the the dense forest to the east. The cobblestone path is
+beatifully crafted and shimmers with a bit of rain water. Some guards can
 be seen to the north.  
 ~
 0 2097152 1
@@ -1496,7 +1496,7 @@ S
 #28149
 East Entrance~
 A large marble arch beckons you to enter, but two guards block the path
-and a heavy gate.  The path continues north, but it is very serene here. 
+and a heavy gate. The path continues north, but it is very serene here. 
 There are roses, periwinkles and irises in huge flower beds cover the ground
 and path edges, while dark green ivy and climbing clematis bend around the
 arch.  
@@ -1517,8 +1517,8 @@ D3
 S
 #28150
 North East Wall~
-Rose bushes corner you to an ivory wall.  The path is perfectly smooth
-and a few bunnies skitter out to greet you.  There are guards to the south
+Rose bushes corner you to an ivory wall. The path is perfectly smooth
+and a few bunnies skitter out to greet you. There are guards to the south
 and the path continues to the north.  
 ~
 0 2097152 1
@@ -1549,8 +1549,8 @@ D3
 S
 #28152
 Back Part of the Castle~
-The path is pleasent and well kept.  It continues west and turns to the
-east.  The back of the castle is to the south and is a mix of mostly ivory,
+The path is pleasent and well kept. It continues west and turns to the
+east. The back of the castle is to the south and is a mix of mostly ivory,
 but has splashes of ebony marble as well.  
 ~
 0 2097152 3
@@ -1565,8 +1565,8 @@ D3
 S
 #28153
 Behind the Castle~
-The path is becoming a bit bumpy.  Violets, tulips and a few pansies line
-the edge of the path.  The castle is mostly rich ivory, but some large
+The path is becoming a bit bumpy. Violets, tulips and a few pansies line
+the edge of the path. The castle is mostly rich ivory, but some large
 chunks of ebony marble give the wall some character.  
 ~
 0 2097152 3
@@ -1597,8 +1597,8 @@ D3
 S
 #28155
 Behind the Middle of the Castle~
-The path is woodchips and the edge of the path is bare.  The castle is a
-mix of ivory and ebony, completely half and half.  The woods seem bare and
+The path is woodchips and the edge of the path is bare. The castle is a
+mix of ivory and ebony, completely half and half. The woods seem bare and
 dangerous.  
 ~
 0 2097152 3
@@ -1613,9 +1613,9 @@ D3
 S
 #28156
 West of the Middle of the Castle~
-This is a dark path.  The wood chips are diminishing away and being
-replaced by mud.  The forest is bare and dark.  The air is heavy and moist
-causing you to sweat in the humidity.  The castle is a little
+This is a dark path. The wood chips are diminishing away and being
+replaced by mud. The forest is bare and dark. The air is heavy and moist
+causing you to sweat in the humidity. The castle is a little
 more ebony than ivory to the west.  
 ~
 0 2097152 3
@@ -1630,7 +1630,7 @@ D3
 S
 #28157
 Almost to the West Edge~
-This is a very creepy path.  Your feet get stuck in the mud.  A small fog
+This is a very creepy path. Your feet get stuck in the mud. A small fog
 has descended on the area, making it almost impossible to find your way. 
 What you can see of the castle is almost completely ebony.  
 ~
@@ -1646,9 +1646,9 @@ D3
 S
 #28158
 West Edge~
-The ground squishes beneath your feet as you trudge through the mud.  The
-fog is getting heavier towards the west.  The trees are barren and no one
-dares enter them.  The castle walls are completely ebony.  
+The ground squishes beneath your feet as you trudge through the mud. The
+fog is getting heavier towards the west. The trees are barren and no one
+dares enter them. The castle walls are completely ebony.  
 ~
 0 2097152 3
 D1
@@ -1662,9 +1662,9 @@ D3
 S
 #28159
 North West Corner~
-The path of mud turns south and east here.  The fog is very heavy and
-makes it hard to see.  The forest trees grow thick overhead and block out
-most of the light.  There is an overwhelming sense of evil here.  
+The path of mud turns south and east here. The fog is very heavy and
+makes it hard to see. The forest trees grow thick overhead and block out
+most of the light. There is an overwhelming sense of evil here.  
 ~
 0 2097152 3
 D1
@@ -1678,8 +1678,8 @@ D2
 S
 #28160
 North West Wall~
-The ground is very muddy and damp.  A dense fog ladens the air and
-inhibits your vision.  The walls of the castle are roughly carved ebony
+The ground is very muddy and damp. A dense fog ladens the air and
+inhibits your vision. The walls of the castle are roughly carved ebony
 marble.  
 ~
 0 2097152 3
@@ -1694,8 +1694,8 @@ D2
 S
 #28161
 West Entrance~
-There is a heavy ebony spiked arch to your east daring you to enter.  A
-heavy wrought iron gate blocks the entrance with twisted bars.  The mud
+There is a heavy ebony spiked arch to your east daring you to enter. A
+heavy wrought iron gate blocks the entrance with twisted bars. The mud
 continues south a little bit more.  
 ~
 0 2097152 1
@@ -1714,8 +1714,8 @@ D2
 S
 #28162
 South West Wall~
-A dense fog covers the area making the forest invisible.  The castle
-walls are a forbidding ebony marble.  The mud path contines south and to the
+A dense fog covers the area making the forest invisible. The castle
+walls are a forbidding ebony marble. The mud path contines south and to the
 north you can make out a gate of sorts.  
 ~
 0 2097152 3
@@ -1730,8 +1730,8 @@ D2
 S
 #28163
 South West Corner~
-The mud is horrible here.  The fog is getting thicker and it appears the
-path turns and follows the castle.  The walls are ebony marble and there is
+The mud is horrible here. The fog is getting thicker and it appears the
+path turns and follows the castle. The walls are ebony marble and there is
 an evil aura emminating from it.  
 ~
 0 2097152 3
@@ -1746,10 +1746,10 @@ D1
 S
 #28164
 South West Edge~
-The ground is dampened dirt and relativly easy to walk on.  The castle
+The ground is dampened dirt and relativly easy to walk on. The castle
 walls are marble of the blackest ebony, with decorative splotched designs of
-ivory.  A dense fog impairs your vision and forces you to keep one hand on
-the wall to continue straight on the path.  A few plant beds near the wall
+ivory. A dense fog impairs your vision and forces you to keep one hand on
+the wall to continue straight on the path. A few plant beds near the wall
 have been left to die and rot.  
 ~
 0 2097152 3
@@ -1764,8 +1764,8 @@ D3
 S
 #28165
 South West Wall~
-A slight fog mists over the area.  The ground is thick, heavy mud.  The
-walls are a mixed mosaic of ebony and ivory.  Glancing about you see no way
+A slight fog mists over the area. The ground is thick, heavy mud. The
+walls are a mixed mosaic of ebony and ivory. Glancing about you see no way
 to enter the castle or forest, due to heavy shrubbery and dark trees.  
 ~
 0 2097152 3
@@ -1780,8 +1780,8 @@ D3
 S
 #28166
 Near the Main entrance~
-The path is filled with muddy woodchips.  The castle walls are covered
-with rich ebony marble and little patterns of ivory.  A small misting fog
+The path is filled with muddy woodchips. The castle walls are covered
+with rich ebony marble and little patterns of ivory. A small misting fog
 hovers a few inches above the ground.  
 ~
 0 2097152 3
@@ -1861,9 +1861,9 @@ D4
 S
 #28171
 Lover's Inn~
-A beautiful rosewood room welcomes you.  There is a plush couch and
-several plush chairs.  Little newsletters and documents lay on an ebony
-coffee table.  There is a large bar to the east and a small short clerk to
+A beautiful rosewood room welcomes you. There is a plush couch and
+several plush chairs. Little newsletters and documents lay on an ebony
+coffee table. There is a large bar to the east and a small short clerk to
 the south with a book ready for you to sign in.  
 ~
 0 2097160 0
@@ -1886,9 +1886,9 @@ D3
 S
 #28172
 Lover's Inn Bar~
-A bartender greets you as you enter his bar.  There are tables painted
-with little scenes.  The chairs and stools have been covered with soft
-leather and stuffed with thick wool.  The floor is a smooth cedar with a few
+A bartender greets you as you enter his bar. There are tables painted
+with little scenes. The chairs and stools have been covered with soft
+leather and stuffed with thick wool. The floor is a smooth cedar with a few
 simple carved designs and fills the air with a sweet musty fragrance.  
 ~
 0 2097160 0
@@ -1899,8 +1899,8 @@ D3
 S
 #28173
 Lover's Inn Main Desk~
-A gold gilded desk blocks you from going south anymore.  There is a small
-short man behind the desk with a big book to sign.  There is a sign that
+A gold gilded desk blocks you from going south anymore. There is a small
+short man behind the desk with a big book to sign. There is a sign that
 reads, "sign the `Rb`Mo`Bo`Yk`w" to receive a key and go east.  
 ~
 0 2097160 0
@@ -1927,11 +1927,11 @@ D1
 S
 #28174
 Lover's Room~
-A heart shaped bed awaits lovers.  There are hearts everywhere in this
-rosewood room.  A couch that is covered in velvet red.  Strawberries are in
-bowls that are red heart shaped.  The floor is carpeted in red short carpet
-that has pink hearts in it.  Elegant lamps that are magically lit respond to
-your commands.  This is a true lover's room.  
+A heart shaped bed awaits lovers. There are hearts everywhere in this
+rosewood room. A couch that is covered in velvet red. Strawberries are in
+bowls that are red heart shaped. The floor is carpeted in red short carpet
+that has pink hearts in it. Elegant lamps that are magically lit respond to
+your commands. This is a true lover's room.  
 ~
 0 2097664 0
 D3
@@ -1941,9 +1941,9 @@ D3
 S
 #28199
 Dark Void~
-You are floating in some strange dark void.  You can see absolutely
-nothing.  There is no color, no sound, nothing, or rather, it is as if
-nothing exists.  Perhaps this is some hole in space, something with no
+You are floating in some strange dark void. You can see absolutely
+nothing. There is no color, no sound, nothing, or rather, it is as if
+nothing exists. Perhaps this is some hole in space, something with no
 dimension at all...  
 ~
 0 2097161 9

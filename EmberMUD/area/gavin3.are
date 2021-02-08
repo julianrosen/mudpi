@@ -34,7 +34,7 @@ AB HJ -250 S
 100 0 0 0 10d61+416 1d10+100 5d6+15 32
 -9 -9 -9 0
 0 0 CLQ R
-8 8 3 273
+8 8 -1 273
 AHMV ABCDEFGHIJK M unknown
 #23402
 a black abishia~
@@ -48,7 +48,7 @@ AB HJ -150 S
 100 0 0 0 10d93+452 1d10+100 5d7+17 0
 -12 -12 -12 -1
 0 0 L C
-8 8 3 401
+8 8 -1 401
 ABHMV ABCDEFGHIJKQ M unknown
 #23403
 The Great Barbazo~
@@ -174,7 +174,7 @@ ABH DFHT 10 S
 100 0 0 0 5d5+25 1d10+100 3d5+8 6
 0 0 0 5
 CFH L 0 S
-8 8 3 79
+8 8 -1 79
 BZc ACDEFHJKQUVX M unknown
 #23412
 boldor henchman~
@@ -195,10 +195,10 @@ evil wizard torlok~
 The evil Wizard Torlok~
 Torlok is here swearing loudly as he tries to break a secret spell.
 ~
-A rather short, and disgruntled hobbit walks slowly around the room.  A
+A rather short, and disgruntled hobbit walks slowly around the room. A
 hat covers his evenly cut greying hair, and a simple robe falls about his
-body.  His facial features, like any hobbit, are large for his size, giving
-him a slight childish appearance.  A wide downturned nose, almost
+body. His facial features, like any hobbit, are large for his size, giving
+him a slight childish appearance. A wide downturned nose, almost
 troll-like, large ears almost hiding under his hair, and distracted greyish
 green eyes complete the look.  
 ~
@@ -421,8 +421,8 @@ A
 #23400
 Outside Arrilo's Manor~
 Standing in a clearing on the hilltop, you see an odd yet well-kept manor
-made of grey stone.  Arrilo's home consists of a three-story tower and two
-single-story wings.  The manor entrance is flanked by a tilted pair of
+made of grey stone. Arrilo's home consists of a three-story tower and two
+single-story wings. The manor entrance is flanked by a tilted pair of
 smiling griffon statues embedded in the deep grass, and the walls are
 covered with creeping ivy.  
 ~
@@ -442,8 +442,8 @@ D5
 S
 #23401
 A Small Garden~
-This small plot of land is used by Arrilo as a vegetable garden.  There
-are about ten rows of odd herbal plants and strange smelling spices.  In the
+This small plot of land is used by Arrilo as a vegetable garden. There
+are about ten rows of odd herbal plants and strange smelling spices. In the
 center of this garden is a hay-stuffed scarecrow with a crooked smile on his
 potato-sack face.  
 ~
@@ -459,8 +459,8 @@ D3
 S
 #23402
 Between The Stables and a Side Door~
-To the west you can see Quathro's manor towering above you.  To the east
-you can see a well kept stable.  There is a small side door leading into
+To the west you can see Quathro's manor towering above you. To the east
+you can see a well kept stable. There is a small side door leading into
 Arrilo's manor to the west.  
 ~
 0 2097152 2
@@ -480,8 +480,8 @@ S
 #23403
 A Well Kept Stable~
 Along the walls of this quaint barn hang various tools and miscellaneous
-equipment used in horse care.  In the southeast corner a small area has been
-set aside for storage.  There are several barrels of ale there along with
+equipment used in horse care. In the southeast corner a small area has been
+set aside for storage. There are several barrels of ale there along with
 other various oddities.  
 ~
 0 2097152 0
@@ -497,7 +497,7 @@ S
 #23404
 The Entrance to Arrilo's Hidden Summoning Chamber~
 The walls of the damp dark corridor are made from rough cut stone. 
-Puddles of stagnant water surround you.  There are cells to your north and
+Puddles of stagnant water surround you. There are cells to your north and
 south which Arrilo uses to restrain the unusually peculiar creatures he
 summons from planes and worlds far beyond mortal reach.  
 ~
@@ -521,7 +521,7 @@ barrel~
 S
 #23405
 Hallway of a Damp Summoning Chamber~
-The walls of this damp hallway are made from rough cut stone.  You hear
+The walls of this damp hallway are made from rough cut stone. You hear
 strange noises and smell peculiar odors coming from the strange creatures
 retained in the cells to your north and south.  
 ~
@@ -545,7 +545,7 @@ D3
 S
 #23406
 Hallway of a Damp Summoning Chamber~
-The walls of this hallway are made from rough cut stone.  You hear
+The walls of this hallway are made from rough cut stone. You hear
 peculiar noises and smell strange odors coming from the cells to the north
 and south of you.  
 ~
@@ -570,9 +570,9 @@ S
 #23407
 The Main Summoning Chamber~
 You stand before a glowing pool of water supported on an elevated stone
-platform.  Inside this pool dwell the souls of all the creatures summoned by
-Arrilo.  They shriek and shift at your presence.  The walls of this room are
-a deep chalky black as if numerous explosions had occurred here.  A stone
+platform. Inside this pool dwell the souls of all the creatures summoned by
+Arrilo. They shriek and shift at your presence. The walls of this room are
+a deep chalky black as if numerous explosions had occurred here. A stone
 stairway leads down into a dark chamber.  
 ~
 0 2097152 0
@@ -588,7 +588,7 @@ S
 #23408
 Supply Room~
 Shelves of strange components used in powerful spells of summoning line
-each wall of this small chamber.  Other than that, the room is empty.  The
+each wall of this small chamber. Other than that, the room is empty. The
 only exit from here is up.  
 ~
 0 2097152 0
@@ -599,9 +599,9 @@ D4
 S
 #23409
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 the chains that lead to very large shackles are driven into this stone at
-regular intervals.  The only exit from this cell is a barred entrance to the
+regular intervals. The only exit from this cell is a barred entrance to the
 south.  
 ~
 0 2097152 0
@@ -612,9 +612,9 @@ cell~
 S
 #23410
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 the chains that lead to very large shackles are driven into the walls at
-regular intervals.  The only exit from this cell is a barred entrance to the
+regular intervals. The only exit from this cell is a barred entrance to the
 north.  
 ~
 0 2097152 0
@@ -625,9 +625,9 @@ cell~
 S
 #23411
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 the chains that lead to very large shackles are driven into the walls at
-regular intervals.  The only exit from this cell is a barred entrance to the
+regular intervals. The only exit from this cell is a barred entrance to the
 south.  
 ~
 0 2097152 0
@@ -638,9 +638,9 @@ cell~
 S
 #23412
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 the chains that lead to very large shackles are driven into the walls at
-regular intervals.  The only exit from this cell is a barred entrance to the
+regular intervals. The only exit from this cell is a barred entrance to the
 north.  
 ~
 0 2097152 0
@@ -651,9 +651,9 @@ cell~
 S
 #23413
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 chains that lead to very large shackles are driven into the walls at regular
-intervals.  The only exit from this cell is a barred entrance to the south. 
+intervals. The only exit from this cell is a barred entrance to the south. 
 ~
 0 2097152 0
 D2
@@ -663,9 +663,9 @@ cell~
 S
 #23414
 A Large Cell~
-The walls of this large cell are cut from rough stone.  Pins that hold
+The walls of this large cell are cut from rough stone. Pins that hold
 the chains that lead to very large shackles are driven into the walls at
-regular intervals.  The only exit from this cell is a barred entrance to the
+regular intervals. The only exit from this cell is a barred entrance to the
 north.  
 ~
 0 2097152 0
@@ -676,11 +676,11 @@ cell~
 S
 #23415
 The Foyer~
-Two glowing orbs of glass illuminate this wood-paneled hallway.  The orbs
-are suspended from the ceiling.  The entire floor of this 40' hallway is
+Two glowing orbs of glass illuminate this wood-paneled hallway. The orbs
+are suspended from the ceiling. The entire floor of this 40' hallway is
 covered with diamond shaped tiles -- mostly white with some black tiles
-interspersed among them.  You can see a secondary entranceway at the eastern
-end of this corridor.  Other exits lie to the west and south.  
+interspersed among them. You can see a secondary entranceway at the eastern
+end of this corridor. Other exits lie to the west and south.  
 ~
 0 2097152 0
 D1
@@ -700,7 +700,7 @@ S
 Inside the Main Entrance~
 The walls of this chamber have been painted to resemble an autumn forest.
 The ceiling is painted with overhanging boughs while the floor consists of
-speckled brown tiles resembling earth.  The only exits are through an
+speckled brown tiles resembling earth. The only exits are through an
 archway to the north and the front door to the south.  
 ~
 0 2097152 0
@@ -716,7 +716,7 @@ S
 #23417
 The Parlor~
 A pair of padded leather armchairs rest in front of a fireplace in this
-comfortable parlor.  A candle chandelier is suspended from the ceiling above
+comfortable parlor. A candle chandelier is suspended from the ceiling above
 the chairs, and a slender wine cabinet stands against the north wall.  
 ~
 0 2097152 0
@@ -732,10 +732,10 @@ S
 #23418
 A Dining Room~
 The walls of this spacious dining chamber are covered with murals
-depicting radiant desert scenes.  The backdrop of a rolling wasteland of
-golden sand makes this room seem much larger than it actually is.  The
+depicting radiant desert scenes. The backdrop of a rolling wasteland of
+golden sand makes this room seem much larger than it actually is. The
 dinner table is carved from yellow pine and blends nicely into the
-background.  Several potted cactuses along the walls contributes to the
+background. Several potted cactuses along the walls contributes to the
 desert atmosphere.  
 ~
 0 2097152 0
@@ -754,11 +754,11 @@ D3
 S
 #23419
 The Library~
-This entire wing of Arrilo's manor serves as the mage's library.  The
+This entire wing of Arrilo's manor serves as the mage's library. The
 room is spacious with tall, cathedral-like windows and a pitched roof
-crossed by wooden rafters.  Hanging from these rafters are twin iron
-chandeliers that resemble octopi.  Most of the upper wall space is covered
-by colorful banners depicting aquatic scenes.  The room is furnished with
+crossed by wooden rafters. Hanging from these rafters are twin iron
+chandeliers that resemble octopi. Most of the upper wall space is covered
+by colorful banners depicting aquatic scenes. The room is furnished with
 two long tables an several handsome chairs.  
 ~
 0 2097152 0
@@ -770,7 +770,7 @@ S
 #23420
 The Kitchen~
 The aroma of spices and warm ale fills your nostrils as you enter the
-kitchen.  This room is heated by a crackling fire in the hearth.  In the
+kitchen. This room is heated by a crackling fire in the hearth. In the
 middle of the room is a table cluttered with pots.  
 ~
 0 2097152 0
@@ -785,9 +785,9 @@ D3
 S
 #23421
 The Tower Stairwell~
-This staircase joins all three floors of Arrilo's Manor.  The middle of
+This staircase joins all three floors of Arrilo's Manor. The middle of
 this staircase was left open by design so Arrilo could levitate up the shaft
-or feather-fall down without using the stairs.  A wooden railing guards the
+or feather-fall down without using the stairs. A wooden railing guards the
 staircase to prevent nasty falls'.  
 ~
 0 2097152 0
@@ -802,9 +802,9 @@ D4
 S
 #23422
 The Tower Stairwell~
-This staircase joins all three floors of Arrilo's manor.  The middle of
+This staircase joins all three floors of Arrilo's manor. The middle of
 the staircase was left open by design so Quathro could levitate up the shaft
-or feather-fall down without using the stairs.  A wooden railing guards the
+or feather-fall down without using the stairs. A wooden railing guards the
 staircase to prevent nasty falls.  
 ~
 0 2097152 0
@@ -824,7 +824,7 @@ S
 #23423
 Arrilo's Bedchamber~
 This bedchamber is decorated in the same bizarre fashion as many of the
-other rooms in Arrilo's manor.  A large bed stands against the eastern wall.
+other rooms in Arrilo's manor. A large bed stands against the eastern wall.
 Its headboard and footboard are carved with dizzying spiral patterns. 
 Hanging on the walls are a number of framed pictures, each depicting some
 sort of optical illusion.  
@@ -842,8 +842,8 @@ S
 #23424
 Lavatory~
 Standing in the northwest corner of this room is an iron bathtub with
-clawed feet.  On the wall above the tub several towels hang from pegs.  On
-the floor by the tub is a bucket full of soap.  A wooden washtub and
+clawed feet. On the wall above the tub several towels hang from pegs. On
+the floor by the tub is a bucket full of soap. A wooden washtub and
 washboard stand in the southeast corner near the fireplace, and two oil
 lanterns dangle from the ceiling.  
 ~
@@ -859,9 +859,9 @@ D2
 S
 #23425
 Guest Bedchamber~
-This large bedroom is decorated in a tropical forest motif.  The walls
+This large bedroom is decorated in a tropical forest motif. The walls
 are painted with lush tropical plants, and the bed is covered with sheets
-emblazoned with leaflike patterns.  A screen made of stretched crocodile
+emblazoned with leaflike patterns. A screen made of stretched crocodile
 hide stands unfolded by the southern wall.  
 ~
 0 2097152 0
@@ -877,10 +877,10 @@ S
 #23426
 Servant's Quarters~
 The walls and ceiling of this bedroom are painted to resemble white,
-fluffy clouds in an endless sky of pristine blue.  Painted amid the clouds
-on the north wall is a flock of soaring seagulls.  Under the seagulls is a
-bed covered with fluffy white pillows.  Several more stuffed seagulls are
-suspended from the ceiling.  A white dresser stands next to the door, and a
+fluffy clouds in an endless sky of pristine blue. Painted amid the clouds
+on the north wall is a flock of soaring seagulls. Under the seagulls is a
+bed covered with fluffy white pillows. Several more stuffed seagulls are
+suspended from the ceiling. A white dresser stands next to the door, and a
 smiling portrait of Arrilo himself hangs above the mantle.  
 ~
 0 2097152 0
@@ -895,8 +895,8 @@ D3
 S
 #23427
 Balcony~
-A stone wall encloses this 20' x 20' balcony.  From this vantage point,
-one can barely see the village of Babolini beyond the trees to the south.  A
+A stone wall encloses this 20' x 20' balcony. From this vantage point,
+one can barely see the village of Babolini beyond the trees to the south. A
 wooden door to the north bars entrance to the manor.  
 ~
 0 2097152 0
@@ -907,9 +907,9 @@ wooden~
 S
 #23428
 The Tower Stairwell~
-This staircase joins all three floors of Arrilo's manor.  The middle of
+This staircase joins all three floors of Arrilo's manor. The middle of
 the staircase was left open by design so Arrilo could levitate up the shaft
-or feather-fall down without using the stairs.  A wooden railing guards the
+or feather-fall down without using the stairs. A wooden railing guards the
 staircase to prevent nasty falls.  
 ~
 0 2097152 0
@@ -925,8 +925,8 @@ S
 #23429
 The Gallery~
 Standing in the middle of this chamber is a large octagonal table with a
-wooden replica of Arrilo's manor built atop it.  The room itself is
-wood-paneled and adorned with four empty suits of armor.  Placed on
+wooden replica of Arrilo's manor built atop it. The room itself is
+wood-paneled and adorned with four empty suits of armor. Placed on
 pedestals under the windows are four fish-filled aquariums made of spherical
 glass.  
 ~
@@ -943,12 +943,12 @@ S
 #23430
 Arrilo's Study~
 A polished black desk and a tall slender chair have been arranged in the
-middle of this chamber, facing the door.  A tall bookshelf stuffed with
-volumes is positioned against the north wall.  The southwest corner near the
+middle of this chamber, facing the door. A tall bookshelf stuffed with
+volumes is positioned against the north wall. The southwest corner near the
 door is home to a lurching bearlike creature with a sharp beak and bearlike
-claws.  The monster, although stuffed, appears no less dangerous.  Along the
+claws. The monster, although stuffed, appears no less dangerous. Along the
 south wall hang tapestries depicting the constellations, and hanging above
-the fireplace mantle is a framed painting of a...  Radish.  
+the fireplace mantle is a framed painting of a... Radish.  
 ~
 0 2097152 0
 D0
@@ -963,11 +963,11 @@ S
 #23431
 Arrilo's Workroom~
 The walls, floors, and ceiling of this spacious room have been painted
-jet black.  Inscribed in gold on the floor are wizardly symbols and
-diagrams.  A dimly glowing glass sphere appears to be suspended from the
-ceiling by a slender glass rod.  The only furnishings are an unmade bed
+jet black. Inscribed in gold on the floor are wizardly symbols and
+diagrams. A dimly glowing glass sphere appears to be suspended from the
+ceiling by a slender glass rod. The only furnishings are an unmade bed
 beneath the western window, a two door cabinet standing next to the door,
-and an L-shaped table in the middle of the room.  A black cloth with pink
+and an L-shaped table in the middle of the room. A black cloth with pink
 polka dots drapes the table, which is covered with delicate alchemical appa
 ratus.  
 ~
@@ -985,7 +985,7 @@ S
 Arrilo's Secret Storage Room~
 The shelves here are filled with various items of powerful sorcery. 
 Among them are scrolls, potions, spell books, bizarre spell components, and
-items of ancient and arcane origin.  The forces of magic and power course
+items of ancient and arcane origin. The forces of magic and power course
 through your body while you are in Arrilo's secret storage room.  
 ~
 0 2097152 0

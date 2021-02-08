@@ -18,7 +18,7 @@
 #define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
 #define PROMPT_COMBAT  "`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K>"
 #define PROMPT_GHIOTI  "`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl>"
-#define PROMPT_IMM     " %B `cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:>`W `w"
+#define PROMPT_IMM     "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:>`W `w"
 #define PROMPT_START   PROMPT_COMBAT
 
 
@@ -312,7 +312,7 @@ the higher values. Remeber only use 25 or 30 unless you edit
 the tables in const.c or you will get errors all over const.c 
 -Lancelight*/
 
-#define MAX_ATTAINABLE_STATS 30
+#define MAX_ATTAINABLE_STATS 25
 
 /* Another stat item. This defines the penalty for re-rolling your stats
  * if you don't like the first roll. This defines how close it is possible to 
@@ -1319,6 +1319,7 @@ of combat. */
 #define SEX_NB                        3 /* Added by JR. */
 #define NUM_SEXES                     3 /* Not counting random or neutral */
 
+
 /* AC types */
 #define AC_PIERCE                       0
 #define AC_BASH                         1
@@ -1549,8 +1550,8 @@ of combat. */
 #define ROOM_VNUM_TEMPLE           3001+VNUM_OFFSET
 #define ROOM_VNUM_ALTAR            3054+VNUM_OFFSET
 #define ROOM_VNUM_SCHOOL           3700+VNUM_OFFSET
-#define ROOM_VNUM_DONATE           3300+VNUM_OFFSET
-
+//#define ROOM_VNUM_DONATE           3300
+#define ROOM_VNUM_DONATE           "16300"
 /*
  * Room flags.
  * Used in #ROOMS.

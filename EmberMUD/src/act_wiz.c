@@ -1117,8 +1117,7 @@ ROOM_INDEX_DATA *find_location( CHAR_DATA * ch, char *arg )
 {
     CHAR_DATA *victim;
     OBJ_DATA *obj;
-
-    if ( is_number( arg ) && ( atoi( arg ) != ROOM_VNUM_SUPERMOB ) )
+    if ( is_number( arg ) && (atoi( arg ) != ROOM_VNUM_SUPERMOB) )
         return get_room_index( atoi( arg ) );
 
     if ( ( ( victim = get_char_world( ch, arg ) ) != NULL ) && ( !IS_NPC( victim )  /* +1 */
@@ -1793,9 +1792,7 @@ void do_mstat( CHAR_DATA * ch, char *argument )
              IS_NPC( victim ) ? victim->pIndexData->vnum : 0,
              IS_NPC( victim ) ? "mob" : "pc",
              race_table[victim->race].name,
-             victim->sex == SEX_MALE ? "male" :
-             victim->sex == SEX_FEMALE ? "female" :
-             victim->sex == SEX_NB ? "nonbinary" : "neutral", /* Modified by JR */
+             gender( victim->sex ), /* Modified by JR */
              victim->in_room == NULL ? 0 : victim->in_room->vnum );
     send_to_char( buf, ch );
 
@@ -3867,7 +3864,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
         if ( value < 3 || value > get_max_train( victim, STAT_STR ) )
         {
             sprintf( buf,
-                     "Strength range is 3 to %d\n\r.",
+                     "Strength range is 3 to %d.\n\r",
                      get_max_train( victim, STAT_STR ) );
             send_to_char( buf, ch );
             return;
