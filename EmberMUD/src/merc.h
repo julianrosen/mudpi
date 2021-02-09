@@ -1141,8 +1141,8 @@ extern struct social_type social_table[MAX_SOCIALS];
  * Global variables.
  */
 /* from handler.c */
-extern char thetime[7];
-extern char thedate[10];
+extern char thetime[30]; // JR: made these bigger
+extern char thedate[30];
 
 extern HELP_DATA *help_first;
 extern TODO_DATA *todo_first;
@@ -1309,15 +1309,18 @@ void stop_follower args( ( CHAR_DATA * ch ) );
 void nuke_pets args( ( CHAR_DATA * ch ) );
 void die_follower args( ( CHAR_DATA * ch ) );
 bool is_same_group args( ( CHAR_DATA * ach, CHAR_DATA * bch ) );
+
 // JR: pronouns
-/*
 char * he_she( int ); char * He_she( int );
 char * him_her( int ); char * Him_her( int );
 char * his_her( int ); char * His_her( int );
 char * his_hers( int ); char * His_hers( int );
 char * be_verb( int ); char * Be_verb( int );
 char * gender( int ); char * Gender( int );
-*/
+
+// JR: strip article
+char * strip_article( char * );
+
 
 extern bool reap_shells;
 extern const char echo_off_str[];

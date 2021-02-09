@@ -244,7 +244,7 @@ void factionedit( CHAR_DATA * ch, char *argument )
 
     smash_tilde( argument );
     strncpy( arg, argument, sizeof( arg ) - 1 );
-    arg[sizeof( arg )] = '\0';
+    arg[sizeof( arg )] = '\0'; // JR: this is a little weird
     argument = one_argument( argument, command );
 
     pFact = ( FACTIONLIST_DATA * ) ch->desc->pEdit;

@@ -735,7 +735,7 @@ char *string_unpad( char *argument )
     {
         while ( *s != '\0' )
             if ( *s++ != ' ' )
-                tmp = s - 1;
+                tmp = s; // JR: replaced -1 with +1
 
         *tmp = '\0';
     }

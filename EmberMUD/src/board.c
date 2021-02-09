@@ -244,8 +244,8 @@ static NOTE_DATA *find_note( CHAR_DATA * ch, BOARD_DATA * board, int num )
 static void save_board( BOARD_DATA * board )
 {
     FILE *fp;
-    char filename[200];
-    char buf[200];
+    char filename[400]; // JR: made this bigger
+    char buf[420];
     NOTE_DATA *note;
 
     sprintf( filename, "%s/%s", sysconfig.note_dir, board->short_name );

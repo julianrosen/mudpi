@@ -303,7 +303,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
     do_asave( ch, "changed" );
     do_force( ch, "all save" );
     sprintf( buf,
-             "\n\r\n\rA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
+             "\n\r\n\r`WA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
 
     /* For each playing descriptor, save its state */
     for ( d = descriptor_list; d; d = d_next )
@@ -422,7 +422,7 @@ void copyover_recover( void )
 
         /* Write something, and check if it goes error-free */
         if ( !write_to_descriptor
-             ( desc, "\n\rA deja vu is a glitch in the matrix. Something has changed.\n\r",
+             ( desc, "`YA deja vu is a glitch in the matrix. Something has changed.\n\r\n\r`w",
                63 ) )
         {
             close( desc );      /* nope */
@@ -1091,7 +1091,7 @@ void load_area( FILE * fp )
                 pArea->lvnum = fread_number( fp );
                 pArea->uvnum = fread_number( fp );
                 if (pArea->lvnum<0 || pArea->uvnum<0)
-                    printf("Negative vnums: %d %d!!!\n",pArea->lvnum,pArea->uvnum); // JR: debug
+                    printf("Negative vnums: %ld %ld!!!\n",pArea->lvnum,pArea->uvnum); // JR: debug
             }
             break;
         case 'E':
@@ -3229,7 +3229,7 @@ void do_areas( CHAR_DATA * ch, char *argument )
 
     for ( iArea = 0; iArea < iAreaHalf; iArea++ )
     {
-        sprintf( buf, "%-39s%-39s\n\r",
+        sprintf( buf, "%-39s  %-39s\n\r",
                  pArea1->name, ( pArea2 != NULL ) ? pArea2->name : "" );
         send_to_char( buf, ch );
         pArea1 = pArea1->next;

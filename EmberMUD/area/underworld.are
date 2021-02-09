@@ -17,26 +17,26 @@ The servant is shrouded in black robes. Is stares directly into your soul and ma
 ~
 Human~
 AO D -1000 S
-10 20
+10 20 
 100 0 0 0 3d22+96 10d10+100 2d4+5 10
 1 1 1 0
 F H 0 I
 8 8 1 0
-AHIMV ABCDEFGHIJK L unknown
+AHIMV ABCDEFGHIJK L 0
 #17201
 body guard bodyguard diablo~
 the Bodyguard of Diablo~
 The Bodyguard of Diablo laughs at your mortal ways!
 ~
-~
+(null)~
 Human~
 ABO Hb -500 S
-15 15
+15 15 
 100 0 0 0 6d30+190 15d10+100 3d5+10 4
 1 1 1 0
 DF H 0 I
 8 8 1 190
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #17202
 demon~
 the Demon~
@@ -48,54 +48,54 @@ leg.
 ~
 Human~
 AO 0 500 S
-15 16
+15 16 
 100 0 0 0 5d30+200 3d3+20 3d8+10 0
 1 1 1 0
 0 H 0 I
 8 8 0 0
-AHIMV ABCDEFGHIJK M unknown
+AHIMV ABCDEFGHIJK M 0
 #17203
 smag smaglama~
 Smaglama~
 Smaglama, the ruler of the second circle, is here.
 ~
-~
+(null)~
 Human~
 ABF H -1000 S
-25 20
+25 20 
 100 0 0 0 8d40+300 25d10+100 5d6+11 27
 0 0 0 0
 0 H 0 I
 8 8 0 350
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #17204
 guardian hell~
 a Guardian of Hell~
 The Guardian of Hell is here, looking very serious about his job.
 ~
-~
+(null)~
 Human~
 AB H 0 S
-25 25
+25 25 
 100 0 0 0 8d50+275 25d10+100 5d5+12 18
 -1 -1 -1 -2
 CFT 0 0 N
 8 8 0 300
-ACHMV ABCDEFGHIJK L unknown
+ACHMV ABCDEFGHIJK L 0
 #17205
 Phantom crazed craze~
 a Crazed Phantom~
 A Crazed Phantom is here, acting rather peculiar.
 ~
-~
+(null)~
 Human~
 A 0 -100 S
-25 25
+25 25 
 100 0 0 0 8d41+250 25d10+100 5d4+18 9
 -1 -1 -1 -2
 F H 0 I
 8 8 0 0
-AHKMV ABCDEFGHIJK M unknown
+AHKMV ABCDEFGHIJK M 0
 #17206
 meta metabuse~
 the Metabuse~
@@ -107,26 +107,26 @@ gives this thing a menacing appearance.
 ~
 Human~
 ABF H -750 S
-30 29
+30 29 
 100 0 0 0 10d64+420 30d10+100 5d6+16 26
 -3 -3 -4 -2
 0 H 0 I
 8 8 0 375
-AHMVZ ABCDEFGHIJK L unknown
+AHMVZ ABCDEFGHIJK L 0
 #17207
 neural para parasite~
 a Neural Parasite~
 A Neural Parasite is here, trying to find a way to your brain.
 ~
-~
+(null)~
 Human~
 A 0 -200 S
-30 23
+30 23 
 100 0 0 0 10d70+500 30d10+100 5d5+20 23
 -2 -2 -2 -4
 C H 0 I
 8 8 0 0
-AHMOV ABCDEFGHIJK M unknown
+AHMOV ABCDEFGHIJK M 0
 #17208
 trap trapper soul~
 the Soul Trapper~
@@ -139,26 +139,26 @@ you pity her.
 ~
 Human~
 ABF H -820 S
-35 37
+35 37 
 100 0 0 0 10d77+520 35d10+100 5d8+16 6
 -4 -2 -4 -5
 CFK H 0 I
 8 8 2 410
-AHMV ABCDEFGHIJKP M unknown
+AHMV ABCDEFGHIJKP M 0
 #17209
 damn damned soul~
 a Damned Soul~
 A Damned Soul is here, contemplating why he is here.
 ~
-~
+(null)~
 Human~
 A 0 0 S
-35 35
+35 35 
 100 0 0 0 10d80+500 35d10+100 5d7+16 13
 -3 -3 -3 -2
 FI H 0 I
 8 8 0 0
-AHIMV ABCDEFGHIJK M unknown
+AHIMV ABCDEFGHIJK M 0
 #17210
 blood brother 1~
 a Blood Brother~
@@ -170,12 +170,12 @@ puppet of sorts.
 ~
 Human~
 AB H -1000 S
-40 42
+40 42 
 100 0 0 0 50d50+52 40d10+100 4d9+20 21
 -15 -15 -15 -2
 CIK H 0 I
 8 8 1 525
-AHMVc ABCDEFGHIJK L unknown
+AHMVc ABCDEFGHIJK L 0
 #17211
 blood brother 2~
 a Blood Brother~
@@ -187,54 +187,54 @@ and steady gaze makes you wonder what he's really thinking.
 ~
 Human~
 ABF H -1000 S
-45 50
+45 50 
 100 0 0 0 10d150+775 50d10+100 5d10+25 16
 -19 -19 -19 -8
 CIK H 0 I
 8 8 1 700
-AHMVc ABCDEFGHIJK M unknown
+AHMVc ABCDEFGHIJK M 0
 #17212
 undead kill killer~
 An Undead Killer~
 An Undead Killer is here, grinning at you.
 ~
-~
+(null)~
 Human~
 A 0 -250 S
-40 47
+40 47 
 100 0 0 0 10d70+645 40d10+100 5d7+25 15
 -18 -18 -18 -4
 0 H 0 I
 8 8 0 0
-AHIMV ABCDEFGHIJK M unknown
+AHIMV ABCDEFGHIJK M 0
 #17213
 devil devils associate~
 a Devil's Associate~
 A Devil's Associate is here, protecting it's master.
 ~
-~
+(null)~
 Human~
 A 0 -500 S
-45 45
+45 45 
 100 0 0 0 10d80+900 45d10+100 5d9+35 7
 -7 -7 -7 -7
 0 H 0 I
 8 8 0 0
-AHKMV ABCDEFGHIJK M unknown
+AHKMV ABCDEFGHIJK M 0
 #17214
 mephisto~
 Mephisto~
 Mephisto is here, laughing maniacally.
 ~
-~
+(null)~
 Human~
 ABF DHa -1000 S
-50 55
+50 55 
 100 0 0 0 10d170+950 50d10+100 5d10+27 31
 -10 -10 -10 -10
 0 C 0 F
 8 8 0 1000
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #17215
 satan~
 Satan~
@@ -246,14 +246,14 @@ snout and sharp canines under a snarl. Black eyes and hooved feet, along
 with not two but four wings on his back give this hellborne creature a
 truely damned appearance.  
 ~
-Reddragon~
+unique~
 ABF DHJTVa -1000 S
-75 93
+75 93 
 100 0 0 0 150d1000+5000 60d10+100 5d50+100 20
 -30 -30 -30 -30
 M BH O I
 8 8 0 1500
-ACHMVXZ ABCDEFGHIJKPQUVX G unknown
+ACHMVXZ ABCDEFGHIJKPQUVX G 0
 #17216
 guardian key~
 the Guardian of the Key~
@@ -265,26 +265,26 @@ made of human tanned skin, his steady gaze threatens you to attack.
 ~
 Giant~
 AB H -500 S
-40 40
+40 40 
 100 0 0 0 10d80+500 40d10+100 5d8+19 18
 -18 -18 -18 -4
-0 H 0 IP
+0 H HI IJP
 8 8 1 0
-AHMVX ABCDEFGHIJK L unknown
+AHMVX ABCDEFGHIJK L 0
 #17220
 morpho~
 Morpho~
 Morpho, Satan's trusty blacksmith, is here.
 ~
-~
+(null)~
 Human~
 ABd 0 0 S
-90 100
+90 100 
 100 0 0 0 1d1+1 1d1+1 1d1+1 0
 0 0 0 0
 0 0 0 0
 8 8 0 100000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -299,11 +299,11 @@ unknown~
 AC AC AB D 0
 10 25 100 P
 A
-2 1
+13 -10
 A
 5 -2
 A
-13 -10
+2 1
 #17201
 belt hell~
 the Belt of Hell~
@@ -313,9 +313,9 @@ unknown~
 0 0 0 0 0
 15 5 2500 P
 A
-19 2
-A
 12 -10
+A
+19 2
 #17202
 Sword of Scooby~
 sword of Scooby~
@@ -333,11 +333,11 @@ unknown~
 0 0 400 0 0
 30 20 15000 P
 A
-12 20
+1 1
 A
 13 20
 A
-1 1
+12 20
 #17204
 name armband hell~
 the Armband of Hell~
@@ -347,9 +347,9 @@ unknown~
 AD D D C 0
 33 10 10000 P
 A
-19 4
-A
 18 4
+A
+19 4
 #17205
 ring hell~
 the Ring of Hell~
@@ -359,13 +359,13 @@ unknown~
 BD BD BD ABCD 0
 35 2 50000 P
 A
-13 100
-A
 12 -100
 A
 12 -50
 A
 12 -100
+A
+13 100
 #17206
 ring hell~
 the Ring of Hell~
@@ -485,9 +485,9 @@ unknown~
 BD BD BD BD 0
 40 10 50000 P
 A
-19 4
-A
 2 1
+A
+19 4
 #17222
 hammer hades~
 the Hammer of Hades~
@@ -505,9 +505,9 @@ unknown~
 AE AE AE AE 0
 35 34 20000 P
 A
-18 5
-A
 19 5
+A
+18 5
 #17224
 helmet fire~
 the Helmet of Fire~
@@ -517,9 +517,9 @@ unknown~
 AC AC AC AC 0
 20 17 2500 P
 A
-4 -2
-A
 12 25
+A
+4 -2
 #17225
 belt unforgiving~
 the Belt of Unforgiving~
@@ -529,13 +529,13 @@ unknown~
 BD BD BD D 0
 45 8 65000 P
 A
-18 10
-A
-12 -25
+13 25
 A
 19 5
 A
-13 25
+12 -25
+A
+18 10
 #17230
 helm supremity~
 the Helm of Supremity~
@@ -557,15 +557,15 @@ As bursts of flame leap toward you, you ask yourself "Should I go on???"
 ~
 0 12 0
 D0
-~
+(null)~
 gate~
 1 0 17287
 D2
-~
+(null)~
 ~
 0 0 17282
 D5
-~
+(null)~
 ~
 1 17219 17201
 S
@@ -578,19 +578,19 @@ of Underworld while north and south keep you in the first circle.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17202
 D2
-~
+(null)~
 ~
 0 0 17203
 D3
-~
+(null)~
 ~
 0 0 17204
 D4
-~
+(null)~
 ~
 1 17219 17200
 S
@@ -605,15 +605,15 @@ hit em.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17205
 D2
-~
+(null)~
 ~
 0 0 17201
 D3
-~
+(null)~
 ~
 0 0 17206
 S
@@ -626,15 +626,15 @@ the north you see the way back to the surface.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17201
 D2
-~
+(null)~
 ~
 0 0 17209
 D3
-~
+(null)~
 ~
 0 0 17211
 S
@@ -646,19 +646,19 @@ is locked. Here's an idea... Why don't you try finding a key???
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17206
 D1
-~
+(null)~
 ~
 0 0 17201
 D2
-~
+(null)~
 ~
 0 0 17211
 D3
-~
+(null)~
 ~
 1 17217 17214
 S
@@ -670,11 +670,11 @@ Why don't you go and find out. If you dare...
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 0 0 17202
 D3
-~
+(null)~
 ~
 0 0 17207
 S
@@ -688,15 +688,15 @@ don't you go find out...
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17207
 D1
-~
+(null)~
 ~
 0 0 17202
 D2
-~
+(null)~
 ~
 0 0 17204
 S
@@ -711,15 +711,15 @@ final choice...
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 1 0 17208
 D1
-~
+(null)~
 ~
 0 0 17205
 D2
-~
+(null)~
 ~
 0 0 17206
 S
@@ -731,7 +731,7 @@ eyes, he seems to look straight into your soul.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 1 0 17207
 S
@@ -745,15 +745,15 @@ a wall or some sorts.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17203
 D2
-~
+(null)~
 ~
 0 0 17213
 D3
-~
+(null)~
 ~
 0 0 17210
 S
@@ -765,15 +765,15 @@ of wall. Why don't you go check it out.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17211
 D1
-~
+(null)~
 ~
 0 0 17209
 D2
-~
+(null)~
 ~
 0 0 17212
 S
@@ -786,15 +786,15 @@ more of the orchard.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17204
 D1
-~
+(null)~
 ~
 0 0 17203
 D2
-~
+(null)~
 ~
 0 0 17210
 S
@@ -806,11 +806,11 @@ nothing but more orchard, which depresses you.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17210
 D1
-~
+(null)~
 ~
 0 0 17213
 S
@@ -822,11 +822,11 @@ they very well may go on forever.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17209
 D3
-~
+(null)~
 ~
 0 0 17212
 S
@@ -840,19 +840,19 @@ see the entrance to the third circle of Underworld.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17215
 D1
-~
+(null)~
 ~
 1 17217 17204
 D2
-~
+(null)~
 ~
 0 0 17217
 D3
-~
+(null)~
 ~
 0 0 17216
 S
@@ -865,15 +865,15 @@ final decision.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17224
 D2
-~
+(null)~
 ~
 0 0 17214
 D3
-~
+(null)~
 ~
 0 0 17218
 S
@@ -886,19 +886,19 @@ freeze to death in this god-forsaken land.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17218
 D1
-~
+(null)~
 ~
 0 0 17214
 D2
-~
+(null)~
 ~
 0 0 17219
 D3
-~
+(null)~
 ~
 1 17216 17220
 S
@@ -913,15 +913,15 @@ frozen area.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17214
 D2
-~
+(null)~
 ~
 0 0 17222
 D3
-~
+(null)~
 ~
 0 0 17219
 S
@@ -934,15 +934,15 @@ Underworld.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17221
 D1
-~
+(null)~
 ~
 0 0 17215
 D2
-~
+(null)~
 ~
 0 0 17216
 S
@@ -956,15 +956,15 @@ see is more of this frozen area, which depresses you.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17216
 D1
-~
+(null)~
 ~
 0 0 17217
 D2
-~
+(null)~
 ~
 0 0 17223
 S
@@ -978,19 +978,19 @@ west you can the the gate leading to the Fourth circle of Underworld.
 ~
 0 2097164 0
 D0
-~
+(null)~
 ~
 0 0 17231
 D1
-~
+(null)~
 ~
 1 17216 17216
 D2
-~
+(null)~
 ~
 0 0 17228
 D3
-~
+(null)~
 ~
 0 0 17226
 S
@@ -1003,11 +1003,11 @@ further. To the south you can see only ice and snow.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17224
 D2
-~
+(null)~
 ~
 0 0 17218
 S
@@ -1019,11 +1019,11 @@ check it out.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17217
 D3
-~
+(null)~
 ~
 0 0 17223
 S
@@ -1036,15 +1036,15 @@ mammoth door.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17219
 D1
-~
+(null)~
 ~
 0 0 17222
 D2
-~
+(null)~
 ~
 1 0 17225
 S
@@ -1057,11 +1057,11 @@ south all you see is ice and snow being carried by huge gusts of wind.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 0 0 17215
 D3
-~
+(null)~
 ~
 0 0 17221
 S
@@ -1077,7 +1077,7 @@ his second circle of Underworld.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 1 0 17223
 S
@@ -1090,19 +1090,19 @@ the gate leading back to the freezing second circle of Underworld.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17227
 D1
-~
+(null)~
 ~
 0 0 17220
 D2
-~
+(null)~
 ~
 0 0 17230
 D3
-~
+(null)~
 ~
 1 17215 17229
 S
@@ -1117,15 +1117,15 @@ Underworld.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 17234
 D1
-~
+(null)~
 ~
 0 0 17231
 D2
-~
+(null)~
 ~
 0 0 17226
 S
@@ -1139,15 +1139,15 @@ back to the second circle.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17220
 D2
-~
+(null)~
 ~
 0 0 17235
 D3
-~
+(null)~
 ~
 0 0 17230
 S
@@ -1161,19 +1161,19 @@ you see is more purple glowing rooms.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17237
 D1
-~
+(null)~
 ~
 1 17215 17226
 D2
-~
+(null)~
 ~
 0 0 17239
 D3
-~
+(null)~
 ~
 0 0 17238
 S
@@ -1187,15 +1187,15 @@ circle, and to the east is a little more of this circle then a wall.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17226
 D1
-~
+(null)~
 ~
 0 0 17228
 D2
-~
+(null)~
 ~
 0 0 17236
 S
@@ -1208,15 +1208,15 @@ entrance back into the second circle of Underworld.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 17232
 D2
-~
+(null)~
 ~
 0 0 17220
 D3
-~
+(null)~
 ~
 0 0 17227
 S
@@ -1230,15 +1230,15 @@ circle.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 1 0 17233
 D2
-~
+(null)~
 ~
 0 0 17231
 D3
-~
+(null)~
 ~
 0 0 17234
 S
@@ -1251,7 +1251,7 @@ torches stand on either side of a crude throne of sorts.
 ~
 0 2097160 0
 D2
-~
+(null)~
 ~
 1 0 17232
 S
@@ -1263,11 +1263,11 @@ visible is more of this rocky mudane landscape.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 17232
 D2
-~
+(null)~
 ~
 0 0 17227
 S
@@ -1280,11 +1280,11 @@ circle.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17228
 D3
-~
+(null)~
 ~
 0 0 17236
 S
@@ -1298,11 +1298,11 @@ Underworld.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17230
 D1
-~
+(null)~
 ~
 0 0 17235
 S
@@ -1315,15 +1315,15 @@ see walls.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17242
 D2
-~
+(null)~
 ~
 0 0 17229
 D3
-~
+(null)~
 ~
 0 0 17240
 S
@@ -1335,19 +1335,19 @@ entrance to the fifth circle of the Underworld.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17240
 D1
-~
+(null)~
 ~
 0 0 17229
 D2
-~
+(null)~
 ~
 0 0 17241
 D3
-~
+(null)~
 ~
 1 17214 17246
 S
@@ -1361,15 +1361,15 @@ Underworld.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17229
 D2
-~
+(null)~
 ~
 0 0 17244
 D3
-~
+(null)~
 ~
 0 0 17241
 S
@@ -1382,15 +1382,15 @@ west you can see a wall.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17243
 D1
-~
+(null)~
 ~
 0 0 17237
 D2
-~
+(null)~
 ~
 0 0 17238
 S
@@ -1403,15 +1403,15 @@ while to the south you can see the southwest corner of this circle.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17238
 D1
-~
+(null)~
 ~
 0 0 17239
 D2
-~
+(null)~
 ~
 0 0 17247
 S
@@ -1424,11 +1424,11 @@ circle.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 0 0 17237
 D3
-~
+(null)~
 ~
 0 0 17243
 S
@@ -1441,11 +1441,11 @@ circle while to the east is the other corner.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17242
 D2
-~
+(null)~
 ~
 0 0 17240
 S
@@ -1458,15 +1458,15 @@ circle.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17239
 D2
-~
+(null)~
 ~
 1 0 17245
 D3
-~
+(null)~
 ~
 0 0 17247
 S
@@ -1478,7 +1478,7 @@ attack anything. But you'd better be careful around her.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 1 0 17244
 S
@@ -1492,19 +1492,19 @@ while to the north and south all you see is more space.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17248
 D1
-~
+(null)~
 ~
 1 17214 17238
 D2
-~
+(null)~
 ~
 0 0 17250
 D3
-~
+(null)~
 ~
 0 0 17249
 S
@@ -1517,11 +1517,11 @@ doors.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17241
 D1
-~
+(null)~
 ~
 0 0 17244
 S
@@ -1534,15 +1534,15 @@ back to the fourth circle. To the east stands a huge wall.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17259
 D2
-~
+(null)~
 ~
 0 0 17246
 D3
-~
+(null)~
 ~
 0 0 17251
 S
@@ -1556,19 +1556,19 @@ more emptiness while to the west is the pair of doors.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17251
 D1
-~
+(null)~
 ~
 0 0 17246
 D2
-~
+(null)~
 ~
 0 0 17252
 D3
-~
+(null)~
 ~
 1 17213 17253
 S
@@ -1582,15 +1582,15 @@ Underworld.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17246
 D2
-~
+(null)~
 ~
 0 0 17258
 D3
-~
+(null)~
 ~
 0 0 17252
 S
@@ -1605,15 +1605,15 @@ east you see a wall.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17254
 D1
-~
+(null)~
 ~
 0 0 17248
 D2
-~
+(null)~
 ~
 0 0 17249
 S
@@ -1627,15 +1627,15 @@ to this circle's ruler.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17249
 D1
-~
+(null)~
 ~
 0 0 17250
 D2
-~
+(null)~
 ~
 0 0 17256
 S
@@ -1648,19 +1648,19 @@ hypnotize you. Just remember where you are.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17260
 D1
-~
+(null)~
 ~
 1 17213 17249
 D2
-~
+(null)~
 ~
 0 0 17255
 D3
-~
+(null)~
 ~
 0 0 17261
 S
@@ -1672,11 +1672,11 @@ and to the south you see more black space.
 ~
 0 8200 9
 D1
-~
+(null)~
 ~
 0 0 17259
 D2
-~
+(null)~
 ~
 0 0 17251
 S
@@ -1692,15 +1692,15 @@ sort of suspicious.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 17253
 D2
-~
+(null)~
 ~
 0 0 17268
 D3
-~
+(null)~
 ~
 0 0 17266
 S
@@ -1713,15 +1713,15 @@ circle of Underworld.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17252
 D1
-~
+(null)~
 ~
 0 0 17258
 D3
-~
+(null)~
 ~
 1 0 17257
 S
@@ -1736,7 +1736,7 @@ to the fifth circle of Underworld.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 1 0 17256
 S
@@ -1750,11 +1750,11 @@ comets.
 ~
 0 8200 9
 D0
-~
+(null)~
 ~
 0 0 17250
 D3
-~
+(null)~
 ~
 0 0 17256
 S
@@ -1767,11 +1767,11 @@ fields.
 ~
 0 8200 9
 D2
-~
+(null)~
 ~
 0 0 17248
 D3
-~
+(null)~
 ~
 0 0 17254
 S
@@ -1783,15 +1783,15 @@ would be wise to stay away from there.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17262
 D2
-~
+(null)~
 ~
 0 0 17253
 D3
-~
+(null)~
 ~
 0 0 17263
 S
@@ -1804,19 +1804,19 @@ such a forbidden place.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17263
 D1
-~
+(null)~
 ~
 0 0 17253
 D2
-~
+(null)~
 ~
 0 0 17266
 D3
-~
+(null)~
 ~
 1 17212 17269
 S
@@ -1829,15 +1829,15 @@ are almost bubbling with the heat of the electricity.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 1 0 17265
 D2
-~
+(null)~
 ~
 0 0 17260
 D3
-~
+(null)~
 ~
 0 0 17264
 S
@@ -1850,15 +1850,15 @@ to the east, nothing but more of this circle and a wall.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17264
 D1
-~
+(null)~
 ~
 0 0 17260
 D2
-~
+(null)~
 ~
 0 0 17261
 S
@@ -1871,11 +1871,11 @@ opened and reveal secrets of the other side.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17262
 D2
-~
+(null)~
 ~
 0 0 17263
 S
@@ -1888,7 +1888,7 @@ could help you get out.
 ~
 0 8 0
 D3
-~
+(null)~
 ~
 1 0 17262
 S
@@ -1900,15 +1900,15 @@ few paces north. You think that even electrons wouldn't dare go there.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17261
 D1
-~
+(null)~
 ~
 0 0 17255
 D2
-~
+(null)~
 ~
 0 0 17267
 S
@@ -1920,11 +1920,11 @@ to go there, if you value your health.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17266
 D1
-~
+(null)~
 ~
 0 0 17268
 S
@@ -1936,11 +1936,11 @@ of mind you might have been able to hold onto.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17255
 D3
-~
+(null)~
 ~
 0 0 17267
 S
@@ -1952,11 +1952,11 @@ passages to the north or south.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 1 17212 17261
 D3
-~
+(null)~
 ~
 0 0 17270
 S
@@ -1968,11 +1968,11 @@ large lock under the iron rings offers a way through, but only with a key.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17269
 D3
-~
+(null)~
 ~
 1 17211 17271
 S
@@ -2000,19 +2000,19 @@ It rains into the sea,
    And still the sea is salt.`w
 ~
 D0
-~
+(null)~
 ~
 0 0 17279
 D1
-~
+(null)~
 ~
 1 17211 17270
 D2
-~
+(null)~
 ~
 0 0 17276
 D3
-~
+(null)~
 ~
 0 0 17272
 S
@@ -2025,19 +2025,19 @@ It wouldn't be wise to enter.
 ~
 0 8204 0
 D0
-~
+(null)~
 ~
 0 0 17275
 D1
-~
+(null)~
 ~
 0 0 17271
 D2
-~
+(null)~
 ~
 0 0 17274
 D3
-~
+(null)~
 ~
 1 17210 17273
 S
@@ -2052,7 +2052,7 @@ and attacks.
 ~
 0 1056777 0
 D1
-~
+(null)~
 ~
 1 0 17272
 S
@@ -2066,15 +2066,15 @@ someone's in there that could help you.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17272
 D1
-~
+(null)~
 ~
 0 0 17276
 D2
-~
+(null)~
 ~
 0 0 17277
 S
@@ -2086,15 +2086,15 @@ rotten flesh and vomit fills the air heavily.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17281
 D1
-~
+(null)~
 ~
 0 0 17279
 D2
-~
+(null)~
 ~
 0 0 17272
 S
@@ -2107,15 +2107,15 @@ scared him to death.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17271
 D2
-~
+(null)~
 ~
 0 0 17278
 D3
-~
+(null)~
 ~
 0 0 17274
 S
@@ -2129,11 +2129,11 @@ take a quick glimpse at the wall, and then are on your way.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17274
 D1
-~
+(null)~
 ~
 0 0 17278
 S
@@ -2146,11 +2146,11 @@ them. They scream in agony and pain. If only you could release them.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17276
 D3
-~
+(null)~
 ~
 0 0 17277
 S
@@ -2164,15 +2164,15 @@ idea.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 0 0 17280
 D2
-~
+(null)~
 ~
 0 0 17271
 D3
-~
+(null)~
 ~
 0 0 17275
 S
@@ -2184,15 +2184,15 @@ you to let them out. Sadly, you can do nothing except watch them suffer.
 ~
 0 8201 0
 D0
-~
+(null)~
 ~
 1 0 17286
 D2
-~
+(null)~
 ~
 0 0 17279
 D3
-~
+(null)~
 ~
 0 0 17281
 S
@@ -2204,11 +2204,11 @@ the wall and walk off before anything else gets too weird.
 ~
 0 8201 0
 D1
-~
+(null)~
 ~
 0 0 17280
 D2
-~
+(null)~
 ~
 0 0 17275
 S
@@ -2221,11 +2221,11 @@ everyone's rambling about.
 ~
 0 1 0
 D0
-~
+(null)~
 ~
 0 0 17200
 D2
-~
+(null)~
 ~
 0 0 17283
 S
@@ -2238,11 +2238,11 @@ and you move on, but now with caution.
 ~
 0 9 0
 D0
-~
+(null)~
 ~
 0 0 17282
 D3
-~
+(null)~
 ~
 0 0 17284
 S
@@ -2255,11 +2255,11 @@ rumors you had heard back in town are true.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 17283
 D2
-~
+(null)~
 ~
 0 0 17285
 S
@@ -2271,11 +2271,11 @@ that in mind.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 17284
 D3
-~
+(null)~
 ~
 0 0 16268
 S
@@ -2290,7 +2290,7 @@ before you have time to think about it, he charges and attacks.
 ~
 0 1056777 0
 D2
-~
+(null)~
 ~
 1 0 17280
 S
@@ -2302,7 +2302,7 @@ Satan's warriors when the time of Armegeddon is upon them.
 ~
 0 1056777 0
 D2
-~
+(null)~
 ~
 1 0 17200
 S
@@ -2345,171 +2345,171 @@ D 0 17273 1 1
 D 0 17280 0 0
 D 0 17286 2 0
 D 0 17287 2 0
-M 0 17204 2 17200
-M 0 17204 2 17200
-E 0 17219 0 17
-E 0 17194 0 3
-M 0 17200 10 17201
-M 0 17200 10 17201
-M 0 17200 10 17201
-M 0 17200 2 17202
-M 0 17200 4 17207
-M 0 17200 4 17207
-M 0 17200 4 17207
-M 0 17201 1 17208
-E 0 17217 0 17
-E 0 17200 0 5
-M 0 17200 10 17209
-M 0 17200 10 17209
-M 0 17200 10 17211
-M 0 17202 5 17214
-M 0 17202 5 17214
-M 0 17202 5 17214
-M 0 17202 4 17217
-M 0 17202 4 17217
-M 0 17202 4 17217
-M 0 17202 2 17218
-M 0 17205 5 17220
-M 0 17205 5 17220
-M 0 17205 5 17220
-M 0 17205 5 17220
-M 0 17202 3 17221
-M 0 17202 3 17221
-M 0 17202 3 17221
-M 0 17202 1 17222
-M 0 17202 4 17223
-M 0 17202 4 17223
-M 0 17202 4 17223
-M 0 17202 4 17223
-M 0 17202 2 17223
-M 0 17202 3 17224
-M 0 17202 3 17224
-M 0 17202 3 17224
-M 0 17203 1 17225
-E 0 17216 0 17
-E 0 17201 0 13
-M 0 17205 4 17227
-M 0 17205 4 17227
-M 0 17205 4 17227
-M 0 17207 3 17229
-M 0 17207 3 17229
-M 0 17207 3 17229
-M 0 17205 3 17230
-M 0 17205 3 17230
-M 0 17205 2 17231
-M 0 17205 2 17231
-M 0 17205 3 17232
-M 0 17205 3 17232
-M 0 17205 3 17232
-M 0 17206 1 17233
-E 0 17215 0 17
-E 0 17203 0 0
-M 0 17205 5 17235
-M 0 17205 5 17235
-M 0 17205 5 17235
-M 0 17205 5 17235
-M 0 17205 2 17236
-M 0 17207 3 17239
-M 0 17207 4 17240
-M 0 17207 4 17240
-M 0 17207 4 17240
-M 0 17207 3 17241
-M 0 17207 3 17241
-M 0 17207 3 17241
-M 0 17207 3 17242
-M 0 17207 3 17242
-M 0 17207 1 17243
-M 0 17207 5 17244
-M 0 17207 5 17244
-M 0 17207 5 17244
-M 0 17207 5 17244
-M 0 17207 5 17244
-M 0 17208 1 17245
-E 0 17214 0 17
-E 0 17204 0 14
-M 0 17209 3 17246
-M 0 17209 3 17246
-M 0 17207 2 17247
-M 0 17209 4 17248
-M 0 17209 4 17248
-M 0 17209 3 17250
-M 0 17209 2 17252
-M 0 17209 2 17252
-M 0 17212 5 17253
-M 0 17212 5 17253
-M 0 17212 5 17253
-M 0 17212 5 17253
-M 0 17209 3 17254
-M 0 17209 3 17254
-M 0 17212 2 17255
-M 0 17209 4 17256
-M 0 17209 4 17256
-M 0 17209 4 17256
-M 0 17209 4 17256
-M 0 17210 1 17257
-E 0 17213 0 17
-E 0 17206 0 1
-M 0 17209 3 17258
-M 0 17209 3 17258
-M 0 17209 5 17259
-M 0 17209 5 17259
-M 0 17209 5 17259
-M 0 17209 5 17259
-M 0 17212 2 17260
-M 0 17212 2 17260
-M 0 17212 5 17262
-M 0 17212 5 17262
-M 0 17212 5 17262
-M 0 17212 5 17262
-M 0 17212 3 17263
-M 0 17212 3 17263
-M 0 17212 3 17264
-M 0 17212 3 17264
-M 0 17211 1 17265
-E 0 17212 0 17
-E 0 17206 0 2
-M 0 17212 3 17266
-M 0 17212 4 17267
-M 0 17212 4 17267
-M 0 17212 4 17267
-M 0 17212 4 17267
-M 0 17212 4 17268
-M 0 17212 4 17268
-M 0 17216 1 17270
-E 0 17211 0 17
-M 0 17213 9 17271
-M 0 17213 9 17271
-M 0 17213 9 17271
-M 0 17213 9 17271
-M 0 17213 9 17271
-M 0 17215 1 17273
-E 0 17208 0 16
-M 0 17213 4 17274
-M 0 17213 4 17274
-M 0 17213 1 17274
-M 0 17213 5 17275
-M 0 17213 5 17275
-M 0 17213 5 17275
-M 0 17213 5 17275
-M 0 17213 2 17277
-M 0 17213 2 17277
-M 0 17213 4 17278
-M 0 17213 4 17278
-M 0 17213 4 17278
-M 0 17213 5 17279
-M 0 17213 5 17279
-M 0 17213 3 17280
-M 0 17213 3 17280
-M 0 17213 3 17281
-M 0 17214 1 17286
-E 0 17210 0 17
-E 0 17207 0 3
-M 0 17220 1 17287
-G 0 17221 0
-G 0 17222 0
-G 0 17223 0
-G 0 17224 0
-G 0 17225 0
+M 0 17204 2 17200 Load a Guardian of Hell
+M 0 17204 2 17200 Load a Guardian of Hell
+E 0 17219 0 17 The hell key is loaded held in the hands of a Guardian of Hell
+E 0 17194 0 3 An accursed pendant is loaded around the neck (1) of a Guardian of Hell
+M 0 17200 10 17201 Load An Evil Servant
+M 0 17200 10 17201 Load An Evil Servant
+M 0 17200 10 17201 Load An Evil Servant
+M 0 17200 2 17202 Load An Evil Servant
+M 0 17200 4 17207 Load An Evil Servant
+M 0 17200 4 17207 Load An Evil Servant
+M 0 17200 4 17207 Load An Evil Servant
+M 0 17201 0 17208 Load the Bodyguard of Diablo
+E 0 17217 0 17 The damned key is loaded held in the hands of the Bodyguard of Diablo
+E 0 17200 0 5 A suit of hell's armor is loaded on the body of the Bodyguard of Diablo
+M 0 17200 10 17209 Load An Evil Servant
+M 0 17200 10 17209 Load An Evil Servant
+M 0 17200 10 17211 Load An Evil Servant
+M 0 17202 5 17214 Load the Demon
+M 0 17202 5 17214 Load the Demon
+M 0 17202 5 17214 Load the Demon
+M 0 17202 4 17217 Load the Demon
+M 0 17202 4 17217 Load the Demon
+M 0 17202 4 17217 Load the Demon
+M 0 17202 2 17218 Load the Demon
+M 0 17205 5 17220 Load a Crazed Phantom
+M 0 17205 5 17220 Load a Crazed Phantom
+M 0 17205 5 17220 Load a Crazed Phantom
+M 0 17205 5 17220 Load a Crazed Phantom
+M 0 17202 3 17221 Load the Demon
+M 0 17202 3 17221 Load the Demon
+M 0 17202 3 17221 Load the Demon
+M 0 17202 0 17222 Load the Demon
+M 0 17202 4 17223 Load the Demon
+M 0 17202 4 17223 Load the Demon
+M 0 17202 4 17223 Load the Demon
+M 0 17202 4 17223 Load the Demon
+M 0 17202 2 17223 Load the Demon
+M 0 17202 3 17224 Load the Demon
+M 0 17202 3 17224 Load the Demon
+M 0 17202 3 17224 Load the Demon
+M 0 17203 0 17225 Load Smaglama
+E 0 17216 0 17 The demon key is loaded held in the hands of Smaglama
+E 0 17201 0 13 The belt of hell is loaded around the waist of Smaglama
+M 0 17205 4 17227 Load a Crazed Phantom
+M 0 17205 4 17227 Load a Crazed Phantom
+M 0 17205 4 17227 Load a Crazed Phantom
+M 0 17207 3 17229 Load a Neural Parasite
+M 0 17207 3 17229 Load a Neural Parasite
+M 0 17207 3 17229 Load a Neural Parasite
+M 0 17205 3 17230 Load a Crazed Phantom
+M 0 17205 3 17230 Load a Crazed Phantom
+M 0 17205 2 17231 Load a Crazed Phantom
+M 0 17205 2 17231 Load a Crazed Phantom
+M 0 17205 3 17232 Load a Crazed Phantom
+M 0 17205 3 17232 Load a Crazed Phantom
+M 0 17205 3 17232 Load a Crazed Phantom
+M 0 17206 0 17233 Load the Metabuse
+E 0 17215 0 17 The blood key is loaded held in the hands of the Metabuse
+E 0 17203 0 0 The sceptre of hell is loaded as a light of the Metabuse
+M 0 17205 5 17235 Load a Crazed Phantom
+M 0 17205 5 17235 Load a Crazed Phantom
+M 0 17205 5 17235 Load a Crazed Phantom
+M 0 17205 5 17235 Load a Crazed Phantom
+M 0 17205 2 17236 Load a Crazed Phantom
+M 0 17207 3 17239 Load a Neural Parasite
+M 0 17207 4 17240 Load a Neural Parasite
+M 0 17207 4 17240 Load a Neural Parasite
+M 0 17207 4 17240 Load a Neural Parasite
+M 0 17207 3 17241 Load a Neural Parasite
+M 0 17207 3 17241 Load a Neural Parasite
+M 0 17207 3 17241 Load a Neural Parasite
+M 0 17207 3 17242 Load a Neural Parasite
+M 0 17207 3 17242 Load a Neural Parasite
+M 0 17207 0 17243 Load a Neural Parasite
+M 0 17207 5 17244 Load a Neural Parasite
+M 0 17207 5 17244 Load a Neural Parasite
+M 0 17207 5 17244 Load a Neural Parasite
+M 0 17207 5 17244 Load a Neural Parasite
+M 0 17207 5 17244 Load a Neural Parasite
+M 0 17208 0 17245 Load the Soul Trapper
+E 0 17214 0 17 The soul key is loaded held in the hands of the Soul Trapper
+E 0 17204 0 14 The armband of hell is loaded on the left wrist of the Soul Trapper
+M 0 17209 3 17246 Load a Damned Soul
+M 0 17209 3 17246 Load a Damned Soul
+M 0 17207 2 17247 Load a Neural Parasite
+M 0 17209 4 17248 Load a Damned Soul
+M 0 17209 4 17248 Load a Damned Soul
+M 0 17209 3 17250 Load a Damned Soul
+M 0 17209 2 17252 Load a Damned Soul
+M 0 17209 2 17252 Load a Damned Soul
+M 0 17212 5 17253 Load An Undead Killer
+M 0 17212 5 17253 Load An Undead Killer
+M 0 17212 5 17253 Load An Undead Killer
+M 0 17212 5 17253 Load An Undead Killer
+M 0 17209 3 17254 Load a Damned Soul
+M 0 17209 3 17254 Load a Damned Soul
+M 0 17212 2 17255 Load An Undead Killer
+M 0 17209 4 17256 Load a Damned Soul
+M 0 17209 4 17256 Load a Damned Soul
+M 0 17209 4 17256 Load a Damned Soul
+M 0 17209 4 17256 Load a Damned Soul
+M 0 17210 0 17257 Load a Blood Brother
+E 0 17213 0 17 The unholy key is loaded held in the hands of a Blood Brother
+E 0 17206 0 1 The ring of hell is loaded on the left finger of a Blood Brother
+M 0 17209 3 17258 Load a Damned Soul
+M 0 17209 3 17258 Load a Damned Soul
+M 0 17209 5 17259 Load a Damned Soul
+M 0 17209 5 17259 Load a Damned Soul
+M 0 17209 5 17259 Load a Damned Soul
+M 0 17209 5 17259 Load a Damned Soul
+M 0 17212 2 17260 Load An Undead Killer
+M 0 17212 2 17260 Load An Undead Killer
+M 0 17212 5 17262 Load An Undead Killer
+M 0 17212 5 17262 Load An Undead Killer
+M 0 17212 5 17262 Load An Undead Killer
+M 0 17212 5 17262 Load An Undead Killer
+M 0 17212 3 17263 Load An Undead Killer
+M 0 17212 3 17263 Load An Undead Killer
+M 0 17212 3 17264 Load An Undead Killer
+M 0 17212 3 17264 Load An Undead Killer
+M 0 17211 0 17265 Load a Blood Brother
+E 0 17212 0 17 The evil key is loaded held in the hands of a Blood Brother
+E 0 17206 0 2 The ring of hell is loaded on the right finger of a Blood Brother
+M 0 17212 3 17266 Load An Undead Killer
+M 0 17212 4 17267 Load An Undead Killer
+M 0 17212 4 17267 Load An Undead Killer
+M 0 17212 4 17267 Load An Undead Killer
+M 0 17212 4 17267 Load An Undead Killer
+M 0 17212 4 17268 Load An Undead Killer
+M 0 17212 4 17268 Load An Undead Killer
+M 0 17216 0 17270 Load the Guardian of the Key
+E 0 17211 0 17 The satanic key is loaded held in the hands of the Guardian of the Key
+M 0 17213 9 17271 Load a Devil's Associate
+M 0 17213 9 17271 Load a Devil's Associate
+M 0 17213 9 17271 Load a Devil's Associate
+M 0 17213 9 17271 Load a Devil's Associate
+M 0 17213 9 17271 Load a Devil's Associate
+M 0 17215 0 17273 Load Satan
+E 0 17208 0 16 The sword of hell is loaded wielded of Satan
+M 0 17213 4 17274 Load a Devil's Associate
+M 0 17213 4 17274 Load a Devil's Associate
+M 0 17213 0 17274 Load a Devil's Associate
+M 0 17213 5 17275 Load a Devil's Associate
+M 0 17213 5 17275 Load a Devil's Associate
+M 0 17213 5 17275 Load a Devil's Associate
+M 0 17213 5 17275 Load a Devil's Associate
+M 0 17213 2 17277 Load a Devil's Associate
+M 0 17213 2 17277 Load a Devil's Associate
+M 0 17213 4 17278 Load a Devil's Associate
+M 0 17213 4 17278 Load a Devil's Associate
+M 0 17213 4 17278 Load a Devil's Associate
+M 0 17213 5 17279 Load a Devil's Associate
+M 0 17213 5 17279 Load a Devil's Associate
+M 0 17213 3 17280 Load a Devil's Associate
+M 0 17213 3 17280 Load a Devil's Associate
+M 0 17213 3 17281 Load a Devil's Associate
+M 0 17214 0 17286 Load Mephisto
+E 0 17210 0 17 The devil's key is loaded held in the hands of Mephisto
+E 0 17207 0 3 The amulet of hell is loaded around the neck (1) of Mephisto
+M 0 17220 0 17287 Load Morpho
+G 0 17221 0 The boots of eternal suffering is given to Morpho
+G 0 17222 0 The hammer of hades is given to Morpho
+G 0 17223 0 The plate of souls is given to Morpho
+G 0 17224 0 The helmet of fire is given to Morpho
+G 0 17225 0 The belt of unforgiving is given to Morpho
 S
 
 
@@ -2518,8 +2518,14 @@ S
 S
 
 
+
 #SHOPS
 17220 9 5 0 0 0 100 50 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

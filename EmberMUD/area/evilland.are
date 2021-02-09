@@ -18,96 +18,96 @@ way he can. He stands about 7 feet tall and is built like a tank.
 ~
 Human~
 ABT U -10 S
-15 9
+15 9 
 100 0 0 0 19d20+20 1d1+1 3d3+4 18
 -1 -1 -1 -1
 FIK BE 0 0
 8 8 1 50
-AHMV ABCDEFGHIJK L unknown
+AHMV ABCDEFGHIJK L 0
 #21003
 guardian thunder ~
 a Guardian of Thunder~
 A Guardian is here, protecting his Master.
 ~
-~
+(null)~
 Human~
 AB E 0 S
-20 14
+20 14 
 100 0 0 0 17d18+18 0d0+0 6d6+6 16
 0 0 0 0
 EFI J H 0
 8 8 0 30
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21004
 evil god thunder~
 the Evil God of Thunder~
 The God of Thunder is here, waiting to kill you.
 ~
-~
+(null)~
 Human~
 ABR H 1 S
-70 36
+70 36 
 100 0 0 0 69d69+69 10d10+10 10d10+10 20
 -5 -5 -5 -4
 DEFKN H B 0
 8 8 1 150
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21005
 lord shadow~
 the Lord of the Shadows~
 The Lord of the Shadows is here sitting in his Throne.
 ~
-~
+(null)~
 goblin~
 AB HJ 5000 S
-81 55
+81 55 
 100 0 0 0 60d70+80 10d10+10 10d11+12 2
 -25 -25 -25 -20
 DFIK EH Q C
 6 6 1 265
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21006
 god lightning~
 the God of Lightning~
 The God of Lightning is here practicing his magical powers.
 ~
-~
+(null)~
 Human~
 ABd H 5000 S
-69 45
+69 45 
 100 0 0 0 51d52+52 10d10+10 10d10+10 28
 -10 -10 -10 -10
 DEFK J H 0
 8 8 0 52
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21007
 lightning bolt~
 `YA Lightning Bolt`w~
 A Lightning Bolt is here ready to strike!
 ~
-~
-Unknown~
+(null)~
+unique~
 AB T 0 S
-13 8
+13 8 
 100 0 0 0 13d14+14 2d2+2 1d3+4 15
 0 0 0 0
 DHIM JKL BQ HN
 8 8 0 0
-HJMQXc ABCDEFKLMQUVX M unknown
+HJMQXc ABCDEFKLMQUVX M 0
 #21008
 shadowy figure~
 a Shadowy Figure~
 A Shadowy Figure is hiding here.
 ~
-~
-Shadow~
+(null)~
+unique~
 AB JPUZ 0 S
-16 16
+16 16 
 100 0 0 0 15d16+18 1d2+3 3d4+5 16
 1 1 1 -1
 EFHIKMN BHIJKL BQ CHNS
 8 8 0 149
-ACHJLMQVXc ABCDEFGHIJKLMQUVX M unknown
+ACHJLMQVXc ABCDEFGHIJKLMQUVX M 0
 #21009
 shadow wizard healer ~
 Shadow Wizard~
@@ -119,152 +119,152 @@ in any way he can.
 ~
 Human~
 ABad H 0 S
-80 100
+80 100 
 100 0 0 0 60d60+60 50d50+50 90d90+90 29
 -100 -100 -100 -100
 DFIK HJK D 0
 8 8 1 832485
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21010
 dr. death~
 Dr. Death~
 The vicious man named "Dr. Death" is standing here.
 ~
-~
+(null)~
 Human~
 ABR H 100 S
-25 10
+25 10 
 100 0 0 0 21d23+23 0d0+0 2d5+6 27
 -5 -5 -5 -3
 EIK 0 0 0
 8 8 1 347
-AHMV ABCDEFGHIJK H unknown
+AHMV ABCDEFGHIJK H 0
 #21011
 Dragon~
 a two-headed Dragon~
 A Two-Headed Dragon is here waiting for its prey.
 ~
-~
-Reddragon~
+(null)~
+unique~
 AB FJTU 500 S
-22 14
+22 14 
 100 0 0 0 23d23+27 4d4+4 4d6+7 5
 -1 -3 -3 -3
 M H O I
 8 8 0 99
-HXZ ACDEFHJKQUVX M unknown
+HXZ ACDEFHJKQUVX M 0
 #21012
 slave~
 a slave~
 A poor slave is here being overworked.
 ~
-~
+(null)~
 goblin~
 AB JX 45 S
-13 9
+13 9 
 100 0 0 0 10d11+11 1d1+1 4d4+6 10
 -1 1 -1 1
 EFI I Q C
 8 8 0 30
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21013
 huge vampire~
 a huge Vampire~
 A huge Vampire appears from his Coffin.
 ~
-~
+(null)~
 goblin~
 ABQ JU 40 S
-30 19
+30 19 
 100 0 0 0 28d28+28 20d20+20 5d7+7 0
 0 0 0 0
 DEFIK IJ Q C
 8 8 0 400
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21014
 ghost darkness~
 the Ghost of DaRkNeSs~
 The Ghost of DaRkNeSs is floating around here.
 ~
-~
+(null)~
 goblin~
 AB BHJT 1 S
-30 16
+30 16 
 100 0 0 0 28d29+30 8d8+89 8d8+10 18
 -5 -5 -5 -9
 0 0 Q C
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21015
 guardian realm~
 a Guardian of the Realm~
 A Guardian of the Realm is here guarding his life away.
 ~
-~
+(null)~
 Human~
 AB H 795 S
-20 14
+20 14 
 100 0 0 0 20d22+22 4d4+4 8d9+9 7
 -8 -8 -8 -16
 FIKT I 0 J
 8 8 1 375
-AHMV ABCDEFGHIJK L unknown
+AHMV ABCDEFGHIJK L 0
 #21016
 guildmaster realm~
 the guildmaster~
 Your Guildmaster is standing here.
 ~
-~
+(null)~
 Human~
 ABJKb 0 60 S
-92 100
+92 100 
 100 0 0 0 40d40+45 5d5+5 50d50+50 3
 -100 -100 -100 -100
 EFIKN DHIJ S 0
 8 8 1 90000
-AHMV ABCDEFGHIJK H unknown
+AHMV ABCDEFGHIJK H 0
 #21019
 grim reaper dead~
 the Grim Reaper~
 The Grim Reaper is here waiting to kill you.
 ~
-~
+(null)~
 goblin~
 ABOR DHJ 543 S
-75 60
+75 60 
 100 0 0 0 66d66+66 10d10+10 8d9+10 20
 0 0 0 0
 EFIK 0 Q C
 8 8 0 0
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21020
 Lost Soul~
 a lost Soul~
 A lost Soul wanders around here.
 ~
-~
-Unknown~
+(null)~
+unique~
 AG JTU 67 S
-15 9
+15 9 
 100 0 0 0 15d15+16 4d4+4 2d4+4 20
 -3 -3 -3 -3
 EHIMN KL BQ CHN
 8 8 0 0
-AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
+AHJMQVXc ABCDEFGHIJKLMQUVX M 0
 #21021
 cupid~
 Cupid~
 Cupid is floating around here with his bow of love in his hands.
 ~
-~
+(null)~
 Human~
 A HT 100 S
-19 10
+19 10 
 100 0 0 0 17d19+19 0d0+0 3d4+5 0
 -1 -3 -7 -10
 DEFK HK S 0
 8 8 1 10
-AHMV ABCDEFGHIJK S unknown
+AHMV ABCDEFGHIJK S 0
 #21022
 goddess love~
 the Goddess of Love~
@@ -275,68 +275,68 @@ and makes you believe in love at first sight!
 ~
 Human~
 AB H 100 S
-40 18
+40 18 
 100 0 0 0 45d45+45 9d9+9 7d7+8 0
 0 0 0 0
 EIKN HS 0 0
 8 8 2 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21023
 soultaker~
 the Soultaker~
 The Soultaker is here, waiting to take your Soul.
 ~
-~
+(null)~
 goblin~
 ABR HJ 500 S
-69 25
+69 25 
 100 0 0 0 53d53+53 5d5+5 10d10+10 20
 -9 -9 -9 -9
 DFIKN HK Q C
 8 8 0 324
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21026
 demon guard~
 a Demon Guard~
 A Demon Guard takes one look at you and ATTACKS!
 ~
-~
+(null)~
 goblin~
 ABF HJ -1000 S
-14 10
+14 10 
 100 0 0 0 16d16+18 1d1+1 2d4+4 8
 0 0 0 0
 DEFIKN H Q C
 8 8 1 0
-AHMV ABCDEFGHIJK L unknown
+AHMV ABCDEFGHIJK L 0
 #21027
 flame~
 a large flame~
 A large Flame is burning here.
 ~
-~
+(null)~
 goblin~
 ABS J -100 S
-12 5
+12 5 
 100 0 0 0 15d16+17 10d10+10 2d3+3 6
 1 1 1 1
 FIK H Q C
 8 8 0 0
-AHMV ABCDEFGHIJK L unknown
+AHMV ABCDEFGHIJK L 0
 #21029
 demon hellraiser~
 the HellRaiser~
 The Gigantic HellRaiser rises up from the Smoke!
 ~
-~
+(null)~
 goblin~
 ABT HJ -4536 S
-77 35
+77 35 
 100 0 0 0 70d70+70 15d15+15 7d13+16 5
 -10 -10 -20 -50
 EFHIKN AEHQ Q C
 8 8 0 0
-AHMV ABCDEFGHIJK G unknown
+AHMV ABCDEFGHIJK G 0
 #21030
 something~
 Something~
@@ -346,82 +346,82 @@ You can't see a thing!!
 ~
 goblin~
 ABF J -235 S
-59 37
+59 37 
 100 0 0 0 50d55+56 10d10+10 7d8+9 18
 -5 -5 -5 -10
 DEFHIKN JK Q C
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21033
 A Wandering Soul~
 a Wandering Soul~
 A lost Soul is wandering around here.
 ~
-~
-Unknown~
+(null)~
+unique~
 A JU -34 S
-18 10
+18 10 
 100 0 0 0 23d23+23 10d10+10 2d3+3 16
 -1 -1 0 -2
 EHIKMN JKL BQ CHN
 8 8 0 0
-AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
+AHJMQVXc ABCDEFGHIJKLMQUVX M 0
 #21034
 Pallbearer~
 a Pallbearer~
 A Pallbearer is here holding his urn.
 ~
-~
+(null)~
 Human~
 AO U -500 S
-27 15
+27 15 
 100 0 0 0 25d26+27 4d4+4 2d4+5 9
 -1 -1 1 1
 FIKN AKLQ 0 0
 8 8 0 250
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21035
 The Reaper of the Realm~
 the Reaper of the Realm~
 The Reaper of the Realm is here to decide your fate.
 ~
-~
-Unknown~
+(null)~
+unique~
 ABOT H -3455 S
-100 200
+100 200 
 100 0 0 0 200d200+200 20d20+20 60d60+60 20
 -500 -500 -500 -800
 DEFHIKMN ABDEFHIJKLOP BQ CHN
 8 8 0 0
-AHJMQVXc ABCDEFGHIJKLMQUVX G unknown
+AHJMQVXc ABCDEFGHIJKLMQUVX G 0
 #21038
 evil skeleton~
 a Evil Skeleton~
 A Evil Skeleton is on the floor like a pile of bones.
 ~
-~
+(null)~
 school monster~
 ABOU Ua -10 S
-22 10
+22 10 
 100 0 0 0 24d25+25 4d4+4 5d5+5 10
 -1 -1 -1 -1
 EIKN AB 0 C
 8 8 0 0
-AMV ABCDEFHJKQU M unknown
+AMV ABCDEFHJKQU M 0
 #21040
 Master of the Shadows~
 the Master of the Shadows~
 The Master of the Shadows is here selling some of his sweet stuff!
 ~
-~
-Shadow~
+(null)~
+unique~
 ABd DFHJPZ 0 S
-95 1000
+95 1000 
 100 0 0 0 200d200+2002 100d100+100 200d200+200 18
 -40 -40 -40 -40
 DEFIK BI 0 S
 8 8 0 4345567
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #0
 
 
@@ -436,11 +436,11 @@ unknown~
 BD BD BD BD 0
 10 0 1500 P
 A
-18 2
+4 1
 A
 19 2
 A
-4 1
+18 2
 #21004
 Thunder staff~
 the Staff of Thunder~
@@ -466,15 +466,15 @@ unknown~
 EG D D 30 0
 33 0 1000 P
 A
-18 4
-A
-19 2
-A
-2 1
+1 1
 A
 4 1
 A
-1 1
+2 1
+A
+19 2
+A
+18 4
 #21007
 lords sceptre~
 the Lord's Golden Sceptre~
@@ -484,13 +484,13 @@ unknown~
 0 0 250 0 0
 55 1 4577 P
 A
-18 4
-A
-19 4
+13 10
 A
 1 1
 A
-13 10
+19 4
+A
+18 4
 #21008
 potion shadows~
 a Potion of the `bS`bh`Ba`Bd`co`Cw`Cs`w~
@@ -508,11 +508,11 @@ unknown~
 BD BD BD BD 0
 40 3 345 P
 A
-12 50
+19 3
 A
 18 5
 A
-19 3
+12 50
 #21010
 potion darkness~
 a potion of DaRkNeSs~
@@ -530,9 +530,9 @@ unknown~
 AC AC AC D 0
 20 1 934 P
 A
-18 3
-A
 19 2
+A
+18 3
 #21013
 coffin~
 a Coffin~
@@ -550,9 +550,9 @@ unknown~
 A C BC BCDE BD
 20 2 3044 P
 A
-18 7
-A
 19 8
+A
+18 7
 #21019
 scythe crystal death~
 a Crystal Scythe of Death~
@@ -562,9 +562,9 @@ unknown~
 0 BD BD A BCDEF
 70 1 100000 P
 A
-19 10
-A
 18 9
+A
+19 10
 #21021
 white bracelet~
 a white bracelet~
@@ -574,11 +574,11 @@ unknown~
 D D D AD 0
 29 1 329 P
 A
-18 3
+4 2
 A
 19 3
 A
-4 2
+18 3
 #21022
 bow love~
 `RCupid's Bow of Love`w~
@@ -588,13 +588,13 @@ unknown~
 0 BC AB BDE DE
 14 1 547 P
 A
-19 1
-A
-4 2
+18 3
 A
 17 -25
 A
-18 3
+4 2
+A
+19 1
 #21023
 pile gold coins~
 a pile of gold coins~
@@ -612,13 +612,13 @@ unknown~
 AC AC AC AD 0
 25 1 985 P
 A
-19 4
-A
-18 1
+4 1
 A
 13 18
 A
-4 1
+18 1
+A
+19 4
 #21026
 ring of pure evilness~
 `BRing of Pure Evilness`w~
@@ -628,11 +628,11 @@ unknown~
 AD D C AC 0
 16 0 234 P
 A
-5 1
+19 3
 A
 18 3
 A
-19 3
+5 1
 #21029
 shield fire~
 `RThe Shield of Fire`w~
@@ -642,15 +642,15 @@ unknown~
 BEF BEF BEF BEF 0
 75 0 0 P
 A
-18 5
-A
-19 4
-A
-4 1
+12 10
 A
 9 1
 A
-12 10
+4 1
+A
+19 4
+A
+18 5
 #21030
 something~
 something~
@@ -660,15 +660,15 @@ unknown~
 0 D AD A C
 55 1 3654 P
 A
-13 50
-A
-18 8
-A
-19 6
+1 -2
 A
 12 -100
 A
-1 -2
+19 6
+A
+18 8
+A
+13 50
 #21031
 fountain realm~
 a Beautiful Fountain~
@@ -686,11 +686,11 @@ unknown~
 AD AD AD BD 0
 9 1 565 P
 A
-4 1
+18 4
 A
 19 2
 A
-18 4
+4 1
 #21034
 urn ashes crystal~
 a Crystal Urn~
@@ -700,9 +700,9 @@ unknown~
 BD AC D BD 0
 9 1 43 P
 A
-19 2
-A
 18 2
+A
+19 2
 #21035
 book judgement~
 the Book of Judgement~
@@ -712,17 +712,17 @@ unknown~
 CE CE CE CE 0
 80 1 3255 P
 A
-17 -100
-A
-18 15
-A
-17 -25
-A
-12 150
+19 16
 A
 13 100
 A
-19 16
+12 150
+A
+17 -25
+A
+18 15
+A
+17 -100
 #21036
 Golden Scythe~
 a Golden Scythe of Death~
@@ -732,17 +732,17 @@ unknown~
 0 CDEF CDEF CE CD
 94 3 345667 P
 A
-19 50
-A
-18 50
-A
-13 100
-A
-17 -200
+1 5
 A
 12 100
 A
-1 5
+17 -200
+A
+13 100
+A
+18 50
+A
+19 50
 #0
 
 
@@ -757,11 +757,11 @@ rather large figure is looking at you with his bright red eyes!
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 21017
 D3
-~
+(null)~
 ~
 0 0 21024
 S
@@ -774,15 +774,15 @@ grasps you and pulls you up!
 ~
 0 5 3
 D1
-~
+(null)~
 ~
 0 0 21024
 D4
-~
+(null)~
 ~
 0 0 21002
 D5
-~
+(null)~
 ~
 0 0 21018
 S
@@ -794,11 +794,11 @@ so loud and so close it rumbles all the organs in your body.
 ~
 0 8192 9
 D4
-~
+(null)~
 ~
 0 0 21003
 D5
-~
+(null)~
 ~
 0 0 21001
 S
@@ -811,11 +811,11 @@ up here?  '
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 21004
 D5
-~
+(null)~
 ~
 0 0 21002
 S
@@ -828,19 +828,19 @@ a very powerful aura to him, and is guarded by a couple of guardians.
 ~
 0 1048576 0
 D0
-~
+(null)~
 ~
 0 0 21005
 D1
-~
+(null)~
 ~
 0 0 21003
 D3
-~
+(null)~
 ~
 0 0 21037
 D5
-~
+(null)~
 ~
 0 0 21009
 S
@@ -853,11 +853,11 @@ many golden items but he is watching you closely.
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 21004
 D4
-~
+(null)~
 ~
 0 0 21006
 S
@@ -870,11 +870,11 @@ though it storms forever up here.
 ~
 0 1 9
 D3
-~
+(null)~
 ~
 0 0 21007
 D5
-~
+(null)~
 ~
 0 0 21005
 S
@@ -887,15 +887,15 @@ but still scary and dangerous! Everywhere you look you see lightning bolts!
 ~
 0 1 9
 D1
-~
+(null)~
 ~
 0 0 21006
 D2
-~
+(null)~
 ~
 0 0 21022
 D3
-~
+(null)~
 ~
 0 0 21008
 S
@@ -909,15 +909,15 @@ first place.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 21007
 D3
-~
+(null)~
 ~
 0 0 21039
 D4
-~
+(null)~
 ~
 0 0 21021
 S
@@ -931,23 +931,23 @@ you!
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 21014
 D1
-~
+(null)~
 ~
 0 0 21010
 D2
-~
+(null)~
 ~
 0 0 21013
 D3
-~
+(null)~
 ~
 0 0 21012
 D4
-~
+(null)~
 ~
 0 0 21004
 S
@@ -960,11 +960,11 @@ door holding the creature in. So you feel safe except for that man.
 ~
 0 1 0
 D0
-~
+(null)~
 ~
 1 0 21011
 D3
-~
+(null)~
 ~
 0 0 21009
 S
@@ -977,7 +977,7 @@ of meat! You better run while you still can..
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 1 0 21010
 S
@@ -990,7 +990,7 @@ The slaves take one look at you and attack!
 ~
 0 8192 0
 D1
-~
+(null)~
 ~
 0 0 21009
 S
@@ -1003,7 +1003,7 @@ Looks like your in a fight with death and destiny.
 ~
 0 8193 0
 D0
-~
+(null)~
 ~
 0 0 21009
 S
@@ -1015,7 +1015,7 @@ This chamber is very dusty and bones lie everywhere on the ground.
 ~
 0 8193 0
 D2
-~
+(null)~
 ~
 0 0 21009
 S
@@ -1028,15 +1028,15 @@ Realm and enjoy... MuHaHaHa!!
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 21031
 D1
-~
+(null)~
 ~
 0 0 21018
 D3
-~
+(null)~
 ~
 0 0 21016
 S
@@ -1049,7 +1049,7 @@ Realm.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 21015
 S
@@ -1062,11 +1062,11 @@ the air.
 ~
 0 5 4
 D0
-~
+(null)~
 ~
 0 0 16052
 D3
-~
+(null)~
 ~
 0 0 21000
 S
@@ -1091,11 +1091,11 @@ AHHHHHHH!!!!!
 ~
 0 8193 4
 D3
-~
+(null)~
 ~
 0 0 21015
 D4
-~
+(null)~
 ~
 0 0 21001
 S
@@ -1108,15 +1108,15 @@ thinking about fighting him.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 21032
 D2
-~
+(null)~
 ~
 0 0 21031
 D3
-~
+(null)~
 ~
 0 0 21020
 S
@@ -1129,11 +1129,11 @@ in awhile. At least you hope so.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 21019
 D3
-~
+(null)~
 ~
 0 0 21023
 S
@@ -1145,11 +1145,11 @@ hear the thunderous roars!
 ~
 0 0 9
 D3
-~
+(null)~
 ~
 0 0 21022
 D5
-~
+(null)~
 ~
 0 0 21008
 S
@@ -1162,11 +1162,11 @@ so you take a closer look to see what it is...
 ~
 0 0 9
 D0
-~
+(null)~
 ~
 0 0 21007
 D1
-~
+(null)~
 ~
 0 0 21021
 S
@@ -1179,7 +1179,7 @@ people.
 ~
 0 1 0
 D1
-~
+(null)~
 ~
 0 0 21020
 S
@@ -1191,15 +1191,15 @@ choose your destiny!!
 ~
 0 0 4
 D0
-~
+(null)~
 ~
 0 0 21025
 D1
-~
+(null)~
 ~
 0 0 21000
 D3
-~
+(null)~
 ~
 0 0 21001
 S
@@ -1211,11 +1211,11 @@ chance.
 ~
 0 0 4
 D0
-~
+(null)~
 ~
 0 0 21026
 D2
-~
+(null)~
 ~
 0 0 21024
 S
@@ -1227,11 +1227,11 @@ takes one look at you and is ready to battle..
 ~
 0 1 0
 D0
-~
+(null)~
 ~
 0 0 21027
 D2
-~
+(null)~
 ~
 0 0 21025
 S
@@ -1244,15 +1244,15 @@ wonder if you are in hell? To the east you see a dungeon of some sort.
 ~
 0 8192 3
 D0
-~
+(null)~
 ~
 0 0 21030
 D2
-~
+(null)~
 ~
 0 0 21026
 D3
-~
+(null)~
 ~
 0 0 21028
 S
@@ -1266,15 +1266,15 @@ either!
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 21038
 D1
-~
+(null)~
 ~
 0 0 21027
 D3
-~
+(null)~
 ~
 0 0 21029
 S
@@ -1286,7 +1286,7 @@ jumps out in front of you. Scaring the living hell out of you!!
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 21028
 S
@@ -1296,7 +1296,7 @@ You can't see a thing!!
 ~
 0 1 0
 D2
-~
+(null)~
 ~
 0 0 21027
 S
@@ -1310,11 +1310,11 @@ take a big gulp!
 ~
 0 8192 0
 D0
-~
+(null)~
 ~
 0 0 21019
 D2
-~
+(null)~
 ~
 0 0 21015
 S
@@ -1326,23 +1326,23 @@ coming from everywhere! You are very cold and scared!
 ~
 0 2105345 0
 D0
-~
+(null)~
 ~
 0 0 21033
 D2
-~
+(null)~
 ~
 0 0 21033
 D3
-~
+(null)~
 ~
 0 0 21033
 D4
-~
+(null)~
 ~
 0 0 21032
 D5
-~
+(null)~
 ~
 0 0 21032
 S
@@ -1355,23 +1355,23 @@ you are going.
 ~
 0 2105344 0
 D0
-~
+(null)~
 ~
 0 0 21032
 D1
-~
+(null)~
 ~
 0 0 21032
 D2
-~
+(null)~
 ~
 0 0 21032
 D3
-~
+(null)~
 ~
 0 0 21034
 D5
-~
+(null)~
 ~
 0 0 21032
 S
@@ -1384,15 +1384,15 @@ are?
 ~
 0 2105344 0
 D0
-~
+(null)~
 ~
 0 0 21035
 D1
-~
+(null)~
 ~
 0 0 21033
 D5
-~
+(null)~
 ~
 0 0 21032
 S
@@ -1404,11 +1404,11 @@ for being such a jerk. The Reaper is here with your fate in his hands.
 ~
 0 2105344 0
 D4
-~
+(null)~
 ~
 0 0 21000
 D5
-~
+(null)~
 ~
 0 0 21032
 S
@@ -1420,7 +1420,7 @@ slowly but surely!! Your life will be in the hands of the Reaper now!
 ~
 0 8192 0
 D5
-~
+(null)~
 ~
 0 0 21032
 S
@@ -1433,7 +1433,7 @@ alive!!!!
 ~
 0 8192 0
 D2
-~
+(null)~
 ~
 0 0 21028
 S
@@ -1446,11 +1446,11 @@ coming!
 ~
 0 0 9
 D1
-~
+(null)~
 ~
 0 0 21008
 D4
-~
+(null)~
 ~
 0 0 21008
 S
@@ -1470,82 +1470,88 @@ S
 #RESETS
 D 0 21010 0 0
 D 0 21011 2 0
-M 0 21000 2 21000
-E 0 21000 0 13
-E 0 21008 0 17
-M 0 21004 1 21004
-E 0 21004 0 17
-M 0 21003 2 21004
-M 0 21005 1 21005
-E 0 21007 0 0
-O 0 21005 0 21005
-M 0 21006 1 21006
-E 0 21006 0 17
-M 0 21007 6 21007
-M 0 21008 9 21008
-M 0 21009 1 21009
-M 0 21010 1 21010
-E 0 21010 0 17
-M 0 21011 1 21011
-E 0 21011 0 3
-M 0 21012 8 21012
-M 0 21013 1 21013
-O 0 21013 0 21013
-M 0 21014 3 21014
-M 0 21015 1 21015
-E 0 21015 0 16
-M 0 21016 1 21016
-M 0 21019 1 21019
-E 0 21019 0 16
-M 0 21020 5 21020
-M 0 21021 1 21021
-E 0 21022 0 16
-M 0 21022 1 21022
-E 0 21021 0 14
-E 0 21009 0 12
-M 0 21023 1 21023
-O 0 21023 0 21023
-M 0 21026 1 21026
-E 0 21026 0 1
-M 0 21027 9 21027
-M 0 21029 1 21029
-E 0 21029 0 11
-M 0 21030 1 21030
-E 0 21030 0 16
-O 0 21031 0 21031
-M 0 21033 9 21033
-M 0 21034 1 21034
-E 0 21034 0 17
-M 0 21035 1 21035
-E 0 21035 0 17
-E 0 21036 0 16
-M 0 21038 1 21038
-M 0 21040 1 21040
-G 0 21008 0
-G 0 21033 0
-G 0 21024 0
+M 0 21000 2 21000 Load a Guardian of DaRkNeSs
+E 0 21000 0 13 The belt of darkness is loaded around the waist of a Guardian of DaRkNeSs
+E 0 21008 0 17 A potion of the `bs`bh`ba`bd`co`cw`cs`w is loaded held in the hands of a Guardian of DaRkNeSs
+M 0 21004 0 21004 Load the Evil God of Thunder
+E 0 21004 0 17 The staff of thunder is loaded held in the hands of the Evil God of Thunder
+M 0 21003 2 21004 Load a Guardian of Thunder
+M 0 21005 0 21005 Load the Lord of the Shadows
+E 0 21007 0 0 The lord's golden sceptre is loaded as a light of the Lord of the Shadows
+O 0 21005 0 21005 The lord's throne loaded to A Throne Room in the Chamber
+M 0 21006 0 21006 Load the God of Lightning
+E 0 21006 0 17 A lightning rod is loaded held in the hands of the God of Lightning
+M 0 21007 6 21007 Load `YA Lightning Bolt`w
+M 0 21008 9 21008 Load a Shadowy Figure
+M 0 21009 0 21009 Load Shadow Wizard
+M 0 21010 0 21010 Load Dr. Death
+E 0 21010 0 17 A potion of darkness is loaded held in the hands of Dr. Death
+M 0 21011 0 21011 Load a two-headed Dragon
+E 0 21011 0 3 A spiked collar is loaded around the neck (1) of a two-headed Dragon
+M 0 21012 8 21012 Load a slave
+M 0 21013 0 21013 Load a huge Vampire
+O 0 21013 0 21013 A coffin loaded to The Southern Chamber of Death
+M 0 21014 3 21014 Load the Ghost of DaRkNeSs
+M 0 21015 0 21015 Load a Guardian of the Realm
+E 0 21015 0 16 A crystal sword is loaded wielded of a Guardian of the Realm
+M 0 21016 0 21016 Load the guildmaster
+M 0 21019 0 21019 Load the Grim Reaper
+E 0 21019 0 16 A crystal scythe of death is loaded wielded of the Grim Reaper
+M 0 21020 5 21020 Load a lost Soul
+M 0 21021 0 21021 Load Cupid
+E 0 21022 0 16 `rcupid's bow of love`w is loaded wielded of Cupid
+M 0 21022 0 21022 Load the Goddess of Love
+E 0 21021 0 14 A white bracelet is loaded on the left wrist of the Goddess of Love
+E 0 21009 0 12 A white robe is loaded about the shoulders of the Goddess of Love
+M 0 21023 0 21023 Load the Soultaker
+O 0 21023 0 21023 A pile of gold coins loaded to A Secret Room in the Realm
+M 0 21026 0 21026 Load a Demon Guard
+E 0 21026 0 1 `bring of pure evilness`w is loaded on the left finger of a Demon Guard
+M 0 21027 9 21027 Load a large flame
+M 0 21029 0 21029 Load the HellRaiser
+E 0 21029 0 11 `rthe shield of fire`w is loaded as a shield of the HellRaiser
+M 0 21030 0 21030 Load Something
+E 0 21030 0 16 Something is loaded wielded of Something
+O 0 21031 0 21031 A beautiful fountain loaded to The Center Room in the Realm
+M 0 21033 9 21033 Load a Wandering Soul
+M 0 21034 0 21034 Load a Pallbearer
+E 0 21034 0 17 A crystal urn is loaded held in the hands of a Pallbearer
+M 0 21035 0 21035 Load the Reaper of the Realm
+E 0 21035 0 17 The book of judgement is loaded held in the hands of the Reaper of the Realm
+E 0 21036 0 16 A golden scythe of death is loaded wielded of the Reaper of the Realm
+M 0 21038 0 21038 Load a Evil Skeleton
+M 0 21040 0 21040 Load the Master of the Shadows
+G 0 21008 0 A potion of the `bs`bh`ba`bd`co`cw`cs`w is given to the Master of the Shadows
+G 0 21033 0 A belt of the `bs`bh`ba`bd`co`cw`cs`w is given to the Master of the Shadows
+G 0 21024 0 A bracelet of the shadows is given to the Master of the Shadows
 S
 
 
 
 #PROGS
-M 21003 20
-M 21004 2
-M 21005 7
-M 21006 6
-M 21007 6
-M 21009 9
-M 21013 10
-M 21019 7
-M 21023 13
-M 21027 3
-M 21029 3
-M 21035 105
+M 21003 20 CityGuard Load to: a Guardian of Thunder
+M 21004 2 Acid Breath Load to: the Evil God of Thunder
+M 21005 7 Random Breath Load to: the Lord of the Shadows
+M 21006 6 Lightning Breath Load to: the God of Lightning
+M 21007 6 Lightning Breath Load to: `YA Lightning Bolt`w
+M 21009 9 Adepts Load to: Shadow Wizard
+M 21013 10 Offensive Cleric Load to: a huge Vampire
+M 21019 7 Random Breath Load to: the Grim Reaper
+M 21023 13 Offensive Mage Load to: the Soultaker
+M 21027 3 Fire Breath Load to: a large flame
+M 21029 3 Fire Breath Load to: the HellRaiser
+M 21035 105 Stub Reaper Load to: the Reaper of the Realm
 S
+
 
 
 #SHOPS
 21040 9 5 1 10 4 100 100 0 24
+0
+
+
+
+#FACTIONAFFS
 0
 
 

@@ -4121,8 +4121,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         if ( dam > 0 )
             if ( ch == victim )
             {
-                sprintf( buf1, "`w$n `R%s`Y $melf%c", vp, punct );
-                sprintf( buf2, "`wYou `R%s`Y yourself%c", vs, punct );
+                sprintf( buf1, "`Y$n `R%s`Y $melf%c", vp, punct ); // JR: Changed starting color from `w to `Y
+                sprintf( buf2, "`YYou `R%s`Y yourself%c", vs, punct );
             }
             else
             {
@@ -4184,8 +4184,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             if ( dam > 0 )
                 if ( ch == victim )
                 {
-                    sprintf( buf1, "`w$n's %s `R%s`w $m for `g%d`w points of damage%c", attack, vp, dam, punct );
-                    sprintf( buf2, "`wYour %s `R%s`w you for `g%d`w points of damage%c", attack, vp, dam,
+                    sprintf( buf1, "`G$n's %s `R%s`G $m for `g%d`G points of damage%c", attack, vp, dam, punct ); // JR changed colors
+                    sprintf( buf2, "`YYour %s `R%s`Y you for `g%d`Y points of damage%c", attack, vp, dam,
                              punct );
                 }
                 else

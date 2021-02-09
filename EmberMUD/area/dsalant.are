@@ -20,12 +20,12 @@ with snowleopard fur making him seem bigger than he actually is.
 ~
 Human~
 ABG DFW -500 S
-20 20
+20 20 
 100 0 0 0 20d30+100 8d4+1 5d3+2 16
 -2 -2 -2 4
 0 ABR ILS MNPQ
 8 8 1 2000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28101
 Good Queen D'salant~
 the Good Queen of D'Salant~
@@ -40,12 +40,12 @@ become unflattering or not knowing.
 ~
 Human~
 ABG DFW 0 S
-20 20
+20 20 
 100 0 0 0 20d30+100 10d5+9 4d5+10 17
 -2 -2 -2 4
 0 0 LR MNPQ
 8 8 2 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28102
 Ladies~
 the Ladies of the Court~
@@ -56,12 +56,12 @@ fashions and the latest news. Some hang in the arms of their lord.
 ~
 Human~
 AB 0 0 S
-13 18
+13 18 
 100 0 0 0 5d30+141 3d4+1 4d5+1 16
 0 0 0 5
 0 LR 0 HILQ
 8 8 2 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28103
 The Lords~
 the Lords of the court~
@@ -72,12 +72,12 @@ monster. They are dressed in their finest armor for the king.
 ~
 Human~
 AB 0 0 S
-13 15
+13 15 
 100 0 0 0 5d30+161 100d1+1 3d5+2 3
 0 0 0 1
 KN 0 B 0
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28104
 Servant and a barrel of wine~
 a servant and a barrel of wine~
@@ -89,12 +89,12 @@ away from the guests.
 ~
 Human~
 AB 0 0 S
-10 10
+10 10 
 100 0 0 0 3d22+96 5d8+7 4d4+4 8
 4 4 4 7
 N 0 0 E
 8 8 -1 20
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28105
 servant~
 a servant with a cart of food~
@@ -106,12 +106,12 @@ followed around by a servant with a barrel of wine and caeser salad.
 ~
 Human~
 AG 0 0 S
-10 9
+10 9 
 100 0 0 0 5d30+161 3d5+9 3d5+9 17
 4 4 4 7
 N 0 0 0
 8 8 -1 20
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28106
 Guard~
 a guard~
@@ -123,12 +123,12 @@ everything coming near his door and does not let fiends in or prisoners out.
 ~
 Human~
 AB 0 0 S
-16 18
+16 18 
 100 0 0 0 5d31+237 1d10+9 3d5+8 0
 0 0 0 0
 T 0 P C
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28107
 warrior~
 Warrior~
@@ -140,12 +140,12 @@ This guy looks like he escaped from a circus.
 ~
 Human~
 ABFG 0 0 S
-20 15
+20 15 
 100 0 0 0 10d17+170 0d0+0 6d6+5 13
 2 2 2 2
 0 0 E 0
 8 8 1 500
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28108
 magic dummy~
 a magic dummy~
@@ -157,12 +157,12 @@ it. Some powerful mage must have made it.
 ~
 Human~
 AB 0 0 S
-0 0
+0 0 
 100 0 0 0 0d0+0 0d0+0 0d0+0 0
 0 0 0 0
 0 ABCDEFGHIJKLMNOPQRS 0 0
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28109
 Chef Jose~
 a chef~
@@ -175,12 +175,12 @@ People yell at him and call him Jose!
 ~
 Human~
 AB 0 0 S
-16 15
+16 15 
 100 0 0 0 5d30+181 0d0+0 3d5+8 25
 0 0 0 5
 0 0 H 0
 8 8 1 50
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28110
 Armorer Hephast~
 an armorer~
@@ -193,12 +193,12 @@ There is a tag on the counter saying he is Hephast.
 ~
 Human~
 Ad 0 0 S
-80 80
+80 80 
 100 0 0 0 1000d1+0 1d1+0 1d1+0 0
 -999 -999 -999 -999
 0 ABCDEFGHIJKLMNOPQRS 0 0
 8 8 0 10000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28111
 Bunny~
 a cute bunny~
@@ -210,12 +210,12 @@ floppy feet keep it stumbling everywhere.
 ~
 rabbit~
 AB 0 500 S
-5 5
+5 5 
 100 0 0 0 1d17+42 5d10+100 2d3+2 10
 0 0 0 0
 FH 0 0 0
 8 8 -1 0
-AGHMV ABCDEFGHIJK M unknown
+AGHMV ABCDEFGHIJK M 0
 #28112
 Bugs~
 An Evil Bug~
@@ -228,12 +228,12 @@ front.
 ~
 centipede~
 A Z -500 S
-8 10
+8 10 
 100 0 0 0 2d20+50 8d10+100 2d4+4 32
 0 0 0 0
 0 0 FI E
 8 8 0 1
-AHMOV ABCDEFGHIJK T unknown
+AHMOV ABCDEFGHIJK T 0
 #28114
 Joe bartender~
 Joe, the Bartender~
@@ -245,12 +245,12 @@ He seems hip to the world and talks of the news.
 ~
 Human~
 ABd 0 0 S
-0 1000
+0 1000 
 100 0 0 0 9999d9999+9999 9999d9999+9999 9999d9999+9999 0
 -99 -99 -99 -99
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28131
 Cleaning Woman~
 a frustrated cleaning woman scrubs the floor with a mop~
@@ -263,26 +263,26 @@ very dirty apron.
 ~
 Human~
 ABC 0 0 S
-10 10
+10 10 
 100 0 0 0 3d22+96 0d0+0 2d5+5 16
 0 0 0 0
 D 0 K P
 8 8 2 30
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #28199
 none~
 none~
 (no long description)
 ~
-~
+(null)~
 Human~
 A 0 0 S
-0 0
+0 0 
 100 0 0 0 0d0+0 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 0
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -456,19 +456,19 @@ must sleep somewhere...
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28103
 D2
-~
+(null)~
 ~
 0 0 28101
 D3
-~
+(null)~
 ~
 0 0 28112
 D4
-~
+(null)~
 ~
 7 0 28131
 S
@@ -482,19 +482,19 @@ is.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28100
 D1
-~
+(null)~
 ~
 0 0 28104
 D2
-~
+(null)~
 ~
 0 0 28102
 D3
-~
+(null)~
 ~
 0 0 28113
 S
@@ -506,19 +506,19 @@ peek at who is coming in, like paparatzis.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28101
 D1
-~
+(null)~
 ~
 0 0 28105
 D2
-~
+(null)~
 ~
 0 0 28143
 D3
-~
+(null)~
 ~
 0 0 28114
 S
@@ -530,15 +530,15 @@ is noisy and bustling with servants passing out goblets of wine.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28106
 D2
-~
+(null)~
 ~
 0 0 28104
 D3
-~
+(null)~
 ~
 0 0 28100
 S
@@ -550,19 +550,19 @@ maneuver through the crowds serving food and wine.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28103
 D1
-~
+(null)~
 ~
 0 0 28107
 D2
-~
+(null)~
 ~
 0 0 28105
 D3
-~
+(null)~
 ~
 0 0 28101
 S
@@ -574,15 +574,15 @@ occasional servant running around for more wine.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28104
 D1
-~
+(null)~
 ~
 0 0 28108
 D3
-~
+(null)~
 ~
 0 0 28102
 S
@@ -595,19 +595,19 @@ exotic fruits and even two entire roasted wild boar.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 28109
 D2
-~
+(null)~
 ~
 0 0 28107
 D3
-~
+(null)~
 ~
 0 0 28103
 D5
-~
+(null)~
 ~
 1 0 28169
 S
@@ -620,19 +620,19 @@ other aquatic delicassies.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28106
 D1
-~
+(null)~
 ~
 0 0 28110
 D2
-~
+(null)~
 ~
 0 0 28108
 D3
-~
+(null)~
 ~
 0 0 28104
 S
@@ -645,15 +645,15 @@ seen.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28107
 D1
-~
+(null)~
 ~
 0 0 28111
 D3
-~
+(null)~
 ~
 0 0 28105
 S
@@ -666,15 +666,15 @@ The floor is decorated with a mosaic of a Phoenix in flight.
 ~
 0 2097164 0
 D2
-~
+(null)~
 ~
 0 0 28110
 D3
-~
+(null)~
 ~
 0 0 28106
 D4
-~
+(null)~
 ~
 0 0 28139
 S
@@ -688,19 +688,19 @@ side path of the castle.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28109
 D1
-~
+(null)~
 ~
 1 0 28149
 D2
-~
+(null)~
 ~
 0 0 28111
 D3
-~
+(null)~
 ~
 0 0 28107
 S
@@ -713,15 +713,15 @@ painted over with a mural of the world in ashes. What could have happened?
 ~
 0 2097164 0
 D0
-~
+(null)~
 ~
 0 0 28110
 D3
-~
+(null)~
 ~
 0 0 28108
 D4
-~
+(null)~
 ~
 0 0 28141
 S
@@ -733,15 +733,15 @@ east, while grunts and hearty laughter comes from the west.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28100
 D2
-~
+(null)~
 ~
 0 0 28113
 D3
-~
+(null)~
 ~
 0 0 28115
 S
@@ -753,19 +753,19 @@ carrying food and wine head towards the warrior table.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28112
 D1
-~
+(null)~
 ~
 0 0 28101
 D2
-~
+(null)~
 ~
 0 0 28114
 D3
-~
+(null)~
 ~
 0 0 28116
 S
@@ -779,15 +779,15 @@ ceiling is decorated with hundreds of tapestries.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28113
 D1
-~
+(null)~
 ~
 0 0 28102
 D3
-~
+(null)~
 ~
 0 0 28117
 S
@@ -800,19 +800,19 @@ Now they see you. Uh oh.....
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28112
 D2
-~
+(null)~
 ~
 0 0 28116
 D3
-~
+(null)~
 ~
 0 0 28118
 D5
-~
+(null)~
 ~
 1 0 28170
 S
@@ -825,19 +825,19 @@ barbaric festival of brutality.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28115
 D1
-~
+(null)~
 ~
 0 0 28113
 D2
-~
+(null)~
 ~
 0 0 28117
 D3
-~
+(null)~
 ~
 0 0 28119
 S
@@ -850,15 +850,15 @@ be ugly....
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28116
 D1
-~
+(null)~
 ~
 0 0 28114
 D3
-~
+(null)~
 ~
 0 0 28120
 S
@@ -870,15 +870,15 @@ the world. The walls are highly decorated with tapestries of the phoenix.
 ~
 0 2097164 0
 D1
-~
+(null)~
 ~
 0 0 28115
 D2
-~
+(null)~
 ~
 0 0 28119
 D4
-~
+(null)~
 ~
 0 0 28121
 S
@@ -891,19 +891,19 @@ to enter. The floor is decorated with a mosaic of the planet growing.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28118
 D1
-~
+(null)~
 ~
 0 0 28116
 D2
-~
+(null)~
 ~
 0 0 28120
 D3
-~
+(null)~
 ~
 1 0 28161
 S
@@ -916,15 +916,15 @@ wall is covered by a huge tapestry praising the mages.
 ~
 0 2097164 0
 D0
-~
+(null)~
 ~
 0 0 28119
 D1
-~
+(null)~
 ~
 0 0 28117
 D4
-~
+(null)~
 ~
 0 0 28123
 S
@@ -936,11 +936,11 @@ There are some small red globes and sconces that illuminate the room dimly.
 ~
 0 2097160 0
 D2
-~
+(null)~
 ~
 0 0 28122
 D5
-~
+(null)~
 ~
 0 0 28118
 S
@@ -956,15 +956,15 @@ place.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28121
 D1
-~
+(null)~
 ~
 0 0 28125
 D2
-~
+(null)~
 ~
 0 0 28123
 S
@@ -976,11 +976,11 @@ globes of dim light resting on the floor.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28122
 D5
-~
+(null)~
 ~
 0 0 28120
 S
@@ -994,11 +994,11 @@ stands in front of the circle on the wall.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28127
 D2
-~
+(null)~
 ~
 1 28105 28125
 S
@@ -1011,19 +1011,19 @@ though.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 1 28105 28124
 D1
-~
+(null)~
 ~
 0 0 28128
 D2
-~
+(null)~
 ~
 1 28105 28126
 D3
-~
+(null)~
 ~
 0 0 28122
 S
@@ -1036,11 +1036,11 @@ all around you.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 1 0 28125
 D1
-~
+(null)~
 ~
 0 0 28129
 S
@@ -1060,11 +1060,11 @@ The maces are blood-stained and some of them have bits of rotting flesh
 on them.  
 ~
 D1
-~
+(null)~
 ~
 1 28105 28130
 D3
-~
+(null)~
 ~
 0 0 28124
 S
@@ -1078,11 +1078,11 @@ stalactites.
 ~
 0 2097164 0
 D1
-~
+(null)~
 ~
 0 0 28131
 D3
-~
+(null)~
 ~
 0 0 28125
 S
@@ -1095,7 +1095,7 @@ it would be wise not to wait around for the King's company.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 0 0 28126
 S
@@ -1109,9 +1109,10 @@ in the air with a dark aura.
 ~
 0 2097161 0
 E
-page_two~
-Hellfire- A deadly spell from the depths of hell. Has tendency to jump
-from target to target.  
+book~
+This is a dark omnious book. There is a six pointed star in a circle
+on the cover. The pages contain many evil spells and pictures of demons
+and other figures. To read some spells type look page_one.
 ~
 E
 page_one~
@@ -1131,17 +1132,16 @@ This the first page of the book.
 To see the spells type look page_two
 ~
 E
-book~
-This is a dark omnious book. There is a six pointed star in a circle
-on the cover. The pages contain many evil spells and pictures of demons
-and other figures. To read some spells type look page_one.
+page_two~
+Hellfire- A deadly spell from the depths of hell. Has tendency to jump
+from target to target.  
 ~
 D2
-~
+(null)~
 ~
 1 28105 28131
 D3
-~
+(null)~
 ~
 1 28105 28127
 S
@@ -1156,27 +1156,27 @@ see a large black spot on the ceiling.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 1 28105 28130
 D1
-~
+(null)~
 ~
 0 0 28134
 D2
-~
+(null)~
 ~
 1 28106 28132
 D3
-~
+(null)~
 ~
 0 0 28128
 D4
-~
+(null)~
 ~
 0 0 28199
 D5
-~
+(null)~
 ~
 7 0 28100
 S
@@ -1190,11 +1190,11 @@ crosses everywhere to bless the room.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 1 28106 28131
 D1
-~
+(null)~
 ~
 1 28106 28135
 S
@@ -1208,7 +1208,7 @@ flower paintings and a cross carved into the west wall above the bathtub.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28136
 S
@@ -1221,11 +1221,11 @@ seven feet up in the air.
 ~
 0 2097164 0
 D1
-~
+(null)~
 ~
 0 0 28137
 D3
-~
+(null)~
 ~
 0 0 28131
 S
@@ -1239,11 +1239,11 @@ herself grace the walls. It seems to be a very holy place.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 28138
 D3
-~
+(null)~
 ~
 1 28106 28132
 S
@@ -1258,11 +1258,11 @@ silk sheets heads to the west.
 ~
 0 2097160 0
 D2
-~
+(null)~
 ~
 6 28106 28137
 D3
-~
+(null)~
 ~
 0 0 28133
 S
@@ -1275,19 +1275,19 @@ stripes of ebony marble.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 6 28106 28136
 D1
-~
+(null)~
 ~
 0 0 28140
 D2
-~
+(null)~
 ~
 6 28106 28138
 D3
-~
+(null)~
 ~
 0 0 28134
 S
@@ -1301,11 +1301,11 @@ be seen.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 6 28105 28137
 D3
-~
+(null)~
 ~
 0 0 28135
 S
@@ -1318,11 +1318,11 @@ wall and highlighted with ruby dust. Very romantic.
 ~
 0 2097160 0
 D2
-~
+(null)~
 ~
 0 0 28140
 D5
-~
+(null)~
 ~
 0 0 28109
 S
@@ -1335,15 +1335,15 @@ into it, maybe used for rituals. It seems to be a holy place.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28139
 D2
-~
+(null)~
 ~
 0 0 28141
 D3
-~
+(null)~
 ~
 0 0 28137
 S
@@ -1357,11 +1357,11 @@ appears to be old and worn.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28140
 D5
-~
+(null)~
 ~
 0 0 28111
 S
@@ -1378,7 +1378,7 @@ unskilled eyes.
 ~
 0 6291464 9
 D5
-~
+(null)~
 ~
 0 0 28199
 S
@@ -1391,19 +1391,19 @@ and west.
 ~
 0 2097156 0
 D0
-~
+(null)~
 ~
 0 0 28102
 D1
-~
+(null)~
 ~
 0 0 28144
 D2
-~
+(null)~
 ~
 0 0 28167
 D3
-~
+(null)~
 ~
 0 0 28166
 S
@@ -1416,15 +1416,15 @@ a shack.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28145
 D2
-~
+(null)~
 ~
 0 0 28171
 D3
-~
+(null)~
 ~
 0 0 28143
 S
@@ -1436,11 +1436,11 @@ cobblestons. Around the bend you can see the south edge of the inn.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28146
 D3
-~
+(null)~
 ~
 0 0 28144
 S
@@ -1452,11 +1452,11 @@ path leading in.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28147
 D3
-~
+(null)~
 ~
 0 0 28145
 S
@@ -1468,11 +1468,11 @@ to visitors. The cobblestone path has now become very smooth.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 28148
 D3
-~
+(null)~
 ~
 0 0 28146
 S
@@ -1485,11 +1485,11 @@ be seen to the north.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 28149
 D2
-~
+(null)~
 ~
 0 0 28147
 S
@@ -1503,15 +1503,15 @@ arch.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 28150
 D2
-~
+(null)~
 ~
 0 0 28148
 D3
-~
+(null)~
 ~
 1 0 28110
 S
@@ -1523,11 +1523,11 @@ and the path continues to the north.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 28151
 D2
-~
+(null)~
 ~
 0 0 28149
 S
@@ -1539,11 +1539,11 @@ perfect though.
 ~
 0 2097152 3
 D2
-~
+(null)~
 ~
 0 0 28150
 D3
-~
+(null)~
 ~
 0 0 28152
 S
@@ -1555,11 +1555,11 @@ but has splashes of ebony marble as well.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28151
 D3
-~
+(null)~
 ~
 0 0 28153
 S
@@ -1571,11 +1571,11 @@ chunks of ebony marble give the wall some character.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28152
 D3
-~
+(null)~
 ~
 0 0 28154
 S
@@ -1587,11 +1587,11 @@ ivory, almost half and half but a little more ivory.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28153
 D3
-~
+(null)~
 ~
 0 0 28155
 S
@@ -1603,11 +1603,11 @@ dangerous.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28154
 D3
-~
+(null)~
 ~
 0 0 28156
 S
@@ -1620,11 +1620,11 @@ more ebony than ivory to the west.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28155
 D3
-~
+(null)~
 ~
 0 0 28157
 S
@@ -1636,11 +1636,11 @@ What you can see of the castle is almost completely ebony.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28156
 D3
-~
+(null)~
 ~
 0 0 28158
 S
@@ -1652,11 +1652,11 @@ dares enter them. The castle walls are completely ebony.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28157
 D3
-~
+(null)~
 ~
 0 0 28159
 S
@@ -1668,11 +1668,11 @@ most of the light. There is an overwhelming sense of evil here.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28158
 D2
-~
+(null)~
 ~
 0 0 28160
 S
@@ -1684,11 +1684,11 @@ marble.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 28159
 D2
-~
+(null)~
 ~
 0 0 28161
 S
@@ -1700,15 +1700,15 @@ continues south a little bit more.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 28160
 D1
-~
+(null)~
 gate~
 1 0 28119
 D2
-~
+(null)~
 ~
 0 0 28162
 S
@@ -1720,11 +1720,11 @@ north you can make out a gate of sorts.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 28161
 D2
-~
+(null)~
 ~
 0 0 28163
 S
@@ -1736,11 +1736,11 @@ an evil aura emminating from it.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 28162
 D1
-~
+(null)~
 ~
 0 0 28164
 S
@@ -1754,11 +1754,11 @@ have been left to die and rot.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28165
 D3
-~
+(null)~
 ~
 0 0 28163
 S
@@ -1770,11 +1770,11 @@ to enter the castle or forest, due to heavy shrubbery and dark trees.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28166
 D3
-~
+(null)~
 ~
 0 0 28164
 S
@@ -1786,11 +1786,11 @@ hovers a few inches above the ground.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 28143
 D3
-~
+(null)~
 ~
 0 0 28165
 S
@@ -1802,15 +1802,15 @@ to the north. To the south is a strange forest.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 28143
 D1
-~
+(null)~
 ~
 0 0 28171
 D2
-~
+(null)~
 ~
 0 0 28168
 S
@@ -1823,11 +1823,11 @@ can be seen to the north.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 28167
 D2
-~
+(null)~
 ~
 0 0 21240
 S
@@ -1841,7 +1841,7 @@ waiting to be chopped to bits.
 ~
 0 2097160 0
 D4
-~
+(null)~
 ~
 1 0 28106
 S
@@ -1855,7 +1855,7 @@ on the wall.
 ~
 0 2097160 0
 D4
-~
+(null)~
 ~
 1 0 28115
 S
@@ -1868,19 +1868,19 @@ the south with a book ready for you to sign in.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 28144
 D1
-~
+(null)~
 ~
 0 0 28172
 D2
-~
+(null)~
 ~
 0 0 28173
 D3
-~
+(null)~
 ~
 0 0 28167
 S
@@ -1893,7 +1893,7 @@ simple carved designs and fills the air with a sweet musty fragrance.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 0 0 28171
 S
@@ -1917,11 +1917,11 @@ The scrolling hand-writing of the almighty one reads: "Feroz was here."
 The horrid signature of Apotamuse is here.
 ~
 D0
-~
+(null)~
 ~
 0 0 28171
 D1
-~
+(null)~
 ~
 1 0 28174
 S
@@ -1935,7 +1935,7 @@ your commands. This is a true lover's room.
 ~
 0 2097664 0
 D3
-~
+(null)~
 ~
 1 0 28173
 S
@@ -1948,11 +1948,11 @@ dimension at all...
 ~
 0 2097161 9
 D4
-~
+(null)~
 ~
 0 0 28142
 D5
-~
+(null)~
 ~
 0 0 28131
 S
@@ -1987,58 +1987,58 @@ D 0 28169 4 0
 D 0 28170 4 0
 D 0 28173 1 0
 D 0 28174 3 0
-O 0 28101 0 28100
-O 0 28100 0 28100
-M 0 28101 1 28100
-E 0 28103 0 5
-E 0 28106 0 3
-M 0 28100 1 28100
-E 0 28105 0 3
-E 0 28102 0 6
-M 0 28106 2 28102
-M 0 28102 10 28103
-M 0 28103 10 28103
-M 0 28104 5 28103
-M 0 28102 10 28104
-M 0 28103 10 28104
-M 0 28104 5 28104
-M 0 28104 5 28105
-M 0 28105 3 28106
-M 0 28104 3 28106
-M 0 28104 3 28107
-M 0 28105 3 28107
-M 0 28104 3 28108
-M 0 28105 3 28108
-M 0 28106 2 28110
-M 0 28103 10 28113
-M 0 28102 10 28113
-M 0 28107 3 28115
-M 0 28107 4 28116
-M 0 28107 3 28117
-M 0 28106 2 28119
-O 0 28108 0 28124
-M 0 28112 5 28126
-M 0 28131 1 28131
-E 0 19123 0 9
-O 0 28107 0 28132
-O 0 28109 0 28141
-M 0 28108 1 28142
-M 0 28106 2 28143
-O 0 28116 0 28147
-M 0 28106 4 28149
-M 0 28106 4 28149
-M 0 28111 3 28150
-O 0 28117 0 28164
-M 0 28109 3 28169
-G 0 28113 0
-G 0 28114 0
-M 0 28110 1 28170
-G 0 28110 0
-G 0 28111 0
-G 0 28112 0
-M 0 28114 1 28172
-G 0 28115 0
-O 0 28116 0 28174
+O 0 28101 0 28100 The queen's throne loaded to The Throne
+O 0 28100 0 28100 The king's throne loaded to The Throne
+M 0 28101 0 28100 Load the Good Queen of D'Salant
+E 0 28103 0 5 The queen's dress is loaded on the body of the Good Queen of D'Salant
+E 0 28106 0 3 The queen's key is loaded around the neck (1) of the Good Queen of D'Salant
+M 0 28100 0 28100 Load the Evil King of D'Salant
+E 0 28105 0 3 The king's key is loaded around the neck (1) of the Evil King of D'Salant
+E 0 28102 0 6 The king's crown is loaded over the head of the Evil King of D'Salant
+M 0 28106 2 28102 Load a guard
+M 0 28102 10 28103 Load the Ladies of the Court
+M 0 28103 10 28103 Load the Lords of the court
+M 0 28104 5 28103 Load a servant and a barrel of wine
+M 0 28102 10 28104 Load the Ladies of the Court
+M 0 28103 10 28104 Load the Lords of the court
+M 0 28104 5 28104 Load a servant and a barrel of wine
+M 0 28104 5 28105 Load a servant and a barrel of wine
+M 0 28105 3 28106 Load a servant with a cart of food
+M 0 28104 3 28106 Load a servant and a barrel of wine
+M 0 28104 3 28107 Load a servant and a barrel of wine
+M 0 28105 3 28107 Load a servant with a cart of food
+M 0 28104 3 28108 Load a servant and a barrel of wine
+M 0 28105 3 28108 Load a servant with a cart of food
+M 0 28106 2 28110 Load a guard
+M 0 28103 10 28113 Load the Lords of the court
+M 0 28102 10 28113 Load the Ladies of the Court
+M 0 28107 3 28115 Load Warrior
+M 0 28107 4 28116 Load Warrior
+M 0 28107 3 28117 Load Warrior
+M 0 28106 2 28119 Load a guard
+O 0 28108 0 28124 An evil book loaded to King's Shrine
+M 0 28112 5 28126 Load An Evil Bug
+M 0 28131 0 28131 Load a frustrated cleaning woman scrubs the floor with a mop
+E 0 19123 0 9 A mop is loaded on the hands of a frustrated cleaning woman scrubs the floor with a mop
+O 0 28107 0 28132 A golden lyre loaded to Queen's Treasury
+O 0 28109 0 28141 A prayer book loaded to South East stairwell
+M 0 28108 0 28142 Load a magic dummy
+M 0 28106 2 28143 Load a guard
+O 0 28116 0 28147 Some strawberries loaded to Corner of the Path
+M 0 28106 4 28149 Load a guard
+M 0 28106 4 28149 Load a guard
+M 0 28111 3 28150 Load a cute bunny
+O 0 28117 0 28164 Some dead plants loaded to South West Edge
+M 0 28109 3 28169 Load a chef
+G 0 28113 0 A roasted chicken is given to a chef
+G 0 28114 0 A bottle of sparkling peach drink is given to a chef
+M 0 28110 0 28170 Load an armorer
+G 0 28110 0 A platinum sword is given to an armorer
+G 0 28111 0 A platinum dagger is given to an armorer
+G 0 28112 0 A platinum mace is given to an armorer
+M 0 28114 0 28172 Load Joe, the Bartender
+G 0 28115 0 A mug of lover's drink is given to Joe, the Bartender
+O 0 28116 0 28174 Some strawberries loaded to Lover's Room
 S
 
 
@@ -2047,9 +2047,15 @@ S
 S
 
 
+
 #SHOPS
 28110 0 5 9 0 0 120 80 0 23
 28114 0 17 0 0 0 120 0 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

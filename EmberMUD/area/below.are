@@ -17,12 +17,12 @@ This man is in his middle to late ages, has a black beard and mustache, and smel
 ~
 Human~
 ABd 0 0 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 1d1+1 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20901
 Tom~
 Tom the general store owner~
@@ -32,12 +32,12 @@ This is Tom, he is quite tall and thin, rumors say that he is cheap in both buyi
 ~
 Human~
 ABd 0 0 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 0
 8 8 1 10000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20902
 Rich Noble~
 a rich customer~
@@ -47,12 +47,12 @@ This looks like a rich noble person, he looks very sad.
 ~
 Human~
 ABS 0 0 S
-15 10
+15 10 
 100 0 0 0 5d30+161 0d0+0 3d5+8 0
 0 0 0 5
 BFK 0 0 0
 8 8 1 200
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20903
 Serving Girl~
 a serving girl~
@@ -62,12 +62,12 @@ This woman is quite pretty, and you wonder why she is working here.
 ~
 Human~
 AB 0 0 S
-15 15
+15 15 
 100 0 0 0 200d1+100 0d0+0 2d8+2 16
 0 0 0 6
 0 0 0 0
 8 8 2 130
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20904
 Musician~
 a musician~
@@ -78,12 +78,12 @@ rhythm is to beat and his crowd is large.
 ~
 Human~
 AB 0 500 S
-19 12
+19 12 
 100 0 0 0 8d38+195 0d0+0 1d10+10 11
 -2 -2 -2 4
 I 0 0 0
 8 8 0 230
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20905
 Naked Lady~
 a naked woman~
@@ -93,12 +93,12 @@ This woman has long blonde hair and a beautiful smile, unfortunently you only se
 ~
 Human~
 ABF 0 0 S
-17 17
+17 17 
 100 0 0 0 200d1+130 0d0+0 7d2+2 16
 0 0 0 5
 0 0 0 0
 8 8 0 150
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20906
 traveling trainer~
 the trainer~
@@ -108,12 +108,12 @@ This old man is tall and strong looking, he is wearing the finest silks from aro
 ~
 Human~
 ABJd H 0 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20907
 Moe~
 Moe, the bartender~
@@ -123,12 +123,12 @@ This is Moe, a short pudgy guy with a big beer belly, maybe he has been drinking
 ~
 Human~
 ABd 0 0 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20908
 goblin~
 a goblin bucaneer~
@@ -138,12 +138,12 @@ This pirate is dirty and smelly and is goblin, making him smell even worse, he g
 ~
 goblin~
 AB J 0 S
-20 22
+20 22 
 100 0 0 0 10d45+200 0d0+0 2d20+1 0
 -2 -2 -2 4
 0 R Q C
 8 8 1 200
-AHMV ABCDEFGHIJK S unknown
+AHMV ABCDEFGHIJK S 0
 #20909
 Elrik~
 Elrik, the owner of this bar~
@@ -154,12 +154,12 @@ his cup, looking up everytime someone opens his door.
 ~
 Human~
 ABTd 0 1000 S
-90 95
+90 95 
 100 0 0 0 9000d1+1000 0d0+0 500d1+100 0
 -50 -50 -50 -50
 0 0 0 0
 8 8 1 900
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20910
 Van AnkleBitter~
 a Necromancer~
@@ -174,12 +174,12 @@ downstairs".
 ~
 Human~
 ABd 0 -1000 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 1d1+1 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20911
 Undead seller~
 the undead seller~
@@ -189,12 +189,12 @@ She stands here waiting for you to place your order, what would you like?
 ~
 Human~
 ABd 0 -1000 S
-1 0
+1 0 
 100 0 0 0 1d1+1 0d0+0 1d1+1 0
 0 0 0 0
 0 0 0 0
 8 8 2 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20912
 Skeleton~
 a skeleton~
@@ -204,12 +204,12 @@ This is a simple animated human skeleton
 ~
 Human~
 AIT 0 -1000 S
-15 15
+15 15 
 100 0 0 0 150d1+0 0d0+0 1d10+1 3
 0 0 -5 3
 0 0 G 0
 8 8 0 0
-AHMV ABCDEFGHIJK S unknown
+AHMV ABCDEFGHIJK S 0
 #20913
 a zombie~
 a zombie~
@@ -220,12 +220,12 @@ This is a simple animated male human zombie.
 ~
 Human~
 AIT 0 -1000 S
-20 20
+20 20 
 100 0 0 0 200d1+200 0d0+0 2d10+9 22
 -2 -5 -2 3
 0 0 E 0
 8 8 1 0
-AHIMV ABCDEFGHIJK M unknown
+AHIMV ABCDEFGHIJK M 0
 #20914
 Mummy~
 a mummy~
@@ -235,12 +235,12 @@ Here stands a tall creature wrapped in bandages.
 ~
 Human~
 AIT 0 -1000 S
-25 25
+25 25 
 100 0 0 0 200d1+70 0d0+0 3d10+0 17
 -5 -5 -5 0
 0 0 0 0
 8 8 2 0
-AHIMV ABCDEFGHIJK M unknown
+AHIMV ABCDEFGHIJK M 0
 #20915
 a vampire~
 a human vampire~
@@ -250,12 +250,12 @@ Here stands a tall man in a dark cape.
 ~
 Human~
 A 0 -1000 S
-30 30
+30 30 
 100 0 0 0 300d1+400 0d0+0 4d10+12 6
 -13 -9 -9 1
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20916
 a lich~
 a human lich~
@@ -265,12 +265,12 @@ This creature looks like a skeleton, but is wearing fine garments and jewels.
 ~
 Human~
 AI 0 -1000 S
-35 35
+35 35 
 100 0 0 0 10d81+416 500d1+300 4d8+0 0
 -12 -12 -12 -3
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20917
 Hal ~
 Hal~
@@ -280,12 +280,12 @@ Hal is a short man with jet black hair and dark brown eyes.
 ~
 Human~
 ABd 0 0 S
-1 0
+1 0 
 100 0 0 0 1d1+0 1d1+0 1d1+0 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #20918
 Giant Ant~
 a giant ant~
@@ -297,12 +297,12 @@ is a LOT bigger.
 ~
 centipede~
 AF Z 0 S
-25 24
+25 24 
 100 0 0 0 8d40+234 0d0+0 5d5+11 10
 -6 -6 -6 0
 CDOU 0 FI E
 8 8 1 0
-0 0 M unknown
+0 0 M 0
 #20919
 Queen giant ant~
 the queen ant~
@@ -313,12 +313,12 @@ ant, and she dosen't look very happy at your intrusion into her lair.
 ~
 centipede~
 AB Z 0 S
-32 31
+32 31 
 100 0 0 0 300d1+500 0d0+0 5d7+16 10
 -10 -10 -10 0
 0 0 FI E
 8 8 2 0
-0 0 M unknown
+0 0 M 0
 #20920
 Lesser Giant Ant~
 a lesser ant~
@@ -329,12 +329,12 @@ take a chunk out of you so be careful.
 ~
 centipede~
 ABF Z 0 S
-20 18
+20 18 
 100 0 0 0 8d30+316 0d0+0 4d5+10 10
 -2 -2 -2 4
 0 0 FI E
 8 8 1 0
-0 0 M unknown
+0 0 M 0
 #20921
 lesser earth elemental~
 a lesser earth elemental~
@@ -344,12 +344,12 @@ This creature is made up of earth, and has very hard skin.
 ~
 Human~
 AB 0 0 S
-30 30
+30 30 
 100 0 0 0 300d1+300 0d0+0 5d6+13 8
 -9 -9 -9 0
 CDO EL BQ H
 8 8 0 500
-AHJMQVXc ABCDEFGHIJKLMQUVX M unknown
+AHJMQVXc ABCDEFGHIJKLMQUVX M 0
 #0
 
 
@@ -388,9 +388,9 @@ unknown~
 A BC C AB DE
 18 0 3000 P
 A
-19 4
-A
 18 -2
+A
+19 4
 #20904
 trunk container~
 a trunk~
@@ -448,11 +448,11 @@ unknown~
 AB C ABC ABD C
 20 3 2500 P
 A
-19 3
+2 2
 A
 18 3
 A
-2 2
+19 3
 #20911
 medusa's hair armor-head~
 medusa's Hair~
@@ -462,11 +462,11 @@ unknown~
 AC AC AC AC 0
 18 10 2000 P
 A
-5 -2
+3 2
 A
 1 1
 A
-3 2
+5 -2
 #20912
 trapdoor key~
 trap door key~
@@ -540,11 +540,11 @@ unknown~
 ADE B B 15 0
 25 2 2500 P
 A
-12 -65
+1 -1
 A
 13 50
 A
-1 -1
+12 -65
 #20921
 invisibility potion potion-defend~
 an invis potion~
@@ -562,13 +562,13 @@ unknown~
 AC AD BC ADE F
 33 15 4000 P
 A
-1 2
-A
-5 1
+4 -3
 A
 2 -3
 A
-4 -3
+5 1
+A
+1 2
 #20923
 trapdoor key~
 a trapdoor key~
@@ -598,11 +598,11 @@ are signs and postings, most of them are saying missing, and someones name.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20901
 D3
-~
+(null)~
 ~
 0 0 17175
 S
@@ -614,19 +614,19 @@ continues.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20902
 D1
-~
+(null)~
 ~
 0 0 20904
 D2
-~
+(null)~
 ~
 0 0 20903
 D3
-~
+(null)~
 ~
 0 0 20900
 S
@@ -639,7 +639,7 @@ mmmmmm.
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 20901
 S
@@ -651,7 +651,7 @@ will get lucky and find a good buy.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20901
 S
@@ -662,11 +662,11 @@ see what looks like the village square.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20905
 D3
-~
+(null)~
 ~
 0 0 20901
 S
@@ -687,23 +687,23 @@ Mayor- [OOC- This area is dangerous and is filled with many aggro mobs, but
 there are many treasures, try not to get yourself killed -Torm-] 
 ~
 D0
-~
+(null)~
 ~
 0 0 20907
 D1
-~
+(null)~
 ~
 0 0 20906
 D2
-~
+(null)~
 ~
 1 0 20918
 D3
-~
+(null)~
 ~
 0 0 20904
 D5
-~
+(null)~
 ~
 0 0 20922
 S
@@ -715,11 +715,11 @@ their stolen merchandise.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20914
 D3
-~
+(null)~
 ~
 0 0 20905
 S
@@ -735,19 +735,19 @@ R*E*W*A*R*D* He or she who returns the SkullFace mask to Elrik shall
 recieve a great reward, it is said to be somewhere in or near this city.  
 ~
 D1
-~
+(null)~
 ~
 0 0 20915
 D2
-~
+(null)~
 ~
 0 0 20905
 D3
-~
+(null)~
 ~
 0 0 20913
 D4
-~
+(null)~
 ~
 0 0 20908
 S
@@ -757,19 +757,19 @@ This room is the main hallway to all of the other rooms, it may be hard to find 
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20910
 D1
-~
+(null)~
 ~
 0 0 20909
 D3
-~
+(null)~
 ~
 0 0 20912
 D5
-~
+(null)~
 ~
 0 0 20907
 S
@@ -780,7 +780,7 @@ and a wash stand in this room.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20908
 S
@@ -792,11 +792,11 @@ door has carvings in it.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 1 20924 20911
 D2
-~
+(null)~
 ~
 0 0 20908
 S
@@ -807,7 +807,7 @@ guilitines, axes, swords and daggers, however none look useful.
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 1 0 20910
 S
@@ -818,7 +818,7 @@ world trainer young people in the way of different skills and spells.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20908
 S
@@ -829,7 +829,7 @@ why don't you buy one and find out what it does.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20907
 S
@@ -841,11 +841,11 @@ your purse!
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20916
 D3
-~
+(null)~
 ~
 0 0 20906
 S
@@ -857,7 +857,7 @@ exquisite taste, and a large mirror, shining like a large pearl.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20907
 S
@@ -869,15 +869,15 @@ to the south is the magic store.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20917
 D2
-~
+(null)~
 ~
 0 0 20921
 D3
-~
+(null)~
 ~
 0 0 20914
 S
@@ -889,7 +889,7 @@ seafarers, all trying to get use to land again.
 ~
 0 4 0
 D2
-~
+(null)~
 ~
 0 0 20916
 S
@@ -900,11 +900,11 @@ Coffins, crypts, and tombs are scattered about in this huge house.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 1 0 20905
 D5
-~
+(null)~
 trapdoor~
 1 20923 20919
 S
@@ -915,7 +915,7 @@ trying to buy an undead mercenary.
 ~
 0 4096 0
 D4
-~
+(null)~
 ~
 1 0 20918
 S
@@ -934,7 +934,7 @@ the wood that makes up the house.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20916
 S
@@ -945,11 +945,11 @@ and still choose to go below, then good luck.
 ~
 0 0 0
 D4
-~
+(null)~
 ~
 0 0 20905
 D5
-~
+(null)~
 ~
 0 0 20923
 S
@@ -961,11 +961,11 @@ sure anymore.
 ~
 0 0 0
 D4
-~
+(null)~
 ~
 0 0 20922
 D5
-~
+(null)~
 ~
 0 0 20924
 S
@@ -976,15 +976,15 @@ wall that leads east, but however, it keeps going down also.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20925
 D4
-~
+(null)~
 ~
 0 0 20923
 D5
-~
+(null)~
 ~
 0 0 20926
 S
@@ -995,11 +995,11 @@ you wonder if it was such a good idea coming this way.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20931
 D3
-~
+(null)~
 ~
 0 0 20924
 S
@@ -1010,15 +1010,15 @@ down going tunnel walls.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20935
 D4
-~
+(null)~
 ~
 0 0 20924
 D5
-~
+(null)~
 ~
 0 0 20927
 S
@@ -1029,15 +1029,15 @@ down going tunnel walls.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20939
 D4
-~
+(null)~
 ~
 0 0 20926
 D5
-~
+(null)~
 ~
 0 0 20928
 S
@@ -1049,15 +1049,15 @@ boredom now.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20943
 D4
-~
+(null)~
 ~
 0 0 20927
 D5
-~
+(null)~
 ~
 0 0 20929
 S
@@ -1069,15 +1069,15 @@ an end, unless you can go some other way then down.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20944
 D4
-~
+(null)~
 ~
 0 0 20928
 D5
-~
+(null)~
 ~
 0 0 20930
 S
@@ -1090,7 +1090,7 @@ world.
 ~
 0 0 0
 D4
-~
+(null)~
 ~
 0 0 20929
 S
@@ -1102,11 +1102,11 @@ some nasty little ants hiding.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20932
 D3
-~
+(null)~
 ~
 0 0 20925
 S
@@ -1117,11 +1117,11 @@ no ants, or maybe you can try to run past them.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20933
 D3
-~
+(null)~
 ~
 0 0 20931
 S
@@ -1133,11 +1133,11 @@ there when you get there.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20934
 D3
-~
+(null)~
 ~
 0 0 20932
 S
@@ -1148,7 +1148,7 @@ way out is back west, hope you don't get trapped in here.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20933
 S
@@ -1160,11 +1160,11 @@ marks here.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20926
 D3
-~
+(null)~
 ~
 0 0 20936
 S
@@ -1175,11 +1175,11 @@ assume there to be no ants, but there still could be.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20935
 D3
-~
+(null)~
 ~
 0 0 20937
 S
@@ -1190,11 +1190,11 @@ interest.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20936
 D3
-~
+(null)~
 ~
 0 0 20938
 S
@@ -1205,7 +1205,7 @@ came.
 ~
 0 4 0
 D1
-~
+(null)~
 ~
 0 0 20937
 S
@@ -1216,11 +1216,11 @@ this path is used by many ants.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 20940
 D3
-~
+(null)~
 ~
 0 0 20927
 S
@@ -1232,11 +1232,11 @@ room.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 20941
 D3
-~
+(null)~
 ~
 0 0 20939
 S
@@ -1250,11 +1250,11 @@ are giant ant eggs.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 20942
 D3
-~
+(null)~
 ~
 0 0 20940
 S
@@ -1265,7 +1265,7 @@ be the home of the queen ant, wonder if she is hiding around here somewhere.
 ~
 0 2097152 0
 D3
-~
+(null)~
 ~
 0 0 20941
 S
@@ -1277,7 +1277,7 @@ wonder what could be down there?
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20928
 S
@@ -1289,11 +1289,11 @@ There is a large hole in the middle of the room, filled with ants.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20929
 D5
-~
+(null)~
 ~
 0 0 20945
 S
@@ -1305,11 +1305,11 @@ invisible so the ants to the east won't kill you.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20946
 D4
-~
+(null)~
 ~
 0 0 20944
 S
@@ -1320,7 +1320,7 @@ There are many skeletons crushed on the ground.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 20945
 S
@@ -1331,7 +1331,7 @@ the prime, but its residents are made up of mostly earth.
 ~
 0 4 0
 D1
-~
+(null)~
 ~
 0 0 20948
 S
@@ -1341,11 +1341,11 @@ The area around this plane still looks the same, and it reminds you of a huge de
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 20949
 D3
-~
+(null)~
 ~
 0 0 20947
 S
@@ -1356,11 +1356,11 @@ to the east, is that a.... City?
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 20948
 D3
-~
+(null)~
 ~
 0 0 20950
 S
@@ -1371,11 +1371,11 @@ dirt, and bogs, and some quicksand, be careful.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20949
 D3
-~
+(null)~
 ~
 0 0 20951
 S
@@ -1387,7 +1387,7 @@ some magic and get out of here, its your only chance.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 20950
 S
@@ -1402,66 +1402,67 @@ D 0 20911 2 1
 D 0 20918 0 0
 D 0 20918 5 1
 D 0 20919 4 1
-M 0 20900 1 20902
-G 0 20900 0
-G 0 20901 0
-G 0 20902 0
-G 0 20903 0
-M 0 20901 1 20903
-O 0 20916 0 20905
-P 0 20924 0 1
-M 0 20902 3 20907
-M 0 20903 2 20907
-M 0 20903 1 20907
-M 0 20904 1 20907
-M 0 20905 1 20909
-O 0 20904 0 20911
-O 0 20904 0 20911
-P 0 20905 0 20904
-M 0 20905 1 20912
-M 0 20906 1 20912
-M 0 20906 1 20913
-M 0 20907 1 20913
-G 0 20907 0
-G 0 20906 0
-G 0 20908 0
-M 0 20908 5 20914
-M 0 20909 1 20915
-M 0 20908 5 20917
-M 0 20910 1 20918
-G 0 20909 0
-G 0 20910 0
-G 0 20911 0
-G 0 20923 0
-M 0 20911 1 20919
-M 0 20912 1 20920
-M 0 20913 1 20920
-M 0 20914 1 20920
-M 0 20915 1 20920
-M 0 20916 1 20920
-M 0 20917 1 20921
-G 0 20913 0
-G 0 20914 0
-G 0 20915 0
-M 0 20918 10 20925
-M 0 20918 10 20932
-O 0 20917 0 20934
-O 0 20919 0 20934
-P 0 20920 0 20917
-M 0 20918 10 20935
-M 0 20918 10 20938
-M 0 20918 10 20939
-M 0 20919 1 20942
-O 0 20921 0 20945
-M 0 20920 10 20946
-M 0 20921 2 20947
-E 0 20922 0 16
+M 0 20900 0 20902 Load Al, the fish guy
+G 0 20900 0 A tasty looking trout is given to Al, the fish guy
+G 0 20901 0 100 salted herrings is given to Al, the fish guy
+G 0 20902 0 A large pike is given to Al, the fish guy
+G 0 20903 0 A swordfish is given to Al, the fish guy
+M 0 20901 0 20903 Load Tom the general store owner
+O 0 20916 0 20905 A well loaded to Village Square
+P 0 20924 0 1 A secret door key put inside a secret door key
+M 0 20902 3 20907 Load a rich customer
+M 0 20903 2 20907 Load a serving girl
+M 0 20903 0 20907 Load a serving girl
+M 0 20904 0 20907 Load a musician
+M 0 20905 0 20909 Load a naked woman
+O 0 20904 0 20911 A trunk loaded to The Seceret Room
+O 0 20904 0 20911 A trunk loaded to The Seceret Room
+P 0 20905 0 20904 Voodoo dagger put inside vOoDoO DaGgEr
+M 0 20905 0 20912 Load a naked woman
+M 0 20906 0 20912 Load the trainer
+M 0 20906 0 20913 Load the trainer
+M 0 20907 0 20913 Load Moe, the bartender
+G 0 20907 0 Da tank is given to Moe, the bartender
+G 0 20906 0 A chill is given to Moe, the bartender
+G 0 20908 0 The purifier is given to Moe, the bartender
+M 0 20908 5 20914 Load a goblin bucaneer
+M 0 20909 0 20915 Load Elrik, the owner of this bar
+M 0 20908 5 20917 Load a goblin bucaneer
+M 0 20910 0 20918 Load a Necromancer
+G 0 20909 0 The master maladicter is given to a Necromancer
+G 0 20910 0 Spider's spear is given to a Necromancer
+G 0 20911 0 Medusa's hair is given to a Necromancer
+G 0 20923 0 A trapdoor key is given to a Necromancer
+M 0 20911 0 20919 Load the undead seller
+M 0 20912 0 20920 Load a skeleton
+M 0 20913 0 20920 Load a zombie
+M 0 20914 0 20920 Load a mummy
+M 0 20915 0 20920 Load a human vampire
+M 0 20916 0 20920 Load a human lich
+M 0 20917 0 20921 Load Hal
+G 0 20913 0 A fireball wand is given to Hal
+G 0 20914 0 Lightning wand is given to Hal
+G 0 20915 0 A deadlydagger is given to Hal
+M 0 20918 10 20925 Load a giant ant
+M 0 20918 10 20932 Load a giant ant
+O 0 20917 0 20934 A trunk loaded to The Treasury
+O 0 20919 0 20934 A huge hunk of gold loaded to The Treasury
+P 0 20920 0 20917 An idol of a talkin put inside an idol of a Talkin
+M 0 20918 10 20935 Load a giant ant
+M 0 20918 10 20938 Load a giant ant
+M 0 20918 10 20939 Load a giant ant
+M 0 20919 0 20942 Load the queen ant
+O 0 20921 0 20945 An invis potion loaded to I Think Your DEAD!
+M 0 20920 10 20946 Load a lesser ant
+M 0 20921 2 20947 Load a lesser earth elemental
+E 0 20922 0 16 An earth battleaxe is loaded wielded of a lesser earth elemental
 S
 
 
 
 #PROGS
 S
+
 
 
 #SHOPS
@@ -1471,6 +1472,11 @@ S
 20910 0 0 0 0 0 120 90 0 23
 20911 11 8 0 0 0 120 70 0 23
 20917 3 10 4 2 1 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

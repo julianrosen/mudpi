@@ -1169,7 +1169,7 @@ void do_pk( CHAR_DATA * ch, char *argument )
     }
 
     send_to_char( "Type pk again to confirm this command.\n\r", ch );
-    send_to_char( "WARNING: this command is virtually irreversible.\n\r", ch );
+    send_to_char( "WARNING: this command can only be reversed by an admin.\n\r", ch );
     send_to_char
         ( "If you don't know what pk is for read help pk, DON'T type this command again.\n\r",
           ch );
@@ -1837,7 +1837,7 @@ void do_worth( CHAR_DATA * ch, char *argument )
 
 char *statdiff( int normal, int modified )
 {
-    static char tempstr[10];
+    static char tempstr[15];
 
     strcpy( tempstr, "\0" );
     if ( normal < modified )
@@ -1929,7 +1929,7 @@ void do_score( CHAR_DATA * ch, char *argument )
             sprintf( buf, "Satanic]                     `y|\n\r" );
         send_to_char( buf, ch );
         sprintf( buf,
-                 "     | `YCON:     `G%2d `W%s `y| `YGender: `G%s   ",
+                 "     | `YCON:     `G%2d `W%s `y| `YGender: `G%-10s   ",
                  ch->perm_stat[STAT_CON], statdiff( ch->perm_stat[STAT_CON],
                                                     get_curr_stat( ch,
                                                                    STAT_CON ) ),
@@ -1995,13 +1995,14 @@ void do_score( CHAR_DATA * ch, char *argument )
         strcpy( buf, "\0" );
         sprintf( buf, "`y|\n\r     | `YXP to level      " );
         send_to_char( buf, ch );
-        sprintf( tempbuf, "`G%ld", exp_per_level( ch, ch->pcdata->points ) - ch->exp);
-        send_to_char( tempbuf, ch );
+        sprintf( buf, "`G%ld", exp_per_level( ch, ch->pcdata->points ) - ch->exp);
         if ( SHOW_CP )
-            sprintf( tempbuf, "%s (%d%% of normal for your level)", tempbuf,
+        {
+            sprintf( tempbuf, "(%d%% of normal for your level)",
                  figure_difference( ch->pcdata->points ) );
-        strcpy( buf, "\0" );
-        for ( x = 0; x < 47 - strlen( tempbuf ) + 2; x++ )
+            strcat( buf, tempbuf );
+        }
+        for ( x = 0; x < 88 - strlen( buf ); x++ )
             strcat( buf, " " );
         send_to_char( buf, ch );
         strcpy( buf, "\0" );
@@ -3996,7 +3997,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
             sprintf( buf2, "not a member of any clan." );
 
         sprintf( buf, "     | `GGender: `Y%-10s  `W%s %s %s`y",
-                 Gender( victim->sex ), he_she( victim->sex, 3 ), /* Modified by JR */
+                 Gender( victim->sex ), he_she( victim->sex ), /* Modified by JR */
                  be_verb( victim->sex ), buf2 );
         send_to_char( buf, ch );
         x = str_len( buf );
@@ -4378,7 +4379,7 @@ void do_rebirth( CHAR_DATA * ch, char *argument )
     }
     if ( !IS_SET( ch->act, PLR_REMORT ) )
         SET_BIT( ch->act, PLR_REMORT );
-    ch->incarnations = ++ch->incarnations;
+    ++ch->incarnations; // JR fixed ch->incarnations = ++ch->incarnations;
     /* reset misc */
     ch->pcdata->condition[COND_THIRST] = 0;
     ch->pcdata->condition[COND_FULL] = 0;

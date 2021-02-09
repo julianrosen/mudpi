@@ -31,8 +31,8 @@ DECLARE_DO_FUN( do_return );
 AFFECT_DATA *affect_free;
 NEWAFFECT_DATA *newaffect_free;
 
-char thedate[10];
-char thetime[7];
+char thedate[30]; // JR: made these bigger. Could this have caused segfault on Ubuntu?
+char thetime[30];
 
 /*
  * Local functions.

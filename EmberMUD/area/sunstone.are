@@ -23,12 +23,12 @@ would not be a good idea.
 ~
 Human~
 ABQRTU 0 0 S
-95 100
+95 100 
 100 0 0 0 25000d1+0 20d20+20 30d30+30 18
 -50 -50 -50 -50
 FIK ABNP HIL J
 8 8 1 10000
-AHMV ABCDEFGHIJK H unknown
+AHMV ABCDEFGHIJK H 0
 #21401
 guard sunstone gate~
 a Sunstone Guard~
@@ -39,14 +39,14 @@ wearing glittering Sunstone armor and wielding a spear of the same material.
 She looks young, but experienced somehow...
  
 ~
-Halfelf~
+unique~
 ABT JN 0 S
-40 20
+40 20 
 100 0 0 0 10d100+0 0d0+0 5d25+5 1
 -15 -15 -15 -15
 U 0 B Z
 8 8 2 1000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21402
 japanese chef~
 the Japanese chef~
@@ -58,12 +58,12 @@ to buy some.
 ~
 Human~
 AB 0 0 S
-10 15
+10 15 
 100 0 0 0 10d100+10 99d1+1 100d1+10 0
 0 0 0 0
 0 CDP 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21403
 coat rack~
 a coat rack with eyes~
@@ -73,14 +73,14 @@ This is by far the ugliest coat rack imaginable. It holds a key with the
 words "The Key to the Shed" inscribed on it, and it won't give it up. The
 coat rack makes some odd noises, and glares at you.  
 ~
-Alien~
+unique~
 AB 0 0 S
-10 10
+10 10 
 100 0 0 0 100d10+10 1d1+1 5d10+0 9
 1 1 1 2
 HIM KL BQ HN
 8 8 0 0
-HJMQXc ABCDEFKLMQUVX M unknown
+HJMQXc ABCDEFKLMQUVX M 0
 #21404
 captain sunstone~
 a Sunstone Captain~
@@ -91,14 +91,14 @@ foes. He has a few battle scars, but they were well earned in glorious
 victorious battle. His brown hair flows in the breeze and shines in the
 sunlight, giving him a sort of halo effect.  
 ~
-Halfelf~
+unique~
 AB J 0 S
-45 75
+45 75 
 100 0 0 0 100d50+50 0d0+0 5d35+10 8
 -16 -16 -16 -16
 0 0 B Z
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21405
 archer sunstone~
 a Sunstone Archer~
@@ -109,14 +109,14 @@ and wondering about what lies beyond the city. He thoughts stray to other
 things and other places, as the wind flows through his dark hair and strange
 armor.  
 ~
-Halfelf~
+unique~
 AB J 0 S
-20 10
+20 10 
 100 0 0 0 100d5+10 0d0+0 10d5+10 11
 -2 -2 -2 -2
 0 0 B Z
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21406
 resaith commander sunstone~
 Resaith~
@@ -131,14 +131,14 @@ never defeated in battle, and most likely, never will be. She is a holy
 terror on the field of battle. Be warned, no one will live through a battle
 with her.  
 ~
-Halfelf~
+unique~
 AB J 1000 S
-100 1000
+100 1000 
 100 0 0 0 100d475+25 100d475+25 100d475+25 0
 -100 -100 -100 -100
 0 0 B Z
 8 8 2 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21407
 corpse unholy~
 Unholy Corpse~
@@ -151,12 +151,12 @@ your brains. Mm.. Brains...  *drool*... Brains good...
 ~
 Human~
 ABFO JZ -300 S
-15 0
+15 0 
 100 0 0 0 100d10+50 0d0+0 10d4+5 10
 2 2 2 0
 0 0 0 0
 8 8 0 10
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21408
 defender drow~
 Defender~
@@ -166,14 +166,14 @@ A huge, hulking shadowy figure stands here. It has long silvery-white
 hair, and it looks evil, with such a twisted face. His armor has the spider
 symbol of Lloth on it.  
 ~
-DrowElf~
+unique~
 AB JZ -1000 S
-30 10
+30 10 
 100 0 0 0 5d100+100 0d0+0 10d5+10 27
 -9 -9 -9 0
 0 0 B SZ
 8 8 0 1000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21409
 Rhaksi dwarf dwarven armorer~
 Rhaksi~
@@ -187,12 +187,12 @@ in his shop when he's supposed to be closed.
 ~
 Dwarf~
 ABd J 0 S
-40 0
+40 0 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 1 1 1 1
 0 CDP CLQ R
 8 8 1 10000000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21410
 Sharra halfelf half-elf elf~
 Sharra~
@@ -202,14 +202,14 @@ Sharra, the half-elf who owns and runs this store, is standing by the
 western wall of the Shop of Stuff. She is wearing what is probably the most
 valuable item ever to come in this shop, a pair of Richard Nixon Sunglasses.
 ~
-Halfelf~
+unique~
 ABd J -1 S
-40 0
+40 0 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 1 1 1 1
 0 CDP B Z
 8 8 2 100000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21411
 barman barkeep bartender bar Bucky~
 the barman~
@@ -222,12 +222,12 @@ He looks you over and says, 'What'll it be for ya?  '
 ~
 Human~
 AB 0 10 S
-80 0
+80 0 
 100 0 0 0 100d100+100 0d0+0 100d10+0 8
 10 10 10 10
 0 CDP 0 0
 8 8 1 10000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21412
 barmaid serving maid servant Kitha~
 the barmaid~
@@ -239,12 +239,12 @@ crazy, but in reality, she's just happy.
 ~
 Human~
 AB 0 10 S
-30 0
+30 0 
 100 0 0 0 100d100+100 0d0+0 100d10+0 8
 10 10 10 10
 0 CDP 0 0
 8 8 2 10000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21413
 Thirfaldinarlinaxiothidarnia elf elven mage magic~
 Thirfaldinarlinaxiothidarnia~
@@ -258,12 +258,12 @@ from all, even immortals with great power.
 ~
 Elf~
 AB J 100 S
-80 100
+80 100 
 100 0 0 0 100d10+10 1000d1+0 0d0+0 0
 10 10 10 10
 0 CDP B Z
 8 8 1 100000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21414
 jago~
 Jago~
@@ -277,12 +277,12 @@ train you for battles to come.
 ~
 Human~
 ABJKTb 0 0 S
-80 1000
+80 1000 
 100 0 0 0 1000d1+0 0d0+0 100d2+1 1
 10 10 10 10
 0 C P D
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21415
 The Giant Fist of Rules Enforcement~
 the Giant Fist of Rules Enforcement~
@@ -290,14 +290,14 @@ The Giant Fist of Rules Enforcement hovers above your head.
 ~
 The Giant Fist of Rules Enforcement hovers above your head.  
 ~
-Unknown~
+unique~
 ABT 0 0 S
-90 25000
+90 25000 
 100 0 0 0 25000d1+0 25000d1+0 1000d1+0 8
 -10 -10 -10 -10
 HIM KL BQ HN
 8 8 0 0
-HJMQXc ABCDEFKLMQUVX M unknown
+HJMQXc ABCDEFKLMQUVX M 0
 #21416
 practice dummy~
 a practice dummy~
@@ -307,12 +307,12 @@ A shredded dummy stands here, animated with magic.
 ~
 Human~
 AB 0 0 S
-10 0
+10 0 
 100 0 0 0 200d1+0 0d0+0 1d6+0 12
 0 0 0 0
 0 0 0 0
 8 8 0 55
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21420
 A Sushi Vending Machine~
 a Sushi Vending Machine~
@@ -322,12 +322,12 @@ It's a big shiny box. Put gold in the slot and sushi pops out. Neat huh?
 ~
 Human~
 ABQd 0 1 S
-1 1
+1 1 
 100 0 0 0 1d1+0 0d0+0 1d1+1 0
 0 0 0 0
 0 0 0 0
 8 8 0 10000000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #21435
 The Giant Fist of Roleplay Enforcement~
 the Giant Fist of Roleplay Enforcement~
@@ -335,14 +335,14 @@ The Giant Fist of Roleplay Enforcement hovers above your head.
 ~
 The Giant Fist of Roleplay Enforcement hovers above your head.
 ~
-Unknown~
+unique~
 AB 0 0 S
-90 25000
+90 25000 
 100 0 0 0 25000d1+0 1000d1+0 25000d1+0 8
 -10 -10 -10 -10
 HIM KL BQ HN
 8 8 0 0
-HJMQXc ABCDEFKLMQUVX M unknown
+HJMQXc ABCDEFKLMQUVX M 0
 #21498
 A Tickle Bunny!~
 a Tickle Bunny~
@@ -352,12 +352,12 @@ A tickly tickle bunny is here, it looks ready to TICKLE YOU!!!
 ~
 rabbit~
 ABd 0 0 S
-20 20
+20 20 
 100 0 0 0 100d10+15 0d0+0 10d3+10 32
 0 0 0 0
 FH 0 0 0
 8 8 0 0
-AGV ACDEFHJK M unknown
+AGV ACDEFHJK M 0
 #21499
 An Elven Statue~
 a Statue of Caitlynne~
@@ -371,12 +371,12 @@ glow a brighter color when Cornell's around.
 ~
 Elf~
 A J 1000 S
-100 100
+100 100 
 100 0 0 0 10000d1+0 10000d1+0 1000d1+0 20
 -100 -100 -100 -100
 0 ACDEPR B Z
 8 8 2 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -391,9 +391,9 @@ unknown~
 AB ABC D AB C
 40 10 10000 P
 A
-18 6
-A
 19 6
+A
+18 6
 #21401
 bodyarmor sunstone armor-body~
 sunstone bodyarmor~
@@ -403,15 +403,15 @@ unknown~
 ADE ADE ADE ADE 0
 45 20 5000 P
 A
-12 15
-A
-17 -8
-A
-13 40
+5 1
 A
 2 2
 A
-5 1
+13 40
+A
+17 -8
+A
+12 15
 #21402
 sushi pink seaweed meat~
 pink sushi~
@@ -501,11 +501,11 @@ unknown~
 BD AD BD ABD 0
 40 0 5000 P
 A
-17 -10
+12 50
 A
 13 50
 A
-12 50
+17 -10
 #21413
 hole space container no-reset~
 a hole in space~
@@ -593,9 +593,9 @@ unknown~
 D D D D 0
 25 5 15000 P
 A
-19 2
-A
 17 -2
+A
+19 2
 #21423
 helmet mithril crusader~
 a mithril crusader helmet~
@@ -621,15 +621,15 @@ unknown~
 0 AD ACD BE AE
 89 0 5000000 P
 A
-19 5
-A
-18 5
-A
-13 25
+14 100
 A
 12 25
 A
-14 100
+13 25
+A
+18 5
+A
+19 5
 #21426
 hairpin small jeweled~
 a small jeweled hairpin~
@@ -781,13 +781,13 @@ unknown~
 B BC AC B AC
 30 1 12500 P
 A
-18 10
-A
-2 1
+19 6
 A
 4 1
 A
-19 6
+2 1
+A
+18 10
 #21444
 tiger plate~
 a `YT`Ki`Yg`Ke`Yr `GP`gl`Ga`gt`Ge`w~
@@ -797,9 +797,9 @@ unknown~
 D D D D 0
 18 5 12500 P
 A
-18 5
-A
 19 4
+A
+18 5
 #21445
 tiger cloak~
 a `YT`Ki`Yg`Ke`Yr `GC`gl`Go`ga`Gk`w~
@@ -809,9 +809,9 @@ unknown~
 AC AC AC AC 0
 35 9 12500 P
 A
-13 30
-A
 12 30
+A
+13 30
 #21446
 no name~
 (no short description)~
@@ -829,9 +829,9 @@ unknown~
 BC BC BC BC 0
 18 0 12500 P
 A
-12 10
-A
 13 10
+A
+12 10
 #21448
 Tiger Sleeves~
 some `YT`Ki`Yg`Ke`Yr `GS`gl`Ge`ge`Gv`ge`Gs`w~
@@ -851,9 +851,9 @@ unknown~
 D D D D 0
 20 0 12500 P
 A
-13 25
-A
 17 -1
+A
+13 25
 #21450
 tiger gloves~
 some `YT`Ki`Yg`Ke`Yr `GG`gl`Go`gv`Ge`gs`w~
@@ -871,15 +871,15 @@ unknown~
 A ABC A CDE CDE
 35 0 0 P
 A
-17 1
-A
-19 9
-A
-18 1
+13 15
 A
 12 15
 A
-13 15
+18 1
+A
+19 9
+A
+17 1
 #21476
 Ring of Shock~
 the Ring of Shock~
@@ -889,17 +889,17 @@ unknown~
 ABC ABC ABC ABC 0
 35 0 1000000 P
 A
-17 -1
-A
-12 35
-A
-13 35
-A
-3 1
+5 1
 A
 1 1
 A
-5 1
+3 1
+A
+13 35
+A
+12 35
+A
+17 -1
 #21493
 fishnet key~
 a fishnet~
@@ -917,11 +917,11 @@ unknown~
 DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
 92 0 100 P
 A
-17 -900
+18 1000
 A
 19 500
 A
-18 1000
+17 -900
 #21495
 Sword of Rules~
 `YThe `GSword `Cof `BRules~
@@ -931,17 +931,17 @@ unknown~
 A DFGHIJ A ACE ABCDE
 95 0 0 P
 A
-18 5000
-A
-17 -1000
-A
-12 5000
-A
-13 5000
+19 5000
 A
 14 5000
 A
-19 5000
+13 5000
+A
+12 5000
+A
+17 -1000
+A
+18 5000
 #21496
 Sword of Roleplay~
 `YThe `GSword `Cof `RRoleplay~
@@ -951,17 +951,17 @@ unknown~
 A DFGHIJ A BC ABCDE
 95 0 0 P
 A
-19 5000
-A
-14 5000
-A
-13 5000
-A
-12 5000
+17 -1000
 A
 18 5000
 A
-17 -1000
+12 5000
+A
+13 5000
+A
+14 5000
+A
+19 5000
 #21497
 a plush velvet couch~
 a plush velvet couch~
@@ -999,23 +999,23 @@ immense power, and south lies a great chapel.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21401
 D1
-~
+(null)~
 ~
 0 0 21403
 D2
-~
+(null)~
 ~
 1 0 21402
 D3
-~
+(null)~
 ~
 0 0 21404
 D4
-~
+(null)~
 ~
 3 0 21499
 S
@@ -1028,11 +1028,11 @@ near the left side of the gate.
 ~
 0 3153920 1
 D0
-~
+(null)~
 ~
 6 21403 21405
 D2
-~
+(null)~
 ~
 0 0 21400
 S
@@ -1048,11 +1048,11 @@ and a door on the south side of this room leads to the altar.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 1 0 21400
 D2
-~
+(null)~
 ~
 1 0 21408
 S
@@ -1066,19 +1066,19 @@ while the city's square is to the west.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21417
 D1
-~
+(null)~
 ~
 0 0 21419
 D2
-~
+(null)~
 ~
 0 0 21418
 D3
-~
+(null)~
 ~
 0 0 21400
 S
@@ -1091,15 +1091,15 @@ continues both east and west.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21415
 D1
-~
+(null)~
 ~
 0 0 21400
 D2
-~
+(null)~
 ~
 1 21426 21416
 S
@@ -1115,11 +1115,11 @@ chamber lies on the western wall.
 ~
 0 3153920 0
 D2
-~
+(null)~
 ~
 6 21403 21401
 D4
-~
+(null)~
 ~
 0 0 21406
 S
@@ -1136,11 +1136,11 @@ both up and down.
 ~
 0 3153920 0
 D4
-~
+(null)~
 ~
 0 0 21407
 D5
-~
+(null)~
 ~
 0 0 21405
 S
@@ -1154,7 +1154,7 @@ always visible overhead, even in foul weather or nighttime.
 ~
 0 3153920 0
 D5
-~
+(null)~
 ~
 0 0 21406
 S
@@ -1172,11 +1172,11 @@ of the Eternal Sun. A small trapdoor is behind the altar.
 ~
 0 2098176 0
 D0
-~
+(null)~
 ~
 1 0 21402
 D5
-~
+(null)~
 ~
 1 0 21409
 S
@@ -1189,11 +1189,11 @@ clearly visible, however. It's not too late to go back up to the sunlight.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 21410
 D4
-~
+(null)~
 ~
 1 0 21408
 S
@@ -1209,15 +1209,15 @@ south, but barely.
 ~
 0 2097153 0
 D0
-~
+(null)~
 ~
 0 0 21412
 D2
-~
+(null)~
 ~
 0 0 21409
 D3
-~
+(null)~
 ~
 0 0 21411
 S
@@ -1232,11 +1232,11 @@ disturbed.
 ~
 0 2097153 0
 D1
-~
+(null)~
 ~
 0 0 21410
 D5
-~
+(null)~
 ~
 1 0 21413
 S
@@ -1250,7 +1250,7 @@ further.
 ~
 0 2097153 0
 D2
-~
+(null)~
 ~
 0 0 21410
 S
@@ -1262,11 +1262,11 @@ below is unknown.
 ~
 0 2097153 0
 D4
-~
+(null)~
 ~
 1 0 21411
 D5
-~
+(null)~
 ~
 0 0 21414
 S
@@ -1278,7 +1278,7 @@ way out is back up the ladder.
 ~
 0 2097153 0
 D4
-~
+(null)~
 ~
 0 0 21413
 S
@@ -1290,7 +1290,7 @@ wall, wearing a great pair of sunglasses.
 ~
 0 2097152 0
 D2
-~
+(null)~
 ~
 0 0 21404
 S
@@ -1303,7 +1303,7 @@ the store is to the north.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 1 21426 21404
 S
@@ -1323,18 +1323,20 @@ ready to sell you whatever you wish.
 ~
 0 2097160 0
 E
-fire~
-Small balls of purple fire hover nearby...they are obviously magical
-creations, but their permanency is quite a feat...
-whereas most magical spells fade and disappear with time,
-these seem to burn eternally...
-~
-E
-purple~
-Small balls of purple fire hover nearby...they are obviously magical
-creations, but their permanency is quite a feat...
-whereas most magical spells fade and disappear with time,
-these seem to burn eternally...
+sign~
+`wTo all valued customers:
+ 
+Soulfire Gnomish Industries `y(`mS`bG`mI`y)`w is proud to say that due to all
+of your assistance, the Worksop is quickly turning into a successful
+business venture...we already have raised enough proceeds to start adding
+`mC`bo`rl`go`yr`w to our inventory!!!
+If business continues to skyrocket, we will soon have a room desc as well!
+Future prospects are looking good as `mS`bG`mI`w considers expanding its
+operation...
+ 
+Once again thanx,
+Soulfire
+Manager-in-Chief, `mS`bG`mI`w
 ~
 E
 ad~
@@ -1351,27 +1353,25 @@ and all professions! Soon to open in further locations...
 "Where wonders are an everyday occurence"
 ~
 E
-sign~
-`wTo all valued customers:
- 
-Soulfire Gnomish Industries `y(`mS`bG`mI`y)`w is proud to say that due to all
-of your assistance, the Worksop is quickly turning into a successful
-business venture...we already have raised enough proceeds to start adding
-`mC`bo`rl`go`yr`w to our inventory!!!
-If business continues to skyrocket, we will soon have a room desc as well!
-Future prospects are looking good as `mS`bG`mI`w considers expanding its
-operation...
- 
-Once again thanx,
-Soulfire
-Manager-in-Chief, `mS`bG`mI`w
+purple~
+Small balls of purple fire hover nearby...they are obviously magical
+creations, but their permanency is quite a feat...
+whereas most magical spells fade and disappear with time,
+these seem to burn eternally...
+~
+E
+fire~
+Small balls of purple fire hover nearby...they are obviously magical
+creations, but their permanency is quite a feat...
+whereas most magical spells fade and disappear with time,
+these seem to burn eternally...
 ~
 D1
-~
+(null)~
 ~
 0 0 30001
 D2
-~
+(null)~
 ~
 0 0 21403
 S
@@ -1384,11 +1384,11 @@ probably because the church is right to the west, and the window is open.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21403
 D2
-~
+(null)~
 ~
 0 0 21420
 S
@@ -1404,11 +1404,11 @@ sun always shines here, and as it turns out, it's true.
 ~
 0 2097152 2
 D1
-~
+(null)~
 ~
 0 0 16268
 D3
-~
+(null)~
 ~
 0 0 21403
 S
@@ -1420,11 +1420,11 @@ bar are somewhere around here.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21418
 D2
-~
+(null)~
 ~
 0 0 21421
 S
@@ -1437,11 +1437,11 @@ attack from the outer walls.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 21420
 D3
-~
+(null)~
 ~
 0 0 21422
 S
@@ -1451,15 +1451,15 @@ The road here shines brightly, as the trees of the town wave and rustle overhead
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 21421
 D2
-~
+(null)~
 ~
 0 0 21424
 D3
-~
+(null)~
 ~
 0 0 21423
 S
@@ -1473,11 +1473,11 @@ city.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 21426
 D1
-~
+(null)~
 ~
 0 0 21422
 S
@@ -1491,11 +1491,11 @@ customers. Great smells waft in from the western side of the tavern.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 21422
 D3
-~
+(null)~
 ~
 0 0 21425
 S
@@ -1509,7 +1509,7 @@ their customers.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 21424
 S
@@ -1523,7 +1523,7 @@ magic. That explains why the room is so bare.
 ~
 0 2097152 0
 D2
-~
+(null)~
 ~
 0 0 21423
 S
@@ -1537,7 +1537,7 @@ Pharmaceutical company.
 ~
 0 1048600 0
 D5
-~
+(null)~
 fishbowl~
 5 21493 21499
 S
@@ -1549,15 +1549,15 @@ realize you can still breathe easily.
 ~
 0 3153948 6
 E
-up~
-Above you, the starlight shines above the water's surface in the night sky.
-~
-E
 down~
 The sushi machine is looking at you funny.
 ~
-D5
+E
+up~
+Above you, the starlight shines above the water's surface in the night sky.
 ~
+D5
+(null)~
 machine~
 3 0 21400
 S
@@ -1579,105 +1579,106 @@ D 0 21413 4 0
 D 0 21416 0 1
 D 0 21498 5 1
 D 0 21499 5 0
-M 0 21400 1 21400
-E 0 21442 0 17
-M 0 21401 1 21401
-E 0 21400 0 16
-E 0 21401 0 5
-O 0 21414 0 21402
-P 0 21415 0 21414
-M 0 21414 1 21405
-M 0 21416 25 21405
-O 0 21408 0 21406
-M 0 21402 1 21406
-G 0 21402 0
-G 0 21404 0
-G 0 21405 0
-G 0 21406 0
-G 0 21407 0
-M 0 21403 1 21407
-G 0 21410 0
-O 0 21409 0 21407
-M 0 21405 5 21407
-E 0 21411 0 16
-E 0 21401 0 5
-M 0 21404 2 21407
-E 0 21401 0 5
-M 0 21406 1 21407
-E 0 21401 0 5
-O 0 21409 0 21407
-P 0 21400 0 21409
-P 0 21411 0 21409
-P 0 21401 0 21409
-P 0 21412 0 21409
-O 0 21416 0 21409
-M 0 21407 5 21411
-E 0 21417 0 17
-M 0 21407 3 21412
-M 0 21407 1 21412
-O 0 21418 0 21413
-O 0 21418 0 21414
-O 0 21403 0 21414
-M 0 21408 1 21414
-M 0 21410 1 21415
-G 0 21426 0
-E 0 21427 0 6
-G 0 21428 0
-M 0 21409 1 21416
-G 0 21425 0
-G 0 21419 0
-G 0 21421 0
-G 0 21422 0
-G 0 21423 0
-G 0 21424 0
-G 0 21450 0
-G 0 21448 0
-G 0 21443 0
-G 0 21447 0
-G 0 21449 0
-G 0 21445 0
-G 0 21443 0
-G 0 21444 0
-G 0 21420 0
-M 0 17799 1 21417
-G 0 17740 0
-G 0 17741 0
-G 0 17742 0
-G 0 17743 0
-G 0 17744 0
-G 0 17745 0
-G 0 17747 0
-G 0 17748 0
-M 0 21411 1 21424
-G 0 21430 0
-G 0 21431 0
-G 0 21432 0
-G 0 21433 0
-M 0 21412 1 21425
-G 0 21434 0
-G 0 21435 0
-G 0 21436 0
-M 0 21413 1 21426
-G 0 21438 0
-G 0 21440 0
-G 0 21437 0
-G 0 21441 0
-G 0 21439 0
-O 0 21497 0 21499
-M 0 21415 1 21499
-E 0 21495 0 16
-M 0 21435 1 21499
-E 0 21496 0 16
-M 0 21420 1 21499
-G 0 21404 0
-G 0 21402 0
-G 0 21405 0
+M 0 21400 0 21400 Load Togashi Yokuni
+E 0 21442 0 17 A huge sunstone key is loaded held in the hands of Togashi Yokuni
+M 0 21401 0 21401 Load a Sunstone Guard
+E 0 21400 0 16 Sunstone spear is loaded wielded of a Sunstone Guard
+E 0 21401 0 5 Sunstone bodyarmor is loaded on the body of a Sunstone Guard
+O 0 21414 0 21402 A wooden shelf loaded to Chapel of Eternal Sunlight: Main Lobby
+P 0 21415 0 21414 A flask of holy water put inside a flask of Holy Water
+M 0 21414 0 21405 Load Jago
+M 0 21416 25 21405 Load a practice dummy
+O 0 21408 0 21406 A blue marble dragon fountain loaded to The Sunstone Tower: Floor 2, Kitchen
+M 0 21402 0 21406 Load the Japanese chef
+G 0 21402 0 Pink sushi is given to the Japanese chef
+G 0 21404 0 White sushi is given to the Japanese chef
+G 0 21405 0 Rainbow sushi is given to the Japanese chef
+G 0 21406 0 Bottled water is given to the Japanese chef
+G 0 21407 0 A tea cup is given to the Japanese chef
+M 0 21403 0 21407 Load a coat rack with eyes
+G 0 21410 0 The key to the shed is given to a coat rack with eyes
+O 0 21409 0 21407 A small shed loaded to The Sunstone Tower: Floor 3, Battlements
+M 0 21405 5 21407 Load a Sunstone Archer
+E 0 21411 0 16 Sunstone crossbow is loaded wielded of a Sunstone Archer
+E 0 21401 0 5 Sunstone bodyarmor is loaded on the body of a Sunstone Archer
+M 0 21404 2 21407 Load a Sunstone Captain
+E 0 21401 0 5 Sunstone bodyarmor is loaded on the body of a Sunstone Captain
+M 0 21406 0 21407 Load Resaith
+E 0 21401 0 5 Sunstone bodyarmor is loaded on the body of Resaith
+O 0 21409 0 21407 A small shed loaded to The Sunstone Tower: Floor 3, Battlements
+P 0 21400 0 21409 Sunstone spear put inside sunstone spear
+P 0 21411 0 21409 Sunstone crossbow put inside sunstone crossbow
+P 0 21401 0 21409 Sunstone bodyarmor put inside sunstone bodyarmor
+P 0 21412 0 21409 A sunstone pendant put inside a sunstone pendant
+O 0 21416 0 21409 A glowing sign loaded to Catacombs of Twilight: Entrance
+M 0 21407 5 21411 Load Unholy Corpse
+E 0 21417 0 17 A chalice of lloth is loaded held in the hands of Unholy Corpse
+M 0 21407 3 21412 Load Unholy Corpse
+M 0 21407 0 21412 Load Unholy Corpse
+O 0 21418 0 21413 A drow ladder loaded to Catacombs of Twilight: Level 2
+O 0 21418 0 21414 A drow ladder loaded to Catacombs of Twilight: Level 3
+O 0 21403 0 21414 A ruby shard loaded to Catacombs of Twilight: Level 3
+M 0 21408 0 21414 Load Defender
+M 0 21410 0 21415 Load Sharra
+G 0 21426 0 A small jeweled hairpin is given to Sharra
+E 0 21427 0 6 A pair of nixon's sunglasses is loaded over the head of Sharra
+G 0 21428 0 A shiny bottlecap is given to Sharra
+M 0 21409 0 21416 Load Rhaksi
+G 0 21425 0 The champion's fist of flames is given to Rhaksi
+G 0 21419 0 A mithril katana is given to Rhaksi
+G 0 21421 0 Mithril gauntlets is given to Rhaksi
+G 0 21422 0 Mithril plated boots is given to Rhaksi
+G 0 21423 0 A mithril crusader helmet is given to Rhaksi
+G 0 21424 0 A mithril chain necklace is given to Rhaksi
+G 0 21450 0 Some `yt`ki`yg`ke`yr `gg`gl`go`gv`ge`gs`w is given to Rhaksi
+G 0 21448 0 Some `yt`ki`yg`ke`yr `gs`gl`ge`ge`gv`ge`gs`w is given to Rhaksi
+G 0 21443 0 A `yt`ki`yg`ke`yr `gd`ga`gg`gg`ge`gr`w is given to Rhaksi
+G 0 21447 0 Some `yt`ki`yg`ke`yr `gp`ga`gn`gt`gs`w is given to Rhaksi
+G 0 21449 0 A `yt`ki`yg`ke`yr `gb`ge`gl`gt`w is given to Rhaksi
+G 0 21445 0 A `yt`ki`yg`ke`yr `gc`gl`go`ga`gk`w is given to Rhaksi
+G 0 21443 0 A `yt`ki`yg`ke`yr `gd`ga`gg`gg`ge`gr`w is given to Rhaksi
+G 0 21444 0 A `yt`ki`yg`ke`yr `gp`gl`ga`gt`ge`w is given to Rhaksi
+G 0 21420 0 A suit of splintmail is given to Rhaksi
+M 0 17799 0 21417 Load Gearbox, Soulfire's gnomish assistant
+G 0 17740 0 `rs`yo`rl `yr`ri`yn`rg`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17741 0 `ys`cu`yn`cs`yt`co`yn`ce`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17742 0 `gbelt `bof `gfortitude`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17743 0 `yleggings `bof `ythe `bback`ywards `bmage`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17744 0 `gsandals `rof `kstealth`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17745 0 `cblade `gof `ylight`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17747 0 `rambrosia`w is given to Gearbox, Soulfire's gnomish assistant
+G 0 17748 0 `cpotion `gof `bthe `ysun`w is given to Gearbox, Soulfire's gnomish assistant
+M 0 21411 0 21424 Load the barman
+G 0 21430 0 A bottle of dark ale is given to the barman
+G 0 21431 0 A glass of light beer is given to the barman
+G 0 21432 0 A glass of milk is given to the barman
+G 0 21433 0 Some phoenix-in-a-bottle is given to the barman
+M 0 21412 0 21425 Load the barmaid
+G 0 21434 0 An entire rack of lamb is given to the barmaid
+G 0 21435 0 A bowl of hot and sour soup is given to the barmaid
+G 0 21436 0 Some assorted cheeses is given to the barmaid
+M 0 21413 0 21426 Load Thirfaldinarlinaxiothidarnia
+G 0 21438 0 A potion of speed is given to Thirfaldinarlinaxiothidarnia
+G 0 21440 0 A volatile dragon potion is given to Thirfaldinarlinaxiothidarnia
+G 0 21437 0 A pill of might is given to Thirfaldinarlinaxiothidarnia
+G 0 21441 0 A potion of immortal strength is given to Thirfaldinarlinaxiothidarnia
+G 0 21439 0 A pill of health is given to Thirfaldinarlinaxiothidarnia
+O 0 21497 0 21499 A plush velvet couch loaded to Ryuujin's Fishbowl
+M 0 21415 0 21499 Load the Giant Fist of Rules Enforcement
+E 0 21495 0 16 `ythe `gsword `cof `brules is loaded wielded of the Giant Fist of Rules Enforcement
+M 0 21435 0 21499 Load the Giant Fist of Roleplay Enforcement
+E 0 21496 0 16 `ythe `gsword `cof `rroleplay is loaded wielded of the Giant Fist of Roleplay Enforcement
+M 0 21420 0 21499 Load a Sushi Vending Machine
+G 0 21404 0 White sushi is given to a Sushi Vending Machine
+G 0 21402 0 Pink sushi is given to a Sushi Vending Machine
+G 0 21405 0 Rainbow sushi is given to a Sushi Vending Machine
 S
 
 
 
 #PROGS
 S
+
 
 
 #SHOPS
@@ -1688,6 +1689,11 @@ S
 21412 0 19 0 0 0 100 100 0 23
 21413 0 10 26 0 0 100 100 0 23
 21420 19 5 0 0 0 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

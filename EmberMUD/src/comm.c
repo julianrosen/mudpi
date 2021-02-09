@@ -830,7 +830,7 @@ int game_loop( int control )
             if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
             read_from_buffer( d, FALSE );
             else
-            {d->incomm[0] = "\n";d->incomm[1] = "\0";}
+            {d->incomm[0] = '\n';d->incomm[1] = '\0';} // JR: changed double quotes to single
             
             if ( d->incomm[0] != '\0' )
             {
@@ -2738,7 +2738,7 @@ void show_string( struct descriptor_data *d, char *input )
         {
             *scan = '\0';
             write_to_buffer( d, buffer, strlen( buffer ) );
-            for ( chk = d->showstr_point; isspace( *chk ); chk++ );
+            for ( chk = d->showstr_point; isspace( *chk ); chk++ ); // This needs to be here
             {
                 if ( !*chk )
                 {

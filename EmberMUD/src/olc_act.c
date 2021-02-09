@@ -750,12 +750,12 @@ AEDIT( aedit_file )
     /*
      * Simple Syntax Check.
      */
-    length = strlen( argument );
-    if ( length > 8 )
-    {
-        send_to_char( "No more than eight characters allowed.\n\r", ch );
-        return FALSE;
-    }
+    //length = strlen( argument );
+    //if ( length > 8 )
+    //{
+    //    send_to_char( "No more than eight characters allowed.\n\r", ch );
+    //    return FALSE;
+    //}
 
     /*
      * Allow only letters and numbers.
@@ -887,7 +887,8 @@ AEDIT( aedit_builder )
     {
         pArea->builders = string_replace( pArea->builders, name, "\0" );
         pArea->builders = string_unpad( pArea->builders );
-
+        pArea->builders = string_replace( pArea->builders, "  ", " " ); //JR: fix some funny spacing issue
+        
         if ( !pArea->builders[0] )
         {
             free_string( &pArea->builders );

@@ -13,183 +13,183 @@ lord tempest~
 the Lord Tempest~
 The Lord Tempest is trying to escape Arillo's cells.
 ~
-~
+(null)~
 goblin~
 AB HJ 250 S
-25 26
+25 26 
 100 0 0 0 10d43+325 1d10+100 5d5+12 6
 -5 -5 -5 2
 0 0 Q C
 8 8 1 271
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23401
 great skrit~
 the Great Skrit~
 The Great Skrit is here throwing dirt in your eyes.
 ~
-~
+(null)~
 Hobbit~
 AB HJ -250 S
-30 31
+30 31 
 100 0 0 0 10d61+416 1d10+100 5d6+15 32
 -9 -9 -9 0
 0 0 CLQ R
 8 8 -1 273
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23402
 a black abishia~
 a Black Abishia~
 Shrieking out in rage and anger, the Black Abishia descends on you.
 ~
-~
+(null)~
 kobold~
 AB HJ -150 S
-35 35
+35 35 
 100 0 0 0 10d93+452 1d10+100 5d7+17 0
 -12 -12 -12 -1
 0 0 L C
 8 8 -1 401
-ABHMV ABCDEFGHIJKQ M unknown
+ABHMV ABCDEFGHIJKQ M 0
 #23403
 The Great Barbazo~
 the Great Barbazo~
 A Great Barbazo communicates his rage to you with telepathy.
 ~
-~
+(null)~
 kobold~
 AB HJ -10 S
-40 39
+40 39 
 100 0 0 0 10d112+632 1d10+200 5d7+20 0
 -15 -15 -15 -2
 0 0 L C
 8 8 0 482
-ABHMV ABCDEFGHIJKQ M unknown
+ABHMV ABCDEFGHIJKQ M 0
 #23404
 The Great White Bat~
 a Great White Bat~
 A Huge White Bat is hanging up-side down here in the cell.
 ~
-~
+(null)~
 bat~
 AB HTZ -250 S
-20 20
+20 20 
 100 0 0 0 6d40+263 0d0+0 4d5+10 10
 0 0 0 0
 FH 0 0 S
 8 8 0 0
-AGW ACDEFHJKP M unknown
+AGW ACDEFHJKP M 0
 #23405
 black anaconda~
 a large Anaconda~
 A Large Anaconda is here coiled up in the corner.
 ~
-~
+(null)~
 snake~
 AB H -100 S
-25 24
+25 24 
 100 0 0 0 10d54+374 1d10+100 5d5+12 8
 -5 -5 -5 2
 0 0 L I
 8 8 0 0
-AGRXYc ADEFKLQVX M unknown
+AGRXYc ADEFKLQVX M 0
 #23406
 thief skayle~
 a thief named Skayle~
 A thief named Skayle is hiding in a nearby shadow.
 ~
-~
+(null)~
 Human~
 ABS DF -300 S
-30 29
+30 29 
 100 0 0 0 10d61+416 0d0+0 5d6+15 11
 -9 -9 -9 0
 0 0 0 0
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23407
 zeldon the warrior~
 Zeldon the Warrior~
 A strong looking warrior named Zeldon is here firing a crossbow into a cactus plant across the room.
 ~
-~
+(null)~
 Human~
 AB 0 250 S
-33 33
+33 33 
 100 0 0 0 10d83+438 0d0+0 5d7+17 21
 -11 -11 -11 0
 0 0 0 0
 8 8 0 326
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23408
 sky short woman~
 Sky~
 A short young woman named Sky is sitting here playing a zither and singing peasant folk songs.
 ~
-~
+(null)~
 Human~
 AB 0 120 S
-17 17
+17 17 
 100 0 0 0 5d45+192 1d10+100 3d5+10 23
 -2 -2 -2 4
 0 0 0 0
 8 8 2 89
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23409
 a deaf servant~
 a deaf servant~
 The deaf servant is here cooking meals against his will.
 ~
-~
+(null)~
 Human~
 AB 0 350 S
-28 25
+28 25 
 100 0 0 0 10d49+160 1d10+100 5d6+13 26
 -7 -7 -7 1
 0 0 0 0
 8 8 0 211
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23410
 Devlin Denor thief~
 Devlin Denor~
 Devlin Denor is here plundering personal items from the room of Arrilo.
 ~
-~
+(null)~
 modron~
 ABS J -250 S
-36 35
+36 35 
 100 0 0 0 10d93+612 0d0+0 5d7+18 11
 -14 -14 -14 -1
 QR BMNPQ HIK 0
 8 8 0 100
-H ABCGHJK M unknown
+H ABCGHJK M 0
 #23411
 Comet Twiglight~
 Twiglight the Comet~
 Twiglight the comet is sitting on a bed sewing a new pocket onto his black star covered robe.
 ~
-~
+(null)~
 Wyvern~
 ABH DFHT 10 S
-15 16
+15 16 
 100 0 0 0 5d5+25 1d10+100 3d5+8 6
 0 0 0 5
 CFH L 0 S
 8 8 -1 79
-BZc ACDEFHJKQUVX M unknown
+BZc ACDEFHJKQUVX M 0
 #23412
 boldor henchman~
 Boldor the henchman~
 Torlok's loyal henchman Boldor is here on guard.
 ~
-~
+(null)~
 Human~
 ABT H 250 S
-41 42
+41 42 
 100 0 0 0 10d121+645 1d10+100 5d8+21 8
 -15 -15 -15 -2
 0 0 0 0
 8 8 1 314
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #23413
 evil wizard torlok~
 the evil Wizard Torlok~
@@ -204,12 +204,12 @@ green eyes complete the look.
 ~
 Hobbit~
 ABRd HJ -500 S
-55 58
+55 58 
 100 0 0 0 10d193+983 10d10+100 5d10+30 19
 -24 -24 -24 -7
 G 0 CLQ R
 8 8 1 482
-AHMV ABCDEFGHIJK S unknown
+AHMV ABCDEFGHIJK S 0
 #0
 
 
@@ -428,15 +428,15 @@ covered with creeping ivy.
 ~
 0 2097152 4
 D0
-~
+(null)~
 ~
 1 0 23416
 D1
-~
+(null)~
 ~
 0 0 23401
 D5
-~
+(null)~
 ~
 0 0 21235
 S
@@ -449,11 +449,11 @@ potato-sack face.
 ~
 0 2097152 2
 D0
-~
+(null)~
 ~
 0 0 23402
 D3
-~
+(null)~
 ~
 0 0 23400
 S
@@ -465,15 +465,15 @@ Arrilo's manor to the west.
 ~
 0 2097152 2
 D1
-~
+(null)~
 ~
 0 0 23403
 D2
-~
+(null)~
 ~
 0 0 23401
 D3
-~
+(null)~
 ~
 1 0 23415
 S
@@ -486,11 +486,11 @@ other various oddities.
 ~
 0 2097152 0
 D3
-~
+(null)~
 ~
 0 0 23402
 D5
-~
+(null)~
 barrel~
 1 0 23404
 S
@@ -503,19 +503,19 @@ summons from planes and worlds far beyond mortal reach.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 23400 23413
 D1
-~
+(null)~
 ~
 0 0 23405
 D2
-~
+(null)~
 cell~
 1 23400 23414
 D4
-~
+(null)~
 barrel~
 1 0 23403
 S
@@ -527,19 +527,19 @@ retained in the cells to your north and south.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 23400 23411
 D1
-~
+(null)~
 ~
 0 0 23406
 D2
-~
+(null)~
 cell~
 1 23400 23412
 D3
-~
+(null)~
 ~
 0 0 23404
 S
@@ -551,19 +551,19 @@ and south of you.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 23400 23409
 D1
-~
+(null)~
 ~
 0 0 23407
 D2
-~
+(null)~
 cell~
 1 23400 23410
 D3
-~
+(null)~
 ~
 0 0 23405
 S
@@ -577,11 +577,11 @@ stairway leads down into a dark chamber.
 ~
 0 2097152 0
 D3
-~
+(null)~
 ~
 0 0 23406
 D5
-~
+(null)~
 ~
 0 0 23408
 S
@@ -593,7 +593,7 @@ only exit from here is up.
 ~
 0 2097152 0
 D4
-~
+(null)~
 ~
 0 0 23407
 S
@@ -606,7 +606,7 @@ south.
 ~
 0 2097152 0
 D2
-~
+(null)~
 cell~
 1 0 23406
 S
@@ -619,7 +619,7 @@ north.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 0 23406
 S
@@ -632,7 +632,7 @@ south.
 ~
 0 2097152 0
 D2
-~
+(null)~
 cell~
 1 0 23405
 S
@@ -645,7 +645,7 @@ north.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 0 23405
 S
@@ -657,7 +657,7 @@ intervals. The only exit from this cell is a barred entrance to the south.
 ~
 0 2097152 0
 D2
-~
+(null)~
 cell~
 1 0 23404
 S
@@ -670,7 +670,7 @@ north.
 ~
 0 2097152 0
 D0
-~
+(null)~
 cell~
 1 0 23404
 S
@@ -684,15 +684,15 @@ end of this corridor. Other exits lie to the west and south.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 1 0 23402
 D2
-~
+(null)~
 ~
 0 0 23416
 D3
-~
+(null)~
 ~
 0 0 23417
 S
@@ -705,11 +705,11 @@ archway to the north and the front door to the south.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23415
 D2
-~
+(null)~
 ~
 1 0 23400
 S
@@ -721,11 +721,11 @@ the chairs, and a slender wine cabinet stands against the north wall.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23418
 D1
-~
+(null)~
 ~
 0 0 23415
 S
@@ -740,15 +740,15 @@ desert atmosphere.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 23420
 D2
-~
+(null)~
 ~
 0 0 23417
 D3
-~
+(null)~
 ~
 0 0 23419
 S
@@ -763,7 +763,7 @@ two long tables an several handsome chairs.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 23418
 S
@@ -775,11 +775,11 @@ middle of the room is a table cluttered with pots.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23421
 D3
-~
+(null)~
 ~
 0 0 23418
 S
@@ -792,11 +792,11 @@ staircase to prevent nasty falls'.
 ~
 0 2097152 0
 D2
-~
+(null)~
 ~
 0 0 23420
 D4
-~
+(null)~
 ~
 0 0 23422
 S
@@ -809,15 +809,15 @@ staircase to prevent nasty falls.
 ~
 0 2097152 0
 D2
-~
+(null)~
 ~
 0 0 23423
 D4
-~
+(null)~
 ~
 0 0 23428
 D5
-~
+(null)~
 ~
 0 0 23421
 S
@@ -831,11 +831,11 @@ sort of optical illusion.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23422
 D3
-~
+(null)~
 ~
 0 0 23424
 S
@@ -849,11 +849,11 @@ lanterns dangle from the ceiling.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 0 0 23423
 D2
-~
+(null)~
 ~
 0 0 23425
 S
@@ -866,11 +866,11 @@ hide stands unfolded by the southern wall.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23424
 D1
-~
+(null)~
 ~
 0 0 23426
 S
@@ -885,11 +885,11 @@ smiling portrait of Arrilo himself hangs above the mantle.
 ~
 0 2097152 0
 D2
-~
+(null)~
 wooden~
 1 0 23427
 D3
-~
+(null)~
 ~
 0 0 23425
 S
@@ -901,7 +901,7 @@ wooden door to the north bars entrance to the manor.
 ~
 0 2097152 0
 D0
-~
+(null)~
 wooden~
 1 0 23426
 S
@@ -914,11 +914,11 @@ staircase to prevent nasty falls.
 ~
 0 2097152 0
 D2
-~
+(null)~
 ~
 0 0 23429
 D5
-~
+(null)~
 ~
 0 0 23422
 S
@@ -932,11 +932,11 @@ glass.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23428
 D2
-~
+(null)~
 ~
 0 0 23430
 S
@@ -952,11 +952,11 @@ the fireplace mantle is a framed painting of a... Radish.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 23429
 D3
-~
+(null)~
 ~
 0 0 23431
 S
@@ -973,11 +973,11 @@ ratus.
 ~
 0 2097160 0
 D0
-~
+(null)~
 secret~
 6 23409 23432
 D1
-~
+(null)~
 ~
 0 0 23430
 S
@@ -990,7 +990,7 @@ through your body while you are in Arrilo's secret storage room.
 ~
 0 2097152 0
 D2
-~
+(null)~
 secret~
 6 0 23431
 S
@@ -1019,49 +1019,55 @@ D 0 23415 1 0
 D 0 23416 2 0
 D 0 23431 0 2
 D 0 23432 2 2
-O 0 23400 0 23408
-M 0 23404 1 23409
-M 0 23405 1 23410
-M 0 23402 1 23411
-M 0 23403 1 23412
-M 0 23400 1 23413
-M 0 23401 1 23414
-M 0 23406 1 23416
-M 0 23407 1 23418
-E 0 23401 0 13
-M 0 23408 1 23419
-E 0 23402 0 17
-M 0 23409 1 23420
-M 0 23410 1 23423
-E 0 23403 0 16
-E 0 23404 0 6
-M 0 23411 1 23425
-E 0 23405 0 12
-M 0 23412 1 23429
-E 0 23406 0 11
-E 0 23407 0 16
-M 0 23413 1 23431
-E 0 23408 0 0
-E 0 23409 0 17
-E 0 23410 0 6
-O 0 23411 0 23432
-O 0 23412 0 23432
-O 0 23413 0 23432
-O 0 23414 0 23432
-O 0 23415 0 23432
-O 0 23416 0 23432
+O 0 23400 0 23408 A set of silver cell keys loaded to Supply Room
+M 0 23404 0 23409 Load a Great White Bat
+M 0 23405 0 23410 Load a large Anaconda
+M 0 23402 0 23411 Load a Black Abishia
+M 0 23403 0 23412 Load the Great Barbazo
+M 0 23400 0 23413 Load the Lord Tempest
+M 0 23401 0 23414 Load the Great Skrit
+M 0 23406 0 23416 Load a thief named Skayle
+M 0 23407 0 23418 Load Zeldon the Warrior
+E 0 23401 0 13 The belt of demonic desires is loaded around the waist of Zeldon the Warrior
+M 0 23408 0 23419 Load Sky
+E 0 23402 0 17 `wsky's guitar`w is loaded held in the hands of Sky
+M 0 23409 0 23420 Load a deaf servant
+M 0 23410 0 23423 Load Devlin Denor
+E 0 23403 0 16 A wicked twisted short sword is loaded wielded of Devlin Denor
+E 0 23404 0 6 A top hat is loaded over the head of Devlin Denor
+M 0 23411 0 23425 Load Twiglight the Comet
+E 0 23405 0 12 A black starry robe is loaded about the shoulders of Twiglight the Comet
+M 0 23412 0 23429 Load Boldor the henchman
+E 0 23406 0 11 A skull shield is loaded as a shield of Boldor the henchman
+E 0 23407 0 16 A double edged death-axe is loaded wielded of Boldor the henchman
+M 0 23413 0 23431 Load the evil Wizard Torlok
+E 0 23408 0 0 `wtorlok's evil eye`w is loaded as a light of the evil Wizard Torlok
+E 0 23409 0 17 A key to arrilo's storage room is loaded held in the hands of the evil Wizard Torlok
+E 0 23410 0 6 A wizard's hat is loaded over the head of the evil Wizard Torlok
+O 0 23411 0 23432 A staff of teleportation loaded to Arrilo's Secret Storage Room
+O 0 23412 0 23432 A scroll of location loaded to Arrilo's Secret Storage Room
+O 0 23413 0 23432 `wgloves of mental reaction`w loaded to Arrilo's Secret Storage Room
+O 0 23414 0 23432 Scroll of ethereal protection loaded to Arrilo's Secret Storage Room
+O 0 23415 0 23432 A pile of gold coins loaded to Arrilo's Secret Storage Room
+O 0 23416 0 23432 `wboots of `rrage`w loaded to Arrilo's Secret Storage Room
 S
 
 
 
 #PROGS
-M 23403 13
-M 23411 10
-M 23413 13
+M 23403 13 Offensive Mage Load to: the Great Barbazo
+M 23411 10 Offensive Cleric Load to: Twiglight the Comet
+M 23413 13 Offensive Mage Load to: the evil Wizard Torlok
 S
 
 
+
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

@@ -16,14 +16,14 @@ Diablo~
 A wicked creature who can heal his minions to fight for him.
 Type 'heal' for a list of spells.
 ~
-Shadow~
+unique~
 ABQVad DFPZ -1000 S
-125 0
+125 0 
 100 0 0 0 1d1+999 1d1+999 2d4+30 20
 -15 -15 -15 -15
 FHIK BCI 0 KNRS
 8 8 1 5000
-BCDL ABCDEGHIJK M unknown
+BCDL ABCDEGHIJK M 0
 #25701
 bob dark half *90*~
 Bob's Dark Half~
@@ -33,14 +33,14 @@ Protector to the Shrine of Darkness and enforcer of law in Darkmere. He
 is a large, big-muscled idiot who will slice up any intruders he sees
 without even a second thought.  
 ~
-Shadow~
+unique~
 ABTV DFJPVZ -1000 S
-90 200
+90 200 
 100 0 0 0 1d1+9999 1d1+9999 50d7+0 8
 -20 -20 -20 -20
 ACDEFHIKLNOT ABIP CDH NS
 8 8 1 300000
-CL ABCDEGHIJK H unknown
+CL ABCDEGHIJK H 0
 #25702
 cleric shopkeeper blue-hooded~
 a blue-hooded Cleric~
@@ -49,14 +49,14 @@ A blue-hooded Cleric acts as a shopkeeper.
 An old wise man with a long white beard. A blue cloak hangs around his
 body. He sells only to clerics and seems to be very wise.  
 ~
-Shadow~
+unique~
 ABQVd PZ 1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+499 1d1+49 18
 -20 -20 -20 -20
 0 BCDI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25703
 purple-hooded Paladin shopkeeper~
 a purple-hooded Paladin~
@@ -65,14 +65,14 @@ A purple-hooded Paladin stand behind a glass counter.
 This is an ordinary paladin who decided to go into business for himself. 
 He only admits paladins into his shop, and despises most others.  
 ~
-Shadow~
+unique~
 ABVd PZ 1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+9999 0d0+0 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25704
 red-hooded mage shopkeeper~
 a red-hooded Mage~
@@ -82,14 +82,14 @@ This mage looks angry all the time. He might kill you if you weren't a
 mage. He looks kind of weak physically speaking, but his powers should not
 be underestimated.  
 ~
-Shadow~
+unique~
 ABRVd PZ -100 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25705
 black-hooded avenger shopkeeper~
 a black-hooded Avenger~
@@ -98,14 +98,14 @@ A black-hooded Avenger sits behind the counter.
 This one is a sure-fire lunatic. You can see the vein bulging in his
 neck and he orders you to buy something or he'll kill you personally.  
 ~
-Shadow~
+unique~
 ABRVd PZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25706
 calorn cleric~
 Calorn~
@@ -116,14 +116,14 @@ himself to these rooms. He raises his eyes and you can tell that they are
 full of wisdom. His voice is old, and he looks close to death, but he has
 lived for more than three hundred years.  
 ~
-Shadow~
+unique~
 ABJKQVbd DFPZ 1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25707
 Sagron~
 Sagron~
@@ -133,14 +133,14 @@ An old, red-robed mage of the the old. He has become mentally unstable
 since his family was murdered by a gang of thieves. He now spends his life
 training mages to kill thieves.  
 ~
-Shadow~
+unique~
 ABJKRVbd DFPZ -1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25708
 Pithcus~
 Pithcus~
@@ -150,14 +150,14 @@ He is the once mighty warrior, now retired to help out young fighters.
 Judging from his appearance, it would be wise not to challenge him, as he is
 still in excellent condition.  
 ~
-Shadow~
+unique~
 ABJKTVbd DFPZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 18
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25709
 Mysten~
 Mysten~
@@ -166,14 +166,14 @@ Mysten, the Holy Crusader can help you become better at body and mind.
 A very wise warrior. He has studied in both fighting and clerical works.
 His wisdom and training will help you on your journey.  
 ~
-Shadow~
+unique~
 ABJKQTVbd DFPZ 1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25710
 shadow figure guildmaster~
 a shadowy figure~
@@ -181,14 +181,14 @@ A shadowy figure is serving as the guildmaster of Avengers.
 ~
 Too dark to tell.
 ~
-Shadow~
+unique~
 ABJKRTVbd DFPZ -1000 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25711
 shopkeeper armoror arogant~
 an arrogant armorer~
@@ -197,14 +197,14 @@ An arrogant armorer boasts some of the best armor.
 A fat man, very short at that. He keeps his nose in the air and despises
 all other shopkeepers. He keeps babbling about how good his armor is.  
 ~
-Shadow~
+unique~
 ABTVd PZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+999 1d1+999 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25712
 warrior shopkeeper~
 a warrior shopkeeper~
@@ -213,14 +213,14 @@ A warrior takes the part of shopkeeper.
 This man looks similar to the other warriors roaming the city streets. 
 He opened business in Darkmere hoping to attract more young adventurers.  
 ~
-Shadow~
+unique~
 ABTVd DFPZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+999 0d0+0 1d1+999 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25713
 devious henchman p10p~
 a devious henchman~
@@ -229,14 +229,14 @@ A devious henchman stands around waiting for its orders.
 A small man with an evil look about him. He isn't very tall and doesn't
 look trusting. His green eyes sparkles at your gold...  
 ~
-Shadow~
+unique~
 AHIS PZ 0 S
-10 15
+10 15 
 100 0 0 0 3d22+99 0d0+0 1d1+9 0
 4 4 4 4
 0 BI 0 S
 8 8 1 0
-ACHLMV ABCDEFGHIJK M unknown
+ACHLMV ABCDEFGHIJK M 0
 #25714
 henchman fighter p15p~
 a fighter henchman~
@@ -247,12 +247,12 @@ amount of damage but couldn't take as many hits.
 ~
 Human~
 AI V 0 S
-15 20
+15 20 
 100 0 0 0 5d30+100 0d0+0 3d5+10 0
 0 0 0 5
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #25715
 henchman loyal p20p~
 a loyal henchman~
@@ -262,12 +262,12 @@ A very loyal henchman, he will last you a while.
 ~
 Elf~
 AI J 0 S
-20 30
+20 30 
 100 0 0 0 6d40+200 0d0+0 4d5+10 0
 -2 -2 -2 4
 0 H B Z
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #25716
 dragonian henchman p30p~
 a dragonian henchman~
@@ -277,14 +277,14 @@ A strong half-dragon fighter. He has metalic armor over the human half
 of his body, and his red scales break through the rest. He snarls his teeth
 at passing people in a warning.  
 ~
-HalfDragon~
+unique~
 AI JTc 0 S
-30 55
+30 55 
 100 0 0 0 10d61+380 1d1+99 5d6+16 0
 -9 -9 -9 1
 M B PS 0
 8 8 1 0
-CHMZ ABCDEFGHJKLPQUX M unknown
+CHMZ ABCDEFGHJKLPQUX M 0
 #25717
 veteran bodyguard guard troll p60p~
 a Veteran Bodyguard~
@@ -296,12 +296,12 @@ clenches his fists, preparing for some unknown battle.
 ~
 Troll~
 AIT Jc 0 S
-60 70
+60 70 
 100 0 0 0 10d150+200 1d1+29 5d10+25 8
 -27 -27 -27 -9
-D 0 E HKP
+D 0 BE HKP
 8 8 1 0
-BMV ABCDEFGHIJKUV M unknown
+BMV ABCDEFGHIJKUV M 0
 #25719
 clerk ~
 the clerk~
@@ -310,14 +310,14 @@ The clerk sits behind the desk selling off henchmen.
 A small fellow, he deals in selling men to help you fight. He has a
 small stature and short-cut black hair.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 100000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25720
 thief master guldmaster Noradon T'on~
 Noradon T'on~
@@ -325,14 +325,14 @@ Noradon T'on, master thief, waits for you to ask of his assistance.
 ~
 A small man with a red bandana on. He is said to be the world greatest thief.
 ~
-Shadow~
+unique~
 ABJKbd PZ 0 S
-90 400
+90 400 
 100 0 0 0 1d1+0 1d1+0 1d1+0 0
 -40 -40 -40 -40
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25721
 brock twisted nightblade guildmaster~
 Brock the Twisted~
@@ -341,14 +341,14 @@ Brock the Twisted may be insane, but he can still help you with your skills.
 A young man around his twenties. He is highly unstable emotionally-wise,
 but he may still be of some service.  
 ~
-Shadow~
+unique~
 ABJKVbd DFPZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+999 0d0+0 0d0+0 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-ACHLMV ABCDEFGHIJK M unknown
+ACHLMV ABCDEFGHIJK M 0
 #25722
 thief shopkeeper man~
 a thief~
@@ -357,14 +357,14 @@ A small thief sits behind a crate selling supplies.
 A small thief with a bandana over his eye, probably because it's missing.
 He runs this old place you see.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1+1 0d0+0 1d1+1 0
 -20 -20 -20 -20
 0 BI 0 S
 8 8 1 5000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25723
 nightblade shopkeeper~
 a nightblade~
@@ -373,14 +373,14 @@ A nightblade acts as the shopkeeper.
 A nightblade like any other you could find walking down the street. He
 has on an all-black outfit, probably for sneaking around better.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 -40 -40 -40 -40
 0 BI 0 S
 8 8 1 500000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25724
 chef baker~
 the chef~
@@ -388,14 +388,14 @@ The chef sits behind the counter selling fine smelling pastry.
 ~
 A funny looking Italian man with a white chef's hat and a curled mustache.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 300
+90 300 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 -40 -40 -40 -40
 0 BI 0 S
 8 8 1 4500
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25725
 goldsmith smith ~
 the Goldsmith~
@@ -405,14 +405,14 @@ A very large shadow, about 8' tall. He has extremly large muscles,
 mainly for working on the weapons. His voice is deep and your chest
 vibrates when he talks. Kind of makes you scared.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 200
+90 200 
 100 0 0 0 1d1+0 0d0+0 0d0+0 0
 -40 -40 -40 -40
 0 BI 0 S
 8 8 1 0
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25726
 jeweller shopkeeper~
 the jeweller~
@@ -423,14 +423,14 @@ monicle over one eye and speaks in that very annoying manner, like he's
 talking through his nose. He keeps looking away as if he is better than
 you.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 400
+90 400 
 100 0 0 0 1d1+0 0d0+0 0d0+0 0
 -40 -40 -40 -40
 0 BI 0 S
 8 8 1 5000000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25727
 barkeep bartender shopkeeper clerk guy blah~
 the barkeep~
@@ -440,14 +440,14 @@ A neat middle-aged man with a perfectly ironed suit and a little french
 mustache, even though he is not french in the face. He mixes drinks quicker
 than anyone you have ever seen 
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 400
+90 400 
 100 0 0 0 1d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 BI 0 S
 8 8 1 1000000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25728
 dealer shopkeep~
 the dealer~
@@ -457,14 +457,14 @@ A large man, probably very stupid. He is very tall, and also very fat.
 You might want to check you reflection in his shiny bald head, but he may
 get mad...  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 BI 0 S
 8 8 1 10000000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25729
 Tito dealer~
 Tito the dealer~
@@ -474,14 +474,14 @@ A small excentric man. He has a very tan skin and has a great big bushy
 mustache. His black hair comes down to about shoulder-length and is dirty
 and unwashed. He talks fast and it is hard to understand him.  
 ~
-Shadow~
+unique~
 AVd PZ 0 S
-90 400
+90 400 
 100 0 0 0 1d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 BI 0 S
 8 8 1 100000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25730
 red-robed mage *15*~
 a red-robed mage~
@@ -490,14 +490,14 @@ A red-robed mage drudges along mumbling gibberish.
 A rather normal looking fellow in a red robe. The only thing strange is
 that none of his skin shows, but is hidden by his robe.  
 ~
-Shadow~
+unique~
 A PZ -1000 S
-15 20
+15 20 
 100 0 0 0 5d25+150 0d0+0 3d4+7 19
 0 0 0 5
 0 BI 0 S
 8 8 -1 500
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25731
 blue-hooded cleric *14*~
 a blue-hooded cleric~
@@ -506,14 +506,14 @@ A blue-hooded cleric silently passes you by.
 An older looking man with a long white beard. You can see his bright
 blue eyes when he looks up at you every now and again.  
 ~
-Shadow~
+unique~
 A PZ 1000 S
-14 17
+14 17 
 100 0 0 0 5d30+160 0d0+0 3d5+7 18
 0 0 0 5
 0 BI 0 S
 8 8 1 600
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25732
 noble paladin *21*~
 a noble paladin~
@@ -522,15 +522,14 @@ A noble paladin walks by, watching for when he can help out.
 A nobleman in a long, flowing purple cape. He talks in a very heroic
 voice and is always looking for bad guys to kill.  
 ~
-Shadow~
+unique~
 A NPZ 1000 S
-21 25
-100 0 0 0 5d30+150 0d0+0 3d8+4 0
+21 25 
+100 2 1 E 5d30+150 0d0+0 3d8+4 0
 -2 -2 -2 4
 P BI 0 S
 8 8 1 1000
-CL ABCDEGHIJK M unknown
-R 2 1 E 
+CL ABCDEGHIJK M 0
 #25733
 evil avenger *25*~
 an evil avenger~
@@ -539,14 +538,14 @@ An evil-looking avenger charges up a fireball as he passes by.
 A tall man in a dark, black cloak. He looks at you with evil eyes, as if
 he's plotting to kill you. Most of his features are hidden by his cloak.  
 ~
-Shadow~
+unique~
 A PZ -1000 S
-25 23
+25 23 
 100 0 0 0 3d20+250 0d0+0 4d5+12 19
 -5 -5 -5 2
 0 BI N S
 8 8 1 1500
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25734
 thief *10*~
 a thief~
@@ -555,14 +554,14 @@ A thief ducks in and out of the shadows.
 A thief clad in black garb. He is hard to see and makes a reach for your
 wallet. Kill him!  
 ~
-Shadow~
+unique~
 AHS PQZ -1000 S
-10 10
+10 10 
 100 0 0 0 3d20+80 0d0+0 3d4+9 0
 4 4 4 7
 0 BI 0 S
 8 8 -1 1004
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25735
 child pickpocket *15*~
 a pickpocket~
@@ -571,14 +570,14 @@ A small child eyes you cautiously.
 You notice a small child in the shadows, eyeing your pocketbook
 with particular interest.
 ~
-Shadow~
+unique~
 AS APQZ -300 S
-15 15
+15 15 
 100 0 0 0 5d30+130 3d3+4 7d7+10 22
 0 0 0 5
 0 BI 0 S
 8 8 -1 140
-ACHLMV ABCDEFGHIJK S unknown
+ACHLMV ABCDEFGHIJK S 0
 #25736
 pickpocket *20*~
 a sneaky pickpocket~
@@ -586,14 +585,14 @@ A sneaky pickpocket makes a quick grab for your wallet!
 ~
 A small homeless girl in raggy clothes.  
 ~
-Shadow~
+unique~
 AHS PQZ -1000 S
-20 35
+20 35 
 100 0 0 0 5d19+150 0d0+0 4d5+9 0
 -2 -2 -2 4
 0 BI 0 S
 8 8 2 2543
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25737
 jolly fat merchant *7*~
 a jolly fat merchant~
@@ -604,14 +603,14 @@ He waddles when he walks and his belly jiggles and wobbles. His face is
 covered by a large bushy white mustache and beard and his laugh is deep and
 bellowing.  
 ~
-Shadow~
+unique~
 A PZ 100 S
-7 3
+7 3 
 100 0 0 0 1d17+3 0d0+0 2d3+1 0
 10 10 10 10
 0 BI 0 S
 8 8 1 100
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25738
 Nick peddler~
 Nick the Peanut Peddler~
@@ -620,14 +619,14 @@ Nick the Peanut Peddler vends his way around.
 Good ol' Nick. He peddles peanuts no matter what the weather. He has a
 very cheery attitude and talks about how much peanuts help your body grow.  
 ~
-Shadow~
+unique~
 AVd PZ 0 S
-1 2
+1 2 
 100 0 0 0 1d1+0 0d0+0 1d1+1 0
 -10 -10 -10 -10
 0 BI 0 S
 8 8 1 0
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25739
 poor merchant *7*~
 a poor merchant~
@@ -636,14 +635,14 @@ A poor merchant tries to sell you his goods.
 You notice a fat man, in very cheap clothing. He begs you to buy from
 him, though his wares don't look too appealing...  
 ~
-Shadow~
+unique~
 AT PZ 3 S
-7 5
+7 5 
 100 0 0 0 2d30+5 1d1+1 2d20+5 9
 2 2 2 5
 0 BI 0 S
 8 8 1 3
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25740
 andrew bum *17*~
 Andrew the Bum~
@@ -653,14 +652,14 @@ An old bum looks kinda tough. His clothes are nothing more than cheap
 leather, mostly torn to shreds. He is around 50 years old and usually sits
 on the ground begging.  
 ~
-Shadow~
+unique~
 AC PZ -500 S
-17 15
+17 15 
 100 0 0 0 3d22+100 0d0+0 3d5+8 0
 4 4 4 10
 0 BI 0 S
 6 6 1 0
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25741
 merchant well-to-do *20*~
 a well-to-do merchant~
@@ -669,14 +668,14 @@ A well-to-do merchant tries to sell you his wares.
 This merchant doesn't look like such a bad guy. But he does look
 a tad bit sleezy...
 ~
-Shadow~
+unique~
 A PZ 200 S
-20 20
+20 20 
 100 0 0 0 30d2+200 1d1+1 2d2+20 0
 0 0 0 0
 0 BI 0 S
 8 8 1 3009
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25742
 darkmere cityguard elite guard *20*~
 a Darkmere cityguard~
@@ -687,14 +686,14 @@ and clad in full gear. To ensure only Darkmere guards get to wear the
 equipment, it fades away if they get killed or take it off. Only the sword
 remains.  
 ~
-Shadow~
+unique~
 AT DPZ 1000 S
-20 23
+20 23 
 100 0 0 0 5d35+140 0d0+0 3d5+10 0
 -2 -2 -2 -2
 CT BI 0 S
 8 8 -1 2000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25743
 darkmere gateman guard watchman *15*~
 a Darkmere gateman~
@@ -703,14 +702,14 @@ A Darkmere gateman watches out for intruders.
 He looks kind of tired. Apparently a 24-hour watch will do that to you. 
 He is a 6' tall shadow, a mindless droid who just sits there protecting.  
 ~
-Shadow~
+unique~
 ABT PZ 1000 S
-15 20
+15 20 
 100 0 0 0 5d33+120 0d0+0 5d5+7 0
 -2 -2 -2 4
 CT BI 0 S
 8 8 1 1205
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25744
 warrior burly *24*~
 a burly warrior~
@@ -719,14 +718,14 @@ A burly warrior brags about his latest win.
 A big macho guy who thinks he's God's gift to women. He struts around
 the city waving his sword all over the place.  
 ~
-Shadow~
+unique~
 AT PZ 200 S
-24 26
+24 26 
 100 0 0 0 10d60+300 0d0+0 5d4+11 0
 -9 -9 -9 0
 I BI 0 S
 8 8 1 4000
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25745
 lonely warrior *5*~
 a lonely warrior~
@@ -735,14 +734,14 @@ A lonely warrior mopes by.
 He looks puny and pathetic. Probably why he's crying. He drags his
 sword along the ground and keeps his head down.  
 ~
-Shadow~
+unique~
 AT PZ 1000 S
-5 3
+5 3 
 100 0 0 0 3d5+30 0d0+0 2d3+3 0
 10 10 10 10
 T BI 0 S
 8 8 1 302
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25746
 rabid fido *9*~
 a rabid fido~
@@ -753,12 +752,12 @@ the mouth and hungrily nips at your feet as you pass by.
 ~
 fido~
 AH PZ -1000 S
-9 7
+9 7 
 100 0 0 0 3d7+13 0d0+0 2d4+10 10
 30 30 30 30
 FR BI 0 CS
 8 8 0 1
-BCGLV ACDEFHJKQV M unknown
+BCGLV ACDEFHJKQV M 0
 #25747
 drowelf elf shopkeeper~
 an evil drowelf~
@@ -769,14 +768,14 @@ started a small rebellion by opening his own store against them. He used to
 work on the Tower but since it never got off ground floor, he went back
 underground and "disappeared".  
 ~
-DrowElf~
+unique~
 ABVd JZ -1000 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 -20 -20 -20 -20
 0 0 B SZ
 8 8 1 10000000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #25748
 shopkeeper antiques dealer~
 the Antiques Dealer~
@@ -791,12 +790,12 @@ old, confused man.
 ~
 Dwarf~
 ABVd J 0 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 -20 -20 -20 -20
-0 0 CL R
+0 0 CLQ R
 8 8 1 100000000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #25749
 taribius mage shopkeeper~
 Taribius~
@@ -806,14 +805,14 @@ A tall mage in a black robe. His face is shadowed but some features are
 vaguely noticible. He has a blue protective barrier around him, keeping him
 safe from harm.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 1000d1+0 0
 -10 -10 -10 -10
 0 BI 0 S
 8 8 1 100
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #25799
 dealer shopkeeper ~
 the dealer~
@@ -825,14 +824,14 @@ His hands are thin and his joints lanky. His face is thin as well, matching
 his body with a slender nose and chin, little cheeks from which the
 cheekbones stick out from, and small elf-like ears.  
 ~
-Shadow~
+unique~
 ABVd PZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1+0 0d0+0 1d1+0 0
 20 20 20 20
 0 BI 0 S
 8 8 1 100000
-ACHLMV ABCDEFGHIJK M unknown
+ACHLMV ABCDEFGHIJK M 0
 #0
 
 
@@ -847,9 +846,9 @@ unknown~
 A BD ACD AB E
 70 21 500000 P
 A
-1 3
-A
 13 100
+A
+1 3
 #25701
 fountain~
 a fountain~
@@ -867,9 +866,9 @@ unknown~
 C AC AC ABCDE C
 15 14 1000 P
 A
-1 -1
-A
 12 15
+A
+1 -1
 #25703
 five-headed snake mace vampiric~
 a five-headed snake mace~
@@ -879,11 +878,11 @@ unknown~
 C ABC BC ABCDE C
 22 15 3500 P
 A
-1 -1
+12 50
 A
 13 -50
 A
-12 50
+1 -1
 #25704
 mace destruction vampiric two-hands~
 the Mace of Destruction~
@@ -893,15 +892,15 @@ unknown~
 C BD D D CF
 55 17 350000 P
 A
-12 100
-A
-4 3
-A
-5 2
+13 -30
 A
 1 -1
 A
-13 -30
+5 2
+A
+4 3
+A
+12 100
 #25705
 cleric's cloak deception armor-neck~
 the Cloak of Deception~
@@ -911,11 +910,11 @@ unknown~
 D D D C 0
 17 4 1200 P
 A
-4 2
+5 1
 A
 12 25
 A
-5 1
+4 2
 #25706
 ring combined light armor-finger~
 a ring of combined light~
@@ -925,13 +924,13 @@ unknown~
 BD B 0 C 0
 21 2 30000 P
 A
-12 25
-A
-3 1
+5 -1
 A
 4 1
 A
-5 -1
+3 1
+A
+12 25
 #25707
 cleric's blue robe armor-body~
 a Cleric's blue robe~
@@ -941,11 +940,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-13 10
+18 2
 A
 12 15
 A
-18 2
+13 10
 #25708
 paladin's purple robe armor-body~
 a Paladin's purple robe~
@@ -955,11 +954,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-13 10
+18 2
 A
 12 15
 A
-18 2
+13 10
 #25709
 sword combined light vampiric~
 a sword of combined light~
@@ -969,13 +968,13 @@ unknown~
 A ABC AC CDE C
 21 16 1500 P
 A
-18 5
-A
-19 3
+3 1
 A
 4 1
 A
-3 1
+19 3
+A
+18 5
 #25710
 sword holy strength vorpal two-hands~
 the Sword of Holy Strength~
@@ -985,17 +984,17 @@ unknown~
 A BD D ABE EF
 50 19 350000 P
 A
-1 3
-A
-18 7
-A
-19 5
-A
-4 3
+2 -2
 A
 3 -2
 A
-2 -2
+4 3
+A
+19 5
+A
+18 7
+A
+1 3
 #25711
 warrior-in-a-bottle bottle potion-defend~
 a potion of Warrior-in-a-Bottle~
@@ -1023,11 +1022,11 @@ unknown~
 B AC AC ABD E
 15 13 500 P
 A
-5 1
+19 4
 A
 18 3
 A
-19 4
+5 1
 #25714
 dagger frost vampiric~
 the Frost Dagger~
@@ -1037,13 +1036,13 @@ unknown~
 B BC AC BCDE BC
 21 14 10000 P
 A
-18 5
-A
-13 -25
+19 2
 A
 3 1
 A
-19 2
+13 -25
+A
+18 5
 #25715
 dagger flame flaming vampiric~
 the Flame Dagger~
@@ -1053,15 +1052,15 @@ unknown~
 B D ABC ACDE AC
 45 14 375000 P
 A
-1 2
-A
-4 -1
-A
-3 -2
+18 5
 A
 19 3
 A
-18 5
+3 -2
+A
+4 -1
+A
+1 2
 #25716
 mage's red robe armor-body~
 a Mage's red robe~
@@ -1071,11 +1070,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-13 10
+18 2
 A
 12 15
 A
-18 2
+13 10
 #25717
 feathery pill pill-defend~
 a feathery pill~
@@ -1093,11 +1092,11 @@ unknown~
 A AC AC AB BD
 15 15 2000 P
 A
-18 3
+1 2
 A
 19 5
 A
-1 2
+18 3
 #25719
 stinging blade sword sharp vorpal~
 a stinging blade~
@@ -1107,11 +1106,11 @@ unknown~
 A D D BDE DE
 55 11 450000 P
 A
-18 5
+13 10
 A
 19 5
 A
-13 10
+18 5
 #25720
 avenger's black robe armor-body~
 an Avenger's black robe~
@@ -1121,11 +1120,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-13 10
+18 2
 A
 12 15
 A
-18 2
+13 10
 #25721
 onyx ring armor-finger~
 a small onyx ring~
@@ -1135,13 +1134,13 @@ unknown~
 C C B ABC 0
 49 1 200001 W
 A
-12 100
-A
-13 -70
+19 -4
 A
 18 -3
 A
-19 -4
+13 -70
+A
+12 100
 #25722
 steel rapier sword~
 a steel rapier~
@@ -1151,9 +1150,9 @@ unknown~
 A AC AC AB 0
 15 18 500 P
 A
-18 3
-A
 19 3
+A
+18 3
 #25723
 broadsword smashing sword~
 the Broadsword of Smashing~
@@ -1171,11 +1170,11 @@ unknown~
 A ABC ABC BCDE DE
 35 22 115000 P
 A
-13 15
+18 3
 A
 19 5
 A
-18 3
+13 15
 #25725
 bracer pithcus armor-wrist~
 bracer of Pithcus~
@@ -1195,11 +1194,11 @@ unknown~
 ABDE ABDE ABDE CE 0
 40 31 450000 P
 A
-18 6
+19 5
 A
 1 2
 A
-19 5
+18 6
 #25727
 shield pithcus armor-shield~
 the shield of Pithcus~
@@ -1209,9 +1208,9 @@ unknown~
 DE DE DE BE 0
 35 27 50000 P
 A
-18 6
-A
 13 50
+A
+18 6
 #25728
 gauntlets pithcus armor-hands~
 the gauntlets of Pithcus~
@@ -1221,9 +1220,9 @@ unknown~
 AE AE AE ACD 0
 35 17 35000 P
 A
-1 1
-A
 19 5
+A
+1 1
 #25729
 murderous bloody dagger vampiric sharp~
 a murderous bloody dagger~
@@ -1233,13 +1232,13 @@ unknown~
 B AC AC ABD CD
 21 9 15000 P
 A
-1 2
-A
-19 5
+18 6
 A
 5 -1
 A
-18 6
+19 5
+A
+1 2
 #25730
 small dagger~
 a small dagger~
@@ -1249,11 +1248,11 @@ unknown~
 B AB AC ABD 0
 7 5 100 P
 A
-5 1
+18 2
 A
 19 1
 A
-18 2
+5 1
 #25731
 dagger strength sharp~
 the Dagger of Strength~
@@ -1263,13 +1262,13 @@ unknown~
 B C AC ABD D
 15 11 500 P
 A
-4 -1
-A
-1 3
+18 5
 A
 19 2
 A
-18 5
+1 3
+A
+4 -1
 #25732
 dagger pain flaming vampiric~
 the Pain Dagger~
@@ -1279,15 +1278,15 @@ unknown~
 B AC BC ABD AC
 25 9 500 P
 A
-19 5
-A
-3 -1
-A
-1 3
+18 9
 A
 13 -50
 A
-18 9
+1 3
+A
+3 -1
+A
+19 5
 #25733
 cloth vest cloth-body~
 cloth vest~
@@ -1297,9 +1296,9 @@ unknown~
 0 0 0 0 0
 5 2 250 P
 A
-18 1
-A
 17 -4
+A
+18 1
 #25734
 vest cloth-body~
 a light vest~
@@ -1309,11 +1308,11 @@ unknown~
 0 0 0 0 0
 15 2 250 P
 A
-18 3
+17 -10
 A
 2 2
 A
-17 -10
+18 3
 #25735
 black boots armor-feet~
 a pair of black boots~
@@ -1323,13 +1322,13 @@ unknown~
 AD AD AD AB 0
 15 5 350 P
 A
-14 10
-A
-3 -1
+2 2
 A
 18 3
 A
-2 2
+3 -1
+A
+14 10
 #25736
 blade backstabbing dagger sharp~
 the Blade of Backstabbing~
@@ -1339,11 +1338,11 @@ unknown~
 B AB C ABD D
 10 10 100 P
 A
-1 1
+19 2
 A
 18 3
 A
-19 2
+1 1
 #25737
 all purpose weapon exotic sharp vorpal~
 the All-Purpose Weapon~
@@ -1353,17 +1352,17 @@ unknown~
 0 D BC BE DE
 35 27 300001 P
 A
-1 3
-A
-18 7
-A
-19 6
-A
-17 -10
+3 -1
 A
 4 -1
 A
-3 -1
+17 -10
+A
+19 6
+A
+18 7
+A
+1 3
 #25738
 big cookie dessert~
 a big cookie~
@@ -1397,13 +1396,13 @@ unknown~
 A ABD ABD AB EF
 82 53 7840000 P
 A
-1 -2
-A
-17 -50
+19 9
 A
 18 9
 A
-19 9
+17 -50
+A
+1 -2
 #25742
 goldenmace mace vampiric two-hands~
 the Goldenmace~
@@ -1413,13 +1412,13 @@ unknown~
 C ABD ABD ABC CF
 80 60 7320005 P
 A
-4 -1
-A
-17 -50
+19 9
 A
 18 9
 A
-19 9
+17 -50
+A
+4 -1
 #25743
 goldendagger dagger sharp vorpal~
 the Goldendagger~
@@ -1429,15 +1428,15 @@ unknown~
 B ABD ABD ABD DE
 79 45 6120000 P
 A
-3 -1
-A
-2 -2
-A
-17 -50
+18 9
 A
 19 9
 A
-18 9
+17 -50
+A
+2 -2
+A
+3 -1
 #25744
 black onyx broach treasure~
 an `Konyx `wbroach~
@@ -1447,13 +1446,13 @@ unknown~
 0 0 0 0 0
 35 2 200000 P
 A
-1 -2
-A
-2 -1
+13 10
 A
 4 -1
 A
-13 10
+2 -1
+A
+1 -2
 #25745
 ruby bracelet treasure~
 a `Rruby `wbracelet~
@@ -1463,11 +1462,11 @@ unknown~
 0 0 0 0 0
 35 4 50000 P
 A
-18 3
+19 3
 A
 17 -2
 A
-19 3
+18 3
 #25746
 emerald ring green treasure~
 an `Gemerald `wring~
@@ -1477,11 +1476,11 @@ unknown~
 0 0 0 0 0
 35 1 245000 P
 A
-3 1
+17 -3
 A
 4 1
 A
-17 -3
+3 1
 #25747
 gold ring armor-finger~
 a `ygold`w ring~
@@ -1491,11 +1490,11 @@ unknown~
 C AB C B 0
 35 4 15000 P
 A
-19 2
+17 -5
 A
 18 4
 A
-17 -5
+19 2
 #25748
 ring pithcus warrior armor-finger~
 the Ring of Pithcus~
@@ -1505,13 +1504,13 @@ unknown~
 AB C AB AB 0
 30 2 100000 P
 A
-1 1
-A
-19 3
+13 5
 A
 18 3
 A
-13 5
+19 3
+A
+1 1
 #25749
 bottle beer drink-beer~
 a bottle of beer~
@@ -1553,11 +1552,11 @@ unknown~
 A ABC AC ABCDE C
 21 21 250 P
 A
-3 -1
+19 3
 A
 18 5
 A
-19 3
+3 -1
 #25754
 darkened blade dagger sharp~
 a Darkened dagger blade~
@@ -1567,11 +1566,11 @@ unknown~
 B C BC B D
 20 4 2500 P
 A
-18 5
+12 5
 A
 19 5
 A
-12 5
+18 5
 #25755
 some thing exotic vampiric~
 some thing~
@@ -1581,15 +1580,15 @@ unknown~
 0 D AD A C
 55 31 20000 P
 A
-13 50
-A
-18 8
-A
-19 6
+1 -2
 A
 12 -100
 A
-1 -2
+19 6
+A
+18 8
+A
+13 50
 #25756
 sword sun sphere flaming~
 the Sword of the Sun Sphere~
@@ -1599,9 +1598,9 @@ unknown~
 0 ABC AD AB A
 45 18 7001 P
 A
-19 6
-A
 18 5
+A
+19 6
 #25757
 silver playtesting sword~
 a sliver playtesting sword~
@@ -1611,9 +1610,9 @@ unknown~
 A C AC AB 0
 8 10 75 P
 A
-19 1
-A
 18 3
+A
+19 1
 #25758
 dwarvish battle axe sharp~
 a Dwarven Battle Axe~
@@ -1623,9 +1622,9 @@ unknown~
 AC BC AC ADE D
 15 23 2500 P
 A
-1 1
-A
 18 10
+A
+1 1
 #25759
 spiked wristband armor-wrist~
 a spiked wristband~
@@ -1635,9 +1634,9 @@ unknown~
 A A A A 0
 4 3 15 P
 A
-13 2
-A
 19 1
+A
+13 2
 #25760
 bandana armor-head~
 a bandana~
@@ -1647,9 +1646,9 @@ unknown~
 B C A B 0
 7 1 10 P
 A
-18 2
-A
 19 1
+A
+18 2
 #25761
 can peanuts container~
 a can of peanuts~
@@ -1679,9 +1678,9 @@ unknown~
 A AC AC AB 0
 15 10 30 P
 A
-18 3
-A
 19 1
+A
+18 3
 #25764
 acidic blade sword vampiric~
 an acidic blade~
@@ -1691,9 +1690,9 @@ unknown~
 A AD BD ABCDE C
 50 25 500000 A
 A
-18 3
-A
 19 6
+A
+18 3
 #25765
 pipe fountain~
 a leaky pipe~
@@ -1711,19 +1710,19 @@ unknown~
 A AD BD ABCDE CD
 60 40 750000 P
 A
-12 -35
-A
-4 -1
-A
-2 -1
-A
-1 2
-A
-18 9
+13 75
 A
 19 9
 A
-13 75
+18 9
+A
+1 2
+A
+2 -1
+A
+4 -1
+A
+12 -35
 #25767
 armor injustice armor-body~
 the Armor of Injustice~
@@ -1733,13 +1732,13 @@ unknown~
 ADE ADE ADE CE 0
 50 45 200000 P
 A
-4 1
-A
-2 1
+19 9
 A
 18 9
 A
-19 9
+2 1
+A
+4 1
 #25768
 gauntlets evil incarnate armor-hands~
 the Gauntlets of the Evil Incarnate~
@@ -1749,13 +1748,13 @@ unknown~
 ADE ADE ADE CE 0
 50 23 200000 P
 A
-18 5
-A
-19 5
+1 2
 A
 13 50
 A
-1 2
+19 5
+A
+18 5
 #25769
 bracer pure evil armor-wrist~
 the Bracer of Pure Evil~
@@ -1765,13 +1764,13 @@ unknown~
 BE BE BE BD 0
 50 14 200000 P
 A
-2 1
-A
-18 5
+4 1
 A
 19 5
 A
-4 1
+18 5
+A
+2 1
 #25770
 ring darkened heart armor-finger~
 the Ring of the Darkened Heart~
@@ -1781,13 +1780,13 @@ unknown~
 BC BC BC AB 0
 50 4 150000 P
 A
-4 2
-A
-13 20
+19 5
 A
 17 -10
 A
-19 5
+13 20
+A
+4 2
 #25771
 boots speed armor-feet~
 the Boots of Speed~
@@ -1797,13 +1796,13 @@ unknown~
 ABCD ABCD ABCD D 0
 50 15 500000 P
 A
-14 100
-A
-18 3
+2 3
 A
 1 -1
 A
-2 3
+18 3
+A
+14 100
 #25772
 enchanted gloves mordo armor-hands~
 the Enchanted Gloves of Mordo~
@@ -1813,13 +1812,13 @@ unknown~
 ABCD ADE ADE CE 0
 60 20 250000 P
 A
-13 15
-A
-19 7
+2 2
 A
 18 4
 A
-2 2
+19 7
+A
+13 15
 #25773
 icon defender rook light~
 the Icon of the Defender~
@@ -1829,11 +1828,11 @@ unknown~
 0 0 10000 0 0
 85 5 10000000 P
 A
-17 -50
+19 8
 A
 18 10
 A
-19 8
+17 -50
 #25774
 black wave destruction death sentence exotic vorpal two-hands~
 the `KD`re`Ka`rt`Kh`w Sentence~
@@ -1843,13 +1842,13 @@ unknown~
 0 BD ACD A EF
 85 21 20000000 P
 A
-13 30
-A
-19 13
+2 -2
 A
 18 15
 A
-2 -2
+19 13
+A
+13 30
 #25775
 wand-self chaos device~
 a Chaos Device~
@@ -1900,13 +1899,13 @@ unknown~
 AC ABD ABD ADE DF
 80 59 6580000 P
 A
-1 -3
-A
-17 -50
+19 9
 A
 18 9
 A
-19 9
+17 -50
+A
+1 -3
 #25780
 wall ring armor-finger~
 a wall ring~
@@ -1916,17 +1915,17 @@ unknown~
 0 0 0 DF 0
 75 1 2500000 P
 A
-1 -1
-A
-3 -1
-A
-4 -1
-A
-2 -1
+24 -35
 A
 5 -1
 A
-24 -35
+2 -1
+A
+4 -1
+A
+3 -1
+A
+1 -1
 E
 ring~
 The ring eminates a green barrier, good for deflectinh magic attacks.  
@@ -1974,13 +1973,13 @@ unknown~
 A ABC BC ACDE A
 30 24 150000 P
 A
-5 -1
-A
-1 3
+18 13
 A
 19 -6
 A
-18 13
+1 3
+A
+5 -1
 #25798
 counteracts sword frost~
 the Counteracts~
@@ -1990,13 +1989,13 @@ unknown~
 A ABC BC BCDE B
 30 24 150000 P
 A
-19 13
-A
-18 -6
+5 3
 A
 1 -1
 A
-5 3
+18 -6
+A
+19 13
 #25799
 black elite issue helmet armor-head~
 an elite issue helmet~
@@ -2006,9 +2005,9 @@ unknown~
 BC BC BC AB 0
 15 15 0 P
 A
-13 10
-A
 18 2
+A
+13 10
 #0
 
 
@@ -2023,19 +2022,19 @@ square has been rather vacant due to the thieving.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25714
 D1
-~
+(null)~
 ~
 0 0 25701
 D2
-~
+(null)~
 ~
 1 0 25708
 D3
-~
+(null)~
 ~
 0 0 25702
 S
@@ -2049,15 +2048,15 @@ sign above the door reading 'Goldsmith.  '
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25756
 D2
-~
+(null)~
 ~
 0 0 25707
 D3
-~
+(null)~
 ~
 0 0 25700
 S
@@ -2072,15 +2071,15 @@ streets.
 ~
 0 2359297 1
 D1
-~
+(null)~
 ~
 0 0 25700
 D2
-~
+(null)~
 ~
 0 0 25703
 D3
-~
+(null)~
 ~
 0 0 25757
 S
@@ -2093,19 +2092,19 @@ leading into the failed Tower of Darkmere.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25702
 D1
-~
+(null)~
 ~
 1 0 25708
 D2
-~
+(null)~
 ~
 0 0 25704
 D3
-~
+(null)~
 ~
 0 0 25709
 S
@@ -2118,15 +2117,15 @@ the south, while market square continues on east and north.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25703
 D1
-~
+(null)~
 ~
 0 0 25705
 D2
-~
+(null)~
 ~
 0 0 25748
 S
@@ -2139,19 +2138,19 @@ Darkmere can be seen in all its disgrace.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 1 0 25708
 D1
-~
+(null)~
 ~
 0 0 25706
 D2
-~
+(null)~
 ~
 0 0 25722
 D3
-~
+(null)~
 ~
 0 0 25704
 S
@@ -2163,15 +2162,15 @@ the city send chills down your spine.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25707
 D1
-~
+(null)~
 ~
 0 0 25758
 D3
-~
+(null)~
 ~
 0 0 25705
 S
@@ -2184,19 +2183,19 @@ darkness.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25701
 D1
-~
+(null)~
 ~
 0 0 25718
 D2
-~
+(null)~
 ~
 0 0 25706
 D3
-~
+(null)~
 ~
 1 0 25708
 S
@@ -2210,23 +2209,23 @@ uneven, never having been torn down. Exit doors lead in all directions.
 ~
 0 2097153 0
 D0
-~
+(null)~
 ~
 1 0 25700
 D1
-~
+(null)~
 ~
 1 0 25707
 D2
-~
+(null)~
 ~
 1 0 25705
 D3
-~
+(null)~
 ~
 1 0 25703
 D5
-~
+(null)~
 ~
 7 0 25784
 S
@@ -2240,19 +2239,19 @@ underground into the magic guilds.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25710
 D1
-~
+(null)~
 ~
 0 0 25703
 D2
-~
+(null)~
 ~
 0 0 25711
 D3
-~
+(null)~
 ~
 0 0 25725
 D5
@@ -2269,11 +2268,11 @@ the shadow-like fog to swirl and collect about your feet.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25712
 D1
-~
+(null)~
 ~
 0 0 25737
 D2
@@ -2282,7 +2281,7 @@ The Center of Shadows is south of here.
 ~
 0 0 25709
 D3
-~
+(null)~
 ~
 0 0 25736
 S
@@ -2295,19 +2294,19 @@ converse. To the east is a weird shop run by a black-hooded Avenger.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25709
 D1
-~
+(null)~
 ~
 0 0 25739
 D2
-~
+(null)~
 ~
 0 0 25724
 D3
-~
+(null)~
 ~
 0 0 25738
 S
@@ -2320,11 +2319,11 @@ to be a high target for violence.
 ~
 0 2359297 1
 D1
-~
+(null)~
 ~
 0 0 25713
 D2
-~
+(null)~
 ~
 0 0 25710
 S
@@ -2336,15 +2335,15 @@ old, run-down warehouse.
 ~
 0 2359297 1
 D1
-~
+(null)~
 ~
 0 0 25714
 D2
-~
+(null)~
 ~
 0 0 25753
 D3
-~
+(null)~
 ~
 0 0 25712
 S
@@ -2357,19 +2356,19 @@ Down, an open manhole serves as the entrance into the guild of thieves.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25730
 D1
-~
+(null)~
 ~
 0 0 25715
 D2
-~
+(null)~
 ~
 0 0 25700
 D3
-~
+(null)~
 ~
 0 0 25713
 D5
@@ -2392,15 +2391,15 @@ lamp~
 A fallen street lamp lies across the road, broken in two.  
 ~
 D1
-~
+(null)~
 ~
 0 0 25716
 D2
-~
+(null)~
 ~
 0 0 25754
 D3
-~
+(null)~
 ~
 0 0 25714
 S
@@ -2433,15 +2432,15 @@ trade.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25716
 D2
-~
+(null)~
 ~
 0 0 25718
 D3
-~
+(null)~
 ~
 0 0 25755
 S
@@ -2453,19 +2452,19 @@ the east is a gated entrance to the city.
 ~
 0 2359297 0
 D0
-~
+(null)~
 ~
 0 0 25717
 D1
-~
+(null)~
 ~
 0 0 25732
 D2
-~
+(null)~
 ~
 0 0 25719
 D3
-~
+(null)~
 ~
 0 0 25707
 S
@@ -2478,11 +2477,11 @@ black market. Stairs lead down to an underground shop.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25718
 D2
-~
+(null)~
 ~
 0 0 25720
 D3
@@ -2491,7 +2490,7 @@ That is the black market know for ripping off good weapons.
 ~
 0 0 25759
 D5
-~
+(null)~
 ~
 7 0 25799
 S
@@ -2504,11 +2503,11 @@ badger you for money.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25719
 D3
-~
+(null)~
 ~
 0 0 25721
 S
@@ -2521,15 +2520,15 @@ here is a brightly lit street corner.
 ~
 0 2359297 1
 D1
-~
+(null)~
 ~
 0 0 25720
 D2
-~
+(null)~
 ~
 0 0 25747
 D3
-~
+(null)~
 ~
 0 0 25722
 S
@@ -2543,19 +2542,19 @@ side of a building with a crunched wall leads to a warrior's guild.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25705
 D1
-~
+(null)~
 ~
 0 0 25721
 D2
-~
+(null)~
 ~
 0 0 25734
 D3
-~
+(null)~
 ~
 0 0 25723
 D5
@@ -2573,15 +2572,15 @@ east and west as far as the eye can see.
 ~
 0 2359297 1
 D1
-~
+(null)~
 ~
 0 0 25722
 D2
-~
+(null)~
 ~
 0 0 25743
 D3
-~
+(null)~
 ~
 0 0 25724
 S
@@ -2636,11 +2635,11 @@ westward, out past the city walls.
 ~
 0 2359300 1
 D1
-~
+(null)~
 gate~
 1 0 25725
 D3
-~
+(null)~
 ~
 0 0 25761
 S
@@ -2658,7 +2657,7 @@ North is the Shrine of Darkness.
 ~
 0 0 25728
 D2
-~
+(null)~
 ~
 0 0 25725
 D5
@@ -2723,7 +2722,7 @@ It's the city gate, dummy!
 gate~
 1 0 25731
 D2
-~
+(null)~
 ~
 0 0 25714
 S
@@ -2735,11 +2734,11 @@ dark clouds over the city's limits. A small dimly lit path leads north.
 ~
 0 2359300 1
 D0
-~
+(null)~
 ~
 0 0 25786
 D2
-~
+(null)~
 gate~
 1 0 25730
 S
@@ -2751,11 +2750,11 @@ across the large wooden gates.
 ~
 0 2359297 1
 D1
-~
+(null)~
 gate~
 1 0 25733
 D3
-~
+(null)~
 ~
 0 0 25718
 S
@@ -2768,7 +2767,7 @@ wooden gates to the city are to the west.
 ~
 0 2359300 1
 D3
-~
+(null)~
 gate~
 1 0 25732
 S
@@ -2780,11 +2779,11 @@ to be stressed out from a rather monotonous job.
 ~
 0 2359297 1
 D0
-~
+(null)~
 ~
 0 0 25722
 D2
-~
+(null)~
 gate~
 1 0 25735
 S
@@ -2796,11 +2795,11 @@ further away from the town.
 ~
 0 2359300 1
 D0
-~
+(null)~
 gate~
 1 0 25734
 D2
-~
+(null)~
 ~
 0 0 25772
 S
@@ -2812,7 +2811,7 @@ sits behind the glass counter.
 ~
 0 10747912 1
 D1
-~
+(null)~
 ~
 0 0 25710
 S
@@ -2824,7 +2823,7 @@ potions especially for the noble paladin.
 ~
 0 69468160 1
 D3
-~
+(null)~
 ~
 0 0 25710
 S
@@ -2837,7 +2836,7 @@ hanging on hooks behind the counter.
 ~
 0 6553608 1
 D1
-~
+(null)~
 ~
 0 0 25711
 S
@@ -2849,7 +2848,7 @@ get out. A threat with a blast and decapitation hurries your decision.
 ~
 0 136577032 1
 D3
-~
+(null)~
 ~
 0 0 25711
 S
@@ -2861,23 +2860,23 @@ Avenger's Guild.
 ~
 0 2359308 1
 D0
-~
+(null)~
 ~
 0 0 25741
 D1
-~
+(null)~
 ~
 0 0 25744
 D2
-~
+(null)~
 ~
 0 0 25742
 D3
-~
+(null)~
 ~
 0 0 25745
 D4
-~
+(null)~
 ~
 0 0 25709
 S
@@ -2889,7 +2888,7 @@ practice your training, and to enhance your skills and knowledge.
 ~
 0 10747912 0
 D2
-~
+(null)~
 ~
 0 0 25740
 S
@@ -2902,7 +2901,7 @@ fills your body with a renewed strength.
 ~
 0 6553608 0
 D0
-~
+(null)~
 ~
 0 0 25740
 S
@@ -2915,7 +2914,7 @@ top.
 ~
 0 35913736 1
 D0
-~
+(null)~
 ~
 0 0 25723
 S
@@ -2926,7 +2925,7 @@ figure. You suspect he is the guildmaster.
 ~
 0 136577032 0
 D3
-~
+(null)~
 ~
 0 0 25740
 S
@@ -2938,7 +2937,7 @@ become better at your faith and your strength.
 ~
 0 69468168 0
 D1
-~
+(null)~
 ~
 0 0 25740
 S
@@ -2952,7 +2951,7 @@ believe that he may yet fight again one day.
 ~
 0 35913737 0
 D4
-~
+(null)~
 ~
 0 0 25722
 S
@@ -2965,11 +2964,11 @@ too.
 ~
 0 35913736 1
 D0
-~
+(null)~
 ~
 0 0 25721
 D2
-~
+(null)~
 ~
 7 0 25760
 S
@@ -2982,13 +2981,13 @@ wealth.
 ~
 0 2101257 0
 D0
-~
+(null)~
 ~
 0 0 25704
 S
 #25749
 Backroom of the Stop and Shop, Henchmen 'R Us!~
-~
+(null)~
 0 1085444 0
 S
 #25750
@@ -3000,15 +2999,15 @@ light the passageway quite well.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 25752
 D3
-~
+(null)~
 ~
 0 0 25751
 D4
-~
+(null)~
 ~
 0 0 25714
 S
@@ -3020,7 +3019,7 @@ muttering gibberish. It seems hard to believe he is a guildmaster.
 ~
 0 270532616 0
 D1
-~
+(null)~
 ~
 0 0 25750
 S
@@ -3037,7 +3036,7 @@ The floor around the corner of the room is dusty, but you can make out
 what appears to be a trapdoor.  
 ~
 D2
-~
+(null)~
 ~
 0 0 25750
 S
@@ -3050,7 +3049,7 @@ sitting behind a larger crate.
 ~
 0 18874376 0
 D0
-~
+(null)~
 ~
 0 0 25713
 S
@@ -3066,7 +3065,7 @@ box~
 Hey man! Don't rag on th' box!  
 ~
 D0
-~
+(null)~
 ~
 0 0 25715
 S
@@ -3078,7 +3077,7 @@ in a tall white hat sits behind the counter.
 ~
 0 2359305 1
 D1
-~
+(null)~
 ~
 0 0 25717
 S
@@ -3090,7 +3089,7 @@ melt them into weapons for you.
 ~
 0 2359305 1
 D2
-~
+(null)~
 ~
 0 0 25701
 S
@@ -3103,7 +3102,7 @@ watching you with an anxious gleam in his eyes.
 ~
 0 2359305 1
 D1
-~
+(null)~
 ~
 0 0 25702
 S
@@ -3118,7 +3117,7 @@ dispense drinks.
 ~
 0 2097161 1
 D3
-~
+(null)~
 ~
 0 0 25706
 S
@@ -3130,7 +3129,7 @@ lower price.
 ~
 0 2359304 1
 D1
-~
+(null)~
 ~
 0 0 25719
 S
@@ -3147,7 +3146,7 @@ sword~
 A sword on the wall has a frozen blade and looks mighty powerful.  
 ~
 D0
-~
+(null)~
 ~
 7 0 25747
 S
@@ -3165,11 +3164,11 @@ because from now on you won't be seeing it. A curse was cast on this
 God-foresaken town, casting it in eternal darkness. Enjoy!  
 ~
 D1
-~
+(null)~
 ~
 0 0 25726
 D3
-~
+(null)~
 ~
 0 0 25762
 S
@@ -3198,11 +3197,11 @@ sign~
 `K....___/====--===\_____/====-_____..__/==\`w
 ~
 D1
-~
+(null)~
 ~
 0 0 25761
 D3
-~
+(null)~
 ~
 0 0 25763
 S
@@ -3214,11 +3213,11 @@ the ocean floor and the waves splash your face.
 ~
 0 0 6
 D1
-~
+(null)~
 ~
 0 0 25762
 D3
-~
+(null)~
 ~
 0 0 25764
 S
@@ -3229,11 +3228,11 @@ except a small land mass faintly visible to the east.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25763
 D3
-~
+(null)~
 ~
 0 0 25765
 S
@@ -3245,11 +3244,11 @@ water is dark and the ocean floor is completely out of site.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25764
 D3
-~
+(null)~
 ~
 0 0 25766
 S
@@ -3262,11 +3261,11 @@ bobs along helplessly.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25765
 D3
-~
+(null)~
 ~
 0 0 25768
 S
@@ -3277,11 +3276,11 @@ water, except to the west, where a small land mass is visible.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25768
 D3
-~
+(null)~
 ~
 0 0 25769
 S
@@ -3292,11 +3291,11 @@ is a barely visible land mass.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25766
 D3
-~
+(null)~
 ~
 0 0 25767
 S
@@ -3307,11 +3306,11 @@ of some sort can be seen, and further along is a large city.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25767
 D3
-~
+(null)~
 ~
 0 0 25770
 S
@@ -3323,11 +3322,11 @@ nothing for the eye but water.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25769
 D3
-~
+(null)~
 ~
 0 0 25771
 S
@@ -3338,11 +3337,11 @@ west, and a sign can be seen on it. All around elsewhere is water.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25770
 D3
-~
+(null)~
 ~
 0 0 22210
 S
@@ -3354,11 +3353,11 @@ town is a shroud of Darkness.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 25735
 D2
-~
+(null)~
 ~
 0 0 25773
 S
@@ -3370,11 +3369,11 @@ seems to be full of life.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 25772
 D2
-~
+(null)~
 ~
 0 0 25774
 S
@@ -3386,11 +3385,11 @@ hillside.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 25773
 D2
-~
+(null)~
 ~
 0 0 25775
 S
@@ -3401,11 +3400,11 @@ to some more forested areas and south heads into yet more hills.
 ~
 0 0 4
 D0
-~
+(null)~
 ~
 0 0 25774
 D2
-~
+(null)~
 ~
 0 0 25776
 S
@@ -3417,11 +3416,11 @@ in heavy still clouds.
 ~
 0 0 4
 D0
-~
+(null)~
 ~
 0 0 25775
 D3
-~
+(null)~
 ~
 0 0 25777
 S
@@ -3434,11 +3433,11 @@ over by rolling stones.
 ~
 0 0 4
 D1
-~
+(null)~
 ~
 0 0 25776
 D3
-~
+(null)~
 ~
 0 0 25778
 S
@@ -3450,11 +3449,11 @@ treaded path continues west and east.
 ~
 0 0 2
 D1
-~
+(null)~
 ~
 0 0 25777
 D3
-~
+(null)~
 ~
 0 0 25779
 S
@@ -3466,11 +3465,11 @@ fields while to your west are the crossroads east of Daggerford.
 ~
 0 0 2
 D1
-~
+(null)~
 ~
 0 0 25778
 D3
-~
+(null)~
 ~
 0 0 22501
 S
@@ -3484,11 +3483,11 @@ leak and water spews from it.
 ~
 0 9 0
 D1
-~
+(null)~
 ~
 0 0 25781
 D4
-~
+(null)~
 ~
 7 0 25727
 S
@@ -3500,11 +3499,11 @@ appears to be a room of sorts.
 ~
 0 9 0
 D1
-~
+(null)~
 ~
 0 0 25782
 D3
-~
+(null)~
 ~
 0 0 25780
 S
@@ -3522,11 +3521,11 @@ banner~
 DEATH TO {FOT}!!!!!!  
 ~
 D1
-~
+(null)~
 ~
 0 0 25783
 D3
-~
+(null)~
 ~
 0 0 25781
 S
@@ -3538,11 +3537,11 @@ with a few torches lit.
 ~
 0 2097161 0
 D1
-~
+(null)~
 ~
 0 0 25784
 D3
-~
+(null)~
 ~
 0 0 25782
 S
@@ -3554,11 +3553,11 @@ west. Up is the lobby of the "tower".
 ~
 0 2097161 0
 D3
-~
+(null)~
 ~
 0 0 25783
 D4
-~
+(null)~
 ~
 7 0 25708
 S
@@ -3571,7 +3570,7 @@ garbed only in a black robe stands there.
 ~
 0 0 0
 D4
-~
+(null)~
 ~
 7 0 25799
 S
@@ -3583,11 +3582,11 @@ north leads to an ocean.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 25787
 D2
-~
+(null)~
 ~
 0 0 25731
 S
@@ -3599,11 +3598,11 @@ against your leg.
 ~
 0 0 6
 D0
-~
+(null)~
 ~
 0 0 25788
 D2
-~
+(null)~
 ~
 0 0 25786
 S
@@ -3614,11 +3613,11 @@ all around elsewhere is water.
 ~
 0 0 7
 D0
-~
+(null)~
 ~
 0 0 25789
 D2
-~
+(null)~
 ~
 0 0 25787
 S
@@ -3630,11 +3629,11 @@ is a smaller one.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25790
 D2
-~
+(null)~
 ~
 0 0 25788
 S
@@ -3644,11 +3643,11 @@ You are in the water of an ocean. East of here is a small island.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 25791
 D3
-~
+(null)~
 ~
 0 0 25789
 S
@@ -3660,11 +3659,11 @@ shade.
 ~
 0 512 10
 D3
-~
+(null)~
 ~
 0 0 25790
 D4
-~
+(null)~
 ~
 0 0 25792
 S
@@ -3675,7 +3674,7 @@ the horizon all there is to see are the endless waves of this ocean.
 ~
 0 2048 5
 D5
-~
+(null)~
 ~
 0 0 25791
 S
@@ -3688,7 +3687,7 @@ to a slightly smaller room.
 ~
 0 2097164 0
 D4
-~
+(null)~
 ~
 7 0 25719
 D5
@@ -3714,217 +3713,218 @@ D 0 25708 5 0
 D 0 25727 5 0
 D 0 25780 4 0
 D 0 25784 4 0
-M 0 25742 10 25700
-E 0 25763 0 16
-M 0 25746 20 25701
-M 0 25746 20 25702
-M 0 25729 1 25702
-G 0 25797 0
-M 0 25742 10 25703
-E 0 25763 0 16
-M 0 25746 20 25704
-M 0 25742 1 25705
-E 0 25763 0 16
-M 0 25746 20 25706
-M 0 25742 10 25707
-E 0 25763 0 16
-M 0 25742 10 25709
-E 0 25763 0 16
-M 0 25733 2 25709
-M 0 25732 5 25709
-M 0 25731 5 25709
-M 0 25730 5 25709
-M 0 25732 5 25710
-M 0 25731 5 25710
-M 0 25730 5 25710
-M 0 25733 2 25711
-M 0 25732 5 25711
-M 0 25731 5 25711
-M 0 25730 5 25711
-M 0 25742 10 25713
-E 0 25763 0 16
-M 0 25734 3 25713
-E 0 25760 0 6
-M 0 25735 3 25713
-M 0 25736 3 25713
-E 0 25759 0 14
-M 0 25734 3 25714
-E 0 25760 0 6
-M 0 25735 3 25714
-M 0 25736 3 25714
-E 0 25759 0 15
-M 0 25734 3 25715
-E 0 25760 0 6
-M 0 25735 3 25715
-M 0 25736 3 25715
-E 0 25759 0 14
-M 0 25742 1 25716
-E 0 25763 0 16
-P 0 25762 0 25761
-M 0 25737 3 25717
-M 0 25739 3 25717
-M 0 25741 5 25717
-M 0 25738 1 25718
-G 0 25762 0
-M 0 25737 3 25718
-M 0 25739 3 25718
-M 0 25741 4 25718
-M 0 25737 3 25719
-M 0 25739 3 25719
-M 0 25740 1 25719
-M 0 25741 5 25719
-M 0 25744 6 25721
-M 0 25745 6 25721
-M 0 25744 6 25722
-M 0 25745 6 25722
-M 0 25742 10 25723
-E 0 25763 0 16
-M 0 25744 6 25723
-M 0 25745 6 25723
-M 0 25743 4 25726
-O 0 25701 0 25727
-M 0 25701 1 25728
-E 0 25700 0 16
-M 0 25700 1 25729
-E 0 25781 0 17
-M 0 25743 4 25731
-M 0 25743 4 25733
-M 0 25743 4 25735
-M 0 25702 1 25736
-G 0 25706 0
-G 0 25705 0
-G 0 25707 0
-G 0 25702 0
-G 0 25703 0
-G 0 25704 0
-M 0 25703 1 25737
-G 0 25711 0
-G 0 25708 0
-G 0 25709 0
-G 0 25706 0
-G 0 25710 0
-M 0 25704 1 25738
-G 0 25717 0
-G 0 25716 0
-G 0 25776 0
-G 0 25775 0
-G 0 25712 0
-G 0 25713 0
-G 0 25714 0
-G 0 25715 0
-M 0 25705 1 25739
-G 0 25720 0
-G 0 25721 0
-G 0 25718 0
-G 0 25729 0
-G 0 25719 0
-M 0 25706 1 25741
-M 0 25707 1 25742
-M 0 25712 1 25743
-G 0 25722 0
-G 0 25723 0
-G 0 25724 0
-M 0 25710 1 25744
-M 0 25709 1 25745
-M 0 25708 1 25746
-M 0 25711 1 25747
-G 0 25728 0
-G 0 25727 0
-G 0 25726 0
-G 0 25771 0
-M 0 25719 1 25748
-M 0 25713 1 25749
-M 0 25714 1 25749
-M 0 25715 1 25749
-M 0 25716 1 25749
-M 0 25717 1 25749
-M 0 25721 1 25751
-M 0 25720 1 25752
-M 0 25722 1 25753
-G 0 25730 0
-G 0 25731 0
-G 0 25732 0
-G 0 25733 0
-G 0 25734 0
-G 0 25735 0
-G 0 25775 0
-G 0 25772 0
-M 0 25723 1 25754
-G 0 25735 0
-G 0 25734 0
-G 0 25733 0
-G 0 25736 0
-G 0 25737 0
-M 0 25724 1 25755
-G 0 25738 0
-G 0 25739 0
-G 0 25740 0
-G 0 25782 0
-G 0 25796 0
-M 0 25725 1 25756
-G 0 25741 0
-G 0 25742 0
-G 0 25743 0
-G 0 25779 0
-M 0 25726 1 25757
-G 0 25780 0
-G 0 25745 0
-G 0 25744 0
-G 0 25746 0
-G 0 25747 0
-G 0 25748 0
-G 0 25778 0
-M 0 25727 1 25758
-G 0 25749 0
-G 0 25750 0
-G 0 25751 0
-G 0 25752 0
-M 0 25728 1 25759
-G 0 25753 0
-G 0 25754 0
-G 0 25755 0
-G 0 25764 0
-G 0 25756 0
-G 0 25757 0
-G 0 25758 0
-M 0 25799 1 25760
-G 0 25798 0
-O 0 25765 0 25780
-M 0 25747 1 25782
-G 0 25770 0
-G 0 25769 0
-G 0 25768 0
-G 0 25767 0
-G 0 25766 0
-M 0 25749 1 25785
-G 0 25774 0
-G 0 25773 0
-O 0 25795 0 25792
-M 0 25748 1 25799
+M 0 25742 10 25700 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25701 Load a rabid fido
+M 0 25746 20 25702 Load a rabid fido
+M 0 25729 0 25702 Load Tito the dealer
+G 0 25797 0 The acts is given to Tito the dealer
+M 0 25742 10 25703 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25704 Load a rabid fido
+M 0 25742 0 25705 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25706 Load a rabid fido
+M 0 25742 10 25707 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25742 10 25709 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25733 2 25709 Load an evil avenger
+M 0 25732 5 25709 Load a noble paladin
+M 0 25731 5 25709 Load a blue-hooded cleric
+M 0 25730 5 25709 Load a red-robed mage
+M 0 25732 5 25710 Load a noble paladin
+M 0 25731 5 25710 Load a blue-hooded cleric
+M 0 25730 5 25710 Load a red-robed mage
+M 0 25733 2 25711 Load an evil avenger
+M 0 25732 5 25711 Load a noble paladin
+M 0 25731 5 25711 Load a blue-hooded cleric
+M 0 25730 5 25711 Load a red-robed mage
+M 0 25742 10 25713 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25734 3 25713 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25713 Load a pickpocket
+M 0 25736 3 25713 Load a sneaky pickpocket
+E 0 25759 0 14 A spiked wristband is loaded on the left wrist of a sneaky pickpocket
+M 0 25734 3 25714 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25714 Load a pickpocket
+M 0 25736 3 25714 Load a sneaky pickpocket
+E 0 25759 0 15 A spiked wristband is loaded on the right wrist of a sneaky pickpocket
+M 0 25734 3 25715 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25715 Load a pickpocket
+M 0 25736 3 25715 Load a sneaky pickpocket
+E 0 25759 0 14 A spiked wristband is loaded on the left wrist of a sneaky pickpocket
+M 0 25742 0 25716 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+P 0 25762 0 25761 Some peanuts put inside some peanuts
+M 0 25737 3 25717 Load a jolly fat merchant
+M 0 25739 3 25717 Load a poor merchant
+M 0 25741 5 25717 Load a well-to-do merchant
+M 0 25738 0 25718 Load Nick the Peanut Peddler
+G 0 25762 0 Some peanuts is given to Nick the Peanut Peddler
+M 0 25737 3 25718 Load a jolly fat merchant
+M 0 25739 3 25718 Load a poor merchant
+M 0 25741 4 25718 Load a well-to-do merchant
+M 0 25737 3 25719 Load a jolly fat merchant
+M 0 25739 3 25719 Load a poor merchant
+M 0 25740 0 25719 Load Andrew the Bum
+M 0 25741 5 25719 Load a well-to-do merchant
+M 0 25744 6 25721 Load a burly warrior
+M 0 25745 6 25721 Load a lonely warrior
+M 0 25744 6 25722 Load a burly warrior
+M 0 25745 6 25722 Load a lonely warrior
+M 0 25742 10 25723 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25744 6 25723 Load a burly warrior
+M 0 25745 6 25723 Load a lonely warrior
+M 0 25743 4 25726 Load a Darkmere gateman
+O 0 25701 0 25727 A fountain loaded to Central Courtyard
+M 0 25701 0 25728 Load Bob's Dark Half
+E 0 25700 0 16 The dark blade of justice is loaded wielded of Bob's Dark Half
+M 0 25700 0 25729 Load Diablo
+E 0 25781 0 17 A `rbook of `kspells`w is loaded held in the hands of Diablo
+M 0 25743 4 25731 Load a Darkmere gateman
+M 0 25743 4 25733 Load a Darkmere gateman
+M 0 25743 4 25735 Load a Darkmere gateman
+M 0 25702 0 25736 Load a blue-hooded Cleric
+G 0 25706 0 A ring of combined light is given to a blue-hooded Cleric
+G 0 25705 0 The cloak of deception is given to a blue-hooded Cleric
+G 0 25707 0 A cleric's blue robe is given to a blue-hooded Cleric
+G 0 25702 0 A mace of snakes is given to a blue-hooded Cleric
+G 0 25703 0 A five-headed snake mace is given to a blue-hooded Cleric
+G 0 25704 0 The mace of destruction is given to a blue-hooded Cleric
+M 0 25703 0 25737 Load a purple-hooded Paladin
+G 0 25711 0 A potion of warrior-in-a-bottle is given to a purple-hooded Paladin
+G 0 25708 0 A paladin's purple robe is given to a purple-hooded Paladin
+G 0 25709 0 A sword of combined light is given to a purple-hooded Paladin
+G 0 25706 0 A ring of combined light is given to a purple-hooded Paladin
+G 0 25710 0 The sword of holy strength is given to a purple-hooded Paladin
+M 0 25704 0 25738 Load a red-hooded Mage
+G 0 25717 0 A feathery pill is given to a red-hooded Mage
+G 0 25716 0 A mage's red robe is given to a red-hooded Mage
+G 0 25776 0 A scroll of enchantment is given to a red-hooded Mage
+G 0 25775 0 A chaos device is given to a red-hooded Mage
+G 0 25712 0 The wand of the magi is given to a red-hooded Mage
+G 0 25713 0 A deadly dagger is given to a red-hooded Mage
+G 0 25714 0 The frost dagger is given to a red-hooded Mage
+G 0 25715 0 The flame dagger is given to a red-hooded Mage
+M 0 25705 0 25739 Load a black-hooded Avenger
+G 0 25720 0 An avenger's black robe is given to a black-hooded Avenger
+G 0 25721 0 A small onyx ring is given to a black-hooded Avenger
+G 0 25718 0 A sword of swishes is given to a black-hooded Avenger
+G 0 25729 0 A murderous bloody dagger is given to a black-hooded Avenger
+G 0 25719 0 A stinging blade is given to a black-hooded Avenger
+M 0 25706 0 25741 Load Calorn
+M 0 25707 0 25742 Load Sagron
+M 0 25712 0 25743 Load a warrior shopkeeper
+G 0 25722 0 A steel rapier is given to a warrior shopkeeper
+G 0 25723 0 The broadsword of smashing is given to a warrior shopkeeper
+G 0 25724 0 The sword of pithcus is given to a warrior shopkeeper
+M 0 25710 0 25744 Load a shadowy figure
+M 0 25709 0 25745 Load Mysten
+M 0 25708 0 25746 Load Pithcus
+M 0 25711 0 25747 Load an arrogant armorer
+G 0 25728 0 The gauntlets of pithcus is given to an arrogant armorer
+G 0 25727 0 The shield of pithcus is given to an arrogant armorer
+G 0 25726 0 The armor of pithcus is given to an arrogant armorer
+G 0 25771 0 The boots of speed is given to an arrogant armorer
+M 0 25719 0 25748 Load the clerk
+M 0 25713 0 25749 Load a devious henchman
+M 0 25714 0 25749 Load a fighter henchman
+M 0 25715 0 25749 Load a loyal henchman
+M 0 25716 0 25749 Load a dragonian henchman
+M 0 25717 0 25749 Load a Veteran Bodyguard
+M 0 25721 0 25751 Load Brock the Twisted
+M 0 25720 0 25752 Load Noradon T'on
+M 0 25722 0 25753 Load a thief
+G 0 25730 0 A small dagger is given to a thief
+G 0 25731 0 The dagger of strength is given to a thief
+G 0 25732 0 The pain dagger is given to a thief
+G 0 25733 0 Cloth vest is given to a thief
+G 0 25734 0 A light vest is given to a thief
+G 0 25735 0 A pair of black boots is given to a thief
+G 0 25775 0 A chaos device is given to a thief
+G 0 25772 0 The enchanted gloves of mordo is given to a thief
+M 0 25723 0 25754 Load a nightblade
+G 0 25735 0 A pair of black boots is given to a nightblade
+G 0 25734 0 A light vest is given to a nightblade
+G 0 25733 0 Cloth vest is given to a nightblade
+G 0 25736 0 The blade of backstabbing is given to a nightblade
+G 0 25737 0 The all-purpose weapon is given to a nightblade
+M 0 25724 0 25755 Load the chef
+G 0 25738 0 A big cookie is given to the chef
+G 0 25739 0 A slice of cherry pie is given to the chef
+G 0 25740 0 A big bowl of cyanide stew is given to the chef
+G 0 25782 0 Some potatoes is given to the chef
+G 0 25796 0 A big, beefy taco is given to the chef
+M 0 25725 0 25756 Load the Goldsmith
+G 0 25741 0 The goldensword is given to the Goldsmith
+G 0 25742 0 The goldenmace is given to the Goldsmith
+G 0 25743 0 The goldendagger is given to the Goldsmith
+G 0 25779 0 The goldenaxe is given to the Goldsmith
+M 0 25726 0 25757 Load the jeweller
+G 0 25780 0 A wall ring is given to the jeweller
+G 0 25745 0 A `rruby `wbracelet is given to the jeweller
+G 0 25744 0 An `konyx `wbroach is given to the jeweller
+G 0 25746 0 An `gemerald `wring is given to the jeweller
+G 0 25747 0 A `ygold`w ring is given to the jeweller
+G 0 25748 0 The ring of pithcus is given to the jeweller
+G 0 25778 0 A diamond necklace is given to the jeweller
+M 0 25727 0 25758 Load the barkeep
+G 0 25749 0 A bottle of beer is given to the barkeep
+G 0 25750 0 A keg of beer is given to the barkeep
+G 0 25751 0 A shot of whisky is given to the barkeep
+G 0 25752 0 A cup of coffee is given to the barkeep
+M 0 25728 0 25759 Load the dealer
+G 0 25753 0 The sword of odd-ness is given to the dealer
+G 0 25754 0 A darkened dagger blade is given to the dealer
+G 0 25755 0 Some thing is given to the dealer
+G 0 25764 0 An acidic blade is given to the dealer
+G 0 25756 0 The sword of the sun sphere is given to the dealer
+G 0 25757 0 A sliver playtesting sword is given to the dealer
+G 0 25758 0 A dwarven battle axe is given to the dealer
+M 0 25799 0 25760 Load the dealer
+G 0 25798 0 The counteracts is given to the dealer
+O 0 25765 0 25780 A leaky pipe loaded to A Hidden Tunnel
+M 0 25747 0 25782 Load an evil drowelf
+G 0 25770 0 The ring of the darkened heart is given to an evil drowelf
+G 0 25769 0 The bracer of pure evil is given to an evil drowelf
+G 0 25768 0 The gauntlets of the evil incarnate is given to an evil drowelf
+G 0 25767 0 The armor of injustice is given to an evil drowelf
+G 0 25766 0 The timion slayer is given to an evil drowelf
+M 0 25749 0 25785 Load Taribius
+G 0 25774 0 The `kd`re`ka`rt`kh`w sentence is given to Taribius
+G 0 25773 0 The icon of the defender is given to Taribius
+O 0 25795 0 25792 A coconut loaded to In a Palm Tree
+M 0 25748 0 25799 Load the Antiques Dealer
 S
 
 
 
 #PROGS
-M 25700 9
-M 25701 15
-M 25704 13
-M 25705 13
-M 25706 10
-M 25707 13
-M 25713 21
-M 25716 3
-M 25730 13
-M 25731 10
-M 25732 10
-M 25733 13
-M 25734 21
-M 25736 21
-M 25742 20
-M 25743 20
-M 25745 20
-M 25746 16
+M 25700 9 Adepts Load to: Diablo
+M 25701 15 Executioner Load to: Bob's Dark Half
+M 25704 13 Offensive Mage Load to: a red-hooded Mage
+M 25705 13 Offensive Mage Load to: a black-hooded Avenger
+M 25706 10 Offensive Cleric Load to: Calorn
+M 25707 13 Offensive Mage Load to: Sagron
+M 25713 21 Thief Load to: a devious henchman
+M 25716 3 Fire Breath Load to: a dragonian henchman
+M 25730 13 Offensive Mage Load to: a red-robed mage
+M 25731 10 Offensive Cleric Load to: a blue-hooded cleric
+M 25732 10 Offensive Cleric Load to: a noble paladin
+M 25733 13 Offensive Mage Load to: an evil avenger
+M 25734 21 Thief Load to: a thief
+M 25736 21 Thief Load to: a sneaky pickpocket
+M 25742 20 CityGuard Load to: a Darkmere cityguard
+M 25743 20 CityGuard Load to: a Darkmere gateman
+M 25745 20 CityGuard Load to: a lonely warrior
+M 25746 16 Fido Load to: a rabid fido
 S
+
 
 
 #SHOPS
@@ -3948,6 +3948,11 @@ S
 25748 5 9 15 8 11 100 120 11 14
 25749 1 5 0 0 0 100 0 0 23
 25799 0 5 0 0 0 100 0 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

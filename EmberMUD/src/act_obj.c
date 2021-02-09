@@ -2213,9 +2213,10 @@ void do_steal( CHAR_DATA * ch, char *argument )
             sprintf( buf, "%s tried to rob me!", name );
             break;
         case 3:
-            sprintf( buf, "Keep your hands out of there, %s!", name );
+            sprintf( buf, "Keep your hands out of there, %s!", strip_article(name) );
             break;
         }
+        buf[0] = UPPER(buf[0]); // JR: fix capitalization issue
 
         do_yell( victim, buf );
         log_string( buf );
@@ -2249,10 +2250,10 @@ void do_steal( CHAR_DATA * ch, char *argument )
             sprintf( buf, "%s tried to rob me!", name );
             break;
         case 3:
-            sprintf( buf, "Keep your hands out of there, %s!", name );
+            sprintf( buf, "Keep your hands out of there, %s!", strip_article(name) );
             break;
         }
-
+        buf[0] = UPPER(buf[0]); // JR: fix capitalization issue
         do_yell( victim, buf );
         log_string( buf );
 
@@ -2309,10 +2310,10 @@ void do_steal( CHAR_DATA * ch, char *argument )
             sprintf( buf, "%s tried to rob me!", name );
             break;
         case 3:
-            sprintf( buf, "Keep your hands out of there, %s!", name );
+            sprintf( buf, "Keep your hands out of there, %s!", strip_article(name) );
             break;
         }
-
+        buf[0] = UPPER(buf[0]); // JR: fix capitalization issue
         do_yell( victim, buf );
 
         if ( !IS_NPC( ch ) )
@@ -3105,7 +3106,7 @@ void do_list( CHAR_DATA * ch, char *argument )
                     send_to_char( "[Lv Price] Item\n\r", ch );
                 }
 
-                sprintf( buf, "`w[%2d %5d] %s.\n\r",
+                sprintf( buf, "`w[%2d %5d] %s\n\r",
                          obj->level, cost, obj->short_descr );
 
                 send_to_char( buf, ch );

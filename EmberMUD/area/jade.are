@@ -17,12 +17,12 @@ A small field mouse.
 ~
 Human~
 AC P 0 S
-5 6
+5 6 
 100 0 0 0 1d17+30 0d0+0 1d3+3 0
 7 7 7 8
 M L 0 0
 8 8 0 0
-AHJMV ABCDEFGHIJKLQU T unknown
+AHJMV ABCDEFGHIJKLQU T 0
 #22501
 field mouse~
 a large field mouse~
@@ -32,12 +32,12 @@ A larger variety of field mice.
 ~
 Human~
 A 0 0 S
-7 9
+7 9 
 100 0 0 0 1d18+45 0d0+0 2d3+3 0
 6 6 6 8
 M 0 0 0
 8 8 0 0
-AHMV ABCDEFGHIJKQ S unknown
+AHMV ABCDEFGHIJKQ S 0
 #22502
 little mole~
 a little mole~
@@ -47,12 +47,12 @@ A tiny dog-like creature.
 ~
 dog~
 AB 0 0 S
-9 13
+9 13 
 100 0 0 0 3d15+90 0d0+0 2d4+4 0
 5 5 5 7
 H 0 0 0
 8 8 0 0
-AGV ACDEFHJKUV M unknown
+AGV ACDEFHJKUV M 0
 #22503
 big fat rat~
 a big fat rat~
@@ -62,26 +62,26 @@ A big rat that looks pretty strong.
 ~
 Human~
 AB 0 0 S
-15 18
+15 18 
 100 0 0 0 5d30+145 0d0+0 3d5+7 0
 0 0 0 5
 M 0 0 0
 8 8 0 0
-AHMV ABCDEFGHIJKQ M unknown
+AHMV ABCDEFGHIJKQ M 0
 #22504
 song bird~
 a song bird~
 A little song bird pecks at the dirt in hopes of catching breakfast.
 ~
-~
+(null)~
 song bird~
 AB T 0 S
-5 8
+5 8 
 100 0 0 0 1d17+42 0d0+0 2d3+2 0
 7 7 7 8
 FH 0 0 0
 8 8 0 0
-AGW ACDEFHKP M unknown
+AGW ACDEFHKP M 0
 #22505
 desert scorpion~
 a desert scorpion~
@@ -91,12 +91,12 @@ As little as they are, these creatures can be deadly.
 ~
 lizard~
 A 0 0 S
-15 20
+15 20 
 100 0 0 0 5d30+160 0d0+0 3d5+8 0
 0 0 0 5
 M 0 L I
 8 8 0 0
-AGXc ACDEFHKQV S unknown
+AGXc ACDEFHKQV S 0
 #22506
 sand worm~
 a sand worm~
@@ -106,26 +106,26 @@ A very large slimy creature that dwells in the sands.
 ~
 lizard~
 AF F -1000 S
-20 35
+20 35 
 100 0 0 0 5d30+162 0d0+0 3d5+9 31
 -2 -2 -2 4
 0 0 L I
 8 8 0 0
-AGXc ACDEFHKQV G unknown
+AGXc ACDEFHKQV G 0
 #22507
 sand beetle~
 a sand beetle~
 A sand beetle scuttles its way across the desert.
 ~
-~
+(null)~
 centipede~
 A Z 0 S
-5 7
+5 7 
 100 0 0 0 1d17+42 0d0+0 2d3+2 0
 7 7 7 8
 0 0 FI E
 8 8 0 0
-0 0 T unknown
+0 0 T 0
 #22508
 vulture~
 a hungry vulture~
@@ -135,26 +135,26 @@ A big, gangily bird with an appetite for anything.
 ~
 song bird~
 A T -1000 S
-15 20
+15 20 
 100 0 0 0 5d30+120 0d0+0 3d5+6 0
 0 0 0 7
 FH 0 0 0
 8 8 0 0
-AGW ACDEFHKP M unknown
+AGW ACDEFHKP M 0
 #22509
 eaglet~
 an eaglet~
 A little eaglet pulls at your shirt.
 ~
-~
+(null)~
 song bird~
 AB T 1000 S
-7 9
+7 9 
 100 0 0 0 1d17+42 0d0+0 2d3+2 0
 7 7 7 8
 FH 0 0 0
 8 8 0 0
-AGHMVW ABCDEFGHIJKP M unknown
+AGHMVW ABCDEFGHIJKP M 0
 #22510
 goblin ~
 an ugly goblin~
@@ -164,110 +164,110 @@ A small green man with a butt ugly face!
 ~
 goblin~
 ACS JPQ -1000 S
-15 20
+15 20 
 100 0 0 0 5d30+161 0d0+0 3d5+8 0
 0 0 0 5
 IN 0 Q C
 8 8 1 23
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22511
 goblin gang leader~
 the goblin leader~
 The head of this goblin gang stares you down.
 ~
-~
+(null)~
 goblin~
 ABT JV -1000 S
-20 27
+20 27 
 100 0 0 0 5d31+161 0d0+0 4d4+9 0
 -2 -2 -2 4
 HIR 0 Q C
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22512
 goblin henchman~
 a goblin henchman~
 A goblin henchman points his sword at you.
 ~
-~
+(null)~
 goblin~
 A JP -1000 S
-17 20
+17 20 
 100 0 0 0 3d22+199 0d0+0 3d5+7 0
 0 0 0 6
 0 0 Q C
 8 8 1 50
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22513
 old fisherman man~
 an old fisherman~
 A very old fisherman is preparing his canoe for the waters.
 ~
-~
+(null)~
 Human~
 AB 0 1000 S
-20 40
+20 40 
 100 0 0 0 5d30+170 0d0+0 4d5+8 0
 -2 -2 -2 4
 0 0 0 0
 8 8 1 6
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22514
 elven elf woman~
 an elven woman~
 An elven woman looks at you with odd eyes.
 ~
-~
+(null)~
 Elf~
 AH J 1000 S
-10 15
+10 15 
 100 0 0 0 3d22+90 0d0+0 2d5+5 0
 4 4 4 7
 0 0 B Z
 8 8 2 20
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22515
 elven elf child~
 an elven child~
 An elven child tries to walk around you.
 ~
-~
+(null)~
 Elf~
 AH J 1000 S
-10 14
+10 14 
 100 0 0 0 3d22+90 0d0+0 2d5+5 0
 4 4 4 7
 0 0 B Z
 8 8 -1 4
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22516
 elven elf guard~
 an elven guard~
 An elven guard watches you, cautious of your intrusion.
 ~
-~
+(null)~
 Elf~
 AF J 1000 S
-16 25
+16 25 
 100 0 0 0 5d30+161 0d0+0 3d5+9 0
 0 0 0 5
 0 0 B Z
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #22517
 elven elf guard~
 an elven guard~
 A royal elven guard stands at attention, watching for intruders.
 ~
-~
+(null)~
 Elf~
 ABF JV 1000 S
-17 30
+17 30 
 100 0 0 0 3d22+98 0d0+0 3d5+8 0
 0 0 0 5
 0 0 B Z
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -306,9 +306,9 @@ unknown~
 A C AC A 0
 16 3 0 P
 A
-19 1
-A
 18 2
+A
+19 1
 #22504
 goblin short sword~
 a goblin short sword~
@@ -328,9 +328,9 @@ unknown~
 A C AC A 0
 17 0 0 P
 A
-13 20
-A
 19 1
+A
+13 20
 #22506
 gold coins pile money~
 some gold coins~
@@ -402,9 +402,9 @@ unknown~
 AC AC AC B 0
 12 0 0 P
 A
-14 30
-A
 2 1
+A
+14 30
 #22514
 elven leather bracer armor-wrist~
 an elven leather bracer~
@@ -414,9 +414,9 @@ unknown~
 AC AC AC AB 0
 15 0 10 P
 A
-19 3
-A
 18 2
+A
+19 3
 #22515
 basket container~
 a basket~
@@ -434,9 +434,9 @@ unknown~
 0 0 150 0 0
 35 0 1000 P
 A
-13 35
-A
 18 6
+A
+13 35
 #0
 
 
@@ -450,11 +450,11 @@ unexplored places lie.
 ~
 0 0 2
 D1
-~
+(null)~
 ~
 0 0 22501
 D3
-~
+(null)~
 ~
 0 0 17172
 S
@@ -467,15 +467,15 @@ north. The other paths are worn down a bit but are still useable.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22502
 D1
-~
+(null)~
 ~
 0 0 25779
 D3
-~
+(null)~
 ~
 0 0 22500
 S
@@ -487,11 +487,11 @@ visible structure.
 ~
 0 4 2
 D0
-~
+(null)~
 ~
 0 0 22503
 D2
-~
+(null)~
 ~
 0 0 22501
 S
@@ -503,19 +503,19 @@ up north is still barely visible.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22506
 D1
-~
+(null)~
 ~
 0 0 22504
 D2
-~
+(null)~
 ~
 0 0 22502
 D3
-~
+(null)~
 ~
 0 0 22505
 S
@@ -527,11 +527,11 @@ and barren land.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22509
 D3
-~
+(null)~
 ~
 0 0 22503
 S
@@ -542,11 +542,11 @@ just little field mice and a few birds.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22508
 D1
-~
+(null)~
 ~
 0 0 22503
 S
@@ -557,19 +557,19 @@ serves as some kind of guideline as to where you are going.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22507
 D1
-~
+(null)~
 ~
 0 0 22509
 D2
-~
+(null)~
 ~
 0 0 22503
 D3
-~
+(null)~
 ~
 0 0 22508
 S
@@ -581,19 +581,19 @@ like some sort of natural structure.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22512
 D1
-~
+(null)~
 ~
 0 0 22511
 D2
-~
+(null)~
 ~
 0 0 22506
 D3
-~
+(null)~
 ~
 0 0 22510
 S
@@ -605,15 +605,15 @@ fear that they will be squished.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22510
 D1
-~
+(null)~
 ~
 0 0 22506
 D2
-~
+(null)~
 ~
 0 0 22505
 S
@@ -624,15 +624,15 @@ the ground. A little mole lifts his head in curiousity of his new visitor.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22511
 D2
-~
+(null)~
 ~
 0 0 22504
 D3
-~
+(null)~
 ~
 0 0 22506
 S
@@ -644,15 +644,15 @@ some bits of grain that have been dropped and run away.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22513
 D1
-~
+(null)~
 ~
 0 0 22507
 D2
-~
+(null)~
 ~
 0 0 22508
 S
@@ -664,15 +664,15 @@ attempt to catch some worms.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22514
 D2
-~
+(null)~
 ~
 0 0 22509
 D3
-~
+(null)~
 ~
 0 0 22507
 S
@@ -684,19 +684,19 @@ sand on the ground.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22515
 D1
-~
+(null)~
 ~
 0 0 22514
 D2
-~
+(null)~
 ~
 0 0 22507
 D3
-~
+(null)~
 ~
 0 0 22513
 S
@@ -708,15 +708,15 @@ as the structure ahead gets larger as you advance.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22517
 D1
-~
+(null)~
 ~
 0 0 22512
 D2
-~
+(null)~
 ~
 0 0 22510
 S
@@ -728,15 +728,15 @@ wander as much around here.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22516
 D2
-~
+(null)~
 ~
 0 0 22511
 D3
-~
+(null)~
 ~
 0 0 22512
 S
@@ -748,19 +748,19 @@ structure still isn't clearly defined yet.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22518
 D1
-~
+(null)~
 ~
 0 0 22516
 D2
-~
+(null)~
 ~
 0 0 22512
 D3
-~
+(null)~
 ~
 0 0 22517
 S
@@ -772,11 +772,11 @@ desert.
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 22514
 D3
-~
+(null)~
 ~
 0 0 22515
 S
@@ -788,11 +788,11 @@ large structure to the north is starting to come into view.
 ~
 0 0 2
 D1
-~
+(null)~
 ~
 0 0 22515
 D2
-~
+(null)~
 ~
 0 0 22513
 S
@@ -805,9 +805,11 @@ has been staked into the sand.
 0 4 10
 E
 sign~
-~
-E
-sign~
+Ahhh, I see you have discovered my desert. That means that the sands
+that covered it for thousands of years have uncovered it. I sense your
+greed and have prepared for this. You shall never obtain my treasures which
+lie beyond this barren wasteland. Head the warning of Jade, for all who
+have entered my desert... Have not returned.  
 ~
 E
 sign~
@@ -821,18 +823,16 @@ Jade does not take lightly to trespassers.
 ~
 E
 sign~
-Ahhh, I see you have discovered my desert. That means that the sands
-that covered it for thousands of years have uncovered it. I sense your
-greed and have prepared for this. You shall never obtain my treasures which
-lie beyond this barren wasteland. Head the warning of Jade, for all who
-have entered my desert... Have not returned.  
-~
+(null)~
+E
+sign~
+(null)~
 D0
-~
+(null)~
 ~
 0 0 22519
 D2
-~
+(null)~
 ~
 0 0 22515
 S
@@ -843,15 +843,15 @@ Praying to your gods for transportation is now useless. Have Fun!
 ~
 0 2105348 0
 D0
-~
+(null)~
 ~
 0 0 22520
 D1
-~
+(null)~
 ~
 0 0 22522
 D3
-~
+(null)~
 ~
 0 0 22521
 S
@@ -862,15 +862,15 @@ this desert. The only visible life are scorpions and other desert dwellers.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22525
 D1
-~
+(null)~
 ~
 0 0 22524
 D2
-~
+(null)~
 ~
 0 0 22519
 S
@@ -881,11 +881,11 @@ only life sustainable here roams around and scatters when you arrive.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22523
 D3
-~
+(null)~
 ~
 0 0 22519
 S
@@ -896,11 +896,11 @@ up by the thirsty atmosphere immediately.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22523
 D3
-~
+(null)~
 ~
 0 0 22519
 S
@@ -912,11 +912,11 @@ creatures roam underneath the sands and pop up for air every now and then.
 ~
 0 2097152 10
 D0
-~
+(null)~
 ~
 0 0 22520
 D2
-~
+(null)~
 ~
 0 0 22519
 S
@@ -927,11 +927,11 @@ been roaming in circles. You trudge forward through the sands.
 ~
 0 2105344 10
 D1
-~
+(null)~
 ~
 0 0 22521
 D3
-~
+(null)~
 ~
 0 0 22526
 S
@@ -942,11 +942,11 @@ the north that you can drink from but you best bet that it's a mirage.
 ~
 0 2105344 10
 D2
-~
+(null)~
 ~
 0 0 22520
 D3
-~
+(null)~
 ~
 0 0 22523
 S
@@ -958,15 +958,15 @@ the desert helplessly.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22527
 D1
-~
+(null)~
 ~
 0 0 22523
 D3
-~
+(null)~
 ~
 0 0 22528
 S
@@ -978,15 +978,15 @@ sands.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22529
 D1
-~
+(null)~
 ~
 0 0 22525
 D2
-~
+(null)~
 ~
 0 0 22526
 S
@@ -998,15 +998,15 @@ aren't there.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22528
 D1
-~
+(null)~
 ~
 0 0 22526
 D3
-~
+(null)~
 ~
 0 0 22523
 S
@@ -1018,11 +1018,11 @@ flows from the earth.
 ~
 0 2097152 10
 D1
-~
+(null)~
 ~
 0 0 22530
 D2
-~
+(null)~
 ~
 0 0 22527
 S
@@ -1033,11 +1033,11 @@ you will leave soon. Until that time you keep wandering randomly.
 ~
 0 2105344 10
 D1
-~
+(null)~
 ~
 0 0 22531
 D3
-~
+(null)~
 ~
 0 0 22529
 S
@@ -1048,19 +1048,19 @@ ahead. One wrong move could send you back to the begining though.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22533
 D1
-~
+(null)~
 ~
 0 0 22519
 D2
-~
+(null)~
 ~
 0 0 22532
 D3
-~
+(null)~
 ~
 0 0 22522
 S
@@ -1071,19 +1071,19 @@ still might end up taking a wrong turn so choose your path wisely.
 ~
 0 2105344 10
 D0
-~
+(null)~
 ~
 0 0 22535
 D1
-~
+(null)~
 ~
 0 0 22519
 D2
-~
+(null)~
 ~
 0 0 22519
 D3
-~
+(null)~
 ~
 0 0 22519
 S
@@ -1094,11 +1094,11 @@ before the heat kills you!
 ~
 0 2105344 10
 D1
-~
+(null)~
 ~
 0 0 22519
 D2
-~
+(null)~
 ~
 0 0 22531
 S
@@ -1110,11 +1110,11 @@ climbing you may never come back down.
 ~
 0 2097156 5
 D4
-~
+(null)~
 ~
 0 0 22536
 D5
-~
+(null)~
 ~
 0 0 22535
 S
@@ -1126,11 +1126,11 @@ just climb up the side of it. Your choice.
 ~
 0 2105348 10
 D2
-~
+(null)~
 ~
 0 0 22532
 D4
-~
+(null)~
 ~
 0 0 22534
 S
@@ -1142,11 +1142,11 @@ you as you climb up, hoping to get dinner.
 ~
 0 2097152 5
 D4
-~
+(null)~
 ~
 0 0 22537
 D5
-~
+(null)~
 ~
 0 0 22534
 S
@@ -1157,15 +1157,15 @@ hold your weight. A branch extends east to a small nest
 ~
 0 0 5
 D1
-~
+(null)~
 ~
 0 0 22538
 D4
-~
+(null)~
 ~
 0 0 22539
 D5
-~
+(null)~
 ~
 0 0 22536
 S
@@ -1177,7 +1177,7 @@ them grabs a holt of boot and you shake it off.
 ~
 0 0 9
 D3
-~
+(null)~
 ~
 0 0 22537
 S
@@ -1188,11 +1188,11 @@ holding on to gives way. You manage to catch yourself... This time.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22540
 D5
-~
+(null)~
 ~
 0 0 22537
 S
@@ -1203,11 +1203,11 @@ ledge in a very dangerous maner. The top is within your sight now.
 ~
 0 4 5
 D4
-~
+(null)~
 ~
 0 0 22541
 D5
-~
+(null)~
 ~
 0 0 22539
 S
@@ -1218,11 +1218,11 @@ knows what lies above the rocky cliffs?
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22542
 D5
-~
+(null)~
 ~
 0 0 22540
 S
@@ -1234,11 +1234,11 @@ canyon ahead, probably created from some sort of earthquake.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22543
 D5
-~
+(null)~
 ~
 0 0 22541
 S
@@ -1250,11 +1250,11 @@ there.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22544
 D2
-~
+(null)~
 ~
 0 0 22542
 S
@@ -1266,15 +1266,15 @@ the plateau.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22545
 D2
-~
+(null)~
 ~
 0 0 22543
 D5
-~
+(null)~
 ~
 0 0 22549
 S
@@ -1285,11 +1285,11 @@ pieces of torn rope. It looks unsafe but it seems to support your weight.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22546
 D2
-~
+(null)~
 ~
 0 0 22544
 S
@@ -1301,7 +1301,7 @@ where is steeply drops off into the north face.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22547
 S
@@ -1312,11 +1312,11 @@ Down the north face is an unknown territory that maybe you could explore.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22548
 D2
-~
+(null)~
 ~
 0 0 22546
 S
@@ -1327,11 +1327,11 @@ climb down the rocky ledges
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 22547
 D5
-~
+(null)~
 ~
 0 0 22566
 S
@@ -1344,11 +1344,11 @@ of the canyon.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 22562
 D5
-~
+(null)~
 ~
 0 0 22550
 S
@@ -1359,11 +1359,11 @@ lower east is another small ledge you could hop onto.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22551
 D4
-~
+(null)~
 ~
 0 0 22549
 S
@@ -1374,11 +1374,11 @@ junp over to the last on or try and make it to the lower one.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 22550
 D5
-~
+(null)~
 ~
 0 0 22552
 S
@@ -1390,7 +1390,7 @@ another lower ledge, almost ground level to the river.
 ~
 0 0 0
 D5
-~
+(null)~
 ~
 0 0 22553
 S
@@ -1401,11 +1401,11 @@ east looks like a safe ledge to climb down from.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22554
 D4
-~
+(null)~
 ~
 0 0 22552
 S
@@ -1416,11 +1416,11 @@ person is down there.
 ~
 0 0 0
 D3
-~
+(null)~
 ~
 0 0 22553
 D5
-~
+(null)~
 ~
 0 0 22555
 S
@@ -1432,11 +1432,11 @@ swim it.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 22556
 D4
-~
+(null)~
 ~
 0 0 22554
 S
@@ -1447,19 +1447,19 @@ is a dark prarie to the north.
 ~
 0 0 7
 D0
-~
+(null)~
 ~
 0 0 26800
 D1
-~
+(null)~
 ~
 0 0 22557
 D2
-~
+(null)~
 ~
 0 0 22555
 D3
-~
+(null)~
 ~
 0 0 22560
 S
@@ -1470,11 +1470,11 @@ Plateau.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 22558
 D3
-~
+(null)~
 ~
 0 0 22556
 S
@@ -1484,11 +1484,11 @@ You are on the river which runs in the canyon of Jade Plateau.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 22559
 D3
-~
+(null)~
 ~
 0 0 22557
 S
@@ -1499,11 +1499,11 @@ Jade Plateau. You are at the very bottom of the plateau on the east side.
 ~
 0 0 10
 D1
-~
+(null)~
 ~
 0 0 22591
 D3
-~
+(null)~
 ~
 0 0 22558
 S
@@ -1514,11 +1514,11 @@ current pulls strong and it is getting harder to pursue west.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 22556
 D3
-~
+(null)~
 ~
 0 0 22561
 S
@@ -1530,11 +1530,11 @@ along it.
 ~
 0 0 7
 D1
-~
+(null)~
 ~
 0 0 22560
 D3
-~
+(null)~
 ~
 0 0 16205
 S
@@ -1546,11 +1546,11 @@ lead into the ground. The ground seems a bit warm here.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22549
 D3
-~
+(null)~
 ~
 0 0 22563
 D5
@@ -1566,11 +1566,11 @@ You are on a narrow ledge which continues west along the canyon wall.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22562
 D3
-~
+(null)~
 ~
 0 0 22564
 S
@@ -1581,11 +1581,11 @@ very long way to the bottom.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22563
 D3
-~
+(null)~
 ~
 0 0 22565
 S
@@ -1597,7 +1597,7 @@ with inhabitants.
 ~
 0 0 5
 D1
-~
+(null)~
 ~
 0 0 22564
 S
@@ -1609,11 +1609,11 @@ valley.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22548
 D5
-~
+(null)~
 ~
 0 0 22567
 S
@@ -1625,11 +1625,11 @@ you is a steep drop to the sands surrounding the plateau.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22566
 D5
-~
+(null)~
 ~
 0 0 22568
 S
@@ -1640,15 +1640,15 @@ cliff and lots of places to grab onto. You see a small cliff to your west
 ~
 0 0 5
 D3
-~
+(null)~
 ~
 0 0 22569
 D4
-~
+(null)~
 ~
 0 0 22567
 D5
-~
+(null)~
 ~
 0 0 22570
 S
@@ -1659,11 +1659,11 @@ you see a fairly large crack in the wall.
 ~
 0 4 5
 D1
-~
+(null)~
 ~
 0 0 22568
 D2
-~
+(null)~
 ~
 0 0 22592
 S
@@ -1675,11 +1675,11 @@ the distance, a small green valley can be seen.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22568
 D5
-~
+(null)~
 ~
 0 0 22571
 S
@@ -1691,11 +1691,11 @@ don't have to scape you up with a spatula.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22570
 D5
-~
+(null)~
 ~
 0 0 22572
 S
@@ -1706,11 +1706,11 @@ down and pass through the sands, or climb up to the top.
 ~
 0 0 5
 D4
-~
+(null)~
 ~
 0 0 22571
 D5
-~
+(null)~
 ~
 0 0 22573
 S
@@ -1722,11 +1722,11 @@ here.
 ~
 0 0 10
 D0
-~
+(null)~
 ~
 0 0 22574
 D4
-~
+(null)~
 ~
 0 0 22572
 S
@@ -1737,7 +1737,7 @@ praying to your gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-~
+(null)~
 ~
 0 0 22575
 S
@@ -1748,15 +1748,15 @@ others like to call it hell. Enjoy!
 ~
 0 8192 10
 D1
-~
+(null)~
 ~
 0 0 22574
 D2
-~
+(null)~
 ~
 0 0 22576
 D3
-~
+(null)~
 ~
 0 0 22574
 S
@@ -1767,7 +1767,7 @@ praying to gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-~
+(null)~
 ~
 0 0 22577
 S
@@ -1778,15 +1778,15 @@ others like to call it hell. Enjoy!
 ~
 0 8192 10
 D1
-~
+(null)~
 ~
 0 0 22579
 D2
-~
+(null)~
 ~
 0 0 22574
 D3
-~
+(null)~
 ~
 0 0 22578
 S
@@ -1797,7 +1797,7 @@ praying to you gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-~
+(null)~
 ~
 0 0 22575
 S
@@ -1809,7 +1809,7 @@ you think you see a field.
 ~
 0 8192 10
 D0
-~
+(null)~
 ~
 0 0 22580
 S
@@ -1821,11 +1821,11 @@ miles.
 ~
 0 4 2
 D0
-~
+(null)~
 ~
 0 0 22582
 D2
-~
+(null)~
 ~
 0 0 22581
 S
@@ -1835,11 +1835,11 @@ The fields here stretch on for countless miles south.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22580
 D2
-~
+(null)~
 ~
 0 0 22581
 S
@@ -1850,11 +1850,11 @@ down into the valley.
 ~
 0 0 2
 D2
-~
+(null)~
 ~
 0 0 22580
 D5
-~
+(null)~
 ~
 0 0 22583
 S
@@ -1865,11 +1865,11 @@ The people move to the side when you come through.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22584
 D4
-~
+(null)~
 ~
 0 0 22582
 S
@@ -1881,19 +1881,19 @@ attention and watch all humans and such closely.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22587
 D1
-~
+(null)~
 ~
 0 0 22586
 D2
-~
+(null)~
 ~
 0 0 22583
 D3
-~
+(null)~
 ~
 0 0 22585
 S
@@ -1905,11 +1905,11 @@ you.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22589
 D1
-~
+(null)~
 ~
 0 0 22584
 S
@@ -1921,11 +1921,11 @@ here with just a glance.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22590
 D3
-~
+(null)~
 ~
 0 0 22584
 S
@@ -1937,19 +1937,19 @@ don't speak.
 ~
 0 0 2
 D0
-~
+(null)~
 ~
 0 0 22588
 D1
-~
+(null)~
 ~
 0 0 22590
 D2
-~
+(null)~
 ~
 0 0 22584
 D3
-~
+(null)~
 ~
 0 0 22589
 S
@@ -1961,7 +1961,7 @@ sort of 'elf police'.
 ~
 0 0 2
 D2
-~
+(null)~
 ~
 0 0 22587
 S
@@ -1973,11 +1973,11 @@ ugliness they gag and walk away.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 0 0 22587
 D2
-~
+(null)~
 ~
 0 0 22585
 S
@@ -1988,11 +1988,11 @@ still don't care for you and still give you those strange glances.
 ~
 0 0 0
 D2
-~
+(null)~
 ~
 0 0 22586
 D3
-~
+(null)~
 ~
 0 0 22587
 S
@@ -2003,7 +2003,7 @@ nothing for you to grab a hold of and climb up.
 ~
 0 0 10
 D3
-~
+(null)~
 ~
 0 0 22559
 S
@@ -2014,19 +2014,19 @@ eyes run too and fro to the south.
 ~
 0 1 0
 D0
-~
+(null)~
 ~
 0 0 22569
 D1
-~
+(null)~
 ~
 0 0 22597
 D2
-~
+(null)~
 ~
 0 0 22593
 D3
-~
+(null)~
 ~
 0 0 22596
 S
@@ -2037,11 +2037,11 @@ are probably roaming around.
 ~
 0 1 0
 D0
-~
+(null)~
 ~
 0 0 22592
 D2
-~
+(null)~
 ~
 0 0 22594
 S
@@ -2053,7 +2053,7 @@ side of the canyon.
 ~
 0 4 0
 D0
-~
+(null)~
 ~
 0 0 22593
 S
@@ -2064,11 +2064,11 @@ hear the little critters roaming around everywhere.
 ~
 0 1 0
 D1
-~
+(null)~
 ~
 0 0 22592
 D3
-~
+(null)~
 ~
 1 22507 22598
 S
@@ -2080,11 +2080,11 @@ can't be far.
 ~
 0 1 0
 D1
-~
+(null)~
 ~
 1 22507 22599
 D3
-~
+(null)~
 ~
 0 0 22592
 S
@@ -2095,7 +2095,7 @@ little gold and a sword.
 ~
 0 0 0
 D1
-~
+(null)~
 ~
 1 0 22596
 S
@@ -2106,7 +2106,7 @@ The only thing here is a gold coin lying on the floor.
 ~
 0 1 0
 D3
-~
+(null)~
 ~
 1 0 22597
 S
@@ -2120,125 +2120,131 @@ D 0 22596 3 1
 D 0 22597 1 1
 D 0 22598 1 1
 D 0 22599 3 1
-M 0 22500 40 22503
-M 0 22500 40 22504
-M 0 22500 40 22505
-M 0 22500 40 22506
-M 0 22500 40 22507
-M 0 22500 40 22508
-M 0 22500 40 22509
-M 0 22502 1 22509
-M 0 22503 2 22510
-M 0 22500 40 22510
-M 0 22500 40 22511
-M 0 22503 2 22511
-M 0 22504 1 22511
-M 0 22500 40 22512
-M 0 22500 40 22513
-M 0 22500 40 22514
-M 0 22500 40 22515
-M 0 22500 40 22516
-M 0 22500 40 22517
-M 0 22507 10 22520
-M 0 22505 15 22520
-M 0 22507 10 22521
-M 0 22505 15 22521
-M 0 22507 10 22522
-M 0 22505 15 22522
-M 0 22507 10 22523
-M 0 22505 15 22523
-M 0 22507 10 22524
-M 0 22506 2 22524
-M 0 22505 15 22524
-M 0 22507 10 22525
-M 0 22505 15 22525
-M 0 22507 10 22526
-M 0 22505 15 22526
-M 0 22507 10 22527
-M 0 22505 15 22527
-M 0 22507 10 22528
-M 0 22506 2 22528
-M 0 22505 15 22528
-O 0 22501 0 22529
-M 0 22507 10 22530
-M 0 22505 15 22530
-M 0 22505 15 22531
-M 0 22505 15 22532
-M 0 22505 15 22533
-M 0 22508 10 22536
-M 0 22508 10 22537
-M 0 22509 3 22538
-M 0 22509 3 22538
-M 0 22509 3 22538
-G 0 22516 0
-M 0 22508 10 22539
-M 0 22513 1 22555
-G 0 22508 0
-O 0 22500 0 22573
-M 0 22515 15 22584
-M 0 22516 3 22584
-E 0 22514 0 15
-E 0 22513 0 8
-E 0 22512 0 16
-E 0 22510 0 5
-M 0 22514 15 22585
-M 0 22515 15 22585
-M 0 22515 15 22585
-M 0 22515 15 22585
-M 0 22514 15 22585
-M 0 22514 15 22585
-M 0 22515 15 22586
-M 0 22514 15 22586
-M 0 22515 15 22586
-M 0 22514 15 22586
-M 0 22514 15 22586
-M 0 22515 15 22587
-M 0 22514 15 22587
-M 0 22515 15 22587
-M 0 22514 15 22587
-M 0 22514 15 22587
-M 0 22515 5 22587
-M 0 22517 2 22588
-E 0 22511 0 5
-E 0 22514 0 15
-E 0 22514 0 14
-E 0 22512 0 16
-M 0 22517 2 22588
-E 0 22511 0 5
-E 0 22514 0 15
-E 0 22514 0 14
-E 0 22512 0 16
-M 0 22514 15 22589
-M 0 22514 15 22589
-M 0 22514 15 22589
-M 0 22514 15 22590
-M 0 22514 15 22590
-M 0 22514 15 22590
-O 0 22509 0 22591
-M 0 22510 10 22592
-M 0 22511 1 22593
-E 0 22503 0 16
-E 0 22505 0 2
-M 0 22512 5 22593
-M 0 22510 10 22596
-M 0 22510 10 22597
-E 0 22504 0 16
-O 0 22506 0 22598
-O 0 22504 0 22598
+M 0 22500 40 22503 Load a field mouse
+M 0 22500 40 22504 Load a field mouse
+M 0 22500 40 22505 Load a field mouse
+M 0 22500 40 22506 Load a field mouse
+M 0 22500 40 22507 Load a field mouse
+M 0 22500 40 22508 Load a field mouse
+M 0 22500 40 22509 Load a field mouse
+M 0 22502 0 22509 Load a little mole
+M 0 22503 2 22510 Load a big fat rat
+M 0 22500 40 22510 Load a field mouse
+M 0 22500 40 22511 Load a field mouse
+M 0 22503 2 22511 Load a big fat rat
+M 0 22504 0 22511 Load a song bird
+M 0 22500 40 22512 Load a field mouse
+M 0 22500 40 22513 Load a field mouse
+M 0 22500 40 22514 Load a field mouse
+M 0 22500 40 22515 Load a field mouse
+M 0 22500 40 22516 Load a field mouse
+M 0 22500 40 22517 Load a field mouse
+M 0 22507 10 22520 Load a sand beetle
+M 0 22505 15 22520 Load a desert scorpion
+M 0 22507 10 22521 Load a sand beetle
+M 0 22505 15 22521 Load a desert scorpion
+M 0 22507 10 22522 Load a sand beetle
+M 0 22505 15 22522 Load a desert scorpion
+M 0 22507 10 22523 Load a sand beetle
+M 0 22505 15 22523 Load a desert scorpion
+M 0 22507 10 22524 Load a sand beetle
+M 0 22506 2 22524 Load a sand worm
+M 0 22505 15 22524 Load a desert scorpion
+M 0 22507 10 22525 Load a sand beetle
+M 0 22505 15 22525 Load a desert scorpion
+M 0 22507 10 22526 Load a sand beetle
+M 0 22505 15 22526 Load a desert scorpion
+M 0 22507 10 22527 Load a sand beetle
+M 0 22505 15 22527 Load a desert scorpion
+M 0 22507 10 22528 Load a sand beetle
+M 0 22506 2 22528 Load a sand worm
+M 0 22505 15 22528 Load a desert scorpion
+O 0 22501 0 22529 A bubbling spring loaded to Jade's Desert
+M 0 22507 10 22530 Load a sand beetle
+M 0 22505 15 22530 Load a desert scorpion
+M 0 22505 15 22531 Load a desert scorpion
+M 0 22505 15 22532 Load a desert scorpion
+M 0 22505 15 22533 Load a desert scorpion
+M 0 22508 10 22536 Load a hungry vulture
+M 0 22508 10 22537 Load a hungry vulture
+M 0 22509 3 22538 Load an eaglet
+M 0 22509 3 22538 Load an eaglet
+M 0 22509 3 22538 Load an eaglet
+G 0 22516 0 An eagle rock is given to an eaglet
+M 0 22508 10 22539 Load a hungry vulture
+M 0 22513 0 22555 Load an old fisherman
+G 0 22508 0 A canoe is given to an old fisherman
+O 0 22500 0 22573 A sign loaded to Entry to Jade's Desert
+M 0 22515 15 22584 Load an elven child
+M 0 22516 3 22584 Load an elven guard
+E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
+E 0 22513 0 8 A pair of elven boots is loaded on the feet of an elven guard
+E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
+E 0 22510 0 5 Elven chain mail is loaded on the body of an elven guard
+M 0 22514 15 22585 Load an elven woman
+M 0 22515 15 22585 Load an elven child
+M 0 22515 15 22585 Load an elven child
+M 0 22515 15 22585 Load an elven child
+M 0 22514 15 22585 Load an elven woman
+M 0 22514 15 22585 Load an elven woman
+M 0 22515 15 22586 Load an elven child
+M 0 22514 15 22586 Load an elven woman
+M 0 22515 15 22586 Load an elven child
+M 0 22514 15 22586 Load an elven woman
+M 0 22514 15 22586 Load an elven woman
+M 0 22515 15 22587 Load an elven child
+M 0 22514 15 22587 Load an elven woman
+M 0 22515 15 22587 Load an elven child
+M 0 22514 15 22587 Load an elven woman
+M 0 22514 15 22587 Load an elven woman
+M 0 22515 5 22587 Load an elven child
+M 0 22517 2 22588 Load an elven guard
+E 0 22511 0 5 Elven iron mail is loaded on the body of an elven guard
+E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
+E 0 22514 0 14 An elven leather bracer is loaded on the left wrist of an elven guard
+E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
+M 0 22517 2 22588 Load an elven guard
+E 0 22511 0 5 Elven iron mail is loaded on the body of an elven guard
+E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
+E 0 22514 0 14 An elven leather bracer is loaded on the left wrist of an elven guard
+E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
+M 0 22514 15 22589 Load an elven woman
+M 0 22514 15 22589 Load an elven woman
+M 0 22514 15 22589 Load an elven woman
+M 0 22514 15 22590 Load an elven woman
+M 0 22514 15 22590 Load an elven woman
+M 0 22514 15 22590 Load an elven woman
+O 0 22509 0 22591 Some jade crystals loaded to Bottom of the East Face
+M 0 22510 10 22592 Load an ugly goblin
+M 0 22511 0 22593 Load the goblin leader
+E 0 22503 0 16 A goblin scimitar is loaded wielded of the goblin leader
+E 0 22505 0 2 A goblin gang's ring is loaded on the right finger of the goblin leader
+M 0 22512 5 22593 Load a goblin henchman
+M 0 22510 10 22596 Load an ugly goblin
+M 0 22510 10 22597 Load an ugly goblin
+E 0 22504 0 16 A goblin short sword is loaded wielded of an ugly goblin
+O 0 22506 0 22598 Some gold coins loaded to A Goblin Hoard
+O 0 22504 0 22598 A goblin short sword loaded to A Goblin Hoard
 S
 
 
 
 #PROGS
-M 22505 1
-M 22506 2
-M 22510 21
-M 22516 20
-M 22517 20
+M 22505 1 Poison Bite Load to: a desert scorpion
+M 22506 2 Acid Breath Load to: a sand worm
+M 22510 21 Thief Load to: an ugly goblin
+M 22516 20 CityGuard Load to: an elven guard
+M 22517 20 CityGuard Load to: an elven guard
 S
 
 
+
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

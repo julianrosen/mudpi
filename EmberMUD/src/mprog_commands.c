@@ -1323,18 +1323,37 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
         ch->position = POS_STANDING;
         act( "$n awakens and puts on his spray tan.", ch, NULL, NULL, TO_ROOM );
         break;
+            
+    case 'w':
+        ch->position = POS_STANDING;
+        act( "$n awakens and groans loudly.", ch, NULL, NULL, TO_ROOM );
+        break;
 
     case 'S':
         ch->position = POS_SLEEPING;
         act( "$n lies down and falls asleep, dreaming of a world without Obamacare.", ch, NULL, NULL, TO_ROOM );
         break;
+    
+    case 's':
+        ch->position = POS_SLEEPING;
+        act( "$n lies down and falls asleep.", ch, NULL, NULL, TO_ROOM );
+        break;    
 
     case 'a':
         act( "$n says 'You're fired!'", ch, NULL, NULL, TO_ROOM );
         break;
+    
+    case 't':
+        act( "$n says 'Hello Honey!'", ch, NULL, NULL, TO_ROOM );
+        break;    
 
     case 'b':
         act( "$n says 'Sad!'",
+             ch, NULL, NULL, TO_ROOM );
+        break;
+    
+    case 'u':
+        act( "$n says 'What a view!  I must do something about that dump!'",
              ch, NULL, NULL, TO_ROOM );
         break;
 
@@ -1343,19 +1362,39 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
              ch, NULL, NULL, TO_ROOM );
         break;
 
+    case 'v':
+        act( "$n says 'Vandals!  Youngsters have no respect for anything!'",
+             ch, NULL, NULL, TO_ROOM );
+        break;
+            
     case 'd':
         act( "$n says 'We're going to win so much, you will get tired of winning!'", ch, NULL, NULL, TO_ROOM );
         break;
 
+    case 'x':
+        act( "$n says 'Good day, citizens!'", ch, NULL, NULL, TO_ROOM );
+        break;
+            
     case 'e':
         act( "$n says 'You can come in, as long as you're not from a s***hole country'",
              ch, NULL, NULL, TO_ROOM );
         break;
+    
+    case 'y':
+        act( "$n says 'I hereby declare the city of Midgaard open!'",
+             ch, NULL, NULL, TO_ROOM );
+        break;
+            
 
     case 'E':
         act( "$n says 'Build the wall!'",
              ch, NULL, NULL, TO_ROOM );
         break;
+    
+    case 'z':
+        act( "$n says 'I hereby declare the city of Midgaard closed!'",
+             ch, NULL, NULL, TO_ROOM );
+        break;    
 
     case 'O':
 /*		do_unlock( ch, "gate" ); */

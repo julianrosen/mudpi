@@ -24,6 +24,21 @@ args( ( CHAR_DATA * ch, char *command, char *argument ) );
  * Local functions.
  */
 
+/* JR: strip leading "a" or "the" from mob */
+char * strip_article( char * name )
+{
+    if ( strlen( name ) < 4 )
+        return name;
+    if ( name[0] == 'a' && name[1] == ' ')
+        return name+2;
+    if ( name[0] == 'a' && name[1] == 'n' && name[2] == ' ')
+        return name+3;
+    if ( name[0] == 't' && name[1] == 'h' && name[2] == 'e' && name[3] == ' ')
+        return name+4;
+    return name;            
+}
+
+
 /* JR: Genders and pronouns */
 char * HE_SHE[] = { "it", "he", "she", "they" };
 char * HIM_HER[] = { "it", "him", "her", "them" };
@@ -55,28 +70,28 @@ char * his_hers( int sex )
 
 char * He_she( int sex )
 {
-    char * buf = strdup( he_she( sex ) );
+    char * buf = str_dup( he_she( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * Him_her( int sex )
 {
-    char * buf = strdup( him_her( sex ) );
+    char * buf = str_dup( him_her( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * His_her( int sex )
 {
-    char * buf = strdup( his_her( sex ) );
+    char * buf = str_dup( his_her( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * His_hers( int sex )
 {
-    char * buf = strdup( his_hers( sex ) );
+    char * buf = str_dup( his_hers( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
@@ -88,7 +103,7 @@ char * gender( int sex )
 
 char * Gender( int sex )
 {
-    char * buf = strdup( gender( sex ) );
+    char * buf = str_dup( gender( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
@@ -152,7 +167,7 @@ void do_delete( CHAR_DATA * ch, char *argument )
         {
             sprintf( strsave, "%s/%s", sysconfig.player_dir,
                      capitalize( ch->name ) );
-            sprintf( strbackup, "%s/deleted/%d-%s", sysconfig.player_dir,
+            sprintf( strbackup, "%s/deleted/%ld-%s", sysconfig.player_dir,
                      time( NULL ), capitalize( ch->name ) );
             sprintf( buf, "%s has deleted.", ch->name );
             do_sendinfo( ch, buf );
@@ -687,7 +702,7 @@ void do_gocial( CHAR_DATA * ch, char *argument )
                     strcpy( buf2, buf );
                     buf2[counter] = '\0';
                     strcat( buf2, "her" );
-                    for ( count = 0; buf[count] != '\0'; count++ );
+                    for ( count = 0; buf[count] != '\0'; count++ ) // JR: removed (presumably) errant semicolon here
                     {
                         buf[count] = buf[count + counter + 2];
                     }
@@ -2624,7 +2639,7 @@ inform him that its not that easy ;) -Lancelight */
         send_to_char( "You're not DEAD yet.\n\r", ch );
         return;
     }
-    if ( IS_SET( ch->act, PLR_BUILDING ) );
+    if ( IS_SET( ch->act, PLR_BUILDING ) ) // JR: removed (presumably) errant semicolon
     {
         REMOVE_BIT( ch->act, PLR_BUILDING );
     }
@@ -3348,62 +3363,4 @@ void do_spousetalk( CHAR_DATA * ch, char *argument )
     send_to_char
         ( "Your spouse isn't currently online, please try again later.\n\r",
           ch );
-}
-
-
-/*      From Mudweiser     */
-void do_wiznet( CHAR_DATA *ch, char *argument )
-{
-   char       arg1 [ MAX_INPUT_LENGTH ];
-   int level;
-    if ( argument[0] == '\0' )
-    {
-      if (IS_SET(ch->comm,COMM_NOWIZ))
-      {
-	send_to_char("`WImmortal channels are now ON\n\r`w",ch);
-	REMOVE_BIT(ch->comm,COMM_NOWIZ);
-      }
-      else
-      {
-	send_to_char("`WImmortal channels are now OFF\n\r`w",ch);
-	SET_BIT(ch->comm,COMM_NOWIZ);
-      } 
-      return;
-    }
-
-    REMOVE_BIT(ch->comm,COMM_NOWIZ);
-    argument = one_argument( argument, arg1 );
-    
-    if (!is_number(arg1))
-	{
-		send_to_char("Syntax to send wiznet message is wiznet <minlevel> <message>.", ch);
-		return;
-	}
-    
-    level = atoi( arg1 );
-    
-    if ( level < LEVEL_HERO || level > MAX_LEVEL)
-    {
-       send_to_char( "The minimum level must be 91 to 100.\n\r", ch );
-       return;
-    }
-
-   send_wiz(level, argument);
-
-    return;
-}
-
-void send_wiz(int level, char *message)
-{
-	DESCRIPTOR_DATA *d;
-	
-	for ( d = descriptor_list; d != NULL; d = d->next )
-    {
-	if ( d->connected == CON_PLAYING && 
-	     d->character->level >= level &&
-	     !IS_SET(d->character->comm,COMM_NOWIZ) )
-	{
-	    printf_to_char(d->character, "`w[`rWIZNET`w](`r%d`w):%s`G\n\r", level, message);
-	}
-    }
 }

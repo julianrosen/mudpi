@@ -1,6 +1,6 @@
 #AREADATA
 Name        {20 50} Jules   Rainbow Keys~
-Builders    Matri~
+Builders    Matrix~
 VNUMs       10000 10300
 Security    1
 End
@@ -314,15 +314,15 @@ unknown~
 0 0 999 0 0
 18 0 0 P
 A
-13 50
-A
-12 50
-A
-17 -10
+19 3
 A
 18 3
 A
-19 3
+17 -10
+A
+12 50
+A
+13 50
 #10024
 key white~
 a white key~
@@ -392,6 +392,39 @@ unknown~
 0 0 0 0 0
 0 0 12000 P
 E
+ham~
+.
+          ****** Greater Ham Harbor Area ******
+          =====================================
+             Bob's Cabin
+                  |      Litmore Lake Road      to
+                ----------------------------> southwest
+               |    |           |             Midgaard
+Litmore-------------            |
+ Lake    |              Tackard |
+        Boat             Road   |
+       house                    |             The meadow
+                                |              
+                                |---------------|
+                                |         /     |
+               |       School---|      Hobbit   |
+               |                |       hole    |-- Wandering
+         Dark  |      Country---|               |     Woods
+         alley |       store    |               |           
+               |                |               |                   ?
+               |                |               |                   ? Merv's
+Junkyard-------------------------------[ ]------------------Mud bog ?  potion 
+           |      Bellsworth    |[             ]  ||     |          ?  emporium
+           |         Lane       |[     Ham     ]__||     |          ?    
+           |                         Harbor     ___|     |
+           |                    |[             ]         |
+           |                    |[_____________]      Old folks  
+        X    X                  |
+                                |
+         ____          Church---|
+        /    \                  
+~
+E
 map~
 .
           ****** Greater Ham Harbor Area ******
@@ -427,39 +460,6 @@ Junkyard-------------------------------[ ]------------------Mud bog ?  potion
  
 
  
-~
-E
-ham~
-.
-          ****** Greater Ham Harbor Area ******
-          =====================================
-             Bob's Cabin
-                  |      Litmore Lake Road      to
-                ----------------------------> southwest
-               |    |           |             Midgaard
-Litmore-------------            |
- Lake    |              Tackard |
-        Boat             Road   |
-       house                    |             The meadow
-                                |              
-                                |---------------|
-                                |         /     |
-               |       School---|      Hobbit   |
-               |                |       hole    |-- Wandering
-         Dark  |      Country---|               |     Woods
-         alley |       store    |               |           
-               |                |               |                   ?
-               |                |               |                   ? Merv's
-Junkyard-------------------------------[ ]------------------Mud bog ?  potion 
-           |      Bellsworth    |[             ]  ||     |          ?  emporium
-           |         Lane       |[     Ham     ]__||     |          ?    
-           |                         Harbor     ___|     |
-           |                    |[             ]         |
-           |                    |[_____________]      Old folks  
-        X    X                  |
-                                |
-         ____          Church---|
-        /    \                  
 ~
 #10032
 box tide detergent~
