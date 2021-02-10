@@ -46,7 +46,7 @@ void do_remor( CHAR_DATA * ch, char *argument )
 void do_remort( CHAR_DATA * ch, char *argument )
 {
     DESCRIPTOR_DATA *d;
-    char strsave[MAX_INPUT_LENGTH], player_name[MAX_INPUT_LENGTH];
+    char strsave[MAX_INPUT_LENGTH], strbackup[MAX_INPUT_LENGTH], player_name[MAX_INPUT_LENGTH];
     char player_pwd[MAX_STRING_LENGTH], buf[MAX_STRING_LENGTH];
     int player_incarnations;
 
@@ -82,6 +82,9 @@ void do_remort( CHAR_DATA * ch, char *argument )
             /*
              * Get ready to delete the pfile, send a nice informational message.
              */
+            sprintf( buf, "%s is becoming a mortal again.", ch->name );
+            do_sendinfo( ch, buf );
+            
             sprintf( strsave, "%s/%s", sysconfig.player_dir,
                      capitalize( ch->name ) );
             stop_fighting( ch, TRUE );
@@ -119,13 +122,17 @@ void do_remort( CHAR_DATA * ch, char *argument )
              * set the PLR_REMORT bit and drop the player in at
              * CON_BEGIN_REMORT.
              */
-            unlink( strsave );
+            
+            sprintf( strbackup, "%s/backup/%ld-remort-%s", sysconfig.player_dir,
+                     time( NULL ), capitalize( player_name ) );
+            rename( strsave, strbackup ); // JR: Backup remorting character
             load_char_obj( d, player_name );
             d->character->pcdata->pwd = str_dup( player_pwd );
             d->character->incarnations = player_incarnations;
             if ( !IS_SET( ch->act, PLR_REMORT ) )
                 SET_BIT( ch->act, PLR_REMORT );
             d->connected = CON_BEGIN_REMORT;
+            SET_BIT( d->character->act, PLR_COLOR ); // JR: Everyone likes color
             return;
         }
     }
@@ -137,7 +144,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
     }
 
     send_to_char( "Type remort again to confirm this command.\n\r", ch );
-    send_to_char( "WARNING: This command is irreversible.\n\r", ch );
+    send_to_char( "WARNING: This command can only be reversed by an admin.\n\r", ch );
     send_to_char( "Typing remort with an argument will undo remort status.\n\r",
                   ch );
     ch->pcdata->confirm_remort = TRUE;

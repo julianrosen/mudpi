@@ -46,7 +46,7 @@ What is your name? ~
        All rooms in the stock Midgaard are colored `Ggreen`w.
     3. You can now choose where you recall. Type '`Bbeacon`w' to set your
        recall point to the current room. If you get stuck, you can reset
-       your beacon to the Temple of Mota with '`Bbeacon reset`w'.
+       your beacon to the Temple of Mota with '`Bbeaconreset`w'.
     4. Mudpi now has a browser interface (with TinTin running on
        the server). To connect, visit http://67.251.14.149/mudpi/
     5. The Mudpi bot has been removed. However, healing rates in the temple altar

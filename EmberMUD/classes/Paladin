@@ -1,12 +1,12 @@
 93 2 acid blast
 93 2 armor
 93 2 bark skin
-93 2 bless
+2 2 bless
 93 2 blindness
 93 2 burning hands
-93 2 call lightning
-93 2 calm
-93 2 cancellation
+33 2 call lightning
+18 2 calm
+12 2 cancellation
 93 2 cause critical
 93 2 cause light
 93 2 cause serious
@@ -15,24 +15,24 @@
 93 2 charm person
 23 2 chill touch
 40 2 colour spray
-93 2 continual light
+10 2 continual light
 93 2 control weather
-93 2 create food
-93 2 create spring
-93 2 create water
-93 2 cure blindness
-93 2 cure critical
-93 2 cure disease
-93 2 cure light
-93 2 cure poison
-93 2 cure serious
+3 2 create food
+9 2 create spring
+3 2 create water
+5 2 cure blindness
+25 2 cure critical
+5 2 cure disease
+4 2 cure light
+5 2 cure poison
+15 2 cure serious
 93 2 curse
 93 2 demonfire
-93 2 detect evil
-93 2 detect hidden
-93 2 detect invis
-93 2 detect magic
-93 2 detect poison
+3 2 detect evil
+10 2 detect hidden
+11 2 detect invis
+9 2 detect magic
+7 2 detect poison
 93 2 dispel evil
 93 2 dispel magic
 93 2 earthquake
@@ -44,29 +44,29 @@
 93 2 fireball
 93 2 flamestrike
 93 2 fly
-93 2 frenzy
+32 2 frenzy
 93 2 gate
 93 2 giant strength
 93 2 harm
 93 2 haste
-93 2 heal
+35 2 heal
 93 4 holy word
 93 2 identify
 93 2 infravision
 93 2 invis
-93 2 know alignment
+4 2 know alignment
 93 2 lightning bolt
-93 2 locate object
+15 2 locate object
 93 2 magic missile
-93 4 mass healing
+50 4 mass healing
 93 2 mass invis
 93 2 pass door
-93 2 plague
-93 2 poison
-93 2 protection evil
-93 2 refresh
-93 2 remove curse
-93 2 sanctuary
+99 2 plague
+99 2 poison
+13 2 protection evil
+6 2 refresh
+23 2 remove curse
+27 2 sanctuary
 93 2 shield
 93 2 shocking grasp
 93 2 sleep
@@ -90,7 +90,7 @@
 90 2 ice ray
 90 2 hellfire
 90 2 ice storm
-28 2 vision
+90 2 vision
 90 2 restoration
 90 2 regeneration
 90 2 test area
@@ -103,24 +103,24 @@
 1 2 shield block
 1 3 spear
 1 2 sword
-1 4 whip
+1 3 whip
 90 0 backstab
 90 0 circle
-3 4 bash
-15 5 berserk
-3 4 dirt kicking
-10 4 disarm
-13 6 dodge
-1 3 enhanced damage
-4 4 hand to hand
-8 3 kick
-1 3 parry
-1 4 rescue
-11 6 trip
-5 3 second attack
-10 4 third attack
+90 0 bash
+90 0 berserk
+90 0 dirt kicking
+11 5 disarm
+17 5 dodge
+17 5 enhanced damage
+11 5 hand to hand
+18 8 kick
+9 4 parry
+1 3 rescue
+90 0 trip
+12 5 second attack
+24 6 third attack
 6 4 fast healing
-14 6 haggle
+15 5 haggle
 90 0 hide
 90 0 lore
 90 0 meditation
@@ -128,21 +128,21 @@
 90 0 pick lock
 90 0 sneak
 90 0 steal
-93 0 scrolls
+25 6 scrolls
 93 0 staves
 93 0 wands
 1 2 recall
 93 0 brew
 93 0 scribe
-10 4 vicious strike
+24 6 vicious strike
 93 2 nexus
 90 2 holyfire
 93 2 life drain
-93 0 energize
-18 6 counter
-12 6 grip
-10 5 blind fighting
-93 3 shield cleave
-93 7 weapon cleave
-3 4 blackjack
+50 4 energize
+36 6 counter
+93 0 grip
+93 0 blind fighting
+12 3 shield cleave
+14 7 weapon cleave
+93 0 blackjack
 -1

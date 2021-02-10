@@ -646,32 +646,32 @@ void interpret( CHAR_DATA * ch, char *argument )
             {
             case 1: 
             {
-                send_to_char( "`R:`wI'm sure it's a great command, but you can't use it.\n\r", ch );
+                send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
                 break;
             }
             case 2: 
             {
-                send_to_char( "`R:`wNice command. Did you just make it up?\n\r", ch );
+                send_to_char( "`Y> `wNice command. Did you just make it up?\n\r", ch );
                 break;
             }
             case 3: 
             {
-                send_to_char( "`R:`wDid you really think that command would work?\n\r", ch );
+                send_to_char( "`Y> `wDid you really think that command would work?\n\r", ch );
                 break;
             }
             case 4: 
             {
-                send_to_char( "`R:`wTry that command again, only this time do it right.\n\r", ch );
+                send_to_char( "`Y> `wTry that command again, only this time do it right.\n\r", ch );
                 break;
             }
             case 5: 
             {
-                send_to_char( "`R:`wWas that command intended to do something?\n\r", ch );
+                send_to_char( "`Y> `wWas that command intended to do something?\n\r", ch );
                 break;
             }
             default: 
             {
-                send_to_char( "`R:`wI'm sure it's a great command, but you can't use it.\n\r", ch );
+                send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
                 break;
             }
             }

@@ -39,6 +39,35 @@ char * strip_article( char * name )
 }
 
 
+/* JR: */
+char * article( bool definite, bool capital, char * next)
+{
+    if ( definite )
+    {
+        if ( capital )
+            return "The";
+        else
+            return "the";
+    }
+    switch ( LOWER(*next) )
+    {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':       
+            if ( capital )
+                return "An";
+            else
+                return "an";
+        default:
+            if ( capital )
+                return "A";
+            else
+                return "a";
+    }
+}
+
 /* JR: Genders and pronouns */
 char * HE_SHE[] = { "it", "he", "she", "they" };
 char * HIM_HER[] = { "it", "him", "her", "them" };
@@ -70,28 +99,28 @@ char * his_hers( int sex )
 
 char * He_she( int sex )
 {
-    char * buf = str_dup( he_she( sex ) );
+    char * buf = strdup( he_she( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * Him_her( int sex )
 {
-    char * buf = str_dup( him_her( sex ) );
+    char * buf = strdup( him_her( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * His_her( int sex )
 {
-    char * buf = str_dup( his_her( sex ) );
+    char * buf = strdup( his_her( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
 
 char * His_hers( int sex )
 {
-    char * buf = str_dup( his_hers( sex ) );
+    char * buf = strdup( his_hers( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
@@ -103,7 +132,7 @@ char * gender( int sex )
 
 char * Gender( int sex )
 {
-    char * buf = str_dup( gender( sex ) );
+    char * buf = strdup( gender( sex ) );
     buf[0] = UPPER(buf[0]);
     return buf;
 }
@@ -167,7 +196,7 @@ void do_delete( CHAR_DATA * ch, char *argument )
         {
             sprintf( strsave, "%s/%s", sysconfig.player_dir,
                      capitalize( ch->name ) );
-            sprintf( strbackup, "%s/deleted/%ld-%s", sysconfig.player_dir,
+            sprintf( strbackup, "%s/backup/%ld-delete-%s", sysconfig.player_dir,
                      time( NULL ), capitalize( ch->name ) );
             sprintf( buf, "%s has deleted.", ch->name );
             do_sendinfo( ch, buf );

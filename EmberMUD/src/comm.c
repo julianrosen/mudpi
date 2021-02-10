@@ -2010,7 +2010,6 @@ check_ban function.
         ch->form = race_table[race].form;
         ch->parts = race_table[race].parts;
 
-            fprintf(stderr,"Done init\n\r"); /* JR temp*/
         /* add skills */
         for ( i = 0; i < 5; i++ )
         {
@@ -2018,7 +2017,7 @@ check_ban function.
                 break;
             group_add( ch, pc_race_table[race].skills[i], FALSE );
         }
-            fprintf(stderr,"Done Skills\n\r"); /* JR temp*/
+            
         /* add cost */
         ch->pcdata->points = pc_race_table[race].points;
         ch->size = pc_race_table[race].size;

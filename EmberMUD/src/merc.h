@@ -1320,7 +1320,7 @@ char * gender( int ); char * Gender( int );
 
 // JR: strip article
 char * strip_article( char * );
-
+char * article( bool, bool, char * );
 
 extern bool reap_shells;
 extern const char echo_off_str[];

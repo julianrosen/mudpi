@@ -1595,8 +1595,10 @@ void spell_control_weather( int sn, int level, CHAR_DATA * ch, void *vo )
     else if ( !str_cmp( target_name, "worse" ) )
         weather_info.change -= dice( level / 3, 4 );
     else
+    {
         send_to_char( "Do you want it to get better or worse?\n\r", ch );
-
+        return; // JR
+    }
     send_to_char( "Ok.\n\r", ch );
     return;
 }
@@ -5264,4 +5266,105 @@ void spell_imprint( int sn, int level, CHAR_DATA * ch, void *vo )
     send_to_char( buf, ch );
 
     return;
+}
+
+/* by Trilex... shadow01@usa.pipeline.com */
+
+void spell_bark_skin(int sn, int level, CHAR_DATA *ch, void *vo )
+{
+	CHAR_DATA *victim = (CHAR_DATA *) vo;
+	AFFECT_DATA af;
+
+	if (is_affected( victim, sn) )
+	{
+		if (victim == ch)
+		  send_to_char("Your skin has already assumed bark-like qualities.\n\r",ch);
+		else
+		  act("$N is already affected by a bark skin.",ch,NULL,victim,TO_CHAR);
+		return;
+	 }
+
+	 af.type         = sn;
+	 af.level        = level;
+	 af.duration     = 4 + level;
+	 af.location     = APPLY_AC;
+	 af.modifier     = -10 *(ch->level/10);
+	 af.bitvector    = 0;
+	 affect_to_char( victim, &af );
+	 act("$n's skin turns tough and barkish.",victim,NULL,NULL,TO_ROOM);
+	 send_to_char("Your skin feels rough.\n\r",victim);
+	 return;
+}
+
+void spell_hellfire(int sn, int level, CHAR_DATA *ch, void *vo)
+{
+	 CHAR_DATA *victim = (CHAR_DATA *) vo;
+	 CHAR_DATA *tmp_vict,*last_vict,*next_vict;
+	 bool found;
+	 int dam;
+	 int num_blast;
+
+	 /* first strike */
+	 num_blast = level/7;
+
+	 act("A jet of flame erupts from $n's hand and engulfs $N.",
+		  ch,NULL,victim,TO_NOTVICT);
+	 act("A jet of flames fly from your hand and engulf $N.",
+	ch,NULL,victim,TO_CHAR);
+	 act("A jet of flames flies from $n's hand and engulfs you!",
+	ch,NULL,victim,TO_VICT);
+
+	 dam = dice(level/2,8);
+	 if (saves_spell(level,victim))
+	dam /= 2;
+	 damage(ch,victim, NULL, dam,sn,DAM_FIRE);
+	 last_vict = victim;
+	 num_blast -= 1;   /* decrement number of blasts */
+
+	 /* new targets */
+	 while (num_blast > 0)
+	 {
+	found = FALSE;
+	for (tmp_vict = ch->in_room->people;
+		  tmp_vict != NULL;
+		  tmp_vict = next_vict)
+	{
+	  next_vict = tmp_vict->next_in_room;
+	  if (!is_safe_spell(ch,tmp_vict,TRUE) && tmp_vict != last_vict && num_blast > 0)
+	  {
+		 found = TRUE;
+		 last_vict = tmp_vict;
+
+	 act("A jet of flame erupts from $n's hand and engulfs $N.",
+		  ch,NULL,tmp_vict,TO_NOTVICT);
+	 act("A jet of flames fly from your hand and engulf $N.",
+	ch,NULL,tmp_vict,TO_CHAR);
+	 act("A jet of flames flies from $n's hand and engulfs you!",
+	ch,NULL,tmp_vict,TO_VICT);
+
+		 dam = dice(level/2,8);
+		 if (saves_spell(level,tmp_vict))
+		dam /= 2;
+		 damage(ch,tmp_vict,NULL,dam,sn,DAM_FIRE);
+		 num_blast -= 1;  /* decrement number of blasts */
+	  }
+	}   /* end target searching loop */
+
+	if (!found) /* no target found, hit the caster */
+	{
+	  if (ch == NULL)
+			 return;
+
+	  if (last_vict == ch) /* no double hits */
+	  {
+		 return;
+	  }
+
+	  last_vict = ch;
+	  num_blast -= 1;  /* decrement number of blasts */
+	  if (ch == NULL)
+		 return;
+	}
+	 /* now go back and find more targets */
+	 }
 }

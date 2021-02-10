@@ -2002,7 +2002,7 @@ void do_score( CHAR_DATA * ch, char *argument )
                  figure_difference( ch->pcdata->points ) );
             strcat( buf, tempbuf );
         }
-        for ( x = 0; x < 88 - strlen( buf ); x++ )
+        while ( strlen( buf ) < 49 )
             strcat( buf, " " );
         send_to_char( buf, ch );
         strcpy( buf, "\0" );
@@ -3997,7 +3997,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
             sprintf( buf2, "not a member of any clan." );
 
         sprintf( buf, "     | `GGender: `Y%-10s  `W%s %s %s`y",
-                 Gender( victim->sex ), he_she( victim->sex ), /* Modified by JR */
+                 Gender( victim->sex ), He_she( victim->sex ), /* Modified by JR */
                  be_verb( victim->sex ), buf2 );
         send_to_char( buf, ch );
         x = str_len( buf );
@@ -4017,8 +4017,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
             strcat( buf, " " );
         strcat( buf, "|\n\r" );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `GAge  :`Y%3d           `W%s %s a %s %s.`y",
-                 get_age( victim ), he_she( victim->sex ), be_verb( victim->sex ),
+        sprintf( buf, "     | `GAge  :`Y%3d           `W%s %s %s %s %s.`y",
+                 get_age( victim ), He_she( victim->sex ), be_verb( victim->sex ),
+                 article( FALSE, FALSE, pc_race_table[victim->race].name),
                  pc_race_table[victim->race].name,
                  class_table[victim->Class].name );
         send_to_char( buf, ch );
@@ -4223,9 +4224,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
             else
                 sprintf( buf2, "not a member of any clan." );
             /*          sprintf(buf2,"not a member of any clan." ); */
-            sprintf( buf, "     | `GGender:`Y%-10s`W%s %s %s`y",
+            sprintf( buf, "     | `GGender: `Y%-10s `W%s %s %s`y",
                      Gender( sex ),
-                     he_she( sex ), be_verb( sex ), buf2 ); /* Modified by JR */
+                     He_she( sex ), be_verb( sex ), buf2 ); /* Modified by JR */
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );
@@ -4233,7 +4234,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 strcat( buf, " " );
             strcat( buf, "|\n\r" );
             send_to_char( buf, ch );
-            sprintf( buf, "     | `GLevel: `Y%3d       `WLast login: %s`y",
+            sprintf( buf, "     | `GLevel: `Y%3d         `WLast login: %s`y",
                      UMIN( MAX_LEVEL, level ),
                      ( logon == 0 ) ? "Unknown" : ltime );
             send_to_char( buf, ch );
@@ -4243,9 +4244,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 strcat( buf, " " );
             strcat( buf, "|\n\r" );
             send_to_char( buf, ch );
-            sprintf( buf, "     | `GAge  :`Y%3ld        `W%s %s a %s %s.`y",
-                     ( 17 + ( played / 72000 ) ),
-                     he_she( sex ), be_verb( sex ), race, class );
+            sprintf( buf, "     | `GAge  :`Y%3ld          `W%s %s %s %s %s.`y",
+                     ( STARTING_AGE + ( played / 72000 ) ),
+                     He_she( sex ), be_verb( sex ), article( FALSE, FALSE, race), race, class );
             send_to_char( buf, ch );
             x = str_len( buf );
             strcpy( buf, "\0" );
@@ -4253,7 +4254,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 strcat( buf, " " );
             strcat( buf, "|\n\r" );
             send_to_char( buf, ch );
-            sprintf( buf, "     | `GPK kills : `Y%-5d `WLast killed by: %s`y",
+            sprintf( buf, "     | `GPK kills : `Y%-5d   `WLast killed by: %s`y",
                      pk_kills, nemesis );
             send_to_char( buf, ch );
             x = str_len( buf );
@@ -4262,7 +4263,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 strcat( buf, " " );
             strcat( buf, "|\n\r" );
             send_to_char( buf, ch );
-            sprintf( buf, "     | `GPK deaths: `Y%-5d `WEmail: %s`y",
+            sprintf( buf, "     | `GPK deaths: `Y%-5d   `WEmail: %s`y",
                      pk_deaths, email );
             send_to_char( buf, ch );
             x = str_len( buf );
@@ -4308,6 +4309,9 @@ void do_finger( CHAR_DATA * ch, char *argument )
 void do_levelgain( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+    
+    if ( IS_NPC ( ch ) ) // JR: this was a problem
+        return;
 
     if ( ch->level < LEVEL_HERO && ch->exp >=
          exp_per_level( ch, ch->pcdata->points ) )

@@ -12,13 +12,13 @@
 #define WAIT_STR      1 /* Display symbol when commands are blocked? */
 #define SHOW_CP       0 /* Display creation points and % XP in score? */
 #define HUNGER_THIRST 0 /* Players get hungry and thirsty? */
-
+#define STARTING_AGE  25
 
 /* Prompts */
 #define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
 #define PROMPT_COMBAT  "`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K>"
 #define PROMPT_GHIOTI  "`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl>"
-#define PROMPT_IMM     "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:>`W `w"
+#define PROMPT_IMM     "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:> "
 #define PROMPT_START   PROMPT_COMBAT
 
 
@@ -207,7 +207,7 @@ cp. */
 #define CP_MIN_PENALTY  0
 #define CP_PENALTY      0
 #define CP_TRAIN_MIN    15
-#define CP_MAX 40 /* JR: Maximum allowed CP on creation */
+#define CP_MAX 50 /* JR: Maximum allowed CP on creation */
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
@@ -224,11 +224,11 @@ cp. */
  * race/class options. Uncomment the ones you want to use, if any.
  */
 
-#define USE_REBIRTH
+//#define USE_REBIRTH
 
-/*
+
 #define USE_REMORT
-*/
+
 /* The next has to do with selling multiples of the same item, or when
    a shopkeeper already has at least 1 of something. Set to 0 if you
    only want your shopkeepers buying 1 of an item. 
@@ -386,42 +386,42 @@ sets the level of the obj, the second sets the level of the spells.*/
 #define BREW_SCRIBE_LEVEL .75
 
 /* Random dodge messages. - Nevarlos */
-#define DDG_MSG1    "`B$N easily avoids your attack.`w"
-#define DDG_MSGS1   "`BYou easily avoid $n's attack.`w"
-#define DDG_MSG2    "`B$N chuckles as $E evades your attack.`w"
-#define DDG_MSGS2   "`BYou chuckle as you evade $n's attack.`w"
-#define DDG_MSG3    "`B$N nimbly jumps away from your attack.`w"
-#define DDG_MSGS3   "`BYou nimbly jump away from $n's attack.`w"
-#define DDG_MSG4    "`B$N yawns and sidesteps your attack.`w"
-#define DDG_MSGS4   "`BYou yawn and sidestep $n's attack.`w"
-#define DDG_MSG5    "`B$N smoothly ducks under your attack.`w"
-#define DDG_MSGS5   "`BYou smoothly duck under $n's attack.`w"
+#define DDG_MSG1    "$N easily avoids your attack.`w"
+#define DDG_MSGS1   "You easily avoid $n's attack.`w"
+#define DDG_MSG2    "$N chuckles as $E evades your attack.`w"
+#define DDG_MSGS2   "You chuckle as you evade $n's attack.`w"
+#define DDG_MSG3    "$N nimbly jumps away from your attack.`w"
+#define DDG_MSGS3   "You nimbly jump away from $n's attack.`w"
+#define DDG_MSG4    "$N yawns and sidesteps your attack.`w"
+#define DDG_MSGS4   "You yawn and sidestep $n's attack.`w"
+#define DDG_MSG5    "$N smoothly ducks under your attack.`w"
+#define DDG_MSGS5   "You smoothly duck under $n's attack.`w"
 
 /* Random parry messages. - Nevarlos */
 
-#define PRY_MSG1    "`B$N slaps away your attack.`w"
-#define PRY_MSGS1   "`BYou slap away $n's attack.`w"
-#define PRY_MSG2    "`B$N easily redirects your attack away from $M.`w"
-#define PRY_MSGS2   "`BYou easily redirect $n's attack away from you.`w"
-#define PRY_MSG3    "`B$N laughs as $E knocks away your attack.`w"
-#define PRY_MSGS3   "`BYou laugh as you knock away $n's attack.`w"
-#define PRY_MSG4    "`B$N beats back your attack.`w"
-#define PRY_MSGS4   "`BYou beat back $n's attack.`w"
-#define PRY_MSG5    "`B$N deftly parries your attack with $S weapon.`w"
-#define PRY_MSGS5   "`BYou deftly parry $n's attack with your weapon.`w"
+#define PRY_MSG1    "$N slaps away your attack.`w"
+#define PRY_MSGS1   "You slap away $n's attack.`w"
+#define PRY_MSG2    "$N easily redirects your attack away from $M.`w"
+#define PRY_MSGS2   "You easily redirect $n's attack away from you.`w"
+#define PRY_MSG3    "$N laughs as $E knocks away your attack.`w"
+#define PRY_MSGS3   "You laugh as you knock away $n's attack.`w"
+#define PRY_MSG4    "$N beats back your attack.`w"
+#define PRY_MSGS4   "You beat back $n's attack.`w"
+#define PRY_MSG5    "$N deftly parries your attack with $S weapon.`w"
+#define PRY_MSGS5   "You deftly parry $n's attack with your weapon.`w"
 
 /* Random shield block messages.  -Nevarlos */
 
-#define BLK_MSG1    "`B$N easily stops your attack with $S shield.`w"
-#define BLK_MSGS1   "`BYou easily stop $n's attack with your shield.`w"
-#define BLK_MSG2    "`B$N's shield interrupts your attack.`w"
-#define BLK_MSGS2   "`BYour shield interrupts $n's attack.`w"
-#define BLK_MSG3    "`B$N redirects your attack with $S shield.`w"
-#define BLK_MSGS3   "`BYou redirect $n's attack with your shield.`w"
-#define BLK_MSG4    "`B$N slams $S shield in front of your attack.`w"
-#define BLK_MSGS4   "`BYou slam your shield in front of $n's attack.`w"
-#define BLK_MSG5    "`BYour attack clashes against $N's shield.`w"
-#define BLK_MSGS5   "`B$n's attack clashes against your shield.`w"
+#define BLK_MSG1    "$N easily stops your attack with $S shield.`w"
+#define BLK_MSGS1   "You easily stop $n's attack with your shield.`w"
+#define BLK_MSG2    "$N's shield interrupts your attack.`w"
+#define BLK_MSGS2   "Your shield interrupts $n's attack.`w"
+#define BLK_MSG3    "$N redirects your attack with $S shield.`w"
+#define BLK_MSGS3   "You redirect $n's attack with your shield.`w"
+#define BLK_MSG4    "$N slams $S shield in front of your attack.`w"
+#define BLK_MSGS4   "You slam your shield in front of $n's attack.`w"
+#define BLK_MSG5    "Your attack clashes against $N's shield.`w"
+#define BLK_MSGS5   "$n's attack clashes against your shield.`w"
 
 /*
  * Wear Locations - You can define a different look for your wear
@@ -649,7 +649,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_GROUP                  36
 #define MAX_IN_GROUP               20
 #define MAX_ALIAS                  20
-#define MAX_CLASS                   4
+#define MAX_CLASS                   8
 #define MAX_PC_RACE                12
 #define MAX_LEVEL                 100
 #define MAX_EXP            2147483647
@@ -824,7 +824,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 
 /* for newly created characters - Kyle */
 #define STARTING_PRACTICES 10
-#define STARTING_TRAINS 5
+#define STARTING_TRAINS 1
 #define STARTING_TITLE "the plain"
 
 /*Spicey "consider" comments*/

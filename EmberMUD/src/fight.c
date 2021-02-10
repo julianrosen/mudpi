@@ -24,6 +24,16 @@
 
 #define MAX_DAMAGE_MESSAGE 35
 
+
+/* Make it easy to modify combat color scheme */
+#define MISS     "`b" // Color for hits that miss
+#define ENEMY    "`M" // Color for hits against you
+#define Ed       "`m" // Color for damage against you
+#define YOU      "`G" // Color for hits by you
+#define Yd       "`g" // Color for damage by you
+#define THIRD    "`Y" // Color for third party hits
+#define Td       "`y" // Color for third party damage
+
 /* command procedures needed */
 DECLARE_DO_FUN( do_emote );
 DECLARE_DO_FUN( do_berserk );
@@ -640,9 +650,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
     if ( dt == gsn_circle && weapon != NULL )
     {
         if ( weapon->value[0] != WEAPON_DAGGER ) /* JR: changed 2 to WEAPON_DAGGER*/
-            dam *= 2 + ch->level / 10;
+            dam *= 2 + ch->level / 15;
         else
-            dam *= 2 + ch->level / 8;
+            dam *= 2 + ch->level / 12;
     }
     
     dam += GET_DAMROLL( ch ) * UMIN( 100, skill ) / 100;
@@ -4121,33 +4131,40 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         if ( dam > 0 )
             if ( ch == victim )
             {
-                sprintf( buf1, "`Y$n `R%s`Y $melf%c", vp, punct ); // JR: Changed starting color from `w to `Y
-                sprintf( buf2, "`YYou `R%s`Y yourself%c", vs, punct );
+                sprintf( buf1, YOU "$n `R%s" YOU " $melf%c", vp, punct ); // JR: Changed starting color from `w to `Y
+                sprintf( buf2, YOU "You `R%s" YOU " yourself%c", vs, punct );
             }
             else
             {
-                sprintf( buf1, "`G$n `R%s`G $N for `g%d`G points of damage%c",
+                sprintf( buf1, THIRD "$n `R%s" THIRD " $N for " Td "%d" THIRD " points of damage%c`w",
                          vp, dam, punct );
                 /*sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
                          vs, dam, punct );*/
-                sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
+                sprintf( buf2, YOU "You `R%s" YOU " $N for " Yd "%d" YOU " points of damage%c`w",
                          vs, dam, punct );
-                sprintf( buf3, "`C$n `R%s`C you for `c%d`C points of damage%c", /* Modified by JR */
+                sprintf( buf3, ENEMY "$n `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c`w", /* Modified by JR */
                          vp, dam, punct );
             }
         else if ( ch == victim )
         {
-            sprintf( buf1, "`B$n %s $melf%c`w", vp, punct );
-            sprintf( buf2, "`BYou %s yourself%c`w", vs, punct );
+            sprintf( buf1, MISS "$n %s $melf%c`w", vp, punct );
+            sprintf( buf2, MISS "You %s yourself%c`w", vs, punct );
         }
         else
         {
-            sprintf( buf1, "`G$n %s`G $N for `g%d`G points of damage%c`w", vp,
+            // dam == 0
+            /*
+            sprintf( buf1, "`B$n %s`B $N for `g%d`B points of damage%c`w", vp, // JR: `G --> `B
                      dam, punct );
-            sprintf( buf2, "`YYou %s`Y $N for `R%d`Y points of damage%c`w", vs,
+            sprintf( buf2, "`BYou %s`B $N for `R%d`B points of damage%c`w", vs, // JR: `Y --> `B
                      dam, punct );
-            sprintf( buf3, "`C$n %s`C you for `c%d`C points of damage%c`w", vp,
-                     dam, punct );
+            sprintf( buf3, "`B$n %s`B you for `c%d`B points of damage%c`w", vp, // JR: `C --> `B
+                     dam, punct ); */
+            sprintf( buf1, MISS "$n %s" MISS " $N%c`w", vp, punct );
+            sprintf( buf2, MISS "You %s" MISS " $N%c`w", vs, punct );
+            sprintf( buf3, MISS "$n %s" MISS " you%c`w", vp, punct );
+            if ( dam != 0 )
+                    printf("Error: we expected damage to be 0\n\r"); // JR debug
         }
     }
     else
@@ -4168,14 +4185,14 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         {
             if ( ch == victim )
             {
-                sprintf( buf1, "`B$n is unaffected by $s own %s.`w", attack );
-                sprintf( buf2, "`BLuckily, you are immune to that.`w" );
+                sprintf( buf1, MISS "$n is unaffected by $s own %s.`w", attack );
+                sprintf( buf2, MISS "Luckily, you are immune to that.`w" );
             }
             else
             {
-                sprintf( buf1, "`B$N is unaffected by $n's %s!`w", attack );
-                sprintf( buf2, "`B$N is unaffected by your %s!`w", attack );
-                sprintf( buf3, "`B$n's %s is powerless against you.`w",
+                sprintf( buf1, MISS "$N is unaffected by $n's %s!`w", attack );
+                sprintf( buf2, MISS "$N is unaffected by your %s!`w", attack );
+                sprintf( buf3, MISS "$n's %s is powerless against you.`w",
                          attack );
             }
         }
@@ -4184,42 +4201,49 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             if ( dam > 0 )
                 if ( ch == victim )
                 {
-                    sprintf( buf1, "`G$n's %s `R%s`G $m for `g%d`G points of damage%c", attack, vp, dam, punct ); // JR changed colors
-                    sprintf( buf2, "`YYour %s `R%s`Y you for `g%d`Y points of damage%c", attack, vp, dam,
-                             punct );
+                    sprintf( buf1, THIRD "$n's %s `R%s" THIRD " $m for " Td "%d" THIRD " points of damage%c", attack, vp, dam, punct );
+                    sprintf( buf2, YOU "Your %s `R%s" YOU " you for " Yd "%d" YOU " points of damage%c", attack, vp, dam, punct );
                 }
                 else
                 {
                     sprintf( buf1,
-                             "`G$n's %s`G `R%s`G $N for `g%d`G points of damage%c",
+                             THIRD "$n's %s" THIRD " `R%s" THIRD " $N for " Td "%d" THIRD " points of damage%c",
                              attack, vp, dam, punct );
                     sprintf( buf2,
-                             "`YYour %s`Y `R%s`Y $N for `R%d`Y points of damage%c",
+                             YOU "Your %s" YOU " `R%s" YOU " $N for " Yd "%d" YOU " points of damage%c",
                              attack, vp, dam, punct );
                     sprintf( buf3,
-                             "`C$n's %s`Y `R%s`C you for `c%d`C points of damage%c",
+                             ENEMY "$n's %s`Y `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c",
                              attack, vp, dam, punct );
                 }
             else if ( ch == victim )
             {
-                sprintf( buf1, "`B$n's %s %s $m%c`w", attack, vp, punct );
-                sprintf( buf2, "`BYour %s %s you%c`w", attack, vp, punct );
+                sprintf( buf1, MISS "$n's %s %s $m%c`w", attack, vp, punct );
+                sprintf( buf2, MISS "Your %s %s you%c`w", attack, vp, punct );
             }
             else
             {
+                // dam == 0
+                /*
                 sprintf( buf1,
-                         "`G$n's %s %s`G $N for `g%d`G points of damage%c`w",
+                         "`B$n's %s %s`B $N for `g%d`B points of damage%c`w", // JR: `G --> `B
                          attack, vp, dam, punct );
                 sprintf( buf2,
-                         "`YYour %s %s `Y$N for `R%d`Y points of damage%c`w",
+                         "`BYour %s %s `B$N for `R%d`B points of damage%c`w", // JR: `Y --> `B
                          attack, vp, dam, punct );
                 sprintf( buf3,
-                         "`C$n's %s %s`C you for `c%d`C points of damage%c`w",
-                         attack, vp, dam, punct );
+                         "`B$n's %s %s`B you for `c%d`B points of damage%c`w", // JR: `C --> `B
+                         attack, vp, dam, punct ); */
+                sprintf( buf1, MISS "$n's %s %s" MISS " $N%c`w", attack, vp, punct );
+                sprintf( buf2, MISS "Your %s %s" MISS " $N%c`w", attack, vp, punct );
+                sprintf( buf3, MISS "$n's %s %s" MISS " you%c`w", attack, vp, punct );
+                if ( dam != 0 )
+                    printf("Error: we expected damage to be 0\n\r"); // JR debug
             }
         }
     }
 #else
+    // JR did not change colors below here
     if ( dt == TYPE_HIT )
     {
         if ( dam > 0 )
@@ -4236,8 +4260,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             }
         else if ( ch == victim )
         {
-            sprintf( buf1, "`B$n %s $melf%c`w", vp, punct );
-            sprintf( buf2, "`BYou %s yourself%c`w", vs, punct );
+            sprintf( buf1, MISS "$n %s $melf%c`w", vp, punct );
+            sprintf( buf2, MISS "You %s yourself%c`w", vs, punct );
         }
         else
         {
@@ -4263,8 +4287,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         {
             if ( ch == victim )
             {
-                sprintf( buf1, "`B$n is unaffected by $s own %s.`w", attack );
-                sprintf( buf2, "`BLuckily, you are immune to that.`w" );
+                sprintf( buf1, MISS "$n is unaffected by $s own %s.`w", attack );
+                sprintf( buf2, MISS "Luckily, you are immune to that.`w" );
             }
             else
             {
@@ -4292,8 +4316,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
                 }
             else if ( ch == victim )
             {
-                sprintf( buf1, "`B$n's %s %s $m%c`w", attack, vp, punct );
-                sprintf( buf2, "`BYour %s %s you%c`w", attack, vp, punct );
+                sprintf( buf1, MISS "$n's %s %s $m%c`w", attack, vp, punct );
+                sprintf( buf2, MISS "Your %s %s you%c`w", attack, vp, punct );
             }
             else
             {
@@ -4584,9 +4608,9 @@ void do_bash( CHAR_DATA * ch, char *argument )
     else
     {
         damage( ch, victim, NULL, 0, gsn_bash, DAM_BASH );
-        act( "`BYou fall flat on your face!`w", ch, NULL, victim, TO_CHAR );
-        act( "`B$n falls flat on $s face.`w", ch, NULL, victim, TO_NOTVICT );
-        act( "`BYou evade $n's bash, causing $m to fall flat on $s face.`w",
+        act(  MISS "You fall flat on your face!`w", ch, NULL, victim, TO_CHAR );
+        act(  MISS "$n falls flat on $s face.`w", ch, NULL, victim, TO_NOTVICT );
+        act(  MISS "You evade $n's bash, causing $m to fall flat on $s face.`w",
              ch, NULL, victim, TO_VICT );
         check_improve( ch, gsn_bash, FALSE, 1 );
         ch->position = POS_RESTING;
@@ -4816,9 +4840,9 @@ void do_trip( CHAR_DATA * ch, char *argument )
 
     if ( victim == ch )
     {
-        send_to_char( "`BYou fall flat on your face!\n\r`w", ch );
+        send_to_char(  MISS "You fall flat on your face!\n\r`w", ch );
         WAIT_STATE( ch, 2 * skill_table[gsn_trip].beats );
-        act( "$n trips over $s own feet!", ch, NULL, NULL, TO_ROOM );
+        act(  MISS "$n trips over $s own feet!", ch, NULL, NULL, TO_ROOM );
         return;
     }
 
@@ -5579,10 +5603,10 @@ void do_disarm( CHAR_DATA * ch, char *argument )
     else
     {
         WAIT_STATE( ch, skill_table[gsn_disarm].beats );
-        act( "`BYou fail to disarm $N.`w", ch, NULL, victim, TO_CHAR );
-        act( "`B$n tries to disarm you, but fails.`w", ch, NULL, victim,
+        act(  MISS "You fail to disarm $N.`w", ch, NULL, victim, TO_CHAR );
+        act(  MISS "$n tries to disarm you, but fails.`w", ch, NULL, victim,
              TO_VICT );
-        act( "`B$n tries to disarm $N, but fails.`w", ch, NULL, victim,
+        act(  MISS "$n tries to disarm $N, but fails.`w", ch, NULL, victim,
              TO_NOTVICT );
         check_improve( ch, gsn_disarm, FALSE, 1 );
     }
@@ -5787,30 +5811,30 @@ bool check_block( CHAR_DATA * ch, CHAR_DATA * victim )
 
     if ( dnum == 1 )
     {
-        act( BLK_MSG1, ch, NULL, victim, TO_CHAR );
-        act( BLK_MSGS1, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSG1, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSGS1, ch, NULL, victim, TO_CHAR );
     }
     else if ( dnum == 2 )
     {
-        act( BLK_MSG2, ch, NULL, victim, TO_CHAR );
-        act( BLK_MSGS2, ch, NULL, victim, TO_VICT );
+        act( MISS  BLK_MSG2, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSGS2, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 3 )
     {
-        act( BLK_MSG3, ch, NULL, victim, TO_CHAR );
-        act( BLK_MSGS3, ch, NULL, victim, TO_VICT );
+        act( MISS  BLK_MSG3, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSGS3, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 4 )
 
     {
-        act( BLK_MSG4, ch, NULL, victim, TO_CHAR );
-        act( BLK_MSGS4, ch, NULL, victim, TO_VICT );
+        act( MISS  BLK_MSG4, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSGS4, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 5 )
 
     {
-        act( BLK_MSG5, ch, NULL, victim, TO_CHAR );
-        act( BLK_MSGS5, ch, NULL, victim, TO_VICT );
+        act( MISS  BLK_MSG5, ch, NULL, victim, TO_CHAR );
+        act( MISS  BLK_MSGS5, ch, NULL, victim, TO_VICT );
     }
 
     if ( ( ( victim->level ) - 5 ) > ( ch->level ) )
@@ -5846,30 +5870,30 @@ bool check_parry( CHAR_DATA * ch, CHAR_DATA * victim )
     dnum = number_range( 1, 5 );
     if ( dnum == 1 )
     {
-        act( PRY_MSG1, ch, NULL, victim, TO_CHAR );
-        act( PRY_MSGS1, ch, NULL, victim, TO_VICT );
+        act( MISS PRY_MSG1, ch, NULL, victim, TO_CHAR );
+        act( MISS PRY_MSGS1, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 2 )
     {
-        act( PRY_MSG2, ch, NULL, victim, TO_CHAR );
-        act( PRY_MSGS2, ch, NULL, victim, TO_VICT );
+        act( MISS PRY_MSG2, ch, NULL, victim, TO_CHAR );
+        act( MISS PRY_MSGS2, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 3 )
     {
-        act( PRY_MSG3, ch, NULL, victim, TO_CHAR );
-        act( PRY_MSGS3, ch, NULL, victim, TO_VICT );
+        act( MISS PRY_MSG3, ch, NULL, victim, TO_CHAR );
+        act( MISS PRY_MSGS3, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 4 )
 
     {
-        act( PRY_MSG4, ch, NULL, victim, TO_CHAR );
-        act( PRY_MSGS4, ch, NULL, victim, TO_VICT );
+        act( MISS PRY_MSG4, ch, NULL, victim, TO_CHAR );
+        act( MISS PRY_MSGS4, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 5 )
 
     {
-        act( PRY_MSG5, ch, NULL, victim, TO_CHAR );
-        act( PRY_MSGS5, ch, NULL, victim, TO_VICT );
+        act( MISS PRY_MSG5, ch, NULL, victim, TO_CHAR );
+        act( MISS PRY_MSGS5, ch, NULL, victim, TO_VICT );
     }
 
     check_improve( victim, gsn_parry, TRUE, 6 );
@@ -5896,30 +5920,30 @@ bool check_dodge( CHAR_DATA * ch, CHAR_DATA * victim )
     dnum = number_range( 1, 5 );
     if ( dnum == 1 )
     {
-        act( DDG_MSG1, ch, NULL, victim, TO_CHAR );
-        act( DDG_MSGS1, ch, NULL, victim, TO_VICT );
+        act( MISS DDG_MSG1, ch, NULL, victim, TO_CHAR );
+        act( MISS DDG_MSGS1, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 2 )
     {
-        act( DDG_MSG2, ch, NULL, victim, TO_CHAR );
-        act( DDG_MSGS2, ch, NULL, victim, TO_VICT );
+        act( MISS DDG_MSG2, ch, NULL, victim, TO_CHAR );
+        act( MISS DDG_MSGS2, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 3 )
     {
-        act( DDG_MSG3, ch, NULL, victim, TO_CHAR );
-        act( DDG_MSGS3, ch, NULL, victim, TO_VICT );
+        act( MISS  DDG_MSG3, ch, NULL, victim, TO_CHAR );
+        act( MISS  DDG_MSGS3, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 4 )
 
     {
-        act( DDG_MSG4, ch, NULL, victim, TO_CHAR );
-        act( DDG_MSGS4, ch, NULL, victim, TO_VICT );
+        act( MISS  DDG_MSG4, ch, NULL, victim, TO_CHAR );
+        act( MISS  DDG_MSGS4, ch, NULL, victim, TO_VICT );
     }
     else if ( dnum == 5 )
 
     {
-        act( DDG_MSG5, ch, NULL, victim, TO_CHAR );
-        act( DDG_MSGS5, ch, NULL, victim, TO_VICT );
+        act( MISS  DDG_MSG5, ch, NULL, victim, TO_CHAR );
+        act( MISS  DDG_MSGS5, ch, NULL, victim, TO_VICT );
     }
     check_improve( victim, gsn_dodge, TRUE, 6 );
     return TRUE;

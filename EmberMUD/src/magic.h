@@ -109,4 +109,6 @@ DECLARE_SPELL_FUN( spell_life_drain );
 DECLARE_SPELL_FUN( spell_energize );
 DECLARE_SPELL_FUN( spell_remove_align );
 DECLARE_SPELL_FUN( spell_knock );
+DECLARE_SPELL_FUN( spell_hellfire );
+DECLARE_SPELL_FUN( spell_bark_skin );
 #endif

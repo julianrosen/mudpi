@@ -649,7 +649,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->affected_by = 0;
     ch->newaff[0] = 0;
     ch->act = PLR_NOSUMMON
-        | PLR_AUTOEXIT | PLR_AUTOLOOT | PLR_AUTOSAC | PLR_AUTOGOLD;
+        | PLR_AUTOEXIT | PLR_AUTOLOOT | PLR_AUTOSAC | PLR_AUTOGOLD | PLR_AUTOTRACK;
     ch->comm = COMM_COMBINE | COMM_PROMPT;
     ch->invis_level = 0;
     ch->practice = 0;
