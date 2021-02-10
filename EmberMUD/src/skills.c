@@ -595,16 +595,19 @@ void do_splist( CHAR_DATA * ch, char *argument )
 void do_spells( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char spell_list[LEVEL_HERO][MAX_STRING_LENGTH];
-    char spell_columns[LEVEL_HERO];
-    int sn, lev, mana;
+    char spell_list[MAX_LEVEL][MAX_STRING_LENGTH];
+    char spell_columns[MAX_LEVEL];
+    int sn, lev, mana, top_level;
     bool found = FALSE;
 
     if ( IS_NPC( ch ) )
         return;
 
     /* initilize data */
-    for ( lev = 0; lev < LEVEL_HERO; lev++ )
+    
+    top_level = ch->level < LEVEL_HERO ? LEVEL_HERO : ch->level;
+
+    for ( lev = 0; lev < top_level ; lev++ )
     {
         spell_columns[lev] = 0;
         spell_list[lev][0] = '\0';
@@ -614,7 +617,7 @@ void do_spells( CHAR_DATA * ch, char *argument )
     {
         if ( skill_table[sn].name == NULL )
             break;
-        if ( skill_table[sn].skill_level[ch->Class] < LEVEL_HERO &&
+        if ( skill_table[sn].skill_level[ch->Class] < top_level &&
              skill_table[sn].spell_fun != spell_null &&
              ch->pcdata->learned[sn] > 0 )
         {
@@ -648,7 +651,7 @@ void do_spells( CHAR_DATA * ch, char *argument )
         return;
     }
 
-    for ( lev = 0; lev < LEVEL_HERO; lev++ )
+    for ( lev = 0; lev < top_level ; lev++ )
         if ( spell_list[lev][0] != '\0' )
             send_to_char( spell_list[lev], ch );
     send_to_char( "\n\r", ch );

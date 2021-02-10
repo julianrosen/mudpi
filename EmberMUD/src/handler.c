@@ -140,7 +140,6 @@ char *material_name( sh_int num )
 int race_lookup( const char *name )
 {
     int race;
-
     for ( race = 0; race_table[race].name != NULL; race++ )
     {
         if ( LOWER( name[0] ) == LOWER( race_table[race].name[0] )
@@ -148,6 +147,12 @@ int race_lookup( const char *name )
             return race;
     }
 
+    /*for ( race = 0; pc_race_table[race].name != NULL; race++ ) // Added by JR to fix bug with spaces
+    {
+        if ( LOWER( name[0] ) == LOWER( pc_race_table[race].name[0] )
+             && !str_prefix( name, pc_race_table[race].name ) )
+            return race;
+    }*/
     return 0;
 }
 

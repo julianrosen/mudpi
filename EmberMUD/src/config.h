@@ -13,6 +13,7 @@
 #define SHOW_CP       0 /* Display creation points and % XP in score? */
 #define HUNGER_THIRST 0 /* Players get hungry and thirsty? */
 #define STARTING_AGE  25
+#define MAX_RACE_LEN  11
 
 /* Prompts */
 #define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
@@ -645,12 +646,12 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_CREATION_POINTS        10   /* Not enforced, but used in some calculations */
                                        /* Namely the max CP cost for a skill/spell */
 #define MAX_SOCIALS               256
-#define MAX_SKILL                 200
+#define MAX_SKILL                 300
 #define MAX_GROUP                  36
 #define MAX_IN_GROUP               20
 #define MAX_ALIAS                  20
 #define MAX_CLASS                   8
-#define MAX_PC_RACE                12
+#define MAX_PC_RACE                30
 #define MAX_LEVEL                 100
 #define MAX_EXP            2147483647
 #define MAX_CHUNKS                 80   /* Used in ssm.c */

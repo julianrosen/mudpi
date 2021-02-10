@@ -2612,8 +2612,10 @@ char *pre_clan( CHAR_DATA * ch, CHAR_DATA * looker, char *empty, char *private,
 }
 
 /* old whois command */
+// JR: This should never be called anymore
 void do_whoname( CHAR_DATA * ch, char *argument )
 {
+    printf("do_whoname(%s)\n",argument);
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
     char empty[] = "";
@@ -2750,6 +2752,7 @@ void do_who( CHAR_DATA * ch, char *argument )
     char output[4 * MAX_STRING_LENGTH];
     DESCRIPTOR_DATA *d;
     CHAR_DATA *who_list[300];
+    CHAR_DATA *temp; // JR 
     int iClass;
     int iRace;
     int iLevelLower;
@@ -2759,25 +2762,25 @@ void do_who( CHAR_DATA * ch, char *argument )
     int length;
     int maxlength;
     int count;
+    int race_len; // JR
     bool rgfClass[MAX_CLASS];
     bool rgfRace[MAX_PC_RACE];
-    bool fClassRestrict;
-    bool fRaceRestrict;
-    bool fImmortalOnly;
+    bool fClassRestrict = FALSE;
+    bool fRaceRestrict = FALSE;
+    bool fImmortalOnly = FALSE;
+    bool searchName = FALSE;
     bool doneimmort = FALSE;
     bool donemort = FALSE;
     char empty[] = "";
     char private[] = "`m(P)`w";
     char secret[] = "`r(S)`w";
+    char * race;
 
     /*
      * Set default arguments.
      */
     iLevelLower = 0;
     iLevelUpper = MAX_LEVEL + 2;
-    fClassRestrict = FALSE;
-    fRaceRestrict = FALSE;
-    fImmortalOnly = FALSE;
     for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
         rgfClass[iClass] = FALSE;
     for ( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
@@ -2827,8 +2830,8 @@ void do_who( CHAR_DATA * ch, char *argument )
 
                     if ( iRace == 0 || iRace >= MAX_PC_RACE )
                     {
-                        do_whoname( ch, arg );
-                        return;
+                        searchName = TRUE;
+                        break;
                     }
                     else
                     {
@@ -2854,45 +2857,71 @@ void do_who( CHAR_DATA * ch, char *argument )
              || ( d->connected == CON_NOTE_TEXT )
              || ( d->connected == CON_NOTE_FINISH ) )
         {
-            /* If descriptor belongs to a switched imm... */
+            // temp is a character who might be added to the list
             if ( d->original != NULL )
-            {
-                /* Put the imm in the who_list, not the mob */
-                insert_sort( who_list, d->original, length );
-            }
+                temp = d->original;
             else
-            {
-                insert_sort( who_list, d->character, length );
-            }
-
+                temp = d->character;
+            
+            if ( !can_see( ch, temp ) )
+                continue;
+    
+            if ( temp->level < iLevelLower
+             || temp->level > iLevelUpper
+             || ( fImmortalOnly && temp->level < LEVEL_HERO )
+             || ( fClassRestrict && !rgfClass[temp->Class] )
+             || ( fRaceRestrict && !rgfRace[temp->race] ) )
+                continue;
+            
+            printf("str_prefix(%s,%s)\n",arg,temp->name);// JR debug
+            if ( searchName && str_prefix( arg, temp->name ) )
+                continue;
+            
+            insert_sort( who_list, temp, length );
             length++;
         }
     }
 
     maxlength = length;
-
     /*
      * Now show matching chars.
      */
     nMatch = 0;
     buf[0] = '\0';
     output[0] = '\0';
+    
+    race_len = 0;
+
+    for ( length = 0; length < maxlength; length++ )
+    {
+        temp = who_list[length];
+        if ( temp->pcdata != NULL && temp->pcdata->who_race )
+            race = temp->pcdata->who_race;
+        else if ( temp->race < MAX_PC_RACE )
+            race = pc_race_table[temp->race].who_name;
+        else
+            continue;
+        if ( bw_strlen( race ) > race_len )
+            race_len = bw_strlen( race );
+    }
+    //
+    
     for ( length = 0; length < maxlength; length++ )
     {
         char const *Class;
-
+        temp = who_list[length];
         /*
          * Check for match against restrictions.
          * Don't use trust as that exposes trusted mortals.
          */
-        if ( who_list[length]->level > MAX_LEVEL - 10
-             && can_see( ch, who_list[length] ) && doneimmort == FALSE )
+        if ( temp->level > MAX_LEVEL - 10
+             && doneimmort == FALSE )
         {
             sprintf( buf, "`K[`RVisible Immortals`K]\n\r\n\r" );
             doneimmort = TRUE;
             strcat( output, buf );
         }
-        else if ( ( who_list[length]->level <= MAX_LEVEL - 10 )
+        else if ( ( temp->level <= MAX_LEVEL - 10 )
                   && donemort == FALSE )
         {
             if ( doneimmort == TRUE )
@@ -2904,25 +2933,14 @@ void do_who( CHAR_DATA * ch, char *argument )
             donemort = TRUE;
             strcat( output, buf );
         }
-        if (                    /*who_list[length]->desc->connected != CON_PLAYING || */
-                !can_see( ch, who_list[length] ) )
-            continue;
 
-        if ( who_list[length]->level < iLevelLower
-             || who_list[length]->level > iLevelUpper
-             || ( fImmortalOnly && who_list[length]->level < LEVEL_HERO )
-             || ( fClassRestrict && !rgfClass[who_list[length]->Class] )
-             || ( fRaceRestrict && !rgfRace[who_list[length]->race] ) )
-            continue;
-
-        nMatch++;
 
         /*
          * Figure out what to print for class.
          */
 
-        Class = class_table[who_list[length]->Class].who_name;
-        switch ( who_list[length]->level )
+        Class = class_table[temp->Class].who_name;
+        switch ( temp->level )
         {
         default:
             break;
@@ -2967,52 +2985,49 @@ void do_who( CHAR_DATA * ch, char *argument )
          * Format it up.
          */
 
-        /* Yes, I know this new version is messy. Really messy in fact.
-           Clean it up if you like.  -Kyle */
-        if ( who_list[length]->anonymous )
+        char *prefix,*name,*title,*clan1,*clan2,*race;
+        int level = temp->level > MAX_LEVEL ? MAX_LEVEL : temp->level;
+        if ( temp->pcdata != NULL && temp->pcdata->who_race )
+            race = temp->pcdata->who_race;
+        else if ( temp->race < MAX_PC_RACE )
+            race = pc_race_table[temp->race].who_name;
+        else
+            race = NULL;
+
+        if ( !IS_NPC( temp ) && temp->pcdata->clan != 0 )
         {
-            sprintf( buf, "`K[    `KA`wN`WO`wN`KY`wM`WO`wU`KS`K     ] %s%s%s `R[`W%s%s%s%s%s`R] `w%s%s%s\n\r", IS_NPC( who_list[length] ) ? "" : ( who_list[length]->pcdata->clan == 0 ) ? "" : pre_clan( who_list[length], ch, empty, private, secret ), IS_NPC( who_list[length] ) ? "" : ( who_list[length]->pcdata->clan == 0 ) ? "" : who_clan( who_list[length], ch, empty ), "", /* <---- if you need to add something, remove this */
-                     IS_NPC( who_list[length] ) ? "-" :
-                     !is_name( who_list[length]->pcdata->spouse,
-                               "(none)" ) ? "M" : "-",
-                     IS_SET( who_list[length]->act, PLR_WIZINVIS ) ? "W" : "",
-                     IS_SET( who_list[length]->act, PLR_AFK ) ? "A" : "-",
-                     IS_SET( who_list[length]->act,
-                             PLR_KILLER ) ? "`RP`W" : "-",
-                     IS_SET( who_list[length]->act, PLR_THIEF ) ? "`KT" : "-",
-                     who_list[length]->pcdata != NULL
-                     && who_list[length]->pcdata->
-                     who_prefix ? who_list[length]->pcdata->who_prefix : "",
-                     IS_NPC( who_list[length] ) ? who_list[length]->
-                     short_descr : who_list[length]->name,
-                     IS_NPC( who_list[length] ) ? "" : who_list[length]->
-                     pcdata->title );
-            strcat( output, buf );
+            clan1 = pre_clan( temp, ch, empty, private, secret );
+            clan2 = who_clan( temp, ch, empty );
+            printf("%s in clan, %s, %s,\n",temp->name,clan1,clan2);
         }
         else
         {
-            // JR changed %s to %*s and added length specifer 10 to fix bug with length of custom race
-            sprintf( buf, "`K[`W%3d `Y%*s `G%s`K] %s%s%s`R[`W%s%s%s%s%s`R] `w%s%s%s\n\r", ( who_list[length]->level > MAX_LEVEL ? MAX_LEVEL : who_list[length]->level ), 10, who_list[length]->pcdata != NULL && who_list[length]->pcdata->who_race ? who_list[length]->pcdata->who_race : who_list[length]->race < MAX_PC_RACE ? pc_race_table[who_list[length]->race].who_name : "          ", Class, IS_NPC( who_list[length] ) ? "" : ( who_list[length]->pcdata->clan == 0 ) ? "" : pre_clan( who_list[length], ch, empty, private, secret ), IS_NPC( who_list[length] ) ? "" : ( who_list[length]->pcdata->clan == 0 ) ? "" : who_clan( who_list[length], ch, empty ), "", /* <---- if you need to add something, remove this */
-                     IS_NPC( who_list[length] ) ? "-" :
-                     !is_name( who_list[length]->pcdata->spouse,
-                               "(none)" ) ? "M" : "-",
-                     IS_SET( who_list[length]->act, PLR_WIZINVIS ) ? "W" : "",
-                     IS_SET( who_list[length]->act, PLR_AFK ) ? "A" : "-",
-                     IS_SET( who_list[length]->act,
-                             PLR_KILLER ) ? "`RP`W" : "-",
-                     IS_SET( who_list[length]->act, PLR_THIEF ) ? "`KT`W" : "-",
-                     who_list[length]->pcdata != NULL
-                     && who_list[length]->pcdata->
-                     who_prefix ? who_list[length]->pcdata->who_prefix : "",
-                     IS_NPC( who_list[length] ) ? who_list[length]->
-                     short_descr : who_list[length]->name,
-                     IS_NPC( who_list[length] ) ? "" : who_list[length]->
-                     pcdata->title );
-            strcat( output, buf );
+            printf("%s not in clan\n",temp->name);
+            clan1 = empty;
+            clan2 = empty;
         }
 
+        prefix = temp->pcdata != NULL && temp->pcdata->who_prefix ? temp->pcdata->who_prefix : empty;
+        name = IS_NPC( temp ) ? temp->short_descr : temp->name;
+        title = IS_NPC( temp ) ? empty : temp->pcdata->title;
+
+        if ( temp->anonymous )
+            sprintf( buf, "`K[%s]", center("`KA`wN`WO`wN`KY`wM`WO`wU`KS`K", race_len+2, buf2) );
+        else
+            sprintf( buf, "`K[`W%3d`Y%s`G%s`K]", level, center( race, race_len+2, buf2), Class );
+                    
+        sprintf( buf2, "%s %s%s%s%s%s%s%s `w%s%s%s\n\r", buf, clan1, clan2,
+                !IS_NPC( temp ) && !is_name( temp->pcdata->spouse, "(none)" ) ? "`W(M)" : "",
+                IS_SET( temp->act, PLR_WIZINVIS )?"`B(W)":"",
+                IS_SET( temp->act, PLR_AFK ) ? "`Y(AFK)" : "",
+                IS_SET( temp->act,PLR_KILLER ) ? "`R(PK)" : "",
+                IS_SET( temp->act, PLR_THIEF ) ? "`K(T)" : "",
+                prefix,name,title);
+        strcat( output, buf2 );
+
+
     }
-    sprintf( buf2, "\n\r`wVisible Players Shown: `W%d\n\r", nMatch );
+    sprintf( buf2, "\n\r`wVisible Players Shown: `W%d\n\r", maxlength );
     strcat( output, buf2 );
     count = 0;
     for ( d = descriptor_list; d; d = d->next )

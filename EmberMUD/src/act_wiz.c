@@ -4263,13 +4263,13 @@ void do_mset( CHAR_DATA * ch, char *argument )
             send_to_char( "Race now shows the actual race.\n\r", ch );
             return;
         }
-        if ( str_len( arg3 ) > 10 )
+        if ( str_len( arg3 ) > MAX_RACE_LEN )
         {
-            send_to_char
-                ( "Too long, length is limited to 10 characters not counting color.\n\r",
-                  ch );
+            sprintf( buf, "Too long, length is limited to %i characters not counting color.\n\r", MAX_RACE_LEN);
+            send_to_char( buf, ch );
             return;
         }
+        /*
         if ( str_len( arg3 ) < 10 )
         {
             int numpads = 0;
@@ -4288,7 +4288,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
 
             for ( x = 0; x < numpads + extrapad; x++ )
                 strcat( arg3, " " );
-        }
+        }*/
         free_string( &victim->pcdata->who_race );
         smash_tilde( arg3 );
         victim->pcdata->who_race = str_dup( arg3 );

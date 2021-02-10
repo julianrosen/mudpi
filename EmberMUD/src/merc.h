@@ -379,7 +379,7 @@ struct race_type {
 struct pc_race_type             /* additional data for pc races */
 {
     char *name;                 /* MUST be in race_type */
-    char who_name[11];          /* changed to 11  -Kyle */
+    char who_name[MAX_RACE_LEN+3];          /* changed to 11  -Kyle */ /* JR changed */
     sh_int points;              /* cost in points of the race */
     sh_int class_mult[MAX_CLASS];   /* exp multiplier for class, * 100 */
     char *skills[5];            /* bonus skills for the race */
@@ -1321,6 +1321,11 @@ char * gender( int ); char * Gender( int );
 // JR: strip article
 char * strip_article( char * );
 char * article( bool, bool, char * );
+
+char * center( char *, int , char *);
+int bw_strlen( char * );
+
+
 
 extern bool reap_shells;
 extern const char echo_off_str[];

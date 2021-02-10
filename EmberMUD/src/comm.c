@@ -270,6 +270,13 @@ int socket args( ( int domain, int type, int protocol ) );
 int write args( ( int fd, char *buf, int nbyte ) );
 #endif
 
+
+// JR
+void prompt_race ( DESCRIPTOR_DATA *, CHAR_DATA *, int );
+
+
+
+
 /*
  * Global variables.
  */
@@ -645,6 +652,48 @@ void sigchld_handler( int sig )
     return;
 }
 #endif
+
+// Count 
+
+// Display list of allowable races
+void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
+{
+    int max_len = 0,x=0,i,race;
+    write_to_buffer( d, "The following races are available:\n\r", 0 );
+    // Compute the max length of race here
+    for ( race = 1; race_table[race].name != NULL; race++ )
+    {
+        if ( !race_table[race].pc_race )
+            break;
+        if ( !race_table[race].remort_race ||
+             ( race_table[race].remort_race
+               && IS_SET( ch->act, PLR_REMORT ) ) )
+            max_len = bw_strlen(race_table[race].name) > max_len ? 
+                bw_strlen(race_table[race].name) : max_len;
+    }
+    for ( race = 1; race_table[race].name != NULL; race++ )
+    {
+        if ( !race_table[race].pc_race )
+            break;
+        if ( !race_table[race].remort_race ||
+             ( race_table[race].remort_race
+               && IS_SET( ch->act, PLR_REMORT ) ) )
+        {
+            if ( x == columns )
+            {
+                write_to_buffer( d, "\n\r", 2 );
+                x = 0;
+            }
+            write_to_buffer( d, race_table[race].name, 0 );
+            for ( i=0 ; i+strlen(race_table[race].name) < max_len + 3; i++)
+                write_to_buffer( d, " ", 1 );
+            x++;
+        }
+    }
+    write_to_buffer( d, "\n\r\n\r", 4 );
+    write_to_buffer( d, "What is your race ('help' for more information): ", 0 );
+}
+
 
 int game_loop( int control )
 {
@@ -1562,7 +1611,7 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
     int ban_type;
     char *pwdnew;
     char *p;
-    int iClass, race, i, x;
+    int iClass, race, i, x, max_len;
     bool fOld;
     DESCRIPTOR_DATA *d_old;
 
@@ -1749,7 +1798,7 @@ check_ban function.
 	
 	
 }*/
-            sprintf( buf, "Did I get that right, %s (Y/N)? ", argument );
+            sprintf( buf, "Did I get that right, %s (Y/N): ", argument );
             write_to_buffer( d, buf, 0 );
             d->connected = CON_CONFIRM_NEW_NAME;
             return;
@@ -1857,7 +1906,7 @@ check_ban function.
             break;
 
         default:
-            write_to_buffer( d, "Please type Y or N? ", 0 );
+            write_to_buffer( d, "Please type Y or N: ", 0 );
             break;
         }
         break;
@@ -1877,14 +1926,14 @@ check_ban function.
 
         case 'n':
         case 'N':
-            write_to_buffer( d, "Ok, what IS it, then? ", 0 );
+            write_to_buffer( d, "Ok, what IS it, then: ", 0 );
             free_char( d->character );
             d->character = NULL;
             d->connected = CON_GET_NAME;
             break;
 
         default:
-            write_to_buffer( d, "Please type Yes or No? ", 0 );
+            write_to_buffer( d, "Please type Yes or No: ", 0 );
             break;
         }
         break;
@@ -1933,24 +1982,9 @@ check_ban function.
         }
 
         write_to_buffer( d, echo_on_str, 0 );
-        write_to_buffer( d, "The following races are available:\n\r  ", 0 );
-        for ( race = 1; race_table[race].name != NULL; race++ )
-        {
-            if ( !race_table[race].pc_race )
-                break;
-            if ( !race_table[race].remort_race ||
-                 ( race_table[race].remort_race
-                   && IS_SET( ch->act, PLR_REMORT ) ) )
-            {
 
-                write_to_buffer( d, race_table[race].name, 0 );
-                write_to_buffer( d, " ", 1 );
-            }
+        prompt_race(d, ch, 3);
 
-        }
-        write_to_buffer( d, "\n\r", 0 );
-        write_to_buffer( d, "What is your race (help for more information)? ",
-                         0 );
         d->connected = CON_GET_NEW_RACE;
         break;
 
@@ -1965,41 +1999,24 @@ check_ban function.
             else
                 do_help( ch, argument );
             write_to_buffer( d,
-                             "What is your race (help for more information)? ",
+                             "What is your race (help for more information): ",
                              0 );
             break;
         }
 
         race = race_lookup( argument );
-        fprintf(stderr, "Race lookup complete, %d\n\r",race); /* Temporary JR*/
         if ( race == 0 || !race_table[race].pc_race
              || ( race_table[race].remort_race
                   && !IS_SET( ch->act, PLR_REMORT ) ) )
         {
             write_to_buffer( d, "That is not a valid race.\n\r", 0 );
-            write_to_buffer( d, "The following races are available:\n\r  ", 0 );
-            for ( race = 1; race_table[race].name != NULL; race++ )
-            {
-                if ( !race_table[race].pc_race )
-                    break;
-                if ( !race_table[race].remort_race ||
-                     ( race_table[race].remort_race
-                       && IS_SET( ch->act, PLR_REMORT ) ) )
-                {
-                    write_to_buffer( d, race_table[race].name, 0 );
-                    write_to_buffer( d, " ", 1 );
-                }
-            }
-            write_to_buffer( d, "\n\r", 0 );
-            write_to_buffer( d,
-                             "What is your race? (help for more information) ",
-                             0 );
+            prompt_race( d, ch, 3 );
+
             break;
         }
 
         ch->race = race;
             
-        fprintf(stderr,"Set race\n\r"); /* JR temp*/
         /* initialize stats */
         for ( i = 0; i < MAX_STATS; i++ )
             ch->perm_stat[i] = pc_race_table[race].stats[i];
@@ -2021,7 +2038,7 @@ check_ban function.
         /* add cost */
         ch->pcdata->points = pc_race_table[race].points;
         ch->size = pc_race_table[race].size;
-        write_to_buffer( d, "\n\rWhat is your gender (M/F/N)? ", 0 );
+        write_to_buffer( d, "\n\rWhat is your gender (M/F/N): ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
     
@@ -2044,7 +2061,7 @@ check_ban function.
             ch->pcdata->true_sex = SEX_NB;
             break;
         default:
-            write_to_buffer( d, "That's not a gender.\n\rWhat IS your gender? ", 0 );
+            write_to_buffer( d, "That's not a gender.\n\rWhat IS your gender: ", 0 );
             return;
         }
         write_to_buffer( d, "\n\rPress enter to start rolling your stats. ", 0 );
@@ -2067,22 +2084,41 @@ check_ban function.
                 ch->perm_stat[3] = stat4[atoi( argument )];
                 ch->perm_stat[4] = stat5[atoi( argument )];
 
-                strcpy( buf, "\n\rSelect a class [" );
+                write_to_buffer( d, "\n\rThe following classes are available:\n\r", 0 );
+                max_len = 0;    
+                
                 for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
                 {
                     if ( !class_table[iClass].remort_class ||
                          ( class_table[iClass].remort_class
                            && IS_SET( ch->act, PLR_REMORT ) ) )
                     {
-                        if ( iClass > 0
-                             && str_cmp( class_table[iClass].name, "Console" ) )
-                            strcat( buf, " " );
                         if ( str_cmp( class_table[iClass].name, "Console" ) )
-                            strcat( buf, class_table[iClass].name );
+                            max_len = bw_strlen( class_table[iClass].name ) > max_len ? bw_strlen( class_table[iClass].name ) : max_len;
                     }
                 }
-                strcat( buf, "]: " );
-                write_to_buffer( d, buf, 0 );
+                x = 0;                  
+                for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
+                {
+                    if ( !class_table[iClass].remort_class ||
+                         ( class_table[iClass].remort_class
+                           && IS_SET( ch->act, PLR_REMORT ) ) )
+                    {
+                        if ( str_cmp( class_table[iClass].name, "Console" ) )
+                        {
+                            if ( x == 3 )
+                            {
+                                write_to_buffer( d, "\n\r", 2 );
+                                x = 0;
+                            }
+                            write_to_buffer( d, class_table[iClass].name, 0 );
+                            for ( i=0 ; i+bw_strlen(class_table[iClass].name) < max_len + 3; i++)
+                                write_to_buffer( d, " ", 1 );
+                            x++;
+                        }
+                    }
+                }
+                write_to_buffer( d, "\n\r\n\rWhat is your class ('help' for more information): ", 0 );
                 d->connected = CON_GET_NEW_CLASS;
                 break;
             default:
@@ -2210,7 +2246,7 @@ check_ban function.
                   && !IS_SET( ch->act, PLR_REMORT ) ) )
         {
             write_to_buffer( d,
-                             "That's not a class.\n\rWhat IS your class? ", 0 );
+                             "That's not a class.\n\rWhat IS your class: ", 0 );
             return;
         }
 
@@ -2222,7 +2258,7 @@ check_ban function.
         /*if (ch->race == 1) write_to_buffer( d, "Your class is evil by nature.\n\r",0);
            else { */
         write_to_buffer( d, "You may be good, neutral, or evil.\n\r", 0 );
-        write_to_buffer( d, "Which alignment (G/N/E)? ", 0 );
+        write_to_buffer( d, "Which alignment (G/N/E): ", 0 );
         /*} */
         d->connected = CON_GET_ALIGNMENT;
         break;
@@ -2245,7 +2281,7 @@ check_ban function.
             break;
         default:
             write_to_buffer( d, "That's not a valid alignment.\n\r", 0 );
-            write_to_buffer( d, "Which alignment (G/N/E)? ", 0 );
+            write_to_buffer( d, "Which alignment (G/N/E): ", 0 );
             return;
         }
 
@@ -2255,10 +2291,10 @@ check_ban function.
         group_add( ch, class_table[ch->Class].base_group, FALSE );
         ch->pcdata->learned[gsn_recall] = 50;
         write_to_buffer( d, "Do you wish to customize this character?\n\r", 0 );
-        /*write_to_buffer( d,
+        write_to_buffer( d,
                          "Customization takes time, but allows a wider range of skills and abilities.\n\r",
-                         0 );*/
-        write_to_buffer( d, "Customize (Y/N)? ", 0 );
+                         0 );
+        write_to_buffer( d, "Customize (Y/N): ", 0 );
         d->connected = CON_DEFAULT_CHOICE;
         break;
 
@@ -2287,7 +2323,7 @@ check_ban function.
             d->connected = CON_READ_MOTD;
             break;
         default:
-            write_to_buffer( d, "Please answer (Y/N)? ", 0 );
+            write_to_buffer( d, "Please answer (Y/N): ", 0 );
             return;
         }
         break;
@@ -2337,17 +2373,7 @@ check_ban function.
 
     case CON_BEGIN_REMORT:
         write_to_buffer( d, "Now beginning the remorting process.\n\r\n\r", 0 );
-        write_to_buffer( d, "The following races are available:\n\r  ", 0 );
-        for ( race = 1; race_table[race].name != NULL; race++ )
-        {
-            if ( !race_table[race].pc_race )
-                break;
-            write_to_buffer( d, race_table[race].name, 0 );
-            write_to_buffer( d, " ", 1 );
-        }
-        write_to_buffer( d, "\n\r", 0 );
-        write_to_buffer( d, "What is your race (help for more information)? ",
-                         0 );
+        prompt_race( d, ch, 3 );
         d->connected = CON_GET_NEW_RACE;
         break;
 

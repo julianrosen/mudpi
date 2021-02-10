@@ -38,6 +38,30 @@ char * strip_article( char * name )
     return name;            
 }
 
+char * center( char * string, int numchars, char * buf )
+{
+    char * centered = buf;
+    numchars += strlen(string) - bw_strlen(string);
+    centered[0] = '\0';
+    while ( 2*strlen(centered) + strlen(string) < numchars -1 )
+        strcat(centered, " ");
+    strcat(centered,string);
+    while( strlen(centered) < numchars )
+        strcat(centered, " ");
+    return centered;
+}
+
+// Display length of str (color signifiers don't lengthen)
+int bw_strlen( char * str )
+{
+    int n, a = strlen(str);
+    for(n=0;n<strlen(str)-1;n++)
+    {
+        if ( str[n]=='`' && strchr("kygbrcmwKYGBRCMW",str[n+1]) != NULL )
+            a -= 2;
+    }
+    return a;
+}
 
 /* JR: */
 char * article( bool definite, bool capital, char * next)
