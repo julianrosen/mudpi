@@ -294,7 +294,7 @@ the King's throne~
 A beautifully crafted cherrywood gold gilded throne is here.~
 unknown~
 15 0 0
-BCEH AC 0 0 0
+BCEH AC DGHJMN 0 0
 20 1000 50 P
 #28101
 Queen's throne container~
@@ -302,7 +302,7 @@ the Queen's throne~
 A beautiful cherrywood throne gilded with gold is here.~
 unknown~
 15 0 0
-BCEH AC 0 0 0
+BCEH AC DGHJMN 0 0
 20 1000 50 P
 #28102
 king's crown armor-head~
@@ -1376,7 +1376,7 @@ only things that stay constant are the initials "SB & JC 4ever" carved into
 the floor. The whole room has a quiet aura about it, keeping it hidden from
 unskilled eyes.  
 ~
-0 6291464 9
+0 8659140616 9
 D5
 (null)~
 ~

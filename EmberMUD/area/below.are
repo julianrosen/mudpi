@@ -397,7 +397,7 @@ a trunk~
 Here is a large trunk, you feel an evilness leaking from it.~
 unknown~
 15 ABEG 0
-BEF 0 0 0 0
+BEF 0 DGHJMN 0 0
 1 9000 0 P
 #20905
 voodoo dagger vampiric~
@@ -513,7 +513,7 @@ a trunk~
 A trunk is here.~
 unknown~
 15 0 A
-BEF 0 0 0 0
+BEF 0 DGHJMN 0 0
 1 50 0 P
 #20918
 gold nugget treasure~

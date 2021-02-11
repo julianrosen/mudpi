@@ -1655,7 +1655,7 @@ a can of peanuts~
 A can of peanuts lies here.~
 unknown~
 15 0 A
-CE AC 0 0 0
+CE AC DGHJMN 0 0
 0 10 100 P
 E
 can~
@@ -2696,7 +2696,7 @@ light radiates from a figure within. A large hulking creature with crooked
 horns and horse's hooves sits on a throne by the altar reciting chants from
 a large black book with golden binders.  
 ~
-0 263193 0
+0 17040393 0
 E
 altar~
 A huge altar has been carver out of onyx and is used for sacrifices.  
@@ -2809,7 +2809,7 @@ This organized store is here to meet your everyday clerical needs.
 Shelves are neatly stocked with magical items and such. A blue-robed Cleric
 sits behind the glass counter.  
 ~
-0 10747912 1
+0 136577032 1
 D1
 (null)~
 ~
@@ -2821,7 +2821,7 @@ Across the street from the Cleric's General store is this shoppe. With
 clean floors and smooth walls, this store supplies equipment, weapons and
 potions especially for the noble paladin.  
 ~
-0 69468160 1
+0 1076101120 1
 D3
 (null)~
 ~
@@ -2834,7 +2834,7 @@ burning sensation. A fairly large red-hooded Mage sits behind a wooden
 countertop, his face covered by his mask. There are dagger and wands
 hanging on hooks behind the counter.  
 ~
-0 6553608 1
+0 8659402760 1
 D1
 (null)~
 ~
@@ -2846,7 +2846,7 @@ The walls of the store are charred black and the minimal lighting hides a
 black-hooded Avenger. Upon seeing you, he orders you to buy something or
 get out. A threat with a blast and decapitation hurries your decision.  
 ~
-0 136577032 1
+0 2149842952 1
 D3
 (null)~
 ~
@@ -2886,7 +2886,7 @@ This is a small white room in which you sense a mystical healing
 property. Calorn sits in the middle of the room, waiting to help you
 practice your training, and to enhance your skills and knowledge.  
 ~
-0 10747912 0
+0 136577032 0
 D2
 (null)~
 ~
@@ -2899,7 +2899,7 @@ Almost hidden in the far corner, is a red-robed mage quietly muttering
 spells from an old book. Burning energy surges throughout the room and
 fills your body with a renewed strength.  
 ~
-0 6553608 0
+0 8659402760 0
 D0
 (null)~
 ~
@@ -2912,7 +2912,7 @@ appear to be for sale, but all useful for the training warrior. The walls
 are rough and unpainted, and the floor is dirt with a few boards layed on
 top.  
 ~
-0 35913736 1
+0 539230216 1
 D0
 (null)~
 ~
@@ -2923,7 +2923,7 @@ Avenger's Guild~
 The room is entirely black and all you can make out is a dark shadowy
 figure. You suspect he is the guildmaster.  
 ~
-0 136577032 0
+0 2149842952 0
 D3
 (null)~
 ~
@@ -2935,7 +2935,7 @@ A large room with purple walls, pulsating with holy strength. A young
 paladin stands in the middle of the room, ready to help you on your quest to
 become better at your faith and your strength.  
 ~
-0 69468168 0
+0 1076101128 0
 D1
 (null)~
 ~
@@ -2949,7 +2949,7 @@ warriors such as himself. He is shrouded by the shadows of this dimly lit
 room and stands ready to help. His slightly restless attitude leads you to
 believe that he may yet fight again one day.  
 ~
-0 35913737 0
+0 539230217 0
 D4
 (null)~
 ~
@@ -2962,7 +2962,7 @@ armor. A strange little man behind the counter proudly shows off his wares.
 For the right price, you can obtain some of this finely crafted workmanship
 too.  
 ~
-0 35913736 1
+0 539230216 1
 D0
 (null)~
 ~
@@ -3017,7 +3017,7 @@ The room is relatively small, but there is still plenty of for you to
 practice your moves and skills. A tall man looks at you and starts
 muttering gibberish. It seems hard to believe he is a guildmaster.  
 ~
-0 270532616 0
+0 4297064456 0
 D1
 (null)~
 ~
@@ -3029,7 +3029,7 @@ You are in a small cellar where a short man with a bandana sits in a
 chair. The floor is covered with smooth boards, and the walls have a few
 hanging torches. The man offers to teach you in all manners of thievery.  
 ~
-0 18874376 0
+0 270532616 0
 E
 floor~
 The floor around the corner of the room is dusty, but you can make out
@@ -3047,7 +3047,7 @@ The wooden walls are falling apart from decay and the floor is rotting.
 Most of the windows are boarded up, and the only life is a little guy
 sitting behind a larger crate.  
 ~
-0 18874376 0
+0 270532616 0
 D0
 (null)~
 ~
@@ -3059,7 +3059,7 @@ You are in a small little shack big enough for a couple of people.
 Weapons and armor are hanging on the wall and a tall gangly man runs the
 place from behind an old wooden box.  
 ~
-0 270532608 0
+0 4297064448 0
 E
 box~
 Hey man! Don't rag on th' box!  

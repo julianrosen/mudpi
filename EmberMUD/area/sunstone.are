@@ -474,7 +474,7 @@ a small shed~
 A small wooden shed stands here in the middle of the tower.~
 unknown~
 15 0 0
-DFGHIJ ACD BDEGHN 0 0
+DFGHIJ ACD BFHIJMO 0 0
 0 0 0 P
 #21410
 key~
@@ -512,7 +512,7 @@ a hole in space~
 A black nothingness lies here on the ground.~
 unknown~
 15 0 AL
-GJOQRST A 0 0 0
+GJOQRST A DGHJMN 0 0
 1 0 5000 P
 #21414
 shelf furniture~
@@ -1535,7 +1535,7 @@ walls are made of waxy paper, and it's a little dark. If a spoonful of
 sugar makes the medicine go down, you'd be able to drink down an entire
 Pharmaceutical company.  
 ~
-0 1048600 0
+0 17825800 0
 D5
 (null)~
 fishbowl~
@@ -1547,7 +1547,7 @@ A few bubbles float up, towards a dim green light above. The water is a
 deep blue, and it is very disorienting. A couch is here, and suddenly, you
 realize you can still breathe easily.  
 ~
-0 3153948 6
+0 19931148 6
 E
 down~
 The sushi machine is looking at you funny.

@@ -420,7 +420,7 @@ a small pixie basket~
 A tiny basket lies here.~
 unknown~
 15 0 A
-A 0 0 0 0
+A 0 DGHJMN 0 0
 1 1 4 P
 #20119
 gold coins~
@@ -436,7 +436,7 @@ an oak dresser~
 A beautiful oak dresser sits here.~
 unknown~
 15 M 0
-A AC 0 0 0
+A AC DGHJMN 0 0
 0 0 0 P
 #20121
 amber key~

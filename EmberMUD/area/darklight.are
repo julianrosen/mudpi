@@ -617,7 +617,7 @@ ebony and Ivory Chest~
 A huge chest of carved ebony and laced with ivory.~
 unknown~
 15 B A
-EHI ACD BCDEFGHIKMN 0 0
+EHI ACD BCGHLNO 0 0
 25 5000 0 P
 #26822
 Ivory Key~
@@ -788,7 +788,7 @@ there is a gentle breeze blowing. The atmosphere is soothing, and you feel
 very relaxed here. Everything seems quite safe. Towards your north you
 notice a large group of thick vines covering a cave.  
 ~
-0 1052 4
+0 16778252 4
 D0
 (null)~
 vines~
@@ -1963,7 +1963,7 @@ soothing feeling comes over your body and some of your wounds have been
 healed. A huge harp strums magically on its own, sending delicate rippling
 chords and swirling melodies echoing throughout the hallway.  
 ~
-0 1048 0
+0 16778248 0
 D1
 (null)~
 ~

@@ -2017,7 +2017,7 @@ the focal points for all the stealthy inhabitants of Daggerford. But, you
 are here because you are one of the rogues. You must never tell anyone of
 the secret that lies below Daggerford. The Hall continues to the north.
 ~
-0 16777228 0
+0 268435468 0
 D0
 (null)~
 ~
@@ -2760,7 +2760,7 @@ show if not for the light of a few torches. Even so, you can see the
 private chambers of Thorkill east, a shop to the west, and the training
 room north. The exit to the training yard is up from here.
 ~
-0 33554440 0
+0 536870920 0
 D0
 (null)~
 ~
@@ -2785,7 +2785,7 @@ weapons cannot be found anywhere else. These are the masterwork of the old,
 wise, dwarven apprentice to Thorkill, Yence. Here you will find various
 items to aid you in your journeys and encounters.
 ~
-0 33554440 0
+0 536870920 0
 D1
 (null)~
 ~
@@ -2798,7 +2798,7 @@ grande instructor is very simplistic in lifestyle. You see a bed, a small
 table, a book shelf containing books of warrior tactics, and a small candle
 lit by the bedside to provide just enough light.
 ~
-0 33554440 0
+0 536870920 0
 D3
 (null)~
 ~
@@ -2810,7 +2810,7 @@ This is the training room of the great warrior Thorkill. He is old now,
 and no longer utilizes the room for himself, he aids others in their quest
 for excellence. He stands here ready to help any who need it.
 ~
-0 33554440 0
+0 536870920 0
 D2
 (null)~
 ~
@@ -2924,7 +2924,7 @@ because you are a rogue. If you ever should happen to tell anyone of this
 great secret of Daggerford, you are certain your rogue brothers will not
 take a liking to you. The Hall of Rogues continues down.
 ~
-0 16777224 0
+0 268435464 0
 D4
 (null)~
 ~
@@ -3088,7 +3088,7 @@ legendary proportions. This goal is not easy to meet, but can be done.
 To the north starts the chambers of Timion's chosen aid, Adarkar. To the 
 south you see a shop and a lounge for resting.
 ~
-0 8388616 0
+0 134217736 0
 D0
 (null)~
 ~
@@ -3133,7 +3133,7 @@ require to be followers of the law. This shop sells many items for this
 very purpose, ranging from potions, scrolls, wands, staves, weapons, and 
 armors. To the east you see the Cleric's Lounge.
 ~
-0 8388616 0
+0 134217736 0
 D0
 (null)~
 ~
@@ -3150,7 +3150,7 @@ to have a place of rest and recreation. Here you are provided with both.
 You may sit at the bar and have a few drinks, or lay back in the fluffy 
 couches that adorn the walls. The armoury is to the west.
 ~
-0 24 0
+0 16777224 0
 D3
 (null)~
 ~
@@ -3164,7 +3164,7 @@ and for this, he has chosen to spend his eternity teaching and training
 the young clerics who pass through these realms. It would not be wise to
 challenge this mighty instructor.
 ~
-0 24 0
+0 16777224 0
 D3
 (null)~
 ~
@@ -3177,7 +3177,7 @@ battle cleric, and such is why he has permitted the Paladins to rent his
 very own hall. The usual decor of the hall is consistent here, the same
 lawful aura floats about. The Paladin's Guild continues west.
 ~
-0 67108876 0
+0 1073741836 0
 D1
 (null)~
 ~
@@ -3244,7 +3244,7 @@ being taught to you, be grateful. In exchange for this great knowledge
 Timion granted him, devale decided to stay with the guild and train the
 young apprentices.
 ~
-0 24 0
+0 16777224 0
 D1
 (null)~
 ~

@@ -1018,7 +1018,7 @@ a burlap sack~
 A burlap sack waits to be filled.~
 unknown~
 15 0 AO
-BCDE 0 0 0 0
+BCDE 0 DGHJMN 0 0
 0 4 15 P
 #25849
 carrot vegetable~
@@ -1225,7 +1225,7 @@ a bucket of water~
 A bucket filled with a murky-colored water rests on the floor.~
 unknown~
 15 0 AO
-0 0 0 0 0
+0 0 DGHJMN 0 0
 0 2 0 P
 #25872
 ticket treasure~
@@ -1263,7 +1263,7 @@ streets are of fine cobblestone, and the middle fountain flows happily.
 From here, Lilac Pass runs east and west. Yaerlon Way runs north and south.
 A `Kplaque`w is mounted on the fountain here.  
 ~
-0 1049616 1
+0 17826816 1
 E
 plaque~
 ---------------------------------------------------
@@ -3037,7 +3037,7 @@ upon row of peas, corn, and carrots line the landscape, and provide the
 Manor with fresh vegetables. There are also several fruit trees here
 including apple, pear, and plum.  
 ~
-0 16 2
+0 16777216 2
 D2
 Elegant french doors lead into the manor.
 ~
@@ -3055,7 +3055,7 @@ around the vineyard. Both red and white grapes are grown here, and a little
 building to the north seems to contain a sort of winery. A sweet smell
 fills the air here.  
 ~
-0 16 2
+0 16777216 2
 D0
 (null)~
 winery~

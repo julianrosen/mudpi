@@ -735,7 +735,7 @@ a large glass case~
 A `rlarge glass case`g sits in the center of the room.~
 unknown~
 15 DG 0
-HJKMPTUX ABCD 0 0 0
+HJKMPTUX ABCD DGHJMN 0 0
 0 50 0 P
 #17180
 bracer bracers  timion strength bots~
@@ -885,7 +885,7 @@ and so with evil. Dim light is provided by the strange `Rred `w glowing
 orbs. You realize, You've entered the guild of the `RAvenger`w. To the 
 west you see an armoury, to the east the guild continues.
 ~
-0 134217740 0
+0 2147483660 0
 D1
 ~
 ~
@@ -1253,7 +1253,7 @@ found after one of the toughest sieges ever felt by this great city. It is
 now being used as access to the Nightblade Camp. The trail to the camp
 continues west.
 ~
-0 268435460 1
+0 4294967300 1
 D1
 ~
 ~
@@ -1874,7 +1874,7 @@ many of the other classes. Mystics have no natural enemies, but oft acquire
 them faster than they do friends. You stand in the Mystic Guild, there are
 exits all around you.
 ~
-0 4194316 0
+0 8657043468 0
 D0
 ~
 ~
@@ -2225,7 +2225,7 @@ S
 `Glived on earth. All around you you hear chatter and notice there is really elven inhabitance
 `Ghere.
 ~
-0 16 3
+0 16777216 3
 D3
 ~
 ~
@@ -2417,7 +2417,7 @@ Along a Path in a Dense Forest~
 `Gsigns of life. Everything is quaint except for a brief rustling in the leaves.
 `GYou notice a strong magical interfrence to the north.
 ~
-0 16 3
+0 16777216 3
 D1
 ~
 ~
@@ -2434,7 +2434,7 @@ S
 `ymysteriously disappear. Its like someone was trying to hide his/her tracks. The
 `ydense foliage gives way a little to the north.
 ~
-0 16 3
+0 16777216 3
 D0
 ~
 ~

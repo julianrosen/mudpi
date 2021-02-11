@@ -1034,7 +1034,7 @@ the donation pit~
 A pit for sacrifices is in front of the altar.~
 unknown~
 15 O 0
-EIJKN 0 0 DFGHIJ 0
+EIJKN 0 DGHJMN DFGHIJ 0
 0 300 0 P
 E
 pit~
@@ -1193,7 +1193,7 @@ a bag~
 A small bag.~
 unknown~
 15 0 A
-BEF 0 0 AC 0
+BEF 0 DGHJMN AC 0
 0 2 20 G
 #16033
 box~
@@ -1201,7 +1201,7 @@ a box~
 A small box.~
 unknown~
 15 0 A
-BD 0 0 AC 0
+BD 0 DGHJMN AC 0
 0 3 50 G
 #16039
 scroll cancellation~
@@ -1803,7 +1803,7 @@ the desk~
 A desk is set against the western wall.~
 unknown~
 15 0 0
-BF ABCD BEFKL CE 0
+BF ABCD BDEFGHJKLMN CE 0
 0 100 0 G
 E
 drawer~
@@ -1815,7 +1815,7 @@ the safe~
 A safe is placed in a dark corner of the room.~
 unknown~
 15 0 0
-BF ABCD ABEFKL CE 0
+BF ABCD ABDEFGHJKLMN CE 0
 0 100 0 G
 E
 safe~
@@ -2691,7 +2691,7 @@ the wall, just above the altar which is set against the western wall. A well
 in the middle of the floor leads down into darkness. Vile smells waft from
 the depths.
 ~
-0 10747916 0
+0 136577036 0
 D1
 You see your favorite place, the bar of divination.
 ~
@@ -3106,7 +3106,7 @@ partially cleaned, some painful-looking letters faintly visible. A well in
 the middle of the floor leads down into darkness. Vile smells waft from the
 depths.
 ~
-0 6553612 0
+0 8659402764 0
 D3
 You see the bar.
 ~
@@ -3179,7 +3179,7 @@ The Tournament and Practice Yard~
 The practice yard of the fighters. To the north is the bar. A well leads
 down into darkness.
 ~
-0 35913740 0
+0 539230220 0
 D0
 You see the bar.
 ~
@@ -3320,7 +3320,7 @@ The Secret Yard~
 The secret practice yard of thieves and assassins. To the north is the
 bar. A well leads down into darkness.
 ~
-0 19136524 0
+0 270794764 0
 D0
 You see the bar.
 ~
@@ -3911,7 +3911,7 @@ behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 The back of the altar opens into a a beautiful atrium, above which can be
 seen a rainbow.
 ~
-0 2360344 0
+0 19137544 0
 E
 statue Mota king god~
 The statue represents the Great God Mota, holding his staff. He has long, grey

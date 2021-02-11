@@ -227,7 +227,7 @@ the Donation Chest~
 A donation chest sits here ready to hold unused items.~
 unknown~
 15 AB 0
-DFGHIJ 0 0 0 0
+DFGHIJ 0 DGHJMN 0 0
 1 1 100 P
 C 6
 #32024
@@ -378,7 +378,7 @@ around. Lights barely illuminate this part of the hall. A picture of
 Togashi Yokuni is on the ceiling.  
  
 ~
-0 1057820 0
+0 17835020 0
 D4
 ~
 ~
@@ -527,7 +527,7 @@ hard and unmoving. You look down and see a trap door pulled aside
 so that you can look into a fairly dark chamber. A rope ladder wines
 its way down to the room beneath.
 ~
-0 1040 10
+0 16778240 10
 D5
 ~
 ~
@@ -543,7 +543,7 @@ on the walls. You spot a hole in the ceiling with a ladder hanging down.
 It leads up to the surface, and to the entrance to this hideout.
 To the east and west you see doorways.
 ~
-0 24 0
+0 16777224 0
 D1
 ~
 ~
@@ -566,7 +566,7 @@ the room, and many of them look very comfortable. The atomosphere
 is very casual, so your entrance does not seem to displease anyone.
 To the west is the map room, and to the north you see a large metal door.
 ~
-0 1048 0
+0 16778248 0
 D3
 ~
 ~
@@ -581,7 +581,7 @@ the ways of combat. It is a wonder that anything can withstand the
 skill of these young mercenaries, for they have the best teachers.
 To the north is the vault, and to the east you can see the map room.
 ~
-0 24 0
+0 16777224 0
 D0
 ~
 ~
@@ -602,7 +602,7 @@ no other exits from this room, so the only other way to get out is to
 some how burrow through the metal walls. To the south, through the open
 door is the training room.
 ~
-0 24 0
+0 16777224 0
 D2
 ~
 ~
