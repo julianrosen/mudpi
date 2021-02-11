@@ -609,6 +609,8 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define dd                      536870912
 #define ee                      1073741824
 #define ff                      2147483648
+#define gg                      4294967296
+#define hh                      8589934592
 /*
  * String and memory management parameters.
  */
@@ -667,7 +669,6 @@ players that are not thieves. The second is the vnum of the thieves guild.
 
 
 
-
 #define ONE_ROUND                   12 /* This is an unpleasant workaround, to avoid manually changing skill beats */
 #define PULSE_PER_SECOND            60  /*  */
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
@@ -693,6 +694,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define CLASS_THIEF             2
 #define CLASS_WARRIOR           3
 #define CLASS_CONSOLE           4
+
 
 /*
  * Per-class stuff.
@@ -1577,6 +1579,19 @@ of combat. */
 #define ROOM_MARK               (V)
 #define ROOM_NOMAGIC            (W)
 #define ROOM_ADMIN_ONLY         (X)
+
+// JR: added (from Mudweiser)
+#define ROOM_FAST_REGEN         (Y)
+#define ROOM_SLOW_REGEN         (Z)
+#define ROOM_MAGE_GUILD         (aa)
+#define ROOM_CLERIC_GUILD       (bb)
+#define ROOM_THIEF_GUILD        (cc)
+#define ROOM_WARRIOR_GUILD      (dd)
+#define ROOM_PALADIN_GUILD      (ee)
+#define ROOM_AVENGER_GUILD      (ff)
+#define ROOM_NIGHTBLADE_GUILD   (gg)
+#define ROOM_MYSTIC_GUILD       (hh)
+
 /*
  * Directions.
  * Used in #ROOMS.

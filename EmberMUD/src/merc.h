@@ -911,7 +911,7 @@ struct room_index_data {
     char *name;
     char *description;
     sh_int vnum;
-    int room_flags;
+    long long room_flags;
     sh_int light;
     sh_int sector_type;
     MPROG_ACT_LIST *mpact;      /* mudprogs */
@@ -1326,7 +1326,6 @@ char * center( char *, int , char *);
 int bw_strlen( char * );
 
 
-
 extern bool reap_shells;
 extern const char echo_off_str[];
 extern const char echo_on_str[];
@@ -1405,12 +1404,12 @@ void free_mudprog args( ( MPROG_DATA * mprog ) );
 MPROG_GROUP *new_mudprog_group args( ( void ) );
 void free_mudprog_group args( ( MPROG_GROUP * pMprogGroup ) );
 char fread_letter args( ( FILE * fp ) );
-long fread_number args( ( FILE * fp ) );
-long fread_flag args( ( FILE * fp ) );
+long long fread_number args( ( FILE * fp ) );
+long long fread_flag args( ( FILE * fp ) );
 void fread_to_eol args( ( FILE * fp ) );
 char *get_word args( ( FILE * fp ) );
 char *fread_word args( ( FILE * fp ) );
-long flag_convert args( ( char letter ) );
+long long flag_convert args( ( char letter ) );
 void *alloc_mem args( ( int sMem ) );
 void *alloc_perm args( ( int sMem ) );
 void free_mem args( ( void *pMemPtr ) );

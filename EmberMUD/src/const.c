@@ -705,14 +705,6 @@ struct class_type class_table[MAX_CLASS] =
      "Warrior", "War", STAT_STR, OBJ_VNUM_SCHOOL_SWORD,
      {3022, 9633}, 75, 18, -10, 11, 15, FALSE,
      "warrior basics", "warrior default", FALSE},
-
-#if defined(cbuilder)
-    /* Class added solely for Win32 GUI Console Administration. -Zane */
-    {
-     "Console", "Con", STAT_STR, OBJ_VNUM_SCHOOL_SWORD,
-     {3022, 9633}, 75, 18, -10, 11, 15, FALSE,
-     "warrior basics", "warrior default", FALSE},
-#endif
     
     {
      "Paladin", "Pal",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
@@ -733,6 +725,14 @@ struct class_type class_table[MAX_CLASS] =
      "Mystic", "Mys",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
      {3018, 9618},  80, 18, 8, 6, 6, TRUE,
      "mystic basics", "mystic default", FALSE}
+    
+    #if defined(cbuilder)
+    /* Class added solely for Win32 GUI Console Administration. -Zane */
+    ,{
+     "Console", "Con", STAT_STR, OBJ_VNUM_SCHOOL_SWORD,
+     {3022, 9633}, 75, 18, -10, 11, 15, FALSE,
+     "warrior basics", "warrior default", FALSE}
+#endif
 };
 
 /*

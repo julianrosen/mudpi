@@ -254,7 +254,18 @@ const struct flag_type room_flags[] = {
     {"law", ROOM_LAW, TRUE},
     {"no_teleport", ROOM_NOTELEPORT, TRUE},
     {"no_magic", ROOM_NOMAGIC, TRUE},
+    // Borrowed from Mudweiser
+    {"fast_regen", ROOM_FAST_REGEN, TRUE},
+    {"slow_regen", ROOM_SLOW_REGEN, TRUE},
     {"admin_only", ROOM_ADMIN_ONLY, TRUE},
+    {"mage_only", ROOM_MAGE_GUILD, TRUE},
+    {"cleric_only", ROOM_CLERIC_GUILD, TRUE},
+    {"thief_only", ROOM_THIEF_GUILD, TRUE},
+    {"warrior_only", ROOM_WARRIOR_GUILD, TRUE},
+    {"paladin_only", ROOM_PALADIN_GUILD, TRUE},
+    {"avenger_only", ROOM_AVENGER_GUILD, TRUE},
+    {"nightblade_only", ROOM_NIGHTBLADE_GUILD, TRUE},
+    {"mystic_only", ROOM_MYSTIC_GUILD, TRUE},
     {"", 0, 0}
 };
 

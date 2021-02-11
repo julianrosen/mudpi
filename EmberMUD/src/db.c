@@ -2760,9 +2760,9 @@ char fread_letter( FILE * fp )
 /*
  * Read a number from a file.
  */
-long fread_number( FILE * fp ) // JR: made this a long instead of an int
+long long fread_number( FILE * fp ) // JR: made this a long instead of an int
 {
-    long number;
+    long long number;
     bool sign;
     signed char c;
 
@@ -2812,9 +2812,9 @@ long fread_number( FILE * fp ) // JR: made this a long instead of an int
     return number;
 }
 
-long fread_flag( FILE * fp )
+long long fread_flag( FILE * fp )
 {
-    int number;
+    long long number;
     signed char c;
 
     do
@@ -2855,9 +2855,9 @@ long fread_flag( FILE * fp )
     return number;
 }
 
-long flag_convert( char letter )
+long long flag_convert( char letter )
 {
-    long bitsum = 0;
+    long long bitsum = 0;
     char i;
 
     if ( 'A' <= letter && letter <= 'Z' )

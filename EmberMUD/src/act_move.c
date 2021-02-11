@@ -210,6 +210,37 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
                 }
             }
         }
+        
+        /* JR: additional class restrictions */
+        
+        // Unfortunate these have to be defined here...
+        const long long GUILD_ROOMS[] = {(aa),(bb),(cc),(dd),(ee),(ff),(gg),(hh)};
+
+        for ( iClass = 0; iClass < MAX_CLASS; iClass++ ) // JR debug
+        {
+            if ( IS_SET(to_room->room_flags, GUILD_ROOMS[iClass]) )
+                printf("GUILD: %s\n",class_table[iClass].name);
+            else
+                printf("NOGUILD: %s\n",class_table[iClass].name);
+        }
+        printf("%ld\n",to_room->room_flags);
+        
+        for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
+        {
+            if ( IS_SET(to_room->room_flags, GUILD_ROOMS[iClass]) )
+            {
+                if ( !IS_SET(to_room->room_flags, GUILD_ROOMS[ch->Class]) )
+                {
+                    send_to_char( "You class is not allowed in there.\n\r", ch );
+                    return;
+                }
+                else
+                    break;
+            }
+        }
+        
+        
+        
 
         if ( in_room->sector_type == SECT_AIR
              || to_room->sector_type == SECT_AIR )

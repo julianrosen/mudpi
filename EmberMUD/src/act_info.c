@@ -2917,7 +2917,7 @@ void do_who( CHAR_DATA * ch, char *argument )
         if ( temp->level > MAX_LEVEL - 10
              && doneimmort == FALSE )
         {
-            sprintf( buf, "`K[`RVisible Immortals`K]\n\r\n\r" );
+            sprintf( buf, "`K`RVisible Immortals:`K\n\r" );
             doneimmort = TRUE;
             strcat( output, buf );
         }
@@ -2929,7 +2929,7 @@ void do_who( CHAR_DATA * ch, char *argument )
                 sprintf( buf, "\n\r" );
                 strcat( output, buf );
             }
-            sprintf( buf, "`K[`RVisible Mortals`K]\n\r\n\r" );
+            sprintf( buf, "`K`RVisible Mortals:`K\n\r" );
             donemort = TRUE;
             strcat( output, buf );
         }
@@ -3017,9 +3017,9 @@ void do_who( CHAR_DATA * ch, char *argument )
             sprintf( buf, "`K[`W%3d`Y%s`G%s`K]", level, center( race, race_len+2, buf2), Class );
                     
         sprintf( buf2, "%s %s%s%s%s%s%s%s `w%s%s%s\n\r", buf, clan1, clan2,
-                !IS_NPC( temp ) && !is_name( temp->pcdata->spouse, "(none)" ) ? "`W(M)" : "",
-                IS_SET( temp->act, PLR_WIZINVIS )?"`B(W)":"",
-                IS_SET( temp->act, PLR_AFK ) ? "`Y(AFK)" : "",
+                !IS_NPC( temp ) && !is_name( temp->pcdata->spouse, "(none)" ) ? "`Y(M)" : "",
+                IS_SET( temp->act, PLR_WIZINVIS )?"`W(W)":"",
+                IS_SET( temp->act, PLR_AFK ) ? "`B(AFK)" : "",
                 IS_SET( temp->act,PLR_KILLER ) ? "`R(PK)" : "",
                 IS_SET( temp->act, PLR_THIEF ) ? "`K(T)" : "",
                 prefix,name,title);
