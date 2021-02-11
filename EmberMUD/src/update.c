@@ -230,6 +230,12 @@ int hit_gain( CHAR_DATA * ch )
 
     if ( chaos )
         gain /= 2;
+    
+    if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_FAST_REGEN) )
+        gain += number_range( gain * 3 / 2, gain * 2 );
+    
+    if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_SLOW_REGEN))
+        gain -= number_range( gain / 4, gain / 2 );
 
     return UMIN( gain, ch->max_hit - ch->hit );
 }
