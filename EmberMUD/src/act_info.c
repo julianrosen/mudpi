@@ -2873,7 +2873,6 @@ void do_who( CHAR_DATA * ch, char *argument )
              || ( fRaceRestrict && !rgfRace[temp->race] ) )
                 continue;
             
-            printf("str_prefix(%s,%s)\n",arg,temp->name);// JR debug
             if ( searchName && str_prefix( arg, temp->name ) )
                 continue;
             
@@ -2998,11 +2997,9 @@ void do_who( CHAR_DATA * ch, char *argument )
         {
             clan1 = pre_clan( temp, ch, empty, private, secret );
             clan2 = who_clan( temp, ch, empty );
-            printf("%s in clan, %s, %s,\n",temp->name,clan1,clan2);
         }
         else
         {
-            printf("%s not in clan\n",temp->name);
             clan1 = empty;
             clan2 = empty;
         }
@@ -3407,8 +3404,6 @@ void set_title( CHAR_DATA * ch, char *title )
     {
         strcpy( buf, title );
     }
-
-    //strcat( buf, "`w" ); // JR
 
     free_string( &ch->pcdata->title );
     ch->pcdata->title = str_dup( buf );
@@ -3915,7 +3910,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
 
-    //static char *const he_she[] = { "It", "He", "She", "They" }; /* Modified by JR */
     CHAR_DATA *victim;
     FILE *fp;
     char pfile[MAX_STRING_LENGTH], *title;

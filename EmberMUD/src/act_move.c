@@ -215,15 +215,6 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
         
         // Unfortunate these have to be defined here...
         const long long GUILD_ROOMS[] = {(aa),(bb),(cc),(dd),(ee),(ff),(gg),(hh)};
-
-        for ( iClass = 0; iClass < MAX_CLASS; iClass++ ) // JR debug
-        {
-            if ( IS_SET(to_room->room_flags, GUILD_ROOMS[iClass]) )
-                printf("GUILD: %s\n",class_table[iClass].name);
-            else
-                printf("NOGUILD: %s\n",class_table[iClass].name);
-        }
-        printf("%ld\n",to_room->room_flags);
         
         for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
         {
