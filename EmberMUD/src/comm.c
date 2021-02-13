@@ -874,6 +874,8 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 --d->character->wait;
+                if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN )
+                    d->character->wait = 0; // JR: admins don't have to wait
                 continue;
             }
             if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
@@ -1463,7 +1465,8 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             {
                 ch = d->character;
                 if ( !IS_NPC( ch ) )
-                    sprintf( buf, "%s%s", wait_str( ch->wait ), doparseprompt( ch ) ); /* modified by JR */
+                    sprintf( buf, "%s%s", d->character->level<LEVEL_ADMIN?wait_str( ch->wait ):"",
+                            doparseprompt( ch ) ); /* modified by JR */
                 else
                     /* This is the default prompt */
                     sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch->wait ), ch->hit,

@@ -209,8 +209,12 @@ int hit_gain( CHAR_DATA * ch )
             gain /= 6;
             break;
         }
-        if ( ch->pcdata->condition[COND_FULL] == 0 )
+        
+        if ( ch->pcdata->condition[COND_FULL] < HUNGER_THRESH )
             gain /= 2;
+        
+        if ( ch->pcdata->condition[COND_FULL] == 0 )
+            gain /= 3;            
 
         if ( ch->pcdata->condition[COND_THIRST] == 0 )
             gain /= 2;
@@ -232,7 +236,7 @@ int hit_gain( CHAR_DATA * ch )
         gain /= 2;
     
     if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_FAST_REGEN) )
-        gain += number_range( gain * 3 / 2, gain * 2 );
+        gain += number_range( gain/2, gain );
     
     if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_SLOW_REGEN))
         gain -= number_range( gain / 4, gain / 2 );
@@ -293,8 +297,11 @@ int mana_gain( CHAR_DATA * ch )
             break;
         }
 
-        if ( ch->pcdata->condition[COND_FULL] == 0 )
+        if ( ch->pcdata->condition[COND_FULL] < HUNGER_THRESH )
             gain /= 2;
+        
+        if ( ch->pcdata->condition[COND_FULL] == 0 )
+            gain /= 3;
 
         if ( ch->pcdata->condition[COND_THIRST] == 0 )
             gain /= 2;
@@ -316,6 +323,13 @@ int mana_gain( CHAR_DATA * ch )
     if ( chaos )
         gain /= 2;
 
+    
+    if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_FAST_REGEN) )
+        gain += number_range( gain/2, gain );
+    
+    if ( ch->in_room && IS_SET(ch->in_room->room_flags, ROOM_SLOW_REGEN))
+        gain -= number_range( gain / 4, gain / 2 );
+    
     return UMIN( gain, ch->max_mana - ch->mana );
 }
 
@@ -341,8 +355,11 @@ int move_gain( CHAR_DATA * ch )
             break;
         }
 
-        if ( ch->pcdata->condition[COND_FULL] == 0 )
+        if ( ch->pcdata->condition[COND_FULL] < HUNGER_THRESH )
             gain /= 2;
+        
+        if ( ch->pcdata->condition[COND_FULL] == 0 )
+            gain /= 3;
 
         if ( ch->pcdata->condition[COND_THIRST] == 0 )
             gain /= 2;
@@ -374,13 +391,14 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
     if ( condition == -1 )
         return;
     ch->pcdata->condition[iCond] = URANGE( 0, condition + value, 48 );
-
+    
+    
     if ( ch->pcdata->condition[iCond] == 0 )
     {
         switch ( iCond )
         {
         case COND_FULL:
-            send_to_char( "You are hungry.\n\r", ch );
+            send_to_char( "You are `Ystarving`w! Better find some food soon...\n\r", ch );
             break;
 
         case COND_THIRST:
@@ -393,6 +411,8 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
             break;
         }
     }
+    else if ( iCond == COND_FULL && ch->pcdata->condition[iCond] < HUNGER_THRESH )
+        send_to_char( "You are hungry.\n\r", ch );
 
     return;
 }
@@ -854,10 +874,11 @@ void char_update( void )
             if ( ch->level < LEVEL_IMMORTAL )
             {
                 gain_condition( ch, COND_DRUNK, -1 * time_info.hour % 2 );
-                if ( HUNGER_THIRST )
+                
+                if ( HUNGER_THIRST > 0 && time_info.hour%HUNGER_THIRST == 0 )
                 {
-                    gain_condition( ch, COND_FULL, -1 * time_info.hour % 2 );
-                    gain_condition( ch, COND_THIRST, -1 * time_info.hour % 2 );
+                    gain_condition( ch, COND_FULL, -1 );
+                    gain_condition( ch, COND_THIRST, -1 );
                 }
             }
         }

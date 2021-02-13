@@ -31,12 +31,12 @@ extern int _filbuf args( ( FILE * ) );
 extern bool chaos;
 
 /* This is called by ban.c -Lancelight */
-char *print_flags( int flag )
+char *print_flags( long long flag )
 {
     int count, pos = 0;
     static char buf[52];
 
-    for ( count = 0; count < 32; count++ )
+    for ( count = 0; count < 52; count++ ) // JR: 32 -> 52
     {
         if ( IS_SET( flag, 1 << count ) )
         {

@@ -1213,16 +1213,16 @@ S
 
 
 #RESETS
-M 0 1000 4 1005 Load A fairy dragon
-M 0 1000 3 1019 Load A fairy dragon
-M 0 1000 3 1022 Load A fairy dragon
-M 0 1001 3 1034 Load A griffin
+M 0 1000 4 1005 Load a fairy dragon
+M 0 1000 3 1019 Load a fairy dragon
+M 0 1000 3 1022 Load a fairy dragon
+M 0 1001 3 1034 Load a griffin
 S
 
 
 
 #PROGS
-M 1000 13 Offensive Mage Load to: A fairy dragon
+M 1000 13 Offensive Mage Load to: a fairy dragon
 S
 
 

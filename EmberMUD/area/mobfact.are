@@ -673,38 +673,38 @@ S
 
 
 #RESETS
-M 0 9405 0 9401 Load The toxic slime
-M 0 9401 2 9402 Load The mutant beastly fido
+M 0 9405 0 9401 Load the toxic slime
+M 0 9401 2 9402 Load the mutant beastly fido
 M 0 9402 0 9403 Load Foreman Floyd
-M 0 9405 0 9404 Load The toxic slime
-M 0 9403 2 9406 Load The Cityguard head
-M 0 9405 0 9408 Load The toxic slime
-M 0 9401 0 9408 Load The mutant beastly fido
-M 0 9405 0 9409 Load The toxic slime
-M 0 9407 2 9410 Load The factory worker
-M 0 9404 3 9410 Load The revolving drunk
-M 0 9403 2 9410 Load The Cityguard head
-M 0 9407 0 9411 Load The factory worker
-M 0 9401 0 9411 Load The mutant beastly fido
-M 0 9404 3 9413 Load The revolving drunk
-M 0 9403 0 9414 Load The Cityguard head
-M 0 9405 0 9415 Load The toxic slime
-M 0 9406 2 9415 Load The factory worker
-M 0 9406 0 9416 Load The factory worker
-M 0 9406 0 9417 Load The factory worker
-M 0 9406 0 9418 Load The factory worker
-M 0 9401 0 9418 Load The mutant beastly fido
-M 0 9406 0 9419 Load The factory worker
-M 0 9406 0 9420 Load The factory worker
-M 0 9407 0 9420 Load The factory worker
-M 0 9405 0 9421 Load The toxic slime
-M 0 9403 0 9421 Load The Cityguard head
-M 0 9403 0 9422 Load The Cityguard head
-M 0 9406 0 9423 Load The factory worker
-M 0 9403 0 9423 Load The Cityguard head
-M 0 9403 0 9424 Load The Cityguard head
-M 0 9406 0 9424 Load The factory worker
-M 0 9405 0 9424 Load The toxic slime
+M 0 9405 0 9404 Load the toxic slime
+M 0 9403 2 9406 Load the Cityguard head
+M 0 9405 0 9408 Load the toxic slime
+M 0 9401 0 9408 Load the mutant beastly fido
+M 0 9405 0 9409 Load the toxic slime
+M 0 9407 2 9410 Load the factory worker
+M 0 9404 3 9410 Load the revolving drunk
+M 0 9403 2 9410 Load the Cityguard head
+M 0 9407 0 9411 Load the factory worker
+M 0 9401 0 9411 Load the mutant beastly fido
+M 0 9404 3 9413 Load the revolving drunk
+M 0 9403 0 9414 Load the Cityguard head
+M 0 9405 0 9415 Load the toxic slime
+M 0 9406 2 9415 Load the factory worker
+M 0 9406 0 9416 Load the factory worker
+M 0 9406 0 9417 Load the factory worker
+M 0 9406 0 9418 Load the factory worker
+M 0 9401 0 9418 Load the mutant beastly fido
+M 0 9406 0 9419 Load the factory worker
+M 0 9406 0 9420 Load the factory worker
+M 0 9407 0 9420 Load the factory worker
+M 0 9405 0 9421 Load the toxic slime
+M 0 9403 0 9421 Load the Cityguard head
+M 0 9403 0 9422 Load the Cityguard head
+M 0 9406 0 9423 Load the factory worker
+M 0 9403 0 9423 Load the Cityguard head
+M 0 9403 0 9424 Load the Cityguard head
+M 0 9406 0 9424 Load the factory worker
+M 0 9405 0 9424 Load the toxic slime
 S
 
 

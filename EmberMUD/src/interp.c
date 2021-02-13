@@ -466,6 +466,7 @@ const struct cmd_type cmd_table[] = {
     {"mpsilentforce", do_mpsilentforce, POS_DEAD, 0, LOG_NORMAL, 0},
     {"mpsilentcast", do_mpsilentcast, POS_DEAD, 0, LOG_NORMAL, 0},
     {"mpdefault", do_mpdefault, POS_DEAD, 0, LOG_NORMAL, 0},
+    {"mpreadgatsby", do_mpreadgatsby, POS_DEAD, 0, LOG_NORMAL, 0},
 
     /*
      * End of list.
@@ -641,40 +642,7 @@ void interpret( CHAR_DATA * ch, char *argument )
          */
         if ( !check_social( ch, command, argument ) )
         {
-            // Taken from Mudweiser
-            switch(number_range(1, 5))
-            {
-            case 1: 
-            {
-                send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
-                break;
-            }
-            case 2: 
-            {
-                send_to_char( "`Y> `wNice command. Did you just make it up?\n\r", ch );
-                break;
-            }
-            case 3: 
-            {
-                send_to_char( "`Y> `wDid you really think that command would work?\n\r", ch );
-                break;
-            }
-            case 4: 
-            {
-                send_to_char( "`Y> `wTry that command again, only this time do it right.\n\r", ch );
-                break;
-            }
-            case 5: 
-            {
-                send_to_char( "`Y> `wWas that command intended to do something?\n\r", ch );
-                break;
-            }
-            default: 
-            {
-                send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
-                break;
-            }
-            }
+            command_not_found( ch );
             return;            
         }
         return;

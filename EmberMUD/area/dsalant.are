@@ -1109,10 +1109,9 @@ in the air with a dark aura.
 ~
 0 2097161 0
 E
-book~
-This is a dark omnious book. There is a six pointed star in a circle
-on the cover. The pages contain many evil spells and pictures of demons
-and other figures. To read some spells type look page_one.
+page_two~
+Hellfire- A deadly spell from the depths of hell. Has tendency to jump
+from target to target.  
 ~
 E
 page_one~
@@ -1132,9 +1131,10 @@ This the first page of the book.
 To see the spells type look page_two
 ~
 E
-page_two~
-Hellfire- A deadly spell from the depths of hell. Has tendency to jump
-from target to target.  
+book~
+This is a dark omnious book. There is a six pointed star in a circle
+on the cover. The pages contain many evil spells and pictures of demons
+and other figures. To read some spells type look page_one.
 ~
 D2
 (null)~
@@ -1376,7 +1376,7 @@ only things that stay constant are the initials "SB & JC 4ever" carved into
 the floor. The whole room has a quiet aura about it, keeping it hidden from
 unskilled eyes.  
 ~
-0 8659140616 9
+0 69206024 9
 D5
 (null)~
 ~
@@ -2017,7 +2017,7 @@ M 0 28107 4 28116 Load Warrior
 M 0 28107 3 28117 Load Warrior
 M 0 28106 2 28119 Load a guard
 O 0 28108 0 28124 An evil book loaded to King's Shrine
-M 0 28112 5 28126 Load An Evil Bug
+M 0 28112 5 28126 Load an Evil Bug
 M 0 28131 0 28131 Load a frustrated cleaning woman scrubs the floor with a mop
 E 0 19123 0 9 A mop is loaded on the hands of a frustrated cleaning woman scrubs the floor with a mop
 O 0 28107 0 28132 A golden lyre loaded to Queen's Treasury

@@ -7,11 +7,11 @@
 [0;34m||                                              ||    [0;32mTinTin++. Hosted on a Raspberry Pi.
 [0;34m||             Welcome to Mudpi!!               ||    [0;32m
 [0;34m||                                              ||    [0;32mLineage:
-[0;34m||                                              ||    [0;32mDikuMUD > MERC > ROM > EmberMUD > Mudpi
-[0;34m||==============================================|| 
+[0;34m||                                              ||    [0;32mDikuMUD > MERC > ROM >
+[0;34m||==============================================||    [0;32mEmberMUD > Mudweiser > Mudpi
 [0;34mOO                                              OO
 [0m
-What is your name? ~
+What is your name: ~
 -1 GREETING~
 `B*================================================*
 `B*                                                *
@@ -36,7 +36,7 @@ What is your name? ~
 
 ~
 -1 MOTD~
-`YNew features`w
+`YNew features `w(you can view this list any time with '`Bmotd`w')`w
     1. Mudweiser has returned! Kyle Boyd provided me with the source
        code, and areas, races, classes, skills, and other bits of
        Mudweiser have been incorporated here.
@@ -47,12 +47,8 @@ What is your name? ~
     3. You can now choose where you recall. Type '`Bbeacon`w' to set your
        recall point to the current room. If you get stuck, you can reset
        your beacon to the Temple of Mota with '`Bbeaconreset`w'.
-    4. Mudpi now has a browser interface (with TinTin running on
-       the server). To connect, visit http://67.251.14.149/mudpi/
-    5. The Mudpi bot has been removed. However, healing rates in the temple altar
-       have been greatly increased.
-    6. Eating and drinking are no longer necessary.
-    7. Press any key to continue to Mudpi. You can view this list any time with '`Bmotd`w'.
+    4. The Mudpi bot has been removed. However, healing rates are
+       greatly increased while sleeping on the temple altar.
 ~
 51 IMOTD~
 .
@@ -2147,17 +2143,31 @@ This command is used to pour liquid out of or to transfer liquid between
 two drink containters. This does not work with potions.
 ~
 -1 'RACE HELP' 'RACE' 'RACES'~
-EmberMUD has the following races for player characters:
-  Human  the standard race
-  Dwarf  good warriors and priests, cost 8 creation points
-  Elf    good thieves and mages, cost 5 creation points
-  Giant  huge, tough warriors, cost 6 creation points
+Mudpi has the following races for player characters:
+  Human        A good all-around race, 0 cp
+  Dwarf        Good warriors and priests, 0 cp
+  Elf          Good thieves and mages, 5 cp
+  Drow         Similar to elves
+  Giant        Huge, tough warriors, 6 cp
+  Alien        Like humans, but with much better stats, 18 cp
+  Reddragon    Red dragons, good stats, can fly.  20 points.
+  Bluedragon   Blue dragons, like red, but weaker and smarter. 20 points.
+  Half Elf     Half-human, half-elf.  3 points.
+  Wyvern       Dragonlike, good warriors and avengers, 10 points.
+  Wolf         Good warriors and thieves.  4 points.
+  Troll        Fast regeneration, not very smart.  8 points.
 
-Different races have different starting statistics, and also different
-stat maximums for magic items and training.
+ Different races have different starting statistics, and also different
+ stat maximums for magic items and training. For more information, see the
+ help files for each race (i.e. 'help dwarf'). Additional races are available
+ for remorting players.
+   
 
-Creation points increase the amount of experience it takes to gain a level.
-For more information, see the help files for each race (i.e. 'help dwarf')
+ Different races have different starting statistics, and also different
+ stat maximums for magic items and training. Each character has 50
+ creation points (cp) to spend on skills and spells, and choosing a non-human
+ race uses up some of your points.
+
 ~
 -1 DWARF DWARVES~
 Dwarves are short, stocky demi-humans, known for foul temper and great
@@ -2228,26 +2238,15 @@ done	     exit the character generation process
 -1 'MENU CHOICE'~
 Choice  (list, learned, premise, add, drop, info, help, done): ~
 -1 'GROUPS' 'INFO' 'PREMISE'~
-The ROM skill system allows you to fully customize your new character, making
-him or her skilled in the skills you choose. But beware, the skills you pick
-at character creation are the only skills you will ever learn. Skills are 
-paid for with creation points, and the more creation points you have, the
-harder it is to gain a level. Furthermore, higher-cost skills are harder to
-practice.
+You customize your character by choosing which skills to add. Each skill
+costs a certain number of creation points (cp). You have 50 cp total to spend,
+and unspent points are converted into training sessions (2 cp = 1 train).
 
 Skill groups are like package deals for characters -- sets of skills or spells
 that are closely related, and hence can be learned as a unit. There is a 
 default skill group for each class, which can be selected for a balanced 
 selection of skills at a somewhat reduced cost.
 
-The experience breakdown is as follows: 
-points   exp/level     points   exp/level
-40        1000         90        6000
-50        1500         100       8000
-60	  2000         110      12000
-70        3000         120      16000 
-80        4000         130      24000
-The table continues in a similar manner for higher point totals.
 ~
 -1 BASICS 'ROM BASICS'~
 The basic skills:

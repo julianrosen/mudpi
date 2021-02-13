@@ -1,0 +1,2639 @@
+#AREADATA
+Name        { 5 65} Trilex  More Daggerford~
+Builders    Trilex~
+VNUMs       17100 17199
+Security    6
+End
+
+
+
+#MOBILES
+#17100
+jumana drow guildmaster leader~
+Jumana~
+Jumana, leader of nightblades, is perched here.
+~
+A slender dark skinned drow, standing at the height of 6 feet. Short,
+wildly cut black hair reflects the shadows and almost covers dark golden
+eyes. A short cloak of deepest brown hides his forearms and short pants
+cover his legs. A leather sheath is strapped to his thigh holding three
+slick throwing darts. About his body is a deep aura, which causes his form
+to fade easily into the shadows at his will. A pair of short ankle boots
+gives him stealthy movement, completing the look of the master nightblade.  
+~
+DrowElf~
+ABJKRSbd JZ -425 S
+90 0
+100 0 0 0 20d400+2000 90d10+103 20d20+50 0
+0 0 0 0
+G BI BFM SZ
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#17101
+shoppkeeper drow dark~
+a Dark Drow~
+A dark drow tends this shop.
+~
+This drow is dark and mysterious. You don't want to be around him long
+enough to find much more out. You cower in fear.
+~
+DrowElf~
+ABd JZ 0 S
+90 0
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 10000
+AHMV ABCDEFGHIJK M unknown
+#17102
+dark drow shopkeeper young~
+a young drow~
+A strange young drow keeps this store.
+~
+This strange young drow is hesitant to let anyone know anything about
+him. You respect this and walk away.
+~
+DrowElf~
+ABd JZ 0 S
+90 0
+100 0 0 0 10000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BCD B SZ
+8 8 0 100000
+AHMV ABCDEFGHIJK M unknown
+#17103
+evil shade sdsd~
+an evil shade~
+An evil shade stands here, bound to its master.
+~
+This shade is bound to the owner of the Bracer of Evil Bonding. It doesn't
+stray far from this person.
+~
+Shadow~
+AOR EPQVZ -1000 S
+9 0
+100 0 0 0 25d15+0 25d25+25 5d6+1 28
+-5 -5 -5 -5
+0 BI 0 S
+8 8 0 0
+CL ABCDEGHIJK M unknown
+#17105
+ghostly ghost presence phantom~
+a ghostly presence~
+Here floats a ghostly presence acting as a shopkeeper.
+~
+~
+orc~
+ABd JTU -1000 S
+90 0
+100 0 0 0 10000d1+0 0d0+0 10d12+5 6
+0 0 0 0
+0 BCD Q S
+8 8 0 100000
+AHMV ABCDEFGHIJK M unknown
+#17180
+police men man cop pork bacon~
+a Daggerford Policeman~
+A Daggerford policeman stands here ready to protect his city.
+~
+This policeman is buff and ready to defend the honor of the gate watchmen.
+~
+Human~
+ABF Vc 1000 S
+20 25
+100 0 0 0 45d25+45 0d0+0 6d6+5 13
+-10 -10 -10 -10
+CDFIKNT 0 C D
+8 8 1 6000
+AHMV ABCDEFGHIJK M unknown
+#17185
+yolatis frail old dwarf weapon smith~
+Yolatis, the weapon smith~
+A seemingly frail, old dwarf smiles at you from behind the counter.
+~
+~
+Dwarf~
+ABd CDJZ 0 S
+90 0
+100 0 0 0 1d1000+1000 0d0+0 0d0+0 0
+0 0 0 0
+0 0 CL R
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#17186
+younger elfin man rolas~
+Rolas, clothing and armour clerk~
+A younger elfin man stands behind the counter, anxious to sell you something.
+~
+~
+Elf~
+ABd J 0 S
+65 0
+100 0 0 0 1000d1+1000 0d0+0 0d0+0 0
+0 0 0 0
+0 0 B Z
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#17199
+test mob~
+test mob~
+A test mob is here to serve you.
+~
+~
+Human~
+AB 0 0 S
+100 0
+100 0 0 0 25000d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 D
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#17100
+tiger claw~
+a Tiger Claw~
+A tiger claw has been left here.~
+unknown~
+5 RU AN
+B AB BC B D
+12 5 1320 P
+A
+19 6
+A
+18 5
+#17101
+leather armor armour~
+leather armour~
+A leather armour lies here.~
+unknown~
+9 0 AD
+AC C AC B 0
+2 10 100 P
+#17102
+silk mask~
+a Silk Mask~
+A silk mask is here.~
+unknown~
+9 RTU AE
+AC C AC C 0
+10 2 1000 P
+A
+2 2
+A
+17 -10
+A
+24 -4
+#17103
+gauntlets gloves warclad~
+the `yGauntlets of `RWar`Bclad`w~
+The gauntlets of Warclad rest here.~
+unknown~
+9 RSWX AH
+AB AB C AB 0
+15 10 1500 P
+A
+1 2
+A
+18 2
+A
+19 1
+#17104
+sword of evil spirit soes~
+a Sword of Evil Spirit~
+An evil sword hums and vibrates on the floor.~
+unknown~
+5 BRSTUWX AN
+A ABC ABC A CDEF
+40 5 10000 P
+A
+18 2
+A
+19 20
+#17105
+dark blade dagger dbd~
+a Dark Blade Dagger~
+A nasty looking dagger rests here.~
+unknown~
+5 RU AN
+B C BC B D
+20 8 5000 P
+A
+18 5
+A
+2 4
+A
+12 5
+A
+19 5
+#17106
+studded leather armor sla~
+studded leather~
+A leather studded with irons rivets lies here.~
+unknown~
+9 0 AD
+ABC AC ABC AC 0
+4 12 350 P
+#17107
+mystic dagger md~
+a Mystical Dagger~
+An enchanted short blade lies on the ground.~
+unknown~
+5 GIRSTUVW AN
+B AB AC ABD B
+10 2 950 P
+A
+12 10
+A
+19 3
+A
+18 3
+#17108
+cap of the mystic cotm~
+a Cap of the Mystic~
+An enchanted cap rests here.~
+unknown~
+9 GRSTUVW AE
+A A A B 0
+6 2 500 P
+A
+4 1
+A
+3 2
+#17109
+shroud of the mystic sotm~
+a Shroud of the Mystic~
+A mysteriously magical piece of cloth lies on the ground.~
+unknown~
+9 GRSTUVW AK
+AC C AC AC 0
+6 11 500 P
+A
+12 10
+A
+3 2
+#17110
+runemail mail rune rm~
+a `MRune Mail`w~
+`GS`Rw`yi`Cr`Bl`Gi`Rn`yg `MRunes `wlay on the ground.~
+unknown~
+9 GIRSTUVW AD
+BD AD BD AD 0
+15 1 7500 P
+A
+13 30
+A
+5 1
+A
+3 1
+A
+2 1
+A
+19 2
+A
+18 2
+#17111
+emerald broach~
+an `GEmerald `MBroach~
+An emerald broach lies here.~
+unknown~
+13 AI AC
+0 0 0 0 0
+5 2 10000 P
+A
+3 1
+#17112
+diamond necklace~
+a `WD`Ci`Wa`Cm`Wo`Cn`Wd`y Necklace`w~
+An expensive diamond necklace lies here.~
+unknown~
+13 0 AC
+0 0 0 0 0
+10 3 500000 P
+A
+12 5
+A
+5 1
+#17113
+gold wristband band bracelet~
+a `yGold `RWrist Band`w~
+A gold wrist band lies here.~
+unknown~
+13 AI AM
+0 0 0 0 0
+0 2 45000 P
+A
+1 1
+#17114
+diamond ring~
+a `CD`Wi`Ca`Wm`Co`Wn`Cd`y Ring`w~
+A diamond ring is resting here.~
+unknown~
+13 0 AB
+0 0 0 0 0
+0 1 12000 P
+#17115
+red rose~
+a `Rred `Grose `R@`G;`--,---~
+`GA `Rred rose `Glies here.~
+unknown~
+13 0 AO
+0 0 0 0 0
+0 1 20 P
+#17116
+dozen roses~
+a `BDozen `MRoses~
+A dozen roses lie here.~
+unknown~
+13 0 AO
+0 0 0 0 0
+0 5 200 P
+#17117
+yellow rose~
+a `Yyellow `Grose `Y@`G;`--'---`w~
+A yellow rose lies here.~
+unknown~
+13 0 AO
+0 0 0 0 0
+0 1 20 P
+#17118
+carnations few~
+a `Gfew `yCarnations~
+A few carnations are scattered on the ground.~
+unknown~
+13 0 AO
+0 0 0 0 0
+0 3 150 P
+#17119
+crystal amulet omulet~
+a `CCrystal `WAmulet`w~
+An enchanted crystal amulet lies here.~
+unknown~
+9 GI AC
+A A A A 0
+6 1 120000 P
+A
+4 2
+#17120
+blade of the night botn~
+the `BBlade `yof the `RNight`w~
+The blade of night rests at your feet.~
+unknown~
+5 RSTUVX AN
+B C AC ABD D
+15 6 3500 P
+A
+18 3
+A
+19 5
+#17121
+cats claw~
+a `CCats `RClaw`w~
+A claw seemingly belonging to a cat lies here.~
+unknown~
+5 RTU AN
+B C AB BCE D
+8 3 500 P
+A
+19 3
+A
+18 2
+#17122
+sleeves of warclad sowc~
+the `ySleeves of `RWar`Bclad`w~
+Sleeves of Warclad lie here.~
+unknown~
+9 RSWX AI
+AB B AB B 0
+15 10 1500 P
+A
+17 -5
+A
+1 1
+#17123
+helm of warclad howc~
+the `yHelm of `RWar`Bclad`w~
+The helm of Warclad lies here.~
+unknown~
+9 RSWX AE
+AB B AB B 0
+15 4 1500 P
+A
+3 1
+A
+4 1
+A
+19 1
+#17124
+leggings of warclad lowc~
+the `yLeggings of `RWar`Bclad`w~
+The leggings of Warclad rest here.~
+unknown~
+9 RSWX AF
+AB B AB B 0
+15 6 1500 P
+A
+17 -2
+A
+2 1
+A
+14 30
+#17125
+bracer of power bop~
+the `RBracer `Gof `yP`Wo`yw`We`yr`w~
+Powerful Bracers lie here.~
+unknown~
+9 IRSWX AM
+C AC C C 0
+15 2 1500 P
+A
+17 -1
+A
+1 2
+A
+18 3
+A
+19 2
+#17126
+bastard sword bs~
+a Bastard Sword~
+A bastard sword lies in the dirt.~
+unknown~
+5 ISWX ANPQRSTUVWXYZabcdef
+A AC C A DF
+8 9 750 P
+A
+18 1
+A
+19 2
+#17127
+shadow ring~
+a `kShadow `RRing`w~
+A ring lies on the ground.~
+unknown~
+9 0 AB
+ABC ABC ABC ABC 0
+29 1 20000 P
+A
+13 25
+A
+12 10
+A
+2 1
+A
+24 -3
+#17128
+shroud of shadows sos~
+`CShroud of `kShadows`w~
+A shroud lies on the floor.~
+unknown~
+9 I AK
+BC BC ABC AC 0
+30 8 50000 P
+A
+2 3
+A
+12 5
+A
+18 1
+A
+24 -4
+A
+24 -4
+#17129
+elven long sword els~
+an Elven Long Sword~
+A finely crafted weapon lies on the groud.~
+unknown~
+5 0 AN
+A AB C A 0
+3 3 150 P
+A
+1 1
+#17130
+elven broad sword ebs~
+an Elven Broad Sword~
+A finely crafted broadsword lies here.~
+unknown~
+5 I AN
+A AB AC AB 0
+6 12 500 P
+A
+1 1
+A
+19 1
+A
+18 2
+#17131
+banded mail bm~
+a Banded Mail~
+A banded mail is lying on the ground.~
+unknown~
+9 I AD
+C C C B 0
+5 15 350 P
+A
+13 10
+A
+19 2
+A
+18 2
+#17132
+lollipop sucker~
+a lollipop~
+A lollipop is here.~
+unknown~
+19 0 A
+CD 0 0 0 0
+0 1 15 P
+#17133
+hard candy candies~
+a few hard candies~
+A few hard candies are scattered about.~
+unknown~
+19 0 A
+DE 0 0 0 0
+0 0 25 P
+#17134
+fountain water~
+a fountian~
+A brilliant `yGolden `GFountain flows here.~
+unknown~
+25 A 0
+0 0 0 0 0
+0 500 0 P
+#17135
+sword of the knight templar sokt~
+`GSword `Wof `yThe `RKnight `yT`Re`ym`Wp`yl`Ra`yr`w~
+A powerful sword of a powerful order of knights rests here.~
+unknown~
+5 BGIRSVWX ANPQRSTUVWXYZabcdef
+A AD ABC AB EF
+35 12 75000 P
+A
+17 -10
+A
+1 1
+A
+4 1
+A
+13 10
+A
+18 7
+A
+19 8
+#17149
+golden grooved blade dagger ggb~
+a `yGolden Grooved Dagger`w~
+A golden blade lies on the ground.~
+unknown~
+5 I AN
+B C AC ABD 0
+15 1 1000 P
+A
+4 1
+A
+3 1
+A
+12 15
+A
+19 4
+A
+18 4
+#17150
+elven dagger small ~
+an Elven Dagger~
+A dagger of elven craft lies on the ground.~
+unknown~
+5 ABI AN
+B C AC B 0
+15 5 1500 P
+A
+19 6
+A
+18 6
+A
+12 -10
+A
+13 10
+#17151
+a shadowchain chain~
+a `kShadow `wChain~
+A shadow chain lies on the ground.~
+unknown~
+9 BCGTUV AD
+ABCD ABCD ABCD AE 0
+22 1 21000 P
+A
+24 -10
+A
+13 -5
+A
+12 25
+A
+5 -1
+A
+3 2
+A
+2 3
+#17152
+bracer of dark bonding~
+a `rBracer `cof `kEvil `bBonding`w~
+A bracer of evil bonding lies on the ground.~
+unknown~
+9 BCMU AM
+BC BC BC BC 0
+18 12 2500 P
+A
+12 10
+A
+20 2
+A
+24 -2
+A
+13 20
+#17153
+pair of black silk gloves~
+a pair of Black Silk Gloves~
+A pair of black silk gloves lies on the ground.~
+unknown~
+9 C AH
+C C C C 0
+20 0 10000 P
+A
+17 -10
+A
+20 -15
+#17154
+silken sleeves of serpent charm snake~
+the Silken Sleeves of Serpent Charm~
+A pair of silk sleeves lies here, coiled like a snake.~
+unknown~
+9 CU AI
+AC C C C 0
+20 0 10000 P
+A
+19 3
+A
+17 -5
+A
+13 10
+#17155
+black silk sleeves~
+the Black Silk Sleeves~
+A pair of black silk sleeves lies on the ground.~
+unknown~
+9 CG AI
+ABC ABC ABC ABC 0
+20 0 10000 P
+A
+17 -5
+A
+1 1
+A
+13 5
+A
+19 4
+#17156
+scroll of arching electric~
+a Scroll Of `RArching `yElectricity`w~
+A rolled up scroll emits electrical impulses.~
+unknown~
+2 G AO
+30 500 30 0 0
+15 0 5000 P
+#17157
+scroll of singed pages smoking~
+a Scroll of `rSinged `gPages`w~
+A smoking scroll lies on the ground.~
+unknown~
+2 0 AO
+30 26 5 0 0
+25 0 7500 P
+#17158
+vibrating scroll of the apocolypse~
+the Scroll of the `mA`gp`mo`gc`mo`gl`my`gp`ms`ge`w~
+A vibrating scroll emits power.~
+unknown~
+2 BC AO
+90 500 506 505 0
+75 0 1000000 P
+#17159
+potion of invisibility~
+a potion of invisibility~
+A potion of invisibility lies here.~
+unknown~
+10 0 AO
+5 29 0 0 0
+5 0 500 P
+#17170
+lgc~
+a large glass case~
+A `rlarge glass case`g sits in the center of the room.~
+unknown~
+15 DG 0
+HJKMPTUX ABCD 0 0 0
+0 50 0 P
+#17180
+bracer bracers  timion strength bots~
+the `rBracers `yof `gTimion Strength`w~
+A bracer lieson the ground.~
+unknown~
+9 BGISVWX AM
+BC BC BC D 0
+30 15 10000 P
+A
+19 4
+A
+18 4
+#17193
+small bronze hammer~
+a small bronze hammer~
+A small bronze hammer lies on the ground.~
+unknown~
+9 0 AO
+AD AD AD AD 0
+25 12 0 P
+A
+20 -7
+A
+4 1
+A
+13 25
+A
+18 6
+A
+19 6
+#17194
+accursed pendant accpnd~
+an Accursed Pendant~
+A cursed pendant lies on the groud.~
+unknown~
+9 BCGJU AC
+C C C C 0
+21 5 12000 P
+A
+20 1
+A
+13 5
+A
+12 5
+E
+pendant~
+This pendant is dark, cursed and etched with magical runes you might
+be able to interpret.
+~
+#17195
+stuff~
+stuff~
+Some stuff is here.~
+unknown~
+13 0 A
+0 0 0 0 0
+0 0 0 P
+#17196
+sleeves of immortal soi~
+`bS`Wl`be`We`bv`We`bs `Wof `bI`Wm`bm`Wo`br`Wt`ba`Wl`bs`w~
+A pair of powerful sleeves lie here.~
+unknown~
+9 AI AI
+CEFGHI CEFGHI CEFGHI CEFGHI 0
+94 0 0 P
+A
+12 10000
+A
+5 7
+A
+4 7
+A
+3 7
+A
+1 7
+A
+2 7
+A
+13 10000
+A
+18 1000
+A
+19 1000
+A
+14 10000
+#17197
+potion of restoration~
+potion of Restoration~
+A Silky white potion rests here.~
+unknown~
+10 0 A
+94 508 508 36 0
+94 0 0 P
+#17198
+an accursed blade accbl~
+`Kan Accursed Blade`w~
+An evil, cursed blade lies vibrating on the ground.~
+unknown~
+5 B AN
+B AC BC ABD D
+21 6 0 P
+A
+19 6
+A
+18 6
+#17199
+test weapon~
+a TEST WEAPON~
+DO NOT TOUCH THIS~
+unknown~
+5 0 AB
+A ADE ADE BE ABC
+0 0 0 P
+A
+3 5
+A
+5 6
+A
+4 4
+A
+18 123
+#0
+
+
+
+#ROOMS
+#17100
+Old Abandoned Barracks~
+You stand in an old military barracks. This barracks has lost its 
+usefulness because of the Daggerford Militia shrinking in numbers since it
+was first built. The dust and cob webs around you make you choke. Broken
+glass is scattered around the floor with several rusty weapons lying under
+the dust and dirt. You see Lander's Way to the west.
+~
+0 12 1
+D3
+~
+~
+0 0 17753
+S
+#17101
+Under the Warehouse: Guild of the Avenger~
+You stand under that old broken-down warehouse. You feel that the cob 
+webs and dust were all just a ploy to keep you away. The halls are dark, 
+and so with evil. Dim light is provided by the strange `Rred `w glowing 
+orbs. You realize, You've entered the guild of the `RAvenger`w. To the 
+west you see an armoury, to the east the guild continues.
+~
+0 134217740 0
+D1
+~
+~
+0 0 17102
+D3
+~
+~
+0 0 17105
+D4
+~
+~
+7 0 17759
+S
+#17102
+Avenger's Guild~
+YOu are in the guild of the avenger, the most unholy place in the realms.
+Fear shoots through your veins, and you are a member of this guild.  
+Imagine the terror a non-guildsman must have of this place. The avenger is
+a powerful force in these realms.   The supreme power of an avenger 
+posseses can only be matched by their archenemies, the Paladins. This is 
+an awful word here, paladin. Never speak it unless you curse its very 
+existence. The force of good they posess is not fully known to you. All
+you know is that they are the very opposite of your being. To the north
+you can practice. To the south you can have a drink at the bar.
+~
+0 8 0
+D0
+~
+~
+0 0 17103
+D2
+~
+~
+0 0 17104
+D3
+~
+~
+0 0 17101
+S
+#17103
+Kaxus' Training Room for Avengers~
+This is Kaxus' training area. He stands here waiting for you to ask of
+his services. This old, wise, stealth warrior has seen many days of battle
+and stole his fair share of wealth. The many scars that show each have a 
+story behind them. Now he offers himself to you, to train you to become
+a true `RAVENGER!`w  You can see the guild continue to the south.
+~
+0 8 0
+D2
+~
+~
+0 0 17102
+S
+#17104
+Avengers Bar & Grille~
+You are in the bar of the avenger's guild. Here the atmosphere seems to 
+have changed. This is the place where warriors tell their stories of 
+battles and thievery. This where the mood lightens up, perhaps it is the 
+alcohol. Who knows? But what matters is that here, you feel safe, among
+fellow guildsmen, to rest your bones and quench your thrist. The guild is
+to the north.
+~
+0 8 0
+D0
+~
+~
+0 0 17102
+S
+#17105
+Avenger's Armoury~
+This is the armoury of the avenger. These weapons are instruments of
+death and pain. They are never to be used against a guild member. Their
+power is such that it sends chills of fear up the spine of any holy warrior
+who might cross your path. The armours here are meant to protect the young
+avenger from the dangers of mystics, nightblades, and mages that run around
+trying to take them into submission. A ghostly presence is here as the
+shopkeeper.  
+~
+0 8 0
+D1
+~
+~
+0 0 17101
+S
+#17106
+Commerce Way~
+You stand on a busy road, Commerce Way. People envelop you in this 
+crowd. The amount of people here blows your mind. Several small, privately
+owned buisnesses align the sides of the streets. To the east is a jewel
+store. Commerce Way north and south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17107
+D1
+~
+~
+0 0 17117
+D2
+~
+~
+0 0 17733
+S
+#17107
+Commerce Way~
+This is the bustling street of Daggerford, Commerce Way. Businesses 
+align this street everywhere. This is the second busiest street in the 
+city of Daggerford, beaten only by Main Street. To the west there is a
+bakery, to the east a florist. Commerce Way continues north and south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17108
+D1
+~
+~
+0 0 17119
+D2
+~
+~
+0 0 17106
+D3
+~
+~
+0 0 17118
+S
+#17108
+Commerce Way~
+This part of Commerce Way is not as busy as the reset, but is none-the-
+less a pain to manuevre through. The amount of people here blows your mind
+completely. To the south, there are many more people, to the north is the
+place where Commerce Way and Limit Road meet.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17109
+D2
+~
+~
+0 0 17107
+S
+#17109
+Limit Road and Commerce Way~
+This is where Commerce Way and Limit Road meet. Commerce Way is busy
+to the south. Limit Road continues east and west. To the north you see
+the inside of the north gate of the city.
+~
+0 2097156 1
+D0
+~
+~
+0 0 17173
+D1
+~
+~
+0 0 17141
+D2
+~
+~
+0 0 17108
+D3
+~
+~
+0 0 17110
+S
+#17110
+Limit Road: Near Commerce Way~
+You are on Limit Road. This road wraps completely around the mystifying
+city of Daggerford. It continues east and west. To the east, the busy
+intersection of Limit Road and Commerce Way. While to the west Limit Road
+meets Lander's Way.
+ 
+~
+0 2097152 1
+D1
+~
+~
+0 0 17109
+D3
+~
+~
+0 0 17751
+S
+#17111
+Commerce Way~
+You are on a bustling street through the heart of Daggerford. Many 
+people roam these streets, some look confused, others seem intent on a 
+specific destination. A sweet smell is coming from the east. Commerce Way
+continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17733
+D1
+~
+~
+0 0 17120
+D2
+~
+~
+0 0 17112
+S
+#17112
+Commerce Way~
+You are traveling down the busiest street of town. To the north, near
+the center of town, there are more people around. To the east there is
+a small privately owned business. Commerce Way continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17111
+D1
+~
+~
+0 0 17760
+D2
+~
+~
+0 0 17113
+S
+#17113
+Commerce Way~
+This is the busy street of Daggerford, Commerce Way. Many people pass
+by you heading in all directions. Commerce Way continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17112
+D2
+~
+~
+0 0 17114
+S
+#17114
+Commerce Way~
+This is a busy street in town. People bump into you and scurry all 
+around you. To the west there is a pet shop. Commerce Way continues north
+and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17113
+D2
+~
+~
+0 0 17115
+D3
+~
+~
+0 0 17761
+S
+#17115
+Inside the South Gate of Daggerford~
+You stand inside the south gate to the city of Daggerford. People
+are all about this bustling town. You feel oddly insecure about moving
+inside, but you figure it might be worth it. To the north is the busy
+street, Commerce Way. Limit Road continues east and west.
+~
+0 4 1
+D0
+~
+~
+0 0 17114
+D1
+~
+~
+0 0 17147
+D2
+~
+~
+0 0 17172
+D3
+~
+~
+0 0 17116
+S
+#17116
+Limit Road: Near the South Gate~
+You are on the not so busy street of Daggerford, Limit Road. This road
+wraps completely around the city. To the west you can see where Limit
+Road and Lander's Way meet. To the east is the south gate of the city.
+~
+0 0 1
+D1
+~
+~
+0 0 17115
+D3
+~
+~
+0 0 17756
+S
+#17117
+Daggerford Jeweller's Shop~
+You have entered the jewel store of Daggerford. Because of all the crime
+around, special precautions must be taken to keep the jewels safe. This
+shop sells only the finest jewels and many other pieces of jewelry. There
+is a guard here to protect the valuable jewels.
+~
+0 2097164 0
+D3
+~
+~
+0 0 17106
+S
+#17118
+Daggerford Bakery~
+The fresh scent of the bread, the cinnamonly sweet aroma of the hot cross
+bun float about in this confined space. The treats one could buy here. A
+baker stands here waiting to help brighten your day. Commerce way is to 
+the east.
+~
+0 2097160 0
+D1
+~
+~
+0 0 17107
+S
+#17119
+Florist Shop of Daggerford~
+In this little store, the organic smell of many flowers strikes you
+quite quickly. This is the store where you can buy flowers for you loved
+one to admire and smell. A charming old lady stands here to help you 
+brighten someone's day with the gift of flowers. Commerce Way is to the
+west.
+~
+0 2097160 0
+D3
+~
+~
+0 0 17107
+S
+#17120
+Daggerford's Sweet Shoppe~
+The sweet aroma that floats about this room makes you reminice on the
+old days, when you were younger. This shop has all kinds of candies all 
+over the place. You see lollipops, cotton candy, hard candies, Swedish 
+Fishes, and all other forms of junk food you could ever imagine. You see
+Commerce Way to the west.
+~
+0 12 0
+D3
+~
+~
+0 0 17111
+S
+#17121
+Just Outside Daggerford: Through a Crack in the Wall~
+You've slipped through a crack in the wall of Daggerford. This crack was
+found after one of the toughest sieges ever felt by this great city. It is
+now being used as access to the Nightblade Camp. The trail to the camp
+continues west.
+~
+0 268435460 1
+D1
+~
+~
+7 0 17743
+D3
+~
+~
+0 0 17122
+S
+#17122
+Outside of Daggerford: A Trail to Nightblade Camp~
+This trail is long and winds through this dark mysterious forest. You 
+will, eventually, come upon the guild of the Nightblade. The path heads
+west from here.
+~
+0 0 3
+D1
+~
+~
+0 0 17121
+D3
+~
+~
+0 0 17123
+S
+#17123
+A Path to the Nightblade Camp~
+This is a dark, insecure path through the forest. Eventually ending up 
+in the Nightblade Camp. The vegetation gets denser as you continue west.
+~
+0 0 3
+D1
+~
+~
+0 0 17122
+D3
+~
+~
+0 0 17124
+S
+#17124
+A Path to the Nightblade Camp~
+From here, the forest is deep green and surrounding. The sounds drive 
+you insane with anticipation. Anticipation of death and of a good battle,
+and this drives you forward. The path winds to the south.
+~
+0 0 3
+D1
+~
+~
+0 0 17123
+D2
+~
+~
+0 0 17125
+S
+#17125
+The Path to the Nightblade Camp~
+It seems odd to you that a guild be this far back in a thick enclosing
+forest. You brush this aside and continue your journey south.
+~
+0 0 3
+D0
+~
+~
+0 0 17124
+D2
+~
+~
+0 0 17126
+S
+#17126
+A Turn in the Path~
+The path turns back to the west. You once again trek your way to the 
+setting sun and wonder about all the possible beauty surrounding you. You
+then feel and incredibly evil shiver through your body and so decide to 
+continue your journey west.
+~
+0 0 3
+D0
+~
+~
+0 0 17125
+D3
+~
+~
+0 0 17127
+S
+#17127
+Near the Nightblade Camp~
+You are now near to the Camp. You can see a shimmer of flames ahead, and
+a slight hint of smoke. The forest is too dense to be able to make an 
+accurate prediction on how far ahead of you the camp is. You decide to 
+continue further west.
+~
+0 0 3
+D1
+~
+~
+0 0 17126
+D3
+~
+~
+0 0 17128
+S
+#17128
+A Dead End~
+Oh NO! A dead end! Could you have made a wrong turn? No way, its a 
+straight shot. Oh well, maybe this guild is just a rumor. Around you the
+forest is dense. The trees around here have rather large trunks. Foliage
+around here is quite dark colored. The only apparent way out is east.
+~
+0 0 3
+D1
+~
+~
+0 0 17127
+D4
+~
+~
+7 0 17129
+S
+#17129
+The Trunk of a Big Tree~
+You are climbing a tree. You can't see anything below you because of
+how dark everythign is. The only obvious exits are up and down being that
+you are climbing a tree.
+~
+0 0 3
+D4
+~
+~
+0 0 17130
+D5
+~
+~
+7 0 17128
+S
+#17130
+Top of the Tree: A Series of Rope Bridges~
+You've reached the top of the mysterious tree. From here, it is
+apparent that the Nightblade Camp is actually a `Gtree `wcamp. The rope
+bridges head east, west, and south.
+~
+0 0 3
+D1
+~
+~
+0 0 17131
+D2
+~
+~
+0 0 17135
+D3
+~
+~
+0 0 17133
+D5
+~
+~
+0 0 17129
+S
+#17131
+On a Rope Bridge~
+You are on a rope bridge above the deep green canopy of the forest.
+To the east you see a weapon's shop. Back west is the tree you came up on.
+~
+0 0 3
+D1
+~
+~
+0 0 17132
+D3
+~
+~
+0 0 17130
+S
+#17132
+Nightblade Camp: Weapon's Shop~
+Here in this store you see a fine selection of rogue weapons and 
+accessories. This store is dark and the floor is covered with an odd mist
+that feels cold to the touch. You don't feel very safe here.
+~
+0 8 3
+D3
+~
+~
+0 0 17131
+S
+#17133
+On a Rope Bridge~
+You are on a rope bridge high above the deep green forest canopy. To
+the west you see a clothing and armour store. Back east is the tree that
+you climbed to enter this small camp.
+~
+0 0 3
+D1
+~
+~
+0 0 17130
+D3
+~
+~
+0 0 17134
+S
+#17134
+Nightblade Clothing and Armour Emporium~
+This is the store where all the nightblade guild members shop for 
+armor and various other wearable objects. The store is darkened with an 
+all concealing fog. A strange young drow tends the store. East is the 
+rope bridge.
+~
+0 8 3
+D1
+~
+~
+0 0 17133
+S
+#17135
+On a Rope Bridge~
+You are standing on a rope bridge overlooking the deep green canopy 
+of the immense forest that lies below you. To the south you can see your
+guildmaster's dwellings. North of you is the tree you climbed to get up
+here.
+~
+0 0 3
+D0
+~
+~
+0 0 17130
+D2
+~
+~
+0 0 17136
+S
+#17136
+Jumana's Place of Dwelling~
+This room is dark and an odd white mist floats about you up to your 
+shoulders. You can barely make out a figure standing in front of you to
+be a drow in a perched/readied stance. You realize it is the great and
+powerful leader of the nightblades, Jumana. You bow immediately.
+~
+0 8 3
+D0
+~
+~
+0 0 17135
+S
+#17137
+Mystic Way~
+This place is far different from anything else in Daggerford.
+This is Mystic Way, and strange things happen here that amaze even the
+occupants of these parts of town. A magical journey awaits you for sure.
+To the south is Main Street, the maigcal Mystic Way heads north.
+~
+0 2097156 1
+D0
+~
+~
+0 0 17138
+D2
+~
+~
+0 0 17735
+S
+#17138
+Mystic Way~
+You stand here cloaked in mysterious hanging magical essences.
+The normal city you once knew is behind you, something has changed
+and you're not sure if you like it. This is the magic-users territory.
+Any who step foot here must be ready for anything at any time. Odd
+structures align the sides of the this street. To the east is the
+entrance to the mage guild. Mystic Way continues north and south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17139
+D1
+~
+~
+0 0 17148
+D2
+~
+~
+0 0 17137
+S
+#17139
+Mystic Way~
+You feel strange tingling sensations about your body. The very
+electricity of the magic power that surrounds you makes your hair stand
+on end. To the north is the normalcy you once knew in the city, Limit
+Road. Mystic Way continues south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17140
+D2
+~
+~
+0 0 17138
+S
+#17140
+Mystic Way and Limit Road~
+This is Limit Road, which wraps the whole city. To the south
+you can feel a highly magical aura permeating. Limit Road continues
+east and west.
+~
+0 2097156 1
+D1
+~
+~
+0 0 17161
+D2
+~
+~
+0 0 17139
+D3
+~
+~
+0 0 17141
+S
+#17141
+Limit Road~
+You stand on Limit Road, a road that wraps around all of Daggerford.
+To the west you see the intersection of Commerce Way and Limit Road.
+To the east you see where Mystic Way and Limit Road meet.
+~
+0 2097152 1
+D1
+~
+~
+0 0 17140
+D3
+~
+~
+0 0 17109
+S
+#17142
+Mystic Way~
+You stand on this mysterious street, magic essences swirl about
+you. You feel a tingling sensation all over and know you could be on only
+one street, Mystic Way. To the north is Main Street, with Mystic Way
+continuing to the south.
+~
+0 4 1
+D0
+~
+~
+0 0 17735
+D2
+~
+~
+0 0 17143
+S
+#17143
+Mystic Way~
+You walk your path along Mystic Way. You know it holds a power
+you can't control or begin to fathom. Occasionally you see a swirl of
+magical power enlighten your path. Mystic Way continues north and
+south.
+~
+0 0 1
+D0
+~
+~
+0 0 17142
+D2
+~
+~
+0 0 17144
+S
+#17144
+Mystic Way~
+This road spooks you, there is too much power lurking 
+along these narrow streets. Scholars and mages walk about with out
+concern, and that spooks you too. Wearing no armour and wielding
+generally low power weapons, how could someone feel safe? You decide that
+they posess the power you can't harness. There is a magic shop to the
+west.
+~
+0 0 1
+D0
+~
+~
+0 0 17143
+D2
+~
+~
+0 0 17145
+D3
+~
+~
+0 0 17153
+S
+#17145
+Mystic Way~
+This section of the road scares you, you feel your skin crawl and a sharp
+chill runs up your spine. You look up, a stone appears to fall from the
+sky, it hits you. Are you dead? You hear insane laughter. You pick
+yourself up off the ground to see what appears to be a large rat laughing
+hysterically at you. As you draw your sword to enforce justice, it suddenly
+changes form into a giant bear. You cower behind your trusty blade. The
+bear hits the ground and begins to roll on the ground, oddly it seems to
+also be laughing hysterically. As you venture over to discover what this
+thing is, it vanishes. Instantly you here the chime of mystical runes and
+swirls of starry magic unveil the mighty illusionist who has conjured up
+these illusions. You strike at the mage only to step right through him. 
+You turn, he is behind you, then to your left, your right! You are suddenly
+more frightened than you can ever remember being. But you shall not submit.
+You dash at the illusionist. With lightning fast movements he conjures a
+lightning bolt that strikes you, followed directly by a powerful damage
+spell. Now you realize this illusionist mage is not normal. The mage turns
+east. Something forces you to follow him east.  
+~
+0 0 1
+D0
+~
+~
+0 0 17144
+D1
+~
+~
+0 0 17154
+D2
+~
+~
+0 0 17146
+S
+#17146
+Limit Road and Mystic Way~
+A strong forces comes from the north, it pulls you in at the
+same time it pushes you back. Maybe you should inspect it, perhaps
+your life is worth more. Limit Road wraps around Daggerford and 
+continues east and west.
+~
+0 4 1
+D0
+~
+~
+0 0 17145
+D1
+~
+~
+0 0 17171
+D3
+~
+~
+0 0 17147
+S
+#17147
+Limit Road~
+You are walking on Limit Road. To the east you can see the intersection
+of Mystic Way and Limit Road. To the west you can make out the south gate
+of Daggerford.
+~
+0 0 1
+D1
+~
+~
+0 0 17146
+D3
+~
+~
+0 0 17115
+S
+#17148
+Entrance Floor of the Tower of the Mage~
+This is the entrance floor to the mage's tower of 'higher' learning
+and magic. From here the you look up and see nothing but crystal blue. 
+The mage's illusion is so great that you actually believe there is no exit
+other than the one you came in. That is until you see a shimmering sparkle
+of light that flashes suddenly, then fades. The stairs to the tower are
+now revealed. Mystic Way is to the west.
+~
+0 2097164 0
+D3
+~
+~
+0 0 17138
+D4
+~
+~
+0 0 17149
+S
+#17149
+First Floor of the Mage Tower: Equipment~
+This is the first floor of the mage tower. In this tower is
+where mages come to seek guidance and training. On thie first floor
+mages can buy the equipment most suitable to them. The tower continues
+up and down.
+~
+0 2097160 0
+D4
+~
+~
+0 0 17150
+D5
+~
+~
+0 0 17148
+S
+#17150
+Second Floor: Magic~
+This is the second floor of the mage tower. On this floor a 
+mage may purchase many magical items that can be used for a variety of
+tasks. From as simple as indentification to as complicated as weather
+control, it can all be found here. Good luck, some of it is a bit
+pricey however. The library is to the north.
+~
+0 2097160 0
+D0
+~
+~
+0 0 17152
+D4
+~
+~
+0 0 17151
+D5
+~
+~
+0 0 17149
+S
+#17151
+Third Floor: Training~
+This is the highest level of the tower and it is so for a simple
+reason. If you do not need to train you will not disturb others who seek
+that guidance. It is asked that you be on your best behavior and follow
+carefully the words of the Great Wizard.
+~
+0 2097160 0
+D5
+~
+~
+0 0 17150
+S
+#17152
+Mage Library~
+In this library scrolls of all sorts can be found. Many 
+adventurers have helped the mage guild by purchasing scrolls of all sorts
+to place in their library, sometimes for money, others for favors, and still
+others out of the kindness of their hearts. This has led to quite a
+collection of scrolls. The librarian can be of assistance to you.
+~
+0 2097160 0
+D2
+~
+~
+0 0 17150
+S
+#17153
+Magic Shop~
+In an attempt to harness the powers that circle this area, an
+old mage has created this shop. These items should be used for good,
+however, for his intention is to clean up Daggerford. Mystic Way is to
+the east.
+~
+0 8 0
+D1
+~
+~
+0 0 17144
+S
+#17154
+`GA Suspiciously `kDark `GGarden of Willows`W~
+You have chased the mage here against your greatest instincts.
+This mockery will end here you think to yourself as your fear clouds your
+mind heaveier than the clouds appear in the sky. You get a suddenly
+sharp and overwhelming bad feeling. It was just a bright, sunshiny day.
+Now the clouds swirl above? Uhm.. now that you think of it, swirling clouds
+might also be taken as a bad omen. Just then you hear the insane laugh
+that drew you to this wretched place. The willows above begin to come
+alive. Fearfully, you begin swinging your sword. You got down tons of
+willow branches as they appear to reach for you. You burst through the
+willows to the center of the garden, you see the mage. He looks at you
+and laughs, the nerve of some people, you have him cornered and he laughs.
+You push whatever fear you have aside and begin to rush at him. He smriks
+and waves his finger at you as he grins evilly. He points at you, then
+he begins to chant some language you can't interpret. He opens his arms in 
+a V to the sky. A `yMASSIVE LIGHTNING BOLT`w strikes you to the ground.
+You shudder with intense pain as the lightning fries every last nerve on
+your body. You gather the power to glance over at the mage, still
+laughing he is. He bows to you, throws his cloak up, chants a few
+foreign words and the cloak rips in half to reveal a portal. He steps
+into the portal as he waves to you. You get up to jump at him, but it is
+too late and you fall on your face anyways.
+There is a sign here.
+~
+0 0 3
+E
+sign~
+Through the portal is the mystic guild, for more info type: look portal.
+~
+E
+portal~
+The mystic guild is through the portal. For building reasons it is
+impossible to do exactly as I liked. The portal is the down exit.
+~
+D3
+~
+~
+0 0 17145
+D5
+~
+~
+7 0 17155
+S
+#17155
+Center of the Mystic Guild~
+You have entered through the portal in the strange garden. You are
+now in the guild of the Mystic. Mystics are powerful attack mages that
+can also utilize other elements of magic. Their skills are feared by
+many of the other classes. Mystics have no natural enemies, but oft acquire
+them faster than they do friends. You stand in the Mystic Guild, there are
+exits all around you.
+~
+0 4194316 0
+D0
+~
+~
+0 0 17156
+D1
+~
+~
+0 0 17159
+D2
+~
+~
+0 0 17158
+D3
+~
+~
+0 0 17157
+D4
+~
+~
+7 0 17154
+S
+#17156
+Mystic Armoury~
+This is the Mystic Armoury. Here you can buy what little items a mystic
+`Rshould`w be allowed to use. Follow the ways of the guild and grow in
+power. These items are here to help you in your quest for power.  
+~
+0 8 0
+D2
+~
+~
+0 0 17155
+S
+#17157
+Place of Training~
+Here is the room where mystics come to learn spells, train stats,
+gain abilities. It is a dark room with a swirling shadow about. The
+shadow seems to be laughing. Had you been anyone else, you never would have
+guessed the shadow to be your guildmaster.
+~
+0 8 0
+D1
+~
+~
+0 0 17155
+S
+#17158
+Mystic Bar~
+this is the room Mystics come to take a load off. So kick back,
+relax and enjoy a few drinks.
+~
+0 0 0
+D0
+~
+~
+0 0 17155
+S
+#17159
+Mystic Magic Shop~
+This is the magic shop of the Mystics. The items in this store
+posess the supreme power of the Mystic. The power surges through you as
+you browse the objects. There are too many magical items to hold all
+here. A library of scrolls was created to the east to remove some of the
+clutter.
+~
+0 8 0
+D1
+~
+~
+0 0 17160
+D3
+~
+~
+0 0 17155
+S
+#17160
+Mystic Scroll Library~
+This is a huge library of scrolls. Wall to wall to ceiling 
+from the floor. Scrolls galore. There is a librarian here to help you.
+~
+0 8 0
+D3
+~
+~
+0 0 17159
+S
+#17161
+Limit Road~
+You are walking along Limit Road which wraps around the whole city.  
+You see the northeast corner to the east.
+~
+0 2097152 1
+D1
+~
+~
+0 0 17162
+D3
+~
+~
+0 0 17140
+S
+#17162
+Limit Road: North East Corner~
+This is the far northeast corner of the city of Daggerford.  
+Limit Road continues south and west from here.
+~
+0 2097152 1
+D2
+~
+~
+0 0 17163
+D3
+~
+~
+0 0 17161
+S
+#17163
+Limit Road~
+This is Limit Road. It continues completely around the city.
+Right now, you can north or south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17162
+D2
+~
+~
+0 0 17164
+S
+#17164
+Limit Road~
+You stand here on Limit Road, circling Daggerfrod. You hear
+sounds of construction to the west but there is nothing there yet.
+Limit Road continues north and south.
+~
+0 2097152 1
+D0
+~
+~
+0 0 17163
+D2
+~
+~
+0 0 17165
+S
+#17165
+Limit Road~
+You are walking along Limit Road. You can see Main Street to
+the south. Limit road continues north and south.
+~
+0 2097156 1
+D0
+~
+~
+0 0 17164
+D2
+~
+~
+0 0 17737
+S
+#17166
+Limit Road~
+This is Limit Road, it wraps completely around Daggerford, 
+inside the walls. To the north is Main Street. Limit Road continues
+north and south.
+~
+0 4 1
+D0
+~
+~
+0 0 17737
+D2
+~
+~
+0 0 17167
+S
+#17167
+Limit Road~
+You are traveling along Limit Road in Daggerford. This road
+may seem dull, but it has its advantages. It's less busy and it has
+a few safe houses along the way, one of which is to the west. Limit
+Road continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17166
+D2
+~
+~
+0 0 17168
+D3
+~
+~
+0 0 17176
+S
+#17168
+Limit Road~
+This is Limit Road, it wraps around all of Daggerford. Limit Road
+continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17167
+D2
+~
+~
+0 0 17169
+S
+#17169
+Limit Road~
+You are walking happily along Limit Road. To you see the southeast
+corner of the city. Limit Road continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 0 17168
+D2
+~
+~
+0 0 17170
+S
+#17170
+Limit Road: SouthEast Corner of Daggerford~
+This is the southeast corner of the city of Daggerford. Limit
+Road continues north and west.
+~
+0 0 1
+D0
+~
+~
+0 0 17169
+D3
+~
+~
+0 0 17171
+S
+#17171
+Limit Road~
+This is Limit Road along the south wall of Daggerford. The
+intersection of Mystic Way and Limit Road is to the west. Limit Road
+continues east and west.
+~
+0 0 1
+D1
+~
+~
+0 0 17170
+D3
+~
+~
+0 0 17146
+S
+#17172
+City of Daggerford: South Gate~
+You stand at the south gate of a city alive. It is here that 
+you pass through to enter Daggerford's south most parts. Venturing inside
+the city might be dangerous, for it holds many evil inhabitants. But you
+find that many business men use this city for trading. It is clearly a
+trade city. Daggerford is to the north.
+~
+0 0 1
+D0
+~
+~
+0 0 17115
+D1
+~
+~
+0 0 22500
+S
+#17173
+City of Daggerford: North Gate~
+You stand at the north gates of the city of Daggerford. To the south
+you here people screaming shouting and calling to venders and the likes.
+Business is booming in this majestic, yet evil, trade town. You have heard
+stories about many thieves in Daggerford, but you dismiss the idea,
+overwhelmed in childish glee at the amount of money you can spend here.
+Mesmorized, you head south into town.
+~
+0 2097156 1
+D0
+~
+~
+0 0 17174
+D2
+~
+~
+0 0 17109
+S
+#17174
+Road to Daggerford.~
+South of here is the city of Daggerford. To the north is Midgaard.  
+~
+0 2097156 0
+D0
+~
+~
+0 0 17175
+D2
+~
+~
+0 0 17173
+S
+#17175
+Road to Daggerford~
+This road leads south to the city of Daggerford, and north is the
+southern gate of Midgaard. To the east is the town of Tillage.  
+~
+0 2097152 0
+D0
+~
+~
+0 0 16256
+D1
+~
+~
+0 0 20900
+D2
+~
+~
+0 0 17174
+S
+#17176
+Exreelian Lodge Of Daggerford~
+This is a safe house off of Limit Road. You can come here to 
+escape possible death or just to kick back and enjoy a few drinks.
+Whatever you please, we are here to serve you. Please enjoy your stay.
+Limit Road is back east.
+~
+0 1036 0
+D1
+~
+~
+0 0 17167
+S
+#17177
+`yThrough the Foliage...~
+`GAhh.. Thou hast found a break in the foliage where the air becomes much clearer
+`Gand the space much more wide open. You stand amongst the greatest trees to have ever
+`Glived on earth. All around you you hear chatter and notice there is really elven inhabitance
+`Ghere.
+~
+0 16 3
+D3
+~
+~
+7 0 17197
+S
+#17180
+`r           _-^*** `gEntrance to the `r{`gF`yo`gT`r} `gClan Hall `r***^-_~
+`c    You stand in at the entrance to the `r{`gF`yo`gT`r} `c Clan Hall.  
+There is a majestic essense of law in everything you see, touch, and hear.
+The many followers and leaders of this clan that have come and gone increase its
+majestic history and the clan's power. The hall continues to the north.
+ 
+~
+0 1049608 0
+D0
+~
+~
+0 0 17181
+D2
+~
+~
+0 0 17708
+S
+#17181
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cCenter of the Hall~
+`c       This is the center of activity in this great hall. Like
+the other areas where Timion has chosen as His, this hall radiates a lawful
+aura. To the west there is a `gClan Lounge`c. To the east a `gClothing and 
+Armor Shoppe`c resides. An `gArmaments Shoppe`c is located downstairs from here.
+You can smell the crisp scent of foliage coming from the `gMediation Atrium
+`cabove you. Finally, north from there a `gLibrary and Study`c, `g Chapel and
+Altar`c, as well as the `gCourtroom of Timion`c. The hall is constantly under 
+construction, and is still a little rough, though very safe.
+~
+0 1048576 0
+D0
+~
+~
+0 0 17186
+D1
+~
+~
+0 0 17184
+D2
+~
+~
+0 0 17180
+D3
+~
+~
+0 0 17182
+D4
+~
+~
+0 0 17185
+D5
+~
+~
+0 0 17183
+S
+#17182
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cClan Lounge~
+~
+0 1048576 0
+D1
+~
+~
+0 0 17181
+S
+#17183
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cArmaments Shoppe~
+`c          This is the `gArmaments Shoppe`c of the `r{`gFollowers `yof `gTimion`r}`c.
+Here you can find a wide array of weapons used and designed to maintain order
+and enforce the Law throughout the realms. This being a hard, the arms are
+made with durability, strength, and power to handle even the toughest offender.
+Weapons and shield crests adorn the walls of this wonderous room. In
+a glass case in the center of the room there is a small, scorched and knicked
+bronze war hammer. A magical aura emulates from the case, protecting and 
+preserving the hammer. A seemingly frail, old man smiles at you from behind 
+another glass case near the back of the shoppe.
+~
+0 1048584 0
+E
+large~
+`cThis large glass case houses a scorched and knicked, small bronze hammer.
+The glass is thick, and surrounded my a magical aura of a power unseen in the
+realms. The small bronze hammer the case houses is said to have been used by 
+Timion himself, before he was granted dietyship. It was used in concordance 
+with a powerful spell mastered and taught by Timion, symbol transformation.
+Once transformed, the seemingly small mallet became the greatest war hammer and
+possibly the greatest weapon ever to be wielded. It is now protected and 
+preserved until the scroll with the spell 'symbol transformation' can be acquired
+and deciphered, allowing the Followers of Timion to harness the intense power
+of the Great Hammer of Timion.
+~
+D4
+~
+~
+0 0 17181
+S
+#17184
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cClothing and Armour Shoppe~
+`cThis is the `gClothing and Armour Shoppe`c in the Hall of Timion.
+Available to you is a wide array of plate mails, helmets, gauntlets, robes,
+rings, shields, and various other wearable items. All of these items
+have been created according to the decree of Timion for effective battle
+attire and armour.   They have then been blessed by clerics of the Law and
+magically enchanted by mages in alliance with this great clan. The 
+shoppe is not too fancy or elegant. It was designed to sell all these 
+wonderful items and it seems to be working. There is a younger elfin 
+man standing behind the counter.
+~
+0 1048576 0
+D3
+~
+~
+0 0 17181
+S
+#17185
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cMediation Atrium~
+~
+0 1048576 0
+D5
+~
+~
+0 0 17181
+S
+#17186
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cLibrary and Study~
+~
+0 1048584 0
+D0
+~
+~
+0 0 17187
+D2
+~
+~
+0 0 17181
+D4
+~
+~
+0 0 17188
+D5
+~
+~
+0 0 17190
+S
+#17187
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cCourtroom of Timion~
+~
+0 1048576 0
+D2
+~
+~
+0 0 17186
+D5
+~
+~
+7 0 17189
+S
+#17188
+`r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cChapel and Altar~
+~
+0 1048576 0
+D5
+~
+~
+0 0 17186
+S
+#17189
+`r         *** `r{`gF`yo`gT`r} `gClan Hall `r*** : `cClan Prison~
+~
+0 4 0
+S
+#17190
+`r        *** {`gF`yo`gT`r} `gClan Hall`r *** : `cClan Vault~
+~
+0 1048576 0
+D4
+~
+~
+0 0 17186
+S
+#17197
+Along a Path in a Dense Forest~
+`G     Moving along the path, foliage gives way to huge `RRedwood Trees.`GThe
+`Gmassive trunks seem absolutely perfect for elven inhabitance but you notice no 
+`Gsigns of life. Everything is quaint except for a brief rustling in the leaves.
+`GYou notice a strong magical interfrence to the north.
+~
+0 16 3
+D1
+~
+~
+7 0 17177
+D2
+~
+~
+0 0 17198
+S
+#17198
+`GHidden Path in a Thick Forest~
+`y This forest is dense and frightening. Yet, for some reason, you feel relaxed
+`yand safe. You see smaller than average foot prints on the ground that 
+`ymysteriously disappear. Its like someone was trying to hide his/her tracks. The
+`ydense foliage gives way a little to the north.
+~
+0 16 3
+D0
+~
+~
+0 0 17197
+D2
+~
+~
+7 0 17721
+S
+#17199
+MY ROOM FOR TESTING!~
+This where i test stuff, you don't like it get out :P
+~
+0 33292 0
+S
+#0
+
+
+
+#RESETS
+D 0 17121 1 0
+D 0 17187 5 1
+D 0 17198 2 0
+M 0 17738 1 17103
+M 0 17105 1 17105
+G 0 17100 0
+G 0 17700 0
+G 0 17101 0
+G 0 17102 0
+G 0 17103 0
+G 0 17104 0
+G 0 17105 0
+G 0 17122 0
+G 0 17123 0
+G 0 17124 0
+G 0 17194 0
+G 0 17701 0
+G 0 17702 0
+G 0 17703 0
+G 0 17121 0
+G 0 17126 0
+G 0 17726 0
+G 0 17729 0
+M 0 17730 6 17106
+M 0 17729 20 17106
+M 0 17728 40 17106
+M 0 17727 40 17107
+M 0 17722 40 17107
+M 0 17722 40 17107
+M 0 17730 6 17108
+M 0 17728 40 17108
+M 0 17728 40 17109
+M 0 17722 40 17109
+M 0 17722 40 17109
+M 0 17730 6 17111
+M 0 17727 40 17111
+M 0 17733 5 17113
+M 0 17729 20 17113
+M 0 17722 40 17113
+M 0 17722 40 17113
+M 0 17730 6 17114
+M 0 17728 40 17115
+M 0 17725 40 17115
+M 0 17726 40 17115
+M 0 17727 40 17116
+M 0 17735 1 17117
+G 0 17111 0
+G 0 17112 0
+G 0 17113 0
+G 0 17114 0
+G 0 17119 0
+M 0 17737 1 17118
+G 0 16009 0
+G 0 16011 0
+G 0 16012 0
+G 0 16013 0
+G 0 16014 0
+M 0 17736 1 17119
+G 0 17115 0
+G 0 17116 0
+G 0 17117 0
+G 0 17118 0
+M 0 17747 1 17120
+G 0 17132 0
+G 0 17133 0
+M 0 17101 1 17132
+G 0 17100 0
+G 0 17105 0
+G 0 17120 0
+G 0 17152 0
+G 0 17121 0
+M 0 17102 1 17134
+G 0 17101 0
+G 0 17102 0
+G 0 17708 0
+G 0 17152 0
+G 0 17712 0
+G 0 17194 0
+G 0 17713 0
+M 0 17100 1 17136
+M 0 17727 40 17138
+M 0 17724 6 17138
+M 0 17723 10 17138
+M 0 17724 6 17139
+M 0 17733 5 17141
+M 0 17727 40 17142
+M 0 17725 40 17143
+M 0 17726 40 17143
+M 0 17723 10 17143
+M 0 17724 6 17144
+M 0 17724 6 17144
+M 0 17723 10 17144
+M 0 17723 10 17145
+M 0 17727 40 17146
+M 0 17726 40 17146
+M 0 17725 40 17146
+M 0 17728 40 17147
+M 0 17722 40 17147
+M 0 17711 1 17149
+G 0 17712 0
+G 0 17101 0
+G 0 17708 0
+G 0 17701 0
+G 0 17105 0
+M 0 17712 1 17151
+M 0 17720 1 17156
+G 0 17149 0
+G 0 17101 0
+G 0 17106 0
+G 0 17105 0
+G 0 17107 0
+G 0 17108 0
+G 0 17109 0
+G 0 17713 0
+G 0 17110 0
+G 0 17719 0
+G 0 17720 0
+G 0 17712 0
+M 0 17717 1 17157
+M 0 17718 1 17158
+G 0 17707 0
+G 0 17714 0
+G 0 17716 0
+M 0 17727 25 17162
+M 0 17722 20 17162
+M 0 17729 20 17164
+M 0 17728 40 17164
+M 0 17722 40 17164
+M 0 17739 10 17167
+M 0 17722 40 17167
+M 0 17722 40 17167
+M 0 17729 20 17168
+M 0 17726 40 17168
+M 0 17725 40 17168
+M 0 17722 40 17168
+M 0 17722 40 17168
+M 0 17729 20 17169
+M 0 17728 40 17170
+M 0 17727 40 17170
+M 0 17722 40 17170
+M 0 17739 10 17171
+M 0 17728 25 17172
+M 0 17744 2 17172
+M 0 17722 40 17172
+M 0 17721 2 17173
+M 0 17722 40 17173
+O 0 17170 0 17183
+M 0 17185 1 17183
+G 0 17751 0
+G 0 17784 0
+G 0 17786 0
+M 0 17186 1 17184
+G 0 17783 0
+G 0 17180 0
+G 0 17785 0
+G 0 17723 0
+S
+
+
+
+#PROGS
+M 17100 13
+M 17103 13
+M 17180 20
+O 17151 2002
+O 17152 2003
+O 17194 2004
+O 17199 2005
+S
+
+
+#SHOPS
+17101 5 9 11 0 0 120 90 0 23
+17102 9 11 0 0 0 120 90 0 23
+17105 5 9 11 0 0 120 80 0 23
+17185 5 0 0 0 0 100 100 0 23
+17186 13 9 11 0 0 100 100 0 23
+0
+
+
+
+#$

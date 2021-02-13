@@ -677,18 +677,54 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
     }
     else
     {
+        
+        /* Added by JR */
+        if ( dt >= TYPE_HIT && ch != victim && get_skill( ch, gsn_vicious_strike ) > 0 && !IS_NPC( ch ) && dam > 0 )
+        {
+            int diceroll = number_percent( );
+            if ( 5*diceroll + 38 <= get_skill( ch, gsn_vicious_strike ) )
+            {
+                check_improve( ch, gsn_vicious_strike, TRUE, 5 );
+                printf("VS, type %i\n", dt ); // JR debug
+                if ( dice( 1, 10 ) == 1 )
+                {
+                    dam += dam * 2;
+                    while ( dice( 1, 2) == 1 )
+                        dam = (4*dam) / 3;
+                    act( "`w$N viciously strikes at you. It's `RHORRIBLE!`w", victim, NULL, ch, TO_CHAR );
+                    act( "`wYou viciously strike at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_VICT );
+                    act( "`w$N viciously strikes at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_NOTVICT );
+                    /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+                }
+                else
+                {
+                    dam += dam / 3 * UMIN( dice( 1, ch->level / 7 ), 5);
+                    act( "`w$N viciously strikes at you!", victim, NULL, ch, TO_CHAR );
+                    act( "`wYou viciously strike at $n!", victim, NULL, ch, TO_VICT );
+                    act( "`w$N viciously strikes at $n!", victim, NULL, ch, TO_NOTVICT );
+                    /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+                }
+            }
+        }
+        
         damaged = damage( ch, victim, weapon, dam, dt, dam_type );
 
         if ( damaged && ( weapon != NULL && ch->fighting == victim ) )
         {
-
+            char buf[MAX_STRING_LENGTH];
             if ( IS_WEAPON_STAT( weapon, WEAPON_VAMPIRIC ) )
             {
                 dam = number_range( 1, weapon->level / 5 + 1 );
-                act( "$p draws life from $n.", victim, weapon, NULL, TO_ROOM );
-                act( "You feel $p drawing your life away.",
-                     victim, weapon, NULL, TO_CHAR );
-                damage( ch, victim, NULL, dam, 1033, DAM_NEGATIVE );
+                #ifdef SHOW_DAMAGE_TO_CHARS
+                    sprintf( buf, "$p draws life from $n for %i points of damage.",dam);
+                    act( buf, victim, weapon, NULL, TO_ROOM );
+                    sprintf( buf, "You feel $p drawing %i points of your life away.",dam);
+                    act( buf, victim, weapon, NULL, TO_CHAR );
+                #else
+                    act( "$p draws life from $n.", victim, weapon, NULL, TO_ROOM );
+                    act( "You feel $p drawing your life away.", victim, weapon, NULL, TO_CHAR );
+                #endif
+                new_damage( ch, victim, NULL, dam, 0, DAM_NEGATIVE, FALSE ); // JR: damage->new_damage, dt 1033->0
                 ch->alignment = UMAX( -1000, ch->alignment - 1 );
                 ch->hit += dam / 2;
             }
@@ -696,18 +732,32 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
             if ( IS_WEAPON_STAT( weapon, WEAPON_FLAMING ) )
             {
                 dam = number_range( 1, weapon->level / 4 + 1 );
-                act( "$n is burned by $p.", victim, weapon, NULL, TO_ROOM );
-                act( "$p sears your flesh.", victim, weapon, NULL, TO_CHAR );
-                damage( ch, victim, NULL, dam, 1034, DAM_FIRE );
+                #ifdef SHOW_DAMAGE_TO_CHARS
+                    sprintf( buf, "$n is burned by $p for %i points of damage.",dam);
+                    act( buf, victim, weapon, NULL, TO_ROOM );
+                    sprintf( buf, "Y$p sears your flesh for %i points of damage.",dam);
+                    act( buf, victim, weapon, NULL, TO_CHAR );
+                #else
+                    act( "$n is burned by $p.", victim, weapon, NULL, TO_ROOM );
+                    act( "$p sears your flesh.", victim, weapon, NULL, TO_CHAR );
+                #endif
+                new_damage( ch, victim, NULL, dam, 0, DAM_FIRE, FALSE );
             }
 
             if ( IS_WEAPON_STAT( weapon, WEAPON_FROST ) )
             {
                 dam = number_range( 1, weapon->level / 6 + 2 );
-                act( "$p freezes $n.", victim, weapon, NULL, TO_ROOM );
-                act( "The cold touch of $p surrounds you with ice.",
+                #ifdef SHOW_DAMAGE_TO_CHARS
+                    sprintf( buf, "$p freezes $n for %i points of damage.",dam);
+                    act( buf, victim, weapon, NULL, TO_ROOM );
+                    sprintf( buf, "The cold touch of $p surrounds you with ice for %i points of damage.",dam);
+                    act( buf, victim, weapon, NULL, TO_CHAR );
+                #else
+                    act( "$p freezes $n.", victim, weapon, NULL, TO_ROOM );
+                    act( "The cold touch of $p surrounds you with ice.",
                      victim, weapon, NULL, TO_CHAR );
-                damage( ch, victim, NULL, dam, 1035, DAM_COLD );
+                #endif
+                new_damage( ch, victim, NULL, dam, 0, DAM_COLD, FALSE );
             }
             if ( IS_WEAPON_STAT( weapon, WEAPON_VORPAL )
                  && number_range( 1,
@@ -913,34 +963,6 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
     case ( IS_VULNERABLE ):
         dam += dam / 2;
         break;
-    }
-
-    /* Added by JR */
-    if ( dt >= TYPE_HIT && ch != victim && get_skill( ch, gsn_vicious_strike ) > 0 && !IS_NPC( ch ) && dam > 0 )
-    {
-        int diceroll = number_percent( );
-        if ( 5*diceroll + 38 <= get_skill( ch, gsn_vicious_strike ) )
-        {
-            if ( dice( 1, 10 ) == 1 )
-            {
-                dam += dam * 2;
-                while ( dice( 1, 2) == 1 )
-                    dam = (4*dam) / 3;
-                act( "`G$N viciously strikes you. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_CHAR );
-                act( "`GYou viciously strike $n. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_VICT );
-                act( "`G$N viciously strikes $n. It's `RH`GO`RR`GR`RI`GB`RL`GE`R!`G!`w", victim, NULL, ch, TO_NOTVICT );
-                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
-            }
-            else
-            {
-                dam += dam / 3 * UMIN( dice( 1, ch->level / 7 ), 5);
-                act( "`G$N viciously strikes you!`w", victim, NULL, ch, TO_CHAR );
-                act( "`GYou viciously strike $n!`w", victim, NULL, ch, TO_VICT );
-                act( "`G$N viciously strikes $n!`w", victim, NULL, ch, TO_NOTVICT );
-                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
-            }
-                check_improve( ch, gsn_vicious_strike, TRUE, 5 );
-        }
     }       
     
     if ( !gsilentdamage )
@@ -2792,9 +2814,10 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
     /* do alignment computations */
 
     align = victim->alignment - gch->alignment;
-
+    printf("align = %i\n",align); // JR debug
     if ( IS_SET( victim->act, ACT_NOALIGN ) )
     {
+        printf("case 1\n"); // JR debug
         /* no change */
     }
 
@@ -2805,6 +2828,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
                                 ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
         gch->alignment = UMAX( -1000, gch->alignment - change/10 ); /* Modified by JR */
+        printf("case 2\n"); // JR debug
     }
 
     else if ( align < -500 )    /* monster is more evil than slayer */
@@ -2814,6 +2838,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
                                      ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
         gch->alignment = UMIN( 1000, gch->alignment + change/10 );  /* Modified by JR */
+        printf("case 3\n"); // JR debug
     }
 
     else                        /* improve this someday */
@@ -2822,6 +2847,7 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
             gch->alignment * ( gch->level / total_levels +
                                ( 1 / members ) ) / 2;
         gch->alignment -= change/10; /* Modified by JR */
+        printf("case 4\n"); // JR debug
     }
 
     /* calculate exp multiplier */

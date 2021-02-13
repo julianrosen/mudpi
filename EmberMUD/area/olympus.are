@@ -475,9 +475,9 @@ unknown~
 BCD BCD BCD B 0
 58 18 580 P
 A
-18 2
-A
 19 2
+A
+18 2
 #904
 sandals winged~
 a pair of winged sandals~
@@ -513,9 +513,9 @@ unknown~
 0 AC ABD ABC 0
 49 15 490 P
 A
-18 1
-A
 19 1
+A
+18 1
 #908
 gauntlets flaming~
 flaming gauntlets~
@@ -553,9 +553,9 @@ unknown~
 AD AD AD 0 0
 34 1 340 P
 A
-4 2
-A
 19 4
+A
+4 2
 #912
 shield glowing~
 a brightly glowing shield~
@@ -1533,20 +1533,20 @@ D 0 921 1 2
 D 0 922 3 2
 D 0 937 3 1
 D 0 939 4 1
-M 0 923 2 904 Load A citizen
-M 0 923 2 905 Load A citizen
-M 0 923 0 906 Load A citizen
-M 0 923 0 907 Load A citizen
-M 0 923 0 908 Load A citizen
+M 0 923 2 904 Load a citizen
+M 0 923 2 905 Load a citizen
+M 0 923 0 906 Load a citizen
+M 0 923 0 907 Load a citizen
+M 0 923 0 908 Load a citizen
 M 0 901 0 910 Load Zeus
 E 0 900 0 5 The aegis is loaded on the body of Zeus
 E 0 901 0 16 The thunder bolt is loaded wielded of Zeus
 G 0 926 0 Nectar is given to Zeus
 G 0 909 0 Ambrosia is given to Zeus
-M 0 925 2 914 Load A Cook
-M 0 925 2 914 Load A Cook
-M 0 926 0 918 Load The Jailer
-G 0 927 0 A cell key is given to The Jailer
+M 0 925 2 914 Load a Cook
+M 0 925 2 914 Load a Cook
+M 0 926 0 918 Load the Jailer
+G 0 927 0 A cell key is given to the Jailer
 M 0 902 0 920 Load Prometheus
 G 0 928 0 A secret map of olympus is given to Prometheus
 E 0 908 0 9 Flaming gauntlets is loaded on the hands of Prometheus
@@ -1563,12 +1563,12 @@ E 0 910 0 3 A glowing necklace is loaded around the neck (1) of Athena
 E 0 905 0 17 An ivory staff is loaded held in the hands of Athena
 G 0 926 0 Nectar is given to Athena
 G 0 909 0 Ambrosia is given to Athena
-M 0 912 2 925 Load A serving boy
-E 0 915 0 17 A fan made of peacock feathers is loaded held in the hands of A serving boy
-G 0 914 0 A bunch of grapes is given to A serving boy
-M 0 912 2 925 Load A serving boy
-E 0 915 0 17 A fan made of peacock feathers is loaded held in the hands of A serving boy
-G 0 914 0 A bunch of grapes is given to A serving boy
+M 0 912 2 925 Load a serving boy
+E 0 915 0 17 A fan made of peacock feathers is loaded held in the hands of a serving boy
+G 0 914 0 A bunch of grapes is given to a serving boy
+M 0 912 2 925 Load a serving boy
+E 0 915 0 17 A fan made of peacock feathers is loaded held in the hands of a serving boy
+G 0 914 0 A bunch of grapes is given to a serving boy
 M 0 905 0 926 Load Apollo
 E 0 907 0 16 A silver bow is loaded wielded of Apollo
 G 0 926 0 Nectar is given to Apollo
@@ -1584,7 +1584,7 @@ G 0 905 0 An ivory staff is given to the Alchemist
 G 0 909 0 Ambrosia is given to the Alchemist
 G 0 910 0 A glowing necklace is given to the Alchemist
 G 0 926 0 Nectar is given to the Alchemist
-M 0 923 0 928 Load A citizen
+M 0 923 0 928 Load a citizen
 M 0 914 0 929 Load Odin
 E 0 924 0 12 A blue robe is loaded about the shoulders of Odin
 E 0 925 0 6 A wide brimmed hat is loaded over the head of Odin
@@ -1595,7 +1595,7 @@ M 0 922 2 933 Load a roc
 M 0 922 0 933 Load a roc
 M 0 924 2 933 Load a pegasus
 M 0 924 0 933 Load a pegasus
-M 0 923 0 934 Load A citizen
+M 0 923 0 934 Load a citizen
 M 0 918 0 935 Load Samuel the Armourer
 G 0 904 0 A pair of winged sandals is given to Samuel the Armourer
 G 0 908 0 Flaming gauntlets is given to Samuel the Armourer
@@ -1607,20 +1607,20 @@ M 0 908 0 937 Load Hephaestus
 E 0 912 0 11 A brightly glowing shield is loaded as a shield of Hephaestus
 G 0 926 0 Nectar is given to Hephaestus
 G 0 909 0 Ambrosia is given to Hephaestus
-M 0 909 2 937 Load A Golden Maiden
-G 0 917 0 A gold nugget is given to A Golden Maiden
-M 0 909 2 937 Load A Golden Maiden
-G 0 917 0 A gold nugget is given to A Golden Maiden
+M 0 909 2 937 Load a Golden Maiden
+G 0 917 0 A gold nugget is given to a Golden Maiden
+M 0 909 2 937 Load a Golden Maiden
+G 0 917 0 A gold nugget is given to a Golden Maiden
 M 0 906 0 938 Load Ares
 E 0 903 0 16 The spear of ares is loaded wielded of Ares
 G 0 926 0 Nectar is given to Ares
 G 0 909 0 Ambrosia is given to Ares
-M 0 910 2 938 Load A Soldier
-E 0 913 0 16 A notched axe is loaded wielded of A Soldier
-G 0 919 0 A pear is given to A Soldier
-M 0 910 2 938 Load A Soldier
-E 0 913 0 16 A notched axe is loaded wielded of A Soldier
-G 0 919 0 A pear is given to A Soldier
+M 0 910 2 938 Load a Soldier
+E 0 913 0 16 A notched axe is loaded wielded of a Soldier
+G 0 919 0 A pear is given to a Soldier
+M 0 910 2 938 Load a Soldier
+E 0 913 0 16 A notched axe is loaded wielded of a Soldier
+G 0 919 0 A pear is given to a Soldier
 M 0 921 0 945 Load Hera
 E 0 911 0 1 A sapphire ring is loaded on the left finger of Hera
 G 0 926 0 Nectar is given to Hera
@@ -1634,9 +1634,9 @@ E 0 904 0 8 A pair of winged sandals is loaded on the feet of Hermes
 E 0 902 0 6 A winged helmet is loaded over the head of Hermes
 G 0 926 0 Nectar is given to Hermes
 G 0 909 0 Ambrosia is given to Hermes
-M 0 913 3 954 Load A hound of war
-M 0 913 3 954 Load A hound of war
-M 0 913 2 954 Load A hound of war
+M 0 913 3 954 Load a hound of war
+M 0 913 3 954 Load a hound of war
+M 0 913 2 954 Load a hound of war
 S
 
 
@@ -1649,14 +1649,14 @@ M 904 13 Offensive Mage Load to: Poseidon
 M 905 9 Adepts Load to: Apollo
 M 907 9 Adepts Load to: Athena
 M 908 6 Lightning Breath Load to: Hephaestus
-M 909 20 CityGuard Load to: A Golden Maiden
+M 909 20 CityGuard Load to: a Golden Maiden
 M 914 7 Random Breath Load to: Odin
 M 919 7 Random Breath Load to: Ra the Sun God
 M 920 3 Fire Breath Load to: a chimera
 M 921 10 Offensive Cleric Load to: Hera
 M 922 1 Poison Bite Load to: a roc
-M 923 21 Thief Load to: A citizen
-M 926 13 Offensive Mage Load to: The Jailer
+M 923 21 Thief Load to: a citizen
+M 926 13 Offensive Mage Load to: the Jailer
 S
 
 

@@ -51,6 +51,47 @@ char * center( char * string, int numchars, char * buf )
     return centered;
 }
 
+
+void command_not_found( CHAR_DATA * ch )
+{
+    // Taken from Mudweiser
+    switch(number_range(1, 5))
+    {
+        case 1: 
+        {
+            send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
+            break;
+        }
+        case 2: 
+        {
+            send_to_char( "`Y> `wNice command. Did you just make it up?\n\r", ch );
+            break;
+        }
+        case 3: 
+        {
+            send_to_char( "`Y> `wDid you really think that command would work?\n\r", ch );
+            break;
+        }
+        case 4: 
+        {
+            send_to_char( "`Y> `wTry that command again, only this time do it right.\n\r", ch );
+            break;
+        }
+        case 5: 
+        {
+            send_to_char( "`Y> `wWas that command intended to do something?\n\r", ch );
+            break;
+        }
+        default: 
+        {
+            send_to_char( "`Y> `wI'm sure it's a great command, but you can't use it.\n\r", ch );
+            break;
+        }
+    }
+}
+
+
+
 // Display length of str (color signifiers don't lengthen)
 int bw_strlen( char * str )
 {

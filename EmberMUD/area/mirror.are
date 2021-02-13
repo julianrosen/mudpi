@@ -720,9 +720,9 @@ unknown~
 A AC C AB 0
 16 5 160 P
 A
-18 2
-A
 19 2
+A
+18 2
 E
 sword~
 You see a sword of great craftsmanship. Imprinted on the side is:
@@ -737,9 +737,9 @@ unknown~
 C AC C ABC 0
 16 5 160 P
 A
-18 2
-A
 19 2
+A
+18 2
 E
 mace~
 You see a mace of great craftsmanship. Imprinted on the side is:
@@ -897,9 +897,9 @@ unknown~
 BC BC BC 0 0
 17 1 170 P
 A
-17 -6
-A
 24 -2
+A
+17 -6
 #5331
 imperial banner~
 an imperial war banner~
@@ -909,9 +909,9 @@ unknown~
 0 0 999 0 0
 16 1 160 P
 A
-24 -2
-A
 17 -2
+A
+24 -2
 E
 banner~
 This is the official Merc war banner to see you through the darkest realm!
@@ -2428,26 +2428,26 @@ rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
-D4
-You see stars.
-~
-~
-0 0 5376
-D3
-You see stars.
-~
-~
-0 0 5378
-D1
-You see stars.
-~
-~
-0 0 5378
 D2
 You see a fuzzy portal of some sort and a little green.
 ~
 ~
 0 0 5368
+D3
+You see stars.
+~
+~
+0 0 5378
+D4
+You see stars.
+~
+~
+0 0 5376
+D1
+You see stars.
+~
+~
+0 0 5378
 D5
 You see stars.
 ~
@@ -2468,31 +2468,31 @@ You see stars.
 ~
 ~
 0 0 5375
-D1
-You see stars.
-~
-~
-0 0 5376
-D0
-You see stars.
-~
-~
-0 0 5377
 D2
 You see stars.
 ~
 ~
 0 0 5377
-D4
+D0
 You see stars.
 ~
 ~
-0 0 5375
+0 0 5377
 D3
 You see stars.
 ~
 ~
 0 0 5376
+D1
+You see stars.
+~
+~
+0 0 5376
+D4
+You see stars.
+~
+~
+0 0 5375
 S
 #5377
 The Void~
@@ -2503,16 +2503,16 @@ either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
 rainbow then back to its normal state.
 ~
 0 0 3
+D1
+You see stars.
+~
+~
+0 0 5377
 D5
 You see stars.
 ~
 ~
 0 0 5378
-D3
-You see stars.
-~
-~
-0 0 5377
 D2
 You see stars.
 ~
@@ -2523,16 +2523,16 @@ You see stars.
 ~
 ~
 0 0 5378
+D3
+You see stars.
+~
+~
+0 0 5377
 D0
 You see stars.
 ~
 ~
 0 0 5376
-D1
-You see stars.
-~
-~
-0 0 5377
 S
 #5378
 The Void~
@@ -2544,26 +2544,26 @@ rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
-D1
-You see stars.
-~
-~
-0 0 5375
 D4
 You see stars.
 ~
 ~
 0 0 5377
-D2
-You see a fuzzy portal of some sort and a little green.
+D1
+You see stars.
 ~
 ~
-0 0 8903
+0 0 5375
 D3
 You see stars.
 ~
 ~
 0 0 5375
+D2
+You see a fuzzy portal of some sort and a little green.
+~
+~
+0 0 8903
 D5
 You see stars.
 ~
@@ -2683,9 +2683,14 @@ Main Street leads west from here.
 ~
 0 0 1
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar. It is far too high to climb.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
 ~
 E
 gate~
@@ -2694,14 +2699,9 @@ reinforced with large iron bands to make them even more sturdy. One of the
 doors is equipped with a very big lock.
 ~
 E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
-~
-E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar. It is far too high to climb.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 D1
 You see the city gate.
@@ -2721,9 +2721,14 @@ plains stretch out in the distance.
 ~
 0 0 1
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar. It is far too high to climb.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
 ~
 E
 gate~
@@ -2732,14 +2737,9 @@ reinforced with large iron bands to make them even more sturdy. One of the
 doors is equipped with a very big lock.
 ~
 E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
-~
-E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar. It is far too high to climb.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 D1
 You see the plains.~
@@ -2759,16 +2759,16 @@ behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 ~
 0 1032 0
 E
-altar~
-Even though the altar is more than ten feet long it appears to be made from a
-single block of white virgin marble.
-~
-E
 statue odin king god~
 The statue represents the one-eyed Odin sitting on a his throne. He has
 long, grey hair and beard and a strict look on his face. On top of the
 throne, just above his shoulders, his two ravens Hugin and Munin are sitting
 and at his feet are his wolves Gere and Freke.
+~
+E
+altar~
+Even though the altar is more than ten feet long it appears to be made from a
+single block of white virgin marble.
 ~
 D2
 You see the southern end of the temple.
@@ -2934,27 +2934,27 @@ E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of an imperial city
 E 0 5319 0 5 An imperial chest plate is loaded on the body of an imperial cityguard
 E 0 5320 0 11 An imperial shield is loaded as a shield of an imperial cityguard
 E 0 5317 0 16 An imperial sword is loaded wielded of an imperial cityguard
-M 0 5320 0 5335 Load An imperial cityguard
-E 0 5330 0 1 An imperial city guard signet ring is loaded on the left finger of An imperial cityguard
-E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of An imperial cityguard
-E 0 5319 0 5 An imperial chest plate is loaded on the body of An imperial cityguard
-E 0 5327 0 12 An imperial cape is loaded about the shoulders of An imperial cityguard
-E 0 5328 0 13 An imperial belt is loaded around the waist of An imperial cityguard
-E 0 5317 0 16 An imperial sword is loaded wielded of An imperial cityguard
-M 0 5320 0 5335 Load An imperial cityguard
-E 0 5330 0 1 An imperial city guard signet ring is loaded on the left finger of An imperial cityguard
-E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of An imperial cityguard
-E 0 5319 0 5 An imperial chest plate is loaded on the body of An imperial cityguard
-E 0 5327 0 12 An imperial cape is loaded about the shoulders of An imperial cityguard
-E 0 5329 0 14 An imperial metal bracer is loaded on the left wrist of An imperial cityguard
-E 0 5318 0 16 An imperial mace is loaded wielded of An imperial cityguard
-M 0 5320 0 5335 Load An imperial cityguard
-E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of An imperial cityguard
-E 0 5319 0 5 An imperial chest plate is loaded on the body of An imperial cityguard
-E 0 5327 0 12 An imperial cape is loaded about the shoulders of An imperial cityguard
-E 0 5328 0 13 An imperial belt is loaded around the waist of An imperial cityguard
-E 0 5329 0 14 An imperial metal bracer is loaded on the left wrist of An imperial cityguard
-E 0 5317 0 16 An imperial sword is loaded wielded of An imperial cityguard
+M 0 5320 0 5335 Load an imperial cityguard
+E 0 5330 0 1 An imperial city guard signet ring is loaded on the left finger of an imperial cityguard
+E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of an imperial cityguard
+E 0 5319 0 5 An imperial chest plate is loaded on the body of an imperial cityguard
+E 0 5327 0 12 An imperial cape is loaded about the shoulders of an imperial cityguard
+E 0 5328 0 13 An imperial belt is loaded around the waist of an imperial cityguard
+E 0 5317 0 16 An imperial sword is loaded wielded of an imperial cityguard
+M 0 5320 0 5335 Load an imperial cityguard
+E 0 5330 0 1 An imperial city guard signet ring is loaded on the left finger of an imperial cityguard
+E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of an imperial cityguard
+E 0 5319 0 5 An imperial chest plate is loaded on the body of an imperial cityguard
+E 0 5327 0 12 An imperial cape is loaded about the shoulders of an imperial cityguard
+E 0 5329 0 14 An imperial metal bracer is loaded on the left wrist of an imperial cityguard
+E 0 5318 0 16 An imperial mace is loaded wielded of an imperial cityguard
+M 0 5320 0 5335 Load an imperial cityguard
+E 0 5321 0 4 An imperial cloak is loaded around the neck (2) of an imperial cityguard
+E 0 5319 0 5 An imperial chest plate is loaded on the body of an imperial cityguard
+E 0 5327 0 12 An imperial cape is loaded about the shoulders of an imperial cityguard
+E 0 5328 0 13 An imperial belt is loaded around the waist of an imperial cityguard
+E 0 5329 0 14 An imperial metal bracer is loaded on the left wrist of an imperial cityguard
+E 0 5317 0 16 An imperial sword is loaded wielded of an imperial cityguard
 M 0 5305 0 5336 Load Gordon the Brave
 E 0 5204 0 8 A pair of mithril boots is loaded on the feet of Gordon the Brave
 E 0 5203 0 10 Some mithril sleeves is loaded on the arms of Gordon the Brave
@@ -3074,7 +3074,7 @@ M 5305 20 CityGuard Load to: Gordon the Brave
 M 5306 10 Offensive Cleric Load to: the fanatic priest
 M 5307 10 Offensive Cleric Load to: the priest of Thalos
 M 5317 13 Offensive Mage Load to: an old wizard
-M 5320 20 CityGuard Load to: An imperial cityguard
+M 5320 20 CityGuard Load to: an imperial cityguard
 M 5321 20 CityGuard Load to: an imperial cityguard
 M 5327 10 Offensive Cleric Load to: a druid
 M 5328 10 Offensive Cleric Load to: a druidess

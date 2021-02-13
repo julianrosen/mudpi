@@ -232,28 +232,32 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
     buf[0] = '\0';
     message[0] = '\0';
 
+    // JR: modified style
     if ( IS_AFFECTED( victim, AFF_INVISIBLE ) )
-        strcat( buf, "`K(`bI`Bnvi`bs`K) `C" );
+        strcat( buf, "`K(`bI`Bnvi`bs`K)`C" );
     if ( IS_SET( victim->act, PLR_BUILDING ) && !IS_NPC( victim ) )
-        strcat( buf, "`W[`BBu`bildi`Bng`W] `C" );
+        strcat( buf, "`W[`BBu`bildi`Bng`W]`C" );
     if ( IS_AFFECTED( victim, AFF_HIDE ) )
-        strcat( buf, "`K(H`wi`Kdd`we`Kn) `C" );
+        strcat( buf, "`K(H`wi`Kdd`we`Kn)`C" );
     if ( IS_AFFECTED( victim, AFF_CHARM ) )
-        strcat( buf, "`W(`GCh`garm`Ged`W) `C" );
+        strcat( buf, "`W(`GCh`garm`Ged`W)`C" );
     if ( IS_AFFECTED( victim, AFF_PASS_DOOR ) )
-        strcat( buf, "`C(Tr`Wan`wslu`Wce`Cnt) `C" );
+        strcat( buf, "`C(Tr`Wan`wslu`Wce`Cnt)`C" );
     if ( IS_AFFECTED( victim, AFF_FAERIE_FIRE ) )
-        strcat( buf, "`W(`MP`mi`Mn`mk `MA`mu`Mr`ma`W) `C" );
+        strcat( buf, "`W(`MP`mi`Mn`mk `MA`mu`Mr`ma`W)`C" );
     if ( IS_EVIL( victim ) && IS_AFFECTED( ch, AFF_DETECT_EVIL ) )
-        strcat( buf, "`r(`RRe`Kd Au`Rra`r) `C" );
+        strcat( buf, "`r(`RRe`Kd Au`Rra`r)`C" );
     if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
-        strcat( buf, "`W(`wWhi`Wte Au`wra`W) `C" );
+        strcat( buf, "`W(`wWhi`Wte Au`wra`W)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_AFK ) )
-        strcat( buf, "`W(`CA`cF`CK`W) `C" );
+        strcat( buf, "`B(AFK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_KILLER ) )
-        strcat( buf, "`W(`RPK`W) `C" );
+        strcat( buf, "`R(PK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_THIEF ) )
-        strcat( buf, "`W(`YT`yHIE`YF`W) `C" );
+        strcat( buf, "`W(`YT`yHIE`YF`W)`C" );
+    if ( buf[0] != '\0' )
+        strcat( buf, " ");
+    
     if ( victim->position == victim->start_pos
          && victim->long_descr[0] != '\0' )
     {
@@ -1329,7 +1333,10 @@ void do_effects( CHAR_DATA * ch, char *argument )
     if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_THIRST] == 0 )
         send_to_char( "You are thirsty.\n\r", ch );
     if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_FULL] == 0 )
+        send_to_char( "You are `Ystarving`w.\n\r", ch );
+    else if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_FULL] < HUNGER_THRESH )
         send_to_char( "You are hungry.\n\r", ch );
+    
     if ( ch->affected != NULL )
     {
         send_to_char( "You are affected by:\n\r", ch );

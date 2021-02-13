@@ -314,9 +314,9 @@ unknown~
 A C AC AB 0
 15 9 150 P
 A
-18 1
-A
 19 1
+A
+18 1
 #2005
 sword excalibur~
 the sword Excalibur~
@@ -326,9 +326,9 @@ unknown~
 A AC AC AB 0
 22 15 220 P
 A
-18 3
-A
 1 1
+A
+18 3
 #2006
 crown~
 a kingly crown~
@@ -382,13 +382,13 @@ unknown~
 BC BC BC 0 0
 16 15 160 P
 A
-12 10
-A
-13 10
+19 -1
 A
 18 -2
 A
-19 -1
+13 10
+A
+12 10
 #2012
 scale shield dragonscale~
 a dragonscale shield~
@@ -1726,10 +1726,10 @@ E 0 2008 0 17 A flask of holy water is loaded held in the hands of the grand tem
 M 0 2012 2 2026 Load the shadow
 E 0 2014 0 12 A shadow cloak is loaded about the shoulders of the shadow
 M 0 2006 0 2028 Load It
-M 0 2017 0 2030 Load The DarkenBeast
-E 0 2003 0 2 An onyx ring is loaded on the right finger of The DarkenBeast
-E 0 2002 0 5 A suit of granite platemail is loaded on the body of The DarkenBeast
-E 0 2006 0 17 A kingly crown is loaded held in the hands of The DarkenBeast
+M 0 2017 0 2030 Load the DarkenBeast
+E 0 2003 0 2 An onyx ring is loaded on the right finger of the DarkenBeast
+E 0 2002 0 5 A suit of granite platemail is loaded on the body of the DarkenBeast
+E 0 2006 0 17 A kingly crown is loaded held in the hands of the DarkenBeast
 O 0 2007 0 2032 Stone loaded to The holy place
 P 0 2005 0 2007 The sword excalibur put inside the sword Excalibur
 M 0 2006 0 2033 Load It
@@ -1772,8 +1772,8 @@ E 0 2013 0 17 A prism wand is loaded held in the hands of the prism dragon
 M 0 2001 0 2052 Load a bat
 M 0 2001 0 2052 Load a bat
 M 0 2001 0 2052 Load a bat
-M 0 2013 0 2052 Load The vampire
-E 0 2004 0 16 The neutralizer is loaded wielded of The vampire
+M 0 2013 0 2052 Load the vampire
+E 0 2004 0 16 The neutralizer is loaded wielded of the vampire
 M 0 2001 0 2052 Load a bat
 M 0 2001 0 2052 Load a bat
 M 0 2001 0 2052 Load a bat
@@ -1793,10 +1793,10 @@ S
 M 2007 14 Undead Mage Load to: a skeleton
 M 2009 14 Undead Mage Load to: a mysterious wraith
 M 2011 13 Offensive Mage Load to: zombie
-M 2013 14 Undead Mage Load to: The vampire
+M 2013 14 Undead Mage Load to: the vampire
 M 2014 14 Undead Mage Load to: the evil necromancer
 M 2016 7 Random Breath Load to: the prism dragon
-M 2017 1 Poison Bite Load to: The DarkenBeast
+M 2017 1 Poison Bite Load to: the DarkenBeast
 S
 
 

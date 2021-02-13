@@ -1,0 +1,2414 @@
+#AREADATA
+Name        (6 90)  Burgain Southland~
+Builders    Burgain~
+VNUMs       26100 26199
+Security    6
+End
+
+
+
+#MOBILES
+#26103
+trombone player~
+the Trombone Player~
+The trombone player is standing here, working a tough song
+~
+~
+Human~
+A 0 0 S
+15 17
+100 0 0 0 25d7+17 0d0+0 1d5+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#26104
+Bunny~
+a bunny~
+A cute little purple bunny hops around here
+~
+You look upon a cute purple bunny.  
+Why would anyone want to hurt it?
+You seem to catch an evil gleam in it's eyes...
+~
+fido~
+AB 0 1000 S
+20 40
+100 0 0 0 1000d7+100 0d0+0 1d2+1 0
+-6 -6 -6 -60
+FR ABCEJLMOPQRS N CI
+8 8 0 100000
+BGV ACDEFHJKQV S unknown
+#26105
+trumpet~
+Trumpet Player~
+The trumpet player is standing here, poking fun at the clarinet
+~
+~
+Human~
+A 0 -353 S
+20 2
+100 0 0 0 73d8+10 0d0+0 10d10+10 0
+0 0 0 0
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#26106
+clarinet~
+clarinet player~
+The clarinet player is sitting here, exchanging insults with the trum pet player
+~
+~
+Human~
+A 0 1000 S
+25 30
+100 0 0 0 70d10+100 0d0+0 20d2+10 0
+0 0 0 0
+0 0 0 0
+8 8 2 10546
+AHMV ABCDEFGHIJK S unknown
+#26107
+Bass Player~
+the Bass player~
+The bass player is standing here, playing his chords
+~
+~
+Human~
+A 0 378 S
+10 10
+100 0 0 0 18d6+6 0d0+0 1d4+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#26108
+Guard of Lousi~
+the Guard of Lousi~
+The lazy guard of the village of Lousi is resting here
+~
+You look upon the lazy guard of Lousi. He is resting now, but then again
+his job takes up 12 hours of his day. He does not seem to have any 
+sense of duty to his job.
+~
+Human~
+ABT 0 500 S
+20 20
+100 0 0 0 35d25+50 0d0+0 4d5+8 0
+-1 -1 -1 0
+EKTU B 0 0
+5 5 1 100
+AHMV ABCDEFGHIJK M unknown
+#26109
+saxophone player~
+the Saxophone player~
+The saxophone player is sitting here, making up a solo
+~
+~
+Human~
+A 0 453 S
+11 20
+100 0 0 0 50d7+6 0d0+0 2d4+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 100
+AHMV ABCDEFGHIJK M unknown
+#26110
+The Conductor~
+the Conductor~
+The conductor of the band is here, conducting his band
+~
+~
+Human~
+A 0 399 S
+15 15
+100 0 0 0 30d20+40 0d0+0 2d10+1 0
+0 0 0 0
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#26111
+The tuba~
+the tuba player~
+The tuba player of the band is sitting here, blowing his lips off
+~
+~
+Human~
+A 0 423 S
+13 13
+100 0 0 0 100d100+100 0d0+0 1d1+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M unknown
+#26112
+drummer ~
+the Drummer~
+The drummer is here, drumming away
+~
+~
+Human~
+A 0 546 S
+17 17
+100 0 0 0 30d6+15 0d0+0 5d3+2 0
+0 0 0 0
+0 0 0 0
+8 8 2 350
+AHMV ABCDEFGHIJK M unknown
+#26121
+Female Citizen~
+Female Citizen of Lousi~
+A female citizen of Lousi is here, cleaning the house
+~
+~
+Human~
+AB 0 1000 S
+13 4
+100 0 0 0 11d12+13 2d2+2 1d3+5 16
+0 0 0 -1
+HIK AL 0 J
+8 8 2 90
+AHMV ABCDEFGHIJK M unknown
+#26123
+sufank old man~
+Sufank~
+An old man is here, he looks tired.
+~
+You look upon an aged man. He is about 75, but still very dexterous.
+He stands 6ft tall, when he was young he might have been 6' 1".
+He used to adventure, but now he has retired to sell things.
+But he is broke...
+~
+Human~
+ABCQRST H 0 S
+70 75
+100 0 0 0 100d20+1100 100d20+200 10d10+100 0
+-30 -30 -30 -25
+BEFIJ ABLMQ P 0
+8 8 1 100000
+AHMV ABCDEFGHIJK M unknown
+#26128
+male citizen~
+a male citizen of Lousi~
+A male citizen of Lousi is sitting in a chair here.
+~
+~
+Human~
+AB 0 1000 S
+13 4
+100 0 0 0 20d20+50 2d2+2 2d4+1 17
+0 0 0 -1
+HIK AL 0 J
+8 8 1 90
+AHMV ABCDEFGHIJK M unknown
+#26135
+The night guard of Lousi~
+the night guard~
+The night guard of Lousi is here, sleeping until his shift.
+~
+~
+Human~
+ABT 0 0 S
+18 18
+100 0 0 0 35d10+100 0d0+0 4d5+5 0
+0 0 0 1
+U B 0 0
+4 4 1 33
+AHMV ABCDEFGHIJK M unknown
+#26141
+beast~
+the Beast~
+The Beast!! Oh no!
+~
+~
+Giant~
+ACF 0 -1000 S
+20 20
+100 0 0 0 10d100+1000 0d0+0 2d10+2 0
+1 1 1 1
+0 ABIP 0 FP
+8 8 1 300
+AHMV ABCDEFGHIJK L unknown
+#26146
+deer animal~
+a deer~
+A deer of this forest is eating here
+~
+~
+Human~
+A 0 200 S
+30 30
+100 0 0 0 500d2+250 0d0+0 5d3+0 0
+0 0 0 3
+0 0 0 K
+8 8 0 184
+AHMV ABCDEFGHIJK T unknown
+#26150
+a Purple Deer~
+a purple deer~
+A purple deer is standing here, looking at you and smiling.
+~
+~
+fido~
+AB 0 0 S
+20 40
+100 0 0 0 1000d1000+0 0d0+0 1d2+1 0
+-6 -6 -6 -60
+FR ABCEJLMOPQRS N CI
+8 8 0 150000
+BGV ACDEFHJKQV M unknown
+#26158
+a bear~
+a bear~
+A bear of the forest is growling at you here
+~
+~
+Human~
+AT 0 1000 S
+38 35
+100 0 0 0 50d50+50 0d0+0 5d5+15 0
+-12 -12 -12 0
+DEHIMO 0 0 K
+8 8 0 1000
+AGHMV ABCDEFGHIJK M unknown
+#26164
+witch doctor~
+witch doctor~
+The witch doctor is here, chanting.
+~
+You look upon the witch doctor. He is the owner of this hut.
+He does not appear to notice you enter. He looks like a nice guy...
+~
+Human~
+ABQ 0 0 S
+30 45
+100 0 0 0 50d50+50 30d30+35 6d12+34 0
+-20 -20 -20 -20
+DF P C 0
+8 8 1 450
+AHMV ABCDEFGHIJK M unknown
+#26173
+A Scaleman~
+a Scaleman~
+A Scaleman is here, swimming in the mud
+~
+~
+Human~
+A 0 0 S
+35 32
+100 0 0 0 850d1+6 0d0+0 5d5+1 0
+-16 -16 -16 -6
+0 0 0 0
+8 8 0 100
+AHMV ABCDEFGHIJK M unknown
+#26194
+old hermit~
+an old hermit~
+An old hermit was sitting by his fire, minding his own business, until you came.
+~
+~
+Human~
+ABF DFVZ 0 S
+90 37
+100 0 0 0 30d30+100 0d0+0 20d20+20 15
+-5 -5 -5 -10
+DI BNPS C YZ
+8 8 1 3
+AHMV ABCDEFGHIJK M unknown
+#26195
+ape~
+a baby ape~
+A baby ape is sitting here, roaring away
+~
+~
+Troll~
+ABH Jc 0 S
+40 40
+100 0 0 0 100d50+0 0d0+0 3d4+2 0
+-2 -2 -2 3
+D 0 E HKP
+8 8 0 0
+BMV ABCDEFGHIJKUV M unknown
+#26199
+old scaleman~
+a old scaleman~
+A old scaleman is laying here, acting dead.
+~
+~
+Human~
+AO H 0 S
+40 60
+100 0 0 0 60d30+100 0d0+0 4d4+6 0
+-5 -5 -5 -1
+M ABPQ 0 FHKS
+6 6 0 0
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#OBJECTS
+#26100
+Saber of the Gods~
+gods' Saber~
+A short red saber~
+unknown~
+5 0 AN
+A D ABCD ACDEHIJKLMNOPQRSTUVWXYZabcdef ACDEHIJKLMNOPQRSTUVWXYZabcdef
+93 3 1 P
+A
+1 2
+A
+5 -1
+A
+19 20
+A
+18 20
+A
+3 4
+#26101
+Playtester's Playtest Weapon~
+playtest weapon~
+Some of Darkrose's Former Playtest gear lays here~
+unknown~
+5 ABI AN
+ACDEHIJKLMNOPQRSTUVWXYZabcdef BEF BEF ACDEHIJKLMNOPQRSTUVWXYZabcdef 0
+93 1 1 P
+A
+18 90
+A
+5 10
+A
+1 10
+A
+4 5
+#26102
+playtester's playtest armor~
+playtest Armor~
+Some of darkrose's former playtest gear lays here~
+unknown~
+9 ABI AD
+DEGJ DEGJ DEGJ DEGJ 0
+93 1 1 P
+#26103
+anti guild master thing~
+iron wepaon~
+An iron wepaon lays here~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+#26104
+A small flashlight~
+a small flashlight~
+A short flashlight is here, wasting batteries.~
+unknown~
+1 A AO
+0 0 999 0 0
+93 1 1000000000 P
+#26114
+metal helmet~
+a metal helmet~
+A old rusty metal helmet is here, collecting the dust.~
+unknown~
+9 RSWX E
+BC C AC B 0
+14 5 4500 P
+#26115
+blunt sword~
+blunt sword~
+A blunt sword is here, looking like it needs to be sharpened.~
+unknown~
+5 0 N
+A AC AC AB 0
+14 4 3000 P
+#26118
+bullet proof vest~
+a bullet proof vest~
+A vest is left here by a police officer~
+unknown~
+9 0 AD
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+A
+2 3
+A
+13 1000
+A
+12 1000
+#26119
+a hemp necklace~
+a hemp necklace~
+Blah!!!!!!!~
+unknown~
+9 0 AC
+CFG CFG CFG CFG 0
+93 1 100000000 P
+A
+13 1000
+A
+12 1000
+A
+3 5
+#26120
+oops2~
+oops2~
+Blah!!!~
+unknown~
+9 0 AC
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+A
+13 31070
+A
+12 1000
+A
+3 5
+#26122
+a Beanie~
+a beanie~
+A green beanie lays here, looking like it needs a owner.~
+unknown~
+9 0 AE
+0 0 0 0 0
+93 1 1000000000 P
+A
+3 3
+A
+12 1000
+A
+13 1000
+#26135
+oops~
+oops~
+A hemp necklace is here, waiting for a owner~
+unknown~
+9 0 AC
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+A
+13 31070
+A
+13 31070
+A
+13 -31072
+A
+3 5
+A
+12 1000
+#26136
+a wedding ring~
+a wedding ring~
+Burgain's wedding ring is here, don't touch it!~
+unknown~
+9 B AB
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+A
+19 70
+A
+1 3
+#26137
+the Gods' Weapon~
+the Gods' Weapon~
+Burgain's weapon!~
+unknown~
+5 0 AN
+B C AC ACDEHIJKLMNOPQRSTUVWXYZabcdef A
+93 1 2147483647 P
+#26139
+Wheat~
+old wheat~
+Some old wheat is thrown about here.~
+unknown~
+19 0 0
+DE 0 0 0 0
+0 1 50 P
+#26140
+chest plate~
+chest armor~
+Some rusty plate mail is here, looking like it would fit well on your chest.~
+unknown~
+9 RSWX D
+BD BD BD AD 0
+14 12 5000 P
+#26141
+baseball gloves~
+baseball gloves~
+Some basball gloves were left here.~
+unknown~
+9 0 AH
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+A
+18 30
+#26142
+khaki pants~
+khaki pants~
+Some khaki pants are here.~
+unknown~
+9 0 AF
+CFG CFG CFG CFG 0
+93 1 1000000000 P
+#26144
+Lightsaber~
+a lightsaber~
+A lightsaber is here, left over from star wars.~
+unknown~
+5 ABRSWX AN
+A CE CE ABCDE A
+93 1 1000000000 P
+#26145
+a couch~
+a couch~
+A couch is here, looking comfortable.~
+unknown~
+12 0 0
+0 0 0 0 0
+93 0 1000000000 P
+#26146
+Bill's personal dagger~
+bill's dagger~
+Bill left his dagger here.~
+unknown~
+5 0 ANPQRSTUVWXYZabcdef
+B CE CE BDE C
+93 1 0 P
+A
+2 20
+A
+18 100
+#26147
+endless bag of chips~
+an endless bag of chips~
+An endless bag of chips is here, covered in grease.~
+unknown~
+15 0 0
+FHJKPQ A DGHJMN 0 0
+93 1 1000000000 P
+#26149
+potion of spam~
+spam potion~
+A potion of spam healing is here.~
+unknown~
+10 0 A
+10 508 508 508 0
+92 1 1000000000 P
+#26163
+Witch Doctor's Cloak~
+witch doctor's cloak~
+A forest green cloak is left by someone here.~
+unknown~
+9 AJTUV AD
+ABF DF ABF BCG 0
+93 2 15000 P
+A
+12 75
+#26189
+Kagato's sword~
+kagato's sword~
+Kagato's sword is here.~
+unknown~
+5 0 AN
+A CE CE AB C
+92 0 100000 P
+A
+18 150
+A
+19 70
+A
+13 1000
+#26194
+old hermit's cap~
+old hermit's cap~
+A cap of anold hermit is here, laying on the ground.~
+unknown~
+9 TV AE
+CE CE CE CE 0
+75 2 150000 P
+A
+19 3
+A
+4 3
+A
+3 1
+A
+18 4
+A
+19 4
+A
+5 -4
+#0
+
+
+
+#ROOMS
+#26100
+Entrance to Southland~
+You enter Southland, the land of hills. Hills surround you on all sides,
+and trees are visable all over. Animals are seen jumping through fields,
+and singing in trees. You seem at peace with your self, and feel like you
+need a nap. But just as you want to go rest under a tree, dark clouds
+gather. It seems like it is going to rain, so you push on. A path is
+visable to the south, and the north.  
+~
+0 4 4
+D2
+~
+~
+0 0 26101
+S
+#26101
+On the path Of Southland~
+You continue into the land of the hills. Some of the hills smooth out into
+plains, but most stay the same. Bears, cougars, and deer live here.
+Many birds sing in the trees around you. An old man walks up to you and
+asks you to leave the land of the south. He says it is dangerous.
+You may continue on the path to the south or to the north.
+~
+0 0 4
+D0
+~
+~
+0 0 26100
+D2
+~
+~
+0 0 26102
+S
+#26102
+Passing Through the Hills~
+You enter into more hills. The hills here are smoother here then the 
+northern part of Southland. A trig snaps and a hunter runs by, with his 
+bow ready. He nods to you, and passes. He runs toward what appears to be
+a crossroads, to the south. You look north and see more of the hills of
+Southland.
+~
+0 0 4
+D0
+~
+~
+0 0 26101
+D2
+~
+~
+0 0 26103
+S
+#26103
+Crossroads~
+You stand at the Crossroads. The ground is total mud, do to the fact that 
+so many people come this way. It is the center of Southland. A stream 
+runs to a river to your west. To your east the hills turn into trees and
+fields. To your north are the famed hills of Southland. And to your south
+is what appears to be a small village.  
+~
+0 4 4
+D0
+~
+~
+0 0 26102
+D2
+~
+~
+0 0 26104
+D3
+~
+~
+0 0 26105
+S
+#26104
+Road to Village~
+You are traveling on the road to Lousi, a small village. The sky is sunny
+and no clouds cover the sky. It seems happy here...too happy...
+At every turn of the road you think you will see purple animals jump
+out and say hello to you. To the north is the crossroads and to the south
+is the village Lousi.
+~
+0 0 2
+D0
+~
+~
+0 0 26103
+D2
+~
+~
+0 0 26106
+S
+#26105
+West from the Crossroads~
+You on a path west from the crossroads. The ground is dry, but getting 
+wetter. You can see animals around, but mostly the common ones.
+The hills of Southland smooth out here, and become forests and fields.
+To the east you see the crossroads. And to the west you see a field.
+~
+0 4 2
+D1
+~
+~
+0 0 26103
+D3
+~
+~
+0 0 26138
+S
+#26106
+On the road to Lousi~
+You are on the out skirts of the village Lousi. You see a sleepy guard
+guarding the road to the village. No gates or doors bar your entrance
+to Lousi, a road leads right through it. You look north and see the cross
+roads. To the south you see the village.
+~
+0 4 1
+D0
+~
+~
+0 0 26104
+D2
+~
+~
+0 0 26107
+S
+#26107
+The entrance to the plantation village of Lousi~
+You enter Lousi. All you see is a few houses, and a giant plantation 
+house. The lazy guard rests in a chair here. You see the famed Lousi
+band performing south of here. And the crossroads far north of here.
+~
+0 0 1
+D0
+~
+~
+0 0 26106
+D2
+~
+~
+0 0 26108
+D3
+~
+~
+0 0 26109
+S
+#26108
+Near the Gazebo~
+You can hear the Lousi village band performing south from here.
+All around you the sky seems bright with the joyous mood of the
+village. The center of the village is west from here. The guard
+of Lousi is north from here. And the band plays south from here
+~
+0 4 1
+D0
+~
+~
+0 0 26107
+D2
+~
+~
+0 0 26110
+D3
+~
+~
+0 0 26111
+S
+#26109
+The lazy guard's house~
+You enter the lazy guard's house. It is messy, dirty cloths fill the
+floor space. Half eaten food sits on tables.
+You feel like you should pick it up...
+~
+0 8 0
+D1
+~
+~
+0 0 26107
+S
+#26110
+At the gazebo~
+Here, at the gazebo the Lousi band plays. The band is bigger then the
+watchers. But oh well. You here the melodys of dixieland music draw you
+into the crowd, well, the couple of people watching. To the northwest is
+the center of this village. And to the north is the entrance to Lousi.
+~
+0 0 1
+D0
+~
+~
+0 0 26108
+S
+#26111
+The Village Square~
+You are standing in the center of the village Lousi. You can see a couple
+people around. And about 20 or so houses. The shops are closed, not
+enough business i guess. But the thing that catchs you eye is the plantation
+house. It is far to you west. It is probally the biggest building you
+have ever seen in your life. To the southeast the Lousi village band
+is playing dixieland music. And all around you are houses.
+~
+0 0 1
+D1
+~
+~
+0 0 26108
+D2
+~
+~
+0 0 26112
+D3
+~
+~
+0 0 26113
+S
+#26112
+A closed shop~
+You are in a closed shop. No one bothered to close the door, for
+there is nothing in here worth jack. From the things in here, you
+can tell it used to be a bakery.
+~
+0 8 0
+D0
+~
+~
+0 0 26111
+S
+#26113
+In the market district~
+You are getting closer to the plantation house of Lousi. But you are
+still in the market distict. There are closed up shops north and
+south from here. To the west you see a small collection of houses, about
+20 or so.
+~
+0 0 1
+D0
+~
+~
+0 0 26115
+D1
+~
+~
+0 0 26111
+D2
+~
+~
+0 0 26114
+D3
+~
+~
+0 0 26116
+S
+#26114
+In a closed shop~
+From the looks of this place you can tell it used to be a armor shop.
+It most of gone out of business because it had no custumers. You
+can see nothing of real value here, just pieces of metal, and leather.
+To you northeast you can go to the village square.
+~
+0 8 0
+D0
+~
+~
+0 0 26113
+S
+#26115
+In a closed shop~
+You in a closed shop. You see all sorts of blunt objects laying around.
+They once were probally sharp things, like swords. But now the shop is
+closed, maybe beacuse they did not get enough custumers...
+~
+0 8 0
+D2
+~
+~
+0 0 26113
+S
+#26116
+In the village of Lousi~
+You standing on the road that goes from the village square to the gates of
+the plantation. To the north and south is the road that the houses of 
+Lousi are off of. To the west is the plantation. And to the east is
+the village square.
+~
+0 4 1
+D0
+~
+~
+0 0 26117
+D1
+~
+~
+0 0 26113
+D2
+~
+~
+0 0 26118
+D3
+~
+~
+0 0 26129
+S
+#26117
+On the Road~
+You are on a road, houses are on both sides of the road.
+~
+0 4 1
+D0
+~
+~
+0 0 26125
+D2
+~
+~
+0 0 26116
+D3
+~
+~
+0 0 26124
+S
+#26118
+On the road~
+You are on a road, houses are on both sides of the road.
+~
+0 4 1
+D0
+~
+~
+0 0 26116
+D2
+~
+~
+0 0 26119
+D3
+~
+~
+0 0 26120
+S
+#26119
+On the road~
+You are on a road, houses are on both sides of the road.
+~
+0 4 1
+D0
+~
+~
+0 0 26118
+D1
+~
+~
+0 0 26123
+D2
+~
+~
+0 0 26121
+D3
+~
+~
+0 0 26122
+S
+#26120
+In a house~
+You are in a house of a citizen of Lousi. They keep their doors open
+because they don't think anyone in their village would steal.
+~
+0 8 0
+D1
+~
+~
+0 0 26118
+S
+#26121
+In a house~
+You are in a house of a citizen of Lousi. They keep their doors open 
+because they don't believe that anyone in their village would steal.
+~
+0 8 0
+D0
+~
+~
+0 0 26119
+S
+#26122
+In a house~
+You are in a house of a citizen of Lousi. They keep their doors open
+beacause they don't think anyone in their village would steal.
+~
+0 8 0
+D1
+~
+~
+0 0 26119
+S
+#26123
+In a house~
+You are in a house of a citizen of Lousi. They keep their doors open
+beacuse they don't believe anyone in their village would steal.
+~
+0 8 0
+D3
+~
+~
+0 0 26119
+S
+#26124
+In a house~
+You are in a house of a citizen of Lousi. They keep their doors open
+beacuse they don't believe that anyone in their village would steal.
+~
+0 8 0
+D1
+~
+~
+0 0 26117
+S
+#26125
+On the Road~
+You are on a road, houses are on both sides of the road.
+~
+0 4 1
+D0
+~
+~
+0 0 26128
+D1
+~
+~
+0 0 26127
+D2
+~
+~
+0 0 26117
+D3
+~
+~
+0 0 26126
+S
+#26126
+In a house~
+You are in a house of a citizen of Lousi. They keep their door open
+because they don't believe anyone in their village would steal.
+~
+0 8 0
+D1
+~
+~
+0 0 26125
+S
+#26127
+In a House~
+You are in a house of a citizen of Lousi. They keep their doors open
+because they don't believe anyone in their village would steal.
+~
+0 8 0
+D3
+~
+~
+0 0 26125
+S
+#26128
+In a house~
+You are in house of a citizen of Lousi. They keep their doors open
+because they don't believe anyone in their village would steal
+from them.
+~
+0 8 0
+D2
+~
+~
+0 0 26125
+S
+#26129
+The Entrance To Corgon's Plantation~
+You are at the entrance to Corgon's plantation. A giant metal gate blocks
+you passage to the plantation. No one is around to let you in. Through
+the gate you can see slave houses, the plantation house, the stables, and
+the fields and fields of sugar cane.
+~
+0 4 2
+D1
+~
+~
+0 0 26116
+S
+#26135
+Burgain's Personal Room~
+You are in Southland somewhere. This is Burgain's house. If you are here
+he will get angry...
+There is a TV here, with cable, a couch, an endless bag of chips, some
+of his eq, some of his mobs, and some of his trash. There are no exits.
+For he is the only one that needs to leave...
+~
+0 8220 0
+S
+#26138
+A field~
+You are standing in a field. You are not in the hill country of 
+Southland any longer. To the east are some small remains of the 
+hills. In the distance towards the west, is a river. To the north
+lies an entrance to some caves.
+~
+0 4 2
+D0
+~
+~
+0 0 26139
+D1
+~
+~
+0 0 26105
+D3
+~
+~
+0 0 26142
+S
+#26139
+Just inside the caves~
+You stand just inside the entrance to the caves. Its is very dark, 
+more dark then it should be. To the south you see light, and
+what appears to be a field. To the north you can travel farther into 
+the caves.
+~
+0 1 0
+D0
+~
+~
+0 0 26140
+D2
+~
+~
+0 0 26138
+S
+#26140
+Deep inside the caves~
+You can hardly see, you can not make out anything.  
+To the west you can hear noises. To the south, a small
+light is visable.
+~
+0 5 0
+D2
+~
+~
+0 0 26139
+D3
+~
+~
+0 0 26141
+S
+#26141
+The Beast's Lair~
+As you enter you notice that the only thing making this part
+of the cave visable is a fire. Hunched over the fire is some strange
+beast munching on something. The beast notices you entrance and quickly
+attacks with a roar.
+~
+0 0 0
+D1
+~
+~
+0 0 26140
+S
+#26142
+Waterly Field~
+You enter a waterly field. Your feet get wet walking through, no 
+matter what you do. You see a flowerly field to the east. And a
+river to the west. There appears to be some trees to the southwest of
+you. And a swampland to the northwest.
+~
+0 4 2
+D1
+~
+~
+0 0 26138
+D3
+~
+~
+0 0 26143
+S
+#26143
+On the East bank of the river Missichipi~
+You look to the west, you see the mighty river Missichipi.
+You have heard about it before, some say you can't see accross it.  
+Others think it is not a river, but a giant Ocean. But all you see
+is a small stream, and mostly dried up at that. You can go accross the
+Missichipi to your west. Or go to a field to your east.
+~
+0 4 2
+D1
+~
+~
+0 0 26142
+D3
+~
+~
+0 0 26144
+S
+#26144
+On the West Bank of the Missichipi~
+You are standing on the muddy west bank of the dried river Missichipi.
+Every where you look you see mud. Your boots quickly fill with mud.
+To the east you see the Missichipi. To the west, more mud. And to
+the south you see the mud start turning into a forest.
+~
+0 4 2
+D1
+~
+~
+0 0 26143
+D2
+~
+~
+0 0 26145
+D3
+~
+~
+0 0 26171
+S
+#26145
+At the edge of a forest~
+You are on the edge of a forest. You can see animals staring at you
+through the trees. To the north you can see the muddy west banks of 
+the river Missichipi. To the west is the entrance to the forest.
+~
+0 4 3
+D0
+~
+~
+0 0 26144
+D3
+~
+~
+0 0 26146
+S
+#26146
+Th entrance to the forest~
+You enter the woods of Southland. Animals look at you from all around.
+They don't look cute and stuff-animal-like. These deer and bears
+look like they would tear you limb from limb.
+~
+0 0 3
+D1
+~
+~
+0 0 26145
+D2
+~
+~
+0 0 26153
+D3
+~
+~
+0 0 26147
+S
+#26147
+In the forest~
+You are farther into the woods. Animals stare at you, and wish they
+could take a big chomp out of you. There are mainly deer here,
+but you can hear bears from the south. To the east, west, and south
+is more forest.
+~
+0 0 3
+D1
+~
+~
+0 0 26146
+D2
+~
+~
+0 0 26152
+D3
+~
+~
+0 0 26148
+S
+#26148
+In the forest~
+You are now standing in what appears to be more of this forest. Tall
+trees loom over you, and animals stare at you. It seems to peaceful
+for your liking..
+To the west, east, and south there is more woods.
+~
+0 0 3
+D1
+~
+~
+0 0 26147
+D2
+~
+~
+0 0 26151
+D3
+~
+~
+0 0 26149
+S
+#26149
+In the forest~
+You are now in the corner of this forest. For to the west and north
+giant cliffs of rock block your way. Animals stare at you  from the 
+cover of the trees to the south and east.
+~
+0 2097152 3
+D1
+~
+~
+0 0 26148
+D2
+~
+~
+0 0 26150
+S
+#26150
+In the forest~
+You walk through more of this peaceful forest. Animals stare at you from
+a safe distance. Just think if you fell, they would be on you in a second.
+They look peaceful, but you know what they are thinking.  
+To the west is a rock cliff, and to the north, east, and south is more
+of this forest.
+~
+0 2097152 3
+D0
+~
+~
+0 0 26149
+D1
+~
+~
+0 0 26151
+D2
+~
+~
+0 0 26157
+S
+#26151
+In the forest~
+You are now in what appears to be the center of this forest of trees.
+The animals are every where, eyeing your every move. In all directions
+the forest contiues. A small stream bubbles towards the Missichipi, to
+the northeast.
+~
+0 2097152 3
+D0
+~
+~
+0 0 26148
+D1
+~
+~
+0 0 26152
+D2
+~
+~
+0 0 26156
+D3
+~
+~
+0 0 26150
+S
+#26152
+In the forest~
+You are near a stream which goes through the forest, to the
+Missichipi. It travels across the forest, from the southwest corner, 
+to the Missichipi, in the northeast corner. The animals still stare at 
+you, from behind the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 26147
+D1
+~
+~
+0 0 26153
+D2
+~
+~
+0 0 26155
+D3
+~
+~
+0 0 26151
+S
+#26153
+In the forest~
+You walk quickly through this part of the Southland woods, for the 
+animals here seem to be more aggressive. For when you slipped on a rock
+some deer darted out and pecked at you. You better not go to sleep...
+~
+0 0 3
+D0
+~
+~
+0 0 26146
+D2
+~
+~
+0 0 26154
+D3
+~
+~
+0 0 26152
+S
+#26154
+In the forest~
+You enter more of the woods. You see some bears around, and even more
+to the south. The deer lessen out, and you are glad for that. The bears
+growl at you, but don't act suspicious. To the south is bear country, 
+and to the north and west, deer watch you.
+~
+0 0 3
+D0
+~
+~
+0 0 26153
+D2
+~
+~
+0 0 26158
+D3
+~
+~
+0 0 26155
+S
+#26155
+In the forest~
+The animals in this part of the woods seem to be more friendly,
+then the northern animals. The ground turns almost into a complete
+drop off to the south. And to the north, west, and east is more forest.
+~
+0 0 3
+D0
+~
+~
+0 0 26152
+D1
+~
+~
+0 0 26154
+D2
+~
+~
+0 0 26159
+D3
+~
+~
+0 0 26156
+S
+#26156
+In the forest~
+You are now at the top of a cliff. You are still in the forest, but
+the forest suddenly ends. As you look over the cliff, you see bear
+country. The trees are the same, but there are no deer, just bears.
+To the west, north, and east is more forest.
+~
+0 0 3
+D0
+~
+~
+0 0 26151
+D1
+~
+~
+0 0 26155
+D3
+~
+~
+0 0 26157
+S
+#26157
+In the forest~
+You are now at the top of a cliff. You are still in the forest, but
+the forest suddenly ends. As you look over the cliff, you see bear
+country. The trees are the same, but there are no deer, just bears.  
+To the north and west is more of this forest.
+~
+0 2097152 3
+D0
+~
+~
+0 0 26150
+D1
+~
+~
+0 0 26156
+S
+#26158
+In the forest~
+You enter the southeast corner of the Southland forest. Bears roam 
+here, for it is bear country. To the north and west you can venture
+to more of this forest.
+~
+0 0 3
+D0
+~
+~
+0 0 26154
+D3
+~
+~
+0 0 26159
+S
+#26159
+In the forest~
+You are in more of the forest. Bears and deer roam here.
+The deer here watch your ever move. All the bear do is growl. To the
+north is the deer part of the forest. And to the west, south, and east
+there is bear country.
+~
+0 0 3
+D0
+~
+~
+0 0 26155
+D1
+~
+~
+0 0 26158
+D2
+~
+~
+0 0 26170
+D3
+~
+~
+0 0 26160
+S
+#26160
+In the forest~
+You are standing in more of this forest. You see a giant cliff to the
+north, and a small clearing to the west. To the south and east is more
+bear country.
+~
+0 0 3
+D1
+~
+~
+0 0 26159
+D2
+~
+~
+0 0 26169
+D3
+~
+~
+0 0 26161
+S
+#26161
+In a clearing~
+You stand in a small clearing. You can spot animals in the trees all 
+around you. Bears, deer, and the like. You see a small hut to the
+west. The hut most have a fire in it, because you see smoke coming
+out of a holde in the top. To the south and east is more forest.
+~
+0 0 3
+D1
+~
+~
+0 0 26160
+D2
+~
+~
+0 0 26168
+D3
+~
+~
+0 0 26162
+S
+#26162
+Outside the hut~
+You are outside the a hut. Smoke rises out of a hole on the top of the 
+hut. Strange smells are in the air, of spices, and decay. The hut
+is made out of wood from the forest. You notice that there is no 
+door, but a doorway. To your west is inside the hut, and to your east
+is a small clearing.
+~
+0 4 3
+D1
+~
+~
+0 0 26161
+D3
+~
+~
+0 0 26163
+S
+#26163
+In the hut~
+You are just inside the hut. It appears to be deserted, but then you hear
+chanting coming from the west. Only smoke is visible to the west. So if
+you wanted to find out what is there you would have to go there...
+To the east is the entrance to the hut. To the north is more hut.
+~
+0 8 0
+D0
+~
+~
+0 0 26166
+D1
+~
+~
+0 0 26162
+D3
+~
+~
+0 0 26164
+S
+#26164
+In the witch doctor's lair~
+A witch doctor is visible here, chanting. He most be the owner of
+this hut. He is waving around dolls, and throughing spices every where
+when doing his chanting. He seems not to notice you. Exits are to the
+north and east, to more of this hut.
+~
+0 8 0
+D0
+~
+~
+0 0 26165
+D1
+~
+~
+0 0 26163
+S
+#26165
+Inside the hut~
+You are in the northeast section of the hut. All around on the walls
+spices, dolls, and herbs hang. You wonder what could live here.
+To the south you here chanting, and to the east is more hut.
+~
+0 8 0
+D1
+~
+~
+0 0 26166
+D2
+~
+~
+0 0 26164
+S
+#26166
+In the hut~
+You are in the hut. You see spices, and herbs hanging on the walls.
+The ground is made of dirt, no carpets here. To the south, west,
+and east is more of this hut.
+~
+0 8 0
+D1
+~
+~
+0 0 26167
+D2
+~
+~
+0 0 26163
+D3
+~
+~
+0 0 26165
+S
+#26167
+In the hut~
+You are standing in the hut. You see dolls, and spices hanging on the
+walls. There is a giant pot on the ground here, used for who knows what.
+To your east is more hut.
+~
+0 8 0
+D3
+~
+~
+0 0 26166
+S
+#26168
+In the forest~
+You walk through more of the Southland woods. Bear are all around, and 
+some of the deer from te north part of the forest have come down here.
+To the north and east you see more forest.
+~
+0 0 3
+D0
+~
+~
+0 0 26161
+D1
+~
+~
+0 0 26169
+S
+#26169
+In the forest~
+You enter more of bear country. Some of the deer have come here from
+the north part of the woods, put mostly bears roam these parts.
+To the north, west, and east is more woods.
+~
+0 0 3
+D0
+~
+~
+0 0 26160
+D1
+~
+~
+0 0 26170
+D3
+~
+~
+0 0 26168
+S
+#26170
+In the forest~
+~
+0 0 3
+D0
+~
+~
+0 0 26159
+D3
+~
+~
+0 0 26169
+S
+#26171
+Close to the Swamp~
+You are covered in mud by this point. There was no way you could have 
+kept clean. The mud gets deeper and more waterly as you walk west.  
+To the north is the muddy swamp. To the east you see the banks of the 
+river Missichipi.
+~
+0 4 2
+D0
+~
+~
+0 0 26172
+D1
+~
+~
+0 0 26144
+S
+#26172
+On the edge of the swamp~
+You are now in the swamp. Whole trees are covered in mud, from the high 
+point of last year's flood. You almost have to swim to get any wher
+e. To the south you see less mud. To the north you can walk/swim deeper
+into the swamp, if you dare.
+~
+0 4 2
+D0
+~
+~
+0 0 26173
+D2
+~
+~
+0 0 26171
+S
+#26173
+In the Swamp~
+You are now up to your chin in mud. You move about a inch every minute.
+You see what you think are large fish swimming around you. But suddenly
+you notice that they are not fish! They are the scale people. They do
+not attack at first, so you decide it is safe...
+To the south is the entrance to this mudland, and to the west is more of
+the swamp.
+~
+0 0 2
+D2
+~
+~
+0 0 26172
+D3
+~
+~
+0 0 26174
+S
+#26174
+Deep in the Mud~
+Every few minutes you feel something brush by your leg. You are the only
+human with in miles of here. Just think if they started to dislike you.
+Most people would have been out of here by now, freaked out of their minds.
+To the west is more mud! To the east is more mud too. When will it end.
+~
+0 0 2
+D1
+~
+~
+0 0 26173
+D3
+~
+~
+0 0 26175
+S
+#26175
+Deep in the Swamp~
+It is dark in this part of the swamp. Scaleman crowd around you.
+You can not be told apart from the mud, beacuse you are so muddy.  
+The scaleman still do not take notice of you.
+~
+0 1 2
+D0
+~
+~
+0 0 26176
+D1
+~
+~
+0 0 26174
+D3
+~
+~
+0 0 26178
+S
+#26176
+In the Mud~
+You are covered in mud. Scaleman crowd around, hogging the dry places.
+It is dark here, and MUDDY. You have to push aganist the waves of mud.
+You can hardly move at all. You wonder why you are here. And how to get
+out.
+~
+0 1 2
+D2
+~
+~
+0 0 26175
+D3
+~
+~
+0 0 26177
+S
+#26177
+In the muck of the swamp~
+This just sucks. More and more mud where ever you look.
+It is starting to piss you off. And all those scalemen too.
+You are just pissed. You can take your anger out on those stupid
+scalepeople...
+~
+0 1 2
+D1
+~
+~
+0 0 26176
+D2
+~
+~
+0 0 26178
+D3
+~
+~
+0 0 26182
+S
+#26178
+Deep in the mud~
+You are in the mud, you can not see anything but mud. In fact you
+can hardly see anything at all. Scaleman still crowd around grunting,
+and hogging the dry places.
+~
+0 1 2
+D0
+~
+~
+0 0 26177
+D1
+~
+~
+0 0 26175
+D2
+~
+~
+0 0 26179
+D3
+~
+~
+0 0 26181
+S
+#26179
+In the Swamp~
+You are being pushed around by the scalemen. Not beacuse they dislike
+you, but because there are so many of them. You are starting to get pissed
+off. The scalemen hog all the dry land.  
+Mud, mud, every where you look.
+~
+0 1 2
+D0
+~
+~
+0 0 26178
+D1
+~
+~
+0 0 26190
+D3
+~
+~
+0 0 26180
+S
+#26180
+Deeper in the mud~
+The scalepeople keep on coming. They hog the dry land, and push you 
+around. It is almost to dark to see. But you see light coming
+from the northwest corner of the swamp.  
+In all directions you see swamp...
+~
+0 1 2
+D0
+~
+~
+0 0 26181
+D1
+~
+~
+0 0 26179
+D2
+~
+~
+0 0 26189
+D3
+~
+~
+0 0 26185
+S
+#26181
+In the swamp~
+You are really deep in the muck now. It is dark, but getting lighter.
+You see light coming from the west.The scalemen seem to not
+be as thick here. You can manage to climb up on some less muddy
+land and dry your self off.
+Every direction you look you see mud, and more mud.
+~
+0 1 2
+D0
+~
+~
+0 0 26182
+D1
+~
+~
+0 0 26178
+D2
+~
+~
+0 0 26180
+D3
+~
+~
+0 0 26184
+S
+#26182
+~
+~
+0 0 0
+D1
+~
+~
+0 0 26177
+D2
+~
+~
+0 0 26181
+D3
+~
+~
+0 0 26183
+S
+#26183
+Deep in the swamp~
+You are now deep in the swamp. It is dark here, but you see light
+to the northwest. You are getting cold from the mud. The scalemen
+push aganist you, and hog the dry places. You are starting to get pissed
+off. You can take your anger out on the scalemen...
+~
+0 1 2
+D1
+~
+~
+0 0 26182
+D2
+~
+~
+0 0 26184
+S
+#26184
+In the muck of the swamp~
+This is really starting to piss you off.
+Your temper boils as the scalemen push you out of their way.
+They hog the dry spots too. And dunk you under the mud
+as you try to push them off the dry places.
+~
+0 0 0
+D0
+~
+~
+0 0 26183
+D1
+~
+~
+0 0 26181
+D2
+~
+~
+0 0 26185
+D3
+~
+~
+0 0 26191
+S
+#26185
+In the swamp~
+You are being pushed around by the scalemen.
+They hog the cry places, and fight with each other.
+You are starting to get pissed off. It is dark here, but
+to the northwest you see light.
+Every where you look, mud.
+~
+0 1 2
+D0
+~
+~
+0 0 26184
+D1
+~
+~
+0 0 26180
+D2
+~
+~
+0 0 26188
+D3
+~
+~
+0 0 26186
+S
+#26186
+Deep in the Mud~
+You get pulled under by the mud. You are under for about 30 seconds 
+before you can surface. You are scared by that near death experience.
+The scalemen around you take no notice, for they are to busy fighting
+for the dry places.
+All around you, you see scalemen, and mud.
+~
+0 0 0
+D1
+~
+~
+0 0 26185
+D2
+~
+~
+0 0 26187
+S
+#26187
+Deep in the swamp~
+You getting pissed off. The scalemen hog the dry places and push you
+around. You can take your anger out on them...
+It is very dark and cold here, but you can see light coming from the 
+northwest.
+~
+0 0 0
+D0
+~
+~
+0 0 26186
+D1
+~
+~
+0 0 26188
+S
+#26188
+~
+~
+0 0 0
+D0
+~
+~
+0 0 26185
+D1
+~
+~
+0 0 26189
+D3
+~
+~
+0 0 26187
+S
+#26189
+In the swamp~
+You enter more mud. The scalemen here push you around, and hog the 
+dry places. It is dark here, but you see light coming from the northwest.
+You are getting cold from the wet mud.
+~
+0 0 2
+D0
+~
+~
+0 0 26180
+D3
+~
+~
+0 0 26188
+S
+#26190
+~
+The scalemen just never stop coming...
+~
+0 1 2
+D3
+~
+~
+0 0 26179
+S
+#26191
+Close to the Caves~
+You are on soft ground now, not as muddy as the swamp, but not as hard
+as to the west. You see light coming from the west. You look over
+to try to pinpoint the light, and you see it is coming from some
+caves to the west. No scalmen roam here, but you see hundreds of them
+in the swamp to the east.
+~
+0 4 2
+D1
+~
+~
+0 0 26184
+D3
+~
+~
+0 0 26192
+S
+#26192
+Outside the caves~
+You are outside the entrance to the caves. Light comes from inside
+them. No scalemen are here, for it is hard ground here. Grass grows 
+here! Rocks are spread all around. The light seems to be from a fire
+and not a big fire. To the west is the caves, and to your east is the
+swamp with hundreds of scalepeople.
+~
+0 4 2
+D1
+~
+~
+0 0 26191
+D3
+~
+~
+0 0 26193
+S
+#26193
+Inside the cave~
+You are inside the cave. Light comes from the northpart of the cave.
+You see cave paintings on the cave walls. The paintings depict scalemen
+coming into the caves, and being slaughtered by some thing foul.
+To the east is the swamp, and to go farther into the
+caves you can go north or south.
+~
+0 4 0
+D0
+~
+~
+0 0 26194
+D1
+~
+~
+0 0 26192
+D2
+~
+~
+0 0 26198
+S
+#26194
+The Old hermit's fire~
+You have disturbed an old hermit! He has you to thank for breaking his
+concentration. He his very angry at you now, he smiles at you, then
+he screams and attacks. 
+~
+0 0 0
+D2
+~
+~
+0 0 26193
+D3
+~
+~
+0 0 26195
+S
+#26195
+Something's Lair~
+You enter the lair of something. But whatever it was, was slain when 
+the hermit came to the caves. It most have been the thing that slaughtered
+the scalepeople. You see a small ape here, roaring like it is mad.
+You wonder what an ape is doing here...
+~
+0 0 0
+D1
+~
+~
+0 0 26194
+D2
+~
+~
+0 0 26196
+S
+#26196
+Close to the awful smell~
+You are close to a awful decaying smell. You can hardly bear it.
+You also hear roaring coming from the north. And see light coming
+from the northeast part of the caves. To the west is where the  smell
+most come from.
+~
+0 4 0
+D0
+~
+~
+0 0 26195
+D2
+~
+~
+0 0 26197
+D3
+~
+~
+0 0 26199
+S
+#26197
+In the cave~
+You in the caves near the swampland of Southland. A smell of decaying
+fills the air here. It is dark here, but light comes from the north east
+corner of the caves. You can travel north, closer to the decaying smell.
+Or east, back out of the caves.
+~
+0 1 0
+D0
+~
+~
+0 0 26196
+D1
+~
+~
+0 0 26198
+S
+#26198
+Inside the Cave~
+You are inside a cave. Light comes from the north. You see cave 
+paintings on the walls of the cave. You can go north towards the light
+or west to more cave. You hear a roar coming from the northwest. 
+You wonder what it could be.
+~
+0 4 0
+D0
+~
+~
+0 0 26193
+D3
+~
+~
+0 0 26197
+S
+#26199
+The Old Scalemen's Lair~
+You look upon the remains of thousands of scalemen. Your hatred for
+them lessens as you look upon this graveyard. Most people would feel
+sick looking at the remains. Some of them look like they are still
+alive. Then you notice they are! So this is why there are no old
+ones in the swamp. When they get old, they are put in here...
+~
+0 1 0
+D1
+~
+~
+0 0 26196
+S
+#0
+
+
+
+#RESETS
+M 0 26150 1 26104
+M 0 26104 1 26104
+M 0 26108 1 26107
+E 0 16350 0 16
+E 0 16353 0 5
+E 0 16357 0 7
+M 0 26135 1 26109
+E 0 16350 0 16
+E 0 16353 0 5
+E 0 16357 0 7
+M 0 26106 1 26110
+M 0 26105 2 26110
+M 0 26103 1 26110
+M 0 26112 1 26110
+M 0 26109 1 26110
+M 0 26107 1 26110
+M 0 26111 1 26110
+M 0 26110 1 26110
+O 0 26139 0 26112
+O 0 26140 0 26114
+O 0 26114 0 26114
+O 0 26115 0 26115
+M 0 26121 8 26120
+M 0 26128 8 26120
+M 0 26121 8 26121
+M 0 26128 8 26121
+M 0 26121 8 26122
+M 0 26128 8 26122
+M 0 26121 8 26123
+M 0 26128 8 26123
+M 0 26121 8 26124
+M 0 26128 8 26124
+M 0 26121 8 26126
+M 0 26128 8 26126
+M 0 26121 8 26127
+M 0 26128 8 26127
+M 0 26121 8 26128
+M 0 26128 8 26128
+M 0 26141 1 26141
+M 0 26146 20 26146
+M 0 26146 20 26147
+M 0 26146 20 26148
+M 0 26146 20 26149
+M 0 26146 20 26150
+M 0 26146 20 26151
+M 0 26146 20 26152
+M 0 26146 20 26153
+M 0 26146 20 26154
+M 0 26146 20 26155
+M 0 26146 20 26156
+M 0 26146 20 26157
+M 0 26158 20 26158
+M 0 26158 20 26159
+M 0 26158 20 26160
+M 0 26158 20 26161
+M 0 26164 1 26164
+E 0 20920 0 17
+E 0 16067 0 6
+E 0 26163 0 5
+M 0 26158 20 26168
+M 0 26158 20 26169
+M 0 26158 20 26170
+M 0 26173 40 26173
+M 0 26173 40 26174
+M 0 26173 40 26175
+M 0 26173 40 26176
+M 0 26173 1 26177
+M 0 26173 40 26178
+M 0 26173 40 26179
+M 0 26173 40 26180
+M 0 26173 40 26181
+M 0 26173 40 26182
+M 0 26173 40 26183
+M 0 26173 40 26184
+M 0 26173 40 26185
+M 0 26173 40 26186
+M 0 26173 40 26187
+M 0 26173 40 26188
+M 0 26173 40 26189
+M 0 26173 40 26190
+M 0 26194 1 26194
+E 0 26194 0 6
+M 0 26195 1 26195
+M 0 26199 4 26199
+S
+
+
+
+#PROGS
+S
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -346,9 +346,9 @@ unknown~
 B AC BC ABD 0
 27 8 270 P
 A
-2 1
-A
 19 2
+A
+2 1
 #2203
 bracelet dragon~
 a dragon skin bracelet~
@@ -430,9 +430,9 @@ unknown~
 AB AB AB 0 0
 0 6 0 P
 A
-18 3
-A
 19 3
+A
+18 3
 #2230
 ring copper~
 a copper ring~
@@ -574,9 +574,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-19 2
-A
 1 1
+A
+19 2
 #2260
 scimitar golden~
 a golden scimitar~
@@ -586,9 +586,9 @@ unknown~
 A AC AC AB 0
 19 10 190 P
 A
-3 1
-A
 4 1
+A
+3 1
 #2261
 brooch diamond~
 a diamond brooch~
@@ -636,9 +636,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-1 1
-A
 13 10
+A
+1 1
 #2280
 leggings dragon scale~
 a pair of dragon scale leggings~
@@ -664,9 +664,9 @@ unknown~
 ABC AC AD C 0
 40 14 400 P
 A
-18 2
-A
 19 2
+A
+18 2
 #2286
 hammer copper~
 a copper hammer~
@@ -755,12 +755,12 @@ You trudge down the hallway. You notice doors to the east and west.
 ~
 0 8 0
 E
-sign~
-The sign says "NURSERY" in bold letters.     
-~
-E
 inscription~
 It says "STORAGE"
+~
+E
+sign~
+The sign says "NURSERY" in bold letters.     
 ~
 D0
 The hall continues. 
@@ -1374,17 +1374,17 @@ path leads up the mountain. The small opening is back to the north.
 ~
 0 0 2
 E
-well~
-You peer over the side of the well. It looks VERY, VERY deep. It appears
-to be ENDLESS.
-~
-E
 sign~
 The sign reads:
          This is a bottomless pit cleverly disguised as a well. People have
 fallen in and never been heard from again. Trust me, you don't want to go 
 down there.
                         The All Powerful Well Keeper
+~
+E
+well~
+You peer over the side of the well. It looks VERY, VERY deep. It appears
+to be ENDLESS.
 ~
 D0
 the small opening
@@ -1532,7 +1532,7 @@ M 0 2200 0 2205 Load the dragon hatchling
 M 0 2200 0 2205 Load the dragon hatchling
 M 0 2200 0 2206 Load the dragon hatchling
 M 0 2200 0 2207 Load the dragon hatchling
-M 0 2227 2 2207 Load A human slave
+M 0 2227 2 2207 Load a human slave
 M 0 2226 0 2208 Load a large hydra
 G 0 2234 0 A grey key is given to a large hydra
 G 0 2243 0 A golden wand is given to a large hydra
@@ -1540,12 +1540,12 @@ G 0 2223 0 A stone club is given to a large hydra
 E 0 2244 0 17 A silver staff is loaded held in the hands of a large hydra
 M 0 2201 0 2210 Load the Draconian
 E 0 2200 0 16 A jagged spear is loaded wielded of the Draconian
-M 0 2207 13 2210 Load A bodyguard
-E 0 2286 0 16 A copper hammer is loaded wielded of A bodyguard
-M 0 2207 0 2211 Load A bodyguard
-E 0 2286 0 16 A copper hammer is loaded wielded of A bodyguard
-M 0 2207 0 2211 Load A bodyguard
-E 0 2260 0 16 A golden scimitar is loaded wielded of A bodyguard
+M 0 2207 13 2210 Load a bodyguard
+E 0 2286 0 16 A copper hammer is loaded wielded of a bodyguard
+M 0 2207 0 2211 Load a bodyguard
+E 0 2286 0 16 A copper hammer is loaded wielded of a bodyguard
+M 0 2207 0 2211 Load a bodyguard
+E 0 2260 0 16 A golden scimitar is loaded wielded of a bodyguard
 M 0 2206 2 2212 Load a concubine
 E 0 2201 0 16 A silver dagger is loaded wielded of a concubine
 M 0 2206 0 2212 Load a concubine
@@ -1559,7 +1559,7 @@ E 0 2201 0 16 A silver dagger is loaded wielded of a concubine
 M 0 2242 2 2214 Load the draconian fool
 M 0 2204 0 2214 Load the holy Draconian
 E 0 2220 0 3 A holy symbol is loaded around the neck (1) of the holy Draconian
-E 0 2211 0 14 A platinum bracelet. is loaded on the left wrist of the holy Draconian
+E 0 2211 0 14 A platinum bracelet is loaded on the left wrist of the holy Draconian
 E 0 2210 0 13 A white silk belt is loaded around the waist of the holy Draconian
 G 0 2270 0 A runed scroll is given to the holy Draconian
 G 0 2252 0 A magenta potion is given to the holy Draconian
@@ -1574,17 +1574,17 @@ E 0 2276 0 12 A fur cloak is loaded about the shoulders of the Draconian King
 E 0 2242 0 11 A crested shield is loaded as a shield of the Draconian King
 E 0 2254 0 9 A pair of spiked gauntlets is loaded on the hands of the Draconian King
 G 0 2232 0 A ruby key is given to the Draconian King
-M 0 2207 0 2216 Load A bodyguard
-M 0 2207 0 2216 Load A bodyguard
-M 0 2207 0 2216 Load A bodyguard
+M 0 2207 0 2216 Load a bodyguard
+M 0 2207 0 2216 Load a bodyguard
+M 0 2207 0 2216 Load a bodyguard
 M 0 2242 2 2216 Load the draconian fool
 M 0 2242 0 2216 Load the draconian fool
 M 0 2243 0 2217 Load the Draconian Queen
 E 0 2203 0 14 A dragon skin bracelet is loaded on the left wrist of the Draconian Queen
 E 0 2204 0 13 A black silk belt is loaded around the waist of the Draconian Queen
 E 0 2201 0 16 A silver dagger is loaded wielded of the Draconian Queen
-M 0 2227 2 2217 Load A human slave
-M 0 2227 0 2217 Load A human slave
+M 0 2227 2 2217 Load a human slave
+M 0 2227 0 2217 Load a human slave
 M 0 2241 5 2217 Load the phase dragon
 M 0 2240 0 2218 Load a Draconian zombie
 M 0 2240 0 2218 Load a Draconian zombie
@@ -1628,7 +1628,7 @@ M 2222 2 Acid Breath Load to: the Great Black Dragon
 M 2223 4 Frost Breath Load to: the Great White Dragon
 M 2225 5 Gas Breath Load to: the Ancient Green Dragon
 M 2226 1 Poison Bite Load to: a large hydra
-M 2227 21 Thief Load to: A human slave
+M 2227 21 Thief Load to: a human slave
 M 2240 14 Undead Mage Load to: a Draconian zombie
 M 2241 5 Gas Breath Load to: the phase dragon
 M 2242 21 Thief Load to: the draconian fool

@@ -1,0 +1,1559 @@
+#AREADATA
+Name        {13 85} Outkast Evil Lands~
+Builders    None~
+VNUMs       21000 21099
+Security    6
+End
+
+
+
+#MOBILES
+#21000
+Guardian of DaRkNeSs~
+a Guardian of DaRkNeSs~
+A Guardian of DaRkNeSs is standing here guarding the lands.
+~
+He is a very mean and stubborn guard. He tries to cause trouble in any
+way he can. He stands about 7 feet tall and is built like a tank.  
+~
+Human~
+ABT U -10 S
+15 9 
+100 0 0 0 19d20+20 1d1+1 3d3+4 18
+-1 -1 -1 -1
+FIK BE 0 0
+8 8 1 50
+AHMV ABCDEFGHIJK L 0
+#21003
+guardian thunder ~
+a Guardian of Thunder~
+A Guardian is here, protecting his Master.
+~
+(null)~
+Human~
+AB E 0 S
+20 14 
+100 0 0 0 17d18+18 0d0+0 6d6+6 16
+0 0 0 0
+EFI J H 0
+8 8 0 30
+AHMV ABCDEFGHIJK M 0
+#21004
+evil god thunder~
+the Evil God of Thunder~
+The God of Thunder is here, waiting to kill you.
+~
+(null)~
+Human~
+ABR H 1 S
+70 36 
+100 0 0 0 69d69+69 10d10+10 10d10+10 20
+-5 -5 -5 -4
+DEFKN H B 0
+8 8 1 150
+AHMV ABCDEFGHIJK G 0
+#21005
+lord shadow~
+the Lord of the Shadows~
+The Lord of the Shadows is here sitting in his Throne.
+~
+(null)~
+goblin~
+AB HJ 5000 S
+81 55 
+100 0 0 0 60d70+80 10d10+10 10d11+12 2
+-25 -25 -25 -20
+DFIK EH Q C
+6 6 1 265
+AHMV ABCDEFGHIJK M 0
+#21006
+god lightning~
+the God of Lightning~
+The God of Lightning is here practicing his magical powers.
+~
+(null)~
+Human~
+ABd H 5000 S
+69 45 
+100 0 0 0 51d52+52 10d10+10 10d10+10 28
+-10 -10 -10 -10
+DEFK J H 0
+8 8 0 52
+AHMV ABCDEFGHIJK G 0
+#21007
+lightning bolt~
+`YA Lightning Bolt`w~
+A Lightning Bolt is here ready to strike!
+~
+(null)~
+unique~
+AB T 0 S
+13 8 
+100 0 0 0 13d14+14 2d2+2 1d3+4 15
+0 0 0 0
+DHIM JKL BQ HN
+8 8 0 0
+HJMQXc ABCDEFKLMQUVX M 0
+#21008
+shadowy figure~
+a Shadowy Figure~
+A Shadowy Figure is hiding here.
+~
+(null)~
+unique~
+AB JPUZ 0 S
+16 16 
+100 0 0 0 15d16+18 1d2+3 3d4+5 16
+1 1 1 -1
+EFHIKMN BHIJKL BQ CHNS
+8 8 0 149
+ACHJLMQVXc ABCDEFGHIJKLMQUVX M 0
+#21009
+shadow wizard healer ~
+Shadow Wizard~
+The Shadow Wizard is here willing to help you.
+~
+He is a slave of the Gods and can't escape from there powers. He was
+once a respected wizard, but now a personal slave. He will try to help you
+in any way he can.  
+~
+Human~
+ABad H 0 S
+80 100 
+100 0 0 0 60d60+60 50d50+50 90d90+90 29
+-100 -100 -100 -100
+DFIK HJK D 0
+8 8 1 832485
+AHMV ABCDEFGHIJK G 0
+#21010
+dr. death~
+Dr. Death~
+The vicious man named "Dr. Death" is standing here.
+~
+(null)~
+Human~
+ABR H 100 S
+25 10 
+100 0 0 0 21d23+23 0d0+0 2d5+6 27
+-5 -5 -5 -3
+EIK 0 0 0
+8 8 1 347
+AHMV ABCDEFGHIJK H 0
+#21011
+Dragon~
+a two-headed Dragon~
+A Two-Headed Dragon is here waiting for its prey.
+~
+(null)~
+unique~
+AB FJTU 500 S
+22 14 
+100 0 0 0 23d23+27 4d4+4 4d6+7 5
+-1 -3 -3 -3
+M H O I
+8 8 0 99
+HXZ ACDEFHJKQUVX M 0
+#21012
+slave~
+a slave~
+A poor slave is here being overworked.
+~
+(null)~
+goblin~
+AB JX 45 S
+13 9 
+100 0 0 0 10d11+11 1d1+1 4d4+6 10
+-1 1 -1 1
+EFI I Q C
+8 8 0 30
+AHMV ABCDEFGHIJK M 0
+#21013
+huge vampire~
+a huge Vampire~
+A huge Vampire appears from his Coffin.
+~
+(null)~
+goblin~
+ABQ JU 40 S
+30 19 
+100 0 0 0 28d28+28 20d20+20 5d7+7 0
+0 0 0 0
+DEFIK IJ Q C
+8 8 0 400
+AHMV ABCDEFGHIJK M 0
+#21014
+ghost darkness~
+the Ghost of DaRkNeSs~
+The Ghost of DaRkNeSs is floating around here.
+~
+(null)~
+goblin~
+AB BHJT 1 S
+30 16 
+100 0 0 0 28d29+30 8d8+89 8d8+10 18
+-5 -5 -5 -9
+0 0 Q C
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#21015
+guardian realm~
+a Guardian of the Realm~
+A Guardian of the Realm is here guarding his life away.
+~
+(null)~
+Human~
+AB H 795 S
+20 14 
+100 0 0 0 20d22+22 4d4+4 8d9+9 7
+-8 -8 -8 -16
+FIKT I 0 J
+8 8 1 375
+AHMV ABCDEFGHIJK L 0
+#21016
+guildmaster realm~
+the guildmaster~
+Your Guildmaster is standing here.
+~
+(null)~
+Human~
+ABJKb 0 60 S
+92 100 
+100 0 0 0 40d40+45 5d5+5 50d50+50 3
+-100 -100 -100 -100
+EFIKN DHIJ S 0
+8 8 1 90000
+AHMV ABCDEFGHIJK H 0
+#21019
+grim reaper dead~
+the Grim Reaper~
+The Grim Reaper is here waiting to kill you.
+~
+(null)~
+goblin~
+ABOR DHJ 543 S
+75 60 
+100 0 0 0 66d66+66 10d10+10 8d9+10 20
+0 0 0 0
+EFIK 0 Q C
+8 8 0 0
+AHMV ABCDEFGHIJK G 0
+#21020
+Lost Soul~
+a lost Soul~
+A lost Soul wanders around here.
+~
+(null)~
+unique~
+AG JTU 67 S
+15 9 
+100 0 0 0 15d15+16 4d4+4 2d4+4 20
+-3 -3 -3 -3
+EHIMN KL BQ CHN
+8 8 0 0
+AHJMQVXc ABCDEFGHIJKLMQUVX M 0
+#21021
+cupid~
+Cupid~
+Cupid is floating around here with his bow of love in his hands.
+~
+(null)~
+Human~
+A HT 100 S
+19 10 
+100 0 0 0 17d19+19 0d0+0 3d4+5 0
+-1 -3 -7 -10
+DEFK HK S 0
+8 8 1 10
+AHMV ABCDEFGHIJK S 0
+#21022
+goddess love~
+the Goddess of Love~
+The Goddess of Love is standing here winking at you.
+~
+She is a very beautiful and sexy woman. She stands at about 6 feet tall
+and makes you believe in love at first sight!  
+~
+Human~
+AB H 100 S
+40 18 
+100 0 0 0 45d45+45 9d9+9 7d7+8 0
+0 0 0 0
+EIKN HS 0 0
+8 8 2 100
+AHMV ABCDEFGHIJK M 0
+#21023
+soultaker~
+the Soultaker~
+The Soultaker is here, waiting to take your Soul.
+~
+(null)~
+goblin~
+ABR HJ 500 S
+69 25 
+100 0 0 0 53d53+53 5d5+5 10d10+10 20
+-9 -9 -9 -9
+DFIKN HK Q C
+8 8 0 324
+AHMV ABCDEFGHIJK G 0
+#21026
+demon guard~
+a Demon Guard~
+A Demon Guard takes one look at you and ATTACKS!
+~
+(null)~
+goblin~
+ABF HJ -1000 S
+14 10 
+100 0 0 0 16d16+18 1d1+1 2d4+4 8
+0 0 0 0
+DEFIKN H Q C
+8 8 1 0
+AHMV ABCDEFGHIJK L 0
+#21027
+flame~
+a large flame~
+A large Flame is burning here.
+~
+(null)~
+goblin~
+ABS J -100 S
+12 5 
+100 0 0 0 15d16+17 10d10+10 2d3+3 6
+1 1 1 1
+FIK H Q C
+8 8 0 0
+AHMV ABCDEFGHIJK L 0
+#21029
+demon hellraiser~
+the HellRaiser~
+The Gigantic HellRaiser rises up from the Smoke!
+~
+(null)~
+goblin~
+ABT HJ -4536 S
+77 35 
+100 0 0 0 70d70+70 15d15+15 7d13+16 5
+-10 -10 -20 -50
+EFHIKN AEHQ Q C
+8 8 0 0
+AHMV ABCDEFGHIJK G 0
+#21030
+something~
+Something~
+Something `RATTACKS YOU!!`w
+~
+You can't see a thing!!  
+~
+goblin~
+ABF J -235 S
+59 37 
+100 0 0 0 50d55+56 10d10+10 7d8+9 18
+-5 -5 -5 -10
+DEFHIKN JK Q C
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#21033
+A Wandering Soul~
+a Wandering Soul~
+A lost Soul is wandering around here.
+~
+(null)~
+unique~
+A JU -34 S
+18 10 
+100 0 0 0 23d23+23 10d10+10 2d3+3 16
+-1 -1 0 -2
+EHIKMN JKL BQ CHN
+8 8 0 0
+AHJMQVXc ABCDEFGHIJKLMQUVX M 0
+#21034
+Pallbearer~
+a Pallbearer~
+A Pallbearer is here holding his urn.
+~
+(null)~
+Human~
+AO U -500 S
+27 15 
+100 0 0 0 25d26+27 4d4+4 2d4+5 9
+-1 -1 1 1
+FIKN AKLQ 0 0
+8 8 0 250
+AHMV ABCDEFGHIJK M 0
+#21035
+The Reaper of the Realm~
+the Reaper of the Realm~
+The Reaper of the Realm is here to decide your fate.
+~
+(null)~
+unique~
+ABOT H -3455 S
+100 200 
+100 0 0 0 200d200+200 20d20+20 60d60+60 20
+-500 -500 -500 -800
+DEFHIKMN ABDEFHIJKLOP BQ CHN
+8 8 0 0
+AHJMQVXc ABCDEFGHIJKLMQUVX G 0
+#21038
+evil skeleton~
+a Evil Skeleton~
+A Evil Skeleton is on the floor like a pile of bones.
+~
+(null)~
+school monster~
+ABOU Ua -10 S
+22 10 
+100 0 0 0 24d25+25 4d4+4 5d5+5 10
+-1 -1 -1 -1
+EIKN AB 0 C
+8 8 0 0
+AMV ABCDEFHJKQU M 0
+#21040
+Master of the Shadows~
+the Master of the Shadows~
+The Master of the Shadows is here selling some of his sweet stuff!
+~
+(null)~
+unique~
+ABd DFHJPZ 0 S
+95 1000 
+100 0 0 0 200d200+2002 100d100+100 200d200+200 18
+-40 -40 -40 -40
+DEFIK BI 0 S
+8 8 0 4345567
+CL ABCDEGHIJK M 0
+#0
+
+
+
+#OBJECTS
+#21000
+belt Darkness~
+the Belt of DaRkNeSs~
+A belt of pure evil lies here.~
+unknown~
+9 BIJ AL
+BD BD BD BD 0
+10 0 1500 P
+A
+4 1
+A
+19 2
+A
+18 2
+#21004
+Thunder staff~
+the Staff of Thunder~
+A very powerful staff lies here.~
+unknown~
+4 A AO
+ABF BD BD 23 0
+20 0 5000 P
+#21005
+throne lord shadow~
+the Lord's Throne~
+Lord Shadow's Golden Throne is here.~
+unknown~
+12 A 0
+0 0 0 0 0
+5 0 882384834 P
+#21006
+wand lightning rod~
+a Lightning Rod~
+A rod with electricity flaming off of it is here.~
+unknown~
+3 BI AO
+EG D D 30 0
+33 0 1000 P
+A
+1 1
+A
+4 1
+A
+2 1
+A
+19 2
+A
+18 4
+#21007
+lords sceptre~
+the Lord's Golden Sceptre~
+A Golden Sceptre lies here.~
+unknown~
+1 AB A
+0 0 250 0 0
+55 1 4577 P
+A
+13 10
+A
+1 1
+A
+19 4
+A
+18 4
+#21008
+potion shadows~
+a Potion of the `bS`bh`Ba`Bd`co`Cw`Cs`w~
+A shadowy potion lies here.~
+unknown~
+10 A AO
+15 29 19 44 0
+8 1 50 P
+#21009
+robe white~
+a white robe~
+A powerful white cloth lies here.~
+unknown~
+9 ABSTU AK
+BD BD BD BD 0
+40 3 345 P
+A
+19 3
+A
+18 5
+A
+12 50
+#21010
+potion darkness~
+a potion of DaRkNeSs~
+A potion of powerful aura lies here.~
+unknown~
+10 A AO
+20 69 507 1 0
+24 0 1000 P
+#21011
+collar spiked~
+a spiked collar~
+A huge spiked collar lies here.~
+unknown~
+9 GI AC
+AC AC AC D 0
+20 1 934 P
+A
+19 2
+A
+18 3
+#21013
+coffin~
+a Coffin~
+A big black Coffin is here.~
+unknown~
+12 BC 0
+0 0 0 0 0
+50 1000 0 P
+#21015
+Crystal Sword~
+a Crystal Sword~
+A well crafted Sword lies here.~
+unknown~
+5 BILSWX AN
+A C BC BCDE BD
+20 2 3044 P
+A
+19 8
+A
+18 7
+#21019
+scythe crystal death~
+a Crystal Scythe of Death~
+A huge weapon of Death lies here.~
+unknown~
+5 ASUWX AN
+0 BD BD A BCDEF
+70 1 100000 P
+A
+18 9
+A
+19 10
+#21021
+white bracelet~
+a white bracelet~
+A beautiful white bracelet lies here.~
+unknown~
+9 BGSU AM
+D D D AD 0
+29 1 329 P
+A
+4 2
+A
+19 3
+A
+18 3
+#21022
+bow love~
+`RCupid's Bow of Love`w~
+A beautiful little bow is lying here.~
+unknown~
+5 KTUV AN
+0 BC AB BDE DE
+14 1 547 P
+A
+18 3
+A
+17 -25
+A
+4 2
+A
+19 1
+#21023
+pile gold coins~
+a pile of gold coins~
+A pile of gold coins.~
+unknown~
+20 0 A
+EGHIJK 0 0 0 0
+2 5 0 P
+#21024
+shadow bracelet~
+a Bracelet of the Shadows~
+A powerful bracelet of the Shadow Clan is lying here.~
+unknown~
+9 A M
+AC AC AC AD 0
+25 1 985 P
+A
+4 1
+A
+13 18
+A
+18 1
+A
+19 4
+#21026
+ring of pure evilness~
+`BRing of Pure Evilness`w~
+A Ring with a evil aura lies here.~
+unknown~
+9 BJRU AB
+AD D C AC 0
+16 0 234 P
+A
+19 3
+A
+18 3
+A
+5 1
+#21029
+shield fire~
+`RThe Shield of Fire`w~
+A huge Shield with flames around it lies here.~
+unknown~
+9 0 AJ
+BEF BEF BEF BEF 0
+75 0 0 P
+A
+12 10
+A
+9 1
+A
+4 1
+A
+19 4
+A
+18 5
+#21030
+something~
+something~
+Something is here.~
+unknown~
+5 ABG AN
+0 D AD A C
+55 1 3654 P
+A
+1 -2
+A
+12 -100
+A
+19 6
+A
+18 8
+A
+13 50
+#21031
+fountain realm~
+a Beautiful Fountain~
+A beautiful fountain of the Realm is here.~
+unknown~
+25 A 0
+0 0 0 0 0
+2 10000 366757432 P
+#21033
+belt shadows~
+a Belt of the `bS`bh`Ba`Bd`co`Cw`Cs`w~
+A belt of the `BShadow`w Clan is here.~
+unknown~
+9 0 AL
+AD AD AD BD 0
+9 1 565 P
+A
+18 4
+A
+19 2
+A
+4 1
+#21034
+urn ashes crystal~
+a Crystal Urn~
+A Crystal Urn with the Ashes of the Dead is here.~
+unknown~
+9 0 AO
+BD AC D BD 0
+9 1 43 P
+A
+18 2
+A
+19 2
+#21035
+book judgement~
+the Book of Judgement~
+The Book of Death lies here.~
+unknown~
+9 0 AO
+CE CE CE CE 0
+80 1 3255 P
+A
+19 16
+A
+13 100
+A
+12 150
+A
+17 -25
+A
+18 15
+A
+17 -100
+#21036
+Golden Scythe~
+a Golden Scythe of Death~
+A wicked looking Scythe lies here.~
+unknown~
+5 ABG AN
+0 CDEF CDEF CE CD
+94 3 345667 P
+A
+1 5
+A
+12 100
+A
+17 -200
+A
+13 100
+A
+18 50
+A
+19 50
+#0
+
+
+
+#ROOMS
+#21000
+A Path leading to the Evil Lands~
+You are walking on a path of darkness. As you walk you notice the mist
+arising from the ground. It almost seems like your feet are rising in the
+air. As you look to the west up ahead you notice a bright beam of light. A
+rather large figure is looking at you with his bright red eyes!  
+~
+0 0 0
+D1
+(null)~
+~
+0 0 21017
+D3
+(null)~
+~
+0 0 21024
+S
+#21001
+The Path of light~
+As you enter in the light, the brightness makes your eyes squint. You
+notice the light is coming from above, but it seems that your body is being
+consumed by darkness still. It looks like you need to fly but the light
+grasps you and pulls you up!  
+~
+0 5 3
+D1
+(null)~
+~
+0 0 21024
+D4
+(null)~
+~
+0 0 21002
+D5
+(null)~
+~
+0 0 21018
+S
+#21002
+Up in the Air~
+As you rise up farther and farther the light gets very dim. You feel as
+though you are Superman, but you know your not. You hear thunder, and it is
+so loud and so close it rumbles all the organs in your body.  
+~
+0 8192 9
+D4
+(null)~
+~
+0 0 21003
+D5
+(null)~
+~
+0 0 21001
+S
+#21003
+Further up in the Air~
+You keep rising and by now your body starts a immunity of somewhat to
+your surroundings. Its really but your eyes will adjust in time. Up ahead
+you see some sort of chamber. You think to yourself and say 'wow a chamber
+up here?  ' 
+~
+0 0 0
+D3
+(null)~
+~
+0 0 21004
+D5
+(null)~
+~
+0 0 21002
+S
+#21004
+The Chamber of DaRkNeSs~
+Your still floating but as soon as you enter the chamber your feet hit
+the ground. The chambers up here are almost as big as a mansion. A huge
+figure is here chanting the words "Do not Pass" "Or You Will Die!!." He has
+a very powerful aura to him, and is guarded by a couple of guardians.  
+~
+0 1048576 0
+D0
+(null)~
+~
+0 0 21005
+D1
+(null)~
+~
+0 0 21003
+D3
+(null)~
+~
+0 0 21037
+D5
+(null)~
+~
+0 0 21009
+S
+#21005
+A Throne Room in the Chamber~
+This is where the great Lord of the Shadow spends most of his time. He
+rules all the gods and is a very powerful being. He is here sitting in his
+golden throne and getting served by his servant. This room is filled with
+many golden items but he is watching you closely.  
+~
+0 0 0
+D2
+(null)~
+~
+0 0 21004
+D4
+(null)~
+~
+0 0 21006
+S
+#21006
+On a Dark Cloud~
+You go another step up into the DaRkNeSs and you find yourself on a
+cloud. These clouds are black and are of pure evil. Another one of the
+many gods is here. This is one of the meanest yet. The clouds look as
+though it storms forever up here.  
+~
+0 1 9
+D3
+(null)~
+~
+0 0 21007
+D5
+(null)~
+~
+0 0 21005
+S
+#21007
+On a Huge Cloud~
+You hear lightning and thunder, and it sounds like it's coming from very
+close. You had better watch you step. There must be something special
+about this cloud because of its rather large size. This cloud isn't as dark
+but still scary and dangerous! Everywhere you look you see lightning bolts!
+~
+0 1 9
+D1
+(null)~
+~
+0 0 21006
+D2
+(null)~
+~
+0 0 21022
+D3
+(null)~
+~
+0 0 21008
+S
+#21008
+A Shadowy Cloud~
+You see shadows moving within this cloud and they keep popping out from
+everywhere. The cloud is kinda dark so you just can't quite make out what
+they are. It seems like they like playing with your mind and scaring you. 
+This cloud is very small, and it doesn't have much room to fight on in the
+first place.  
+~
+0 0 0
+D1
+(null)~
+~
+0 0 21007
+D3
+(null)~
+~
+0 0 21039
+D4
+(null)~
+~
+0 0 21021
+S
+#21009
+The Chamber of Trials~
+When you first walk in this chamber all you think about is death! There
+are many more chambers leading in many directions. Mist blurs your vision a
+little bit, but you see some sort of man casting his powerful spells. When
+you first see him fear runs through your veins, but he says he wants to help
+you!  
+~
+0 0 0
+D0
+(null)~
+~
+0 0 21014
+D1
+(null)~
+~
+0 0 21010
+D2
+(null)~
+~
+0 0 21013
+D3
+(null)~
+~
+0 0 21012
+D4
+(null)~
+~
+0 0 21004
+S
+#21010
+The East Chamber of Terror~
+This part of the chambers looks very dangerous. It looks like some sort
+of labratory. A vicious man is here mixing up his potions. To the north
+you hear sounds of some sort of monster screaming! There is a huge steel
+door holding the creature in. So you feel safe except for that man.  
+~
+0 1 0
+D0
+(null)~
+~
+1 0 21011
+D3
+(null)~
+~
+0 0 21009
+S
+#21011
+The Dark Dungeon in the Chamber~
+You open the door and the thing you see is horrifying. It is a
+two-headed dragon, and of a huge size too. Blood is dripping from its teeth
+and looks as though he is still hungry. He is staring you down like a piece
+of meat! You better run while you still can..  
+~
+0 0 0
+D2
+(null)~
+~
+1 0 21010
+S
+#21012
+The Western Chamber of Horror~
+As you look around you see a bunch of worn out slaves working their lives
+away. They are under a spell put forth by a god. This chamber room has a
+bad smell to it. Must be from the slaves seeing they never get any breaks! 
+The slaves take one look at you and attack!  
+~
+0 8192 0
+D1
+(null)~
+~
+0 0 21009
+S
+#21013
+The Southern Chamber of Death~
+As soon as you walk in this chamber you notice it is much darker for some
+reason. Also out of the darkness you notice a coffin. Looks like you are
+in for a fight after you look at the coffin and out pops a huge vampire. 
+Looks like your in a fight with death and destiny.  
+~
+0 8193 0
+D0
+(null)~
+~
+0 0 21009
+S
+#21014
+The Northern Chamber of Mystery~
+At first you think there isn't anything in here until something makes a
+strange noise. It scares you to death, and you start to shake from fear. 
+This chamber is very dusty and bones lie everywhere on the ground.  
+~
+0 8193 0
+D2
+(null)~
+~
+0 0 21009
+S
+#21015
+The Entrance to the Realm~
+You have found the deep, dark Realm of the evil lands. The Realm is a
+place of death and DaRkNeSs. Some say when you die this is where you go,
+but the world may never know. If you are up for a challenge explore the
+Realm and enjoy... MuHaHaHa!!  
+~
+0 0 0
+D0
+(null)~
+~
+0 0 21031
+D1
+(null)~
+~
+0 0 21018
+D3
+(null)~
+~
+0 0 21016
+S
+#21016
+The Secret Guild of the Realm~
+Here where you get stronger in the Realm to fight the tough monsters. A
+Guildmaster is here to help you get stronger also. This is one of the many
+important places of the Realm. Also one of the more safer rooms in the
+Realm.  
+~
+0 0 0
+D1
+(null)~
+~
+0 0 21015
+S
+#21017
+A Deep, Dark Path~
+You are walking on a path which leads to the north, and to the west. Off
+to the west the path starts getting very dark and you can barely see a
+thing! Also as you look down at your feet you notice mist rising up into
+the air.  
+~
+0 5 4
+D0
+(null)~
+~
+0 0 16052
+D3
+(null)~
+~
+0 0 21000
+S
+#21018
+The Black Hole~
+AHHHHHHH!!!!!
+ 
+ 
+   You are falling
+ 
+ 
+      into a deep, dark hole!
+ 
+ 
+         You scream but noone
+ 
+ 
+           can hear a word 
+ 
+ 
+              that your screaming!!
+~
+0 8193 4
+D3
+(null)~
+~
+0 0 21015
+D4
+(null)~
+~
+0 0 21001
+S
+#21019
+A Lovely Room of Death~
+As soon as you walk in you let out a scream so loud everyone in the world
+hears you. You've heard many rumors about this monster. It's the Grim
+Reaper! Can you win in a battle against death? You get chills just
+thinking about fighting him.  
+~
+0 0 0
+D0
+(null)~
+~
+0 0 21032
+D2
+(null)~
+~
+0 0 21031
+D3
+(null)~
+~
+0 0 21020
+S
+#21020
+The Battle Grounds in the Realm~
+You notice armor and weapons lying on the ground everywhere. When you
+take a closer look you notice that all the stuff is rusted. Also on the
+ground there is dried up blood. It looks as though no one has fought here
+in awhile. At least you hope so.  
+~
+0 0 0
+D1
+(null)~
+~
+0 0 21019
+D3
+(null)~
+~
+0 0 21023
+S
+#21021
+On a Stormy Cloud~
+This cloud is very eerie and violent. When you touch your feet on the
+cloud you can feel it rumble. All around you, lightning is striking and you
+hear the thunderous roars!  
+~
+0 0 9
+D3
+(null)~
+~
+0 0 21022
+D5
+(null)~
+~
+0 0 21008
+S
+#21022
+A Calm and Cuddly Cloud~
+The cloud suddenly becomes clear and the air lifts you up even more off
+your feet! A very beautiful woman is here winking at you. As soon as you
+see this goddess you fall in love. You also see a small figure with wings
+so you take a closer look to see what it is...  
+~
+0 0 9
+D0
+(null)~
+~
+0 0 21007
+D1
+(null)~
+~
+0 0 21021
+S
+#21023
+A Secret Room in the Realm~
+This room is filled with treasures and jewels, but many are guarded by
+the Soultaker. He is a very powerful figure of death, and isn't taken very
+lightly around here. This room is very important to the gods and many other
+people.  
+~
+0 1 0
+D1
+(null)~
+~
+0 0 21020
+S
+#21024
+A Divided Path~
+You have come to a fork in the path. You can continue west and follow
+the light you see up ahead or step into the darkness to the north. So
+choose your destiny!!  
+~
+0 0 4
+D0
+(null)~
+~
+0 0 21025
+D1
+(null)~
+~
+0 0 21000
+D3
+(null)~
+~
+0 0 21001
+S
+#21025
+The End of the Path~
+Just up ahead you can smell the evilness in the air. If you are brave
+enough continue north. If you're not turn back while you still have a
+chance.  
+~
+0 0 4
+D0
+(null)~
+~
+0 0 21026
+D2
+(null)~
+~
+0 0 21024
+S
+#21026
+The Entrance to the Evil Lands~
+AHHHHHH!!!! Flames rise from the ground and nip you in the butt! It
+seems like you've just entered hell itself. Some sort of demon type figure
+takes one look at you and is ready to battle..  
+~
+0 1 0
+D0
+(null)~
+~
+0 0 21027
+D2
+(null)~
+~
+0 0 21025
+S
+#21027
+Within the Evil Lands~
+Since you've made it this far there is no turning back! You hear screams
+from everywhere, and flames continue shooting from the ground like a
+volcano. There are hellish creatures everywhere you look. Kinda makes you
+wonder if you are in hell? To the east you see a dungeon of some sort.  
+~
+0 8192 3
+D0
+(null)~
+~
+0 0 21030
+D2
+(null)~
+~
+0 0 21026
+D3
+(null)~
+~
+0 0 21028
+S
+#21028
+Outside the Evil Demon's Dungeon~
+It's so hot right here you can barely take a breath! Sweat rolls off
+your face, and the heat makes you kinda tired. If you stand in one place
+too long your shoes begin to melt. You hear a evil figure inviting you in
+his domain. It doesn't look like he's inviting you in to make friends
+either!  
+~
+0 0 3
+D0
+(null)~
+~
+0 0 21038
+D1
+(null)~
+~
+0 0 21027
+D3
+(null)~
+~
+0 0 21029
+S
+#21029
+Inside the HellRaiser's Ghoulish Dungeon~
+This room is filled with flames and smoke. It is so smokey you can
+barely make anything out. Suddenly a gigantic figure that resembles Satan
+jumps out in front of you. Scaring the living hell out of you!!  
+~
+0 0 0
+D1
+(null)~
+~
+0 0 21028
+S
+#21030
+A Room of Smoke~
+You can't see a thing!!  
+~
+0 1 0
+D2
+(null)~
+~
+0 0 21027
+S
+#21031
+The Center Room in the Realm~
+This is where the creatures of the Realm hold their meetings and trials. 
+In the middle of the room is a beautiful fountain which attracts your
+attention. There are many pictures of the great leaders of the Realm
+hanging up on the wall. The fountain makes you so thirsty you go over and
+take a big gulp!  
+~
+0 8192 0
+D0
+(null)~
+~
+0 0 21019
+D2
+(null)~
+~
+0 0 21015
+S
+#21032
+The Reaper's Purgatory~
+Clouds of white mist fill the whole place. This is where the Reaper
+places anyone who disobeys him. You hear Screams of other suffering Souls
+coming from everywhere! You are very cold and scared!  
+~
+0 2105345 0
+D0
+(null)~
+~
+0 0 21033
+D2
+(null)~
+~
+0 0 21033
+D3
+(null)~
+~
+0 0 21033
+D4
+(null)~
+~
+0 0 21032
+D5
+(null)~
+~
+0 0 21032
+S
+#21033
+The Reaper's Purgatory~
+You are lost and your body feels like it's got hypothermia. There are a
+lot of strange dead things walking around here which makes you feel very
+uncomfortable. The mist blurs your vision, and makes it hard to tell where
+you are going.  
+~
+0 2105344 0
+D0
+(null)~
+~
+0 0 21032
+D1
+(null)~
+~
+0 0 21032
+D2
+(null)~
+~
+0 0 21032
+D3
+(null)~
+~
+0 0 21034
+D5
+(null)~
+~
+0 0 21032
+S
+#21034
+The Reaper's Purgatory~
+Clouds of white mist fill the whole place. You are lost and your body
+feels like it's got hypothermia. The mist blurs your vision and makes it
+hard to tell where you are going. You are lost.... At least you think you
+are?  
+~
+0 2105344 0
+D0
+(null)~
+~
+0 0 21035
+D1
+(null)~
+~
+0 0 21033
+D5
+(null)~
+~
+0 0 21032
+S
+#21035
+The Reaper's Judgement Room~
+This is where you'll face your final judgement. Your fate will depend on
+your past karma. You think to yourself, and in your mind you slap yourself
+for being such a jerk. The Reaper is here with your fate in his hands.  
+~
+0 2105344 0
+D4
+(null)~
+~
+0 0 21000
+D5
+(null)~
+~
+0 0 21032
+S
+#21037
+The Gas Chamber~
+As soon as you walk in, it feels like your lung collapses and you can't
+breath!! You start gasping for air but no one can save you. You will die
+slowly but surely!! Your life will be in the hands of the Reaper now!  
+~
+0 8192 0
+D5
+(null)~
+~
+0 0 21032
+S
+#21038
+A Cell in the Evil Lands~
+You are in a old jail cell of some sort. There are steel bars holding
+you in but the cell door has been left open. You see a skeleton in the
+corner of the cell. What the heck.... It starts to move it must be
+alive!!!!  
+~
+0 8192 0
+D2
+(null)~
+~
+0 0 21028
+S
+#21039
+A Cloud of DaRkNeSs~
+You're on a verk dark cloud which has a evil aura to it. This cloud
+doesn't feel solid like all the other clouds around here. It seems like
+it's fake. You had better get off this cloud it looks like a huge storm is
+coming!  
+~
+0 0 9
+D1
+(null)~
+~
+0 0 21008
+D4
+(null)~
+~
+0 0 21008
+S
+#21040
+The `BShadow Shop`w~
+You have found the secret shop of the `BShadows`w. They are a powerful
+Clan that sides with all followers of Timion. The Clan lurks in the
+`Bshadows`w waiting for its prey to come forth. If you're not a Clan member
+i would make sure the Clan doesn't catch you in here unless your invited in!
+~
+0 4 0
+S
+#0
+
+
+
+#RESETS
+D 0 21010 0 0
+D 0 21011 2 0
+M 0 21000 2 21000 Load a Guardian of DaRkNeSs
+E 0 21000 0 13 The belt of darkness is loaded around the waist of a Guardian of DaRkNeSs
+E 0 21008 0 17 A potion of the `bs`bh`ba`bd`co`cw`cs`w is loaded held in the hands of a Guardian of DaRkNeSs
+M 0 21004 0 21004 Load the Evil God of Thunder
+E 0 21004 0 17 The staff of thunder is loaded held in the hands of the Evil God of Thunder
+M 0 21003 2 21004 Load a Guardian of Thunder
+M 0 21005 0 21005 Load the Lord of the Shadows
+E 0 21007 0 0 The lord's golden sceptre is loaded as a light of the Lord of the Shadows
+O 0 21005 0 21005 The lord's throne loaded to A Throne Room in the Chamber
+M 0 21006 0 21006 Load the God of Lightning
+E 0 21006 0 17 A lightning rod is loaded held in the hands of the God of Lightning
+M 0 21007 6 21007 Load `YA Lightning Bolt`w
+M 0 21008 9 21008 Load a Shadowy Figure
+M 0 21009 0 21009 Load Shadow Wizard
+M 0 21010 0 21010 Load Dr. Death
+E 0 21010 0 17 A potion of darkness is loaded held in the hands of Dr. Death
+M 0 21011 0 21011 Load a two-headed Dragon
+E 0 21011 0 3 A spiked collar is loaded around the neck (1) of a two-headed Dragon
+M 0 21012 8 21012 Load a slave
+M 0 21013 0 21013 Load a huge Vampire
+O 0 21013 0 21013 A coffin loaded to The Southern Chamber of Death
+M 0 21014 3 21014 Load the Ghost of DaRkNeSs
+M 0 21015 0 21015 Load a Guardian of the Realm
+E 0 21015 0 16 A crystal sword is loaded wielded of a Guardian of the Realm
+M 0 21016 0 21016 Load the guildmaster
+M 0 21019 0 21019 Load the Grim Reaper
+E 0 21019 0 16 A crystal scythe of death is loaded wielded of the Grim Reaper
+M 0 21020 5 21020 Load a lost Soul
+M 0 21021 0 21021 Load Cupid
+E 0 21022 0 16 `rcupid's bow of love`w is loaded wielded of Cupid
+M 0 21022 0 21022 Load the Goddess of Love
+E 0 21021 0 14 A white bracelet is loaded on the left wrist of the Goddess of Love
+E 0 21009 0 12 A white robe is loaded about the shoulders of the Goddess of Love
+M 0 21023 0 21023 Load the Soultaker
+O 0 21023 0 21023 A pile of gold coins loaded to A Secret Room in the Realm
+M 0 21026 0 21026 Load a Demon Guard
+E 0 21026 0 1 `bring of pure evilness`w is loaded on the left finger of a Demon Guard
+M 0 21027 9 21027 Load a large flame
+M 0 21029 0 21029 Load the HellRaiser
+E 0 21029 0 11 `rthe shield of fire`w is loaded as a shield of the HellRaiser
+M 0 21030 0 21030 Load Something
+E 0 21030 0 16 Something is loaded wielded of Something
+O 0 21031 0 21031 A beautiful fountain loaded to The Center Room in the Realm
+M 0 21033 9 21033 Load a Wandering Soul
+M 0 21034 0 21034 Load a Pallbearer
+E 0 21034 0 17 A crystal urn is loaded held in the hands of a Pallbearer
+M 0 21035 0 21035 Load the Reaper of the Realm
+E 0 21035 0 17 The book of judgement is loaded held in the hands of the Reaper of the Realm
+E 0 21036 0 16 A golden scythe of death is loaded wielded of the Reaper of the Realm
+M 0 21038 0 21038 Load a Evil Skeleton
+M 0 21040 0 21040 Load the Master of the Shadows
+G 0 21008 0 A potion of the `bs`bh`ba`bd`co`cw`cs`w is given to the Master of the Shadows
+G 0 21033 0 A belt of the `bs`bh`ba`bd`co`cw`cs`w is given to the Master of the Shadows
+G 0 21024 0 A bracelet of the shadows is given to the Master of the Shadows
+S
+
+
+
+#PROGS
+M 21003 20 CityGuard Load to: a Guardian of Thunder
+M 21004 2 Acid Breath Load to: the Evil God of Thunder
+M 21005 7 Random Breath Load to: the Lord of the Shadows
+M 21006 6 Lightning Breath Load to: the God of Lightning
+M 21007 6 Lightning Breath Load to: `YA Lightning Bolt`w
+M 21009 9 Adepts Load to: Shadow Wizard
+M 21013 10 Offensive Cleric Load to: a huge Vampire
+M 21019 7 Random Breath Load to: the Grim Reaper
+M 21023 13 Offensive Mage Load to: the Soultaker
+M 21027 3 Fire Breath Load to: a large flame
+M 21029 3 Fire Breath Load to: the HellRaiser
+M 21035 105 Stub Reaper Load to: the Reaper of the Realm
+S
+
+
+
+#SHOPS
+21040 9 5 1 10 4 100 100 0 24
+0
+
+
+
+#FACTIONAFFS
+0
+
+
+
+#$

@@ -126,7 +126,7 @@ void save_area_list(  )
  *
  * -- Hugin
  */
-char *fwrite_flag( long flags, char buf[] )
+char *fwrite_flag( long long flags, char buf[] )
 {
     char offset;
     char *cp;

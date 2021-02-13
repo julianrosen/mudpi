@@ -337,9 +337,9 @@ unknown~
 ABC AB AC AC 0
 10 8 100 P
 A
-19 2
-A
 18 1
+A
+19 2
 E
 tickler~
 A horrid black mass of gooey tentacles obviously ripped from the corpse
@@ -405,9 +405,9 @@ unknown~
 0 0 0 0 0
 16 2 160 P
 A
-24 1
-A
 14 10
+A
+24 1
 E
 black marble ring~
 It is pitch black and has beautiful swirls characteristic of marble all
@@ -422,9 +422,9 @@ unknown~
 A AC C ABD 0
 16 4 160 P
 A
-18 1
-A
 2 2
+A
+18 1
 E
 thin rapier~
 It seems so thin that it would be useless but at the same time it looks deadly.
@@ -596,9 +596,9 @@ unknown~
 D D D 0 0
 28 10 280 P
 A
-17 10
-A
 13 10
+A
+17 10
 E
 dark black cape~
 The cape is gently flows and pulls in the light so evenly and perfectly
@@ -656,12 +656,12 @@ do not let much light through. A few rows of worn wooden benches stand here.
 ~
 0 0 1
 E
-benches rows~
-The benches are not of the comfortable kind.
-~
-E
 glass windows~
 The windows must be meant to be dark. At least they are completely clean.
+~
+E
+benches rows~
+The benches are not of the comfortable kind.
 ~
 D0
 The chapel door is made of dark wood.
@@ -736,13 +736,13 @@ blood stains, but their color seems a little wrong.
 ~
 0 9 0
 E
+stain stains~
+That's odd ... they seem a little GREEN.
+~
+E
 door writing~
 Above the door is some strange writing! It is worn with age, but it refers
 to an ancient ruler named 'Shohan'.
-~
-E
-stain stains~
-That's odd ... they seem a little GREEN.
 ~
 D1
 (null)~
@@ -801,10 +801,6 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3416
 D1
 (null)~
 ~
@@ -813,6 +809,10 @@ D3
 (null)~
 ~
 0 0 3410
+D2
+(null)~
+~
+0 0 3416
 S
 #3416
 Entrance to the Lower Chambers~
@@ -859,6 +859,13 @@ leading down. The Ghost of Cristis the Kind stands here.
 ~
 0 9 0
 E
+altar~
+It stands 2 feet high with the remnants of candle-wax on top. There is
+an inscription on the side:  'Praise the almighty Cristis the bringer of
+good and justice to the world. He who fought the evilest finally is at
+peace. May the Gods remember him forever ...'
+~
+E
 ghost cristis~
 His rest has been disturbed by evil creatures who have invaded his domain
 and grave. He holds up a parchment for you to read:
@@ -872,13 +879,6 @@ and grave. He holds up a parchment for you to read:
      Roch'tar, the reincarnate Vampire, now rules these tombs.
    You must find and defeat him and his minions!
      May God bless you on your Quest!
-~
-E
-altar~
-It stands 2 feet high with the remnants of candle-wax on top. There is
-an inscription on the side:  'Praise the almighty Cristis the bringer of
-good and justice to the world. He who fought the evilest finally is at
-peace. May the Gods remember him forever ...'
 ~
 D2
 (null)~
@@ -908,14 +908,14 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3425
 D3
 (null)~
 ~
 0 0 3415
+D1
+(null)~
+~
+0 0 3425
 S
 #3421
 Entrance Chamber to the Grand Hall of Kings~
@@ -928,23 +928,10 @@ doors lead off to the south and a large stone staircase leads up.
 ~
 0 9 0
 E
-letters graffiti~
-'Beware here all of man, because past here lies only death.'
-
-    Insho'rkthon brsskra-lehsn Roch'tar
-
-Beneath, there are two criss-crossing scratchmarks in an X formation that
-look like someone (or something) raked their claws across the wood.
-~
-E
-oak~
-They're HUGE! They are at least 12 feet tall and about 10 feet wide.
-If not for one thing they would be perfectly preserved. There appears
-to be some letters crudely scratched into the wood.
-~
-E
-staircase stairs~
-Though quite cracked they do look very stable.
+stone door trapdoor~
+It's rather small and looks quite heavy but maybe with some kind of leverage
+you could move it. It has a queerly shaped hole that looks big enough
+for an equally queerly shaped pole to fit inside. If only you had it!
 ~
 E
 tapestry tapestries~
@@ -954,10 +941,23 @@ Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
 course).
 ~
 E
-stone door trapdoor~
-It's rather small and looks quite heavy but maybe with some kind of leverage
-you could move it. It has a queerly shaped hole that looks big enough
-for an equally queerly shaped pole to fit inside. If only you had it!
+staircase stairs~
+Though quite cracked they do look very stable.
+~
+E
+oak~
+They're HUGE! They are at least 12 feet tall and about 10 feet wide.
+If not for one thing they would be perfectly preserved. There appears
+to be some letters crudely scratched into the wood.
+~
+E
+letters graffiti~
+'Beware here all of man, because past here lies only death.'
+
+    Insho'rkthon brsskra-lehsn Roch'tar
+
+Beneath, there are two criss-crossing scratchmarks in an X formation that
+look like someone (or something) raked their claws across the wood.
 ~
 D2
 Finely polished oak doors stand to the south.
@@ -1125,14 +1125,14 @@ D2
 (null)~
 ~
 0 0 3431
-D1
-(null)~
-~
-0 0 3435
 D3
 (null)~
 ~
 0 0 3426
+D1
+(null)~
+~
+0 0 3435
 S
 #3431
 The Lower Chambers and Tombs of the Undead~
@@ -1194,14 +1194,14 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3436
 D3
 (null)~
 ~
 0 0 3430
+D2
+(null)~
+~
+0 0 3436
 D1
 (null)~
 ~
@@ -1281,20 +1281,24 @@ D1
 (null)~
 ~
 0 0 3445
-D2
-(null)~
-~
-0 0 3441
 D3
 (null)~
 ~
 0 0 3435
+D2
+(null)~
+~
+0 0 3441
 S
 #3441
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D1
+(null)~
+~
+0 0 3446
 D0
 (null)~
 ~
@@ -1303,52 +1307,48 @@ D3
 (null)~
 ~
 0 0 3436
-D1
-(null)~
-~
-0 0 3446
 S
 #3442
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3443
 D1
 (null)~
 ~
 0 0 3447
+D2
+(null)~
+~
+0 0 3443
 S
 #3443
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D0
-(null)~
-~
-0 0 3442
 D2
 (null)~
 ~
 0 0 3444
+D0
+(null)~
+~
+0 0 3442
 S
 #3444
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 9 0
-D1
-(null)~
-~
-0 0 3449
 D0
 (null)~
 ~
 0 0 3443
+D1
+(null)~
+~
+0 0 3449
 S
 #3445
 The Lower Chambers and Tombs of the Undead~
@@ -1369,24 +1369,28 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D0
-(null)~
-~
-0 0 3445
-D2
-(null)~
-~
-0 0 3447
 D3
 (null)~
 ~
 0 0 3441
+D2
+(null)~
+~
+0 0 3447
+D0
+(null)~
+~
+0 0 3445
 S
 #3447
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D3
+(null)~
+~
+0 0 3442
 D0
 (null)~
 ~
@@ -1395,10 +1399,6 @@ D2
 (null)~
 ~
 0 0 3448
-D3
-(null)~
-~
-0 0 3442
 S
 #3448
 The Lower Chambers and Tombs of the Undead~
@@ -1883,14 +1883,14 @@ O 0 3400 0 3405 A candlestick loaded to Inside the Chapel
 M 0 3401 0 3409 Load the undead zombie
 M 0 3401 0 3409 Load the undead zombie
 M 0 3401 2 3409 Load the undead zombie
-M 0 3402 2 3409 Load The ghoul
+M 0 3402 2 3409 Load the ghoul
 R 0 3410 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3400 2 3410 Load the bony skeleton
 E 0 3421 0 16 A rusty curved scimitar is loaded wielded of the bony skeleton
 R 0 3411 4 Randomize The Lower Chambers and Tombs of the Undead
-M 0 3403 0 3411 Load The wraith
-E 0 3425 0 17 An auburn-colored orb is loaded held in the hands of The wraith
-M 0 3416 0 3411 Load The half-decomposed body
+M 0 3403 0 3411 Load the wraith
+E 0 3425 0 17 An auburn-colored orb is loaded held in the hands of the wraith
+M 0 3416 0 3411 Load the half-decomposed body
 M 0 3401 0 3414 Load the undead zombie
 M 0 3401 0 3414 Load the undead zombie
 M 0 3401 0 3414 Load the undead zombie
@@ -1912,20 +1912,20 @@ R 0 3425 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3426 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3409 0 3426 Load some cave weeds
 M 0 3409 0 3426 Load some cave weeds
-M 0 3416 0 3426 Load The half-decomposed body
+M 0 3416 0 3426 Load the half-decomposed body
 R 0 3430 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3400 2 3430 Load the bony skeleton
 E 0 3421 0 16 A rusty curved scimitar is loaded wielded of the bony skeleton
 R 0 3431 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3413 0 3432 Load the rock slug
 G 0 3422 0 A piece of slime is given to the rock slug
-M 0 3411 0 3434 Load The X-ist flesh eater
-E 0 3414 0 16 A whisper thin rapier is loaded wielded of The X-ist flesh eater
-G 0 3412 0 The mummified head of jubal the benevolent is given to The X-ist flesh eater
+M 0 3411 0 3434 Load the X-ist flesh eater
+E 0 3414 0 16 A whisper thin rapier is loaded wielded of the X-ist flesh eater
+G 0 3412 0 The mummified head of jubal the benevolent is given to the X-ist flesh eater
 P 0 3413 0 3412 A black marble ring put inside a black marble ring
 R 0 3435 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3436 4 Randomize The Lower Chambers and Tombs of the Undead
-M 0 3402 0 3437 Load The ghoul
+M 0 3402 0 3437 Load the ghoul
 R 0 3440 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3441 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3400 2 3441 Load the bony skeleton
@@ -1933,7 +1933,7 @@ E 0 3421 0 16 A rusty curved scimitar is loaded wielded of the bony skeleton
 M 0 3413 0 3441 Load the rock slug
 G 0 3422 0 A piece of slime is given to the rock slug
 R 0 3442 4 Randomize The Lower Chambers and Tombs of the Undead
-M 0 3416 0 3442 Load The half-decomposed body
+M 0 3416 0 3442 Load the half-decomposed body
 R 0 3443 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3444 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3409 0 3444 Load some cave weeds
@@ -1941,8 +1941,8 @@ M 0 3409 0 3444 Load some cave weeds
 R 0 3445 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3446 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3447 4 Randomize The Lower Chambers and Tombs of the Undead
-M 0 3402 2 3447 Load The ghoul
-M 0 3416 0 3448 Load The half-decomposed body
+M 0 3402 2 3447 Load the ghoul
+M 0 3416 0 3448 Load the half-decomposed body
 O 0 3420 0 3448 A hidden compartment in the room loaded to The Lower Chambers and Tombs of the Undead
 P 0 3410 0 3420 A queerly shaped rod put inside a queerly shaped rod
 R 0 3449 4 Randomize The Lower Chambers and Tombs of the Undead
@@ -1952,35 +1952,35 @@ E 0 3429 0 5 A worn and dented breast plate is loaded on the body of Snapper Joe
 E 0 3411 0 17 A large black dirty key is loaded held in the hands of Snapper Joe
 M 0 3413 0 3450 Load the rock slug
 G 0 3422 0 A piece of slime is given to the rock slug
-M 0 3407 0 3452 Load The nightgaunt
-E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of The nightgaunt
-M 0 3407 0 3453 Load The nightgaunt
-E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of The nightgaunt
-M 0 3402 0 3454 Load The ghoul
+M 0 3407 0 3452 Load the nightgaunt
+E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of the nightgaunt
+M 0 3407 0 3453 Load the nightgaunt
+E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of the nightgaunt
+M 0 3402 0 3454 Load the ghoul
 M 0 3406 2 3455 Load the Mi-Go
 E 0 3403 0 5 Disgusting pinkish plasma webbing is loaded on the body of the Mi-Go
-M 0 3407 0 3457 Load The nightgaunt
-E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of The nightgaunt
-M 0 3404 0 3460 Load The guardian vampire
-E 0 3428 0 16 A pitch-black longsword that flames brightly... is loaded wielded of The guardian vampire
-E 0 3427 0 12 A dark black cape is loaded about the shoulders of The guardian vampire
-E 0 3419 0 17 Key to the coffin is loaded held in the hands of The guardian vampire
-G 0 3424 0 A tightly rolled scroll is given to The guardian vampire
-M 0 3402 0 3462 Load The ghoul
+M 0 3407 0 3457 Load the nightgaunt
+E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of the nightgaunt
+M 0 3404 0 3460 Load the guardian vampire
+E 0 3428 0 16 A pitch-black longsword that flames brightly is loaded wielded of the guardian vampire
+E 0 3427 0 12 A dark black cape is loaded about the shoulders of the guardian vampire
+E 0 3419 0 17 Key to the coffin is loaded held in the hands of the guardian vampire
+G 0 3424 0 A tightly rolled scroll is given to the guardian vampire
+M 0 3402 0 3462 Load the ghoul
 M 0 3406 0 3463 Load the Mi-Go
 E 0 3403 0 5 Disgusting pinkish plasma webbing is loaded on the body of the Mi-Go
-M 0 3407 0 3465 Load The nightgaunt
-E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of The nightgaunt
-M 0 3407 0 3465 Load The nightgaunt
-E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of The nightgaunt
+M 0 3407 0 3465 Load the nightgaunt
+E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of the nightgaunt
+M 0 3407 0 3465 Load the nightgaunt
+E 0 3402 0 16 A nightgaunt's tickler is loaded wielded of the nightgaunt
 M 0 3406 0 3466 Load the Mi-Go
 E 0 3403 0 5 Disgusting pinkish plasma webbing is loaded on the body of the Mi-Go
-M 0 3414 0 3468 Load The mad etcher
-E 0 3423 0 5 An artist's smock is loaded on the body of The mad etcher
-M 0 3415 0 3468 Load The spectral etcher's wife
-M 0 3408 0 3471 Load The hunting horror
-E 0 3425 0 17 An auburn-colored orb is loaded held in the hands of The hunting horror
-G 0 3426 0 A bar of gold is given to The hunting horror
+M 0 3414 0 3468 Load the mad etcher
+E 0 3423 0 5 An artist's smock is loaded on the body of the mad etcher
+M 0 3415 0 3468 Load the spectral etcher's wife
+M 0 3408 0 3471 Load the hunting horror
+E 0 3425 0 17 An auburn-colored orb is loaded held in the hands of the hunting horror
+G 0 3426 0 A bar of gold is given to the hunting horror
 S
 
 
@@ -1988,18 +1988,18 @@ S
 #PROGS
 M 3400 14 Undead Mage Load to: the bony skeleton
 M 3401 14 Undead Mage Load to: the undead zombie
-M 3402 14 Undead Mage Load to: The ghoul
-M 3403 14 Undead Mage Load to: The wraith
-M 3404 14 Undead Mage Load to: The guardian vampire
+M 3402 14 Undead Mage Load to: the ghoul
+M 3403 14 Undead Mage Load to: the wraith
+M 3404 14 Undead Mage Load to: the guardian vampire
 M 3405 10 Offensive Cleric Load to: the priest
-M 3407 14 Undead Mage Load to: The nightgaunt
-M 3408 14 Undead Mage Load to: The hunting horror
+M 3407 14 Undead Mage Load to: the nightgaunt
+M 3408 14 Undead Mage Load to: the hunting horror
 M 3410 14 Undead Mage Load to: Snapper Joe
-M 3411 14 Undead Mage Load to: The X-ist flesh eater
+M 3411 14 Undead Mage Load to: the X-ist flesh eater
 M 3412 13 Offensive Mage Load to: the spirit of King Crotus
-M 3414 13 Offensive Mage Load to: The mad etcher
-M 3415 14 Undead Mage Load to: The spectral etcher's wife
-M 3416 14 Undead Mage Load to: The half-decomposed body
+M 3414 13 Offensive Mage Load to: the mad etcher
+M 3415 14 Undead Mage Load to: the spectral etcher's wife
+M 3416 14 Undead Mage Load to: the half-decomposed body
 S
 
 

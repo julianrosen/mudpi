@@ -158,9 +158,9 @@ unknown~
 D D D 0 0
 26 30 260 P
 A
-1 2
-A
 19 1
+A
+1 2
 #5201
 helm mithril~
 a mithril helm~
@@ -180,9 +180,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-19 1
-A
 18 1
+A
+19 1
 #5203
 sleeves mithril~
 some mithril sleeves~
@@ -192,9 +192,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-19 1
-A
 18 1
+A
+19 1
 #5204
 boots mithril~
 a pair of mithril boots~
@@ -204,9 +204,9 @@ unknown~
 D D D 0 0
 26 6 260 P
 A
-2 1
-A
 18 1
+A
+2 1
 #5205
 leggings mithril~
 a set of mithril leggings~
@@ -216,9 +216,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-2 1
-A
 18 1
+A
+2 1
 #5206
 girth mithril~
 a mithril girth~
@@ -248,9 +248,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-21 -2
-A
 20 -2
+A
+21 -2
 #5210
 potion black~
 a black potion~
@@ -308,9 +308,9 @@ unknown~
 AC AC AC 0 0
 10 11 100 P
 A
-2 -8
-A
 1 -10
+A
+2 -8
 #5219
 venison chunk~
 a chunk of venison~
@@ -336,9 +336,9 @@ unknown~
 A AC BC AB F
 26 24 260 P
 A
-19 3
-A
 18 2
+A
+19 3
 #5222
 robe black silk~
 a black silk robe~
@@ -522,9 +522,9 @@ unknown~
 B AB AC ABD 0
 10 4 100 P
 A
-19 1
-A
 18 1
+A
+19 1
 #0
 
 
@@ -1868,15 +1868,15 @@ Some writings are on this wall.
 ~
 0 1 3
 E
-skeleton skeletons~
-Something is strange about these skeletons. Upon further investigation, these
-skeletons appear illusionary.
-~
-E
 writings writing words~
 This cave along with the valley and dwarf forest is made by Hatchet for any
 Merc Mud.
 copyright 1992
+~
+E
+skeleton skeletons~
+Something is strange about these skeletons. Upon further investigation, these
+skeletons appear illusionary.
 ~
 D0
 You see more of the cave.
@@ -2116,87 +2116,87 @@ S
 D 0 5267 3 0
 D 0 5268 1 0
 D 0 5270 5 0
-M 0 5201 0 5204 Load The lamia
-E 0 5251 0 17 A golden harp is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5201 0 5205 Load The lamia
-E 0 5230 0 17 A pale blue stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5201 0 5216 Load The lamia
-E 0 5233 0 17 A deep red stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
+M 0 5201 0 5204 Load the lamia
+E 0 5251 0 17 A golden harp is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5201 0 5205 Load the lamia
+E 0 5230 0 17 A pale blue stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5201 0 5216 Load the lamia
+E 0 5233 0 17 A deep red stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
 O 0 5219 0 5217 A chunk of venison loaded to The meat stand
-M 0 5207 0 5217 Load The horned lizard
-M 0 5201 0 5218 Load The lamia
-E 0 5250 0 17 A mandolin is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5201 0 5219 Load The lamia
-E 0 5231 0 17 A scarlet and blue stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5204 0 5219 Load The mimic
-G 0 5218 0 A demon-faced talisman is given to The mimic
-G 0 5211 0 An orange potion is given to The mimic
-M 0 5201 0 5220 Load The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5201 0 5224 Load The lamia
-E 0 5243 0 17 A clear stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5201 0 5226 Load The lamia
-E 0 5235 0 17 A pearly white stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5203 0 5226 Load The mimic
-G 0 5215 0 A tattered scroll is given to The mimic
-G 0 5239 0 A dull grey stone is given to The mimic
-M 0 5207 0 5227 Load The horned lizard
+M 0 5207 0 5217 Load the horned lizard
+M 0 5201 0 5218 Load the lamia
+E 0 5250 0 17 A mandolin is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5201 0 5219 Load the lamia
+E 0 5231 0 17 A scarlet and blue stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5204 0 5219 Load the mimic
+G 0 5218 0 A demon-faced talisman is given to the mimic
+G 0 5211 0 An orange potion is given to the mimic
+M 0 5201 0 5220 Load the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5201 0 5224 Load the lamia
+E 0 5243 0 17 A clear stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5201 0 5226 Load the lamia
+E 0 5235 0 17 A pearly white stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5203 0 5226 Load the mimic
+G 0 5215 0 A tattered scroll is given to the mimic
+G 0 5239 0 A dull grey stone is given to the mimic
+M 0 5207 0 5227 Load the horned lizard
 O 0 5207 0 5229 A battered iron breast plate loaded to An abandoned shop
-M 0 5202 0 5229 Load The mimic
-G 0 5210 0 A black potion is given to The mimic
-E 0 5214 0 17 A smooth quartz ball is loaded held in the hands of The mimic
+M 0 5202 0 5229 Load the mimic
+G 0 5210 0 A black potion is given to the mimic
+E 0 5214 0 17 A smooth quartz ball is loaded held in the hands of the mimic
 O 0 5225 0 5231 The desk loaded to South wing of the city hall
 P 0 5215 0 5225 A tattered scroll put inside a tattered scroll
 P 0 5216 0 5225 A bound scroll put inside a bound scroll
-M 0 5201 0 5232 Load The lamia
-E 0 5217 0 17 A silver flute is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5207 0 5232 Load The horned lizard
+M 0 5201 0 5232 Load the lamia
+E 0 5217 0 17 A silver flute is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5207 0 5232 Load the horned lizard
 O 0 5227 0 5233 The glass cabinet loaded to East wing of the city hall
 P 0 3105 0 5227 A bronze bracer put inside a bronze bracer
-M 0 5201 0 5234 Load The lamia
-E 0 5232 0 17 An incandescent blue stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
+M 0 5201 0 5234 Load the lamia
+E 0 5232 0 17 An incandescent blue stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
 O 0 5220 0 5234 A large cracked fountain loaded to The private gardens and courtyard of Thalos
-M 0 5201 0 5236 Load The lamia
-E 0 5237 0 17 A lavender and green stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
-M 0 5206 0 5236 Load The mimic
-E 0 5222 0 12 A black silk robe is loaded about the shoulders of The mimic
-M 0 5205 0 5238 Load The mimic
-E 0 5214 0 17 A smooth quartz ball is loaded held in the hands of The mimic
-M 0 5201 0 5240 Load The lamia
-E 0 5241 0 17 A pink and green stone is loaded held in the hands of The lamia
-E 0 5252 0 16 A long slim dagger is loaded wielded of The lamia
+M 0 5201 0 5236 Load the lamia
+E 0 5237 0 17 A lavender and green stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
+M 0 5206 0 5236 Load the mimic
+E 0 5222 0 12 A black silk robe is loaded about the shoulders of the mimic
+M 0 5205 0 5238 Load the mimic
+E 0 5214 0 17 A smooth quartz ball is loaded held in the hands of the mimic
+M 0 5201 0 5240 Load the lamia
+E 0 5241 0 17 A pink and green stone is loaded held in the hands of the lamia
+E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
 O 0 5228 0 5242 A rotten arm loaded to A bath house
-M 0 5207 0 5244 Load The horned lizard
-M 0 5208 2 5246 Load The stone golem
-E 0 5221 0 16 A two-handed sword is loaded wielded of The stone golem
-E 0 5226 0 17 An engraved ivory seal is loaded held in the hands of The stone golem
-E 0 5203 0 10 Some mithril sleeves is loaded on the arms of The stone golem
-M 0 5208 2 5247 Load The stone golem
-E 0 5221 0 16 A two-handed sword is loaded wielded of The stone golem
-E 0 5224 0 17 An engraved ebony seal is loaded held in the hands of The stone golem
-E 0 5200 0 5 A mithril vest is loaded on the body of The stone golem
-E 0 5204 0 8 A pair of mithril boots is loaded on the feet of The stone golem
-M 0 5208 2 5248 Load The stone golem
-E 0 5221 0 16 A two-handed sword is loaded wielded of The stone golem
-E 0 5205 0 7 A set of mithril leggings is loaded on the legs of The stone golem
-E 0 5206 0 13 A mithril girth is loaded around the waist of The stone golem
-M 0 5200 0 5250 Load The mighty beholder
-E 0 5208 0 11 A sturdy iron shield is loaded as a shield of The mighty beholder
-E 0 5223 0 3 A dark green cloak is loaded around the neck (1) of The mighty beholder
-M 0 5208 2 5254 Load The stone golem
-E 0 5221 0 16 A two-handed sword is loaded wielded of The stone golem
-E 0 5201 0 6 A mithril helm is loaded over the head of The stone golem
-E 0 5202 0 9 A pair of mithril gauntlets is loaded on the hands of The stone golem
+M 0 5207 0 5244 Load the horned lizard
+M 0 5208 2 5246 Load the stone golem
+E 0 5221 0 16 A two-handed sword is loaded wielded of the stone golem
+E 0 5226 0 17 An engraved ivory seal is loaded held in the hands of the stone golem
+E 0 5203 0 10 Some mithril sleeves is loaded on the arms of the stone golem
+M 0 5208 2 5247 Load the stone golem
+E 0 5221 0 16 A two-handed sword is loaded wielded of the stone golem
+E 0 5224 0 17 An engraved ebony seal is loaded held in the hands of the stone golem
+E 0 5200 0 5 A mithril vest is loaded on the body of the stone golem
+E 0 5204 0 8 A pair of mithril boots is loaded on the feet of the stone golem
+M 0 5208 2 5248 Load the stone golem
+E 0 5221 0 16 A two-handed sword is loaded wielded of the stone golem
+E 0 5205 0 7 A set of mithril leggings is loaded on the legs of the stone golem
+E 0 5206 0 13 A mithril girth is loaded around the waist of the stone golem
+M 0 5200 0 5250 Load the mighty beholder
+E 0 5208 0 11 A sturdy iron shield is loaded as a shield of the mighty beholder
+E 0 5223 0 3 A dark green cloak is loaded around the neck (1) of the mighty beholder
+M 0 5208 2 5254 Load the stone golem
+E 0 5221 0 16 A two-handed sword is loaded wielded of the stone golem
+E 0 5201 0 6 A mithril helm is loaded over the head of the stone golem
+E 0 5202 0 9 A pair of mithril gauntlets is loaded on the hands of the stone golem
 M 0 5111 2 5267 Load the drow scout
 E 0 5100 0 16 A commoner's longsword is loaded wielded of the drow scout
 M 0 5110 2 5270 Load the drow guard
@@ -2210,7 +2210,7 @@ S
 
 
 #PROGS
-M 5200 13 Offensive Mage Load to: The mighty beholder
+M 5200 13 Offensive Mage Load to: the mighty beholder
 S
 
 

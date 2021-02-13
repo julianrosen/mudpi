@@ -17,12 +17,12 @@ A bright green pixie!
 ~
 Human~
 AGS T 0 S
-10 7
+10 7 
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
 8 8 -1 1
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20101
 red pixie~
 a red pixie~
@@ -32,12 +32,12 @@ A bright red pixie!
 ~
 Human~
 AGS T 1000 S
-10 7
+10 7 
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
 8 8 -1 1
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20102
 blue pixie~
 a blue pixie~
@@ -47,12 +47,12 @@ A bright blue pixie
 ~
 Human~
 AGS T 1000 S
-10 7
+10 7 
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
 8 8 -1 1
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20103
 annoying purple pixie~
 an annoying purple pixie~
@@ -62,12 +62,12 @@ A bright purple pixie!
 ~
 Human~
 AS T 1000 S
-10 7
+10 7 
 100 0 0 0 3d10+0 0d0+0 2d3+2 0
 4 4 4 7
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20104
 orange pixie~
 an orange pixie~
@@ -77,12 +77,12 @@ A bright orange pixie!
 ~
 Human~
 AGS T 1000 S
-10 7
+10 7 
 100 0 0 0 3d22+50 0d0+0 2d4+5 0
 4 4 4 7
 0 0 0 0
 8 8 -1 1
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20105
 Amber pixie princess~
 Amber~
@@ -93,12 +93,12 @@ sweet to all visitors.
 ~
 Human~
 AB T 1000 S
-20 24
+20 24 
 100 0 0 0 6d35+170 0d0+0 3d5+9 0
 -2 -2 -2 4
 0 0 0 0
 8 8 2 2000
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20106
 pixie vender~
 a pixie vender~
@@ -108,26 +108,26 @@ A small pixie selling various foods.
 ~
 Human~
 ABd T 1000 S
-90 100
+90 100 
 100 0 0 0 10d1000+10 0d0+0 10d1000+10 0
 -10 -10 -10 -10
 0 0 CD 0
 8 8 1 100000
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20107
 pixie pet dealer~
 a pixie pet dealer~
 A pixie pet dealer is standing here.
 ~
-~
+(null)~
 Human~
 ABd T 1000 S
-90 100
+90 100 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 -10 -10 -10 -10
 0 0 0 0
 8 8 1 100000
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20108
 pixie dog~
 a pixie dog~
@@ -137,12 +137,12 @@ Awwww, a cute little doggy.
 ~
 dog~
 A T 0 S
-5 3
+5 3 
 100 0 0 0 1d17+42 0d0+0 2d4+5 0
 5 5 5 10
 H 0 0 0
 8 8 0 0
-AGV ACDEFHJKPUV T unknown
+AGV ACDEFHJKPUV T 0
 #20109
 pixie kitten~
 a pixie kitten~
@@ -152,12 +152,12 @@ Look at the cute little cat! It even has wings, awwwwww.
 ~
 cat~
 A TZ 0 S
-1 2
+1 2 
 100 0 0 0 2d10+1 0d0+0 2d6+10 0
 10 10 10 10
 FH 0 0 0
 8 8 0 0
-AGV ACDEFHJKPQUV T unknown
+AGV ACDEFHJKPQUV T 0
 #20110
 gypsy pixie~
 a gypsy pixie~
@@ -167,12 +167,12 @@ An old woman in a cloak.
 ~
 Human~
 ABd T -200 S
-90 100
+90 100 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 -10 -10 -10 -10
 0 0 0 0
 8 8 2 1000000
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20111
 old pixie man~
 an old pixie man~
@@ -183,12 +183,12 @@ traveler. Now he is retired and devotes his life to selling staffs.
 ~
 Human~
 ABd 0 1000 S
-90 100
+90 100 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 -10 -10 -10 -10
 0 0 0 0
 8 8 1 1000
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20112
 pixie arms dealer~
 the pixie arms dealer~
@@ -198,12 +198,12 @@ A small pixie in battle gear.
 ~
 Human~
 AB T 100 S
-15 13
+15 13 
 100 0 0 0 5d30+150 0d0+0 3d5+5 0
 0 0 0 5
 0 0 0 D
 8 8 1 100
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20113
 frantic pixie~
 a frantic pixie~
@@ -213,12 +213,12 @@ A frantic pixie!
 ~
 Human~
 AB T 1000 S
-5 2
+5 2 
 100 0 0 0 1d15+30 0d0+0 2d3+2 0
 7 7 7 10
 0 0 0 0
 8 8 -1 23
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20114
 pixie basket weaver~
 a pixie basket weaver~
@@ -228,68 +228,68 @@ An old pixie lady in raggy clothes just trying to make a few bucks.
 ~
 Human~
 ABd T 1000 S
-90 100
+90 100 
 100 0 0 0 100d100+100 0d0+0 100d100+100 0
 -20 -20 -20 -25
 0 0 CD 0
 8 8 2 1000
-AHMV ABCDEFGHIJKP M unknown
+AHMV ABCDEFGHIJKP M 0
 #20115
 preppy pixie~
 a preppy pixie~
 A preppy little pixie is here, wearing the latest fashion style.
 ~
-~
+(null)~
 Human~
 AB T 1000 S
-10 5
+10 5 
 100 0 0 0 3d20+100 0d0+0 2d4+4 0
 4 4 4 7
 0 0 0 0
 8 8 2 20
-AHMV ABCDEFGHIJKP T unknown
+AHMV ABCDEFGHIJKP T 0
 #20116
 guard royal pixie elite~
 a pixie guard~
 A guard of the royal pixie elite stands here.
 ~
-~
+(null)~
 Human~
 A T 1000 S
-15 18
+15 18 
 100 0 0 0 1d17+42 0d0+0 3d5+8 0
 0 0 0 5
 0 0 0 0
 8 8 1 100
-AHMV ABCDEFGHIJKP M unknown
+AHMV ABCDEFGHIJKP M 0
 #20117
 royal pixie servant~
 a royal pixie servant~
 One of Amber's royal pixie servants stands here waiting to take orders.
 ~
-~
+(null)~
 Human~
 A T 1000 S
-10 7
+10 7 
 100 0 0 0 3d22+100 0d0+0 3d5+8 0
 4 4 4 7
 0 0 0 0
 8 8 1 12
-AHMV ABCDEFGHIJKP M unknown
+AHMV ABCDEFGHIJKP M 0
 #20119
 creature~
 a vicious creature~
 A vicious creature snarls at you.
 ~
-~
+(null)~
 goblin~
 AB J -1000 S
-5 3
+5 3 
 100 0 0 0 1d6+25 0d0+0 2d3+2 0
 7 7 7 10
 0 0 Q C
 8 8 1 0
-AHMV ABCDEFGHIJK L unknown
+AHMV ABCDEFGHIJK L 0
 #20123
 bear large~
 a large bear~
@@ -299,12 +299,12 @@ A large mean bear.
 ~
 bear~
 ABF 0 -1000 S
-15 22
+15 22 
 100 0 0 0 5d30+161 0d0+0 3d5+8 0
 0 0 0 5
 DEO 0 EI 0
 8 8 0 0
-AGV ABCDEFHJKUV M unknown
+AGV ABCDEFHJKUV M 0
 #0
 
 
@@ -369,11 +369,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-1 -1
+13 -10
 A
 3 -1
 A
-13 -10
+1 -1
 #20107
 cursed belt~
 the cursed belt~
@@ -383,11 +383,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-5 -2
+19 0
 A
 12 -10
 A
-19 0
+5 -2
 #20108
 walking stick~
 a tiny tiny walking stick~
@@ -477,11 +477,11 @@ the air. "Hehehe....."
 ~
 0 2097153 3
 D1
-~
+(null)~
 ~
 0 0 20101
 D3
-~
+(null)~
 ~
 0 0 19195
 S
@@ -494,15 +494,15 @@ do all the lights flies off in different directions.
 ~
 0 2097153 3
 D0
-~
+(null)~
 ~
 0 0 20102
 D2
-~
+(null)~
 ~
 0 0 20103
 D3
-~
+(null)~
 ~
 0 0 20100
 S
@@ -515,11 +515,11 @@ behavior before.
 ~
 0 2097153 3
 D1
-~
+(null)~
 ~
 0 0 20104
 D2
-~
+(null)~
 ~
 0 0 20101
 S
@@ -530,7 +530,7 @@ dodge it as it starts to make for you again. Quick think fast!
 ~
 0 2097153 3
 D0
-~
+(null)~
 ~
 0 0 20101
 S
@@ -543,11 +543,11 @@ know that mischievous sound?
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 20105
 D3
-~
+(null)~
 ~
 0 0 20102
 S
@@ -559,19 +559,19 @@ Hehehe!" She flies of north to, what looks like an inhabitance.
 ~
 0 2097156 3
 D0
-~
+(null)~
 ~
 0 0 20106
 D1
-~
+(null)~
 ~
 0 0 20107
 D2
-~
+(null)~
 ~
 0 0 20108
 D3
-~
+(null)~
 ~
 0 0 20104
 S
@@ -582,11 +582,11 @@ blinding to see so many colors at once all flying in different directions.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20110
 D2
-~
+(null)~
 ~
 0 0 20105
 S
@@ -597,7 +597,7 @@ importance. Better go on and come back another time.
 ~
 0 2097161 0
 D3
-~
+(null)~
 ~
 0 0 20105
 S
@@ -609,11 +609,11 @@ is a cave to your east
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20105
 D1
-~
+(null)~
 ~
 0 0 20109
 S
@@ -625,7 +625,7 @@ try to jump you but your too quick. Kill them and get back to the forest.
 ~
 0 2097153 0
 D3
-~
+(null)~
 ~
 0 0 20108
 S
@@ -639,19 +639,19 @@ on the sides of the road.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20113
 D1
-~
+(null)~
 ~
 0 0 20111
 D2
-~
+(null)~
 ~
 0 0 20106
 D3
-~
+(null)~
 ~
 0 0 20112
 S
@@ -663,7 +663,7 @@ intrusion.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 0 0 20110
 S
@@ -675,7 +675,7 @@ pixies don't mind you just squashed all their furniture.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 20110
 S
@@ -688,19 +688,19 @@ smashing up their houses.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20114
 D1
-~
+(null)~
 ~
 0 0 20115
 D2
-~
+(null)~
 ~
 0 0 20110
 D3
-~
+(null)~
 ~
 0 0 20116
 S
@@ -712,19 +712,19 @@ houses. Pixies are looking at you and giggling as they fly by.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20117
 D1
-~
+(null)~
 ~
 0 0 20119
 D2
-~
+(null)~
 ~
 0 0 20113
 D3
-~
+(null)~
 ~
 0 0 20118
 S
@@ -735,7 +735,7 @@ pixies walk in and out talking and telling jokes with one another.
 ~
 0 2097152 3
 D3
-~
+(null)~
 ~
 0 0 20113
 S
@@ -747,7 +747,7 @@ breath.
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 20113
 S
@@ -760,19 +760,19 @@ is a castle, huge to the pixies, normal sized to you.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20122
 D1
-~
+(null)~
 ~
 0 0 20121
 D2
-~
+(null)~
 ~
 0 0 20114
 D3
-~
+(null)~
 ~
 0 0 20120
 S
@@ -784,7 +784,7 @@ of the ruins and cuss you out. "Stay away you big oaf!"
 ~
 0 2097152 3
 D1
-~
+(null)~
 ~
 0 0 20114
 S
@@ -797,7 +797,7 @@ pixie with an attitude.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 0 0 20114
 S
@@ -809,19 +809,19 @@ the dealers have agreed to come outside.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20125
 D1
-~
+(null)~
 ~
 0 0 20117
 D2
-~
+(null)~
 ~
 0 0 19136
 D3
-~
+(null)~
 ~
 0 0 20123
 S
@@ -834,19 +834,19 @@ to you.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20129
 D1
-~
+(null)~
 ~
 0 0 20124
 D2
-~
+(null)~
 ~
 0 0 20130
 D3
-~
+(null)~
 ~
 0 0 20117
 S
@@ -859,11 +859,11 @@ quite nice.
 ~
 0 2097156 3
 D0
-~
+(null)~
 ~
 0 0 20133
 D2
-~
+(null)~
 ~
 0 0 20117
 S
@@ -875,15 +875,15 @@ while the basket shop is to the south.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20131
 D1
-~
+(null)~
 ~
 0 0 20120
 D2
-~
+(null)~
 ~
 0 0 20132
 S
@@ -895,15 +895,15 @@ pixie staffs.
 ~
 0 2097152 3
 D0
-~
+(null)~
 ~
 0 0 20128
 D2
-~
+(null)~
 ~
 0 0 20127
 D3
-~
+(null)~
 ~
 0 0 20121
 S
@@ -915,7 +915,7 @@ ya just gonna stand there and stare or do you wanna buy something?"
 ~
 0 2101248 3
 D2
-~
+(null)~
 ~
 0 0 20120
 S
@@ -935,7 +935,7 @@ as a small gypsy pixie appears behind the counter in a swirling mist.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 20124
 S
@@ -949,7 +949,7 @@ would you buy one anyway?" "No?" The old man goes back inside.
 ~
 0 2097152 3
 D2
-~
+(null)~
 ~
 0 0 20124
 S
@@ -963,7 +963,7 @@ tells you to leave, you're scaring the customers!
 ~
 0 2097152 3
 D2
-~
+(null)~
 ~
 0 0 20121
 S
@@ -975,7 +975,7 @@ out the front door screaming.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 20121
 S
@@ -987,7 +987,7 @@ pixie running in and out buying all the latest clothes.
 ~
 0 2097152 3
 D2
-~
+(null)~
 ~
 0 0 20123
 S
@@ -999,7 +999,7 @@ baskets. However, I don't think you'll be able to fit much in there.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 20123
 S
@@ -1013,19 +1013,19 @@ have much of a choice if they're going to let you in or not.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 20134
 D1
-~
+(null)~
 ~
 1 0 20135
 D2
-~
+(null)~
 ~
 0 0 20122
 D3
-~
+(null)~
 ~
 1 0 20136
 S
@@ -1038,19 +1038,19 @@ respected pixie so you better be careful about how you act around her.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 20137
 D1
-~
+(null)~
 ~
 1 20121 20138
 D2
-~
+(null)~
 ~
 0 0 20133
 D3
-~
+(null)~
 ~
 1 20121 20139
 S
@@ -1063,7 +1063,7 @@ another place to stay.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 1 0 20133
 S
@@ -1076,7 +1076,7 @@ and all of the furniture.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 1 0 20133
 S
@@ -1089,11 +1089,11 @@ there is gold laying everywhere.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 20140
 D2
-~
+(null)~
 ~
 0 0 20134
 S
@@ -1105,7 +1105,7 @@ about one average pile. Take whatever you want.
 ~
 0 2097152 0
 D3
-~
+(null)~
 ~
 1 0 20134
 S
@@ -1117,7 +1117,7 @@ some off of her hands and help her out.
 ~
 0 2097152 0
 D1
-~
+(null)~
 ~
 1 0 20134
 S
@@ -1128,7 +1128,7 @@ Better leave before she gets mad!
 ~
 0 2097164 0
 D2
-~
+(null)~
 ~
 0 0 20137
 S
@@ -1141,85 +1141,86 @@ D 0 20134 1 1
 D 0 20134 3 1
 D 0 20138 3 1
 D 0 20139 1 1
-M 0 20123 1 20103
-M 0 20100 20 20106
-M 0 20101 20 20106
-M 0 20102 20 20106
-M 0 20104 20 20106
-M 0 20119 5 20109
-E 0 20130 0 3
-M 0 20100 20 20110
-M 0 20101 20 20110
-M 0 20102 20 20110
-M 0 20104 20 20110
-M 0 20100 20 20113
-M 0 20101 20 20113
-M 0 20102 20 20113
-M 0 20104 20 20113
-M 0 20100 20 20114
-M 0 20101 20 20114
-M 0 20102 20 20114
-M 0 20104 20 20114
-O 0 20104 0 20117
-M 0 20106 1 20117
-G 0 20100 0
-G 0 20102 0
-G 0 20101 0
-G 0 20103 0
-M 0 20100 20 20117
-M 0 20101 20 20117
-M 0 20102 20 20117
-M 0 20104 20 20117
-M 0 20103 1 20117
-M 0 20100 5 20120
-M 0 20101 4 20120
-M 0 20100 30 20121
-M 0 20101 30 20121
-M 0 20102 30 20121
-M 0 20104 30 20121
-M 0 20102 30 20123
-M 0 20104 30 20123
-M 0 20100 30 20124
-M 0 20101 30 20124
-M 0 20102 30 20124
-M 0 20104 30 20124
-M 0 20107 1 20125
-M 0 20108 1 20126
-M 0 20109 1 20126
-M 0 20110 1 20127
-G 0 20105 0
-G 0 20106 0
-G 0 20107 0
-M 0 20112 1 20129
-E 0 20122 0 16
-M 0 20113 3 20130
-M 0 20115 4 20131
-M 0 20114 1 20132
-G 0 20113 0
-M 0 20116 15 20133
-M 0 20117 5 20133
-M 0 20116 15 20134
-M 0 20117 5 20134
-M 0 20105 1 20137
-M 0 20116 15 20137
-M 0 20117 10 20137
-O 0 20119 0 20137
-O 0 20119 0 20138
-O 0 20119 0 20139
-O 0 20120 0 20140
-P 0 20121 0 20120
+M 0 20123 0 20103 Load a large bear
+M 0 20100 20 20106 Load a green pixie
+M 0 20101 20 20106 Load a red pixie
+M 0 20102 20 20106 Load a blue pixie
+M 0 20104 20 20106 Load an orange pixie
+M 0 20119 5 20109 Load a vicious creature
+E 0 20130 0 3 A stone statue of the great tiki god is loaded around the neck (1) of a vicious creature
+M 0 20100 20 20110 Load a green pixie
+M 0 20101 20 20110 Load a red pixie
+M 0 20102 20 20110 Load a blue pixie
+M 0 20104 20 20110 Load an orange pixie
+M 0 20100 20 20113 Load a green pixie
+M 0 20101 20 20113 Load a red pixie
+M 0 20102 20 20113 Load a blue pixie
+M 0 20104 20 20113 Load an orange pixie
+M 0 20100 20 20114 Load a green pixie
+M 0 20101 20 20114 Load a red pixie
+M 0 20102 20 20114 Load a blue pixie
+M 0 20104 20 20114 Load an orange pixie
+O 0 20104 0 20117 A pixie fountain loaded to Pixie Square
+M 0 20106 0 20117 Load a pixie vender
+G 0 20100 0 A pixie pie is given to a pixie vender
+G 0 20102 0 A small leg of turkey is given to a pixie vender
+G 0 20101 0 Some pixie berries is given to a pixie vender
+G 0 20103 0 A cup of pixie tea is given to a pixie vender
+M 0 20100 20 20117 Load a green pixie
+M 0 20101 20 20117 Load a red pixie
+M 0 20102 20 20117 Load a blue pixie
+M 0 20104 20 20117 Load an orange pixie
+M 0 20103 0 20117 Load an annoying purple pixie
+M 0 20100 5 20120 Load a green pixie
+M 0 20101 4 20120 Load a red pixie
+M 0 20100 30 20121 Load a green pixie
+M 0 20101 30 20121 Load a red pixie
+M 0 20102 30 20121 Load a blue pixie
+M 0 20104 30 20121 Load an orange pixie
+M 0 20102 30 20123 Load a blue pixie
+M 0 20104 30 20123 Load an orange pixie
+M 0 20100 30 20124 Load a green pixie
+M 0 20101 30 20124 Load a red pixie
+M 0 20102 30 20124 Load a blue pixie
+M 0 20104 30 20124 Load an orange pixie
+M 0 20107 0 20125 Load a pixie pet dealer
+M 0 20108 0 20126 Load a pixie dog
+M 0 20109 0 20126 Load a pixie kitten
+M 0 20110 0 20127 Load a gypsy pixie
+G 0 20105 0 The devil's deed is given to a gypsy pixie
+G 0 20106 0 The cursed amulet is given to a gypsy pixie
+G 0 20107 0 The cursed belt is given to a gypsy pixie
+M 0 20112 0 20129 Load the pixie arms dealer
+E 0 20122 0 16 A pixie sword is loaded wielded of the pixie arms dealer
+M 0 20113 3 20130 Load a frantic pixie
+M 0 20115 4 20131 Load a preppy pixie
+M 0 20114 0 20132 Load a pixie basket weaver
+G 0 20113 0 A small pixie basket is given to a pixie basket weaver
+M 0 20116 15 20133 Load a pixie guard
+M 0 20117 5 20133 Load a royal pixie servant
+M 0 20116 15 20134 Load a pixie guard
+M 0 20117 5 20134 Load a royal pixie servant
+M 0 20105 0 20137 Load Amber
+M 0 20116 15 20137 Load a pixie guard
+M 0 20117 10 20137 Load a royal pixie servant
+O 0 20119 0 20137 Some gold coins loaded to Amber's Throne Room
+O 0 20119 0 20138 Some gold coins loaded to A Treasure Room
+O 0 20119 0 20139 Some gold coins loaded to A Treasure Room
+O 0 20120 0 20140 An oak dresser loaded to Amber's Bedroom
+P 0 20121 0 20120 A bright yellow key put inside a bright yellow key
 S
 
 
 
 #PROGS
-M 20100 21
-M 20101 21
-M 20102 21
-M 20103 24
-M 20104 21
-M 20116 20
+M 20100 21 Thief Load to: a green pixie
+M 20101 21 Thief Load to: a red pixie
+M 20102 21 Thief Load to: a blue pixie
+M 20103 24 Puff Load to: an annoying purple pixie
+M 20104 21 Thief Load to: an orange pixie
+M 20116 20 CityGuard Load to: a pixie guard
 S
+
 
 
 #SHOPS
@@ -1227,6 +1228,11 @@ S
 20110 2 8 17 0 0 100 0 0 23
 20111 4 0 0 0 0 100 99 0 23
 20114 15 0 0 0 0 100 25 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

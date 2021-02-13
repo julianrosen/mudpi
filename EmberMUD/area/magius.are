@@ -13,29 +13,29 @@ soulfire~
 Soulfire~
 `m(Purple Aura) `cSoulfire is wandering about here, stroking his talisman and muttering about an unfinished office somewhere in Sunstone City.`w
 ~
-~
+(null)~
 Human~
 AR CDEFJTUVZb 0 S
-100 55
+100 55 
 100 0 0 0 4358d5+400 1105d1+0 20d25+55 19
 -10 -10 -10 -10
 0 ABCD 0 0
 8 8 1 5000
-AGHMV ABCDEFGHIJK M unknown
+AGHMV ABCDEFGHIJK M 0
 #30001
 gnome gnomish worker~
 a gnomish worker~
 A gnomish worker handles the implementation of the final touches.
 ~
-~
+(null)~
 Hobbit~
 AB J 0 S
-1 1
+1 1 
 100 0 0 0 1d2+6 0d0+0 1d2+0 0
 0 0 0 0
 0 0 CL R
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -50,13 +50,13 @@ unknown~
 ABCD ABCD ABCD BE 0
 56 5 0 P
 A
-12 50
-A
-1 1
+5 1
 A
 4 2
 A
-5 1
+1 1
+A
+12 50
 #30001
 soulfire treasure~
 a small stack of coins sits upon the desk here, apparently today's earnings~
@@ -106,9 +106,9 @@ unknown~
 ADE 0 0 0 0
 80 0 0 P
 A
-14 200
-A
 2 5
+A
+14 200
 #30197
 note~
 a small note, reading: `gTo:`w "a wonderfully special, adorably cute, little dragon."`r From:`w `bA `mS`be`mc`br`me`bt`m A`bd`mm`bi`mr`be`mr`w~
@@ -140,7 +140,7 @@ B ABCD ACD ABD DE
 #ROOMS
 #30000
 Soulfire's Vault~
-~
+(null)~
 0 295948 0
 S
 #30001
@@ -162,7 +162,7 @@ protection or warding spells that have been cast upon them. You find
 yourself unable to go anywhere near the treasure.
 ~
 D3
-~
+(null)~
 ~
 0 0 21417
 S
@@ -171,20 +171,26 @@ S
 
 
 #RESETS
-O 0 30001 0 30001
-M 0 30001 1 30001
-M 0 30000 1 30001
-E 0 30002 0 3
+O 0 30001 0 30001 A small stack of coins sits upon the desk here, apparently today's earnings loaded to Soulfire's Office [incomplete]
+M 0 30001 0 30001 Load a gnomish worker
+M 0 30000 0 30001 Load Soulfire
+E 0 30002 0 3 `csoulfire's `yt`ra`yl`ri`ys`rm`ya`rn `gof `mi`bn`mv`bu`ml`bn`me`br`ma`bb`mi`bl`mi`bt`my`w is loaded around the neck (1) of Soulfire
 S
 
 
 
 #PROGS
-M 30000 13
+M 30000 13 Offensive Mage Load to: Soulfire
 S
 
 
+
 #SHOPS
+0
+
+
+
+#FACTIONAFFS
 0
 
 

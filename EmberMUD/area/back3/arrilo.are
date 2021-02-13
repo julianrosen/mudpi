@@ -1,0 +1,1075 @@
+#AREADATA
+Name        {25 55} Gavin   Arrilo's Chambers~
+Builders    None~
+VNUMs       23400 23499
+Security    6
+End
+
+
+
+#MOBILES
+#23400
+lord tempest~
+the Lord Tempest~
+The Lord Tempest is trying to escape Arillo's cells.
+~
+(null)~
+goblin~
+AB HJ 250 S
+25 26 
+100 0 0 0 10d43+325 1d10+100 5d5+12 6
+-5 -5 -5 2
+0 0 Q C
+8 8 1 271
+AHMV ABCDEFGHIJK M 0
+#23401
+great skrit~
+the Great Skrit~
+The Great Skrit is here throwing dirt in your eyes.
+~
+(null)~
+Hobbit~
+AB HJ -250 S
+30 31 
+100 0 0 0 10d61+416 1d10+100 5d6+15 32
+-9 -9 -9 0
+0 0 CLQ R
+8 8 -1 273
+AHMV ABCDEFGHIJK M 0
+#23402
+a black abishia~
+a Black Abishia~
+Shrieking out in rage and anger, the Black Abishia descends on you.
+~
+(null)~
+kobold~
+AB HJ -150 S
+35 35 
+100 0 0 0 10d93+452 1d10+100 5d7+17 0
+-12 -12 -12 -1
+0 0 L C
+8 8 -1 401
+ABHMV ABCDEFGHIJKQ M 0
+#23403
+The Great Barbazo~
+the Great Barbazo~
+A Great Barbazo communicates his rage to you with telepathy.
+~
+(null)~
+kobold~
+AB HJ -10 S
+40 39 
+100 0 0 0 10d112+632 1d10+200 5d7+20 0
+-15 -15 -15 -2
+0 0 L C
+8 8 0 482
+ABHMV ABCDEFGHIJKQ M 0
+#23404
+The Great White Bat~
+a Great White Bat~
+A Huge White Bat is hanging up-side down here in the cell.
+~
+(null)~
+bat~
+AB HTZ -250 S
+20 20 
+100 0 0 0 6d40+263 0d0+0 4d5+10 10
+0 0 0 0
+FH 0 0 S
+8 8 0 0
+AGW ACDEFHJKP M 0
+#23405
+black anaconda~
+a large Anaconda~
+A Large Anaconda is here coiled up in the corner.
+~
+(null)~
+snake~
+AB H -100 S
+25 24 
+100 0 0 0 10d54+374 1d10+100 5d5+12 8
+-5 -5 -5 2
+0 0 L I
+8 8 0 0
+AGRXYc ADEFKLQVX M 0
+#23406
+thief skayle~
+a thief named Skayle~
+A thief named Skayle is hiding in a nearby shadow.
+~
+(null)~
+Human~
+ABS DF -300 S
+30 29 
+100 0 0 0 10d61+416 0d0+0 5d6+15 11
+-9 -9 -9 0
+0 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M 0
+#23407
+zeldon the warrior~
+Zeldon the Warrior~
+A strong looking warrior named Zeldon is here firing a crossbow into a cactus plant across the room.
+~
+(null)~
+Human~
+AB 0 250 S
+33 33 
+100 0 0 0 10d83+438 0d0+0 5d7+17 21
+-11 -11 -11 0
+0 0 0 0
+8 8 0 326
+AHMV ABCDEFGHIJK M 0
+#23408
+sky short woman~
+Sky~
+A short young woman named Sky is sitting here playing a zither and singing peasant folk songs.
+~
+(null)~
+Human~
+AB 0 120 S
+17 17 
+100 0 0 0 5d45+192 1d10+100 3d5+10 23
+-2 -2 -2 4
+0 0 0 0
+8 8 2 89
+AHMV ABCDEFGHIJK M 0
+#23409
+a deaf servant~
+a deaf servant~
+The deaf servant is here cooking meals against his will.
+~
+(null)~
+Human~
+AB 0 350 S
+28 25 
+100 0 0 0 10d49+160 1d10+100 5d6+13 26
+-7 -7 -7 1
+0 0 0 0
+8 8 0 211
+AHMV ABCDEFGHIJK M 0
+#23410
+Devlin Denor thief~
+Devlin Denor~
+Devlin Denor is here plundering personal items from the room of Arrilo.
+~
+(null)~
+modron~
+ABS J -250 S
+36 35 
+100 0 0 0 10d93+612 0d0+0 5d7+18 11
+-14 -14 -14 -1
+QR BMNPQ HIK 0
+8 8 0 100
+H ABCGHJK M 0
+#23411
+Comet Twiglight~
+Twiglight the Comet~
+Twiglight the comet is sitting on a bed sewing a new pocket onto his black star covered robe.
+~
+(null)~
+Wyvern~
+ABH DFHT 10 S
+15 16 
+100 0 0 0 5d5+25 1d10+100 3d5+8 6
+0 0 0 5
+CFH L 0 S
+8 8 -1 79
+BZc ACDEFHJKQUVX M 0
+#23412
+boldor henchman~
+Boldor the henchman~
+Torlok's loyal henchman Boldor is here on guard.
+~
+(null)~
+Human~
+ABT H 250 S
+41 42 
+100 0 0 0 10d121+645 1d10+100 5d8+21 8
+-15 -15 -15 -2
+0 0 0 0
+8 8 1 314
+AHMV ABCDEFGHIJK M 0
+#23413
+evil wizard torlok~
+the evil Wizard Torlok~
+Torlok is here swearing loudly as he tries to break a secret spell.
+~
+A rather short, and disgruntled hobbit walks slowly around the room. A
+hat covers his evenly cut greying hair, and a simple robe falls about his
+body. His facial features, like any hobbit, are large for his size, giving
+him a slight childish appearance. A wide downturned nose, almost
+troll-like, large ears almost hiding under his hair, and distracted greyish
+green eyes complete the look.  
+~
+Hobbit~
+ABRd HJ -500 S
+55 58 
+100 0 0 0 10d193+983 10d10+100 5d10+30 19
+-24 -24 -24 -7
+G 0 CLQ R
+8 8 1 482
+AHMV ABCDEFGHIJK S 0
+#0
+
+
+
+#OBJECTS
+#23400
+silver cell keys~
+a set of Silver Cell Keys~
+A shiny set of keys lie here in the dirt.~
+unknown~
+18 A AO
+0 0 0 0 0
+18 3 427 P
+#23401
+belt demonic desires armor-waist~
+the belt of demonic desires~
+A bloody belt decorated with a pentagram screams for your soul.~
+unknown~
+9 ABJ AL
+C C C C 0
+32 4 1632 P
+A
+18 2
+A
+19 4
+A
+2 2
+#23402
+sky's guitar armor-shield~
+`WSky's Guitar`w~
+A weird looking guitar lies here.~
+unknown~
+9 BSTW AJO
+B B B B 0
+15 3 517 P
+A
+3 2
+A
+18 3
+A
+17 -5
+#23403
+wicked twisted short sword vorpal~
+a wicked twisted short sword~
+A twisted black blade makes you shudder upon seeing it.~
+unknown~
+5 UX AN
+A AC D ABD E
+35 0 1462 P
+#23404
+top hat armor-head~
+a Top Hat~
+A large hat lies here on the ground all dirty.~
+unknown~
+9 SW AE
+AC AC AC AC 0
+34 0 1382 P
+A
+4 2
+A
+17 -6
+A
+19 3
+#23405
+black starry robe armor-about~
+a Black Starry Robe~
+A dark robe with stars all over it lies here.~
+unknown~
+9 AGSTUV AK
+B B B B 0
+15 3 482 P
+A
+18 1
+A
+19 2
+A
+5 1
+#23406
+skull shield armor-shield~
+a Skull Shield~
+A shield made from the skulls of unknown mortals.~
+unknown~
+9 ARX AJ
+BCDE BCDE BCDE BCDE 0
+40 5 2173 P
+A
+1 1
+A
+19 2
+A
+13 12
+#23407
+double edged death axe vampiric two-hands~
+a Double Edged Death-Axe~
+A wicked looking axe lies here covered in dried up blood.~
+unknown~
+5 MRSX AN
+AC ABC D ACE CF
+41 4 2381 P
+#23408
+torloks evil eye light~
+`WTorlok's Evil Eye`w~
+A dried up eye lies here collecting dust.~
+unknown~
+1 ABJ AO
+0 0 500 0 0
+52 3 2842 P
+A
+17 -15
+A
+12 10
+A
+18 3
+A
+4 2
+#23409
+key storage~
+a key to Arrilo's storage room~
+A skull key lies here.~
+unknown~
+18 B AO
+0 0 0 0 0
+45 3 502 P
+#23410
+wizards hat armor-head~
+a Wizard's Hat~
+A hat with magical powers lies here.~
+unknown~
+9 GSTUVW AE
+ABC ABC ABC ABC 0
+51 4 1943 P
+A
+12 20
+A
+3 2
+A
+17 -8
+A
+19 1
+#23411
+staff teleportation staff-self~
+a staff of teleportation~
+A long wooden staff with magical powers is here stuck in the ground.~
+unknown~
+4 AT AO
+ADE AC AC 2 0
+25 3 721 P
+A
+17 -8
+A
+13 15
+#23412
+scroll think location scroll-ignore~
+a scroll of location~
+A thin scroll lies here.~
+unknown~
+2 S AO
+15 31 31 0 0
+18 2 213 P
+#23413
+gloves mental reaction armor-hands~
+`WGloves of Mental Reaction`w~
+A thick pair of gloves lie here on the shelf.~
+unknown~
+9 ASTUVW AH
+AD AD AD AD 0
+65 4 2173 P
+A
+12 100
+A
+4 2
+A
+18 3
+A
+19 -1
+#23414
+scroll ethereal protection scroll-all~
+scroll of ethereal protection~
+A magical scroll of protection lies here.~
+unknown~
+2 0 AO
+40 66 67 1 0
+49 4 5273 P
+#23415
+gold coins pile money~
+a pile of gold coins~
+A pile of gold coins is lying in the corner.~
+unknown~
+20 0 0
+CDEJ 0 0 0 0
+25 5 540 P
+#23416
+boots rage armor-feet~
+`WBoots of `RRage`w~
+A pair of wild looking boots, are slightly covered in blood.~
+unknown~
+9 BRUX AG
+AC AC AC AC 0
+40 3 937 P
+A
+19 3
+A
+18 3
+#0
+
+
+
+#ROOMS
+#23400
+Outside Arrilo's Manor~
+Standing in a clearing on the hilltop, you see an odd yet well-kept manor
+made of grey stone. Arrilo's home consists of a three-story tower and two
+single-story wings. The manor entrance is flanked by a tilted pair of
+smiling griffon statues embedded in the deep grass, and the walls are
+covered with creeping ivy.  
+~
+0 2097152 4
+D0
+(null)~
+~
+1 0 23416
+D1
+(null)~
+~
+0 0 23401
+D5
+(null)~
+~
+0 0 21235
+S
+#23401
+A Small Garden~
+This small plot of land is used by Arrilo as a vegetable garden. There
+are about ten rows of odd herbal plants and strange smelling spices. In the
+center of this garden is a hay-stuffed scarecrow with a crooked smile on his
+potato-sack face.  
+~
+0 2097152 2
+D0
+(null)~
+~
+0 0 23402
+D3
+(null)~
+~
+0 0 23400
+S
+#23402
+Between The Stables and a Side Door~
+To the west you can see Quathro's manor towering above you. To the east
+you can see a well kept stable. There is a small side door leading into
+Arrilo's manor to the west.  
+~
+0 2097152 2
+D1
+(null)~
+~
+0 0 23403
+D2
+(null)~
+~
+0 0 23401
+D3
+(null)~
+~
+1 0 23415
+S
+#23403
+A Well Kept Stable~
+Along the walls of this quaint barn hang various tools and miscellaneous
+equipment used in horse care. In the southeast corner a small area has been
+set aside for storage. There are several barrels of ale there along with
+other various oddities.  
+~
+0 2097152 0
+D3
+(null)~
+~
+0 0 23402
+D5
+(null)~
+barrel~
+1 0 23404
+S
+#23404
+The Entrance to Arrilo's Hidden Summoning Chamber~
+The walls of the damp dark corridor are made from rough cut stone. 
+Puddles of stagnant water surround you. There are cells to your north and
+south which Arrilo uses to restrain the unusually peculiar creatures he
+summons from planes and worlds far beyond mortal reach.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 23400 23413
+D1
+(null)~
+~
+0 0 23405
+D2
+(null)~
+cell~
+1 23400 23414
+D4
+(null)~
+barrel~
+1 0 23403
+S
+#23405
+Hallway of a Damp Summoning Chamber~
+The walls of this damp hallway are made from rough cut stone. You hear
+strange noises and smell peculiar odors coming from the strange creatures
+retained in the cells to your north and south.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 23400 23411
+D1
+(null)~
+~
+0 0 23406
+D2
+(null)~
+cell~
+1 23400 23412
+D3
+(null)~
+~
+0 0 23404
+S
+#23406
+Hallway of a Damp Summoning Chamber~
+The walls of this hallway are made from rough cut stone. You hear
+peculiar noises and smell strange odors coming from the cells to the north
+and south of you.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 23400 23409
+D1
+(null)~
+~
+0 0 23407
+D2
+(null)~
+cell~
+1 23400 23410
+D3
+(null)~
+~
+0 0 23405
+S
+#23407
+The Main Summoning Chamber~
+You stand before a glowing pool of water supported on an elevated stone
+platform. Inside this pool dwell the souls of all the creatures summoned by
+Arrilo. They shriek and shift at your presence. The walls of this room are
+a deep chalky black as if numerous explosions had occurred here. A stone
+stairway leads down into a dark chamber.  
+~
+0 2097152 0
+D3
+(null)~
+~
+0 0 23406
+D5
+(null)~
+~
+0 0 23408
+S
+#23408
+Supply Room~
+Shelves of strange components used in powerful spells of summoning line
+each wall of this small chamber. Other than that, the room is empty. The
+only exit from here is up.  
+~
+0 2097152 0
+D4
+(null)~
+~
+0 0 23407
+S
+#23409
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+the chains that lead to very large shackles are driven into this stone at
+regular intervals. The only exit from this cell is a barred entrance to the
+south.  
+~
+0 2097152 0
+D2
+(null)~
+cell~
+1 0 23406
+S
+#23410
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+the chains that lead to very large shackles are driven into the walls at
+regular intervals. The only exit from this cell is a barred entrance to the
+north.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 0 23406
+S
+#23411
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+the chains that lead to very large shackles are driven into the walls at
+regular intervals. The only exit from this cell is a barred entrance to the
+south.  
+~
+0 2097152 0
+D2
+(null)~
+cell~
+1 0 23405
+S
+#23412
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+the chains that lead to very large shackles are driven into the walls at
+regular intervals. The only exit from this cell is a barred entrance to the
+north.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 0 23405
+S
+#23413
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+chains that lead to very large shackles are driven into the walls at regular
+intervals. The only exit from this cell is a barred entrance to the south. 
+~
+0 2097152 0
+D2
+(null)~
+cell~
+1 0 23404
+S
+#23414
+A Large Cell~
+The walls of this large cell are cut from rough stone. Pins that hold
+the chains that lead to very large shackles are driven into the walls at
+regular intervals. The only exit from this cell is a barred entrance to the
+north.  
+~
+0 2097152 0
+D0
+(null)~
+cell~
+1 0 23404
+S
+#23415
+The Foyer~
+Two glowing orbs of glass illuminate this wood-paneled hallway. The orbs
+are suspended from the ceiling. The entire floor of this 40' hallway is
+covered with diamond shaped tiles -- mostly white with some black tiles
+interspersed among them. You can see a secondary entranceway at the eastern
+end of this corridor. Other exits lie to the west and south.  
+~
+0 2097152 0
+D1
+(null)~
+~
+1 0 23402
+D2
+(null)~
+~
+0 0 23416
+D3
+(null)~
+~
+0 0 23417
+S
+#23416
+Inside the Main Entrance~
+The walls of this chamber have been painted to resemble an autumn forest.
+The ceiling is painted with overhanging boughs while the floor consists of
+speckled brown tiles resembling earth. The only exits are through an
+archway to the north and the front door to the south.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23415
+D2
+(null)~
+~
+1 0 23400
+S
+#23417
+The Parlor~
+A pair of padded leather armchairs rest in front of a fireplace in this
+comfortable parlor. A candle chandelier is suspended from the ceiling above
+the chairs, and a slender wine cabinet stands against the north wall.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23418
+D1
+(null)~
+~
+0 0 23415
+S
+#23418
+A Dining Room~
+The walls of this spacious dining chamber are covered with murals
+depicting radiant desert scenes. The backdrop of a rolling wasteland of
+golden sand makes this room seem much larger than it actually is. The
+dinner table is carved from yellow pine and blends nicely into the
+background. Several potted cactuses along the walls contributes to the
+desert atmosphere.  
+~
+0 2097152 0
+D1
+(null)~
+~
+0 0 23420
+D2
+(null)~
+~
+0 0 23417
+D3
+(null)~
+~
+0 0 23419
+S
+#23419
+The Library~
+This entire wing of Arrilo's manor serves as the mage's library. The
+room is spacious with tall, cathedral-like windows and a pitched roof
+crossed by wooden rafters. Hanging from these rafters are twin iron
+chandeliers that resemble octopi. Most of the upper wall space is covered
+by colorful banners depicting aquatic scenes. The room is furnished with
+two long tables an several handsome chairs.  
+~
+0 2097152 0
+D1
+(null)~
+~
+0 0 23418
+S
+#23420
+The Kitchen~
+The aroma of spices and warm ale fills your nostrils as you enter the
+kitchen. This room is heated by a crackling fire in the hearth. In the
+middle of the room is a table cluttered with pots.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23421
+D3
+(null)~
+~
+0 0 23418
+S
+#23421
+The Tower Stairwell~
+This staircase joins all three floors of Arrilo's Manor. The middle of
+this staircase was left open by design so Arrilo could levitate up the shaft
+or feather-fall down without using the stairs. A wooden railing guards the
+staircase to prevent nasty falls'.  
+~
+0 2097152 0
+D2
+(null)~
+~
+0 0 23420
+D4
+(null)~
+~
+0 0 23422
+S
+#23422
+The Tower Stairwell~
+This staircase joins all three floors of Arrilo's manor. The middle of
+the staircase was left open by design so Quathro could levitate up the shaft
+or feather-fall down without using the stairs. A wooden railing guards the
+staircase to prevent nasty falls.  
+~
+0 2097152 0
+D2
+(null)~
+~
+0 0 23423
+D4
+(null)~
+~
+0 0 23428
+D5
+(null)~
+~
+0 0 23421
+S
+#23423
+Arrilo's Bedchamber~
+This bedchamber is decorated in the same bizarre fashion as many of the
+other rooms in Arrilo's manor. A large bed stands against the eastern wall.
+Its headboard and footboard are carved with dizzying spiral patterns. 
+Hanging on the walls are a number of framed pictures, each depicting some
+sort of optical illusion.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23422
+D3
+(null)~
+~
+0 0 23424
+S
+#23424
+Lavatory~
+Standing in the northwest corner of this room is an iron bathtub with
+clawed feet. On the wall above the tub several towels hang from pegs. On
+the floor by the tub is a bucket full of soap. A wooden washtub and
+washboard stand in the southeast corner near the fireplace, and two oil
+lanterns dangle from the ceiling.  
+~
+0 2097152 0
+D1
+(null)~
+~
+0 0 23423
+D2
+(null)~
+~
+0 0 23425
+S
+#23425
+Guest Bedchamber~
+This large bedroom is decorated in a tropical forest motif. The walls
+are painted with lush tropical plants, and the bed is covered with sheets
+emblazoned with leaflike patterns. A screen made of stretched crocodile
+hide stands unfolded by the southern wall.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23424
+D1
+(null)~
+~
+0 0 23426
+S
+#23426
+Servant's Quarters~
+The walls and ceiling of this bedroom are painted to resemble white,
+fluffy clouds in an endless sky of pristine blue. Painted amid the clouds
+on the north wall is a flock of soaring seagulls. Under the seagulls is a
+bed covered with fluffy white pillows. Several more stuffed seagulls are
+suspended from the ceiling. A white dresser stands next to the door, and a
+smiling portrait of Arrilo himself hangs above the mantle.  
+~
+0 2097152 0
+D2
+(null)~
+wooden~
+1 0 23427
+D3
+(null)~
+~
+0 0 23425
+S
+#23427
+Balcony~
+A stone wall encloses this 20' x 20' balcony. From this vantage point,
+one can barely see the village of Babolini beyond the trees to the south. A
+wooden door to the north bars entrance to the manor.  
+~
+0 2097152 0
+D0
+(null)~
+wooden~
+1 0 23426
+S
+#23428
+The Tower Stairwell~
+This staircase joins all three floors of Arrilo's manor. The middle of
+the staircase was left open by design so Arrilo could levitate up the shaft
+or feather-fall down without using the stairs. A wooden railing guards the
+staircase to prevent nasty falls.  
+~
+0 2097152 0
+D2
+(null)~
+~
+0 0 23429
+D5
+(null)~
+~
+0 0 23422
+S
+#23429
+The Gallery~
+Standing in the middle of this chamber is a large octagonal table with a
+wooden replica of Arrilo's manor built atop it. The room itself is
+wood-paneled and adorned with four empty suits of armor. Placed on
+pedestals under the windows are four fish-filled aquariums made of spherical
+glass.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23428
+D2
+(null)~
+~
+0 0 23430
+S
+#23430
+Arrilo's Study~
+A polished black desk and a tall slender chair have been arranged in the
+middle of this chamber, facing the door. A tall bookshelf stuffed with
+volumes is positioned against the north wall. The southwest corner near the
+door is home to a lurching bearlike creature with a sharp beak and bearlike
+claws. The monster, although stuffed, appears no less dangerous. Along the
+south wall hang tapestries depicting the constellations, and hanging above
+the fireplace mantle is a framed painting of a... Radish.  
+~
+0 2097152 0
+D0
+(null)~
+~
+0 0 23429
+D3
+(null)~
+~
+0 0 23431
+S
+#23431
+Arrilo's Workroom~
+The walls, floors, and ceiling of this spacious room have been painted
+jet black. Inscribed in gold on the floor are wizardly symbols and
+diagrams. A dimly glowing glass sphere appears to be suspended from the
+ceiling by a slender glass rod. The only furnishings are an unmade bed
+beneath the western window, a two door cabinet standing next to the door,
+and an L-shaped table in the middle of the room. A black cloth with pink
+polka dots drapes the table, which is covered with delicate alchemical appa
+ratus.  
+~
+0 2097160 0
+D0
+(null)~
+secret~
+6 23409 23432
+D1
+(null)~
+~
+0 0 23430
+S
+#23432
+Arrilo's Secret Storage Room~
+The shelves here are filled with various items of powerful sorcery. 
+Among them are scrolls, potions, spell books, bizarre spell components, and
+items of ancient and arcane origin. The forces of magic and power course
+through your body while you are in Arrilo's secret storage room.  
+~
+0 2097152 0
+D2
+(null)~
+secret~
+6 0 23431
+S
+#0
+
+
+
+#RESETS
+D 0 23400 0 0
+D 0 23402 3 0
+D 0 23403 5 0
+D 0 23404 0 0
+D 0 23404 2 0
+D 0 23404 4 0
+D 0 23405 0 0
+D 0 23405 2 0
+D 0 23406 0 0
+D 0 23406 2 0
+D 0 23409 2 0
+D 0 23410 0 0
+D 0 23411 2 0
+D 0 23412 0 0
+D 0 23413 2 0
+D 0 23414 0 0
+D 0 23415 1 0
+D 0 23416 2 0
+D 0 23431 0 2
+D 0 23432 2 2
+O 0 23400 0 23408 A set of silver cell keys loaded to Supply Room
+M 0 23404 0 23409 Load a Great White Bat
+M 0 23405 0 23410 Load a large Anaconda
+M 0 23402 0 23411 Load a Black Abishia
+M 0 23403 0 23412 Load the Great Barbazo
+M 0 23400 0 23413 Load the Lord Tempest
+M 0 23401 0 23414 Load the Great Skrit
+M 0 23406 0 23416 Load a thief named Skayle
+M 0 23407 0 23418 Load Zeldon the Warrior
+E 0 23401 0 13 The belt of demonic desires is loaded around the waist of Zeldon the Warrior
+M 0 23408 0 23419 Load Sky
+E 0 23402 0 17 `wsky's guitar`w is loaded held in the hands of Sky
+M 0 23409 0 23420 Load a deaf servant
+M 0 23410 0 23423 Load Devlin Denor
+E 0 23403 0 16 A wicked twisted short sword is loaded wielded of Devlin Denor
+E 0 23404 0 6 A top hat is loaded over the head of Devlin Denor
+M 0 23411 0 23425 Load Twiglight the Comet
+E 0 23405 0 12 A black starry robe is loaded about the shoulders of Twiglight the Comet
+M 0 23412 0 23429 Load Boldor the henchman
+E 0 23406 0 11 A skull shield is loaded as a shield of Boldor the henchman
+E 0 23407 0 16 A double edged death-axe is loaded wielded of Boldor the henchman
+M 0 23413 0 23431 Load the evil Wizard Torlok
+E 0 23408 0 0 `wtorlok's evil eye`w is loaded as a light of the evil Wizard Torlok
+E 0 23409 0 17 A key to arrilo's storage room is loaded held in the hands of the evil Wizard Torlok
+E 0 23410 0 6 A wizard's hat is loaded over the head of the evil Wizard Torlok
+O 0 23411 0 23432 A staff of teleportation loaded to Arrilo's Secret Storage Room
+O 0 23412 0 23432 A scroll of location loaded to Arrilo's Secret Storage Room
+O 0 23413 0 23432 `wgloves of mental reaction`w loaded to Arrilo's Secret Storage Room
+O 0 23414 0 23432 Scroll of ethereal protection loaded to Arrilo's Secret Storage Room
+O 0 23415 0 23432 A pile of gold coins loaded to Arrilo's Secret Storage Room
+O 0 23416 0 23432 `wboots of `rrage`w loaded to Arrilo's Secret Storage Room
+S
+
+
+
+#PROGS
+M 23403 13 Offensive Mage Load to: the Great Barbazo
+M 23411 10 Offensive Cleric Load to: Twiglight the Comet
+M 23413 13 Offensive Mage Load to: the evil Wizard Torlok
+S
+
+
+
+#SHOPS
+0
+
+
+
+#FACTIONAFFS
+0
+
+
+
+#$

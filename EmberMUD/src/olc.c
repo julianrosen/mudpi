@@ -508,7 +508,7 @@ void redit( CHAR_DATA * ch, char *argument )
     AREA_DATA *pArea;
     char command[MAX_INPUT_LENGTH];
     int cmd;
-    int value;
+    long long value;
 
     EDIT_ROOM( ch, pRoom );
     pArea = pRoom->area;
@@ -552,10 +552,11 @@ void redit( CHAR_DATA * ch, char *argument )
 
     if ( ( value = flag_value( room_flags, arg ) ) != NO_FLAG )
     {
-        TOGGLE_BIT( pRoom->room_flags, value );
-
+        TOGGLE_BIT( pRoom->room_flags, value);
+        
         SET_BIT( pArea->area_flags, AREA_CHANGED );
         send_to_char( "Room flag toggled.\n\r", ch );
+        
         return;
     }
 

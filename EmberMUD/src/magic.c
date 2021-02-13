@@ -3481,7 +3481,7 @@ void spell_invis( int sn, int level, CHAR_DATA * ch, void *vo )
     act( "$n fades out of existence.", victim, NULL, NULL, TO_ROOM );
     af.type = sn;
     af.level = level;
-    af.duration = 24;
+    af.duration = level > 24 ? 24 : level; // JR: shortened for low-level casters
     af.location = APPLY_NONE;
     af.modifier = 0;
     af.bitvector = AFF_INVISIBLE;
@@ -4479,7 +4479,7 @@ void spell_firewind( int sn, int level, CHAR_DATA * ch, void *vo )
     CHAR_DATA *victim = ( CHAR_DATA * ) vo;
     int dam;
 
-    dam = dice( level, 17 );
+    dam = dice( level, 13 );
     if ( saves_spell( level, victim ) )
         dam /= 2;
     act( "$n dissappears in a gust of burning winds.", victim, NULL, NULL,
@@ -5367,4 +5367,26 @@ void spell_hellfire(int sn, int level, CHAR_DATA *ch, void *vo)
 	}
 	 /* now go back and find more targets */
 	 }
+}
+
+
+// JR
+void spell_brief_invis( int sn, int level, CHAR_DATA * ch, void *vo )
+{
+    CHAR_DATA *victim = ( CHAR_DATA * ) vo;
+    AFFECT_DATA af;
+
+    if ( IS_AFFECTED( victim, AFF_INVISIBLE ) )
+        return;
+
+    act( "$n fades out of existence.", victim, NULL, NULL, TO_ROOM );
+    af.type = sn;
+    af.level = level;
+    af.duration = level;
+    af.location = APPLY_NONE;
+    af.modifier = 0;
+    af.bitvector = AFF_INVISIBLE;
+    affect_to_char( victim, &af );
+    send_to_char( "You fade out of existence.\n\r", victim );
+    return;
 }

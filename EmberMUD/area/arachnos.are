@@ -319,9 +319,9 @@ unknown~
 D D D 0 0
 26 5 260 P
 A
-4 3
-A
 17 -2
+A
+4 3
 #6304
 visor black knight's~
 a black knight's visor~
@@ -331,9 +331,9 @@ unknown~
 ABC ABC ABC 0 0
 24 5 240 P
 A
-1 1
-A
 5 2
+A
+1 1
 #6308
 coins gold~
 a big pile of gold coins~
@@ -1296,7 +1296,7 @@ G 0 6309 0 A blue potion is given to the Ki-Rin
 G 0 6309 0 A blue potion is given to the Ki-Rin
 M 0 6302 0 6360 Load Yevaud
 G 0 6304 0 A black knight's visor is given to Yevaud
-M 0 6313 0 6367 Load The guardian
+M 0 6313 0 6367 Load the guardian
 M 0 6312 0 6370 Load the Donjonkeeper
 G 0 6309 0 A blue potion is given to the Donjonkeeper
 M 0 6311 0 6373 Load the Hermit

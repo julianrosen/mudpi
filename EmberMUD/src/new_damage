@@ -1,0 +1,332 @@
+bool new_damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
+                 int dt, int dam_type, bool show )
+{
+    char buf[MAX_STRING_LENGTH];
+    OBJ_DATA *corpse;
+    bool immune;
+    extern bool chaos;
+    int chaos_points;
+
+    if ( victim->position == POS_DEAD )
+        return FALSE;
+
+    /*
+     * Stop up any residual loopholes.
+     */
+    if ( dam > MAX_MORTAL_WEAPON_DAMAGE && !IS_IMMORTAL( ch ) && !IS_NPC( ch ) )
+    {
+        bug( "Damage: %s: more than %d points!", ch->name,
+             MAX_MORTAL_WEAPON_DAMAGE );
+        dam = 0;
+
+        if ( weapon )
+            extract_obj( weapon );
+
+        send_to_char( "You really shouldn't cheat.\n\r", ch );
+        return FALSE;
+    }
+
+    if ( victim != ch )
+    {
+        /*
+         * Certain attacks are forbidden.
+         * Most other attacks are returned.
+         */
+        if ( is_safe( ch, victim ) )
+            return FALSE;
+        check_killer( ch, victim );
+
+        if ( victim->position > POS_STUNNED )
+        {
+            if ( victim->fighting == NULL )
+                set_fighting( victim, ch );
+            if ( victim->timer <= 4 )
+                victim->position = POS_FIGHTING;
+        }
+
+        if ( victim->position > POS_STUNNED )
+        {
+            if ( ch->fighting == NULL )
+                set_fighting( ch, victim );
+
+            /*
+             * If victim is charmed, ch might attack victim's master.
+             */
+            if ( IS_NPC( ch )
+                 && IS_NPC( victim )
+                 && IS_AFFECTED( victim, AFF_CHARM )
+                 && victim->master != NULL
+                 && victim->master->in_room == ch->in_room
+                 && number_bits( 3 ) == 0 )
+            {
+                stop_fighting( ch, FALSE );
+                multi_hit( ch, victim->master, TYPE_UNDEFINED );
+                return FALSE;
+            }
+        }
+
+        /*
+         * More charm stuff.
+         */
+        if ( victim->master == ch )
+            stop_follower( victim );
+    }
+
+    /*
+     * Inviso attacks ... not.
+     */
+    if ( IS_AFFECTED( ch, AFF_INVISIBLE ) )
+    {
+        affect_strip( ch, gsn_invis );
+        affect_strip( ch, gsn_mass_invis );
+        REMOVE_BIT( ch->affected_by, AFF_INVISIBLE );
+        act( "`K$n fades into existence.`w", ch, NULL, NULL, TO_ROOM );
+    }
+
+    /*
+     * Damage modifiers.
+     */
+    if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
+        dam /= 2;
+
+    if ( IS_AFFECTED( victim, AFF_PROTECT ) && IS_EVIL( ch ) )
+        dam -= dam / 4;
+
+    immune = FALSE;
+
+    /*
+     * Check for parry, and dodge.
+     */
+    if ( dt >= TYPE_HIT && ch != victim )
+    {
+        if ( check_block( ch, victim ) )
+            return FALSE;
+        if ( check_parry( ch, victim ) )
+            return FALSE;
+        if ( check_dodge( ch, victim ) )
+            return FALSE;
+    }
+
+    if ( weapon && dam > 0 )
+        oprog_hit_trigger( ch, victim, weapon );
+
+    switch ( check_immune( victim, dam_type ) )
+    {
+    case ( IS_IMMUNE ):
+        immune = TRUE;
+        dam = 0;
+        break;
+    case ( IS_RESISTANT ):
+        dam -= dam / 3;
+        break;
+    case ( IS_VULNERABLE ):
+        dam += dam / 2;
+        break;
+    }
+
+    if ( show )
+        dam_message( ch, victim, dam, dt, immune );
+
+    if ( dam == 0 )
+        return FALSE;
+
+    /* Ok, give the ch xp for his hit and add to ch->exp_stack */
+    if ( ( !IS_NPC( ch ) ) && ( victim != ch ) )    /* not NPCs, and no xp for hitting self */
+    {
+        int xp = 0;
+        int members = 0;
+        int group_levels = 0;
+        CHAR_DATA *gch;
+
+        for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+        {
+            if ( is_same_group( gch, ch ) )
+            {
+                members++;
+                group_levels += gch->level;
+            }
+        }
+
+        xp = hit_xp_compute( ch, victim, group_levels, members,
+                             UMIN( dam, victim->hit + 20 ) );
+        ch->exp_stack += xp;
+        gain_exp( ch, xp );
+    }
+
+    /*
+     * Hurt the victim.
+     * Inform the victim of his new state.
+     */
+    victim->hit -= dam;
+    if ( !IS_NPC( victim )
+         && victim->level >= LEVEL_IMMORTAL && victim->hit < 1 )
+        victim->hit = 1;
+    update_pos( victim );
+
+    switch ( victim->position )
+    {
+    case POS_MORTAL:
+        act( "`R$n is mortally wounded, and will die soon, if not aided.`w",
+             victim, NULL, NULL, TO_ROOM );
+        send_to_char
+            ( "`RYou are mortally wounded, and will die soon, if not aided.\n\r`w",
+              victim );
+        break;
+
+    case POS_INCAP:
+        act( "`R$n is incapacitated and will slowly die, if not aided.`w",
+             victim, NULL, NULL, TO_ROOM );
+        send_to_char
+            ( "`RYou are incapacitated and will slowly die, if not aided.\n\r`w",
+              victim );
+        break;
+
+    case POS_STUNNED:
+        act( "`R$n is stunned, but will probably recover.`w",
+             victim, NULL, NULL, TO_ROOM );
+        send_to_char( "`RYou are stunned, but will probably recover.\n\r`w",
+                      victim );
+        break;
+
+    case POS_DEAD:
+        rprog_death_trigger( victim );
+        mprog_death_trigger( victim );
+        act( "`M$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
+        send_to_char( "`RYou have been KILLED!!\n\r\n\r`w", victim );
+        break;
+
+    default:
+        if ( dam > victim->max_hit / 4 )
+            send_to_char( "`RThat really did HURT`R!\n\r`w", victim );
+        if ( victim->hit < victim->max_hit / 4 )
+            send_to_char( "`RYou sure are BLEEDING`R!\n\r`w", victim );
+        break;
+    }
+
+    /*
+     * Sleep spells and extremely wounded folks.
+     */
+    if ( !IS_AWAKE( victim ) )
+        stop_fighting( victim, FALSE );
+
+    /*
+     * Payoff for killing things.
+     */
+    if ( victim->position == POS_DEAD )
+    {
+        group_gain( ch, victim );
+
+        if ( !IS_NPC( victim ) )
+        {
+            sprintf( log_buf, "%s killed by %s at %d",
+                     victim->name,
+                     ( IS_NPC( ch ) ? ch->short_descr : ch->name ),
+                     victim->in_room->vnum );
+            log_string( log_buf );
+            if ( !IS_IMMORTAL( ch ) )
+            {
+                free_string( &victim->pcdata->nemesis );
+                victim->pcdata->nemesis =
+                    str_dup( IS_NPC( ch ) ? ch->short_descr : ch->name );
+            }
+
+            /*
+             * Dying penalty:
+             * 1/2 way back to previous level.
+             */
+            if ( !chaos && victim->exp > 0 && IS_NPC( ch ) )
+                gain_exp( victim, -1 * ( victim->exp / 2 ) );
+        }
+        if ( chaos )
+        {
+            chaos_points = 0;
+
+            if ( ch->level < victim->level )
+                chaos_points = 2 * ( victim->level - ch->level );
+
+            chaos_points = chaos_points + victim->level;
+            ch->pcdata->chaos_score = chaos_points;
+        }
+
+        if ( !IS_NPC( victim ) )
+        {
+            sprintf( buf, "%s has been slain by %s!", victim->name,
+                     IS_NPC( ch ) ? ch->short_descr : ch->name );
+            do_sendinfo( ch, buf );
+        }
+
+        if ( chaos && !IS_NPC( victim ) )
+            chaos_kill( victim );
+        else if ( !( !IS_NPC( victim ) && !IS_NPC( ch ) ) )
+            raw_kill( victim );
+        else
+        {
+            pk_kill( victim );
+            if ( !IS_IMMORTAL( ch ) )
+            {
+                victim->pcdata->pk_deaths++;
+                ch->pcdata->pk_kills++;
+            }
+        }
+
+        /* RT new auto commands */
+
+        if ( !IS_NPC( ch ) && IS_NPC( victim ) )
+        {
+            corpse = get_obj_list( ch, "corpse", ch->in_room->contents );
+
+            if ( IS_SET( ch->act, PLR_AUTOLOOT ) && corpse && corpse->contains )    /* exists and not empty */
+                do_get( ch, "all corpse" );
+
+            if ( IS_SET( ch->act, PLR_AUTOGOLD ) && corpse && corpse->contains &&   /* exists and not empty */
+                 !IS_SET( ch->act, PLR_AUTOLOOT ) )
+                do_get( ch, "all.gold corpse" );
+
+            if ( IS_SET( ch->act, PLR_AUTOSAC ) )
+            {
+                if ( IS_SET( ch->act, PLR_AUTOLOOT ) && corpse
+                     && corpse->contains )
+                    return TRUE;    /* leave if corpse has treasure */
+                else
+                    do_sacrifice( ch, "corpse" );
+            }
+        }
+
+        return TRUE;
+    }
+
+    if ( victim == ch )
+        return TRUE;
+
+    /*
+     * Take care of link dead people.
+     */
+    if ( !IS_NPC( victim ) && victim->desc == NULL )
+    {
+        if ( number_range( 0, victim->wait ) == 0 )
+        {
+            do_recall( victim, "" );
+            return TRUE;
+        }
+    }
+
+    /*
+     * Wimp out?
+     */
+    if ( IS_NPC( victim ) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2 )
+    {
+        if ( ( IS_SET( victim->act, ACT_WIMPY ) && number_bits( 2 ) == 0
+               && victim->hit < victim->max_hit / 5 )
+             || ( IS_AFFECTED( victim, AFF_CHARM ) && victim->master != NULL
+                  && victim->master->in_room != victim->in_room ) )
+            do_flee( victim, "" );
+    }
+
+    if ( !IS_NPC( victim )
+         && victim->hit > 0
+         && victim->hit <= victim->wimpy && victim->wait < PULSE_VIOLENCE / 2 )
+        do_flee( victim, "" );
+
+    tail_chain(  );
+    return TRUE;
+}

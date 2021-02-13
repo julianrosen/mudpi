@@ -85,7 +85,7 @@ const struct flag_stat_type flag_stat_table[] = {
  ****************************************************************************/
 bool is_stat( const struct flag_type *flag_table )
 {
-    int flag;
+    long long flag;
 
     for ( flag = 0; flag_stat_table[flag].structure; flag++ )
     {
@@ -107,7 +107,7 @@ bool is_stat( const struct flag_type *flag_table )
  Called by:     flag_value and flag_string.
  Note:          This function is local and used only in bit.c.
  ****************************************************************************/
-int flag_lookup( const char *name, const struct flag_type *flag_table )
+long long flag_lookup( const char *name, const struct flag_type *flag_table )
 {
     int flag;
 
@@ -126,11 +126,11 @@ int flag_lookup( const char *name, const struct flag_type *flag_table )
  Purpose:       Returns the value of the flags entered. Multi-flags accepted.
  Called by:     olc.c and olc_act.c.
  ****************************************************************************/
-int flag_value( const struct flag_type *flag_table, char *argument )
+long long flag_value( const struct flag_type *flag_table, char *argument )
 {
     char word[MAX_INPUT_LENGTH];
-    int bit;
-    int marked = 0;
+    long long bit;
+    long long marked = 0;
     bool found = FALSE;
 
     if ( is_stat( flag_table ) )
@@ -159,7 +159,6 @@ int flag_value( const struct flag_type *flag_table, char *argument )
             found = TRUE;
         }
     }
-
     if ( found )
         return marked;
     else
@@ -171,7 +170,7 @@ int flag_value( const struct flag_type *flag_table, char *argument )
  Purpose:       Returns string with name(s) of the flags or stat entered.
  Called by:     act_olc.c, olc.c, and olc_save.c.
  ****************************************************************************/
-char *flag_string( const struct flag_type *flag_table, int bits )
+char *flag_string( const struct flag_type *flag_table, long long bits )
 {
     static char buf[512];
     int flag;

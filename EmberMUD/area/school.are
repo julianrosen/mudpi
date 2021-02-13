@@ -2133,41 +2133,42 @@ S
 
 
 #RESETS
-M 0 16700 0 16701
-M 0 16701 0 16710
-M 0 16707 0 16712
-M 0 16704 0 16713
-E 0 16707 0 7
-E 0 16712 0 13
-M 0 16705 0 16714
-E 0 16708 0 8
-E 0 16713 0 14
-M 0 16703 0 16715
-E 0 16706 0 6
-E 0 16711 0 12
-M 0 16702 0 16716
-E 0 16705 0 3
-E 0 16705 0 4
-M 0 16717 0 16718
-G 0 16138 0
-G 0 16031 0
-M 0 16706 0 16720
-E 0 16709 0 9
-E 0 16710 0 10
-E 0 16714 0 17
-E 0 16713 0 14
-O 0 16715 0 16721
-M 0 16708 0 16721
-M 0 16713 5 16724
-M 0 16712 3 16726
-M 0 16709 4 16734
-M 0 16710 3 16742
-M 0 16711 3 16746
-M 0 16714 0 16749
-M 0 16715 2 16751
-M 0 16716 2 16754
-M 0 16718 0 16758
-M 0 16719 0 16759
+D 0 16719 1 2
+M 0 16700 0 16701 Load the acolyte of Tempest
+M 0 16701 0 16710 Load the blob
+M 0 16707 0 16712 Load the adept of Ezra
+M 0 16704 0 16713 Load the aggressive monster
+E 0 16707 0 7 A pair of sub issue leggings is loaded on the legs of the aggressive monster
+E 0 16712 0 13 A sub issue belt is loaded around the waist of the aggressive monster
+M 0 16705 0 16714 Load the wimpy aggressive monster
+E 0 16708 0 8 A pair of sub issue boots is loaded on the feet of the wimpy aggressive monster
+E 0 16713 0 14 A sub issue bracer is loaded on the left wrist of the wimpy aggressive monster
+M 0 16703 0 16715 Load the wimpy monster
+E 0 16706 0 6 A sub issue helmet is loaded over the head of the wimpy monster
+E 0 16711 0 12 A sub issue cape is loaded about the shoulders of the wimpy monster
+M 0 16702 0 16716 Load the monster
+E 0 16705 0 3 A sub issue cloak is loaded around the neck (1) of the monster
+E 0 16705 0 4 A sub issue cloak is loaded around the neck (2) of the monster
+M 0 16717 0 16718 Load the adept of Goose
+G 0 16138 0 A buffalo water skin is given to the adept of Goose
+G 0 16031 0 A hooded brass lantern is given to the adept of Goose
+M 0 16706 0 16720 Load the big creature
+E 0 16709 0 9 A pair of sub issue gloves is loaded on the hands of the big creature
+E 0 16710 0 10 A pair of sub issue sleeves is loaded on the arms of the big creature
+E 0 16714 0 17 A key is loaded held in the hands of the big creature
+E 0 16713 0 14 A sub issue bracer is loaded on the left wrist of the big creature
+O 0 16715 0 16721 A mud school diploma loaded to The End of Mud School!
+M 0 16708 0 16721 Load the adept of Alander
+M 0 16713 5 16724 Load the snail
+M 0 16712 3 16726 Load the fox
+M 0 16709 4 16734 Load the rabbit
+M 0 16710 3 16742 Load the lizard
+M 0 16711 3 16746 Load the boar
+M 0 16714 0 16749 Load the beast
+M 0 16715 2 16751 Load the bear
+M 0 16716 2 16754 Load the wolf
+M 0 16718 0 16758 Load the adept of Furey
+M 0 16719 0 16759 Load the priest of Seth
 S
 
 

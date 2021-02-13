@@ -21,14 +21,14 @@ slick throwing darts. About his body is a deep aura, which causes his form
 to fade easily into the shadows at his will. A pair of short ankle boots
 gives him stealthy movement, completing the look of the master nightblade.  
 ~
-DrowElf~
+unique~
 ABJKRSbd JZ -425 S
-90 0
+90 0 
 100 0 0 0 20d400+2000 90d10+103 20d20+50 0
 0 0 0 0
 G BI BFM SZ
 8 8 1 100
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17101
 shoppkeeper drow dark~
 a Dark Drow~
@@ -37,14 +37,14 @@ A dark drow tends this shop.
 This drow is dark and mysterious. You don't want to be around him long
 enough to find much more out. You cower in fear.
 ~
-DrowElf~
+unique~
 ABd JZ 0 S
-90 0
+90 0 
 100 0 0 0 10000d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 BCD B SZ
 8 8 0 10000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17102
 dark drow shopkeeper young~
 a young drow~
@@ -53,14 +53,14 @@ A strange young drow keeps this store.
 This strange young drow is hesitant to let anyone know anything about
 him. You respect this and walk away.
 ~
-DrowElf~
+unique~
 ABd JZ 0 S
-90 0
+90 0 
 100 0 0 0 10000d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 BCD B SZ
 8 8 0 100000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17103
 evil shade sdsd~
 an evil shade~
@@ -71,26 +71,26 @@ stray far from this person.
 ~
 Shadow~
 AOR EPQVZ -1000 S
-9 0
+9 0 
 100 0 0 0 25d15+0 25d25+25 5d6+1 28
 -5 -5 -5 -5
 0 BI 0 S
 8 8 0 0
-CL ABCDEGHIJK M unknown
+CL ABCDEGHIJK M 0
 #17105
 ghostly ghost presence phantom~
 a ghostly presence~
 Here floats a ghostly presence acting as a shopkeeper.
 ~
-~
+(null)~
 orc~
 ABd JTU -1000 S
-90 0
+90 0 
 100 0 0 0 10000d1+0 0d0+0 10d12+5 6
 0 0 0 0
 0 BCD Q S
 8 8 0 100000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17180
 police men man cop pork bacon~
 a Daggerford Policeman~
@@ -100,54 +100,54 @@ This policeman is buff and ready to defend the honor of the gate watchmen.
 ~
 Human~
 ABF Vc 1000 S
-20 25
+20 25 
 100 0 0 0 45d25+45 0d0+0 6d6+5 13
 -10 -10 -10 -10
 CDFIKNT 0 C D
 8 8 1 6000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17185
 yolatis frail old dwarf weapon smith~
 Yolatis, the weapon smith~
 A seemingly frail, old dwarf smiles at you from behind the counter.
 ~
-~
+(null)~
 Dwarf~
 ABd CDJZ 0 S
-90 0
+90 0 
 100 0 0 0 1d1000+1000 0d0+0 0d0+0 0
 0 0 0 0
 0 0 CL R
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17186
 younger elfin man rolas~
 Rolas, clothing and armour clerk~
 A younger elfin man stands behind the counter, anxious to sell you something.
 ~
-~
+(null)~
 Elf~
 ABd J 0 S
-65 0
+65 0 
 100 0 0 0 1000d1+1000 0d0+0 0d0+0 0
 0 0 0 0
 0 0 B Z
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #17199
 test mob~
 test mob~
 A test mob is here to serve you.
 ~
-~
+(null)~
 Human~
 AB 0 0 S
-100 0
+100 0 
 100 0 0 0 25000d1+0 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 D
 8 8 0 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -162,9 +162,9 @@ unknown~
 B AB BC B D
 12 5 1320 P
 A
-19 6
-A
 18 5
+A
+19 6
 #17101
 leather armor armour~
 leather armour~
@@ -182,11 +182,11 @@ unknown~
 AC C AC C 0
 10 2 1000 P
 A
-2 2
+24 -4
 A
 17 -10
 A
-24 -4
+2 2
 #17103
 gauntlets gloves warclad~
 the `yGauntlets of `RWar`Bclad`w~
@@ -196,11 +196,11 @@ unknown~
 AB AB C AB 0
 15 10 1500 P
 A
-1 2
+19 1
 A
 18 2
 A
-19 1
+1 2
 #17104
 sword of evil spirit soes~
 a Sword of Evil Spirit~
@@ -210,9 +210,9 @@ unknown~
 A ABC ABC A CDEF
 40 5 10000 P
 A
-18 2
-A
 19 20
+A
+18 2
 #17105
 dark blade dagger dbd~
 a Dark Blade Dagger~
@@ -222,13 +222,13 @@ unknown~
 B C BC B D
 20 8 5000 P
 A
-18 5
-A
-2 4
+19 5
 A
 12 5
 A
-19 5
+2 4
+A
+18 5
 #17106
 studded leather armor sla~
 studded leather~
@@ -246,11 +246,11 @@ unknown~
 B AB AC ABD B
 10 2 950 P
 A
-12 10
+18 3
 A
 19 3
 A
-18 3
+12 10
 #17108
 cap of the mystic cotm~
 a Cap of the Mystic~
@@ -260,9 +260,9 @@ unknown~
 A A A B 0
 6 2 500 P
 A
-4 1
-A
 3 2
+A
+4 1
 #17109
 shroud of the mystic sotm~
 a Shroud of the Mystic~
@@ -272,9 +272,9 @@ unknown~
 AC C AC AC 0
 6 11 500 P
 A
-12 10
-A
 3 2
+A
+12 10
 #17110
 runemail mail rune rm~
 a `MRune Mail`w~
@@ -284,17 +284,17 @@ unknown~
 BD AD BD AD 0
 15 1 7500 P
 A
-13 30
-A
-5 1
-A
-3 1
-A
-2 1
+18 2
 A
 19 2
 A
-18 2
+2 1
+A
+3 1
+A
+5 1
+A
+13 30
 #17111
 emerald broach~
 an `GEmerald `MBroach~
@@ -314,9 +314,9 @@ unknown~
 0 0 0 0 0
 10 3 500000 P
 A
-12 5
-A
 5 1
+A
+12 5
 #17113
 gold wristband band bracelet~
 a `yGold `RWrist Band`w~
@@ -386,9 +386,9 @@ unknown~
 B C AC ABD D
 15 6 3500 P
 A
-18 3
-A
 19 5
+A
+18 3
 #17121
 cats claw~
 a `CCats `RClaw`w~
@@ -398,9 +398,9 @@ unknown~
 B C AB BCE D
 8 3 500 P
 A
-19 3
-A
 18 2
+A
+19 3
 #17122
 sleeves of warclad sowc~
 the `ySleeves of `RWar`Bclad`w~
@@ -410,9 +410,9 @@ unknown~
 AB B AB B 0
 15 10 1500 P
 A
-17 -5
-A
 1 1
+A
+17 -5
 #17123
 helm of warclad howc~
 the `yHelm of `RWar`Bclad`w~
@@ -422,11 +422,11 @@ unknown~
 AB B AB B 0
 15 4 1500 P
 A
-3 1
+19 1
 A
 4 1
 A
-19 1
+3 1
 #17124
 leggings of warclad lowc~
 the `yLeggings of `RWar`Bclad`w~
@@ -436,11 +436,11 @@ unknown~
 AB B AB B 0
 15 6 1500 P
 A
-17 -2
+14 30
 A
 2 1
 A
-14 30
+17 -2
 #17125
 bracer of power bop~
 the `RBracer `Gof `yP`Wo`yw`We`yr`w~
@@ -450,13 +450,13 @@ unknown~
 C AC C C 0
 15 2 1500 P
 A
-17 -1
-A
-1 2
+19 2
 A
 18 3
 A
-19 2
+1 2
+A
+17 -1
 #17126
 bastard sword bs~
 a Bastard Sword~
@@ -466,9 +466,9 @@ unknown~
 A AC C A DF
 8 9 750 P
 A
-18 1
-A
 19 2
+A
+18 1
 #17127
 shadow ring~
 a `kShadow `RRing`w~
@@ -478,13 +478,13 @@ unknown~
 ABC ABC ABC ABC 0
 29 1 20000 P
 A
-13 25
-A
-12 10
+24 -3
 A
 2 1
 A
-24 -3
+12 10
+A
+13 25
 #17128
 shroud of shadows sos~
 `CShroud of `kShadows`w~
@@ -494,15 +494,15 @@ unknown~
 BC BC ABC AC 0
 30 8 50000 P
 A
-2 3
+24 -4
 A
-12 5
+24 -4
 A
 18 1
 A
-24 -4
+12 5
 A
-24 -4
+2 3
 #17129
 elven long sword els~
 an Elven Long Sword~
@@ -522,11 +522,11 @@ unknown~
 A AB AC AB 0
 6 12 500 P
 A
-1 1
+18 2
 A
 19 1
 A
-18 2
+1 1
 #17131
 banded mail bm~
 a Banded Mail~
@@ -536,11 +536,11 @@ unknown~
 C C C B 0
 5 15 350 P
 A
-13 10
+18 2
 A
 19 2
 A
-18 2
+13 10
 #17132
 lollipop sucker~
 a lollipop~
@@ -574,17 +574,17 @@ unknown~
 A AD ABC AB EF
 35 12 75000 P
 A
-17 -10
-A
-1 1
-A
-4 1
-A
-13 10
+19 8
 A
 18 7
 A
-19 8
+13 10
+A
+4 1
+A
+1 1
+A
+17 -10
 #17149
 golden grooved blade dagger ggb~
 a `yGolden Grooved Dagger`w~
@@ -594,15 +594,15 @@ unknown~
 B C AC ABD 0
 15 1 1000 P
 A
-4 1
-A
-3 1
-A
-12 15
+18 4
 A
 19 4
 A
-18 4
+12 15
+A
+3 1
+A
+4 1
 #17150
 elven dagger small ~
 an Elven Dagger~
@@ -612,13 +612,13 @@ unknown~
 B C AC B 0
 15 5 1500 P
 A
-19 6
-A
-18 6
+13 10
 A
 12 -10
 A
-13 10
+18 6
+A
+19 6
 #17151
 a shadowchain chain~
 a `kShadow `wChain~
@@ -628,17 +628,17 @@ unknown~
 ABCD ABCD ABCD AE 0
 22 1 21000 P
 A
-24 -10
-A
-13 -5
-A
-12 25
-A
-5 -1
+2 3
 A
 3 2
 A
-2 3
+5 -1
+A
+12 25
+A
+13 -5
+A
+24 -10
 #17152
 bracer of dark bonding~
 a `rBracer `cof `kEvil `bBonding`w~
@@ -648,13 +648,13 @@ unknown~
 BC BC BC BC 0
 18 12 2500 P
 A
-12 10
-A
-20 2
+13 20
 A
 24 -2
 A
-13 20
+20 2
+A
+12 10
 #17153
 pair of black silk gloves~
 a pair of Black Silk Gloves~
@@ -664,9 +664,9 @@ unknown~
 C C C C 0
 20 0 10000 P
 A
-17 -10
-A
 20 -15
+A
+17 -10
 #17154
 silken sleeves of serpent charm snake~
 the Silken Sleeves of Serpent Charm~
@@ -676,11 +676,11 @@ unknown~
 AC C C C 0
 20 0 10000 P
 A
-19 3
+13 10
 A
 17 -5
 A
-13 10
+19 3
 #17155
 black silk sleeves~
 the Black Silk Sleeves~
@@ -690,13 +690,13 @@ unknown~
 ABC ABC ABC ABC 0
 20 0 10000 P
 A
-17 -5
-A
-1 1
+19 4
 A
 13 5
 A
-19 4
+1 1
+A
+17 -5
 #17156
 scroll of arching electric~
 a Scroll Of `RArching `yElectricity`w~
@@ -746,9 +746,9 @@ unknown~
 BC BC BC D 0
 30 15 10000 P
 A
-19 4
-A
 18 4
+A
+19 4
 #17193
 small bronze hammer~
 a small bronze hammer~
@@ -758,15 +758,15 @@ unknown~
 AD AD AD AD 0
 25 12 0 P
 A
-20 -7
-A
-4 1
-A
-13 25
+19 6
 A
 18 6
 A
-19 6
+13 25
+A
+4 1
+A
+20 -7
 #17194
 accursed pendant accpnd~
 an Accursed Pendant~
@@ -776,11 +776,11 @@ unknown~
 C C C C 0
 21 5 12000 P
 A
-20 1
+12 5
 A
 13 5
 A
-12 5
+20 1
 E
 pendant~
 This pendant is dark, cursed and etched with magical runes you might
@@ -803,25 +803,25 @@ unknown~
 CEFGHI CEFGHI CEFGHI CEFGHI 0
 94 0 0 P
 A
-12 10000
-A
-5 7
-A
-4 7
-A
-3 7
-A
-1 7
-A
-2 7
-A
-13 10000
-A
-18 1000
+14 10000
 A
 19 1000
 A
-14 10000
+18 1000
+A
+13 10000
+A
+2 7
+A
+1 7
+A
+3 7
+A
+4 7
+A
+5 7
+A
+12 10000
 #17197
 potion of restoration~
 potion of Restoration~
@@ -839,9 +839,9 @@ unknown~
 B AC BC ABD D
 21 6 0 P
 A
-19 6
-A
 18 6
+A
+19 6
 #17199
 test weapon~
 a TEST WEAPON~
@@ -851,13 +851,13 @@ unknown~
 A ADE ADE BE ABC
 0 0 0 P
 A
-3 5
-A
-5 6
+18 123
 A
 4 4
 A
-18 123
+5 6
+A
+3 5
 #0
 
 
@@ -873,7 +873,7 @@ the dust and dirt. You see Lander's Way to the west.
 ~
 0 12 1
 D3
-~
+(null)~
 ~
 0 0 17753
 S
@@ -885,17 +885,17 @@ and so with evil. Dim light is provided by the strange `Rred `w glowing
 orbs. You realize, You've entered the guild of the `RAvenger`w. To the 
 west you see an armoury, to the east the guild continues.
 ~
-0 2147483660 0
+0 -2147483636 0
 D1
-~
+(null)~
 ~
 0 0 17102
 D3
-~
+(null)~
 ~
 0 0 17105
 D4
-~
+(null)~
 ~
 7 0 17759
 S
@@ -913,15 +913,15 @@ you can practice. To the south you can have a drink at the bar.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17103
 D2
-~
+(null)~
 ~
 0 0 17104
 D3
-~
+(null)~
 ~
 0 0 17101
 S
@@ -935,7 +935,7 @@ a true `RAVENGER!`w  You can see the guild continue to the south.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 0 0 17102
 S
@@ -950,7 +950,7 @@ to the north.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 17102
 S
@@ -966,7 +966,7 @@ shopkeeper.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17101
 S
@@ -979,15 +979,15 @@ store. Commerce Way north and south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17107
 D1
-~
+(null)~
 ~
 0 0 17117
 D2
-~
+(null)~
 ~
 0 0 17733
 S
@@ -1000,19 +1000,19 @@ bakery, to the east a florist. Commerce Way continues north and south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17108
 D1
-~
+(null)~
 ~
 0 0 17119
 D2
-~
+(null)~
 ~
 0 0 17106
 D3
-~
+(null)~
 ~
 0 0 17118
 S
@@ -1025,11 +1025,11 @@ place where Commerce Way and Limit Road meet.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17109
 D2
-~
+(null)~
 ~
 0 0 17107
 S
@@ -1041,19 +1041,19 @@ the inside of the north gate of the city.
 ~
 0 2097156 1
 D0
-~
+(null)~
 ~
 0 0 17173
 D1
-~
+(null)~
 ~
 0 0 17141
 D2
-~
+(null)~
 ~
 0 0 17108
 D3
-~
+(null)~
 ~
 0 0 17110
 S
@@ -1067,11 +1067,11 @@ meets Lander's Way.
 ~
 0 2097152 1
 D1
-~
+(null)~
 ~
 0 0 17109
 D3
-~
+(null)~
 ~
 0 0 17751
 S
@@ -1084,15 +1084,15 @@ continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17733
 D1
-~
+(null)~
 ~
 0 0 17120
 D2
-~
+(null)~
 ~
 0 0 17112
 S
@@ -1104,15 +1104,15 @@ a small privately owned business. Commerce Way continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17111
 D1
-~
+(null)~
 ~
 0 0 17760
 D2
-~
+(null)~
 ~
 0 0 17113
 S
@@ -1123,11 +1123,11 @@ by you heading in all directions. Commerce Way continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17112
 D2
-~
+(null)~
 ~
 0 0 17114
 S
@@ -1139,15 +1139,15 @@ and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17113
 D2
-~
+(null)~
 ~
 0 0 17115
 D3
-~
+(null)~
 ~
 0 0 17761
 S
@@ -1160,19 +1160,19 @@ street, Commerce Way. Limit Road continues east and west.
 ~
 0 4 1
 D0
-~
+(null)~
 ~
 0 0 17114
 D1
-~
+(null)~
 ~
 0 0 17147
 D2
-~
+(null)~
 ~
 0 0 17172
 D3
-~
+(null)~
 ~
 0 0 17116
 S
@@ -1184,11 +1184,11 @@ Road and Lander's Way meet. To the east is the south gate of the city.
 ~
 0 0 1
 D1
-~
+(null)~
 ~
 0 0 17115
 D3
-~
+(null)~
 ~
 0 0 17756
 S
@@ -1201,7 +1201,7 @@ is a guard here to protect the valuable jewels.
 ~
 0 2097164 0
 D3
-~
+(null)~
 ~
 0 0 17106
 S
@@ -1214,7 +1214,7 @@ the east.
 ~
 0 2097160 0
 D1
-~
+(null)~
 ~
 0 0 17107
 S
@@ -1228,7 +1228,7 @@ west.
 ~
 0 2097160 0
 D3
-~
+(null)~
 ~
 0 0 17107
 S
@@ -1242,7 +1242,7 @@ Commerce Way to the west.
 ~
 0 12 0
 D3
-~
+(null)~
 ~
 0 0 17111
 S
@@ -1253,13 +1253,13 @@ found after one of the toughest sieges ever felt by this great city. It is
 now being used as access to the Nightblade Camp. The trail to the camp
 continues west.
 ~
-0 4294967300 1
+0 4 1
 D1
-~
+(null)~
 ~
 7 0 17743
 D3
-~
+(null)~
 ~
 0 0 17122
 S
@@ -1271,11 +1271,11 @@ west from here.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17121
 D3
-~
+(null)~
 ~
 0 0 17123
 S
@@ -1286,11 +1286,11 @@ in the Nightblade Camp. The vegetation gets denser as you continue west.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17122
 D3
-~
+(null)~
 ~
 0 0 17124
 S
@@ -1302,11 +1302,11 @@ and this drives you forward. The path winds to the south.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17123
 D2
-~
+(null)~
 ~
 0 0 17125
 S
@@ -1317,11 +1317,11 @@ forest. You brush this aside and continue your journey south.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 17124
 D2
-~
+(null)~
 ~
 0 0 17126
 S
@@ -1334,11 +1334,11 @@ continue your journey west.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 17125
 D3
-~
+(null)~
 ~
 0 0 17127
 S
@@ -1351,11 +1351,11 @@ continue further west.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17126
 D3
-~
+(null)~
 ~
 0 0 17128
 S
@@ -1368,11 +1368,11 @@ around here is quite dark colored. The only apparent way out is east.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17127
 D4
-~
+(null)~
 ~
 7 0 17129
 S
@@ -1384,11 +1384,11 @@ you are climbing a tree.
 ~
 0 0 3
 D4
-~
+(null)~
 ~
 0 0 17130
 D5
-~
+(null)~
 ~
 7 0 17128
 S
@@ -1400,19 +1400,19 @@ bridges head east, west, and south.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17131
 D2
-~
+(null)~
 ~
 0 0 17135
 D3
-~
+(null)~
 ~
 0 0 17133
 D5
-~
+(null)~
 ~
 0 0 17129
 S
@@ -1423,11 +1423,11 @@ To the east you see a weapon's shop. Back west is the tree you came up on.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17132
 D3
-~
+(null)~
 ~
 0 0 17130
 S
@@ -1439,7 +1439,7 @@ that feels cold to the touch. You don't feel very safe here.
 ~
 0 8 3
 D3
-~
+(null)~
 ~
 0 0 17131
 S
@@ -1451,11 +1451,11 @@ you climbed to enter this small camp.
 ~
 0 0 3
 D1
-~
+(null)~
 ~
 0 0 17130
 D3
-~
+(null)~
 ~
 0 0 17134
 S
@@ -1468,7 +1468,7 @@ rope bridge.
 ~
 0 8 3
 D1
-~
+(null)~
 ~
 0 0 17133
 S
@@ -1481,11 +1481,11 @@ here.
 ~
 0 0 3
 D0
-~
+(null)~
 ~
 0 0 17130
 D2
-~
+(null)~
 ~
 0 0 17136
 S
@@ -1498,7 +1498,7 @@ powerful leader of the nightblades, Jumana. You bow immediately.
 ~
 0 8 3
 D0
-~
+(null)~
 ~
 0 0 17135
 S
@@ -1511,11 +1511,11 @@ To the south is Main Street, the maigcal Mystic Way heads north.
 ~
 0 2097156 1
 D0
-~
+(null)~
 ~
 0 0 17138
 D2
-~
+(null)~
 ~
 0 0 17735
 S
@@ -1530,15 +1530,15 @@ entrance to the mage guild. Mystic Way continues north and south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17139
 D1
-~
+(null)~
 ~
 0 0 17148
 D2
-~
+(null)~
 ~
 0 0 17137
 S
@@ -1551,11 +1551,11 @@ Road. Mystic Way continues south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17140
 D2
-~
+(null)~
 ~
 0 0 17138
 S
@@ -1567,15 +1567,15 @@ east and west.
 ~
 0 2097156 1
 D1
-~
+(null)~
 ~
 0 0 17161
 D2
-~
+(null)~
 ~
 0 0 17139
 D3
-~
+(null)~
 ~
 0 0 17141
 S
@@ -1587,11 +1587,11 @@ To the east you see where Mystic Way and Limit Road meet.
 ~
 0 2097152 1
 D1
-~
+(null)~
 ~
 0 0 17140
 D3
-~
+(null)~
 ~
 0 0 17109
 S
@@ -1604,11 +1604,11 @@ continuing to the south.
 ~
 0 4 1
 D0
-~
+(null)~
 ~
 0 0 17735
 D2
-~
+(null)~
 ~
 0 0 17143
 S
@@ -1621,11 +1621,11 @@ south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17142
 D2
-~
+(null)~
 ~
 0 0 17144
 S
@@ -1640,15 +1640,15 @@ west.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17143
 D2
-~
+(null)~
 ~
 0 0 17145
 D3
-~
+(null)~
 ~
 0 0 17153
 S
@@ -1674,15 +1674,15 @@ east. Something forces you to follow him east.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17144
 D1
-~
+(null)~
 ~
 0 0 17154
 D2
-~
+(null)~
 ~
 0 0 17146
 S
@@ -1695,15 +1695,15 @@ continues east and west.
 ~
 0 4 1
 D0
-~
+(null)~
 ~
 0 0 17145
 D1
-~
+(null)~
 ~
 0 0 17171
 D3
-~
+(null)~
 ~
 0 0 17147
 S
@@ -1715,11 +1715,11 @@ of Daggerford.
 ~
 0 0 1
 D1
-~
+(null)~
 ~
 0 0 17146
 D3
-~
+(null)~
 ~
 0 0 17115
 S
@@ -1734,11 +1734,11 @@ now revealed. Mystic Way is to the west.
 ~
 0 2097164 0
 D3
-~
+(null)~
 ~
 0 0 17138
 D4
-~
+(null)~
 ~
 0 0 17149
 S
@@ -1751,11 +1751,11 @@ up and down.
 ~
 0 2097160 0
 D4
-~
+(null)~
 ~
 0 0 17150
 D5
-~
+(null)~
 ~
 0 0 17148
 S
@@ -1769,15 +1769,15 @@ pricey however. The library is to the north.
 ~
 0 2097160 0
 D0
-~
+(null)~
 ~
 0 0 17152
 D4
-~
+(null)~
 ~
 0 0 17151
 D5
-~
+(null)~
 ~
 0 0 17149
 S
@@ -1790,7 +1790,7 @@ carefully the words of the Great Wizard.
 ~
 0 2097160 0
 D5
-~
+(null)~
 ~
 0 0 17150
 S
@@ -1804,7 +1804,7 @@ collection of scrolls. The librarian can be of assistance to you.
 ~
 0 2097160 0
 D2
-~
+(null)~
 ~
 0 0 17150
 S
@@ -1817,7 +1817,7 @@ the east.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17144
 S
@@ -1848,20 +1848,20 @@ There is a sign here.
 ~
 0 0 3
 E
-sign~
-Through the portal is the mystic guild, for more info type: look portal.
-~
-E
 portal~
 The mystic guild is through the portal. For building reasons it is
 impossible to do exactly as I liked. The portal is the down exit.
 ~
-D3
+E
+sign~
+Through the portal is the mystic guild, for more info type: look portal.
 ~
+D3
+(null)~
 ~
 0 0 17145
 D5
-~
+(null)~
 ~
 7 0 17155
 S
@@ -1874,25 +1874,25 @@ many of the other classes. Mystics have no natural enemies, but oft acquire
 them faster than they do friends. You stand in the Mystic Guild, there are
 exits all around you.
 ~
-0 8657043468 0
+0 67108876 0
 D0
-~
+(null)~
 ~
 0 0 17156
 D1
-~
+(null)~
 ~
 0 0 17159
 D2
-~
+(null)~
 ~
 0 0 17158
 D3
-~
+(null)~
 ~
 0 0 17157
 D4
-~
+(null)~
 ~
 7 0 17154
 S
@@ -1904,7 +1904,7 @@ power. These items are here to help you in your quest for power.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 0 0 17155
 S
@@ -1917,7 +1917,7 @@ guessed the shadow to be your guildmaster.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17155
 S
@@ -1928,7 +1928,7 @@ relax and enjoy a few drinks.
 ~
 0 0 0
 D0
-~
+(null)~
 ~
 0 0 17155
 S
@@ -1942,11 +1942,11 @@ clutter.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 17160
 D3
-~
+(null)~
 ~
 0 0 17155
 S
@@ -1957,7 +1957,7 @@ from the floor. Scrolls galore. There is a librarian here to help you.
 ~
 0 8 0
 D3
-~
+(null)~
 ~
 0 0 17159
 S
@@ -1968,11 +1968,11 @@ You see the northeast corner to the east.
 ~
 0 2097152 1
 D1
-~
+(null)~
 ~
 0 0 17162
 D3
-~
+(null)~
 ~
 0 0 17140
 S
@@ -1983,11 +1983,11 @@ Limit Road continues south and west from here.
 ~
 0 2097152 1
 D2
-~
+(null)~
 ~
 0 0 17163
 D3
-~
+(null)~
 ~
 0 0 17161
 S
@@ -1998,11 +1998,11 @@ Right now, you can north or south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17162
 D2
-~
+(null)~
 ~
 0 0 17164
 S
@@ -2014,11 +2014,11 @@ Limit Road continues north and south.
 ~
 0 2097152 1
 D0
-~
+(null)~
 ~
 0 0 17163
 D2
-~
+(null)~
 ~
 0 0 17165
 S
@@ -2029,11 +2029,11 @@ the south. Limit road continues north and south.
 ~
 0 2097156 1
 D0
-~
+(null)~
 ~
 0 0 17164
 D2
-~
+(null)~
 ~
 0 0 17737
 S
@@ -2045,11 +2045,11 @@ north and south.
 ~
 0 4 1
 D0
-~
+(null)~
 ~
 0 0 17737
 D2
-~
+(null)~
 ~
 0 0 17167
 S
@@ -2062,15 +2062,15 @@ Road continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17166
 D2
-~
+(null)~
 ~
 0 0 17168
 D3
-~
+(null)~
 ~
 0 0 17176
 S
@@ -2081,11 +2081,11 @@ continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17167
 D2
-~
+(null)~
 ~
 0 0 17169
 S
@@ -2096,11 +2096,11 @@ corner of the city. Limit Road continues north and south.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17168
 D2
-~
+(null)~
 ~
 0 0 17170
 S
@@ -2111,11 +2111,11 @@ Road continues north and west.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17169
 D3
-~
+(null)~
 ~
 0 0 17171
 S
@@ -2127,11 +2127,11 @@ continues east and west.
 ~
 0 0 1
 D1
-~
+(null)~
 ~
 0 0 17170
 D3
-~
+(null)~
 ~
 0 0 17146
 S
@@ -2145,11 +2145,11 @@ trade city. Daggerford is to the north.
 ~
 0 0 1
 D0
-~
+(null)~
 ~
 0 0 17115
 D1
-~
+(null)~
 ~
 0 0 22500
 S
@@ -2164,11 +2164,11 @@ Mesmorized, you head south into town.
 ~
 0 2097156 1
 D0
-~
+(null)~
 ~
 0 0 17174
 D2
-~
+(null)~
 ~
 0 0 17109
 S
@@ -2178,11 +2178,11 @@ South of here is the city of Daggerford. To the north is Midgaard.
 ~
 0 2097156 0
 D0
-~
+(null)~
 ~
 0 0 17175
 D2
-~
+(null)~
 ~
 0 0 17173
 S
@@ -2193,15 +2193,15 @@ southern gate of Midgaard. To the east is the town of Tillage.
 ~
 0 2097152 0
 D0
-~
+(null)~
 ~
 0 0 16256
 D1
-~
+(null)~
 ~
 0 0 20900
 D2
-~
+(null)~
 ~
 0 0 17174
 S
@@ -2214,7 +2214,7 @@ Limit Road is back east.
 ~
 0 1036 0
 D1
-~
+(null)~
 ~
 0 0 17167
 S
@@ -2227,7 +2227,7 @@ S
 ~
 0 16777216 3
 D3
-~
+(null)~
 ~
 7 0 17197
 S
@@ -2241,11 +2241,11 @@ majestic history and the clan's power. The hall continues to the north.
 ~
 0 1049608 0
 D0
-~
+(null)~
 ~
 0 0 17181
 D2
-~
+(null)~
 ~
 0 0 17708
 S
@@ -2262,36 +2262,36 @@ construction, and is still a little rough, though very safe.
 ~
 0 1048576 0
 D0
-~
+(null)~
 ~
 0 0 17186
 D1
-~
+(null)~
 ~
 0 0 17184
 D2
-~
+(null)~
 ~
 0 0 17180
 D3
-~
+(null)~
 ~
 0 0 17182
 D4
-~
+(null)~
 ~
 0 0 17185
 D5
-~
+(null)~
 ~
 0 0 17183
 S
 #17182
 `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cClan Lounge~
-~
+(null)~
 0 1048576 0
 D1
-~
+(null)~
 ~
 0 0 17181
 S
@@ -2322,7 +2322,7 @@ and deciphered, allowing the Followers of Timion to harness the intense power
 of the Great Hammer of Timion.
 ~
 D4
-~
+(null)~
 ~
 0 0 17181
 S
@@ -2340,73 +2340,73 @@ man standing behind the counter.
 ~
 0 1048576 0
 D3
-~
+(null)~
 ~
 0 0 17181
 S
 #17185
 `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cMediation Atrium~
-~
+(null)~
 0 1048576 0
 D5
-~
+(null)~
 ~
 0 0 17181
 S
 #17186
 `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cLibrary and Study~
-~
+(null)~
 0 1048584 0
 D0
-~
+(null)~
 ~
 0 0 17187
 D2
-~
+(null)~
 ~
 0 0 17181
 D4
-~
+(null)~
 ~
 0 0 17188
 D5
-~
+(null)~
 ~
 0 0 17190
 S
 #17187
 `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cCourtroom of Timion~
-~
+(null)~
 0 1048576 0
 D2
-~
+(null)~
 ~
 0 0 17186
 D5
-~
+(null)~
 ~
 7 0 17189
 S
 #17188
 `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cChapel and Altar~
-~
+(null)~
 0 1048576 0
 D5
-~
+(null)~
 ~
 0 0 17186
 S
 #17189
 `r         *** `r{`gF`yo`gT`r} `gClan Hall `r*** : `cClan Prison~
-~
+(null)~
 0 4 0
 S
 #17190
 `r        *** {`gF`yo`gT`r} `gClan Hall`r *** : `cClan Vault~
-~
+(null)~
 0 1048576 0
 D4
-~
+(null)~
 ~
 0 0 17186
 S
@@ -2419,11 +2419,11 @@ Along a Path in a Dense Forest~
 ~
 0 16777216 3
 D1
-~
+(null)~
 ~
 7 0 17177
 D2
-~
+(null)~
 ~
 0 0 17198
 S
@@ -2436,11 +2436,11 @@ S
 ~
 0 16777216 3
 D0
-~
+(null)~
 ~
 0 0 17197
 D2
-~
+(null)~
 ~
 7 0 17721
 S
@@ -2458,172 +2458,173 @@ S
 D 0 17121 1 0
 D 0 17187 5 1
 D 0 17198 2 0
-M 0 17738 1 17103
-M 0 17105 1 17105
-G 0 17100 0
-G 0 17700 0
-G 0 17101 0
-G 0 17102 0
-G 0 17103 0
-G 0 17104 0
-G 0 17105 0
-G 0 17122 0
-G 0 17123 0
-G 0 17124 0
-G 0 17194 0
-G 0 17701 0
-G 0 17702 0
-G 0 17703 0
-G 0 17121 0
-G 0 17126 0
-G 0 17726 0
-G 0 17729 0
-M 0 17730 6 17106
-M 0 17729 20 17106
-M 0 17728 40 17106
-M 0 17727 40 17107
-M 0 17722 40 17107
-M 0 17722 40 17107
-M 0 17730 6 17108
-M 0 17728 40 17108
-M 0 17728 40 17109
-M 0 17722 40 17109
-M 0 17722 40 17109
-M 0 17730 6 17111
-M 0 17727 40 17111
-M 0 17733 5 17113
-M 0 17729 20 17113
-M 0 17722 40 17113
-M 0 17722 40 17113
-M 0 17730 6 17114
-M 0 17728 40 17115
-M 0 17725 40 17115
-M 0 17726 40 17115
-M 0 17727 40 17116
-M 0 17735 1 17117
-G 0 17111 0
-G 0 17112 0
-G 0 17113 0
-G 0 17114 0
-G 0 17119 0
-M 0 17737 1 17118
-G 0 16009 0
-G 0 16011 0
-G 0 16012 0
-G 0 16013 0
-G 0 16014 0
-M 0 17736 1 17119
-G 0 17115 0
-G 0 17116 0
-G 0 17117 0
-G 0 17118 0
-M 0 17747 1 17120
-G 0 17132 0
-G 0 17133 0
-M 0 17101 1 17132
-G 0 17100 0
-G 0 17105 0
-G 0 17120 0
-G 0 17152 0
-G 0 17121 0
-M 0 17102 1 17134
-G 0 17101 0
-G 0 17102 0
-G 0 17708 0
-G 0 17152 0
-G 0 17712 0
-G 0 17194 0
-G 0 17713 0
-M 0 17100 1 17136
-M 0 17727 40 17138
-M 0 17724 6 17138
-M 0 17723 10 17138
-M 0 17724 6 17139
-M 0 17733 5 17141
-M 0 17727 40 17142
-M 0 17725 40 17143
-M 0 17726 40 17143
-M 0 17723 10 17143
-M 0 17724 6 17144
-M 0 17724 6 17144
-M 0 17723 10 17144
-M 0 17723 10 17145
-M 0 17727 40 17146
-M 0 17726 40 17146
-M 0 17725 40 17146
-M 0 17728 40 17147
-M 0 17722 40 17147
-M 0 17711 1 17149
-G 0 17712 0
-G 0 17101 0
-G 0 17708 0
-G 0 17701 0
-G 0 17105 0
-M 0 17712 1 17151
-M 0 17720 1 17156
-G 0 17149 0
-G 0 17101 0
-G 0 17106 0
-G 0 17105 0
-G 0 17107 0
-G 0 17108 0
-G 0 17109 0
-G 0 17713 0
-G 0 17110 0
-G 0 17719 0
-G 0 17720 0
-G 0 17712 0
-M 0 17717 1 17157
-M 0 17718 1 17158
-G 0 17707 0
-G 0 17714 0
-G 0 17716 0
-M 0 17727 25 17162
-M 0 17722 20 17162
-M 0 17729 20 17164
-M 0 17728 40 17164
-M 0 17722 40 17164
-M 0 17739 10 17167
-M 0 17722 40 17167
-M 0 17722 40 17167
-M 0 17729 20 17168
-M 0 17726 40 17168
-M 0 17725 40 17168
-M 0 17722 40 17168
-M 0 17722 40 17168
-M 0 17729 20 17169
-M 0 17728 40 17170
-M 0 17727 40 17170
-M 0 17722 40 17170
-M 0 17739 10 17171
-M 0 17728 25 17172
-M 0 17744 2 17172
-M 0 17722 40 17172
-M 0 17721 2 17173
-M 0 17722 40 17173
-O 0 17170 0 17183
-M 0 17185 1 17183
-G 0 17751 0
-G 0 17784 0
-G 0 17786 0
-M 0 17186 1 17184
-G 0 17783 0
-G 0 17180 0
-G 0 17785 0
-G 0 17723 0
+M 0 17738 0 17103 Load Kaxus, Avenger Guildmaster
+M 0 17105 0 17105 Load a ghostly presence
+G 0 17100 0 A tiger claw is given to a ghostly presence
+G 0 17700 0 A dwarven battle axe is given to a ghostly presence
+G 0 17101 0 Leather armour is given to a ghostly presence
+G 0 17102 0 A silk mask is given to a ghostly presence
+G 0 17103 0 The `ygauntlets of `rwar`bclad`w is given to a ghostly presence
+G 0 17104 0 A sword of evil spirit is given to a ghostly presence
+G 0 17105 0 A dark blade dagger is given to a ghostly presence
+G 0 17122 0 The `ysleeves of `rwar`bclad`w is given to a ghostly presence
+G 0 17123 0 The `yhelm of `rwar`bclad`w is given to a ghostly presence
+G 0 17124 0 The `yleggings of `rwar`bclad`w is given to a ghostly presence
+G 0 17194 0 An accursed pendant is given to a ghostly presence
+G 0 17701 0 A silver broad sword is given to a ghostly presence
+G 0 17702 0 A dwarven plate mail is given to a ghostly presence
+G 0 17703 0 A dwarven fullplate is given to a ghostly presence
+G 0 17121 0 A `ccats `rclaw`w is given to a ghostly presence
+G 0 17126 0 A bastard sword is given to a ghostly presence
+G 0 17726 0 The `csword of the `kdark `rknight`w is given to a ghostly presence
+G 0 17729 0 A `ccloak of `revil `mpower`w is given to a ghostly presence
+M 0 17730 6 17106 Load a merchant
+M 0 17729 20 17106 Load a farmer
+M 0 17728 40 17106 Load a citizen
+M 0 17727 40 17107 Load a beggar
+M 0 17722 40 17107 Load a militiaman
+M 0 17722 40 17107 Load a militiaman
+M 0 17730 6 17108 Load a merchant
+M 0 17728 40 17108 Load a citizen
+M 0 17728 40 17109 Load a citizen
+M 0 17722 40 17109 Load a militiaman
+M 0 17722 40 17109 Load a militiaman
+M 0 17730 6 17111 Load a merchant
+M 0 17727 40 17111 Load a beggar
+M 0 17733 5 17113 Load a thief
+M 0 17729 20 17113 Load a farmer
+M 0 17722 40 17113 Load a militiaman
+M 0 17722 40 17113 Load a militiaman
+M 0 17730 6 17114 Load a merchant
+M 0 17728 40 17115 Load a citizen
+M 0 17725 40 17115 Load a dog
+M 0 17726 40 17115 Load a cat
+M 0 17727 40 17116 Load a beggar
+M 0 17735 0 17117 Load a Jeweller
+G 0 17111 0 An `gemerald `mbroach is given to a Jeweller
+G 0 17112 0 A `wd`ci`wa`cm`wo`cn`wd`y necklace`w is given to a Jeweller
+G 0 17113 0 A `ygold `rwrist band`w is given to a Jeweller
+G 0 17114 0 A `cd`wi`ca`wm`co`wn`cd`y ring`w is given to a Jeweller
+G 0 17119 0 A `ccrystal `wamulet`w is given to a Jeweller
+M 0 17737 0 17118 Load a baker
+G 0 16009 0 A big pot pie is given to a baker
+G 0 16011 0 A bread is given to a baker
+G 0 16012 0 A cinnamon roll is given to a baker
+G 0 16013 0 A batch of sara's cookies is given to a baker
+G 0 16014 0 A blueberry danish is given to a baker
+M 0 17736 0 17119 Load Rose
+G 0 17115 0 A `rred `grose `r@`g;`--,--- is given to Rose
+G 0 17116 0 A `bdozen `mroses is given to Rose
+G 0 17117 0 A `yyellow `grose `y@`g;`--'---`w is given to Rose
+G 0 17118 0 A `gfew `ycarnations is given to Rose
+M 0 17747 0 17120 Load a Li'l old lady
+G 0 17132 0 A lollipop is given to a Li'l old lady
+G 0 17133 0 A few hard candies is given to a Li'l old lady
+M 0 17101 0 17132 Load a Dark Drow
+G 0 17100 0 A tiger claw is given to a Dark Drow
+G 0 17105 0 A dark blade dagger is given to a Dark Drow
+G 0 17120 0 The `bblade `yof the `rnight`w is given to a Dark Drow
+G 0 17152 0 A `rbracer `cof `kevil `bbonding`w is given to a Dark Drow
+G 0 17121 0 A `ccats `rclaw`w is given to a Dark Drow
+M 0 17102 0 17134 Load a young drow
+G 0 17101 0 Leather armour is given to a young drow
+G 0 17102 0 A silk mask is given to a young drow
+G 0 17708 0 A pair of black boots is given to a young drow
+G 0 17152 0 A `rbracer `cof `kevil `bbonding`w is given to a young drow
+G 0 17712 0 An elven chainmail is given to a young drow
+G 0 17194 0 An accursed pendant is given to a young drow
+G 0 17713 0 A pair of elven boots is given to a young drow
+M 0 17100 0 17136 Load Jumana
+M 0 17727 40 17138 Load a beggar
+M 0 17724 6 17138 Load a mystic
+M 0 17723 10 17138 Load `MA Mage`w
+M 0 17724 6 17139 Load a mystic
+M 0 17733 5 17141 Load a thief
+M 0 17727 40 17142 Load a beggar
+M 0 17725 40 17143 Load a dog
+M 0 17726 40 17143 Load a cat
+M 0 17723 10 17143 Load `MA Mage`w
+M 0 17724 6 17144 Load a mystic
+M 0 17724 6 17144 Load a mystic
+M 0 17723 10 17144 Load `MA Mage`w
+M 0 17723 10 17145 Load `MA Mage`w
+M 0 17727 40 17146 Load a beggar
+M 0 17726 40 17146 Load a cat
+M 0 17725 40 17146 Load a dog
+M 0 17728 40 17147 Load a citizen
+M 0 17722 40 17147 Load a militiaman
+M 0 17711 0 17149 Load a mage
+G 0 17712 0 An elven chainmail is given to a mage
+G 0 17101 0 Leather armour is given to a mage
+G 0 17708 0 A pair of black boots is given to a mage
+G 0 17701 0 A silver broad sword is given to a mage
+G 0 17105 0 A dark blade dagger is given to a mage
+M 0 17712 0 17151 Load the Great Wizard
+M 0 17720 0 17156 Load Drow
+G 0 17149 0 A `ygolden grooved dagger`w is given to Drow
+G 0 17101 0 Leather armour is given to Drow
+G 0 17106 0 Studded leather is given to Drow
+G 0 17105 0 A dark blade dagger is given to Drow
+G 0 17107 0 A mystical dagger is given to Drow
+G 0 17108 0 A cap of the mystic is given to Drow
+G 0 17109 0 A shroud of the mystic is given to Drow
+G 0 17713 0 A pair of elven boots is given to Drow
+G 0 17110 0 A `mrune mail`w is given to Drow
+G 0 17719 0 A magical kris dagger is given to Drow
+G 0 17720 0 A pair of sleeves of magic enhancing is given to Drow
+G 0 17712 0 An elven chainmail is given to Drow
+M 0 17717 0 17157 Load `kShadows
+M 0 17718 0 17158 Load a bartender
+G 0 17707 0 A mug of dwarven ale is given to a bartender
+G 0 17714 0 A glass of wicked elven brew is given to a bartender
+G 0 17716 0 A handful of peanuts is given to a bartender
+M 0 17727 25 17162 Load a beggar
+M 0 17722 20 17162 Load a militiaman
+M 0 17729 20 17164 Load a farmer
+M 0 17728 40 17164 Load a citizen
+M 0 17722 40 17164 Load a militiaman
+M 0 17739 10 17167 Load a mercenary
+M 0 17722 40 17167 Load a militiaman
+M 0 17722 40 17167 Load a militiaman
+M 0 17729 20 17168 Load a farmer
+M 0 17726 40 17168 Load a cat
+M 0 17725 40 17168 Load a dog
+M 0 17722 40 17168 Load a militiaman
+M 0 17722 40 17168 Load a militiaman
+M 0 17729 20 17169 Load a farmer
+M 0 17728 40 17170 Load a citizen
+M 0 17727 40 17170 Load a beggar
+M 0 17722 40 17170 Load a militiaman
+M 0 17739 10 17171 Load a mercenary
+M 0 17728 25 17172 Load a citizen
+M 0 17744 2 17172 Load a Gate Watchman
+M 0 17722 40 17172 Load a militiaman
+M 0 17721 2 17173 Load a Gate Watchman
+M 0 17722 40 17173 Load a militiaman
+O 0 17170 0 17183 A large glass case loaded to `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cArmaments Shoppe
+M 0 17185 0 17183 Load Yolatis, the weapon smith
+G 0 17751 0 The `cjustice `gsword`w is given to Yolatis, the weapon smith
+G 0 17784 0 A `rsword `gof `ytimion`w is given to Yolatis, the weapon smith
+G 0 17786 0 A sword of law is given to Yolatis, the weapon smith
+M 0 17186 0 17184 Load Rolas, clothing and armour clerk
+G 0 17783 0 A `ytimion `gfullplate`w is given to Rolas, clothing and armour clerk
+G 0 17180 0 The `rbracers `yof `gtimion strength`w is given to Rolas, clothing and armour clerk
+G 0 17785 0 A shield of justice is given to Rolas, clothing and armour clerk
+G 0 17723 0 The `rgauntlets `yof `gtimion `rpower`w is given to Rolas, clothing and armour clerk
 S
 
 
 
 #PROGS
-M 17100 13
-M 17103 13
-M 17180 20
-O 17151 2002
-O 17152 2003
-O 17194 2004
-O 17199 2005
+M 17100 13 Offensive Mage Load to: Jumana
+M 17103 13 Offensive Mage Load to: an evil shade
+O 17151 2002 Mudweiser OBJProgs/4151.prg Load to: a `kShadow `wChain
+O 17152 2003 Mudweiser OBJProgs/4152.prg Load to: a `rBracer `cof `kEvil `bBonding`w
+M 17180 20 CityGuard Load to: a Daggerford Policeman
+O 17194 2004 Mudweiser OBJProgs/4194.prg Load to: an Accursed Pendant
+O 17199 2005 Mudweiser OBJProgs/4199.prg Load to: a TEST WEAPON
 S
+
 
 
 #SHOPS
@@ -2632,6 +2633,11 @@ S
 17105 5 9 11 0 0 120 80 0 23
 17185 5 0 0 0 0 100 100 0 23
 17186 13 9 11 0 0 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

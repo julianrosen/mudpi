@@ -23,13 +23,12 @@ some way.
 ~
 Human~
 ABCGJKUabcd CDEFHJNPTVZac 0 S
-91 100
-100 0 0 0 3000d1+0 3000d1+0 3000d1+0 8
+91 100 
+100 1 1 0 3000d1+0 3000d1+0 3000d1+0 8
 10 10 10 10
 0 MN 0 0
 8 8 2 500000000
-AHMV ABCDEFGHIJK M unknown
-R 1 1 0 
+AHMV ABCDEFGHIJK M 0
 #32001
 A fire elemental~
 a Fire Elemental~
@@ -40,40 +39,40 @@ sensual female..
 ~
 Elf~
 ART HJV 100 S
-35 30
+35 30 
 100 0 0 0 15d20+5 500d1+0 5d8+6 16
 0 0 0 0
 0 BH B IZ
 8 8 2 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #32020
 Strike~
 Strike, the clan hall shopkeeper~
 Here stands Strike, the clan shopkeeper.
 ~
-~
+(null)~
 Human~
 ABd 0 1000 S
-1 1
+1 1 
 100 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
 0 0 0 0
 8 8 1 0
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #32022
 statue streeve~
 Streeve: The Deity of Balance~
 Here stands a large statue of Streeve filling up the room.
 ~
-~
+(null)~
 Human~
 AGad 0 0 S
-100 1
+100 1 
 100 0 0 0 1d1+5 0d0+0 1d1+5 20
 0 0 0 0
 0 0 0 0
 8 8 0 1000000
-AHMV ABCDEFGHIJK M unknown
+AHMV ABCDEFGHIJK M 0
 #32060
 sven bartender merc mercenarie~
 Sven, the bartender~
@@ -86,12 +85,12 @@ you do not notice much else about him.
 ~
 Human~
 ABCQRTd CDEF 500 S
-91 120
+91 120 
 100 0 0 0 100d40+500 100d30+100 16d16+85 21
 -40 -40 -40 -40
 EFHIKP 0 0 0
 8 8 1 2147483647
-AHMV ABCDEFGHIJK S unknown
+AHMV ABCDEFGHIJK S 0
 #0
 
 
@@ -107,13 +106,13 @@ BE BE BE BE 0
 47 0 1000000 P
 C 4
 A
-1 2
-A
-2 2
+13 25
 A
 12 50
 A
-13 25
+2 2
+A
+1 2
 #32001
 Ring of Thunder~
 the `KRing `bof `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
@@ -124,19 +123,19 @@ BD BD BD BD 0
 47 0 1000000 P
 C 4
 A
-5 1
-A
-3 1
-A
-13 35
-A
-12 35
-A
-4 -1
+18 4
 A
 19 4
 A
-18 4
+4 -1
+A
+12 35
+A
+13 35
+A
+3 1
+A
+5 1
 #32002
 thunder tachi~
 the `YT`Bh`Wu`Yn`Wd`Be`Yr`w `RT`ra`mc`rh`Ri`w~
@@ -147,15 +146,15 @@ A BD BD ACE CDEF
 47 0 1000000 P
 C 4
 A
-19 10
-A
-18 13
-A
-13 20
+17 -2
 A
 12 20
 A
-17 -2
+13 20
+A
+18 13
+A
+19 10
 #32003
 Scroll of Soul's Thunder~
 a `CS`cc`Gr`go`Bl`bl`w of `RS`ro`Ru`rl`R'`rs `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
@@ -195,17 +194,17 @@ ABCD ABCD ABCD ABCD 0
 30 10 500000 P
 C 6
 A
-4 1
-A
-5 1
-A
-12 50
-A
-2 1
+3 1
 A
 1 1
 A
-3 1
+2 1
+A
+12 50
+A
+5 1
+A
+4 1
 #32022
 the Belt of Great Balance~
 the Belt of Great Balance~
@@ -216,11 +215,11 @@ ABCD ABCD ABCD ABCD 0
 30 1 500000 P
 C 6
 A
-3 1
+13 10
 A
 5 1
 A
-13 10
+3 1
 #32023
 treasure chest Balance~
 the Donation Chest~
@@ -260,15 +259,15 @@ CD CD CD CD 0
 30 3 500000 P
 C 6
 A
-19 5
-A
-18 5
-A
-2 3
+19 4
 A
 18 4
 A
-19 4
+2 3
+A
+18 5
+A
+19 5
 #32027
 light balance~
 the Balanced Light~
@@ -279,17 +278,17 @@ unknown~
 30 1 500000 P
 C 6
 A
-19 3
-A
-18 7
-A
-13 50
-A
-2 2
+19 4
 A
 18 4
 A
-19 4
+2 2
+A
+13 50
+A
+18 7
+A
+19 3
 #32028
 ring of balance~
 the Ring of Superb Balance~
@@ -300,13 +299,13 @@ ABCD ABCD ABCD ABCD 0
 30 1 500000 P
 C 6
 A
-19 4
-A
-18 4
+4 1
 A
 2 1
 A
-4 1
+18 4
+A
+19 4
 #32030
 dagger balance~
 a Dagger of Balance~
@@ -352,7 +351,7 @@ of you is the only hint of a way in.
 ~
 0 1049604 2
 D0
-~
+(null)~
 irondoor~
 4 32004 32001
 S
@@ -363,11 +362,11 @@ massive amount of weapons line the walls in decorations.
 ~
 0 1057804 0
 D2
-~
+(null)~
 irondoor~
 4 32004 32000
 D5
-~
+(null)~
 ~
 0 0 32002
 S
@@ -380,11 +379,11 @@ Togashi Yokuni is on the ceiling.
 ~
 0 17835020 0
 D4
-~
+(null)~
 ~
 0 0 32001
 D5
-~
+(null)~
 ~
 0 0 32003
 S
@@ -396,11 +395,11 @@ at.
 ~
 0 1056776 0
 D4
-~
+(null)~
 ~
 0 0 32002
 D5
-~
+(null)~
 ~
 0 0 32004
 S
@@ -415,7 +414,7 @@ side of this cylindrical room.
 ~
 0 1057804 0
 D4
-~
+(null)~
 ~
 0 0 32003
 S
@@ -427,19 +426,19 @@ other. To the south of ehre, you can see a glowing light.
 ~
 0 12 0
 D0
-~
+(null)~
 ~
 0 0 32023
 D1
-~
+(null)~
 ~
 0 0 32022
 D2
-~
+(null)~
 ~
 0 0 32025
 D3
-~
+(null)~
 ~
 0 0 32021
 S
@@ -452,7 +451,7 @@ choices.
 ~
 0 8 0
 D1
-~
+(null)~
 ~
 0 0 32020
 S
@@ -464,7 +463,7 @@ the items you don't need, maybe other clan members will need them.
 ~
 0 8 0
 D3
-~
+(null)~
 ~
 0 0 32020
 S
@@ -475,11 +474,11 @@ member as you await your appointment with the Baron.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 1 0 32024
 D2
-~
+(null)~
 ~
 0 0 32020
 S
@@ -494,7 +493,7 @@ MKwarrior, STgermain, Marrow, and their God Streeve.
 ~
 0 8 0
 D2
-~
+(null)~
 ~
 1 0 32023
 S
@@ -508,13 +507,13 @@ to gain their indifference. There is a focus here, and a peace.
 ~
 0 8 0
 D0
-~
+(null)~
 ~
 0 0 32020
 S
 #32030
 ~
-~
+(null)~
 0 4 0
 S
 #32060
@@ -529,7 +528,7 @@ its way down to the room beneath.
 ~
 0 16778240 10
 D5
-~
+(null)~
 ~
 0 0 32061
 S
@@ -545,15 +544,15 @@ To the east and west you see doorways.
 ~
 0 16777224 0
 D1
-~
+(null)~
 ~
 0 0 32062
 D3
-~
+(null)~
 ~
 0 0 32063
 D4
-~
+(null)~
 ~
 0 0 32060
 S
@@ -568,7 +567,7 @@ To the west is the map room, and to the north you see a large metal door.
 ~
 0 16778248 0
 D3
-~
+(null)~
 ~
 0 0 32061
 S
@@ -583,11 +582,11 @@ To the north is the vault, and to the east you can see the map room.
 ~
 0 16777224 0
 D0
-~
+(null)~
 ~
 0 0 32064
 D1
-~
+(null)~
 ~
 0 0 32061
 S
@@ -604,7 +603,7 @@ door is the training room.
 ~
 0 16777224 0
 D2
-~
+(null)~
 ~
 0 0 32063
 S
@@ -617,15 +616,15 @@ D 0 32000 0 2
 D 0 32001 2 2
 D 0 32023 0 0
 D 0 32024 2 0
-M 0 32000 1 32003
-G 0 32000 0
-G 0 32001 0
-G 0 32002 0
-G 0 32003 0
-O 0 32023 0 32022
-M 0 21420 1 32023
-O 0 32024 0 32024
-M 0 32060 1 32062
+M 0 32000 0 32003 Load Mirumoto Hitomi
+G 0 32000 0 The `kgauntlets `bof `yt`bh`wu`yn`wd`be`yr`w is given to Mirumoto Hitomi
+G 0 32001 0 The `kring `bof `yt`bh`wu`yn`wd`be`yr`w is given to Mirumoto Hitomi
+G 0 32002 0 The `yt`bh`wu`yn`wd`be`yr`w `rt`ra`mc`rh`ri`w is given to Mirumoto Hitomi
+G 0 32003 0 A `cs`cc`gr`go`bl`bl`w of `rs`ro`ru`rl`r'`rs `yt`bh`wu`yn`wd`be`yr`w is given to Mirumoto Hitomi
+O 0 32023 0 32022 The donation chest loaded to Clan Donation Room
+M 0 21420 0 32023 Load a Sushi Vending Machine
+O 0 32024 0 32024 `wmarrows `wdesk loaded to `YM`Wa`Br`Yr`Wo`Bw`Ys `w Office
+M 0 32060 0 32062 Load Sven, the bartender
 S
 
 
@@ -634,10 +633,16 @@ S
 S
 
 
+
 #SHOPS
 32000 9 5 19 17 2 100 100 0 23
 32020 5 9 0 0 0 100 100 0 23
 32060 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#FACTIONAFFS
 0
 
 

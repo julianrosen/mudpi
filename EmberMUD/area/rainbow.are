@@ -28,7 +28,7 @@ AHMV ABCDEFGHIJK M 0
 #10001
 amelia~
 Amelia the teacher~
-Amelia, the school's teacher, eyes you skeptically.
+Amelia, the school's teacher, is here reading The Great Gatsby to her students.
 ~
 Amelia is a tall woman with blonde hair who could take out a student
 with just one punch.
@@ -55,6 +55,34 @@ A 0 0 S
 0 0 0 0
 0 0 0 0
 8 8 3 0
+AHMV ABCDEFGHIJK M 0
+#10003
+glinda~
+Glinda~
+Glinda the potion-maker sells her wares.
+~
+(null)~
+Human~
+ABXd H 1000 S
+60 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 CD 0 0
+8 8 2 454
+AHMV ABCDEFGHIJK M 0
+#10008
+no name~
+(no short description)~
+(no long description)
+~
+(null)~
+Human~
+A 0 0 S
+0 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
 AHMV ABCDEFGHIJK M 0
 #10013
 knid~
@@ -93,9 +121,9 @@ Granny Jones is here. She is one tough lady.
 (null)~
 Human~
 ABT 0 0 S
-28 0 
-0 0 0 0 10d52+387 0d0+0 5d9+18 7
--7 -7 -7 1
+28 10000 
+0 0 0 0 100d50+400 0d0+0 5d7+12 7
+-400 -400 -400 -400
 0 0 0 0
 8 8 2 700
 AHMV ABCDEFGHIJK M 0
@@ -155,7 +183,7 @@ ABd Jc 0 S
 30 0 
 0 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
-D 0 BE HK
+D 0 BE HKP
 8 8 1 0
 BMV ABCDEFGHIJKUV L 0
 #10020
@@ -207,7 +235,7 @@ a heavy oak desk~
 At the front of the room, you see a heavy oak desk.~
 unknown~
 15 0 0
-0 ABCD ACDIKM 0 0
+0 ABCD BEIJKN 0 0
 0 0 0 P
 #10004
 silver necklace~
@@ -225,6 +253,30 @@ unknown~
 8 0 A
 0 0 0 0 0
 0 0 10000 P
+#10006
+potion invisibility~
+a potion of invisibility~
+A potion of invisibility is here.~
+unknown~
+10 0 A
+0 29 0 0 0
+0 0 800 P
+#10007
+ten thousand piece puzzle~
+a ten thousand piece puzzle~
+You see a ten thousand piece puzzle. Who has the time for that?!~
+unknown~
+13 0 A
+0 0 0 0 0
+0 0 300 P
+#10008
+glass key~
+a glass key~
+Here is a key made out of glass.~
+unknown~
+18 0 A
+0 0 0 0 0
+0 0 0 P
 #10013
 key violet~
 the violet key~
@@ -353,7 +405,7 @@ a yellow mailbox~
 A yellow mailbox is here, painted with the words "Banana Express".~
 unknown~
 15 0 0
-0 ABCD ACFIKM 0 0
+0 ABCD BDFIJKN 0 0
 0 0 0 P
 #10028
 snow white blade~
@@ -1066,7 +1118,7 @@ S
 Schoolhouse~
 You are in an one-room schoolhouse. Pencils, papers, crayons, and rulers are strewn everywhere.
 ~
-0 0 0
+0 8 0
 D1
 (null)~
 ~
@@ -1348,7 +1400,7 @@ Dead End At The Tree~
 You have made it past the bashers. The road dead-ends at a large tree.
 Near the tree is a bench.
 ~
-0 0 0
+0 0 1
 D0
 (null)~
 ~
@@ -1408,7 +1460,7 @@ D3
 S
 #10056
 Bellsworth Lane~
-Heading off of Bellsworth Lane to the south is a small highway.
+Here Bellsworth Lane meets a small highway heading off to the south.
 ~
 0 0 1
 D1
@@ -1426,7 +1478,8 @@ D3
 S
 #10057
 Bellsworth Lane~
-(null)~
+Bellsworth Lane continues here.
+~
 0 0 1
 D1
 (null)~
@@ -1441,13 +1494,13 @@ S
 End Of Bellsworth Lane~
 You are at the eastern end of Bellsworth Lane. To the east is a wetland
 of some sort. Off to the south, you see a rocky path.
-There is a large billboard here.
+There is a large sign here.
 ~
 0 0 1
 E
-billboard~
-Visit Merv's Potion Emporium!
-Located on the far side of the swamp to the east
+sign~
+Visit Glinda's Potions!
+Located on the far side of the wetlands to the east.
 ~
 D1
 (null)~
@@ -1527,7 +1580,7 @@ D3
 S
 #10063
 Granny's house~
-Granny is one tough old lady. -
+Granny Jones is one tough lady.
 ~
 0 0 0
 D1
@@ -2469,22 +2522,192 @@ Entering The Swamp~
 The ground in this area is wet and muddy. I hope you brought your boots!
 ~
 0 0 0
+D1
+(null)~
+~
+0 0 10117
 D3
 (null)~
 ~
 0 0 10058
 S
+#10117
+The Wetlands~
+You are in a large open area. The ground is very wet.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10175
+D1
+(null)~
+~
+0 0 10118
+D2
+(null)~
+~
+0 0 10174
+D3
+(null)~
+~
+0 0 10116
+S
+#10118
+A Wet Area~
+The ground here is wet too.
+~
+0 0 0
+D2
+(null)~
+~
+0 0 10119
+D3
+(null)~
+~
+0 0 10117
+S
+#10119
+At The Pond~
+Beyond this point the wetland turns into a pond. You cannot keep going this way.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10118
+S
+#10120
+Thick Foliage~
+The foliage here blocks your path.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10174
+S
+#10121
+Clearing~
+You have reached a clearing.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10163
+D1
+(null)~
+~
+0 0 10167
+D2
+(null)~
+~
+0 0 10177
+D3
+(null)~
+~
+0 0 10122
+S
+#10122
+A Trail~
+You are on a trail in a dry area adjacent to the wetlands.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10121
+D3
+(null)~
+~
+0 0 10123
+S
+#10123
+3 Way Intersection~
+The trail continues to the north and south.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10124
+D1
+(null)~
+~
+0 0 10122
+D2
+(null)~
+~
+0 0 10126
+S
+#10124
+Bend In Trail~
+Here the trail bends.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10125
+D2
+(null)~
+~
+0 0 10123
+S
+#10125
+More Trail~
+There is more trail here.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10128
+D3
+(null)~
+~
+0 0 10124
+S
+#10126
+Trail~
+You are following the trail.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10123
+D2
+(null)~
+~
+0 0 10127
+S
+#10127
+Dead End~
+The trail becomes unpassable here, so you will have to turn back.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10126
+S
 #10128
 Dead End~
-This is a dead-end. You will have to turn back.
+The way is blocked, you can go no further.
 ~
 0 4 0
+D3
+(null)~
+~
+0 0 10125
 S
 #10129
 In The Tree~
 You are in a large tree. The branches stretch out to the north.
 ~
-0 0 9
+0 0 3
 D0
 (null)~
 ~
@@ -2498,7 +2721,7 @@ S
 Tree Branches~
 You are on a branch of a large tree. Below you, you see a basher. Better be careful!
 ~
-0 0 9
+0 0 3
 D0
 (null)~
 ~
@@ -2517,7 +2740,7 @@ End Of The Branch~
 You have reached the end of the tree branch. If you drop down now
 you should be out of reach of the bashers.
 ~
-0 0 9
+0 0 3
 D2
 (null)~
 ~
@@ -2907,6 +3130,286 @@ D3
 ~
 0 0 10155
 S
+#10163
+Clearing Continues~
+The clearing continues here.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10164
+D2
+(null)~
+~
+0 0 10121
+S
+#10164
+Field~
+You are in a grassy field.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10165
+D1
+(null)~
+~
+0 0 10166
+D3
+(null)~
+~
+0 0 10163
+S
+#10165
+Grass~
+Here is a bunch of grass, constituting a field.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10178
+D2
+(null)~
+~
+0 0 10164
+S
+#10166
+A Field, With Grass~
+The field gets very grassy here.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10178
+D3
+(null)~
+~
+0 0 10164
+S
+#10167
+More Wetland~
+Here is more wetland.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10169
+D2
+(null)~
+~
+0 0 10168
+D3
+(null)~
+~
+0 0 10121
+S
+#10168
+Too Wet~
+The ground over here is too wet, and you are wearing metal boots.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10167
+S
+#10169
+More Wetland~
+Here is yet more wetland.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10172
+D1
+(null)~
+~
+0 0 10171
+D2
+(null)~
+~
+0 0 10170
+D3
+(null)~
+~
+0 0 10167
+S
+#10170
+A Land That Is Wet~
+There's nothing but more wetland over here.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10169
+S
+#10171
+A Wet Land~
+Everything is wet over here.
+~
+0 0 0
+D3
+(null)~
+~
+0 0 10169
+S
+#10172
+Soggy Place~
+The ground here is soggy.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10173
+D2
+(null)~
+~
+0 0 10169
+S
+#10173
+Less Soggy Area~
+The ground here is decidedly less soggy than before.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10179
+D2
+(null)~
+~
+0 0 10172
+S
+#10174
+More Wetland~
+Here is some more wetland.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10117
+D2
+(null)~
+~
+0 0 10120
+S
+#10175
+Still Wet~
+The ground here is still wet.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10176
+D2
+(null)~
+~
+0 0 10117
+S
+#10176
+Not As Wet~
+Over here it is not as wet as it was.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10177
+D2
+(null)~
+~
+0 0 10175
+S
+#10177
+Getting Drier~
+This way the ground gets drier.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10121
+D2
+(null)~
+~
+0 0 10176
+S
+#10178
+More Grassy Field~
+The grassy field continues here.
+~
+0 0 0
+D2
+(null)~
+~
+0 0 10166
+D3
+(null)~
+~
+0 0 10165
+S
+#10179
+Getting Drier~
+The ground here is nearly dry.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10180
+D2
+(null)~
+~
+0 0 10173
+S
+#10180
+In Front Of Glinda's Potions~
+You are standing in front of Glinda's Potions. I hope they're still open!
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10181
+D2
+(null)~
+~
+0 0 10179
+S
+#10181
+Glinda's Potions~
+(null)~
+0 8 0
+D2
+(null)~
+~
+0 0 10180
+S
+#10298
+~
+(null)~
+0 4 2
+S
+#10299
+real_test~
+(null)~
+0 4 0
+S
+#10300
+jr test room~
+(null)~
+0 6 0
+S
 #0
 
 
@@ -2943,9 +3446,6 @@ O 0 10013 0 10026 The violet key loaded to Boathouse
 O 0 10032 0 10028 A box of tide laundry detergent loaded to Laundry Room
 P 0 10033 0 10032 A tide pod put inside a tide pod
 O 0 10003 0 10034 A heavy oak desk loaded to Schoolhouse
-P 0 10020 0 10003 A boring metal key put inside a boring metal key
-M 0 10001 0 10034 Load Amelia the teacher
-G 0 10002 0 Amelia's key is given to Amelia the teacher
 M 0 10016 0 10036 Load Mava
 G 0 608 0 A golden necklace is given to Mava
 G 0 612 0 An apple is given to Mava
@@ -2959,6 +3459,8 @@ M 0 10014 0 10050 Load a big basher
 M 0 10014 0 10051 Load a big basher
 O 0 10018 0 10052 The blue key loaded to Dead End At The Tree
 M 0 10015 0 10063 Load granny Jones
+G 0 10017 0 The green key is given to granny Jones
+G 0 10017 0 The green key is given to granny Jones
 G 0 10017 0 The green key is given to granny Jones
 O 0 10024 0 10078 A white key loaded to Darkness
 O 0 10023 0 10079 A ball of pure energy loaded to Prize Room
@@ -2975,6 +3477,7 @@ G 0 3026 0 A battle axe is given to Ezra the shopkeeper
 G 0 3002 0 A bottle of ale is given to Ezra the shopkeeper
 G 0 3053 0 A leather belt is given to Ezra the shopkeeper
 G 0 3154 0 A bottle of george killian's irish red is given to Ezra the shopkeeper
+G 0 10007 0 A ten thousand piece puzzle is given to Ezra the shopkeeper
 O 0 10030 0 10128 A tree stump loaded to Dead End
 P 0 10020 0 10030 A boring metal key put inside a boring metal key
 M 0 10017 0 10143 Load a Ham Harbor cityguard
@@ -2988,17 +3491,23 @@ G 0 10031 0 A map of ham harbor is given to Matt the mapmaker
 M 0 10017 0 10158 Load a Ham Harbor cityguard
 M 0 10017 2 10158 Load a Ham Harbor cityguard
 M 0 10017 0 10162 Load a Ham Harbor cityguard
+M 0 10003 0 10181 Load Glinda
+G 0 10006 0 A potion of invisibility is given to Glinda
 S
 
 
 
 #PROGS
+M 10001 27 Granny Load to: Amelia the teacher
+M 10001 28 Read Load to: Amelia the teacher
+M 10015 27 Granny Load to: granny Jones
 S
 
 
 
 #SHOPS
-10000 19 5 11 9 0 120 80 6 23
+10000 19 5 11 13 0 120 80 0 23
+10003 10 0 0 0 0 100 100 0 23
 10016 0 19 18 0 0 150 50 2 3
 10019 0 28 0 0 0 140 70 1 23
 0

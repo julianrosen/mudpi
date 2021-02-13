@@ -1,0 +1,3960 @@
+#AREADATA
+Name        { All } Zane    City of Darkmere~
+Builders    None~
+VNUMs       25700 25799
+Security    5
+End
+
+
+
+#MOBILES
+#25700
+Diablo healer ~
+Diablo~
+`W(`KBlack Aura`W) `wDiablo sits at his throne, willing to help out his minions.
+~
+A wicked creature who can heal his minions to fight for him.
+Type 'heal' for a list of spells.
+~
+unique~
+ABQVad DFPZ -1000 S
+125 0 
+100 0 0 0 1d1+999 1d1+999 2d4+30 20
+-15 -15 -15 -15
+FHIK BCI 0 KNRS
+8 8 1 5000
+BCDL ABCDEGHIJK M 0
+#25701
+bob dark half *90*~
+Bob's Dark Half~
+Bob's Dark Half polishes his blade with great care.
+~
+Protector to the Shrine of Darkness and enforcer of law in Darkmere. He
+is a large, big-muscled idiot who will slice up any intruders he sees
+without even a second thought.  
+~
+unique~
+ABTV DFJPVZ -1000 S
+90 200 
+100 0 0 0 1d1+9999 1d1+9999 50d7+0 8
+-20 -20 -20 -20
+ACDEFHIKLNOT ABIP CDH NS
+8 8 1 300000
+CL ABCDEGHIJK H 0
+#25702
+cleric shopkeeper blue-hooded~
+a blue-hooded Cleric~
+A blue-hooded Cleric acts as a shopkeeper.
+~
+An old wise man with a long white beard. A blue cloak hangs around his
+body. He sells only to clerics and seems to be very wise.  
+~
+unique~
+ABQVd PZ 1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+499 1d1+49 18
+-20 -20 -20 -20
+0 BCDI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25703
+purple-hooded Paladin shopkeeper~
+a purple-hooded Paladin~
+A purple-hooded Paladin stand behind a glass counter.
+~
+This is an ordinary paladin who decided to go into business for himself. 
+He only admits paladins into his shop, and despises most others.  
+~
+unique~
+ABVd PZ 1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+9999 0d0+0 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25704
+red-hooded mage shopkeeper~
+a red-hooded Mage~
+A red-hooded Mage mumbles something like, "What do you want?"
+~
+This mage looks angry all the time. He might kill you if you weren't a
+mage. He looks kind of weak physically speaking, but his powers should not
+be underestimated.  
+~
+unique~
+ABRVd PZ -100 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25705
+black-hooded avenger shopkeeper~
+a black-hooded Avenger~
+A black-hooded Avenger sits behind the counter.
+~
+This one is a sure-fire lunatic. You can see the vein bulging in his
+neck and he orders you to buy something or he'll kill you personally.  
+~
+unique~
+ABRVd PZ 0 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25706
+calorn cleric~
+Calorn~
+Calorn the Cleric is waiting to help you out.
+~
+An old man in a white robe. He is not well know because he confines
+himself to these rooms. He raises his eyes and you can tell that they are
+full of wisdom. His voice is old, and he looks close to death, but he has
+lived for more than three hundred years.  
+~
+unique~
+ABJKQVbd DFPZ 1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25707
+Sagron~
+Sagron~
+Sagron, mage of the old, will help you to become better at your skills.
+~
+An old, red-robed mage of the the old. He has become mentally unstable
+since his family was murdered by a gang of thieves. He now spends his life
+training mages to kill thieves.  
+~
+unique~
+ABJKRVbd DFPZ -1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25708
+Pithcus~
+Pithcus~
+Pithcus, mighty warrior, trains his acolytes to be the best.
+~
+He is the once mighty warrior, now retired to help out young fighters. 
+Judging from his appearance, it would be wise not to challenge him, as he is
+still in excellent condition.  
+~
+unique~
+ABJKTVbd DFPZ 0 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 18
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25709
+Mysten~
+Mysten~
+Mysten, the Holy Crusader can help you become better at body and mind.
+~
+A very wise warrior. He has studied in both fighting and clerical works.
+His wisdom and training will help you on your journey.  
+~
+unique~
+ABJKQTVbd DFPZ 1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25710
+shadow figure guildmaster~
+a shadowy figure~
+A shadowy figure is serving as the guildmaster of Avengers.
+~
+Too dark to tell.
+~
+unique~
+ABJKRTVbd DFPZ -1000 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25711
+shopkeeper armoror arogant~
+an arrogant armorer~
+An arrogant armorer boasts some of the best armor.
+~
+A fat man, very short at that. He keeps his nose in the air and despises
+all other shopkeepers. He keeps babbling about how good his armor is.  
+~
+unique~
+ABTVd PZ 0 S
+90 200 
+100 0 0 0 1d1+999 1d1+999 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25712
+warrior shopkeeper~
+a warrior shopkeeper~
+A warrior takes the part of shopkeeper.
+~
+This man looks similar to the other warriors roaming the city streets. 
+He opened business in Darkmere hoping to attract more young adventurers.  
+~
+unique~
+ABTVd DFPZ 0 S
+90 200 
+100 0 0 0 1d1+999 0d0+0 1d1+999 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25713
+devious henchman p10p~
+a devious henchman~
+A devious henchman stands around waiting for its orders.
+~
+A small man with an evil look about him. He isn't very tall and doesn't
+look trusting. His green eyes sparkles at your gold...  
+~
+unique~
+AHIS PZ 0 S
+10 15 
+100 0 0 0 3d22+99 0d0+0 1d1+9 0
+4 4 4 4
+0 BI 0 S
+8 8 1 0
+ACHLMV ABCDEFGHIJK M 0
+#25714
+henchman fighter p15p~
+a fighter henchman~
+A fighter henchman is waiting to be told what to kill.
+~
+This guy is a small, ratty looking guy. He could probably do a healthy
+amount of damage but couldn't take as many hits.  
+~
+Human~
+AI V 0 S
+15 20 
+100 0 0 0 5d30+100 0d0+0 3d5+10 0
+0 0 0 5
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M 0
+#25715
+henchman loyal p20p~
+a loyal henchman~
+A loyal henchman waits patiently for a command.
+~
+A very loyal henchman, he will last you a while.  
+~
+Elf~
+AI J 0 S
+20 30 
+100 0 0 0 6d40+200 0d0+0 4d5+10 0
+-2 -2 -2 4
+0 H B Z
+8 8 1 0
+AHMV ABCDEFGHIJK M 0
+#25716
+dragonian henchman p30p~
+a dragonian henchman~
+A very powerful henchman snarls at all who oppose its owner.
+~
+A strong half-dragon fighter. He has metalic armor over the human half
+of his body, and his red scales break through the rest. He snarls his teeth
+at passing people in a warning.  
+~
+unique~
+AI JTc 0 S
+30 55 
+100 0 0 0 10d61+380 1d1+99 5d6+16 0
+-9 -9 -9 1
+M B PS 0
+8 8 1 0
+CHMZ ABCDEFGHJKLPQUX M 0
+#25717
+veteran bodyguard guard troll p60p~
+a Veteran Bodyguard~
+A giant troll serves as bodyguard to its owner, willing to risk its life.
+~
+A giant troll with bulking muscles. He has green hair and skin, and his
+expression is dull, and his eyes look vacant and void of all thought. He
+clenches his fists, preparing for some unknown battle.  
+~
+Troll~
+AIT Jc 0 S
+60 70 
+100 0 0 0 10d150+200 1d1+29 5d10+25 8
+-27 -27 -27 -9
+D 0 BE HKP
+8 8 1 0
+BMV ABCDEFGHIJKUV M 0
+#25719
+clerk ~
+the clerk~
+The clerk sits behind the desk selling off henchmen.
+~
+A small fellow, he deals in selling men to help you fight. He has a
+small stature and short-cut black hair.  
+~
+unique~
+ABVd PZ 0 S
+90 200 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 100000
+CL ABCDEGHIJK M 0
+#25720
+thief master guldmaster Noradon T'on~
+Noradon T'on~
+Noradon T'on, master thief, waits for you to ask of his assistance.
+~
+A small man with a red bandana on. He is said to be the world greatest thief.
+~
+unique~
+ABJKbd PZ 0 S
+90 400 
+100 0 0 0 1d1+0 1d1+0 1d1+0 0
+-40 -40 -40 -40
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25721
+brock twisted nightblade guildmaster~
+Brock the Twisted~
+Brock the Twisted may be insane, but he can still help you with your skills.
+~
+A young man around his twenties. He is highly unstable emotionally-wise,
+but he may still be of some service.  
+~
+unique~
+ABJKVbd DFPZ 0 S
+90 200 
+100 0 0 0 1d1+999 0d0+0 0d0+0 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+ACHLMV ABCDEFGHIJK M 0
+#25722
+thief shopkeeper man~
+a thief~
+A small thief sits behind a crate selling supplies.
+~
+A small thief with a bandana over his eye, probably because it's missing.
+He runs this old place you see.  
+~
+unique~
+ABVd PZ 0 S
+90 0 
+100 0 0 0 1d1+1 0d0+0 1d1+1 0
+-20 -20 -20 -20
+0 BI 0 S
+8 8 1 5000
+CL ABCDEGHIJK M 0
+#25723
+nightblade shopkeeper~
+a nightblade~
+A nightblade acts as the shopkeeper.
+~
+A nightblade like any other you could find walking down the street. He
+has on an all-black outfit, probably for sneaking around better.  
+~
+unique~
+ABVd PZ 0 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+-40 -40 -40 -40
+0 BI 0 S
+8 8 1 500000
+CL ABCDEGHIJK M 0
+#25724
+chef baker~
+the chef~
+The chef sits behind the counter selling fine smelling pastry.
+~
+A funny looking Italian man with a white chef's hat and a curled mustache.  
+~
+unique~
+ABVd PZ 0 S
+90 300 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+-40 -40 -40 -40
+0 BI 0 S
+8 8 1 4500
+CL ABCDEGHIJK M 0
+#25725
+goldsmith smith ~
+the Goldsmith~
+The Goldsmith stands waiting for your money.
+~
+A very large shadow, about 8' tall. He has extremly large muscles,
+mainly for working on the weapons. His voice is deep and your chest
+vibrates when he talks. Kind of makes you scared.  
+~
+unique~
+ABVd PZ 0 S
+90 200 
+100 0 0 0 1d1+0 0d0+0 0d0+0 0
+-40 -40 -40 -40
+0 BI 0 S
+8 8 1 0
+CL ABCDEGHIJK M 0
+#25726
+jeweller shopkeeper~
+the jeweller~
+The jeweller sits in a chair in the corner.
+~
+A tall, skinny man, probably rich off of daddy's money. He wears a
+monicle over one eye and speaks in that very annoying manner, like he's
+talking through his nose. He keeps looking away as if he is better than
+you.  
+~
+unique~
+ABVd PZ 0 S
+90 400 
+100 0 0 0 1d1+0 0d0+0 0d0+0 0
+-40 -40 -40 -40
+0 BI 0 S
+8 8 1 5000000
+CL ABCDEGHIJK M 0
+#25727
+barkeep bartender shopkeeper clerk guy blah~
+the barkeep~
+The barkeep says, "look at the list and make a choice."
+~
+A neat middle-aged man with a perfectly ironed suit and a little french
+mustache, even though he is not french in the face. He mixes drinks quicker
+than anyone you have ever seen 
+~
+unique~
+ABVd PZ 0 S
+90 400 
+100 0 0 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BI 0 S
+8 8 1 1000000
+CL ABCDEGHIJK M 0
+#25728
+dealer shopkeep~
+the dealer~
+The dealer waits for your order.
+~
+A large man, probably very stupid. He is very tall, and also very fat. 
+You might want to check you reflection in his shiny bald head, but he may
+get mad...  
+~
+unique~
+ABVd PZ 0 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BI 0 S
+8 8 1 10000000
+CL ABCDEGHIJK M 0
+#25729
+Tito dealer~
+Tito the dealer~
+Tito the dealer walks around the streets.
+~
+A small excentric man. He has a very tan skin and has a great big bushy
+mustache. His black hair comes down to about shoulder-length and is dirty
+and unwashed. He talks fast and it is hard to understand him.  
+~
+unique~
+AVd PZ 0 S
+90 400 
+100 0 0 0 1d1+0 0d0+0 0d0+0 0
+0 0 0 0
+0 BI 0 S
+8 8 1 100000
+CL ABCDEGHIJK M 0
+#25730
+red-robed mage *15*~
+a red-robed mage~
+A red-robed mage drudges along mumbling gibberish.
+~
+A rather normal looking fellow in a red robe. The only thing strange is
+that none of his skin shows, but is hidden by his robe.  
+~
+unique~
+A PZ -1000 S
+15 20 
+100 0 0 0 5d25+150 0d0+0 3d4+7 19
+0 0 0 5
+0 BI 0 S
+8 8 -1 500
+CL ABCDEGHIJK M 0
+#25731
+blue-hooded cleric *14*~
+a blue-hooded cleric~
+A blue-hooded cleric silently passes you by.
+~
+An older looking man with a long white beard. You can see his bright
+blue eyes when he looks up at you every now and again.  
+~
+unique~
+A PZ 1000 S
+14 17 
+100 0 0 0 5d30+160 0d0+0 3d5+7 18
+0 0 0 5
+0 BI 0 S
+8 8 1 600
+CL ABCDEGHIJK M 0
+#25732
+noble paladin *21*~
+a noble paladin~
+A noble paladin walks by, watching for when he can help out.
+~
+A nobleman in a long, flowing purple cape. He talks in a very heroic
+voice and is always looking for bad guys to kill.  
+~
+unique~
+A NPZ 1000 S
+21 25 
+100 2 1 E 5d30+150 0d0+0 3d8+4 0
+-2 -2 -2 4
+P BI 0 S
+8 8 1 1000
+CL ABCDEGHIJK M 0
+#25733
+evil avenger *25*~
+an evil avenger~
+An evil-looking avenger charges up a fireball as he passes by.
+~
+A tall man in a dark, black cloak. He looks at you with evil eyes, as if
+he's plotting to kill you. Most of his features are hidden by his cloak.  
+~
+unique~
+A PZ -1000 S
+25 23 
+100 0 0 0 3d20+250 0d0+0 4d5+12 19
+-5 -5 -5 2
+0 BI N S
+8 8 1 1500
+CL ABCDEGHIJK M 0
+#25734
+thief *10*~
+a thief~
+A thief ducks in and out of the shadows.
+~
+A thief clad in black garb. He is hard to see and makes a reach for your
+wallet. Kill him!  
+~
+unique~
+AHS PQZ -1000 S
+10 10 
+100 0 0 0 3d20+80 0d0+0 3d4+9 0
+4 4 4 7
+0 BI 0 S
+8 8 -1 1004
+CL ABCDEGHIJK M 0
+#25735
+child pickpocket *15*~
+a pickpocket~
+A small child eyes you cautiously.
+~
+You notice a small child in the shadows, eyeing your pocketbook
+with particular interest.
+~
+unique~
+AS APQZ -300 S
+15 15 
+100 0 0 0 5d30+130 3d3+4 7d7+10 22
+0 0 0 5
+0 BI 0 S
+8 8 -1 140
+ACHLMV ABCDEFGHIJK S 0
+#25736
+pickpocket *20*~
+a sneaky pickpocket~
+A sneaky pickpocket makes a quick grab for your wallet!
+~
+A small homeless girl in raggy clothes.  
+~
+unique~
+AHS PQZ -1000 S
+20 35 
+100 0 0 0 5d19+150 0d0+0 4d5+9 0
+-2 -2 -2 4
+0 BI 0 S
+8 8 2 2543
+CL ABCDEGHIJK M 0
+#25737
+jolly fat merchant *7*~
+a jolly fat merchant~
+A jolly fat merchant bellies his way down the street.
+~
+A large fat man with bright red suspenders holding up his brown pants. 
+He waddles when he walks and his belly jiggles and wobbles. His face is
+covered by a large bushy white mustache and beard and his laugh is deep and
+bellowing.  
+~
+unique~
+A PZ 100 S
+7 3 
+100 0 0 0 1d17+3 0d0+0 2d3+1 0
+10 10 10 10
+0 BI 0 S
+8 8 1 100
+CL ABCDEGHIJK M 0
+#25738
+Nick peddler~
+Nick the Peanut Peddler~
+Nick the Peanut Peddler vends his way around.
+~
+Good ol' Nick. He peddles peanuts no matter what the weather. He has a
+very cheery attitude and talks about how much peanuts help your body grow.  
+~
+unique~
+AVd PZ 0 S
+1 2 
+100 0 0 0 1d1+0 0d0+0 1d1+1 0
+-10 -10 -10 -10
+0 BI 0 S
+8 8 1 0
+CL ABCDEGHIJK M 0
+#25739
+poor merchant *7*~
+a poor merchant~
+A poor merchant tries to sell you his goods.
+~
+You notice a fat man, in very cheap clothing. He begs you to buy from
+him, though his wares don't look too appealing...  
+~
+unique~
+AT PZ 3 S
+7 5 
+100 0 0 0 2d30+5 1d1+1 2d20+5 9
+2 2 2 5
+0 BI 0 S
+8 8 1 3
+CL ABCDEGHIJK M 0
+#25740
+andrew bum *17*~
+Andrew the Bum~
+Andrew the Bum begs you for some spare change.
+~
+An old bum looks kinda tough. His clothes are nothing more than cheap
+leather, mostly torn to shreds. He is around 50 years old and usually sits
+on the ground begging.  
+~
+unique~
+AC PZ -500 S
+17 15 
+100 0 0 0 3d22+100 0d0+0 3d5+8 0
+4 4 4 10
+0 BI 0 S
+6 6 1 0
+CL ABCDEGHIJK M 0
+#25741
+merchant well-to-do *20*~
+a well-to-do merchant~
+A well-to-do merchant tries to sell you his wares.
+~
+This merchant doesn't look like such a bad guy. But he does look
+a tad bit sleezy...
+~
+unique~
+A PZ 200 S
+20 20 
+100 0 0 0 30d2+200 1d1+1 2d2+20 0
+0 0 0 0
+0 BI 0 S
+8 8 1 3009
+CL ABCDEGHIJK M 0
+#25742
+darkmere cityguard elite guard *20*~
+a Darkmere cityguard~
+A member of the Darkmere Cityguard Elite stands here to protect.
+~
+One of Darkmere's cityguards. Don't mess with him. He is about 6' tall
+and clad in full gear. To ensure only Darkmere guards get to wear the
+equipment, it fades away if they get killed or take it off. Only the sword
+remains.  
+~
+unique~
+AT DPZ 1000 S
+20 23 
+100 0 0 0 5d35+140 0d0+0 3d5+10 0
+-2 -2 -2 -2
+CT BI 0 S
+8 8 -1 2000
+CL ABCDEGHIJK M 0
+#25743
+darkmere gateman guard watchman *15*~
+a Darkmere gateman~
+A Darkmere gateman watches out for intruders.
+~
+He looks kind of tired. Apparently a 24-hour watch will do that to you. 
+He is a 6' tall shadow, a mindless droid who just sits there protecting.  
+~
+unique~
+ABT PZ 1000 S
+15 20 
+100 0 0 0 5d33+120 0d0+0 5d5+7 0
+-2 -2 -2 4
+CT BI 0 S
+8 8 1 1205
+CL ABCDEGHIJK M 0
+#25744
+warrior burly *24*~
+a burly warrior~
+A burly warrior brags about his latest win.
+~
+A big macho guy who thinks he's God's gift to women. He struts around
+the city waving his sword all over the place.  
+~
+unique~
+AT PZ 200 S
+24 26 
+100 0 0 0 10d60+300 0d0+0 5d4+11 0
+-9 -9 -9 0
+I BI 0 S
+8 8 1 4000
+CL ABCDEGHIJK M 0
+#25745
+lonely warrior *5*~
+a lonely warrior~
+A lonely warrior mopes by.
+~
+He looks puny and pathetic. Probably why he's crying. He drags his
+sword along the ground and keeps his head down.  
+~
+unique~
+AT PZ 1000 S
+5 3 
+100 0 0 0 3d5+30 0d0+0 2d3+3 0
+10 10 10 10
+T BI 0 S
+8 8 1 302
+CL ABCDEGHIJK M 0
+#25746
+rabid fido *9*~
+a rabid fido~
+A rabid fido foams at the mouth and all over your leg.
+~
+A scraggily looking dog with a ragged and dirty grey coat, it foams at
+the mouth and hungrily nips at your feet as you pass by.  
+~
+fido~
+AH PZ -1000 S
+9 7 
+100 0 0 0 3d7+13 0d0+0 2d4+10 10
+30 30 30 30
+FR BI 0 CS
+8 8 0 1
+BCGLV ACDEFHJKQV M 0
+#25747
+drowelf elf shopkeeper~
+an evil drowelf~
+An evil DrowElf stands tall, waiting for your support.
+~
+An evil drowelf who has something against the Followers of Timion and
+started a small rebellion by opening his own store against them. He used to
+work on the Tower but since it never got off ground floor, he went back
+underground and "disappeared".  
+~
+unique~
+ABVd JZ -1000 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+-20 -20 -20 -20
+0 0 B SZ
+8 8 1 10000000
+AHMV ABCDEFGHIJK M 0
+#25748
+shopkeeper antiques dealer~
+the Antiques Dealer~
+A stubby Dwarf sits behind a counter.
+~
+A stubby little dwarf with one eye squinting at you. "Is that you
+Charley boy?" He says seniley. His pants are dirty and covered in dust,
+almost hiding their dull red color. His drab brown eyes look as if they are
+failing him, and he wears small, round glasses on the end of his long,
+skinny nose. His cheeks are puffy and rosy red, and his voice is that of an
+old, confused man.  
+~
+Dwarf~
+ABVd J 0 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+-20 -20 -20 -20
+0 0 CLQ R
+8 8 1 100000000
+AHMV ABCDEFGHIJK M 0
+#25749
+taribius mage shopkeeper~
+Taribius~
+`W(`CBlue Aura`W) `wTaribius stands tall and proud.
+~
+A tall mage in a black robe. His face is shadowed but some features are
+vaguely noticible. He has a blue protective barrier around him, keeping him
+safe from harm.  
+~
+unique~
+ABVd PZ 0 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 1000d1+0 0
+-10 -10 -10 -10
+0 BI 0 S
+8 8 1 100
+CL ABCDEGHIJK M 0
+#25799
+dealer shopkeeper ~
+the dealer~
+A special dealer of weapons sits here.
+~
+A tall skinny man with a conniving look to him. He has but one eyebrow,
+stretched out across his forehead, and his eyes are shifty and suspicious. 
+His hands are thin and his joints lanky. His face is thin as well, matching
+his body with a slender nose and chin, little cheeks from which the
+cheekbones stick out from, and small elf-like ears.  
+~
+unique~
+ABVd PZ 0 S
+90 0 
+100 0 0 0 1d1+0 0d0+0 1d1+0 0
+20 20 20 20
+0 BI 0 S
+8 8 1 100000
+ACHLMV ABCDEFGHIJK M 0
+#0
+
+
+
+#OBJECTS
+#25700
+dark blade justice sword vorpal~
+the Dark Blade of Justice~
+The Dark Blade of Justice is waiting to return to its rightful owner.~
+unknown~
+5 CEJL AN
+A BD ACD AB E
+70 21 500000 P
+A
+13 100
+A
+1 3
+#25701
+fountain~
+a fountain~
+A black onyx fountain gushes a strange liquid.~
+unknown~
+25 MO 0
+0 0 0 0 0
+0 100 0 P
+#25702
+mace snakes vampiric~
+a Mace of Snakes~
+A mace of snake heads slithers around here.~
+unknown~
+5 IKSTVWX AN
+C AC AC ABCDE C
+15 14 1000 P
+A
+12 15
+A
+1 -1
+#25703
+five-headed snake mace vampiric~
+a five-headed snake mace~
+A mace of five snake heads slithers around.~
+unknown~
+5 IKSTVWX AN
+C ABC BC ABCDE C
+22 15 3500 P
+A
+12 50
+A
+13 -50
+A
+1 -1
+#25704
+mace destruction vampiric two-hands~
+the Mace of Destruction~
+A mace forged for destruction radiates a holy light.~
+unknown~
+5 AIKSTVWX ANPQRSTUVWXYZabcdef
+C BD D D CF
+55 17 350000 P
+A
+13 -30
+A
+1 -1
+A
+5 2
+A
+4 3
+A
+12 100
+#25705
+cleric's cloak deception armor-neck~
+the Cloak of Deception~
+A long cleric's cloak lies crumpled on the ground.~
+unknown~
+9 AISTVWX AC
+D D D C 0
+17 4 1200 P
+A
+5 1
+A
+12 25
+A
+4 2
+#25706
+ring combined light armor-finger~
+a ring of combined light~
+A ring of pure light shines bright.~
+unknown~
+9 KSTVWX AB
+BD B 0 C 0
+21 2 30000 P
+A
+5 -1
+A
+4 1
+A
+3 1
+A
+12 25
+#25707
+cleric's blue robe armor-body~
+a Cleric's blue robe~
+A neatly pressed blue robe.~
+unknown~
+9 IKSTUVWX AD
+BD BD BD D 0
+20 3 100000 P
+A
+18 2
+A
+12 15
+A
+13 10
+#25708
+paladin's purple robe armor-body~
+a Paladin's purple robe~
+A well pressed purple robe.~
+unknown~
+9 IKRSTVWX AD
+BD BD BD D 0
+20 3 100000 P
+A
+18 2
+A
+12 15
+A
+13 10
+#25709
+sword combined light vampiric~
+a sword of combined light~
+A glowing sword of pure light radiates with a holy glow.~
+unknown~
+5 AIKRSTVWX AN
+A ABC AC CDE C
+21 16 1500 P
+A
+3 1
+A
+4 1
+A
+19 3
+A
+18 5
+#25710
+sword holy strength vorpal two-hands~
+the Sword of Holy Strength~
+A sword glows with holy power.~
+unknown~
+5 IKRSTVWX ANPQRSTUVWXYZabcdef
+A BD D ABE EF
+50 19 350000 P
+A
+2 -2
+A
+3 -2
+A
+4 3
+A
+19 5
+A
+18 7
+A
+1 3
+#25711
+warrior-in-a-bottle bottle potion-defend~
+a potion of Warrior-in-a-Bottle~
+A bubbling potion looks like it's about to explode.~
+unknown~
+10 0 A
+20 39 0 0 0
+25 2 500 P
+#25712
+magi wand-attack~
+the Wand of the Magi~
+A flaming red wand discharges fireballs into the air at random.~
+unknown~
+3 ARSTUW AO
+CE AC AC 26 0
+30 5 10000 P
+A
+3 3
+#25713
+deadly dagger vorpal~
+a deadly dagger~
+A deadly black dagger has been stuck in the ground.~
+unknown~
+5 GQRSTUW AN
+B AC AC ABD E
+15 13 500 P
+A
+19 4
+A
+18 3
+A
+5 1
+#25714
+dagger frost vampiric~
+the Frost Dagger~
+A dagger with a blade frozen in ice.~
+unknown~
+5 LRSTUVW AN
+B BC AC BCDE BC
+21 14 10000 P
+A
+19 2
+A
+3 1
+A
+13 -25
+A
+18 5
+#25715
+dagger flame flaming vampiric~
+the Flame Dagger~
+A dagger seems to be burning it's surroundings.~
+unknown~
+5 RTU AN
+B D ABC ACDE AC
+45 14 375000 P
+A
+18 5
+A
+19 3
+A
+3 -2
+A
+4 -1
+A
+1 2
+#25716
+mage's red robe armor-body~
+a Mage's red robe~
+A red robe has been pressed with great care.~
+unknown~
+9 RSTUVW AD
+BD BD BD D 0
+20 3 100000 P
+A
+18 2
+A
+12 15
+A
+13 10
+#25717
+feathery pill pill-defend~
+a feathery pill~
+A small pill flutters about.~
+unknown~
+26 0 A
+10 56 0 0 0
+1 1 15 P
+#25718
+sword swishes frost sharp~
+a Sword of Swishes~
+A sword for swishing enemies away lies here.~
+unknown~
+5 LRSTUWX AN
+A AC AC AB BD
+15 15 2000 P
+A
+1 2
+A
+19 5
+A
+18 3
+#25719
+stinging blade sword sharp vorpal~
+a stinging blade~
+A sword with a pointed blade sharp enough to pierce stone.~
+unknown~
+5 RSTUWX AN
+A D D BDE DE
+55 11 450000 P
+A
+13 10
+A
+19 5
+A
+18 5
+#25720
+avenger's black robe armor-body~
+an Avenger's black robe~
+A black robe has been pressed with great care.~
+unknown~
+9 RSTUWX AD
+BD BD BD D 0
+20 3 100000 P
+A
+18 2
+A
+12 15
+A
+13 10
+#25721
+onyx ring armor-finger~
+a small onyx ring~
+A small black ring has a crack down the middle of it.~
+unknown~
+9 STW AB
+C C B ABC 0
+49 1 200001 W
+A
+19 -4
+A
+18 -3
+A
+13 -70
+A
+12 100
+#25722
+steel rapier sword~
+a steel rapier~
+A steel rapier with a fine thin blade.~
+unknown~
+5 0 AN
+A AC AC AB 0
+15 18 500 P
+A
+19 3
+A
+18 3
+#25723
+broadsword smashing sword~
+the Broadsword of Smashing~
+A wide-bladed sword looks perfect for smashing someone in the head.~
+unknown~
+5 0 AN
+A BC AC ABDE 0
+19 21 600 P
+#25724
+sword pithcus sharp vorpal~
+the Sword of Pithcus~
+A warriors sword with a %P% engraved at the base of the blade.~
+unknown~
+5 ARSUVWX AN
+A ABC ABC BCDE DE
+35 22 115000 P
+A
+18 3
+A
+19 5
+A
+13 15
+#25725
+bracer pithcus armor-wrist~
+bracer of Pithcus~
+A strong, well crafted bracer.~
+unknown~
+9 RSUVWX AM
+ABCD ABCD ABCD D 0
+35 7 100000 P
+A
+18 3
+#25726
+armor pithcus armor-body~
+the armor of Pithcus~
+Some glowing armor with an engraved mark, %P%.~
+unknown~
+9 ARSUVWX AD
+ABDE ABDE ABDE CE 0
+40 31 450000 P
+A
+19 5
+A
+1 2
+A
+18 6
+#25727
+shield pithcus armor-shield~
+the shield of Pithcus~
+A glowing shield with the engraving, %P%.~
+unknown~
+9 ARSUVWX AJ
+DE DE DE BE 0
+35 27 50000 P
+A
+13 50
+A
+18 6
+#25728
+gauntlets pithcus armor-hands~
+the gauntlets of Pithcus~
+A pair of well crafted, glowing gauntlets.~
+unknown~
+9 ARSUVWX AH
+AE AE AE ACD 0
+35 17 35000 P
+A
+19 5
+A
+1 1
+#25729
+murderous bloody dagger vampiric sharp~
+a murderous bloody dagger~
+A sharp looking dagger with a blood stained blade.~
+unknown~
+5 RTUX AN
+B AC AC ABD CD
+21 9 15000 P
+A
+18 6
+A
+5 -1
+A
+19 5
+A
+1 2
+#25730
+small dagger~
+a small dagger~
+A small dagger looks perfect for training with.~
+unknown~
+5 RTUVWX AN
+B AB AC ABD 0
+7 5 100 P
+A
+18 2
+A
+19 1
+A
+5 1
+#25731
+dagger strength sharp~
+the Dagger of Strength~
+A powerful dagger looks like it might add some muscle to you.~
+unknown~
+5 RTUVWX AN
+B C AC ABD D
+15 11 500 P
+A
+18 5
+A
+19 2
+A
+1 3
+A
+4 -1
+#25732
+dagger pain flaming vampiric~
+the Pain Dagger~
+A painful looking dagger with a blade on the hand grip.~
+unknown~
+5 TUVX AN
+B AC BC ABD AC
+25 9 500 P
+A
+18 9
+A
+13 -50
+A
+1 3
+A
+3 -1
+A
+19 5
+#25733
+cloth vest cloth-body~
+cloth vest~
+A small vest of cloth offers minimal protection.~
+unknown~
+11 0 AD
+0 0 0 0 0
+5 2 250 P
+A
+17 -4
+A
+18 1
+#25734
+vest cloth-body~
+a light vest~
+A light vest looks perfect for sneaking around.~
+unknown~
+11 0 AD
+0 0 0 0 0
+15 2 250 P
+A
+17 -10
+A
+2 2
+A
+18 3
+#25735
+black boots armor-feet~
+a pair of black boots~
+Some black boots are neatly paired on the ground.~
+unknown~
+9 0 AG
+AD AD AD AB 0
+15 5 350 P
+A
+2 2
+A
+18 3
+A
+3 -1
+A
+14 10
+#25736
+blade backstabbing dagger sharp~
+the Blade of Backstabbing~
+A slender blade with an inverted handle for backstabbing.~
+unknown~
+5 0 AN
+B AB C ABD D
+10 10 100 P
+A
+19 2
+A
+18 3
+A
+1 1
+#25737
+all purpose weapon exotic sharp vorpal~
+the All-Purpose Weapon~
+An all-purpose weapon looks mighty nifty.~
+unknown~
+5 0 AN
+0 D BC BE DE
+35 27 300001 P
+A
+3 -1
+A
+4 -1
+A
+17 -10
+A
+19 6
+A
+18 7
+A
+1 3
+#25738
+big cookie dessert~
+a big cookie~
+A big sweet cookie.~
+unknown~
+19 0 A
+C 0 0 0 0
+0 1 2 P
+#25739
+slice cherry pie dessert~
+a slice of cherry pie~
+It's my cherry pie, it'll put a smile on your face 10 miles wide.~
+unknown~
+19 0 A
+BD 0 0 0 0
+0 2 4 P
+#25740
+bowl stew food-dish poison~
+a big bowl of Cyanide Stew~
+A smoking bowl of stew lies here.~
+unknown~
+19 0 A
+BCDE 0 0 A 0
+0 3 10 A
+#25741
+goldensword sword vorpal two-hands~
+the Goldensword~
+An expensive sword of pure gold has been stupidly left behind.~
+unknown~
+5 A AN
+A ABD ABD AB EF
+82 53 7840000 P
+A
+19 9
+A
+18 9
+A
+17 -50
+A
+1 -2
+#25742
+goldenmace mace vampiric two-hands~
+the Goldenmace~
+A solid gold mace is the best in its class.~
+unknown~
+5 A AN
+C ABD ABD ABC CF
+80 60 7320005 P
+A
+19 9
+A
+18 9
+A
+17 -50
+A
+4 -1
+#25743
+goldendagger dagger sharp vorpal~
+the Goldendagger~
+A finely crafted dagger of pure gold.~
+unknown~
+5 A AN
+B ABD ABD ABD DE
+79 45 6120000 P
+A
+18 9
+A
+19 9
+A
+17 -50
+A
+2 -2
+A
+3 -1
+#25744
+black onyx broach treasure~
+an `Konyx `wbroach~
+A black broach lies here.~
+unknown~
+8 0 AC
+0 0 0 0 0
+35 2 200000 P
+A
+13 10
+A
+4 -1
+A
+2 -1
+A
+1 -2
+#25745
+ruby bracelet treasure~
+a `Rruby `wbracelet~
+A bracelet made of several well cut rubies.~
+unknown~
+8 0 AM
+0 0 0 0 0
+35 4 50000 P
+A
+19 3
+A
+17 -2
+A
+18 3
+#25746
+emerald ring green treasure~
+an `Gemerald `wring~
+A ring set with a valuable emerald.~
+unknown~
+8 0 AB
+0 0 0 0 0
+35 1 245000 P
+A
+17 -3
+A
+4 1
+A
+3 1
+#25747
+gold ring armor-finger~
+a `ygold`w ring~
+A simple ring of gold.~
+unknown~
+9 G AB
+C AB C B 0
+35 4 15000 P
+A
+17 -5
+A
+18 4
+A
+19 2
+#25748
+ring pithcus warrior armor-finger~
+the Ring of Pithcus~
+A mighty warrior's ring!~
+unknown~
+9 RSUVWX AB
+AB C AB AB 0
+30 2 100000 P
+A
+13 5
+A
+18 3
+A
+19 3
+A
+1 1
+#25749
+bottle beer drink-beer~
+a bottle of beer~
+An open bottle of beer.~
+unknown~
+17 0 A
+D D A 0 0
+0 6 10 P
+#25750
+keg beer drink-beer~
+a keg of beer~
+A large metal keg that reeks of strong beer.~
+unknown~
+17 0 A
+BCDE BCDE A 0 0
+0 30 200 P
+#25751
+shot whisky drink-whisky~
+a shot of whisky~
+A small shot glass that smells of whisky~
+unknown~
+17 0 A
+A A AC 0 0
+0 3 30 P
+#25752
+cup coffee drink-coffee~
+a cup of coffee~
+A small cup of coffee will perk you up.~
+unknown~
+17 0 A
+ABCD ABCD CD 0 0
+0 3 5 P
+#25753
+sword oddness odd-ness vampiric~
+the Sword of Odd-ness~
+A weird looking sword with a slightly curved blade.~
+unknown~
+5 X AN
+A ABC AC ABCDE C
+21 21 250 P
+A
+19 3
+A
+18 5
+A
+3 -1
+#25754
+darkened blade dagger sharp~
+a Darkened dagger blade~
+A nasty looking dagger with a dark tinted blade.~
+unknown~
+5 RU AN
+B C BC B D
+20 4 2500 P
+A
+12 5
+A
+19 5
+A
+18 5
+#25755
+some thing exotic vampiric~
+some thing~
+Some thing is here.~
+unknown~
+5 ABG AN
+0 D AD A C
+55 31 20000 P
+A
+1 -2
+A
+12 -100
+A
+19 6
+A
+18 8
+A
+13 50
+#25756
+sword sun sphere flaming~
+the Sword of the Sun Sphere~
+A bright flaming sword vibrates quietly.~
+unknown~
+5 AB AN
+0 ABC AD AB A
+45 18 7001 P
+A
+18 5
+A
+19 6
+#25757
+silver playtesting sword~
+a sliver playtesting sword~
+A silver playtesting sword lies here.~
+unknown~
+5 0 AN
+A C AC AB 0
+8 10 75 P
+A
+18 3
+A
+19 1
+#25758
+dwarvish battle axe sharp~
+a Dwarven Battle Axe~
+A dwarvish battle-axe with a short handle.~
+unknown~
+5 ISWX AN
+AC BC AC ADE D
+15 23 2500 P
+A
+18 10
+A
+1 1
+#25759
+spiked wristband armor-wrist~
+a spiked wristband~
+A wristband with slightly dull 2" spikes.~
+unknown~
+9 0 AM
+A A A A 0
+4 3 15 P
+A
+19 1
+A
+13 2
+#25760
+bandana armor-head~
+a bandana~
+A red bandana with white spots.~
+unknown~
+9 0 AE
+B C A B 0
+7 1 10 P
+A
+19 1
+A
+18 2
+#25761
+can peanuts container~
+a can of peanuts~
+A can of peanuts lies here.~
+unknown~
+15 0 A
+CE AC 0 0 0
+0 10 100 P
+E
+can~
+The label reads, "Nick's Old Fashion Honey Roasted"
+~
+#25762
+some peanuts snack~
+some peanuts~
+A handful of roasted peanuts.~
+unknown~
+19 0 A
+A 0 0 0 0
+0 1 5 P
+#25763
+elite issued sword black~
+an elite issued sword~
+A black bladed sword with the word "Darkmere" engraved on the holt.~
+unknown~
+5 0 AN
+A AC AC AB 0
+15 10 30 P
+A
+19 1
+A
+18 3
+#25764
+acidic blade sword vampiric~
+an acidic blade~
+A short sword with a rusty, glowing blade.~
+unknown~
+5 0 AN
+A AD BD ABCDE C
+50 25 500000 A
+A
+19 6
+A
+18 3
+#25765
+pipe fountain~
+a leaky pipe~
+A leaky pipe is soaking the ground with an unknown liquid substance.~
+unknown~
+25 MO 0
+0 0 0 0 0
+0 18 0 P
+#25766
+timion slayer sword sharp vampiric~
+the Timion Slayer~
+A very evil sword repels good.~
+unknown~
+5 AEJ AN
+A AD BD ABCDE CD
+60 40 750000 P
+A
+13 75
+A
+19 9
+A
+18 9
+A
+1 2
+A
+2 -1
+A
+4 -1
+A
+12 -35
+#25767
+armor injustice armor-body~
+the Armor of Injustice~
+A chest suit of blackened armor with a few demonic symbols.~
+unknown~
+9 AEJ AD
+ADE ADE ADE CE 0
+50 45 200000 P
+A
+19 9
+A
+18 9
+A
+2 1
+A
+4 1
+#25768
+gauntlets evil incarnate armor-hands~
+the Gauntlets of the Evil Incarnate~
+A pair of black gauntlets give off an evil essence.~
+unknown~
+9 AEJ AH
+ADE ADE ADE CE 0
+50 23 200000 P
+A
+1 2
+A
+13 50
+A
+19 5
+A
+18 5
+#25769
+bracer pure evil armor-wrist~
+the Bracer of Pure Evil~
+A heavy bracer with chaotic symbols on the top.~
+unknown~
+9 AEJ AM
+BE BE BE BD 0
+50 14 200000 P
+A
+4 1
+A
+19 5
+A
+18 5
+A
+2 1
+#25770
+ring darkened heart armor-finger~
+the Ring of the Darkened Heart~
+A ring with an inverted onyx broken heart set in metal.~
+unknown~
+9 AEJ AB
+BC BC BC AB 0
+50 4 150000 P
+A
+19 5
+A
+17 -10
+A
+13 20
+A
+4 2
+#25771
+boots speed armor-feet~
+the Boots of Speed~
+A pair of well crafted boots have turned translucent.~
+unknown~
+9 BRSUVWX AG
+ABCD ABCD ABCD D 0
+50 15 500000 P
+A
+2 3
+A
+1 -1
+A
+18 3
+A
+14 100
+#25772
+enchanted gloves mordo armor-hands~
+the Enchanted Gloves of Mordo~
+A pair of enchanted gloves float above the ground.~
+unknown~
+9 ARUVWX AH
+ABCD ADE ADE CE 0
+60 20 250000 P
+A
+2 2
+A
+18 4
+A
+19 7
+A
+13 15
+#25773
+icon defender rook light~
+the Icon of the Defender~
+A rook-shaped icon floats above the ground.~
+unknown~
+1 0 A
+0 0 10000 0 0
+85 5 10000000 P
+A
+19 8
+A
+18 10
+A
+17 -50
+#25774
+black wave destruction death sentence exotic vorpal two-hands~
+the `KD`re`Ka`rt`Kh`w Sentence~
+A black wave of destruction emits an eeiry glow.~
+unknown~
+5 EGJRTU ANPQRSTUVWXYZabcdef
+0 BD ACD A EF
+85 21 20000000 P
+A
+2 -2
+A
+18 15
+A
+19 13
+A
+13 30
+#25775
+wand-self chaos device~
+a Chaos Device~
+A small wand with the words "Chaos Device" carved on it.~
+unknown~
+3 BRTUVW AO
+CE BC BC 2 0
+45 3 50000 P
+A
+2 1
+#25776
+green scroll-object enchantment~
+a scroll of enchantment~
+A small green scroll is here.~
+unknown~
+2 B A
+75 24 0 0 0
+89 1 1000000 P
+#25777
+waterfall falls fountain~
+a waterfall~
+A beautiful watefall arcs into a small pond.~
+unknown~
+25 MO 0
+0 0 0 0 0
+0 1 0 P
+#25778
+diamond necklace treasure~
+a diamond necklace~
+A beautiful crafted diamond necklace glimmers.~
+unknown~
+8 A AC
+0 0 0 0 0
+1 2 10000000 P
+E
+necklace~
+A beautifully crafted necklace. It is the most expensive piece of
+jewelry you have ever seen, and it is the best gift anyone could give. The
+diamonds are bound to a thin silver chain and held in place with pure gold
+pods. It is engraved with the words, "For you, my love."  
+~
+#25779
+goldenaxe axe sharp two-hands~
+the Goldenaxe~
+An axe made of solid gold!~
+unknown~
+5 A AN
+AC ABD ABD ADE DF
+80 59 6580000 P
+A
+19 9
+A
+18 9
+A
+17 -50
+A
+1 -3
+#25780
+wall ring armor-finger~
+a wall ring~
+A small green ring has been left here.~
+unknown~
+9 A AB
+0 0 0 DF 0
+75 1 2500000 P
+A
+24 -35
+A
+5 -1
+A
+2 -1
+A
+4 -1
+A
+3 -1
+A
+1 -1
+E
+ring~
+The ring eminates a green barrier, good for deflectinh magic attacks.  
+~
+#25781
+book spells furniture~
+a `RBook of `KSpells`w~
+A book with `Ygolden `wbinders lies forgotten.~
+unknown~
+12 0 AO
+0 0 0 0 0
+80 15 30 P
+A
+12 100
+#25782
+potatoes vegetable~
+some potatoes~
+Some potatoes are lying on the ground.~
+unknown~
+19 0 AO
+A 0 0 0 0
+0 3 25 P
+#25795
+coconut fruit~
+a coconut~
+A small brown coconut is here.~
+unknown~
+19 0 A
+AD 0 0 0 0
+0 3 0 A
+#25796
+big beefy taco food-meat~
+a big, beefy taco~
+A pastry wrapped around spicy ground beef.~
+unknown~
+19 0 A
+CFG 0 0 0 0
+0 1 101 P
+#25797
+acts sword flaming~
+the Acts~
+A sword with a sculpted blade to resemble flames.~
+unknown~
+5 AX AN
+A ABC BC ACDE A
+30 24 150000 P
+A
+18 13
+A
+19 -6
+A
+1 3
+A
+5 -1
+#25798
+counteracts sword frost~
+the Counteracts~
+A sword with a blade sculpted to resemble ice shards.~
+unknown~
+5 AU AN
+A ABC BC BCDE B
+30 24 150000 P
+A
+5 3
+A
+1 -1
+A
+18 -6
+A
+19 13
+#25799
+black elite issue helmet armor-head~
+an elite issue helmet~
+A black helmet rusts here.~
+unknown~
+9 0 AE
+BC BC BC AB 0
+15 15 0 P
+A
+18 2
+A
+13 10
+#0
+
+
+
+#ROOMS
+#25700
+North Market Square~
+This is the northern-most part of market square. South, a failed
+building project can be seen known as the Tower of Darkmere. Set out to be
+ninety-one stories high, it never got past the first floor. The market
+square has been rather vacant due to the thieving.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25714
+D1
+(null)~
+~
+0 0 25701
+D2
+(null)~
+~
+1 0 25708
+D3
+(null)~
+~
+0 0 25702
+S
+#25701
+Northeast Market Square~
+You are in the midst of a deserted market. Merchants used to come over
+here to peddle their wares to travelers, but since the darkness was cast
+upon the city they all moved to Daggerford. A few of them wander around in
+the east part of the city in hopes of customers. A shop to you north has a
+sign above the door reading 'Goldsmith.  ' 
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25756
+D2
+(null)~
+~
+0 0 25707
+D3
+(null)~
+~
+0 0 25700
+S
+#25702
+Northwest Market Square~
+You are in Northwestern Market Square where you can shop for various
+items. Darkness clouds your vision but you can see a few fidos walking
+around. Upon closer inspection however, they appear to be foaming at the
+mouth. Soldiers walk around the dangerous mutts without bothering to kill
+them. The city is infested with bugs and cockroaches crawling around the
+streets.  
+~
+0 2359297 1
+D1
+(null)~
+~
+0 0 25700
+D2
+(null)~
+~
+0 0 25703
+D3
+(null)~
+~
+0 0 25757
+S
+#25703
+West Market Square~
+You are in a cluttered portion of market square where merchants throw
+their trash out and leave it to rot on the streets. A strong life energy
+eminates from the west where several magicians pass by. East is a door
+leading into the failed Tower of Darkmere.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25702
+D1
+(null)~
+~
+1 0 25708
+D2
+(null)~
+~
+0 0 25704
+D3
+(null)~
+~
+0 0 25709
+S
+#25704
+Southwest Market Square~
+Southwest market square is filthy with fido droppings and garbage which
+has been tossed out by shopkeepers. The janitor has never been seen in this
+town ever since the disappearance of the mayor. A shop door can be seen to
+the south, while market square continues on east and north.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25703
+D1
+(null)~
+~
+0 0 25705
+D2
+(null)~
+~
+0 0 25748
+S
+#25705
+South Market Square~
+A small path leads south from where you can hear several men talking
+about weaponry and past battles. Due to the black fog, they are very
+difficult to see except a slight outline. To the north, the failed Tower of
+Darkmere can be seen in all its disgrace.  
+~
+0 2359297 1
+D0
+(null)~
+~
+1 0 25708
+D1
+(null)~
+~
+0 0 25706
+D2
+(null)~
+~
+0 0 25722
+D3
+(null)~
+~
+0 0 25704
+S
+#25706
+Southeast Market Square~
+Smoke fills the air from a bar to the east. The cobblestone path has
+been chipped and marred where you walk. Barks and howls of fidos throughout
+the city send chills down your spine.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25707
+D1
+(null)~
+~
+0 0 25758
+D3
+(null)~
+~
+0 0 25705
+S
+#25707
+East Market Square~
+Beggars and bums are even afraid to travel through Darkmere because of
+the fidos and thieves. The shrouded city hides many secrets behind its
+Darkness. To the west the crumbled building rests quietly in the eternal
+darkness.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25701
+D1
+(null)~
+~
+0 0 25718
+D2
+(null)~
+~
+0 0 25706
+D3
+(null)~
+~
+1 0 25708
+S
+#25708
+Lobby of the Tower of Darkmere~
+This tower is a disgrace to Darkmere. It was started by a madman who
+hoped to build a tower so high it reached the gods, therefore becoming a god
+himself. Needless to say it never reached floor 2 of the expected
+ninety-one stories. The roof here is cut away and the walls are jagged and
+uneven, never having been torn down. Exit doors lead in all directions.  
+~
+0 2097153 0
+D0
+(null)~
+~
+1 0 25700
+D1
+(null)~
+~
+1 0 25707
+D2
+(null)~
+~
+1 0 25705
+D3
+(null)~
+~
+1 0 25703
+D5
+(null)~
+~
+7 0 25784
+S
+#25709
+Center of Shadows~
+This is a place where magic users can feel at home. Mystic energy flows
+all about here as blue-robed clerics and red-robed mages converse with one
+another. To the east is western market square. The Walk of Shadows runs
+north and south from here. On the side of a worn out building, stairs lead
+underground into the magic guilds.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25710
+D1
+(null)~
+~
+0 0 25703
+D2
+(null)~
+~
+0 0 25711
+D3
+(null)~
+~
+0 0 25725
+D5
+Stairs lead into an underground magic guild.  
+~
+~
+0 0 25740
+S
+#25710
+Walk of Shadows~
+This road extends out from the Center of Shadows, which is directly to
+the south. Shops flank the road and robed figures pass by quickly, causing
+the shadow-like fog to swirl and collect about your feet.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25712
+D1
+(null)~
+~
+0 0 25737
+D2
+The Center of Shadows is south of here.
+~
+~
+0 0 25709
+D3
+(null)~
+~
+0 0 25736
+S
+#25711
+Walk of Shadows~
+This is a narrow walkway where red-hooded mages chant and drudge forth. 
+To you west is a small magic shop run by a red-hooded Mage. South is an
+intersection between two streets. North is where clerics and mages meet to
+converse. To the east is a weird shop run by a black-hooded Avenger.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25709
+D1
+(null)~
+~
+0 0 25739
+D2
+(null)~
+~
+0 0 25724
+D3
+(null)~
+~
+0 0 25738
+S
+#25712
+Corner of Knifer's Alley and Walk of Shadows~
+This street corner is mostly deserted. Blast marks cover the sides of
+the buildings, and some rusted knife blades are scattered about in the
+street. A sign on the street corner is bent and twisted, and the area looks
+to be a high target for violence.  
+~
+0 2359297 1
+D1
+(null)~
+~
+0 0 25713
+D2
+(null)~
+~
+0 0 25710
+S
+#25713
+Knifer's Alley~
+This street harbours many thieves and convicts. Shadows bustle all
+about, only light is provided by an old street lamp. To the south is an
+old, run-down warehouse.  
+~
+0 2359297 1
+D1
+(null)~
+~
+0 0 25714
+D2
+(null)~
+~
+0 0 25753
+D3
+(null)~
+~
+0 0 25712
+S
+#25714
+Knifer's Square~
+This place does not seem as active as the rest of the city. All around
+you in the shadows you can make out faint whispers, but not see anyone. 
+North of you is the north gate of the city and south is North Market Square.
+Down, an open manhole serves as the entrance into the guild of thieves.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25730
+D1
+(null)~
+~
+0 0 25715
+D2
+(null)~
+~
+0 0 25700
+D3
+(null)~
+~
+0 0 25713
+D5
+An open manhole leads to the Nightblade and Thief guildrooms.  
+~
+~
+0 0 25750
+S
+#25715
+Knifer's Alley~
+The street lamp here seems to have been knocked over, and a strong
+rotting stench directs you to the ground where a dead body decays in the
+street. You can only hear the murmurs of thieves and other hidden people
+along the way. West is the Knifer's Square which doesn't appear terribly
+active.  
+~
+0 2359297 1
+E
+lamp~
+A fallen street lamp lies across the road, broken in two.  
+~
+D1
+(null)~
+~
+0 0 25716
+D2
+(null)~
+~
+0 0 25754
+D3
+(null)~
+~
+0 0 25714
+S
+#25716
+Corner of Knifer's Alley and Trader's Way~
+This place is a gold mine for the thieves because of all the merchants
+and travelers that pass through here. The thieves of course make it a point
+to stay hidden and the merchants are robbed blind. West is the gathering
+place for thieves and south is a place of business.  
+~
+0 2359297 1
+D2
+The place is bustling with activity!
+~
+~
+0 0 25717
+D3
+West is Knifer's Way.
+~
+~
+0 0 25715
+S
+#25717
+Trader's Way~
+Trader's Way is a well known place to buy the best imported goods from
+distant cities. Many exotic weapons can be bought here on the black market,
+for the right price. From the west the smell of rising bread and sweet
+pastries' drifts through the air. The south appears to be a center of
+trade.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25716
+D2
+(null)~
+~
+0 0 25718
+D3
+(null)~
+~
+0 0 25755
+S
+#25718
+Trader's Place~
+This is a bustling center of trade. Many merchants are wandering about
+hawking their goods. Trader's Way extends north and south of here and to
+the east is a gated entrance to the city.  
+~
+0 2359297 0
+D0
+(null)~
+~
+0 0 25717
+D1
+(null)~
+~
+0 0 25732
+D2
+(null)~
+~
+0 0 25719
+D3
+(null)~
+~
+0 0 25707
+S
+#25719
+Trader's Way~
+The street is filled with merchants who wander about in search of a
+profit. To the south is a street corner leading to the warriors street, and
+north is the gathering place for merchants. To the west is the notorious
+black market. Stairs lead down to an underground shop.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25718
+D2
+(null)~
+~
+0 0 25720
+D3
+That is the black market know for ripping off good weapons.  
+~
+~
+0 0 25759
+D5
+(null)~
+~
+7 0 25799
+S
+#25720
+Corner of Blader's Lane and Trader's Way~
+Merchants often like to come here and sell cheap swords and armor to to
+the less intelligent warriors who can't tell they're fakes. North is the
+trader's way, where merchants walk around bargaining off goods, and beggars
+badger you for money.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25719
+D3
+(null)~
+~
+0 0 25721
+S
+#25721
+Blader's Lane~
+Warriors and fighters dominate this area, in search of a sharper sword or
+stronger armor. To the west, the street opens up into a square, which
+houses a number of people talking and discussing their purchases. East of
+here is a brightly lit street corner.  
+~
+0 2359297 1
+D1
+(null)~
+~
+0 0 25720
+D2
+(null)~
+~
+0 0 25747
+D3
+(null)~
+~
+0 0 25722
+S
+#25722
+Blader's Square~
+The pride of Darkmere collect here in the form of its best and bravest
+warriors. They sit in groups, discussing their various exploits and
+monsters they have killed. North opens up into Market Square. East and
+west Blader's Lane extends to a small corner. Down, a set of stairs on the
+side of a building with a crunched wall leads to a warrior's guild.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25705
+D1
+(null)~
+~
+0 0 25721
+D2
+(null)~
+~
+0 0 25734
+D3
+(null)~
+~
+0 0 25723
+D5
+These are the warrior guilds. A staircase leads into the warriors'
+guilds.  
+~
+~
+0 0 25746
+S
+#25723
+Blader's Lane~
+This street is crowded with warriors and knights who come to talk about
+all their kills, and catch up with their comrades. Blader's Lane stretches
+east and west as far as the eye can see.  
+~
+0 2359297 1
+D1
+(null)~
+~
+0 0 25722
+D2
+(null)~
+~
+0 0 25743
+D3
+(null)~
+~
+0 0 25724
+S
+#25724
+Corner of Blader's Lane and Walk of Shadows~
+This street corner is brightly lit and seems to be peaceful. East of
+here you can see the warriors' area of commerce, as Blader's Lane stretches
+as far as you can see. North of here is a strong magical center, and the
+Walk of Shadows extends in that direction.  
+~
+0 2359297 1
+D0
+North, the Walk of Shadows continues.
+~
+~
+0 0 25711
+D1
+East is the Warrior's street.
+~
+~
+0 0 25723
+S
+#25725
+Inside West Gate~
+You are on the inside of the western gates of Darkmere. Two large
+lookout towers are posted on either sides of the gates. Eastward heads to
+the Center of Shadows and westward leads outside the city limits.  
+~
+0 2359297 1
+D0
+North is the courtyard of the shrine.  
+~
+~
+0 0 25727
+D1
+East leads to the meeting place of magicians.  
+~
+~
+0 0 25709
+D3
+These are the city gates.  
+~
+gate~
+1 0 25726
+S
+#25726
+Outside West Gate~
+You are next to two huge towers with a large gate inbetween them. There
+looks like no way to reach them from your current position. Trails lead off
+in most directions and the darkness fades into sunlight as you look
+westward, out past the city walls.
+~
+0 2359300 1
+D1
+(null)~
+gate~
+1 0 25725
+D3
+(null)~
+~
+0 0 25761
+S
+#25727
+Central Courtyard~
+The shrine opens up into a large courtyard where, strangely, the grass
+grows black. To the south is the west gate and to the north is the Shrine
+of Darkness. A fountain sits at the center of the courtyard where citizens
+and travelers can come to quench their thirst for free.  
+~
+0 2359301 1
+D0
+North is the Shrine of Darkness.
+~
+~
+0 0 25728
+D2
+(null)~
+~
+0 0 25725
+D5
+A small trapdoor...hmmm?
+~
+trapdoor~
+7 0 25780
+S
+#25728
+Shrine of Darkness~
+You are on the entrance steps to the Shrine of Darkness. South of you
+stretches out into a large courtyard. The walls of the shrine are made of
+made of gold which once shone brightly, but are now blackened and dull. 
+North of here altar.  
+~
+0 262153 0
+E
+walls~
+The walls that were once gold are now blackened.  
+~
+D0
+The shrine's altar where Diablo resides.
+~
+~
+0 0 25729
+D2
+To the south is a wide courtyard with a fountain in the center.
+~
+~
+0 0 25727
+S
+#25729
+Shrine's Altar~
+You are in a large room with a stone altar in the middle of it. The only
+light radiates from a figure within. A large hulking creature with crooked
+horns and horse's hooves sits on a throne by the altar reciting chants from
+a large black book with golden binders.  
+~
+0 263193 0
+E
+altar~
+A huge altar has been carver out of onyx and is used for sacrifices.  
+~
+D2
+That is the dark shrine.  
+~
+~
+0 0 25728
+S
+#25730
+Inside North Gate~
+You are on the inside of the north gate of town which is protected by two
+unused towers. The buildings are run down and the area is deserted, except
+for a couple of guards standing at the entranceway. They look at you with a
+half glazed-over look, and you doubt they really keep any intruders out of
+Darkmere.  
+~
+0 2359296 1
+D0
+It's the city gate, dummy!
+~
+gate~
+1 0 25731
+D2
+(null)~
+~
+0 0 25714
+S
+#25731
+Outside North Gate~
+Just outside of the huge wooden gates of Darkmere, the sky appears to be
+an odd mix of heavy clouds and clear sky. A lack of wind seems to keep the
+dark clouds over the city's limits. A small dimly lit path leads north.  
+~
+0 2359300 1
+D0
+(null)~
+~
+0 0 25786
+D2
+(null)~
+gate~
+1 0 25730
+S
+#25732
+Inside East Gate~
+Two watchguards keep on the lookout for all sorts of harmful people. Two
+towers are connected in the middle by an unaccessable footbridge running
+across the large wooden gates.  
+~
+0 2359297 1
+D1
+(null)~
+gate~
+1 0 25733
+D3
+(null)~
+~
+0 0 25718
+S
+#25733
+Outside East Gate~
+Outside the east gate of Darkmere, the sky is clear and the atmosphere is
+much lighter. A heavy wall of dark clouds appear stagnant with a lack of
+wind above the city and it's walls. A small pathway leads east, and large
+wooden gates to the city are to the west.  
+~
+0 2359300 1
+D3
+(null)~
+gate~
+1 0 25732
+S
+#25734
+Inside South Gate~
+You are inside the south gate of Darkmere where huge wooden gates keep
+out intruders from the south. Guards keep a watchful eye on you but appear
+to be stressed out from a rather monotonous job.  
+~
+0 2359297 1
+D0
+(null)~
+~
+0 0 25722
+D2
+(null)~
+gate~
+1 0 25735
+S
+#25735
+Outside South Gate~
+You are outside the huge wooden gates of the city of Darkmere. South is
+a dust ridden path that has clear skies, vacant of heavy clouds, as it gets
+further away from the town.  
+~
+0 2359300 1
+D0
+(null)~
+gate~
+1 0 25734
+D2
+(null)~
+~
+0 0 25772
+S
+#25736
+Cleric's General Store~
+This organized store is here to meet your everyday clerical needs. 
+Shelves are neatly stocked with magical items and such. A blue-robed Cleric
+sits behind the glass counter.  
+~
+0 10747912 1
+D1
+(null)~
+~
+0 0 25710
+S
+#25737
+Paladin's General Store~
+Across the street from the Cleric's General store is this shoppe. With
+clean floors and smooth walls, this store supplies equipment, weapons and
+potions especially for the noble paladin.  
+~
+0 69468160 1
+D3
+(null)~
+~
+0 0 25710
+S
+#25738
+Mage's General Store~
+The walls in this room have been painted dark red and gives the air a
+burning sensation. A fairly large red-hooded Mage sits behind a wooden
+countertop, his face covered by his mask. There are dagger and wands
+hanging on hooks behind the counter.  
+~
+0 6553608 1
+D1
+(null)~
+~
+0 0 25711
+S
+#25739
+Avenger's General Store~
+The walls of the store are charred black and the minimal lighting hides a
+black-hooded Avenger. Upon seeing you, he orders you to buy something or
+get out. A threat with a blast and decapitation hurries your decision.  
+~
+0 136577032 1
+D3
+(null)~
+~
+0 0 25711
+S
+#25740
+Magician's Guilds~
+From here are the guilds for magic users. North is the Cleric's Guild,
+south is the Mage's Guild, west is the Paladin's Guild, and east is the
+Avenger's Guild.  
+~
+0 2359308 1
+D0
+(null)~
+~
+0 0 25741
+D1
+(null)~
+~
+0 0 25744
+D2
+(null)~
+~
+0 0 25742
+D3
+(null)~
+~
+0 0 25745
+D4
+(null)~
+~
+0 0 25709
+S
+#25741
+Cleric's Guild~
+This is a small white room in which you sense a mystical healing
+property. Calorn sits in the middle of the room, waiting to help you
+practice your training, and to enhance your skills and knowledge.  
+~
+0 10747912 0
+D2
+(null)~
+~
+0 0 25740
+S
+#25742
+Mage's Guild~
+The blinding red walls of this room omit a powerful magical essence. 
+Almost hidden in the far corner, is a red-robed mage quietly muttering
+spells from an old book. Burning energy surges throughout the room and
+fills your body with a renewed strength.  
+~
+0 6553608 0
+D0
+(null)~
+~
+0 0 25740
+S
+#25743
+Warrior's General Store~
+This small store is run by a retired warrior overlord. Only a few items
+appear to be for sale, but all useful for the training warrior. The walls
+are rough and unpainted, and the floor is dirt with a few boards layed on
+top.  
+~
+0 35913736 1
+D0
+(null)~
+~
+0 0 25723
+S
+#25744
+Avenger's Guild~
+The room is entirely black and all you can make out is a dark shadowy
+figure. You suspect he is the guildmaster.  
+~
+0 136577032 0
+D3
+(null)~
+~
+0 0 25740
+S
+#25745
+Paladin's Guild~
+A large room with purple walls, pulsating with holy strength. A young
+paladin stands in the middle of the room, ready to help you on your quest to
+become better at your faith and your strength.  
+~
+0 69468168 0
+D1
+(null)~
+~
+0 0 25740
+S
+#25746
+Warrior's Guild~
+Inside this dark room stands the greatest warrior of the town. He now
+endures his time to help out young and able fighters to become mighty
+warriors such as himself. He is shrouded by the shadows of this dimly lit
+room and stands ready to help. His slightly restless attitude leads you to
+believe that he may yet fight again one day.  
+~
+0 35913737 0
+D4
+(null)~
+~
+0 0 25722
+S
+#25747
+Armory~
+The shop has a short ceiling and a small counter with a case for some
+armor. A strange little man behind the counter proudly shows off his wares.
+For the right price, you can obtain some of this finely crafted workmanship
+too.  
+~
+0 35913736 1
+D0
+(null)~
+~
+0 0 25721
+D2
+(null)~
+~
+7 0 25760
+S
+#25748
+A Small Hirlings Store~
+The room is lined wall to wall with men in armor waiting to help you out.
+Most of them are completely loyal and would fight to the death. The lower
+forms of fighters and protectors are available to those of less skill and
+wealth.  
+~
+0 2101257 0
+D0
+(null)~
+~
+0 0 25704
+S
+#25749
+Backroom of the Stop and Shop, Henchmen 'R Us!~
+(null)~
+0 1085444 0
+S
+#25750
+Entrance to the Thieving Guilds~
+A small tunnel under Knifer's Square leads to a damp room where one can
+practice the thieving arts. To the north is the thief's guild and to the
+west is the nightblade's guild. A few large torches hung on the walls,
+light the passageway quite well.  
+~
+0 2097160 0
+D0
+(null)~
+~
+0 0 25752
+D3
+(null)~
+~
+0 0 25751
+D4
+(null)~
+~
+0 0 25714
+S
+#25751
+Nightblades' Guild~
+The room is relatively small, but there is still plenty of for you to
+practice your moves and skills. A tall man looks at you and starts
+muttering gibberish. It seems hard to believe he is a guildmaster.  
+~
+0 270532616 0
+D1
+(null)~
+~
+0 0 25750
+S
+#25752
+Thieves' Guild~
+You are in a small cellar where a short man with a bandana sits in a
+chair. The floor is covered with smooth boards, and the walls have a few
+hanging torches. The man offers to teach you in all manners of thievery.  
+~
+0 18874376 0
+E
+floor~
+The floor around the corner of the room is dusty, but you can make out
+what appears to be a trapdoor.  
+~
+D2
+(null)~
+~
+0 0 25750
+S
+#25753
+An Old Warehouse~
+This is quite a large room. It contains crates and old boxes all around
+The wooden walls are falling apart from decay and the floor is rotting. 
+Most of the windows are boarded up, and the only life is a little guy
+sitting behind a larger crate.  
+~
+0 18874376 0
+D0
+(null)~
+~
+0 0 25713
+S
+#25754
+Nightblades' Shop~
+You are in a small little shack big enough for a couple of people. 
+Weapons and armor are hanging on the wall and a tall gangly man runs the
+place from behind an old wooden box.  
+~
+0 270532608 0
+E
+box~
+Hey man! Don't rag on th' box!  
+~
+D0
+(null)~
+~
+0 0 25715
+S
+#25755
+The Bakery~
+*SNIFF* Ahhhh. The smell of rising yeast and fresh pastries fills the
+room. Cookies, pies, stews and even exotic meat folds called tacos. A chef
+in a tall white hat sits behind the counter.  
+~
+0 2359305 1
+D1
+(null)~
+~
+0 0 25717
+S
+#25756
+The Goldsmith~
+This small room is overheated due to the small forge in the back. A man
+behind the counter explains that he will take an abundance of gold coins and
+melt them into weapons for you.  
+~
+0 2359305 1
+D2
+(null)~
+~
+0 0 25701
+S
+#25757
+The Jeweller's~
+This square shop displays some of the worlds finest jewlery in locked
+glass cases all about the room. Several large torches keep the store free
+of shadows and potential thieves. A small stout man sits in the corner
+watching you with an anxious gleam in his eyes.  
+~
+0 2359305 1
+D1
+(null)~
+~
+0 0 25702
+S
+#25758
+The Blue Boar~
+From the looks of this bar you wouldn't tell it was really quite
+exquisite and expensive. A small flight of about three stairs leads into a
+main area where gentlemen smoke their pipes. The smell of smoke lingers in
+the air. The tables are oddly placed around the room and the old wooden
+floors don't look so sturdy. A barkeep stands behind his post waiting to
+dispense drinks.  
+~
+0 2097161 1
+D3
+(null)~
+~
+0 0 25706
+S
+#25759
+The Black-Market Pawn Shop~
+The rather plain walls of this shop are filled with goods from the world
+over. A nameless dealer offers to sell you his unique finds at a slightly
+lower price.  
+~
+0 2359304 1
+D1
+(null)~
+~
+0 0 25719
+S
+#25760
+Hidden Weapon Shop~
+You are in a small little room where a SWORD hangs on the wall. A man
+behind the counter tells you that he will sell it to you for a reasonable
+price. The walls are black and shadows loom everwhere, making it difficult
+to see.  
+~
+0 13 1
+E
+sword~
+A sword on the wall has a frozen blade and looks mighty powerful.  
+~
+D0
+(null)~
+~
+7 0 25747
+S
+#25761
+Path Out of Town~
+The sky is clear here, and absent of the dismal clouds you notice to your
+east. A SIGN is stuck in the ground near your feet. To your west the
+ground gets sandy.  
+~
+0 0 2
+E
+sign~
+Welcome to Darkmere, the City of Darkness. Hope you enjoy the sun
+because from now on you won't be seeing it. A curse was cast on this
+God-foresaken town, casting it in eternal darkness. Enjoy!  
+~
+D1
+(null)~
+~
+0 0 25726
+D3
+(null)~
+~
+0 0 25762
+S
+#25762
+On Black Sandy Shores~
+You are on a strange beach covered with black sand. To your east, a path
+leads to a dark city and out over the west is nothing but deep blue water. 
+A small weatherbeaten sign is stuck in a rocky sand dune higher up away from
+the waters edge.  
+~
+0 0 2
+E
+sign~
+`y*====-========---___-======-___    _-===*
+>                              \__/     |
+|   >X<                                 <
+]            `KDark ere Bea h`y             |
+|          >X<                    >X<   [
+|                     >X<               <
+]      /---\                  /-\       [
+*===---     --====--____--_-==   ==-__--*
+                (         )
+                ((O)      )
+                (         )
+                (     (O) )
+`K....___/====--===\_____/====-_____..__/==\`w
+~
+D1
+(null)~
+~
+0 0 25761
+D3
+(null)~
+~
+0 0 25763
+S
+#25763
+In the Shallow Ocean~
+The water is shallow here among the tides and small waves near a small
+beach located to your east. Moving westward, your feet loose contact with
+the ocean floor and the waves splash your face.  
+~
+0 0 6
+D1
+(null)~
+~
+0 0 25762
+D3
+(null)~
+~
+0 0 25764
+S
+#25764
+In the Ocean~
+All around you the horizon is flat with the distant waves of this ocean
+except a small land mass faintly visible to the east.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25763
+D3
+(null)~
+~
+0 0 25765
+S
+#25765
+In the Ocean~
+You are floating among a deep ocean. Waves lap at the side of your
+craft, splashing water everywhere. Glancing over the edge of your boat, the
+water is dark and the ocean floor is completely out of site.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25764
+D3
+(null)~
+~
+0 0 25766
+S
+#25766
+In the Ocean~
+You are floating in a large ocean. Small fish and sea creatures can be
+seen below the waves, and a large, large creature can be seen a little
+deeper. The waves generated by this unseen mass are great and your craft
+bobs along helplessly.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25765
+D3
+(null)~
+~
+0 0 25768
+S
+#25767
+In the Ocean~
+You are on a large body of water, most likely an ocean. All around is
+water, except to the west, where a small land mass is visible.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25768
+D3
+(null)~
+~
+0 0 25769
+S
+#25768
+In the Ocean~
+You are floating among the waves of an ocean. Over the western horizon
+is a barely visible land mass.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25766
+D3
+(null)~
+~
+0 0 25767
+S
+#25769
+In the Ocean~
+You are in the oceans floating and bobbing along. West of here, a dock
+of some sort can be seen, and further along is a large city.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25767
+D3
+(null)~
+~
+0 0 25770
+S
+#25770
+In the Ocean, Near a Pier~
+You are in an ocean where a pier or dock of some sort can be seen near
+the west. All around the waves knock your boat slowly and the horizon holds
+nothing for the eye but water.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25769
+D3
+(null)~
+~
+0 0 25771
+S
+#25771
+In the Ocean, Near Minotaur Bay~
+You are floating along in the ocean. A small rickety pier is to your
+west, and a sign can be seen on it. All around elsewhere is water.
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25770
+D3
+(null)~
+~
+0 0 22210
+S
+#25772
+A Woodland Path~
+You are on a small path with few pine trees about you. Everything looks
+just picture-perfect. To the north there is a large town wall. Above the
+town is a shroud of Darkness.  
+~
+0 0 3
+D0
+(null)~
+~
+0 0 25735
+D2
+(null)~
+~
+0 0 25773
+S
+#25773
+A Woodland Path~
+This tranquil path leads into the hills farther south, while north leads
+to a city. The wind here is slower, broken by the tall trees. The forest
+seems to be full of life.  
+~
+0 0 3
+D0
+(null)~
+~
+0 0 25772
+D2
+(null)~
+~
+0 0 25774
+S
+#25774
+A Woodland Path~
+This is a wooded path with pine trees on either side. To the north the
+path continues on while south the path transforms gradually into a rolling
+hillside.  
+~
+0 0 3
+D0
+(null)~
+~
+0 0 25773
+D2
+(null)~
+~
+0 0 25775
+S
+#25775
+A Hillside~
+You are on a steep hillside which leads north and south. The north leads
+to some more forested areas and south heads into yet more hills.
+~
+0 0 4
+D0
+(null)~
+~
+0 0 25774
+D2
+(null)~
+~
+0 0 25776
+S
+#25776
+A Small Hill~
+The hillside is small and covered in green grass. To the north the hills
+continue and glancing southwest you can see an extremly large town shrouded
+in heavy still clouds.  
+~
+0 0 4
+D0
+(null)~
+~
+0 0 25775
+D3
+(null)~
+~
+0 0 25777
+S
+#25777
+The Rolling Hills~
+You are on a rolling hillside where rolling stones roll down hills, not
+gathering moss of course. Moles pop out of their homes on the sides of the
+hillside and end up rolling down the hills themselves and getting rolled
+over by rolling stones.  
+~
+0 0 4
+D1
+(null)~
+~
+0 0 25776
+D3
+(null)~
+~
+0 0 25778
+S
+#25778
+The Hill Flatten Out~
+The ground is rather flat with only a few small and insignificant hills
+covered in short green grass that grows up to your ankles. A slightly well
+treaded path continues west and east.  
+~
+0 0 2
+D1
+(null)~
+~
+0 0 25777
+D3
+(null)~
+~
+0 0 25779
+S
+#25779
+Near the Crossroads~
+All about are wide open plains. The grass comes up to about your knees
+and sways in the constant unsheltered wind. Eastward, a path heads into the
+fields while to your west are the crossroads east of Daggerford.  
+~
+0 0 2
+D1
+(null)~
+~
+0 0 25778
+D3
+(null)~
+~
+0 0 22501
+S
+#25780
+A Hidden Tunnel~
+You are underground from the fountain in the City of Darkmere. The walls
+here have been cut out of the foundation. The red clay of the ground is
+rancid with the stench of human waste. To the east you see a small light
+flickering. A small broken pipe leading to the surface has sprung a small
+leak and water spews from it.  
+~
+0 9 0
+D1
+(null)~
+~
+0 0 25781
+D4
+(null)~
+~
+7 0 25727
+S
+#25781
+An Underground Tunnel~
+You are in an underground tunnel cut from the earth beneath Darkmere. 
+East you can barely see anything except a faint glimmer from a torch in what
+appears to be a room of sorts.  
+~
+0 9 0
+D1
+(null)~
+~
+0 0 25782
+D3
+(null)~
+~
+0 0 25780
+S
+#25782
+The Anti-{FoT} Shop~
+You are in a small shop underground, built out of wooden walls. The
+earth above lies heavy upon the supports, yet it still manages to stand. 
+There is a desk in front of you with an evil looking fellow behind it. A
+sign on the wall says the store sells anti-{FoT} equipment for people
+against the clan. A BANNER stands tall and bright, begging to be looked at.
+~
+0 2097160 0
+E
+banner~
+DEATH TO {FOT}!!!!!!  
+~
+D1
+(null)~
+~
+0 0 25783
+D3
+(null)~
+~
+0 0 25781
+S
+#25783
+An Underground Tunnel~
+This is an underground tunnel carved in a cave-like fashion, most likely
+by someone who doesn't want to be discovered. To your west is a small room
+with a few torches lit.  
+~
+0 2097161 0
+D1
+(null)~
+~
+0 0 25784
+D3
+(null)~
+~
+0 0 25782
+S
+#25784
+A Hidden Tunnel~
+You are under the foundation of the Tower of Darkmere, where someone,
+most likely a worker on the tower made a secret underground tunnel leading
+west. Up is the lobby of the "tower".  
+~
+0 2097161 0
+D3
+(null)~
+~
+0 0 25783
+D4
+(null)~
+~
+7 0 25708
+S
+#25785
+Palace of Champions.~
+This is a small room that would probably measure ten feet by ten feet,
+not very big at all. Above you is a larger shop accessible by a staircase. 
+A counter on the western wall glows with magical contents inside. A mage
+garbed only in a black robe stands there.  
+~
+0 0 0
+D4
+(null)~
+~
+7 0 25799
+S
+#25786
+On the Sandy Shores of the Darkmere Beach~
+You are standing on a shore full of nothing but black sand, a strange
+site indeed! To the south a small, worn-down path leads to a city, while
+north leads to an ocean.  
+~
+0 0 2
+D0
+(null)~
+~
+0 0 25787
+D2
+(null)~
+~
+0 0 25731
+S
+#25787
+In the Shallow Ocean~
+You are in an ocean next to a beach of black sand. The water has been
+diluted and turned black by the sand and strange creatures seem to brush up
+against your leg.  
+~
+0 0 6
+D0
+(null)~
+~
+0 0 25788
+D2
+(null)~
+~
+0 0 25786
+S
+#25788
+In the Ocean~
+You are in the ocean floating along. To the south you see a beach, and
+all around elsewhere is water.  
+~
+0 0 7
+D0
+(null)~
+~
+0 0 25789
+D2
+(null)~
+~
+0 0 25787
+S
+#25789
+In the Ocean~
+You are floating along in the ocean, and waves and riptides are getting
+stronger. South of here, over the horizon, is a large land mass, where east
+is a smaller one.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25790
+D2
+(null)~
+~
+0 0 25788
+S
+#25790
+Near an Island~
+You are in the water of an ocean. East of here is a small island.  
+~
+0 0 7
+D1
+(null)~
+~
+0 0 25791
+D3
+(null)~
+~
+0 0 25789
+S
+#25791
+A Tiny Tiny Little Island~
+You are on an incredibly small island, only big enough for about two
+people. A palm tree grows out of the center and slumps over, providing some
+shade.  
+~
+0 512 10
+D3
+(null)~
+~
+0 0 25790
+D4
+(null)~
+~
+0 0 25792
+S
+#25792
+In a Palm Tree~
+You are on the trunk of a small palm tre overlooking the ocean. Scanning
+the horizon all there is to see are the endless waves of this ocean.  
+~
+0 2048 5
+D5
+(null)~
+~
+0 0 25791
+S
+#25799
+The Antiques Dealer~
+You are in a small rectangular room with blue walls. A few torches hang
+on the walls between several shelves which have been filled with piles of
+junk people have sold the gullible shopkeep. A small staircase leads down
+to a slightly smaller room.  
+~
+0 2097164 0
+D4
+(null)~
+~
+7 0 25719
+D5
+A small staircase leads into a dark room.  
+~
+~
+7 0 25785
+S
+#0
+
+
+
+#RESETS
+D 0 25700 2 0
+D 0 25703 1 0
+D 0 25705 0 0
+D 0 25707 3 0
+D 0 25708 0 0
+D 0 25708 1 0
+D 0 25708 2 0
+D 0 25708 3 0
+D 0 25708 5 0
+D 0 25727 5 0
+D 0 25780 4 0
+D 0 25784 4 0
+M 0 25742 10 25700 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25701 Load a rabid fido
+M 0 25746 20 25702 Load a rabid fido
+M 0 25729 0 25702 Load Tito the dealer
+G 0 25797 0 The acts is given to Tito the dealer
+M 0 25742 10 25703 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25704 Load a rabid fido
+M 0 25742 0 25705 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25746 20 25706 Load a rabid fido
+M 0 25742 10 25707 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25742 10 25709 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25733 2 25709 Load an evil avenger
+M 0 25732 5 25709 Load a noble paladin
+M 0 25731 5 25709 Load a blue-hooded cleric
+M 0 25730 5 25709 Load a red-robed mage
+M 0 25732 5 25710 Load a noble paladin
+M 0 25731 5 25710 Load a blue-hooded cleric
+M 0 25730 5 25710 Load a red-robed mage
+M 0 25733 2 25711 Load an evil avenger
+M 0 25732 5 25711 Load a noble paladin
+M 0 25731 5 25711 Load a blue-hooded cleric
+M 0 25730 5 25711 Load a red-robed mage
+M 0 25742 10 25713 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25734 3 25713 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25713 Load a pickpocket
+M 0 25736 3 25713 Load a sneaky pickpocket
+E 0 25759 0 14 A spiked wristband is loaded on the left wrist of a sneaky pickpocket
+M 0 25734 3 25714 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25714 Load a pickpocket
+M 0 25736 3 25714 Load a sneaky pickpocket
+E 0 25759 0 15 A spiked wristband is loaded on the right wrist of a sneaky pickpocket
+M 0 25734 3 25715 Load a thief
+E 0 25760 0 6 A bandana is loaded over the head of a thief
+M 0 25735 3 25715 Load a pickpocket
+M 0 25736 3 25715 Load a sneaky pickpocket
+E 0 25759 0 14 A spiked wristband is loaded on the left wrist of a sneaky pickpocket
+M 0 25742 0 25716 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+P 0 25762 0 25761 Some peanuts put inside some peanuts
+M 0 25737 3 25717 Load a jolly fat merchant
+M 0 25739 3 25717 Load a poor merchant
+M 0 25741 5 25717 Load a well-to-do merchant
+M 0 25738 0 25718 Load Nick the Peanut Peddler
+G 0 25762 0 Some peanuts is given to Nick the Peanut Peddler
+M 0 25737 3 25718 Load a jolly fat merchant
+M 0 25739 3 25718 Load a poor merchant
+M 0 25741 4 25718 Load a well-to-do merchant
+M 0 25737 3 25719 Load a jolly fat merchant
+M 0 25739 3 25719 Load a poor merchant
+M 0 25740 0 25719 Load Andrew the Bum
+M 0 25741 5 25719 Load a well-to-do merchant
+M 0 25744 6 25721 Load a burly warrior
+M 0 25745 6 25721 Load a lonely warrior
+M 0 25744 6 25722 Load a burly warrior
+M 0 25745 6 25722 Load a lonely warrior
+M 0 25742 10 25723 Load a Darkmere cityguard
+E 0 25763 0 16 An elite issued sword is loaded wielded of a Darkmere cityguard
+M 0 25744 6 25723 Load a burly warrior
+M 0 25745 6 25723 Load a lonely warrior
+M 0 25743 4 25726 Load a Darkmere gateman
+O 0 25701 0 25727 A fountain loaded to Central Courtyard
+M 0 25701 0 25728 Load Bob's Dark Half
+E 0 25700 0 16 The dark blade of justice is loaded wielded of Bob's Dark Half
+M 0 25700 0 25729 Load Diablo
+E 0 25781 0 17 A `rbook of `kspells`w is loaded held in the hands of Diablo
+M 0 25743 4 25731 Load a Darkmere gateman
+M 0 25743 4 25733 Load a Darkmere gateman
+M 0 25743 4 25735 Load a Darkmere gateman
+M 0 25702 0 25736 Load a blue-hooded Cleric
+G 0 25706 0 A ring of combined light is given to a blue-hooded Cleric
+G 0 25705 0 The cloak of deception is given to a blue-hooded Cleric
+G 0 25707 0 A cleric's blue robe is given to a blue-hooded Cleric
+G 0 25702 0 A mace of snakes is given to a blue-hooded Cleric
+G 0 25703 0 A five-headed snake mace is given to a blue-hooded Cleric
+G 0 25704 0 The mace of destruction is given to a blue-hooded Cleric
+M 0 25703 0 25737 Load a purple-hooded Paladin
+G 0 25711 0 A potion of warrior-in-a-bottle is given to a purple-hooded Paladin
+G 0 25708 0 A paladin's purple robe is given to a purple-hooded Paladin
+G 0 25709 0 A sword of combined light is given to a purple-hooded Paladin
+G 0 25706 0 A ring of combined light is given to a purple-hooded Paladin
+G 0 25710 0 The sword of holy strength is given to a purple-hooded Paladin
+M 0 25704 0 25738 Load a red-hooded Mage
+G 0 25717 0 A feathery pill is given to a red-hooded Mage
+G 0 25716 0 A mage's red robe is given to a red-hooded Mage
+G 0 25776 0 A scroll of enchantment is given to a red-hooded Mage
+G 0 25775 0 A chaos device is given to a red-hooded Mage
+G 0 25712 0 The wand of the magi is given to a red-hooded Mage
+G 0 25713 0 A deadly dagger is given to a red-hooded Mage
+G 0 25714 0 The frost dagger is given to a red-hooded Mage
+G 0 25715 0 The flame dagger is given to a red-hooded Mage
+M 0 25705 0 25739 Load a black-hooded Avenger
+G 0 25720 0 An avenger's black robe is given to a black-hooded Avenger
+G 0 25721 0 A small onyx ring is given to a black-hooded Avenger
+G 0 25718 0 A sword of swishes is given to a black-hooded Avenger
+G 0 25729 0 A murderous bloody dagger is given to a black-hooded Avenger
+G 0 25719 0 A stinging blade is given to a black-hooded Avenger
+M 0 25706 0 25741 Load Calorn
+M 0 25707 0 25742 Load Sagron
+M 0 25712 0 25743 Load a warrior shopkeeper
+G 0 25722 0 A steel rapier is given to a warrior shopkeeper
+G 0 25723 0 The broadsword of smashing is given to a warrior shopkeeper
+G 0 25724 0 The sword of pithcus is given to a warrior shopkeeper
+M 0 25710 0 25744 Load a shadowy figure
+M 0 25709 0 25745 Load Mysten
+M 0 25708 0 25746 Load Pithcus
+M 0 25711 0 25747 Load an arrogant armorer
+G 0 25728 0 The gauntlets of pithcus is given to an arrogant armorer
+G 0 25727 0 The shield of pithcus is given to an arrogant armorer
+G 0 25726 0 The armor of pithcus is given to an arrogant armorer
+G 0 25771 0 The boots of speed is given to an arrogant armorer
+M 0 25719 0 25748 Load the clerk
+M 0 25713 0 25749 Load a devious henchman
+M 0 25714 0 25749 Load a fighter henchman
+M 0 25715 0 25749 Load a loyal henchman
+M 0 25716 0 25749 Load a dragonian henchman
+M 0 25717 0 25749 Load a Veteran Bodyguard
+M 0 25721 0 25751 Load Brock the Twisted
+M 0 25720 0 25752 Load Noradon T'on
+M 0 25722 0 25753 Load a thief
+G 0 25730 0 A small dagger is given to a thief
+G 0 25731 0 The dagger of strength is given to a thief
+G 0 25732 0 The pain dagger is given to a thief
+G 0 25733 0 Cloth vest is given to a thief
+G 0 25734 0 A light vest is given to a thief
+G 0 25735 0 A pair of black boots is given to a thief
+G 0 25775 0 A chaos device is given to a thief
+G 0 25772 0 The enchanted gloves of mordo is given to a thief
+M 0 25723 0 25754 Load a nightblade
+G 0 25735 0 A pair of black boots is given to a nightblade
+G 0 25734 0 A light vest is given to a nightblade
+G 0 25733 0 Cloth vest is given to a nightblade
+G 0 25736 0 The blade of backstabbing is given to a nightblade
+G 0 25737 0 The all-purpose weapon is given to a nightblade
+M 0 25724 0 25755 Load the chef
+G 0 25738 0 A big cookie is given to the chef
+G 0 25739 0 A slice of cherry pie is given to the chef
+G 0 25740 0 A big bowl of cyanide stew is given to the chef
+G 0 25782 0 Some potatoes is given to the chef
+G 0 25796 0 A big, beefy taco is given to the chef
+M 0 25725 0 25756 Load the Goldsmith
+G 0 25741 0 The goldensword is given to the Goldsmith
+G 0 25742 0 The goldenmace is given to the Goldsmith
+G 0 25743 0 The goldendagger is given to the Goldsmith
+G 0 25779 0 The goldenaxe is given to the Goldsmith
+M 0 25726 0 25757 Load the jeweller
+G 0 25780 0 A wall ring is given to the jeweller
+G 0 25745 0 A `rruby `wbracelet is given to the jeweller
+G 0 25744 0 An `konyx `wbroach is given to the jeweller
+G 0 25746 0 An `gemerald `wring is given to the jeweller
+G 0 25747 0 A `ygold`w ring is given to the jeweller
+G 0 25748 0 The ring of pithcus is given to the jeweller
+G 0 25778 0 A diamond necklace is given to the jeweller
+M 0 25727 0 25758 Load the barkeep
+G 0 25749 0 A bottle of beer is given to the barkeep
+G 0 25750 0 A keg of beer is given to the barkeep
+G 0 25751 0 A shot of whisky is given to the barkeep
+G 0 25752 0 A cup of coffee is given to the barkeep
+M 0 25728 0 25759 Load the dealer
+G 0 25753 0 The sword of odd-ness is given to the dealer
+G 0 25754 0 A darkened dagger blade is given to the dealer
+G 0 25755 0 Some thing is given to the dealer
+G 0 25764 0 An acidic blade is given to the dealer
+G 0 25756 0 The sword of the sun sphere is given to the dealer
+G 0 25757 0 A sliver playtesting sword is given to the dealer
+G 0 25758 0 A dwarven battle axe is given to the dealer
+M 0 25799 0 25760 Load the dealer
+G 0 25798 0 The counteracts is given to the dealer
+O 0 25765 0 25780 A leaky pipe loaded to A Hidden Tunnel
+M 0 25747 0 25782 Load an evil drowelf
+G 0 25770 0 The ring of the darkened heart is given to an evil drowelf
+G 0 25769 0 The bracer of pure evil is given to an evil drowelf
+G 0 25768 0 The gauntlets of the evil incarnate is given to an evil drowelf
+G 0 25767 0 The armor of injustice is given to an evil drowelf
+G 0 25766 0 The timion slayer is given to an evil drowelf
+M 0 25749 0 25785 Load Taribius
+G 0 25774 0 The `kd`re`ka`rt`kh`w sentence is given to Taribius
+G 0 25773 0 The icon of the defender is given to Taribius
+O 0 25795 0 25792 A coconut loaded to In a Palm Tree
+M 0 25748 0 25799 Load the Antiques Dealer
+S
+
+
+
+#PROGS
+M 25700 9 Adepts Load to: Diablo
+M 25701 15 Executioner Load to: Bob's Dark Half
+M 25704 13 Offensive Mage Load to: a red-hooded Mage
+M 25705 13 Offensive Mage Load to: a black-hooded Avenger
+M 25706 10 Offensive Cleric Load to: Calorn
+M 25707 13 Offensive Mage Load to: Sagron
+M 25713 21 Thief Load to: a devious henchman
+M 25716 3 Fire Breath Load to: a dragonian henchman
+M 25730 13 Offensive Mage Load to: a red-robed mage
+M 25731 10 Offensive Cleric Load to: a blue-hooded cleric
+M 25732 10 Offensive Cleric Load to: a noble paladin
+M 25733 13 Offensive Mage Load to: an evil avenger
+M 25734 21 Thief Load to: a thief
+M 25736 21 Thief Load to: a sneaky pickpocket
+M 25742 20 CityGuard Load to: a Darkmere cityguard
+M 25743 20 CityGuard Load to: a Darkmere gateman
+M 25745 20 CityGuard Load to: a lonely warrior
+M 25746 16 Fido Load to: a rabid fido
+S
+
+
+
+#SHOPS
+25702 0 3 9 5 10 100 0 0 23
+25703 0 5 9 10 1 100 0 0 23
+25704 0 5 9 3 10 100 0 0 23
+25705 0 5 9 3 10 100 0 0 23
+25711 0 9 0 0 0 100 0 0 23
+25712 0 5 9 1 11 100 0 0 23
+25719 0 0 0 0 0 100 0 0 23
+25722 0 5 9 1 15 100 0 0 23
+25723 0 5 9 1 10 100 100 0 23
+25724 0 19 0 0 0 120 95 0 23
+25725 0 5 0 0 0 110 65 5 20
+25726 0 8 1 0 0 100 0 0 23
+25727 0 17 0 0 0 100 0 0 23
+25728 0 5 8 0 0 120 80 0 23
+25729 0 5 0 0 0 100 0 0 20
+25738 0 15 19 0 0 100 0 0 23
+25747 9 5 10 18 8 100 100 0 23
+25748 5 9 15 8 11 100 120 11 14
+25749 1 5 0 0 0 100 0 0 23
+25799 0 5 0 0 0 100 0 0 23
+0
+
+
+
+#FACTIONAFFS
+0
+
+
+
+#$

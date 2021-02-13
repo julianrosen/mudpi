@@ -688,12 +688,12 @@ struct class_type class_table[MAX_CLASS] =
 {
     {
      "Mage", "Mag", STAT_INT, OBJ_VNUM_SCHOOL_DAGGER,
-     {3018, 9618}, 75, 18, 6, 6, 8, TRUE,
+     {3018, 9618}, 75, 18, 5, 6, 9, TRUE,
      "mage basics", "mage default", FALSE},
 
     {
      "Cleric", "Cle", STAT_WIS, OBJ_VNUM_SCHOOL_MACE,
-     {3003, 9619}, 75, 18, 2, 7, 10, TRUE,
+     {3003, 9619}, 75, 18, 2, 8, 10, TRUE,
      "cleric basics", "cleric default", FALSE},
 
     {
@@ -723,7 +723,7 @@ struct class_type class_table[MAX_CLASS] =
     
     {
      "Mystic", "Mys",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
-     {3018, 9618},  80, 18, 8, 6, 6, TRUE,
+     {3018, 9618},  80, 20, 12, 4, 6, TRUE,
      "mystic basics", "mystic default", FALSE}
     
     #if defined(cbuilder)
@@ -1624,7 +1624,7 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
     {
      "firewind", {35, 90, 90, 90, 90, 90, 90, 35},
      {1, 1, 2, 2, 2, 2, 2, 1}, spell_firewind, TAR_CHAR_OFFENSIVE,
-     POS_FIGHTING, NULL, SLOT(300), 33, 12,
+     POS_FIGHTING, NULL, SLOT(300), 25, 12,
      "flaming winds", "!Firewind"},
 
     {
@@ -1836,6 +1836,12 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
      {0, 0, 10, 4, 6, 6, 0, 0}, spell_null, TAR_IGNORE,
      POS_FIGHTING, &gsn_third_attack, SLOT(0), 0, 0,
      "", "!Third Attack!"},
+    
+    {
+     "fourth attack", {90, 90, 60, 10, 24, 24, 90, 90},
+     {0, 0, 10, 4, 6, 6, 0, 0}, spell_null, TAR_IGNORE,
+     POS_FIGHTING, &gsn_fourth_attack, SLOT(0), 0, 0,
+     "", "!Third Attack!"}, // JR
 
     {
      "fast healing", {18, 6, 16, 6, 6, 12, 17, 18},

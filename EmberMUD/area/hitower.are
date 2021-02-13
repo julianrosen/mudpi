@@ -1145,9 +1145,9 @@ unknown~
 C C C ABC 0
 12 19 120 P
 A
-1 1
-A
 18 2
+A
+1 1
 #1315
 chest~
 a chest~
@@ -1173,9 +1173,9 @@ unknown~
 A C C AB 0
 12 8 120 P
 A
-19 2
-A
 18 1
+A
+19 2
 #1318
 dagger silver~
 a silver dagger~
@@ -1185,9 +1185,9 @@ unknown~
 B C C ABD 0
 12 5 120 P
 A
-19 2
-A
 18 2
+A
+19 2
 #1319
 scimitar~
 a curved scimitar~
@@ -1327,9 +1327,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-4 1
-A
 3 1
+A
+4 1
 #1336
 altar~
 a golden altar~
@@ -1347,9 +1347,9 @@ unknown~
 CD CD CD 0 0
 48 3 480 P
 A
-5 -1
-A
 4 2
+A
+5 -1
 #1338
 chest~
 a large chest~
@@ -1385,9 +1385,9 @@ unknown~
 CD CD CD 0 0
 48 5 480 P
 A
-24 -3
-A
 17 -5
+A
+24 -3
 #1342
 chameleon poncho~
 a chameleon poncho~
@@ -1397,9 +1397,9 @@ unknown~
 CD CD CD 0 0
 48 4 480 P
 A
-17 -3
-A
 2 2
+A
+17 -3
 #1343
 boots worn~
 a pair of old boots~
@@ -1459,9 +1459,9 @@ unknown~
 0 0 0 0 0
 16 15 160 P
 A
-14 -82
-A
 12 -100
+A
+14 -82
 #1357
 dagger silvery~
 a silvery dagger~
@@ -1653,9 +1653,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-24 -3
-A
 17 -8
+A
+24 -3
 #1380
 wand ashen~
 an ashen wand~
@@ -1681,9 +1681,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 24 8 240 P
 A
-24 -2
-A
 17 -9
+A
+24 -2
 #1383
 cloak grey~
 a long grey cloak~
@@ -1693,9 +1693,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-24 -3
-A
 17 -12
+A
+24 -3
 #1384
 bracelet silver~
 a glinting silver bracelet~
@@ -1735,9 +1735,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 8 200 P
 A
-24 -2
-A
 17 -9
+A
+24 -2
 #1388
 bracelet onyx~
 an onyx bracelet~
@@ -1757,9 +1757,9 @@ unknown~
 D D D 0 0
 29 8 290 P
 A
-24 -3
-A
 17 -12
+A
+24 -3
 #1390
 shard black obsidian~
 a sharp shard of obsidian~
@@ -1779,9 +1779,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 7 200 P
 A
-24 -2
-A
 17 -9
+A
+24 -2
 #1392
 bracelet white gold~
 a white gold bracelet~
@@ -1801,9 +1801,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-24 -3
-A
 17 -12
+A
+24 -3
 #1394
 ivory dagger~
 an ivory hilted dagger~
@@ -1813,9 +1813,9 @@ unknown~
 B AC ABC ABD 0
 30 8 300 P
 A
-19 2
-A
 18 1
+A
+19 2
 #1395
 collar spiked~
 a spiked collar~
@@ -1825,9 +1825,9 @@ unknown~
 D D D 0 0
 26 9 260 P
 A
-19 3
-A
 17 -2
+A
+19 3
 #1396
 cloak shimmering~
 a shimmering cloak of many colors~
@@ -1837,9 +1837,9 @@ unknown~
 CFG 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 0 8 0 P
 A
-24 -5
-A
 17 -15
+A
+24 -5
 #1397
 emerald ring~
 a small emerald ring~
@@ -1859,9 +1859,9 @@ unknown~
 ACD ACD ACD 0 0
 50 5 500 P
 A
-3 1
-A
 17 -5
+A
+3 1
 #1399
 ward major clear crystal~
 a ward major~
@@ -1871,9 +1871,9 @@ unknown~
 ACD ACD ACD 0 0
 50 6 500 P
 A
-24 -2
-A
 17 -10
+A
+24 -2
 #1400
 ebony kris~
 the ebony kris~
@@ -1883,9 +1883,9 @@ unknown~
 B AC ABD ABD 0
 50 9 500 P
 A
-19 5
-A
 2 2
+A
+19 5
 #1401
 green scale shirt~
 a tight fitting green dragon scale shirt~
@@ -1895,9 +1895,9 @@ unknown~
 ACD ACD ACD 0 0
 50 9 500 P
 A
-17 -5
-A
 2 3
+A
+17 -5
 E
 green scale shirt~
 Green dragon scale shirt was made from a poor unfortunate green dragon.
@@ -1982,26 +1982,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1303
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1304
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1307
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1302
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1304
 S
 #1302
 The Shadow Grove~
@@ -2016,6 +2016,11 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1301
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1303
 D0
 You see a small clearing in the shadows.
 ~
@@ -2026,11 +2031,6 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1305
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1303
 S
 #1303
 The Shadow Grove~
@@ -2040,26 +2040,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1306
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1301
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1309
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1306
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1302
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 S
 #1304
 The Shadow Grove~
@@ -2079,16 +2079,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1307
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1301
 D3
 Dark gates loom in the mist.
 ~
 ~
 0 -1 2201
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 S
 #1305
 The Shadow Grove~
@@ -2103,11 +2103,6 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1306
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D2
 The shadows cloud your vision.
 ~
@@ -2118,6 +2113,11 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1304
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1302
 S
 #1306
 The Shadow Grove~
@@ -2132,16 +2132,16 @@ You see a shadowy tavern.
 ~
 ~
 0 -1 9301
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1305
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1303
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1305
 D2
 The shadows cloud your vision.
 ~
@@ -2161,16 +2161,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1301
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1308
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1309
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1308
 D0
 The shadows cloud your vision.
 ~
@@ -2185,26 +2185,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1307
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1305
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1300
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1309
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1307
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1300
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1305
 S
 #1309
 The Shadow Grove~
@@ -3623,26 +3623,26 @@ Nice going! You might as well wait here until the wizard who built this
 trap comes back to imprison your soul as well as your body.
 ~
 0 8200 0
-D1
-(null)~
-~
-0 0 5113
 D5
 (null)~
 ~
 0 0 3460
-D3
-(null)~
-~
-0 0 7428
-D2
-(null)~
-~
-0 0 9141
 D4
 (null)~
 ~
 0 0 938
+D2
+(null)~
+~
+0 0 9141
+D3
+(null)~
+~
+0 0 7428
+D1
+(null)~
+~
+0 0 5113
 S
 #1393
 A hallway~
@@ -5346,9 +5346,9 @@ P 0 1305 0 1302 A large chunk of meat put inside a large chunk of meat
 P 0 1306 0 1302 A finger sandwich put inside a finger sandwich
 M 0 1307 0 1320 Load Ezmerelda
 E 0 1355 0 16 A meat cleaver is loaded wielded of Ezmerelda
-M 0 1308 0 1320 Load The cook's assistant
-M 0 1309 0 1327 Load The prisoner
-E 0 1356 0 14 Some chain shackles is loaded on the left wrist of The prisoner
+M 0 1308 0 1320 Load the cook's assistant
+M 0 1309 0 1327 Load the prisoner
+E 0 1356 0 14 Some chain shackles is loaded on the left wrist of the prisoner
 M 0 1310 0 1328 Load the Jailor
 E 0 1323 0 17 An old key is loaded held in the hands of the Jailor
 M 0 1311 0 1333 Load a broom
@@ -5368,9 +5368,9 @@ M 0 1317 2 1342 Load a young apprentice
 M 0 1315 0 1344 Load a young apprentice magic user
 M 0 1316 0 1344 Load a young apprentice
 M 0 1317 0 1344 Load a young apprentice
-M 0 1318 0 1345 Load A young apprentice
-M 0 1318 0 1345 Load A young apprentice
-M 0 1318 0 1345 Load A young apprentice
+M 0 1318 0 1345 Load a young apprentice
+M 0 1318 0 1345 Load a young apprentice
+M 0 1318 0 1345 Load a young apprentice
 M 0 1319 0 1345 Load a small kitten
 M 0 1320 0 1349 Load a student
 M 0 1320 0 1349 Load a student
@@ -5504,19 +5504,19 @@ E 0 1391 0 12 A white robe is loaded about the shoulders of a white robed appren
 E 0 1392 0 14 A white gold bracelet is loaded on the left wrist of a white robed apprentice
 G 0 1475 0 A small white key is given to a white robed apprentice
 M 0 1361 0 1469 Load a white cat
-M 0 1362 0 1469 Load The master of goodness
-E 0 1393 0 3 A white cloak is loaded around the neck (1) of The master of goodness
-E 0 1394 0 16 An ivory hilted dagger is loaded wielded of The master of goodness
-E 0 1386 0 17 A ward minor is loaded held in the hands of The master of goodness
-M 0 1363 0 1477 Load A calico cat
-E 0 1395 0 3 A spiked collar is loaded around the neck (1) of A calico cat
-M 0 1364 0 1477 Load The Grand Mistress
-E 0 1401 0 5 A tight fitting green dragon scale shirt is loaded on the body of The Grand Mistress
-E 0 1397 0 1 A small emerald ring is loaded on the left finger of The Grand Mistress
-E 0 1398 0 14 An emerald bracelet is loaded on the left wrist of The Grand Mistress
-E 0 1399 0 17 A ward major is loaded held in the hands of The Grand Mistress
-E 0 1400 0 16 The ebony kris is loaded wielded of The Grand Mistress
-G 0 1339 0 An intricately carved key is given to The Grand Mistress
+M 0 1362 0 1469 Load the master of goodness
+E 0 1393 0 3 A white cloak is loaded around the neck (1) of the master of goodness
+E 0 1394 0 16 An ivory hilted dagger is loaded wielded of the master of goodness
+E 0 1386 0 17 A ward minor is loaded held in the hands of the master of goodness
+M 0 1363 0 1477 Load a calico cat
+E 0 1395 0 3 A spiked collar is loaded around the neck (1) of a calico cat
+M 0 1364 0 1477 Load the Grand Mistress
+E 0 1401 0 5 A tight fitting green dragon scale shirt is loaded on the body of the Grand Mistress
+E 0 1397 0 1 A small emerald ring is loaded on the left finger of the Grand Mistress
+E 0 1398 0 14 An emerald bracelet is loaded on the left wrist of the Grand Mistress
+E 0 1399 0 17 A ward major is loaded held in the hands of the Grand Mistress
+E 0 1400 0 16 The ebony kris is loaded wielded of the Grand Mistress
+G 0 1339 0 An intricately carved key is given to the Grand Mistress
 O 0 1336 0 1480 A golden altar loaded to The altar
 P 0 1337 0 1336 A heart shaped medallion put inside a heart shaped medallion
 O 0 1338 0 1481 A large chest loaded to The treasury
@@ -5539,8 +5539,8 @@ M 1301 10 Offensive Cleric Load to: a lost adventurer
 M 1304 13 Offensive Mage Load to: a mage
 M 1306 13 Offensive Mage Load to: Tatorious
 M 1307 13 Offensive Mage Load to: Ezmerelda
-M 1308 13 Offensive Mage Load to: The cook's assistant
-M 1309 13 Offensive Mage Load to: The prisoner
+M 1308 13 Offensive Mage Load to: the cook's assistant
+M 1309 13 Offensive Mage Load to: the prisoner
 M 1310 13 Offensive Mage Load to: the Jailor
 M 1311 21 Thief Load to: a broom
 M 1312 14 Undead Mage Load to: a pair of disembodied hands
@@ -5549,7 +5549,7 @@ M 1314 13 Offensive Mage Load to: the mage
 M 1315 13 Offensive Mage Load to: a young apprentice magic user
 M 1316 13 Offensive Mage Load to: a young apprentice
 M 1317 13 Offensive Mage Load to: a young apprentice
-M 1318 13 Offensive Mage Load to: A young apprentice
+M 1318 13 Offensive Mage Load to: a young apprentice
 M 1320 13 Offensive Mage Load to: a student
 M 1321 13 Offensive Mage Load to: an instructor of magic
 M 1322 13 Offensive Mage Load to: a student of spells
@@ -5584,9 +5584,9 @@ M 1358 13 Offensive Mage Load to: a black cat
 M 1359 13 Offensive Mage Load to: the master of the black robes
 M 1360 13 Offensive Mage Load to: a white robed apprentice
 M 1361 13 Offensive Mage Load to: a white cat
-M 1362 13 Offensive Mage Load to: The master of goodness
-M 1363 13 Offensive Mage Load to: A calico cat
-M 1364 13 Offensive Mage Load to: The Grand Mistress
+M 1362 13 Offensive Mage Load to: the master of goodness
+M 1363 13 Offensive Mage Load to: a calico cat
+M 1364 13 Offensive Mage Load to: the Grand Mistress
 M 1365 13 Offensive Mage Load to: a wizard
 S
 

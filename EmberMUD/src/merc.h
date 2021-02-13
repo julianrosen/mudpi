@@ -1310,6 +1310,7 @@ void nuke_pets args( ( CHAR_DATA * ch ) );
 void die_follower args( ( CHAR_DATA * ch ) );
 bool is_same_group args( ( CHAR_DATA * ach, CHAR_DATA * bch ) );
 
+
 // JR: pronouns
 char * he_she( int ); char * He_she( int );
 char * him_her( int ); char * Him_her( int );
@@ -1324,7 +1325,7 @@ char * article( bool, bool, char * );
 
 char * center( char *, int , char *);
 int bw_strlen( char * );
-
+void command_not_found( CHAR_DATA * );
 
 extern bool reap_shells;
 extern const char echo_off_str[];
@@ -1382,7 +1383,7 @@ char *remove_color args( ( const char *str ) );
 #endif
 
 /* Added for ban.c -Lancelight */
-char *print_flags args( ( int flag ) );
+char *print_flags args( ( long long flag ) );
 
 int boot_db args( (  ) );
 void update_last args( ( char *line1, char *line2, char *line3 ) );

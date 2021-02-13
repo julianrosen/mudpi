@@ -39,6 +39,12 @@
 #include "merc.h"
 #include "interp.h"
 
+
+// JR: Gatsby
+char gatsby_text[400000];
+*gastby_text = '\0';
+char * gatsby_head;
+
 /*
  * Local functions.
  */
@@ -437,7 +443,8 @@ void do_mpasound( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -475,7 +482,8 @@ void do_mpkill( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -528,7 +536,8 @@ void do_mpjunk( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -577,7 +586,8 @@ void do_mpechoaround( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -609,7 +619,8 @@ void do_mpechoat( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -638,7 +649,8 @@ void do_mpecho( CHAR_DATA * ch, char *argument )
 {
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -665,7 +677,8 @@ void do_mpmload( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -698,7 +711,8 @@ void do_mpoload( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -765,7 +779,8 @@ void do_mppurge( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -825,7 +840,8 @@ void do_mpinvis( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -876,7 +892,8 @@ void do_mpgoto( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -913,7 +930,8 @@ void do_mpat( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1050,7 +1068,8 @@ void do_mpremember( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1074,7 +1093,8 @@ void do_mpforget( CHAR_DATA * ch, char *argument )
 {
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1090,7 +1110,8 @@ void do_mpforce( CHAR_DATA * ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1146,7 +1167,8 @@ void do_mpsilentforce( CHAR_DATA * ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1250,7 +1272,8 @@ void do_mpdefault( CHAR_DATA * ch, char *argument )
     CHAR_DATA *victim;
     if ( !IS_NPC( ch ) )
     {
-        send_to_char( "Huh?\n\r", ch );
+        command_not_found( ch );
+        //send_to_char( "Huh?\n\r", ch );
         return;
     }
 
@@ -1600,4 +1623,135 @@ void do_mprandomsocial( CHAR_DATA * ch, char *argument )
             }
         }
     }
+}
+
+
+
+
+
+
+
+
+// JR: this is a test
+
+bool mp_cast_adept( CHAR_DATA *ch )
+{
+    CHAR_DATA *victim;
+    CHAR_DATA *v_next;
+
+    if ( !IS_AWAKE(ch) )
+	return FALSE;
+
+    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    {
+	v_next = victim->next_in_room;
+	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0 
+	     && !IS_NPC(victim) && victim->level < 11)
+	    break;
+    }
+
+    if ( victim == NULL )
+	return FALSE;
+
+    switch ( number_bits( 4 ) )
+    {
+    case 0:
+	act( "$n utters the word 'abrazak'.", ch, NULL, NULL, TO_ROOM );
+	spell_armor( skill_lookup( "armor" ), ch->level, ch, victim );
+	return TRUE;
+
+    case 1:
+	act( "$n utters the word 'fido'.", ch, NULL, NULL, TO_ROOM );
+	spell_bless( skill_lookup( "bless" ), ch->level, ch, victim );
+	return TRUE;
+
+    case 2:
+	act( "$n utters the word 'judicandus noselacri'.", ch, NULL, NULL, TO_ROOM );
+	spell_cure_blindness( skill_lookup( "cure blindness" ),
+	    ch->level, ch, victim );
+	return TRUE;
+
+    case 3:
+	act( "$n utters the word 'pzar'.", ch, NULL, NULL, TO_ROOM );
+	spell_cure_light( skill_lookup( "heal" ),
+	    ch->level, ch, victim );
+	return TRUE;
+
+    case 4:
+	act( "$n utters the words 'judicandus sausabru'.", ch, NULL, NULL, TO_ROOM );
+	spell_cure_poison( skill_lookup( "cure poison" ),
+	    ch->level, ch, victim );
+	return TRUE;
+
+    case 5:
+	act( "$n utters the words 'candusima'.", ch, NULL, NULL, TO_ROOM );
+	spell_refresh( skill_lookup( "refresh" ), ch->level, ch, victim );
+	return TRUE;
+
+    }
+
+    return FALSE;
+}
+
+
+// JR LOLOL
+void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
+{
+    char buf[MAX_STRING_LENGTH],*bufp,c,*buf2;
+    int count;
+    if ( !IS_NPC( ch ) )
+    {
+        command_not_found( ch );
+        return;
+    }
+    
+    if ( *gatsby_text == '\0' )
+    {
+        // Text has not been read from file
+        printf("Reading Gatsby file...");
+        sprintf( buf, "%s/data/the_great_gatsby", sysconfig.area_dir );
+        FILE * fp = fopen(buf, "r");
+        bufp = gatsby_text;
+        *bufp = fgetc(fp);
+        bufp++;
+        while ( !feof(fp) )
+        {
+            c = fgetc(fp);
+            if ( c != ' ' || bufp[-1] != ' ')
+            {
+                *bufp = c;
+                bufp++;
+            }
+        }
+        *bufp = '\0';
+        gatsby_head = gatsby_text;
+        printf("done\n");
+    }
+    strcpy( buf, "`G$n says '");
+    bufp = buf+strlen(buf);
+    
+    count = 0;
+    while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
+        gatsby_head++;
+    
+    if ( *gatsby_head == 255 )
+    {
+        gatsby_head = gatsby_text;
+        act( "`G$n says 'Phew, that was long! Let's start again from the top.'", ch, NULL, NULL, TO_ROOM );
+        return;
+    }
+    
+    while ( *gatsby_head != 255 && *gatsby_head != '\n' && *gatsby_head != '\r' && *gatsby_head != '\0')
+    {
+        *bufp = *gatsby_head;
+        gatsby_head++;
+        bufp++;
+        count++;
+    }
+    *(bufp) = '\0';
+    strcat( buf, "'");
+    //buf2 = strdup(buf);
+    act( buf, ch, NULL, NULL, TO_ROOM );
+    //free(buf2);
+    return TRUE;
 }

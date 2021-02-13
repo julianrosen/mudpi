@@ -193,6 +193,8 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
         return;
     }
 
+    /* JR: guild restrictions will be handled by room flags */
+    
     if ( !IS_NPC( ch ) )
     {
         int iClass, iGuild;
@@ -211,8 +213,10 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
             }
         }
         
-        /* JR: additional class restrictions */
+        /* JR: Rooms flags for class restriction */
         
+        //int iClass, iGuild;
+        //int move;
         // Unfortunate these have to be defined here...
         const long long GUILD_ROOMS[] = {(aa),(bb),(cc),(dd),(ee),(ff),(gg),(hh)};
         

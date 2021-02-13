@@ -585,9 +585,9 @@ unknown~
 0 0 0 0 0
 31 5 310 P
 A
-3 1
-A
 4 1
+A
+3 1
 #9202
 breastplate stoney breast plate~
 a stoney breastplate~
@@ -647,9 +647,9 @@ unknown~
 A AC ABC AB 0
 29 10 290 P
 A
-18 -1
-A
 19 2
+A
+18 -1
 #9208
 shield electric~
 an electric shield~
@@ -659,9 +659,9 @@ unknown~
 D D D 0 0
 29 8 290 P
 A
-1 -1
-A
 5 1
+A
+1 -1
 #9209
 girth icy~
 an icy girth~
@@ -681,9 +681,9 @@ unknown~
 AD AD AD 0 0
 30 6 300 P
 A
-12 25
-A
 18 -2
+A
+12 25
 #9211
 amulet elemental~
 an elemental amulet~
@@ -713,9 +713,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-1 1
-A
 4 -2
+A
+1 1
 #9214
 legbands platinum bands~
 some platinum leg bands~
@@ -725,9 +725,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-2 1
-A
 3 -2
+A
+2 1
 #9215
 wand~
 elemental wand of fire~
@@ -825,9 +825,9 @@ unknown~
 AB AC BC AB 0
 25 14 250 P
 A
-13 -20
-A
 18 2
+A
+13 -20
 #9227
 icicle dagger ice~
 an icicle~
@@ -837,9 +837,9 @@ unknown~
 B AC BC ABD 0
 23 1 230 P
 A
-19 2
-A
 1 -1
+A
+19 2
 #9228
 avalanche~
 the Avalanche~
@@ -859,9 +859,9 @@ unknown~
 BC AC ABC ABD 0
 28 11 280 P
 A
-23 -5
-A
 17 -3
+A
+23 -5
 #9230
 shock whip~
 the Shock Whip~
@@ -871,9 +871,9 @@ unknown~
 ABC AC AC B 0
 22 10 220 P
 A
-19 3
-A
 1 -2
+A
+19 3
 #9231
 elixir anti~
 anti-cyclops elixir~
@@ -927,14 +927,14 @@ east around the mountain.
 ~
 0 0 5
 E
+bodies body dead~
+They look as if their necks have been broken and their flesh, chewed.
+~
+E
 heaps stones tombs~
 You are sure glad that YOU aren't under one of those piles!
 Many of the tombstones have the same name on them, 'Raff'. He must come
 here a lot.
-~
-E
-bodies body dead~
-They look as if their necks have been broken and their flesh, chewed.
 ~
 D4
 (null)~
@@ -2023,9 +2023,9 @@ M 0 9205 2 9234 Load a small elemental
 M 0 9214 3 9234 Load a puddle
 M 0 9214 3 9235 Load a puddle
 E 0 9224 0 17 A water jug is loaded held in the hands of a puddle
-M 0 9212 0 9236 Load The Water Ruler
-E 0 9209 0 13 An icy girth is loaded around the waist of The Water Ruler
-E 0 9210 0 12 A waterfall cloak is loaded about the shoulders of The Water Ruler
+M 0 9212 0 9236 Load the Water Ruler
+E 0 9209 0 13 An icy girth is loaded around the waist of the Water Ruler
+E 0 9210 0 12 A waterfall cloak is loaded about the shoulders of the Water Ruler
 M 0 9214 3 9236 Load a puddle
 M 0 9214 3 9236 Load a puddle
 M 0 9236 2 9237 Load a little imp
@@ -2069,9 +2069,9 @@ M 0 9205 2 9250 Load a small elemental
 M 0 9218 2 9250 Load a small spark
 E 0 9219 0 17 Elemental wand of lightning is loaded held in the hands of a small spark
 M 0 9218 2 9251 Load a small spark
-M 0 9211 0 9252 Load The Lightning Ruler
-E 0 9207 0 16 A sparking lightning sword is loaded wielded of The Lightning Ruler
-E 0 9208 0 11 An electric shield is loaded as a shield of The Lightning Ruler
+M 0 9211 0 9252 Load the Lightning Ruler
+E 0 9207 0 16 A sparking lightning sword is loaded wielded of the Lightning Ruler
+E 0 9208 0 11 An electric shield is loaded as a shield of the Lightning Ruler
 M 0 9218 2 9252 Load a small spark
 E 0 9218 0 17 Elemental wand of wind and air is loaded held in the hands of a small spark
 M 0 9218 2 9252 Load a small spark
@@ -2094,9 +2094,9 @@ M 0 9224 2 9257 Load a dust cloud
 M 0 9225 2 9258 Load an eddie
 M 0 9225 2 9259 Load an eddie
 M 0 9224 2 9259 Load a dust cloud
-M 0 9210 0 9260 Load The Air Ruler
-E 0 9205 0 8 The wind boots is loaded on the feet of The Air Ruler
-E 0 9206 0 6 A hurricane helmet is loaded over the head of The Air Ruler
+M 0 9210 0 9260 Load the Air Ruler
+E 0 9205 0 8 The wind boots is loaded on the feet of the Air Ruler
+E 0 9206 0 6 A hurricane helmet is loaded over the head of the Air Ruler
 M 0 9207 0 9260 Load a large elemental
 E 0 9220 0 16 A stone club is loaded wielded of a large elemental
 M 0 9225 2 9260 Load an eddie
@@ -2111,9 +2111,9 @@ M 9204 7 Random Breath Load to: the elemental guardian
 M 9207 7 Random Breath Load to: a large elemental
 M 9208 10 Offensive Cleric Load to: the Earth Ruler
 M 9209 3 Fire Breath Load to: the Fire Ruler
-M 9210 5 Gas Breath Load to: The Air Ruler
-M 9211 6 Lightning Breath Load to: The Lightning Ruler
-M 9212 2 Acid Breath Load to: The Water Ruler
+M 9210 5 Gas Breath Load to: the Air Ruler
+M 9211 6 Lightning Breath Load to: the Lightning Ruler
+M 9212 2 Acid Breath Load to: the Water Ruler
 M 9219 2 Acid Breath Load to: a small blob of acid
 M 9223 6 Lightning Breath Load to: a particle
 M 9224 21 Thief Load to: a dust cloud

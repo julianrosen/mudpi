@@ -147,7 +147,7 @@ struct editor_cmd_type {
  */
 struct flag_type {
     char *name;
-    int bit;
+    long long bit;
     bool settable;
 };
 
@@ -156,8 +156,8 @@ struct flag_type {
  */
 AREA_DATA *get_vnum_area args( ( int vnum ) );
 AREA_DATA *get_area_data args( ( int vnum ) );
-int flag_value args( ( const struct flag_type * flag_table, char *argument ) );
-char *flag_string args( ( const struct flag_type * flag_table, int bits ) );
+long long flag_value args( ( const struct flag_type * flag_table, char *argument ) );
+char *flag_string args( ( const struct flag_type * flag_table, long long bits ) );
 void add_reset args( ( ROOM_INDEX_DATA * room,
                        RESET_DATA * pReset, int index ) );
 
@@ -399,7 +399,7 @@ void show_oprog args( ( CHAR_DATA * ch, MPROG_DATA * pObjProg ) );
 /* Clan.c */
 CLAN_DATA *new_clan args( ( void ) );
 CLAN_DATA *get_clan args( ( int clannum ) );
-char *fwrite_flag args( ( long flags, char buf[] ) );
+char *fwrite_flag args( ( long long flags, char buf[] ) );
 void clan_log args( ( CLAN_DATA * clan, char *str, ... ) );
 
 DECLARE_DO_FUN( do_socialedit );

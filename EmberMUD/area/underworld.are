@@ -299,11 +299,11 @@ unknown~
 AC AC AB D 0
 10 25 100 P
 A
-13 -10
+2 1
 A
 5 -2
 A
-2 1
+13 -10
 #17201
 belt hell~
 the Belt of Hell~
@@ -313,9 +313,9 @@ unknown~
 0 0 0 0 0
 15 5 2500 P
 A
-12 -10
-A
 19 2
+A
+12 -10
 #17202
 Sword of Scooby~
 sword of Scooby~
@@ -333,11 +333,11 @@ unknown~
 0 0 400 0 0
 30 20 15000 P
 A
-1 1
+12 20
 A
 13 20
 A
-12 20
+1 1
 #17204
 name armband hell~
 the Armband of Hell~
@@ -347,9 +347,9 @@ unknown~
 AD D D C 0
 33 10 10000 P
 A
-18 4
-A
 19 4
+A
+18 4
 #17205
 ring hell~
 the Ring of Hell~
@@ -359,13 +359,13 @@ unknown~
 BD BD BD ABCD 0
 35 2 50000 P
 A
+13 100
+A
 12 -100
 A
 12 -50
 A
 12 -100
-A
-13 100
 #17206
 ring hell~
 the Ring of Hell~
@@ -485,9 +485,9 @@ unknown~
 BD BD BD BD 0
 40 10 50000 P
 A
-2 1
-A
 19 4
+A
+2 1
 #17222
 hammer hades~
 the Hammer of Hades~
@@ -505,9 +505,9 @@ unknown~
 AE AE AE AE 0
 35 34 20000 P
 A
-19 5
-A
 18 5
+A
+19 5
 #17224
 helmet fire~
 the Helmet of Fire~
@@ -517,9 +517,9 @@ unknown~
 AC AC AC AC 0
 20 17 2500 P
 A
-12 25
-A
 4 -2
+A
+12 25
 #17225
 belt unforgiving~
 the Belt of Unforgiving~
@@ -529,13 +529,13 @@ unknown~
 BD BD BD D 0
 45 8 65000 P
 A
-13 25
-A
-19 5
+18 10
 A
 12 -25
 A
-18 10
+19 5
+A
+13 25
 #17230
 helm supremity~
 the Helm of Supremity~
@@ -2349,19 +2349,19 @@ M 0 17204 2 17200 Load a Guardian of Hell
 M 0 17204 2 17200 Load a Guardian of Hell
 E 0 17219 0 17 The hell key is loaded held in the hands of a Guardian of Hell
 E 0 17194 0 3 An accursed pendant is loaded around the neck (1) of a Guardian of Hell
-M 0 17200 10 17201 Load An Evil Servant
-M 0 17200 10 17201 Load An Evil Servant
-M 0 17200 10 17201 Load An Evil Servant
-M 0 17200 2 17202 Load An Evil Servant
-M 0 17200 4 17207 Load An Evil Servant
-M 0 17200 4 17207 Load An Evil Servant
-M 0 17200 4 17207 Load An Evil Servant
+M 0 17200 10 17201 Load an Evil Servant
+M 0 17200 10 17201 Load an Evil Servant
+M 0 17200 10 17201 Load an Evil Servant
+M 0 17200 2 17202 Load an Evil Servant
+M 0 17200 4 17207 Load an Evil Servant
+M 0 17200 4 17207 Load an Evil Servant
+M 0 17200 4 17207 Load an Evil Servant
 M 0 17201 0 17208 Load the Bodyguard of Diablo
 E 0 17217 0 17 The damned key is loaded held in the hands of the Bodyguard of Diablo
 E 0 17200 0 5 A suit of hell's armor is loaded on the body of the Bodyguard of Diablo
-M 0 17200 10 17209 Load An Evil Servant
-M 0 17200 10 17209 Load An Evil Servant
-M 0 17200 10 17211 Load An Evil Servant
+M 0 17200 10 17209 Load an Evil Servant
+M 0 17200 10 17209 Load an Evil Servant
+M 0 17200 10 17211 Load an Evil Servant
 M 0 17202 5 17214 Load the Demon
 M 0 17202 5 17214 Load the Demon
 M 0 17202 5 17214 Load the Demon
@@ -2435,13 +2435,13 @@ M 0 17209 4 17248 Load a Damned Soul
 M 0 17209 3 17250 Load a Damned Soul
 M 0 17209 2 17252 Load a Damned Soul
 M 0 17209 2 17252 Load a Damned Soul
-M 0 17212 5 17253 Load An Undead Killer
-M 0 17212 5 17253 Load An Undead Killer
-M 0 17212 5 17253 Load An Undead Killer
-M 0 17212 5 17253 Load An Undead Killer
+M 0 17212 5 17253 Load an Undead Killer
+M 0 17212 5 17253 Load an Undead Killer
+M 0 17212 5 17253 Load an Undead Killer
+M 0 17212 5 17253 Load an Undead Killer
 M 0 17209 3 17254 Load a Damned Soul
 M 0 17209 3 17254 Load a Damned Soul
-M 0 17212 2 17255 Load An Undead Killer
+M 0 17212 2 17255 Load an Undead Killer
 M 0 17209 4 17256 Load a Damned Soul
 M 0 17209 4 17256 Load a Damned Soul
 M 0 17209 4 17256 Load a Damned Soul
@@ -2455,26 +2455,26 @@ M 0 17209 5 17259 Load a Damned Soul
 M 0 17209 5 17259 Load a Damned Soul
 M 0 17209 5 17259 Load a Damned Soul
 M 0 17209 5 17259 Load a Damned Soul
-M 0 17212 2 17260 Load An Undead Killer
-M 0 17212 2 17260 Load An Undead Killer
-M 0 17212 5 17262 Load An Undead Killer
-M 0 17212 5 17262 Load An Undead Killer
-M 0 17212 5 17262 Load An Undead Killer
-M 0 17212 5 17262 Load An Undead Killer
-M 0 17212 3 17263 Load An Undead Killer
-M 0 17212 3 17263 Load An Undead Killer
-M 0 17212 3 17264 Load An Undead Killer
-M 0 17212 3 17264 Load An Undead Killer
+M 0 17212 2 17260 Load an Undead Killer
+M 0 17212 2 17260 Load an Undead Killer
+M 0 17212 5 17262 Load an Undead Killer
+M 0 17212 5 17262 Load an Undead Killer
+M 0 17212 5 17262 Load an Undead Killer
+M 0 17212 5 17262 Load an Undead Killer
+M 0 17212 3 17263 Load an Undead Killer
+M 0 17212 3 17263 Load an Undead Killer
+M 0 17212 3 17264 Load an Undead Killer
+M 0 17212 3 17264 Load an Undead Killer
 M 0 17211 0 17265 Load a Blood Brother
 E 0 17212 0 17 The evil key is loaded held in the hands of a Blood Brother
 E 0 17206 0 2 The ring of hell is loaded on the right finger of a Blood Brother
-M 0 17212 3 17266 Load An Undead Killer
-M 0 17212 4 17267 Load An Undead Killer
-M 0 17212 4 17267 Load An Undead Killer
-M 0 17212 4 17267 Load An Undead Killer
-M 0 17212 4 17267 Load An Undead Killer
-M 0 17212 4 17268 Load An Undead Killer
-M 0 17212 4 17268 Load An Undead Killer
+M 0 17212 3 17266 Load an Undead Killer
+M 0 17212 4 17267 Load an Undead Killer
+M 0 17212 4 17267 Load an Undead Killer
+M 0 17212 4 17267 Load an Undead Killer
+M 0 17212 4 17267 Load an Undead Killer
+M 0 17212 4 17268 Load an Undead Killer
+M 0 17212 4 17268 Load an Undead Killer
 M 0 17216 0 17270 Load the Guardian of the Key
 E 0 17211 0 17 The satanic key is loaded held in the hands of the Guardian of the Key
 M 0 17213 9 17271 Load a Devil's Associate

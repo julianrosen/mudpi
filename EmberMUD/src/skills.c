@@ -922,9 +922,8 @@ void list_group_costs( CHAR_DATA * ch )
         return;
 
     col = 0;
-
-    sprintf( buf, "%-18s %-5s %-18s %-5s %-18s %-5s\n\r", "group", "cp",
-             "group", "cp", "group", "cp" );
+    sprintf( buf, "%-2s %-18s %-2s %-18s %-2s %-18s\n\r", "cp",
+             "group", "cp", "group", "cp" , "group" );
     send_to_char( buf, ch );
 
     for ( gn = 0; gn < MAX_GROUP; gn++ )
@@ -936,8 +935,8 @@ void list_group_costs( CHAR_DATA * ch )
              && !ch->pcdata->group_known[gn]
              && group_table[gn].rating[ch->Class] > 0 )
         {
-            sprintf( buf, "%-18s %-5d ", group_table[gn].name,
-                     group_table[gn].rating[ch->Class] );
+            sprintf( buf, "%-2d %-18s ", group_table[gn].rating[ch->Class],
+                    group_table[gn].name );
             send_to_char( buf, ch );
             if ( ++col % 3 == 0 )
                 send_to_char( "\n\r", ch );
@@ -948,9 +947,8 @@ void list_group_costs( CHAR_DATA * ch )
     send_to_char( "\n\r", ch );
 
     col = 0;
-
-    sprintf( buf, "%-18s %-5s %-18s %-5s %-18s %-5s\n\r", "skill", "cp",
-             "skill", "cp", "skill", "cp" );
+    sprintf( buf, "%-2s %-2s %-18s %-2s %-2s %-18s %-2s %-2s %-18s\n\r", "cp", "lv","skill", 
+             "cp", "lv", "skill", "cp", "lv", "skill" );
     send_to_char( buf, ch );
 
     for ( sn = 0; sn < MAX_SKILL; sn++ )
@@ -961,10 +959,13 @@ void list_group_costs( CHAR_DATA * ch )
         if ( !ch->gen_data->skill_chosen[sn]
              && ch->pcdata->learned[sn] == 0
              && skill_table[sn].spell_fun == spell_null
-             && skill_table[sn].rating[ch->Class] > 0 )
-        {
-            sprintf( buf, "%-18s %-5d ", skill_table[sn].name,
-                     skill_table[sn].rating[ch->Class] );
+             && skill_table[sn].rating[ch->Class] > 0 
+             && skill_table[sn].skill_level[ch->Class] < LEVEL_HERO )
+        {    
+
+            sprintf( buf, "%-2d %-2d %-18s ", skill_table[sn].rating[ch->Class],
+                    skill_table[sn].skill_level[ch->Class], skill_table[sn].name );
+         
             send_to_char( buf, ch );
             if ( ++col % 3 == 0 )
                 send_to_char( "\n\r", ch );

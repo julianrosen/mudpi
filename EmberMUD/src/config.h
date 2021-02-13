@@ -11,9 +11,13 @@
 #define AUTO_BOARD    0 /* Automatically display message boards on login? */
 #define WAIT_STR      1 /* Display symbol when commands are blocked? */
 #define SHOW_CP       0 /* Display creation points and % XP in score? */
-#define HUNGER_THIRST 0 /* Players get hungry and thirsty? */
+#define HUNGER_THIRST 3 /* Controls speed at which players get hungry and thirsty. */
+                        /* 0 means no hunger or thirst, otherwise higher number is slower */
+#define HUNGER_THRESH 12 /* Threshhold at which a character gets hunger messages */
+
 #define STARTING_AGE  25
 #define MAX_RACE_LEN  11
+
 
 /* Prompts */
 #define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
@@ -30,6 +34,8 @@ vanishes and quits.*/
 #define AUTO_QUIT 180
 
 #define VNUM_OFFSET 13000 // Increase all hardcoded vnums in config.h by this amount
+
+
 
 /* End JR */
 
@@ -386,6 +392,8 @@ sets the level of the obj, the second sets the level of the spells.*/
 #define BREW_SCRIBE_USE_LEVEL 1
 #define BREW_SCRIBE_LEVEL .75
 
+
+// JR: need third party versions
 /* Random dodge messages. - Nevarlos */
 #define DDG_MSG1    "$N easily avoids your attack.`w"
 #define DDG_MSGS1   "You easily avoid $n's attack.`w"
@@ -1589,7 +1597,7 @@ of combat. */
 #define ROOM_WARRIOR_GUILD      (dd)
 #define ROOM_PALADIN_GUILD      (ee)
 #define ROOM_AVENGER_GUILD      (ff)
-#define ROOM_NIGHTBLADE_GUILD   (gg)
+#define ROOM_NIGHTBLADE_GUILD   (gg)  // 2**32
 #define ROOM_MYSTIC_GUILD       (hh)
 
 /*
@@ -1804,8 +1812,8 @@ of combat. */
 
 #define TRACK_THROUGH_DOORS
 /*#undef TRACK_THROUGH_DOORS*/ /* Added by JR */
-/*#define TRACK_IS_SKILL*/
-#undef TRACK_IS_SKILL
+#define TRACK_IS_SKILL
+/*#undef TRACK_IS_SKILL*/
 
 #define TRACK_NO_PATH          -1
 #define TRACK_ALREADY_THERE    -2

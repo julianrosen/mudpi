@@ -337,9 +337,9 @@ unknown~
 0 0 0 0 0
 20 2 7000 P
 A
-3 2
-A
 4 2
+A
+3 2
 #18256
 Large Key~
 a large key~
@@ -365,9 +365,9 @@ unknown~
 AC D BC A EF
 40 15 15000 P
 A
-18 2
-A
 19 4
+A
+18 2
 #18265
 huge barrel dwarven drink-dark~
 a huge barrel~
@@ -427,11 +427,11 @@ unknown~
 D BD D AC 0
 14 5 530 P
 A
-13 -20
+24 3
 A
 12 -10
 A
-24 3
+13 -20
 #0
 
 
@@ -1265,7 +1265,7 @@ D 0 18263 3 0
 D 0 18273 1 0
 D 0 18276 3 0
 M 0 18202 0 18204 Load a Hill Giant
-M 0 18241 2 18208 Load An Ogre
+M 0 18241 2 18208 Load an Ogre
 M 0 18242 0 18212 Load a Dwarf Guard
 M 0 18242 4 18213 Load a Dwarf Guard
 M 0 18244 9 18214 Load a Dwarf Commoner

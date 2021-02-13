@@ -923,11 +923,11 @@ D 0 8918 1 1
 D 0 8918 3 1
 D 0 8919 0 1
 D 0 8919 1 1
-M 0 8901 0 8901 Load The Hierophant
-E 0 8910 0 16 A wooden staff is loaded wielded of The Hierophant
-E 0 8911 0 5 A brown robe is loaded on the body of The Hierophant
-G 0 8913 0 Some bluish herbs is given to The Hierophant
-G 0 8915 0 Some blackish herbs is given to The Hierophant
+M 0 8901 0 8901 Load the Hierophant
+E 0 8910 0 16 A wooden staff is loaded wielded of the Hierophant
+E 0 8911 0 5 A brown robe is loaded on the body of the Hierophant
+G 0 8913 0 Some bluish herbs is given to the Hierophant
+G 0 8915 0 Some blackish herbs is given to the Hierophant
 M 0 8902 0 8902 Load an elder druid
 E 0 8910 0 5 A wooden staff is loaded on the body of an elder druid
 G 0 8914 0 Some purplish herbs is given to an elder druid
@@ -938,11 +938,11 @@ M 0 8903 0 8904 Load an elder druidess
 E 0 8910 0 5 A wooden staff is loaded on the body of an elder druidess
 G 0 8919 0 Some pinkish herbs is given to an elder druidess
 G 0 8917 0 Some reddish herbs is given to an elder druidess
-M 0 8900 0 8905 Load The Hierophant
-E 0 8910 0 16 A wooden staff is loaded wielded of The Hierophant
-E 0 8911 0 5 A brown robe is loaded on the body of The Hierophant
-G 0 8919 0 Some pinkish herbs is given to The Hierophant
-G 0 8918 0 Some orangish herbs is given to The Hierophant
+M 0 8900 0 8905 Load the Hierophant
+E 0 8910 0 16 A wooden staff is loaded wielded of the Hierophant
+E 0 8911 0 5 A brown robe is loaded on the body of the Hierophant
+G 0 8919 0 Some pinkish herbs is given to the Hierophant
+G 0 8918 0 Some orangish herbs is given to the Hierophant
 M 0 8904 2 8905 Load a doe
 M 0 8906 0 8905 Load a stag
 M 0 8905 2 8906 Load a deer
@@ -967,8 +967,8 @@ S
 
 
 #PROGS
-M 8900 10 Offensive Cleric Load to: The Hierophant
-M 8901 10 Offensive Cleric Load to: The Hierophant
+M 8900 10 Offensive Cleric Load to: the Hierophant
+M 8901 10 Offensive Cleric Load to: the Hierophant
 M 8902 10 Offensive Cleric Load to: an elder druid
 M 8903 10 Offensive Cleric Load to: an elder druidess
 M 8908 1 Poison Bite Load to: a harmless snake
