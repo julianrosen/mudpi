@@ -425,15 +425,6 @@ if (!isfight($i))
 endif
 break
 ~
-#27
-Granny~
-If you give granny a puzzle, she will give you the key.~
-give_prog ten thousand piece puzzle~
-say Thank you, I always loved jigsaw puzzles
-say Here, take this!
-give key $r
-break
-~
 #28
 Read~
 Read the text of The Great Gatsby~
@@ -797,12 +788,39 @@ mpmload 4180
 break
 ~
 #2021
-Test prog~
-this is Just a TEST prog I created!!!~
-rand_prog 0~
-say hola
-say me llamo granny pwns
-mpkill $r
+Esmerelda's daughter~
+If you ask Emerelda's daughter about Esmerelda, she will tell you~
+speech_prog esmerelda~
+say Esmerelda went to the graveyard to pay respects to the dead.
+break
+~
+#2022
+Sheriff talk~
+The Sheriff periodically says things~
+rand_prog 100~
+if(sgetrand(20)==1)
+  say Everybody stay safe out there
+  break
+endif
+if(sgetrand(20)==2)
+  say Ham Harbor is a safe place, and I'd like to keep it that way
+  break
+endif
+if(sgetrand(20)==3)
+  say Don't try anything funny while you're in my town
+  break
+endif
+if(sgetrand(20)==4)
+  threaten
+  break
+endif
+break
+~
+#2023
+(no name)~
+(no description)~
+rand_prog 100~
+mpcycle whatsit
 break
 ~
 #0
@@ -1017,32 +1035,32 @@ break
 #12
 Mayor~
 Mayor wanders around the city opening and closing gates and he fights like a cleric.~
-M 10
 M 11
+M 10
 ~
 #26
 Trump~
 Trump wanders around the city saying offensive things and he fights like a cleric.~
-M 10
 M 25
+M 10
 ~
 #20
 CityGuard~
 Kills thieves and fights evil.~
-M 17
 M 18
+M 17
 ~
 #24
 Puff~
 Figure it out. :)~
-M 22
 M 23
+M 22
 ~
 #2000
 Mudweiser MOBProgs/3011.prg~
 Mudweiser MOBProgs/3011.prg~
-M 201
 M 200
+M 201
 ~
 #2001
 Mudweiser MOBProgs/109.prg~
@@ -1052,53 +1070,53 @@ M 202
 #2002
 Mudweiser OBJProgs/4151.prg~
 Mudweiser OBJProgs/4151.prg~
-O 601
 O 600
+O 601
 ~
 #2003
 Mudweiser OBJProgs/4152.prg~
 Mudweiser OBJProgs/4152.prg~
-O 604
-O 603
 O 602
+O 603
+O 604
 ~
 #2004
 Mudweiser OBJProgs/4194.prg~
 Mudweiser OBJProgs/4194.prg~
-O 607
-O 606
 O 605
+O 606
+O 607
 ~
 #2005
 Mudweiser OBJProgs/4199.prg~
 Mudweiser OBJProgs/4199.prg~
-O 609
 O 608
+O 609
 ~
 #2006
 Mudweiser MOBProgs/1503.prg~
 Mudweiser MOBProgs/1503.prg~
-M 223
-M 222
-M 221
-M 220
-M 219
-M 218
-M 217
-M 216
-M 215
-M 214
-M 213
-M 212
-M 211
-M 210
-M 209
-M 208
-M 207
-M 206
-M 205
-M 204
 M 203
+M 204
+M 205
+M 206
+M 207
+M 208
+M 209
+M 210
+M 211
+M 212
+M 213
+M 214
+M 215
+M 216
+M 217
+M 218
+M 219
+M 220
+M 221
+M 222
+M 223
 ~
 #2007
 Mudweiser MOBProgs/1523.prg~
@@ -1123,8 +1141,8 @@ M 227
 #2011
 Mudweiser MOBProgs/4739.prg~
 Mudweiser MOBProgs/4739.prg~
-M 229
 M 228
+M 229
 ~
 #2012
 Mudweiser MOBProgs/4744.prg~
@@ -1149,14 +1167,14 @@ O 610
 #2016
 Mudweiser OBJProgs/4753.prg~
 Mudweiser OBJProgs/4753.prg~
-O 612
 O 611
+O 612
 ~
 #2017
 Mudweiser OBJProgs/4783.prg~
 Mudweiser OBJProgs/4783.prg~
-O 614
 O 613
+O 614
 ~
 #2018
 Mudweiser OBJProgs/4787.prg~
@@ -1171,8 +1189,8 @@ O 616
 #2020
 Mudweiser OBJProgs/4798.prg~
 Mudweiser OBJProgs/4798.prg~
-O 618
 O 617
+O 618
 ~
 #0
 

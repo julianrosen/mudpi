@@ -1,5 +1,5 @@
 #AREADATA
-Name        { All } Diku    Midgaard~
+Name        { All } Diku    Green Midgaard~
 Builders    Test~
 VNUMs       3000 3399
 Security    9
@@ -4563,7 +4563,7 @@ S
 #3127
 `GOn the Concourse`w~
 You are at the southwest corner of the city wall. The Concourse leads
-both north and east. To the west, you see a gate in the city wall.
+both north and east.
 ~
 0 262144 1
 D0
@@ -4574,10 +4574,6 @@ D1
 (null)~
 ~
 0 -1 3128
-D3
-(null)~
-~
-0 0 10013
 S
 #3128
 `GOn the Concourse`w~
@@ -6132,6 +6128,7 @@ M 0 3006 0 3049 Load the captain
 G 0 3050 0 A raft is given to the captain
 G 0 3051 0 A canoe is given to the captain
 M 0 3007 0 3050 Load the sailor
+O 0 15001 0 3054 The temple altar loaded to `GBy the Temple Altar`w
 O 0 3010 0 3054 The donation pit loaded to `GBy the Temple Altar`w
 M 0 3012 0 3054 Load the healer
 M 0 3070 0 3056 Load the ancient potion-brewer

@@ -4,16 +4,14 @@ Builders    None~
 VNUMs       20300 20399
 Security    6
 End
-
-
-
 #MOBILES
 #20300
 Saproling fungus thallid~
 the Saproling~
 A Saproling stands here ready to strike you down.
 ~
-Here stands a Saproling. The children of the Thallid swings it's green arms at you and tries to eat you alive.
+Here stands a Saproling. The children of the Thallid swings it's green arms at
+you and tries to eat you alive.
 ~
 Human~
 AC 0 0 S
@@ -28,7 +26,9 @@ Thallid fungus~
 the Thallid~
 A Thallid slowly emerges from the ground and strikes.
 ~
-Fear overcomes you as the look into the face of the Thallid. It's body is covered with long green hairs. It stares back at you with its one eye and charges at you. You see little Saprolings bud from the Thallid's body.
+Fear overcomes you as the look into the face of the Thallid. It's body is covered
+with long green hairs. It stares back at you with its one eye and charges at you.
+You see little Saprolings bud from the Thallid's body.
 ~
 Human~
 ACT V 0 S
@@ -62,7 +62,9 @@ Spore~
 a tiny spore~
 A tiny spore is being blown around by the wind.
 ~
-The tiny spore is so small you would not have known it was here had it not been for that it flew into your face. You notice it has some nasty claws for something of it's size.
+The tiny spore is so small you would not have known it was here had it not been
+for that it flew into your face. You notice it has some nasty claws for something
+of it's size.
 ~
 Human~
 A 0 0 S
@@ -77,7 +79,8 @@ Thallid thorn~
 the Thorn Thallid~
 A large green thallid lashes out to grab you with it's tentacles.
 ~
-The green thallid lunges at you as tries to feed on you. Hundreds of thorns grow out of it's body and look very sharp. Too bad your life had to end like this.
+The green thallid lunges at you as tries to feed on you. Hundreds of thorns grow
+out of it's body and look very sharp. Too bad your life had to end like this.
 ~
 Human~
 AR HJNV 0 S
@@ -92,7 +95,8 @@ Thorn Thallid~
 the Thorn Thallid~
 A large green thallid lashes out to grab you with it's tentacles.
 ~
-The green thallid lunges at you as it tries to feed on you. Hundreds of thorns grow out of it's body and look very sharp. too bad your life had to end like this.
+The green thallid lunges at you as it tries to feed on you. Hundreds of thorns
+grow out of it's body and look very sharp. too bad your life had to end like this.
 ~
 Human~
 AR HV 0 S
@@ -107,7 +111,9 @@ spore~
 a tiny spore~
 A tiny spore is being blown around by the wind.
 ~
-The tiny spore is so small that you would not have known it was here had it not been for that it flew into your face. You notice it has some nasty claws for something of it's size.
+The tiny spore is so small that you would not have known it was here had it not
+been for that it flew into your face. You notice it has some nasty claws for something
+of it's size.
 ~
 Human~
 A 0 0 S
@@ -122,7 +128,8 @@ saproling fungus thallid~
 the Saproling~
 A saproling stands here ready to strike you down.
 ~
-Here stands a Saproling. The children of the Thallids swings it green arms at you and tries to eat you alive.
+Here stands a Saproling. The children of the Thallids swings it green arms at
+you and tries to eat you alive.
 ~
 Human~
 A 0 0 S
@@ -137,7 +144,9 @@ Thallid~
 the Thallid~
 A Thallid slowly emerges from the ground and strikes.
 ~
-Fear overcomes you as the look into the face of the Thallid. It's body is covered with long green hairs. It stares back at you with it's one eye and charges at you. You see little Saprolings bud from the Thallid's body.
+Fear overcomes you as the look into the face of the Thallid. It's body is covered
+with long green hairs. It stares back at you with it's one eye and charges at
+you. You see little Saprolings bud from the Thallid's body.
 ~
 Human~
 ACT V 0 S
@@ -148,9 +157,6 @@ ACT V 0 S
 8 8 0 0
 AHMV ABCDEFGHIJK M 0
 #0
-
-
-
 #OBJECTS
 #20300
 Rotting corpse elf~
@@ -205,13 +211,12 @@ A
 A
 3 -1
 #0
-
-
-
 #ROOMS
 #20300
 A dark passage through the mountains~
-You find a dark passage between the mountains appearantly leading nowhere. You see a faint trail before you that obviously had not been used for many years. You wonder why...
+You find a dark passage between the mountains appearantly leading nowhere. You
+see a faint trail before you that obviously had not been used for many years.
+You wonder why...
 ~
 0 2097157 5
 D0
@@ -246,7 +251,8 @@ D4
 S
 #20302
 A steep slope of the mountain~
-You start your journey up the steep slope of the mountain. The noise has become increasingly louder but still you cannot recognise this strangely alien sound.
+You start your journey up the steep slope of the mountain. The noise has become
+increasingly louder but still you cannot recognise this strangely alien sound.
 ~
 0 2097152 5
 D4
@@ -276,8 +282,10 @@ D5
 S
 #20304
 Top of the mountain~
-From here you actually see the Thallids as tiny buds sprout from the larger Thallid as it feeds on a rotting carcass.
-You reconsider the thought about turning back. Suddenly you hear something behind you.
+From here you actually see the Thallids as tiny buds sprout from the larger Thallid
+as it feeds on a rotting carcass.
+You reconsider the thought about turning back. Suddenly you hear something behind
+you.
 ~
 0 2097152 5
 D0
@@ -291,7 +299,9 @@ D5
 S
 #20305
 Top of the mountain~
-You have reached the other side of the mountain. The exits are back south or head down and confront this terror. All around you are tiny spores blown by the wind. Soon these spores will grow to be a new generation of Thallids.
+You have reached the other side of the mountain. The exits are back south or head
+down and confront this terror. All around you are tiny spores blown by the wind.
+Soon these spores will grow to be a new generation of Thallids.
 ~
 0 2097152 5
 D2
@@ -305,7 +315,8 @@ D5
 S
 #20306
 Other side of mountain~
-You travel down the mountains to get a better look at the area. Below you lays the entrance to the Valley of the Thallids.
+You travel down the mountains to get a better look at the area. Below you lays
+the entrance to the Valley of the Thallids.
 ~
 0 2097152 5
 D4
@@ -319,7 +330,9 @@ D5
 S
 #20307
 The Valley of the Thallids~
-At the bottom of the mountain you have a beautiful view of the Valley and it's inhabitants. The valley seems to stretch for miles and miles. There is an abundant amount of plants growing here. A long trail leads forward.
+At the bottom of the mountain you have a beautiful view of the Valley and it's
+inhabitants. The valley seems to stretch for miles and miles. There is an abundant
+amount of plants growing here. A long trail leads forward.
 ~
 0 2097152 2
 D0
@@ -333,7 +346,9 @@ D4
 S
 #20308
 The Valley of the Thallids~
-You follow the trail and are lead nowhere. All around you are forest of giant mushrooms. They have grown everywhere and are at least 10 feet in height. You hear a sound to the north but you quickly dismiss any thoughts of it.
+You follow the trail and are lead nowhere. All around you are forest of giant
+mushrooms. They have grown everywhere and are at least 10 feet in height. You
+hear a sound to the north but you quickly dismiss any thoughts of it.
 ~
 0 2097152 2
 D0
@@ -673,9 +688,6 @@ D5
 0 0 20314
 S
 #0
-
-
-
 #RESETS
 D 0 20324 1 0
 M 0 20306 5 20301 Load a tiny spore
@@ -701,23 +713,11 @@ M 0 20305 15 20326 Load the Thorn Thallid
 M 0 20307 15 20326 Load the Saproling
 M 0 20308 15 20326 Load the Thallid
 S
-
-
-
 #PROGS
 M 20302 13 Offensive Mage Load to: the King of the Thallids
 S
-
-
-
 #SHOPS
 0
-
-
-
 #FACTIONAFFS
 0
-
-
-
 #$

@@ -28,7 +28,7 @@ AHMV ABCDEFGHIJK M 0
 #10001
 amelia~
 Amelia the teacher~
-Amelia, the school's teacher, is here reading The Great Gatsby to her students.
+Amelia is here, reading a story to her students.
 ~
 Amelia is a tall woman with blonde hair who could take out a student
 with just one punch.
@@ -59,7 +59,7 @@ AHMV ABCDEFGHIJK M 0
 #10003
 glinda~
 Glinda~
-Glinda the potion-maker sells her wares.
+Glinda the potion-maker is here, selling here wares.
 ~
 (null)~
 Human~
@@ -70,7 +70,7 @@ ABXd H 1000 S
 0 CD 0 0
 8 8 2 454
 AHMV ABCDEFGHIJK M 0
-#10008
+#10004
 no name~
 (no short description)~
 (no long description)
@@ -78,6 +78,20 @@ no name~
 (null)~
 Human~
 A 0 0 S
+0 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#10008
+esmerelda woman~
+an old woman~
+An old woman is here, paying her respects to the dead.
+~
+(null)~
+Human~
+ABd 0 0 S
 0 0 
 0 0 0 0 1d1+1 0d0+0 0d0+0 0
 0 0 0 0
@@ -114,9 +128,9 @@ CFK 0 HI JP
 8 8 0 8000
 AHMV ABCDEFGHIJK G 0
 #10015
-granny jones~
-granny Jones~
-Granny Jones is here. She is one tough lady.
+grandma jones~
+Grandma Jones~
+Grandma Jones is here.
 ~
 (null)~
 Human~
@@ -200,6 +214,34 @@ ABW ABJ 0 S
 0 0 0 0
 8 8 0 0
 AHMV ABCDEFGHIJK M 0
+#10021
+grandpa smith~
+Grandpa Smith~
+Grandpa Smith is here. He is very old.
+~
+(null)~
+Human~
+ABT 0 0 S
+28 10000 
+0 0 0 0 100d50+400 0d0+0 5d7+12 7
+-400 -400 -400 -400
+0 0 0 0
+8 8 1 700
+AHMV ABCDEFGHIJK M 0
+#10040
+esmerelda's daughter~
+Esmerelda's daughter~
+Here you see Esmerelda's daughter, but Esmerelda is nowhere in sight.
+~
+(null)~
+Human~
+ABGd 0 0 S
+0 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 2 0
+AHMV ABCDEFGHIJK M 0
 #0
 
 
@@ -255,12 +297,12 @@ unknown~
 0 0 10000 P
 #10006
 potion invisibility~
-a potion of invisibility~
-A potion of invisibility is here.~
+a potion of brief invisibility~
+A potion of brief invisibility is here.~
 unknown~
 10 0 A
 0 29 0 0 0
-0 0 800 P
+1 0 600 P
 #10007
 ten thousand piece puzzle~
 a ten thousand piece puzzle~
@@ -277,6 +319,38 @@ unknown~
 18 0 A
 0 0 0 0 0
 0 0 0 P
+#10009
+potion strength~
+a potion of brief strength~
+A potion of brief strength is here.~
+unknown~
+10 0 A
+0 39 0 0 0
+1 0 600 P
+#10010
+potion haste~
+a potion of brief haste~
+A potion of brief haste is here.~
+unknown~
+10 0 A
+0 502 0 0 0
+1 0 600 P
+#10011
+wallet~
+3000 gold from a wallet~
+Someone has droppet a wallet here.~
+unknown~
+20 0 A
+DEFHIJL 0 0 0 0
+0 0 20 P
+#10012
+old rusty musket~
+a rusty musket~
+You see an old musket covered in rust.~
+unknown~
+13 0 A
+0 0 0 0 0
+0 0 300 P
 #10013
 key violet~
 the violet key~
@@ -347,7 +421,7 @@ an old, beaten-up safe~
 Someone has discarded an old safe here.~
 unknown~
 15 D 0
-CFG ACD ABCDEIKM 0 0
+CFG ABCD ABCDEIKM 0 0
 0 100 0 P
 #10022
 ivory snuff box~
@@ -428,9 +502,9 @@ A C A AB D
 A
 19 -3
 #10030
-tree stump~
-a tree stump~
-The stump of a large tree is here.~
+hollow tree stump~
+a hollow tree stump~
+There is a hollow tree stump here.~
 unknown~
 15 0 0
 0 0 0 0 0
@@ -559,7 +633,7 @@ a glass snuff box~
 You see a glass snuff box sitting on the mantle.~
 unknown~
 15 0 0
-0 AC 0 0 0
+0 ABCD BEIJKN 0 0
 0 0 0 P
 #10038
 wood wooden snuff box~
@@ -568,6 +642,14 @@ You see a wooden snuff box sitting on the mantle.~
 unknown~
 15 0 0
 0 AC 0 0 0
+0 0 0 P
+#10039
+secret symbol~
+a secret symbol~
+You see a piece of paper with mysterious writing on it.~
+unknown~
+13 0 A
+0 0 0 0 0
 0 0 0 P
 #0
 
@@ -589,8 +671,8 @@ D3
 0 0 10148
 S
 #10001
-Eastern Highway~
-You are on a small highway. On the east side of the road, you see a market.
+By The Market~
+On the east side of the road, you see a market.
 ~
 0 0 1
 D0
@@ -607,8 +689,8 @@ D2
 0 0 10000
 S
 #10002
-Eastern Highway~
-You are on a small highway, just south of Bellsworth Lane.
+Eastern Pass~
+You are on a pleasant road just south of Bellsworth Lane. There are some shops around.
 ~
 0 0 1
 D0
@@ -711,7 +793,8 @@ D3
 S
 #10009
 Road To Cemetary~
-(null)~
+You are getting near the old cemetary.
+~
 0 0 0
 D1
 (null)~
@@ -724,7 +807,8 @@ D3
 S
 #10010
 At The Cemetary Gate~
-(null)~
+The cemetary gate is made out of iron. It looks to be several hundred years old.
+~
 0 0 0
 D1
 (null)~
@@ -737,7 +821,8 @@ D3
 S
 #10011
 In The Cemetary~
-(null)~
+You are in the cemetary. There are headstones everywhere. In the distance, you see some kind of crypt.
+~
 0 0 0
 D0
 (null)~
@@ -753,8 +838,9 @@ D3
 0 0 10010
 S
 #10012
-cem~
-(null)~
+More Cemetary~
+There are more headstones here.
+~
 0 0 0
 D1
 (null)~
@@ -773,7 +859,7 @@ You are on a road leading out of the city of Midgaard.
 D1
 (null)~
 ~
-0 0 3127
+0 0 16047
 D3
 (null)~
 ~
@@ -781,9 +867,9 @@ D3
 S
 #10014
 Road Into Mashtenaw County~
-You are entering Mashtenaw county, the center of which is the city of Ham Harbor. Seven
+You are entering Mashtenaw county, the hub of which is the city of Ham Harbor. Seven
 colored keys are hidden around the county. Retrieve all seven and you will unlock
-a valuable prize.
+the prize.
 ~
 0 0 1
 D1
@@ -797,7 +883,7 @@ D3
 S
 #10015
 Intersection of Litmore Lake Road And Tackard Road~
-Litmore Lake Road heads off to the west. To the south is Tackard Road. Midgaard is to the east.
+Litmore Lake Road heads off to the west. Tackard Road runs to the south, to Ham Harbor and beyond.
 ~
 0 0 1
 D1
@@ -1047,7 +1133,7 @@ D5
 0 0 10093
 S
 #10030
-Tackard Road~
+Tackard Road, South Of Litmore Lake Road~
 Tackard Road was once a fine cobblestone road. But years of over-use
 and under-maintenance have reduce it to little more than rocks and dirt.
 To the north is Litmore Lake Road.
@@ -1063,7 +1149,7 @@ D2
 0 0 10031
 S
 #10031
-Tackard Road~
+By The Meadow~
 You are on Tackard Road, which runs to the north and south. Off to the east,
 you see a path cutting through a large, open meadow.
 ~
@@ -1097,7 +1183,7 @@ D2
 0 0 10033
 S
 #10033
-Tackard Road~
+In Front Of The Schoolhouse~
 The road continues to run north-south. To the west, you see a schoolhouse.
 ~
 0 0 1
@@ -1117,6 +1203,7 @@ S
 #10034
 Schoolhouse~
 You are in an one-room schoolhouse. Pencils, papers, crayons, and rulers are strewn everywhere.
+A group of children are gathered on a carpet.
 ~
 0 8 0
 D1
@@ -1125,7 +1212,7 @@ D1
 0 0 10033
 S
 #10035
-Tackard Road~
+In Front Of The Trading Post~
 You are on Tackard Road. Off in the distance to the south, you see the outskirts
 of the city of Ham Harbor. On the west side of the street is a trading post,
 which is probably closed.
@@ -1162,7 +1249,7 @@ D1
 0 0 10035
 S
 #10037
-Tackard Road~
+Tackard Road, Near Intersection~
 You are on Tackard Road, nearing the intersection with Bellsworth Lane.
 ~
 0 0 1
@@ -1177,8 +1264,9 @@ D2
 S
 #10038
 Intersection Of Tackard Road And Bellsworth Lane~
-Tackard Road runs north-south, and Bellsworth Lane runs east-west.
-The town of Ham Harbor is to the southeast.
+This intersection lies at the center of Mashtenaw county. Tackard Road runs to
+the north and south, and Bellsworth Lane runs to the east and west. Ham Harbor is
+to the southeast.
 ~
 0 0 1
 D0
@@ -1278,13 +1366,18 @@ S
 #10044
 Bellsworth Lane~
 You are on Bellworth Lane. The town of Ham Harbor is
-off to the east.
+off to the east. On the south side of the street, you see
+a quaint-looking house.
 ~
 0 0 1
 D1
 (null)~
 ~
 0 0 10043
+D2
+(null)~
+~
+0 0 10136
 D3
 (null)~
 ~
@@ -1459,10 +1552,14 @@ D3
 0 0 10054
 S
 #10056
-Bellsworth Lane~
-Here Bellsworth Lane meets a small highway heading off to the south.
+Bellsworth Lane, At The Eastern Pass~
+Here Bellsworth Lane meets a road heading off to the south.
 ~
 0 0 1
+D0
+(null)~
+~
+0 0 10132
 D1
 (null)~
 ~
@@ -1516,7 +1613,7 @@ D3
 0 0 10059
 S
 #10059
-Bellsworth Lane~
+By The Path Into The Meadow~
 You are on Bellsworth Lane. You see a path into the meadow in the north.
 ~
 0 0 1
@@ -1556,10 +1653,18 @@ D0
 (null)~
 ~
 0 0 10060
+D1
+(null)~
+~
+0 0 10135
 D2
 (null)~
 ~
 0 0 10062
+D3
+(null)~
+~
+0 0 10134
 S
 #10062
 In Front Of Granny Jones' House~
@@ -1579,8 +1684,9 @@ D3
 0 0 10063
 S
 #10063
-Granny's house~
-Granny Jones is one tough lady.
+Grandma Jones' House~
+You are in Grandma Jones' house. You see a Rubik's cube on the table, and
+sudoku books on the shelf.
 ~
 0 0 0
 D1
@@ -1637,7 +1743,7 @@ D3
 0 0 10065
 S
 #10067
-Path Through The Meadow~
+In the Middle Of The Meadow~
 You are on a path through the meadow.
 ~
 0 0 2
@@ -1651,7 +1757,7 @@ D2
 0 0 10068
 S
 #10068
-Path Through The Meadow, By The Woods~
+In The Meadow, By The Woods~
 You are on a path through the meadow. To the east, another path leads
 into the woods.
 You see a sign.
@@ -1675,7 +1781,7 @@ D2
 0 0 10069
 S
 #10069
-Path Through The Meadow~
+The Meadow~
 You are on a path through the meadow.
 ~
 0 0 2
@@ -1845,8 +1951,9 @@ D2
 0 0 10035
 S
 #10082
-cem~
-(null)~
+Southeast Corner Of Cemetary~
+The cemetary continues to the north and west.
+~
 0 0 0
 D0
 (null)~
@@ -2044,8 +2151,9 @@ D3
 0 0 10083
 S
 #10092
-cem~
-(null)~
+In Front Of The Mausoleum~
+To the east, you see a small building decorated elaborate stonework.
+~
 0 0 0
 D1
 (null)~
@@ -2085,6 +2193,10 @@ D4
 (null)~
 ~
 0 0 10029
+D5
+(null)~
+~
+0 0 10093
 S
 #10094
 A Cluttered Cellar~
@@ -2398,8 +2510,9 @@ D4
 0 0 10029
 S
 #10105
-In The Catacombs~
-(null)~
+Inside the Mausoleum~
+There's is a dead body in here. Are you sure you want to keep going?
+~
 0 0 0
 D0
 (null)~
@@ -2411,8 +2524,9 @@ D3
 0 0 10092
 S
 #10106
-Tomb Of Gorblax~
-(null)~
+At The Tomb~
+You have reached the tomb.
+~
 0 0 0
 D2
 (null)~
@@ -2450,7 +2564,7 @@ D3
 S
 #10110
 Bathroom~
-This bathroom looks like it hasn't been used in years.
+This bathroom looks like it hasn't been cleaned in years.
 ~
 0 8 0
 D2
@@ -2518,7 +2632,7 @@ D3
 0 0 10001
 S
 #10116
-Entering The Swamp~
+Entering The Wetlands~
 The ground in this area is wet and muddy. I hope you brought your boots!
 ~
 0 0 0
@@ -2750,6 +2864,57 @@ D5
 ~
 0 0 10047
 S
+#10132
+~
+(null)~
+0 0 0
+D0
+(null)~
+~
+0 0 10133
+D2
+(null)~
+~
+0 0 10056
+S
+#10133
+~
+(null)~
+0 0 0
+D2
+(null)~
+~
+0 0 10132
+S
+#10134
+Grandpa Smith's House~
+This is Grandpa Smith's house. The house is filled with civil war momentos.
+~
+0 0 0
+D1
+(null)~
+~
+0 0 10061
+S
+#10135
+~
+(null)~
+0 0 0
+D3
+(null)~
+~
+0 0 10061
+S
+#10136
+Esmerelda's House~
+You are in Esmerelda's house.
+~
+0 0 0
+D0
+(null)~
+~
+0 0 10044
+S
 #10138
 Bellworth Lane, By Dark Alley~
 You are on Bellsworth Lane. A dark alley heads to the north.
@@ -2934,7 +3099,9 @@ D3
 S
 #10149
 Flingerman's Deli~
-(null)~
+You are in a shop that sells sandwiches and other food items. This place must be good, since
+there is a line leading out the door.
+~
 0 0 0
 D2
 (null)~
@@ -2943,7 +3110,8 @@ D2
 S
 #10150
 Armory~
-(null)~
+This shop sells swords, daggers, maces, helmets, and other weapons an armor.
+~
 0 4 0
 D0
 (null)~
@@ -3109,7 +3277,8 @@ D3
 S
 #10161
 Grocer~
-(null)~
+The grocer sells fresh fruits and vegetables, and meat.
+~
 0 0 0
 D2
 (null)~
@@ -3374,7 +3543,7 @@ D2
 S
 #10180
 In Front Of Glinda's Potions~
-You are standing in front of Glinda's Potions. I hope they're still open!
+You are standing in front of Glinda's Potions. I hope they're still open...
 ~
 0 0 0
 D0
@@ -3438,14 +3607,20 @@ D 0 10079 2 2
 D 0 10080 4 2
 D 0 10142 4 0
 O 0 10022 0 10007 An ivory snuff box loaded to Nice House
-P 0 10035 0 10022 The indigo key put inside the indigo key
 O 0 10037 0 10007 A glass snuff box loaded to Nice House
 O 0 10036 0 10007 A metal snuff box loaded to Nice House
 O 0 10038 0 10007 A wooden snuff box loaded to Nice House
+P 0 10035 0 10037 The indigo key put inside a glass snuff box
 O 0 10013 0 10026 The violet key loaded to Boathouse
 O 0 10032 0 10028 A box of tide laundry detergent loaded to Laundry Room
-P 0 10033 0 10032 A tide pod put inside a tide pod
+P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
+P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
+P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
+P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
 O 0 10003 0 10034 A heavy oak desk loaded to Schoolhouse
+P 0 10008 0 10003 A glass key put inside a heavy oak desk
+M 0 10001 0 10034 Load Amelia the teacher
+G 0 10002 0 Amelia's key is given to Amelia the teacher
 M 0 10016 0 10036 Load Mava
 G 0 608 0 A golden necklace is given to Mava
 G 0 612 0 An apple is given to Mava
@@ -3454,53 +3629,55 @@ G 0 10026 0 A hard banana is given to Mava
 G 0 616 0 A leather vest is given to Mava
 G 0 611 0 A bottle of milk is given to Mava
 O 0 10021 0 10046 An old, beaten-up safe loaded to Junkyard
-P 0 10019 0 10021 *not* the violet key put inside *not* the violet key
+P 0 10019 0 10021 *not* the violet key put inside an old, beaten-up safe
 M 0 10014 0 10050 Load a big basher
 M 0 10014 0 10051 Load a big basher
 O 0 10018 0 10052 The blue key loaded to Dead End At The Tree
-M 0 10015 0 10063 Load granny Jones
-G 0 10017 0 The green key is given to granny Jones
-G 0 10017 0 The green key is given to granny Jones
-G 0 10017 0 The green key is given to granny Jones
+M 0 10015 0 10063 Load Grandma Jones
 O 0 10024 0 10078 A white key loaded to Darkness
 O 0 10023 0 10079 A ball of pure energy loaded to Prize Room
 M 0 10013 0 10091 Load a vermicious knid
 G 0 10015 0 The orange key is given to a vermicious knid
 O 0 10014 0 10104 The red key loaded to Storage Room
+M 0 10008 0 10106 Load an old woman
 O 0 10000 0 10110 An old toilet loaded to Bathroom
-P 0 10001 0 10000 A juicy turd put inside a juicy turd
+P 0 10001 0 10000 A juicy turd put inside an old toilet
 M 0 10014 0 10113 Load a big basher
 M 0 10000 0 10115 Load Ezra the shopkeeper
 G 0 3012 0 A cinnamon roll is given to Ezra the shopkeeper
 G 0 3030 0 A torch is given to Ezra the shopkeeper
-G 0 3026 0 A battle axe is given to Ezra the shopkeeper
 G 0 3002 0 A bottle of ale is given to Ezra the shopkeeper
-G 0 3053 0 A leather belt is given to Ezra the shopkeeper
 G 0 3154 0 A bottle of george killian's irish red is given to Ezra the shopkeeper
-G 0 10007 0 A ten thousand piece puzzle is given to Ezra the shopkeeper
-O 0 10030 0 10128 A tree stump loaded to Dead End
-P 0 10020 0 10030 A boring metal key put inside a boring metal key
+G 0 10012 0 A rusty musket is given to Ezra the shopkeeper
+O 0 10030 0 10128 A hollow tree stump loaded to Dead End
+P 0 10020 0 10030 A boring metal key put inside a hollow tree stump
+M 0 10021 0 10134 Load Grandpa Smith
+M 0 10040 0 10136 Load Esmerelda's daughter
 M 0 10017 0 10143 Load a Ham Harbor cityguard
 M 0 10018 0 10147 Load Sheriff Johnson
 E 0 10028 0 16 A snow-white blade is loaded wielded of Sheriff Johnson
 M 0 10017 4 10147 Load a Ham Harbor cityguard
 O 0 10027 0 10154 A yellow mailbox loaded to Post Office
-P 0 10016 0 10027 A yellow key put inside a yellow key
+P 0 10016 0 10027 A yellow key put inside a yellow mailbox
 M 0 10019 0 10157 Load Matt the mapmaker
 G 0 10031 0 A map of ham harbor is given to Matt the mapmaker
 M 0 10017 0 10158 Load a Ham Harbor cityguard
 M 0 10017 2 10158 Load a Ham Harbor cityguard
 M 0 10017 0 10162 Load a Ham Harbor cityguard
+O 0 10011 0 10176 3000 gold from a wallet loaded to Not As Wet
 M 0 10003 0 10181 Load Glinda
-G 0 10006 0 A potion of invisibility is given to Glinda
+G 0 10006 0 A potion of brief invisibility is given to Glinda
+G 0 10009 0 A potion of brief strength is given to Glinda
+G 0 10010 0 A potion of brief haste is given to Glinda
 S
 
 
 
 #PROGS
-M 10001 27 Granny Load to: Amelia the teacher
 M 10001 28 Read Load to: Amelia the teacher
-M 10015 27 Granny Load to: granny Jones
+M 10018 2022 Sheriff talk Load to: Sheriff Johnson
+M 10019 2023 (no name) Load to: Matt the mapmaker
+M 10040 2021 (no name) Load to: Esmerelda's daughter
 S
 
 
