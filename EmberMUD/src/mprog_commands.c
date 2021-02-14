@@ -41,9 +41,9 @@
 
 
 // JR: Gatsby
-char gatsby_text[400000];
+/*char gatsby_text[400000];
 *gastby_text = '\0';
-char * gatsby_head;
+char * gatsby_head;*/
 
 /*
  * Local functions.
@@ -1694,10 +1694,75 @@ bool mp_cast_adept( CHAR_DATA *ch )
 }
 
 
+void do_mpfrenchtaunter( CHAR_DATA *ch, char *argument )
+{
+	static int taunt = 0;
+	
+	taunt = taunt < 10 ? taunt+1 : 1;
+    
+    if ( number_range(1,6) == 1 )
+        taunt = taunt < 10 ? taunt+1 : 1; // JR: keep things interesting
+    
+	if( taunt == 1 )
+	{
+		do_say(ch, "Go and boil your bottom, you son of a silly person!" );
+		return TRUE;
+	}
+	else if (taunt == 2)
+	{
+		do_say( ch, "I blow my nose on you, you silly person!");
+		return TRUE;
+	}
+	else if (taunt == 3)
+	{
+		do_emote( ch, "puts his hands to his ears and blows a raspberry.");
+		return TRUE;
+	}
+	else if (taunt == 4)
+	{
+		do_say( ch, "I don't wanna talk to you anymore, you empty-headed animal-food-trough wiper!" );
+		return TRUE;
+	}
+	else if (taunt == 5)
+	{
+		do_say( ch, "I fart in your general direction!" );
+		return TRUE;
+	}
+	else if (taunt == 6)
+	{
+		do_say( ch, "Your mother was a hamster and your father smelt of elderberries!");
+		return TRUE;
+	}
+	else if (taunt == 7)
+	{
+		do_say( ch, "Now go away, or I shall taunt you a second time!" );
+		return TRUE;
+	}
+	else if (taunt == 8)
+	{
+		do_say( ch, "I burst my pimples at you, you tiny-brained wiper of other people's bottoms!" );
+		return TRUE;
+	}
+	else if (taunt == 9)
+	{
+		do_say( ch, "I unclog my nose towards you, you son of a window dresser!" );
+		return TRUE;
+	}
+	else if (taunt == 10)
+	{
+		do_say( ch, "I wave my private parts at your aunties, you brightly-colored, mealy-templed, cranberry-smelling, electric donkey-bottom biters!" );
+		return TRUE;
+	}
+	return TRUE;
+}
+
+
 // JR LOLOL
 void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH],*bufp,c,*buf2;
+    static char gatsby_text[400000], *gatsby_head;
+    static bool initialized = FALSE;
+    char buf[MAX_STRING_LENGTH],*bufp,c;
     int count;
     if ( !IS_NPC( ch ) )
     {
@@ -1705,7 +1770,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
         return;
     }
     
-    if ( *gatsby_text == '\0' )
+    if ( !initialized )
     {
         // Text has not been read from file
         printf("Reading Gatsby file...");
@@ -1723,35 +1788,64 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
                 bufp++;
             }
         }
+        fclose(fp);
         *bufp = '\0';
         gatsby_head = gatsby_text;
-        printf("done\n");
+        printf("completed.\n");
+        initialized = TRUE;
     }
-    strcpy( buf, "`G$n says '");
-    bufp = buf+strlen(buf);
     
-    count = 0;
+    
+    
+    /*bool par = *(gatsby_head+1) == '\n'?TRUE:FALSE;
     while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
-        gatsby_head++;
+                gatsby_head++;
+    if ( par )
+            {
+                act( "$n pauses.", ch, NULL, NULL, TO_ROOM );
+                return;
+            }*/
     
-    if ( *gatsby_head == 255 )
-    {
-        gatsby_head = gatsby_text;
-        act( "`G$n says 'Phew, that was long! Let's start again from the top.'", ch, NULL, NULL, TO_ROOM );
-        return;
-    }
-    
-    while ( *gatsby_head != 255 && *gatsby_head != '\n' && *gatsby_head != '\r' && *gatsby_head != '\0')
-    {
-        *bufp = *gatsby_head;
-        gatsby_head++;
-        bufp++;
-        count++;
-    }
-    *(bufp) = '\0';
-    strcat( buf, "'");
-    //buf2 = strdup(buf);
-    act( buf, ch, NULL, NULL, TO_ROOM );
-    //free(buf2);
+    for ( count = 0; count < 2; count++ )
+        {
+            strcpy( buf, "`G$n says '");
+            bufp = buf+strlen(buf);
+            while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
+                gatsby_head++;
+            
+
+            if ( *gatsby_head == 255 )
+            {
+                gatsby_head = gatsby_text;
+                act( "`G$n says 'Phew, that was long! Let's start again from the top.'", ch, NULL, NULL, TO_ROOM );
+                return;
+            }
+
+            while ( *gatsby_head != 255 && *gatsby_head != '\n' && *gatsby_head != '\r' && *gatsby_head != '\0')
+            {
+                *bufp = *gatsby_head;
+                gatsby_head++;
+                bufp++;
+            }
+            *(bufp) = '\0';
+            strcat( buf, "'");
+            act( buf, ch, NULL, NULL, TO_ROOM );
+            if ( *(gatsby_head+1) == '\n' )
+                break;
+        }
     return TRUE;
+}
+
+
+
+void do_mpcycle( CHAR_DATA *ch, char *argument )
+{
+    static char cyclelist[MAX_INPUT_LENGTH][100];
+    static int step[100];
+    int n;
+    char buf[MAX_INPUT_LENGTH];
+    strcpy( buf, "say ");
+    strcat( buf, argument);
+    interpret( ch, buf);
+    printf("buf: %s\n",buf); // JR debug
 }

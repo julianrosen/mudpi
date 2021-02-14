@@ -820,3 +820,5 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
     send_to_char( newstring, ch );
     return;
 }
+
+

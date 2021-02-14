@@ -2013,7 +2013,7 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
 const struct group_type group_table[MAX_GROUP] = {
     {
      "rom basics", {0, 0, 0, 0, 0, 0, 0, 0},
-     { "scrolls", "staves", "wands", "recall" } 
+     { "scrolls", "staves", "wands", "recall", "track" } // JRwho
     },
 
     {

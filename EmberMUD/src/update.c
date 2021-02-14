@@ -846,9 +846,9 @@ void char_update( void )
             /* Automatic AFK */
             if ( ch->timer*PULSE_TICK >= AUTO_AFK*60*PULSE_PER_SECOND && ch->level < LEVEL_IMMORTAL && !IS_SET( ch->act, PLR_AFK ) )
             {
-                char vanish_str[100];
+                /*char vanish_str[100];
                 sprintf(vanish_str,"Auto-AFK activated (%i minutes of inactivity).\n\r",AUTO_AFK);
-                    send_to_char( vanish_str, ch );
+                send_to_char( vanish_str, ch );*/
                 do_afk( ch, "");
             }
             

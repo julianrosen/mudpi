@@ -357,7 +357,9 @@ DECLARE_DO_FUN( do_mprandomsocial );
 DECLARE_DO_FUN( do_mpsilentforce );
 DECLARE_DO_FUN( do_mpsilentcast );
 DECLARE_DO_FUN( do_mpdosilent );
+DECLARE_DO_FUN( do_mpfrenchtaunter ); // JR from Mudweiser
 DECLARE_DO_FUN( do_mpreadgatsby ); // JR
+DECLARE_DO_FUN( do_mpcycle ); // JR
 DECLARE_DO_FUN( do_mpdefault );
 DECLARE_DO_FUN( do_chaos );
 DECLARE_DO_FUN( do_cwho );

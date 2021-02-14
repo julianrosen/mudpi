@@ -764,13 +764,20 @@ void save_resets( FILE * fp, AREA_DATA * pArea )
                             break;
                         }
                         pLastObj = get_obj_index( pReset->vnum );
-                        fprintf( fp, "P 0 %d 0 %d %s put inside %s\n",
+                        /*fprintf( fp, "P 0 %d 0 %d %s put inside %s\n",
                                  pReset->vnum,
                                  pReset->arg3,
                                  capitalize( get_obj_index( pReset->vnum )->
                                              short_descr ),
                                  pLastObj ? pLastObj->
-                                 short_descr : "!NULL OBJ!" );
+                                 short_descr : "!NULL OBJ!" );*/
+                        fprintf( fp, "P 0 %d 0 %d %s put inside %s\n",
+                                 pReset->vnum,
+                                 pReset->arg3,
+                                 capitalize( get_obj_index( pReset->vnum )->
+                                             short_descr ),
+                                 get_obj_index( pReset->arg3 )->
+                                             short_descr );  // JR
                         if ( !pLastObj )
                         {
                             bug( "Save_resets: !NO_OBJ! in [%s]",

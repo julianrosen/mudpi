@@ -408,18 +408,18 @@ int find_door( CHAR_DATA * ch, char *arg )
 {
     EXIT_DATA *pexit;
     int door;
-
-    if ( !str_cmp( arg, "n" ) || !str_cmp( arg, "north" ) )
+    
+    if ( !str_prefix(arg, "north") )
         door = 0;
-    else if ( !str_cmp( arg, "e" ) || !str_cmp( arg, "east" ) )
+    else if ( !str_prefix(arg, "east") )
         door = 1;
-    else if ( !str_cmp( arg, "s" ) || !str_cmp( arg, "south" ) )
+    else if ( !str_prefix(arg, "south") )
         door = 2;
-    else if ( !str_cmp( arg, "w" ) || !str_cmp( arg, "west" ) )
+    else if ( !str_prefix(arg, "west") )
         door = 3;
-    else if ( !str_cmp( arg, "u" ) || !str_cmp( arg, "up" ) )
+    else if ( !str_prefix(arg, "up") )
         door = 4;
-    else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "down" ) )
+    else if ( !str_prefix(arg, "down") )
         door = 5;
     else
     {

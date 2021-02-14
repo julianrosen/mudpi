@@ -19,6 +19,8 @@
  *  around, comes around.                                                  *
  ***************************************************************************/
 
+
+
 /*
  * Accommodate old non-Ansi compilers.
  */
@@ -1311,21 +1313,7 @@ void die_follower args( ( CHAR_DATA * ch ) );
 bool is_same_group args( ( CHAR_DATA * ach, CHAR_DATA * bch ) );
 
 
-// JR: pronouns
-char * he_she( int ); char * He_she( int );
-char * him_her( int ); char * Him_her( int );
-char * his_her( int ); char * His_her( int );
-char * his_hers( int ); char * His_hers( int );
-char * be_verb( int ); char * Be_verb( int );
-char * gender( int ); char * Gender( int );
 
-// JR: strip article
-char * strip_article( char * );
-char * article( bool, bool, char * );
-
-char * center( char *, int , char *);
-int bw_strlen( char * );
-void command_not_found( CHAR_DATA * );
 
 extern bool reap_shells;
 extern const char echo_off_str[];
@@ -1878,3 +1866,23 @@ void oprog_hit_trigger args( ( CHAR_DATA * ch, CHAR_DATA * victim,
                                OBJ_DATA * obj ) );
 
 #endif
+
+
+
+//    JR ALL
+//
+// JR: pronouns
+char * he_she( int ); char * He_she( int );
+char * him_her( int ); char * Him_her( int );
+char * his_her( int ); char * His_her( int );
+char * his_hers( int ); char * His_hers( int );
+char * be_verb( int ); char * Be_verb( int );
+char * gender( int ); char * Gender( int );
+
+// JR: strip article
+char * strip_article( char * );
+char * article( bool, bool, char * );
+
+char * center( char *, int , char *);
+int bw_strlen( char * );
+void command_not_found( CHAR_DATA * );

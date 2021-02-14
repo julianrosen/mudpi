@@ -635,7 +635,9 @@ systems. -Lancelight */
             exit( 1 );
 #endif
         }
+        printf("preload %s\n",strPath);
         load_mudprogs( fpArea );
+        printf("postload\n");
         fclose( fpArea );
 
         sprintf( strPath, "%s/%s", sysconfig.area_dir,
@@ -1789,6 +1791,8 @@ void reset_room( ROOM_INDEX_DATA * pRoom )
     int iExit;
     int level = 0;
     int num_resets = 0;
+    int count = 0;
+    RESET_DATA *last_reset = NULL; // JR
 
     if ( !pRoom )
         return;
@@ -1811,6 +1815,17 @@ void reset_room( ROOM_INDEX_DATA * pRoom )
 
     for ( pReset = pRoom->reset_first; pReset != NULL; pReset = pReset->next )
     {
+        // JR: count multiple instances of the same reset
+        if ( last_reset == NULL )
+            count = 1;
+        else if ( last_reset->vnum == pReset->vnum && 
+           last_reset->arg2 == pReset->arg2 && last_reset->arg3 == pReset->arg3 && 
+           last_reset->command == pReset->command )
+            count++;
+        else
+            count=1;
+        last_reset = pReset;
+        
         MOB_INDEX_DATA *pMobIndex;
         OBJ_INDEX_DATA *pObjIndex;
         OBJ_INDEX_DATA *pObjToIndex;
@@ -1899,7 +1914,7 @@ void reset_room( ROOM_INDEX_DATA * pRoom )
             }
 
             if ( pRoom->area->nplayer > 0
-                 || count_obj_list( pObjIndex, pRoom->contents ) > 0 )
+                 || count_obj_list( pObjIndex, pRoom->contents ) >= count ) // JR: load up to count many
             {
                 break;
             }
@@ -1926,7 +1941,7 @@ void reset_room( ROOM_INDEX_DATA * pRoom )
 
             if ( pRoom->area->nplayer > 0
                  || !( LastObj = get_obj_type( pObjToIndex ) )
-                 || count_obj_list( pObjIndex, LastObj->contains ) > 0 )
+                 || count_obj_list( pObjIndex, LastObj->contains ) >= count ) // JR: load up to count many
             {
                 break;
             }

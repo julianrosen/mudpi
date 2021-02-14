@@ -2814,10 +2814,8 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
     /* do alignment computations */
 
     align = victim->alignment - gch->alignment;
-    printf("align = %i\n",align); // JR debug
     if ( IS_SET( victim->act, ACT_NOALIGN ) )
     {
-        printf("case 1\n"); // JR debug
         /* no change */
     }
 
@@ -2828,7 +2826,6 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
                                 ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
         gch->alignment = UMAX( -1000, gch->alignment - change/10 ); /* Modified by JR */
-        printf("case 2\n"); // JR debug
     }
 
     else if ( align < -500 )    /* monster is more evil than slayer */
@@ -2838,7 +2835,6 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
                                      ( 1 / members ) ) / 2;
         change = UMAX( 1, change );
         gch->alignment = UMIN( 1000, gch->alignment + change/10 );  /* Modified by JR */
-        printf("case 3\n"); // JR debug
     }
 
     else                        /* improve this someday */
@@ -2847,7 +2843,6 @@ int xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
             gch->alignment * ( gch->level / total_levels +
                                ( 1 / members ) ) / 2;
         gch->alignment -= change/10; /* Modified by JR */
-        printf("case 4\n"); // JR debug
     }
 
     /* calculate exp multiplier */
