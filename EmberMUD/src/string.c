@@ -56,29 +56,29 @@ char *line_replace( char *orig, int line, char *arg3 )
         *pOut = '\0';
         strcat( outbuf, arg3 );
         pOut += strlen( arg3 );
-        if ( *pOut - 2 != '\n' )
+        if ( *pOut - 1 != '\n' )
+            *pOut++ = '\n';    // JR
+        /*if ( *pOut - 2 != '\n' )
             *pOut++ = '\n';
         if ( *pOut - 1 != '\r' )
-            *pOut++ = '\r';
+            *pOut++ = '\r';*/
         copy = FALSE;
     }
 
     for ( len = 0; len < strlen( buf ); len++ )
     {
-        if ( buf[len] == '\r' )
+        if ( buf[len] == '\n' )
         {
             if ( copy )
-                *pOut++ = '\r';
+                *pOut++ = '\n';
             count++;
             if ( count == line - 1 )
             {
                 *pOut = '\0';
                 strcat( outbuf, arg3 );
                 pOut += strlen( arg3 );
-                if ( *pOut - 2 != '\n' )
+                if ( *pOut - 1 != '\n' )
                     *pOut++ = '\n';
-                if ( *pOut - 1 != '\r' )
-                    *pOut++ = '\r';
                 copy = FALSE;
             }
             else if ( count == line )
@@ -103,7 +103,7 @@ int count_lines( const char *orig )
 
     for ( line = 0; *orig; )
     {
-        if ( *orig++ == '\r' )
+        if ( *orig++ == '\n' )
             line++;
     }
 
@@ -130,26 +130,26 @@ char *line_delete( char *orig, int line )
     if ( line == 1 )
     {
         *pOut = '\0';
-        for ( ; buf[len] != '\r'; len++ )
+        for ( ; buf[len] != '\n'; len++ )
             continue;
         len++;
     }
 
     for ( ; len < buflen; len++ )
     {
-        if ( buf[len] == '\r' )
+        if ( buf[len] == '\n' )
         {
             count++;
             if ( count == line - 1 )
             {
                 for ( len++; len < buflen; len++ )
                 {
-                    if ( buf[len] == '\r' )
+                    if ( buf[len] == '\n' )
                     {
                         break;
                     }
                 }
-                *pOut++ = '\r';
+                *pOut++ = '\n';
             }
             else
                 *pOut++ = buf[len];
@@ -181,7 +181,7 @@ char *line_add( char *orig, int line, char *add )
     {
         outbuf[0] = '\0';
         strcat( outbuf, add );
-        strcat( outbuf, "\n\r" );
+        strcat( outbuf, "\n" );
         strcat( outbuf, orig );
         free_string( &orig );
         return str_dup( outbuf );
@@ -190,16 +190,13 @@ char *line_add( char *orig, int line, char *add )
     {
         if ( string[pos] == '\n' && string[pos + 1] != '\0' )
         {
-            if ( string[pos + 1] == '\r' && string[pos + 2] != '\0' )
+            count++;
+            if ( count == line )
             {
-                count++;
-                if ( count == line )
-                {
-                    strncat( outbuf, orig, pos + 2 );
-                    strcat( outbuf, add );
-                    strcat( outbuf, "\n\r" );
-                    break;
-                }
+                strncat( outbuf, orig, pos + 1 );
+                strcat( outbuf, add );
+                strcat( outbuf, "\n" );
+                break;
             }
         }
     }
@@ -207,12 +204,9 @@ char *line_add( char *orig, int line, char *add )
     {
         if ( string[pos] == '\n' && string[pos + 1] != '\0' )
         {
-            if ( string[pos + 1] == '\r' )
-            {
-                strcat( outbuf, &orig[pos + 2] );
+                strcat( outbuf, &orig[pos + 1] );
                 free_string( &orig );
                 return str_dup( outbuf );
-            }
         }
     }
     return orig;
@@ -262,8 +256,8 @@ void string_append( CHAR_DATA * ch, char **pString )
     }
     show_line_numbers( ch, *pString );
 
-    if ( *( *pString + strlen( *pString ) - 1 ) != '\r' )
-        send_to_char( "\n\r", ch );
+    if ( *( *pString + strlen( *pString ) - 1 ) != '\n' )
+        send_to_char( "\n", ch );
 
     ch->desc->pString = pString;
 
@@ -489,7 +483,7 @@ void string_add( CHAR_DATA * ch, char *argument )
     smash_tilde( argument );
 
     strcat( buf, argument );
-    strcat( buf, "\n\r" );
+    strcat( buf, "\n" ); // Removed \r (I wonder if this will break shit)
     free_string( ch->desc->pString );
     *ch->desc->pString = str_dup( buf );
     return;
@@ -526,7 +520,6 @@ char *format_string( char *oldstring /*, bool fSpace */  )
                 i++;
             }
         }
-        else if ( *rdesc == '\r' );
         else if ( *rdesc == ' ' )
         {
             if ( xbuf[i - 1] != ' ' )
@@ -632,7 +625,7 @@ char *format_string( char *oldstring /*, bool fSpace */  )
         {
             *( rdesc + i ) = 0;
             strcat( xbuf, rdesc );
-            strcat( xbuf, "\n\r" );
+            strcat( xbuf, "\n" );
             rdesc += i + 1;
             while ( *rdesc == ' ' )
                 rdesc++;
@@ -642,18 +635,17 @@ char *format_string( char *oldstring /*, bool fSpace */  )
             bug( "No spaces", 0 );
             *( rdesc + 75 ) = 0;
             strcat( xbuf, rdesc );
-            strcat( xbuf, "-\n\r" );
+            strcat( xbuf, "-\n" );
             rdesc += 76;
         }
     }
     while ( *( rdesc + i ) && ( *( rdesc + i ) == ' ' ||
-                                *( rdesc + i ) == '\n' ||
-                                *( rdesc + i ) == '\r' ) )
+                                *( rdesc + i ) == '\n' ) )
         i--;
     *( rdesc + i + 1 ) = 0;
     strcat( xbuf, rdesc );
-    if ( xbuf[strlen( xbuf ) - 2] != '\n' )
-        strcat( xbuf, "\n\r" );
+    if ( xbuf[strlen( xbuf ) - 1] != '\n' )
+        strcat( xbuf, "\n" );
 
     free_string( &oldstring );
     return ( str_dup( xbuf ) );
@@ -800,23 +792,22 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
              * because you could condense two rows down to one in the case of
              * \n\n
              */
-            if ( ( *string == '\n' && *( string + 1 ) == '\r' )
-                 || ( *string == '\r' && *( string + 1 ) == '\n' ) )
-                string += 2;
+            if ( *string == '\n' )
+                string += 1;
             else
                 string++;
 
             if ( *string == '\0' )
                 break;
 
-            sprintf( ptr, "\n\r%2d ", line++ );
-            ptr += 5;
+            sprintf( ptr, "\n%2d ", line++ );
+            ptr += 4;
         }
 
         *ptr++ = *string;
     }
 
-    sprintf( ptr, "\n\r" );
+    sprintf( ptr, "\n" );
     send_to_char( newstring, ch );
     return;
 }
