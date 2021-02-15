@@ -1145,9 +1145,9 @@ unknown~
 C C C ABC 0
 12 19 120 P
 A
-18 2
-A
 1 1
+A
+18 2
 #1315
 chest~
 a chest~
@@ -1173,9 +1173,9 @@ unknown~
 A C C AB 0
 12 8 120 P
 A
-18 1
-A
 19 2
+A
+18 1
 #1318
 dagger silver~
 a silver dagger~
@@ -1185,9 +1185,9 @@ unknown~
 B C C ABD 0
 12 5 120 P
 A
-18 2
-A
 19 2
+A
+18 2
 #1319
 scimitar~
 a curved scimitar~
@@ -1327,9 +1327,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-3 1
-A
 4 1
+A
+3 1
 #1336
 altar~
 a golden altar~
@@ -1347,9 +1347,9 @@ unknown~
 CD CD CD 0 0
 48 3 480 P
 A
-4 2
-A
 5 -1
+A
+4 2
 #1338
 chest~
 a large chest~
@@ -1385,9 +1385,9 @@ unknown~
 CD CD CD 0 0
 48 5 480 P
 A
-17 -5
-A
 24 -3
+A
+17 -5
 #1342
 chameleon poncho~
 a chameleon poncho~
@@ -1397,9 +1397,9 @@ unknown~
 CD CD CD 0 0
 48 4 480 P
 A
-2 2
-A
 17 -3
+A
+2 2
 #1343
 boots worn~
 a pair of old boots~
@@ -1459,9 +1459,9 @@ unknown~
 0 0 0 0 0
 16 15 160 P
 A
-12 -100
-A
 14 -82
+A
+12 -100
 #1357
 dagger silvery~
 a silvery dagger~
@@ -1653,9 +1653,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-17 -8
-A
 24 -3
+A
+17 -8
 #1380
 wand ashen~
 an ashen wand~
@@ -1681,9 +1681,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 24 8 240 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1383
 cloak grey~
 a long grey cloak~
@@ -1693,9 +1693,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1384
 bracelet silver~
 a glinting silver bracelet~
@@ -1735,9 +1735,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 8 200 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1388
 bracelet onyx~
 an onyx bracelet~
@@ -1757,9 +1757,9 @@ unknown~
 D D D 0 0
 29 8 290 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1390
 shard black obsidian~
 a sharp shard of obsidian~
@@ -1779,9 +1779,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 7 200 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1392
 bracelet white gold~
 a white gold bracelet~
@@ -1801,9 +1801,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1394
 ivory dagger~
 an ivory hilted dagger~
@@ -1813,9 +1813,9 @@ unknown~
 B AC ABC ABD 0
 30 8 300 P
 A
-18 1
-A
 19 2
+A
+18 1
 #1395
 collar spiked~
 a spiked collar~
@@ -1825,9 +1825,9 @@ unknown~
 D D D 0 0
 26 9 260 P
 A
-17 -2
-A
 19 3
+A
+17 -2
 #1396
 cloak shimmering~
 a shimmering cloak of many colors~
@@ -1837,9 +1837,9 @@ unknown~
 CFG 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 0 8 0 P
 A
-17 -15
-A
 24 -5
+A
+17 -15
 #1397
 emerald ring~
 a small emerald ring~
@@ -1859,9 +1859,9 @@ unknown~
 ACD ACD ACD 0 0
 50 5 500 P
 A
-17 -5
-A
 3 1
+A
+17 -5
 #1399
 ward major clear crystal~
 a ward major~
@@ -1871,9 +1871,9 @@ unknown~
 ACD ACD ACD 0 0
 50 6 500 P
 A
-17 -10
-A
 24 -2
+A
+17 -10
 #1400
 ebony kris~
 the ebony kris~
@@ -1883,9 +1883,9 @@ unknown~
 B AC ABD ABD 0
 50 9 500 P
 A
-2 2
-A
 19 5
+A
+2 2
 #1401
 green scale shirt~
 a tight fitting green dragon scale shirt~
@@ -1895,9 +1895,9 @@ unknown~
 ACD ACD ACD 0 0
 50 9 500 P
 A
-2 3
-A
 17 -5
+A
+2 3
 E
 green scale shirt~
 Green dragon scale shirt was made from a poor unfortunate green dragon.
@@ -1982,26 +1982,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1303
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1307
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1302
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1307
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1304
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1303
 S
 #1302
 The Shadow Grove~
@@ -2011,11 +2011,11 @@ sounds moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D3
+D2
 The shadows cloud your vision.
 ~
 ~
-0 -1 1301
+0 -1 1305
 D1
 The shadows cloud your vision.
 ~
@@ -2026,11 +2026,11 @@ You see a small clearing in the shadows.
 ~
 ~
 0 -1 1311
-D2
+D3
 The shadows cloud your vision.
 ~
 ~
-0 -1 1305
+0 -1 1301
 S
 #1303
 The Shadow Grove~
@@ -2040,26 +2040,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1309
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1306
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1301
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1306
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1309
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1302
 S
 #1304
 The Shadow Grove~
@@ -2098,26 +2098,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1306
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1308
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1304
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1302
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1304
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1306
 S
 #1306
 The Shadow Grove~
@@ -2127,26 +2127,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-You see a shadowy tavern.
-~
-~
-0 -1 9301
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1303
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1305
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1303
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1309
+D1
+You see a shadowy tavern.
+~
+~
+0 -1 9301
 S
 #1307
 The Shadow Grove~
@@ -2156,11 +2156,6 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1301
 D3
 The shadows cloud your vision.
 ~
@@ -2171,6 +2166,11 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1308
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 D0
 The shadows cloud your vision.
 ~
@@ -2185,16 +2185,6 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1309
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1307
 D2
 The shadows cloud your vision.
 ~
@@ -2205,6 +2195,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1305
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1307
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 S
 #1309
 The Shadow Grove~
@@ -2214,26 +2214,26 @@ sounds of moaning and growling come from all directions.
   All directions lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1307
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1306
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1308
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1303
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1306
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1307
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1308
 S
 #1311
 A small clearing~
@@ -3623,26 +3623,26 @@ Nice going! You might as well wait here until the wizard who built this
 trap comes back to imprison your soul as well as your body.
 ~
 0 8200 0
-D5
-(null)~
-~
-0 0 3460
-D4
-(null)~
-~
-0 0 938
-D2
-(null)~
-~
-0 0 9141
 D3
 (null)~
 ~
 0 0 7428
+D2
+(null)~
+~
+0 0 9141
+D5
+(null)~
+~
+0 0 3460
 D1
 (null)~
 ~
 0 0 5113
+D4
+(null)~
+~
+0 0 938
 S
 #1393
 A hallway~
@@ -5340,10 +5340,10 @@ G 0 1352 0 A waybread is given to Strick the bartender
 M 0 1304 0 1319 Load a mage
 M 0 1306 0 1319 Load Tatorious
 O 0 1301 0 1320 An oven loaded to the kitchen
-P 0 1304 0 1301 A slice of pizza put inside a slice of pizza
+P 0 1304 0 1301 A slice of pizza put inside an oven
 O 0 1302 0 1320 A meat locker loaded to the kitchen
-P 0 1305 0 1302 A large chunk of meat put inside a large chunk of meat
-P 0 1306 0 1302 A finger sandwich put inside a finger sandwich
+P 0 1305 0 1302 A large chunk of meat put inside a meat locker
+P 0 1306 0 1302 A finger sandwich put inside a meat locker
 M 0 1307 0 1320 Load Ezmerelda
 E 0 1355 0 16 A meat cleaver is loaded wielded of Ezmerelda
 M 0 1308 0 1320 Load the cook's assistant
@@ -5414,20 +5414,20 @@ O 0 1312 0 1379 A bar of mithril loaded to A store room
 O 0 1313 0 1379 A bar of adamantite loaded to A store room
 O 0 1314 0 1381 A mithril hammer loaded to A very hot room
 O 0 1315 0 1382 A chest loaded to The master Enchanter's chamber
-P 0 1317 0 1315 A long sword put inside a long sword
-P 0 1318 0 1315 A silver dagger put inside a silver dagger
-P 0 1319 0 1315 A curved scimitar put inside a curved scimitar
+P 0 1317 0 1315 A long sword put inside a chest
+P 0 1318 0 1315 A silver dagger put inside a chest
+P 0 1319 0 1315 A curved scimitar put inside a chest
 M 0 1334 0 1382 Load the Enchanter
 E 0 1316 0 17 A small key is loaded held in the hands of the Enchanter
 G 0 1363 0 A scroll written on blue paper is given to the Enchanter
 M 0 1335 0 1382 Load a dancing sword
 M 0 1336 0 1388 Load the Mad Alchemist
 E 0 1364 0 17 A leather pouch is loaded held in the hands of the Mad Alchemist
-P 0 1365 0 1364 A silver stirring spoon put inside a silver stirring spoon
-P 0 1367 0 1364 A bright red potion put inside a bright red potion
-P 0 1368 0 1364 A green potion put inside a green potion
-P 0 1369 0 1364 An efervecent potion put inside an efervecent potion
-P 0 1370 0 1364 A milky white potion put inside a milky white potion
+P 0 1365 0 1364 A silver stirring spoon put inside a leather pouch
+P 0 1367 0 1364 A bright red potion put inside a leather pouch
+P 0 1368 0 1364 A green potion put inside a leather pouch
+P 0 1369 0 1364 An efervecent potion put inside a leather pouch
+P 0 1370 0 1364 A milky white potion put inside a leather pouch
 M 0 1337 0 1390 Load the master summoner
 E 0 1371 0 17 A black staff is loaded held in the hands of the master summoner
 R 0 1392 6 Randomize Inside the Energy Field
@@ -5441,14 +5441,14 @@ O 0 1320 0 1401 A wooden staff loaded to A store room
 M 0 1340 0 1402 Load the master spell binder
 E 0 1325 0 17 A silvery key is loaded held in the hands of the master spell binder
 E 0 1374 0 13 A holstered belt is loaded around the waist of the master spell binder
-P 0 1375 0 1374 A blackened wand put inside a blackened wand
+P 0 1375 0 1374 A blackened wand put inside a holstered belt
 O 0 1321 0 1403 A silver chased cabinet loaded to The spellbinder's cache
-P 0 1326 0 1321 A red and white staff put inside a red and white staff
-P 0 1327 0 1321 A burnt staff put inside a burnt staff
+P 0 1326 0 1321 A red and white staff put inside a silver chased cabinet
+P 0 1327 0 1321 A burnt staff put inside a silver chased cabinet
 O 0 1322 0 1403 A silver chased cabinet loaded to The spellbinder's cache
-P 0 1328 0 1322 A black rod put inside a black rod
-P 0 1329 0 1322 A wooden stick put inside a wooden stick
-P 0 1330 0 1322 A metal wand put inside a metal wand
+P 0 1328 0 1322 A black rod put inside a silver chased cabinet
+P 0 1329 0 1322 A wooden stick put inside a silver chased cabinet
+P 0 1330 0 1322 A metal wand put inside a silver chased cabinet
 M 0 1341 0 1409 Load the golem maker
 E 0 1376 0 17 A runed chisel is loaded held in the hands of the golem maker
 M 0 1342 0 1409 Load a granite golem
@@ -5459,7 +5459,7 @@ M 0 1346 0 1411 Load an adamantite golem
 M 0 1347 0 1411 Load a clay golem
 M 0 1348 0 1417 Load the master of illusions
 E 0 1377 0 13 A beltpouch is loaded around the waist of the master of illusions
-P 0 1378 0 1377 Some sparkling dust put inside some sparkling dust
+P 0 1378 0 1377 Some sparkling dust put inside a beltpouch
 M 0 1349 0 1425 Load the Necromancer
 E 0 1379 0 3 A dark cowl is loaded around the neck (1) of the Necromancer
 E 0 1380 0 17 An ashen wand is loaded held in the hands of the Necromancer
@@ -5475,11 +5475,11 @@ M 0 1352 0 1435 Load an ugly witch
 M 0 1352 0 1435 Load an ugly witch
 M 0 1352 0 1435 Load an ugly witch
 O 0 1331 0 1435 A black cauldron loaded to The scrying chamber
-P 0 1332 0 1331 A small pair of bat wings put inside a small pair of bat wings
-P 0 1333 0 1331 An eyeball put inside an eyeball
+P 0 1332 0 1331 A small pair of bat wings put inside a black cauldron
+P 0 1333 0 1331 An eyeball put inside a black cauldron
 M 0 1353 0 1437 Load the Librarian
 O 0 1334 0 1445 The book of magic loaded to The reading room
-P 0 1335 0 1334 A pair of spectacles put inside a pair of spectacles
+P 0 1335 0 1334 A pair of spectacles put inside the book of magic
 M 0 1313 0 1449 Load a pair of disembodied eyes
 M 0 1354 0 1453 Load the master's apprentice
 E 0 1382 0 12 A grey robe is loaded about the shoulders of the master's apprentice
@@ -5518,17 +5518,17 @@ E 0 1399 0 17 A ward major is loaded held in the hands of the Grand Mistress
 E 0 1400 0 16 The ebony kris is loaded wielded of the Grand Mistress
 G 0 1339 0 An intricately carved key is given to the Grand Mistress
 O 0 1336 0 1480 A golden altar loaded to The altar
-P 0 1337 0 1336 A heart shaped medallion put inside a heart shaped medallion
+P 0 1337 0 1336 A heart shaped medallion put inside a golden altar
 O 0 1338 0 1481 A large chest loaded to The treasury
-P 0 1340 0 1338 A pile of coins is here put inside a pile of coins is here
+P 0 1340 0 1338 A pile of coins is here put inside a large chest
 O 0 1341 0 1482 A brown cloak loaded to A passage
 O 0 1342 0 1482 A chameleon poncho loaded to A passage
 O 0 1343 0 1482 A pair of old boots loaded to A passage
 O 0 1345 0 1482 A leather backpack loaded to A passage
-P 0 1344 0 1345 A seashell ring put inside a seashell ring
+P 0 1344 0 1345 A seashell ring put inside a leather backpack
 O 0 1402 0 1499 A fridge loaded to Skylar's Hideout
-P 0 1403 0 1402 A bottle of absolut vodka put inside a bottle of Absolut vodka
-P 0 1404 0 1402 A bottle of cranberry juice put inside a bottle of cranberry juice
+P 0 1403 0 1402 A bottle of absolut vodka put inside a fridge
+P 0 1404 0 1402 A bottle of cranberry juice put inside a fridge
 S
 
 

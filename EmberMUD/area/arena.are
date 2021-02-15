@@ -226,11 +226,11 @@ unknown~
 B B B A 0
 3 10 0 P
 A
-4 1
+19 1
 A
 3 1
 A
-19 1
+4 1
 #13404
 playtesters plate mail~
 playtester's plate mail~
@@ -240,11 +240,11 @@ unknown~
 C C C B 0
 5 12 20 P
 A
-13 10
+19 2
 A
 18 2
 A
-19 2
+13 10
 #13405
 playtesters boots~
 playtester's boots~
@@ -254,9 +254,9 @@ unknown~
 B B B A 0
 2 6 5 P
 A
-2 2
-A
 14 30
+A
+2 2
 #13406
 playtesters cloak~
 a playtester's cloak~
@@ -266,9 +266,9 @@ unknown~
 B AB B A 0
 3 6 25 P
 A
-12 10
-A
 18 1
+A
+12 10
 #13407
 playtesters leggings~
 playtester's leggings~
@@ -278,9 +278,9 @@ unknown~
 AB B AB A 0
 4 4 20 P
 A
-14 25
-A
 2 1
+A
+14 25
 #13408
 playtesters gloves~
 a pair of playtest gloves~
@@ -290,9 +290,9 @@ unknown~
 B B B A 0
 3 3 30 P
 A
-1 1
-A
 18 1
+A
+1 1
 #13409
 playtester's mace~
 a playtester's mace~
@@ -302,9 +302,9 @@ unknown~
 C B BC D 0
 2 9 30 P
 A
-18 1
-A
 4 1
+A
+18 1
 #13410
 playtesters dagger~
 a playtester's dagger~
@@ -314,11 +314,11 @@ unknown~
 B B BC B 0
 2 7 25 P
 A
-3 1
+18 1
 A
 2 1
 A
-18 1
+3 1
 #13411
 silver playtesters sword~
 a silver playtester's sword~
@@ -328,9 +328,9 @@ unknown~
 A C AC AB 0
 8 11 100 P
 A
-19 1
-A
 18 3
+A
+19 1
 #13412
 playtesters light source~
 a playtester's infinite light source~
@@ -340,9 +340,9 @@ unknown~
 0 0 999 0 0
 5 10 20 P
 A
-18 1
-A
 19 1
+A
+18 1
 #13413
 playtesters mana ring~
 a playtester's mana ring~
@@ -404,11 +404,11 @@ unknown~
 AB AB AB B 0
 6 4 100 P
 A
-5 2
+19 1
 A
 18 1
 A
-19 1
+5 2
 #13420
 playtesters shield~
 a playtester's shield~
@@ -436,9 +436,9 @@ unknown~
 C C C C 0
 9 4 100 P
 A
-19 1
-A
 18 2
+A
+19 1
 #13423
 playtesters sleeves~
 playtester's sleeves~
@@ -448,9 +448,9 @@ unknown~
 C C C B 0
 8 4 75 P
 A
-18 1
-A
 1 2
+A
+18 1
 #13424
 silver playtesters mace~
 a silver playtester's mace~
@@ -460,9 +460,9 @@ unknown~
 C C AC ABC 0
 8 8 100 P
 A
-18 2
-A
 4 1
+A
+18 2
 #13425
 playtesters silver dagger~
 a silver playtester's dagger~
@@ -1369,7 +1369,7 @@ E 0 13419 0 13 Playtester's belt is loaded around the waist of an old, wise mob
 M 0 13408 0 13412 Load a sneaky guard mob
 G 0 13416 0 A supply key is given to a sneaky guard mob
 O 0 13417 0 13412 A supply crate loaded to Back of the hideout
-P 0 13418 0 13417 Some playtester's survival rations put inside some playtester's survival rations
+P 0 13418 0 13417 Some playtester's survival rations put inside a supply crate
 M 0 13409 4 13413 Load an old, wise mob
 E 0 13420 0 11 A playtester's shield is loaded as a shield of an old, wise mob
 M 0 13404 5 13414 Load an average mob

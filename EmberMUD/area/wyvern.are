@@ -470,9 +470,9 @@ unknown~
 A AB AC AB 0
 9 12 90 P
 A
-19 1
-A
 18 1
+A
+19 1
 #1606
 rod might~
 the rod of might~
@@ -482,9 +482,9 @@ unknown~
 C AC C BC 0
 16 13 160 P
 A
-1 1
-A
 18 2
+A
+1 1
 #1612
 black kite shield~
 a black kite shield~
@@ -527,9 +527,9 @@ unknown~
 ABC ABC ABC 0 0
 20 2 200 P
 A
-12 5
-A
 17 -6
+A
+12 5
 #1621
 dark red potion~
 a dark red potion~
@@ -620,9 +620,9 @@ unknown~
 A A ABC AB 0
 0 10 0 P
 A
-19 3
-A
 18 3
+A
+19 3
 #1711
 fur cap~
 a fur cap~
@@ -1721,7 +1721,7 @@ M 0 1614 0 1643 Load the black pudding
 R 0 1644 0 Randomize It's too dark to see anything!
 M 0 1608 4 1644 Load a shadow
 O 0 1651 0 1645 A bronze chest loaded to The Armory
-P 0 1603 0 1651 A long elven dagger put inside a long elven dagger
+P 0 1603 0 1651 A long elven dagger put inside a bronze chest
 M 0 1610 0 1645 Load a burly minotaur
 M 0 1610 0 1645 Load a burly minotaur
 M 0 1613 0 1646 Load the captain

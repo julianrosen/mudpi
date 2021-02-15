@@ -1785,7 +1785,7 @@ void do_exits( CHAR_DATA * ch, char *argument )
     if ( !check_blind( ch ) )
         return;
 
-    strcpy( buf, fAuto ? "[Exits:" : "Obvious exits:\n\r" );
+    strcpy( buf, fAuto ? "(Exits:" : "Obvious exits:\n\r" );
 
     found = FALSE;
     for ( door = 0; door <= 5; door++ )
@@ -1793,21 +1793,38 @@ void do_exits( CHAR_DATA * ch, char *argument )
         if ( ( pexit = ch->in_room->exit[door] ) != NULL
              && pexit->u1.to_room != NULL
              && can_see_room( ch, pexit->u1.to_room )
-             && !IS_SET( pexit->exit_info, EX_CLOSED )
              && !IS_SET( pexit->exit_info, EX_HIDDEN ) )
         {
             found = TRUE;
             if ( fAuto )
             {
-                strcat( buf, " " );
-                strcat( buf, dir_name[door] );
+                if ( !IS_SET( pexit->exit_info, EX_CLOSED ) ) // JR: closed doors now show up on list
+                {
+                    strcat( buf, " " );
+                    strcat( buf, dir_name[door] );
+                }
+                else
+                {
+                    strcat( buf, " [" );
+                    strcat( buf, dir_name[door] );
+                    strcat( buf, "]");
+                }
             }
             else
             {
+                if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+                {
                 sprintf( buf + strlen( buf ), "%-5s - %s\n\r",
                          capitalize( dir_name[door] ),
                          room_is_dark( pexit->u1.to_room )
                          ? "Too dark to tell" : pexit->u1.to_room->name );
+                }
+                else
+                {
+                    sprintf( buf + strlen( buf ), "%-5s - [%s]\n\r",
+                         capitalize( dir_name[door] ),
+                            strcmp(pexit->keyword,"(null)")&&pexit->keyword[0]!='\0'?pexit->keyword:"door" );
+                }
             }
         }
     }
@@ -1816,7 +1833,7 @@ void do_exits( CHAR_DATA * ch, char *argument )
         strcat( buf, fAuto ? " none" : "None.\n\r" );
 
     if ( fAuto )
-        strcat( buf, "]\n\r" );
+        strcat( buf, ")\n\r" );
 
     send_to_char( buf, ch );
     return;

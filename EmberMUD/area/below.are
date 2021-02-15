@@ -388,9 +388,9 @@ unknown~
 A BC C AB DE
 18 0 3000 P
 A
-19 4
-A
 18 -2
+A
+19 4
 #20904
 trunk container~
 a trunk~
@@ -448,11 +448,11 @@ unknown~
 AB C ABC ABD C
 20 3 2500 P
 A
-19 3
+2 2
 A
 18 3
 A
-2 2
+19 3
 #20911
 medusa's hair armor-head~
 medusa's Hair~
@@ -462,11 +462,11 @@ unknown~
 AC AC AC AC 0
 18 10 2000 P
 A
-5 -2
+3 2
 A
 1 1
 A
-3 2
+5 -2
 #20912
 trapdoor key~
 trap door key~
@@ -540,11 +540,11 @@ unknown~
 ADE B B 15 0
 25 2 2500 P
 A
-12 -65
+1 -1
 A
 13 50
 A
-1 -1
+12 -65
 #20921
 invisibility potion potion-defend~
 an invis potion~
@@ -562,13 +562,13 @@ unknown~
 AC AD BC ADE F
 33 15 4000 P
 A
-1 2
-A
-5 1
+4 -3
 A
 2 -3
 A
-4 -3
+5 1
+A
+1 2
 #20923
 trapdoor key~
 a trapdoor key~
@@ -1409,7 +1409,7 @@ G 0 20902 0 A large pike is given to Al, the fish guy
 G 0 20903 0 A swordfish is given to Al, the fish guy
 M 0 20901 0 20903 Load Tom the general store owner
 O 0 20916 0 20905 A well loaded to Village Square
-P 0 20924 0 1 A secret door key put inside a secret door key
+P 0 20924 0 1 A secret door key put inside a dummy object
 M 0 20902 3 20907 Load a rich customer
 M 0 20903 2 20907 Load a serving girl
 M 0 20903 0 20907 Load a serving girl
@@ -1417,7 +1417,7 @@ M 0 20904 0 20907 Load a musician
 M 0 20905 0 20909 Load a naked woman
 O 0 20904 0 20911 A trunk loaded to The Seceret Room
 O 0 20904 0 20911 A trunk loaded to The Seceret Room
-P 0 20905 0 20904 Voodoo dagger put inside vOoDoO DaGgEr
+P 0 20905 0 20904 Voodoo dagger put inside a trunk
 M 0 20905 0 20912 Load a naked woman
 M 0 20906 0 20912 Load the trainer
 M 0 20906 0 20913 Load the trainer
@@ -1447,7 +1447,7 @@ M 0 20918 10 20925 Load a giant ant
 M 0 20918 10 20932 Load a giant ant
 O 0 20917 0 20934 A trunk loaded to The Treasury
 O 0 20919 0 20934 A huge hunk of gold loaded to The Treasury
-P 0 20920 0 20917 An idol of a talkin put inside an idol of a Talkin
+P 0 20920 0 20917 An idol of a talkin put inside a trunk
 M 0 20918 10 20935 Load a giant ant
 M 0 20918 10 20938 Load a giant ant
 M 0 20918 10 20939 Load a giant ant

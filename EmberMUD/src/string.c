@@ -249,7 +249,7 @@ void string_append( CHAR_DATA * ch, char **pString )
     send_to_char( "    Type .h on a new line for help\n\r", ch );
     send_to_char( " Terminate with a ~ or @ on a blank line.\n\r", ch );
     send_to_char( "-=======================================-\n\r", ch );
-
+    printf("string_append start\n");
     if ( *pString == NULL )
     {
         *pString = str_dup( "" );
@@ -260,6 +260,7 @@ void string_append( CHAR_DATA * ch, char **pString )
         send_to_char( "\n", ch );
 
     ch->desc->pString = pString;
+    printf("string_append finish\n");
 
     return;
 }
@@ -787,13 +788,15 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
     {
         if ( *string == '\n' || *string == '\r' )
         {
+
             /*
              * Allow for both \n\r and \r\n and \n. Don't expect two chars
              * because you could condense two rows down to one in the case of
              * \n\n
              */
-            if ( *string == '\n' )
-                string += 1;
+            if ( ( *string == '\n' && *( string + 1 ) == '\r' )
+                 || ( *string == '\r' && *( string + 1 ) == '\n' ) )
+                 string += 2;
             else
                 string++;
 

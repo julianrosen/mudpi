@@ -1832,42 +1832,69 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
             if ( *(gatsby_head+1) == '\n' )
                 break;
         }
-    return TRUE;
+    return;
 }
 
 
 
 void do_mpcycle( CHAR_DATA *ch, char *argument )
 {
-    static char cyclelist[MAX_INPUT_LENGTH][20];
-    static char *head[20],*todo;
+    /*
+    First three characters of argument are a tag, fourth character should be ; (ignored).
+    Remaining portion is a list of commands, separated with ; and :
+    ; followed by four-second pause, : has no pause.
+    This behaves in a funny manner if progs are edited live, probably need to reboot after
+    */
+    static int numcycles=0;
+    static char *cyclelist[1024],*head[1024],*taglist[1024],*todo;
+    char tag[4];
     char buf[MAX_INPUT_LENGTH];
     int index,n;
     bool done;
     
-    if ( argument[0] == '\0' )
-        return;
-    for (index=0;index<20;index++)
-        if (!strcmp( cyclelist[index], argument ) )
-            break;
-    if ( index == 20 )
+    if ( !IS_NPC( ch ) )
     {
-        for (index=0;index<20;index++)
-        {
-            if (cyclelist[index][0] == '\0')
-            {
-                strcpy( cyclelist[index], argument );
-                head[index] = cyclelist[index];
-                break;
-            }
-        }
-        if ( index == 20 )
+        command_not_found( ch );
+        return;
+    }
+    
+    if ( ch->position == POS_FIGHTING )
+        return;
+    
+    if ( strlen(argument) < 5 )
+        return;
+    strncpy( tag, argument, 3);
+    tag[3] = '\0';
+    printf("tag: %s\n",tag);
+    argument += 4;
+    for (index=0;index<numcycles;index++)
+        if (!strcmp( tag, taglist[index] ) )
+            break;
+    if ( index == numcycles )
+    {
+        printf("new cycle\n");
+        if (numcycles == 1024)
         {
             printf("Ran out of space\n");
             return;
         }
+        cyclelist[index] = strdup( argument );
+        taglist[index] = strdup(tag);
+        head[index] = cyclelist[index];
+        numcycles++;
     }
-    
+    else
+    {
+        if ( strcmp(argument,cyclelist[index]) )
+        {
+            // This should not happen
+            printf("Unexpected: same tag but different text\n");
+            free(cyclelist[index]);
+            cyclelist[index] = strdup( argument );
+            head[index] = cyclelist[index];
+        }
+    }
+    printf("tag, index: %s, %i\n",tag,index);
     strcpy( buf, head[index] );
     todo = buf;
     done = FALSE;

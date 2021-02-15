@@ -337,9 +337,9 @@ unknown~
 ABC AB AC AC 0
 10 8 100 P
 A
-18 1
-A
 19 2
+A
+18 1
 E
 tickler~
 A horrid black mass of gooey tentacles obviously ripped from the corpse
@@ -405,9 +405,9 @@ unknown~
 0 0 0 0 0
 16 2 160 P
 A
-14 10
-A
 24 1
+A
+14 10
 E
 black marble ring~
 It is pitch black and has beautiful swirls characteristic of marble all
@@ -422,9 +422,9 @@ unknown~
 A AC C ABD 0
 16 4 160 P
 A
-2 2
-A
 18 1
+A
+2 2
 E
 thin rapier~
 It seems so thin that it would be useless but at the same time it looks deadly.
@@ -596,9 +596,9 @@ unknown~
 D D D 0 0
 28 10 280 P
 A
-13 10
-A
 17 10
+A
+13 10
 E
 dark black cape~
 The cape is gently flows and pulls in the light so evenly and perfectly
@@ -656,12 +656,12 @@ do not let much light through. A few rows of worn wooden benches stand here.
 ~
 0 0 1
 E
-glass windows~
-The windows must be meant to be dark. At least they are completely clean.
-~
-E
 benches rows~
 The benches are not of the comfortable kind.
+~
+E
+glass windows~
+The windows must be meant to be dark. At least they are completely clean.
 ~
 D0
 The chapel door is made of dark wood.
@@ -736,13 +736,13 @@ blood stains, but their color seems a little wrong.
 ~
 0 9 0
 E
-stain stains~
-That's odd ... they seem a little GREEN.
-~
-E
 door writing~
 Above the door is some strange writing! It is worn with age, but it refers
 to an ancient ruler named 'Shohan'.
+~
+E
+stain stains~
+That's odd ... they seem a little GREEN.
 ~
 D1
 (null)~
@@ -805,14 +805,14 @@ D1
 (null)~
 ~
 0 0 3420
-D3
-(null)~
-~
-0 0 3410
 D2
 (null)~
 ~
 0 0 3416
+D3
+(null)~
+~
+0 0 3410
 S
 #3416
 Entrance to the Lower Chambers~
@@ -859,13 +859,6 @@ leading down. The Ghost of Cristis the Kind stands here.
 ~
 0 9 0
 E
-altar~
-It stands 2 feet high with the remnants of candle-wax on top. There is
-an inscription on the side:  'Praise the almighty Cristis the bringer of
-good and justice to the world. He who fought the evilest finally is at
-peace. May the Gods remember him forever ...'
-~
-E
 ghost cristis~
 His rest has been disturbed by evil creatures who have invaded his domain
 and grave. He holds up a parchment for you to read:
@@ -879,6 +872,13 @@ and grave. He holds up a parchment for you to read:
      Roch'tar, the reincarnate Vampire, now rules these tombs.
    You must find and defeat him and his minions!
      May God bless you on your Quest!
+~
+E
+altar~
+It stands 2 feet high with the remnants of candle-wax on top. There is
+an inscription on the side:  'Praise the almighty Cristis the bringer of
+good and justice to the world. He who fought the evilest finally is at
+peace. May the Gods remember him forever ...'
 ~
 D2
 (null)~
@@ -928,10 +928,23 @@ doors lead off to the south and a large stone staircase leads up.
 ~
 0 9 0
 E
-stone door trapdoor~
-It's rather small and looks quite heavy but maybe with some kind of leverage
-you could move it. It has a queerly shaped hole that looks big enough
-for an equally queerly shaped pole to fit inside. If only you had it!
+letters graffiti~
+'Beware here all of man, because past here lies only death.'
+
+    Insho'rkthon brsskra-lehsn Roch'tar
+
+Beneath, there are two criss-crossing scratchmarks in an X formation that
+look like someone (or something) raked their claws across the wood.
+~
+E
+oak~
+They're HUGE! They are at least 12 feet tall and about 10 feet wide.
+If not for one thing they would be perfectly preserved. There appears
+to be some letters crudely scratched into the wood.
+~
+E
+staircase stairs~
+Though quite cracked they do look very stable.
 ~
 E
 tapestry tapestries~
@@ -941,23 +954,10 @@ Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
 course).
 ~
 E
-staircase stairs~
-Though quite cracked they do look very stable.
-~
-E
-oak~
-They're HUGE! They are at least 12 feet tall and about 10 feet wide.
-If not for one thing they would be perfectly preserved. There appears
-to be some letters crudely scratched into the wood.
-~
-E
-letters graffiti~
-'Beware here all of man, because past here lies only death.'
-
-    Insho'rkthon brsskra-lehsn Roch'tar
-
-Beneath, there are two criss-crossing scratchmarks in an X formation that
-look like someone (or something) raked their claws across the wood.
+stone door trapdoor~
+It's rather small and looks quite heavy but maybe with some kind of leverage
+you could move it. It has a queerly shaped hole that looks big enough
+for an equally queerly shaped pole to fit inside. If only you had it!
 ~
 D2
 Finely polished oak doors stand to the south.
@@ -1036,14 +1036,14 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D3
-(null)~
-~
-0 0 3420
 D2
 (null)~
 ~
 0 0 3426
+D3
+(null)~
+~
+0 0 3420
 S
 #3426
 The Lower Chambers and Tombs of the Undead~
@@ -1121,6 +1121,10 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D1
+(null)~
+~
+0 0 3435
 D2
 (null)~
 ~
@@ -1129,24 +1133,20 @@ D3
 (null)~
 ~
 0 0 3426
-D1
-(null)~
-~
-0 0 3435
 S
 #3431
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D0
-(null)~
-~
-0 0 3430
 D1
 (null)~
 ~
 0 0 3436
+D0
+(null)~
+~
+0 0 3430
 S
 #3432
 The Grand Hall of Kings~
@@ -1194,6 +1194,10 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D1
+(null)~
+~
+0 0 3440
 D3
 (null)~
 ~
@@ -1202,24 +1206,20 @@ D2
 (null)~
 ~
 0 0 3436
-D1
-(null)~
-~
-0 0 3440
 S
 #3436
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3441
 D0
 (null)~
 ~
 0 0 3435
+D1
+(null)~
+~
+0 0 3441
 D3
 (null)~
 ~
@@ -1277,10 +1277,6 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3445
 D3
 (null)~
 ~
@@ -1289,52 +1285,56 @@ D2
 (null)~
 ~
 0 0 3441
+D1
+(null)~
+~
+0 0 3445
 S
 #3441
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3446
-D0
-(null)~
-~
-0 0 3440
 D3
 (null)~
 ~
 0 0 3436
+D0
+(null)~
+~
+0 0 3440
+D1
+(null)~
+~
+0 0 3446
 S
 #3442
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D1
-(null)~
-~
-0 0 3447
 D2
 (null)~
 ~
 0 0 3443
+D1
+(null)~
+~
+0 0 3447
 S
 #3443
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
-D2
-(null)~
-~
-0 0 3444
 D0
 (null)~
 ~
 0 0 3442
+D2
+(null)~
+~
+0 0 3444
 S
 #3444
 The Lower Chambers and Tombs of the Undead~
@@ -1373,20 +1373,24 @@ D3
 (null)~
 ~
 0 0 3441
-D2
-(null)~
-~
-0 0 3447
 D0
 (null)~
 ~
 0 0 3445
+D2
+(null)~
+~
+0 0 3447
 S
 #3447
 The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 8201 0
+D2
+(null)~
+~
+0 0 3448
 D3
 (null)~
 ~
@@ -1395,10 +1399,6 @@ D0
 (null)~
 ~
 0 0 3446
-D2
-(null)~
-~
-0 0 3448
 S
 #3448
 The Lower Chambers and Tombs of the Undead~
@@ -1423,14 +1423,14 @@ The Lower Chambers and Tombs of the Undead~
 The stench of death is heavy in these caverns.
 ~
 0 9 0
-D3
-(null)~
-~
-0 0 3444
 D1
 (null)~
 door~
 2 3411 3408
+D3
+(null)~
+~
+0 0 3444
 S
 #3450
 Entrance to the Forbidden Catacombs~
@@ -1906,8 +1906,8 @@ R 0 3420 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3412 0 3424 Load the spirit of King Crotus
 E 0 3416 0 17 A heavy iron key is loaded held in the hands of the spirit of King Crotus
 O 0 3415 0 3424 A stone sarcophagus loaded to The Tomb of Crotus
-P 0 3417 0 3415 A wineflask put inside a wineflask
-P 0 3418 0 3415 A mound of coins fit for a dead king put inside a mound of coins fit for a dead king
+P 0 3417 0 3415 A wineflask put inside a stone sarcophagus
+P 0 3418 0 3415 A mound of coins fit for a dead king put inside a stone sarcophagus
 R 0 3425 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3426 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3409 0 3426 Load some cave weeds
@@ -1922,7 +1922,7 @@ G 0 3422 0 A piece of slime is given to the rock slug
 M 0 3411 0 3434 Load the X-ist flesh eater
 E 0 3414 0 16 A whisper thin rapier is loaded wielded of the X-ist flesh eater
 G 0 3412 0 The mummified head of jubal the benevolent is given to the X-ist flesh eater
-P 0 3413 0 3412 A black marble ring put inside a black marble ring
+P 0 3413 0 3412 A black marble ring put inside the mummified head of Jubal the Benevolent
 R 0 3435 4 Randomize The Lower Chambers and Tombs of the Undead
 R 0 3436 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3402 0 3437 Load the ghoul
@@ -1944,7 +1944,7 @@ R 0 3447 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3402 2 3447 Load the ghoul
 M 0 3416 0 3448 Load the half-decomposed body
 O 0 3420 0 3448 A hidden compartment in the room loaded to The Lower Chambers and Tombs of the Undead
-P 0 3410 0 3420 A queerly shaped rod put inside a queerly shaped rod
+P 0 3410 0 3420 A queerly shaped rod put inside a hidden compartment in the room
 R 0 3449 4 Randomize The Lower Chambers and Tombs of the Undead
 M 0 3410 0 3449 Load Snapper Joe
 E 0 3414 0 16 A whisper thin rapier is loaded wielded of Snapper Joe

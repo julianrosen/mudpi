@@ -684,9 +684,9 @@ unknown~
 CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef 0
 35 0 100000 P
 A
-13 30
-A
 5 2
+A
+13 30
 #26899
 glowing ring armor-finger~
 glowing Ring of Power~
@@ -2399,7 +2399,7 @@ E 0 26803 0 2 A ring of staver is loaded on the right finger of Staver
 E 0 26804 0 16 Sword of staver is loaded wielded of Staver
 O 0 26820 0 26820 A large pile of coins  loaded to Staver's Treasure Vault
 O 0 26821 0 26820 Ebony and ivory chest loaded to Staver's Treasure Vault
-P 0 26819 0 26821 Staver's `rb`ru`yr`wn`yi`rn`rg `copal`w put inside staver's `rB`Ru`Yr`Wn`Yi`Rn`rg `COpal`w
+P 0 26819 0 26821 Staver's `rb`ru`yr`wn`yi`rn`rg `copal`w put inside ebony and Ivory Chest
 O 0 23415 0 26820 A pile of gold coins loaded to Staver's Treasure Vault
 M 0 26801 3 26822 Load Cyprite
 M 0 22324 4 26823 Load a small spider
@@ -2420,8 +2420,8 @@ M 0 26818 6 26844 Load a cute Gnome
 M 0 26818 5 26845 Load a cute Gnome
 M 0 26818 0 26845 Load a cute Gnome
 O 0 26850 0 26850 A gleaming fountain of gold and silver loaded to A Tranquil Hallway
-P 0 26897 0 1 A pool of water put inside a Pool of Water
-P 0 26863 0 1 A button mushroom put inside a Button Mushroom
+P 0 26897 0 1 A pool of water put inside a dummy object
+P 0 26863 0 1 A button mushroom put inside a dummy object
 M 0 26817 3 26853 Load an Evil Doer
 M 0 26817 3 26854 Load an Evil Doer
 M 0 26817 3 26855 Load an Evil Doer

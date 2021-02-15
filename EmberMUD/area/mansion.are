@@ -729,13 +729,13 @@ unknown~
 A A A AC 0
 60 10 6000 P
 A
-1 1
-A
-12 30
+19 4
 A
 18 4
 A
-19 4
+12 30
+A
+1 1
 #19109
 The Dining Table~
 an elegant dining table~
@@ -753,9 +753,9 @@ unknown~
 A AC AC ACDE A
 15 4 0 P
 A
-19 2
-A
 18 2
+A
+19 2
 #19111
 rolling pin~
 rolling pin~
@@ -869,9 +869,9 @@ unknown~
 0 0 0 0 0
 5 3 10000 P
 A
-19 1
-A
 4 1
+A
+19 1
 #19127
 pair jnco's jnco jncos~
 a pair of Jnco's~
@@ -889,9 +889,9 @@ unknown~
 0 0 0 AC 0
 20 1 0 P
 A
-4 1
-A
 3 1
+A
+4 1
 #19129
 white t shirt t-shirt~
 a T-Shirt~
@@ -959,9 +959,9 @@ unknown~
 ABC AB AC C 0
 15 0 0 P
 A
-18 1
-A
 19 1
+A
+18 1
 #19149
 corpse of a beastly fido~
 the corpse of a beastly fido~
@@ -971,9 +971,9 @@ unknown~
 0 0 0 0 0
 1 2 1 P
 A
-13 -10
-A
 1 -3
+A
+13 -10
 #19158
 shot whisky~
 a shot of whisky~

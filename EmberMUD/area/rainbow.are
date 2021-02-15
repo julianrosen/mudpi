@@ -14,7 +14,7 @@ Ezra the shopkeeper~
 Ezra stands behind the counter, waiting to help you.
 ~
 You see a middle-aged man with a well-kept beard. A pair of reading glasses sits
-atop his grande nose.
+atop his nose.
  
 ~
 Human~
@@ -49,12 +49,12 @@ One of Ham Harbor's citizens is walking around.
 A non-descript person wearing a yellow and blue shirt.
 ~
 Human~
-A 0 0 S
+AB 0 0 S
 10 10 
 0 0 0 0 50d10+0 0d0+0 6d6+0 0
 0 0 0 0
 0 0 0 0
-8 8 3 0
+8 8 -1 0
 AHMV ABCDEFGHIJK M 0
 #10003
 glinda~
@@ -194,7 +194,7 @@ Nobody would dare misbehave when Sheriff Johnson is around.
 Human~
 ABT HNc 1000 S
 38 2 
-100 0 0 0 15d75+500 33d10+150 5d15+19 3
+100 100 3 A 15d75+500 33d10+150 5d15+19 3
 -13 -13 -13 -2
 0 0 0 0
 8 8 3 1300
@@ -243,9 +243,9 @@ ABT 0 0 S
 8 8 1 700
 AHMV ABCDEFGHIJK M 0
 #10040
-esmerelda's daughter~
-Esmerelda's daughter~
-Here you see Esmerelda's daughter, but Esmerelda is nowhere in sight.
+lila~
+Lila~
+Lila is here, reading a book.
 ~
 (null)~
 Human~
@@ -366,57 +366,57 @@ unknown~
 0 0 0 0 0
 0 0 300 P
 #10013
-key violet~
-the violet key~
-The violet key is sitting on a shelf.~
+jewel violet~
+the violet jewel~
+The violet jewel is sitting on a shelf.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10014
-key red~
-the red key~
-The red key is sitting on the floor.~
+jewel red~
+the red jewel~
+The red jewel is sitting on the floor.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10015
-key orange~
-the orange key~
-Behind a bush, you see the orange key.~
+jewel orange~
+the orange jewel~
+Hidden behind a bush, you see the orange jewel.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10016
-key yellow~
-a yellow key~
-A yellow key is lying here.~
+jewel yellow~
+the yellow jewel~
+A yellow jewel is lying here.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10017
-key green~
-the green key~
-You see the green key beneath a bush.~
+jewel green~
+the green jewel~
+The green jewel glistens in the sun.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10018
-key blue~
-the blue key~
-You see a blue key on the bench.~
+jewel blue~
+the blue jewel~
+You see a blue jewel on the bench.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10019
-key not violet~
-*not* the violet key~
-You see a key that is *not* the violet key.~
+key violet~
+a violet key~
+You see a violet-colored key.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -435,7 +435,7 @@ an old, beaten-up safe~
 Someone has discarded an old safe here.~
 unknown~
 15 D 0
-CFG ABCD ABCDEIKM 0 0
+CFG ABCD CFIJKN 0 0
 0 100 0 P
 #10022
 ivory snuff box~
@@ -464,31 +464,31 @@ A
 A
 13 50
 #10024
-key white~
-a white key~
-A white key is here.~
+jewel white~
+the white jewel~
+A white jewel is here.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10025
-key black~
-a black key~
-A black key is here.~
+jewel black~
+the black jewel~
+A jet-black jewel lies here.~
 unknown~
 18 0 A
 0 0 0 0 0
 0 1 0 P
 #10026
-hard banana~
-a hard banana~
-You see something that looks like a hard banana but is actually a key.~
+banana key~
+the banana key~
+You see a key in the shape of a banana.~
 unknown~
 18 0 A
 0 0 0 0 0
-0 5 7000 P
+0 5 2000 P
 #10027
-mailbox banana express box~
+yellow mailbox banana express box~
 a yellow mailbox~
 A yellow mailbox is here, painted with the words "Banana Express".~
 unknown~
@@ -496,7 +496,7 @@ unknown~
 0 ABCD BDFIJKN 0 0
 0 0 0 P
 #10028
-snow white blade~
+snow-white snow white blade~
 a snow-white blade~
 A snow-white blade glistens in the sun.~
 unknown~
@@ -526,80 +526,78 @@ unknown~
 #10031
 map ham harbor~
 a map of Ham Harbor~
-A map of Ham Harbor is lying here. It looks *very* expensive.~
+A map of Han Harbor is lying here. It looks expensive.~
 unknown~
 28 0 A
 0 0 0 0 0
-0 0 12000 P
+0 0 4000 P
 E
 ham~
-.
-          ****** Greater Ham Harbor Area ******
-          =====================================
-             Bob's Cabin
-                  |      Litmore Lake Road      to
-                ----------------------------> southwest
-               |    |           |             Midgaard
-Litmore-------------            |
- Lake    |              Tackard |
-        Boat             Road   |
-       house                    |             The meadow
-                                |              
-                                |---------------|
-                                |         /     |
-               |       School---|      Hobbit   |
-               |                |       hole    |-- Wandering
-         Dark  |      Country---|               |     Woods
-         alley |       store    |               |           
-               |                |               |                   ?
-               |                |               |                   ? Merv's
-Junkyard-------------------------------[ ]------------------Mud bog ?  potion 
-           |      Bellsworth    |[             ]  ||     |          ?  emporium
-           |         Lane       |[     Ham     ]__||     |          ?    
-           |                         Harbor     ___|     |
-           |                    |[             ]         |
-           |                    |[_____________]      Old folks  
-        X    X                  |
-                                |
-         ____          Church---|
-        /    \                  
+____________________________________________________________________________________________
+|           ****** Greater Ham Harbor Area ******                                           |
+|           =====================================                                           |
+|              Jed's Cabin                                                                  |
+|                   |      Litmore Lake Road      to                                        |
+|                 ----------------------------> western                                     |
+|                |    |           |             Midgaard                                    |
+| Litmore-------------            |                                                         |
+|  Lake    |              Tackard |                                                         |
+|         Boat             Road   |                                                         |
+|        house                    |             The meadow                                  |
+|                                 |                                                         |
+|                                 |---------------                                          |
+|                                 |         /     |                                         |
+|                |       School---|      Hobbit   |                                         |
+|                |                |       hole    |-- Wandering                             |
+|          Dark  |      Trading---|               |     Woods                               |
+|          alley |        post    |               |                                         |
+|                |                |               |                           ?             |
+|                |                |               |                           ?  Glinda's   |
+| Junkyard-------------------------------[ ]-------------------------Wetlands ?   potions   |
+|            |      Bellsworth    |[             ]  ||             |          ?             |
+|            |         Lane       |[     Ham     ]__||*Champion's  |          ?             |
+|            |                         Harbor     ___| market      |                        |
+|            |                    |[             ]                 |                        |
+|            |                    |[_____________]             Rocky road                   |
+|         X    X                  |                                                         |
+|                                 |                                                         |
+|          ____          Church---|---Cemetary                                              |
+|         /    \                                                                            |
+|___________________________________________________________________________________________|     
 ~
 E
 map~
-.
-          ****** Greater Ham Harbor Area ******
-          =====================================
-             Jed's Cabin
-                  |      Litmore Lake Road      to
-                ----------------------------> southwest
-               |    |           |             Midgaard
-Litmore-------------            |
- Lake    |              Tackard |
-        Boat             Road   |
-       house                    |             The meadow
-                                |              
-                                |---------------
-                                |         /     |
-               |       School---|      Hobbit   |
-               |                |       hole    |-- Wandering
-         Dark  |      Country---|               |     Woods
-         alley |       store    |               |           
-               |                |               |                   ?
-               |                |               |                   ? Merv's
-Junkyard-------------------------------[ ]------------------Mud bog ?  potion 
-           |      Bellsworth    |[             ]  ||     |          ?  emporium
-           |         Lane       |[     Ham     ]__||     |          ?    
-           |                         Harbor     ___|     |
-           |                    |[             ]         |
-           |                    |[_____________]      Old folks  
-        X    X                  |
-                                |
-         ____          Church---|---Cemetary
-        /    \                  
- 
- 
-
- 
+____________________________________________________________________________________________
+|           ****** Greater Ham Harbor Area ******                                           |
+|           =====================================                                           |
+|              Jed's Cabin                                                                  |
+|                   |      Litmore Lake Road      to                                        |
+|                 ----------------------------> western                                     |
+|                |    |           |             Midgaard                                    |
+| Litmore-------------            |                                                         |
+|  Lake    |              Tackard |                                                         |
+|         Boat             Road   |                                                         |
+|        house                    |             The meadow                                  |
+|                                 |                                                         |
+|                                 |---------------                                          |
+|                                 |         /     |                                         |
+|                |       School---|      Hobbit   |                                         |
+|                |                |       hole    |-- Wandering                             |
+|          Dark  |      Trading---|               |     Woods                               |
+|          alley |        post    |               |                                         |
+|                |                |               |                           ?             |
+|                |                |               |                           ?  Glinda's   |
+| Junkyard-------------------------------[ ]-------------------------Wetlands ?   potions   |
+|            |      Bellsworth    |[             ]  ||             |          ?             |
+|            |         Lane       |[     Ham     ]__||*Champion's  |          ?             |
+|            |                         Harbor     ___| market      |                        |
+|            |                    |[             ]                 |                        |
+|            |                    |[_____________]             Rocky road                   |
+|         X    X                  |                                                         |
+|                                 |                                                         |
+|          ____          Church---|---Cemetary                                              |
+|         /    \                                                                            |
+|___________________________________________________________________________________________| 
 ~
 #10032
 box tide detergent~
@@ -626,9 +624,9 @@ unknown~
 0 0 0 0 0
 0 0 0 P
 #10035
-key indigo~
-the indigo key~
-You see a key in a beautiful shade of indigo.~
+jewel indigo~
+the indigo jewel~
+You see a jewel in a beautiful shade of indigo.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -882,8 +880,8 @@ S
 #10014
 Road Into Mashtenaw County~
 You are entering Mashtenaw county, the hub of which is the city of Ham Harbor. Seven
-colored keys are hidden around the county. Retrieve all seven and you will unlock
-the prize.
+jewels in the colors of the rainbow are hidden around the county. Retrieve all seven
+and you will unlock the prize.
 ~
 0 0 1
 D1
@@ -971,13 +969,17 @@ S
 #10019
 Litmore Lake Road~
 The gravel road has entered a wooded area. Off in the distance to the west, you see
-a large lake.
+a large lake. To the south is a small house.
 ~
 0 0 1
 D1
 (null)~
 ~
 0 0 10017
+D2
+(null)~
+~
+1 0 10136
 D3
 (null)~
 ~
@@ -1142,9 +1144,10 @@ D3
 ~
 0 0 10027
 D5
-(null)~
+You see a wooden door leading down to the cellar.
 ~
-0 0 10093
+cellar door~
+1 0 10093
 S
 #10030
 Tackard Road, South Of Litmore Lake Road~
@@ -1250,11 +1253,11 @@ Trading Post~
 You are in an old trading post. Looking around, you see lots of crap for sale.
 Not just crap, but expensive crap.
  
-You notice a sign in the window.
+You notice a poster in the window.
 ~
 0 8 0
 E
-sign~
+poster~
 Store hours 2:00 AM - 4:00 AM daily
 ~
 D1
@@ -1388,10 +1391,6 @@ D1
 (null)~
 ~
 0 0 10043
-D2
-(null)~
-~
-0 0 10136
 D3
 (null)~
 ~
@@ -2200,7 +2199,7 @@ You see an exit.~
 D4
 (null)~
 ~
-0 0 10029
+1 0 10029
 D5
 (null)~
 ~
@@ -2629,7 +2628,7 @@ D2
 0 0 10111
 S
 #10115
-Champions' Market~
+Champion's Market~
 You are in a convenience store. The walls are covered with blue and white flags. Behind
 the counter is a man with a round hat.
 ~
@@ -2873,8 +2872,9 @@ D5
 0 0 10047
 S
 #10132
+North End of Eastern Pass~
+The road narrows here. Instead of shops, you see a few run-down houses.
 ~
-(null)~
 0 0 0
 D0
 (null)~
@@ -2886,8 +2886,10 @@ D2
 0 0 10056
 S
 #10133
+Cul-De-Sac~
+Here the eastern pass ends in a cul-de-sac. You see a small house that is
+in somewhat better repair than the neighboring houses.
 ~
-(null)~
 0 0 0
 D2
 (null)~
@@ -2914,14 +2916,14 @@ D3
 0 0 10061
 S
 #10136
-Esmerelda's House~
-You are in Esmerelda's house.
+A Nice House~
+You are in the home of Lila and her mother Esmerelda.
 ~
 0 0 0
 D0
 (null)~
 ~
-0 0 10044
+1 0 10019
 S
 #10138
 Bellworth Lane, By Dark Alley~
@@ -3595,8 +3597,10 @@ S
 D 0 10004 5 0
 D 0 10008 1 2
 D 0 10008 3 2
+D 0 10019 2 0
 D 0 10025 2 2
 D 0 10026 0 2
+D 0 10029 5 0
 D 0 10042 3 2
 D 0 10065 5 2
 D 0 10073 1 2
@@ -3613,13 +3617,15 @@ D 0 10078 0 2
 D 0 10078 1 2
 D 0 10079 2 2
 D 0 10080 4 2
+D 0 10093 4 0
+D 0 10136 0 0
 D 0 10142 4 0
 O 0 10022 0 10007 An ivory snuff box loaded to Nice House
 O 0 10037 0 10007 A glass snuff box loaded to Nice House
 O 0 10036 0 10007 A metal snuff box loaded to Nice House
 O 0 10038 0 10007 A wooden snuff box loaded to Nice House
-P 0 10035 0 10037 The indigo key put inside a glass snuff box
-O 0 10013 0 10026 The violet key loaded to Boathouse
+P 0 10035 0 10037 The indigo jewel put inside a glass snuff box
+O 0 10013 0 10026 The violet jewel loaded to Boathouse
 O 0 10032 0 10028 A box of tide laundry detergent loaded to Laundry Room
 P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
 P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
@@ -3633,19 +3639,19 @@ M 0 10016 0 10036 Load Mava
 G 0 608 0 A golden necklace is given to Mava
 G 0 612 0 An apple is given to Mava
 G 0 609 0 A head of cabbage is given to Mava
-G 0 10026 0 A hard banana is given to Mava
+G 0 10026 0 The banana key is given to Mava
 G 0 616 0 A leather vest is given to Mava
 G 0 611 0 A bottle of milk is given to Mava
 O 0 10021 0 10046 An old, beaten-up safe loaded to Junkyard
-P 0 10019 0 10021 *not* the violet key put inside an old, beaten-up safe
+P 0 10019 0 10021 A violet key put inside an old, beaten-up safe
 M 0 10014 0 10050 Load a big basher
 M 0 10014 0 10051 Load a big basher
-O 0 10018 0 10052 The blue key loaded to Dead End At The Tree
+O 0 10018 0 10052 The blue jewel loaded to Dead End At The Tree
 M 0 10015 0 10063 Load Grandma Jones
-O 0 10024 0 10078 A white key loaded to Darkness
+O 0 10024 0 10078 The white jewel loaded to Darkness
 O 0 10023 0 10079 A ball of pure energy loaded to Prize Room
-O 0 10015 0 10091 The orange key loaded to Clearing
-O 0 10014 0 10104 The red key loaded to Storage Room
+O 0 10015 0 10091 The orange jewel loaded to Clearing
+O 0 10014 0 10104 The red jewel loaded to Storage Room
 M 0 10008 0 10106 Load an old woman
 O 0 10000 0 10110 An old toilet loaded to Bathroom
 P 0 10001 0 10000 A juicy turd put inside an old toilet
@@ -3659,14 +3665,15 @@ G 0 10012 0 A rusty musket is given to Ezra the shopkeeper
 O 0 10030 0 10128 A hollow tree stump loaded to Dead End
 P 0 10020 0 10030 A boring metal key put inside a hollow tree stump
 M 0 10021 0 10134 Load Grandpa Smith
-M 0 10040 0 10136 Load Esmerelda's daughter
+M 0 10040 0 10136 Load Lila
 M 0 10017 0 10143 Load a Ham Harbor cityguard
+M 0 10002 0 10145 Load a citizen of Ham Harbor
 M 0 10018 0 10147 Load Sheriff Johnson
 E 0 10028 0 16 A snow-white blade is loaded wielded of Sheriff Johnson
 M 0 10017 4 10147 Load a Ham Harbor cityguard
 M 0 10005 0 10147 Load a very fit jogger
 O 0 10027 0 10154 A yellow mailbox loaded to Post Office
-P 0 10016 0 10027 A yellow key put inside a yellow mailbox
+P 0 10016 0 10027 The yellow jewel put inside a yellow mailbox
 M 0 10019 0 10157 Load Matt the mapmaker
 G 0 10031 0 A map of ham harbor is given to Matt the mapmaker
 M 0 10017 0 10158 Load a Ham Harbor cityguard
@@ -3682,13 +3689,16 @@ S
 
 
 #PROGS
+M 10000 2030 (no name) Load to: Ezra the shopkeeper
 M 10001 28 Read Load to: Amelia the teacher
+M 10002 2031 Innocent death Load to: a citizen of Ham Harbor
+M 10002 2029 (no name) Load to: a citizen of Ham Harbor
 M 10005 2028 Ham Harbor loop Load to: a very fit jogger
 M 10008 2026 Esmerelda Load to: an old woman
 M 10015 2025 Grandma Jones Load to: Grandma Jones
 M 10018 2022 Sheriff talk Load to: Sheriff Johnson
 M 10021 2024 Grandpa Smith Load to: Grandpa Smith
-M 10040 2021 Esmerelda's daughter Load to: Esmerelda's daughter
+M 10040 2021 Esmerelda's daughter Load to: Lila
 S
 
 

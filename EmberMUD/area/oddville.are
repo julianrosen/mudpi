@@ -533,11 +533,11 @@ unknown~
 ABC AC AC ABC 0
 14 4 301 P
 A
-18 3
+1 1
 A
 19 1
 A
-1 1
+18 3
 #22302
 platinum spiked shield~
 a platinum spiked shield~
@@ -547,11 +547,11 @@ unknown~
 AC AC AC AC 0
 17 1 324 P
 A
-19 2
+13 15
 A
 18 2
 A
-13 15
+19 2
 #22303
 glass sword~
 `cThe Glass Sword`w~
@@ -561,9 +561,9 @@ unknown~
 A ABC AB BCDE B
 18 1 454 P
 A
-18 5
-A
 19 7
+A
+18 5
 #22304
 evil dagger~
 a evil looking dagger~
@@ -573,11 +573,11 @@ unknown~
 B BC AB B D
 10 1 106 P
 A
-19 2
+4 2
 A
 18 1
 A
-4 2
+19 2
 #22305
 sword odd~
 `WThe Sword of the Odd`w~
@@ -587,11 +587,11 @@ unknown~
 A ABC AC ABCDE C
 27 1 319 P
 A
-4 -1
+19 3
 A
 18 5
 A
-19 3
+4 -1
 #22306
 spiked mace~
 a large spiked Mace~
@@ -601,11 +601,11 @@ unknown~
 0 C C ABC D
 8 1 99 P
 A
-19 2
+17 -5
 A
 18 2
 A
-17 -5
+19 2
 #22307
 zippo lighter~
 a zippo lighter~
@@ -633,9 +633,9 @@ unknown~
 AC AC AC AC 0
 12 5 125 P
 A
-19 1
-A
 18 2
+A
+19 1
 #22310
 cowboy boots~
 a pair of `yCowboy Boots`w~
@@ -645,11 +645,11 @@ unknown~
 C C C BC 0
 13 1 704 P
 A
-14 50
+19 2
 A
 18 2
 A
-19 2
+14 50
 #22311
 odd potion~
 a Odd Potion~
@@ -667,11 +667,11 @@ unknown~
 C C AB ABDE E
 9 1 100 P
 A
-18 3
+17 -8
 A
 19 3
 A
-17 -8
+18 3
 #22313
 Golden Wand~
 a Golden Wand~
@@ -697,11 +697,11 @@ unknown~
 B AD AB B E
 25 1 678 P
 A
-19 4
+18 5
 A
 17 -14
 A
-18 5
+19 4
 #22317
 warlock's robe~
 a Warlock's Robe~
@@ -711,11 +711,11 @@ unknown~
 AC AC AC AC 0
 14 0 134 P
 A
-12 5
+18 2
 A
 19 1
 A
-18 2
+12 5
 #22318
 solid steel leggings~
 a pair of Solid Steel Leggings~
@@ -725,13 +725,13 @@ unknown~
 AD AD AD BD 0
 27 0 976 P
 A
-2 -1
-A
-13 11
+19 3
 A
 18 4
 A
-19 3
+13 11
+A
+2 -1
 #22326
 bottle jack daniels~
 a bottle of Jack Daniel's~
@@ -1502,8 +1502,8 @@ M 0 22327 0 22327 Load the Beautiful Yasmine
 G 0 22327 0 A slice of cake is given to the Beautiful Yasmine
 G 0 22326 0 A bottle of jack daniel's is given to the Beautiful Yasmine
 G 0 22311 0 A odd potion is given to the Beautiful Yasmine
-P 0 22314 0 1 A bottle of water put inside a bottle of water
-P 0 22329 0 1 A nice metal bench put inside a nice metal bench
+P 0 22314 0 1 A bottle of water put inside a dummy object
+P 0 22329 0 1 A nice metal bench put inside a dummy object
 M 0 22328 8 22328 Load a extremely hyper child
 M 0 22329 0 22329 Load a mean old lady
 M 0 22330 3 22330 Load a two headed duck

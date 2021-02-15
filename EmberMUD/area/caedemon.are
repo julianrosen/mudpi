@@ -1323,15 +1323,15 @@ the tops of the `Ktents.  `w
 ~
 0 0 1
 E
-west~
-West from here you can see bright cloth hanging from tents. There is loud
-music being played.
-~
-E
 tents~
 A group of tents are scattered west of here. The tents are made out of
 canvas, and some you can see inside. Long flaps allow entrance and exit
 to tents.
+~
+E
+west~
+West from here you can see bright cloth hanging from tents. There is loud
+music being played.
 ~
 D0
 (null)~
@@ -2838,16 +2838,34 @@ gold trim. The floor is stained with a cherry stain.
 ~
 0 8 0
 E
-ettiquette~
-Lords and ladies should be on their best behavior at all times. A lord
-must at all times be chivalrous towards a lady. He must not kiss her lips
-in public, only the top of the hand. He must never slouch. A lord must
-open the door for a lady and pull her chair out at the dinner table. A lady
-should at all times submit to the wishes of her lord, provided they are of a
-goodly manner. A lady must never show any skin above her ankles when in
-public. A lady must also at all times be generous, remembering that others
-are far less fortunate than herself. A lady must be at all times a fine
-example to those around her.  
+gardening~
+Plants need sunshine, soil, and water to grow. Make sure your seeds are
+planted deep enough, so that the roots make a secure base for your plants.
+Also make sure to plant far enough apart so that your plants stay pure.
+Rotate your plants every few years to keep the soil good for planting in.
+~
+E
+wine~
+Wine is properly served room temperature. The older the wine, the better
+the quality. Red wines should be served with red meats, such as steak and
+veal. White wines should be served with fish and poultry, as well as pork. 
+Blush wines go well with either or. Wines should be kept down in a cellar
+where they can age and be kept cool and away from harsh lighting.  
+~
+E
+plants~
+Ginseng -- said to give energy to a person
+Chamomile -- soothes headaches
+Hibiscus -- sleep aid
+Slippery elm -- soothes sore throats
+Lemon/Orange/other citrus -- purges the body of disease
+~
+E
+witches~
+Witches, fact or fiction? Well, legend has it that witches are those folk
+who are natural channelers. They have great magical powers, and are said
+to make off with children in the middle of the night. Witches are said
+to be good or evil, and if you should meet one, it cannot be trusted.
 ~
 E
 magic~
@@ -2861,34 +2879,16 @@ magic is very dangerous, so a young channeler should always practice away
 from other folks, so as not to harm anyone.
 ~
 E
-witches~
-Witches, fact or fiction? Well, legend has it that witches are those folk
-who are natural channelers. They have great magical powers, and are said
-to make off with children in the middle of the night. Witches are said
-to be good or evil, and if you should meet one, it cannot be trusted.
-~
-E
-plants~
-Ginseng -- said to give energy to a person
-Chamomile -- soothes headaches
-Hibiscus -- sleep aid
-Slippery elm -- soothes sore throats
-Lemon/Orange/other citrus -- purges the body of disease
-~
-E
-wine~
-Wine is properly served room temperature. The older the wine, the better
-the quality. Red wines should be served with red meats, such as steak and
-veal. White wines should be served with fish and poultry, as well as pork. 
-Blush wines go well with either or. Wines should be kept down in a cellar
-where they can age and be kept cool and away from harsh lighting.  
-~
-E
-gardening~
-Plants need sunshine, soil, and water to grow. Make sure your seeds are
-planted deep enough, so that the roots make a secure base for your plants.
-Also make sure to plant far enough apart so that your plants stay pure.
-Rotate your plants every few years to keep the soil good for planting in.
+ettiquette~
+Lords and ladies should be on their best behavior at all times. A lord
+must at all times be chivalrous towards a lady. He must not kiss her lips
+in public, only the top of the hand. He must never slouch. A lord must
+open the door for a lady and pull her chair out at the dinner table. A lady
+should at all times submit to the wishes of her lord, provided they are of a
+goodly manner. A lady must never show any skin above her ankles when in
+public. A lady must also at all times be generous, remembering that others
+are far less fortunate than herself. A lady must be at all times a fine
+example to those around her.  
 ~
 D0
 (null)~
@@ -2911,16 +2911,16 @@ doors.
 ~
 0 8 0
 E
-elegant~
-These doors are tall, almost floor to ceiling, with gold trim and shiny
-golden 's'-shaped handles. They overlook the gardens at the Manor, and are
-treated to keep the sun out as it sets.
-~
-E
 table~
 This table is huge, filling the center of the room. A starch white tablecloth
 covers it, decorated with a pair of golden candlesticks containing blue candles
 and flowers cut fresh from Lady Caitlynne's garden.
+~
+E
+elegant~
+These doors are tall, almost floor to ceiling, with gold trim and shiny
+golden 's'-shaped handles. They overlook the gardens at the Manor, and are
+treated to keep the sun out as it sets.
 ~
 D0
 Elegant french doors open into the gardens.

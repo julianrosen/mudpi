@@ -334,9 +334,9 @@ unknown~
 AC AC C A F
 17 5 170 P
 A
-1 2
-A
 18 2
+A
+1 2
 #6510
 helmet~
 a dwarven helmet~
@@ -354,9 +354,9 @@ unknown~
 0 0 0 0 0
 19 1 1000 P
 A
-19 1
-A
 18 1
+A
+19 1
 #6512
 gloves~
 dwarven gloves~
@@ -366,9 +366,9 @@ unknown~
 BC BC BC 0 0
 19 2 1000 P
 A
-2 1
-A
 1 1
+A
+2 1
 #6513
 note~
 a note~

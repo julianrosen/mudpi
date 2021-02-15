@@ -1109,9 +1109,10 @@ in the air with a dark aura.
 ~
 0 2097161 0
 E
-page_two~
-Hellfire- A deadly spell from the depths of hell. Has tendency to jump
-from target to target.  
+book~
+This is a dark omnious book. There is a six pointed star in a circle
+on the cover. The pages contain many evil spells and pictures of demons
+and other figures. To read some spells type look page_one.
 ~
 E
 page_one~
@@ -1131,10 +1132,9 @@ This the first page of the book.
 To see the spells type look page_two
 ~
 E
-book~
-This is a dark omnious book. There is a six pointed star in a circle
-on the cover. The pages contain many evil spells and pictures of demons
-and other figures. To read some spells type look page_one.
+page_two~
+Hellfire- A deadly spell from the depths of hell. Has tendency to jump
+from target to target.  
 ~
 D2
 (null)~

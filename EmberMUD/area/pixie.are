@@ -369,11 +369,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-13 -10
+1 -1
 A
 3 -1
 A
-1 -1
+13 -10
 #20107
 cursed belt~
 the cursed belt~
@@ -383,11 +383,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-19 0
+5 -2
 A
 12 -10
 A
-5 -2
+19 0
 #20108
 walking stick~
 a tiny tiny walking stick~
@@ -1207,7 +1207,7 @@ O 0 20119 0 20137 Some gold coins loaded to Amber's Throne Room
 O 0 20119 0 20138 Some gold coins loaded to A Treasure Room
 O 0 20119 0 20139 Some gold coins loaded to A Treasure Room
 O 0 20120 0 20140 An oak dresser loaded to Amber's Bedroom
-P 0 20121 0 20120 A bright yellow key put inside a bright yellow key
+P 0 20121 0 20120 A bright yellow key put inside an oak dresser
 S
 
 

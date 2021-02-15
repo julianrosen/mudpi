@@ -158,9 +158,9 @@ unknown~
 D D D 0 0
 26 30 260 P
 A
-19 1
-A
 1 2
+A
+19 1
 #5201
 helm mithril~
 a mithril helm~
@@ -180,9 +180,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 19 1
+A
+18 1
 #5203
 sleeves mithril~
 some mithril sleeves~
@@ -192,9 +192,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 19 1
+A
+18 1
 #5204
 boots mithril~
 a pair of mithril boots~
@@ -204,9 +204,9 @@ unknown~
 D D D 0 0
 26 6 260 P
 A
-18 1
-A
 2 1
+A
+18 1
 #5205
 leggings mithril~
 a set of mithril leggings~
@@ -216,9 +216,9 @@ unknown~
 D D D 0 0
 26 10 260 P
 A
-18 1
-A
 2 1
+A
+18 1
 #5206
 girth mithril~
 a mithril girth~
@@ -248,9 +248,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-20 -2
-A
 21 -2
+A
+20 -2
 #5210
 potion black~
 a black potion~
@@ -308,9 +308,9 @@ unknown~
 AC AC AC 0 0
 10 11 100 P
 A
-1 -10
-A
 2 -8
+A
+1 -10
 #5219
 venison chunk~
 a chunk of venison~
@@ -336,9 +336,9 @@ unknown~
 A AC BC AB F
 26 24 260 P
 A
-18 2
-A
 19 3
+A
+18 2
 #5222
 robe black silk~
 a black silk robe~
@@ -522,9 +522,9 @@ unknown~
 B AB AC ABD 0
 10 4 100 P
 A
-18 1
-A
 19 1
+A
+18 1
 #0
 
 
@@ -1868,15 +1868,15 @@ Some writings are on this wall.
 ~
 0 1 3
 E
+skeleton skeletons~
+Something is strange about these skeletons. Upon further investigation, these
+skeletons appear illusionary.
+~
+E
 writings writing words~
 This cave along with the valley and dwarf forest is made by Hatchet for any
 Merc Mud.
 copyright 1992
-~
-E
-skeleton skeletons~
-Something is strange about these skeletons. Upon further investigation, these
-skeletons appear illusionary.
 ~
 D0
 You see more of the cave.
@@ -2153,14 +2153,14 @@ M 0 5202 0 5229 Load the mimic
 G 0 5210 0 A black potion is given to the mimic
 E 0 5214 0 17 A smooth quartz ball is loaded held in the hands of the mimic
 O 0 5225 0 5231 The desk loaded to South wing of the city hall
-P 0 5215 0 5225 A tattered scroll put inside a tattered scroll
-P 0 5216 0 5225 A bound scroll put inside a bound scroll
+P 0 5215 0 5225 A tattered scroll put inside the desk
+P 0 5216 0 5225 A bound scroll put inside the desk
 M 0 5201 0 5232 Load the lamia
 E 0 5217 0 17 A silver flute is loaded held in the hands of the lamia
 E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia
 M 0 5207 0 5232 Load the horned lizard
 O 0 5227 0 5233 The glass cabinet loaded to East wing of the city hall
-P 0 3105 0 5227 A bronze bracer put inside a bronze bracer
+P 0 3105 0 5227 A bronze bracer put inside the glass cabinet
 M 0 5201 0 5234 Load the lamia
 E 0 5232 0 17 An incandescent blue stone is loaded held in the hands of the lamia
 E 0 5252 0 16 A long slim dagger is loaded wielded of the lamia

@@ -467,13 +467,13 @@ char *fread_string( FILE * fp )
             return NULL;
             break;
 
-        case '\n':
+/*        case '\n':
             *ptr++ = '\r';
             *ptr++ = '\n';
             break;
 
         case '\r':
-            break;
+            break;*/ //JR: AHA! Busted!
 
         case '~':
             *ptr = '\0';
@@ -606,13 +606,13 @@ void temp_fread_string( FILE * fp, char *outbuf )
 #endif
             break;
 
-        case '\n':
+        /*case '\n':
             ptr++;
             *ptr++ = '\r';
             break;
 
         case '\r':
-            break;
+            break;*/
 
         case '~':
             *ptr = '\0';

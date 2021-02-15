@@ -954,9 +954,9 @@ M 0 8910 0 8914 Load a druidess
 G 0 8914 0 Some purplish herbs is given to a druidess
 O 0 8901 0 8914 A closet loaded to The red room
 O 0 8902 0 8915 A spice jar loaded to The kitchen
-P 0 8903 0 8902 Some black powder put inside some black powder
+P 0 8903 0 8902 Some black powder put inside a spice jar
 O 0 8902 0 8915 A spice jar loaded to The kitchen
-P 0 8904 0 8902 Some small yellow kernels put inside some small yellow kernels
+P 0 8904 0 8902 Some small yellow kernels put inside a spice jar
 O 0 8905 0 8915 A crumpled wad of paper loaded to The kitchen
 M 0 8910 0 8917 Load a druidess
 G 0 8918 0 Some orangish herbs is given to a druidess

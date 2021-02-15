@@ -585,9 +585,9 @@ unknown~
 0 0 0 0 0
 31 5 310 P
 A
-4 1
-A
 3 1
+A
+4 1
 #9202
 breastplate stoney breast plate~
 a stoney breastplate~
@@ -647,9 +647,9 @@ unknown~
 A AC ABC AB 0
 29 10 290 P
 A
-19 2
-A
 18 -1
+A
+19 2
 #9208
 shield electric~
 an electric shield~
@@ -659,9 +659,9 @@ unknown~
 D D D 0 0
 29 8 290 P
 A
-5 1
-A
 1 -1
+A
+5 1
 #9209
 girth icy~
 an icy girth~
@@ -681,9 +681,9 @@ unknown~
 AD AD AD 0 0
 30 6 300 P
 A
-18 -2
-A
 12 25
+A
+18 -2
 #9211
 amulet elemental~
 an elemental amulet~
@@ -713,9 +713,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-4 -2
-A
 1 1
+A
+4 -2
 #9214
 legbands platinum bands~
 some platinum leg bands~
@@ -725,9 +725,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-3 -2
-A
 2 1
+A
+3 -2
 #9215
 wand~
 elemental wand of fire~
@@ -825,9 +825,9 @@ unknown~
 AB AC BC AB 0
 25 14 250 P
 A
-18 2
-A
 13 -20
+A
+18 2
 #9227
 icicle dagger ice~
 an icicle~
@@ -837,9 +837,9 @@ unknown~
 B AC BC ABD 0
 23 1 230 P
 A
-1 -1
-A
 19 2
+A
+1 -1
 #9228
 avalanche~
 the Avalanche~
@@ -859,9 +859,9 @@ unknown~
 BC AC ABC ABD 0
 28 11 280 P
 A
-17 -3
-A
 23 -5
+A
+17 -3
 #9230
 shock whip~
 the Shock Whip~
@@ -871,9 +871,9 @@ unknown~
 ABC AC AC B 0
 22 10 220 P
 A
-1 -2
-A
 19 3
+A
+1 -2
 #9231
 elixir anti~
 anti-cyclops elixir~
@@ -927,14 +927,14 @@ east around the mountain.
 ~
 0 0 5
 E
-bodies body dead~
-They look as if their necks have been broken and their flesh, chewed.
-~
-E
 heaps stones tombs~
 You are sure glad that YOU aren't under one of those piles!
 Many of the tombstones have the same name on them, 'Raff'. He must come
 here a lot.
+~
+E
+bodies body dead~
+They look as if their necks have been broken and their flesh, chewed.
 ~
 D4
 (null)~

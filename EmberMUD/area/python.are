@@ -614,9 +614,9 @@ unknown~
 AB AC B ABCD 0
 8 18 350 P
 A
-18 5
-A
 19 1
+A
+18 5
 #14505
 watch rolex~
 rolex watch~
@@ -636,9 +636,9 @@ unknown~
 C AB ABCD BE F
 30 21 100 P
 A
-3 2
-A
 4 2
+A
+3 2
 #14507
 flower~
 a Beautiful Flower~
@@ -656,23 +656,23 @@ unknown~
 0 0 300 0 0
 22 20 100 P
 A
-2 1
-A
-3 1
-A
-5 1
-A
-4 1
-A
-1 1
-A
-12 1
-A
-18 1
+13 1
 A
 19 1
 A
-13 1
+18 1
+A
+12 1
+A
+1 1
+A
+4 1
+A
+5 1
+A
+3 1
+A
+2 1
 #14509
 tarot cards~
 tarot Cards~
@@ -698,9 +698,9 @@ unknown~
 0 0 96 0 0
 25 100 1 P
 A
-18 -2
-A
 19 1
+A
+18 -2
 #14512
 plate mail knight~
 knight's Plate Mail~
@@ -758,9 +758,9 @@ unknown~
 B B B AB 0
 10 5 20 P
 A
-12 20
-A
 19 1
+A
+12 20
 #14519
 fountain beer barrel~
 a beer barrel~
@@ -786,13 +786,13 @@ unknown~
 AB AB AB AB 0
 29 5 10 P
 A
-4 -2
-A
-13 20
+19 2
 A
 18 4
 A
-19 2
+13 20
+A
+4 -2
 #14522
 shrubbery~
 a Shrubbery~
@@ -802,11 +802,11 @@ unknown~
 0 0 0 0 0
 20 50 1500 P
 A
-19 1
+1 1
 A
 17 18
 A
-1 1
+19 1
 #14523
 goat skull~
 a Goat's Skull~
@@ -816,9 +816,9 @@ unknown~
 BD BD BD BD 0
 30 20 200 P
 A
-19 2
-A
 12 50
+A
+19 2
 #14524
 fireball staff wood wooden oak oaken~
 a Staff of Fireballs~
@@ -852,13 +852,13 @@ unknown~
 0 0 20000 0 0
 30 20 20000 P
 A
-13 10
-A
-19 3
+17 -20
 A
 18 3
 A
-17 -20
+19 3
+A
+13 10
 #14528
 crown england~
 the Crown of England~
@@ -868,9 +868,9 @@ unknown~
 ADE ADE ADE ADE 0
 45 10 100000 P
 A
-4 3
-A
 19 3
+A
+4 3
 #14529
 nightstick stick mace black~
 the Nightstick~
@@ -2865,7 +2865,7 @@ E 0 14504 0 16 Fishing pole is loaded wielded of Dorf the Fisherman
 M 0 14508 5 14523 Load a French Soldier
 M 0 14509 0 14525 Load Captain Decision
 E 0 14506 0 16 The mace of decision making is loaded wielded of Captain Decision
-P 0 14507 0 1 A beautiful flower put inside a Beautiful Flower
+P 0 14507 0 1 A beautiful flower put inside a dummy object
 M 0 14510 0 14527 Load a Black Wolf
 O 0 14507 0 14528 A beautiful flower loaded to The Flowery Meadow
 M 0 14512 0 14530 Load Zeut, the Leader of the Virgins

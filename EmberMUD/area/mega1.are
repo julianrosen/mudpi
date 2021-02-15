@@ -325,13 +325,13 @@ unknown~
 B AC AC AB 0
 19 2 190 P
 A
-18 2
-A
-19 2
+2 1
 A
 5 1
 A
-2 1
+19 2
+A
+18 2
 E
 vibroblade~
 Obviously of alien manufacture, this blade enhances fighting
@@ -1016,7 +1016,7 @@ O 0 8004 0 8028 The magnetically shielded safe loaded to Throt & Gleep's Vault
 M 0 8008 0 8028 Load Pinkerton Throt
 E 0 8009 0 16 A knife is loaded wielded of Pinkerton Throt
 G 0 8005 0 A code box is given to Pinkerton Throt
-P 0 8007 0 8004 The vibroblade put inside the Vibroblade
+P 0 8007 0 8004 The vibroblade put inside the magnetically shielded safe
 S
 
 

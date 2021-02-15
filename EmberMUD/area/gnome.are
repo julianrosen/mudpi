@@ -931,12 +931,12 @@ and a small hut is to the west.
 ~
 0 0 2
 E
-hut~
-The hut looks well built, but it seems to have taken some damage.
-~
-E
 stream~
 The stream is pretty small, but it looks too cold to swim.
+~
+E
+hut~
+The hut looks well built, but it seems to have taken some damage.
 ~
 D1
 You see a small path.
@@ -1436,10 +1436,6 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D1
-(null)~
-~
-0 -1 1549
 D0
 (null)~
 ~
@@ -1448,6 +1444,10 @@ D3
 (null)~
 ~
 0 -1 1551
+D1
+(null)~
+~
+0 -1 1549
 S
 #1549
 A Damp Hallway~
@@ -1455,14 +1455,14 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D2
-(null)~
-~
-0 -1 1550
 D3
 (null)~
 ~
 0 -1 1548
+D2
+(null)~
+~
+0 -1 1550
 S
 #1550
 A Damp Hallway~
@@ -1500,14 +1500,14 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D2
-(null)~
-~
-0 -1 1553
 D0
 (null)~
 ~
 0 -1 1551
+D2
+(null)~
+~
+0 -1 1553
 S
 #1553
 A Damp Hallway~
@@ -1515,14 +1515,14 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D0
-(null)~
-~
-0 -1 1552
 D1
 (null)~
 ~
 0 -1 1554
+D0
+(null)~
+~
+0 -1 1552
 S
 #1554
 A Damp Hallway~
@@ -1530,18 +1530,18 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D1
-(null)~
-~
-0 -1 1555
-D0
-(null)~
-~
-0 -1 1556
 D3
 (null)~
 ~
 0 -1 1553
+D0
+(null)~
+~
+0 -1 1556
+D1
+(null)~
+~
+0 -1 1555
 S
 #1555
 A Damp Hallway~
@@ -1549,14 +1549,14 @@ You are wandering in a dark, damp, twisting hallway. The temperature
 seems to be greater here, as well as your fear.
 ~
 0 8201 2
-D0
-(null)~
-~
-0 -1 1550
 D3
 (null)~
 ~
 0 -1 1554
+D0
+(null)~
+~
+0 -1 1550
 S
 #1556
 The End of the Hallway~
@@ -2169,10 +2169,10 @@ G 0 1502 0 A toy boomerang is given to a gnome child
 M 0 1501 0 1511 Load a gnome woman
 M 0 1503 0 1513 Load a gnome scientist
 G 0 1511 0 A wicker basket is given to a gnome scientist
-P 0 1513 0 1511 Some grain put inside some grain
+P 0 1513 0 1511 Some grain put inside a wicker basket
 M 0 1503 0 1514 Load a gnome scientist
 G 0 1511 0 A wicker basket is given to a gnome scientist
-P 0 1512 0 1511 Some peanuts put inside some peanuts
+P 0 1512 0 1511 Some peanuts put inside a wicker basket
 M 0 1503 0 1515 Load a gnome scientist
 E 0 1514 0 16 A skiff is loaded wielded of a gnome scientist
 M 0 1504 0 1519 Load a gnome guard

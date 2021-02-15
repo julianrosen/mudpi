@@ -106,13 +106,13 @@ BE BE BE BE 0
 47 0 1000000 P
 C 4
 A
-13 25
-A
-12 50
+1 2
 A
 2 2
 A
-1 2
+12 50
+A
+13 25
 #32001
 Ring of Thunder~
 the `KRing `bof `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
@@ -123,19 +123,19 @@ BD BD BD BD 0
 47 0 1000000 P
 C 4
 A
-18 4
-A
-19 4
-A
-4 -1
-A
-12 35
-A
-13 35
+5 1
 A
 3 1
 A
-5 1
+13 35
+A
+12 35
+A
+4 -1
+A
+19 4
+A
+18 4
 #32002
 thunder tachi~
 the `YT`Bh`Wu`Yn`Wd`Be`Yr`w `RT`ra`mc`rh`Ri`w~
@@ -146,15 +146,15 @@ A BD BD ACE CDEF
 47 0 1000000 P
 C 4
 A
-17 -2
-A
-12 20
-A
-13 20
+19 10
 A
 18 13
 A
-19 10
+13 20
+A
+12 20
+A
+17 -2
 #32003
 Scroll of Soul's Thunder~
 a `CS`cc`Gr`go`Bl`bl`w of `RS`ro`Ru`rl`R'`rs `YT`Bh`Wu`Yn`Wd`Be`Yr`w~
@@ -194,17 +194,17 @@ ABCD ABCD ABCD ABCD 0
 30 10 500000 P
 C 6
 A
-3 1
-A
-1 1
-A
-2 1
-A
-12 50
+4 1
 A
 5 1
 A
-4 1
+12 50
+A
+2 1
+A
+1 1
+A
+3 1
 #32022
 the Belt of Great Balance~
 the Belt of Great Balance~
@@ -215,11 +215,11 @@ ABCD ABCD ABCD ABCD 0
 30 1 500000 P
 C 6
 A
-13 10
+3 1
 A
 5 1
 A
-3 1
+13 10
 #32023
 treasure chest Balance~
 the Donation Chest~
@@ -259,15 +259,15 @@ CD CD CD CD 0
 30 3 500000 P
 C 6
 A
-19 4
-A
-18 4
-A
-2 3
+19 5
 A
 18 5
 A
-19 5
+2 3
+A
+18 4
+A
+19 4
 #32027
 light balance~
 the Balanced Light~
@@ -278,17 +278,17 @@ unknown~
 30 1 500000 P
 C 6
 A
-19 4
-A
-18 4
-A
-2 2
-A
-13 50
+19 3
 A
 18 7
 A
-19 3
+13 50
+A
+2 2
+A
+18 4
+A
+19 4
 #32028
 ring of balance~
 the Ring of Superb Balance~
@@ -299,13 +299,13 @@ ABCD ABCD ABCD ABCD 0
 30 1 500000 P
 C 6
 A
-4 1
-A
-2 1
+19 4
 A
 18 4
 A
-19 4
+2 1
+A
+4 1
 #32030
 dagger balance~
 a Dagger of Balance~

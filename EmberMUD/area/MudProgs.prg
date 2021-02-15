@@ -797,20 +797,20 @@ break
 #2022
 Sheriff talk~
 The Sheriff periodically says things~
-rand_prog 100~
-if(sgetrand(20)==1)
+rand_prog 15~
+if(getrand(4)==1)
   say Everybody stay safe out there
   break
 endif
-if(sgetrand(20)==2)
+if(getrand(4)==2)
   say Ham Harbor is a safe place, and I'd like to keep it that way
   break
 endif
-if(sgetrand(20)==3)
+if(getrand(4)==3)
   say Don't try anything funny while you're in my town
   break
 endif
-if(sgetrand(20)==4)
+if(getrand(4)==4)
   threaten
   break
 endif
@@ -854,8 +854,6 @@ mpoload 10017
 give green $n
 mpjunk symbol
 break
-n
-w
 ~
 #2027
 test cycle~
@@ -868,7 +866,37 @@ break
 Ham Harbor loop~
 Walk around the area, doing things.~
 rand_prog 100~
-mpcycle mpgoto 10147;n;n;w;w;s;s;w:say It's nice to get out of the city.;n;n;w;w;w;n;n;w;emote points up at the chimney.;e;s;s;w;s;s;s;say Don't go that way:emote points south.;n;n;n;e;e;e;e;n;n;w;wave mava;e;n;n;w;wave amelia;e;n;n;n;n;e;e;say I've never been to Midgaard;w;w;w;w;w;w;w;n;e;say I heard Jed keeps lots something important in his cellar.;w;s;s;w;w;emote points at the boathouse.:say I wish I could go in, but the door's always locked!;e;e;e;s;e;say Whoops, looks like a dead-end!;w;n;n;e;e;n;say They used to sell paper here.;s;e;e;s;s;e;e;e;s;s;say It's a lovely day for a picnic:say I think I'll go to my favorite spot;e;n;e;e;n;s;n;e;e;say Ah, my favorite spot.;emote sits down to eat his lunch.;;;;;;say All finished!;w;w;s;s;s;e;e;emote points to the east.:say It's easy to get lost in the wetlands;w;s;s;s;w;wave gran;e;n;w;wave gran;e;n;n;w;w;w;s;s;e;wave ezra;w;s;w;w;s;s;e;n;emote mails a letter.;s;w;w;w;n;e;wave matt;w;n;w;s;s;s;e;e;e;emote pays his respects;w;w;w;w;emote says a prayer and lights a candle.;e;n;n;n;e;e;e;say I need a rest!:rest;;;;;;;stand;say OK, ready to go!
+mpcycle jog;mpgoto 10147;n;n;w;w;s;s;w:say It's nice to get out of the city.;n;n;w;w;w;n;n;w;emote points up at the chimney.;e;s;s;w;s;s;s;say Don't go that way:emote points south.;n;n;n;e;e;e;e;n;n;w;wave mava;e;n;n;w;wave amelia;e;n;n;n;n;e;e;say I've never been to Midgaard;w;w;w;w;w;w;w;n;e;say I heard Jed keeps lots something important in his cellar.;w;s;s;w;w;emote points at the boathouse.:say I wish I could go in, but the door's always locked!;e;e;e;s;e;say Whoops, looks like a dead-end!;w;n;n;e;e;n;say They used to sell paper here.;s;e;e;s;s;e;e;e;s;s;say It's a lovely day for a picnic:say I think I'll go to my favorite spot;e;n;e;e;n;s;n;e;e;say Ah, my favorite spot.;emote sits down to eat his lunch.;;;;;;say All finished!;w;w;s;s;s;e;e;emote points to the east.:say It's easy to get lost in the wetlands;w;s;s;s;w;wave gran;e;n;w;wave gran;e;n;n;w;w;w;s;s;e;wave ezra;w;s;w;w;s;s;e;n;emote mails a letter.;s;w;w;w;n;e;wave matt;w;n;w;s;s;s;e;e;e;emote pays his respects;w;w;w;w;emote says a prayer and lights a candle.;e;n;n;n;e;e;e;say I need a rest!:rest;;;;;;;stand;say OK, ready to go!
+break
+~
+#2029
+(no name)~
+(no description)~
+rand_prog 100~
+mpcycle cit;goto 10145:n;;;e;;;e;;e;;;e;;;w;;;w;;;w;;say Good day to you!;;w;w;;w;;s;say Out of my way!;s;;e;;s;;s;;e;;e;;n;;n;;n;;n;;
+break
+~
+#2030
+(no name)~
+(no description)~
+all_greet_prog 100~
+say Welcome to Champion's Market, $N!!
+say Let me know if you want to buy anything.
+break
+~
+#2031
+Innocent death~
+When MOB dies, it complains~
+death_prog 100~
+if(sgetrand(3)==1)
+yell What did I ever do to you?!?
+break
+elseif(sgetrand(3)==2)
+yell $X is mean!
+break
+else
+yell Oh, the humanity!
+endif
 break
 ~
 #0

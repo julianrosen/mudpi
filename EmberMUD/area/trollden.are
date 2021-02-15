@@ -232,9 +232,9 @@ unknown~
 C B BC ABC 0
 6 3 60 P
 A
-18 -1
-A
 19 -1
+A
+18 -1
 E
 bone~
 This piece of bone looks sturdy enough to be used as a weapon, but you
@@ -369,7 +369,7 @@ M 0 2806 4 2803 Load a fat worm
 M 0 2806 4 2803 Load a fat worm
 M 0 2808 0 2803 Load the medium troll
 O 0 2800 0 2804 The cadaver-toy loaded to The Playpen
-P 0 2804 0 2800 A leather belt put inside a leather belt
+P 0 2804 0 2800 A leather belt put inside the cadaver-toy
 M 0 2803 0 2804 Load a baby troll
 M 0 2803 0 2804 Load a baby troll
 M 0 2803 0 2804 Load a baby troll
@@ -379,7 +379,7 @@ M 0 2804 0 2805 Load the giant troll
 E 0 2802 0 12 The troll skin is loaded about the shoulders of the giant troll
 M 0 2805 0 2805 Load the large female troll
 O 0 2801 0 2805 The heap of carnage loaded to Troll's Bedroom
-P 0 2803 0 2801 An opal ring put inside an opal ring
+P 0 2803 0 2801 An opal ring put inside the heap of carnage
 S
 
 
