@@ -16,7 +16,7 @@
 static char initial_cmds[] = {SET_WINDOW_TITLE, SET_PREFERENCES};
 
 static int send_initial_message(struct lws *wsi, int index) {
-  unsigned char message[LWS_PRE + 1 + 4096];
+  unsigned char message[LWS_PRE + 1 + 4*65536]; // JR
   unsigned char *p = &message[LWS_PRE];
   char buffer[128];
   int n = 0;

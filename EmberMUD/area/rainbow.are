@@ -84,6 +84,20 @@ A 0 0 S
 0 0 0 0
 8 8 0 0
 AHMV ABCDEFGHIJK M 0
+#10005
+fit jogger~
+a very fit jogger~
+You see a man jogging. He looks like he knows his way around.
+~
+(null)~
+Human~
+A 0 0 S
+0 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
 #10008
 esmerelda woman~
 an old woman~
@@ -370,7 +384,7 @@ unknown~
 #10015
 key orange~
 the orange key~
-The orange key is on a small table.~
+Behind a bush, you see the orange key.~
 unknown~
 18 0 A
 0 0 0 0 0
@@ -1760,13 +1774,8 @@ S
 In The Meadow, By The Woods~
 You are on a path through the meadow. To the east, another path leads
 into the woods.
-You see a sign.
 ~
 0 2097152 2
-E
-sign~
-The orange key is guarded by the knid.
-~
 D0
 (null)~
 ~
@@ -1966,8 +1975,7 @@ D3
 S
 #10083
 The Wandering Woods~
-You are in the wandering woods. To the west, you can see the meadow.
-~
+You are in the wandering woods. To the west, you can see the meadow.~
 0 3145728 3
 D0
 A path goes this way~
@@ -1998,7 +2006,7 @@ A path goes this way~
 D1
 A path goes this way~
 ~
-0 0 10083
+0 0 10085
 D2
 A path goes this way~
 ~
@@ -2006,7 +2014,7 @@ A path goes this way~
 D3
 A path goes this way~
 ~
-0 0 10085
+0 0 10068
 S
 #10085
 The Wandering Woods~
@@ -2028,7 +2036,7 @@ A path goes this way~
 D3
 A path goes this way~
 ~
-0 0 10083
+0 0 10068
 S
 #10086
 The Wandering Woods~
@@ -2050,7 +2058,7 @@ A path goes this way~
 D3
 A path goes this way~
 ~
-0 0 10083
+0 0 10068
 S
 #10087
 The Wandering Woods~
@@ -2072,7 +2080,7 @@ A path goes this way~
 D3
 A path goes this way~
 ~
-0 0 10083
+0 0 10068
 S
 #10088
 The Wandering Woods~
@@ -2130,7 +2138,7 @@ A path goes this way~
 D1
 A path goes this way~
 ~
-0 0 10083
+0 0 10091
 D2
 A path goes this way~
 ~
@@ -2138,11 +2146,11 @@ A path goes this way~
 D3
 A path goes this way~
 ~
-0 0 10091
+0 0 10068
 S
 #10091
-The Knid's Lair~
-You have arrived at the knid's lair.
+Clearing~
+You have arrived at a clearing in the woods. A lovely spot for a picnic!
 ~
 0 3145732 0
 D3
@@ -2988,7 +2996,7 @@ D1
 0 0 10140
 D4
 (null)~
-~
+chimney~
 1 0 10004
 S
 #10143
@@ -3636,8 +3644,7 @@ O 0 10018 0 10052 The blue key loaded to Dead End At The Tree
 M 0 10015 0 10063 Load Grandma Jones
 O 0 10024 0 10078 A white key loaded to Darkness
 O 0 10023 0 10079 A ball of pure energy loaded to Prize Room
-M 0 10013 0 10091 Load a vermicious knid
-G 0 10015 0 The orange key is given to a vermicious knid
+O 0 10015 0 10091 The orange key loaded to Clearing
 O 0 10014 0 10104 The red key loaded to Storage Room
 M 0 10008 0 10106 Load an old woman
 O 0 10000 0 10110 An old toilet loaded to Bathroom
@@ -3657,6 +3664,7 @@ M 0 10017 0 10143 Load a Ham Harbor cityguard
 M 0 10018 0 10147 Load Sheriff Johnson
 E 0 10028 0 16 A snow-white blade is loaded wielded of Sheriff Johnson
 M 0 10017 4 10147 Load a Ham Harbor cityguard
+M 0 10005 0 10147 Load a very fit jogger
 O 0 10027 0 10154 A yellow mailbox loaded to Post Office
 P 0 10016 0 10027 A yellow key put inside a yellow mailbox
 M 0 10019 0 10157 Load Matt the mapmaker
@@ -3675,11 +3683,11 @@ S
 
 #PROGS
 M 10001 28 Read Load to: Amelia the teacher
-M 10015 2025
-M 10021 2024
-M 10008 2026
+M 10005 2028 Ham Harbor loop Load to: a very fit jogger
+M 10008 2026 Esmerelda Load to: an old woman
+M 10015 2025 Grandma Jones Load to: Grandma Jones
 M 10018 2022 Sheriff talk Load to: Sheriff Johnson
-M 10019 2023 (no name) Load to: Matt the mapmaker
+M 10021 2024 Grandpa Smith Load to: Grandpa Smith
 M 10040 2021 Esmerelda's daughter Load to: Esmerelda's daughter
 S
 

@@ -820,7 +820,6 @@ break
 (no name)~
 (no description)~
 rand_prog 100~
-mpcycle whatsit
 break
 ~
 #2024
@@ -831,6 +830,7 @@ say Thank you, this will go great in my collection.
 say Here, take this!
 mpoload 10007
 give puzzle $n
+mpjunk musket
 break
 ~
 #2025
@@ -841,16 +841,34 @@ say Thank you, I love puzzles.
 say Here, if give this to Esmerelda, she will have something for you!
 mpoload 10039
 give secret $n
+mpjunk puzzle
 break
 ~
 #2026
 Esmerelda~
 If you give Esmerelda a secret symbol, she will give you the green key~
 give_prog secret symbol~
-say Thank you, I love puzzles.
+say Thank you, this is just what I needed.
 say Here, take this
 mpoload 10017
 give green $n
+mpjunk symbol
+break
+n
+w
+~
+#2027
+test cycle~
+test cycle to walk~
+rand_prog 100~
+mpcycle e;n;say hi;s;s;s;w;w;n;say hello;n;sl;st;
+break
+~
+#2028
+Ham Harbor loop~
+Walk around the area, doing things.~
+rand_prog 100~
+mpcycle mpgoto 10147;n;n;w;w;s;s;w:say It's nice to get out of the city.;n;n;w;w;w;n;n;w;emote points up at the chimney.;e;s;s;w;s;s;s;say Don't go that way:emote points south.;n;n;n;e;e;e;e;n;n;w;wave mava;e;n;n;w;wave amelia;e;n;n;n;n;e;e;say I've never been to Midgaard;w;w;w;w;w;w;w;n;e;say I heard Jed keeps lots something important in his cellar.;w;s;s;w;w;emote points at the boathouse.:say I wish I could go in, but the door's always locked!;e;e;e;s;e;say Whoops, looks like a dead-end!;w;n;n;e;e;n;say They used to sell paper here.;s;e;e;s;s;e;e;e;s;s;say It's a lovely day for a picnic:say I think I'll go to my favorite spot;e;n;e;e;n;s;n;e;e;say Ah, my favorite spot.;emote sits down to eat his lunch.;;;;;;say All finished!;w;w;s;s;s;e;e;emote points to the east.:say It's easy to get lost in the wetlands;w;s;s;s;w;wave gran;e;n;w;wave gran;e;n;n;w;w;w;s;s;e;wave ezra;w;s;w;w;s;s;e;n;emote mails a letter.;s;w;w;w;n;e;wave matt;w;n;w;s;s;s;e;e;e;emote pays his respects;w;w;w;w;emote says a prayer and lights a candle.;e;n;n;n;e;e;e;say I need a rest!:rest;;;;;;;stand;say OK, ready to go!
 break
 ~
 #0
@@ -1065,32 +1083,32 @@ break
 #12
 Mayor~
 Mayor wanders around the city opening and closing gates and he fights like a cleric.~
-M 10
 M 11
+M 10
 ~
 #26
 Trump~
 Trump wanders around the city saying offensive things and he fights like a cleric.~
-M 10
 M 25
+M 10
 ~
 #20
 CityGuard~
 Kills thieves and fights evil.~
-M 17
 M 18
+M 17
 ~
 #24
 Puff~
 Figure it out. :)~
-M 22
 M 23
+M 22
 ~
 #2000
 Mudweiser MOBProgs/3011.prg~
 Mudweiser MOBProgs/3011.prg~
-M 201
 M 200
+M 201
 ~
 #2001
 Mudweiser MOBProgs/109.prg~
@@ -1100,53 +1118,53 @@ M 202
 #2002
 Mudweiser OBJProgs/4151.prg~
 Mudweiser OBJProgs/4151.prg~
-O 601
 O 600
+O 601
 ~
 #2003
 Mudweiser OBJProgs/4152.prg~
 Mudweiser OBJProgs/4152.prg~
-O 604
-O 603
 O 602
+O 603
+O 604
 ~
 #2004
 Mudweiser OBJProgs/4194.prg~
 Mudweiser OBJProgs/4194.prg~
-O 607
-O 606
 O 605
+O 606
+O 607
 ~
 #2005
 Mudweiser OBJProgs/4199.prg~
 Mudweiser OBJProgs/4199.prg~
-O 609
 O 608
+O 609
 ~
 #2006
 Mudweiser MOBProgs/1503.prg~
 Mudweiser MOBProgs/1503.prg~
-M 223
-M 222
-M 221
-M 220
-M 219
-M 218
-M 217
-M 216
-M 215
-M 214
-M 213
-M 212
-M 211
-M 210
-M 209
-M 208
-M 207
-M 206
-M 205
-M 204
 M 203
+M 204
+M 205
+M 206
+M 207
+M 208
+M 209
+M 210
+M 211
+M 212
+M 213
+M 214
+M 215
+M 216
+M 217
+M 218
+M 219
+M 220
+M 221
+M 222
+M 223
 ~
 #2007
 Mudweiser MOBProgs/1523.prg~
@@ -1171,8 +1189,8 @@ M 227
 #2011
 Mudweiser MOBProgs/4739.prg~
 Mudweiser MOBProgs/4739.prg~
-M 229
 M 228
+M 229
 ~
 #2012
 Mudweiser MOBProgs/4744.prg~
@@ -1197,14 +1215,14 @@ O 610
 #2016
 Mudweiser OBJProgs/4753.prg~
 Mudweiser OBJProgs/4753.prg~
-O 612
 O 611
+O 612
 ~
 #2017
 Mudweiser OBJProgs/4783.prg~
 Mudweiser OBJProgs/4783.prg~
-O 614
 O 613
+O 614
 ~
 #2018
 Mudweiser OBJProgs/4787.prg~
@@ -1219,8 +1237,8 @@ O 616
 #2020
 Mudweiser OBJProgs/4798.prg~
 Mudweiser OBJProgs/4798.prg~
-O 618
 O 617
+O 618
 ~
 #0
 

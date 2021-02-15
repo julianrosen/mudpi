@@ -36,7 +36,7 @@ static int check_auth(struct lws *wsi, struct pss_http *pss) {
     if (b64_text != NULL && !strcmp(b64_text, server->credential)) return AUTH_OK;
   }
 
-  unsigned char buffer[1024 + LWS_PRE], *p, *end;
+  unsigned char buffer[65536 + LWS_PRE], *p, *end; // JR: changed 1024 to 65536
   p = buffer + LWS_PRE;
   end = p + sizeof(buffer) - LWS_PRE;
 
@@ -114,7 +114,7 @@ static void access_log(struct lws *wsi, const char *path) {
 int callback_http(struct lws *wsi, enum lws_callback_reasons reason, void *user, void *in,
                   size_t len) {
   struct pss_http *pss = (struct pss_http *)user;
-  unsigned char buffer[4096 + LWS_PRE], *p, *end;
+  unsigned char buffer[4*65536 + LWS_PRE], *p, *end; // JR changed 1024 to 65536
   char buf[256];
   bool done = false;
 

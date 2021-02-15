@@ -1808,7 +1808,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
     
     for ( count = 0; count < 2; count++ )
         {
-            strcpy( buf, "`G$n says '");
+            strcpy( buf, "say ");
             bufp = buf+strlen(buf);
             while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
                 gatsby_head++;
@@ -1817,7 +1817,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
             if ( *gatsby_head == 255 )
             {
                 gatsby_head = gatsby_text;
-                act( "`G$n says 'Phew, that was long! Let's start again from the top.'", ch, NULL, NULL, TO_ROOM );
+                interpret( ch, "say 'Phew, that was long! Let's start again from the top.'" );
                 return;
             }
 
@@ -1828,8 +1828,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
                 bufp++;
             }
             *(bufp) = '\0';
-            strcat( buf, "'");
-            act( buf, ch, NULL, NULL, TO_ROOM );
+            interpret( ch, buf );
             if ( *(gatsby_head+1) == '\n' )
                 break;
         }
@@ -1840,12 +1839,65 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
 
 void do_mpcycle( CHAR_DATA *ch, char *argument )
 {
-    static char cyclelist[MAX_INPUT_LENGTH][100];
-    static int step[100];
-    int n;
+    static char cyclelist[MAX_INPUT_LENGTH][20];
+    static char *head[20],*todo;
     char buf[MAX_INPUT_LENGTH];
-    strcpy( buf, "say ");
-    strcat( buf, argument);
-    interpret( ch, buf);
-    printf("buf: %s\n",buf); // JR debug
+    int index,n;
+    bool done;
+    
+    if ( argument[0] == '\0' )
+        return;
+    for (index=0;index<20;index++)
+        if (!strcmp( cyclelist[index], argument ) )
+            break;
+    if ( index == 20 )
+    {
+        for (index=0;index<20;index++)
+        {
+            if (cyclelist[index][0] == '\0')
+            {
+                strcpy( cyclelist[index], argument );
+                head[index] = cyclelist[index];
+                break;
+            }
+        }
+        if ( index == 20 )
+        {
+            printf("Ran out of space\n");
+            return;
+        }
+    }
+    
+    strcpy( buf, head[index] );
+    todo = buf;
+    done = FALSE;
+    while ( !done )
+    {
+        for ( n = 0; n<=strlen(todo);n++ )
+        {
+            if ( todo[n] == ':' )
+            {
+                todo[n] = '\0';
+                head[index] += n+1;
+                break;
+            }
+            else if ( todo[n] == ';' )
+            {
+                todo[n] = '\0';
+                head[index] += n+1;
+                done = TRUE;
+                break;
+            }
+            else if ( todo[n] == '\0' )
+            {
+                head[index] = cyclelist[index];
+                done = TRUE;
+                break;
+            }
+        }
+        interpret( ch, todo );
+        printf("interpret: %s\n",todo); 
+        if ( !done )
+            todo += n + 1;
+    }
 }
