@@ -1651,16 +1651,19 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
          */
         {
             extern char *help_greeting;
-            extern char *ansi_greeting;
+            /* extern char *ansi_greeting; */
             write_to_buffer(d,"\n\r",0); /* Added by JR (fixed display problem with TinTin*/
-            if ( d->ansi )
+            printf("help_greeting: %s\n",help_greeting);
+            /*if ( d->ansi ) // JR: fixed this nonsense
                 write_to_buffer( d, ansi_greeting, 0 );
-            else
+            else*/
             {
                 if ( help_greeting[0] == '.' )
-                    write_to_buffer( d, help_greeting + 1, 0 );
+                    p = help_greeting + 1;
                 else
-                    write_to_buffer( d, help_greeting, 0 );
+                    p = help_greeting;
+                do_color( p, strlen(p), buf, MAX_STRING_LENGTH, TRUE );
+                write_to_buffer( d, buf, 0);
             }
         }
         d->connected = CON_GET_NAME;

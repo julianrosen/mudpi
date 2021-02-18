@@ -71,7 +71,7 @@ MPROG_DATA *mudprog_last;
 MPROG_GROUP *mprog_group_first;
 MPROG_GROUP *mprog_group_last;
 char *help_greeting;
-char *ansi_greeting;
+/* char *ansi_greeting; */
 char log_buf[2 * MAX_INPUT_LENGTH];
 KILL_DATA kill_table[MAX_LEVEL];
 OBJ_DATA *object_list;
@@ -1185,8 +1185,8 @@ void load_helps( FILE * fp )
         if ( !str_cmp( pHelp->keyword, "greeting" ) )
             help_greeting = pHelp->text;
 
-        if ( !str_cmp( pHelp->keyword, "ansigreet" ) )
-            ansi_greeting = pHelp->text;
+        /*if ( !str_cmp( pHelp->keyword, "ansigreet" ) )
+            ansi_greeting = pHelp->text;*/ /* JR: I don't know what the purpose of two greetings is */
 
         if ( help_first == NULL )
             help_first = pHelp;
