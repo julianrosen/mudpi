@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 90} Ryuujin Sunstone City~
+Group       Mudweiser~
 Builders    None~
 VNUMs       21400 21499
 Security    6
@@ -999,23 +1000,23 @@ immense power, and south lies a great chapel.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21401
 D1
-(null)~
+~
 ~
 0 0 21403
 D2
-(null)~
+~
 ~
 1 0 21402
 D3
-(null)~
+~
 ~
 0 0 21404
 D4
-(null)~
+~
 ~
 3 0 21499
 S
@@ -1028,11 +1029,11 @@ near the left side of the gate.
 ~
 0 3153920 1
 D0
-(null)~
+~
 ~
 6 21403 21405
 D2
-(null)~
+~
 ~
 0 0 21400
 S
@@ -1048,11 +1049,11 @@ and a door on the south side of this room leads to the altar.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 1 0 21400
 D2
-(null)~
+~
 ~
 1 0 21408
 S
@@ -1066,19 +1067,19 @@ while the city's square is to the west.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21417
 D1
-(null)~
+~
 ~
 0 0 21419
 D2
-(null)~
+~
 ~
 0 0 21418
 D3
-(null)~
+~
 ~
 0 0 21400
 S
@@ -1091,15 +1092,15 @@ continues both east and west.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21415
 D1
-(null)~
+~
 ~
 0 0 21400
 D2
-(null)~
+~
 ~
 1 21426 21416
 S
@@ -1115,11 +1116,11 @@ chamber lies on the western wall.
 ~
 0 3153920 0
 D2
-(null)~
+~
 ~
 6 21403 21401
 D4
-(null)~
+~
 ~
 0 0 21406
 S
@@ -1136,11 +1137,11 @@ both up and down.
 ~
 0 3153920 0
 D4
-(null)~
+~
 ~
 0 0 21407
 D5
-(null)~
+~
 ~
 0 0 21405
 S
@@ -1154,7 +1155,7 @@ always visible overhead, even in foul weather or nighttime.
 ~
 0 3153920 0
 D5
-(null)~
+~
 ~
 0 0 21406
 S
@@ -1172,11 +1173,11 @@ of the Eternal Sun. A small trapdoor is behind the altar.
 ~
 0 2098176 0
 D0
-(null)~
+~
 ~
 1 0 21402
 D5
-(null)~
+~
 ~
 1 0 21409
 S
@@ -1189,11 +1190,11 @@ clearly visible, however. It's not too late to go back up to the sunlight.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21410
 D4
-(null)~
+~
 ~
 1 0 21408
 S
@@ -1209,15 +1210,15 @@ south, but barely.
 ~
 0 2097153 0
 D0
-(null)~
+~
 ~
 0 0 21412
 D2
-(null)~
+~
 ~
 0 0 21409
 D3
-(null)~
+~
 ~
 0 0 21411
 S
@@ -1232,11 +1233,11 @@ disturbed.
 ~
 0 2097153 0
 D1
-(null)~
+~
 ~
 0 0 21410
 D5
-(null)~
+~
 ~
 1 0 21413
 S
@@ -1250,7 +1251,7 @@ further.
 ~
 0 2097153 0
 D2
-(null)~
+~
 ~
 0 0 21410
 S
@@ -1262,11 +1263,11 @@ below is unknown.
 ~
 0 2097153 0
 D4
-(null)~
+~
 ~
 1 0 21411
 D5
-(null)~
+~
 ~
 0 0 21414
 S
@@ -1278,7 +1279,7 @@ way out is back up the ladder.
 ~
 0 2097153 0
 D4
-(null)~
+~
 ~
 0 0 21413
 S
@@ -1290,7 +1291,7 @@ wall, wearing a great pair of sunglasses.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 21404
 S
@@ -1303,7 +1304,7 @@ the store is to the north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 1 21426 21404
 S
@@ -1367,11 +1368,11 @@ whereas most magical spells fade and disappear with time,
 these seem to burn eternally...
 ~
 D1
-(null)~
+~
 ~
 0 0 30001
 D2
-(null)~
+~
 ~
 0 0 21403
 S
@@ -1384,11 +1385,11 @@ probably because the church is right to the west, and the window is open.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21403
 D2
-(null)~
+~
 ~
 0 0 21420
 S
@@ -1404,11 +1405,11 @@ sun always shines here, and as it turns out, it's true.
 ~
 0 2097152 2
 D1
-(null)~
+~
 ~
 0 0 16268
 D3
-(null)~
+~
 ~
 0 0 21403
 S
@@ -1420,11 +1421,11 @@ bar are somewhere around here.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21418
 D2
-(null)~
+~
 ~
 0 0 21421
 S
@@ -1437,11 +1438,11 @@ attack from the outer walls.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21420
 D3
-(null)~
+~
 ~
 0 0 21422
 S
@@ -1451,15 +1452,15 @@ The road here shines brightly, as the trees of the town wave and rustle overhead
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 21421
 D2
-(null)~
+~
 ~
 0 0 21424
 D3
-(null)~
+~
 ~
 0 0 21423
 S
@@ -1473,11 +1474,11 @@ city.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 21426
 D1
-(null)~
+~
 ~
 0 0 21422
 S
@@ -1491,11 +1492,11 @@ customers. Great smells waft in from the western side of the tavern.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21422
 D3
-(null)~
+~
 ~
 0 0 21425
 S
@@ -1509,7 +1510,7 @@ their customers.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 21424
 S
@@ -1523,7 +1524,7 @@ magic. That explains why the room is so bare.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 21423
 S
@@ -1537,7 +1538,7 @@ Pharmaceutical company.
 ~
 0 17825800 0
 D5
-(null)~
+~
 fishbowl~
 5 21493 21499
 S
@@ -1557,7 +1558,7 @@ up~
 Above you, the starlight shines above the water's surface in the night sky.
 ~
 D5
-(null)~
+~
 machine~
 3 0 21400
 S

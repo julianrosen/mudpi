@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 20} Alfa    Holy Grove~
+Group       Embermud~
 Builders    None~
 VNUMs       8900 8999
 Security    9
@@ -653,7 +654,7 @@ afternoon sunlight.
 door~
 1 -1 8909
 D2
-(null)~
+~
 door~
 1 -1 8911
 S
@@ -665,15 +666,15 @@ The hallway leads south, and there is a door in the eastern wall.
 ~
 0 8 0
 D0
-(null)~
+~
 door~
 1 -1 8910
 D1
-(null)~
+~
 door~
 1 -1 8912
 D2
-(null)~
+~
 ~
 0 -1 8913
 S
@@ -687,7 +688,7 @@ blinds in front of the large east window you can see the edge of the grove.
 ~
 0 520 0
 D3
-(null)~
+~
 door~
 1 -1 8911
 S
@@ -699,19 +700,19 @@ coat-of-arms adorn the walls here.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 8911
 D1
-(null)~
+~
 door~
 1 -1 8914
 D2
-(null)~
+~
 door~
 1 -1 8915
 D3
-(null)~
+~
 door~
 1 -1 8916
 S
@@ -725,7 +726,7 @@ pulled away from the wide windows, to reveal a nice view towards the grove.
 ~
 0 520 0
 D3
-(null)~
+~
 door~
 1 -1 8913
 S
@@ -741,11 +742,11 @@ than meticulous housekeeper... There are doors to the north and west.
 ~
 0 8 0
 D0
-(null)~
+~
 door~
 1 -1 8913
 D3
-(null)~
+~
 door~
 1 -1 8918
 S
@@ -759,15 +760,15 @@ short corridor to the greenhouse.
 ~
 0 8 0
 D1
-(null)~
+~
 door~
 1 -1 8913
 D2
-(null)~
+~
 door~
 1 -1 8918
 D3
-(null)~
+~
 ~
 0 -1 8917
 S
@@ -783,11 +784,11 @@ terrace.
 ~
 0 520 0
 D1
-(null)~
+~
 ~
 0 -1 8916
 D2
-(null)~
+~
 door~
 1 -1 8919
 S
@@ -814,15 +815,15 @@ beast of the Revelation. Over the head of the table hangs a rather modest
 portrait of a silver Dragon, sparkling with blue lightening, looking amused.
 ~
 D0
-(null)~
+~
 door~
 1 -1 8916
 D1
-(null)~
+~
 door~
 1 -1 8915
 D3
-(null)~
+~
 wide door~
 1 -1 8919
 S
@@ -837,15 +838,15 @@ together with a matched set of chairs.
 ~
 0 12 0
 D0
-(null)~
+~
 door~
 1 -1 8917
 D1
-(null)~
+~
 double door~
 1 -1 8918
 D3
-(null)~
+~
 ~
 0 -1 8908
 S

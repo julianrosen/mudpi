@@ -1,5 +1,6 @@
 #AREADATA
 Name        { ALL } CLAN    Clan halls~
+Group       Mudweiser~
 Builders    None~
 VNUMs       32000 32399
 Security    8
@@ -50,7 +51,7 @@ Strike~
 Strike, the clan hall shopkeeper~
 Here stands Strike, the clan shopkeeper.
 ~
-(null)~
+~
 Human~
 ABd 0 1000 S
 1 1 
@@ -64,7 +65,7 @@ statue streeve~
 Streeve: The Deity of Balance~
 Here stands a large statue of Streeve filling up the room.
 ~
-(null)~
+~
 Human~
 AGad 0 0 S
 100 1 
@@ -351,7 +352,7 @@ of you is the only hint of a way in.
 ~
 0 1049604 2
 D0
-(null)~
+~
 irondoor~
 4 32004 32001
 S
@@ -362,11 +363,11 @@ massive amount of weapons line the walls in decorations.
 ~
 0 1057804 0
 D2
-(null)~
+~
 irondoor~
 4 32004 32000
 D5
-(null)~
+~
 ~
 0 0 32002
 S
@@ -379,11 +380,11 @@ Togashi Yokuni is on the ceiling.
 ~
 0 17835020 0
 D4
-(null)~
+~
 ~
 0 0 32001
 D5
-(null)~
+~
 ~
 0 0 32003
 S
@@ -395,11 +396,11 @@ at.
 ~
 0 1056776 0
 D4
-(null)~
+~
 ~
 0 0 32002
 D5
-(null)~
+~
 ~
 0 0 32004
 S
@@ -414,7 +415,7 @@ side of this cylindrical room.
 ~
 0 1057804 0
 D4
-(null)~
+~
 ~
 0 0 32003
 S
@@ -426,19 +427,19 @@ other. To the south of ehre, you can see a glowing light.
 ~
 0 12 0
 D0
-(null)~
+~
 ~
 0 0 32023
 D1
-(null)~
+~
 ~
 0 0 32022
 D2
-(null)~
+~
 ~
 0 0 32025
 D3
-(null)~
+~
 ~
 0 0 32021
 S
@@ -451,7 +452,7 @@ choices.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 32020
 S
@@ -463,7 +464,7 @@ the items you don't need, maybe other clan members will need them.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 32020
 S
@@ -474,11 +475,11 @@ member as you await your appointment with the Baron.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 1 0 32024
 D2
-(null)~
+~
 ~
 0 0 32020
 S
@@ -493,7 +494,7 @@ MKwarrior, STgermain, Marrow, and their God Streeve.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 1 0 32023
 S
@@ -507,13 +508,13 @@ to gain their indifference. There is a focus here, and a peace.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 32020
 S
 #32030
 ~
-(null)~
+~
 0 4 0
 S
 #32060
@@ -528,7 +529,7 @@ its way down to the room beneath.
 ~
 0 16778240 10
 D5
-(null)~
+~
 ~
 0 0 32061
 S
@@ -544,15 +545,15 @@ To the east and west you see doorways.
 ~
 0 16777224 0
 D1
-(null)~
+~
 ~
 0 0 32062
 D3
-(null)~
+~
 ~
 0 0 32063
 D4
-(null)~
+~
 ~
 0 0 32060
 S
@@ -567,7 +568,7 @@ To the west is the map room, and to the north you see a large metal door.
 ~
 0 16778248 0
 D3
-(null)~
+~
 ~
 0 0 32061
 S
@@ -582,11 +583,11 @@ To the north is the vault, and to the east you can see the map room.
 ~
 0 16777224 0
 D0
-(null)~
+~
 ~
 0 0 32064
 D1
-(null)~
+~
 ~
 0 0 32061
 S
@@ -603,7 +604,7 @@ door is the training room.
 ~
 0 16777224 0
 D2
-(null)~
+~
 ~
 0 0 32063
 S

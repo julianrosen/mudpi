@@ -23,7 +23,7 @@
 #include <time.h>
 #include "merc.h"
 
-void show_line_numbers args( ( CHAR_DATA * ch, char *oldstring ) );
+void show_line_numbers args( ( CHAR_DATA * ch, char *oldstring, bool color ) );
 char *line_replace args( ( char *orig, int line, char *arg3 ) );
 int count_lines args( ( const char *orig ) );
 char *line_delete args( ( char *orig, int line ) );
@@ -217,8 +217,9 @@ char *line_add( char *orig, int line, char *add )
  Purpose:	Clears string and puts player into editing mode.
  Called by:	none
  ****************************************************************************/
-void string_edit( CHAR_DATA * ch, char **pString )
+void string_edit( CHAR_DATA * ch, char **pString, bool color )
 {
+    ch->desc->color_edit = color;
     send_to_char( "-========- Entering EDIT Mode -=========-\n\r", ch );
     send_to_char( "    Type .h on a new line for help\n\r", ch );
     send_to_char( " Terminate with a ~ or @ on a blank line.\n\r", ch );
@@ -243,24 +244,23 @@ void string_edit( CHAR_DATA * ch, char **pString )
  Purpose:	Puts player into append mode for given string.
  Called by:	(many)olc_act.c
  ****************************************************************************/
-void string_append( CHAR_DATA * ch, char **pString )
+void string_append( CHAR_DATA * ch, char **pString, bool color )
 {
+    ch->desc->color_edit = color;
     send_to_char( "-=======- Entering APPEND Mode -========-\n\r", ch );
     send_to_char( "    Type .h on a new line for help\n\r", ch );
     send_to_char( " Terminate with a ~ or @ on a blank line.\n\r", ch );
     send_to_char( "-=======================================-\n\r", ch );
-    printf("string_append start\n");
     if ( *pString == NULL )
     {
         *pString = str_dup( "" );
     }
-    show_line_numbers( ch, *pString );
+    show_line_numbers( ch, *pString, color );
 
     if ( *( *pString + strlen( *pString ) - 1 ) != '\n' )
         send_to_char( "\n", ch );
 
     ch->desc->pString = pString;
-    printf("string_append finish\n");
 
     return;
 }
@@ -296,13 +296,14 @@ char *string_replace( char *orig, char *old, char *new )
  Purpose:	Interpreter for string editing.
  Called by:	game_loop_xxxx(comm.c).
  ****************************************************************************/
-void string_add( CHAR_DATA * ch, char *argument )
+void string_add( CHAR_DATA * ch, char *argument, bool color )
 {
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
     /*
      * Thanks to James Seng
      */
+    ch->desc->color_edit = color; // JR
     if ( *argument == '~' )
     {
         ch->desc->pString = NULL;
@@ -330,7 +331,7 @@ void string_add( CHAR_DATA * ch, char *argument )
         if ( !str_cmp( arg, ".s" ) )
         {
             send_to_char( "String so far:\n\r", ch );
-            show_line_numbers( ch, *ch->desc->pString );
+            show_line_numbers( ch, *ch->desc->pString, color );
             return;
         }
 
@@ -490,6 +491,14 @@ void string_add( CHAR_DATA * ch, char *argument )
     return;
 }
 
+
+
+bool is_end( char c )
+{
+    return c=='.' || c=='!' || c=='?'?TRUE:FALSE;
+}
+
+
 /*
  * Thanks to Kalgen for the new procedure (no more bug!)
  * Original wordwrap() written by Surreality.
@@ -531,12 +540,9 @@ char *format_string( char *oldstring /*, bool fSpace */  )
         }
         else if ( *rdesc == ')' )
         {
-            if ( xbuf[i - 1] == ' ' && xbuf[i - 2] == ' ' &&
-                 ( xbuf[i - 3] == '.' || xbuf[i - 3] == '?'
-                   || xbuf[i - 3] == '!' ) )
+            if ( xbuf[i - 1] == ' ' && is_end( xbuf[i - 2] ) )
             {
-                xbuf[i - 2] = *rdesc;
-                xbuf[i - 1] = ' ';
+                xbuf[i - 1] = *rdesc;
                 xbuf[i] = ' ';
                 i++;
             }
@@ -546,25 +552,18 @@ char *format_string( char *oldstring /*, bool fSpace */  )
                 i++;
             }
         }
-        else if ( *rdesc == '.' || *rdesc == '?' || *rdesc == '!' )
+        else if ( is_end( *rdesc ) )
         {
-            if ( xbuf[i - 1] == ' ' && xbuf[i - 2] == ' ' &&
-                 ( xbuf[i - 3] == '.' || xbuf[i - 3] == '?'
-                   || xbuf[i - 3] == '!' ) )
+            if ( xbuf[i - 1] == ' ' && is_end( xbuf[i - 2] ) )
             {
-                xbuf[i - 2] = *rdesc;
+                xbuf[i - 1] = *rdesc;
                 if ( *( rdesc + 1 ) != '\"' )
-                {
                     xbuf[i - 1] = ' ';
-                    xbuf[i] = ' ';
-                    i++;
-                }
                 else
                 {
-                    xbuf[i - 1] = '\"';
+                    xbuf[i] = '\"';
                     xbuf[i] = ' ';
-                    xbuf[i + 1] = ' ';
-                    i += 2;
+                    i++;
                     rdesc++;
                 }
             }
@@ -574,15 +573,13 @@ char *format_string( char *oldstring /*, bool fSpace */  )
                 if ( *( rdesc + 1 ) != '\"' )
                 {
                     xbuf[i + 1] = ' ';
-                    xbuf[i + 2] = ' ';
-                    i += 3;
+                    i += 2;
                 }
                 else
                 {
                     xbuf[i + 1] = '\"';
                     xbuf[i + 2] = ' ';
-                    xbuf[i + 3] = ' ';
-                    i += 4;
+                    i += 3;
                     rdesc++;
                 }
             }
@@ -767,11 +764,13 @@ char *string_proper( char *argument )
 /* This functions by Kyle Boyd. */
 /* If you see any bugs, check to see if all of your strings end like that. */
 
-void show_line_numbers( CHAR_DATA * ch, char *string )
+void show_line_numbers( CHAR_DATA * ch, char *string, bool color )
 {
     char *ptr;
     char newstring[MAX_STRING_LENGTH];
     int line;
+    char c = 'w';
+    char c2;
 
     if ( !*string )
     {
@@ -783,9 +782,8 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
     *ptr = '\0';
     sprintf( ptr, " 1 " );
     ptr += 3;
-
     for ( line = 2; *string; string++ )
-    {
+    {        
         if ( *string == '\n' || *string == '\r' )
         {
 
@@ -796,21 +794,41 @@ void show_line_numbers( CHAR_DATA * ch, char *string )
              */
             if ( ( *string == '\n' && *( string + 1 ) == '\r' )
                  || ( *string == '\r' && *( string + 1 ) == '\n' ) )
+            {
                  string += 2;
+                printf("OMG carriage return\b");
+            }
             else
                 string++;
 
             if ( *string == '\0' )
                 break;
 
-            sprintf( ptr, "\n%2d ", line++ );
-            ptr += 4;
+            if ( c == 'w' )
+            {
+                sprintf( ptr, "\n%2d ", line++ );
+                ptr += 4;
+            }
+            else
+            {
+                sprintf( ptr, "\n`w%2d`%c ", line++, c );
+                ptr += 8;
+            }
+            
         }
-
+        if ( *string == '`')
+        {
+            c2 = UPPER(*(string+1));
+            if ( c2 == 'K' || c2 == 'Y' || c2 == 'G' || c2 == 'B' || 
+                c2 == 'R' || c2 == 'C' || c2 == 'M' || c2 == 'W' )
+                c = *(string+1);
+        }
         *ptr++ = *string;
+        if ( !color && *string == '`' ) // JR: don't render color
+            *ptr++ = *string;
     }
 
-    sprintf( ptr, "\n" );
+    sprintf( ptr, "\n`w" );
     send_to_char( newstring, ch );
     return;
 }

@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 15} Alfa    Moria~
+Group       Embermud~
 Builders    None~
 VNUMs       3900 4172
 Security    9
@@ -1144,7 +1145,7 @@ make out the queen's mines from here.
 ~
 0 4 4
 D0
-(null)~
+~
 ~
 0 0 4001
 D1
@@ -1153,7 +1154,7 @@ You see the mountains of the dwarven kingdom.
 ~
 0 0 6562
 D2
-(null)~
+~
 ~
 0 0 3500
 S
@@ -1169,11 +1170,11 @@ distant mountains.
 ~
 0 4 4
 D0
-(null)~
+~
 ~
 0 0 4002
 D2
-(null)~
+~
 ~
 0 0 4000
 S
@@ -1210,11 +1211,11 @@ The sign says:
                  | |
 ~
 D0
-(null)~
+~
 ~
 0 0 4010
 D2
-(null)~
+~
 ~
 0 0 4001
 S
@@ -1237,11 +1238,11 @@ The stone is inscribed with the unfortunate player's famous last words:
   "What are you worrying about, it is just a small harmless snake"
 ~
 D0
-(null)~
+~
 ~
 0 0 4011
 D2
-(null)~
+~
 ~
 0 0 4002
 S
@@ -1254,11 +1255,11 @@ damp, stuffy tunnels. To the north the tunnel continues.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4014
 D2
-(null)~
+~
 ~
 0 0 4010
 S
@@ -1270,11 +1271,11 @@ a cave.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4016
 D1
-(null)~
+~
 ~
 0 0 4013
 S
@@ -1285,11 +1286,11 @@ covers the floor, making the air stuffy and dry.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4014
 D3
-(null)~
+~
 ~
 0 0 4012
 S
@@ -1303,19 +1304,19 @@ is a branch of the tunnel going west.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4018
 D1
-(null)~
+~
 ~
 0 0 4015
 D2
-(null)~
+~
 ~
 0 0 4011
 D3
-(null)~
+~
 ~
 0 0 4013
 S
@@ -1325,11 +1326,11 @@ You are in a corner tunnel leading west and north.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4019
 D3
-(null)~
+~
 ~
 0 0 4014
 S
@@ -1340,15 +1341,15 @@ you notice a small tunnel.
 ~
 0 9 2
 D1
-(null)~
+~
 ~
 0 0 4017
 D2
-(null)~
+~
 ~
 0 0 4012
 D3
-(null)~
+~
 ~
 0 0 4023
 S
@@ -1358,7 +1359,7 @@ You are in the east end of the large cave.
 ~
 0 9 2
 D3
-(null)~
+~
 ~
 0 0 4016
 S
@@ -1373,11 +1374,11 @@ pile bones~
 Some of the bones are human!
 ~
 D0
-(null)~
+~
 ~
 0 0 4025
 D2
-(null)~
+~
 ~
 0 0 4014
 S
@@ -1387,11 +1388,11 @@ You are in a north-south leading tunnel.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4026
 D2
-(null)~
+~
 ~
 0 0 4015
 S
@@ -1401,11 +1402,11 @@ You are by a hole in the floor, you can leave down, or north.
 ~
 0 13 3
 D0
-(null)~
+~
 ~
 0 0 4027
 D5
-(null)~
+~
 ~
 0 0 4064
 S
@@ -1415,11 +1416,11 @@ A hole in the floor leads down here.
 ~
 0 13 3
 D1
-(null)~
+~
 ~
 0 0 4022
 D5
-(null)~
+~
 ~
 0 0 4115
 S
@@ -1431,15 +1432,15 @@ there is a large cave.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4023
 D1
-(null)~
+~
 ~
 0 0 4024
 D3
-(null)~
+~
 ~
 0 0 4021
 S
@@ -1450,11 +1451,11 @@ a damp tunnel.
 ~
 0 9 2
 D1
-(null)~
+~
 ~
 0 0 4016
 D2
-(null)~
+~
 ~
 0 0 4022
 S
@@ -1464,11 +1465,11 @@ You are in a corner of a damp tunnel. You can go west or south.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4059
 D3
-(null)~
+~
 ~
 0 0 4022
 S
@@ -1478,11 +1479,11 @@ You are in the north end of a cave. To the east you see many tunnels.
 ~
 0 9 2
 D1
-(null)~
+~
 ~
 0 0 4026
 D2
-(null)~
+~
 ~
 0 0 4018
 S
@@ -1492,19 +1493,19 @@ You are at the intersection of many tunnels.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4028
 D1
-(null)~
+~
 ~
 0 0 4027
 D2
-(null)~
+~
 ~
 0 0 4019
 D3
-(null)~
+~
 ~
 0 0 4025
 S
@@ -1515,15 +1516,15 @@ the west. From the north you sense the fresh air!
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4029
 D2
-(null)~
+~
 ~
 0 0 4020
 D3
-(null)~
+~
 ~
 0 0 4026
 S
@@ -1534,11 +1535,11 @@ to the north. You notice a strange smell from the north..
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4030
 D2
-(null)~
+~
 ~
 0 0 4026
 S
@@ -1550,11 +1551,11 @@ continue into the mountain.
 ~
 0 13 2
 D0
-(null)~
+~
 ~
 0 0 4031
 D2
-(null)~
+~
 ~
 0 0 4027
 S
@@ -1565,7 +1566,7 @@ the sky. A small tunnel to the south is the only way out.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 4028
 S
@@ -1580,11 +1581,11 @@ cave~
 Well it doesn't look nice, but it's the only way out.
 ~
 D0
-(null)~
+~
 ~
 0 0 4032
 D2
-(null)~
+~
 ~
 0 0 4029
 S
@@ -1595,11 +1596,11 @@ other side of the mountain. The path continues north.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 4033
 D2
-(null)~
+~
 ~
 0 0 4031
 S
@@ -1610,15 +1611,15 @@ north and south or you can follow a trail east into the mountains.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 4034
 D1
-(null)~
+~
 ~
 0 0 4037
 D2
-(null)~
+~
 ~
 0 0 4032
 S
@@ -1630,15 +1631,15 @@ large rocks litter this area. You can go north, west or south.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 4035
 D2
-(null)~
+~
 ~
 0 0 4033
 D3
-(null)~
+~
 ~
 0 0 4042
 S
@@ -1650,11 +1651,11 @@ here.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 4036
 D2
-(null)~
+~
 ~
 0 0 4034
 S
@@ -1664,7 +1665,7 @@ The plains. Exits are south.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 4035
 S
@@ -1674,11 +1675,11 @@ Exits are east and west.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4038
 D3
-(null)~
+~
 ~
 0 0 4033
 S
@@ -1688,11 +1689,11 @@ Exits are east and west.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4039
 D3
-(null)~
+~
 ~
 0 0 4037
 S
@@ -1702,11 +1703,11 @@ Exits are east and west.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4040
 D3
-(null)~
+~
 ~
 0 0 4038
 S
@@ -1716,7 +1717,7 @@ Exits are north, east, and west.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 4041
 D1
@@ -1725,7 +1726,7 @@ It doesn't look safe this way.
 ~
 0 0 7114
 D3
-(null)~
+~
 ~
 0 0 4039
 S
@@ -1735,7 +1736,7 @@ Exits are south.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 4040
 S
@@ -1745,11 +1746,11 @@ Exits are east and west.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4034
 D3
-(null)~
+~
 ~
 0 0 4043
 S
@@ -1759,11 +1760,11 @@ Exits are east and west.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4042
 D3
-(null)~
+~
 ~
 0 0 4044
 S
@@ -1773,7 +1774,7 @@ Exits are east.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 4043
 S
@@ -1783,11 +1784,11 @@ The tunnel turns here, continuing to the east and south.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4051
 D2
-(null)~
+~
 ~
 0 0 4053
 S
@@ -1797,11 +1798,11 @@ You are in a narrow east-west tunnel.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4052
 D3
-(null)~
+~
 ~
 0 0 4050
 S
@@ -1811,11 +1812,11 @@ You are at a turn, the tunnel continues south and west.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4100
 D3
-(null)~
+~
 ~
 0 0 4051
 S
@@ -1825,11 +1826,11 @@ You are at a turn, the tunnel continues north and east.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4050
 D1
-(null)~
+~
 ~
 0 0 4054
 S
@@ -1840,15 +1841,15 @@ the entire cave, to the east and west tunnels leads off.
 ~
 0 8 2
 D1
-(null)~
+~
 ~
 0 0 4055
 D2
-(null)~
+~
 ~
 0 0 4056
 D3
-(null)~
+~
 ~
 0 0 4053
 S
@@ -1858,7 +1859,7 @@ You are in a maze of small damp tunnels. The only exit is west.
 ~
 0 9 3
 D3
-(null)~
+~
 ~
 0 0 4054
 S
@@ -1869,11 +1870,11 @@ The cave continues to the north and south.
 ~
 0 8 2
 D0
-(null)~
+~
 ~
 0 0 4054
 D2
-(null)~
+~
 ~
 0 0 4061
 S
@@ -1883,11 +1884,11 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4058
 D2
-(null)~
+~
 ~
 0 0 4062
 S
@@ -1897,11 +1898,11 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4063
 D3
-(null)~
+~
 ~
 0 0 4057
 S
@@ -1912,11 +1913,11 @@ tunnel leads slightly down.
 ~
 0 13 3
 D0
-(null)~
+~
 ~
 0 0 4024
 D1
-(null)~
+~
 ~
 0 0 4060
 S
@@ -1927,11 +1928,11 @@ to the east you see some light.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4061
 D3
-(null)~
+~
 ~
 0 0 4059
 S
@@ -1941,11 +1942,11 @@ You are in the south end of a light cave.
 ~
 0 8 2
 D0
-(null)~
+~
 ~
 0 0 4056
 D3
-(null)~
+~
 ~
 0 0 4060
 S
@@ -1955,11 +1956,11 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4057
 D1
-(null)~
+~
 ~
 0 0 4065
 S
@@ -1969,11 +1970,11 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4058
 D1
-(null)~
+~
 ~
 0 0 4064
 S
@@ -1983,11 +1984,11 @@ You are at the eastern end of a tunnel.
 ~
 0 9 3
 D3
-(null)~
+~
 ~
 0 0 4063
 D4
-(null)~
+~
 ~
 0 0 4020
 S
@@ -1997,11 +1998,11 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4066
 D3
-(null)~
+~
 ~
 0 0 4062
 S
@@ -2011,15 +2012,15 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4067
 D2
-(null)~
+~
 ~
 0 0 4069
 D3
-(null)~
+~
 ~
 0 0 4065
 S
@@ -2029,7 +2030,7 @@ You are in a maze of small damp tunnels.
 ~
 0 9 3
 D3
-(null)~
+~
 ~
 0 0 4066
 S
@@ -2039,11 +2040,11 @@ You are in the northwest end of a large cave.
 ~
 0 9 2
 D1
-(null)~
+~
 ~
 0 0 4069
 D2
-(null)~
+~
 ~
 0 0 4070
 S
@@ -2054,15 +2055,15 @@ is a small damp tunnel.
 ~
 0 9 2
 D0
-(null)~
+~
 ~
 0 0 4066
 D2
-(null)~
+~
 ~
 0 0 4071
 D3
-(null)~
+~
 ~
 0 0 4068
 S
@@ -2072,11 +2073,11 @@ You are in the southwest end of a large cave.
 ~
 0 9 2
 D0
-(null)~
+~
 ~
 0 0 4068
 D1
-(null)~
+~
 ~
 0 0 4071
 S
@@ -2087,15 +2088,15 @@ notice a small tunnel.
 ~
 0 9 2
 D0
-(null)~
+~
 ~
 0 0 4069
 D1
-(null)~
+~
 ~
 0 0 4072
 D3
-(null)~
+~
 ~
 0 0 4070
 S
@@ -2107,15 +2108,15 @@ cave.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4073
 D2
-(null)~
+~
 ~
 0 0 4074
 D3
-(null)~
+~
 ~
 0 0 4071
 S
@@ -2125,7 +2126,7 @@ The tunnel stops here.
 ~
 0 9 3
 D3
-(null)~
+~
 ~
 0 0 4072
 S
@@ -2136,11 +2137,11 @@ or try your luck and leave down into the unknown!
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4072
 D5
-(null)~
+~
 ~
 0 0 4171
 S
@@ -2150,11 +2151,11 @@ Suddenly you feel that the tunnel leads slightly down.
 ~
 0 13 3
 D0
-(null)~
+~
 ~
 0 0 4052
 D3
-(null)~
+~
 ~
 0 0 4101
 S
@@ -2165,11 +2166,11 @@ wide at this point.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4100
 D3
-(null)~
+~
 ~
 0 0 4102
 S
@@ -2180,11 +2181,11 @@ narrow to the west.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4101
 D3
-(null)~
+~
 ~
 0 0 4103
 S
@@ -2195,15 +2196,15 @@ narrow at this point. You notice a small hole leading south.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4102
 D2
-(null)~
+~
 ~
 0 0 4106
 D3
-(null)~
+~
 ~
 0 0 4104
 S
@@ -2214,11 +2215,11 @@ down towards the west.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4103
 D3
-(null)~
+~
 ~
 0 0 4152
 S
@@ -2229,11 +2230,11 @@ light. The cave continues to the south and west.
 ~
 0 8 1
 D2
-(null)~
+~
 ~
 0 0 4108
 D3
-(null)~
+~
 ~
 0 0 4106
 S
@@ -2245,15 +2246,15 @@ tunnel.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4103
 D1
-(null)~
+~
 ~
 0 0 4105
 D2
-(null)~
+~
 ~
 0 0 4109
 S
@@ -2264,11 +2265,11 @@ cave.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4113
 D3
-(null)~
+~
 ~
 0 0 4108
 S
@@ -2280,15 +2281,15 @@ a small passage.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4105
 D1
-(null)~
+~
 ~
 0 0 4107
 D3
-(null)~
+~
 ~
 0 0 4109
 S
@@ -2299,15 +2300,15 @@ light. The cave continues to the south, east and north.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4106
 D1
-(null)~
+~
 ~
 0 0 4108
 D2
-(null)~
+~
 ~
 0 0 4114
 S
@@ -2317,7 +2318,7 @@ You are at the end of the tunnel.
 ~
 0 13 3
 D3
-(null)~
+~
 ~
 0 0 4111
 S
@@ -2327,11 +2328,11 @@ You are in a small tunnel, it leads from east to the west.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4110
 D3
-(null)~
+~
 ~
 0 0 4112
 S
@@ -2341,11 +2342,11 @@ You are in a larger tunnel, it leads from west to east.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4111
 D3
-(null)~
+~
 ~
 0 0 4113
 S
@@ -2356,15 +2357,15 @@ you see a tunnel.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4107
 D1
-(null)~
+~
 ~
 0 0 4112
 D2
-(null)~
+~
 ~
 0 0 4116
 S
@@ -2376,11 +2377,11 @@ passage.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4109
 D3
-(null)~
+~
 ~
 0 0 4115
 S
@@ -2391,11 +2392,11 @@ a small hole, just big enough to pass through.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4114
 D4
-(null)~
+~
 ~
 0 0 4021
 S
@@ -2406,11 +2407,11 @@ light to the south.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4113
 D2
-(null)~
+~
 ~
 0 0 4120
 S
@@ -2420,7 +2421,7 @@ You are in a secret chamber.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4122
 S
@@ -2432,11 +2433,11 @@ To the north a small hole leads to a tunnel.
 ~
 0 8 1
 D2
-(null)~
+~
 ~
 0 0 4123
 D3
-(null)~
+~
 ~
 0 0 4119
 S
@@ -2447,15 +2448,15 @@ head fire lights the room. The cave continues to the east and south.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 4118
 D2
-(null)~
+~
 ~
 0 0 4124
 D3
-(null)~
+~
 ~
 0 0 4121
 S
@@ -2465,11 +2466,11 @@ You are in a north-south leading passage. To the south you see light.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4116
 D2
-(null)~
+~
 ~
 0 0 4125
 S
@@ -2480,11 +2481,11 @@ approaching you as you continue west.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4119
 D3
-(null)~
+~
 ~
 0 0 4122
 S
@@ -2495,11 +2496,11 @@ feeling.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4117
 D1
-(null)~
+~
 ~
 0 0 4121
 S
@@ -2510,11 +2511,11 @@ head fire lights the room. The cave continues to the north and west.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4118
 D3
-(null)~
+~
 ~
 0 0 4124
 S
@@ -2526,15 +2527,15 @@ To the west a passage leads north.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 4119
 D1
-(null)~
+~
 ~
 0 0 4123
 D3
-(null)~
+~
 ~
 0 0 4125
 S
@@ -2546,11 +2547,11 @@ the darkness.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4120
 D1
-(null)~
+~
 ~
 0 0 4124
 S
@@ -2564,7 +2565,7 @@ The Balrog is ALIVE ...
 ~
 0 13 3
 D2
-(null)~
+~
 ~
 0 0 4151
 S
@@ -2575,15 +2576,15 @@ the south you see a large tunnel. The air is damp in this area.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4150
 D2
-(null)~
+~
 ~
 0 0 4156
 D3
-(null)~
+~
 ~
 0 0 4155
 S
@@ -2593,11 +2594,11 @@ You suddenly feel that the tunnel leads down.
 ~
 0 13 3
 D1
-(null)~
+~
 ~
 0 0 4104
 D2
-(null)~
+~
 ~
 0 0 4153
 S
@@ -2608,15 +2609,15 @@ air is damp in the area.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4152
 D1
-(null)~
+~
 ~
 0 0 4154
 D2
-(null)~
+~
 ~
 0 0 4157
 S
@@ -2627,11 +2628,11 @@ the floor is wet.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4155
 D3
-(null)~
+~
 ~
 0 0 4153
 S
@@ -2642,11 +2643,11 @@ you notice a long tunnel. The air is damp in this area.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4151
 D3
-(null)~
+~
 ~
 0 0 4154
 S
@@ -2656,11 +2657,11 @@ You are standing in a long north-south tunnel.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4151
 D2
-(null)~
+~
 ~
 0 0 4160
 S
@@ -2671,15 +2672,15 @@ partly covered by water.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4153
 D1
-(null)~
+~
 ~
 0 0 4158
 D2
-(null)~
+~
 ~
 0 0 4161
 S
@@ -2690,15 +2691,15 @@ and west. The floor is partly covered by water.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4159
 D2
-(null)~
+~
 ~
 0 0 4162
 D3
-(null)~
+~
 ~
 0 0 4157
 S
@@ -2709,11 +2710,11 @@ and west. The air is damp in this maze.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 4163
 D3
-(null)~
+~
 ~
 0 0 4158
 S
@@ -2736,11 +2737,11 @@ dragon breathed poison gas; we are also going to die soon.
        Trather and Oralane
 ~
 D0
-(null)~
+~
 ~
 0 0 4156
 D2
-(null)~
+~
 ~
 0 0 4164
 S
@@ -2751,11 +2752,11 @@ covered by water.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4157
 D2
-(null)~
+~
 ~
 0 0 4165
 S
@@ -2766,15 +2767,15 @@ water, exits leads north, east and south.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4158
 D1
-(null)~
+~
 ~
 0 0 4163
 D2
-(null)~
+~
 ~
 0 0 4166
 S
@@ -2785,15 +2786,15 @@ leads to the north and east.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4159
 D1
-(null)~
+~
 ~
 0 0 4164
 D3
-(null)~
+~
 ~
 0 0 4162
 S
@@ -2804,15 +2805,15 @@ To the west you see a small maze.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4160
 D2
-(null)~
+~
 ~
 0 0 4168
 D3
-(null)~
+~
 ~
 0 0 4163
 S
@@ -2823,11 +2824,11 @@ north and south.
 ~
 0 9 6
 D0
-(null)~
+~
 ~
 0 0 4161
 D2
-(null)~
+~
 ~
 0 0 4169
 S
@@ -2838,15 +2839,15 @@ by water. The maze continues to the north, east and south.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4162
 D1
-(null)~
+~
 ~
 0 0 4167
 D2
-(null)~
+~
 ~
 0 0 4170
 S
@@ -2857,15 +2858,15 @@ maze continues east, west and south.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 4168
 D2
-(null)~
+~
 ~
 0 0 4171
 D3
-(null)~
+~
 ~
 0 0 4166
 S
@@ -2876,11 +2877,11 @@ The air is damp here.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 4164
 D3
-(null)~
+~
 ~
 0 0 4167
 S
@@ -2890,11 +2891,11 @@ You are standing in the water, exits leads both north and east.
 ~
 0 9 6
 D0
-(null)~
+~
 ~
 0 0 4165
 D1
-(null)~
+~
 ~
 0 0 4170
 S
@@ -2904,15 +2905,15 @@ You are standing in the water, it continues east and west.
 ~
 0 9 6
 D0
-(null)~
+~
 ~
 0 0 4166
 D1
-(null)~
+~
 ~
 0 0 4172
 D3
-(null)~
+~
 ~
 0 0 4169
 S
@@ -2923,11 +2924,11 @@ Above you a hole leads up.
 ~
 0 13 3
 D0
-(null)~
+~
 ~
 0 0 4167
 D4
-(null)~
+~
 ~
 0 0 4074
 S
@@ -2937,7 +2938,7 @@ You are on a little sand bar in the water.
 ~
 0 9 3
 D3
-(null)~
+~
 ~
 0 0 4170
 S

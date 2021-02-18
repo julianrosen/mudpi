@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1  5} Sandman Dwarven Day Care~
+Group       Embermud~
 Builders    None~
 VNUMs       6600 6647
 Security    9
@@ -273,7 +274,7 @@ sign~
 This is an area for newbies, so have fun.  -- Sandman
 ~
 D0
-(null)~
+~
 ~
 0 -1 6500
 D2
@@ -480,7 +481,7 @@ that you don't get lost.
 ~
 0 13 2
 D1
-(null)~
+~
 ~
 0 -1 6613
 D4
@@ -494,46 +495,46 @@ Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
+D1
+~
+~
+0 -1 6614
 D3
-(null)~
+~
 ~
 0 -1 6612
 D2
-(null)~
+~
 ~
 0 -1 6615
-D1
-(null)~
-~
-0 -1 6614
 S
 #6614
 Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
-D3
-(null)~
-~
-0 -1 6613
 D2
-(null)~
+~
 ~
 0 -1 6616
+D3
+~
+~
+0 -1 6613
 S
 #6615
 Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
-D0
-(null)~
-~
-0 -1 6613
 D1
-(null)~
+~
 ~
 0 -1 6616
+D0
+~
+~
+0 -1 6613
 S
 #6616
 Mini-Maze~
@@ -541,17 +542,17 @@ You are in a small passage that looks just like every other one.
 ~
 0 9 2
 D3
-(null)~
+~
 ~
 0 -1 6615
-D2
-(null)~
-~
-0 -1 6624
 D0
-(null)~
+~
 ~
 0 -1 6614
+D2
+~
+~
+0 -1 6624
 S
 #6624
 End of the Mini-Maze~
@@ -565,11 +566,11 @@ If you are not level 6 or above, then don't go south!!!! It is a dangerous
 area, but congrats for getting this far - Sandman
 ~
 D0
-(null)~
+~
 ~
 0 -1 6616
 D2
-(null)~
+~
 ~
 0 -1 6631
 S
@@ -592,7 +593,7 @@ dragon (actually an overgrown brat with a Halloween mask).
 ~
 0 9 2
 D0
-(null)~
+~
 ~
 0 -1 6624
 S

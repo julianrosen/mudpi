@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 10} Copper  In the Air~
+Group       Embermud~
 Builders    None~
 VNUMs       1000 1040
 Security    9
@@ -45,7 +46,7 @@ gorblax~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 

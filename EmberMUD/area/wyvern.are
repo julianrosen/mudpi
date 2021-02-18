@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 30} Tyrst   Wyvern's Tower~
+Group       Embermud~
 Builders    None~
 VNUMs       1601 1720
 Security    9
@@ -313,7 +314,7 @@ ranger lord~
 the Lord of the Rangers~
 The Lord of the Rangers catches your eye.
 ~
-(null)~
+~
 Human~
 ABCT D 400 S
 21 0 
@@ -792,7 +793,7 @@ that were in here appear to have been ruined long ago.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 1606
 S
@@ -803,7 +804,7 @@ way you came. There are some scratches around the floor.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 1606
 D5
@@ -819,7 +820,7 @@ the worn but cared-for gear and trappings of some large humanoid.
 ~
 0 13 0
 D4
-(null)~
+~
 ~
 0 0 1609
 S
@@ -831,19 +832,19 @@ water all around you.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 1621
 D1
-(null)~
+~
 ~
 0 0 1623
 D2
-(null)~
+~
 ~
 0 0 1622
 D3
-(null)~
+~
 ~
 0 0 1604
 S
@@ -855,7 +856,7 @@ around you.
 ~
 0 0 7
 D2
-(null)~
+~
 ~
 0 0 1620
 S
@@ -867,7 +868,7 @@ around you.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 1620
 S
@@ -879,11 +880,11 @@ the walls are ornately decorated with very life-like stone gargoyles.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 1624
 D3
-(null)~
+~
 ~
 0 0 1620
 S
@@ -897,11 +898,11 @@ covered in highly ornate and life-like stone gargoyles.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 1625
 D3
-(null)~
+~
 ~
 0 0 1623
 S
@@ -913,19 +914,19 @@ stone gargoyle. There are doors north and south, and passages east and west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 1627
 D1
-(null)~
+~
 ~
 0 0 1626
 D2
-(null)~
+~
 ~
 0 0 1628
 D3
-(null)~
+~
 ~
 0 0 1624
 S
@@ -936,19 +937,19 @@ There are room on each side of the corridor, and openings at each end.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 1629
 D1
-(null)~
+~
 ~
 0 0 1631
 D2
-(null)~
+~
 ~
 0 0 1630
 D3
-(null)~
+~
 ~
 0 0 1625
 S
@@ -960,7 +961,7 @@ pot-belly stove. There is a door south, and a serving hatch east.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 1625
 S
@@ -971,7 +972,7 @@ the plants have grown into a hideous jungle. The only exit is north.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 1625
 S
@@ -984,7 +985,7 @@ a door south.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 1626
 S
@@ -995,7 +996,7 @@ have been stolen long ago, however. The only exit is north.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 0 1626
 S
@@ -1009,15 +1010,15 @@ of this tower.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 1632
 D2
-(null)~
+~
 ~
 0 0 1633
 D3
-(null)~
+~
 ~
 0 0 1626
 D4
@@ -1034,7 +1035,7 @@ remains of a great many table and chairs. The exit is south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 1631
 D5
@@ -1051,7 +1052,7 @@ anyway. The only exit is north.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 1631
 S
@@ -1063,7 +1064,7 @@ furniture looms obliquely about the room.
 ~
 0 9 1
 D4
-(null)~
+~
 ~
 1 -1 1632
 S
@@ -1074,11 +1075,11 @@ the eastern tower. You can go up or down.
 ~
 0 9 2
 D4
-(null)~
+~
 ~
 0 0 1636
 D5
-(null)~
+~
 ~
 0 0 1631
 S
@@ -1090,11 +1091,11 @@ walls. An opening leads westward, and a spiral staircase leads down.
 ~
 0 9 1
 D3
-(null)~
+~
 ~
 0 0 1637
 D5
-(null)~
+~
 ~
 0 0 1635
 S
@@ -1107,19 +1108,19 @@ and openings east and west.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 1638
 D1
-(null)~
+~
 ~
 0 0 1636
 D2
-(null)~
+~
 ~
 0 0 1639
 D3
-(null)~
+~
 ~
 0 0 1640
 S
@@ -1132,7 +1133,7 @@ exit is south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 1637
 S
@@ -1143,7 +1144,7 @@ The only exit is north.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 1637
 S
@@ -1156,11 +1157,11 @@ room is barren.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 1637
 D3
-(null)~
+~
 ~
 0 0 1641
 D4
@@ -1176,7 +1177,7 @@ view of the entire room. The only exit is the way you came in.
 ~
 0 8 2
 D1
-(null)~
+~
 ~
 0 0 1640
 S
@@ -1187,11 +1188,11 @@ second and third floors. You can go up or down.
 ~
 0 8 2
 D4
-(null)~
+~
 ~
 0 0 1643
 D5
-(null)~
+~
 ~
 0 0 1640
 S
@@ -1203,32 +1204,32 @@ comes a strange inky blackness. A spiral staircase leads down.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 1 -1 1644
 D5
-(null)~
+~
 ~
 0 0 1642
 S
 #1644
 It's too dark to see anything!~
-(null)~
+~
 0 9 3
 D0
-(null)~
+~
 ~
 1 -1 1645
 D1
-(null)~
+~
 ~
 1 -1 1647
 D2
-(null)~
+~
 ~
 1 -1 1646
 D3
-(null)~
+~
 ~
 1 -1 1643
 S
@@ -1240,7 +1241,7 @@ in one corner catches your eye. The only exit is the way you came in.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 1644
 S
@@ -1254,7 +1255,7 @@ of authority. The only door is north.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 1644
 S
@@ -1267,7 +1268,7 @@ looking keyhole. There is also a door to the west.
 ~
 0 8 1
 D3
-(null)~
+~
 ~
 1 -1 1644
 D4
@@ -1290,7 +1291,7 @@ There is a small opening this way.
 ~
 0 0 1649
 D5
-(null)~
+~
 ~
 1 -1 1647
 S
@@ -1305,7 +1306,7 @@ leads into the western turret.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 1648
 D3
@@ -1323,7 +1324,7 @@ western wall.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 1649
 D3
@@ -1342,11 +1343,11 @@ as the eye can see under the conditions.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 1650
 D3
-(null)~
+~
 ~
 0 0 1652
 S
@@ -1357,7 +1358,7 @@ chair facing a mirror on the wall.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 1651
 S
@@ -1374,7 +1375,7 @@ You see a cross roads and an old building.
 ~
 0 0 1702
 D3
-(null)~
+~
 ~
 0 0 5267
 S
@@ -1403,7 +1404,7 @@ An old, ram-shackle building serves as a trading post here.
 ~
 0 0 1703
 D3
-(null)~
+~
 ~
 0 0 1701
 S

@@ -17,6 +17,7 @@
 
 #define STARTING_AGE  25
 #define MAX_RACE_LEN  11
+#define COLOR_DESC    TRUE /* Render color while editing descriptions */
 
 
 /* Prompts */

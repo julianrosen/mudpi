@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 20} Outkast Oddville~
+Group       Mudweiser~
 Builders    None~
 VNUMs       22300 22399
 Security    6
@@ -13,7 +14,7 @@ citizen oddville~
 a citizen of Oddville~
 A citizen of Oddville is wandering around here.
 ~
-(null)~
+~
 Human~
 AH 0 0 S
 10 5 
@@ -27,7 +28,7 @@ a Gartner Snake~
 a Gartner Snake~
 A Gartner Snake is slithering around here.
 ~
-(null)~
+~
 snake~
 AI 0 0 S
 9 5 
@@ -41,7 +42,7 @@ nightcrawler~
 a Nightcrawler~
 A Nightcrawler is wiggling around here.
 ~
-(null)~
+~
 snake~
 AI U 0 S
 3 2 
@@ -55,7 +56,7 @@ Loonie Larry~
 Loonie Larry~
 Loonie Larry is here trying to sell one of his pets.
 ~
-(null)~
+~
 Human~
 ABHd H 0 S
 70 50 
@@ -69,7 +70,7 @@ a wasp~
 a Wasp~
 A small wasp is flying around here.
 ~
-(null)~
+~
 bat~
 AI TZ 0 S
 8 8 
@@ -83,7 +84,7 @@ town idiot~
 the town idiot~
 The town idiot is stumbling around here.
 ~
-(null)~
+~
 Human~
 AS 0 0 S
 9 3 
@@ -97,7 +98,7 @@ hermit crab~
 a Hermit Crab~
 A small hermit crab is here.
 ~
-(null)~
+~
 snake~
 AI 0 0 S
 2 2 
@@ -111,7 +112,7 @@ eddie superhero ~
 Eddie the wanna-be Superhero~
 Eddie the crazy man is here pretending he's a Superhero.
 ~
-(null)~
+~
 Human~
 AB H -2 S
 15 9 
@@ -125,7 +126,7 @@ Jack armorer~
 Jack the Armorer~
 Jack the Armorer is standing here.
 ~
-(null)~
+~
 Human~
 ABd H 0 S
 98 0 
@@ -139,7 +140,7 @@ crazy citizen~
 a crazy citizen~
 A crazy citizen of Oddville is here screaming at you.
 ~
-(null)~
+~
 Human~
 AH a -10 S
 13 4 
@@ -153,7 +154,7 @@ weak misfit oddville~
 a weak misfit of Oddville~
 A weak misfit of Oddville is training here.
 ~
-(null)~
+~
 Troll~
 ABH IJc 0 S
 7 2 
@@ -167,7 +168,7 @@ Warren the Weaponsmith~
 Warren the Weaponsmith~
 Warren the Weaponsmith is here offering you the best of his weapons.
 ~
-(null)~
+~
 Human~
 ABd 0 0 S
 94 60 
@@ -198,7 +199,7 @@ oddville midget guard~
 a Midget Guard~
 A Midget Guard is here guarding the temple.
 ~
-(null)~
+~
 Troll~
 ABS JNc 0 S
 10 4 
@@ -212,7 +213,7 @@ Gorak the Guildmaster~
 Gorak the Trainer~
 Gorak the trainer is here training his misfits.
 ~
-(null)~
+~
 Troll~
 ABJKd Jc 0 S
 90 100 
@@ -226,7 +227,7 @@ werewolf boy~
 Werewolf Boy~
 A small boy is cuddled up in the corner here.
 ~
-(null)~
+~
 Wolf~
 AB UZ 10 S
 11 4 
@@ -240,7 +241,7 @@ a spirit dead~
 a spirit~
 A Spirit of the dead suddenly appears.
 ~
-(null)~
+~
 goblin~
 AB JU -124 S
 13 3 
@@ -254,7 +255,7 @@ strange man ~
 a strange man~
 A strange man is conjuring up the spirits of the dead here.
 ~
-(null)~
+~
 Human~
 ABO Z 3 S
 13 2 
@@ -268,7 +269,7 @@ Giant Rat~
 a Giant Rat~
 A Giant Rat is running around here.
 ~
-(null)~
+~
 unique~
 AI 0 5 S
 15 7 
@@ -298,7 +299,7 @@ Thyraid Spider~
 Thyraid the Spider~
 Thyraid the Spider drops from the Ceiling.
 ~
-(null)~
+~
 modron~
 AB JU 30 S
 17 7 
@@ -312,7 +313,7 @@ spider~
 a small spider~
 A small spider is crawling around here.
 ~
-(null)~
+~
 modron~
 AB JU 2 S
 14 4 
@@ -326,7 +327,7 @@ shargoth ~
 Shargoth the Shadow Warrior~
 Shargoth the Shadow Warrior is here hiding in the shadows.
 ~
-(null)~
+~
 unique~
 ABS H 0 S
 16 5 
@@ -340,7 +341,7 @@ Yasmine shopkeeper~
 the Beautiful Yasmine~
 The Beautiful Yasmine is here selling her supplies.
 ~
-(null)~
+~
 Human~
 ABd H -34 S
 88 100 
@@ -354,7 +355,7 @@ extremly hyper child~
 a extremely hyper child~
 A extremely hyper child is running around here.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 9 2 
@@ -368,7 +369,7 @@ mean old lady~
 a mean old lady~
 A mean old lady steals your seat from you.
 ~
-(null)~
+~
 Human~
 AB 0 4 S
 8 2 
@@ -382,7 +383,7 @@ two headed duck~
 a two headed duck~
 A two headed duck is here swimming along the pond.
 ~
-(null)~
+~
 water fowl~
 AB Tb 0 S
 6 3 
@@ -396,7 +397,7 @@ weird frog weis~
 a weird frog~
 A annoying frog is here saying `W"Weis."`w
 ~
-(null)~
+~
 unique~
 AB 0 0 S
 0 7 
@@ -410,7 +411,7 @@ weird frog er~
 a weird frog~
 A annoying frog is here saying `R"Errr."`w
 ~
-(null)~
+~
 unique~
 AB 0 0 S
 9 8 
@@ -424,7 +425,7 @@ mayors secretary~
 a secretary~
 The Mayor's Secretary is kindly waiting here mumbling to herself.
 ~
-(null)~
+~
 Human~
 AB H -123 S
 17 6 
@@ -438,7 +439,7 @@ Drunk Mayor of Oddville~
 the Mayor of Oddville~
 The Mayor is here passed out on the floor drunk.
 ~
-(null)~
+~
 Human~
 ABG 0 0 S
 20 13 
@@ -452,7 +453,7 @@ frog mud~
 a weird frog~
 A annoying frog is here saying `R"Mud."`w
 ~
-(null)~
+~
 unique~
 AB 0 0 S
 10 8 
@@ -466,7 +467,7 @@ Lucifer the Mad Man~
 Lucifer the mad man~
 Lucifer the pissed off man is here.
 ~
-(null)~
+~
 Human~
 AB Ka 0 S
 17 9 
@@ -496,7 +497,7 @@ old warlock~
 the old warlock~
 The Old Warlock is offering some of his finest items here to you.
 ~
-(null)~
+~
 Human~
 ABd 0 0 S
 91 90 
@@ -510,7 +511,7 @@ barney bartender~
 Barney the Bartender~
 Barney the Bartender is waiting to serve you.
 ~
-(null)~
+~
 Human~
 ABd 0 0 S
 85 90 
@@ -533,11 +534,11 @@ unknown~
 ABC AC AC ABC 0
 14 4 301 P
 A
-1 1
+18 3
 A
 19 1
 A
-18 3
+1 1
 #22302
 platinum spiked shield~
 a platinum spiked shield~
@@ -547,11 +548,11 @@ unknown~
 AC AC AC AC 0
 17 1 324 P
 A
-13 15
+19 2
 A
 18 2
 A
-19 2
+13 15
 #22303
 glass sword~
 `cThe Glass Sword`w~
@@ -561,9 +562,9 @@ unknown~
 A ABC AB BCDE B
 18 1 454 P
 A
-19 7
-A
 18 5
+A
+19 7
 #22304
 evil dagger~
 a evil looking dagger~
@@ -573,11 +574,11 @@ unknown~
 B BC AB B D
 10 1 106 P
 A
-4 2
+19 2
 A
 18 1
 A
-19 2
+4 2
 #22305
 sword odd~
 `WThe Sword of the Odd`w~
@@ -587,11 +588,11 @@ unknown~
 A ABC AC ABCDE C
 27 1 319 P
 A
-19 3
+4 -1
 A
 18 5
 A
-4 -1
+19 3
 #22306
 spiked mace~
 a large spiked Mace~
@@ -601,11 +602,11 @@ unknown~
 0 C C ABC D
 8 1 99 P
 A
-17 -5
+19 2
 A
 18 2
 A
-19 2
+17 -5
 #22307
 zippo lighter~
 a zippo lighter~
@@ -633,9 +634,9 @@ unknown~
 AC AC AC AC 0
 12 5 125 P
 A
-18 2
-A
 19 1
+A
+18 2
 #22310
 cowboy boots~
 a pair of `yCowboy Boots`w~
@@ -645,11 +646,11 @@ unknown~
 C C C BC 0
 13 1 704 P
 A
-19 2
+14 50
 A
 18 2
 A
-14 50
+19 2
 #22311
 odd potion~
 a Odd Potion~
@@ -667,11 +668,11 @@ unknown~
 C C AB ABDE E
 9 1 100 P
 A
-17 -8
+18 3
 A
 19 3
 A
-18 3
+17 -8
 #22313
 Golden Wand~
 a Golden Wand~
@@ -697,11 +698,11 @@ unknown~
 B AD AB B E
 25 1 678 P
 A
-18 5
+19 4
 A
 17 -14
 A
-19 4
+18 5
 #22317
 warlock's robe~
 a Warlock's Robe~
@@ -711,11 +712,11 @@ unknown~
 AC AC AC AC 0
 14 0 134 P
 A
-18 2
+12 5
 A
 19 1
 A
-12 5
+18 2
 #22318
 solid steel leggings~
 a pair of Solid Steel Leggings~
@@ -725,13 +726,13 @@ unknown~
 AD AD AD BD 0
 27 0 976 P
 A
-19 3
-A
-18 4
+2 -1
 A
 13 11
 A
-2 -1
+18 4
+A
+19 3
 #22326
 bottle jack daniels~
 a bottle of Jack Daniel's~
@@ -793,11 +794,11 @@ not many good things. You're curious so you go explore the towns anyway.
 ~
 0 4 4
 D0
-(null)~
+~
 ~
 0 0 22301
 D2
-(null)~
+~
 ~
 0 0 22306
 S
@@ -810,11 +811,11 @@ get off of the road.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 22302
 D2
-(null)~
+~
 ~
 0 0 22300
 S
@@ -826,15 +827,15 @@ going on from up ahead. To the north you notice some sort of shop.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22303
 D1
-(null)~
+~
 ~
 0 0 22305
 D2
-(null)~
+~
 ~
 0 0 22301
 S
@@ -847,7 +848,7 @@ you've done a good deed, and you leave with a smile on your face also.
 ~
 0 4096 0
 D2
-(null)~
+~
 ~
 0 0 22302
 S
@@ -866,11 +867,11 @@ start to think you should keep out on the look for all the weirdos.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 22307
 D3
-(null)~
+~
 ~
 0 0 22302
 S
@@ -883,11 +884,11 @@ this town.
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 22300
 D2
-(null)~
+~
 ~
 0 0 16053
 S
@@ -901,15 +902,15 @@ thinks he's some sort of superhero, and you just laugh at him mercilessly.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22310
 D1
-(null)~
+~
 ~
 0 0 22308
 D2
-(null)~
+~
 ~
 0 0 22305
 S
@@ -921,24 +922,24 @@ buy his merchandise. He stares at you like you're a thief.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 6 0 22309
 D3
-(null)~
+~
 ~
 0 0 22307
 S
 #22309
 Jack's Supply Room~
 This is Jack's Secret Supply Room. Jack built this room so he can hide
-from all the odd people that come on his store. Jack spends alot of time in
+from all the odd people that come on his store. Jack spends a lot of time in
 here.  
  
 ~
 0 4 0
 D2
-(null)~
+~
 ~
 6 0 22308
 S
@@ -952,23 +953,23 @@ north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22336
 D1
-(null)~
+~
 ~
 0 0 22328
 D2
-(null)~
+~
 ~
 0 0 22307
 D3
-(null)~
+~
 ~
 0 0 22312
 D5
-(null)~
+~
 ~
 0 0 22311
 S
@@ -980,15 +981,15 @@ to the west a weird building of some sort is there.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22327
 D3
-(null)~
+~
 ~
 0 0 22313
 D4
-(null)~
+~
 ~
 0 0 22310
 S
@@ -1001,7 +1002,7 @@ take a look around.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 22310
 S
@@ -1015,11 +1016,11 @@ huge temple.
 ~
 0 8192 0
 D0
-(null)~
+~
 ~
 0 0 22314
 D1
-(null)~
+~
 ~
 0 0 22311
 S
@@ -1033,15 +1034,15 @@ forest.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22316
 D2
-(null)~
+~
 ~
 0 0 22313
 D3
-(null)~
+~
 ~
 0 0 22315
 S
@@ -1053,11 +1054,11 @@ you step into the forest. The forest continues to the north.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22317
 D1
-(null)~
+~
 ~
 0 0 22314
 S
@@ -1070,7 +1071,7 @@ Gorak the trainer is here forcing people into working harder.
 ~
 0 0 4
 D2
-(null)~
+~
 ~
 0 0 22314
 S
@@ -1082,11 +1083,11 @@ think he's a boy.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22318
 D2
-(null)~
+~
 ~
 0 0 22315
 S
@@ -1099,15 +1100,15 @@ that means.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22321
 D2
-(null)~
+~
 ~
 0 0 22317
 D3
-(null)~
+~
 ~
 0 0 22319
 S
@@ -1119,11 +1120,11 @@ to the north.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22320
 D1
-(null)~
+~
 ~
 0 0 22318
 S
@@ -1137,7 +1138,7 @@ pops up from the depths of the ground!
 ~
 0 0 3
 D2
-(null)~
+~
 ~
 0 0 22319
 S
@@ -1150,15 +1151,15 @@ a piece of meat.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22325
 D2
-(null)~
+~
 ~
 0 0 22318
 D3
-(null)~
+~
 ~
 0 0 22322
 S
@@ -1170,11 +1171,11 @@ twig and it snaps. The cave suddenly gets quiet.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22323
 D1
-(null)~
+~
 ~
 0 0 22321
 S
@@ -1189,11 +1190,11 @@ the east is a den filled with small spiders.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 22324
 D2
-(null)~
+~
 ~
 0 0 22322
 S
@@ -1205,7 +1206,7 @@ on you. There are webs everywhere, and you keep getting caught in them.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 22323
 S
@@ -1218,11 +1219,11 @@ though from here that it's all the farther you'll be going.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 22326
 D2
-(null)~
+~
 ~
 0 0 22321
 S
@@ -1234,7 +1235,7 @@ work to get here.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22325
 S
@@ -1246,7 +1247,7 @@ so you just ignore the smell.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22311
 S
@@ -1257,11 +1258,11 @@ eat is pure sugar. The park continues to the east.
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 22329
 D3
-(null)~
+~
 ~
 0 0 22310
 S
@@ -1274,15 +1275,15 @@ the chance. The park continues south.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22330
 D2
-(null)~
+~
 ~
 0 0 22332
 D3
-(null)~
+~
 ~
 0 0 22328
 S
@@ -1295,11 +1296,11 @@ along side of the pond. You can continue north around the pond.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 0 22335
 D2
-(null)~
+~
 ~
 0 0 22329
 S
@@ -1311,11 +1312,11 @@ see the mayor of Oddville.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 1 0 22333
 D3
-(null)~
+~
 ~
 0 0 22332
 S
@@ -1327,11 +1328,11 @@ can't go in any other direction.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22329
 D1
-(null)~
+~
 ~
 0 0 22331
 S
@@ -1343,11 +1344,11 @@ mayor that you are here to see him.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22334
 D2
-(null)~
+~
 ~
 1 0 22331
 S
@@ -1359,7 +1360,7 @@ pride and joy of Oddville! Just think, he runs the city of Oddville.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22333
 S
@@ -1372,7 +1373,7 @@ the pond. These frogs aren't your everyday frogs.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22330
 S
@@ -1385,11 +1386,11 @@ to.
 ~
 0 2097152 1
 D2
-(null)~
+~
 ~
 0 0 22310
 D3
-(null)~
+~
 ~
 0 0 22337
 S
@@ -1401,15 +1402,15 @@ things! To the north is a bar of some sort.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22340
 D1
-(null)~
+~
 ~
 0 0 22336
 D3
-(null)~
+~
 ~
 0 0 22338
 S
@@ -1422,11 +1423,11 @@ eye of it.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 22339
 D1
-(null)~
+~
 ~
 0 0 22337
 S
@@ -1438,7 +1439,7 @@ business.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22338
 S
@@ -1450,7 +1451,7 @@ or two. Barney the bartender is here serving the drinks.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22337
 S

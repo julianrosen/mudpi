@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1  5} Hatchet Mud School~
+Group       Embermud~
 Builders    None~
 VNUMs       3700 3799
 Security    9
@@ -1119,15 +1120,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3729
 D1
-(null)~
+~
 ~
 0 0 3725
 D3
-(null)~
+~
 ~
 0 0 3723
 D4
@@ -1144,15 +1145,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3728
 D1
-(null)~
+~
 ~
 0 0 3722
 D3
-(null)~
+~
 ~
 0 0 3724
 D4
@@ -1169,11 +1170,11 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3727
 D1
-(null)~
+~
 ~
 0 0 3723
 D4
@@ -1190,15 +1191,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3730
 D1
-(null)~
+~
 ~
 0 0 3726
 D3
-(null)~
+~
 ~
 0 0 3722
 D4
@@ -1215,11 +1216,11 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3731
 D3
-(null)~
+~
 ~
 0 0 3725
 D4
@@ -1236,15 +1237,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3732
 D1
-(null)~
+~
 ~
 0 0 3728
 D2
-(null)~
+~
 ~
 0 0 3724
 D4
@@ -1261,19 +1262,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3733
 D1
-(null)~
+~
 ~
 0 0 3729
 D2
-(null)~
+~
 ~
 0 0 3723
 D3
-(null)~
+~
 ~
 0 0 3727
 D4
@@ -1290,19 +1291,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3734
 D1
-(null)~
+~
 ~
 0 0 3730
 D2
-(null)~
+~
 ~
 0 0 3722
 D3
-(null)~
+~
 ~
 0 0 3728
 D4
@@ -1319,19 +1320,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3735
 D1
-(null)~
+~
 ~
 0 0 3731
 D2
-(null)~
+~
 ~
 0 0 3725
 D3
-(null)~
+~
 ~
 0 0 3729
 D4
@@ -1348,15 +1349,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3736
 D2
-(null)~
+~
 ~
 0 0 3726
 D3
-(null)~
+~
 ~
 0 0 3730
 D4
@@ -1373,15 +1374,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3737
 D1
-(null)~
+~
 ~
 0 0 3733
 D2
-(null)~
+~
 ~
 0 0 3727
 D4
@@ -1398,19 +1399,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3738
 D1
-(null)~
+~
 ~
 0 0 3734
 D2
-(null)~
+~
 ~
 0 0 3728
 D3
-(null)~
+~
 ~
 0 0 3732
 D4
@@ -1433,19 +1434,19 @@ to the Dungeon. However, know that there are aggressive monsters down there,
 and there is no quick escape back out of here when you are in the dungeon.
 ~
 D0
-(null)~
+~
 ~
 0 0 3739
 D1
-(null)~
+~
 ~
 0 0 3735
 D2
-(null)~
+~
 ~
 0 0 3729
 D3
-(null)~
+~
 ~
 0 0 3733
 D4
@@ -1467,19 +1468,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3740
 D1
-(null)~
+~
 ~
 0 0 3736
 D2
-(null)~
+~
 ~
 0 0 3730
 D3
-(null)~
+~
 ~
 0 0 3734
 D4
@@ -1496,15 +1497,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3741
 D2
-(null)~
+~
 ~
 0 0 3731
 D3
-(null)~
+~
 ~
 0 0 3735
 D4
@@ -1521,15 +1522,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3742
 D1
-(null)~
+~
 ~
 0 0 3738
 D2
-(null)~
+~
 ~
 0 0 3732
 D4
@@ -1546,19 +1547,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3743
 D1
-(null)~
+~
 ~
 0 0 3739
 D2
-(null)~
+~
 ~
 0 0 3733
 D3
-(null)~
+~
 ~
 0 0 3737
 D4
@@ -1575,19 +1576,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3744
 D1
-(null)~
+~
 ~
 0 0 3740
 D2
-(null)~
+~
 ~
 0 0 3734
 D3
-(null)~
+~
 ~
 0 0 3738
 D4
@@ -1604,19 +1605,19 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3745
 D1
-(null)~
+~
 ~
 0 0 3741
 D2
-(null)~
+~
 ~
 0 0 3735
 D3
-(null)~
+~
 ~
 0 0 3739
 D4
@@ -1633,15 +1634,15 @@ being watched by some divine being.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 3746
 D2
-(null)~
+~
 ~
 0 0 3736
 D3
-(null)~
+~
 ~
 0 0 3740
 D4
@@ -1658,11 +1659,11 @@ being watched by some divine being.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 3743
 D2
-(null)~
+~
 ~
 0 0 3737
 D4
@@ -1679,15 +1680,15 @@ by some divine being.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 3744
 D2
-(null)~
+~
 ~
 0 0 3738
 D3
-(null)~
+~
 ~
 0 0 3742
 D4
@@ -1704,15 +1705,15 @@ being watched by some divine being.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 3745
 D2
-(null)~
+~
 ~
 0 0 3739
 D3
-(null)~
+~
 ~
 0 0 3743
 D4
@@ -1729,15 +1730,15 @@ being watched by some divine being.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 3746
 D2
-(null)~
+~
 ~
 0 0 3740
 D3
-(null)~
+~
 ~
 0 0 3744
 D4
@@ -1754,11 +1755,11 @@ being watched by some divine being.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 3741
 D3
-(null)~
+~
 ~
 0 0 3745
 D4

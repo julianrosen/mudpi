@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 25} Drkside Thalos~
+Group       Embermud~
 Builders    None~
 VNUMs       5200 5281
 Security    9
@@ -62,7 +63,7 @@ mimic boulder~
 the mimic~
 Two skeletons lie crushed under a large boulder.
 ~
-(null)~
+~
 Human~
 ABCFGHT P -10 S
 11 0 
@@ -76,7 +77,7 @@ mimic floor~
 the mimic~
 The stone floor of this house has been ripped apart.
 ~
-(null)~
+~
 Human~
 ABCFGHT P -140 S
 12 0 
@@ -90,7 +91,7 @@ mimic pottery~
 the mimic~
 Some broken shards of pottery lie strewn about the floor.
 ~
-(null)~
+~
 Human~
 ABCFGHT P 200 S
 10 0 
@@ -104,7 +105,7 @@ mimic planks~
 the mimic~
 A few wooden planks lie stacked on a low shelf.
 ~
-(null)~
+~
 Human~
 ABCFGHT P 0 S
 10 0 
@@ -593,7 +594,7 @@ The remnants of a store lie this way.
 ~
 0 0 5236
 D1
-(null)~
+~
 ~
 0 0 5201
 D2
@@ -755,15 +756,15 @@ to the south you see the temple. The incessant howling tears at your mind.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5243
 D2
-(null)~
+~
 ~
 0 0 5210
 D3
-(null)~
+~
 ~
 0 0 5228
 S
@@ -776,7 +777,7 @@ into. The street continues north and south and buildings line the street.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5209
 D1
@@ -785,7 +786,7 @@ A small doorway leads into a partially collapsed house.
 ~
 1 -1 5244
 D2
-(null)~
+~
 ~
 0 0 5211
 D3
@@ -802,7 +803,7 @@ used to be. A lone howl makes you worry greatly about your safety here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5210
 D1
@@ -841,7 +842,7 @@ This possibly could be the city hall.
 ~
 0 0 5232
 D2
-(null)~
+~
 ~
 0 0 5213
 D3
@@ -860,7 +861,7 @@ and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5212
 D1
@@ -871,7 +872,7 @@ from debris.
 ~
 0 0 5230
 D2
-(null)~
+~
 ~
 0 0 5214
 D3
@@ -888,19 +889,19 @@ A long dark alley runs east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5213
 D1
-(null)~
+~
 ~
 0 0 5251
 D2
-(null)~
+~
 ~
 0 0 5229
 D3
-(null)~
+~
 ~
 0 0 5218
 S
@@ -911,15 +912,15 @@ from invaders. From the looks of things, it did not do a good job.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5216
 D1
-(null)~
+~
 ~
 0 0 5218
 D4
-(null)~
+~
 ~
 0 0 5247
 S
@@ -959,7 +960,7 @@ This is a cart full of rotted vegetables and fruits.
 ~
 0 0 5220
 D2
-(null)~
+~
 ~
 0 0 5216
 S
@@ -1035,7 +1036,7 @@ think these might be beds.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5223
 D1
@@ -1061,7 +1062,7 @@ A tall watchtower stands a silent vigil over the city.
 ~
 0 0 5224
 D2
-(null)~
+~
 ~
 0 0 5222
 S
@@ -1072,11 +1073,11 @@ the city from invaders. Obviously, it failed.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5228
 D2
-(null)~
+~
 ~
 0 0 5223
 D4
@@ -1136,11 +1137,11 @@ a small side street.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5209
 D3
-(null)~
+~
 ~
 0 0 5224
 S
@@ -1189,7 +1190,7 @@ The long hallway leads back to the main reception area of the city hall.
 ~
 0 0 5232
 D1
-(null)~
+~
 ~
 0 0 5234
 S
@@ -1218,7 +1219,7 @@ A hallway leads to the south wing of the city hall.
 ~
 0 0 5231
 D3
-(null)~
+~
 ~
 0 0 5212
 S
@@ -1232,11 +1233,11 @@ an ivy-covered archway leads south into a private courtyard.
 ~
 0 8 1
 D2
-(null)~
+~
 ~
 0 0 5234
 D3
-(null)~
+~
 ~
 0 0 5232
 S
@@ -1252,11 +1253,11 @@ north and west lead back into the city hall.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5233
 D3
-(null)~
+~
 ~
 0 0 5231
 S
@@ -1297,7 +1298,7 @@ set of wooden steps leads up to a creaking second floor.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 5238
 D3
@@ -1322,7 +1323,7 @@ city. The doorway to the east is blocked, making the only exit back west.
 ~
 0 8 1
 D3
-(null)~
+~
 ~
 0 0 5237
 S
@@ -1333,7 +1334,7 @@ a watchtower. A mass of howls catches you of guard.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5240
 D2
@@ -1355,7 +1356,7 @@ A tall watchtower stands a silent vigil over the city.
 ~
 0 0 5241
 D2
-(null)~
+~
 ~
 0 0 5239
 S
@@ -1366,11 +1367,11 @@ south and a very weak looking ladder leads up into the tower.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 5240
 D3
-(null)~
+~
 ~
 0 0 5243
 D4
@@ -1391,7 +1392,7 @@ collapsed house.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 5243
 D3
@@ -1414,7 +1415,7 @@ A watchtower stands a silent vigil over the city.
 ~
 0 0 5241
 D2
-(null)~
+~
 ~
 0 0 5242
 D3
@@ -1432,7 +1433,7 @@ the hole in the east wall.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 5242
 D3
@@ -1540,15 +1541,15 @@ from invaders. From the looks of things, it did not do a good job.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5253
 D3
-(null)~
+~
 ~
 0 0 5251
 D4
-(null)~
+~
 ~
 0 0 5254
 S
@@ -1600,7 +1601,7 @@ You see main street.
 ~
 0 0 5201
 D2
-(null)~
+~
 ~
 0 0 5253
 D3
@@ -1815,11 +1816,11 @@ around you. Trails lead in all directions.
 ~
 0 1 3
 D0
-(null)~
+~
 ~
 0 0 5271
 D1
-(null)~
+~
 ~
 0 0 1701
 D2
@@ -1833,7 +1834,7 @@ You see a dark fox hole.
 hole fox~
 1 -1 5268
 D4
-(null)~
+~
 ~
 0 0 5266
 S

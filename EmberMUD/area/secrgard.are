@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 7 55} Ganon   The secret garden~
+Group       Mudweiser~
 Builders    None~
 VNUMs       21700 21799
 Security    6
@@ -13,7 +14,7 @@ homeless man~
 a homeless man~
 A scraggly-looking homeless man is here sleeping. He seems to be cuddling a key of some sort.
 ~
-(null)~
+~
 Human~
 AB A 100 S
 3 1 
@@ -43,7 +44,7 @@ wererat~
 an ugly wererat~
 An ugly wererat growls angrily at you.
 ~
-(null)~
+~
 Wolf~
 ABF Z -1000 S
 53 30 
@@ -73,7 +74,7 @@ Concubine~
 a concubine~
 A concubine growls angrily at you.
 ~
-(null)~
+~
 pig~
 ACH 0 800 S
 6 6 
@@ -87,7 +88,7 @@ Gleep~
 a tiny gleep~
 A tiny Gleep is here chasing it's tail.
 ~
-(null)~
+~
 Human~
 AH Q 1000 S
 5 4 
@@ -101,7 +102,7 @@ drider~
 a drider~
 A drider stands here looking for a way to pass time.
 ~
-(null)~
+~
 lizard~
 AC 0 750 S
 5 6 
@@ -115,7 +116,7 @@ Newt~
 a newt~
 A newt is trying to bury itself in the dirt.
 ~
-(null)~
+~
 Human~
 AQ W 500 S
 5 5 
@@ -146,7 +147,7 @@ albino lizard~
 an albino lizard~
 An albino lizard is here licking itself.
 ~
-(null)~
+~
 lizard~
 A 0 0 S
 15 10 
@@ -160,7 +161,7 @@ red/green lizard~
 a redish green lizard~
 A redish green lizard is here digging in the sand.
 ~
-(null)~
+~
 lizard~
 A 0 0 S
 15 10 
@@ -174,7 +175,7 @@ striped lizard~
 a striped lizard~
 A striped lizard is here relaxing.
 ~
-(null)~
+~
 lizard~
 A 0 0 S
 15 10 
@@ -188,7 +189,7 @@ polka lizard~
 a polka-dot lizard~
 A polka-dot lizard is here relaxing.
 ~
-(null)~
+~
 lizard~
 AG 0 0 S
 15 10 
@@ -202,7 +203,7 @@ green lizard~
 a green lizard~
 A green lizard is here.
 ~
-(null)~
+~
 lizard~
 AH 0 0 S
 15 10 
@@ -216,7 +217,7 @@ brown lizard~
 a brown lizard~
 A brown lizard is here crawling around.
 ~
-(null)~
+~
 lizard~
 A 0 0 S
 15 10 
@@ -285,11 +286,11 @@ purple vines cover the gate.
 ~
 0 4 10
 D2
-(null)~
+~
 ~
 0 0 21701
 D3
-(null)~
+~
 ~
 0 0 16053
 S
@@ -303,15 +304,15 @@ To the east is a rather worn down looking guard house.
 ~
 0 1024 10
 D0
-(null)~
+~
 ~
 0 0 21700
 D1
-(null)~
+~
 ~
 0 0 21703
 D2
-(null)~
+~
 ~
 0 0 21706
 S
@@ -325,11 +326,11 @@ into it. There is a tiny stream of water trickling underneath.
 ~
 0 2097152 10
 D1
-(null)~
+~
 ~
 0 0 21706
 D3
-(null)~
+~
 ~
 0 0 21704
 S
@@ -342,7 +343,7 @@ the ceiling.
 ~
 0 9 0
 D3
-(null)~
+~
 ~
 0 0 21701
 S
@@ -356,19 +357,19 @@ south and the north, maybe this place isn't deserted after all?
 ~
 0 2097152 10
 D0
-(null)~
+~
 ~
 0 0 21707
 D1
-(null)~
+~
 ~
 0 0 21702
 D2
-(null)~
+~
 ~
 0 0 21709
 D3
-(null)~
+~
 ~
 1 21703 21705
 S
@@ -381,7 +382,7 @@ doesn't help with a big Dragon breathing down your neck either.
 ~
 0 2097152 10
 D1
-(null)~
+~
 ~
 1 0 21704
 S
@@ -392,15 +393,15 @@ garden. A big wooden sign nailed to a tree is visible here.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21701
 D2
-(null)~
+~
 ~
 0 0 21712
 D3
-(null)~
+~
 ~
 0 0 21702
 S
@@ -413,11 +414,11 @@ rackett.
 ~
 0 2097152 10
 D2
-(null)~
+~
 ~
 0 0 21704
 D3
-(null)~
+~
 ~
 1 21703 21708
 S
@@ -430,7 +431,7 @@ old cage, and had needed a new one.
 ~
 0 2097152 10
 D1
-(null)~
+~
 ~
 1 21703 21707
 S
@@ -444,15 +445,15 @@ way, but no one is certain. The path continues to the south.
 ~
 0 2097152 10
 D0
-(null)~
+~
 ~
 0 0 21704
 D2
-(null)~
+~
 ~
 0 0 21722
 D3
-(null)~
+~
 ~
 1 21703 21710
 S
@@ -466,7 +467,7 @@ stand is company.
 ~
 0 0 10
 D1
-(null)~
+~
 ~
 1 0 21709
 S
@@ -478,15 +479,15 @@ waterfall. There is a small island to the south.
 ~
 0 4 7
 D1
-(null)~
+~
 ~
 0 0 21724
 D2
-(null)~
+~
 ~
 0 0 21725
 D3
-(null)~
+~
 ~
 0 0 21717
 S
@@ -497,15 +498,15 @@ garden. A big fountain here gushes up, creating a arch around you.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21706
 D1
-(null)~
+~
 ~
 0 0 21715
 D2
-(null)~
+~
 ~
 0 0 21713
 S
@@ -517,15 +518,15 @@ there is a water supply around here making the grass grow?
 ~
 0 1024 10
 D0
-(null)~
+~
 ~
 0 0 21712
 D1
-(null)~
+~
 ~
 0 0 21716
 D2
-(null)~
+~
 ~
 0 0 21714
 S
@@ -538,11 +539,11 @@ is, as you hear a lake of water splashing around to the east.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21713
 D1
-(null)~
+~
 ~
 0 0 21717
 S
@@ -554,11 +555,11 @@ you. Thick vines grow all through it. To the east is a lattace door.
 ~
 0 0 10
 D1
-(null)~
+~
 ~
 1 21703 21719
 D3
-(null)~
+~
 ~
 0 0 21712
 S
@@ -570,7 +571,7 @@ looking for food.
 ~
 0 0 10
 D3
-(null)~
+~
 ~
 0 0 21713
 S
@@ -583,11 +584,11 @@ continues to the east.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 21711
 D3
-(null)~
+~
 ~
 0 0 21714
 S
@@ -599,11 +600,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21720
 D3
-(null)~
+~
 ~
 0 0 21719
 S
@@ -615,15 +616,15 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21721
 D1
-(null)~
+~
 ~
 0 0 21718
 D3
-(null)~
+~
 ~
 1 21703 21715
 S
@@ -635,11 +636,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D2
-(null)~
+~
 ~
 0 0 21718
 D3
-(null)~
+~
 ~
 0 0 21721
 S
@@ -651,11 +652,11 @@ escape. The floor is covered with what seems to be a heavy tarp.
 ~
 0 0 10
 D1
-(null)~
+~
 ~
 0 0 21720
 D2
-(null)~
+~
 ~
 0 0 21719
 S
@@ -668,11 +669,11 @@ much smaller than the other's.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21709
 D3
-(null)~
+~
 ~
 1 21703 21723
 S
@@ -684,7 +685,7 @@ small monster. The cage looks fairly decent, nothing out of the ordenary...
 ~
 0 0 10
 D1
-(null)~
+~
 ~
 1 0 21722
 S
@@ -709,15 +710,15 @@ relaxing. You can't blame the lizards for wanting to stay here.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21711
 D1
-(null)~
+~
 ~
 0 0 21726
 D2
-(null)~
+~
 ~
 0 0 21728
 S
@@ -729,7 +730,7 @@ is back to the west, the way you came.
 ~
 0 0 10
 D3
-(null)~
+~
 ~
 0 0 21725
 S
@@ -742,7 +743,7 @@ red bottle sticking out of the sand.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 21728
 S
@@ -755,11 +756,11 @@ about anywhere else you could possibly look.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 21725
 D1
-(null)~
+~
 ~
 0 0 21727
 S

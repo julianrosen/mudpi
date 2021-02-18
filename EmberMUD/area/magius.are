@@ -1,5 +1,6 @@
 #AREADATA
 Name        {xx xx} Soulfire's Monopoly~
+Group       Mudweiser~
 Builders    None~
 VNUMs       30000 30199
 Security    7
@@ -13,7 +14,7 @@ soulfire~
 Soulfire~
 `m(Purple Aura) `cSoulfire is wandering about here, stroking his talisman and muttering about an unfinished office somewhere in Sunstone City.`w
 ~
-(null)~
+~
 Human~
 AR CDEFJTUVZb 0 S
 100 55 
@@ -27,7 +28,7 @@ gnome gnomish worker~
 a gnomish worker~
 A gnomish worker handles the implementation of the final touches.
 ~
-(null)~
+~
 Hobbit~
 AB J 0 S
 1 1 
@@ -140,7 +141,7 @@ B ABCD ACD ABD DE
 #ROOMS
 #30000
 Soulfire's Vault~
-(null)~
+~
 0 295948 0
 S
 #30001
@@ -162,7 +163,7 @@ protection or warding spells that have been cast upon them. You find
 yourself unable to go anywhere near the treasure.
 ~
 D3
-(null)~
+~
 ~
 0 0 21417
 S

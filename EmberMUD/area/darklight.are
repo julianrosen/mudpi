@@ -1,5 +1,6 @@
 #AREADATA
 Name        {25 45} Streeve Dark and Light~
+Group       Mudweiser~
 Builders    None~
 VNUMs       26800 26899
 Security    6
@@ -29,7 +30,7 @@ Darkling~
 Darkling~
 A Darkling catches your eye and you go parenoid cause he has disappeared.
 ~
-(null)~
+~
 unique~
 AF H -10000 S
 15 16 
@@ -114,7 +115,7 @@ Undead Headless Mage~
 a Headless Mage~
 Here a mage is soaring right for you.
 ~
-(null)~
+~
 Human~
 AFO NT -500 S
 30 30 
@@ -161,7 +162,7 @@ Small Boy~
 a small young boy~
 A small young boy sits here timidly.
 ~
-(null)~
+~
 Human~
 ABGad H 0 S
 0 0 
@@ -175,7 +176,7 @@ Giant Warrior Mage Slayer~
 a Mage Slayer~
 Here charges a Giant Warrior straight at YOU!
 ~
-(null)~
+~
 Giant~
 AG 0 500 S
 30 33 
@@ -189,7 +190,7 @@ Huge Centipede~
 a Fat Juicy Centipede~
 A Centipede is filling up the room.
 ~
-(null)~
+~
 centipede~
 AG Z 0 S
 20 15 
@@ -267,7 +268,7 @@ Evil Doer~
 an Evil Doer~
 An Evil Doer.
 ~
-(null)~
+~
 modron~
 AG J -1000 S
 28 29 
@@ -281,7 +282,7 @@ cute little gnome~
 a cute Gnome~
 Here a cute little gnome looks for a place to hide.
 ~
-(null)~
+~
 Dwarf~
 A J 0 S
 15 20 
@@ -358,7 +359,7 @@ Tower Guard~
 a Tower Guard~
 Here stands a Tower Guard pacing back and forth guarding the Tower.
 ~
-(null)~
+~
 Human~
 ABG 0 100 S
 18 20 
@@ -372,7 +373,7 @@ Staver's Bodyguard~
 a Bodyguard~
 A Bodyguard approaches you and will not let you pass.
 ~
-(null)~
+~
 unique~
 ABFG 0 0 S
 30 30 
@@ -386,7 +387,7 @@ Surgeo~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 Ad 0 0 S
 0 0 
@@ -496,7 +497,7 @@ An Old Cave Dweller~
 an Old Cave Dweller~
 An old but foul looking cave dweller sits here among the rocks.
 ~
-(null)~
+~
 Human~
 A 0 500 S
 20 22 
@@ -510,7 +511,7 @@ Gigantic Beetle~
 a Gigantic Beetle~
 A gigantic beetle crawls over your feet.
 ~
-(null)~
+~
 centipede~
 A Z 0 S
 20 20 
@@ -711,11 +712,11 @@ any further on this journey.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 26801
 D2
-(null)~
+~
 ~
 0 0 22556
 S
@@ -728,11 +729,11 @@ heightens your curiosity and fear as to what could lay ahead.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 26803
 D2
-(null)~
+~
 ~
 0 0 26800
 S
@@ -746,11 +747,11 @@ race are strewn about. Gazing ahead you can make out some rocky hills.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 26804
 D2
-(null)~
+~
 ~
 0 0 26801
 S
@@ -765,19 +766,19 @@ silence.
 ~
 0 1028 2
 D0
-(null)~
+~
 vines~
 7 0 26812
 D1
-(null)~
+~
 ~
 0 0 26810
 D2
-(null)~
+~
 ~
 0 0 26803
 D3
-(null)~
+~
 ~
 0 0 26805
 S
@@ -790,11 +791,11 @@ notice a large group of thick vines covering a cave.
 ~
 0 16778252 4
 D0
-(null)~
+~
 vines~
 7 0 26821
 D1
-(null)~
+~
 ~
 0 0 26804
 S
@@ -807,11 +808,11 @@ obvious that something other than plants inhabits this mountain.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26807
 D3
-(null)~
+~
 ~
 0 0 26821
 S
@@ -824,11 +825,11 @@ spider webs keep getting stuck onto your body.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26808
 D2
-(null)~
+~
 ~
 0 0 26806
 S
@@ -841,11 +842,11 @@ green light to the cave.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26809
 D2
-(null)~
+~
 ~
 0 0 26807
 S
@@ -858,11 +859,11 @@ the walls.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26823
 D2
-(null)~
+~
 ~
 0 0 26808
 S
@@ -876,7 +877,7 @@ you his pets for sale.
 ~
 0 4104 0
 D3
-(null)~
+~
 ~
 0 0 26804
 S
@@ -896,15 +897,15 @@ a pit in the floor and curiosity gnaws at your belly.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 26899
 D2
-(null)~
+~
 ~
 7 0 26804
 D5
-(null)~
+~
 ~
 0 0 26813
 S
@@ -918,19 +919,19 @@ fear.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 26828
 D3
-(null)~
+~
 ~
 0 0 26827
 D4
-(null)~
+~
 ~
 0 0 26812
 D5
-(null)~
+~
 ~
 0 0 26814
 S
@@ -943,19 +944,19 @@ combination has its own powerful surge.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 26830
 D3
-(null)~
+~
 ~
 0 0 26829
 D4
-(null)~
+~
 ~
 0 0 26813
 D5
-(null)~
+~
 ~
 0 0 26815
 S
@@ -968,19 +969,19 @@ making it very difficult to see clearly.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 26832
 D3
-(null)~
+~
 ~
 0 0 26831
 D4
-(null)~
+~
 ~
 0 0 26814
 D5
-(null)~
+~
 ~
 0 0 26816
 S
@@ -993,19 +994,19 @@ light and dark seems to have collided in a serious mistaken accident.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 26833
 D3
-(null)~
+~
 ~
 0 0 26834
 D4
-(null)~
+~
 ~
 0 0 26815
 D5
-(null)~
+~
 ~
 0 0 26817
 S
@@ -1019,11 +1020,11 @@ poorly lit, you keep catching small movements out of the corner of your eye.
 ~
 0 2097165 0
 D0
-(null)~
+~
 ~
 0 0 26818
 D4
-(null)~
+~
 ~
 0 0 26816
 S
@@ -1036,11 +1037,11 @@ created and separated by ancient gods of time.
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 26819
 D2
-(null)~
+~
 ~
 0 0 26817
 S
@@ -1054,11 +1055,11 @@ defending.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 6 26822 26820
 D2
-(null)~
+~
 ~
 0 0 26818
 S
@@ -1071,7 +1072,7 @@ torches lined on the walls; the firelight sparkles off the gold and jewels.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 6 26822 26819
 S
@@ -1084,15 +1085,15 @@ adventurers make you wonder just how safe it is.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26822
 D1
-(null)~
+~
 ~
 0 0 26806
 D2
-(null)~
+~
 ~
 7 0 26805
 S
@@ -1103,11 +1104,11 @@ dark greenish-gray prairie grass grows in abundance.
 ~
 0 4 4
 D0
-(null)~
+~
 ~
 0 0 26824
 D2
-(null)~
+~
 ~
 0 0 26821
 S
@@ -1119,11 +1120,11 @@ dropping on your head, spilling over the walls and pools at your feet.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26809
 D4
-(null)~
+~
 ~
 0 0 26838
 S
@@ -1136,11 +1137,11 @@ chose to build here due to the strategic location.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 26825
 D2
-(null)~
+~
 ~
 0 0 26822
 S
@@ -1153,11 +1154,11 @@ from the mountain that wraps behind it.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 1 0 26826
 D2
-(null)~
+~
 ~
 0 0 26824
 S
@@ -1171,11 +1172,11 @@ the room you notice a set of stairs heading up.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 1 0 26825
 D4
-(null)~
+~
 ~
 0 0 26835
 S
@@ -1188,7 +1189,7 @@ enemy.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 26813
 S
@@ -1201,7 +1202,7 @@ in an attempt to hide from the evil that is seeking them out.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 26813
 S
@@ -1214,7 +1215,7 @@ stories of skilled thefts.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 26814
 S
@@ -1227,7 +1228,7 @@ the others clearly disagree.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 26814
 S
@@ -1242,7 +1243,7 @@ know without words why you have violated their sanctuary.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 26815
 S
@@ -1255,7 +1256,7 @@ of prophets stand near an altar.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 26815
 S
@@ -1267,7 +1268,7 @@ different beings practice their powers of good and lawful ethos.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 26816
 S
@@ -1281,7 +1282,7 @@ have seen horrible acts, but this surely is true evil!
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 26816
 S
@@ -1293,11 +1294,11 @@ bit uneasy about continuing this quest, but an urgency pushes you forward.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 0 26836
 D5
-(null)~
+~
 ~
 0 0 26826
 S
@@ -1309,11 +1310,11 @@ the hallway, you are struck with a feeling of dread...you may be here for a long
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26837
 D3
-(null)~
+~
 ~
 0 0 26835
 S
@@ -1326,11 +1327,11 @@ source of the noise leaves you staring down the empty hallway.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26839
 D3
-(null)~
+~
 ~
 0 0 26836
 S
@@ -1343,11 +1344,11 @@ slippery and slow.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 26883
 D5
-(null)~
+~
 ~
 0 0 26823
 S
@@ -1359,11 +1360,11 @@ which you can barely make out a few sounds of life.
 ~
 0 12 0
 D3
-(null)~
+~
 ~
 0 0 26837
 D4
-(null)~
+~
 ~
 0 0 26840
 S
@@ -1378,11 +1379,11 @@ playing hide and seek.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26842
 D5
-(null)~
+~
 ~
 0 0 26839
 S
@@ -1394,11 +1395,11 @@ you have been walking for ever.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26839
 D3
-(null)~
+~
 ~
 0 0 26837
 S
@@ -1410,11 +1411,11 @@ he starts to cry.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26840
 D3
-(null)~
+~
 ~
 0 0 26843
 S
@@ -1426,11 +1427,11 @@ his friends. He's having trouble finding them.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26842
 D3
-(null)~
+~
 ~
 0 0 26844
 S
@@ -1444,11 +1445,11 @@ window. Looking out you can see the tower guards and the field below.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26843
 D3
-(null)~
+~
 ~
 0 0 26845
 S
@@ -1461,11 +1462,11 @@ ground.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26844
 D3
-(null)~
+~
 ~
 0 0 26846
 S
@@ -1477,11 +1478,11 @@ floors high.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26845
 D4
-(null)~
+~
 ~
 0 0 26847
 S
@@ -1493,11 +1494,11 @@ place to rest a moment and have a bite to eat.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 0 26848
 D5
-(null)~
+~
 ~
 0 0 26846
 S
@@ -1511,11 +1512,11 @@ relaxing and peaceful here.
 ~
 0 1024 0
 D1
-(null)~
+~
 ~
 0 0 26849
 D3
-(null)~
+~
 ~
 0 0 26847
 S
@@ -1528,11 +1529,11 @@ carved smooth and have a few small strange symbols embedded on them.
 ~
 0 1024 0
 D1
-(null)~
+~
 ~
 0 0 26850
 D3
-(null)~
+~
 ~
 0 0 26848
 S
@@ -1544,11 +1545,11 @@ base is covered in soft moss and a few small vines.
 ~
 0 1032 0
 D1
-(null)~
+~
 ~
 0 0 26851
 D3
-(null)~
+~
 ~
 0 0 26849
 S
@@ -1561,11 +1562,11 @@ talking amongst themselves.
 ~
 0 1036 0
 D3
-(null)~
+~
 ~
 0 0 26850
 D4
-(null)~
+~
 ~
 0 0 26852
 S
@@ -1578,11 +1579,11 @@ the wall lights your way, casting large shadows all around.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26853
 D5
-(null)~
+~
 ~
 0 0 26851
 S
@@ -1594,11 +1595,11 @@ are sharp and bare, except for two torches to bring light to the room.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26852
 D3
-(null)~
+~
 ~
 0 0 26854
 S
@@ -1612,11 +1613,11 @@ your ear and urges you to hurry on.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26853
 D3
-(null)~
+~
 ~
 0 0 26855
 S
@@ -1629,11 +1630,11 @@ are jagged and uneven with a few random symbols of dark magic.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26854
 D3
-(null)~
+~
 ~
 0 0 26856
 S
@@ -1645,11 +1646,11 @@ the end, remembering the fierce monsters.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 0 26855
 D4
-(null)~
+~
 ~
 0 0 26857
 S
@@ -1661,11 +1662,11 @@ you notice that in the next room, strange beings are standing there.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26858
 D5
-(null)~
+~
 ~
 0 0 26856
 S
@@ -1680,11 +1681,11 @@ added to bring in outside light.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26859
 D3
-(null)~
+~
 ~
 0 0 26857
 S
@@ -1696,11 +1697,11 @@ cleric points down the hall and urges you to hurry on.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26860
 D3
-(null)~
+~
 ~
 0 0 26858
 S
@@ -1711,11 +1712,11 @@ where everyone went but you sense some type of hidden presence.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26861
 D3
-(null)~
+~
 ~
 0 0 26859
 S
@@ -1727,11 +1728,11 @@ his efforts or continue your climb to the top of this strange tower?
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26860
 D4
-(null)~
+~
 ~
 0 0 26862
 S
@@ -1744,11 +1745,11 @@ for a few small patches of moss lumens.
 ~
 0 13 0
 D3
-(null)~
+~
 ~
 0 0 26863
 D5
-(null)~
+~
 ~
 0 0 26861
 S
@@ -1762,11 +1763,11 @@ of the ground.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26862
 D3
-(null)~
+~
 ~
 0 0 26864
 S
@@ -1778,11 +1779,11 @@ you.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 26863
 D3
-(null)~
+~
 ~
 0 0 26865
 S
@@ -1795,11 +1796,11 @@ of moss lumens and mushrooms grow on the ground.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 26864
 D3
-(null)~
+~
 ~
 0 0 26866
 S
@@ -1812,11 +1813,11 @@ light from the hallway above.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26865
 D4
-(null)~
+~
 ~
 0 0 26867
 S
@@ -1828,11 +1829,11 @@ and green, and various other shades of blood.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 0 26868
 D5
-(null)~
+~
 ~
 0 0 26866
 S
@@ -1845,11 +1846,11 @@ walls.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26869
 D3
-(null)~
+~
 ~
 0 0 26867
 S
@@ -1862,11 +1863,11 @@ stench of rotting bodies fills the air.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26870
 D3
-(null)~
+~
 ~
 0 0 26868
 S
@@ -1879,11 +1880,11 @@ is indeed dead and he is coming right at you holding his head in his hands.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26871
 D3
-(null)~
+~
 ~
 0 0 26869
 S
@@ -1894,11 +1895,11 @@ hear the sound of soothing music. You have an urge to follow it upstairs.
 ~
 0 12 0
 D3
-(null)~
+~
 ~
 0 0 26870
 D4
-(null)~
+~
 ~
 0 0 26872
 S
@@ -1913,11 +1914,11 @@ music filling the air.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26873
 D5
-(null)~
+~
 ~
 0 0 26871
 S
@@ -1930,11 +1931,11 @@ allow a flood of light onto the bright walls.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26872
 D3
-(null)~
+~
 ~
 0 0 26874
 S
@@ -1947,11 +1948,11 @@ amounts of light to flood in.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26873
 D3
-(null)~
+~
 ~
 0 0 26875
 S
@@ -1965,11 +1966,11 @@ chords and swirling melodies echoing throughout the hallway.
 ~
 0 16778248 0
 D1
-(null)~
+~
 ~
 0 0 26874
 D3
-(null)~
+~
 ~
 0 0 26876
 S
@@ -1981,11 +1982,11 @@ some stairs further along this hallway.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26875
 D3
-(null)~
+~
 ~
 0 0 26877
 S
@@ -1996,11 +1997,11 @@ peaceful here, but you should continue your quest for Auntee Joel.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 0 26876
 D4
-(null)~
+~
 ~
 0 0 26878
 S
@@ -2013,11 +2014,11 @@ very powerful person.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26879
 D5
-(null)~
+~
 ~
 0 0 26877
 S
@@ -2031,11 +2032,11 @@ high in this mountain tower.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26880
 D3
-(null)~
+~
 ~
 0 0 26878
 S
@@ -2047,11 +2048,11 @@ where the fireflies must nest are stuck near the ceiling and corners.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26881
 D3
-(null)~
+~
 ~
 0 0 26879
 S
@@ -2063,11 +2064,11 @@ at you with a blank gaze.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 1 0 26882
 D3
-(null)~
+~
 ~
 0 0 26880
 S
@@ -2081,7 +2082,7 @@ out.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 1 0 26881
 S
@@ -2095,11 +2096,11 @@ light above, and more spiderwebs stick to your body.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 26884
 D5
-(null)~
+~
 ~
 0 0 26838
 S
@@ -2113,11 +2114,11 @@ here. You start to feel relaxed.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 26885
 D5
-(null)~
+~
 ~
 0 0 26883
 S
@@ -2130,11 +2131,11 @@ all around you, and from your viewpoint you can see for miles.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 26886
 D3
-(null)~
+~
 ~
 0 0 26884
 S
@@ -2148,11 +2149,11 @@ forward.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 26887
 D3
-(null)~
+~
 ~
 0 0 26885
 S
@@ -2166,20 +2167,20 @@ body.
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 0 26886
 D5
-(null)~
+~
 ~
 0 0 26889
 S
 #26888
 In the Hole~
-(null)~
+~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 26887
 S
@@ -2192,11 +2193,11 @@ curled over the rocks, mixing with soft moss. The air is fresh and cool.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 26887
 D5
-(null)~
+~
 ~
 0 0 26890
 S
@@ -2208,11 +2209,11 @@ and the air is fresh, and cool.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 26889
 D5
-(null)~
+~
 ~
 0 0 26891
 S
@@ -2225,11 +2226,11 @@ the soft moss and various vines.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 26890
 D5
-(null)~
+~
 ~
 0 0 26892
 S
@@ -2242,11 +2243,11 @@ stones.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26893
 D4
-(null)~
+~
 ~
 0 0 26891
 S
@@ -2259,11 +2260,11 @@ covered with tiny mushrooms and moss lumens.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 26892
 D3
-(null)~
+~
 ~
 0 0 26894
 S
@@ -2276,11 +2277,11 @@ look up longer you can see birds flying over the well hole.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26893
 D3
-(null)~
+~
 ~
 0 0 26895
 S
@@ -2293,15 +2294,15 @@ everywhere.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26894
 D2
-(null)~
+~
 ~
 0 0 26897
 D3
-(null)~
+~
 ~
 0 0 26896
 S
@@ -2314,7 +2315,7 @@ starting to sweat. Maybe you should move on.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 26895
 S
@@ -2327,11 +2328,11 @@ ground is dotted with moss covered rocks.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26895
 D2
-(null)~
+~
 ~
 0 0 26898
 S
@@ -2343,11 +2344,11 @@ tattered rags from the ceiling.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26897
 D2
-(null)~
+~
 ~
 0 0 26899
 S
@@ -2361,11 +2362,11 @@ the walls.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26898
 D2
-(null)~
+~
 ~
 0 0 26812
 S

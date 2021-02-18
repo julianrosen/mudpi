@@ -1,5 +1,6 @@
 #AREADATA
 Name        {91 99} ROM     Immortal Zone~
+Group       Mudweiser~
 Builders    None~
 VNUMs       14200 14499
 Security    7
@@ -101,7 +102,7 @@ nanny~
 the mud nanny~
 The mud's nanny stands here berating unruly players.
 ~
-(null)~
+~
 Human~
 ABd 0 1000 S
 90 0 
@@ -115,7 +116,7 @@ french taunter soldier~
 a french soldier~
 A frenchman stands here taunting you.
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -165,7 +166,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 0 0 
@@ -179,7 +180,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -193,7 +194,7 @@ no name~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -207,7 +208,7 @@ A huge bunny rabbit~
 a HUGE bunnya rabbit~
 A HUGE bunny rabbit is here.
 ~
-(null)~
+~
 Human~
 A Ha 100 S
 80 0 
@@ -221,7 +222,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 A 0 0 S
 90 0 
@@ -235,7 +236,7 @@ librarian guild standards~
 a librarian~
 A librarian stands here, silently organizing all the information around you.
 ~
-(null)~
+~
 Alien~
 ABd 0 0 S
 100 0 
@@ -249,7 +250,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Unknown~
 A 0 0 S
 0 0 
@@ -263,7 +264,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -277,7 +278,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -291,7 +292,7 @@ no name~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -305,7 +306,7 @@ The LagMonster~
 the LagMonster~
 The LagMonster is waiting here to steal your link.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 96 20 
@@ -319,7 +320,7 @@ IT 1~
 `RIT`W~
 `RIT`W is here.
 ~
-(null)~
+~
 Hedgehog~
 A 0 0 S
 25 20 
@@ -333,7 +334,7 @@ IT 2~
 `BIT`W~
 `BIT`W is here.
 ~
-(null)~
+~
 Hedgehog~
 A 0 0 S
 26 23 
@@ -347,7 +348,7 @@ IT 3~
 `YIT`W~
 `YIT`W is here.
 ~
-(null)~
+~
 Hedgehog~
 A 0 0 S
 27 25 
@@ -361,7 +362,7 @@ IT 4~
 `GIT`W~
 `GIT`W is here.
 ~
-(null)~
+~
 Hedgehog~
 A 0 0 S
 28 25 
@@ -391,7 +392,7 @@ guildmaster~
 the Guildmaster~
 Outkast's Guildmaster is here willing to help you get stronger.
 ~
-(null)~
+~
 Human~
 ABJKbd H 0 S
 80 100 
@@ -405,7 +406,7 @@ me fake lord ok~
 `GOuTkAsT`w~
 `GOuTkAsT`c is standing here.`w
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 4 150 
@@ -419,7 +420,7 @@ BARF~
 `ROutKast`w~
 `ROutKast`c is standing here.`w
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 4 170 
@@ -449,7 +450,7 @@ none~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 ABJab 0 0 S
 100 0 
@@ -463,7 +464,7 @@ mayor Simion~
 Mayor Simion~
 Here is Mayor Simion, wearing his monk garments.
 ~
-(null)~
+~
 Human~
 A 0 0 S
 30 0 
@@ -477,7 +478,7 @@ dark clad vampire man~
 a dark clad man~
 Here is a man in all dark clothes.
 ~
-(null)~
+~
 Human~
 A TV -1000 S
 40 0 
@@ -491,7 +492,7 @@ Michael~
 Michael~
 Michael the thief, stares you down.
 ~
-(null)~
+~
 Human~
 A HV 0 S
 40 40 
@@ -505,7 +506,7 @@ priest mage Sky~
 High priest/mage~
 Here stands a very respected priest/mage.
 ~
-(null)~
+~
 Elf~
 AQR HJ 0 S
 80 80 
@@ -534,7 +535,7 @@ Align good~
 the alignment change~
 Ticket to goodness is here.
 ~
-(null)~
+~
 Human~
 A 0 -1000 S
 1 0 
@@ -548,7 +549,7 @@ Punching bag practice~
 the punching bag~
 A punching bag is here.
 ~
-(null)~
+~
 Human~
 AT VY 0 S
 1 150 
@@ -562,7 +563,7 @@ Ticket Evil~
 the alignment change~
 Your ticket to evilness is here.
 ~
-(null)~
+~
 Human~
 AG 0 1000 S
 90 0 
@@ -576,7 +577,7 @@ Lion~
 a lion~
 Here is a furious lion.
 ~
-(null)~
+~
 cat~
 ATU PVZ 0 S
 27 0 
@@ -590,7 +591,7 @@ A giant Duck~
 a giant duck~
 A giant duck says "QUACK!!!!!"
 ~
-(null)~
+~
 Human~
 A 0 0 S
 1 3 
@@ -678,7 +679,7 @@ edit obj create 1279~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -707,7 +708,7 @@ Capkirk-is-a-idiot~
 Capkirk-is-a-Idiot~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -721,7 +722,7 @@ Bonkers~
 Bonkers the Disgruntled Clown~
 Bonkers stands behind the counter.
 ~
-(null)~
+~
 Human~
 ABd 0 -1000 S
 94 1000 
@@ -765,7 +766,7 @@ Barkeep~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Elf~
 ABd DFJ 0 S
 0 0 
@@ -779,7 +780,7 @@ none~
 none~
 None
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -793,7 +794,7 @@ Pop Machine~
 the Pop Machine~
 A pop machine sits against the left wall.
 ~
-(null)~
+~
 Human~
 AGd 0 0 S
 1 1 
@@ -1761,18 +1762,18 @@ Asgard lies to the south.
 ~
 0 -1 14213
 D3
-(null)~
+~
 ~
 0 0 14257
 S
 #14201
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14202
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14203
@@ -1815,7 +1816,7 @@ If you want to know what is up there, you shall have to go look...
 S
 #14204
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14205
@@ -1847,7 +1848,7 @@ A small shipping tag is pinned to the ground with a worn hunting knife.
 Upon it is a dedication to Robert Anson Heinlein, the father of the future.
 ~
 D5
-(null)~
+~
 ~
 0 0 14223
 S
@@ -1903,28 +1904,28 @@ rsa~
             `B \_____/`w
 ~
 D1
-(null)~
+~
 ~
 0 0 14223
 S
 #14209
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14210
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14211
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14212
 UNCLAIMED~
-(null)~
+~
 0 1089548 0
 S
 #14213
@@ -1973,7 +1974,7 @@ and cowards. Their cries of misery send a shiver down your spine.
 ~
 0 1081352 0
 D5
-(null)~
+~
 ~
 0 -1 14219
 S
@@ -2194,7 +2195,7 @@ rsa~
             `B \_____/`w
 ~
 D2
-(null)~
+~
 ~
 0 0 14223
 S
@@ -2228,27 +2229,27 @@ rsa~
             `B \_____/`w
 ~
 D0
-(null)~
+~
 ~
 0 0 14222
 D1
-(null)~
+~
 ~
 0 0 14200
 D2
-(null)~
+~
 ~
 0 0 14224
 D3
-(null)~
+~
 ~
 0 0 14208
 D4
-(null)~
+~
 ~
 0 0 14206
 D5
-(null)~
+~
 ~
 0 0 14234
 S
@@ -2360,7 +2361,7 @@ rsa~
             `B \_____/`w
 ~
 D0
-(null)~
+~
 ~
 4 0 14272
 S
@@ -2421,7 +2422,7 @@ rsa~
             `B \_____/`w
 ~
 D1
-(null)~
+~
 ~
 4 0 14272
 S
@@ -2454,12 +2455,12 @@ rsa~
 S
 #14229
 UNCLAIMED~
-(null)~
+~
 0 4 0
 S
 #14230
 UNCLAIMED~
-(null)~
+~
 0 4 0
 S
 #14231
@@ -2487,7 +2488,7 @@ rsa~
             `B \_____/`w
 ~
 D0
-(null)~
+~
 ~
 0 0 14232
 S
@@ -2513,11 +2514,11 @@ rsa~
             `B \_____/`w
 ~
 D2
-(null)~
+~
 ~
 0 0 14231
 D4
-(null)~
+~
 ~
 0 0 14233
 S
@@ -2543,11 +2544,11 @@ rsa~
             `B \_____/`w
 ~
 D4
-(null)~
+~
 ~
 0 0 14234
 D5
-(null)~
+~
 ~
 0 0 14232
 S
@@ -2560,17 +2561,17 @@ corner where the planning is done.
 ~
 0 1064968 0
 D4
-(null)~
+~
 ~
 0 0 14223
 D5
-(null)~
+~
 ~
 0 0 14233
 S
 #14235
 UNCLAIMED~
-(null)~
+~
 0 12 0
 S
 #14236
@@ -2770,7 +2771,7 @@ Classifications, Chapter Two: `RObjClass2`w
 ~
 E
 2imm~
-(null)~
+~
 E
 dem~
 `mTeleport/Transfer `w- `yImms should `rNEVER`y assist players in getting from point
@@ -2914,16 +2915,16 @@ restrictions and regulations for their level.
 ~
 E
 96~
-(null)~
+~
 E
 97~
-(null)~
+~
 E
 98~
-(null)~
+~
 E
 99~
-(null)~
+~
 E
 banned~
 `rBANNED`w:
@@ -3037,7 +3038,7 @@ These keywords are used for searching for specific Objects and Mobs, based
 on several different catagories.
      Objects are based upon the Type field and have been separated into
 three chapters and a total of eight catagories.
-`RObjClass1`w:  (null) - Objects with only one type.
+`RObjClass1`w:   - Objects with only one type.
             (Food) - various types of edible objects.
            `G*`w(Drink) - various types of thirst-quenching objects.
 `RObjClass2`w:  (Weapon Class) - wielding keywords
@@ -3122,48 +3123,48 @@ Will be added after Immrules are finished, and the new book of formal
 organizations have been set up.
 ~
 D0
-(null)~
+~
 ~
 1 0 14271
 S
 #14237
 UNCLAIMED~
-(null)~
+~
 0 4 0
 S
 #14238
 UNCLAIMED~
-(null)~
+~
 0 4 1
 S
 #14239
 UNCLAIMED~
-(null)~
+~
 0 4 1
 S
 #14240
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14241
 Shawn's Den~
-(null)~
+~
 0 1081348 0
 S
 #14242
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14243
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14244
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14245
@@ -3180,7 +3181,7 @@ down~
 You see a healing sanctum below you. How fitting.
 ~
 D5
-(null)~
+~
 ~
 0 0 14246
 S
@@ -3192,7 +3193,7 @@ amazes you. You know you are safe here, if you're a follower of the law.
 ~
 0 1344524 0
 D4
-(null)~
+~
 ~
 0 0 14245
 S
@@ -3208,11 +3209,11 @@ move!
 ~
 0 1081352 0
 D2
-(null)~
+~
 ~
 0 0 14253
 D3
-(null)~
+~
 ~
 0 0 14251
 S
@@ -3226,7 +3227,7 @@ other papers.
 ~
 0 1081352 0
 D1
-(null)~
+~
 ~
 0 0 14250
 S
@@ -3250,7 +3251,7 @@ screen.
 ~
 0 1081344 0
 D0
-(null)~
+~
 ~
 0 0 14250
 S
@@ -3262,7 +3263,7 @@ realize you can still breathe easily.
 ~
 0 17866764 6
 D4
-(null)~
+~
 ~
 7 0 14272
 S
@@ -3274,7 +3275,7 @@ this room has an annoying room affect. talk to an imp about erasing it.
 S
 #14256
 Ryuujin's 4th room~
-(null)~
+~
 0 1081348 0
 S
 #14257
@@ -3290,52 +3291,52 @@ good ole fashioned, couch surfin'.     (hey, are you gonna eat those chips?)
 ~
 0 1081348 0
 D1
-(null)~
+~
 ~
 0 0 14200
 D3
-(null)~
+~
 ~
 0 0 14236
 S
 #14258
 Scooby's 1st room~
-(null)~
+~
 0 1081348 0
 S
 #14259
 Scooby's 2nd room~
-(null)~
+~
 0 1081348 0
 S
 #14260
 Scooby's 3rd room~
-(null)~
+~
 0 1081356 0
 S
 #14261
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14262
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14263
 UNCLAIMED~
-(null)~
+~
 0 1082372 0
 S
 #14264
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14265
 Kas' private area~
-(null)~
+~
 0 1089536 0
 E
 rsa~
@@ -3351,11 +3352,11 @@ rsa~
             `B \_____/`w
 ~
 D1
-(null)~
+~
 ~
 0 0 14266
 D2
-(null)~
+~
 ~
 0 0 14200
 S
@@ -3378,17 +3379,17 @@ rsa~
             `B \_____/`w
 ~
 D3
-(null)~
+~
 ~
 0 0 14265
 D5
-(null)~
+~
 ~
 0 0 14267
 S
 #14267
 Kas' dining room~
-(null)~
+~
 0 1089536 0
 E
 rsa~
@@ -3404,11 +3405,11 @@ rsa~
             `B \_____/`w
 ~
 D3
-(null)~
+~
 window~
 7 0 14268
 D4
-(null)~
+~
 ~
 0 0 14266
 S
@@ -3464,7 +3465,7 @@ rsa~
 S
 #14270
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14271
@@ -3657,7 +3658,7 @@ The stars all around you shimmer with stardust. They sparkle and shift in
 the light, and they seem to draw on their own magic for their glow.
 ~
 D0
-(null)~
+~
 ~
 0 0 14274
 D1
@@ -3682,7 +3683,7 @@ expanse of space.
 stars~
 6 14222 14273
 D5
-(null)~
+~
 ~
 7 0 14254
 S
@@ -3716,76 +3717,76 @@ south~
 To the south lies a shimmering palace of starlight.
 ~
 D2
-(null)~
+~
 ~
 0 0 14272
 S
 #14275
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14276
 UNCLAIMED~
-(null)~
+~
 0 1081344 0
 D3
-(null)~
+~
 ~
 0 0 14277
 S
 #14277
 UNCLAIMED~
-(null)~
+~
 0 1081344 0
 D1
-(null)~
+~
 ~
 0 0 14276
 S
 #14278
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14279
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14280
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14281
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14282
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14283
 UNCLAIMED~
-(null)~
+~
 0 4 0
 S
 #14284
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14289
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14292
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14293
@@ -3829,7 +3830,7 @@ This is a picture of Zane in his Jester's suit, performing for Emperor
 Kyle in the Fishbowl.  
 ~
 D4
-(null)~
+~
 ~
 0 0 14296
 S
@@ -3854,7 +3855,7 @@ rsa~
             `B \_____/`w
 ~
 D5
-(null)~
+~
 ~
 0 0 14296
 S
@@ -3878,7 +3879,7 @@ rsa~
             `B \_____/`w
 ~
 D1
-(null)~
+~
 ~
 0 0 14296
 S
@@ -3907,33 +3908,33 @@ computer~
 Don't even think of touching Zane's computer!!!  
 ~
 D0
-(null)~
+~
 ~
 0 0 14299
 D1
-(null)~
+~
 ~
 0 0 14297
 D2
-(null)~
+~
 ~
 0 0 14298
 D3
-(null)~
+~
 ~
 0 0 14295
 D4
-(null)~
+~
 ~
 0 0 14294
 D5
-(null)~
+~
 ~
 0 0 14293
 S
 #14297
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14298
@@ -3959,7 +3960,7 @@ rsa~
             `B \_____/`w
 ~
 D0
-(null)~
+~
 ~
 0 0 14296
 S
@@ -3984,48 +3985,48 @@ rsa~
             `B \_____/`w
 ~
 D2
-(null)~
+~
 ~
 0 0 14296
 S
 #14300
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14305
 UNCLAIMED~
-(null)~
+~
 0 4 0
 S
 #14306
 UNCLAIMED~
-(null)~
+~
 0 3178508 0
 S
 #14307
 UNCLAIMED~
-(null)~
+~
 0 3178508 0
 S
 #14330
 UNCLAIMED~
-(null)~
+~
 0 1081348 0
 S
 #14331
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14332
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14333
 UNCLAIMED~
-(null)~
+~
 0 1081356 0
 S
 #14334
@@ -4037,13 +4038,13 @@ sitting and relaxing.
 ~
 0 1081352 0
 D3
-(null)~
+~
 ~
 0 0 14272
 S
 #14335
 UNCLAIMED~
-(null)~
+~
 0 12 0
 S
 #0

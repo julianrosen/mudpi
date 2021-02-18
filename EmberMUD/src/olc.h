@@ -198,6 +198,7 @@ DECLARE_OLC_FUN( aedit_show );
 DECLARE_OLC_FUN( aedit_create );
 DECLARE_OLC_FUN( aedit_change );
 DECLARE_OLC_FUN( aedit_name );
+DECLARE_OLC_FUN( aedit_group );
 DECLARE_OLC_FUN( aedit_file );
 DECLARE_OLC_FUN( aedit_age );
 /* DECLARE_OLC_FUN( aedit_recall	);       ROM OLC */

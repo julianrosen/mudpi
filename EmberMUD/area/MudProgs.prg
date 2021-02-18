@@ -899,6 +899,24 @@ yell Oh, the humanity!
 endif
 break
 ~
+#2032
+Reset jogger~
+When jogger dies, reset path info~
+death_prog 100~
+mpcycle jog;reset
+break
+~
+#2033
+(no name)~
+(no description)~
+death_prog 100~
+mpecho `YThe hydra sprouts two new heads!
+mpmload 10301
+mpmload 10301
+mpforce hydra kill $X
+mpforce 2.hydra kill $X
+break
+~
 #0
 
 
@@ -1111,32 +1129,32 @@ break
 #12
 Mayor~
 Mayor wanders around the city opening and closing gates and he fights like a cleric.~
-M 11
 M 10
+M 11
 ~
 #26
 Trump~
 Trump wanders around the city saying offensive things and he fights like a cleric.~
-M 25
 M 10
+M 25
 ~
 #20
 CityGuard~
 Kills thieves and fights evil.~
-M 18
 M 17
+M 18
 ~
 #24
 Puff~
 Figure it out. :)~
-M 23
 M 22
+M 23
 ~
 #2000
 Mudweiser MOBProgs/3011.prg~
 Mudweiser MOBProgs/3011.prg~
-M 200
 M 201
+M 200
 ~
 #2001
 Mudweiser MOBProgs/109.prg~
@@ -1146,53 +1164,53 @@ M 202
 #2002
 Mudweiser OBJProgs/4151.prg~
 Mudweiser OBJProgs/4151.prg~
-O 600
 O 601
+O 600
 ~
 #2003
 Mudweiser OBJProgs/4152.prg~
 Mudweiser OBJProgs/4152.prg~
-O 602
-O 603
 O 604
+O 603
+O 602
 ~
 #2004
 Mudweiser OBJProgs/4194.prg~
 Mudweiser OBJProgs/4194.prg~
-O 605
-O 606
 O 607
+O 606
+O 605
 ~
 #2005
 Mudweiser OBJProgs/4199.prg~
 Mudweiser OBJProgs/4199.prg~
-O 608
 O 609
+O 608
 ~
 #2006
 Mudweiser MOBProgs/1503.prg~
 Mudweiser MOBProgs/1503.prg~
-M 203
-M 204
-M 205
-M 206
-M 207
-M 208
-M 209
-M 210
-M 211
-M 212
-M 213
-M 214
-M 215
-M 216
-M 217
-M 218
-M 219
-M 220
-M 221
-M 222
 M 223
+M 222
+M 221
+M 220
+M 219
+M 218
+M 217
+M 216
+M 215
+M 214
+M 213
+M 212
+M 211
+M 210
+M 209
+M 208
+M 207
+M 206
+M 205
+M 204
+M 203
 ~
 #2007
 Mudweiser MOBProgs/1523.prg~
@@ -1217,8 +1235,8 @@ M 227
 #2011
 Mudweiser MOBProgs/4739.prg~
 Mudweiser MOBProgs/4739.prg~
-M 228
 M 229
+M 228
 ~
 #2012
 Mudweiser MOBProgs/4744.prg~
@@ -1243,14 +1261,14 @@ O 610
 #2016
 Mudweiser OBJProgs/4753.prg~
 Mudweiser OBJProgs/4753.prg~
-O 611
 O 612
+O 611
 ~
 #2017
 Mudweiser OBJProgs/4783.prg~
 Mudweiser OBJProgs/4783.prg~
-O 613
 O 614
+O 613
 ~
 #2018
 Mudweiser OBJProgs/4787.prg~
@@ -1265,8 +1283,8 @@ O 616
 #2020
 Mudweiser OBJProgs/4798.prg~
 Mudweiser OBJProgs/4798.prg~
-O 617
 O 618
+O 617
 ~
 #0
 

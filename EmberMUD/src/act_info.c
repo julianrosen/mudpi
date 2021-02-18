@@ -3586,7 +3586,7 @@ void do_description( CHAR_DATA * ch, char *argument )
 {
     if ( ch->desc != NULL )     /* only if ch has a descriptor 'cause string_append will barf */
     {
-        string_append( ch, &ch->description );
+        string_append( ch, &ch->description, COLOR_DESC );
         return;
     }
 

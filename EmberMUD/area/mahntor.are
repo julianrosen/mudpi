@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 35} Chris   The Keep of Mahn-Tor~
+Group       Embermud~
 Builders    None~
 VNUMs       2300 2399
 Security    9
@@ -1587,11 +1588,11 @@ sign~
     []================================[]
 ~
 D0
-(null)~
+~
 ~
 0 0 5280
 D2
-(null)~
+~
 ~
 0 -1 2301
 S
@@ -1605,11 +1606,11 @@ The path winds north and south into darkness.
 ~
 0 5 3
 D0
-(null)~
+~
 ~
 0 -1 2300
 D2
-(null)~
+~
 ~
 0 -1 2302
 S
@@ -1627,15 +1628,15 @@ blood dirt scrawl~
 BeWAre tHe SwAmP oGreS......
 ~
 D0
-(null)~
+~
 ~
 0 0 2301
 D1
-(null)~
+~
 ~
 0 0 2304
 D2
-(null)~
+~
 ~
 0 0 2303
 S
@@ -1648,11 +1649,11 @@ darkness, you feel very vulnerable and alone.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 2302
 D3
-(null)~
+~
 ~
 0 -1 2309
 S
@@ -1665,11 +1666,11 @@ to the west. The path you are on leads south into the darkening woods.
 ~
 0 1 3
 D2
-(null)~
+~
 ~
 0 0 2305
 D3
-(null)~
+~
 ~
 0 0 2302
 S
@@ -1682,15 +1683,15 @@ south into darkness.
 ~
 0 1 3
 D0
-(null)~
+~
 ~
 0 0 2304
 D1
-(null)~
+~
 ~
 0 -1 2327
 D2
-(null)~
+~
 ~
 0 0 2306
 S
@@ -1703,11 +1704,11 @@ east.
 ~
 0 1 3
 D0
-(null)~
+~
 ~
 0 0 2305
 D3
-(null)~
+~
 ~
 0 0 2307
 S
@@ -1722,15 +1723,15 @@ directions, south and east.
 ~
 0 1 4
 D1
-(null)~
+~
 ~
 0 0 2306
 D2
-(null)~
+~
 ~
 0 0 2310
 D3
-(null)~
+~
 ~
 0 0 2308
 S
@@ -1742,11 +1743,11 @@ hills are to the north of here.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2309
 D1
-(null)~
+~
 ~
 0 0 2307
 S
@@ -1759,11 +1760,11 @@ forest in that direction.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 0 2303
 D2
-(null)~
+~
 ~
 0 0 2308
 S
@@ -1776,19 +1777,19 @@ and it drops away to the north.
 ~
 0 4 5
 D0
-(null)~
+~
 ~
 0 0 2307
 D1
-(null)~
+~
 ~
 0 0 2312
 D2
-(null)~
+~
 ~
 0 0 2314
 D3
-(null)~
+~
 ~
 0 0 2311
 S
@@ -1801,11 +1802,11 @@ the foothills. The foothills themselves extend to the south.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 0 2310
 D2
-(null)~
+~
 ~
 0 0 2313
 S
@@ -1819,11 +1820,11 @@ climb down.
 ~
 0 0 4
 D2
-(null)~
+~
 ~
 0 0 2315
 D3
-(null)~
+~
 ~
 0 0 2310
 S
@@ -1835,15 +1836,15 @@ lead east, north, and south into more barren hills.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2311
 D1
-(null)~
+~
 ~
 0 0 2314
 D2
-(null)~
+~
 ~
 0 0 2317
 S
@@ -1857,19 +1858,19 @@ through its old feeble branches. The hills themselves lead in all directions.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2310
 D1
-(null)~
+~
 ~
 0 0 2315
 D2
-(null)~
+~
 ~
 0 0 2318
 D3
-(null)~
+~
 ~
 0 0 2313
 S
@@ -1883,19 +1884,19 @@ north, south, and west.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2312
 D1
-(null)~
+~
 ~
 0 0 2316
 D2
-(null)~
+~
 ~
 0 0 2319
 D3
-(null)~
+~
 ~
 0 0 2314
 S
@@ -1914,7 +1915,7 @@ pile~
 It appears to be some sort of nest......
 ~
 D3
-(null)~
+~
 ~
 0 0 2315
 S
@@ -1929,15 +1930,15 @@ shoreline.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2313
 D1
-(null)~
+~
 ~
 0 0 2318
 D5
-(null)~
+~
 ~
 0 0 2320
 S
@@ -1952,19 +1953,19 @@ standing leads east and west along the shoreline.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2314
 D1
-(null)~
+~
 ~
 0 0 2319
 D3
-(null)~
+~
 ~
 0 0 2317
 D5
-(null)~
+~
 ~
 0 0 2321
 S
@@ -1978,15 +1979,15 @@ upon leads west along the shoreline.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2315
 D3
-(null)~
+~
 ~
 0 0 2318
 D5
-(null)~
+~
 ~
 0 0 2322
 S
@@ -1998,15 +1999,15 @@ glows with an eerie blue light. It is possible to climb up into the hills here.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 2321
 D2
-(null)~
+~
 ~
 0 0 2323
 D4
-(null)~
+~
 ~
 0 0 2317
 S
@@ -2019,19 +2020,19 @@ and rocky crags.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 2322
 D2
-(null)~
+~
 ~
 0 0 2324
 D3
-(null)~
+~
 ~
 0 0 2320
 D4
-(null)~
+~
 ~
 0 0 2318
 S
@@ -2044,15 +2045,15 @@ west. It is possible to climb up into the hills here.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 2325
 D3
-(null)~
+~
 ~
 0 0 2321
 D4
-(null)~
+~
 ~
 0 0 2319
 S
@@ -2064,11 +2065,11 @@ to the east. The shore itself extends north away from the water's edge.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 2320
 D1
-(null)~
+~
 ~
 0 0 2324
 S
@@ -2092,19 +2093,19 @@ You see a swirling blue portal of light. You think you can see glimpses of
 something moving on the "other side".
 ~
 D0
-(null)~
+~
 ~
 0 0 2321
 D1
-(null)~
+~
 ~
 0 0 2325
 D2
-(null)~
+~
 ~
 0 0 2326
 D3
-(null)~
+~
 ~
 0 0 2323
 S
@@ -2117,11 +2118,11 @@ radiates blue light. The shore extends north away from the water's edge.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 2322
 D3
-(null)~
+~
 ~
 0 0 2324
 S
@@ -2134,11 +2135,11 @@ plain. Another window the the north shows an image of a rocky shore.
 ~
 0 12 0
 D0
-(null)~
+~
 ~
 0 0 2324
 D2
-(null)~
+~
 ~
 0 -1 2353
 S
@@ -2151,11 +2152,11 @@ a dark forest to the west.
 ~
 0 13 3
 D1
-(null)~
+~
 ~
 0 0 2328
 D3
-(null)~
+~
 ~
 0 0 2305
 S
@@ -2168,11 +2169,11 @@ and west into more swamp.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 0 2329
 D3
-(null)~
+~
 ~
 0 0 2327
 S
@@ -2186,11 +2187,11 @@ here leads east and west.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 -1 2330
 D3
-(null)~
+~
 ~
 0 0 2328
 S
@@ -2202,11 +2203,11 @@ a dark, mist filled swamp. Small paths lead south and west into the mist.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 0 2331
 D3
-(null)~
+~
 ~
 0 0 2329
 S
@@ -2218,11 +2219,11 @@ within it. Harder ground rises to the north.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 0 2330
 D1
-(null)~
+~
 ~
 0 0 2335
 S
@@ -2234,21 +2235,21 @@ heard all around. You can wander in any direction.
 ~
 0 8201 4
 D1
-(null)~
 ~
-0 0 2334
-D2
-(null)~
-~
-0 0 2335
-D3
-(null)~
 ~
 0 0 2334
 D0
-(null)~
+~
 ~
 0 0 2337
+D2
+~
+~
+0 0 2335
+D3
+~
+~
+0 0 2334
 S
 #2333
 Lost in the Mist~
@@ -2258,22 +2259,22 @@ almost caresses your body as it floats about you. You can wander in any
 direction.......
 ~
 0 8201 3
+D3
+~
+~
+0 0 2335
 D1
-(null)~
+~
 ~
 0 0 2336
 D2
-(null)~
+~
 ~
 0 0 2333
 D0
-(null)~
+~
 ~
 0 0 2333
-D3
-(null)~
-~
-0 0 2335
 S
 #2334
 Lost in the Mist~
@@ -2282,20 +2283,20 @@ covering you in a damp sheen. There is no sound, all light is eagerly devoured
 by the mist. You feel totally and hopelessly lost.
 ~
 0 8201 4
+D1
+~
+~
+0 0 2332
 D2
-(null)~
+~
 ~
 0 0 2336
 D0
-(null)~
+~
 ~
 0 0 2338
-D1
-(null)~
-~
-0 0 2332
 D3
-(null)~
+~
 ~
 0 0 2332
 S
@@ -2307,21 +2308,21 @@ You hear quiet laughter all about you.
 ~
 0 8201 4
 D2
-(null)~
+~
 ~
 0 0 2337
 D3
-(null)~
+~
 ~
 0 0 2331
-D0
-(null)~
-~
-0 0 2332
 D1
-(null)~
+~
 ~
 0 0 2333
+D0
+~
+~
+0 0 2332
 S
 #2336
 Lost in the Mist~
@@ -2330,22 +2331,22 @@ what appears to be trees and hills to the east. The mist itself thickens to
 the west, while it grows thin to the east.
 ~
 0 8201 4
-D2
-(null)~
-~
-0 0 2338
 D0
-(null)~
+~
 ~
 0 0 2334
-D3
-(null)~
-~
-0 0 2333
 D1
-(null)~
+~
 ~
 0 0 2339
+D3
+~
+~
+0 0 2333
+D2
+~
+~
+0 0 2338
 S
 #2337
 Lost in the Mist~
@@ -2355,22 +2356,22 @@ on, but this noise is absorbed by the mist and does not travel. You can wander
 in any direction.
 ~
 0 8201 4
-D1
-(null)~
+D3
+~
 ~
 0 0 2338
 D2
-(null)~
+~
 ~
 0 0 2332
-D3
-(null)~
-~
-0 0 2338
 D0
-(null)~
+~
 ~
 0 0 2335
+D1
+~
+~
+0 0 2338
 S
 #2338
 Lost in the Mist~
@@ -2379,22 +2380,22 @@ direction. You stumble blindly through the mist, oblivious to your
 surroundings.
 ~
 0 8201 3
-D3
-(null)~
-~
-0 0 2337
 D1
-(null)~
+~
 ~
 0 0 2337
 D0
-(null)~
+~
 ~
 0 0 2336
 D2
-(null)~
+~
 ~
 0 0 2334
+D3
+~
+~
+0 0 2337
 S
 #2339
 The solid path~
@@ -2404,11 +2405,11 @@ you can see the sky above. A thick bank of mist is to your west.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 2340
 D3
-(null)~
+~
 ~
 0 0 2336
 S
@@ -2421,11 +2422,11 @@ farther north on the trail. The trail itself leads south into murky territory.
 ~
 0 4 3
 D0
-(null)~
+~
 ~
 0 0 2341
 D2
-(null)~
+~
 ~
 0 0 2339
 S
@@ -2438,11 +2439,11 @@ south into the forest.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 2343
 D2
-(null)~
+~
 ~
 0 0 2340
 S
@@ -2454,11 +2455,11 @@ with a prime hunting ground. Small paths lead north and east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 2345
 D1
-(null)~
+~
 ~
 0 0 2343
 S
@@ -2471,19 +2472,19 @@ the crude huts. The gates to the south provide an exit from the village.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 2346
 D1
-(null)~
+~
 ~
 0 0 2344
 D2
-(null)~
+~
 ~
 0 0 2341
 D3
-(null)~
+~
 ~
 0 0 2342
 S
@@ -2496,11 +2497,11 @@ live in such squalor. Small paths lead west and north here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 2347
 D3
-(null)~
+~
 ~
 0 0 2343
 S
@@ -2514,11 +2515,11 @@ east and south.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 2346
 D2
-(null)~
+~
 ~
 0 0 2342
 S
@@ -2532,19 +2533,19 @@ village itself.
 ~
 0 0 1
 D0
-(null)~
+~
 door~
 1 -1 2348
 D1
-(null)~
+~
 ~
 0 0 2347
 D2
-(null)~
+~
 ~
 0 0 2343
 D3
-(null)~
+~
 ~
 0 0 2345
 S
@@ -2557,11 +2558,11 @@ fresher air.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 2344
 D3
-(null)~
+~
 ~
 0 0 2346
 S
@@ -2574,11 +2575,11 @@ exit into the village.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 2349
 D2
-(null)~
+~
 door~
 1 -1 2346
 S
@@ -2592,11 +2593,11 @@ smoke clings to the ceiling.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2350
 D2
-(null)~
+~
 ~
 0 0 2348
 S
@@ -2610,7 +2611,7 @@ south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 2349
 S
@@ -2621,20 +2622,20 @@ The cold cuts to the bone. Swirling snow and wind make impossible for you to
 discern any directions.
 ~
 0 0 5
-D3
-(null)~
-~
-0 0 2354
 D2
-(null)~
+~
 ~
 0 0 2355
+D3
+~
+~
+0 0 2354
 D1
-(null)~
+~
 ~
 0 0 2352
 D0
-(null)~
+~
 ~
 0 0 2353
 S
@@ -2645,22 +2646,22 @@ The cold cuts to the bine. Swirling snow and wind make it impossible to
 discern any directions.
 ~
 0 0 5
-D2
-(null)~
-~
-0 -1 2358
-D3
-(null)~
-~
-0 0 2351
 D0
-(null)~
+~
 ~
 0 -1 2357
 D1
-(null)~
+~
 ~
 0 -1 2354
+D3
+~
+~
+0 0 2351
+D2
+~
+~
+0 -1 2358
 S
 #2353
 The Glacier Temple~
@@ -2671,11 +2672,11 @@ the open doorway. Swirling snow and bright light obscure your view.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2326
 D2
-(null)~
+~
 ~
 0 0 2351
 S
@@ -2687,21 +2688,21 @@ to discern any directions.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 2351
-D3
-(null)~
-~
-0 0 2352
 D0
-(null)~
+~
 ~
 0 0 2359
 D2
-(null)~
+~
 ~
 0 0 2356
+D3
+~
+~
+0 0 2352
 S
 #2355
 The frigid wastelands~
@@ -2710,22 +2711,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
+D0
+~
+~
+0 0 2351
+D3
+~
+~
+0 0 2356
 D1
-(null)~
+~
 ~
 0 0 2356
 D2
-(null)~
+~
 ~
 0 0 2357
-D3
-(null)~
-~
-0 0 2356
-D0
-(null)~
-~
-0 0 2351
 S
 #2356
 The frigid wastelands~
@@ -2734,22 +2735,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D2
-(null)~
+D3
 ~
-0 0 2359
-D1
-(null)~
 ~
 0 0 2355
-D3
-(null)~
+D1
+~
 ~
 0 0 2355
 D0
-(null)~
+~
 ~
 0 0 2354
+D2
+~
+~
+0 0 2359
 S
 #2357
 The frigid wastelands~
@@ -2759,19 +2760,19 @@ to discern any directions.
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 0 2359
-D0
-(null)~
-~
-0 0 2355
 D2
-(null)~
+~
 ~
 0 0 2352
+D0
+~
+~
+0 0 2355
 D1
-(null)~
+~
 ~
 0 0 2358
 S
@@ -2782,22 +2783,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any direction.
 ~
 0 0 5
-D3
-(null)~
-~
-0 0 2357
 D2
-(null)~
+~
 ~
 0 0 2360
 D0
-(null)~
+~
 ~
 0 0 2352
 D1
-(null)~
+~
 ~
 0 0 2359
+D3
+~
+~
+0 0 2357
 S
 #2359
 The frigid wastelands~
@@ -2806,22 +2807,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D1
-(null)~
-~
-0 0 2357
-D0
-(null)~
-~
-0 0 2356
-D3
-(null)~
-~
-0 0 2358
 D2
-(null)~
+~
 ~
 0 0 2354
+D3
+~
+~
+0 0 2358
+D0
+~
+~
+0 0 2356
+D1
+~
+~
+0 0 2357
 S
 #2360
 The edge of the frigid wastes~
@@ -2832,11 +2833,11 @@ wastes.
 ~
 0 4 5
 D0
-(null)~
+~
 ~
 0 0 2358
 D4
-(null)~
+~
 ~
 0 0 2361
 S
@@ -2849,11 +2850,11 @@ above.
 ~
 0 4 5
 D4
-(null)~
+~
 ~
 0 0 2362
 D5
-(null)~
+~
 ~
 0 0 2360
 S
@@ -2873,11 +2874,11 @@ can see intricate carvings in the gates. They appear to be of creatures that
 are half man and half bull.
 ~
 D2
-(null)~
+~
 gate huge gates ice~
 1 -1 2364
 D5
-(null)~
+~
 ~
 0 0 2361
 S
@@ -2890,11 +2891,11 @@ streets lead south and east.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 2364
 D2
-(null)~
+~
 ~
 0 0 2366
 S
@@ -2908,19 +2909,19 @@ streets lead east and west, while a main road appears to lead south.
 ~
 0 0 1
 D0
-(null)~
+~
 gates gate huge ice~
 1 -1 2362
 D1
-(null)~
+~
 ~
 0 -1 2365
 D2
-(null)~
+~
 ~
 0 0 2367
 D3
-(null)~
+~
 ~
 0 -1 2363
 S
@@ -2933,11 +2934,11 @@ across the dark street. Small streets lead west and south here.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 2368
 D3
-(null)~
+~
 ~
 0 0 2364
 S
@@ -2960,15 +2961,15 @@ sign small~
 []=============[]
 ~
 D0
-(null)~
+~
 ~
 0 0 2363
 D1
-(null)~
+~
 ~
 0 -1 2367
 D2
-(null)~
+~
 ~
 0 -1 2369
 S
@@ -2990,19 +2991,19 @@ sign~
 []=========[]
 ~
 D0
-(null)~
+~
 ~
 0 0 2364
 D1
-(null)~
+~
 ~
 0 0 2368
 D2
-(null)~
+~
 ~
 0 0 2370
 D3
-(null)~
+~
 ~
 0 0 2366
 S
@@ -3016,19 +3017,19 @@ view.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 2365
 D1
-(null)~
+~
 ~
 0 0 2375
 D2
-(null)~
+~
 ~
 0 0 2371
 D3
-(null)~
+~
 ~
 0 0 2367
 S
@@ -3042,7 +3043,7 @@ north, out of the bar and back out into the cold.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2366
 S
@@ -3055,7 +3056,7 @@ north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2367
 S
@@ -3068,7 +3069,7 @@ the chilling snow and wind.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2368
 S
@@ -3085,7 +3086,7 @@ red~
 It looks like it leads back to the hall.
 ~
 D1
-(null)~
+~
 red~
 2 2351 2388
 S
@@ -3101,7 +3102,7 @@ black~
 It looks like it leads back to the hall.
 ~
 D1
-(null)~
+~
 black~
 2 2352 2389
 S
@@ -3117,7 +3118,7 @@ white~
 It looks like it leads out to the hall.
 ~
 D1
-(null)~
+~
 white~
 2 2353 2392
 S
@@ -3130,11 +3131,11 @@ west are all you can see from here.
 ~
 0 4 5
 D1
-(null)~
+~
 ~
 0 0 2377
 D3
-(null)~
+~
 ~
 0 0 2368
 S
@@ -3148,7 +3149,7 @@ across it. A small door leads south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 2377
 S
@@ -3162,19 +3163,19 @@ guard houses to the north and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 2376
 D1
-(null)~
+~
 gate~
 2 2350 2379
 D2
-(null)~
+~
 ~
 0 0 2378
 D3
-(null)~
+~
 ~
 0 0 2375
 S
@@ -3186,7 +3187,7 @@ hear the roar of the freezing wind. A small door leads north out into the cold.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2377
 S
@@ -3200,11 +3201,11 @@ large hall leads east, deeper into the keep.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 2380
 D3
-(null)~
+~
 gate~
 2 2350 2377
 S
@@ -3217,11 +3218,11 @@ hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 2381
 D3
-(null)~
+~
 ~
 0 0 2379
 S
@@ -3235,15 +3236,15 @@ leads to the west.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 2383
 D2
-(null)~
+~
 ~
 0 0 2382
 D3
-(null)~
+~
 ~
 0 0 2380
 S
@@ -3256,15 +3257,15 @@ smaller hall leading south, deeper into the keep.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 2381
 D1
-(null)~
+~
 ~
 0 0 2384
 D2
-(null)~
+~
 ~
 0 -1 2387
 S
@@ -3282,15 +3283,15 @@ throne huge gold golden~
 The golden throne is huge. It takes up the whole wall.........
 ~
 D1
-(null)~
+~
 throne huge golden gold~
 1 0 2385
 D2
-(null)~
+~
 ~
 0 0 2384
 D3
-(null)~
+~
 ~
 0 0 2381
 S
@@ -3303,11 +3304,11 @@ The hall itself leads north and west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2383
 D3
-(null)~
+~
 ~
 0 0 2382
 S
@@ -3326,11 +3327,11 @@ huge stone~
 A very formidable looking door.
 ~
 D1
-(null)~
+~
 door huge stone~
 2 2359 2386
 D3
-(null)~
+~
 gold throne huge secret~
 1 0 2383
 S
@@ -3347,15 +3348,15 @@ door huge stone~
 A huge stone door.......
 ~
 D1
-(null)~
+~
 ~
 0 0 2395
 D2
-(null)~
+~
 ~
 0 0 2393
 D3
-(null)~
+~
 door huge stone~
 2 2359 2385
 S
@@ -3368,11 +3369,11 @@ seen to the north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2382
 D2
-(null)~
+~
 ~
 0 0 2388
 S
@@ -3393,19 +3394,19 @@ yellow~
 You see a yellow door. It has the name "Sumaron" written on it.
 ~
 D0
-(null)~
+~
 ~
 0 0 2387
 D1
-(null)~
+~
 yellow~
 2 2355 2390
 D2
-(null)~
+~
 ~
 0 0 2389
 D3
-(null)~
+~
 red~
 2 2351 2372
 S
@@ -3425,19 +3426,19 @@ maroon~
 You see a maroon door here. It has the name "Amyrok" written on it.
 ~
 D0
-(null)~
+~
 ~
 0 0 2388
 D1
-(null)~
+~
 maroon~
 2 2356 2391
 D2
-(null)~
+~
 ~
 0 0 2392
 D3
-(null)~
+~
 black~
 2 2352 2373
 S
@@ -3453,7 +3454,7 @@ yellow~
 It looks like it leads back to the hall.
 ~
 D3
-(null)~
+~
 yellow~
 2 2355 2388
 S
@@ -3470,7 +3471,7 @@ maroon~
 It looks like it leads back to the hall.
 ~
 D3
-(null)~
+~
 maroon~
 2 2356 2389
 S
@@ -3491,19 +3492,19 @@ green~
 You see a green door here. It has the name "Nasturn" written on it.
 ~
 D0
-(null)~
+~
 ~
 0 0 2389
 D1
-(null)~
+~
 green~
 2 2357 2394
 D2
-(null)~
+~
 ~
 0 0 2397
 D3
-(null)~
+~
 white~
 2 2353 2374
 S
@@ -3515,11 +3516,11 @@ music playing quietly from somewhere. Beaded doorways lead north and east.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 2386
 D1
-(null)~
+~
 ~
 0 0 2396
 S
@@ -3535,7 +3536,7 @@ green~
 It looks like it leads back to the hall.
 ~
 D3
-(null)~
+~
 green~
 2 2357 2392
 S
@@ -3547,11 +3548,11 @@ tapestries decorate the walls. Beaded doorways lead south and west.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 2396
 D3
-(null)~
+~
 ~
 0 0 2386
 S
@@ -3564,11 +3565,11 @@ overwhelms you. Beaded doorways lead north and west.
 ~
 0 136 0
 D0
-(null)~
+~
 ~
 0 0 2395
 D3
-(null)~
+~
 ~
 0 0 2393
 S
@@ -3588,15 +3589,15 @@ grey~
 You see a grey door here. It has the name "Dorgar" written on it.
 ~
 D0
-(null)~
+~
 ~
 0 0 2392
 D1
-(null)~
+~
 grey~
 2 2358 2398
 D3
-(null)~
+~
 brown~
 2 2354 2399
 S
@@ -3612,7 +3613,7 @@ grey~
 It looks like it leads back to the hall.
 ~
 D3
-(null)~
+~
 grey~
 2 2358 2397
 S
@@ -3628,7 +3629,7 @@ brown~
 It looks like it leads to the hall.
 ~
 D1
-(null)~
+~
 brown~
 2 2354 2397
 S

@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 20} Mahatma Arachnos~
+Group       Embermud~
 Builders    None~
 VNUMs       6200 6399
 Security    9
@@ -371,11 +372,11 @@ web~
 The immense spider web moves softly.
 ~
 D0
-(null)~
+~
 ~
 0 -1 6203
 D2
-(null)~
+~
 ~
 0 -1 6133
 S
@@ -391,7 +392,7 @@ web~
 The immense spider web moves softly.
 ~
 D0
-(null)~
+~
 ~
 0 -1 6134
 S
@@ -407,7 +408,7 @@ web~
 The immense spider web moves softly.
 ~
 D1
-(null)~
+~
 ~
 0 -1 6134
 S
@@ -423,11 +424,11 @@ web~
 The immense spider web moves softly.
 ~
 D0
-(null)~
+~
 ~
 0 -1 6301
 D2
-(null)~
+~
 ~
 0 -1 6200
 S
@@ -441,11 +442,11 @@ absorbed into the webbing.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 -1 6302
 D2
-(null)~
+~
 ~
 0 -1 6203
 S
@@ -458,19 +459,19 @@ down a bit.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6304
 D1
-(null)~
+~
 ~
 0 -1 6305
 D2
-(null)~
+~
 ~
 0 -1 6301
 D3
-(null)~
+~
 ~
 0 -1 6303
 S
@@ -482,7 +483,7 @@ have fang-marks on there bodies. You sense some order in their markings.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6302
 S
@@ -493,7 +494,7 @@ spiders fill the air. It seems that these young ones are newborns.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 -1 6302
 S
@@ -505,11 +506,11 @@ seems brighter upwards.
 ~
 0 0 2
 D3
-(null)~
+~
 ~
 0 -1 6302
 D4
-(null)~
+~
 ~
 0 -1 6306
 S
@@ -521,11 +522,11 @@ as well as rats, wolves, and humans.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 -1 6307
 D5
-(null)~
+~
 ~
 0 -1 6305
 S
@@ -537,11 +538,11 @@ as well as cats, wolves, and humans.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6306
 D1
-(null)~
+~
 ~
 0 -1 6308
 S
@@ -553,11 +554,11 @@ as well as cats, dogs, and humans.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6309
 D3
-(null)~
+~
 ~
 0 -1 6307
 S
@@ -570,15 +571,15 @@ non-existent now.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6310
 D2
-(null)~
+~
 ~
 0 -1 6320
 D3
-(null)~
+~
 ~
 0 -1 6308
 S
@@ -590,11 +591,11 @@ closer you see millions of aphids covering each limb.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 -1 6309
 D3
-(null)~
+~
 ~
 0 -1 6311
 S
@@ -605,11 +606,11 @@ webbing here, but it is of a finer quality.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6310
 D2
-(null)~
+~
 ~
 0 -1 6312
 S
@@ -622,11 +623,11 @@ but unwebbed, and drained of their life juices.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6311
 D3
-(null)~
+~
 ~
 0 -1 6313
 S
@@ -638,7 +639,7 @@ throws them out at her leisure.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6312
 S
@@ -650,11 +651,11 @@ tightrope your way across a ravine.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6309
 D3
-(null)~
+~
 ~
 0 -1 6321
 S
@@ -668,15 +669,15 @@ some bear and small deer bones in fact. No human skeletons are visible
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6320
 D2
-(null)~
+~
 ~
 0 -1 6323
 D5
-(null)~
+~
 ~
 0 -1 6322
 S
@@ -688,7 +689,7 @@ of light as well.
 ~
 0 0 2
 D4
-(null)~
+~
 ~
 0 -1 6321
 S
@@ -700,11 +701,11 @@ and webby in texture. This is another world it would appear.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6321
 D5
-(null)~
+~
 ~
 0 -1 6324
 S
@@ -716,11 +717,11 @@ clutter the trail beneath you.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6325
 D4
-(null)~
+~
 ~
 0 -1 6323
 S
@@ -732,11 +733,11 @@ become finer and finer in quality.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6326
 D3
-(null)~
+~
 ~
 0 -1 6324
 S
@@ -746,11 +747,11 @@ Another shifty little strand of webs, almost ethereal in nature.
 ~
 0 0 2
 D3
-(null)~
+~
 ~
 0 -1 6325
 D4
-(null)~
+~
 ~
 0 -1 6327
 S
@@ -763,11 +764,11 @@ ether. You can still get back down to more surer lands.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6328
 D5
-(null)~
+~
 ~
 0 -1 6326
 S
@@ -779,11 +780,11 @@ to blue.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 -1 6327
 D5
-(null)~
+~
 ~
 0 -1 6331
 S
@@ -797,7 +798,7 @@ area.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 -1 6331
 S
@@ -810,15 +811,15 @@ passages of the web. Exits go in many directions.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6330
 D1
-(null)~
+~
 ~
 0 -1 6332
 D2
-(null)~
+~
 ~
 0 -1 6333
 S
@@ -830,7 +831,7 @@ have not picked up yet lie here.
 ~
 0 0 2
 D3
-(null)~
+~
 ~
 0 -1 6331
 S
@@ -842,15 +843,15 @@ away from the sticky strands of the web.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6331
 D2
-(null)~
+~
 ~
 0 -1 6334
 D3
-(null)~
+~
 ~
 0 -1 6335
 S
@@ -861,7 +862,7 @@ a typical cloud, but it might be the nest of an aerial creature.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6333
 S
@@ -872,11 +873,11 @@ seem to get caught (or hypnotized) by its sticky strands.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6333
 D3
-(null)~
+~
 ~
 0 -1 6336
 S
@@ -887,15 +888,15 @@ Still, it's safe enough to move around.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6335
 D2
-(null)~
+~
 ~
 0 -1 6340
 D3
-(null)~
+~
 ~
 0 -1 6341
 S
@@ -906,7 +907,7 @@ arcane lore clutter the area, along with shards of armor and weaponry.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6336
 S
@@ -917,15 +918,15 @@ see the possible entrance to another creatures lair.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6336
 D2
-(null)~
+~
 ~
 0 -1 6342
 D3
-(null)~
+~
 ~
 0 -1 6345
 S
@@ -937,7 +938,7 @@ Beware!
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6341
 S
@@ -948,15 +949,15 @@ seem to get caught (or hypnotized) by its sticky strands.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6341
 D2
-(null)~
+~
 ~
 0 -1 6350
 D3
-(null)~
+~
 ~
 0 -1 6346
 S
@@ -966,11 +967,11 @@ Here is a quiet tree top.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6345
 D3
-(null)~
+~
 ~
 0 -1 6347
 S
@@ -982,11 +983,11 @@ as you tiptoe on this section of the web.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6346
 D2
-(null)~
+~
 ~
 0 -1 6355
 S
@@ -997,7 +998,7 @@ that the ruler of this realm steals his magical strength.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6345
 S
@@ -1009,15 +1010,15 @@ the north you sense the heavy breathing of a fiery animal.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6347
 D3
-(null)~
+~
 ~
 0 -1 6360
 D4
-(null)~
+~
 ~
 0 -1 6365
 S
@@ -1029,7 +1030,7 @@ But even Yevaud has his master...or so you deduce.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6355
 S
@@ -1042,19 +1043,19 @@ southward. The grim entrance of Arachnos' Lair is downward.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6371
 D2
-(null)~
+~
 ~
 0 -1 6366
 D4
-(null)~
+~
 ~
 0 -1 6390
 D5
-(null)~
+~
 ~
 0 -1 6355
 S
@@ -1067,7 +1068,7 @@ through the hall ways. You see one definite path ahead.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6367
 S
@@ -1082,11 +1083,11 @@ chair~
 An ordinary chair, well used, glued to the ground by spiderweb.
 ~
 D1
-(null)~
+~
 ~
 0 -1 6368
 D3
-(null)~
+~
 ~
 0 -1 6366
 S
@@ -1099,11 +1100,11 @@ more.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6369
 D3
-(null)~
+~
 ~
 0 -1 6367
 S
@@ -1116,11 +1117,11 @@ more.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6370
 D3
-(null)~
+~
 ~
 0 -1 6368
 S
@@ -1134,11 +1135,11 @@ here.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6371
 D3
-(null)~
+~
 ~
 0 -1 6369
 S
@@ -1151,11 +1152,11 @@ inclined to go back on the ethereal web and take your chances there.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6372
 D3
-(null)~
+~
 ~
 0 -1 6370
 S
@@ -1166,11 +1167,11 @@ closer into view and you are even more inclined to go back now.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6373
 D3
-(null)~
+~
 ~
 0 -1 6371
 S
@@ -1183,11 +1184,11 @@ of thunder.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6380
 D3
-(null)~
+~
 ~
 0 -1 6372
 S
@@ -1206,11 +1207,11 @@ entrance to Arachnos' Lair.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6391
 D5
-(null)~
+~
 ~
 0 -1 6365
 S
@@ -1224,11 +1225,11 @@ die, you're gonna fry. Good bye!"
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 6392
 D2
-(null)~
+~
 ~
 0 -1 6390
 S
@@ -1240,11 +1241,11 @@ the webwork. Perhaps lists of victims? You can't tell.
 ~
 0 8 2
 D0
-(null)~
+~
 door north~
 2 0 6399
 D2
-(null)~
+~
 ~
 0 -1 6391
 S
@@ -1259,7 +1260,7 @@ to her beautiful silken body.
 ~
 0 0 2
 D2
-(null)~
+~
 door south~
 2 0 6392
 S

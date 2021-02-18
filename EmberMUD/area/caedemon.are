@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1 15} Caitlyn Caedemon's Valley~
+Group       Mudweiser~
 Builders    None~
 VNUMs       25800 25899
 Security    6
@@ -1278,19 +1279,19 @@ plaque~
 ----------------------------------------------------
 ~
 D0
-(null)~
+~
 ~
 0 0 25801
 D1
-(null)~
+~
 ~
 0 0 25822
 D2
-(null)~
+~
 ~
 0 0 25829
 D3
-(null)~
+~
 ~
 0 0 25856
 S
@@ -1302,15 +1303,15 @@ intended for the female gender.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25802
 D1
-(null)~
+~
 ~
 0 0 25823
 D2
-(null)~
+~
 ~
 0 0 25800
 S
@@ -1334,15 +1335,15 @@ West from here you can see bright cloth hanging from tents. There is loud
 music being played.
 ~
 D0
-(null)~
+~
 ~
 0 0 25803
 D2
-(null)~
+~
 ~
 0 0 25801
 D3
-(null)~
+~
 ~
 0 0 25882
 S
@@ -1355,15 +1356,15 @@ clothing in the window.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 25804
 D1
-(null)~
+~
 ~
 0 0 25825
 D2
-(null)~
+~
 ~
 0 0 25802
 S
@@ -1376,15 +1377,15 @@ direction.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25805
 D2
-(null)~
+~
 ~
 0 0 25803
 D3
-(null)~
+~
 ~
 0 0 25863
 S
@@ -1397,11 +1398,11 @@ magestically to the north.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25806
 D3
-(null)~
+~
 ~
 0 0 25804
 S
@@ -1413,11 +1414,11 @@ into a smaller rock outcropping. The mountain looms to the north.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25807
 D3
-(null)~
+~
 ~
 0 0 25805
 S
@@ -1430,15 +1431,15 @@ the street fades into the horizon.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25808
 D2
-(null)~
+~
 ~
 0 0 25828
 D3
-(null)~
+~
 ~
 0 0 25806
 S
@@ -1450,11 +1451,11 @@ Lovers Lane leads back west. The mountain blocks the way north and east.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 25809
 D3
-(null)~
+~
 ~
 0 0 25807
 S
@@ -1467,15 +1468,15 @@ lends charm to Caedemon's Valley.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25808
 D1
-(null)~
+~
 ~
 0 0 25810
 D2
-(null)~
+~
 ~
 0 0 25817
 S
@@ -1488,15 +1489,15 @@ to the east. If you wait for a while, you might be able to reach it.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 25811
 D2
-(null)~
+~
 ~
 0 0 25813
 D3
-(null)~
+~
 ~
 0 0 25809
 S
@@ -1509,11 +1510,11 @@ The regal viewing box is southeast of here, and the spectator's area lies west.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 25812
 D3
-(null)~
+~
 ~
 0 0 25810
 S
@@ -1525,15 +1526,15 @@ field ends south. There is a protective fence blocking the way west.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25811
 D1
-(null)~
+~
 ~
 0 0 25816
 D2
-(null)~
+~
 ~
 0 0 25815
 S
@@ -1545,11 +1546,11 @@ south there is more spectator area. A fence protects to the east.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25810
 D2
-(null)~
+~
 ~
 0 0 25814
 S
@@ -1562,15 +1563,15 @@ viewing box.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25813
 D1
-(null)~
+~
 ~
 0 0 25815
 D3
-(null)~
+~
 ~
 0 0 25818
 S
@@ -1582,11 +1583,11 @@ while to move west to the specators area.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25812
 D3
-(null)~
+~
 ~
 0 0 25814
 S
@@ -1599,7 +1600,7 @@ stairs go back west.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 25812
 S
@@ -1611,11 +1612,11 @@ small park begins west from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25809
 D2
-(null)~
+~
 ~
 0 0 25818
 D3
@@ -1632,15 +1633,15 @@ Avenue continues north and south from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25817
 D1
-(null)~
+~
 ~
 0 0 25814
 D2
-(null)~
+~
 ~
 0 0 25819
 S
@@ -1653,11 +1654,11 @@ leads into the Joust.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25818
 D3
-(null)~
+~
 ~
 0 0 25820
 S
@@ -1669,11 +1670,11 @@ bushes are dotted between the trees and give the street its name.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25819
 D3
-(null)~
+~
 ~
 0 0 25821
 S
@@ -1685,15 +1686,15 @@ theatre, which lies directly south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25824
 D1
-(null)~
+~
 ~
 0 0 25820
 D3
-(null)~
+~
 ~
 0 0 25822
 S
@@ -1705,11 +1706,11 @@ to the town. Directly west of here is the Town Square of Caedemon's Valley.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25821
 D3
-(null)~
+~
 ~
 0 0 25800
 S
@@ -1722,7 +1723,7 @@ select from.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 25801
 S
@@ -1734,11 +1735,11 @@ on the benches under the shade. A fountain flows merrily east of here.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25827
 D2
-(null)~
+~
 ~
 0 0 25821
 S
@@ -1750,7 +1751,7 @@ shopkeeper is ready to measure you for your own custom suit.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 25803
 S
@@ -1768,7 +1769,7 @@ This white gate is closed against the noise from the Joust.
 gate~
 1 0 25817
 D3
-(null)~
+~
 ~
 0 0 25827
 S
@@ -1781,11 +1782,11 @@ kept, signifying the pride of the people in Caedemon's Valley.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 25826
 D2
-(null)~
+~
 ~
 0 0 25824
 S
@@ -1798,7 +1799,7 @@ sweet music giving a pleasant change from the shouts of the joust.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25807
 S
@@ -1811,11 +1812,11 @@ the air.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25800
 D2
-(null)~
+~
 ~
 0 0 25830
 S
@@ -1828,19 +1829,19 @@ Way continues north and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25829
 D1
-(null)~
+~
 ~
 0 0 25864
 D2
-(null)~
+~
 ~
 0 0 25831
 D3
-(null)~
+~
 ~
 0 0 25878
 S
@@ -1853,11 +1854,11 @@ kept.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25830
 D2
-(null)~
+~
 ~
 0 0 25832
 S
@@ -1871,11 +1872,11 @@ around the city from the gate, following the Gaeine River.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25831
 D1
-(null)~
+~
 ~
 0 0 25833
 D2
@@ -1884,7 +1885,7 @@ South of you is the massive gate leading to and from Caedemon's Valley.
 gate~
 5 0 25842
 D3
-(null)~
+~
 ~
 0 0 25845
 S
@@ -1896,11 +1897,11 @@ can see a beautiful lake, and some boats sailing on it.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25834
 D3
-(null)~
+~
 ~
 0 0 25832
 S
@@ -1912,11 +1913,11 @@ both east and west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25835
 D3
-(null)~
+~
 ~
 0 0 25833
 S
@@ -1928,11 +1929,11 @@ surrounding the theatre.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25836
 D3
-(null)~
+~
 ~
 0 0 25834
 S
@@ -1944,11 +1945,11 @@ to the north and Market Boulevard goes back east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25837
 D3
-(null)~
+~
 ~
 0 0 25835
 S
@@ -1960,11 +1961,11 @@ areas at the lake. North of here is the eastern exit of the theatre.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25838
 D2
-(null)~
+~
 ~
 0 0 25836
 S
@@ -1976,15 +1977,15 @@ south of here, on its way around the lake.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 25839
 D2
-(null)~
+~
 ~
 0 0 25837
 D3
-(null)~
+~
 ~
 0 0 25868
 S
@@ -1996,11 +1997,11 @@ to the theatre.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25840
 D3
-(null)~
+~
 ~
 0 0 25838
 S
@@ -2012,11 +2013,11 @@ to the west, the Promenade curves its way around the lake.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25841
 D3
-(null)~
+~
 ~
 0 0 25839
 S
@@ -2028,11 +2029,11 @@ Promenade goes back to the west, and the lake prevents travel to the east.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 25896
 D3
-(null)~
+~
 ~
 0 0 25840
 S
@@ -2050,7 +2051,7 @@ North of you lies the gate into and out of Caedemon's Valley.
 gate~
 5 0 25832
 D2
-(null)~
+~
 ~
 0 0 25843
 S
@@ -2062,11 +2063,11 @@ city. South leads you back into the woods.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 25842
 D2
-(null)~
+~
 ~
 0 0 25844
 S
@@ -2078,11 +2079,11 @@ life are scattered about.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 25843
 D2
-(null)~
+~
 ~
 0 0 21239
 S
@@ -2094,15 +2095,15 @@ the gate into the city, and the street continues west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25877
 D1
-(null)~
+~
 ~
 0 0 25832
 D3
-(null)~
+~
 ~
 0 0 25846
 S
@@ -2114,15 +2115,15 @@ The cobblestone is much more worn than anywhere else in the Valley.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25876
 D1
-(null)~
+~
 ~
 0 0 25845
 D3
-(null)~
+~
 ~
 0 0 25847
 S
@@ -2134,15 +2135,15 @@ disappears to the east as far as you can see.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25874
 D1
-(null)~
+~
 ~
 0 0 25846
 D3
-(null)~
+~
 ~
 0 0 25848
 S
@@ -2155,11 +2156,11 @@ surrounding Caedemon's Valley.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25849
 D1
-(null)~
+~
 ~
 0 0 25847
 S
@@ -2171,11 +2172,11 @@ very well-kept.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25850
 D2
-(null)~
+~
 ~
 0 0 25848
 S
@@ -2187,15 +2188,15 @@ from here. Far in the distance the mountain demands attention.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 25851
 D1
-(null)~
+~
 ~
 0 0 25873
 D2
-(null)~
+~
 ~
 0 0 25849
 D3
@@ -2213,15 +2214,15 @@ flashing in the window.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 25852
 D1
-(null)~
+~
 ~
 0 0 25872
 D2
-(null)~
+~
 ~
 0 0 25850
 S
@@ -2234,15 +2235,15 @@ roses.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 25857
 D1
-(null)~
+~
 ~
 0 0 25853
 D2
-(null)~
+~
 ~
 0 0 25851
 S
@@ -2255,11 +2256,11 @@ intoxicating scent.
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 25854
 D3
-(null)~
+~
 ~
 0 0 25852
 S
@@ -2273,15 +2274,15 @@ side of the road.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25856
 D2
-(null)~
+~
 ~
 0 0 25875
 D3
-(null)~
+~
 ~
 0 0 25853
 S
@@ -2309,15 +2310,15 @@ in the window.
 ~
 0 1057792 1
 D1
-(null)~
+~
 ~
 0 0 25800
 D2
-(null)~
+~
 ~
 0 0 25879
 D3
-(null)~
+~
 ~
 0 0 25854
 S
@@ -2329,11 +2330,11 @@ lilacs. The brick wall next to you is covered with climbing roses.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 25858
 D2
-(null)~
+~
 ~
 0 0 25852
 S
@@ -2346,15 +2347,15 @@ to the west is covered with climbing roses.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25859
 D1
-(null)~
+~
 ~
 0 0 25880
 D2
-(null)~
+~
 ~
 0 0 25857
 S
@@ -2367,15 +2368,15 @@ town.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25860
 D1
-(null)~
+~
 ~
 0 0 25883
 D2
-(null)~
+~
 ~
 0 0 25858
 S
@@ -2388,11 +2389,11 @@ furious pace can be heard.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25861
 D2
-(null)~
+~
 ~
 0 0 25859
 S
@@ -2404,11 +2405,11 @@ cobblestone at your feet has been well-cared for.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25862
 D3
-(null)~
+~
 ~
 0 0 25860
 S
@@ -2420,15 +2421,15 @@ cobblestone at your feet is a little worn down.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25863
 D2
-(null)~
+~
 ~
 0 0 25884
 D3
-(null)~
+~
 ~
 0 0 25861
 S
@@ -2440,11 +2441,11 @@ west loud shouts combine with furious music to create a flashy environment.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25804
 D3
-(null)~
+~
 ~
 0 0 25862
 S
@@ -2457,11 +2458,11 @@ path south, leading to the stage.
 ~
 0 1057792 1
 D2
-(null)~
+~
 ~
 0 0 25865
 D3
-(null)~
+~
 ~
 0 0 25830
 S
@@ -2473,11 +2474,11 @@ beautiful. The path contines to the north and east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25864
 D1
-(null)~
+~
 ~
 0 0 25866
 S
@@ -2489,11 +2490,11 @@ Lady Caitlynne's yard at the Manor. This is obviously her landscaping idea.
 ~
 0 1057792 1
 D1
-(null)~
+~
 ~
 0 0 25867
 D3
-(null)~
+~
 ~
 0 0 25865
 S
@@ -2506,11 +2507,11 @@ the stage for the performance.
 ~
 0 1057792 1
 D0
-(null)~
+~
 ~
 0 0 25868
 D3
-(null)~
+~
 ~
 0 0 25866
 S
@@ -2523,15 +2524,15 @@ here. North takes you toward the stage, and south goes though the garden.
 ~
 0 1057792 1
 D0
-(null)~
+~
 ~
 0 0 25871
 D1
-(null)~
+~
 ~
 0 0 25838
 D2
-(null)~
+~
 ~
 0 0 25867
 S
@@ -2544,7 +2545,7 @@ rack of costumes.
 ~
 0 1057800 0
 D1
-(null)~
+~
 ~
 0 0 25870
 S
@@ -2557,11 +2558,11 @@ performances. A small path leads around to backstage.
 ~
 0 1057792 1
 D1
-(null)~
+~
 ~
 0 0 25871
 D3
-(null)~
+~
 ~
 0 0 25869
 S
@@ -2573,11 +2574,11 @@ patrons of the amphitheatre can bring blankets to sit and watch the show.
 ~
 0 1057792 1
 D2
-(null)~
+~
 ~
 0 0 25868
 D3
-(null)~
+~
 ~
 0 0 25870
 S
@@ -2590,7 +2591,7 @@ the sterile white walls make this room look very elegant.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 25851
 S
@@ -2604,7 +2605,7 @@ placed around the shop.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 25850
 S
@@ -2617,7 +2618,7 @@ clerks wait to assist you.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 25847
 S
@@ -2631,7 +2632,7 @@ quality.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25854
 S
@@ -2643,7 +2644,7 @@ looking pastries and breads.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 25846
 S
@@ -2656,7 +2657,7 @@ find yourself smiling nonetheless.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 25845
 S
@@ -2670,7 +2671,7 @@ in this coffee shoppe.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 25830
 S
@@ -2683,7 +2684,7 @@ you.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25856
 S
@@ -2695,15 +2696,15 @@ sit on the ground, and a burly gypsy man keeps watch.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25883
 D1
-(null)~
+~
 ~
 0 0 25881
 D3
-(null)~
+~
 ~
 0 0 25858
 S
@@ -2716,15 +2717,15 @@ sits in the middle of the tent.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25884
 D1
-(null)~
+~
 ~
 0 0 25882
 D3
-(null)~
+~
 ~
 0 0 25880
 S
@@ -2737,11 +2738,11 @@ of the Valley a distinctly different look.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25802
 D3
-(null)~
+~
 ~
 0 0 25881
 S
@@ -2753,15 +2754,15 @@ meats on to roast. The mountain is very close here.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 25884
 D2
-(null)~
+~
 ~
 0 0 25880
 D3
-(null)~
+~
 ~
 0 0 25859
 S
@@ -2774,15 +2775,15 @@ and a strong gypsy woman watches them with care.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 25862
 D2
-(null)~
+~
 ~
 0 0 25881
 D3
-(null)~
+~
 ~
 0 0 25883
 S
@@ -2796,11 +2797,11 @@ invites visitors to the Manor.
 ~
 0 0 1
 D1
-(null)~
+~
 gate~
 6 25862 25850
 D3
-(null)~
+~
 frontdoor~
 6 25862 25886
 S
@@ -2812,7 +2813,7 @@ in all directions.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25888
 D1
@@ -2821,11 +2822,11 @@ The front-door to the house is heavy enough to keep unwanted noise out.
 front-door~
 6 25862 25885
 D2
-(null)~
+~
 ~
 0 0 25887
 D3
-(null)~
+~
 ~
 0 0 25890
 S
@@ -2891,11 +2892,11 @@ are far less fortunate than herself. A lady must be at all times a fine
 example to those around her.  
 ~
 D0
-(null)~
+~
 ~
 0 0 25886
 D3
-(null)~
+~
 ~
 0 0 25891
 S
@@ -2928,11 +2929,11 @@ Elegant french doors open into the gardens.
 elegant~
 1 0 25894
 D2
-(null)~
+~
 ~
 0 0 25886
 D3
-(null)~
+~
 ~
 0 0 25889
 S
@@ -2952,11 +2953,11 @@ An iron door opens and closes to a little bread oven over the larger one
 used for meats and soups.
 ~
 D1
-(null)~
+~
 ~
 0 0 25888
 D2
-(null)~
+~
 ~
 0 0 25890
 S
@@ -2968,15 +2969,15 @@ a gold trim.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25889
 D1
-(null)~
+~
 ~
 0 0 25886
 D2
-(null)~
+~
 ~
 0 0 25891
 S
@@ -2988,15 +2989,15 @@ a beige woven rug on the floor.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25890
 D1
-(null)~
+~
 ~
 0 0 25887
 D2
-(null)~
+~
 ~
 0 0 25892
 S
@@ -3009,11 +3010,11 @@ blue door.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 25891
 D1
-(null)~
+~
 bedroom~
 1 0 25893
 S
@@ -3026,7 +3027,7 @@ the canopy and sheets on the bed are gold.
 ~
 0 8 0
 D3
-(null)~
+~
 bedroom~
 1 0 25892
 S
@@ -3044,7 +3045,7 @@ Elegant french doors lead into the manor.
 elegant~
 1 0 25888
 D3
-(null)~
+~
 ~
 0 0 25895
 S
@@ -3057,11 +3058,11 @@ fills the air here.
 ~
 0 16777216 2
 D0
-(null)~
+~
 winery~
 1 0 25855
 D1
-(null)~
+~
 ~
 0 0 25894
 S
@@ -3073,11 +3074,11 @@ great peace here and it is very calm and quiet on the lake.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 25841
 D2
-(null)~
+~
 ~
 0 0 25897
 S
@@ -3089,15 +3090,15 @@ clear and looking down you can see schools of fish swim by.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 25896
 D1
-(null)~
+~
 ~
 0 0 25899
 D3
-(null)~
+~
 ~
 0 0 25898
 S
@@ -3109,7 +3110,7 @@ seems very very small.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25897
 S
@@ -3121,7 +3122,7 @@ schools of fish dart beneath your boat.
 ~
 0 1056768 7
 D3
-(null)~
+~
 ~
 0 0 25897
 S

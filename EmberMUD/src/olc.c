@@ -220,6 +220,7 @@ const struct olc_cmd_type aedit_table[] = {
     {"filename", aedit_file},
     {"name", aedit_name},
 /*  {   "recall",	aedit_recall	},   ROM OLC */
+    {"group", aedit_group},
     {"reset", aedit_reset},
     {"security", aedit_security},
     {"show", aedit_show},
@@ -1136,10 +1137,10 @@ void do_oedit( CHAR_DATA * ch, char *argument )
 /* Entry point for editing mob_index_data. */
 void do_medit( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
     MOB_INDEX_DATA *pMob;
     AREA_DATA *pArea;
-    int value;
+    int value,value2;
 
     argument = one_argument( argument, arg );
 
@@ -1166,7 +1167,7 @@ void do_medit( CHAR_DATA * ch, char *argument )
             value = atoi( argument );
             if ( arg[0] == '\0' || value == 0 )
             {
-                send_to_char( "Syntax:  edit mobile create [vnum]\n\r", ch );
+                send_to_char( "Syntax:  edit mobile create [vnum] <oldvnum>\n\r", ch );
                 return;
             }
 
@@ -1675,6 +1676,7 @@ void do_alist( CHAR_DATA * ch, char *argument )
     char result[MAX_STRING_LENGTH * 2]; /* May need tweaking. */
     char buf[MAX_STRING_LENGTH];
     AREA_DATA *pArea;
+    int n;
 
     sprintf( result, "[%3s] [%-27s] (%-5s-%5s) [%-10s] %3s [%-10s]\n\r",
              "Num", "Area Name", "lvnum", "uvnum", "Filename", "Sec",
@@ -1682,9 +1684,14 @@ void do_alist( CHAR_DATA * ch, char *argument )
 
     for ( pArea = area_first; pArea; pArea = pArea->next )
     {
-        sprintf( buf, "[%3d] %-29.29s (%-5d-%5d) %-12.12s [%d] [%-10.10s]\n\r",
-                 pArea->vnum,
-                 &pArea->name[8],
+        if ( argument[0] != '\0' && str_prefix( argument, pArea->group ) )
+            continue;
+        sprintf( buf, "[%3d] ", pArea->vnum);
+        strncat( buf, &pArea->name[8], 29 );
+        while ( bw_strlen(buf) < 35 )
+            strcat( buf, " " );
+        sprintf( buf, "%s (%-5d-%5d) %-12.12s [%d] [%-10.10s]\n\r",
+                 buf,
                  pArea->lvnum,
                  pArea->uvnum,
                  pArea->filename, pArea->security, pArea->builders );

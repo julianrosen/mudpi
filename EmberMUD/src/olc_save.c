@@ -66,7 +66,7 @@ char *fix_string( const char *str )
     int o = 0;
 
     if ( !str || !str[0] )
-        return '\0';
+        return "\0"; // JR made this a string
 
     for ( ; i + o != 4 * MAX_STRING_LENGTH && str[i + o]; i++ )
     {
@@ -165,7 +165,7 @@ void save_mobile( FILE * fp, MOB_INDEX_DATA * pMobIndex )
     char buf[MAX_STRING_LENGTH];
     char letter;
     sh_int race = pMobIndex->race;
-
+    printf("Saving mob %s: %s %s",pMobIndex->short_descr,pMobIndex->description,fix_string( pMobIndex->description )); // JR debug
     fprintf( fp, "#%d\n", pMobIndex->vnum );
     fprintf( fp, "%s~\n", pMobIndex->player_name );
     fprintf( fp, "%s~\n", pMobIndex->short_descr );
@@ -1046,6 +1046,7 @@ void save_area( AREA_DATA * pArea )
     }
     fprintf( fp, "#AREADATA\n" );
     fprintf( fp, "Name        %s~\n", pArea->name );
+    fprintf( fp, "Group       %s~\n", pArea->group );
     fprintf( fp, "Builders    %s~\n", fix_string( pArea->builders ) );
     fprintf( fp, "VNUMs       %d %d\n", pArea->lvnum, pArea->uvnum );
     fprintf( fp, "Security    %d\n", pArea->security );

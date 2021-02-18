@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 35} Hatchet New Ofcol~
+Group       Embermud~
 Builders    None~
 VNUMs       600 699
 Security    9
@@ -2574,19 +2575,19 @@ richer than you are. Exits lead to the anterooms in the cardinal directions.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 670
 D1
-(null)~
+~
 ~
 0 0 672
 D2
-(null)~
+~
 ~
 0 0 673
 D3
-(null)~
+~
 ~
 0 0 671
 S
@@ -2598,15 +2599,15 @@ the south, and to the north is a hallway. A stairways leads up.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 675
 D2
-(null)~
+~
 ~
 0 0 669
 D4
-(null)~
+~
 ~
 0 0 686
 S
@@ -2618,15 +2619,15 @@ the east, and to the west is a hallway. A stairways leads up.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 669
 D3
-(null)~
+~
 ~
 0 0 679
 D4
-(null)~
+~
 ~
 0 0 687
 S
@@ -2638,15 +2639,15 @@ the west, and to the east is a hallway. A stairways leads up.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 680
 D3
-(null)~
+~
 ~
 0 0 669
 D4
-(null)~
+~
 ~
 0 0 689
 S
@@ -2658,15 +2659,15 @@ the north, and to the south is a hallway. A stairways leads up.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 669
 D2
-(null)~
+~
 ~
 0 0 684
 D4
-(null)~
+~
 ~
 0 0 690
 S
@@ -2678,11 +2679,11 @@ by peaceably. Exits lead east and south.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 675
 D2
-(null)~
+~
 ~
 0 0 677
 S
@@ -2694,15 +2695,15 @@ by peaceably. Exits lead east, west, and south.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 676
 D2
-(null)~
+~
 ~
 0 0 670
 D3
-(null)~
+~
 ~
 0 0 674
 S
@@ -2714,11 +2715,11 @@ by peaceably. Exits lead west and south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 678
 D3
-(null)~
+~
 ~
 0 0 675
 S
@@ -2730,11 +2731,11 @@ by peaceably. Exits lead north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 674
 D2
-(null)~
+~
 ~
 0 0 679
 S
@@ -2746,11 +2747,11 @@ by peaceably. Exits lead north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 676
 D2
-(null)~
+~
 ~
 0 0 680
 S
@@ -2763,19 +2764,19 @@ toward the Temple of Ofcol, and west leading toward the City of Ofcol.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 677
 D1
-(null)~
+~
 ~
 0 0 671
 D2
-(null)~
+~
 ~
 0 0 681
 D3
-(null)~
+~
 ~
 0 0 698
 S
@@ -2787,15 +2788,15 @@ by peaceably. Exits lead west, north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 678
 D2
-(null)~
+~
 ~
 0 0 682
 D3
-(null)~
+~
 ~
 0 0 672
 S
@@ -2807,11 +2808,11 @@ by peaceably. Exits lead north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 679
 D2
-(null)~
+~
 ~
 0 0 683
 S
@@ -2823,11 +2824,11 @@ by peaceably. Exits lead north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 680
 D2
-(null)~
+~
 ~
 0 0 685
 S
@@ -2839,11 +2840,11 @@ by peaceably. Exits lead north and east.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 681
 D1
-(null)~
+~
 ~
 0 0 684
 S
@@ -2855,15 +2856,15 @@ by peaceably. Exits lead east, west, and north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 673
 D1
-(null)~
+~
 ~
 0 0 685
 D3
-(null)~
+~
 ~
 0 0 683
 S
@@ -2875,11 +2876,11 @@ by peaceably. Exits lead west and north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 682
 D3
-(null)~
+~
 ~
 0 0 684
 S
@@ -2893,15 +2894,15 @@ standing in a gem. Stairways lead up and down, and the hall leads south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 688
 D4
-(null)~
+~
 ~
 0 0 691
 D5
-(null)~
+~
 ~
 0 0 670
 S
@@ -2915,15 +2916,15 @@ standing in a gem. Stairways lead up and down, and the hall leads east.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 688
 D4
-(null)~
+~
 ~
 0 0 692
 D5
-(null)~
+~
 ~
 0 0 671
 S
@@ -2937,19 +2938,19 @@ you to join them in lunch. Exits lead to the cardinal directions.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 686
 D1
-(null)~
+~
 ~
 0 0 689
 D2
-(null)~
+~
 ~
 0 0 690
 D3
-(null)~
+~
 ~
 0 0 687
 S
@@ -2963,15 +2964,15 @@ standing in a gem. Stairways lead up and down, and the hall leads west.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 688
 D4
-(null)~
+~
 ~
 0 0 694
 D5
-(null)~
+~
 ~
 0 0 672
 S
@@ -2985,15 +2986,15 @@ standing in a gem. Stairways lead up and down, and the hall leads north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 688
 D4
-(null)~
+~
 ~
 0 0 695
 D5
-(null)~
+~
 ~
 0 0 673
 S
@@ -3007,11 +3008,11 @@ case leads back down, and a doorway leads south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 693
 D5
-(null)~
+~
 ~
 0 0 686
 S
@@ -3025,11 +3026,11 @@ case leads back down, and a doorway leads east.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 693
 D5
-(null)~
+~
 ~
 0 0 687
 S
@@ -3044,23 +3045,23 @@ cardinal directions to the anterooms.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 691
 D1
-(null)~
+~
 ~
 0 0 694
 D2
-(null)~
+~
 ~
 0 0 695
 D3
-(null)~
+~
 ~
 0 0 692
 D4
-(null)~
+~
 ~
 0 0 696
 S
@@ -3074,11 +3075,11 @@ case leads back down, and a doorway leads west.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 693
 D5
-(null)~
+~
 ~
 0 0 689
 S
@@ -3092,11 +3093,11 @@ case leads back down, and a doorway leads north.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 695
 D5
-(null)~
+~
 ~
 0 0 690
 S
@@ -3108,11 +3109,11 @@ through. This shaft leads up and down.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 697
 D5
-(null)~
+~
 ~
 0 0 693
 S
@@ -3124,7 +3125,7 @@ currently, the way out is sealed by a layer of diamond that looks impenetrable.
 ~
 0 8 0
 D5
-(null)~
+~
 ~
 0 0 696
 S
@@ -3136,11 +3137,11 @@ to the west, while the citadel itself is to the east.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 679
 D3
-(null)~
+~
 gate~
 1 651 699
 S
@@ -3152,11 +3153,11 @@ back west to Raff Way.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 1 651 698
 D3
-(null)~
+~
 ~
 0 0 667
 S

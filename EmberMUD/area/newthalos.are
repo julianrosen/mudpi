@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 35} Anon    New Thalos~
+Group       Embermud~
 Builders    None~
 VNUMs       9500 9799
 Security    9
@@ -338,7 +339,7 @@ statue~
 the statue of Tempest~
 The statue of Tempest stands here.
 ~
-(null)~
+~
 Human~
 ABQTX 0 1000 S
 35 0 
@@ -352,7 +353,7 @@ statue~
 the statue of Ezra~
 The statue of Ezra stands here.
 ~
-(null)~
+~
 Human~
 ABQTX 0 1000 S
 30 0 
@@ -2391,19 +2392,19 @@ Market continues north, west, and east, with the Medina trailing off south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9506
 D1
-(null)~
+~
 ~
 0 -1 9507
 D2
-(null)~
+~
 ~
 0 -1 9504
 D3
-(null)~
+~
 ~
 0 -1 9508
 S
@@ -2421,19 +2422,19 @@ A great beast with multiple eyes and wicked... wicked... um.... eyes...
 The Mighty Beholder is in Excellent condition.
 ~
 D0
-(null)~
+~
 ~
 0 -1 9515
 D1
-(null)~
+~
 ~
 0 -1 9517
 D2
-(null)~
+~
 ~
 0 -1 9505
 D3
-(null)~
+~
 ~
 0 -1 9509
 S
@@ -2446,19 +2447,19 @@ in and take a look at the wares these shops have to offer.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9517
 D1
-(null)~
+~
 ~
 0 -1 9629
 D2
-(null)~
+~
 ~
 0 -1 9636
 D3
-(null)~
+~
 ~
 0 -1 9505
 S
@@ -2471,11 +2472,11 @@ The market's sprawl continues east and north of here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9509
 D1
-(null)~
+~
 ~
 0 -1 9505
 D2
@@ -2499,19 +2500,19 @@ gate. The market's expanse fills the other directions.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9514
 D1
-(null)~
+~
 ~
 0 -1 9506
 D2
-(null)~
+~
 ~
 0 -1 9508
 D3
-(null)~
+~
 ~
 0 -1 9526
 S
@@ -2530,7 +2531,7 @@ You see the medina.
 ~
 0 -1 9503
 D1
-(null)~
+~
 ~
 0 -1 9537
 D2
@@ -2539,7 +2540,7 @@ You see the bridge over the river.
 ~
 0 -1 9512
 D3
-(null)~
+~
 ~
 0 -1 9536
 S
@@ -2550,7 +2551,7 @@ stretch on endlessly to the south, hiding treasure and adventure.
 ~
 0 0 1
 D0
-(null)~
+~
 gate~
 1 9501 9513
 S
@@ -2562,15 +2563,15 @@ Square stretches out to the north.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9510
 D2
-(null)~
+~
 ~
 0 -1 9513
 D5
-(null)~
+~
 ~
 0 -1 9585
 S
@@ -2584,11 +2585,11 @@ wilderness to the south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9512
 D2
-(null)~
+~
 gate~
 1 9501 9511
 S
@@ -2601,19 +2602,19 @@ to the First Royal Bank of New Thalos.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9614
 D1
-(null)~
+~
 ~
 0 -1 9515
 D2
-(null)~
+~
 ~
 0 -1 9509
 D3
-(null)~
+~
 ~
 0 -1 9621
 S
@@ -2625,19 +2626,19 @@ busy market thrives with life.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9518
 D1
-(null)~
+~
 ~
 0 -1 9516
 D2
-(null)~
+~
 ~
 0 -1 9506
 D3
-(null)~
+~
 ~
 0 -1 9514
 S
@@ -2651,19 +2652,19 @@ The market continues to the south and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9615
 D1
-(null)~
+~
 ~
 0 -1 9622
 D2
-(null)~
+~
 ~
 0 -1 9517
 D3
-(null)~
+~
 ~
 0 -1 9515
 S
@@ -2676,19 +2677,19 @@ Main Street heads for the eastern gate.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9516
 D1
-(null)~
+~
 ~
 0 -1 9527
 D2
-(null)~
+~
 ~
 0 -1 9507
 D3
-(null)~
+~
 ~
 0 -1 9506
 S
@@ -2700,11 +2701,11 @@ the market square.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9519
 D2
-(null)~
+~
 ~
 0 -1 9515
 S
@@ -2718,11 +2719,11 @@ The walk continues north and south from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9520
 D2
-(null)~
+~
 ~
 0 -1 9518
 S
@@ -2736,19 +2737,19 @@ of the Daemon, and Sultan's Walk continues north and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9521
 D1
-(null)~
+~
 ~
 0 -1 9500
 D2
-(null)~
+~
 ~
 0 -1 9519
 D3
-(null)~
+~
 ~
 0 -1 9658
 S
@@ -2760,11 +2761,11 @@ and can make out faint sounds of trade to the south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9522
 D2
-(null)~
+~
 ~
 0 -1 9520
 S
@@ -2778,19 +2779,19 @@ stretches out east and west. To the north lay wilderness of the desert.
 ~
 0 0 0
 D0
-(null)~
+~
 gate~
 1 9501 9667
 D1
-(null)~
+~
 ~
 0 -1 9549
 D2
-(null)~
+~
 ~
 0 -1 9521
 D3
-(null)~
+~
 ~
 0 -1 9548
 S
@@ -2805,15 +2806,15 @@ Sorrow to your west. To the south lies the entrance of the warrior's guild.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9524
 D2
-(null)~
+~
 ~
 0 -1 9626
 D3
-(null)~
+~
 gate~
 1 9501 9669
 S
@@ -2825,19 +2826,19 @@ known as the temple square. Main street continues east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9620
 D1
-(null)~
+~
 ~
 0 -1 9525
 D2
-(null)~
+~
 ~
 0 -1 9627
 D3
-(null)~
+~
 ~
 0 -1 9523
 S
@@ -2850,19 +2851,19 @@ east and west from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9571
 D1
-(null)~
+~
 ~
 0 -1 9526
 D2
-(null)~
+~
 ~
 0 -1 9572
 D3
-(null)~
+~
 ~
 0 -1 9524
 S
@@ -2882,11 +2883,11 @@ THE SULTAN REMINDS YOU TO PAY YOUR TAXES!
 
 ~
 D1
-(null)~
+~
 ~
 0 -1 9509
 D3
-(null)~
+~
 ~
 0 -1 9525
 S
@@ -2898,11 +2899,11 @@ the west and a junction is to the East.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9528
 D3
-(null)~
+~
 ~
 0 -1 9517
 S
@@ -2921,19 +2922,19 @@ NO LOITERING!
 (by order of the Sultan of New Thalos)
 ~
 D0
-(null)~
+~
 ~
 0 -1 9564
 D1
-(null)~
+~
 ~
 0 -1 9529
 D2
-(null)~
+~
 ~
 0 -1 9565
 D3
-(null)~
+~
 ~
 0 -1 9527
 S
@@ -2949,19 +2950,19 @@ Main Street continues east and west from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9623
 D1
-(null)~
+~
 ~
 0 -1 9530
 D2
-(null)~
+~
 ~
 0 -1 9630
 D3
-(null)~
+~
 ~
 0 -1 9528
 S
@@ -2973,15 +2974,15 @@ Braheem's Magic Shop awaits your business to the north.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9624
 D1
-(null)~
+~
 ~
 0 -1 9531
 D3
-(null)~
+~
 ~
 0 -1 9529
 S
@@ -2996,15 +2997,15 @@ entrance to the mages' guild.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9625
 D1
-(null)~
+~
 gate~
 1 9501 9668
 D3
-(null)~
+~
 ~
 0 -1 9530
 S
@@ -3016,7 +3017,7 @@ quietly look over her selection.
 ~
 0 56 0
 D2
-(null)~
+~
 ~
 0 -1 9541
 S
@@ -3029,11 +3030,11 @@ one of the entrances of the warehouse and West Ishtar leads east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9640
 D1
-(null)~
+~
 ~
 0 -1 9534
 S
@@ -3046,15 +3047,15 @@ quietly flows by to the south. Ishtar Drive continues east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9641
 D1
-(null)~
+~
 ~
 0 -1 9535
 D3
-(null)~
+~
 ~
 0 -1 9533
 S
@@ -3067,19 +3068,19 @@ To the north is the Shipwright and Ishtar Drive continues east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9642
 D1
-(null)~
+~
 ~
 0 -1 9536
 D2
-(null)~
+~
 ~
 0 -1 9543
 D3
-(null)~
+~
 ~
 0 -1 9534
 S
@@ -3092,11 +3093,11 @@ and Ishtar Drive continues west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9510
 D3
-(null)~
+~
 ~
 0 -1 9535
 S
@@ -3110,15 +3111,15 @@ to the east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9644
 D1
-(null)~
+~
 ~
 0 -1 9539
 D3
-(null)~
+~
 ~
 0 -1 9510
 S
@@ -3130,11 +3131,11 @@ River to the south.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9540
 D3
-(null)~
+~
 ~
 0 -1 9539
 S
@@ -3147,15 +3148,15 @@ east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9645
 D1
-(null)~
+~
 ~
 0 -1 9538
 D3
-(null)~
+~
 ~
 0 -1 9537
 S
@@ -3173,11 +3174,11 @@ You see murky darkness.
 ~
 0 -1 9568
 D1
-(null)~
+~
 ~
 0 -1 9541
 D3
-(null)~
+~
 ~
 0 -1 9538
 S
@@ -3191,15 +3192,15 @@ with the drive running alongside it east to west.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9532
 D1
-(null)~
+~
 ~
 0 -1 9542
 D3
-(null)~
+~
 ~
 0 -1 9540
 S
@@ -3225,11 +3226,11 @@ sign~
 =========================================================================
 ~
 D0
-(null)~
+~
 ~
 0 -1 9647
 D3
-(null)~
+~
 ~
 0 -1 9541
 S
@@ -3242,11 +3243,11 @@ to the south and Ishtar Drive is to the north.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9535
 D2
-(null)~
+~
 ~
 0 -1 9586
 S
@@ -3259,15 +3260,15 @@ leading up. The avenue ends here, only exiting to the east.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9545
 D2
-(null)~
+~
 ~
 0 -1 9653
 D4
-(null)~
+~
 ~
 0 -1 9659
 S
@@ -3281,15 +3282,15 @@ massive white pillars. The avenue continues west and south from here.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9546
 D2
-(null)~
+~
 ~
 0 -1 9654
 D3
-(null)~
+~
 ~
 0 -1 9544
 S
@@ -3302,15 +3303,15 @@ continues.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9547
 D2
-(null)~
+~
 ~
 0 -1 9558
 D3
-(null)~
+~
 ~
 0 -1 9545
 S
@@ -3322,11 +3323,11 @@ the great walls of the palace and the avenue goes east and west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9548
 D3
-(null)~
+~
 ~
 0 -1 9546
 S
@@ -3337,11 +3338,11 @@ stand the great walls of the palace and the avenue goes east and west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9522
 D3
-(null)~
+~
 ~
 0 -1 9547
 S
@@ -3354,11 +3355,11 @@ northern gate, and the avenue continues east.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9550
 D3
-(null)~
+~
 ~
 0 -1 9522
 S
@@ -3372,11 +3373,11 @@ a short walk to the west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9551
 D3
-(null)~
+~
 ~
 0 -1 9549
 S
@@ -3389,15 +3390,15 @@ west form here and the row leads south.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9552
 D2
-(null)~
+~
 ~
 0 -1 9560
 D3
-(null)~
+~
 ~
 0 -1 9550
 S
@@ -3409,11 +3410,11 @@ of the city. The avenue runs east and west from here.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9553
 D3
-(null)~
+~
 ~
 0 -1 9551
 S
@@ -3428,11 +3429,11 @@ here
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9554
 D3
-(null)~
+~
 ~
 0 -1 9552
 S
@@ -3444,15 +3445,15 @@ The Northeast Tower of the wall is accessible here up a spiral staircase.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 -1 9555
 D3
-(null)~
+~
 ~
 0 -1 9553
 D4
-(null)~
+~
 ~
 0 -1 9662
 S
@@ -3465,15 +3466,15 @@ entrance to the dance hall is to the south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9554
 D2
-(null)~
+~
 ~
 0 -1 9556
 D3
-(null)~
+~
 ~
 0 -1 9651
 S
@@ -3485,11 +3486,11 @@ northward.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9555
 D3
-(null)~
+~
 ~
 0 -1 9652
 S
@@ -3499,11 +3500,11 @@ The small passage continues north and south.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 9578
 D2
-(null)~
+~
 ~
 0 -1 9580
 S
@@ -3514,11 +3515,11 @@ here, unless you're partial to spiders and rats.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9546
 D2
-(null)~
+~
 ~
 0 -1 9559
 S
@@ -3528,7 +3529,7 @@ The alley ends here.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9558
 D5
@@ -3548,19 +3549,19 @@ off to the south and East Casbah is to the north.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9551
 D1
-(null)~
+~
 ~
 0 -1 9656
 D2
-(null)~
+~
 ~
 0 -1 9561
 D3
-(null)~
+~
 ~
 0 -1 9655
 S
@@ -3572,19 +3573,19 @@ and south from here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9560
 D1
-(null)~
+~
 ~
 0 -1 9607
 D2
-(null)~
+~
 ~
 0 -1 9562
 D3
-(null)~
+~
 ~
 0 -1 9606
 S
@@ -3597,19 +3598,19 @@ Guilds leads north and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9561
 D1
-(null)~
+~
 ~
 0 -1 9611
 D2
-(null)~
+~
 ~
 0 -1 9563
 D3
-(null)~
+~
 ~
 0 -1 9664
 S
@@ -3622,15 +3623,15 @@ the east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9562
 D1
-(null)~
+~
 ~
 0 -1 9616
 D2
-(null)~
+~
 ~
 0 -1 9564
 S
@@ -3642,11 +3643,11 @@ guildhouses lie to the north and Main street is to the south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9563
 D2
-(null)~
+~
 ~
 0 -1 9528
 S
@@ -3657,11 +3658,11 @@ darkness covering this alley.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9528
 D2
-(null)~
+~
 ~
 0 -1 9566
 S
@@ -3672,15 +3673,15 @@ darkness covering this alley.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9565
 D1
-(null)~
+~
 ~
 0 -1 9567
 D3
-(null)~
+~
 ~
 0 -1 9637
 S
@@ -3691,15 +3692,15 @@ darkness covering this alley.
 ~
 0 1 1
 D1
-(null)~
+~
 ~
 0 -1 9638
 D2
-(null)~
+~
 ~
 0 -1 9568
 D3
-(null)~
+~
 ~
 0 -1 9566
 S
@@ -3710,11 +3711,11 @@ darkness covering this alley.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9567
 D2
-(null)~
+~
 ~
 0 -1 9540
 S
@@ -3729,11 +3730,11 @@ footprint~
 Kind of looks like a yeti has been here.... Hmmmm.
 ~
 D1
-(null)~
+~
 ~
 0 -1 9570
 D2
-(null)~
+~
 ~
 0 -1 9571
 S
@@ -3744,7 +3745,7 @@ appearent on the ground.
 ~
 0 1 1
 D3
-(null)~
+~
 ~
 0 -1 9569
 D5
@@ -3766,11 +3767,11 @@ Why are you looking in a pothole??????
 You poor or something?
 ~
 D0
-(null)~
+~
 ~
 0 -1 9569
 D2
-(null)~
+~
 ~
 0 -1 9525
 S
@@ -3781,11 +3782,11 @@ Nothing much here but small rodents and dust.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9525
 D2
-(null)~
+~
 ~
 0 -1 9573
 S
@@ -3796,11 +3797,11 @@ of warrior's. You notice  some small scrapings to the west.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9572
 D1
-(null)~
+~
 ~
 0 -1 9574
 S
@@ -3810,7 +3811,7 @@ The alley ends here as do the footprints you had noticed earlier.
 ~
 0 1 1
 D3
-(null)~
+~
 ~
 0 -1 9573
 D5
@@ -3826,11 +3827,11 @@ glint of light from above and the passage continues south.
 ~
 0 9 1
 D2
-(null)~
+~
 ~
 0 -1 9576
 D4
-(null)~
+~
 man hole manhole~
 1 -1 9559
 S
@@ -3840,11 +3841,11 @@ The passage continues north and south.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 9575
 D2
-(null)~
+~
 ~
 0 -1 9577
 S
@@ -3854,15 +3855,15 @@ The tunnel branches here going north, east, and west.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 9576
 D1
-(null)~
+~
 ~
 0 -1 9578
 D3
-(null)~
+~
 ~
 0 -1 9579
 S
@@ -3873,15 +3874,15 @@ glint of light from above.
 ~
 0 9 1
 D2
-(null)~
+~
 ~
 0 -1 9557
 D3
-(null)~
+~
 ~
 0 -1 9577
 D4
-(null)~
+~
 manhole man hole~
 1 -1 9570
 S
@@ -3893,7 +3894,7 @@ find any door in that direction.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 9577
 S
@@ -3903,11 +3904,11 @@ The small passage continues north and south from here.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 9557
 D2
-(null)~
+~
 ~
 0 -1 9581
 S
@@ -3918,15 +3919,15 @@ of the city above you.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 9580
 D1
-(null)~
+~
 ~
 0 -1 9582
 D4
-(null)~
+~
 manhole man hole~
 1 -1 9574
 S
@@ -3937,11 +3938,11 @@ of direction.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 9592
 D3
-(null)~
+~
 ~
 0 -1 9581
 S
@@ -3954,11 +3955,11 @@ the shore.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9724
 D3
-(null)~
+~
 ~
 0 -1 9584
 S
@@ -3971,11 +3972,11 @@ unwanted guests.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9583
 D3
-(null)~
+~
 ~
 0 -1 9585
 S
@@ -3988,15 +3989,15 @@ west.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9584
 D3
-(null)~
+~
 ~
 0 -1 9586
 D4
-(null)~
+~
 ~
 0 -1 9512
 S
@@ -4009,15 +4010,15 @@ direction.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9543
 D1
-(null)~
+~
 ~
 0 -1 9585
 D3
-(null)~
+~
 ~
 0 -1 9587
 S
@@ -4029,11 +4030,11 @@ should any citizen require exit or entry.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9586
 D3
-(null)~
+~
 ~
 0 -1 9723
 S
@@ -4045,7 +4046,7 @@ doors. The only exit it seems is east.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 9589
 S
@@ -4057,11 +4058,11 @@ fail to find any secret doors. Voices can be faintly heard from the north.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 9590
 D3
-(null)~
+~
 ~
 0 -1 9588
 S
@@ -4076,11 +4077,11 @@ A huge boulder stands here. In its center someone has carved out a
 perfect round hole.
 ~
 D1
-(null)~
+~
 ~
 0 -1 9591
 D3
-(null)~
+~
 ~
 0 -1 9589
 S
@@ -4099,11 +4100,11 @@ around you notice a small hole about the size of a piece of charcoal
 at the base of the flames.
 ~
 D3
-(null)~
+~
 ~
 0 -1 9590
 D4
-(null)~
+~
 secret~
 1 -1 9670
 S
@@ -4118,11 +4119,11 @@ Peering into the misty cloud the form a huge conch shell seems to fade
 in and out. Perhaps this is somehow the entrance to the next challenge
 ~
 D1
-(null)~
+~
 ~
 0 -1 9593
 D3
-(null)~
+~
 ~
 0 -1 9582
 S
@@ -4132,11 +4133,11 @@ The small passage continues west and east.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 9600
 D3
-(null)~
+~
 ~
 0 -1 9592
 S
@@ -4149,27 +4150,27 @@ hang large tapestries paying homage to thier leader Conner MacCleod.
 ~
 0 40 0
 D0
-(null)~
+~
 iron gate~
 1 -1 9599
 D1
-(null)~
+~
 door east~
 1 -1 9596
 D2
-(null)~
+~
 drawbridge draw bridge door~
 2 7901 6100
 D3
-(null)~
+~
 door west~
 1 -1 9597
 D4
-(null)~
+~
 door up~
 1 -1 9595
 D5
-(null)~
+~
 door down~
 1 -1 9598
 S
@@ -4183,7 +4184,7 @@ head of the Demi-Lich.
 ~
 0 120 0
 D5
-(null)~
+~
 door~
 1 -1 9594
 S
@@ -4198,7 +4199,7 @@ of Kalas stares past you into emptiness.
 ~
 0 120 0
 D3
-(null)~
+~
 door~
 1 -1 9594
 S
@@ -4217,7 +4218,7 @@ If I have to explain, you wouldn't understand.
 ~
 0 120 0
 D1
-(null)~
+~
 door~
 1 -1 9594
 S
@@ -4232,7 +4233,7 @@ place in this happy-go-lucky room is mounted head of Crimson Death.
 ~
 0 120 0
 D4
-(null)~
+~
 door~
 1 -1 9594
 S
@@ -4244,7 +4245,7 @@ drafting table.
 ~
 0 120 0
 D2
-(null)~
+~
 iron gate~
 1 -1 9594
 S
@@ -4254,11 +4255,11 @@ The small passage continues west and east.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 9601
 D3
-(null)~
+~
 ~
 0 -1 9593
 S
@@ -4268,11 +4269,11 @@ The small passage continues west and east.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 9602
 D3
-(null)~
+~
 ~
 0 -1 9600
 S
@@ -4282,11 +4283,11 @@ The small passage continues west and east.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 9588
 D3
-(null)~
+~
 ~
 0 -1 9601
 S
@@ -4305,7 +4306,7 @@ scratches in it.
 secret door~
 1 -1 9579
 D4
-(null)~
+~
 ~
 0 -1 9619
 S
@@ -4319,7 +4320,7 @@ The only obvious exit is south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 9608
 S
@@ -4337,7 +4338,7 @@ Looking up the huge statue you see Loki calmly gazing out across his
 lands. He seems pleased.
 ~
 D2
-(null)~
+~
 ~
 0 -1 9609
 S
@@ -4350,7 +4351,7 @@ in, grabs a pile of clothing and leaves.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9561
 S
@@ -4362,7 +4363,7 @@ complete various projects and creations.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 -1 9561
 S
@@ -4375,15 +4376,15 @@ To the south is the entrance to the Cleric's Guild.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9604
 D1
-(null)~
+~
 ~
 0 -1 9609
 D2
-(null)~
+~
 ~
 0 -1 9612
 S
@@ -4398,19 +4399,19 @@ that New Thalonians take religion seriously.
 ~
 0 120 0
 D0
-(null)~
+~
 ~
 0 -1 9605
 D1
-(null)~
+~
 ~
 0 -1 9610
 D2
-(null)~
+~
 ~
 0 -1 9613
 D3
-(null)~
+~
 ~
 0 -1 9608
 S
@@ -4424,7 +4425,7 @@ adventureres, and a curse on any that walk in to get all.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 -1 9609
 S
@@ -4436,11 +4437,11 @@ have saved all their lives.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 9616
 D3
-(null)~
+~
 ~
 0 -1 9562
 S
@@ -4453,11 +4454,11 @@ and south is the entrance to the cleric's bar.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9608
 D2
-(null)~
+~
 ~
 0 -1 9619
 S
@@ -4470,15 +4471,15 @@ their city ever come under siege again.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9609
 D2
-(null)~
+~
 ~
 0 -1 9620
 D5
-(null)~
+~
 ~
 0 -1 9620
 S
@@ -4498,7 +4499,7 @@ BUY : Akheem's FAVORITE command lets you have an item for his low low price.
 
                                        ~
 D2
-(null)~
+~
 ~
 0 -1 9514
 S
@@ -4521,7 +4522,7 @@ BUY : Vera's FAVORITE command lets you have an item for her low low price.
                                         NEWBEE INTRUCTOR COMITEE
 ~
 D2
-(null)~
+~
 ~
 0 -1 9516
 S
@@ -4532,11 +4533,11 @@ statues.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9611
 D3
-(null)~
+~
 ~
 0 -1 9563
 S
@@ -4549,7 +4550,7 @@ studies.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9618
 D2
@@ -4558,7 +4559,7 @@ You see some small scratches on the floor near the base of the wall.
 secret door~
 1 -1 9624
 D4
-(null)~
+~
 ~
 0 -1 9648
 S
@@ -4571,11 +4572,11 @@ tower where the leader of the mage's guild performs his experiments.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 -1 9625
 D3
-(null)~
+~
 ~
 0 -1 9617
 S
@@ -4590,11 +4591,11 @@ meditaion chambers.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9612
 D5
-(null)~
+~
 ~
 0 -1 9603
 S
@@ -4607,15 +4608,15 @@ gates of the temple and Main Street lies to the south.
 ~
 0 32 1
 D0
-(null)~
+~
 ~
 0 -1 9613
 D2
-(null)~
+~
 ~
 0 -1 9524
 D4
-(null)~
+~
 ~
 0 -1 9613
 S
@@ -4628,7 +4629,7 @@ separates the polished blocks that make up the floor.
 ~
 0 120 0
 D1
-(null)~
+~
 ~
 0 -1 9514
 S
@@ -4655,7 +4656,7 @@ BUY : Butch's FAVORITE command lets you have an item for his low low price.
                                         NEWBEE INTRUCTOR COMMITEE
 ~
 D3
-(null)~
+~
 ~
 0 -1 9516
 S
@@ -4678,7 +4679,7 @@ BUY : Elvira's FAVORITE command lets you have an item for her low low price.
 
 ~
 D2
-(null)~
+~
 ~
 0 -1 9529
 S
@@ -4698,7 +4699,7 @@ SELL -Allows you to rid yourself of excessive magic items.
 BUY  -Allows you to rid youself of excessive cash.
 ~
 D2
-(null)~
+~
 ~
 0 -1 9530
 S
@@ -4710,11 +4711,11 @@ the entrance.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9618
 D2
-(null)~
+~
 ~
 0 -1 9531
 S
@@ -4724,11 +4725,11 @@ This small hall is merely a check point to keep the unwanted out.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9523
 D2
-(null)~
+~
 ~
 0 -1 9633
 S
@@ -4741,7 +4742,7 @@ it to the man behind the counter.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9524
 S
@@ -4752,7 +4753,7 @@ for sale here. You wonder what would happen if you typed....LIST...
 ~
 0 120 0
 D1
-(null)~
+~
 ~
 0 -1 9508
 S
@@ -4777,7 +4778,7 @@ BUY : Abdul's FAVORITE command lets you have an item for his low low price.
 
 ~
 D3
-(null)~
+~
 ~
 0 -1 9507
 S
@@ -4790,7 +4791,7 @@ small fee you may hire henchman.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9529
 D1
@@ -4813,11 +4814,11 @@ guarding the entrance from 'outsiders' stands as you walk in.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 -1 9639
 D3
-(null)~
+~
 secret door~
 1 -1 9630
 S
@@ -4831,11 +4832,11 @@ the east where the master swordsman awaits pupils to train with.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9626
 D1
-(null)~
+~
 ~
 0 -1 9634
 S
@@ -4852,7 +4853,7 @@ You see the grass near the base of the wall here is slightly torn.
 secret door~
 1 -1 9573
 D3
-(null)~
+~
 ~
 0 -1 9633
 S
@@ -4863,7 +4864,7 @@ selection. You notice he has added a few things to his list.
 ~
 0 262264 0
 D0
-(null)~
+~
 ~
 0 -1 9508
 S
@@ -4886,11 +4887,11 @@ BUY : Igor's FAVORITE command lets you have an item for his low low price.
                                         NEWBEE INTRUCTOR COMITEE
 ~
 D0
-(null)~
+~
 ~
 0 -1 9507
 D5
-(null)~
+~
 secret sesame~
 2 9591 9750
 S
@@ -4911,7 +4912,7 @@ BUY :  buy an item for an outrageous price.
 
 ~
 D1
-(null)~
+~
 ~
 0 -1 9566
 S
@@ -4932,7 +4933,7 @@ BUY :  buy something drinkable.
 
 ~
 D3
-(null)~
+~
 ~
 0 -1 9567
 S
@@ -4946,11 +4947,11 @@ a small staircase leading down.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9632
 D5
-(null)~
+~
 ~
 0 -1 9646
 S
@@ -4962,11 +4963,11 @@ and shipped to other parts of the land.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9641
 D2
-(null)~
+~
 ~
 0 -1 9533
 S
@@ -4979,11 +4980,11 @@ guilds. The export area of the warehouses is to the south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 9534
 D3
-(null)~
+~
 ~
 0 -1 9640
 S
@@ -5006,11 +5007,11 @@ ice.
 
 ~
 D1
-(null)~
+~
 ~
 0 -1 9643
 D2
-(null)~
+~
 ~
 0 -1 9535
 S
@@ -5022,7 +5023,7 @@ a single cut in wood.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 -1 9642
 S
@@ -5045,7 +5046,7 @@ BUY : buy an item from the blacksmith for a fair price
 
 ~
 D2
-(null)~
+~
 ~
 0 -1 9537
 S
@@ -5058,11 +5059,11 @@ by-product of such beasts.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 -1 9649
 D2
-(null)~
+~
 ~
 0 -1 9539
 S
@@ -5079,7 +5080,7 @@ You see some small scratches in the wall to the south.
 secret door~
 1 -1 9589
 D4
-(null)~
+~
 ~
 0 -1 9639
 S
@@ -5091,7 +5092,7 @@ outside the walls and over the desert.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 -1 9542
 S
@@ -5104,7 +5105,7 @@ liquid in front of him. He looks up as you enter and smiles broadly.
 ~
 0 8 0
 D5
-(null)~
+~
 ~
 0 -1 9617
 S
@@ -5117,7 +5118,7 @@ story.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 -1 9645
 S
@@ -5132,19 +5133,19 @@ numerous halls of the palace begin and the gate lies to the east.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9660
 D1
-(null)~
+~
 gate~
 2 9500 9658
 D2
-(null)~
+~
 ~
 0 -1 9657
 D3
-(null)~
+~
 ~
 0 -1 9705
 S
@@ -5158,7 +5159,7 @@ glue.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9555
 S
@@ -5179,7 +5180,7 @@ banner~
 ========================================================================
 ~
 D1
-(null)~
+~
 ~
 0 -1 9556
 S
@@ -5190,7 +5191,7 @@ pretty bad and should be put away safely for a while.
 ~
 0 120 0
 D0
-(null)~
+~
 secret gate~
 2 9593 9544
 S
@@ -5202,7 +5203,7 @@ usually spends his time on affairs outside the city wall.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9545
 S
@@ -5217,7 +5218,7 @@ finished.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9560
 S
@@ -5231,7 +5232,7 @@ and many other forms.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 -1 9560
 S
@@ -5243,7 +5244,7 @@ weapons are mounted on the walls in case they might be needed.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9650
 S
@@ -5257,11 +5258,11 @@ to the east.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9520
 D3
-(null)~
+~
 gate~
 2 9500 9650
 S
@@ -5275,7 +5276,7 @@ to the south.
 ~
 0 8 0
 D5
-(null)~
+~
 ~
 0 -1 9544
 S
@@ -5288,7 +5289,7 @@ The only exit is south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 9650
 S
@@ -5303,11 +5304,11 @@ to the dining hall is west.
 ~
 0 8 0
 D0
-(null)~
+~
 door~
 1 -1 9663
 D3
-(null)~
+~
 ~
 0 -1 9671
 S
@@ -5319,7 +5320,7 @@ and the great eastern desert beyond.
 ~
 0 8 0
 D5
-(null)~
+~
 ~
 0 -1 9554
 S
@@ -5330,11 +5331,11 @@ entrance give access to the kitchen and the hall continues west.
 ~
 0 8 0
 D2
-(null)~
+~
 door small~
 1 -1 9661
 D3
-(null)~
+~
 ~
 0 -1 9672
 S
@@ -5352,7 +5353,7 @@ message~
 I hate being a Tanner
 ~
 D1
-(null)~
+~
 ~
 0 -1 9562
 S
@@ -5371,11 +5372,11 @@ The Holy Shrine of Allah
                            (remember Allah is a god, I wouldn't attack him)
 ~
 D0
-(null)~
+~
 door~
 1 -1 9666
 D3
-(null)~
+~
 ~
 0 -1 9674
 S
@@ -5388,7 +5389,7 @@ almighty being.
 ~
 0 8 0
 D2
-(null)~
+~
 door~
 1 -1 9665
 S
@@ -5400,11 +5401,11 @@ and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9781
 D2
-(null)~
+~
 ~
 0 -1 9522
 S
@@ -5415,15 +5416,15 @@ sits to the west and the unknown awaits you eastward.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9790
 D2
-(null)~
+~
 ~
 0 -1 9670
 D3
-(null)~
+~
 ~
 0 -1 9531
 S
@@ -5434,11 +5435,11 @@ in that direction and the road to Midgaard lies west.
 ~
 0 0 1
 D1
-(null)~
+~
 gate~
 1 9501 9523
 D3
-(null)~
+~
 ~
 0 -1 3532
 S
@@ -5450,7 +5451,7 @@ north.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9668
 S
@@ -5464,11 +5465,11 @@ the hallway north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9672
 D1
-(null)~
+~
 ~
 0 -1 9661
 S
@@ -5479,19 +5480,19 @@ large double doors to the south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9673
 D1
-(null)~
+~
 ~
 0 -1 9663
 D2
-(null)~
+~
 double doors~
 1 -1 9671
 D3
-(null)~
+~
 ~
 0 -1 9677
 S
@@ -5502,19 +5503,19 @@ all directions except west; the garden of the palace can be entered there.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9674
 D1
-(null)~
+~
 ~
 0 -1 9705
 D2
-(null)~
+~
 ~
 0 -1 9672
 D3
-(null)~
+~
 ~
 0 -1 9678
 S
@@ -5525,19 +5526,19 @@ continue east, west and south. There is a large iron door to the north.
 ~
 0 8 0
 D0
-(null)~
+~
 iron heavy~
 1 -1 9675
 D1
-(null)~
+~
 ~
 0 -1 9665
 D2
-(null)~
+~
 ~
 0 -1 9673
 D3
-(null)~
+~
 ~
 0 -1 9679
 S
@@ -5550,11 +5551,11 @@ returns you to the hallway.
 ~
 0 8 0
 D2
-(null)~
+~
 iron~
 1 -1 9674
 D5
-(null)~
+~
 steel~
 1 -1 9691
 S
@@ -5577,7 +5578,7 @@ mirror~
 You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 D0
-(null)~
+~
 ~
 0 -1 9677
 S
@@ -5589,15 +5590,15 @@ the land.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9672
 D2
-(null)~
+~
 door~
 1 -1 9676
 D3
-(null)~
+~
 ~
 0 -1 9682
 S
@@ -5633,11 +5634,11 @@ sign~
 =========================================================================
 ~
 D1
-(null)~
+~
 ~
 0 -1 9673
 D3
-(null)~
+~
 ~
 0 -1 9683
 S
@@ -5659,15 +5660,15 @@ ART EXHIBIT
                                -management is not responsible for lost items.
 ~
 D0
-(null)~
+~
 door~
 1 -1 9680
 D1
-(null)~
+~
 ~
 0 -1 9674
 D3
-(null)~
+~
 ~
 0 -1 9684
 S
@@ -5682,7 +5683,7 @@ eyes, however, are pulled towards a painting that dominates the far wall.
 ~
 0 8 0
 D2
-(null)~
+~
 door~
 1 -1 9679
 S
@@ -5694,7 +5695,7 @@ made up in satin sheets, against the south wall.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9682
 S
@@ -5705,15 +5706,15 @@ is east except for the doors in the southern and western walls.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9677
 D2
-(null)~
+~
 door south~
 1 -1 9681
 D3
-(null)~
+~
 door west~
 2 9601 9687
 S
@@ -5725,7 +5726,7 @@ you have never been in a more peaceful setting.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9678
 S
@@ -5736,15 +5737,15 @@ walls here, one to the north, another to the west.
 ~
 0 8 0
 D0
-(null)~
+~
 door north~
 1 -1 9685
 D1
-(null)~
+~
 ~
 0 -1 9679
 D3
-(null)~
+~
 door west~
 1 -1 9689
 S
@@ -5756,7 +5757,7 @@ palace grounds with special permission. The only exit is to the south.
 ~
 0 8 0
 D2
-(null)~
+~
 door~
 1 -1 9684
 S
@@ -5769,7 +5770,7 @@ to the Sultan's Guard.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9687
 S
@@ -5783,15 +5784,15 @@ unfortunate for you that only the Sultan is allowed in here.
 ~
 0 8 0
 D0
-(null)~
+~
 secret door~
 1 -1 9688
 D1
-(null)~
+~
 ~
 0 -1 9682
 D2
-(null)~
+~
 ~
 0 -1 9686
 S
@@ -5802,11 +5803,11 @@ at any time he chooses.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9689
 D2
-(null)~
+~
 ~
 0 -1 9687
 S
@@ -5819,15 +5820,15 @@ upon a mable dias. The Sultan is not a man to be trifled with.
 ~
 0 8 0
 D0
-(null)~
+~
 secret throne~
 2 9600 9690
 D1
-(null)~
+~
 door~
 1 -1 9684
 D2
-(null)~
+~
 secret door
 
 ~
@@ -5842,11 +5843,11 @@ as much stuff as you possibly can and run for the door.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9685
 D2
-(null)~
+~
 ~
 0 -1 9689
 S
@@ -5859,11 +5860,11 @@ stone on the north wall, and the steel grating opens up above.
 ~
 0 9 0
 D1
-(null)~
+~
 door~
 1 -1 9692
 D4
-(null)~
+~
 steel~
 1 -1 9675
 S
@@ -5874,19 +5875,19 @@ south. The tunnel continues east.
 ~
 0 9 0
 D0
-(null)~
+~
 cell north~
 2 9593 9697
 D1
-(null)~
+~
 ~
 0 -1 9693
 D2
-(null)~
+~
 cell south~
 2 9593 9701
 D3
-(null)~
+~
 door~
 1 -1 9691
 S
@@ -5897,19 +5898,19 @@ south. The tunnel continues east and west.
 ~
 0 9 0
 D0
-(null)~
+~
 cell north~
 2 9593 9698
 D1
-(null)~
+~
 ~
 0 -1 9694
 D2
-(null)~
+~
 cell south~
 2 9593 9702
 D3
-(null)~
+~
 ~
 0 -1 9692
 S
@@ -5920,19 +5921,19 @@ south. The tunnel continues east and west.
 ~
 0 9 0
 D0
-(null)~
+~
 cell north~
 2 9593 9699
 D1
-(null)~
+~
 ~
 0 -1 9695
 D2
-(null)~
+~
 cell south~
 2 9593 9703
 D3
-(null)~
+~
 ~
 0 -1 9693
 S
@@ -5944,19 +5945,19 @@ stone to the east.
 ~
 0 9 0
 D0
-(null)~
+~
 cell north~
 2 9593 9700
 D1
-(null)~
+~
 crack~
 1 9500 9696
 D2
-(null)~
+~
 cell south~
 2 9593 9704
 D3
-(null)~
+~
 ~
 0 -1 9694
 S
@@ -5969,7 +5970,7 @@ you notice a pair of small red eyes peering at you from the darkness.
 ~
 0 9 0
 D3
-(null)~
+~
 crack~
 2 9500 9695
 S
@@ -5979,7 +5980,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D2
-(null)~
+~
 cell~
 2 9593 9692
 S
@@ -5989,7 +5990,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D2
-(null)~
+~
 cell~
 2 9593 9693
 S
@@ -5999,7 +6000,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D2
-(null)~
+~
 cell~
 2 9593 9694
 S
@@ -6009,7 +6010,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D2
-(null)~
+~
 cell~
 2 9593 9695
 S
@@ -6019,7 +6020,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D0
-(null)~
+~
 cell~
 2 9593 9692
 S
@@ -6029,7 +6030,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D0
-(null)~
+~
 cell~
 2 9593 9693
 S
@@ -6039,7 +6040,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D0
-(null)~
+~
 cell
 
 cell~
@@ -6051,7 +6052,7 @@ You are in a cold, cramped chamber with only one exit.
 ~
 0 9 0
 D0
-(null)~
+~
 cell
 
 cell~
@@ -6065,11 +6066,11 @@ and east to the Grand Entrance.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9650
 D3
-(null)~
+~
 ~
 0 -1 9673
 S
@@ -6079,7 +6080,7 @@ The waters of the swamp pool in this low area and begin to flow southward.
 ~
 0 0 7
 D2
-(null)~
+~
 ~
 0 -1 9734
 S
@@ -6091,11 +6092,11 @@ faint traces of green to the east.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9721
 D3
-(null)~
+~
 ~
 0 -1 9739
 S
@@ -6106,11 +6107,11 @@ see a large volcano.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9722
 D3
-(null)~
+~
 ~
 0 -1 9720
 S
@@ -6121,11 +6122,11 @@ its flow to the east.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9744
 D3
-(null)~
+~
 ~
 0 -1 9721
 S
@@ -6136,11 +6137,11 @@ off towards high snow capped mountains far far to the west.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9587
 D3
-(null)~
+~
 ~
 0 -1 9749
 S
@@ -6154,11 +6155,11 @@ too steep for you to see very far.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9725
 D3
-(null)~
+~
 ~
 0 -1 9583
 S
@@ -6170,11 +6171,11 @@ came cascading down the mountainside.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9726
 D3
-(null)~
+~
 ~
 0 -1 9724
 S
@@ -6186,11 +6187,11 @@ pervent them from using the river.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9784
 D3
-(null)~
+~
 ~
 0 -1 9725
 S
@@ -6201,11 +6202,11 @@ small village to the west.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9719
 D2
-(null)~
+~
 ~
 0 -1 9735
 S
@@ -6216,11 +6217,11 @@ of the valley close in to the south.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9734
 D2
-(null)~
+~
 ~
 0 -1 9736
 S
@@ -6231,7 +6232,7 @@ crevase. High above you a small rope bridge sways in the wind.
 ~
 0 0 7
 D2
-(null)~
+~
 ~
 0 -1 9737
 S
@@ -6242,11 +6243,11 @@ to the south. Hopefully you will hear any aproaching rapids.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9736
 D2
-(null)~
+~
 ~
 0 -1 9738
 S
@@ -6258,11 +6259,11 @@ through a crack and flows to the south.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9737
 D2
-(null)~
+~
 ~
 0 -1 9739
 S
@@ -6276,15 +6277,15 @@ craft. The River of lost souls also continues to the north.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9738
 D1
-(null)~
+~
 ~
 0 -1 9720
 D2
-(null)~
+~
 ~
 0 -1 9740
 S
@@ -6295,11 +6296,11 @@ eroded valley.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9739
 D2
-(null)~
+~
 ~
 0 -1 9741
 S
@@ -6310,11 +6311,11 @@ eroded valley.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9740
 D2
-(null)~
+~
 ~
 0 -1 9742
 S
@@ -6325,11 +6326,11 @@ eroded valley.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9741
 D2
-(null)~
+~
 ~
 0 -1 9743
 S
@@ -6340,7 +6341,7 @@ mountain and north through a valley.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9742
 S
@@ -6351,11 +6352,11 @@ towards a plain.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9745
 D3
-(null)~
+~
 ~
 0 -1 9722
 S
@@ -6366,11 +6367,11 @@ north where you can gain access to the shore.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9746
 D3
-(null)~
+~
 ~
 0 -1 9744
 S
@@ -6382,11 +6383,11 @@ a bit warmer.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9747
 D3
-(null)~
+~
 ~
 0 -1 9745
 S
@@ -6398,11 +6399,11 @@ mountains and to the east you see the outline of a large city.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9748
 D3
-(null)~
+~
 ~
 0 -1 9746
 S
@@ -6412,11 +6413,11 @@ The river flows east and west from here.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9749
 D3
-(null)~
+~
 ~
 0 -1 9747
 S
@@ -6427,20 +6428,20 @@ small dock give access to the north shore.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9723
 D3
-(null)~
+~
 ~
 0 -1 9748
 S
 #9750
 Igor's Secret Chamber~
-(null)~
+~
 0 8 0
 D4
-(null)~
+~
 secret sesame~
 2 9591 9636
 S
@@ -6451,11 +6452,11 @@ snaking through a dark forest.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 3200
 D3
-(null)~
+~
 ~
 0 -1 9773
 S
@@ -6465,11 +6466,11 @@ The river continues east and west meandering through the woods.
 ~
 0 1 7
 D1
-(null)~
+~
 ~
 0 -1 9772
 D3
-(null)~
+~
 ~
 0 -1 9774
 S
@@ -6480,15 +6481,15 @@ hear the sounds of chopping wood far off in the distance.
 ~
 0 1 7
 D0
-(null)~
+~
 ~
 0 -1 6123
 D1
-(null)~
+~
 ~
 0 -1 9773
 D3
-(null)~
+~
 ~
 0 -1 9775
 S
@@ -6498,7 +6499,7 @@ The river continues east meandering through the woods.
 ~
 0 1 7
 D1
-(null)~
+~
 ~
 0 -1 9774
 S
@@ -6518,19 +6519,19 @@ you see a line of trees.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9782
 D1
-(null)~
+~
 ~
 0 -1 9781
 D2
-(null)~
+~
 ~
 0 -1 9667
 D3
-(null)~
+~
 ~
 0 -1 9781
 S
@@ -6542,19 +6543,19 @@ path has been trodden into the ground heading towards New Thalos.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9783
 D1
-(null)~
+~
 ~
 0 -1 9782
 D2
-(null)~
+~
 ~
 0 -1 9781
 D3
-(null)~
+~
 ~
 0 -1 9782
 S
@@ -6566,15 +6567,15 @@ expanse of grass spreads out to the south.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 9783
 D2
-(null)~
+~
 ~
 0 -1 9782
 D3
-(null)~
+~
 ~
 0 -1 9783
 S
@@ -6587,11 +6588,11 @@ of a city and to the north you see a large expanse of grass.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9785
 D3
-(null)~
+~
 ~
 0 -1 9726
 S
@@ -6606,11 +6607,11 @@ the west back towards New Thalos.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9786
 D3
-(null)~
+~
 ~
 0 -1 9784
 S
@@ -6622,11 +6623,11 @@ might see a small dock to the north.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9787
 D3
-(null)~
+~
 ~
 0 -1 9785
 S
@@ -6638,15 +6639,15 @@ small dock jutting out into the surf.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9795
 D1
-(null)~
+~
 ~
 0 -1 9796
 D2
-(null)~
+~
 ~
 0 -1 9786
 S
@@ -6659,11 +6660,11 @@ You are on the clear blue seas of the Dragon Sea.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 -1 9797
 D2
-(null)~
+~
 ~
 0 -1 9795
 S
@@ -6676,15 +6677,15 @@ You are on the clear blue seas of the Dragon Sea.
 ~
 0 0 7
 D2
-(null)~
+~
 ~
 0 -1 9796
 D3
-(null)~
+~
 ~
 0 -1 9795
 D5
-(null)~
+~
 ~
 0 -1 9798
 S
@@ -6698,11 +6699,11 @@ most of the money is used for the good of the people.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9791
 D3
-(null)~
+~
 ~
 0 -1 9668
 S
@@ -6716,11 +6717,11 @@ east and west.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9792
 D3
-(null)~
+~
 ~
 0 -1 9790
 S
@@ -6732,11 +6733,11 @@ sounds of boats traveling the Ishtar delivering goods.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9793
 D3
-(null)~
+~
 ~
 0 -1 9791
 S
@@ -6749,11 +6750,11 @@ Mountains and down into Midgaard.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9794
 D3
-(null)~
+~
 ~
 0 -1 9792
 S
@@ -6766,11 +6767,11 @@ huge snow capped mountains.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9795
 D3
-(null)~
+~
 ~
 0 -1 9793
 S
@@ -6783,19 +6784,19 @@ to allow easy access to and from ships.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9788
 D1
-(null)~
+~
 ~
 0 -1 9789
 D2
-(null)~
+~
 ~
 0 -1 9787
 D3
-(null)~
+~
 ~
 0 -1 9794
 S
@@ -6808,11 +6809,11 @@ see a small dock to the west.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 -1 9789
 D3
-(null)~
+~
 ~
 0 -1 9787
 S
@@ -6823,11 +6824,11 @@ you can see an island on the horizon. To the west you see the mainland.
 ~
 0 0 7
 D2
-(null)~
+~
 ~
 0 -1 9789
 D3
-(null)~
+~
 ~
 0 -1 9788
 S
@@ -6840,11 +6841,11 @@ that direction.
 ~
 0 1 7
 D1
-(null)~
+~
 grate~
 1 1 9799
 D4
-(null)~
+~
 ~
 0 -1 9789
 S
@@ -6856,7 +6857,7 @@ its meal the large sting ray attacks!
 ~
 0 1 7
 D1
-(null)~
+~
 grate~
 1 -1 9798
 S

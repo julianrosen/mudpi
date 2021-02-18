@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 25} Generic Old Marsh~
+Group       Embermud~
 Builders    None~
 VNUMs       8301 8321
 Security    9
@@ -374,7 +375,7 @@ the sounds stop.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 8301
 D1

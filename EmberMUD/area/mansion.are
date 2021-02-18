@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 70} Zane    Count Vanblanc Mansion~
+Group       Mudweiser~
 Builders    None~
 VNUMs       19100 19199
 Security    6
@@ -188,7 +189,7 @@ man zorro~
 Man in a Zorro Costume~
 A man in a zorro costume points his sword at you in a joking manner.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 10 5 
@@ -219,7 +220,7 @@ trainee maelchav~
 a Trainee of Maelchav~
 A trainee is here, waiting for Maelchav's guidance.
 ~
-(null)~
+~
 Elf~
 ABT J 0 S
 26 14 
@@ -280,7 +281,7 @@ Uuuuu the Whipmaster~
 Uuuuu the Whipmaster~
 Uuuuu the Whipmaster is here, flogging slaves.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 30 33 
@@ -403,7 +404,7 @@ knight armor~
 a knight ~
 A knight in shining armor stands up to you!
 ~
-(null)~
+~
 Human~
 ABF 0 1000 S
 10 5 
@@ -417,7 +418,7 @@ helga maid~
 Helga the Maid~
 Helga the Maid is dusting around here.
 ~
-(null)~
+~
 Human~
 AC 0 0 S
 10 3 
@@ -461,7 +462,7 @@ soda junky~
 a soda junky~
 A soda junky sits here guzzling soda.
 ~
-(null)~
+~
 Human~
 AB 0 1000 S
 10 7 
@@ -644,7 +645,7 @@ adventurer~
 an adventurer~
 An adventurer such as yourself is sitting at the bar.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 15 20 
@@ -1168,11 +1169,11 @@ stay away, but...
 ~
 0 2097156 4
 D0
-(null)~
+~
 ~
 1 0 19102
 D2
-(null)~
+~
 ~
 0 0 19161
 S
@@ -1184,19 +1185,19 @@ continues in all of the cardinal directions.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19111
 D1
-(null)~
+~
 ~
 0 0 19104
 D2
-(null)~
+~
 ~
 1 0 19101
 D3
-(null)~
+~
 ~
 0 0 19106
 S
@@ -1207,23 +1208,23 @@ red carpet on the floor feels nice against you feet.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 7 0 19178
 D1
-(null)~
+~
 ~
 0 0 19108
 D2
-(null)~
+~
 ~
 0 0 19111
 D3
-(null)~
+~
 ~
 0 0 19105
 D4
-(null)~
+~
 ~
 0 0 19109
 S
@@ -1236,11 +1237,11 @@ house.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19107
 D3
-(null)~
+~
 ~
 0 0 19102
 S
@@ -1251,11 +1252,11 @@ smells delight you senses. That must be the kitchen.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 19103
 D3
-(null)~
+~
 ~
 0 0 19110
 S
@@ -1266,15 +1267,15 @@ estate. From here you may go east or north or even west.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19176
 D1
-(null)~
+~
 ~
 0 0 19102
 D3
-(null)~
+~
 ~
 0 0 19121
 S
@@ -1287,11 +1288,11 @@ couple.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 7 0 19112
 D2
-(null)~
+~
 ~
 0 0 19104
 S
@@ -1303,11 +1304,11 @@ often!
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 1 19133 19118
 D3
-(null)~
+~
 ~
 0 0 19103
 S
@@ -1318,11 +1319,11 @@ mansion. You hear voices from the south.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 19115
 D5
-(null)~
+~
 ~
 0 0 19103
 S
@@ -1334,11 +1335,11 @@ way as he prepares meals.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 19105
 D2
-(null)~
+~
 ~
 0 0 19177
 S
@@ -1350,19 +1351,19 @@ you head.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19103
 D1
-(null)~
+~
 ~
 0 0 19125
 D2
-(null)~
+~
 ~
 0 0 19102
 D4
-(null)~
+~
 ~
 0 0 19113
 S
@@ -1373,7 +1374,7 @@ hanging on the rack.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 7 0 19107
 S
@@ -1385,7 +1386,7 @@ own risk.
 ~
 0 2097160 0
 D5
-(null)~
+~
 ~
 0 0 19111
 S
@@ -1396,19 +1397,19 @@ sort of party is going on. You might want to see.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 19109
 D1
-(null)~
+~
 ~
 0 0 19119
 D2
-(null)~
+~
 ~
 0 0 19116
 D3
-(null)~
+~
 ~
 0 0 19171
 S
@@ -1420,11 +1421,11 @@ anyone in that doesn't belong.....  *glance to YOU*
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19115
 D2
-(null)~
+~
 ~
 0 0 19117
 S
@@ -1436,19 +1437,19 @@ black leather cat costume looks for a man to dance with.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19116
 D1
-(null)~
+~
 ~
 0 0 19190
 D2
-(null)~
+~
 ~
 0 0 19169
 D3
-(null)~
+~
 ~
 0 0 19189
 S
@@ -1459,7 +1460,7 @@ need. This is mostly trash to you, though.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 1 0 19108
 S
@@ -1470,11 +1471,11 @@ It looks as though a library is farther east.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 19165
 D3
-(null)~
+~
 ~
 0 0 19115
 S
@@ -1485,7 +1486,7 @@ There is no end to the suffering!
 ~
 0 2097161 0
 D2
-(null)~
+~
 ~
 0 0 19124
 S
@@ -1499,11 +1500,11 @@ locked. Perhaps VanBlanc knows where the key is.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 6 19177 19194
 D1
-(null)~
+~
 ~
 0 0 19106
 S
@@ -1514,7 +1515,7 @@ eat them and leave the bones as a warning.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 19124
 S
@@ -1526,11 +1527,11 @@ floorboard to reveal a hidden passage.
 ~
 0 2097161 0
 D3
-(null)~
+~
 ~
 0 0 19124
 D5
-(null)~
+~
 ~
 0 0 19130
 S
@@ -1542,27 +1543,27 @@ You brush one of the cases and a bottle of cider falls off of it.
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 19120
 D1
-(null)~
+~
 ~
 0 0 19123
 D2
-(null)~
+~
 ~
 0 0 19126
 D3
-(null)~
+~
 ~
 0 0 19122
 D4
-(null)~
+~
 ~
 0 0 19125
 D5
-(null)~
+~
 grating~
 7 0 19138
 S
@@ -1574,11 +1575,11 @@ look, no?
 ~
 0 2097165 0
 D3
-(null)~
+~
 ~
 0 0 19111
 D5
-(null)~
+~
 ~
 0 0 19124
 S
@@ -1589,7 +1590,7 @@ and end their pitiful lives now!
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 19124
 S
@@ -1601,15 +1602,15 @@ a suit of armor steps up to you and says he'll have to stop you.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19189
 D1
-(null)~
+~
 ~
 0 0 19169
 D2
-(null)~
+~
 ~
 0 0 19191
 S
@@ -1619,15 +1620,15 @@ VanBlanc's private slaughtering chamber. Have fun!
 ~
 0 3145736 0
 D0
-(null)~
+~
 ~
 0 0 19135
 D1
-(null)~
+~
 ~
 0 0 19134
 D3
-(null)~
+~
 ~
 0 0 19129
 S
@@ -1637,7 +1638,7 @@ VanBlanc's private arena, feel free to slaughter something.
 ~
 0 3145728 0
 D1
-(null)~
+~
 ~
 0 0 19128
 S
@@ -1648,11 +1649,11 @@ up ahead. You can turn back now or keep going, probably to your doom.
 ~
 0 2097165 0
 D4
-(null)~
+~
 ~
 0 0 19123
 D5
-(null)~
+~
 ~
 0 0 19131
 S
@@ -1664,11 +1665,11 @@ you should press on forward.
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 19132
 D4
-(null)~
+~
 ~
 0 0 19130
 S
@@ -1681,11 +1682,11 @@ absolutely sure of yourself. Good Luck!
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 19133
 D2
-(null)~
+~
 ~
 0 0 19131
 S
@@ -1698,7 +1699,7 @@ it.
 ~
 0 2105357 0
 D0
-(null)~
+~
 ~
 5 19131 19170
 S
@@ -1709,7 +1710,7 @@ by you.
 ~
 0 3145728 0
 D3
-(null)~
+~
 ~
 0 0 19128
 S
@@ -1720,11 +1721,11 @@ see the healer.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 0 0 16054
 D2
-(null)~
+~
 ~
 0 0 19128
 S
@@ -1738,7 +1739,7 @@ friendly enough.
 ~
 0 12 0
 D0
-(null)~
+~
 ~
 0 0 20120
 S
@@ -1749,11 +1750,11 @@ monsters are plentiful!
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 19128
 D2
-(null)~
+~
 ~
 6 0 19138
 S
@@ -1764,11 +1765,11 @@ arena which only the chosen can enter.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 6 19177 19137
 D4
-(null)~
+~
 ~
 7 0 19124
 S
@@ -1781,15 +1782,15 @@ there.
 ~
 0 2097156 3
 D0
-(null)~
+~
 ~
 0 0 19155
 D1
-(null)~
+~
 ~
 0 0 19159
 D2
-(null)~
+~
 ~
 0 0 19151
 S
@@ -1799,19 +1800,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19144
 D1
-(null)~
+~
 ~
 0 0 19141
 D2
-(null)~
+~
 ~
 0 0 19152
 D3
-(null)~
+~
 ~
 0 0 19143
 S
@@ -1821,19 +1822,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19145
 D1
-(null)~
+~
 ~
 0 0 19142
 D2
-(null)~
+~
 ~
 0 0 19153
 D3
-(null)~
+~
 ~
 0 0 19140
 S
@@ -1843,19 +1844,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19146
 D1
-(null)~
+~
 ~
 0 0 19143
 D2
-(null)~
+~
 ~
 0 0 19154
 D3
-(null)~
+~
 ~
 0 0 19141
 S
@@ -1865,19 +1866,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19147
 D1
-(null)~
+~
 ~
 0 0 19140
 D2
-(null)~
+~
 ~
 0 0 19155
 D3
-(null)~
+~
 ~
 0 0 19142
 S
@@ -1887,19 +1888,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19148
 D1
-(null)~
+~
 ~
 0 0 19145
 D2
-(null)~
+~
 ~
 0 0 19140
 D3
-(null)~
+~
 ~
 0 0 19147
 S
@@ -1909,19 +1910,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19157
 D1
-(null)~
+~
 ~
 0 0 19146
 D2
-(null)~
+~
 ~
 0 0 19141
 D3
-(null)~
+~
 ~
 0 0 19144
 S
@@ -1931,19 +1932,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19150
 D1
-(null)~
+~
 ~
 0 0 19147
 D2
-(null)~
+~
 ~
 0 0 19142
 D3
-(null)~
+~
 ~
 0 0 19145
 S
@@ -1953,19 +1954,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19151
 D1
-(null)~
+~
 ~
 0 0 19144
 D2
-(null)~
+~
 ~
 0 0 19143
 D3
-(null)~
+~
 ~
 0 0 19146
 S
@@ -1975,19 +1976,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19152
 D1
-(null)~
+~
 ~
 0 0 19149
 D2
-(null)~
+~
 ~
 0 0 19144
 D3
-(null)~
+~
 ~
 0 0 19151
 S
@@ -1997,19 +1998,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19153
 D1
-(null)~
+~
 ~
 0 0 19150
 D2
-(null)~
+~
 ~
 0 0 19145
 D3
-(null)~
+~
 ~
 0 0 19148
 S
@@ -2019,19 +2020,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19154
 D1
-(null)~
+~
 ~
 0 0 19151
 D2
-(null)~
+~
 ~
 0 0 19146
 D3
-(null)~
+~
 ~
 0 0 19149
 S
@@ -2041,19 +2042,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 19139
 D1
-(null)~
+~
 ~
 0 0 19148
 D2
-(null)~
+~
 ~
 0 0 19147
 D3
-(null)~
+~
 ~
 0 0 19150
 S
@@ -2063,19 +2064,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19140
 D1
-(null)~
+~
 ~
 0 0 19153
 D2
-(null)~
+~
 ~
 0 0 19148
 D3
-(null)~
+~
 ~
 0 0 19155
 S
@@ -2085,19 +2086,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19141
 D1
-(null)~
+~
 ~
 0 0 19154
 D2
-(null)~
+~
 ~
 0 0 19149
 D3
-(null)~
+~
 ~
 0 0 19152
 S
@@ -2107,19 +2108,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19142
 D1
-(null)~
+~
 ~
 0 0 19155
 D2
-(null)~
+~
 ~
 0 0 19150
 D3
-(null)~
+~
 ~
 0 0 19153
 S
@@ -2129,19 +2130,19 @@ A confusing forest leads you in many directions. Which way shall you go?
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 19143
 D1
-(null)~
+~
 ~
 0 0 19152
 D2
-(null)~
+~
 ~
 0 0 19139
 D3
-(null)~
+~
 ~
 0 0 19154
 S
@@ -2153,15 +2154,15 @@ then pursue north.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 19161
 D1
-(null)~
+~
 ~
 0 0 19158
 D2
-(null)~
+~
 ~
 0 0 19157
 S
@@ -2174,15 +2175,15 @@ quickly dart away.
 ~
 0 2097156 3
 D0
-(null)~
+~
 ~
 0 0 19156
 D1
-(null)~
+~
 ~
 0 0 19193
 D2
-(null)~
+~
 ~
 0 0 19145
 S
@@ -2196,11 +2197,11 @@ latest gossip.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 19156
 D4
-(null)~
+~
 ~
 0 0 19175
 S
@@ -2213,11 +2214,11 @@ tiresome adventuring.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 19160
 D3
-(null)~
+~
 ~
 0 0 19139
 S
@@ -2229,11 +2230,11 @@ clusters of trees up ahead, forming a small forest.
 ~
 0 2097152 4
 D1
-(null)~
+~
 ~
 0 0 16256
 D3
-(null)~
+~
 ~
 0 0 19159
 S
@@ -2245,11 +2246,11 @@ will invite you in...?
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 19101
 D2
-(null)~
+~
 ~
 0 0 19156
 S
@@ -2261,7 +2262,7 @@ tough. However, looks can be decieving...
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 19119
 S
@@ -2271,15 +2272,15 @@ Another section of the ballroom. Think of it as your own personal arena.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19190
 D2
-(null)~
+~
 ~
 0 0 19192
 D3
-(null)~
+~
 ~
 0 0 19169
 S
@@ -2291,19 +2292,19 @@ cut a little flesh. Either way there's going to be a party!!
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19117
 D1
-(null)~
+~
 ~
 0 0 19168
 D2
-(null)~
+~
 ~
 0 0 19188
 D3
-(null)~
+~
 ~
 0 0 19127
 S
@@ -2317,11 +2318,11 @@ mortals are fooled!" You've just been royally ripped off!
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 5 0 19133
 D4
-(null)~
+~
 ~
 0 0 19173
 S
@@ -2334,11 +2335,11 @@ learn a few pointers
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 19115
 D3
-(null)~
+~
 ~
 0 0 19172
 S
@@ -2351,7 +2352,7 @@ will help you, go attack one of my students."
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 19171
 S
@@ -2362,11 +2363,11 @@ been there before. Go on ahead, it's the only exit there is.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 19174
 D5
-(null)~
+~
 ~
 0 0 19170
 S
@@ -2376,11 +2377,11 @@ The fog obscures your vision, but you can make out trees ahead.
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 19146
 D5
-(null)~
+~
 ~
 0 0 19173
 S
@@ -2392,7 +2393,7 @@ It doesn't look as though any monsters can bother you here.
 ~
 0 2097152 0
 D5
-(null)~
+~
 ~
 0 0 19158
 S
@@ -2404,7 +2405,7 @@ sitting there. What a mess!!!
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 19106
 S
@@ -2416,7 +2417,7 @@ trying to escape. Slashy turns toward you and says, "YOUR NEXT!"
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 19110
 S
@@ -2426,11 +2427,11 @@ A small shaft with a rope going up.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 7 0 19103
 D4
-(null)~
+~
 ~
 0 0 19179
 S
@@ -2440,11 +2441,11 @@ Part of the shaft, it continues up.
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 19180
 D5
-(null)~
+~
 ~
 0 0 19178
 S
@@ -2454,11 +2455,11 @@ The top of the shaft, an exit leads south.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 19181
 D5
-(null)~
+~
 ~
 0 0 19179
 S
@@ -2470,15 +2471,15 @@ Tloras who will help you home. Good luck!
 ~
 0 2105352 0
 D1
-(null)~
+~
 ~
 0 0 19183
 D2
-(null)~
+~
 ~
 0 0 19186
 D3
-(null)~
+~
 ~
 0 0 19182
 S
@@ -2490,11 +2491,11 @@ front of you. "Now you will die mortal!"
 ~
 0 2105352 0
 D1
-(null)~
+~
 ~
 0 0 19181
 D3
-(null)~
+~
 ~
 0 0 19184
 S
@@ -2506,7 +2507,7 @@ He picks you up and takes his fighting stance. "Prepare to die MORTAL!"
 ~
 0 2105352 0
 D3
-(null)~
+~
 ~
 0 0 19181
 S
@@ -2516,7 +2517,7 @@ A small backroom, a weak mage has agreed to help you out.
 ~
 0 2105352 0
 D1
-(null)~
+~
 ~
 0 0 19182
 S
@@ -2528,7 +2529,7 @@ below you.
 ~
 0 2097160 0
 D5
-(null)~
+~
 ~
 0 0 16001
 S
@@ -2540,15 +2541,15 @@ swirling portal.
 ~
 0 2105352 0
 D0
-(null)~
+~
 ~
 0 0 19181
 D1
-(null)~
+~
 ~
 0 0 19185
 D2
-(null)~
+~
 ~
 0 0 19187
 S
@@ -2563,7 +2564,7 @@ his sword. Will you take action or just run away?
 ~
 0 2105352 0
 D0
-(null)~
+~
 ~
 0 0 19186
 S
@@ -2575,15 +2576,15 @@ five hundred dollars.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19169
 D1
-(null)~
+~
 ~
 0 0 19192
 D3
-(null)~
+~
 ~
 0 0 19191
 S
@@ -2594,11 +2595,11 @@ free to break up this little party anytime you wish.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 19117
 D2
-(null)~
+~
 ~
 0 0 19127
 S
@@ -2610,11 +2611,11 @@ enjoyment or leave if this kind of thing sickens you.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 19168
 D3
-(null)~
+~
 ~
 0 0 19117
 S
@@ -2626,11 +2627,11 @@ on your nerves.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 19127
 D1
-(null)~
+~
 ~
 0 0 19188
 S
@@ -2641,11 +2642,11 @@ He's starting to annoy you too. Better make short work of him.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 19168
 D3
-(null)~
+~
 ~
 0 0 19188
 S
@@ -2658,11 +2659,11 @@ they dart away. The creature giggles at your annoyed behavior.
 ~
 0 2097153 3
 D0
-(null)~
+~
 ~
 0 0 19195
 D3
-(null)~
+~
 ~
 0 0 19157
 S
@@ -2679,7 +2680,7 @@ from ripping your flesh apart and eating you are his chains.
 ~
 0 2097161 0
 D2
-(null)~
+~
 ~
 6 19177 19121
 S
@@ -2691,15 +2692,15 @@ be coming from the east.
 ~
 0 2097153 3
 D0
-(null)~
+~
 ~
 0 0 19196
 D1
-(null)~
+~
 ~
 0 0 20100
 D2
-(null)~
+~
 ~
 0 0 19193
 S
@@ -2711,11 +2712,11 @@ misty path.
 ~
 0 2097153 3
 D1
-(null)~
+~
 ~
 0 0 19197
 D2
-(null)~
+~
 ~
 0 0 19195
 S
@@ -2725,11 +2726,11 @@ A misty path leads through the forest east to a small structure.
 ~
 0 2097153 3
 D1
-(null)~
+~
 ~
 0 0 19198
 D3
-(null)~
+~
 ~
 0 0 19196
 S
@@ -2740,11 +2741,11 @@ small cabin to the north.
 ~
 0 2097153 3
 D0
-(null)~
+~
 ~
 6 19188 19199
 D3
-(null)~
+~
 ~
 0 0 19197
 S
@@ -2755,7 +2756,7 @@ the blood of dead players.
 ~
 0 3153932 0
 D2
-(null)~
+~
 ~
 6 19188 19198
 S

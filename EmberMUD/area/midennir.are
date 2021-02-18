@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 15} Copper  Miden'nir~
+Group       Embermud~
 Builders    None~
 VNUMs       3500 3584
 Security    9
@@ -231,11 +232,11 @@ enter the hills far away north.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 4000
 D2
-(null)~
+~
 ~
 0 0 3501
 S
@@ -247,11 +248,11 @@ serenity. You can follow the road north or south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 3500
 D2
-(null)~
+~
 ~
 0 0 3502
 S
@@ -294,11 +295,11 @@ a confusion of shops, bars, and market places.
 ~
 0 4 1
 D1
-(null)~
+~
 ~
 0 0 3502
 D3
-(null)~
+~
 ~
 0 0 3053
 S
@@ -346,7 +347,7 @@ here, only the lighter forest to the west or south offer a way to travel.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 -1 3550
 D2
@@ -472,7 +473,7 @@ forest, but the steep mountains prevent any movement east.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 3550
 D2
@@ -724,7 +725,7 @@ It appears to get much darker that direction.
 ~
 0 0 3520
 D1
-(null)~
+~
 ~
 0 -1 3551
 D3
@@ -926,11 +927,11 @@ small tunnel dug into the mountainside.
 ~
 0 1 3
 D2
-(null)~
+~
 ~
 0 -1 3552
 D3
-(null)~
+~
 ~
 0 -1 3523
 S
@@ -1150,7 +1151,7 @@ An empty table is a rare commodity.
 ~
 0 0 3579
 D3
-(null)~
+~
 ~
 0 0 3577
 S

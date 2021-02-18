@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 25} Dylan   Dylan's Area~
+Group       Embermud~
 Builders    None~
 VNUMs       9101 9199
 Security    9
@@ -389,7 +390,7 @@ leading to the south.
 ~
 0 0 5
 D2
-(null)~
+~
 ~
 0 -1 9112
 D3
@@ -406,11 +407,11 @@ Obviously, it has not been maintained in years.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9111
 D5
-(null)~
+~
 ~
 0 -1 9113
 S
@@ -421,11 +422,11 @@ odd carcass or two. The trail leads south and it leads up.
 ~
 0 0 5
 D2
-(null)~
+~
 ~
 0 -1 9114
 D4
-(null)~
+~
 ~
 0 -1 9112
 S
@@ -437,7 +438,7 @@ a crevasse.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9113
 D5
@@ -454,7 +455,7 @@ Better take your time climbing through here.
 ~
 0 0 5
 D2
-(null)~
+~
 ~
 0 -1 9117
 D3
@@ -463,7 +464,7 @@ The mist looks thicker in this direction.
 ~
 0 -1 9116
 D4
-(null)~
+~
 ~
 0 -1 9114
 S
@@ -495,11 +496,11 @@ Midgaard is far, far to the west. What a postcard perfect view!
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9115
 D4
-(null)~
+~
 ~
 0 -1 9118
 S
@@ -510,11 +511,11 @@ Midgaard is far, far to the west. What a postcard perfect view!
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9119
 D5
-(null)~
+~
 ~
 0 -1 9117
 S
@@ -526,7 +527,7 @@ nasty.
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 -1 9118
 D4
@@ -554,7 +555,7 @@ A large ledge that looks pretty safe.
 ~
 0 -1 9122
 D5
-(null)~
+~
 ~
 0 -1 9119
 S
@@ -566,7 +567,7 @@ something disgusting.
 ~
 0 9 5
 D3
-(null)~
+~
 ~
 0 -1 9120
 S
@@ -578,15 +579,15 @@ two small caves here, one north and one west.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9124
 D3
-(null)~
+~
 ~
 0 -1 9123
 D5
-(null)~
+~
 ~
 0 -1 9120
 S
@@ -798,7 +799,7 @@ in an earthquake before you realize where you are!
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9145
 D1
@@ -871,7 +872,7 @@ A happy, peaceful little cloud humming to itself.
 ~
 0 -1 9131
 D3
-(null)~
+~
 ~
 0 -1 9137
 S
@@ -887,7 +888,7 @@ There is a pure white cloud east of you. It is snowing!
 ~
 0 -1 9136
 D4
-(null)~
+~
 ~
 0 -1 9138
 S
@@ -904,7 +905,7 @@ Eerie looking house.
 door~
 1 -1 9139
 D5
-(null)~
+~
 ~
 0 -1 9137
 S
@@ -917,11 +918,11 @@ trouble making out the room to the east.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 9140
 D2
-(null)~
+~
 ~
 0 -1 9138
 S
@@ -934,11 +935,11 @@ is the house and there is a stairway leading up into the tower.
 ~
 0 9 0
 D3
-(null)~
+~
 ~
 0 -1 9139
 D4
-(null)~
+~
 ~
 0 -1 9141
 S
@@ -956,11 +957,11 @@ The picture is in on the east wall. It is very complex in detail, and you
 almost see people walking around the temple in the picture.
 ~
 D1
-(null)~
+~
 picture~
 1 -1 3001
 D5
-(null)~
+~
 ~
 0 -1 9140
 S
@@ -972,7 +973,7 @@ something like, 'Tut, tut! It looks like rain!'
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9143
 D1
@@ -1004,14 +1005,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D0
-(null)~
-~
-0 -1 9148
 D5
-(null)~
+~
 ~
 0 -1 9146
+D0
+~
+~
+0 -1 9148
 S
 #9145
 Raging hurricane.~
@@ -1020,17 +1021,17 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
+D3
+~
+~
+0 -1 9150
 D2
 You see a sneezy little cloud.
 ~
 ~
 0 -1 9133
-D3
-(null)~
-~
-0 -1 9150
 D5
-(null)~
+~
 ~
 0 -1 9148
 S
@@ -1042,11 +1043,11 @@ Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
 D0
-(null)~
+~
 ~
 0 -1 9147
 D1
-(null)~
+~
 ~
 0 -1 9144
 S
@@ -1058,11 +1059,11 @@ Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
 D1
-(null)~
+~
 ~
 0 -1 9148
 D2
-(null)~
+~
 ~
 0 -1 9146
 S
@@ -1074,15 +1075,15 @@ Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
 D2
-(null)~
+~
 ~
 0 -1 9144
 D4
-(null)~
+~
 ~
 0 -1 9145
 D3
-(null)~
+~
 ~
 0 -1 9147
 S
@@ -1094,11 +1095,11 @@ Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
 D0
-(null)~
+~
 ~
 0 -1 9152
 D1
-(null)~
+~
 ~
 0 -1 9150
 D5
@@ -1114,18 +1115,18 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
+D3
+~
+~
+0 -1 9149
 D1
-(null)~
+~
 ~
 0 -1 9145
 D0
-(null)~
+~
 ~
 0 -1 9151
-D3
-(null)~
-~
-0 -1 9149
 S
 #9151
 Raging hurricane.~
@@ -1135,11 +1136,11 @@ Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
 D2
-(null)~
+~
 ~
 0 -1 9150
 D3
-(null)~
+~
 ~
 0 -1 9152
 S
@@ -1150,14 +1151,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D1
-(null)~
-~
-0 -1 9151
 D2
-(null)~
+~
 ~
 0 -1 9149
+D1
+~
+~
+0 -1 9151
 S
 #9153
 Calm cloud.~
@@ -1166,11 +1167,11 @@ get sucked in, but you feel safe for the moment.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 -1 9154
 D4
-(null)~
+~
 ~
 0 -1 9152
 S
@@ -1183,11 +1184,11 @@ place.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9153
 D3
-(null)~
+~
 ~
 0 -1 9155
 S
@@ -1200,11 +1201,11 @@ place.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9154
 D4
-(null)~
+~
 ~
 0 -1 9156
 S
@@ -1216,7 +1217,7 @@ and look almost leathery. Better hope mom isn't around!
 ~
 0 0 5
 D5
-(null)~
+~
 ~
 0 -1 9155
 S
@@ -1226,15 +1227,15 @@ This cloud looks like it belongs to the phylum of cumulative nimbus clouds.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 -1 9159
 D3
-(null)~
+~
 ~
 0 -1 9158
 D4
-(null)~
+~
 ~
 0 -1 9149
 S
@@ -1244,7 +1245,7 @@ This cloud looks like the perfect place to hide.
 ~
 0 1 0
 D1
-(null)~
+~
 ~
 0 -1 9157
 S
@@ -1255,11 +1256,11 @@ end? There is a rope ladder leading up.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 -1 9157
 D4
-(null)~
+~
 ~
 0 -1 9160
 S
@@ -1289,15 +1290,15 @@ obviously well cared for.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9160
 D2
-(null)~
+~
 ~
 0 -1 9163
 D3
-(null)~
+~
 ~
 0 -1 9162
 S
@@ -1309,11 +1310,11 @@ been set up for spectators and players to enjoy themselves.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 9161
 D2
-(null)~
+~
 ~
 0 -1 9164
 S
@@ -1325,11 +1326,11 @@ fountain empties into a huge pool that looks quite inviting.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9161
 D3
-(null)~
+~
 ~
 0 -1 9164
 S
@@ -1342,15 +1343,15 @@ house.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9162
 D1
-(null)~
+~
 ~
 0 -1 9163
 D4
-(null)~
+~
 ~
 0 -1 9165
 S
@@ -1362,11 +1363,11 @@ inlays.
 ~
 0 0 1
 D4
-(null)~
+~
 ~
 0 -1 9166
 D5
-(null)~
+~
 ~
 0 -1 9164
 S
@@ -1378,7 +1379,7 @@ made of oak.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9173
 D2
@@ -1387,11 +1388,11 @@ You see an ornate oak door.
 oak door~
 2 -1 9177
 D3
-(null)~
+~
 ~
 0 -1 9167
 D5
-(null)~
+~
 ~
 0 -1 9165
 S
@@ -1402,11 +1403,11 @@ to peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9166
 D2
-(null)~
+~
 ~
 0 -1 9168
 S
@@ -1417,11 +1418,11 @@ peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9167
 D2
-(null)~
+~
 ~
 0 -1 9169
 S
@@ -1432,15 +1433,15 @@ to peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9168
 D1
-(null)~
+~
 ~
 0 -1 9170
 D5
-(null)~
+~
 ~
 0 -1 9174
 S
@@ -1451,11 +1452,11 @@ peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9171
 D3
-(null)~
+~
 ~
 0 -1 9169
 S
@@ -1466,11 +1467,11 @@ to peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9172
 D3
-(null)~
+~
 ~
 0 -1 9170
 S
@@ -1481,11 +1482,11 @@ peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9173
 D2
-(null)~
+~
 ~
 0 -1 9171
 S
@@ -1496,11 +1497,11 @@ to peek in a window, but it is a little too high to see anything.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 -1 9172
 D3
-(null)~
+~
 ~
 0 -1 9166
 S
@@ -1510,11 +1511,11 @@ This dirty dusty tunnel must lead somewhere.
 ~
 0 9 5
 D1
-(null)~
+~
 ~
 0 -1 9175
 D4
-(null)~
+~
 ~
 0 -1 9169
 S
@@ -1526,11 +1527,11 @@ rats in the corners.
 ~
 0 9 5
 D0
-(null)~
+~
 ~
 0 -1 9176
 D3
-(null)~
+~
 ~
 0 -1 9174
 S
@@ -1542,11 +1543,11 @@ clutter gathered throughout the years.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 -1 9175
 D4
-(null)~
+~
 ~
 0 -1 9177
 S
@@ -1566,15 +1567,15 @@ You see an ornate oak door.
 oak door~
 2 -1 9166
 D1
-(null)~
+~
 ~
 0 -1 9183
 D3
-(null)~
+~
 ~
 0 -1 9178
 D5
-(null)~
+~
 ~
 0 -1 9176
 S
@@ -1586,15 +1587,15 @@ the hallway and some gorgeous, handwoven drapes.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9177
 D2
-(null)~
+~
 ~
 0 -1 9179
 D3
-(null)~
+~
 ~
 0 -1 9180
 S
@@ -1607,7 +1608,7 @@ and a desk for more intense studies.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9178
 S
@@ -1619,11 +1620,11 @@ trees, a small pond and flowers of every kind.
 ~
 0 12 0
 D1
-(null)~
+~
 ~
 0 -1 9178
 D2
-(null)~
+~
 ~
 0 -1 9181
 S
@@ -1637,11 +1638,11 @@ up into darkness.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 -1 9180
 D4
-(null)~
+~
 ~
 0 -1 9182
 S
@@ -1655,7 +1656,7 @@ although there are a couple of cobwebs in the corner.
 ~
 0 9 1
 D5
-(null)~
+~
 ~
 0 -1 9181
 S
@@ -1667,15 +1668,15 @@ the hallway and some gorgeous, handwoven drapes.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 9185
 D2
-(null)~
+~
 ~
 0 -1 9184
 D3
-(null)~
+~
 ~
 0 -1 9177
 S
@@ -1687,7 +1688,7 @@ instruments are on display in a glass cabinet.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 9183
 S
@@ -1700,11 +1701,11 @@ mechanically ticking and tocking the hours away.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 9186
 D3
-(null)~
+~
 ~
 0 -1 9183
 S
@@ -1718,11 +1719,11 @@ up into darkness.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 -1 9185
 D4
-(null)~
+~
 ~
 0 -1 9187
 S
@@ -1736,7 +1737,7 @@ although there are a couple of cobwebs in the corner.
 ~
 0 9 1
 D5
-(null)~
+~
 ~
 0 -1 9186
 S

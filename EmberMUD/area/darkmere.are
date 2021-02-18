@@ -1,5 +1,6 @@
 #AREADATA
 Name        { All } Zane    City of Darkmere~
+Group       Mudweiser~
 Builders    None~
 VNUMs       25700 25799
 Security    5
@@ -2022,19 +2023,19 @@ square has been rather vacant due to the thieving.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25714
 D1
-(null)~
+~
 ~
 0 0 25701
 D2
-(null)~
+~
 ~
 1 0 25708
 D3
-(null)~
+~
 ~
 0 0 25702
 S
@@ -2048,15 +2049,15 @@ sign above the door reading 'Goldsmith.  '
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25756
 D2
-(null)~
+~
 ~
 0 0 25707
 D3
-(null)~
+~
 ~
 0 0 25700
 S
@@ -2071,15 +2072,15 @@ streets.
 ~
 0 2359297 1
 D1
-(null)~
+~
 ~
 0 0 25700
 D2
-(null)~
+~
 ~
 0 0 25703
 D3
-(null)~
+~
 ~
 0 0 25757
 S
@@ -2092,19 +2093,19 @@ leading into the failed Tower of Darkmere.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25702
 D1
-(null)~
+~
 ~
 1 0 25708
 D2
-(null)~
+~
 ~
 0 0 25704
 D3
-(null)~
+~
 ~
 0 0 25709
 S
@@ -2117,15 +2118,15 @@ the south, while market square continues on east and north.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25703
 D1
-(null)~
+~
 ~
 0 0 25705
 D2
-(null)~
+~
 ~
 0 0 25748
 S
@@ -2138,19 +2139,19 @@ Darkmere can be seen in all its disgrace.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 1 0 25708
 D1
-(null)~
+~
 ~
 0 0 25706
 D2
-(null)~
+~
 ~
 0 0 25722
 D3
-(null)~
+~
 ~
 0 0 25704
 S
@@ -2162,15 +2163,15 @@ the city send chills down your spine.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25707
 D1
-(null)~
+~
 ~
 0 0 25758
 D3
-(null)~
+~
 ~
 0 0 25705
 S
@@ -2183,19 +2184,19 @@ darkness.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25701
 D1
-(null)~
+~
 ~
 0 0 25718
 D2
-(null)~
+~
 ~
 0 0 25706
 D3
-(null)~
+~
 ~
 1 0 25708
 S
@@ -2209,23 +2210,23 @@ uneven, never having been torn down. Exit doors lead in all directions.
 ~
 0 2097153 0
 D0
-(null)~
+~
 ~
 1 0 25700
 D1
-(null)~
+~
 ~
 1 0 25707
 D2
-(null)~
+~
 ~
 1 0 25705
 D3
-(null)~
+~
 ~
 1 0 25703
 D5
-(null)~
+~
 ~
 7 0 25784
 S
@@ -2239,19 +2240,19 @@ underground into the magic guilds.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25710
 D1
-(null)~
+~
 ~
 0 0 25703
 D2
-(null)~
+~
 ~
 0 0 25711
 D3
-(null)~
+~
 ~
 0 0 25725
 D5
@@ -2268,11 +2269,11 @@ the shadow-like fog to swirl and collect about your feet.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25712
 D1
-(null)~
+~
 ~
 0 0 25737
 D2
@@ -2281,7 +2282,7 @@ The Center of Shadows is south of here.
 ~
 0 0 25709
 D3
-(null)~
+~
 ~
 0 0 25736
 S
@@ -2294,19 +2295,19 @@ converse. To the east is a weird shop run by a black-hooded Avenger.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25709
 D1
-(null)~
+~
 ~
 0 0 25739
 D2
-(null)~
+~
 ~
 0 0 25724
 D3
-(null)~
+~
 ~
 0 0 25738
 S
@@ -2319,11 +2320,11 @@ to be a high target for violence.
 ~
 0 2359297 1
 D1
-(null)~
+~
 ~
 0 0 25713
 D2
-(null)~
+~
 ~
 0 0 25710
 S
@@ -2335,15 +2336,15 @@ old, run-down warehouse.
 ~
 0 2359297 1
 D1
-(null)~
+~
 ~
 0 0 25714
 D2
-(null)~
+~
 ~
 0 0 25753
 D3
-(null)~
+~
 ~
 0 0 25712
 S
@@ -2356,19 +2357,19 @@ Down, an open manhole serves as the entrance into the guild of thieves.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25730
 D1
-(null)~
+~
 ~
 0 0 25715
 D2
-(null)~
+~
 ~
 0 0 25700
 D3
-(null)~
+~
 ~
 0 0 25713
 D5
@@ -2391,15 +2392,15 @@ lamp~
 A fallen street lamp lies across the road, broken in two.  
 ~
 D1
-(null)~
+~
 ~
 0 0 25716
 D2
-(null)~
+~
 ~
 0 0 25754
 D3
-(null)~
+~
 ~
 0 0 25714
 S
@@ -2432,15 +2433,15 @@ trade.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25716
 D2
-(null)~
+~
 ~
 0 0 25718
 D3
-(null)~
+~
 ~
 0 0 25755
 S
@@ -2452,19 +2453,19 @@ the east is a gated entrance to the city.
 ~
 0 2359297 0
 D0
-(null)~
+~
 ~
 0 0 25717
 D1
-(null)~
+~
 ~
 0 0 25732
 D2
-(null)~
+~
 ~
 0 0 25719
 D3
-(null)~
+~
 ~
 0 0 25707
 S
@@ -2477,11 +2478,11 @@ black market. Stairs lead down to an underground shop.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25718
 D2
-(null)~
+~
 ~
 0 0 25720
 D3
@@ -2490,7 +2491,7 @@ That is the black market know for ripping off good weapons.
 ~
 0 0 25759
 D5
-(null)~
+~
 ~
 7 0 25799
 S
@@ -2503,11 +2504,11 @@ badger you for money.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25719
 D3
-(null)~
+~
 ~
 0 0 25721
 S
@@ -2520,15 +2521,15 @@ here is a brightly lit street corner.
 ~
 0 2359297 1
 D1
-(null)~
+~
 ~
 0 0 25720
 D2
-(null)~
+~
 ~
 0 0 25747
 D3
-(null)~
+~
 ~
 0 0 25722
 S
@@ -2542,19 +2543,19 @@ side of a building with a crunched wall leads to a warrior's guild.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25705
 D1
-(null)~
+~
 ~
 0 0 25721
 D2
-(null)~
+~
 ~
 0 0 25734
 D3
-(null)~
+~
 ~
 0 0 25723
 D5
@@ -2572,15 +2573,15 @@ east and west as far as the eye can see.
 ~
 0 2359297 1
 D1
-(null)~
+~
 ~
 0 0 25722
 D2
-(null)~
+~
 ~
 0 0 25743
 D3
-(null)~
+~
 ~
 0 0 25724
 S
@@ -2635,11 +2636,11 @@ westward, out past the city walls.
 ~
 0 2359300 1
 D1
-(null)~
+~
 gate~
 1 0 25725
 D3
-(null)~
+~
 ~
 0 0 25761
 S
@@ -2657,7 +2658,7 @@ North is the Shrine of Darkness.
 ~
 0 0 25728
 D2
-(null)~
+~
 ~
 0 0 25725
 D5
@@ -2722,7 +2723,7 @@ It's the city gate, dummy!
 gate~
 1 0 25731
 D2
-(null)~
+~
 ~
 0 0 25714
 S
@@ -2734,11 +2735,11 @@ dark clouds over the city's limits. A small dimly lit path leads north.
 ~
 0 2359300 1
 D0
-(null)~
+~
 ~
 0 0 25786
 D2
-(null)~
+~
 gate~
 1 0 25730
 S
@@ -2750,11 +2751,11 @@ across the large wooden gates.
 ~
 0 2359297 1
 D1
-(null)~
+~
 gate~
 1 0 25733
 D3
-(null)~
+~
 ~
 0 0 25718
 S
@@ -2767,7 +2768,7 @@ wooden gates to the city are to the west.
 ~
 0 2359300 1
 D3
-(null)~
+~
 gate~
 1 0 25732
 S
@@ -2779,11 +2780,11 @@ to be stressed out from a rather monotonous job.
 ~
 0 2359297 1
 D0
-(null)~
+~
 ~
 0 0 25722
 D2
-(null)~
+~
 gate~
 1 0 25735
 S
@@ -2795,11 +2796,11 @@ further away from the town.
 ~
 0 2359300 1
 D0
-(null)~
+~
 gate~
 1 0 25734
 D2
-(null)~
+~
 ~
 0 0 25772
 S
@@ -2811,7 +2812,7 @@ sits behind the glass counter.
 ~
 0 136577032 1
 D1
-(null)~
+~
 ~
 0 0 25710
 S
@@ -2823,7 +2824,7 @@ potions especially for the noble paladin.
 ~
 0 1076101120 1
 D3
-(null)~
+~
 ~
 0 0 25710
 S
@@ -2836,7 +2837,7 @@ hanging on hooks behind the counter.
 ~
 0 69468168 1
 D1
-(null)~
+~
 ~
 0 0 25711
 S
@@ -2848,7 +2849,7 @@ get out. A threat with a blast and decapitation hurries your decision.
 ~
 0 -2145124344 1
 D3
-(null)~
+~
 ~
 0 0 25711
 S
@@ -2860,23 +2861,23 @@ Avenger's Guild.
 ~
 0 2359308 1
 D0
-(null)~
+~
 ~
 0 0 25741
 D1
-(null)~
+~
 ~
 0 0 25744
 D2
-(null)~
+~
 ~
 0 0 25742
 D3
-(null)~
+~
 ~
 0 0 25745
 D4
-(null)~
+~
 ~
 0 0 25709
 S
@@ -2888,7 +2889,7 @@ practice your training, and to enhance your skills and knowledge.
 ~
 0 136577032 0
 D2
-(null)~
+~
 ~
 0 0 25740
 S
@@ -2901,7 +2902,7 @@ fills your body with a renewed strength.
 ~
 0 69468168 0
 D0
-(null)~
+~
 ~
 0 0 25740
 S
@@ -2914,7 +2915,7 @@ top.
 ~
 0 539230216 1
 D0
-(null)~
+~
 ~
 0 0 25723
 S
@@ -2925,7 +2926,7 @@ figure. You suspect he is the guildmaster.
 ~
 0 -2145124344 0
 D3
-(null)~
+~
 ~
 0 0 25740
 S
@@ -2937,7 +2938,7 @@ become better at your faith and your strength.
 ~
 0 1076101128 0
 D1
-(null)~
+~
 ~
 0 0 25740
 S
@@ -2951,7 +2952,7 @@ believe that he may yet fight again one day.
 ~
 0 539230217 0
 D4
-(null)~
+~
 ~
 0 0 25722
 S
@@ -2964,11 +2965,11 @@ too.
 ~
 0 539230216 1
 D0
-(null)~
+~
 ~
 0 0 25721
 D2
-(null)~
+~
 ~
 7 0 25760
 S
@@ -2981,13 +2982,13 @@ wealth.
 ~
 0 2101257 0
 D0
-(null)~
+~
 ~
 0 0 25704
 S
 #25749
 Backroom of the Stop and Shop, Henchmen 'R Us!~
-(null)~
+~
 0 1085444 0
 S
 #25750
@@ -2999,15 +3000,15 @@ light the passageway quite well.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 25752
 D3
-(null)~
+~
 ~
 0 0 25751
 D4
-(null)~
+~
 ~
 0 0 25714
 S
@@ -3019,7 +3020,7 @@ muttering gibberish. It seems hard to believe he is a guildmaster.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 25750
 S
@@ -3036,7 +3037,7 @@ The floor around the corner of the room is dusty, but you can make out
 what appears to be a trapdoor.  
 ~
 D2
-(null)~
+~
 ~
 0 0 25750
 S
@@ -3049,7 +3050,7 @@ sitting behind a larger crate.
 ~
 0 270532616 0
 D0
-(null)~
+~
 ~
 0 0 25713
 S
@@ -3065,7 +3066,7 @@ box~
 Hey man! Don't rag on th' box!  
 ~
 D0
-(null)~
+~
 ~
 0 0 25715
 S
@@ -3077,7 +3078,7 @@ in a tall white hat sits behind the counter.
 ~
 0 2359305 1
 D1
-(null)~
+~
 ~
 0 0 25717
 S
@@ -3089,7 +3090,7 @@ melt them into weapons for you.
 ~
 0 2359305 1
 D2
-(null)~
+~
 ~
 0 0 25701
 S
@@ -3102,7 +3103,7 @@ watching you with an anxious gleam in his eyes.
 ~
 0 2359305 1
 D1
-(null)~
+~
 ~
 0 0 25702
 S
@@ -3117,7 +3118,7 @@ dispense drinks.
 ~
 0 2097161 1
 D3
-(null)~
+~
 ~
 0 0 25706
 S
@@ -3129,7 +3130,7 @@ lower price.
 ~
 0 2359304 1
 D1
-(null)~
+~
 ~
 0 0 25719
 S
@@ -3146,7 +3147,7 @@ sword~
 A sword on the wall has a frozen blade and looks mighty powerful.  
 ~
 D0
-(null)~
+~
 ~
 7 0 25747
 S
@@ -3164,11 +3165,11 @@ because from now on you won't be seeing it. A curse was cast on this
 God-foresaken town, casting it in eternal darkness. Enjoy!  
 ~
 D1
-(null)~
+~
 ~
 0 0 25726
 D3
-(null)~
+~
 ~
 0 0 25762
 S
@@ -3197,11 +3198,11 @@ sign~
 `K....___/====--===\_____/====-_____..__/==\`w
 ~
 D1
-(null)~
+~
 ~
 0 0 25761
 D3
-(null)~
+~
 ~
 0 0 25763
 S
@@ -3213,11 +3214,11 @@ the ocean floor and the waves splash your face.
 ~
 0 0 6
 D1
-(null)~
+~
 ~
 0 0 25762
 D3
-(null)~
+~
 ~
 0 0 25764
 S
@@ -3228,11 +3229,11 @@ except a small land mass faintly visible to the east.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25763
 D3
-(null)~
+~
 ~
 0 0 25765
 S
@@ -3244,11 +3245,11 @@ water is dark and the ocean floor is completely out of site.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25764
 D3
-(null)~
+~
 ~
 0 0 25766
 S
@@ -3261,11 +3262,11 @@ bobs along helplessly.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25765
 D3
-(null)~
+~
 ~
 0 0 25768
 S
@@ -3276,11 +3277,11 @@ water, except to the west, where a small land mass is visible.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25768
 D3
-(null)~
+~
 ~
 0 0 25769
 S
@@ -3291,11 +3292,11 @@ is a barely visible land mass.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25766
 D3
-(null)~
+~
 ~
 0 0 25767
 S
@@ -3306,11 +3307,11 @@ of some sort can be seen, and further along is a large city.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25767
 D3
-(null)~
+~
 ~
 0 0 25770
 S
@@ -3322,11 +3323,11 @@ nothing for the eye but water.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25769
 D3
-(null)~
+~
 ~
 0 0 25771
 S
@@ -3337,11 +3338,11 @@ west, and a sign can be seen on it. All around elsewhere is water.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25770
 D3
-(null)~
+~
 ~
 0 0 22210
 S
@@ -3353,11 +3354,11 @@ town is a shroud of Darkness.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 25735
 D2
-(null)~
+~
 ~
 0 0 25773
 S
@@ -3369,11 +3370,11 @@ seems to be full of life.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 25772
 D2
-(null)~
+~
 ~
 0 0 25774
 S
@@ -3385,11 +3386,11 @@ hillside.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 25773
 D2
-(null)~
+~
 ~
 0 0 25775
 S
@@ -3400,11 +3401,11 @@ to some more forested areas and south heads into yet more hills.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 25774
 D2
-(null)~
+~
 ~
 0 0 25776
 S
@@ -3416,11 +3417,11 @@ in heavy still clouds.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 25775
 D3
-(null)~
+~
 ~
 0 0 25777
 S
@@ -3433,11 +3434,11 @@ over by rolling stones.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 0 25776
 D3
-(null)~
+~
 ~
 0 0 25778
 S
@@ -3449,11 +3450,11 @@ treaded path continues west and east.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 25777
 D3
-(null)~
+~
 ~
 0 0 25779
 S
@@ -3465,11 +3466,11 @@ fields while to your west are the crossroads east of Daggerford.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 25778
 D3
-(null)~
+~
 ~
 0 0 22501
 S
@@ -3483,11 +3484,11 @@ leak and water spews from it.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 25781
 D4
-(null)~
+~
 ~
 7 0 25727
 S
@@ -3499,11 +3500,11 @@ appears to be a room of sorts.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 25782
 D3
-(null)~
+~
 ~
 0 0 25780
 S
@@ -3521,11 +3522,11 @@ banner~
 DEATH TO {FOT}!!!!!!  
 ~
 D1
-(null)~
+~
 ~
 0 0 25783
 D3
-(null)~
+~
 ~
 0 0 25781
 S
@@ -3537,11 +3538,11 @@ with a few torches lit.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 25784
 D3
-(null)~
+~
 ~
 0 0 25782
 S
@@ -3553,11 +3554,11 @@ west. Up is the lobby of the "tower".
 ~
 0 2097161 0
 D3
-(null)~
+~
 ~
 0 0 25783
 D4
-(null)~
+~
 ~
 7 0 25708
 S
@@ -3570,7 +3571,7 @@ garbed only in a black robe stands there.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 7 0 25799
 S
@@ -3582,11 +3583,11 @@ north leads to an ocean.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 25787
 D2
-(null)~
+~
 ~
 0 0 25731
 S
@@ -3598,11 +3599,11 @@ against your leg.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 0 25788
 D2
-(null)~
+~
 ~
 0 0 25786
 S
@@ -3613,11 +3614,11 @@ all around elsewhere is water.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 25789
 D2
-(null)~
+~
 ~
 0 0 25787
 S
@@ -3629,11 +3630,11 @@ is a smaller one.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25790
 D2
-(null)~
+~
 ~
 0 0 25788
 S
@@ -3643,11 +3644,11 @@ You are in the water of an ocean. East of here is a small island.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 25791
 D3
-(null)~
+~
 ~
 0 0 25789
 S
@@ -3659,11 +3660,11 @@ shade.
 ~
 0 512 10
 D3
-(null)~
+~
 ~
 0 0 25790
 D4
-(null)~
+~
 ~
 0 0 25792
 S
@@ -3674,7 +3675,7 @@ the horizon all there is to see are the endless waves of this ocean.
 ~
 0 2048 5
 D5
-(null)~
+~
 ~
 0 0 25791
 S
@@ -3687,7 +3688,7 @@ to a slightly smaller room.
 ~
 0 2097164 0
 D4
-(null)~
+~
 ~
 7 0 25719
 D5

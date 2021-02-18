@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 15} Zane    Jade Desert and Plateau~
+Group       Mudweiser~
 Builders    None~
 VNUMs       22500 22599
 Security    6
@@ -73,7 +74,7 @@ song bird~
 a song bird~
 A little song bird pecks at the dirt in hopes of catching breakfast.
 ~
-(null)~
+~
 song bird~
 AB T 0 S
 5 8 
@@ -117,7 +118,7 @@ sand beetle~
 a sand beetle~
 A sand beetle scuttles its way across the desert.
 ~
-(null)~
+~
 centipede~
 A Z 0 S
 5 7 
@@ -146,7 +147,7 @@ eaglet~
 an eaglet~
 A little eaglet pulls at your shirt.
 ~
-(null)~
+~
 song bird~
 AB T 1000 S
 7 9 
@@ -175,7 +176,7 @@ goblin gang leader~
 the goblin leader~
 The head of this goblin gang stares you down.
 ~
-(null)~
+~
 goblin~
 ABT JV -1000 S
 20 27 
@@ -189,7 +190,7 @@ goblin henchman~
 a goblin henchman~
 A goblin henchman points his sword at you.
 ~
-(null)~
+~
 goblin~
 A JP -1000 S
 17 20 
@@ -203,7 +204,7 @@ old fisherman man~
 an old fisherman~
 A very old fisherman is preparing his canoe for the waters.
 ~
-(null)~
+~
 Human~
 AB 0 1000 S
 20 40 
@@ -217,7 +218,7 @@ elven elf woman~
 an elven woman~
 An elven woman looks at you with odd eyes.
 ~
-(null)~
+~
 Elf~
 AH J 1000 S
 10 15 
@@ -231,7 +232,7 @@ elven elf child~
 an elven child~
 An elven child tries to walk around you.
 ~
-(null)~
+~
 Elf~
 AH J 1000 S
 10 14 
@@ -245,7 +246,7 @@ elven elf guard~
 an elven guard~
 An elven guard watches you, cautious of your intrusion.
 ~
-(null)~
+~
 Elf~
 AF J 1000 S
 16 25 
@@ -259,7 +260,7 @@ elven elf guard~
 an elven guard~
 A royal elven guard stands at attention, watching for intruders.
 ~
-(null)~
+~
 Elf~
 ABF JV 1000 S
 17 30 
@@ -450,11 +451,11 @@ unexplored places lie.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 22501
 D3
-(null)~
+~
 ~
 0 0 17172
 S
@@ -467,15 +468,15 @@ north. The other paths are worn down a bit but are still useable.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22502
 D1
-(null)~
+~
 ~
 0 0 25779
 D3
-(null)~
+~
 ~
 0 0 22500
 S
@@ -487,11 +488,11 @@ visible structure.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 22503
 D2
-(null)~
+~
 ~
 0 0 22501
 S
@@ -503,19 +504,19 @@ up north is still barely visible.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22506
 D1
-(null)~
+~
 ~
 0 0 22504
 D2
-(null)~
+~
 ~
 0 0 22502
 D3
-(null)~
+~
 ~
 0 0 22505
 S
@@ -527,11 +528,11 @@ and barren land.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22509
 D3
-(null)~
+~
 ~
 0 0 22503
 S
@@ -542,11 +543,11 @@ just little field mice and a few birds.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22508
 D1
-(null)~
+~
 ~
 0 0 22503
 S
@@ -557,19 +558,19 @@ serves as some kind of guideline as to where you are going.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22507
 D1
-(null)~
+~
 ~
 0 0 22509
 D2
-(null)~
+~
 ~
 0 0 22503
 D3
-(null)~
+~
 ~
 0 0 22508
 S
@@ -581,19 +582,19 @@ like some sort of natural structure.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22512
 D1
-(null)~
+~
 ~
 0 0 22511
 D2
-(null)~
+~
 ~
 0 0 22506
 D3
-(null)~
+~
 ~
 0 0 22510
 S
@@ -605,15 +606,15 @@ fear that they will be squished.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22510
 D1
-(null)~
+~
 ~
 0 0 22506
 D2
-(null)~
+~
 ~
 0 0 22505
 S
@@ -624,15 +625,15 @@ the ground. A little mole lifts his head in curiousity of his new visitor.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22511
 D2
-(null)~
+~
 ~
 0 0 22504
 D3
-(null)~
+~
 ~
 0 0 22506
 S
@@ -644,15 +645,15 @@ some bits of grain that have been dropped and run away.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22513
 D1
-(null)~
+~
 ~
 0 0 22507
 D2
-(null)~
+~
 ~
 0 0 22508
 S
@@ -664,15 +665,15 @@ attempt to catch some worms.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22514
 D2
-(null)~
+~
 ~
 0 0 22509
 D3
-(null)~
+~
 ~
 0 0 22507
 S
@@ -684,19 +685,19 @@ sand on the ground.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22515
 D1
-(null)~
+~
 ~
 0 0 22514
 D2
-(null)~
+~
 ~
 0 0 22507
 D3
-(null)~
+~
 ~
 0 0 22513
 S
@@ -708,15 +709,15 @@ as the structure ahead gets larger as you advance.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22517
 D1
-(null)~
+~
 ~
 0 0 22512
 D2
-(null)~
+~
 ~
 0 0 22510
 S
@@ -728,15 +729,15 @@ wander as much around here.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22516
 D2
-(null)~
+~
 ~
 0 0 22511
 D3
-(null)~
+~
 ~
 0 0 22512
 S
@@ -748,19 +749,19 @@ structure still isn't clearly defined yet.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22518
 D1
-(null)~
+~
 ~
 0 0 22516
 D2
-(null)~
+~
 ~
 0 0 22512
 D3
-(null)~
+~
 ~
 0 0 22517
 S
@@ -772,11 +773,11 @@ desert.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22514
 D3
-(null)~
+~
 ~
 0 0 22515
 S
@@ -788,11 +789,11 @@ large structure to the north is starting to come into view.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 22515
 D2
-(null)~
+~
 ~
 0 0 22513
 S
@@ -823,16 +824,16 @@ Jade does not take lightly to trespassers.
 ~
 E
 sign~
-(null)~
+~
 E
 sign~
-(null)~
+~
 D0
-(null)~
+~
 ~
 0 0 22519
 D2
-(null)~
+~
 ~
 0 0 22515
 S
@@ -843,15 +844,15 @@ Praying to your gods for transportation is now useless. Have Fun!
 ~
 0 2105348 0
 D0
-(null)~
+~
 ~
 0 0 22520
 D1
-(null)~
+~
 ~
 0 0 22522
 D3
-(null)~
+~
 ~
 0 0 22521
 S
@@ -862,15 +863,15 @@ this desert. The only visible life are scorpions and other desert dwellers.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22525
 D1
-(null)~
+~
 ~
 0 0 22524
 D2
-(null)~
+~
 ~
 0 0 22519
 S
@@ -881,11 +882,11 @@ only life sustainable here roams around and scatters when you arrive.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22523
 D3
-(null)~
+~
 ~
 0 0 22519
 S
@@ -896,11 +897,11 @@ up by the thirsty atmosphere immediately.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22523
 D3
-(null)~
+~
 ~
 0 0 22519
 S
@@ -912,11 +913,11 @@ creatures roam underneath the sands and pop up for air every now and then.
 ~
 0 2097152 10
 D0
-(null)~
+~
 ~
 0 0 22520
 D2
-(null)~
+~
 ~
 0 0 22519
 S
@@ -927,11 +928,11 @@ been roaming in circles. You trudge forward through the sands.
 ~
 0 2105344 10
 D1
-(null)~
+~
 ~
 0 0 22521
 D3
-(null)~
+~
 ~
 0 0 22526
 S
@@ -942,11 +943,11 @@ the north that you can drink from but you best bet that it's a mirage.
 ~
 0 2105344 10
 D2
-(null)~
+~
 ~
 0 0 22520
 D3
-(null)~
+~
 ~
 0 0 22523
 S
@@ -958,15 +959,15 @@ the desert helplessly.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22527
 D1
-(null)~
+~
 ~
 0 0 22523
 D3
-(null)~
+~
 ~
 0 0 22528
 S
@@ -978,15 +979,15 @@ sands.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22529
 D1
-(null)~
+~
 ~
 0 0 22525
 D2
-(null)~
+~
 ~
 0 0 22526
 S
@@ -998,15 +999,15 @@ aren't there.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22528
 D1
-(null)~
+~
 ~
 0 0 22526
 D3
-(null)~
+~
 ~
 0 0 22523
 S
@@ -1018,11 +1019,11 @@ flows from the earth.
 ~
 0 2097152 10
 D1
-(null)~
+~
 ~
 0 0 22530
 D2
-(null)~
+~
 ~
 0 0 22527
 S
@@ -1033,11 +1034,11 @@ you will leave soon. Until that time you keep wandering randomly.
 ~
 0 2105344 10
 D1
-(null)~
+~
 ~
 0 0 22531
 D3
-(null)~
+~
 ~
 0 0 22529
 S
@@ -1048,19 +1049,19 @@ ahead. One wrong move could send you back to the begining though.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22533
 D1
-(null)~
+~
 ~
 0 0 22519
 D2
-(null)~
+~
 ~
 0 0 22532
 D3
-(null)~
+~
 ~
 0 0 22522
 S
@@ -1071,19 +1072,19 @@ still might end up taking a wrong turn so choose your path wisely.
 ~
 0 2105344 10
 D0
-(null)~
+~
 ~
 0 0 22535
 D1
-(null)~
+~
 ~
 0 0 22519
 D2
-(null)~
+~
 ~
 0 0 22519
 D3
-(null)~
+~
 ~
 0 0 22519
 S
@@ -1094,11 +1095,11 @@ before the heat kills you!
 ~
 0 2105344 10
 D1
-(null)~
+~
 ~
 0 0 22519
 D2
-(null)~
+~
 ~
 0 0 22531
 S
@@ -1110,11 +1111,11 @@ climbing you may never come back down.
 ~
 0 2097156 5
 D4
-(null)~
+~
 ~
 0 0 22536
 D5
-(null)~
+~
 ~
 0 0 22535
 S
@@ -1126,11 +1127,11 @@ just climb up the side of it. Your choice.
 ~
 0 2105348 10
 D2
-(null)~
+~
 ~
 0 0 22532
 D4
-(null)~
+~
 ~
 0 0 22534
 S
@@ -1142,11 +1143,11 @@ you as you climb up, hoping to get dinner.
 ~
 0 2097152 5
 D4
-(null)~
+~
 ~
 0 0 22537
 D5
-(null)~
+~
 ~
 0 0 22534
 S
@@ -1157,15 +1158,15 @@ hold your weight. A branch extends east to a small nest
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 22538
 D4
-(null)~
+~
 ~
 0 0 22539
 D5
-(null)~
+~
 ~
 0 0 22536
 S
@@ -1177,7 +1178,7 @@ them grabs a holt of boot and you shake it off.
 ~
 0 0 9
 D3
-(null)~
+~
 ~
 0 0 22537
 S
@@ -1188,11 +1189,11 @@ holding on to gives way. You manage to catch yourself... This time.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22540
 D5
-(null)~
+~
 ~
 0 0 22537
 S
@@ -1203,11 +1204,11 @@ ledge in a very dangerous maner. The top is within your sight now.
 ~
 0 4 5
 D4
-(null)~
+~
 ~
 0 0 22541
 D5
-(null)~
+~
 ~
 0 0 22539
 S
@@ -1218,11 +1219,11 @@ knows what lies above the rocky cliffs?
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22542
 D5
-(null)~
+~
 ~
 0 0 22540
 S
@@ -1234,11 +1235,11 @@ canyon ahead, probably created from some sort of earthquake.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22543
 D5
-(null)~
+~
 ~
 0 0 22541
 S
@@ -1250,11 +1251,11 @@ there.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22544
 D2
-(null)~
+~
 ~
 0 0 22542
 S
@@ -1266,15 +1267,15 @@ the plateau.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22545
 D2
-(null)~
+~
 ~
 0 0 22543
 D5
-(null)~
+~
 ~
 0 0 22549
 S
@@ -1285,11 +1286,11 @@ pieces of torn rope. It looks unsafe but it seems to support your weight.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22546
 D2
-(null)~
+~
 ~
 0 0 22544
 S
@@ -1301,7 +1302,7 @@ where is steeply drops off into the north face.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22547
 S
@@ -1312,11 +1313,11 @@ Down the north face is an unknown territory that maybe you could explore.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22548
 D2
-(null)~
+~
 ~
 0 0 22546
 S
@@ -1327,11 +1328,11 @@ climb down the rocky ledges
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22547
 D5
-(null)~
+~
 ~
 0 0 22566
 S
@@ -1344,11 +1345,11 @@ of the canyon.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 22562
 D5
-(null)~
+~
 ~
 0 0 22550
 S
@@ -1359,11 +1360,11 @@ lower east is another small ledge you could hop onto.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22551
 D4
-(null)~
+~
 ~
 0 0 22549
 S
@@ -1374,11 +1375,11 @@ junp over to the last on or try and make it to the lower one.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 22550
 D5
-(null)~
+~
 ~
 0 0 22552
 S
@@ -1390,7 +1391,7 @@ another lower ledge, almost ground level to the river.
 ~
 0 0 0
 D5
-(null)~
+~
 ~
 0 0 22553
 S
@@ -1401,11 +1402,11 @@ east looks like a safe ledge to climb down from.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22554
 D4
-(null)~
+~
 ~
 0 0 22552
 S
@@ -1416,11 +1417,11 @@ person is down there.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 22553
 D5
-(null)~
+~
 ~
 0 0 22555
 S
@@ -1432,11 +1433,11 @@ swim it.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22556
 D4
-(null)~
+~
 ~
 0 0 22554
 S
@@ -1447,19 +1448,19 @@ is a dark prarie to the north.
 ~
 0 0 7
 D0
-(null)~
+~
 ~
 0 0 26800
 D1
-(null)~
+~
 ~
 0 0 22557
 D2
-(null)~
+~
 ~
 0 0 22555
 D3
-(null)~
+~
 ~
 0 0 22560
 S
@@ -1470,11 +1471,11 @@ Plateau.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 22558
 D3
-(null)~
+~
 ~
 0 0 22556
 S
@@ -1484,11 +1485,11 @@ You are on the river which runs in the canyon of Jade Plateau.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 22559
 D3
-(null)~
+~
 ~
 0 0 22557
 S
@@ -1499,11 +1500,11 @@ Jade Plateau. You are at the very bottom of the plateau on the east side.
 ~
 0 0 10
 D1
-(null)~
+~
 ~
 0 0 22591
 D3
-(null)~
+~
 ~
 0 0 22558
 S
@@ -1514,11 +1515,11 @@ current pulls strong and it is getting harder to pursue west.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 22556
 D3
-(null)~
+~
 ~
 0 0 22561
 S
@@ -1530,11 +1531,11 @@ along it.
 ~
 0 0 7
 D1
-(null)~
+~
 ~
 0 0 22560
 D3
-(null)~
+~
 ~
 0 0 16205
 S
@@ -1546,11 +1547,11 @@ lead into the ground. The ground seems a bit warm here.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22549
 D3
-(null)~
+~
 ~
 0 0 22563
 D5
@@ -1566,11 +1567,11 @@ You are on a narrow ledge which continues west along the canyon wall.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22562
 D3
-(null)~
+~
 ~
 0 0 22564
 S
@@ -1581,11 +1582,11 @@ very long way to the bottom.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22563
 D3
-(null)~
+~
 ~
 0 0 22565
 S
@@ -1597,7 +1598,7 @@ with inhabitants.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 0 22564
 S
@@ -1609,11 +1610,11 @@ valley.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22548
 D5
-(null)~
+~
 ~
 0 0 22567
 S
@@ -1625,11 +1626,11 @@ you is a steep drop to the sands surrounding the plateau.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22566
 D5
-(null)~
+~
 ~
 0 0 22568
 S
@@ -1640,15 +1641,15 @@ cliff and lots of places to grab onto. You see a small cliff to your west
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 0 22569
 D4
-(null)~
+~
 ~
 0 0 22567
 D5
-(null)~
+~
 ~
 0 0 22570
 S
@@ -1659,11 +1660,11 @@ you see a fairly large crack in the wall.
 ~
 0 4 5
 D1
-(null)~
+~
 ~
 0 0 22568
 D2
-(null)~
+~
 ~
 0 0 22592
 S
@@ -1675,11 +1676,11 @@ the distance, a small green valley can be seen.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22568
 D5
-(null)~
+~
 ~
 0 0 22571
 S
@@ -1691,11 +1692,11 @@ don't have to scape you up with a spatula.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22570
 D5
-(null)~
+~
 ~
 0 0 22572
 S
@@ -1706,11 +1707,11 @@ down and pass through the sands, or climb up to the top.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 0 22571
 D5
-(null)~
+~
 ~
 0 0 22573
 S
@@ -1722,11 +1723,11 @@ here.
 ~
 0 0 10
 D0
-(null)~
+~
 ~
 0 0 22574
 D4
-(null)~
+~
 ~
 0 0 22572
 S
@@ -1737,7 +1738,7 @@ praying to your gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-(null)~
+~
 ~
 0 0 22575
 S
@@ -1748,15 +1749,15 @@ others like to call it hell. Enjoy!
 ~
 0 8192 10
 D1
-(null)~
+~
 ~
 0 0 22574
 D2
-(null)~
+~
 ~
 0 0 22576
 D3
-(null)~
+~
 ~
 0 0 22574
 S
@@ -1767,7 +1768,7 @@ praying to gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-(null)~
+~
 ~
 0 0 22577
 S
@@ -1778,15 +1779,15 @@ others like to call it hell. Enjoy!
 ~
 0 8192 10
 D1
-(null)~
+~
 ~
 0 0 22579
 D2
-(null)~
+~
 ~
 0 0 22574
 D3
-(null)~
+~
 ~
 0 0 22578
 S
@@ -1797,7 +1798,7 @@ praying to you gods for teleportation is useless. Ha ha ha ha ha.....
 ~
 0 8192 10
 D0
-(null)~
+~
 ~
 0 0 22575
 S
@@ -1809,7 +1810,7 @@ you think you see a field.
 ~
 0 8192 10
 D0
-(null)~
+~
 ~
 0 0 22580
 S
@@ -1821,11 +1822,11 @@ miles.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 22582
 D2
-(null)~
+~
 ~
 0 0 22581
 S
@@ -1835,11 +1836,11 @@ The fields here stretch on for countless miles south.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22580
 D2
-(null)~
+~
 ~
 0 0 22581
 S
@@ -1850,11 +1851,11 @@ down into the valley.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 22580
 D5
-(null)~
+~
 ~
 0 0 22583
 S
@@ -1865,11 +1866,11 @@ The people move to the side when you come through.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22584
 D4
-(null)~
+~
 ~
 0 0 22582
 S
@@ -1881,19 +1882,19 @@ attention and watch all humans and such closely.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22587
 D1
-(null)~
+~
 ~
 0 0 22586
 D2
-(null)~
+~
 ~
 0 0 22583
 D3
-(null)~
+~
 ~
 0 0 22585
 S
@@ -1905,11 +1906,11 @@ you.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22589
 D1
-(null)~
+~
 ~
 0 0 22584
 S
@@ -1921,11 +1922,11 @@ here with just a glance.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22590
 D3
-(null)~
+~
 ~
 0 0 22584
 S
@@ -1937,19 +1938,19 @@ don't speak.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 22588
 D1
-(null)~
+~
 ~
 0 0 22590
 D2
-(null)~
+~
 ~
 0 0 22584
 D3
-(null)~
+~
 ~
 0 0 22589
 S
@@ -1961,7 +1962,7 @@ sort of 'elf police'.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 22587
 S
@@ -1973,11 +1974,11 @@ ugliness they gag and walk away.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22587
 D2
-(null)~
+~
 ~
 0 0 22585
 S
@@ -1988,11 +1989,11 @@ still don't care for you and still give you those strange glances.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22586
 D3
-(null)~
+~
 ~
 0 0 22587
 S
@@ -2003,7 +2004,7 @@ nothing for you to grab a hold of and climb up.
 ~
 0 0 10
 D3
-(null)~
+~
 ~
 0 0 22559
 S
@@ -2014,19 +2015,19 @@ eyes run too and fro to the south.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 22569
 D1
-(null)~
+~
 ~
 0 0 22597
 D2
-(null)~
+~
 ~
 0 0 22593
 D3
-(null)~
+~
 ~
 0 0 22596
 S
@@ -2037,11 +2038,11 @@ are probably roaming around.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 22592
 D2
-(null)~
+~
 ~
 0 0 22594
 S
@@ -2053,7 +2054,7 @@ side of the canyon.
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 22593
 S
@@ -2064,11 +2065,11 @@ hear the little critters roaming around everywhere.
 ~
 0 1 0
 D1
-(null)~
+~
 ~
 0 0 22592
 D3
-(null)~
+~
 ~
 1 22507 22598
 S
@@ -2080,11 +2081,11 @@ can't be far.
 ~
 0 1 0
 D1
-(null)~
+~
 ~
 1 22507 22599
 D3
-(null)~
+~
 ~
 0 0 22592
 S
@@ -2095,7 +2096,7 @@ little gold and a sword.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 1 0 22596
 S
@@ -2106,7 +2107,7 @@ The only thing here is a gold coin lying on the floor.
 ~
 0 1 0
 D3
-(null)~
+~
 ~
 1 0 22597
 S

@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 25} Drkside Drow City~
+Group       Embermud~
 Builders    None~
 VNUMs       5100 5150
 Security    9
@@ -394,19 +395,19 @@ lies to the east while a building lies to the west.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5123
 D1
-(null)~
+~
 ~
 0 0 5100
 D2
-(null)~
+~
 ~
 0 0 5102
 D3
-(null)~
+~
 ~
 0 0 5122
 S
@@ -416,11 +417,11 @@ You walk along a highly ornate city street going north and west.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5101
 D3
-(null)~
+~
 ~
 0 0 5103
 S
@@ -431,15 +432,15 @@ stands to the south.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5102
 D2
-(null)~
+~
 ~
 0 0 5104
 D3
-(null)~
+~
 ~
 0 0 5106
 S
@@ -451,11 +452,11 @@ south.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5103
 D2
-(null)~
+~
 ~
 1 -1 5105
 S
@@ -466,7 +467,7 @@ courtyard except with a blood covered altar in the center of the room.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5104
 S
@@ -477,15 +478,15 @@ is a large building.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5118
 D1
-(null)~
+~
 ~
 0 0 5103
 D3
-(null)~
+~
 ~
 0 0 5107
 S
@@ -496,15 +497,15 @@ south is an extremely large house.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5110
 D1
-(null)~
+~
 ~
 0 0 5106
 D2
-(null)~
+~
 ~
 0 0 5108
 S
@@ -515,11 +516,11 @@ with statues of spiders and murals everywhere.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5107
 D3
-(null)~
+~
 ~
 1 -1 5109
 S
@@ -530,7 +531,7 @@ the inner courtyard having an altar in the center of the room.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 1 -1 5108
 S
@@ -541,11 +542,11 @@ as big and elegant as the one at the entrance to the city, stands here.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5114
 D2
-(null)~
+~
 ~
 0 0 5107
 D3
@@ -561,11 +562,11 @@ walls depicting some battles and a spider queen.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 1 -1 5110
 D3
-(null)~
+~
 ~
 0 0 5112
 S
@@ -576,11 +577,11 @@ horrifying it is almost beautiful.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5113
 D1
-(null)~
+~
 ~
 0 -1 5111
 S
@@ -591,7 +592,7 @@ and chairs surrounding it sits in the center of the room.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 5112
 S
@@ -601,15 +602,15 @@ You walk along a highly ornate city street leading north-south and east.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5115
 D1
-(null)~
+~
 ~
 0 0 5117
 D2
-(null)~
+~
 ~
 0 0 5110
 S
@@ -620,11 +621,11 @@ to the west.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 5114
 D3
-(null)~
+~
 ~
 1 -1 5116
 S
@@ -634,7 +635,7 @@ This is the most lavish of the academies being that it is for the clerics.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 1 -1 5115
 S
@@ -649,11 +650,11 @@ The entrance to the temple of Lloth.~
 ~
 1 -1 5119
 D1
-(null)~
+~
 ~
 0 0 5121
 D3
-(null)~
+~
 ~
 0 0 5114
 S
@@ -663,7 +664,7 @@ This looks more like a barracks than a school.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 5106
 S
@@ -675,11 +676,11 @@ adamantite.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 5117
 D5
-(null)~
+~
 ~
 0 0 5126
 S
@@ -690,7 +691,7 @@ over physical power greatly.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 5121
 S
@@ -701,19 +702,19 @@ a building.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5120
 D1
-(null)~
+~
 ~
 0 0 5123
 D2
-(null)~
+~
 ~
 0 0 5122
 D3
-(null)~
+~
 ~
 0 0 5117
 S
@@ -724,11 +725,11 @@ unfortunate creatures who have fallen prey to drow imperialism.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5121
 D1
-(null)~
+~
 ~
 0 0 5101
 S
@@ -739,15 +740,15 @@ north is a relatively small house.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5124
 D2
-(null)~
+~
 ~
 0 0 5101
 D3
-(null)~
+~
 ~
 0 0 5121
 S
@@ -758,11 +759,11 @@ dull by drow standards and rather small as well.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5125
 D2
-(null)~
+~
 ~
 1 -1 5123
 S
@@ -773,7 +774,7 @@ to decor. there is a small throne behind the altar but that is about it.
 ~
 0 9 0
 D3
-(null)~
+~
 ~
 0 0 5124
 S
@@ -785,11 +786,11 @@ entrance way's walls.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5127
 D4
-(null)~
+~
 ~
 0 0 5119
 S
@@ -802,19 +803,19 @@ To the north is a obsidian stairway.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5135
 D1
-(null)~
+~
 ~
 0 0 5128
 D2
-(null)~
+~
 ~
 0 0 5126
 D3
-(null)~
+~
 ~
 0 0 5131
 S
@@ -826,11 +827,11 @@ look down the hallway you can make out one or two figures moving away from you.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5129
 D3
-(null)~
+~
 ~
 0 0 5127
 S
@@ -843,15 +844,15 @@ To the north is a door.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5150
 D1
-(null)~
+~
 ~
 0 0 5130
 D3
-(null)~
+~
 ~
 0 0 5128
 S
@@ -863,11 +864,11 @@ look down the hallway you can make out one or two figures moving away from you.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5134
 D3
-(null)~
+~
 ~
 0 0 5129
 S
@@ -879,11 +880,11 @@ look down the hallway you can make out one or two figures moving away from you.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5127
 D3
-(null)~
+~
 ~
 0 0 5132
 S
@@ -896,15 +897,15 @@ To the south is a door.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5131
 D2
-(null)~
+~
 ~
 1 -1 5133
 D3
-(null)~
+~
 ~
 0 0 5134
 S
@@ -916,7 +917,7 @@ for neatness.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5132
 S
@@ -928,11 +929,11 @@ look down the hallway you can make out one or two figures moving away from you.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5132
 D3
-(null)~
+~
 ~
 0 0 5130
 S
@@ -943,11 +944,11 @@ stairway. The edges are trimmed with gold.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 5127
 D4
-(null)~
+~
 ~
 0 0 5136
 S
@@ -958,15 +959,15 @@ of the purest adamantite with gold trim. Mosaics line the walls.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5138
 D1
-(null)~
+~
 ~
 1 -1 5137
 D5
-(null)~
+~
 ~
 0 0 5135
 S
@@ -978,7 +979,7 @@ floor for the mages to sleep on. the only door is to the west.
 ~
 0 9 0
 D3
-(null)~
+~
 ~
 1 -1 5136
 S
@@ -990,15 +991,15 @@ too the west.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 5136
 D3
-(null)~
+~
 ~
 1 -1 5139
 D5
-(null)~
+~
 ~
 0 0 5140
 S
@@ -1010,7 +1011,7 @@ in.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 1 -1 5138
 S
@@ -1021,11 +1022,11 @@ To the north are a set of large golden doors.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5141
 D4
-(null)~
+~
 ~
 0 0 5138
 S
@@ -1037,15 +1038,15 @@ an altar.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 0 5142
 D2
-(null)~
+~
 ~
 1 -1 5140
 D3
-(null)~
+~
 ~
 0 0 5144
 S
@@ -1056,15 +1057,15 @@ is a door while to the north is an altar.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5145
 D1
-(null)~
+~
 ~
 1 -1 5146
 D2
-(null)~
+~
 ~
 0 0 5141
 S
@@ -1086,11 +1087,11 @@ pit. To the north is an altar.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5145
 D2
-(null)~
+~
 ~
 0 0 5141
 S
@@ -1102,19 +1103,19 @@ down from the altar you see a large sacrificial pit.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 0 5148
 D1
-(null)~
+~
 ~
 0 0 5142
 D3
-(null)~
+~
 ~
 0 0 5144
 D5
-(null)~
+~
 ~
 0 0 5143
 S
@@ -1125,11 +1126,11 @@ sacrificed. You notice there are no guards around.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 1 -1 5147
 D3
-(null)~
+~
 ~
 0 0 5142
 S
@@ -1141,7 +1142,7 @@ the room since you were obviously too late to save the slave.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 5146
 S
@@ -1153,11 +1154,11 @@ to the west.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 0 5145
 D3
-(null)~
+~
 ~
 1 -1 5149
 S
@@ -1168,7 +1169,7 @@ treasure being rather bare.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 1 -1 5148
 S
@@ -1179,7 +1180,7 @@ to get this kind of treatment.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 1 -1 5129
 S

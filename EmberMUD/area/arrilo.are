@@ -1,5 +1,6 @@
 #AREADATA
 Name        {25 55} Gavin   Arrilo's Chambers~
+Group       Mudweiser~
 Builders    None~
 VNUMs       23400 23499
 Security    6
@@ -13,7 +14,7 @@ lord tempest~
 the Lord Tempest~
 The Lord Tempest is trying to escape Arillo's cells.
 ~
-(null)~
+~
 goblin~
 AB HJ 250 S
 25 26 
@@ -27,7 +28,7 @@ great skrit~
 the Great Skrit~
 The Great Skrit is here throwing dirt in your eyes.
 ~
-(null)~
+~
 Hobbit~
 AB HJ -250 S
 30 31 
@@ -41,7 +42,7 @@ a black abishia~
 a Black Abishia~
 Shrieking out in rage and anger, the Black Abishia descends on you.
 ~
-(null)~
+~
 kobold~
 AB HJ -150 S
 35 35 
@@ -55,7 +56,7 @@ The Great Barbazo~
 the Great Barbazo~
 A Great Barbazo communicates his rage to you with telepathy.
 ~
-(null)~
+~
 kobold~
 AB HJ -10 S
 40 39 
@@ -69,7 +70,7 @@ The Great White Bat~
 a Great White Bat~
 A Huge White Bat is hanging up-side down here in the cell.
 ~
-(null)~
+~
 bat~
 AB HTZ -250 S
 20 20 
@@ -83,7 +84,7 @@ black anaconda~
 a large Anaconda~
 A Large Anaconda is here coiled up in the corner.
 ~
-(null)~
+~
 snake~
 AB H -100 S
 25 24 
@@ -97,7 +98,7 @@ thief skayle~
 a thief named Skayle~
 A thief named Skayle is hiding in a nearby shadow.
 ~
-(null)~
+~
 Human~
 ABS DF -300 S
 30 29 
@@ -111,7 +112,7 @@ zeldon the warrior~
 Zeldon the Warrior~
 A strong looking warrior named Zeldon is here firing a crossbow into a cactus plant across the room.
 ~
-(null)~
+~
 Human~
 AB 0 250 S
 33 33 
@@ -125,7 +126,7 @@ sky short woman~
 Sky~
 A short young woman named Sky is sitting here playing a zither and singing peasant folk songs.
 ~
-(null)~
+~
 Human~
 AB 0 120 S
 17 17 
@@ -139,7 +140,7 @@ a deaf servant~
 a deaf servant~
 The deaf servant is here cooking meals against his will.
 ~
-(null)~
+~
 Human~
 AB 0 350 S
 28 25 
@@ -153,7 +154,7 @@ Devlin Denor thief~
 Devlin Denor~
 Devlin Denor is here plundering personal items from the room of Arrilo.
 ~
-(null)~
+~
 modron~
 ABS J -250 S
 36 35 
@@ -167,7 +168,7 @@ Comet Twiglight~
 Twiglight the Comet~
 Twiglight the comet is sitting on a bed sewing a new pocket onto his black star covered robe.
 ~
-(null)~
+~
 Wyvern~
 ABH DFHT 10 S
 15 16 
@@ -181,7 +182,7 @@ boldor henchman~
 Boldor the henchman~
 Torlok's loyal henchman Boldor is here on guard.
 ~
-(null)~
+~
 Human~
 ABT H 250 S
 41 42 
@@ -428,15 +429,15 @@ covered with creeping ivy.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 1 0 23416
 D1
-(null)~
+~
 ~
 0 0 23401
 D5
-(null)~
+~
 ~
 0 0 21235
 S
@@ -449,11 +450,11 @@ potato-sack face.
 ~
 0 2097152 2
 D0
-(null)~
+~
 ~
 0 0 23402
 D3
-(null)~
+~
 ~
 0 0 23400
 S
@@ -465,15 +466,15 @@ Arrilo's manor to the west.
 ~
 0 2097152 2
 D1
-(null)~
+~
 ~
 0 0 23403
 D2
-(null)~
+~
 ~
 0 0 23401
 D3
-(null)~
+~
 ~
 1 0 23415
 S
@@ -486,11 +487,11 @@ other various oddities.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 23402
 D5
-(null)~
+~
 barrel~
 1 0 23404
 S
@@ -503,19 +504,19 @@ summons from planes and worlds far beyond mortal reach.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 23400 23413
 D1
-(null)~
+~
 ~
 0 0 23405
 D2
-(null)~
+~
 cell~
 1 23400 23414
 D4
-(null)~
+~
 barrel~
 1 0 23403
 S
@@ -527,19 +528,19 @@ retained in the cells to your north and south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 23400 23411
 D1
-(null)~
+~
 ~
 0 0 23406
 D2
-(null)~
+~
 cell~
 1 23400 23412
 D3
-(null)~
+~
 ~
 0 0 23404
 S
@@ -551,19 +552,19 @@ and south of you.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 23400 23409
 D1
-(null)~
+~
 ~
 0 0 23407
 D2
-(null)~
+~
 cell~
 1 23400 23410
 D3
-(null)~
+~
 ~
 0 0 23405
 S
@@ -577,11 +578,11 @@ stairway leads down into a dark chamber.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 23406
 D5
-(null)~
+~
 ~
 0 0 23408
 S
@@ -593,7 +594,7 @@ only exit from here is up.
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 23407
 S
@@ -606,7 +607,7 @@ south.
 ~
 0 2097152 0
 D2
-(null)~
+~
 cell~
 1 0 23406
 S
@@ -619,7 +620,7 @@ north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 0 23406
 S
@@ -632,7 +633,7 @@ south.
 ~
 0 2097152 0
 D2
-(null)~
+~
 cell~
 1 0 23405
 S
@@ -645,7 +646,7 @@ north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 0 23405
 S
@@ -657,7 +658,7 @@ intervals. The only exit from this cell is a barred entrance to the south.
 ~
 0 2097152 0
 D2
-(null)~
+~
 cell~
 1 0 23404
 S
@@ -670,7 +671,7 @@ north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 cell~
 1 0 23404
 S
@@ -684,15 +685,15 @@ end of this corridor. Other exits lie to the west and south.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 23402
 D2
-(null)~
+~
 ~
 0 0 23416
 D3
-(null)~
+~
 ~
 0 0 23417
 S
@@ -705,11 +706,11 @@ archway to the north and the front door to the south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23415
 D2
-(null)~
+~
 ~
 1 0 23400
 S
@@ -721,11 +722,11 @@ the chairs, and a slender wine cabinet stands against the north wall.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23418
 D1
-(null)~
+~
 ~
 0 0 23415
 S
@@ -740,15 +741,15 @@ desert atmosphere.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 23420
 D2
-(null)~
+~
 ~
 0 0 23417
 D3
-(null)~
+~
 ~
 0 0 23419
 S
@@ -763,7 +764,7 @@ two long tables an several handsome chairs.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 23418
 S
@@ -775,11 +776,11 @@ middle of the room is a table cluttered with pots.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23421
 D3
-(null)~
+~
 ~
 0 0 23418
 S
@@ -792,11 +793,11 @@ staircase to prevent nasty falls'.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 23420
 D4
-(null)~
+~
 ~
 0 0 23422
 S
@@ -809,15 +810,15 @@ staircase to prevent nasty falls.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 23423
 D4
-(null)~
+~
 ~
 0 0 23428
 D5
-(null)~
+~
 ~
 0 0 23421
 S
@@ -831,11 +832,11 @@ sort of optical illusion.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23422
 D3
-(null)~
+~
 ~
 0 0 23424
 S
@@ -849,11 +850,11 @@ lanterns dangle from the ceiling.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 23423
 D2
-(null)~
+~
 ~
 0 0 23425
 S
@@ -866,11 +867,11 @@ hide stands unfolded by the southern wall.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23424
 D1
-(null)~
+~
 ~
 0 0 23426
 S
@@ -885,11 +886,11 @@ smiling portrait of Arrilo himself hangs above the mantle.
 ~
 0 2097152 0
 D2
-(null)~
+~
 wooden~
 1 0 23427
 D3
-(null)~
+~
 ~
 0 0 23425
 S
@@ -901,7 +902,7 @@ wooden door to the north bars entrance to the manor.
 ~
 0 2097152 0
 D0
-(null)~
+~
 wooden~
 1 0 23426
 S
@@ -914,11 +915,11 @@ staircase to prevent nasty falls.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 23429
 D5
-(null)~
+~
 ~
 0 0 23422
 S
@@ -932,11 +933,11 @@ glass.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23428
 D2
-(null)~
+~
 ~
 0 0 23430
 S
@@ -952,11 +953,11 @@ the fireplace mantle is a framed painting of a... Radish.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 23429
 D3
-(null)~
+~
 ~
 0 0 23431
 S
@@ -973,11 +974,11 @@ ratus.
 ~
 0 2097160 0
 D0
-(null)~
+~
 secret~
 6 23409 23432
 D1
-(null)~
+~
 ~
 0 0 23430
 S
@@ -990,7 +991,7 @@ through your body while you are in Arrilo's secret storage room.
 ~
 0 2097152 0
 D2
-(null)~
+~
 secret~
 6 0 23431
 S

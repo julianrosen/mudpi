@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1 20} Copper  Plains of the North~
+Group       Embermud~
 Builders    None~
 VNUMs       300 350
 Security    9
@@ -1213,11 +1214,11 @@ as all you really want to do is puke.
 You puke.
 ~
 D2
-(null)~
+~
 ~
 0 -1 341
 D3
-(null)~
+~
 ~
 0 -1 342
 D4
@@ -1233,7 +1234,7 @@ hasn't been excavated further. North of here the tunnel makes a turn east.
 ~
 0 2097417 0
 D0
-(null)~
+~
 ~
 0 -1 340
 S

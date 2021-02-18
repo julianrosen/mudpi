@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 30} Diku    Sewer~
+Group       Embermud~
 Builders    None~
 VNUMs       7000 7445
 Security    9
@@ -47,7 +48,7 @@ rat~
 the great sewer rat~
 The huge hungry-looking sewer rat sits here.
 ~
-(null)~
+~
 Human~
 AFT J -1000 S
 4 0 
@@ -61,7 +62,7 @@ spider~
 the small spider~
 The small hairy spider.
 ~
-(null)~
+~
 Human~
 AFT P -700 S
 1 0 
@@ -75,7 +76,7 @@ beetle~
 the giant earth beetle~
 The giant mean-looking earth beetle crawls towards you.
 ~
-(null)~
+~
 Human~
 AT J -300 S
 7 0 
@@ -89,7 +90,7 @@ maggot~
 the maggot~
 The giant maggot crawls toward you.
 ~
-(null)~
+~
 Human~
 AT J 300 S
 3 0 
@@ -103,7 +104,7 @@ snake~
 the slithering snake~
 The snake slithers towards you.
 ~
-(null)~
+~
 snake~
 AFT J -500 S
 5 0 
@@ -534,7 +535,7 @@ A
 2 1
 E
 The boots are muddy and they look well worn, but also very comfortable.~
-(null)~
+~
 #7210
 treasure coins~
 a huge treasure~
@@ -1421,7 +1422,7 @@ You stand in a junction of sewer pipes leading north, east and west.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 7026
 D1
@@ -1676,7 +1677,7 @@ You see a sewer pipe leading north.
 ~
 0 -1 7043
 D1
-(null)~
+~
 ~
 0 -1 7049
 D3
@@ -1749,7 +1750,7 @@ that way.
 ~
 0 9 1
 D2
-(null)~
+~
 ~
 0 -1 7049
 S
@@ -1759,7 +1760,7 @@ You stand in a junction leading north, west and east.
 ~
 0 9 1
 D0
-(null)~
+~
 ~
 0 -1 7048
 D1
@@ -1804,7 +1805,7 @@ You can see two exits leading either north or south.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 -1 7050
 D2
@@ -1847,7 +1848,7 @@ You see a lot of pictures decorating the walls.
 ~
 0 -1 7052
 D3
-(null)~
+~
 ~
 0 -1 7047
 S
@@ -1868,7 +1869,7 @@ with more water.
 ~
 0 -1 7061
 D3
-(null)~
+~
 ~
 0 -1 7050
 S
@@ -2221,7 +2222,7 @@ You can't see a thing. It's too dark.
 ~
 0 -1 7066
 D5
-(null)~
+~
 ~
 0 -1 7099
 S
@@ -2233,7 +2234,7 @@ like the water in a sewer.
 ~
 0 13 5
 D4
-(null)~
+~
 ~
 0 -1 7070
 D5
@@ -2275,7 +2276,7 @@ discover it is magically held towards the wall! You can't, even with your
 greatest effort, rock it at ALL!
 ~
 D1
-(null)~
+~
 ~
 0 -1 7104
 D4
@@ -2284,7 +2285,7 @@ Up. You can't see a thing up there, it's way too dark.
 ~
 0 -1 7004
 D5
-(null)~
+~
 trapdoor~
 1 -1 7400
 S
@@ -2532,11 +2533,11 @@ North. You see a ledge to something that looks like an abyss.
 ~
 0 -1 7111
 D1
-(null)~
+~
 ~
 0 -1 7122
 D3
-(null)~
+~
 ~
 0 -1 7104
 S
@@ -2586,19 +2587,19 @@ wouldn't be such a good idea. The way south is in utter darkness.
 ~
 0 13 4
 D0
-(null)~
+~
 ~
 0 -1 7114
 D1
-(null)~
+~
 ~
 0 -1 7121
 D2
-(null)~
+~
 ~
 0 -1 7129
 D3
-(null)~
+~
 ~
 0 -1 7111
 S
@@ -2622,7 +2623,7 @@ is probably there to conceal a secret entrance. This looks as if it leads down
 into the seemingly solid rock face of the ledge.
 ~
 D2
-(null)~
+~
 ~
 0 -1 7117
 D3
@@ -2631,7 +2632,7 @@ The ledge continues west.
 ~
 0 -1 7113
 D5
-(null)~
+~
 secret trapdoor entrance~
 1 -1 7280
 S
@@ -2749,7 +2750,7 @@ wall~
 There is a crack here that looks like it has been made recently.
 ~
 D3
-(null)~
+~
 ~
 0 -1 7112
 S
@@ -2816,7 +2817,7 @@ to make anything clear. The rock can be climbed upwards from here.
 ~
 0 13 5
 D4
-(null)~
+~
 ~
 0 -1 7099
 S
@@ -3496,11 +3497,11 @@ leading up as well, though you'll have to open the tiny rock again to do so.
 ~
 0 9 5
 D4
-(null)~
+~
 ~
 0 -1 7111
 D5
-(null)~
+~
 ~
 0 -1 7399
 S
@@ -3528,7 +3529,7 @@ A beam of red light seeps through a hole in the door.
 small round door~
 1 -1 7281
 D4
-(null)~
+~
 secret door~
 1 -1 7116
 S
@@ -3557,7 +3558,7 @@ red light around it.
 ~
 0 -1 7282
 D2
-(null)~
+~
 small round door~
 1 -1 7280
 S
@@ -3712,7 +3713,7 @@ This stops your journey down, the only exit is up.
 ~
 0 9 5
 D4
-(null)~
+~
 ~
 0 -1 7279
 S
@@ -3772,7 +3773,7 @@ To the south you see a dark cave tunnel.
 ~
 0 -1 7401
 D3
-(null)~
+~
 ~
 0 -1 7421
 S
@@ -3797,7 +3798,7 @@ To the east the tunnel still goes downwards.
 ~
 0 -1 7404
 D2
-(null)~
+~
 ~
 0 -1 7408
 D3
@@ -3826,7 +3827,7 @@ You can see an opening behind the stone.
 flat round stone~
 1 -1 7405
 D3
-(null)~
+~
 ~
 0 -1 7403
 S
@@ -3872,7 +3873,7 @@ You can see nothing at all.
 grey block~
 1 -1 7405
 D3
-(null)~
+~
 ~
 0 -1 7407
 S
@@ -3883,7 +3884,7 @@ very normal.
 ~
 0 9 5
 D0
-(null)~
+~
 ~
 0 -1 7408
 D1
@@ -3892,7 +3893,7 @@ You can see a mudhole.
 ~
 0 -1 7406
 D2
-(null)~
+~
 ~
 0 -1 7409
 S
@@ -3965,7 +3966,7 @@ stalagmite~
 The stalagmites are very tall, and looks very beautiful.
 ~
 D0
-(null)~
+~
 ~
 0 -1 7414
 D1
@@ -3974,7 +3975,7 @@ You see a long hallway, and some mud.
 ~
 0 -1 7410
 D2
-(null)~
+~
 ~
 0 -1 7412
 S
@@ -3990,7 +3991,7 @@ You can see a small cave to the north.
 ~
 0 -1 7411
 D3
-(null)~
+~
 ~
 0 -1 7413
 S
@@ -4001,11 +4002,11 @@ of the places it is wet.
 ~
 0 12 3
 D1
-(null)~
+~
 ~
 0 -1 7412
 D3
-(null)~
+~
 ~
 0 -1 7445
 S
@@ -4021,11 +4022,11 @@ You see some light ahead.
 ~
 0 -1 7417
 D1
-(null)~
+~
 ~
 0 -1 7415
 D2
-(null)~
+~
 ~
 0 -1 7411
 S
@@ -4047,7 +4048,7 @@ You see a primitive picture
 sun~
 1 -1 7416
 D3
-(null)~
+~
 ~
 0 -1 7414
 S
@@ -4083,7 +4084,7 @@ Another part of the lair
 ~
 0 -1 7418
 D2
-(null)~
+~
 ~
 0 -1 7414
 D3
@@ -4228,11 +4229,11 @@ To the east you can see a gaping hole.
 ~
 0 9 1
 D1
-(null)~
+~
 ~
 0 -1 7424
 D2
-(null)~
+~
 ~
 0 -1 7422
 S
@@ -4305,19 +4306,19 @@ footprints foot~
 You have never seen this kind of footprints before!
 ~
 D0
-(null)~
+~
 ~
 0 -1 7431
 D1
-(null)~
+~
 ~
 0 -1 7430
 D2
-(null)~
+~
 ~
 0 -1 7427
 D3
-(null)~
+~
 ~
 0 -1 7425
 S
@@ -4332,7 +4333,7 @@ sign~
 The sign says 'DANGER!!'.
 ~
 D0
-(null)~
+~
 ~
 0 -1 7426
 D1
@@ -4376,7 +4377,7 @@ You can see a red glow
 ~
 0 -1 7428
 D3
-(null)~
+~
 ~
 0 -1 7430
 S
@@ -4397,7 +4398,7 @@ To dark to tell
 ~
 0 -1 7429
 D3
-(null)~
+~
 ~
 0 -1 7426
 S
@@ -4412,15 +4413,15 @@ glitter walls silver~
 The glittering silver looks like it is INSIDE the walls.
 ~
 D1
-(null)~
+~
 ~
 0 -1 7432
 D2
-(null)~
+~
 ~
 0 -1 7426
 D3
-(null)~
+~
 ~
 0 -1 7433
 S
@@ -4486,11 +4487,11 @@ bones bone~
 it looks like bones of a human.
 ~
 D0
-(null)~
+~
 ~
 0 -1 7434
 D2
-(null)~
+~
 ~
 0 -1 7436
 S
@@ -4501,7 +4502,7 @@ A tunnel leads north, and east.
 ~
 0 13 2
 D0
-(null)~
+~
 ~
 0 -1 7435
 D1
@@ -4523,15 +4524,15 @@ and to the west.
 ~
 0 9 2
 D0
-(null)~
+~
 ~
 0 -1 7436
 D2
-(null)~
+~
 ~
 0 -1 7438
 D3
-(null)~
+~
 ~
 0 -1 7439
 S
@@ -4569,11 +4570,11 @@ hay~
 The hay is very dirty. The smell of it makes you feel sick.
 ~
 D1
-(null)~
+~
 ~
 0 -1 7437
 D2
-(null)~
+~
 ~
 0 -1 7440
 S
@@ -4583,15 +4584,15 @@ You can see nothing but smoke.
 ~
 0 9 5
 D0
-(null)~
+~
 ~
 0 -1 7439
 D1
-(null)~
+~
 ~
 0 -1 7438
 D2
-(null)~
+~
 ~
 0 -1 7441
 S
@@ -4683,7 +4684,7 @@ You can feel a warm breeze.
 ~
 0 -1 7413
 D3
-(null)~
+~
 ~
 0 -1 7444
 S

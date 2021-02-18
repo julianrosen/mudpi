@@ -874,8 +874,9 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 --d->character->wait;
-                if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN )
-                    d->character->wait = 0; // JR: admins don't have to wait
+                if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
+                    d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
+                    d->character->wait = PULSE_VIOLENCE/ONE_ROUND; // JR: admins don't have to wait long
                 continue;
             }
             if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
@@ -892,7 +893,7 @@ int game_loop( int control )
                 if ( d->showstr_point )
                     show_string( d, d->incomm );
                 else if ( d->pString )
-                    string_add( d->character, d->incomm );
+                    string_add( d->character, d->incomm, d->color_edit ); // JR: this is problematic because we might not want color
                 else
                     switch ( d->connected )
                     {
@@ -2801,10 +2802,6 @@ void act( const char *format, CHAR_DATA * ch, const void *arg1,
 char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
                   const void *arg1, const void *arg2 )
 {
-    /* JR: added nonbinary pronouns */
-    /* static char *const he_she[] = { "it", "he", "she", "they" };
-    static char *const him_her[] = { "it", "him", "her", "them" };
-    static char *const his_her[] = { "its", "his", "her", "their" }; */
     static char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
     char *point;

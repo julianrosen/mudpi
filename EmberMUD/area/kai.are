@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 20} Shawn   Kai Battlefield~
+Group       Mudweiser~
 Builders    None~
 VNUMs       14100 14199
 Security    6
@@ -47,7 +48,7 @@ winged creature kryn~
 the winged creature, Kryn~
 The Winged creature here sits feeding on two corpses.
 ~
-(null)~
+~
 Wyvern~
 ABF BDFT -1000 S
 15 10 
@@ -95,7 +96,7 @@ Darklord wraith~
 an undead Darklord~
 The Darklords undead gaze meets yours.
 ~
-(null)~
+~
 hobgoblin~
 AOT J -500 S
 18 15 
@@ -125,7 +126,7 @@ Shadowwisp~
 a Shadowwisp~
 The fangs of the Shadowwisp are still dripping with warm blood.
 ~
-(null)~
+~
 unique~
 ABRS Z 500 S
 16 9 
@@ -139,7 +140,7 @@ LoneWolf~
 LoneWolf~
 LoneWolf, Grandmaster of the Kai searches for Darklords.
 ~
-(null)~
+~
 Human~
 ABQRT 0 1000 S
 20 14 
@@ -315,11 +316,11 @@ from the rest. The path continues north. South illuminates the exit.
 ~
 0 12 0
 D0
-(null)~
+~
 ~
 0 0 14101
 D2
-(null)~
+~
 ~
 0 0 16052
 S
@@ -332,11 +333,11 @@ into decay, or south away from this foulness.
 ~
 0 1 0
 D1
-(null)~
+~
 ~
 0 0 14102
 D2
-(null)~
+~
 ~
 0 0 14100
 S
@@ -350,11 +351,11 @@ North is the Warrior's exit and west for the fleeing coward.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 14103
 D3
-(null)~
+~
 ~
 0 0 14101
 S
@@ -368,11 +369,11 @@ is more dimly lit pathway.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 14104
 D2
-(null)~
+~
 ~
 0 0 14102
 S
@@ -386,19 +387,19 @@ is a HUGE castle which seems to be the center of attention.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 14118
 D1
-(null)~
+~
 ~
 0 0 14109
 D2
-(null)~
+~
 ~
 0 0 14103
 D3
-(null)~
+~
 ~
 0 0 14105
 S
@@ -411,15 +412,15 @@ best. West of here is a small piece of this enormous war zone.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14104
 D3
-(null)~
+~
 ~
 0 0 14106
 D5
-(null)~
+~
 ~
 0 0 14107
 S
@@ -432,7 +433,7 @@ a dead end here, your only exit is east.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14105
 S
@@ -446,11 +447,11 @@ downward??
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 14105
 D5
-(null)~
+~
 ~
 0 0 14108
 S
@@ -463,7 +464,7 @@ the way, maps and plans can be seen on the dresser ahead.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 14107
 S
@@ -476,11 +477,11 @@ these men must have been AWESOME in size and strength.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14110
 D3
-(null)~
+~
 ~
 0 0 14104
 S
@@ -494,11 +495,11 @@ the trail ends.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14111
 D3
-(null)~
+~
 ~
 0 0 14109
 S
@@ -511,11 +512,11 @@ If you care to venture on, go east.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14112
 D2
-(null)~
+~
 ~
 0 0 14110
 S
@@ -528,11 +529,11 @@ trouble.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14113
 D3
-(null)~
+~
 ~
 0 0 14111
 S
@@ -545,11 +546,11 @@ down the path. South is the way out.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14114
 D2
-(null)~
+~
 ~
 0 0 14112
 S
@@ -563,11 +564,11 @@ air.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14115
 D3
-(null)~
+~
 ~
 0 0 14113
 S
@@ -580,11 +581,11 @@ here-after.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 14114
 D4
-(null)~
+~
 ~
 0 0 14116
 S
@@ -597,11 +598,11 @@ dead. Up from here is more of the hill.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 14117
 D5
-(null)~
+~
 ~
 0 0 14115
 S
@@ -616,7 +617,7 @@ ready your weapon, but how can you kill what you can't see?
 ~
 0 0 0
 D5
-(null)~
+~
 ~
 0 0 14116
 S
@@ -629,11 +630,11 @@ battle seems to have moved north.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14119
 D2
-(null)~
+~
 ~
 0 0 14104
 S
@@ -645,11 +646,11 @@ avenge my death, The Butcher must......" Then he fades away.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14120
 D2
-(null)~
+~
 ~
 0 0 14118
 S
@@ -662,11 +663,11 @@ of the middle.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 14119
 D3
-(null)~
+~
 ~
 0 0 14121
 S
@@ -679,11 +680,11 @@ serving as a bridge for others.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14122
 D1
-(null)~
+~
 ~
 0 0 14120
 S
@@ -696,19 +697,19 @@ flight, it can be seen heading towards Castle Death.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14124
 D1
-(null)~
+~
 ~
 0 0 14123
 D2
-(null)~
+~
 ~
 0 0 14121
 D3
-(null)~
+~
 ~
 0 0 14125
 S
@@ -721,7 +722,7 @@ quicker retaliation.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 14122
 S
@@ -734,7 +735,7 @@ are still smoking. What could have been here?
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 14122
 S
@@ -747,15 +748,15 @@ surprised. From here the trench stretches east and west.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14129
 D1
-(null)~
+~
 ~
 0 0 14122
 D3
-(null)~
+~
 ~
 0 0 14126
 S
@@ -767,11 +768,11 @@ ashes on the ground. Wierd!!!
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14127
 D1
-(null)~
+~
 ~
 0 0 14125
 S
@@ -783,11 +784,11 @@ origin comes into mind. These piles of ash were once people!!!
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14128
 D2
-(null)~
+~
 ~
 0 0 14126
 S
@@ -801,7 +802,7 @@ out to undo this evil.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 14127
 S
@@ -814,11 +815,11 @@ more carnage. Head south if you are weak of heart.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14130
 D2
-(null)~
+~
 ~
 0 0 14125
 S
@@ -831,11 +832,11 @@ if life means anything to you.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14131
 D2
-(null)~
+~
 ~
 0 0 14129
 S
@@ -848,11 +849,11 @@ anyone crave their destruction.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14132
 D2
-(null)~
+~
 ~
 0 0 14130
 S
@@ -865,11 +866,11 @@ hook. Better find that key...
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14133
 D3
-(null)~
+~
 ~
 0 0 14131
 S
@@ -884,11 +885,11 @@ There is a door up from here.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 14132
 D4
-(null)~
+~
 ~
 1 14102 14134
 S
@@ -900,11 +901,11 @@ horrid condition. Two torches show the stairway continues up and down.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 14135
 D5
-(null)~
+~
 ~
 1 0 14133
 S
@@ -917,11 +918,11 @@ trick.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14136
 D5
-(null)~
+~
 ~
 0 0 14134
 S
@@ -934,11 +935,11 @@ feeling an ambush is about to happen.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14137
 D2
-(null)~
+~
 ~
 0 0 14135
 S
@@ -952,19 +953,19 @@ step.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14141
 D1
-(null)~
+~
 ~
 0 0 14138
 D2
-(null)~
+~
 ~
 0 0 14136
 D3
-(null)~
+~
 ~
 0 0 14140
 S
@@ -976,11 +977,11 @@ used as joy toys and children are being converted to an evil nature.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14139
 D3
-(null)~
+~
 ~
 0 0 14137
 S
@@ -991,7 +992,7 @@ exits are avalible except south.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 14138
 S
@@ -1004,7 +1005,7 @@ them?
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 14137
 S
@@ -1016,11 +1017,11 @@ rotting away. To the north is the end of this hallway.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 14142
 D2
-(null)~
+~
 ~
 0 0 14137
 S
@@ -1031,11 +1032,11 @@ almost behind you. Push on and end this evil once and for all.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 14141
 D4
-(null)~
+~
 ~
 0 0 14143
 S
@@ -1048,11 +1049,11 @@ lightning shadows lunge at you. Up or down??
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 14144
 D5
-(null)~
+~
 ~
 0 0 14142
 S
@@ -1066,15 +1067,15 @@ leads to the west.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 14145
 D4
-(null)~
+~
 ~
 0 0 14147
 D5
-(null)~
+~
 ~
 0 0 14143
 S
@@ -1087,11 +1088,11 @@ of the council room.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 14144
 D3
-(null)~
+~
 ~
 0 0 14146
 S
@@ -1104,7 +1105,7 @@ the trigger. Almost instantly the timber is turned to smoldering ash!!
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 14145
 S
@@ -1116,15 +1117,15 @@ amazing wealth here. That is, if you live.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 14149
 D1
-(null)~
+~
 ~
 0 0 14148
 D5
-(null)~
+~
 ~
 0 0 14144
 S
@@ -1137,7 +1138,7 @@ strategy and Evil Divination. The Keeper of these books is Vonetaur.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 14147
 S
@@ -1151,7 +1152,7 @@ more. No exit leads out of here but south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 14147
 S

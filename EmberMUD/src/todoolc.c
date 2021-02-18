@@ -319,7 +319,7 @@ bool todoedit_text( CHAR_DATA * ch, char *argument )
     }
     if ( argument[0] == '\0' )
     {
-        string_append( ch, &pTodo->text );
+        string_append( ch, &pTodo->text, COLOR_DESC );
         return TRUE;
     }
 

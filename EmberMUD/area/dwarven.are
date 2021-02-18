@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 25} Anon    Dwarven Kingdom~
+Group       Embermud~
 Builders    None~
 VNUMs       6500 6562
 Security    9
@@ -164,7 +165,7 @@ dwarf peon~
 the dwarven peon~
 A dwarven peon is awaiting help here.
 ~
-(null)~
+~
 Dwarf~
 ABLT J 500 S
 2 0 
@@ -178,7 +179,7 @@ dwarf~
 the dwarf~
 A grinning dwarf is here.
 ~
-(null)~
+~
 Dwarf~
 ABLT J 500 S
 9 0 
@@ -192,7 +193,7 @@ dwarf son~
 the unwanted son~
 An unwanted son is here. You feel sorry for the guy.
 ~
-(null)~
+~
 Dwarf~
 AGT J 250 S
 8 0 
@@ -206,7 +207,7 @@ dwarf daughter~
 the unwanted daughter~
 An unwanted daughter is here. You feel sorry for her.
 ~
-(null)~
+~
 Dwarf~
 AGT J 250 S
 11 0 
@@ -220,7 +221,7 @@ dwarf guard~
 the barracks guard~
 A barrack guard is here.
 ~
-(null)~
+~
 Dwarf~
 ABLT J 100 S
 17 0 
@@ -234,7 +235,7 @@ man~
 the man in waiting~
 A man in waiting is here. He looks nervous and unsure of himself.
 ~
-(null)~
+~
 Human~
 ABLT 0 300 S
 16 0 
@@ -263,7 +264,7 @@ snake~
 the giant snake~
 There is a giant snake here.
 ~
-(null)~
+~
 snake~
 ABFT 0 -1000 S
 15 0 
@@ -571,11 +572,11 @@ to the south, and continues to the north.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6506
 D2
-(null)~
+~
 ~
 0 -1 6540
 S
@@ -586,11 +587,11 @@ and you can hear noise coming from within.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 6503
 D3
-(null)~
+~
 door~
 2 6502 6513
 S
@@ -606,11 +607,11 @@ tree trees~
 They hang over the road in the most ominous of ways.
 ~
 D1
-(null)~
+~
 ~
 0 -1 6507
 D2
-(null)~
+~
 ~
 0 -1 6504
 S
@@ -620,11 +621,11 @@ This path is very narrow, and it continues to the north and west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6508
 D3
-(null)~
+~
 ~
 0 -1 6506
 S
@@ -635,11 +636,11 @@ door, and to the south the path continues.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6509
 D2
-(null)~
+~
 ~
 0 -1 6507
 S
@@ -650,15 +651,15 @@ and the path continues to the west and south.
 ~
 0 8 0
 D1
-(null)~
+~
 door~
 2 6502 6510
 D2
-(null)~
+~
 ~
 0 -1 6508
 D3
-(null)~
+~
 ~
 0 -1 6522
 S
@@ -669,11 +670,11 @@ continues north to the castle, and there is a door on the western wall.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6511
 D3
-(null)~
+~
 door~
 2 6502 6509
 S
@@ -684,11 +685,11 @@ whichever way you wish to go. The path continues to the north and south.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6512
 D2
-(null)~
+~
 ~
 0 -1 6510
 S
@@ -705,11 +706,11 @@ standing on end. A sign says:
 ~
 0 8 0
 D1
-(null)~
+~
 door~
 1 6514 6525
 D2
-(null)~
+~
 ~
 0 -1 6511
 S
@@ -742,11 +743,11 @@ and south to the corner of the area.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6515
 D2
-(null)~
+~
 ~
 0 -1 6513
 S
@@ -757,7 +758,7 @@ path continues to the south.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 6514
 D3
@@ -773,11 +774,11 @@ weapons and armors. The path continues to the north and east.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6517
 D1
-(null)~
+~
 ~
 0 -1 6515
 S
@@ -788,15 +789,15 @@ to the north, and there is Granite Head's bakery to the west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6518
 D2
-(null)~
+~
 ~
 0 -1 6516
 D3
-(null)~
+~
 ~
 0 -1 6535
 S
@@ -807,11 +808,11 @@ south you can see the shops.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 6519
 D2
-(null)~
+~
 ~
 0 -1 6517
 S
@@ -822,15 +823,15 @@ to the east to the barracks, and to the west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6534
 D1
-(null)~
+~
 ~
 0 -1 6520
 D3
-(null)~
+~
 ~
 0 -1 6518
 S
@@ -840,11 +841,11 @@ Here the path continues west, and east to the barracks.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 6521
 D3
-(null)~
+~
 ~
 0 -1 6519
 S
@@ -855,11 +856,11 @@ the path continues to the west.
 ~
 0 8 0
 D2
-(null)~
+~
 door~
 1 -1 6523
 D3
-(null)~
+~
 ~
 0 -1 6520
 S
@@ -874,7 +875,7 @@ poster~
 There is a wall poster of a nude Minne Pearl.
 ~
 D1
-(null)~
+~
 ~
 0 -1 6509
 S
@@ -886,11 +887,11 @@ to the north.
 ~
 0 8 0
 D0
-(null)~
+~
 door~
 1 -1 6521
 D2
-(null)~
+~
 ~
 0 -1 6524
 S
@@ -901,11 +902,11 @@ of beds here, and there is a stench that is unbearable.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6523
 D5
-(null)~
+~
 floorboards boards~
 1 -1 2001
 S
@@ -917,11 +918,11 @@ out of the castle to the west.
 ~
 0 8 0
 D3
-(null)~
+~
 door~
 1 6514 6512
 D4
-(null)~
+~
 ~
 0 -1 6528
 S
@@ -941,7 +942,7 @@ A lighted area that looks like a well worn path.
 ~
 0 -1 6513
 D5
-(null)~
+~
 trapdoor~
 1 0 6527
 S
@@ -952,11 +953,11 @@ a wine cellar at one time.
 ~
 0 9 0
 D4
-(null)~
+~
 ~
 1 -1 6526
 D5
-(null)~
+~
 floorboards boards~
 1 -1 2065
 S
@@ -966,11 +967,11 @@ The stairs continue to circle up and down here.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 -1 6529
 D5
-(null)~
+~
 ~
 0 -1 6525
 S
@@ -982,11 +983,11 @@ stairs continue up and down.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 -1 6530
 D5
-(null)~
+~
 ~
 0 -1 6528
 S
@@ -997,11 +998,11 @@ east, and the stairs lead down.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 6531
 D5
-(null)~
+~
 ~
 0 -1 6529
 S
@@ -1014,11 +1015,11 @@ can see stairs to the west.
 ~
 0 8 0
 D0
-(null)~
+~
 door~
 2 6502 6532
 D3
-(null)~
+~
 ~
 0 -1 6530
 S
@@ -1034,7 +1035,7 @@ A note has been scrawled in lipstick on the mirror:
 ~
 0 8 0
 D2
-(null)~
+~
 door~
 2 6502 6531
 S
@@ -1045,7 +1046,7 @@ alcohol, and there is blood all over the walls.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 -1 6519
 S
@@ -1056,7 +1057,7 @@ the pastries dissolving in your mouth.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 -1 6517
 S
@@ -1067,15 +1068,15 @@ east, while the path continues to the north and west.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 -1 6504
 D1
-(null)~
+~
 door~
 2 6502 6541
 D3
-(null)~
+~
 ~
 0 -1 6503
 S
@@ -1086,11 +1087,11 @@ continues to the west.
 ~
 0 8 0
 D3
-(null)~
+~
 door~
 2 6502 6540
 D5
-(null)~
+~
 ~
 0 -1 6542
 S
@@ -1102,11 +1103,11 @@ down and up.
 ~
 0 9 0
 D4
-(null)~
+~
 ~
 0 -1 6541
 D5
-(null)~
+~
 ~
 0 -1 6554
 S
@@ -1117,11 +1118,11 @@ path continues to the east, and leads to the mineshaft to the west.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 6544
 D3
-(null)~
+~
 ~
 0 -1 6554
 S
@@ -1132,19 +1133,19 @@ and the path continues to the south, east, and west.
 ~
 0 9 0
 D0
-(null)~
+~
 door~
 2 6502 6546
 D1
-(null)~
+~
 ~
 0 -1 6545
 D2
-(null)~
+~
 ~
 0 -1 6551
 D3
-(null)~
+~
 ~
 0 -1 6543
 S
@@ -1156,7 +1157,7 @@ supports are very rickety.
 ~
 0 9 0
 D3
-(null)~
+~
 ~
 0 -1 6544
 S
@@ -1167,11 +1168,11 @@ can see some inscriptions, and you can exit to the south.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 6547
 D2
-(null)~
+~
 door~
 2 6502 6544
 S
@@ -1181,11 +1182,11 @@ You are inside the maze, but not far enough in that you could get lost.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 -1 6548
 D3
-(null)~
+~
 ~
 0 -1 6546
 S
@@ -1195,11 +1196,11 @@ You are in a maze.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 -1 6549
 D2
-(null)~
+~
 ~
 0 -1 6547
 S
@@ -1209,11 +1210,11 @@ You are in a maze.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 -1 6550
 D3
-(null)~
+~
 ~
 0 -1 6548
 S
@@ -1223,11 +1224,11 @@ You are in a maze.
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 -1 6549
 D3
-(null)~
+~
 ~
 0 -1 6552
 S
@@ -1239,7 +1240,7 @@ not many miners actually use any equipment.
 ~
 0 9 0
 D0
-(null)~
+~
 ~
 0 -1 6544
 S
@@ -1255,11 +1256,11 @@ To the north, you see the maze. There is a sign above the south exit:
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 6550
 D3
-(null)~
+~
 ~
 0 -1 6553
 S
@@ -1271,7 +1272,7 @@ things like 'the queen shall suffer' and 'Catholics Rule'.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 6552
 S
@@ -1282,11 +1283,11 @@ it is very hard to breath. The mineshaft leads up and east.
 ~
 0 9 0
 D1
-(null)~
+~
 ~
 0 -1 6543
 D4
-(null)~
+~
 ~
 0 -1 6542
 S

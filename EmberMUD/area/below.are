@@ -1,5 +1,6 @@
 #AREADATA
 Name        {15 30} Torm    Danger From Below~
+Group       Mudweiser~
 Builders    None~
 VNUMs       20900 20999
 Security    6
@@ -598,11 +599,11 @@ are signs and postings, most of them are saying missing, and someones name.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20901
 D3
-(null)~
+~
 ~
 0 0 17175
 S
@@ -614,19 +615,19 @@ continues.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20902
 D1
-(null)~
+~
 ~
 0 0 20904
 D2
-(null)~
+~
 ~
 0 0 20903
 D3
-(null)~
+~
 ~
 0 0 20900
 S
@@ -639,7 +640,7 @@ mmmmmm.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 20901
 S
@@ -651,7 +652,7 @@ will get lucky and find a good buy.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20901
 S
@@ -662,11 +663,11 @@ see what looks like the village square.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20905
 D3
-(null)~
+~
 ~
 0 0 20901
 S
@@ -687,23 +688,23 @@ Mayor- [OOC- This area is dangerous and is filled with many aggro mobs, but
 there are many treasures, try not to get yourself killed -Torm-] 
 ~
 D0
-(null)~
+~
 ~
 0 0 20907
 D1
-(null)~
+~
 ~
 0 0 20906
 D2
-(null)~
+~
 ~
 1 0 20918
 D3
-(null)~
+~
 ~
 0 0 20904
 D5
-(null)~
+~
 ~
 0 0 20922
 S
@@ -715,11 +716,11 @@ their stolen merchandise.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20914
 D3
-(null)~
+~
 ~
 0 0 20905
 S
@@ -735,19 +736,19 @@ R*E*W*A*R*D* He or she who returns the SkullFace mask to Elrik shall
 recieve a great reward, it is said to be somewhere in or near this city.  
 ~
 D1
-(null)~
+~
 ~
 0 0 20915
 D2
-(null)~
+~
 ~
 0 0 20905
 D3
-(null)~
+~
 ~
 0 0 20913
 D4
-(null)~
+~
 ~
 0 0 20908
 S
@@ -757,19 +758,19 @@ This room is the main hallway to all of the other rooms, it may be hard to find 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20910
 D1
-(null)~
+~
 ~
 0 0 20909
 D3
-(null)~
+~
 ~
 0 0 20912
 D5
-(null)~
+~
 ~
 0 0 20907
 S
@@ -780,7 +781,7 @@ and a wash stand in this room.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20908
 S
@@ -792,11 +793,11 @@ door has carvings in it.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 1 20924 20911
 D2
-(null)~
+~
 ~
 0 0 20908
 S
@@ -807,7 +808,7 @@ guilitines, axes, swords and daggers, however none look useful.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 1 0 20910
 S
@@ -818,7 +819,7 @@ world trainer young people in the way of different skills and spells.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20908
 S
@@ -829,7 +830,7 @@ why don't you buy one and find out what it does.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20907
 S
@@ -841,11 +842,11 @@ your purse!
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20916
 D3
-(null)~
+~
 ~
 0 0 20906
 S
@@ -857,7 +858,7 @@ exquisite taste, and a large mirror, shining like a large pearl.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20907
 S
@@ -869,15 +870,15 @@ to the south is the magic store.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20917
 D2
-(null)~
+~
 ~
 0 0 20921
 D3
-(null)~
+~
 ~
 0 0 20914
 S
@@ -889,7 +890,7 @@ seafarers, all trying to get use to land again.
 ~
 0 4 0
 D2
-(null)~
+~
 ~
 0 0 20916
 S
@@ -900,11 +901,11 @@ Coffins, crypts, and tombs are scattered about in this huge house.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 1 0 20905
 D5
-(null)~
+~
 trapdoor~
 1 20923 20919
 S
@@ -915,7 +916,7 @@ trying to buy an undead mercenary.
 ~
 0 4096 0
 D4
-(null)~
+~
 ~
 1 0 20918
 S
@@ -934,7 +935,7 @@ the wood that makes up the house.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20916
 S
@@ -945,11 +946,11 @@ and still choose to go below, then good luck.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 20905
 D5
-(null)~
+~
 ~
 0 0 20923
 S
@@ -961,11 +962,11 @@ sure anymore.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 20922
 D5
-(null)~
+~
 ~
 0 0 20924
 S
@@ -976,15 +977,15 @@ wall that leads east, but however, it keeps going down also.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20925
 D4
-(null)~
+~
 ~
 0 0 20923
 D5
-(null)~
+~
 ~
 0 0 20926
 S
@@ -995,11 +996,11 @@ you wonder if it was such a good idea coming this way.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20931
 D3
-(null)~
+~
 ~
 0 0 20924
 S
@@ -1010,15 +1011,15 @@ down going tunnel walls.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20935
 D4
-(null)~
+~
 ~
 0 0 20924
 D5
-(null)~
+~
 ~
 0 0 20927
 S
@@ -1029,15 +1030,15 @@ down going tunnel walls.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20939
 D4
-(null)~
+~
 ~
 0 0 20926
 D5
-(null)~
+~
 ~
 0 0 20928
 S
@@ -1049,15 +1050,15 @@ boredom now.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20943
 D4
-(null)~
+~
 ~
 0 0 20927
 D5
-(null)~
+~
 ~
 0 0 20929
 S
@@ -1069,15 +1070,15 @@ an end, unless you can go some other way then down.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20944
 D4
-(null)~
+~
 ~
 0 0 20928
 D5
-(null)~
+~
 ~
 0 0 20930
 S
@@ -1090,7 +1091,7 @@ world.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 20929
 S
@@ -1102,11 +1103,11 @@ some nasty little ants hiding.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20932
 D3
-(null)~
+~
 ~
 0 0 20925
 S
@@ -1117,11 +1118,11 @@ no ants, or maybe you can try to run past them.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20933
 D3
-(null)~
+~
 ~
 0 0 20931
 S
@@ -1133,11 +1134,11 @@ there when you get there.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20934
 D3
-(null)~
+~
 ~
 0 0 20932
 S
@@ -1148,7 +1149,7 @@ way out is back west, hope you don't get trapped in here.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20933
 S
@@ -1160,11 +1161,11 @@ marks here.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20926
 D3
-(null)~
+~
 ~
 0 0 20936
 S
@@ -1175,11 +1176,11 @@ assume there to be no ants, but there still could be.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20935
 D3
-(null)~
+~
 ~
 0 0 20937
 S
@@ -1190,11 +1191,11 @@ interest.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20936
 D3
-(null)~
+~
 ~
 0 0 20938
 S
@@ -1205,7 +1206,7 @@ came.
 ~
 0 4 0
 D1
-(null)~
+~
 ~
 0 0 20937
 S
@@ -1216,11 +1217,11 @@ this path is used by many ants.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 20940
 D3
-(null)~
+~
 ~
 0 0 20927
 S
@@ -1232,11 +1233,11 @@ room.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 20941
 D3
-(null)~
+~
 ~
 0 0 20939
 S
@@ -1250,11 +1251,11 @@ are giant ant eggs.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 20942
 D3
-(null)~
+~
 ~
 0 0 20940
 S
@@ -1265,7 +1266,7 @@ be the home of the queen ant, wonder if she is hiding around here somewhere.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 20941
 S
@@ -1277,7 +1278,7 @@ wonder what could be down there?
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20928
 S
@@ -1289,11 +1290,11 @@ There is a large hole in the middle of the room, filled with ants.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20929
 D5
-(null)~
+~
 ~
 0 0 20945
 S
@@ -1305,11 +1306,11 @@ invisible so the ants to the east won't kill you.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20946
 D4
-(null)~
+~
 ~
 0 0 20944
 S
@@ -1320,7 +1321,7 @@ There are many skeletons crushed on the ground.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 20945
 S
@@ -1331,7 +1332,7 @@ the prime, but its residents are made up of mostly earth.
 ~
 0 4 0
 D1
-(null)~
+~
 ~
 0 0 20948
 S
@@ -1341,11 +1342,11 @@ The area around this plane still looks the same, and it reminds you of a huge de
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 20949
 D3
-(null)~
+~
 ~
 0 0 20947
 S
@@ -1356,11 +1357,11 @@ to the east, is that a.... City?
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 20948
 D3
-(null)~
+~
 ~
 0 0 20950
 S
@@ -1371,11 +1372,11 @@ dirt, and bogs, and some quicksand, be careful.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20949
 D3
-(null)~
+~
 ~
 0 0 20951
 S
@@ -1387,7 +1388,7 @@ some magic and get out of here, its your only chance.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 20950
 S

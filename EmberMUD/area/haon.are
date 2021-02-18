@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 10} Diku    Haon Dor~
+Group       Embermud~
 Builders    None~
 VNUMs       6000 6155
 Security    9
@@ -2122,7 +2123,6 @@ It does not look as if you can go further without getting caught in it.
 ~
 0 -1 6131
 D4
-(null)
 ~
 ~
 0 -1 6132

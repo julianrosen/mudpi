@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 30} Raff    Elemental Canyon~
+Group       Embermud~
 Builders    None~
 VNUMs       9201 9260
 Security    9
@@ -895,11 +896,11 @@ You do sense great power though coming from the area behind the mountain.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 5267
 D4
-(null)~
+~
 ~
 0 -1 9202
 S
@@ -910,11 +911,11 @@ You sense a glow from the area beyond the mountain, which you cannot see yet.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 -1 9203
 D5
-(null)~
+~
 ~
 0 -1 9201
 S
@@ -937,11 +938,11 @@ bodies body dead~
 They look as if their necks have been broken and their flesh, chewed.
 ~
 D4
-(null)~
+~
 ~
 0 -1 9204
 D5
-(null)~
+~
 ~
 0 -1 9202
 S
@@ -953,11 +954,11 @@ makes its final ascent to an overlook.
 ~
 0 0 5
 D4
-(null)~
+~
 ~
 0 -1 9205
 D5
-(null)~
+~
 ~
 0 -1 9203
 S
@@ -976,11 +977,11 @@ overlook.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9206
 D5
-(null)~
+~
 ~
 0 -1 9204
 S
@@ -992,11 +993,11 @@ into the canyon here.
 ~
 0 0 5
 D2
-(null)~
+~
 ~
 0 -1 9205
 D5
-(null)~
+~
 ~
 0 -1 9207
 S
@@ -1009,11 +1010,11 @@ the overlook here.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9209
 D4
-(null)~
+~
 ~
 0 -1 9206
 S
@@ -1026,11 +1027,11 @@ going on about. The canyon continues north and east.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9211
 D1
-(null)~
+~
 ~
 0 -1 9209
 S
@@ -1046,19 +1047,19 @@ northwards.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9212
 D1
-(null)~
+~
 ~
 0 -1 9210
 D2
-(null)~
+~
 ~
 0 -1 9207
 D3
-(null)~
+~
 ~
 0 -1 9208
 S
@@ -1072,15 +1073,15 @@ cave mouth set into the canyon wall to the east.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9213
 D1
-(null)~
+~
 ~
 0 -1 9220
 D3
-(null)~
+~
 ~
 0 -1 9209
 S
@@ -1094,15 +1095,15 @@ and south.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9214
 D1
-(null)~
+~
 ~
 0 -1 9212
 D2
-(null)~
+~
 ~
 0 -1 9208
 S
@@ -1115,19 +1116,19 @@ things going on about. The canyon floor extends in all directions.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9215
 D1
-(null)~
+~
 ~
 0 -1 9213
 D2
-(null)~
+~
 ~
 0 -1 9209
 D3
-(null)~
+~
 ~
 0 -1 9211
 S
@@ -1141,19 +1142,19 @@ A path follows a stream to the east.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9216
 D1
-(null)~
+~
 ~
 0 -1 9228
 D2
-(null)~
+~
 ~
 0 -1 9210
 D3
-(null)~
+~
 ~
 0 -1 9212
 S
@@ -1167,19 +1168,19 @@ To the west a garden is on fire.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9217
 D1
-(null)~
+~
 ~
 0 -1 9215
 D2
-(null)~
+~
 ~
 0 -1 9211
 D3
-(null)~
+~
 ~
 0 -1 9237
 S
@@ -1192,19 +1193,19 @@ things going on about. The canyon floor extends in all directions.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9218
 D1
-(null)~
+~
 ~
 0 -1 9216
 D2
-(null)~
+~
 ~
 0 -1 9212
 D3
-(null)~
+~
 ~
 0 -1 9214
 S
@@ -1217,15 +1218,15 @@ things going on about. The Canyon floor extends north, south and west.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9219
 D2
-(null)~
+~
 ~
 0 -1 9213
 D3
-(null)~
+~
 ~
 0 -1 9215
 S
@@ -1239,15 +1240,15 @@ climb a rise in the canyon floor to the north.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9253
 D1
-(null)~
+~
 ~
 0 -1 9218
 D2
-(null)~
+~
 ~
 0 -1 9214
 S
@@ -1260,15 +1261,15 @@ things going on about. The canyon floor extends east, south, and west.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 -1 9219
 D2
-(null)~
+~
 ~
 0 -1 9215
 D3
-(null)~
+~
 ~
 0 -1 9217
 S
@@ -1282,15 +1283,15 @@ climb a rise in the canyon floor to the north.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9254
 D2
-(null)~
+~
 ~
 0 -1 9216
 D3
-(null)~
+~
 ~
 0 -1 9218
 S
@@ -1301,11 +1302,11 @@ source of energy from that direction.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 -1 9221
 D3
-(null)~
+~
 ~
 0 -1 9210
 S
@@ -1318,15 +1319,15 @@ can't see where you are going.
 ~
 0 9 3
 D1
-(null)~
+~
 ~
 0 -1 9222
 D2
-(null)~
+~
 ~
 0 -1 9223
 D3
-(null)~
+~
 ~
 0 -1 9220
 S
@@ -1339,11 +1340,11 @@ can't see where you are going.
 ~
 0 9 3
 D2
-(null)~
+~
 ~
 0 -1 9224
 D3
-(null)~
+~
 ~
 0 -1 9221
 S
@@ -1356,15 +1357,15 @@ you can't see where you are going.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 -1 9221
 D1
-(null)~
+~
 ~
 0 -1 9224
 D2
-(null)~
+~
 ~
 0 -1 9225
 S
@@ -1377,15 +1378,15 @@ can't see where you are going.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 -1 9222
 D2
-(null)~
+~
 ~
 0 -1 9226
 D3
-(null)~
+~
 ~
 0 -1 9223
 S
@@ -1398,11 +1399,11 @@ darkness. You sense a great presence off to the east aways.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 -1 9223
 D1
-(null)~
+~
 ~
 0 -1 9226
 S
@@ -1415,15 +1416,15 @@ darkness. You sense a great presence directly to the east.
 ~
 0 9 3
 D0
-(null)~
+~
 ~
 0 -1 9224
 D1
-(null)~
+~
 ~
 0 -1 9227
 D3
-(null)~
+~
 ~
 0 -1 9225
 S
@@ -1440,7 +1441,7 @@ The ruler notices your stare, and doesn't like it one bit! The whole
 earth seems to shake with his emotion.
 ~
 D3
-(null)~
+~
 ~
 0 -1 9226
 S
@@ -1452,11 +1453,11 @@ to the water. To the west you see a T-intersection.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9229
 D3
-(null)~
+~
 ~
 0 -1 9213
 S
@@ -1468,11 +1469,11 @@ the north and the river goes south.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 -1 9230
 D2
-(null)~
+~
 ~
 0 -1 9228
 S
@@ -1484,15 +1485,15 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 -1 9233
 D1
-(null)~
+~
 ~
 0 -1 9231
 D2
-(null)~
+~
 ~
 0 -1 9229
 S
@@ -1504,15 +1505,15 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 -1 9234
 D1
-(null)~
+~
 ~
 0 -1 9232
 D3
-(null)~
+~
 ~
 0 -1 9230
 S
@@ -1524,11 +1525,11 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D0
-(null)~
+~
 ~
 0 -1 9235
 D3
-(null)~
+~
 ~
 0 -1 9231
 S
@@ -1540,11 +1541,11 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D1
-(null)~
+~
 ~
 0 -1 9234
 D2
-(null)~
+~
 ~
 0 -1 9230
 S
@@ -1556,15 +1557,15 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D1
-(null)~
+~
 ~
 0 -1 9235
 D2
-(null)~
+~
 ~
 0 -1 9231
 D3
-(null)~
+~
 ~
 0 -1 9233
 S
@@ -1576,15 +1577,15 @@ magical water indeed. Though you splash through the bay you do not get wet.
 ~
 0 0 6
 D2
-(null)~
+~
 ~
 0 -1 9232
 D3
-(null)~
+~
 ~
 0 -1 9234
 D5
-(null)~
+~
 ~
 0 -1 9236
 S
@@ -1597,7 +1598,7 @@ the water above you.
 ~
 0 8 6
 D4
-(null)~
+~
 ~
 0 -1 9235
 S
@@ -1609,11 +1610,11 @@ dangerous. The path extends east and south.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9214
 D2
-(null)~
+~
 ~
 0 -1 9238
 S
@@ -1624,11 +1625,11 @@ beds of coals. A garden to the west glows with an everlasting fire.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9237
 D3
-(null)~
+~
 ~
 0 -1 9242
 S
@@ -1640,11 +1641,11 @@ consume its hosts. A path leads east among some fire pits.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9238
 D3
-(null)~
+~
 ~
 0 -1 9245
 S
@@ -1655,7 +1656,7 @@ flame dance to and fro for the entertainment of the ruler.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 -1 9242
 S
@@ -1667,11 +1668,11 @@ sunken-in area. A path leads east also.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 -1 9248
 D1
-(null)~
+~
 ~
 0 -1 9253
 S
@@ -1683,11 +1684,11 @@ extends north and east.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9249
 D1
-(null)~
+~
 ~
 0 -1 9248
 S
@@ -1699,15 +1700,15 @@ path heading away south. The playground extends north and west.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9250
 D2
-(null)~
+~
 ~
 0 -1 9246
 D3
-(null)~
+~
 ~
 0 -1 9247
 S
@@ -1719,11 +1720,11 @@ south and east.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 -1 9250
 D2
-(null)~
+~
 ~
 0 -1 9247
 S
@@ -1735,15 +1736,15 @@ south and west. Something more important catches your eye to the east.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 -1 9251
 D2
-(null)~
+~
 ~
 0 -1 9248
 D3
-(null)~
+~
 ~
 0 -1 9249
 S
@@ -1755,11 +1756,11 @@ is the electric playground.
 ~
 0 0 4
 D3
-(null)~
+~
 ~
 0 -1 9250
 D4
-(null)~
+~
 ~
 0 -1 9252
 S
@@ -1771,7 +1772,7 @@ the hill lead down to a causeway.
 ~
 0 8 6
 D5
-(null)~
+~
 ~
 0 -1 9251
 S
@@ -1782,15 +1783,15 @@ Or you can climb down to the canyon floor to the south.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 -1 9254
 D2
-(null)~
+~
 ~
 0 -1 9217
 D3
-(null)~
+~
 ~
 0 -1 9246
 S
@@ -1801,15 +1802,15 @@ Or you can climb down to the canyon floor to the south.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9255
 D2
-(null)~
+~
 ~
 0 -1 9219
 D3
-(null)~
+~
 ~
 0 -1 9253
 S
@@ -1823,15 +1824,15 @@ walk there. The pathway you came from is to the south.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9257
 D1
-(null)~
+~
 ~
 0 -1 9256
 D2
-(null)~
+~
 ~
 0 -1 9254
 S
@@ -1843,11 +1844,11 @@ you spy a portal of sorts. To the west is more thin air.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9258
 D3
-(null)~
+~
 ~
 0 -1 9255
 S
@@ -1859,11 +1860,11 @@ you spy a portal of sorts. To the south is more thin air.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 -1 9258
 D2
-(null)~
+~
 ~
 0 -1 9255
 S
@@ -1880,15 +1881,15 @@ portal~
 Through the portal you see a tunnel.
 ~
 D1
-(null)~
+~
 ~
 0 -1 9259
 D2
-(null)~
+~
 ~
 0 -1 9256
 D3
-(null)~
+~
 ~
 0 -1 9257
 S
@@ -1903,11 +1904,11 @@ portal~
 Through the portal you see nothing but sky.
 ~
 D1
-(null)~
+~
 ~
 0 -1 9260
 D3
-(null)~
+~
 ~
 0 -1 9258
 S
@@ -1924,7 +1925,7 @@ Although the cloud throne appears solid enough to sit on, I wouldn't try
 it if I were you!
 ~
 D3
-(null)~
+~
 ~
 0 -1 9259
 S

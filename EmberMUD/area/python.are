@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 45) Feroz   Quest for the Grail~
+Group       Mudweiser~
 Builders    Feroz~
 VNUMs       14500 14699
 Security    8
@@ -527,7 +528,7 @@ knight eeeeckyeckyeckyeckypikangzoomboing~
 a Knight who says Eeee-ecky-ecky-ecky-pitang-zooooom-boing~
 A knight stands here who says... who says.... who so recently said "Nee".
 ~
-(null)~
+~
 Human~
 AB 0 -300 S
 50 30 
@@ -557,7 +558,7 @@ peasant peon farmer~
 a peasant~
 A peasant is here, harvesting mud.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 6 6 
@@ -897,11 +898,11 @@ leading up to a castle.
 ~
 0 2098180 0
 D0
-(null)~
+~
 ~
 0 0 14501
 D2
-(null)~
+~
 crack~
 1 0 16260
 S
@@ -913,15 +914,15 @@ The entrance of the quest is to the south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14504
 D1
-(null)~
+~
 ~
 0 0 14502
 D2
-(null)~
+~
 ~
 0 0 14500
 S
@@ -934,11 +935,11 @@ advice to help you on your quest.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 14501
 D4
-(null)~
+~
 ~
 0 0 14503
 S
@@ -952,7 +953,7 @@ else to help you.
 ~
 0 2097152 0
 D5
-(null)~
+~
 ~
 0 0 14502
 S
@@ -963,11 +964,11 @@ can see an open grassland.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 0 0 14505
 D2
-(null)~
+~
 ~
 0 0 14501
 S
@@ -979,19 +980,19 @@ more field to the west and east and to the south is a foggy trail.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14506
 D1
-(null)~
+~
 ~
 0 0 14508
 D2
-(null)~
+~
 ~
 0 0 14504
 D3
-(null)~
+~
 ~
 0 0 14507
 S
@@ -1002,19 +1003,19 @@ of a small creek. The grassy field extends to the east, west, and south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14511
 D1
-(null)~
+~
 ~
 0 0 14510
 D2
-(null)~
+~
 ~
 0 0 14505
 D3
-(null)~
+~
 ~
 0 0 14509
 S
@@ -1025,11 +1026,11 @@ gathering mud nearby.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14509
 D1
-(null)~
+~
 ~
 0 0 14505
 S
@@ -1040,11 +1041,11 @@ gathering mud nearby.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14510
 D3
-(null)~
+~
 ~
 0 0 14505
 S
@@ -1055,11 +1056,11 @@ gathering mud nearby.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14506
 D2
-(null)~
+~
 ~
 0 0 14507
 S
@@ -1070,11 +1071,11 @@ gathering mud nearby.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 14508
 D3
-(null)~
+~
 ~
 0 0 14506
 S
@@ -1086,11 +1087,11 @@ over a small creek. You see a knight standing on the bridge.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 0 0 14512
 D2
-(null)~
+~
 ~
 0 0 14506
 S
@@ -1103,11 +1104,11 @@ creek is a mere three feet across and only contains a trickle of water.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14513
 D2
-(null)~
+~
 ~
 0 0 14511
 S
@@ -1119,11 +1120,11 @@ gathering of people.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14514
 D2
-(null)~
+~
 ~
 0 0 14512
 S
@@ -1137,15 +1138,15 @@ the forest and to the north is the road to Camelot.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14516
 D1
-(null)~
+~
 ~
 0 0 14515
 D2
-(null)~
+~
 ~
 0 0 14513
 S
@@ -1156,7 +1157,7 @@ amusing crowds of children. To your west is a small village.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 14514
 S
@@ -1168,11 +1169,11 @@ where you may find help for your quest.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14517
 D2
-(null)~
+~
 ~
 0 0 14514
 S
@@ -1187,11 +1188,11 @@ south is small village and to the north is the Castle of Camelot.
 ~
 0 3146764 0
 D0
-(null)~
+~
 ~
 0 0 14518
 D2
-(null)~
+~
 ~
 0 0 14516
 S
@@ -1205,11 +1206,11 @@ the road heads up a hill.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14519
 D2
-(null)~
+~
 ~
 0 0 14517
 S
@@ -1233,11 +1234,11 @@ Good luck,
 God
 ~
 D0
-(null)~
+~
 ~
 0 0 14520
 D3
-(null)~
+~
 ~
 0 0 14518
 S
@@ -1249,11 +1250,11 @@ you hear the sounds of lumber being cut.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14521
 D2
-(null)~
+~
 ~
 0 0 14519
 S
@@ -1265,11 +1266,11 @@ and to the north is a grassland surrounding a castle.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14522
 D2
-(null)~
+~
 ~
 0 0 14520
 S
@@ -1281,11 +1282,11 @@ To the south is a trail in the forest and to the north is the castle.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14523
 D2
-(null)~
+~
 ~
 0 0 14521
 S
@@ -1298,11 +1299,11 @@ field are to the north and south.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14524
 D2
-(null)~
+~
 ~
 0 0 14522
 S
@@ -1312,11 +1313,11 @@ The French Castle lies to your south and to the north is the forest.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14525
 D2
-(null)~
+~
 ~
 0 0 14523
 S
@@ -1328,19 +1329,19 @@ the South is the French Castle.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14551
 D1
-(null)~
+~
 ~
 0 0 14576
 D2
-(null)~
+~
 ~
 0 0 14524
 D3
-(null)~
+~
 ~
 0 0 14526
 S
@@ -1353,11 +1354,11 @@ and the forest grows thicker and darker. To east is the crossroads.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 14525
 D3
-(null)~
+~
 ~
 0 0 14527
 S
@@ -1369,11 +1370,11 @@ able to continue.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 14526
 D3
-(null)~
+~
 ~
 0 0 14528
 S
@@ -1386,11 +1387,11 @@ may be the answer to your quest!
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14529
 D1
-(null)~
+~
 ~
 0 0 14527
 S
@@ -1401,11 +1402,11 @@ the end of your long quest.
 ~
 0 2097156 0
 D0
-(null)~
+~
 gate~
 1 0 14530
 D2
-(null)~
+~
 ~
 0 0 14528
 S
@@ -1418,19 +1419,19 @@ guardians of the Grail. You can leave the castle by going south.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14539
 D1
-(null)~
+~
 ~
 0 0 14538
 D2
-(null)~
+~
 gate~
 1 0 14529
 D3
-(null)~
+~
 ~
 0 0 14531
 S
@@ -1441,11 +1442,11 @@ you must think of your quest for the grail.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14532
 D1
-(null)~
+~
 ~
 0 0 14530
 S
@@ -1456,11 +1457,11 @@ you must think if your quest for the grail.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14533
 D2
-(null)~
+~
 ~
 0 0 14531
 S
@@ -1471,11 +1472,11 @@ windows in the wall with forlorn eyes. Their lives must become boring.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 14534
 D2
-(null)~
+~
 ~
 0 0 14532
 S
@@ -1486,15 +1487,15 @@ must think of your quest. The back door of the castle is to the north.
 ~
 0 2097160 0
 D0
-(null)~
+~
 backdoor~
 1 0 14535
 D1
-(null)~
+~
 ~
 0 0 14536
 D3
-(null)~
+~
 ~
 0 0 14533
 S
@@ -1505,11 +1506,11 @@ woods to your north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14549
 D2
-(null)~
+~
 backdoor~
 1 0 14534
 S
@@ -1520,11 +1521,11 @@ you must think of your quest.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 14537
 D3
-(null)~
+~
 ~
 0 0 14534
 S
@@ -1536,11 +1537,11 @@ seeing somebody new in their castle.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14536
 D2
-(null)~
+~
 ~
 0 0 14538
 S
@@ -1551,15 +1552,15 @@ must think of your quest. A staircase goes up the tower here.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14537
 D3
-(null)~
+~
 ~
 0 0 14530
 D4
-(null)~
+~
 ~
 0 0 14543
 S
@@ -1570,19 +1571,19 @@ bedrooms. To your north is a very large bathroom.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14542
 D1
-(null)~
+~
 ~
 0 0 14541
 D2
-(null)~
+~
 ~
 0 0 14530
 D3
-(null)~
+~
 ~
 0 0 14540
 S
@@ -1595,7 +1596,7 @@ titles make you wonder about some of these virgins.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 14539
 S
@@ -1607,7 +1608,7 @@ room.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 14539
 S
@@ -1618,7 +1619,7 @@ dressing, undressing, knitting exciting underwear and brushing their hair.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 14539
 S
@@ -1629,19 +1630,19 @@ also exits to your west and north.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14546
 D3
-(null)~
+~
 ~
 0 0 14544
 D4
-(null)~
+~
 ~
 0 0 14547
 D5
-(null)~
+~
 ~
 0 0 14538
 S
@@ -1653,11 +1654,11 @@ east.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 14545
 D1
-(null)~
+~
 ~
 0 0 14543
 S
@@ -1669,11 +1670,11 @@ life must become boring at times with nobody new around.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 14546
 D2
-(null)~
+~
 ~
 0 0 14544
 S
@@ -1684,11 +1685,11 @@ by you and say hello to you. You wonder what they are thinking.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 14543
 D3
-(null)~
+~
 ~
 0 0 14545
 S
@@ -1699,11 +1700,11 @@ view of the surrounding forest. To your north is a locked door.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 1 14510 14548
 D5
-(null)~
+~
 ~
 0 0 14543
 S
@@ -1714,7 +1715,7 @@ see the window where you saw the light.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 1 14510 14547
 S
@@ -1725,15 +1726,15 @@ wasteland of some sort. You can climb the tree above you.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 0 0 14586
 D2
-(null)~
+~
 ~
 0 0 14535
 D4
-(null)~
+~
 ~
 0 0 14550
 S
@@ -1744,7 +1745,7 @@ in a tree. You also notice that this is a strange looking tree.
 ~
 0 2097152 0
 D5
-(null)~
+~
 ~
 0 0 14549
 S
@@ -1756,15 +1757,15 @@ trail to the west or to the north. The crossroads are to the south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14570
 D2
-(null)~
+~
 ~
 0 0 14525
 D3
-(null)~
+~
 ~
 0 0 14552
 S
@@ -1776,11 +1777,11 @@ To your west is a creek and the crossroads can be found if you head east.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14551
 D3
-(null)~
+~
 ~
 0 0 14553
 S
@@ -1792,11 +1793,11 @@ trail continues into the forest to your east.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14554
 D1
-(null)~
+~
 ~
 0 0 14552
 S
@@ -1808,11 +1809,11 @@ by climbing over the rocks.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14555
 D2
-(null)~
+~
 ~
 0 0 14553
 S
@@ -1825,11 +1826,11 @@ the guards here. You can enter the castle through the gate, to the north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14556
 D2
-(null)~
+~
 ~
 0 0 14554
 S
@@ -1841,11 +1842,11 @@ To your south, you can leave the castle.
 ~
 0 2098180 0
 D0
-(null)~
+~
 ~
 0 0 14557
 D2
-(null)~
+~
 ~
 0 0 14555
 S
@@ -1857,19 +1858,19 @@ the front gate of the castle is to the south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14561
 D1
-(null)~
+~
 ~
 0 0 14559
 D2
-(null)~
+~
 ~
 0 0 14556
 D3
-(null)~
+~
 ~
 0 0 14558
 S
@@ -1880,11 +1881,11 @@ continues to the north and east.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14560
 D1
-(null)~
+~
 ~
 0 0 14557
 S
@@ -1896,11 +1897,11 @@ musicians and some dancers.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14562
 D3
-(null)~
+~
 ~
 0 0 14557
 S
@@ -1912,15 +1913,15 @@ and dancing. The courtyard extends to the north, south, and east.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14563
 D1
-(null)~
+~
 ~
 0 0 14561
 D2
-(null)~
+~
 ~
 0 0 14558
 S
@@ -1933,19 +1934,19 @@ cardinal directions.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14564
 D1
-(null)~
+~
 ~
 0 0 14562
 D2
-(null)~
+~
 ~
 0 0 14557
 D3
-(null)~
+~
 ~
 0 0 14560
 S
@@ -1958,15 +1959,15 @@ and west.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14565
 D2
-(null)~
+~
 ~
 0 0 14559
 D3
-(null)~
+~
 ~
 0 0 14561
 S
@@ -1977,11 +1978,11 @@ continues to the south and east.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14564
 D2
-(null)~
+~
 ~
 0 0 14560
 S
@@ -1993,15 +1994,15 @@ the beer cart and to your east, you see a starcase.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14565
 D2
-(null)~
+~
 ~
 0 0 14561
 D3
-(null)~
+~
 ~
 0 0 14563
 S
@@ -2013,15 +2014,15 @@ music and dancing. A staircase goes up into the castle here.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 14562
 D3
-(null)~
+~
 ~
 0 0 14564
 D4
-(null)~
+~
 ~
 0 0 14566
 S
@@ -2035,11 +2036,11 @@ the hall. A staircase goes down to the courtyard and up to the tower.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 14567
 D5
-(null)~
+~
 ~
 0 0 14565
 S
@@ -2050,11 +2051,11 @@ below you, you hear the sounds of the great hall.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 14568
 D5
-(null)~
+~
 ~
 0 0 14566
 S
@@ -2065,11 +2066,11 @@ the great hall.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 1 0 14569
 D5
-(null)~
+~
 ~
 0 0 14567
 S
@@ -2082,7 +2083,7 @@ room, guarding the young man.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 1 0 14568
 S
@@ -2094,11 +2095,11 @@ the south is the crossroads.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14571
 D2
-(null)~
+~
 ~
 0 0 14551
 S
@@ -2110,11 +2111,11 @@ knight, you would return to the south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14572
 D2
-(null)~
+~
 ~
 0 0 14570
 S
@@ -2133,11 +2134,11 @@ faint of heart, then ye best leave this foul place at once! You have been
 warned!  
 ~
 D0
-(null)~
+~
 ~
 0 0 14573
 D2
-(null)~
+~
 ~
 0 0 14571
 S
@@ -2150,11 +2151,11 @@ very happy to see you here. You can leave to the east or the south.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14574
 D2
-(null)~
+~
 ~
 0 0 14572
 S
@@ -2167,11 +2168,11 @@ place.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14575
 D3
-(null)~
+~
 ~
 0 0 14573
 S
@@ -2183,11 +2184,11 @@ with a layer of fog. You wonder which is worse.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14582
 D2
-(null)~
+~
 ~
 0 0 14574
 S
@@ -2199,11 +2200,11 @@ for the grail.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14577
 D3
-(null)~
+~
 ~
 0 0 14525
 S
@@ -2215,15 +2216,15 @@ trail leads into a village. Up to your west is a grassy hill.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14579
 D2
-(null)~
+~
 ~
 0 0 14578
 D3
-(null)~
+~
 ~
 0 0 14576
 S
@@ -2236,7 +2237,7 @@ danger lies ahead.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14577
 S
@@ -2247,11 +2248,11 @@ and you can see an old hut of some sort.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14580
 D2
-(null)~
+~
 ~
 0 0 14577
 S
@@ -2264,11 +2265,11 @@ valley to your south and a foggy forest to your north.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14581
 D2
-(null)~
+~
 ~
 0 0 14579
 S
@@ -2280,11 +2281,11 @@ north and south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14582
 D2
-(null)~
+~
 ~
 0 0 14580
 S
@@ -2297,15 +2298,15 @@ forest continues to the north, west, and south.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14583
 D2
-(null)~
+~
 ~
 0 0 14581
 D3
-(null)~
+~
 ~
 0 0 14575
 S
@@ -2317,11 +2318,11 @@ in the ground in front of them the perfect size of a shrubbery.
 ~
 0 2097152 0
 D0
-(null)~
+~
 trees~
 1 14522 14584
 D2
-(null)~
+~
 ~
 0 0 14582
 S
@@ -2333,11 +2334,11 @@ wasteland of some sort.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14585
 D2
-(null)~
+~
 trees~
 1 14522 14583
 S
@@ -2348,11 +2349,11 @@ and a rarely walked trail leading to the west.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 14584
 D3
-(null)~
+~
 ~
 0 0 14586
 S
@@ -2364,15 +2365,15 @@ a rocky hill and hear some sort of excitement.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14587
 D1
-(null)~
+~
 ~
 0 0 14585
 D2
-(null)~
+~
 ~
 0 0 14549
 S
@@ -2384,11 +2385,11 @@ some sort. You wonder what is up there.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14588
 D2
-(null)~
+~
 ~
 0 0 14586
 S
@@ -2403,11 +2404,11 @@ he might know where the grail is.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14589
 D2
-(null)~
+~
 ~
 0 0 14587
 S
@@ -2420,11 +2421,11 @@ forward only if ye be men of valor.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14590
 D3
-(null)~
+~
 ~
 0 0 14588
 S
@@ -2436,11 +2437,11 @@ only living thing nearby is your friends and a cute, little bunny rabbit.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14591
 D2
-(null)~
+~
 ~
 0 0 14589
 S
@@ -2452,11 +2453,11 @@ rocky, so you should watch your step.
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 14592
 D2
-(null)~
+~
 ~
 0 0 14590
 S
@@ -2476,11 +2477,11 @@ enough to seek the grail, you can find if at the Castle Aaaahhhhh.....
 (Hrmm, what do you suppose that could mean?)
 ~
 D1
-(null)~
+~
 ~
 0 0 14593
 D2
-(null)~
+~
 ~
 0 0 14591
 S
@@ -2493,11 +2494,11 @@ Black Beast found you.
 ~
 0 2097161 0
 D1
-(null)~
+~
 ~
 0 0 14594
 D3
-(null)~
+~
 ~
 0 0 14592
 S
@@ -2510,11 +2511,11 @@ way over, and you are sure that the grail is on the other side.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 14593
 D4
-(null)~
+~
 ~
 0 0 14595
 S
@@ -2527,11 +2528,11 @@ a trail leading up to a grassy meadow.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14596
 D5
-(null)~
+~
 ~
 0 0 14594
 S
@@ -2543,11 +2544,11 @@ Eternal Peril, you're glad you didn't fail your test.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14597
 D2
-(null)~
+~
 ~
 0 0 14595
 S
@@ -2560,11 +2561,11 @@ north.
 ~
 0 3146756 0
 D0
-(null)~
+~
 ~
 0 0 14598
 D2
-(null)~
+~
 ~
 0 0 14596
 S
@@ -2577,11 +2578,11 @@ steps away and beyond that is a grassy plain.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14599
 D2
-(null)~
+~
 ~
 0 0 14597
 S
@@ -2594,11 +2595,11 @@ On an island in the lake is a castle.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 14600
 D2
-(null)~
+~
 ~
 0 0 14598
 S
@@ -2610,11 +2611,11 @@ reason. It must be the resting place of the most Holy Grail!
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14601
 D2
-(null)~
+~
 ~
 0 0 14599
 S
@@ -2627,11 +2628,11 @@ to the other side.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14602
 D3
-(null)~
+~
 ~
 0 0 14600
 S
@@ -2643,11 +2644,11 @@ there is most likely a guardian of the Holy Grail.
 ~
 0 2097156 0
 D1
-(null)~
+~
 ~
 1 0 14603
 D3
-(null)~
+~
 ~
 0 0 14601
 S
@@ -2659,11 +2660,11 @@ into the enemies hands. The country of England is at stake!
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 14604
 D3
-(null)~
+~
 ~
 1 0 14602
 S
@@ -2675,11 +2676,11 @@ it surrounded by a golden glow.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 14605
 D3
-(null)~
+~
 ~
 0 0 14603
 S
@@ -2693,11 +2694,11 @@ straircase goes up from here.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 1 0 14604
 D4
-(null)~
+~
 ~
 0 0 14606
 S
@@ -2710,11 +2711,11 @@ continues up and down.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 14607
 D5
-(null)~
+~
 ~
 0 0 14605
 S
@@ -2727,11 +2728,11 @@ Holy Grail's nearness. You must hurry upwards!
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 14608
 D5
-(null)~
+~
 ~
 0 0 14606
 S
@@ -2745,11 +2746,11 @@ upwards.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 0 0 14609
 D5
-(null)~
+~
 ~
 0 0 14607
 S
@@ -2764,11 +2765,11 @@ must have taken the key.
 ~
 0 2097160 0
 D4
-(null)~
+~
 ~
 1 14526 14610
 D5
-(null)~
+~
 ~
 0 0 14608
 S
@@ -2790,11 +2791,11 @@ I have decided that whoever holds the Holy Grail shall be crowned King of
 England. Your crown lies beyond.  
 ~
 D4
-(null)~
+~
 ~
 1 0 14611
 D5
-(null)~
+~
 ~
 1 14526 14609
 S
@@ -2808,13 +2809,13 @@ Congratulations! You are the King of England!
 ~
 0 3146764 0
 D5
-(null)~
+~
 ~
 1 0 14610
 S
 #14612
 Room for extra peasants~
-(null)~
+~
 0 1048580 0
 S
 #0

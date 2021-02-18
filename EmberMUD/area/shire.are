@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 35} Poohb   The Shire~
+Group       Embermud~
 Builders    None~
 VNUMs       1100 1157
 Security    9
@@ -1779,7 +1780,7 @@ benches and seats line the walls. A stairway leads down.
 ~
 0 24 0
 D5
-(null)~
+~
 ~
 0 -1 1144
 S

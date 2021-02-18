@@ -634,6 +634,9 @@ AEDIT( aedit_show )
 
     sprintf( buf, "Name:     [%5d] %s\n\r", pArea->vnum, pArea->name );
     send_to_char( buf, ch );
+    
+    sprintf( buf, "Group:    %s\n\r", pArea->group ); // JR
+    send_to_char( buf, ch );
 
 #if 0                           /* ROM OLC */
     sprintf( buf, "Recall:   [%5d] %s\n\r", pArea->recall,
@@ -728,6 +731,26 @@ AEDIT( aedit_name )
     pArea->name = str_dup( argument );
 
     send_to_char( "Name set.\n\r", ch );
+    return TRUE;
+}
+
+
+AEDIT( aedit_group ) // JR
+{
+    AREA_DATA *pArea;
+
+    EDIT_AREA( ch, pArea );
+
+    if ( !argument[0] )
+    {
+        send_to_char( "Syntax:   group [$group]\n\r", ch );
+        return FALSE;
+    }
+
+    free_string( &pArea->group );
+    pArea->group = str_dup( argument );
+
+    send_to_char( "group set.\n\r", ch );
     return TRUE;
 }
 
@@ -1438,7 +1461,7 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
                     ( "REdit:  Cannot describe a non-existant exit.\n\r", ch );
                 return FALSE;
             }
-            string_append( ch, &pRoom->exit[door]->description );
+            string_append( ch, &pRoom->exit[door]->description, COLOR_DESC );
 
             return TRUE;
         }
@@ -1584,7 +1607,7 @@ REDIT( redit_ed )
         ed->next = pRoom->extra_descr;
         pRoom->extra_descr = ed;
 
-        string_append( ch, &ed->description );
+        string_append( ch, &ed->description, COLOR_DESC );
 
         return TRUE;
     }
@@ -1610,7 +1633,7 @@ REDIT( redit_ed )
             return FALSE;
         }
 
-        string_append( ch, &ed->description );
+        string_append( ch, &ed->description, TRUE );
 
         return TRUE;
     }
@@ -1761,7 +1784,7 @@ REDIT( redit_desc )
 
     if ( !argument[0] )
     {
-        string_append( ch, &pRoom->description );
+        string_append( ch, &pRoom->description, COLOR_DESC );
         return TRUE;
     }
 
@@ -2920,16 +2943,18 @@ OEDIT( oedit_cost )
 
 OEDIT( oedit_create )
 {
-    OBJ_INDEX_DATA *pObj;
+    OBJ_INDEX_DATA *pObj,*oldObj;
     AREA_DATA *pArea;
-    int value;
+    int value,oldvalue;
     int iHash;
+    int n;
+    char arg[MAX_INPUT_LENGTH];
 
     value = atoi( argument );
 
     if ( argument[0] == '\0' || value == 0 )
     {
-        send_to_char( "Syntax:  oedit create [vnum]\n\r", ch );
+        send_to_char( "Syntax:  oedit create [vnum] <oldvnum>\n\r", ch );
         return FALSE;
     }
 
@@ -2952,6 +2977,23 @@ OEDIT( oedit_create )
         send_to_char( "OEdit:  Object vnum already exists.\n\r", ch );
         return FALSE;
     }
+    
+    argument = one_argument( argument, arg );
+    
+    if ( argument[0] != '\0' )
+    {
+        oldvalue = atoi( argument );
+        if (oldvalue == 0)
+        {
+            send_to_char( "Syntax:  oedit create [vnum] [oldvnum]\n\r", ch );
+            return FALSE;
+        }
+        if (!(oldObj = get_obj_index(oldvalue)))
+        {
+            sprintf( arg, "OEdit:  Object %i does not exist.\n\r",oldvalue);
+            return FALSE;
+        }
+    }
 
     pObj = new_obj_index(  );
     pObj->vnum = value;
@@ -2964,9 +3006,37 @@ OEDIT( oedit_create )
     pObj->next = obj_index_hash[iHash];
     obj_index_hash[iHash] = pObj;
     ch->desc->pEdit = ( void * ) pObj;
+    
+    if ( argument[0] == '\0' ) // JR: brand new object
+    {
+        send_to_char( "Object Created.\n\r", ch );
+        return TRUE;
+    }
+    else // Clone
+    {
+        printf("start clone\n");
+        pObj->name = strdup(oldObj->name);
+        pObj->short_descr = strdup(oldObj->short_descr);
+        pObj->description = strdup(oldObj->description);
+        pObj->material = oldObj->material;
+        printf("done material\n");
+        pObj->item_type = oldObj->item_type;
+        pObj->extra_flags = oldObj->extra_flags;
+        pObj->wear_flags = oldObj->wear_flags;
+        pObj->level = oldObj->level;
+        pObj->condition = oldObj->condition;
+        printf("done condition\n");
+        pObj->weight = oldObj->weight;
+        pObj->cost = oldObj->cost;
+        for (n=0;n<5;n++)
+            pObj->value[n] = oldObj->value[n];
+        printf("done value\n");
+        sprintf(arg,"Object Cloned: %s\n\r",oldObj->short_descr);
+        send_to_char( arg, ch );
+        return TRUE;
+    }
 
-    send_to_char( "Object Created.\n\r", ch );
-    return TRUE;
+    
 }
 
 OEDIT( oedit_ed )
@@ -3003,7 +3073,7 @@ OEDIT( oedit_ed )
         ed->next = pObj->extra_descr;
         pObj->extra_descr = ed;
 
-        string_append( ch, &ed->description );
+        string_append( ch, &ed->description, COLOR_DESC );
 
         return TRUE;
     }
@@ -3029,7 +3099,7 @@ OEDIT( oedit_ed )
             return FALSE;
         }
 
-        string_append( ch, &ed->description );
+        string_append( ch, &ed->description, COLOR_DESC );
 
         return TRUE;
     }
@@ -3433,15 +3503,17 @@ MEDIT( medit_show )
 
 MEDIT( medit_create )
 {
-    MOB_INDEX_DATA *pMob;
+    MOB_INDEX_DATA *pMob,*oldMob;
     AREA_DATA *pArea;
-    int value;
+    int value,oldvalue;
     int iHash;
+    int n;
+    char arg[MAX_INPUT_LENGTH];
 
     value = atoi( argument );
     if ( argument[0] == '\0' || value == 0 )
     {
-        send_to_char( "Syntax:  medit create [vnum]\n\r", ch );
+        send_to_char( "Syntax:  medit create [vnum] <oldvnum>\n\r", ch );
         return FALSE;
     }
 
@@ -3464,6 +3536,23 @@ MEDIT( medit_create )
         send_to_char( "MEdit:  Mobile vnum already exists.\n\r", ch );
         return FALSE;
     }
+    
+    argument = one_argument( argument, arg );
+    
+    if ( argument[0] != '\0' )
+    {
+        oldvalue = atoi( argument );
+        if (oldvalue == 0)
+        {
+            send_to_char( "Syntax:  medit create [vnum] [oldvnum]\n\r", ch );
+            return FALSE;
+        }
+        if (!(oldMob = get_mob_index(oldvalue)))
+        {
+            sprintf( arg, "MEdit:  Mobile %i does not exist.\n\r",oldvalue);
+            return FALSE;
+        }
+    }
 
     pMob = new_mob_index(  );
     pMob->vnum = value;
@@ -3471,18 +3560,65 @@ MEDIT( medit_create )
 
     if ( value > top_vnum_mob )
         top_vnum_mob = value;
-
-    pMob->act = ACT_IS_NPC;
-    pMob->hit[DICE_NUMBER] = 1;
-    pMob->hit[DICE_TYPE] = 1;
-    pMob->hit[DICE_BONUS] = 1;
+    
     iHash = value % MAX_KEY_HASH;
     pMob->next = mob_index_hash[iHash];
     mob_index_hash[iHash] = pMob;
     ch->desc->pEdit = ( void * ) pMob;
 
-    send_to_char( "Mobile Created.\n\r", ch );
-    return TRUE;
+    if ( argument[0] == '\0' ) // JR: brand new mob
+    {
+        pMob->act = ACT_IS_NPC;
+        pMob->hit[DICE_NUMBER] = 1;
+        pMob->hit[DICE_TYPE] = 1;
+        pMob->hit[DICE_BONUS] = 1;
+     
+        send_to_char( "Mobile Created.\n\r", ch );
+        return TRUE;
+    }
+    else // JR: clone mob (doesn't clone shop or prog data)
+    {
+        pMob->player_name = strdup(oldMob->player_name);
+        pMob->short_descr = strdup(oldMob->short_descr);
+        pMob->long_descr = strdup(oldMob->long_descr);
+        pMob->description = strdup(oldMob->description);
+        pMob->act = oldMob->act;
+        pMob->affected_by = oldMob->affected_by;
+        strcpy( pMob->newaff,oldMob->newaff);
+        pMob->alignment = oldMob->alignment;
+        pMob->level = oldMob->level;
+        pMob->hitroll = oldMob->hitroll;
+        for (n=0;n<3;n++)
+        {
+            pMob->hit[n] = oldMob->hit[n];
+            pMob->mana[n] = oldMob->mana[n];
+            pMob->damage[n] = oldMob->damage[n];
+        }
+        for (n=0;n<4;n++)
+            pMob->ac[n] = oldMob->ac[n];
+        pMob->dam_type = oldMob->dam_type;
+        pMob->off_flags = oldMob->off_flags;
+        pMob->imm_flags = oldMob->imm_flags;
+        pMob->res_flags = oldMob->res_flags;
+        pMob->vuln_flags = oldMob->vuln_flags;
+        pMob->start_pos = oldMob->start_pos;
+        pMob->default_pos = oldMob->default_pos;
+        pMob->sex = oldMob->sex;
+        pMob->race = oldMob->race;
+        pMob->gold = oldMob->gold;
+        pMob->form = oldMob->form;
+        pMob->parts = oldMob->parts;
+        pMob->size = oldMob->size;
+        pMob->material = oldMob->material;
+        pMob->breath_percent = oldMob->breath_percent;
+        pMob->rnd_obj_percent = oldMob->rnd_obj_percent;
+        pMob->rnd_obj_types = oldMob->rnd_obj_types;
+        pMob->path_pos = oldMob->path_pos;
+        pMob->path_move = oldMob->path_move;
+        sprintf(arg,"Mobile Cloned: %s\n\r",oldMob->short_descr);
+        send_to_char( arg, ch );
+        return TRUE;
+    }
 }
 
 MEDIT( medit_align )
@@ -3529,7 +3665,7 @@ MEDIT( medit_desc )
 
     if ( argument[0] == '\0' )
     {
-        string_append( ch, &pMob->description );
+        string_append( ch, &pMob->description, COLOR_DESC );
         return TRUE;
     }
 
@@ -4701,7 +4837,7 @@ MPEDIT( mpedit_edit )
 
     EDIT_MPROG( ch, pMudProg );
 
-    string_append( ch, &pMudProg->comlist );
+    string_append( ch, &pMudProg->comlist, FALSE ); // JR: No color when editing mprogs
     return TRUE;
 }
 
@@ -5344,7 +5480,7 @@ void show_mprog( CHAR_DATA * ch, MPROG_DATA * pMudProg )
              pMudProg->arglist ? pMudProg->arglist : "NULL" );
 
     sprintf( buf2, "%s~\n\r",
-             pMudProg->comlist ? pMudProg->comlist : "NULL\n\r" );
+             pMudProg->comlist ? unprocess_color(pMudProg->comlist) : "NULL\n\r" );
 
     if ( strlen( buf ) + strlen( buf2 ) >= sizeof( buf ) )
     {

@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 20} Zane    Pixie Forests~
+Group       Mudweiser~
 Builders    None~
 VNUMs       20100 20199
 Security    6
@@ -119,7 +120,7 @@ pixie pet dealer~
 a pixie pet dealer~
 A pixie pet dealer is standing here.
 ~
-(null)~
+~
 Human~
 ABd T 1000 S
 90 100 
@@ -239,7 +240,7 @@ preppy pixie~
 a preppy pixie~
 A preppy little pixie is here, wearing the latest fashion style.
 ~
-(null)~
+~
 Human~
 AB T 1000 S
 10 5 
@@ -253,7 +254,7 @@ guard royal pixie elite~
 a pixie guard~
 A guard of the royal pixie elite stands here.
 ~
-(null)~
+~
 Human~
 A T 1000 S
 15 18 
@@ -267,7 +268,7 @@ royal pixie servant~
 a royal pixie servant~
 One of Amber's royal pixie servants stands here waiting to take orders.
 ~
-(null)~
+~
 Human~
 A T 1000 S
 10 7 
@@ -281,7 +282,7 @@ creature~
 a vicious creature~
 A vicious creature snarls at you.
 ~
-(null)~
+~
 goblin~
 AB J -1000 S
 5 3 
@@ -477,11 +478,11 @@ the air. "Hehehe....."
 ~
 0 2097153 3
 D1
-(null)~
+~
 ~
 0 0 20101
 D3
-(null)~
+~
 ~
 0 0 19195
 S
@@ -494,15 +495,15 @@ do all the lights flies off in different directions.
 ~
 0 2097153 3
 D0
-(null)~
+~
 ~
 0 0 20102
 D2
-(null)~
+~
 ~
 0 0 20103
 D3
-(null)~
+~
 ~
 0 0 20100
 S
@@ -515,11 +516,11 @@ behavior before.
 ~
 0 2097153 3
 D1
-(null)~
+~
 ~
 0 0 20104
 D2
-(null)~
+~
 ~
 0 0 20101
 S
@@ -530,7 +531,7 @@ dodge it as it starts to make for you again. Quick think fast!
 ~
 0 2097153 3
 D0
-(null)~
+~
 ~
 0 0 20101
 S
@@ -543,11 +544,11 @@ know that mischievous sound?
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 20105
 D3
-(null)~
+~
 ~
 0 0 20102
 S
@@ -559,19 +560,19 @@ Hehehe!" She flies of north to, what looks like an inhabitance.
 ~
 0 2097156 3
 D0
-(null)~
+~
 ~
 0 0 20106
 D1
-(null)~
+~
 ~
 0 0 20107
 D2
-(null)~
+~
 ~
 0 0 20108
 D3
-(null)~
+~
 ~
 0 0 20104
 S
@@ -582,11 +583,11 @@ blinding to see so many colors at once all flying in different directions.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20110
 D2
-(null)~
+~
 ~
 0 0 20105
 S
@@ -597,7 +598,7 @@ importance. Better go on and come back another time.
 ~
 0 2097161 0
 D3
-(null)~
+~
 ~
 0 0 20105
 S
@@ -609,11 +610,11 @@ is a cave to your east
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20105
 D1
-(null)~
+~
 ~
 0 0 20109
 S
@@ -625,7 +626,7 @@ try to jump you but your too quick. Kill them and get back to the forest.
 ~
 0 2097153 0
 D3
-(null)~
+~
 ~
 0 0 20108
 S
@@ -639,19 +640,19 @@ on the sides of the road.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20113
 D1
-(null)~
+~
 ~
 0 0 20111
 D2
-(null)~
+~
 ~
 0 0 20106
 D3
-(null)~
+~
 ~
 0 0 20112
 S
@@ -663,7 +664,7 @@ intrusion.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 20110
 S
@@ -675,7 +676,7 @@ pixies don't mind you just squashed all their furniture.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 20110
 S
@@ -688,19 +689,19 @@ smashing up their houses.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20114
 D1
-(null)~
+~
 ~
 0 0 20115
 D2
-(null)~
+~
 ~
 0 0 20110
 D3
-(null)~
+~
 ~
 0 0 20116
 S
@@ -712,19 +713,19 @@ houses. Pixies are looking at you and giggling as they fly by.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20117
 D1
-(null)~
+~
 ~
 0 0 20119
 D2
-(null)~
+~
 ~
 0 0 20113
 D3
-(null)~
+~
 ~
 0 0 20118
 S
@@ -735,7 +736,7 @@ pixies walk in and out talking and telling jokes with one another.
 ~
 0 2097152 3
 D3
-(null)~
+~
 ~
 0 0 20113
 S
@@ -747,7 +748,7 @@ breath.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 20113
 S
@@ -760,19 +761,19 @@ is a castle, huge to the pixies, normal sized to you.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20122
 D1
-(null)~
+~
 ~
 0 0 20121
 D2
-(null)~
+~
 ~
 0 0 20114
 D3
-(null)~
+~
 ~
 0 0 20120
 S
@@ -784,7 +785,7 @@ of the ruins and cuss you out. "Stay away you big oaf!"
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 20114
 S
@@ -797,7 +798,7 @@ pixie with an attitude.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 20114
 S
@@ -809,19 +810,19 @@ the dealers have agreed to come outside.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20125
 D1
-(null)~
+~
 ~
 0 0 20117
 D2
-(null)~
+~
 ~
 0 0 19136
 D3
-(null)~
+~
 ~
 0 0 20123
 S
@@ -834,19 +835,19 @@ to you.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20129
 D1
-(null)~
+~
 ~
 0 0 20124
 D2
-(null)~
+~
 ~
 0 0 20130
 D3
-(null)~
+~
 ~
 0 0 20117
 S
@@ -859,11 +860,11 @@ quite nice.
 ~
 0 2097156 3
 D0
-(null)~
+~
 ~
 0 0 20133
 D2
-(null)~
+~
 ~
 0 0 20117
 S
@@ -875,15 +876,15 @@ while the basket shop is to the south.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20131
 D1
-(null)~
+~
 ~
 0 0 20120
 D2
-(null)~
+~
 ~
 0 0 20132
 S
@@ -895,15 +896,15 @@ pixie staffs.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20128
 D2
-(null)~
+~
 ~
 0 0 20127
 D3
-(null)~
+~
 ~
 0 0 20121
 S
@@ -915,7 +916,7 @@ ya just gonna stand there and stare or do you wanna buy something?"
 ~
 0 2101248 3
 D2
-(null)~
+~
 ~
 0 0 20120
 S
@@ -935,7 +936,7 @@ as a small gypsy pixie appears behind the counter in a swirling mist.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 20124
 S
@@ -949,7 +950,7 @@ would you buy one anyway?" "No?" The old man goes back inside.
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 20124
 S
@@ -963,7 +964,7 @@ tells you to leave, you're scaring the customers!
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 20121
 S
@@ -975,7 +976,7 @@ out the front door screaming.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 20121
 S
@@ -987,7 +988,7 @@ pixie running in and out buying all the latest clothes.
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 20123
 S
@@ -999,7 +1000,7 @@ baskets. However, I don't think you'll be able to fit much in there.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 20123
 S
@@ -1013,19 +1014,19 @@ have much of a choice if they're going to let you in or not.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 20134
 D1
-(null)~
+~
 ~
 1 0 20135
 D2
-(null)~
+~
 ~
 0 0 20122
 D3
-(null)~
+~
 ~
 1 0 20136
 S
@@ -1038,19 +1039,19 @@ respected pixie so you better be careful about how you act around her.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 20137
 D1
-(null)~
+~
 ~
 1 20121 20138
 D2
-(null)~
+~
 ~
 0 0 20133
 D3
-(null)~
+~
 ~
 1 20121 20139
 S
@@ -1063,7 +1064,7 @@ another place to stay.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 1 0 20133
 S
@@ -1076,7 +1077,7 @@ and all of the furniture.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 1 0 20133
 S
@@ -1089,11 +1090,11 @@ there is gold laying everywhere.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 20140
 D2
-(null)~
+~
 ~
 0 0 20134
 S
@@ -1105,7 +1106,7 @@ about one average pile. Take whatever you want.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 20134
 S
@@ -1117,7 +1118,7 @@ some off of her hands and help her out.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 20134
 S
@@ -1128,7 +1129,7 @@ Better leave before she gets mad!
 ~
 0 2097164 0
 D2
-(null)~
+~
 ~
 0 0 20137
 S

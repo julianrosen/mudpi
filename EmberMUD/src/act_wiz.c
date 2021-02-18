@@ -4387,7 +4387,7 @@ void do_string( CHAR_DATA * ch, char *argument )
         if ( !str_prefix( arg2, "description" ) )
         {
             free_string( &victim->description );
-            string_append( ch, &victim->description );
+            string_append( ch, &victim->description, COLOR_DESC );
             return;
         }
 

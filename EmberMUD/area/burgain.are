@@ -1,5 +1,6 @@
 #AREADATA
 Name        (6 90)  Burgain Southland~
+Group       Mudweiser~
 Builders    Burgain~
 VNUMs       26100 26199
 Security    6
@@ -13,7 +14,7 @@ trombone player~
 the Trombone Player~
 The trombone player is standing here, working a tough song
 ~
-(null)~
+~
 Human~
 A 0 0 S
 15 17 
@@ -44,7 +45,7 @@ trumpet~
 Trumpet Player~
 The trumpet player is standing here, poking fun at the clarinet
 ~
-(null)~
+~
 Human~
 A 0 -353 S
 20 2 
@@ -58,7 +59,7 @@ clarinet~
 clarinet player~
 The clarinet player is sitting here, exchanging insults with the trum pet player
 ~
-(null)~
+~
 Human~
 A 0 1000 S
 25 30 
@@ -72,7 +73,7 @@ Bass Player~
 the Bass player~
 The bass player is standing here, playing his chords
 ~
-(null)~
+~
 Human~
 A 0 378 S
 10 10 
@@ -103,7 +104,7 @@ saxophone player~
 the Saxophone player~
 The saxophone player is sitting here, making up a solo
 ~
-(null)~
+~
 Human~
 A 0 453 S
 11 20 
@@ -117,7 +118,7 @@ The Conductor~
 the Conductor~
 The conductor of the band is here, conducting his band
 ~
-(null)~
+~
 Human~
 A 0 399 S
 15 15 
@@ -131,7 +132,7 @@ The tuba~
 the tuba player~
 The tuba player of the band is sitting here, blowing his lips off
 ~
-(null)~
+~
 Human~
 A 0 423 S
 13 13 
@@ -145,7 +146,7 @@ drummer ~
 the Drummer~
 The drummer is here, drumming away
 ~
-(null)~
+~
 Human~
 A 0 546 S
 17 17 
@@ -159,7 +160,7 @@ Female Citizen~
 Female Citizen of Lousi~
 A female citizen of Lousi is here, cleaning the house
 ~
-(null)~
+~
 Human~
 AB 0 1000 S
 13 4 
@@ -191,7 +192,7 @@ male citizen~
 a male citizen of Lousi~
 A male citizen of Lousi is sitting in a chair here.
 ~
-(null)~
+~
 Human~
 AB 0 1000 S
 13 4 
@@ -205,7 +206,7 @@ The night guard of Lousi~
 the night guard~
 The night guard of Lousi is here, sleeping until his shift.
 ~
-(null)~
+~
 Human~
 ABT 0 0 S
 18 18 
@@ -219,7 +220,7 @@ beast~
 the Beast~
 The Beast!! Oh no!
 ~
-(null)~
+~
 Giant~
 ACF 0 -1000 S
 20 20 
@@ -233,7 +234,7 @@ deer animal~
 a deer~
 A deer of this forest is eating here
 ~
-(null)~
+~
 Human~
 A 0 200 S
 30 30 
@@ -247,7 +248,7 @@ a Purple Deer~
 a purple deer~
 A purple deer is standing here, looking at you and smiling.
 ~
-(null)~
+~
 fido~
 AB 0 0 S
 20 40 
@@ -261,7 +262,7 @@ a bear~
 a bear~
 A bear of the forest is growling at you here
 ~
-(null)~
+~
 Human~
 AT 0 1000 S
 38 35 
@@ -291,7 +292,7 @@ A Scaleman~
 a Scaleman~
 A Scaleman is here, swimming in the mud
 ~
-(null)~
+~
 Human~
 A 0 0 S
 35 32 
@@ -305,7 +306,7 @@ old hermit~
 an old hermit~
 An old hermit was sitting by his fire, minding his own business, until you came.
 ~
-(null)~
+~
 Human~
 ABF DFVZ 0 S
 90 37 
@@ -319,7 +320,7 @@ ape~
 a baby ape~
 A baby ape is sitting here, roaring away
 ~
-(null)~
+~
 Troll~
 ABH Jc 0 S
 40 40 
@@ -333,7 +334,7 @@ old scaleman~
 a old scaleman~
 A old scaleman is laying here, acting dead.
 ~
-(null)~
+~
 Human~
 AO H 0 S
 40 60 
@@ -653,7 +654,7 @@ visable to the south, and the north.
 ~
 0 4 4
 D2
-(null)~
+~
 ~
 0 0 26101
 S
@@ -667,11 +668,11 @@ You may continue on the path to the south or to the north.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 26100
 D2
-(null)~
+~
 ~
 0 0 26102
 S
@@ -685,11 +686,11 @@ Southland.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 0 26101
 D2
-(null)~
+~
 ~
 0 0 26103
 S
@@ -703,15 +704,15 @@ is what appears to be a small village.
 ~
 0 4 4
 D0
-(null)~
+~
 ~
 0 0 26102
 D2
-(null)~
+~
 ~
 0 0 26104
 D3
-(null)~
+~
 ~
 0 0 26105
 S
@@ -725,11 +726,11 @@ is the village Lousi.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 26103
 D2
-(null)~
+~
 ~
 0 0 26106
 S
@@ -742,11 +743,11 @@ To the east you see the crossroads. And to the west you see a field.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26103
 D3
-(null)~
+~
 ~
 0 0 26138
 S
@@ -759,11 +760,11 @@ roads. To the south you see the village.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26104
 D2
-(null)~
+~
 ~
 0 0 26107
 S
@@ -775,15 +776,15 @@ band performing south of here. And the crossroads far north of here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 26106
 D2
-(null)~
+~
 ~
 0 0 26108
 D3
-(null)~
+~
 ~
 0 0 26109
 S
@@ -796,15 +797,15 @@ of Lousi is north from here. And the band plays south from here
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26107
 D2
-(null)~
+~
 ~
 0 0 26110
 D3
-(null)~
+~
 ~
 0 0 26111
 S
@@ -816,7 +817,7 @@ You feel like you should pick it up...
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26107
 S
@@ -829,7 +830,7 @@ the center of this village. And to the north is the entrance to Lousi.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 26108
 S
@@ -844,15 +845,15 @@ is playing dixieland music. And all around you are houses.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 26108
 D2
-(null)~
+~
 ~
 0 0 26112
 D3
-(null)~
+~
 ~
 0 0 26113
 S
@@ -864,7 +865,7 @@ can tell it used to be a bakery.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26111
 S
@@ -877,19 +878,19 @@ south from here. To the west you see a small collection of houses, about
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 26115
 D1
-(null)~
+~
 ~
 0 0 26111
 D2
-(null)~
+~
 ~
 0 0 26114
 D3
-(null)~
+~
 ~
 0 0 26116
 S
@@ -902,7 +903,7 @@ To you northeast you can go to the village square.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26113
 S
@@ -914,7 +915,7 @@ closed, maybe beacuse they did not get enough custumers...
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 26113
 S
@@ -927,19 +928,19 @@ the village square.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26117
 D1
-(null)~
+~
 ~
 0 0 26113
 D2
-(null)~
+~
 ~
 0 0 26118
 D3
-(null)~
+~
 ~
 0 0 26129
 S
@@ -949,15 +950,15 @@ You are on a road, houses are on both sides of the road.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26125
 D2
-(null)~
+~
 ~
 0 0 26116
 D3
-(null)~
+~
 ~
 0 0 26124
 S
@@ -967,15 +968,15 @@ You are on a road, houses are on both sides of the road.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26116
 D2
-(null)~
+~
 ~
 0 0 26119
 D3
-(null)~
+~
 ~
 0 0 26120
 S
@@ -985,19 +986,19 @@ You are on a road, houses are on both sides of the road.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26118
 D1
-(null)~
+~
 ~
 0 0 26123
 D2
-(null)~
+~
 ~
 0 0 26121
 D3
-(null)~
+~
 ~
 0 0 26122
 S
@@ -1008,7 +1009,7 @@ because they don't think anyone in their village would steal.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26118
 S
@@ -1019,7 +1020,7 @@ because they don't believe that anyone in their village would steal.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26119
 S
@@ -1030,7 +1031,7 @@ beacause they don't think anyone in their village would steal.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26119
 S
@@ -1041,7 +1042,7 @@ beacuse they don't believe anyone in their village would steal.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26119
 S
@@ -1052,7 +1053,7 @@ beacuse they don't believe that anyone in their village would steal.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26117
 S
@@ -1062,19 +1063,19 @@ You are on a road, houses are on both sides of the road.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 26128
 D1
-(null)~
+~
 ~
 0 0 26127
 D2
-(null)~
+~
 ~
 0 0 26117
 D3
-(null)~
+~
 ~
 0 0 26126
 S
@@ -1085,7 +1086,7 @@ because they don't believe anyone in their village would steal.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26125
 S
@@ -1096,7 +1097,7 @@ because they don't believe anyone in their village would steal.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26125
 S
@@ -1108,7 +1109,7 @@ from them.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 26125
 S
@@ -1121,7 +1122,7 @@ the fields and fields of sugar cane.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26116
 S
@@ -1144,15 +1145,15 @@ lies an entrance to some caves.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 26139
 D1
-(null)~
+~
 ~
 0 0 26105
 D3
-(null)~
+~
 ~
 0 0 26142
 S
@@ -1165,11 +1166,11 @@ the caves.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 26140
 D2
-(null)~
+~
 ~
 0 0 26138
 S
@@ -1181,11 +1182,11 @@ light is visable.
 ~
 0 5 0
 D2
-(null)~
+~
 ~
 0 0 26139
 D3
-(null)~
+~
 ~
 0 0 26141
 S
@@ -1198,7 +1199,7 @@ attacks with a roar.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 26140
 S
@@ -1211,11 +1212,11 @@ you. And a swampland to the northwest.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26138
 D3
-(null)~
+~
 ~
 0 0 26143
 S
@@ -1229,11 +1230,11 @@ Missichipi to your west. Or go to a field to your east.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26142
 D3
-(null)~
+~
 ~
 0 0 26144
 S
@@ -1246,15 +1247,15 @@ the south you see the mud start turning into a forest.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26143
 D2
-(null)~
+~
 ~
 0 0 26145
 D3
-(null)~
+~
 ~
 0 0 26171
 S
@@ -1266,11 +1267,11 @@ the river Missichipi. To the west is the entrance to the forest.
 ~
 0 4 3
 D0
-(null)~
+~
 ~
 0 0 26144
 D3
-(null)~
+~
 ~
 0 0 26146
 S
@@ -1282,15 +1283,15 @@ look like they would tear you limb from limb.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 26145
 D2
-(null)~
+~
 ~
 0 0 26153
 D3
-(null)~
+~
 ~
 0 0 26147
 S
@@ -1303,15 +1304,15 @@ is more forest.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 26146
 D2
-(null)~
+~
 ~
 0 0 26152
 D3
-(null)~
+~
 ~
 0 0 26148
 S
@@ -1324,15 +1325,15 @@ To the west, east, and south there is more woods.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 26147
 D2
-(null)~
+~
 ~
 0 0 26151
 D3
-(null)~
+~
 ~
 0 0 26149
 S
@@ -1344,11 +1345,11 @@ cover of the trees to the south and east.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 26148
 D2
-(null)~
+~
 ~
 0 0 26150
 S
@@ -1362,15 +1363,15 @@ of this forest.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 26149
 D1
-(null)~
+~
 ~
 0 0 26151
 D2
-(null)~
+~
 ~
 0 0 26157
 S
@@ -1383,19 +1384,19 @@ the northeast.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 26148
 D1
-(null)~
+~
 ~
 0 0 26152
 D2
-(null)~
+~
 ~
 0 0 26156
 D3
-(null)~
+~
 ~
 0 0 26150
 S
@@ -1408,19 +1409,19 @@ you, from behind the trees.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26147
 D1
-(null)~
+~
 ~
 0 0 26153
 D2
-(null)~
+~
 ~
 0 0 26155
 D3
-(null)~
+~
 ~
 0 0 26151
 S
@@ -1432,15 +1433,15 @@ some deer darted out and pecked at you. You better not go to sleep...
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26146
 D2
-(null)~
+~
 ~
 0 0 26154
 D3
-(null)~
+~
 ~
 0 0 26152
 S
@@ -1453,15 +1454,15 @@ and to the north and west, deer watch you.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26153
 D2
-(null)~
+~
 ~
 0 0 26158
 D3
-(null)~
+~
 ~
 0 0 26155
 S
@@ -1473,19 +1474,19 @@ drop off to the south. And to the north, west, and east is more forest.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26152
 D1
-(null)~
+~
 ~
 0 0 26154
 D2
-(null)~
+~
 ~
 0 0 26159
 D3
-(null)~
+~
 ~
 0 0 26156
 S
@@ -1498,15 +1499,15 @@ To the west, north, and east is more forest.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26151
 D1
-(null)~
+~
 ~
 0 0 26155
 D3
-(null)~
+~
 ~
 0 0 26157
 S
@@ -1519,11 +1520,11 @@ To the north and west is more of this forest.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 26150
 D1
-(null)~
+~
 ~
 0 0 26156
 S
@@ -1535,11 +1536,11 @@ to more of this forest.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26154
 D3
-(null)~
+~
 ~
 0 0 26159
 S
@@ -1552,19 +1553,19 @@ there is bear country.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26155
 D1
-(null)~
+~
 ~
 0 0 26158
 D2
-(null)~
+~
 ~
 0 0 26170
 D3
-(null)~
+~
 ~
 0 0 26160
 S
@@ -1576,15 +1577,15 @@ bear country.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 26159
 D2
-(null)~
+~
 ~
 0 0 26169
 D3
-(null)~
+~
 ~
 0 0 26161
 S
@@ -1597,15 +1598,15 @@ out of a holde in the top. To the south and east is more forest.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 26160
 D2
-(null)~
+~
 ~
 0 0 26168
 D3
-(null)~
+~
 ~
 0 0 26162
 S
@@ -1619,11 +1620,11 @@ is a small clearing.
 ~
 0 4 3
 D1
-(null)~
+~
 ~
 0 0 26161
 D3
-(null)~
+~
 ~
 0 0 26163
 S
@@ -1636,15 +1637,15 @@ To the east is the entrance to the hut. To the north is more hut.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26166
 D1
-(null)~
+~
 ~
 0 0 26162
 D3
-(null)~
+~
 ~
 0 0 26164
 S
@@ -1657,11 +1658,11 @@ north and east, to more of this hut.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 26165
 D1
-(null)~
+~
 ~
 0 0 26163
 S
@@ -1673,11 +1674,11 @@ To the south you here chanting, and to the east is more hut.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26166
 D2
-(null)~
+~
 ~
 0 0 26164
 S
@@ -1689,15 +1690,15 @@ and east is more of this hut.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 26167
 D2
-(null)~
+~
 ~
 0 0 26163
 D3
-(null)~
+~
 ~
 0 0 26165
 S
@@ -1709,7 +1710,7 @@ To your east is more hut.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 26166
 S
@@ -1721,11 +1722,11 @@ To the north and east you see more forest.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26161
 D1
-(null)~
+~
 ~
 0 0 26169
 S
@@ -1737,28 +1738,28 @@ To the north, west, and east is more woods.
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26160
 D1
-(null)~
+~
 ~
 0 0 26170
 D3
-(null)~
+~
 ~
 0 0 26168
 S
 #26170
 In the forest~
-(null)~
+~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 26159
 D3
-(null)~
+~
 ~
 0 0 26169
 S
@@ -1771,11 +1772,11 @@ river Missichipi.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 26172
 D1
-(null)~
+~
 ~
 0 0 26144
 S
@@ -1788,11 +1789,11 @@ into the swamp, if you dare.
 ~
 0 4 2
 D0
-(null)~
+~
 ~
 0 0 26173
 D2
-(null)~
+~
 ~
 0 0 26171
 S
@@ -1807,11 +1808,11 @@ the swamp.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 26172
 D3
-(null)~
+~
 ~
 0 0 26174
 S
@@ -1824,11 +1825,11 @@ To the west is more mud! To the east is more mud too. When will it end.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 26173
 D3
-(null)~
+~
 ~
 0 0 26175
 S
@@ -1840,15 +1841,15 @@ The scaleman still do not take notice of you.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26176
 D1
-(null)~
+~
 ~
 0 0 26174
 D3
-(null)~
+~
 ~
 0 0 26178
 S
@@ -1861,11 +1862,11 @@ out.
 ~
 0 1 2
 D2
-(null)~
+~
 ~
 0 0 26175
 D3
-(null)~
+~
 ~
 0 0 26177
 S
@@ -1878,15 +1879,15 @@ scalepeople...
 ~
 0 1 2
 D1
-(null)~
+~
 ~
 0 0 26176
 D2
-(null)~
+~
 ~
 0 0 26178
 D3
-(null)~
+~
 ~
 0 0 26182
 S
@@ -1898,19 +1899,19 @@ and hogging the dry places.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26177
 D1
-(null)~
+~
 ~
 0 0 26175
 D2
-(null)~
+~
 ~
 0 0 26179
 D3
-(null)~
+~
 ~
 0 0 26181
 S
@@ -1923,15 +1924,15 @@ Mud, mud, every where you look.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26178
 D1
-(null)~
+~
 ~
 0 0 26190
 D3
-(null)~
+~
 ~
 0 0 26180
 S
@@ -1944,19 +1945,19 @@ In all directions you see swamp...
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26181
 D1
-(null)~
+~
 ~
 0 0 26179
 D2
-(null)~
+~
 ~
 0 0 26189
 D3
-(null)~
+~
 ~
 0 0 26185
 S
@@ -1970,36 +1971,36 @@ Every direction you look you see mud, and more mud.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26182
 D1
-(null)~
+~
 ~
 0 0 26178
 D2
-(null)~
+~
 ~
 0 0 26180
 D3
-(null)~
+~
 ~
 0 0 26184
 S
 #26182
 ~
-(null)~
+~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 26177
 D2
-(null)~
+~
 ~
 0 0 26181
 D3
-(null)~
+~
 ~
 0 0 26183
 S
@@ -2012,11 +2013,11 @@ off. You can take your anger out on the scalemen...
 ~
 0 1 2
 D1
-(null)~
+~
 ~
 0 0 26182
 D2
-(null)~
+~
 ~
 0 0 26184
 S
@@ -2029,19 +2030,19 @@ as you try to push them off the dry places.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 26183
 D1
-(null)~
+~
 ~
 0 0 26181
 D2
-(null)~
+~
 ~
 0 0 26185
 D3
-(null)~
+~
 ~
 0 0 26191
 S
@@ -2055,19 +2056,19 @@ Every where you look, mud.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 0 26184
 D1
-(null)~
+~
 ~
 0 0 26180
 D2
-(null)~
+~
 ~
 0 0 26188
 D3
-(null)~
+~
 ~
 0 0 26186
 S
@@ -2081,11 +2082,11 @@ All around you, you see scalemen, and mud.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 26185
 D2
-(null)~
+~
 ~
 0 0 26187
 S
@@ -2098,28 +2099,28 @@ northwest.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 26186
 D1
-(null)~
+~
 ~
 0 0 26188
 S
 #26188
 ~
-(null)~
+~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 26185
 D1
-(null)~
+~
 ~
 0 0 26189
 D3
-(null)~
+~
 ~
 0 0 26187
 S
@@ -2131,11 +2132,11 @@ You are getting cold from the wet mud.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 26180
 D3
-(null)~
+~
 ~
 0 0 26188
 S
@@ -2145,7 +2146,7 @@ The scalemen just never stop coming...
 ~
 0 1 2
 D3
-(null)~
+~
 ~
 0 0 26179
 S
@@ -2159,11 +2160,11 @@ in the swamp to the east.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26184
 D3
-(null)~
+~
 ~
 0 0 26192
 S
@@ -2177,11 +2178,11 @@ swamp with hundreds of scalepeople.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 26191
 D3
-(null)~
+~
 ~
 0 0 26193
 S
@@ -2195,15 +2196,15 @@ caves you can go north or south.
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 26194
 D1
-(null)~
+~
 ~
 0 0 26192
 D2
-(null)~
+~
 ~
 0 0 26198
 S
@@ -2215,11 +2216,11 @@ he screams and attacks.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 26193
 D3
-(null)~
+~
 ~
 0 0 26195
 S
@@ -2232,11 +2233,11 @@ You wonder what an ape is doing here...
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 26194
 D2
-(null)~
+~
 ~
 0 0 26196
 S
@@ -2249,15 +2250,15 @@ most come from.
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 26195
 D2
-(null)~
+~
 ~
 0 0 26197
 D3
-(null)~
+~
 ~
 0 0 26199
 S
@@ -2270,11 +2271,11 @@ Or east, back out of the caves.
 ~
 0 1 0
 D0
-(null)~
+~
 ~
 0 0 26196
 D1
-(null)~
+~
 ~
 0 0 26198
 S
@@ -2287,11 +2288,11 @@ You wonder what it could be.
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 26193
 D3
-(null)~
+~
 ~
 0 0 26197
 S
@@ -2305,7 +2306,7 @@ ones in the swamp. When they get old, they are put in here...
 ~
 0 1 0
 D1
-(null)~
+~
 ~
 0 0 26196
 S

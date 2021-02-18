@@ -4479,7 +4479,7 @@ void spell_firewind( int sn, int level, CHAR_DATA * ch, void *vo )
     CHAR_DATA *victim = ( CHAR_DATA * ) vo;
     int dam;
 
-    dam = dice( level, 13 );
+    dam = dice( level, 17 );
     if ( saves_spell( level, victim ) )
         dam /= 2;
     act( "$n dissappears in a gust of burning winds.", victim, NULL, NULL,

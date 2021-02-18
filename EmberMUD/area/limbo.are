@@ -1,5 +1,6 @@
 #AREADATA
 Name        {None } Diku    Limbo~
+Group       Embermud~
 Builders    None~
 VNUMs       1 99
 Security    9
@@ -37,7 +38,7 @@ SuperMob mprogs~
 SuperMob`w~
 SuperMob is here to save the day!`w
 ~
-(null)~
+~
 Human~
 ABGVd 0 0 S
 93 29 
@@ -238,7 +239,7 @@ You are floating in nothing.
 ~
 0 12 1
 D3
-(null)~
+~
 ~
 0 0 2
 S
@@ -251,22 +252,22 @@ darkness around you without any trace of edges or shadow.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 1
 D4
-(null)~
+~
 ~
 0 -1 16001
 S
 #4
 SuperMobs' Home ~
-(null)~
+~
 0 16388 0
 S
 #55
 ~
-(null)~
+~
 0 4 0
 S
 #0

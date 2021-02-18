@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1 30} Kahn    Old Thalos~
+Group       Embermud~
 Builders    None~
 VNUMs       5300 5386
 Security    9
@@ -519,7 +520,7 @@ janitor~
 the janitor~
 A janitor is walking around, cleaning up.
 ~
-(null)~
+~
 Human~
 AT 0 900 S
 1 0 
@@ -1154,15 +1155,15 @@ children playing games in the distance catch your attention.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5343
 D2
-(null)~
+~
 ~
 0 0 5310
 D3
-(null)~
+~
 ~
 0 0 5328
 S
@@ -1175,7 +1176,7 @@ continues north and south and buildings line the street.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5309
 D1
@@ -1184,7 +1185,7 @@ A small doorway leads into a little humble dwelling.
 ~
 1 -1 5344
 D2
-(null)~
+~
 ~
 0 0 5311
 D3
@@ -1201,7 +1202,7 @@ pass by you with a friendly hello. You almost feel like home here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5310
 D1
@@ -1241,7 +1242,7 @@ elaborate of all the building here in Thalos.
 ~
 1 -1 5332
 D2
-(null)~
+~
 ~
 0 0 5313
 D3
@@ -1260,7 +1261,7 @@ north and south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5312
 D1
@@ -1271,7 +1272,7 @@ telling tall tales and drinking their fill.
 ~
 0 0 5330
 D2
-(null)~
+~
 ~
 0 0 5314
 D3
@@ -1288,19 +1289,19 @@ A long alley runs east and west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5313
 D1
-(null)~
+~
 ~
 0 0 5351
 D2
-(null)~
+~
 ~
 0 0 5329
 D3
-(null)~
+~
 ~
 0 0 5318
 S
@@ -1312,15 +1313,15 @@ Thalos.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5316
 D1
-(null)~
+~
 ~
 0 0 5318
 D4
-(null)~
+~
 ~
 0 0 5347
 S
@@ -1363,7 +1364,7 @@ tempted to take some.
 ~
 0 0 5320
 D2
-(null)~
+~
 ~
 0 0 5316
 S
@@ -1436,7 +1437,7 @@ awe at how much work must have been put into these cloths.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5323
 D1
@@ -1462,7 +1463,7 @@ A tall watchtower stands a silent vigil over the city.
 ~
 0 0 5324
 D2
-(null)~
+~
 ~
 0 0 5322
 S
@@ -1473,11 +1474,11 @@ the city from invaders. You know that you are safe from any danger.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5328
 D2
-(null)~
+~
 ~
 0 0 5323
 D4
@@ -1537,11 +1538,11 @@ a small side street.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 5309
 D3
-(null)~
+~
 ~
 0 0 5324
 S
@@ -1589,7 +1590,7 @@ The long hallway leads back to the main reception area of the city hall.
 ~
 0 0 5332
 D1
-(null)~
+~
 ~
 0 0 5334
 S
@@ -1617,7 +1618,7 @@ A hallway leads to the south wing of the city hall.
 ~
 0 0 5331
 D3
-(null)~
+~
 ~
 1 -1 5312
 S
@@ -1631,11 +1632,11 @@ courtyard.
 ~
 0 8 1
 D2
-(null)~
+~
 ~
 0 0 5334
 D3
-(null)~
+~
 ~
 0 0 5332
 S
@@ -1649,11 +1650,11 @@ north and west lead back into the city hall.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5333
 D3
-(null)~
+~
 ~
 0 0 5331
 S
@@ -1760,11 +1761,11 @@ south and a sturdy ladder leads up into the tower.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 5340
 D3
-(null)~
+~
 ~
 0 0 5343
 D4
@@ -1824,7 +1825,7 @@ east wall.
 ~
 0 8 1
 D1
-(null)~
+~
 ~
 0 0 5342
 D3
@@ -1840,7 +1841,7 @@ a nearby bay. Birds fly by your window.
 ~
 0 0 1
 D5
-(null)~
+~
 ~
 0 0 5337
 S
@@ -1929,15 +1930,15 @@ from invaders. From the looks of things, its doing a great job.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5353
 D3
-(null)~
+~
 ~
 0 0 5351
 D4
-(null)~
+~
 ~
 0 0 5354
 S
@@ -1982,7 +1983,7 @@ You see main street.
 ~
 0 0 5301
 D2
-(null)~
+~
 ~
 0 0 5353
 D3
@@ -2102,19 +2103,19 @@ the dwarven forest. To the north is a very desolate trail.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5363
 D1
-(null)~
+~
 ~
 0 0 5369
 D2
-(null)~
+~
 ~
 0 0 5361
 D3
-(null)~
+~
 ~
 0 0 5364
 S
@@ -2126,11 +2127,11 @@ serenity. You can follow the road north or south.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 5365
 D2
-(null)~
+~
 ~
 0 0 5362
 S
@@ -2143,11 +2144,11 @@ surrounded by building foundations of unfinished shops, houses, and temple.
 ~
 0 4 1
 D1
-(null)~
+~
 ~
 0 0 5362
 D3
-(null)~
+~
 ~
 0 0 5385
 S
@@ -2163,7 +2164,7 @@ further, you lose the trail and decide not to get lost.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 5363
 S
@@ -2428,26 +2429,26 @@ rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
-D3
-You see stars.
-~
-~
-0 0 5378
-D1
-You see stars.
-~
-~
-0 0 5378
 D4
 You see stars.
 ~
 ~
 0 0 5376
+D1
+You see stars.
+~
+~
+0 0 5378
 D2
 You see a fuzzy portal of some sort and a little green.
 ~
 ~
 0 0 5368
+D3
+You see stars.
+~
+~
+0 0 5378
 D5
 You see stars.
 ~
@@ -2463,36 +2464,36 @@ either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
 rainbow then back to its normal state.
 ~
 0 0 3
-D1
-You see stars.
-~
-~
-0 0 5376
-D0
-You see stars.
-~
-~
-0 0 5377
-D4
-You see stars.
-~
-~
-0 0 5375
 D3
 You see stars.
 ~
 ~
 0 0 5376
-D2
+D4
 You see stars.
 ~
 ~
-0 0 5377
+0 0 5375
 D5
 You see stars.
 ~
 ~
 0 0 5375
+D0
+You see stars.
+~
+~
+0 0 5377
+D2
+You see stars.
+~
+~
+0 0 5377
+D1
+You see stars.
+~
+~
+0 0 5376
 S
 #5377
 The Void~
@@ -2503,12 +2504,7 @@ either. Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
 rainbow then back to its normal state.
 ~
 0 0 3
-D5
-You see stars.
-~
-~
-0 0 5378
-D3
+D1
 You see stars.
 ~
 ~
@@ -2518,16 +2514,21 @@ You see stars.
 ~
 ~
 0 0 5376
-D1
+D5
 You see stars.
 ~
 ~
-0 0 5377
+0 0 5378
 D4
 You see stars.
 ~
 ~
 0 0 5378
+D3
+You see stars.
+~
+~
+0 0 5377
 D2
 You see stars.
 ~
@@ -2544,22 +2545,22 @@ rainbow then back to its normal state. In the middle of this room is
 a ladder standing vertical.
 ~
 0 0 3
+D3
+You see stars.
+~
+~
+0 0 5375
 D2
 You see a fuzzy portal of some sort and a little green.
 ~
 ~
 0 0 8903
-D1
-You see stars.
-~
-~
-0 0 5375
 D4
 You see stars.
 ~
 ~
 0 0 5377
-D3
+D1
 You see stars.
 ~
 ~

@@ -1,5 +1,6 @@
 #AREADATA
-Name        {20 50} Jules   Rainbow Keys~
+Name        {20 50} Jules   Rainbow Jewels~
+Group       Mudpi~
 Builders    Matrix~
 VNUMs       10000 10300
 Security    1
@@ -61,7 +62,7 @@ glinda~
 Glinda~
 Glinda the potion-maker is here, selling here wares.
 ~
-(null)~
+~
 Human~
 ABXd H 1000 S
 60 0 
@@ -75,7 +76,7 @@ no name~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -89,7 +90,7 @@ fit jogger~
 a very fit jogger~
 You see a man jogging. He looks like he knows his way around.
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -98,12 +99,43 @@ A 0 0 S
 0 0 0 0
 8 8 0 0
 AHMV ABCDEFGHIJK M 0
+#10006
+dummy~
+(no short description)~
+(no long description)
+~
+~
+Human~
+A 0 0 S
+0 0 
+0 0 0 0 1d1+1 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#10007
+clone hame~
+a Ham Harbor cityguard~
+A Ham Harbor cityguard is standing here in a freshly-pressed uniform.
+~
+Ham Harbor cityguards are the model of professionalism. Every aspect of
+their clothing, armor, weapons, movement, and speech is carefully
+calculated. One should think twice before messing with one of them. 
+~
+Human~
+AT N 1000 S
+24 2 
+100 0 0 0 7d40+270 0d0+0 5d11+5 0
+-1 -1 -1 3
+CELNT 0 0 0
+8 8 -1 200
+AHMV ABCDEFGHIJK M 0
 #10008
-esmerelda woman~
+esmerelda old woman~
 an old woman~
 An old woman is here, paying her respects to the dead.
 ~
-(null)~
+~
 Human~
 ABd 0 0 S
 0 0 
@@ -117,7 +149,7 @@ knid~
 a vermicious knid~
 A knid stands here. It does *not* look happy to see you.
 ~
-(null)~
+~
 pig~
 AB 0 0 S
 20 0 
@@ -146,7 +178,7 @@ grandma jones~
 Grandma Jones~
 Grandma Jones is here.
 ~
-(null)~
+~
 Human~
 ABT 0 0 S
 28 10000 
@@ -175,7 +207,10 @@ ham cityguard guard~
 a Ham Harbor cityguard~
 A Ham Harbor cityguard is standing here in a freshly-pressed uniform.
 ~
-(null)~
+Ham Harbor cityguards are the model of professionalism. Every aspect of
+their clothing, armor, weapons, movement, and speech is carefully
+calculated. One should think twice before messing with one of them. 
+~
 Human~
 AT N 1000 S
 24 2 
@@ -219,7 +254,7 @@ invisiguy~
 an invisible guy~
 An invisible guy is here.
 ~
-(null)~
+~
 Human~
 ABW ABJ 0 S
 0 0 
@@ -233,7 +268,7 @@ grandpa smith~
 Grandpa Smith~
 Grandpa Smith is here. He is very old.
 ~
-(null)~
+~
 Human~
 ABT 0 0 S
 28 10000 
@@ -247,7 +282,7 @@ lila~
 Lila~
 Lila is here, reading a book.
 ~
-(null)~
+~
 Human~
 ABGd 0 0 S
 0 0 
@@ -282,7 +317,7 @@ amelias key~
 amelia's key~
 Here is a long metal key with the letter 'A' stamped on one end.~
 unknown~
-18 0 A
+18 0 AO
 0 0 0 0 0
 0 0 0 P
 #10003
@@ -496,11 +531,11 @@ unknown~
 0 ABCD BDFIJKN 0 0
 0 0 0 P
 #10028
-snow-white snow white blade~
-a snow-white blade~
-A snow-white blade glistens in the sun.~
+shining blade sword~
+a shining blade~
+You are blinded by a shining blade.~
 unknown~
-5 0 AN
+5 A AN
 A AB ACD AB E
 40 0 0 P
 A
@@ -663,6 +698,14 @@ unknown~
 13 0 A
 0 0 0 0 0
 0 0 0 P
+#10040
+junk~
+a shining blade~
+You are blinded by a shining blade.~
+unknown~
+5 0 AN
+A AB ACD AB E
+40 0 0 P
 #0
 
 
@@ -674,11 +717,11 @@ You are at the eastern gate of the town of Ham Harbor.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10001
 D3
-(null)~
+~
 ~
 0 0 10148
 S
@@ -688,48 +731,49 @@ On the east side of the road, you see a market.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10002
 D1
-(null)~
+~
 ~
 0 0 10115
 D2
-(null)~
+~
 ~
 0 0 10000
 S
 #10002
 Eastern Pass~
-You are on a pleasant road just south of Bellsworth Lane. There are some shops around.
+You are on a pleasant road just south of Bellsworth Lane. There are some
+shops around. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10056
 D2
-(null)~
+~
 ~
 0 0 10001
 S
 #10003
 Outside The Gate~
-You stand outside the west gate of the city of Ham Harbor.
-Tackard Road runs to the north and south.
+You stand outside the west gate of the city of Ham Harbor. Tackard Road
+runs to the north and south. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10072
 D1
-(null)~
+~
 ~
 0 0 10158
 D2
-(null)~
+~
 ~
 0 0 10039
 S
@@ -739,53 +783,53 @@ You are floating up a long chimney.
 ~
 0 8 9
 D4
-(null)~
+~
 ~
 0 0 10005
 D5
-(null)~
+~
 ~
 1 0 10142
 S
 #10005
 On The Roof~
 You are on the roof of a house. There is a chimney, which looks just big
-enough for a person to fit through.
+enough for a person to fit through. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10006
 D5
-(null)~
+~
 ~
 0 0 10142
 S
 #10006
 Another Roof~
-You are on another roof. This roof is in much better shape than the other, and the
-house beneath it is much fancier.
+You are on another roof. This roof is in much better shape than the
+other, and the house beneath it is much fancier. 
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 10005
 D5
-(null)~
+~
 ~
 0 0 10007
 S
 #10007
 Nice House~
 You are in the living room of a nice house. Clearly whoever owns this
-house likes tobacco. All the doors are locked, so the only way out
-is back up the chimney.
+house likes tobacco. All the doors are locked, so the only way out is back
+up the chimney. 
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 10006
 S
@@ -795,57 +839,59 @@ This is the violet room. That means the next room must have the prize!
 ~
 0 1048584 0
 D1
-(null)~
+~
 ~
 6 10035 10077
 D3
-(null)~
+~
 ~
 6 10013 10078
 S
 #10009
 Road To Cemetary~
-You are getting near the old cemetary.
+You are getting near the old cemetary. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10010
 D3
-(null)~
+~
 ~
 0 0 10041
 S
 #10010
 At The Cemetary Gate~
-The cemetary gate is made out of iron. It looks to be several hundred years old.
+The cemetary gate is made out of iron. It looks to be several hundred
+years old. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10011
 D3
-(null)~
+~
 ~
 0 0 10009
 S
 #10011
 In The Cemetary~
-You are in the cemetary. There are headstones everywhere. In the distance, you see some kind of crypt.
+You are in the cemetary. There are headstones everywhere. In the
+distance, you see some kind of crypt. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10012
 D1
-(null)~
+~
 ~
 0 0 10082
 D3
-(null)~
+~
 ~
 0 0 10010
 S
@@ -855,11 +901,11 @@ There are more headstones here.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10092
 D2
-(null)~
+~
 ~
 0 0 10011
 S
@@ -869,193 +915,195 @@ You are on a road leading out of the city of Midgaard.
 ~
 0 4 1
 D1
-(null)~
+~
 ~
 0 0 16047
 D3
-(null)~
+~
 ~
 0 0 10014
 S
 #10014
 Road Into Mashtenaw County~
-You are entering Mashtenaw county, the hub of which is the city of Ham Harbor. Seven
-jewels in the colors of the rainbow are hidden around the county. Retrieve all seven
-and you will unlock the prize.
+You are entering Mashtenaw county, the hub of which is the city of Ham
+Harbor. Seven jewels in the colors of the rainbow are hidden around the
+county. Retrieve all seven and you will unlock the prize. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10013
 D3
-(null)~
+~
 ~
 0 0 10015
 S
 #10015
 Intersection of Litmore Lake Road And Tackard Road~
-Litmore Lake Road heads off to the west. Tackard Road runs to the south, to Ham Harbor and beyond.
+Litmore Lake Road heads off to the west. Tackard Road runs to the south,
+to Ham Harbor and beyond. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10014
 D2
-(null)~
+~
 ~
 0 0 10030
 D3
-(null)~
+~
 ~
 0 0 10016
 S
 #10016
 Litmore Lake Road~
-You are on a well-maintained gravel road.
+You are on a well-maintained gravel road. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10015
 D3
-(null)~
+~
 ~
 0 0 10017
 S
 #10017
 Litmore Lake Road~
-Litmore Lake Road runs east-west. To the north, you see an abandoned building.
+Litmore Lake Road runs east-west. To the north, you see an abandoned
+building. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10018
 D1
-(null)~
+~
 ~
 0 0 10016
 D3
-(null)~
+~
 ~
 0 0 10019
 S
 #10018
 An Abandoned Building~
-It appears that this was once an office, but has long been abandoned. You see
-various office junk scattered around.
+It appears that this was once an office, but has long been abandoned. You
+see various office junk scattered around. 
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 0 10110
 D1
-(null)~
+~
 ~
 0 0 10111
 D2
-(null)~
+~
 ~
 0 0 10017
 D3
-(null)~
+~
 ~
 0 0 10112
 S
 #10019
 Litmore Lake Road~
-The gravel road has entered a wooded area. Off in the distance to the west, you see
-a large lake. To the south is a small house.
+The gravel road has entered a wooded area. Off in the distance to the
+west, you see a large lake. To the south is a small house. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10017
 D2
-(null)~
+~
 ~
 1 0 10136
 D3
-(null)~
+~
 ~
 0 0 10020
 S
 #10020
 West End Of Litmore Lake Road~
-You are nearing the west end of the road.
+You are nearing the west end of the road. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10019
 D2
-(null)~
+~
 ~
 0 0 10022
 D3
-(null)~
+~
 ~
 0 0 10021
 S
 #10021
 In Front Of The Cabin~
-You are at the end of Litmore Lake Road. To the north of you is a log cabin.
-South of here is a path.
+You are at the end of Litmore Lake Road. To the north of you is a log
+cabin. South of here is a path. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10027
 D1
-(null)~
+~
 ~
 0 0 10020
 D2
-(null)~
+~
 ~
 0 0 10023
 S
 #10022
 In The Field~
-To the west, you see a path. North of you is Litmore Lake Road.
+To the west, you see a path. North of you is Litmore Lake Road. 
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 10020
 D2
-(null)~
+~
 ~
 0 0 10108
 D3
-(null)~
+~
 ~
 0 0 10023
 S
 #10023
 Path To The Lake~
-In the distance to the west, you see the outline of Litmore Lake. North of here
-is a gravel road.
+In the distance to the west, you see the outline of Litmore Lake. North
+of here is a gravel road. 
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 10021
 D1
-(null)~
+~
 ~
 0 0 10022
 D3
-(null)~
+~
 ~
 0 0 10024
 S
@@ -1065,22 +1113,22 @@ You are a path to Litmore Lake, which lies to the west.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 10023
 D3
-(null)~
+~
 ~
 0 0 10025
 S
 #10025
 By Litmore Lake~
-You have reached Litmore Lake. You see a boathouse to the south.
-In front of the boathouse is a flower garden filled with violets.
+You have reached Litmore Lake. You see a boathouse to the south. In front
+of the boathouse is a flower garden filled with violets. 
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 0 10024
 D2
@@ -1091,47 +1139,48 @@ door~
 S
 #10026
 Boathouse~
-This is a boathouse. Why a boat needs a house is anyone's guess.
+This is a boathouse. Why a boat needs a house is anyone's guess. 
 ~
 0 1048584 0
 D0
-(null)~
+~
 ~
 6 0 10025
 S
 #10027
 Jed's cabin~
-You are in the living room of a log cabin. Jed is nowhere in sight.
+You are in the living room of a log cabin. Jed is nowhere in sight. 
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 10029
 D2
-(null)~
+~
 ~
 0 0 10021
 D3
-(null)~
+~
 ~
 0 0 10028
 S
 #10028
 Laundry Room~
-You are in the laundry room. There is nothing good to eat in here, try the kitchen.
+You are in the laundry room. There is nothing good to eat in here, try
+the kitchen. 
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 10027
 S
 #10029
 In The Kitchen~
-You are in Jed's kitchen. You see bags of flour, sugar, and bacon covering the counters. In
-the middle of the kitchen is a small circular table, with a note on it. There is a door
-leading down into the cellar.
+You are in Jed's kitchen. You see bags of flour, sugar, and bacon
+covering the counters. In the middle of the kitchen is a small circular
+table, with a note on it. There is a door leading down into the cellar. 
 ~
 0 8 0
 E
@@ -1140,7 +1189,7 @@ The note says "SEND NEW DUDS". Maybe it is from Jed's son, asking Jed
 to mail him some new clothes. Or maybe it is something else.
 ~
 D3
-(null)~
+~
 ~
 0 0 10027
 D5
@@ -1151,100 +1200,100 @@ cellar door~
 S
 #10030
 Tackard Road, South Of Litmore Lake Road~
-Tackard Road was once a fine cobblestone road. But years of over-use
-and under-maintenance have reduce it to little more than rocks and dirt.
-To the north is Litmore Lake Road.
+Tackard Road was once a fine cobblestone road. But years of over-use and
+under-maintenance have reduce it to little more than rocks and dirt. To the
+north is Litmore Lake Road. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10015
 D2
-(null)~
+~
 ~
 0 0 10031
 S
 #10031
 By The Meadow~
-You are on Tackard Road, which runs to the north and south. Off to the east,
-you see a path cutting through a large, open meadow.
+You are on Tackard Road, which runs to the north and south. Off to the
+east, you see a path cutting through a large, open meadow. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10030
 D1
-(null)~
+~
 ~
 0 0 10064
 D2
-(null)~
+~
 ~
 0 0 10032
 S
 #10032
 Tackard Road~
-Both sides of the rough road are line with houses. Some seem large and inviting, others
-cramped and decrepit.
+Both sides of the rough road are line with houses. Some seem large and
+inviting, others cramped and decrepit. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10031
 D2
-(null)~
+~
 ~
 0 0 10033
 S
 #10033
 In Front Of The Schoolhouse~
-The road continues to run north-south. To the west, you see a schoolhouse.
+The road continues to run north-south. To the west, you see a schoolhouse. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10032
 D2
-(null)~
+~
 ~
 0 0 10081
 D3
-(null)~
+~
 ~
 0 0 10034
 S
 #10034
 Schoolhouse~
-You are in an one-room schoolhouse. Pencils, papers, crayons, and rulers are strewn everywhere.
-A group of children are gathered on a carpet.
+You are in an one-room schoolhouse. Pencils, papers, crayons, and rulers
+are strewn everywhere. A group of children are gathered on a carpet. 
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 10033
 S
 #10035
 In Front Of The Trading Post~
-You are on Tackard Road. Off in the distance to the south, you see the outskirts
-of the city of Ham Harbor. On the west side of the street is a trading post,
-which is probably closed.
+You are on Tackard Road. Off in the distance to the south, you see the
+outskirts of the city of Ham Harbor. On the west side of the street is a
+trading post, which is probably closed. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10081
 D2
-(null)~
+~
 ~
 0 0 10037
 D3
-(null)~
+~
 ~
 0 0 10036
 S
@@ -1261,138 +1310,138 @@ poster~
 Store hours 2:00 AM - 4:00 AM daily
 ~
 D1
-(null)~
+~
 ~
 0 0 10035
 S
 #10037
 Tackard Road, Near Intersection~
-You are on Tackard Road, nearing the intersection with Bellsworth Lane.
+You are on Tackard Road, nearing the intersection with Bellsworth Lane. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10035
 D2
-(null)~
+~
 ~
 0 0 10038
 S
 #10038
 Intersection Of Tackard Road And Bellsworth Lane~
-This intersection lies at the center of Mashtenaw county. Tackard Road runs to
-the north and south, and Bellsworth Lane runs to the east and west. Ham Harbor is
-to the southeast.
+This intersection lies at the center of Mashtenaw county. Tackard Road
+runs to the north and south, and Bellsworth Lane runs to the east and west.
+Ham Harbor is to the southeast. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10037
 D1
-(null)~
+~
 ~
 0 0 10053
 D2
-(null)~
+~
 ~
 0 0 10072
 D3
-(null)~
+~
 ~
 0 0 10043
 S
 #10039
 Tackard Road~
-You are on Tackard Road. To the east, you see the western wall of the city of
-Ham Harbor.
+You are on Tackard Road. To the east, you see the western wall of the
+city of Ham Harbor. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10003
 D2
-(null)~
+~
 ~
 0 0 10040
 S
 #10040
 Tackard Road~
-The city of Ham Harbor is to the north east. To the southwest you see a large building
-with a cross on top. The area to the southeast looks foreboding.
+The city of Ham Harbor is to the north east. To the southwest you see a
+large building with a cross on top. The area to the southeast looks
+foreboding. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10039
 D2
-(null)~
+~
 ~
 0 0 10041
 S
 #10041
 In Front Of The Church~
-Tackard Road ends in front of a large church.
+Tackard Road ends in front of a large church. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10040
 D1
-(null)~
+~
 ~
 0 0 10009
 D3
-(null)~
+~
 ~
 0 0 10042
 S
 #10042
 Red Church~
-You are in a large, old church with red walls. There is a door on the west
-side of the room.
+You are in a large, old church with red walls. There is a door on the
+west side of the room. 
 ~
 0 1048584 0
 D1
-(null)~
+~
 ~
 0 0 10041
 D3
-(null)~
+~
 ~
 6 10014 10073
 S
 #10043
 Bellsworth Lane, West Of Tackard Road~
-In the distance, you can hear the sounds of the city of Ham Harbor.
+In the distance, you can hear the sounds of the city of Ham Harbor. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10038
 D3
-(null)~
+~
 ~
 0 0 10044
 S
 #10044
 Bellsworth Lane~
-You are on Bellworth Lane. The town of Ham Harbor is
-off to the east. On the south side of the street, you see
-a quaint-looking house.
+You are on Bellworth Lane. The town of Ham Harbor is off to the east. On
+the south side of the street, you see a quaint-looking house. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10043
 D3
-(null)~
+~
 ~
 0 0 10138
 S
@@ -1400,59 +1449,58 @@ S
 Bellsworth Lane, By The Junkyard~
 Bellsworth Road runs east-west. The town of Ham Harbor is to the east.
 You can see a junkward to the west, filled with trash and broken furniture.
-To the south, you see an ominous-looking path. You'd better stay away.
+To the south, you see an ominous-looking path. You'd better stay away. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10138
 D2
-(null)~
+~
 ~
 0 0 10047
 D3
-(null)~
+~
 ~
 0 0 10046
 S
 #10046
 Junkyard~
-Bellsworth Lane dead-ends here. You see some broken furniture strewn about.
+Bellsworth Lane dead-ends here. You see some broken furniture strewn about. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10045
 S
 #10047
 Path Of Death~
-Why is this called the Path of Death? You should probably head back.
+Why is this called the Path of Death? You should probably head back. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10045
 D2
-(null)~
+~
 ~
 0 0 10048
 S
 #10048
 Approaching The Basher~
 Further down the road is a basher. A basher is a mean MOB who will rip
-you to pieces.
-You should really turn around.
+you to pieces. You should really turn around. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10047
 D2
-(null)~
+~
 ~
 0 0 10049
 S
@@ -1465,11 +1513,11 @@ YOU HAVE BEEN WARNED.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10048
 D2
-(null)~
+~
 ~
 0 0 10113
 S
@@ -1479,11 +1527,11 @@ What, another basher?! So unfair!
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10113
 D2
-(null)~
+~
 ~
 0 0 10051
 S
@@ -1493,59 +1541,59 @@ How many more of these bastards are there?
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10050
 D2
-(null)~
+~
 ~
 0 0 10052
 S
 #10052
 Dead End At The Tree~
 You have made it past the bashers. The road dead-ends at a large tree.
-Near the tree is a bench.
+Near the tree is a bench. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10051
 D4
-(null)~
+~
 ~
 0 0 10129
 S
 #10053
 Bellsworth Lane, East of Tackard Road~
-You are on Bellsworth Lane. To the south is the northern wall of the city of
-Ham Harbor. West of here is Tackard Road.
+You are on Bellsworth Lane. To the south is the northern wall of the city
+of Ham Harbor. West of here is Tackard Road. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10054
 D3
-(null)~
+~
 ~
 0 0 10038
 S
 #10054
 Bellsworth Lane~
-You are on Bellsworth Lane. The city of Ham Harbor is to the south.
+You are on Bellsworth Lane. The city of Ham Harbor is to the south. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10055
 D2
-(null)~
+~
 ~
 0 0 10145
 D3
-(null)~
+~
 ~
 0 0 10053
 S
@@ -1556,47 +1604,47 @@ to go.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10056
 D3
-(null)~
+~
 ~
 0 0 10054
 S
 #10056
 Bellsworth Lane, At The Eastern Pass~
-Here Bellsworth Lane meets a road heading off to the south.
+Here Bellsworth Lane meets a road heading off to the south. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10132
 D1
-(null)~
+~
 ~
 0 0 10057
 D2
-(null)~
+~
 ~
 0 0 10002
 D3
-(null)~
+~
 ~
 0 0 10055
 S
 #10057
 Bellsworth Lane~
-Bellsworth Lane continues here.
+Bellsworth Lane continues here. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10059
 D3
-(null)~
+~
 ~
 0 0 10056
 S
@@ -1604,42 +1652,41 @@ S
 End Of Bellsworth Lane~
 You are at the eastern end of Bellsworth Lane. To the east is a wetland
 of some sort. Off to the south, you see a rocky path.
-There is a large sign here.
+There is a large billboard here.
 ~
 0 0 1
 E
-sign~
-Visit Glinda's Potions!
-Located on the far side of the wetlands to the east.
+billboard~
+Visit Glinda's potions, on the far side of the wetlands. 
 ~
 D1
-(null)~
+~
 ~
 0 0 10116
 D2
-(null)~
+~
 ~
 0 0 10060
 D3
-(null)~
+~
 ~
 0 0 10059
 S
 #10059
 By The Path Into The Meadow~
-You are on Bellsworth Lane. You see a path into the meadow in the north.
+You are on Bellsworth Lane. You see a path into the meadow in the north. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10070
 D1
-(null)~
+~
 ~
 0 0 10058
 D3
-(null)~
+~
 ~
 0 0 10057
 S
@@ -1649,11 +1696,11 @@ You are on a rocky path.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10058
 D2
-(null)~
+~
 ~
 0 0 10061
 S
@@ -1663,128 +1710,128 @@ The farther south you go, the more rocks there are.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10060
 D1
-(null)~
+~
 ~
 0 0 10135
 D2
-(null)~
+~
 ~
 0 0 10062
 D3
-(null)~
+~
 ~
 0 0 10134
 S
 #10062
 In Front Of Granny Jones' House~
 You are standing in front of an old wooden house, painted brown. There is
-a rocking chair on the front porch. Around the side of the house, you
-see an archery target with many arrows in the bullseye, as well as
-a practice dummy that has been beaten ragged.
+a rocking chair on the front porch. Around the side of the house, you see an
+archery target with many arrows in the bullseye, as well as a practice dummy
+that has been beaten ragged. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10061
 D3
-(null)~
+~
 ~
 0 0 10063
 S
 #10063
 Grandma Jones' House~
 You are in Grandma Jones' house. You see a Rubik's cube on the table, and
-sudoku books on the shelf.
+sudoku books on the shelf. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10062
 S
 #10064
 Path Through The Meadow, East Of Tackard Road~
-You are on a path through the meadow. Tackard Road is to the west.
+You are on a path through the meadow. Tackard Road is to the west. 
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 10065
 D3
-(null)~
+~
 ~
 0 0 10031
 S
 #10065
 Path Through The Meadow~
-You are on a path through the meadow.
+You are on a path through the meadow. 
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 10066
 D3
-(null)~
+~
 ~
 0 0 10064
 D5
-(null)~
+~
 ~
 4 10024 10080
 S
 #10066
 A Bend In The Path~
-You are on a path through the meadow, which bends here. To the west,
-the path terminates at Tackard Road. To the south, the path terminates
-at Bellsworth Lane.
+You are on a path through the meadow, which bends here. To the west, the
+path terminates at Tackard Road. To the south, the path terminates at
+Bellsworth Lane. 
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 10067
 D3
-(null)~
+~
 ~
 0 0 10065
 S
 #10067
 In the Middle Of The Meadow~
-You are on a path through the meadow.
+You are on a path through the meadow. 
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 10066
 D2
-(null)~
+~
 ~
 0 0 10068
 S
 #10068
 In The Meadow, By The Woods~
 You are on a path through the meadow. To the east, another path leads
-into the woods.
+into the woods. 
 ~
 0 2097152 2
 D0
-(null)~
+~
 ~
 0 0 10067
 D1
-(null)~
+~
 ~
 0 0 10083
 D2
-(null)~
+~
 ~
 0 0 10069
 S
@@ -1794,44 +1841,44 @@ You are on a path through the meadow.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 10068
 D2
-(null)~
+~
 ~
 0 0 10070
 S
 #10070
 Path Through The Meadow, North Of Bellsworth Lane~
-You are on a path through the meadow. To the south is Bellsworth Lane.
+You are on a path through the meadow. To the south is Bellsworth Lane. 
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 10069
 D2
-(null)~
+~
 ~
 0 0 10059
 S
 #10071
 Ham Harbor City Center~
-(null)~
+~
 0 4 0
 S
 #10072
 Tackard Road~
-The east side of the road borders the Ham Harbor city walls.
+The east side of the road borders the Ham Harbor city walls. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10038
 D2
-(null)~
+~
 ~
 0 0 10003
 S
@@ -1841,11 +1888,11 @@ You are in a boring room with orange walls.
 ~
 0 1048584 0
 D1
-(null)~
+~
 ~
 6 10014 10042
 D2
-(null)~
+~
 ~
 6 10015 10074
 S
@@ -1855,11 +1902,11 @@ You see nothing but yellow as far as the eye can see.
 ~
 0 1048584 0
 D0
-(null)~
+~
 ~
 6 10015 10073
 D1
-(null)~
+~
 ~
 6 10016 10075
 S
@@ -1869,11 +1916,11 @@ Green plants grow everywhere.
 ~
 0 1048584 0
 D1
-(null)~
+~
 ~
 6 10017 10076
 D3
-(null)~
+~
 ~
 6 10016 10074
 S
@@ -1883,11 +1930,11 @@ Above you is blue sky. Below you is a blue marble floor.
 ~
 0 1048584 0
 D3
-(null)~
+~
 ~
 6 10017 10075
 D5
-(null)~
+~
 ~
 6 10018 10077
 S
@@ -1898,11 +1945,11 @@ as too much indigo, this room would have it.
 ~
 0 1048584 0
 D3
-(null)~
+~
 ~
 6 10035 10008
 D4
-(null)~
+~
 ~
 6 10018 10076
 S
@@ -1912,11 +1959,11 @@ This is the last room, but instead of a prize, all you see is darkness.
 ~
 0 1048585 0
 D0
-(null)~
+~
 ~
 6 10025 10079
 D1
-(null)~
+~
 ~
 6 10013 10008
 S
@@ -1926,11 +1973,11 @@ Congratulations, you've found the prize!
 ~
 0 1048584 0
 D2
-(null)~
+~
 ~
 6 10025 10078
 D4
-(null)~
+~
 ~
 0 0 10147
 S
@@ -1940,48 +1987,49 @@ You are in Mr. White's hobbit hole. I wonder what you will find here.
 ~
 0 4 0
 D4
-(null)~
+~
 ~
 4 0 10065
 S
 #10081
 Tackard Road~
-You are on Tackard Road, in the middle of nowhere.
+You are on Tackard Road, in the middle of nowhere. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10033
 D2
-(null)~
+~
 ~
 0 0 10035
 S
 #10082
 Southeast Corner Of Cemetary~
-The cemetary continues to the north and west.
+The cemetary continues to the north and west. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10092
 D3
-(null)~
+~
 ~
 0 0 10011
 S
 #10083
 The Wandering Woods~
-You are in the wandering woods. To the west, you can see the meadow.~
+You are in the wandering woods. To the west, you can see the meadow. 
+~
 0 3145728 3
 D0
 A path goes this way~
 ~
 0 0 10084
 D1
-(null)~
+~
 ~
 0 0 10083
 D2
@@ -1989,7 +2037,7 @@ A path goes this way~
 ~
 0 0 10083
 D3
-(null)~
+~
 ~
 0 0 10068
 S
@@ -2153,31 +2201,31 @@ You have arrived at a clearing in the woods. A lovely spot for a picnic!
 ~
 0 3145732 0
 D3
-(null)~
+~
 ~
 0 0 10083
 S
 #10092
 In Front Of The Mausoleum~
-To the east, you see a small building decorated elaborate stonework.
+To the east, you see a small building decorated elaborate stonework. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10105
 D2
-(null)~
+~
 ~
 0 0 10082
 D3
-(null)~
+~
 ~
 0 0 10012
 S
 #10093
 A Cluttered Cellar~
-You are in a cluttered cellar. The kitchen is above you.
+You are in a cluttered cellar. The kitchen is above you. 
 ~
 0 1048584 0
 D0
@@ -2197,11 +2245,11 @@ You see an exit.~
 ~
 0 0 10093
 D4
-(null)~
+~
 ~
 1 0 10029
 D5
-(null)~
+~
 ~
 0 0 10093
 S
@@ -2507,99 +2555,100 @@ You see an exit.~
 S
 #10104
 Storage Room~
-You have reached a small room tucked away at the back of the basement. There
-is a ladder leading up to the kitchen.
+You have reached a small room tucked away at the back of the basement.
+There is a ladder leading up to the kitchen. 
 ~
 0 1048588 0
 D4
-(null)~
+~
 ~
 0 0 10029
 S
 #10105
 Inside the Mausoleum~
-There's is a dead body in here. Are you sure you want to keep going?
+There's is a dead body in here. Are you sure you want to keep going? 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10106
 D3
-(null)~
+~
 ~
 0 0 10092
 S
 #10106
 At The Tomb~
-You have reached the tomb.
+You have reached the tomb. 
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10105
 S
 #10107
 FREE~
-(null)~
+~
 0 4 0
 S
 #10108
 By The Woods~
-Here the field borders a thick, dense wooded area. It looks too difficult to pass.
+Here the field borders a thick, dense wooded area. It looks too difficult
+to pass. 
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 10022
 D1
-(null)~
+~
 ~
 0 0 10109
 S
 #10109
 Amidst The Trees~
-This area is surrounded on three sides by a dense forest.
+This area is surrounded on three sides by a dense forest. 
 ~
 0 0 2
 D3
-(null)~
+~
 ~
 0 0 10108
 S
 #10110
 Bathroom~
-This bathroom looks like it hasn't been cleaned in years.
+This bathroom looks like it hasn't been cleaned in years. 
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 10018
 S
 #10111
 Hallway~
-You are in a hallway. There is an office to the north.
+You are in a hallway. There is an office to the north. 
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 10114
 D3
-(null)~
+~
 ~
 0 0 10018
 S
 #10112
 Conference Room~
-You are in a conference room. A large wooden table nearly fills the room.
+You are in a conference room. A large wooden table nearly fills the room. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10018
 S
@@ -2609,68 +2658,68 @@ A basher is here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10049
 D2
-(null)~
+~
 ~
 0 0 10050
 S
 #10114
 Office~
-Just a boring office, nothing to see here...
+Just a boring office, nothing to see here. 
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 10111
 S
 #10115
 Champion's Market~
-You are in a convenience store. The walls are covered with blue and white flags. Behind
-the counter is a man with a round hat.
+You are in a convenience store. The walls are covered with blue and white
+flags. Behind the counter is a man with a round hat. 
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 10001
 S
 #10116
 Entering The Wetlands~
-The ground in this area is wet and muddy. I hope you brought your boots!
+The ground in this area is wet and muddy. I hope you brought your boots! 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10117
 D3
-(null)~
+~
 ~
 0 0 10058
 S
 #10117
 The Wetlands~
-You are in a large open area. The ground is very wet.
+You are in a large open area. The ground is very wet. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10175
 D1
-(null)~
+~
 ~
 0 0 10118
 D2
-(null)~
+~
 ~
 0 0 10174
 D3
-(null)~
+~
 ~
 0 0 10116
 S
@@ -2680,31 +2729,32 @@ The ground here is wet too.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10119
 D3
-(null)~
+~
 ~
 0 0 10117
 S
 #10119
 At The Pond~
-Beyond this point the wetland turns into a pond. You cannot keep going this way.
+Beyond this point the wetland turns into a pond. You cannot keep going
+this way. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10118
 S
 #10120
 Thick Foliage~
-The foliage here blocks your path.
+The foliage here blocks your path. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10174
 S
@@ -2714,51 +2764,51 @@ You have reached a clearing.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10163
 D1
-(null)~
+~
 ~
 0 0 10167
 D2
-(null)~
+~
 ~
 0 0 10177
 D3
-(null)~
+~
 ~
 0 0 10122
 S
 #10122
 A Trail~
-You are on a trail in a dry area adjacent to the wetlands.
+You are on a trail in a dry area adjacent to the wetlands. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10121
 D3
-(null)~
+~
 ~
 0 0 10123
 S
 #10123
 3 Way Intersection~
-The trail continues to the north and south.
+The trail continues to the north and south. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10124
 D1
-(null)~
+~
 ~
 0 0 10122
 D2
-(null)~
+~
 ~
 0 0 10126
 S
@@ -2768,11 +2818,11 @@ Here the trail bends.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10125
 D2
-(null)~
+~
 ~
 0 0 10123
 S
@@ -2782,11 +2832,11 @@ There is more trail here.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10128
 D3
-(null)~
+~
 ~
 0 0 10124
 S
@@ -2796,21 +2846,21 @@ You are following the trail.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10123
 D2
-(null)~
+~
 ~
 0 0 10127
 S
 #10127
 Dead End~
-The trail becomes unpassable here, so you will have to turn back.
+The trail becomes unpassable here, so you will have to turn back. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10126
 S
@@ -2820,245 +2870,246 @@ The way is blocked, you can go no further.
 ~
 0 4 0
 D3
-(null)~
+~
 ~
 0 0 10125
 S
 #10129
 In The Tree~
-You are in a large tree. The branches stretch out to the north.
+You are in a large tree. The branches stretch out to the north. 
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 10130
 D5
-(null)~
+~
 ~
 0 0 10052
 S
 #10130
 Tree Branches~
-You are on a branch of a large tree. Below you, you see a basher. Better be careful!
+You are on a branch of a large tree. Below you, you see a basher. Better
+be careful! 
 ~
 0 0 3
 D0
-(null)~
+~
 ~
 0 0 10131
 D2
-(null)~
+~
 ~
 0 0 10129
 D5
-(null)~
+~
 ~
 0 0 10050
 S
 #10131
 End Of The Branch~
-You have reached the end of the tree branch. If you drop down now
-you should be out of reach of the bashers.
+You have reached the end of the tree branch. If you drop down now you
+should be out of reach of the bashers. 
 ~
 0 0 3
 D2
-(null)~
+~
 ~
 0 0 10130
 D5
-(null)~
+~
 ~
 0 0 10047
 S
 #10132
 North End of Eastern Pass~
-The road narrows here. Instead of shops, you see a few run-down houses.
+The road narrows here. Instead of shops, you see a few run-down houses. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10133
 D2
-(null)~
+~
 ~
 0 0 10056
 S
 #10133
 Cul-De-Sac~
 Here the eastern pass ends in a cul-de-sac. You see a small house that is
-in somewhat better repair than the neighboring houses.
+in somewhat better repair than the neighboring houses. 
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10132
 S
 #10134
 Grandpa Smith's House~
-This is Grandpa Smith's house. The house is filled with civil war momentos.
+This is Grandpa Smith's house. The house is filled with civil war momentos. 
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10061
 S
 #10135
 ~
-(null)~
+~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 10061
 S
 #10136
 A Nice House~
-You are in the home of Lila and her mother Esmerelda.
+You are in the home of Lila and her mother Esmerelda. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 1 0 10019
 S
 #10138
 Bellworth Lane, By Dark Alley~
-You are on Bellsworth Lane. A dark alley heads to the north.
+You are on Bellsworth Lane. A dark alley heads to the north. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10139
 D1
-(null)~
+~
 ~
 0 0 10044
 D3
-(null)~
+~
 ~
 0 0 10045
 S
 #10139
 Dark Alley~
-The alley is littered with garbage. The smell makes you want to turn back.
+The alley is littered with garbage. The smell makes you want to turn back. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10140
 D2
-(null)~
+~
 ~
 0 0 10138
 S
 #10140
 Dark Alley, By Abandoned House~
-To the west, you see a run-down house that looks to be abandoned.
+To the west, you see a run-down house that looks to be abandoned. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10141
 D2
-(null)~
+~
 ~
 0 0 10139
 D3
-(null)~
+~
 ~
 0 0 10142
 S
 #10141
 Dead End~
-The alley dead-ends here.
+The alley dead-ends here. 
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 10140
 S
 #10142
 Abandoned House~
-You are in a one-room house. The only furniture left is a dirty mattress on the floor.
-There is a stone fireplace along the back wall. Connected to the fireplace is
-a chimney, which looks almost big enough for a person.
+You are in a one-room house. The only furniture left is a dirty mattress
+on the floor. There is a stone fireplace along the back wall. Connected to
+the fireplace is a chimney, which looks almost big enough for a person. 
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 10140
 D4
-(null)~
+~
 chimney~
 1 0 10004
 S
 #10143
 Northwest Corner~
-You are at the northwest corner of the city of Ham Harbor. The city's walls are
-to the north and west, but a road runs to the south and east.
+You are at the northwest corner of the city of Ham Harbor. The city's
+walls are to the north and west, but a road runs to the south and east. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10144
 D2
-(null)~
+~
 ~
 0 0 10159
 S
 #10144
 Wall Road~
-You are on a road that runs inside the north wall of Ham Harbor.
+You are on a road that runs inside the north wall of Ham Harbor. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10145
 D3
-(null)~
+~
 ~
 0 0 10143
 S
 #10145
 Inside The North Gate~
-You are inside the north gate of the city of Ham Harbor.
+You are inside the north gate of the city of Ham Harbor. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10054
 D2
-(null)~
+~
 ~
 0 0 10146
 D3
-(null)~
+~
 ~
 0 0 10144
 S
 #10146
 Main Street~
-You are on a good-looking street lined with shops.
+You are on a good-looking street lined with shops. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10145
 D2
-(null)~
+~
 ~
 0 0 10147
 S
@@ -3068,201 +3119,203 @@ You are in the center of Ham Harbor.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 0 10146
 D1
-(null)~
+~
 ~
 0 0 10148
 D2
-(null)~
+~
 ~
 0 0 10151
 D3
-(null)~
+~
 ~
 0 0 10160
 S
 #10148
 Inside East Gate~
-You are just inside the east gate of the city of Ham Harbor. If you run into trouble,
-get help from Sheriff Johnson.
+You are just inside the east gate of the city of Ham Harbor. If you run
+into trouble, get help from Sheriff Johnson. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10149
 D1
-(null)~
+~
 ~
 0 0 10000
 D2
-(null)~
+~
 ~
 0 0 10150
 D3
-(null)~
+~
 ~
 0 0 10147
 S
 #10149
 Flingerman's Deli~
-You are in a shop that sells sandwiches and other food items. This place must be good, since
-there is a line leading out the door.
+You are in a shop that sells sandwiches and other food items. This place
+must be good, since there is a line leading out the door. 
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10148
 S
 #10150
 Armory~
-This shop sells swords, daggers, maces, helmets, and other weapons an armor.
+This shop sells swords, daggers, maces, helmets, and other weapons an
+armor. 
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 10148
 S
 #10151
 Main Street~
-It's just an ordinary city street.
+It's just an ordinary city street. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10147
 D2
-(null)~
+~
 ~
 0 0 10152
 S
 #10152
 Along The River~
-To the south, you see a raging river.
+To the south, you see a raging river. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10151
 D1
-(null)~
+~
 ~
 0 0 10153
 D3
-(null)~
+~
 ~
 0 0 10162
 S
 #10153
 Cul-De-Sac~
-The street dead-ends here. To the south is the river. North you see an official-looking building.
+The street dead-ends here. To the south is the river. North you see an
+official-looking building. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10154
 D3
-(null)~
+~
 ~
 0 0 10152
 S
 #10154
 Post Office~
-You are in the Ham Harbor post office.
+You are in the Ham Harbor post office. 
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 10153
 S
 #10155
 Southwest Corner~
-You are in the southwest corner of the city of Ham Harbor.
+You are in the southwest corner of the city of Ham Harbor. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10156
 D1
-(null)~
+~
 ~
 0 0 10162
 S
 #10156
 Wall Road~
 This road runs along the western wall of Ham Harbor. To the east is
-Matt's maps. You should head inside, if you brought your gold.
+Matt's maps. You should head inside, if you brought your gold. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10158
 D1
-(null)~
+~
 ~
 0 0 10157
 D2
-(null)~
+~
 ~
 0 0 10155
 S
 #10157
 Matt's Maps~
-The walls in the shop are covered in maps. There is a bookshelf,
-filled with atlasses. A dozen or so globes sit on the counter. The
-store's proprietor, Matt, is somewhat globe-shaped himself.
+The walls in the shop are covered in maps. There is a bookshelf, filled
+with atlasses. A dozen or so globes sit on the counter. The store's
+proprietor, Matt, is somewhat globe-shaped himself. 
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 0 0 10156
 S
 #10158
 Inside West Gate~
-You are standing inside the west gate of the city of Ham Harbor. To the west you
-see Tackard Road.
+You are standing inside the west gate of the city of Ham Harbor. To the
+west you see Tackard Road. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10159
 D1
-(null)~
+~
 ~
 0 0 10160
 D2
-(null)~
+~
 ~
 0 0 10156
 D3
-(null)~
+~
 ~
 0 0 10003
 S
 #10159
 Wall Road~
-To the west you see the western wall of the city of Ham Harbor.
+To the west you see the western wall of the city of Ham Harbor. 
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 10143
 D2
-(null)~
+~
 ~
 0 0 10158
 S
@@ -3273,15 +3326,15 @@ the west is the western gate.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10161
 D1
-(null)~
+~
 ~
 0 0 10147
 D3
-(null)~
+~
 ~
 0 0 10158
 S
@@ -3291,21 +3344,21 @@ The grocer sells fresh fruits and vegetables, and meat.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10160
 S
 #10162
 Along The River~
-You are on the south side of Ham Harbor, along the river.
+You are on the south side of Ham Harbor, along the river. 
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 0 10152
 D3
-(null)~
+~
 ~
 0 0 10155
 S
@@ -3315,11 +3368,11 @@ The clearing continues here.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10164
 D2
-(null)~
+~
 ~
 0 0 10121
 S
@@ -3329,15 +3382,15 @@ You are in a grassy field.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10165
 D1
-(null)~
+~
 ~
 0 0 10166
 D3
-(null)~
+~
 ~
 0 0 10163
 S
@@ -3347,11 +3400,11 @@ Here is a bunch of grass, constituting a field.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10178
 D2
-(null)~
+~
 ~
 0 0 10164
 S
@@ -3361,11 +3414,11 @@ The field gets very grassy here.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10178
 D3
-(null)~
+~
 ~
 0 0 10164
 S
@@ -3375,25 +3428,25 @@ Here is more wetland.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 10169
 D2
-(null)~
+~
 ~
 0 0 10168
 D3
-(null)~
+~
 ~
 0 0 10121
 S
 #10168
 Too Wet~
-The ground over here is too wet, and you are wearing metal boots.
+The ground over here is too wet, and you are wearing metal boots. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10167
 S
@@ -3403,19 +3456,19 @@ Here is yet more wetland.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10172
 D1
-(null)~
+~
 ~
 0 0 10171
 D2
-(null)~
+~
 ~
 0 0 10170
 D3
-(null)~
+~
 ~
 0 0 10167
 S
@@ -3425,7 +3478,7 @@ There's nothing but more wetland over here.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10169
 S
@@ -3435,7 +3488,7 @@ Everything is wet over here.
 ~
 0 0 0
 D3
-(null)~
+~
 ~
 0 0 10169
 S
@@ -3445,39 +3498,39 @@ The ground here is soggy.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10173
 D2
-(null)~
+~
 ~
 0 0 10169
 S
 #10173
 Less Soggy Area~
-The ground here is decidedly less soggy than before.
+The ground here is decidedly less soggy than before. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10179
 D2
-(null)~
+~
 ~
 0 0 10172
 S
 #10174
 More Wetland~
-Here is some more wetland.
+Here is some more wetland. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10117
 D2
-(null)~
+~
 ~
 0 0 10120
 S
@@ -3487,11 +3540,11 @@ The ground here is still wet.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10176
 D2
-(null)~
+~
 ~
 0 0 10117
 S
@@ -3501,11 +3554,11 @@ Over here it is not as wet as it was.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10177
 D2
-(null)~
+~
 ~
 0 0 10175
 S
@@ -3515,11 +3568,11 @@ This way the ground gets drier.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10121
 D2
-(null)~
+~
 ~
 0 0 10176
 S
@@ -3529,11 +3582,11 @@ The grassy field continues here.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 10166
 D3
-(null)~
+~
 ~
 0 0 10165
 S
@@ -3543,50 +3596,53 @@ The ground here is nearly dry.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10180
 D2
-(null)~
+~
 ~
 0 0 10173
 S
 #10180
 In Front Of Glinda's Potions~
-You are standing in front of Glinda's Potions. I hope they're still open...
+You are standing in front of Glinda's Potions. I hope they're still open. 
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 10181
 D2
-(null)~
+~
 ~
 0 0 10179
 S
 #10181
 Glinda's Potions~
-(null)~
+This is a beautiful shop. The walls are lined with shelves, each one
+filled with potion bottles of every size, shape, color, and smell
+imaginable. 
+~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 10180
 S
 #10298
 ~
-(null)~
+~
 0 4 2
 S
 #10299
 real_test~
-(null)~
+~
 0 4 0
 S
 #10300
 jr test room~
-(null)~
+~
 0 6 0
 S
 #0
@@ -3634,7 +3690,7 @@ P 0 10033 0 10032 A tide pod put inside a box of tide laundry detergent
 O 0 10003 0 10034 A heavy oak desk loaded to Schoolhouse
 P 0 10008 0 10003 A glass key put inside a heavy oak desk
 M 0 10001 0 10034 Load Amelia the teacher
-G 0 10002 0 Amelia's key is given to Amelia the teacher
+E 0 10002 0 17 Amelia's key is loaded held in the hands of Amelia the teacher
 M 0 10016 0 10036 Load Mava
 G 0 608 0 A golden necklace is given to Mava
 G 0 612 0 An apple is given to Mava
@@ -3669,7 +3725,7 @@ M 0 10040 0 10136 Load Lila
 M 0 10017 0 10143 Load a Ham Harbor cityguard
 M 0 10002 0 10145 Load a citizen of Ham Harbor
 M 0 10018 0 10147 Load Sheriff Johnson
-E 0 10028 0 16 A snow-white blade is loaded wielded of Sheriff Johnson
+E 0 10028 0 16 A shining blade is loaded wielded of Sheriff Johnson
 M 0 10017 4 10147 Load a Ham Harbor cityguard
 M 0 10005 0 10147 Load a very fit jogger
 O 0 10027 0 10154 A yellow mailbox loaded to Post Office
@@ -3693,6 +3749,7 @@ M 10000 2030 (no name) Load to: Ezra the shopkeeper
 M 10001 28 Read Load to: Amelia the teacher
 M 10002 2031 Innocent death Load to: a citizen of Ham Harbor
 M 10002 2029 (no name) Load to: a citizen of Ham Harbor
+M 10005 2032 Reset jogger Load to: a very fit jogger
 M 10005 2028 Ham Harbor loop Load to: a very fit jogger
 M 10008 2026 Esmerelda Load to: an old woman
 M 10015 2025 Grandma Jones Load to: Grandma Jones

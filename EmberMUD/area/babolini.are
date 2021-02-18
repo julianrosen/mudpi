@@ -1,5 +1,6 @@
 #AREADATA
 Name        {12 55} Gavin   City of Babolini~
+Group       Mudweiser~
 Builders    None~
 VNUMs       21200 21299
 Security    6
@@ -13,7 +14,7 @@ citizen~
 a citizen of babolini~
 A citizen of Babolini smiles as you pass him.
 ~
-(null)~
+~
 Human~
 AGT N 100 S
 12 10 
@@ -27,7 +28,7 @@ Lord Sage~
 Lord Sage~
 Lord Sage is in a bed, giggling.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 41 10 
@@ -41,7 +42,7 @@ Lady Sage~
 Lady Sage~
 Lady Sage is underneath the covers.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 40 15 
@@ -55,7 +56,7 @@ god of sun~
 the God of The Sun~
 The God of The Sun is here polishing his sword.
 ~
-(null)~
+~
 Human~
 AB H 100 S
 45 55 
@@ -69,7 +70,7 @@ bodyguard glud~
 Glud the BodyGuard~
 The BodyGuard of Lord & Lady Sage is here wide awake.
 ~
-(null)~
+~
 goblin~
 ABF J -100 S
 55 30 
@@ -83,7 +84,7 @@ cyrax drunken warrior~
 Cyrax~
 A drunken warrior named Cyrax is here mumbling to his slef.
 ~
-(null)~
+~
 orc~
 ABT J 0 S
 48 10 
@@ -97,7 +98,7 @@ Billy Hotel Clerk~
 Billy The Hotel Clerk~
 Billy the Hotel Clerk is sorting his paper-work.
 ~
-(null)~
+~
 Human~
 ABQ H 500 S
 40 34 
@@ -111,7 +112,7 @@ female citizen~
 a female citizen of babolini~
 A female citizen of Babolini is here.
 ~
-(null)~
+~
 Human~
 AG 0 250 S
 13 2 
@@ -125,7 +126,7 @@ wandering adventurer~
 a wandering adventurer~
 A wandering adventurer is passing through Babolini.
 ~
-(null)~
+~
 Human~
 AG 0 0 S
 25 8 
@@ -139,7 +140,7 @@ arrilo~
 the powerful wizard Arrilo~
 Arrilo the Wizard of the Black Robes is here half awake.
 ~
-(null)~
+~
 modron~
 AB HJ 250 S
 80 29 
@@ -153,7 +154,7 @@ lazy hound dog~
 a lazy hound dog~
 A lazy hound dog lies on the floor sleeping.
 ~
-(null)~
+~
 dog~
 AB 0 50 S
 35 10 
@@ -167,7 +168,7 @@ john shopkeeper~
 John the shopkeeper~
 John the shopkeeper is waiting to sell you some supplys.
 ~
-(null)~
+~
 Human~
 ABd DZ 0 S
 50 20 
@@ -181,7 +182,7 @@ gigantic jackel~
 the Gigantic Jackel~
 The Gigantic Jackel is here ready to attack!
 ~
-(null)~
+~
 Giant~
 ABF 0 -500 S
 52 32 
@@ -195,7 +196,7 @@ Taylor~
 Taylor~
 Taylor is here aiding his sick brother who sneers at his effort.
 ~
-(null)~
+~
 Human~
 AB 0 100 S
 35 17 
@@ -209,7 +210,7 @@ tommy~
 Tommy~
 Tommy is withdrawn in a corner mixing an aromatic cup of herbal brew.
 ~
-(null)~
+~
 Human~
 ABT 0 75 S
 35 12 
@@ -223,7 +224,7 @@ nigel bartender~
 nigel the bartender~
 Nigel the Bartender is here ready to serve you a drink.
 ~
-(null)~
+~
 Human~
 ABd 0 0 S
 90 33 
@@ -373,11 +374,11 @@ Babolini.
 ~
 0 2097152 4
 D1
-(null)~
+~
 ~
 0 0 21238
 D3
-(null)~
+~
 ~
 0 0 21201
 S
@@ -389,11 +390,11 @@ houses.
 ~
 0 2097152 4
 D1
-(null)~
+~
 ~
 0 0 21200
 D3
-(null)~
+~
 ~
 0 0 21202
 S
@@ -405,19 +406,19 @@ of smoke rising from the chimney.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 1 0 21203
 D1
-(null)~
+~
 ~
 0 0 21201
 D2
-(null)~
+~
 ~
 1 0 21219
 D3
-(null)~
+~
 ~
 0 0 21204
 S
@@ -429,7 +430,7 @@ home, he quickly asks you to have a seat and share a strong drink of ale.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 1 0 21202
 S
@@ -442,11 +443,11 @@ west.
 ~
 0 2097152 4
 D1
-(null)~
+~
 ~
 0 0 21202
 D3
-(null)~
+~
 ~
 0 0 21205
 S
@@ -458,15 +459,15 @@ rubble not allowing you to pass. The village path continues east and west.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 21220
 D1
-(null)~
+~
 ~
 0 0 21204
 D3
-(null)~
+~
 ~
 0 0 21206
 S
@@ -478,11 +479,11 @@ Hotel".
 ~
 0 2097152 4
 D1
-(null)~
+~
 ~
 0 0 21205
 D3
-(null)~
+~
 ~
 0 0 21207
 S
@@ -496,19 +497,19 @@ see a grassy commons.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 21229
 D1
-(null)~
+~
 ~
 0 0 21206
 D2
-(null)~
+~
 ~
 0 0 21230
 D3
-(null)~
+~
 ~
 0 0 21208
 S
@@ -521,15 +522,15 @@ supplies required for their travels.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 21228
 D1
-(null)~
+~
 ~
 0 0 21207
 D3
-(null)~
+~
 ~
 0 0 21209
 S
@@ -544,11 +545,11 @@ to the south and an exit to the east.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 21208
 D2
-(null)~
+~
 ~
 0 0 21210
 S
@@ -560,19 +561,19 @@ on either side of this hallway.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21209
 D1
-(null)~
+~
 ~
 1 0 21213
 D2
-(null)~
+~
 ~
 0 0 21211
 D3
-(null)~
+~
 ~
 1 0 21214
 S
@@ -584,19 +585,19 @@ on either side of this hallway.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21210
 D1
-(null)~
+~
 ~
 1 0 21216
 D2
-(null)~
+~
 ~
 0 0 21212
 D3
-(null)~
+~
 ~
 1 0 21215
 S
@@ -608,15 +609,15 @@ either side of this hallway are rooms for the guests who visit the Hotel.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21211
 D1
-(null)~
+~
 ~
 1 0 21217
 D3
-(null)~
+~
 ~
 1 0 21218
 S
@@ -630,7 +631,7 @@ lovingly embrace his battle worn sword.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 21210
 S
@@ -642,7 +643,7 @@ the soon to arrive patron.
 ~
 0 2097156 0
 D1
-(null)~
+~
 ~
 1 0 21210
 S
@@ -654,7 +655,7 @@ smells of rotten food.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 21211
 S
@@ -667,7 +668,7 @@ upon two half naked lovers... Ooops!
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 21211
 S
@@ -679,7 +680,7 @@ startled as a frail, injured, old wizard beckons you to come closer.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 21212
 S
@@ -692,7 +693,7 @@ stand covered with plates of half-eaten food.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 21212
 S
@@ -705,7 +706,7 @@ if they were to find you standing here.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 1 0 21202
 S
@@ -717,11 +718,11 @@ forest inhabited by woodland creatures.
 ~
 0 2097152 4
 D0
-(null)~
+~
 ~
 0 0 21221
 D2
-(null)~
+~
 ~
 0 0 21205
 S
@@ -733,19 +734,19 @@ current position you can travel in all directions.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 21225
 D1
-(null)~
+~
 ~
 0 0 21222
 D2
-(null)~
+~
 ~
 0 0 21220
 D3
-(null)~
+~
 ~
 0 0 21223
 S
@@ -756,7 +757,7 @@ surrounded by a large lake of teal blue. The only exit is to the west.
 ~
 0 2097152 3
 D3
-(null)~
+~
 ~
 0 0 21221
 S
@@ -768,11 +769,11 @@ south and west.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21224
 D1
-(null)~
+~
 ~
 0 0 21221
 S
@@ -784,11 +785,11 @@ hill.
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 21223
 D3
-(null)~
+~
 vines~
 1 0 21236
 S
@@ -800,11 +801,11 @@ hinders travel to the north and west. The path continues south and east.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 21226
 D2
-(null)~
+~
 ~
 0 0 21221
 S
@@ -815,11 +816,11 @@ west and north.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 21227
 D3
-(null)~
+~
 ~
 0 0 21225
 S
@@ -830,15 +831,15 @@ runs east to west with another branch to the south.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 21233
 D2
-(null)~
+~
 ~
 0 0 21226
 D3
-(null)~
+~
 ~
 0 0 21234
 S
@@ -851,7 +852,7 @@ scratching his fleas.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 21208
 S
@@ -863,7 +864,7 @@ a large oak tree, providing shade from the hot summer sun.
 ~
 0 2097152 4
 D2
-(null)~
+~
 ~
 0 0 21207
 S
@@ -877,11 +878,11 @@ provoked.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21207
 D2
-(null)~
+~
 ~
 0 0 21231
 S
@@ -893,11 +894,11 @@ ale to soothe the hard lives they lead.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 21230
 D1
-(null)~
+~
 ~
 0 0 21232
 S
@@ -909,7 +910,7 @@ relaxing meal.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 21231
 S
@@ -921,7 +922,7 @@ path lying to the west.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 21227
 S
@@ -932,11 +933,11 @@ the north it darkens as it tunnels through the underbrush.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 21235
 D1
-(null)~
+~
 ~
 0 0 21227
 S
@@ -949,11 +950,11 @@ at the stone, you notice slender arcane symbols etched into the face.
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 21234
 D4
-(null)~
+~
 ~
 0 0 23400
 S
@@ -965,7 +966,7 @@ to discover that the floor of this cavern is covered with scattered bones!
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 21224
 S
@@ -982,11 +983,11 @@ along the side of the path.
 ~
 0 2097156 0
 D1
-(null)~
+~
 ~
 0 0 21239
 D3
-(null)~
+~
 ~
 0 0 21200
 S
@@ -998,15 +999,15 @@ into some friendly looking woods.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 25844
 D1
-(null)~
+~
 ~
 0 0 21240
 D3
-(null)~
+~
 ~
 0 0 21238
 S
@@ -1018,15 +1019,15 @@ can see a castle in the distance.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 28168
 D1
-(null)~
+~
 ~
 0 0 16052
 D3
-(null)~
+~
 ~
 0 0 21239
 S

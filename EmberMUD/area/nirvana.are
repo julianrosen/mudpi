@@ -1,5 +1,6 @@
 #AREADATA
 Name        {30 35} Fstall  Nirvana~
+Group       Embermud~
 Builders    None~
 VNUMs       9000 9059
 Security    9
@@ -401,7 +402,7 @@ The Hallway continues west into oblivion.
 S
 #9010
 An east-west passage in the Tower of Nirvana~
-(null)~
+~
 0 8 0
 D1
 The Hallway contiues east into oblivion

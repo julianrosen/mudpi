@@ -1,5 +1,6 @@
 #AREADATA
 Name        {10 40} Zane    Beryllium Forge~
+Group       Mudweiser~
 Builders    None~
 VNUMs       23700 23799
 Security    6
@@ -28,7 +29,7 @@ blacksmith smith~
 a blacksmith~
 A blacksmith constantly melts down beryllium rocks.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 10 20 
@@ -42,7 +43,7 @@ slave~
 a slave~
 A slave turns a crank which moves a conveyour belt along.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 5 8 
@@ -56,7 +57,7 @@ blacksmith smith~
 a blacksmith~
 One of the blacksmith cools a newly forged weapon and places it on the conveyour belt.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 10 20 
@@ -70,7 +71,7 @@ blacksmith smith~
 a blacksmith~
 A skilled blacksmith starts to hammer metal into the shape of weapons.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 10 20 
@@ -84,7 +85,7 @@ vault guard~
 a vault guard~
 An extremly powerful vault guard stands ready.
 ~
-(null)~
+~
 Human~
 AB V 0 S
 12 25 
@@ -98,7 +99,7 @@ meese guard~
 one of Meese's guards~
 One of Meese's private guards stands ready for battle.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 12 25 
@@ -112,7 +113,7 @@ Meese minor blacksmith~
 Meese~
 Meese, the minor blacksmith, basks in his throne.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 13 30 
@@ -126,7 +127,7 @@ blacksmith smith~
 a blacksmith~
 A pretty large blacksmith hammers a piece of beryllium.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 20 38 
@@ -140,7 +141,7 @@ vault guard~
 a vault guard~
 A very powerful guard stands ready to fight off intruders.
 ~
-(null)~
+~
 Human~
 ABT V 0 S
 17 30 
@@ -154,7 +155,7 @@ vault guardian~
 a vault guardian~
 An armored soldier guards the vault attentivly.
 ~
-(null)~
+~
 Human~
 AB Va 0 S
 24 36 
@@ -168,7 +169,7 @@ vault guard~
 a powerful vault guard~
 A vault guard looks somewhat of a powerhouse.
 ~
-(null)~
+~
 Human~
 A 0 0 S
 25 0 
@@ -182,7 +183,7 @@ miner worker~
 a miner~
 A miner chips away pieces of beryllium.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 10 24 
@@ -196,7 +197,7 @@ blacksmith smith~
 a blacksmith~
 Steam fills the room as a blacksmith dips hot metal in a tub of water.
 ~
-(null)~
+~
 Human~
 AB V 0 S
 20 35 
@@ -210,7 +211,7 @@ vault guard powerhouse~
 a powerhouse vault guard~
 A powerhouse vault guard will not let you pass into the vaults.
 ~
-(null)~
+~
 Human~
 ABT 0 0 S
 25 40 
@@ -221,7 +222,7 @@ ABT 0 0 S
 AHMV ABCDEFGHIJK M 0
 #23717
 guard moose's~
-moose's guard~
+Moose's guard~
 One of Moose's guards protects him.
 ~
 A powerful bodyguard. He will die protecting Moose.  
@@ -239,7 +240,7 @@ moose~
 Moose~
 Moose, minor blacksmith, sits on his throne.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 25 2 
@@ -253,7 +254,7 @@ beryllium blacksmith smith~
 a blacksmith~
 Huge iron hammers clank down as a smith does his work.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 30 40 
@@ -282,7 +283,7 @@ powersmith smith blacksmith~
 a powersmith~
 A blacksmith looks at you as you pass by.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 30 37 
@@ -296,7 +297,7 @@ forge worker~
 a forge worker~
 A forge worker swiftly carries off pieces of forged rock.
 ~
-(null)~
+~
 Human~
 A 0 0 S
 30 36 
@@ -325,7 +326,7 @@ mose blacksmith~
 Mose~
 Mose the blacksmith sits behind his guards at his throne.
 ~
-(null)~
+~
 Human~
 AB 0 0 S
 36 50 
@@ -339,7 +340,7 @@ Mose's guard~
 Mose's guard~
 One of Mose's guards makes sure to keep distance between you and Mose.
 ~
-(null)~
+~
 Human~
 ABT 0 0 S
 37 50 
@@ -353,7 +354,7 @@ Mace~
 Mace~
 Mace, the most powerful blacksmith, is ready to take you down.
 ~
-(null)~
+~
 Human~
 AB a 0 S
 59 100 
@@ -416,9 +417,9 @@ unknown~
 A C BC AB 0
 10 1 0 P
 A
-19 2
-A
 1 2
+A
+19 2
 #23706
 beryllium dagger sharp~
 a beryllium dagger~
@@ -428,11 +429,11 @@ unknown~
 B AB ABC ABD D
 15 1 0 P
 A
-19 3
+2 1
 A
 18 5
 A
-2 1
+19 3
 #23707
 beryllium mace~
 a beryllium mace~
@@ -442,11 +443,11 @@ unknown~
 C C AC ABC 0
 10 1 0 P
 A
-18 2
+12 20
 A
 4 1
 A
-12 20
+18 2
 #23708
 beryllium pole spear~
 a beryllium pole~
@@ -456,11 +457,11 @@ unknown~
 AB C AC ABCD 0
 10 1 0 P
 A
-18 1
+5 2
 A
 19 1
 A
-5 2
+18 1
 #23709
 beryllium axe~
 a beryllium axe~
@@ -470,9 +471,9 @@ unknown~
 AC C BC ADE 0
 10 1 0 P
 A
-19 1
-A
 1 2
+A
+19 1
 #23710
 beryllium chain mail armor-body~
 a suit of beryllium chain mail~
@@ -490,9 +491,9 @@ unknown~
 AC AC AC AB 0
 10 0 0 P
 A
-2 1
-A
 1 1
+A
+2 1
 #23712
 beryllium shield~
 a beryllium shield~
@@ -532,11 +533,11 @@ unknown~
 A C BC AB 0
 15 0 0 P
 A
-19 5
+1 1
 A
 18 3
 A
-1 1
+19 5
 #23716
 beryllium duel axe~
 a beryllium duel axe~
@@ -554,11 +555,11 @@ unknown~
 AB C BC ABCD 0
 0 1 0 P
 A
-5 2
+19 4
 A
 18 3
 A
-19 4
+5 2
 #23718
 sharp beryllium dagger~
 a sharp beryllium dagger~
@@ -568,11 +569,11 @@ unknown~
 B C BC ABD D
 15 1 0 P
 A
-2 2
+19 1
 A
 18 3
 A
-19 1
+2 2
 #23719
 spiked beryllium mace~
 a spiked beryllium mace~
@@ -582,13 +583,13 @@ unknown~
 C C BC ABC 0
 0 0 0 P
 A
-4 1
-A
-3 1
+19 1
 A
 18 1
 A
-19 1
+3 1
+A
+4 1
 #23720
 metal box stoarge crate~
 a metal storage crate~
@@ -666,9 +667,9 @@ unknown~
 ABC ABC ABC C 0
 15 0 0 P
 A
-18 1
-A
 19 1
+A
+18 1
 #23729
 beryllium longsword sword~
 a beryllium longsword~
@@ -678,11 +679,11 @@ unknown~
 A AC BC AB 0
 20 1 0 P
 A
-1 1
+19 5
 A
 18 4
 A
-19 5
+1 1
 #23730
 beryllium jack-knife knife dagger~
 a beryllium jack-knife~
@@ -692,11 +693,11 @@ unknown~
 B AC BC ABD 0
 20 1 0 P
 A
-19 4
+2 1
 A
 18 4
 A
-2 1
+19 4
 #23731
 beryllium battle axe~
 a beryllium battle axe~
@@ -714,11 +715,11 @@ unknown~
 AB AC BC ABCD 0
 20 0 0 P
 A
-19 4
+5 2
 A
 18 4
 A
-5 2
+19 4
 #23733
 beryllium flail cylindar~
 a beryllium flail~
@@ -728,11 +729,11 @@ unknown~
 BC AC BC ABC 0
 20 0 0 P
 A
-18 2
+4 2
 A
 19 5
 A
-4 2
+18 2
 #23734
 beryllium half plate armor-body~
 a suit of beryllium half plate ~
@@ -742,9 +743,9 @@ unknown~
 BD BD BD BC 0
 20 4 0 P
 A
-19 5
-A
 18 5
+A
+19 5
 #23735
 beryllium war helmen armor-head~
 a beryllium war helmet~
@@ -754,15 +755,15 @@ unknown~
 BD BD BD AC 0
 20 1 0 P
 A
-12 -100
-A
-2 -2
-A
-19 4
+18 4
 A
 13 50
 A
-18 4
+19 4
+A
+2 -2
+A
+12 -100
 #23736
 beryllium power bracers armor-wrist~
 beryllium power bracers~
@@ -782,13 +783,13 @@ unknown~
 AD AD ABD B 0
 20 0 0 P
 A
-1 3
-A
-2 -1
+13 25
 A
 3 -1
 A
-13 25
+2 -1
+A
+1 3
 #23738
 key weapon's vault~
 the level 20 weapon's vault key~
@@ -814,9 +815,9 @@ unknown~
 C AC BC ABC 0
 20 2 0 P
 A
-18 1
-A
 1 1
+A
+18 1
 #23741
 level 30 vault weapon's key~
 level 30 weapon's vault key~
@@ -842,13 +843,13 @@ unknown~
 A ABC AC BCDE C
 30 2 0 P
 A
-19 6
-A
-18 9
+13 10
 A
 3 -1
 A
-13 10
+18 9
+A
+19 6
 #23744
 beryllium blade backstabbing dagger vampiric sharp~
 a beryllium blade of backstabbing~
@@ -858,9 +859,9 @@ unknown~
 B ABC BC ABD CD
 30 1 0 P
 A
-19 4
-A
 18 10
+A
+19 4
 #23745
 beryllium morningstar mace~
 a beryllium morningstar~
@@ -870,13 +871,13 @@ unknown~
 C BC BC ACD 0
 30 1 0 P
 A
-4 1
-A
-1 1
+19 6
 A
 18 7
 A
-19 6
+1 1
+A
+4 1
 #23746
 beryllium power armor armor-body~
 the beryllium power armor~
@@ -886,11 +887,11 @@ unknown~
 AE ABE ACE ABE 0
 30 1 0 P
 A
-13 50
+5 3
 A
 18 4
 A
-5 3
+13 50
 #23747
 spiked power wristband bracer armor-wrist~
 the spiked bracer of power~
@@ -920,11 +921,11 @@ unknown~
 A AD AD ABE C
 59 0 50000 P
 A
-18 11
+1 2
 A
 5 2
 A
-1 2
+18 11
 #23796
 acid acidic blade sword sharp~
 acidic blade~
@@ -958,17 +959,17 @@ unknown~
 C BC ABC ABC F
 30 3 2300 P
 A
-2 -1
-A
-12 -50
-A
-19 3
-A
-18 5
+13 -150
 A
 1 4
 A
-13 -150
+18 5
+A
+19 3
+A
+12 -50
+A
+2 -1
 #0
 
 
@@ -982,11 +983,11 @@ hard to breathe.
 ~
 0 1 0
 D4
-(null)~
+~
 ~
 7 0 22562
 D5
-(null)~
+~
 ~
 0 0 23701
 S
@@ -997,11 +998,11 @@ of the black smoke coming your way.
 ~
 0 0 0
 D4
-(null)~
+~
 ~
 0 0 23700
 D5
-(null)~
+~
 ~
 0 0 23702
 S
@@ -1013,11 +1014,11 @@ breathe.
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 23701
 D5
-(null)~
+~
 ~
 0 0 23703
 S
@@ -1028,11 +1029,11 @@ Below you there is a grate where emense heat radiates.
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 23702
 D5
-(null)~
+~
 grate~
 1 0 23704
 S
@@ -1044,11 +1045,11 @@ grate above you.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 1 0 23705
 D4
-(null)~
+~
 ~
 1 0 23703
 S
@@ -1069,19 +1070,19 @@ Mace, Head Blacksmith
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23708
 D1
-(null)~
+~
 ~
 0 0 23706
 D2
-(null)~
+~
 ~
 1 0 23704
 D3
-(null)~
+~
 ~
 0 0 23707
 S
@@ -1092,11 +1093,11 @@ This area is made as a challenge for level 10 players. If you are level
 ~
 0 2097164 0
 D1
-(null)~
+~
 ~
 0 0 23709
 D3
-(null)~
+~
 ~
 0 0 23705
 S
@@ -1110,11 +1111,11 @@ a little easier. Have fun.
 ~
 0 2097164 0
 D1
-(null)~
+~
 ~
 0 0 23705
 D3
-(null)~
+~
 ~
 0 0 23721
 S
@@ -1126,11 +1127,11 @@ should trudge on ahead.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 23731
 D2
-(null)~
+~
 ~
 0 0 23705
 S
@@ -1143,11 +1144,11 @@ built this forge hit paydirt.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23710
 D3
-(null)~
+~
 ~
 0 0 23706
 S
@@ -1160,19 +1161,19 @@ the mined beryllium is sent in.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23714
 D1
-(null)~
+~
 ~
 0 0 23713
 D2
-(null)~
+~
 ~
 0 0 23709
 D3
-(null)~
+~
 ~
 0 0 23711
 S
@@ -1184,11 +1185,11 @@ the belt.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 23710
 D5
-(null)~
+~
 ~
 0 0 23712
 S
@@ -1199,7 +1200,7 @@ elevator must be at the bottom so you have no way to get down there.
 ~
 0 8 0
 D4
-(null)~
+~
 ~
 0 0 23711
 S
@@ -1211,11 +1212,11 @@ conveyour belt powered by a slave.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 23715
 D3
-(null)~
+~
 ~
 0 0 23710
 S
@@ -1228,7 +1229,7 @@ belts and carried off east.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 23710
 S
@@ -1240,11 +1241,11 @@ piece is smashed into shape by iron hammers.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 0 0 23716
 D3
-(null)~
+~
 ~
 0 0 23713
 S
@@ -1256,11 +1257,11 @@ every dunk. The weapons all seem to be heading north on a conveyour belt.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 23717
 D3
-(null)~
+~
 ~
 0 0 23715
 S
@@ -1273,19 +1274,19 @@ it, most likely weapons. North is a brightly lit room.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 23720
 D1
-(null)~
+~
 ~
 6 23703 23718
 D2
-(null)~
+~
 ~
 0 0 23716
 D3
-(null)~
+~
 ~
 6 23702 23719
 S
@@ -1297,7 +1298,7 @@ fighting but you couldn't get much from selling them.
 ~
 0 8 0
 D3
-(null)~
+~
 ~
 6 0 23717
 S
@@ -1309,7 +1310,7 @@ to protect you against many a foes, but no armouror would buy them.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 6 0 23717
 S
@@ -1321,7 +1322,7 @@ rises from his throne and looks at you. "Yes?" "Can I help you?"
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 23717
 S
@@ -1333,15 +1334,15 @@ Beryllium along.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23725
 D1
-(null)~
+~
 ~
 0 0 23707
 D3
-(null)~
+~
 ~
 0 0 23722
 S
@@ -1353,15 +1354,15 @@ Vaults Do Not Enter Moose, Minor Blacksmith
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 6 23721 23724
 D1
-(null)~
+~
 ~
 0 0 23721
 D3
-(null)~
+~
 ~
 6 23722 23723
 S
@@ -1372,7 +1373,7 @@ neatly sorted on the ground.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 6 0 23722
 S
@@ -1383,7 +1384,7 @@ storage crate lies in the middle of the room.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 6 0 23722
 S
@@ -1396,11 +1397,11 @@ a hammer clangs down.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23726
 D2
-(null)~
+~
 ~
 0 0 23721
 S
@@ -1413,11 +1414,11 @@ transported west to the vaults.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 23725
 D3
-(null)~
+~
 ~
 0 0 23727
 S
@@ -1429,19 +1430,19 @@ chamber, where he oversees all of the workers.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 0 0 23730
 D1
-(null)~
+~
 ~
 0 0 23726
 D2
-(null)~
+~
 ~
 6 23739 23729
 D3
-(null)~
+~
 ~
 6 23738 23728
 S
@@ -1452,7 +1453,7 @@ wall.
 ~
 0 8 0
 D1
-(null)~
+~
 ~
 6 0 23727
 S
@@ -1463,7 +1464,7 @@ is grouped in small piles for inspection by Moose.
 ~
 0 8 0
 D0
-(null)~
+~
 ~
 6 0 23727
 S
@@ -1474,7 +1475,7 @@ He takes one look at you and tells you to get back to work.
 ~
 0 8 0
 D2
-(null)~
+~
 ~
 0 0 23727
 S
@@ -1485,11 +1486,11 @@ The continuous clanking is giving you one heck of a headache.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23732
 D2
-(null)~
+~
 ~
 0 0 23708
 S
@@ -1501,11 +1502,11 @@ off a sizzle and steam fills the room.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23733
 D2
-(null)~
+~
 ~
 0 0 23731
 S
@@ -1517,19 +1518,19 @@ the weapons.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23738
 D1
-(null)~
+~
 ~
 0 0 23736
 D2
-(null)~
+~
 ~
 0 0 23732
 D3
-(null)~
+~
 ~
 0 0 23734
 S
@@ -1542,11 +1543,11 @@ blade of your sword!
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 23733
 D3
-(null)~
+~
 ~
 6 23742 23735
 S
@@ -1556,7 +1557,7 @@ A large vault where all of the armor is taken to.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 6 0 23734
 S
@@ -1568,11 +1569,11 @@ guards tell you that no one gets through without autorization.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 6 23741 23737
 D3
-(null)~
+~
 ~
 0 0 23733
 S
@@ -1582,7 +1583,7 @@ A large room where weapons are stacked neatly on the wall.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 6 0 23736
 S
@@ -1593,11 +1594,11 @@ blacksmith. He controls all of the vaults you have seen except the last.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23739
 D2
-(null)~
+~
 ~
 0 0 23733
 S
@@ -1609,11 +1610,11 @@ gave authorization for you to be here? Leave at once!"
 ~
 0 2097160 0
 D0
-(null)~
+~
 throne~
 4 23797 23740
 D2
-(null)~
+~
 ~
 0 0 23738
 S
@@ -1624,11 +1625,11 @@ forge. Dust and cobwebs lay strewn about.
 ~
 0 2097161 0
 D0
-(null)~
+~
 ~
 0 0 23741
 D2
-(null)~
+~
 ~
 4 0 23739
 S
@@ -1640,11 +1641,11 @@ blacksmith. Valuable eq can be found within the master level of the forges.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23742
 D2
-(null)~
+~
 ~
 0 0 23740
 S
@@ -1656,11 +1657,11 @@ get in you throat.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23743
 D2
-(null)~
+~
 ~
 0 0 23741
 S
@@ -1673,11 +1674,11 @@ in here.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23744
 D2
-(null)~
+~
 ~
 0 0 23742
 S
@@ -1689,11 +1690,11 @@ collecting dust.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23745
 D2
-(null)~
+~
 ~
 0 0 23743
 S
@@ -1704,15 +1705,15 @@ which are now rusted and broken. Ahead lies a sort of main chamber.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23746
 D1
-(null)~
+~
 ~
 0 0 23748
 D2
-(null)~
+~
 ~
 0 0 23744
 S
@@ -1724,15 +1725,15 @@ door rusted and broken off.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23750
 D2
-(null)~
+~
 ~
 0 0 23745
 D3
-(null)~
+~
 ~
 0 0 23747
 S
@@ -1744,7 +1745,7 @@ paper.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 23746
 S
@@ -1756,11 +1757,11 @@ the strewn about skeleton's of the past guards.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 23749
 D3
-(null)~
+~
 ~
 0 0 23745
 S
@@ -1772,7 +1773,7 @@ black blade.
 ~
 0 2097160 0
 D3
-(null)~
+~
 ~
 0 0 23748
 S
@@ -1782,11 +1783,11 @@ This is a small hallway which leads north to a brightly lit room.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 23751
 D2
-(null)~
+~
 ~
 0 0 23746
 S
@@ -1800,7 +1801,7 @@ been painted all over the walls here.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 23750
 S
@@ -1903,14 +1904,13 @@ O 0 23736 0 23729 Beryllium power bracers loaded to Level 20 Vault
 O 0 23737 0 23729 Beryllium power gauntlets loaded to Level 20 Vault
 M 0 23718 0 23730 Load Moose
 E 0 23740 0 16 The hammer of moose is loaded wielded of Moose
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23717 7 23730 Load moose's guard
-M 0 23718 0 23730 Load Moose
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
+M 0 23717 7 23730 Load Moose's guard
 M 0 23719 3 23731 Load a blacksmith
 M 0 23719 3 23731 Load a blacksmith
 M 0 23719 3 23731 Load a blacksmith
@@ -1957,7 +1957,7 @@ M 23706 20 CityGuard Load to: a vault guard
 M 23707 20 CityGuard Load to: one of Meese's guards
 M 23710 20 CityGuard Load to: a vault guard
 M 23716 20 CityGuard Load to: a powerhouse vault guard
-M 23717 20 CityGuard Load to: moose's guard
+M 23717 20 CityGuard Load to: Moose's guard
 M 23742 20 CityGuard Load to: Mose's guard
 S
 

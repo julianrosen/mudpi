@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 35} Glop    Mega-City One ~
+Group       Embermud~
 Builders    None~
 VNUMs       8000 8028
 Security    9
@@ -910,11 +911,11 @@ sign~
 To open insert card.
 ~
 D0
-(null)~
+~
 door~
 2 8013 8027
 D3
-(null)~
+~
 door~
 1 0 8016
 S
@@ -930,11 +931,11 @@ This vault seems impervious to breaking. There is a keyhole in the lock
 however.
 ~
 D0
-(null)~
+~
 vault door~
 2 8012 8028
 D2
-(null)~
+~
 door~
 2 8013 8026
 S
@@ -944,7 +945,7 @@ The vault is musty with a slight smell of ozone in the air.
 ~
 0 8 0
 D2
-(null)~
+~
 vault door~
 2 8012 8027
 S

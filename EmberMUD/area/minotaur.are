@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 30} Rakor   Minotaur Bay~
+Group       Mudweiser~
 Builders    None~
 VNUMs       22200 22299
 Security    6
@@ -145,7 +146,7 @@ no name~
 (no short description)~
 (no long description)
 ~
-(null)~
+~
 Human~
 A 0 0 S
 0 0 
@@ -233,11 +234,11 @@ stretching from the nearest shore.
 ~
 0 4 2
 D1
-(null)~
+~
 ~
 0 0 22201
 D3
-(null)~
+~
 ~
 0 0 17738
 S
@@ -250,15 +251,15 @@ suspicious warehouse. The pier is east.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22211
 D1
-(null)~
+~
 ~
 0 0 22202
 D3
-(null)~
+~
 ~
 0 0 22200
 S
@@ -271,11 +272,11 @@ pier stretches eastward.
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 22203
 D3
-(null)~
+~
 ~
 0 0 22201
 S
@@ -288,11 +289,11 @@ haste to get to the ship.
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 22204
 D3
-(null)~
+~
 ~
 0 0 22202
 S
@@ -305,15 +306,15 @@ is a prosporous port indeed!
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 22205
 D2
-(null)~
+~
 ~
 0 0 22217
 D3
-(null)~
+~
 ~
 0 0 22203
 S
@@ -326,11 +327,11 @@ civilization.
 ~
 0 2097152 1
 D1
-(null)~
+~
 ~
 0 0 22206
 D3
-(null)~
+~
 ~
 0 0 22204
 S
@@ -343,15 +344,15 @@ erie in their omnipresent shadows.
 ~
 0 2097156 1
 D0
-(null)~
+~
 ~
 0 0 22207
 D2
-(null)~
+~
 ~
 0 0 22209
 D3
-(null)~
+~
 ~
 0 0 22205
 S
@@ -364,11 +365,11 @@ water.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22208
 D2
-(null)~
+~
 ~
 0 0 22206
 S
@@ -380,7 +381,7 @@ Except for a few fisherman, you are entirely alone.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 0 22207
 S
@@ -393,11 +394,11 @@ water.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22206
 D2
-(null)~
+~
 ~
 0 0 22210
 S
@@ -416,11 +417,11 @@ rough on the way. Travel only if you're well prepared for what waits ahead
 of you.  
 ~
 D0
-(null)~
+~
 ~
 0 0 22209
 D1
-(null)~
+~
 ~
 0 0 25771
 S
@@ -432,15 +433,15 @@ scuttle into a shadow. Or maybe that was a dog? Gross!
 ~
 0 4 0
 D0
-(null)~
+~
 ~
 0 0 22214
 D2
-(null)~
+~
 ~
 0 0 22201
 D3
-(null)~
+~
 ~
 0 0 22212
 S
@@ -452,11 +453,11 @@ approach you unaware. This is not a place of safety.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22213
 D1
-(null)~
+~
 ~
 0 0 22211
 S
@@ -468,15 +469,15 @@ approach you unaware. This is not a place of safety.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22216
 D1
-(null)~
+~
 ~
 0 0 22214
 D2
-(null)~
+~
 ~
 0 0 22212
 S
@@ -488,15 +489,15 @@ approach you unaware. This is not a place of safety.
 ~
 0 0 0
 D0
-(null)~
+~
 ~
 0 0 22215
 D2
-(null)~
+~
 ~
 0 0 22211
 D3
-(null)~
+~
 ~
 0 0 22213
 S
@@ -508,11 +509,11 @@ approach you unaware. This is not a place of safety.
 ~
 0 0 0
 D2
-(null)~
+~
 ~
 0 0 22214
 D3
-(null)~
+~
 ~
 0 0 22216
 S
@@ -524,11 +525,11 @@ approach you unaware. This is not a place of safety.
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 0 22215
 D2
-(null)~
+~
 ~
 0 0 22213
 S
@@ -541,11 +542,11 @@ the entrance and grinning evilly.
 ~
 0 2097152 1
 D0
-(null)~
+~
 ~
 0 0 22204
 D2
-(null)~
+~
 ~
 0 0 22218
 S
@@ -557,11 +558,11 @@ sways gently with the waves. The main ship is south.
 ~
 0 2097156 0
 D0
-(null)~
+~
 ~
 0 0 22217
 D2
-(null)~
+~
 ~
 0 0 22219
 S
@@ -573,19 +574,19 @@ reached by either heading east or west.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22218
 D1
-(null)~
+~
 ~
 0 0 22232
 D3
-(null)~
+~
 ~
 0 0 22238
 D5
-(null)~
+~
 ~
 0 0 22220
 S
@@ -597,11 +598,11 @@ doors can be seen on either side.
 ~
 0 2097156 0
 D2
-(null)~
+~
 ~
 0 0 22221
 D4
-(null)~
+~
 ~
 0 0 22219
 S
@@ -613,19 +614,19 @@ isn't helping. To the south is more hallway.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22220
 D1
-(null)~
+~
 ~
 1 0 22225
 D2
-(null)~
+~
 ~
 0 0 22222
 D3
-(null)~
+~
 ~
 1 0 22226
 S
@@ -637,19 +638,19 @@ isn't helping. To the south is more hallway.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22221
 D1
-(null)~
+~
 ~
 1 0 22228
 D2
-(null)~
+~
 ~
 0 0 22223
 D3
-(null)~
+~
 ~
 1 0 22227
 S
@@ -661,19 +662,19 @@ from it. There are also doors to the east and west.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22222
 D1
-(null)~
+~
 ~
 1 0 22230
 D2
-(null)~
+~
 ~
 1 0 22231
 D3
-(null)~
+~
 ~
 1 0 22229
 S
@@ -686,7 +687,7 @@ off.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 22221
 S
@@ -699,7 +700,7 @@ off.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 22221
 S
@@ -711,7 +712,7 @@ hull, but these sailors are sound asleep. A tiny porthole provides light.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 22222
 S
@@ -723,7 +724,7 @@ hull, but these sailors are sound asleep. A tiny porthole provides light.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 22222
 S
@@ -735,7 +736,7 @@ hull, but these sailors are sound asleep. A tiny porthole provides light.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 1 0 22223
 S
@@ -747,7 +748,7 @@ hull, but these sailors are sound asleep. A tiny porthole provides light.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 1 0 22223
 S
@@ -759,7 +760,7 @@ large room. You see many fine paintings decorating the walls.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 1 0 22223
 S
@@ -772,11 +773,11 @@ lubber for life.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 22233
 D3
-(null)~
+~
 ~
 0 0 22219
 S
@@ -788,11 +789,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22232
 D2
-(null)~
+~
 ~
 0 0 22234
 S
@@ -804,11 +805,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22233
 D3
-(null)~
+~
 ~
 0 0 22235
 S
@@ -820,11 +821,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 22234
 D3
-(null)~
+~
 ~
 0 0 22236
 S
@@ -836,11 +837,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22237
 D1
-(null)~
+~
 ~
 0 0 22235
 S
@@ -852,11 +853,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 22238
 D2
-(null)~
+~
 ~
 0 0 22236
 S
@@ -868,11 +869,11 @@ islands it has seen. Maybe you will get to visit one of them someday.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 22219
 D2
-(null)~
+~
 ~
 0 0 22237
 S

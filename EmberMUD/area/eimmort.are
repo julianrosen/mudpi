@@ -1,5 +1,6 @@
 #AREADATA
 Name        {36 40} ROM     Immortal Zone~
+Group       Embermud~
 Builders    None~
 VNUMs       1200 1299
 Security    9
@@ -384,7 +385,7 @@ and cowards. Their cries of misery send a shiver down your spine.
 ~
 0 8 0
 D5
-(null)~
+~
 ~
 0 -1 1219
 S

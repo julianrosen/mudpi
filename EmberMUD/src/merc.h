@@ -279,6 +279,7 @@ struct descriptor_data {
     char *showstr_point;
     void *pEdit;                /* OLC */
     char **pString;             /* OLC */
+    bool color_edit;            /* JR: are we in an editor mode where we want color? */
     int editor;                 /* OLC */
 };
 
@@ -886,6 +887,7 @@ struct area_data {
     RESET_DATA *reset_first;
     RESET_DATA *reset_last;
     char *name;
+    char *group;  // JR added this
     sh_int age;
     sh_int nplayer;
     bool empty;                 /* ROM OLC */
@@ -1676,10 +1678,10 @@ void reset_area args( ( AREA_DATA * pArea ) );
 void reset_room args( ( ROOM_INDEX_DATA * pRoom ) );
 
 /* string.c */
-void string_edit args( ( CHAR_DATA * ch, char **pString ) );
-void string_append args( ( CHAR_DATA * ch, char **pString ) );
+void string_edit args( ( CHAR_DATA * ch, char **pString, bool color ) );
+void string_append args( ( CHAR_DATA * ch, char **pString, bool color ) );
 char *string_replace args( ( char *orig, char *old, char *New ) );
-void string_add args( ( CHAR_DATA * ch, char *argument ) );
+void string_add args( ( CHAR_DATA * ch, char *argument, bool color ) );
 char *format_string args( ( char *oldstring /*, bool fSpace */  ) );
 char *first_arg args( ( char *argument, char *arg_first, bool fCase ) );
 char *string_unpad args( ( char *argument ) );
@@ -1886,3 +1888,5 @@ char * article( bool, bool, char * );
 char * center( char *, int , char *);
 int bw_strlen( char * );
 void command_not_found( CHAR_DATA * );
+
+char * unprocess_color( const char * );

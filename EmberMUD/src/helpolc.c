@@ -319,7 +319,7 @@ bool helpsedit_text( CHAR_DATA * ch, char *argument )
     }
     if ( argument[0] == '\0' )
     {
-        string_append( ch, &pHelp->text );
+        string_append( ch, &pHelp->text, COLOR_DESC );
         return TRUE;
     }
 

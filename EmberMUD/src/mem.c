@@ -136,6 +136,24 @@ char *remove_color( const char *str )
     return nocolor_buf;
 }
 
+
+// JR: Return a string that will display str without processing color commands
+char *unprocess_color( const char *str )
+{
+    char *nocolor;
+    static char nocolor_buf[MAX_STRING_LENGTH];
+
+    bzero( nocolor_buf, MAX_STRING_LENGTH );
+    nocolor = nocolor_buf;
+    while ( *str )
+    {
+        *nocolor++ = *str++;
+        if ( *str == '`' )
+            *nocolor++ = '`';
+    }
+    return nocolor_buf;
+}
+
 MPROG_DATA *new_mudprog(  )
 {
     MPROG_DATA *mprog;
@@ -238,6 +256,7 @@ AREA_DATA *new_area( void )
     pArea->next = NULL;
     pArea->name = str_dup( "New area" );
 /*    pArea->recall           =   ROOM_VNUM_TEMPLE;      ROM OLC */
+    pArea->group = str_dup( "None" );
     pArea->area_flags = AREA_ADDED;
     pArea->security = 1;
     pArea->builders = str_dup( "None" );

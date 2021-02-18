@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 1 30} Kyle    Playtester's arena~
+Group       Mudweiser~
 Builders    Kyle~
 VNUMs       13400 13499
 Security    8
@@ -30,7 +31,7 @@ equpiment guardian~
 a large angry guardian monster~
 The guardian of the equipment does not look happy to see you.
 ~
-(null)~
+~
 Human~
 ABF J 0 S
 10 0 
@@ -74,7 +75,7 @@ average mob~
 an average mob~
 An average-sized mob is here, hoping to live.
 ~
-(null)~
+~
 Human~
 A 0 150 S
 3 4 
@@ -134,7 +135,7 @@ sneaky guard~
 a sneaky guard mob~
 A sneaky guard mob hides from you here.
 ~
-(null)~
+~
 Human~
 ABF DFPQ 250 S
 8 7 
@@ -179,7 +180,7 @@ smart mob~
 a smart mob~
 A smart mob wanders around waiting for the best time to attack.
 ~
-(null)~
+~
 Human~
 AR 0 -250 S
 9 8 
@@ -482,15 +483,15 @@ You are in a dark, slightly damp room. A ladder extends above you into
 the sunny city of Midgaard. To your north, you see a large dirt arena where
 small creatures crawl around looking for food. Torches light the arena to
 your north, so you need not have fear if you didn't bring a lantern with
-you.  
+you. 
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13401
 D4
-(null)~
+~
 ~
 0 0 16014
 S
@@ -499,23 +500,23 @@ Entrance to the newbie arena~
 This is the entrance to the level 1 to 10 arena. Mobs around here have
 some standardized equpiment you can use until more areas have been
 implemented. Most EQ here will eventually be taken away, but you will be
-allowed to keep some in payment for playtesting.  
+allowed to keep some in payment for playtesting. 
 ~
 0 2098188 0
 D0
-(null)~
+~
 ~
 0 0 13402
 D1
-(null)~
+~
 ~
 0 0 13414
 D2
-(null)~
+~
 ~
 0 0 13400
 D3
-(null)~
+~
 ~
 0 0 13404
 S
@@ -526,19 +527,19 @@ to be killed.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13403
 D1
-(null)~
+~
 ~
 0 0 13415
 D2
-(null)~
+~
 ~
 0 0 13401
 D3
-(null)~
+~
 ~
 0 0 13405
 S
@@ -548,82 +549,82 @@ The newbie arena continues south, east, and west.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13416
 D2
-(null)~
+~
 ~
 0 0 13402
 D3
-(null)~
+~
 ~
 0 0 13406
 S
 #13404
 Newbie arena~
 Low level mobs wander around here. The arena continues to the north and
-east.  
+east. 
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13405
 D1
-(null)~
+~
 ~
 0 0 13401
 S
 #13405
 Newbie arena~
-The arena continues to the north, east, and south.
+The arena continues to the north, east, and south. 
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13406
 D1
-(null)~
+~
 ~
 0 0 13402
 D2
-(null)~
+~
 ~
 0 0 13404
 S
 #13406
 Newbie arena~
 The main arena continues to the south and east while a side passage leads
-to the north.  
+to the north. 
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13407
 D1
-(null)~
+~
 ~
 0 0 13403
 D2
-(null)~
+~
 ~
 0 0 13405
 S
 #13407
 Hallway away from the arena~
 This hallway leads north, away from the arena to some of the more
-dangerous mobs.  
+dangerous mobs. 
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 13408
 D2
-(null)~
+~
 ~
 0 0 13406
 S
@@ -634,11 +635,11 @@ come from the northwest.
 ~
 0 2097164 0
 D2
-(null)~
+~
 ~
 0 0 13407
 D3
-(null)~
+~
 ~
 0 0 13409
 S
@@ -649,11 +650,11 @@ some of the smarter arena mobs have taken shelter here.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 13410
 D1
-(null)~
+~
 ~
 0 0 13408
 S
@@ -665,15 +666,15 @@ their hideout be discovered.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13413
 D2
-(null)~
+~
 ~
 0 0 13409
 D3
-(null)~
+~
 ~
 0 0 13411
 S
@@ -684,11 +685,11 @@ moving, but strangely, you see nothing moving. Maybe you imagined it?
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13412
 D1
-(null)~
+~
 ~
 0 0 13410
 S
@@ -700,11 +701,11 @@ from you.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13413
 D2
-(null)~
+~
 ~
 0 0 13411
 S
@@ -715,11 +716,11 @@ hiding, but you turn to look at it and you see nothing.
 ~
 0 2097152 0
 D2
-(null)~
+~
 ~
 0 0 13410
 D3
-(null)~
+~
 ~
 0 0 13412
 S
@@ -729,11 +730,11 @@ The newbie arena continues north and west.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13415
 D3
-(null)~
+~
 ~
 0 0 13401
 S
@@ -744,19 +745,19 @@ with playtest gear.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13416
 D1
-(null)~
+~
 ~
 0 0 13418
 D2
-(null)~
+~
 ~
 0 0 13414
 D3
-(null)~
+~
 ~
 0 0 13402
 S
@@ -767,19 +768,19 @@ kill them.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13417
 D1
-(null)~
+~
 ~
 0 0 13419
 D2
-(null)~
+~
 ~
 0 0 13415
 D3
-(null)~
+~
 ~
 0 0 13403
 S
@@ -789,11 +790,11 @@ The newbie arena continues to the east and south.
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 13420
 D2
-(null)~
+~
 ~
 0 0 13416
 S
@@ -803,11 +804,11 @@ The arena continues north and west.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13419
 D3
-(null)~
+~
 ~
 0 0 13415
 S
@@ -818,19 +819,19 @@ leads east.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13420
 D1
-(null)~
+~
 ~
 0 0 13428
 D2
-(null)~
+~
 ~
 0 0 13418
 D3
-(null)~
+~
 ~
 0 0 13416
 S
@@ -840,15 +841,15 @@ The newbie arena continues south and west, and a hallway leads north.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13421
 D2
-(null)~
+~
 ~
 0 0 13419
 D3
-(null)~
+~
 ~
 0 0 13417
 S
@@ -859,11 +860,11 @@ bends to the east.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13422
 D2
-(null)~
+~
 ~
 0 0 13420
 S
@@ -873,11 +874,11 @@ The hall here bends to the east and the arena is to the south.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13423
 D2
-(null)~
+~
 ~
 0 0 13421
 S
@@ -888,11 +889,11 @@ to the northeast.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13424
 D3
-(null)~
+~
 ~
 0 0 13422
 S
@@ -903,15 +904,15 @@ alcove.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13429
 D2
-(null)~
+~
 ~
 0 0 13425
 D3
-(null)~
+~
 ~
 0 0 13423
 S
@@ -922,11 +923,11 @@ the north.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13424
 D2
-(null)~
+~
 ~
 0 0 13426
 S
@@ -937,11 +938,11 @@ hallway. There appears to be a alcove in the wall to the north.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13425
 D2
-(null)~
+~
 ~
 0 0 13427
 S
@@ -952,11 +953,11 @@ the arena.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13426
 D3
-(null)~
+~
 ~
 0 0 13428
 S
@@ -967,11 +968,11 @@ to the east.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13427
 D3
-(null)~
+~
 ~
 0 0 13419
 S
@@ -983,11 +984,11 @@ hallway.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 13424
 D5
-(null)~
+~
 ~
 0 0 13430
 S
@@ -1000,15 +1001,15 @@ reason, and they lead north and west.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 13437
 D3
-(null)~
+~
 ~
 0 0 13431
 D4
-(null)~
+~
 ~
 0 0 13429
 S
@@ -1024,24 +1025,24 @@ This area is for testing of new, powerful, mobs and equipment.
 Authorized personell only.  
 ~
 D1
-(null)~
+~
 ~
 0 0 13430
 D3
-(null)~
+~
 ~
 0 0 13432
 S
 #13432
 Entrance to the forbidden vault~
-(null)~
+~
 0 2097160 0
 D0
-(null)~
+~
 ~
 1 13400 13433
 D1
-(null)~
+~
 ~
 0 0 13431
 S
@@ -1051,11 +1052,11 @@ Hey! You aren't supposed to be here! The equipment here is too good!
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13434
 D2
-(null)~
+~
 ~
 1 0 13432
 S
@@ -1066,11 +1067,11 @@ before you can get to where the equipment is!
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 13433
 D3
-(null)~
+~
 ~
 0 0 13435
 S
@@ -1081,11 +1082,11 @@ powerful equipment! Leave now!
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13434
 D3
-(null)~
+~
 ~
 0 0 13436
 S
@@ -1095,11 +1096,11 @@ You were warned! Now you're gonna die!
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13435
 D3
-(null)~
+~
 ~
 1 13401 13444
 S
@@ -1110,11 +1111,11 @@ muffled sounds of movement are heard from the north.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 13438
 D2
-(null)~
+~
 ~
 0 0 13430
 S
@@ -1126,11 +1127,11 @@ coming from.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13439
 D2
-(null)~
+~
 ~
 0 0 13437
 S
@@ -1142,11 +1143,11 @@ ravages of the playtesters.
 ~
 0 2097164 0
 D0
-(null)~
+~
 ~
 0 0 13440
 D2
-(null)~
+~
 ~
 0 0 13438
 S
@@ -1158,15 +1159,15 @@ know spells.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13443
 D1
-(null)~
+~
 ~
 0 0 13441
 D2
-(null)~
+~
 ~
 0 0 13439
 S
@@ -1177,11 +1178,11 @@ continues north and west.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13442
 D3
-(null)~
+~
 ~
 0 0 13440
 S
@@ -1193,11 +1194,11 @@ who seems to be in charge.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 13441
 D3
-(null)~
+~
 ~
 0 0 13443
 S
@@ -1208,11 +1209,11 @@ east there is what appears to be the leader.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13442
 D2
-(null)~
+~
 ~
 0 0 13440
 S
@@ -1225,11 +1226,11 @@ occasionally bumping into each other.
 ~
 0 2097164 0
 D1
-(null)~
+~
 ~
 1 0 13436
 D3
-(null)~
+~
 ~
 0 0 13445
 S
@@ -1241,19 +1242,19 @@ would kill them for.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13446
 D1
-(null)~
+~
 ~
 0 0 13444
 D2
-(null)~
+~
 ~
 0 0 13447
 D3
-(null)~
+~
 ~
 0 0 13449
 S
@@ -1263,11 +1264,11 @@ The vault continues south and west. Southeast of here is the exit out.
 ~
 0 2097160 0
 D2
-(null)~
+~
 ~
 0 0 13445
 D3
-(null)~
+~
 ~
 0 0 13448
 S
@@ -1277,11 +1278,11 @@ The vault exists to the north and west. Northeast is the exit.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13445
 D3
-(null)~
+~
 ~
 0 0 13450
 S
@@ -1292,11 +1293,11 @@ the best gear around.
 ~
 0 2097160 0
 D1
-(null)~
+~
 ~
 0 0 13446
 D2
-(null)~
+~
 ~
 0 0 13449
 S
@@ -1307,15 +1308,15 @@ is the exit to the vault.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13448
 D1
-(null)~
+~
 ~
 0 0 13445
 D2
-(null)~
+~
 ~
 0 0 13450
 S
@@ -1327,11 +1328,11 @@ equipment.
 ~
 0 2097160 0
 D0
-(null)~
+~
 ~
 0 0 13449
 D1
-(null)~
+~
 ~
 0 0 13447
 S

@@ -1773,7 +1773,6 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
     if ( !initialized )
     {
         // Text has not been read from file
-        printf("Reading Gatsby file...");
         sprintf( buf, "%s/data/the_great_gatsby", sysconfig.area_dir );
         FILE * fp = fopen(buf, "r");
         bufp = gatsby_text;
@@ -1791,7 +1790,6 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
         fclose(fp);
         *bufp = '\0';
         gatsby_head = gatsby_text;
-        printf("completed.\n");
         initialized = TRUE;
     }
     
@@ -1865,19 +1863,19 @@ void do_mpcycle( CHAR_DATA *ch, char *argument )
         return;
     strncpy( tag, argument, 3);
     tag[3] = '\0';
-    printf("tag: %s\n",tag);
     argument += 4;
     for (index=0;index<numcycles;index++)
         if (!strcmp( tag, taglist[index] ) )
             break;
     if ( index == numcycles )
     {
-        printf("new cycle\n");
         if (numcycles == 1024)
         {
             printf("Ran out of space\n");
             return;
         }
+        else if (numcycles >= 10)
+            printf("There are %i cycles running\n",numcycles);
         cyclelist[index] = strdup( argument );
         taglist[index] = strdup(tag);
         head[index] = cyclelist[index];
@@ -1885,6 +1883,11 @@ void do_mpcycle( CHAR_DATA *ch, char *argument )
     }
     else
     {
+        if ( !strcmp( argument, "reset" )) //
+        {
+            head[index] = cyclelist[index];
+            return;
+        }
         if ( strcmp(argument,cyclelist[index]) )
         {
             // This should not happen
@@ -1894,7 +1897,6 @@ void do_mpcycle( CHAR_DATA *ch, char *argument )
             head[index] = cyclelist[index];
         }
     }
-    printf("tag, index: %s, %i\n",tag,index);
     strcpy( buf, head[index] );
     todo = buf;
     done = FALSE;
@@ -1923,7 +1925,6 @@ void do_mpcycle( CHAR_DATA *ch, char *argument )
             }
         }
         interpret( ch, todo );
-        printf("interpret: %s\n",todo); 
         if ( !done )
             todo += n + 1;
     }

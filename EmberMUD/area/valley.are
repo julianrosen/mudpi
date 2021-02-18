@@ -1,5 +1,6 @@
 #AREADATA
 Name        { 5 20} Hatchet Valley of the Elves~
+Group       Embermud~
 Builders    None~
 VNUMs       7800 7883
 Security    9
@@ -1490,11 +1491,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7850
 D2
-(null)~
+~
 ~
 0 0 7803
 D5
@@ -1510,11 +1511,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7851
 D3
-(null)~
+~
 ~
 0 0 7849
 D5
@@ -1530,11 +1531,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7852
 D2
-(null)~
+~
 ~
 0 0 7850
 D5
@@ -1550,11 +1551,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7853
 D3
-(null)~
+~
 ~
 0 0 7851
 D5
@@ -1571,11 +1572,11 @@ A safe trail leads down into the valley.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7854
 D2
-(null)~
+~
 ~
 0 0 7852
 D5
@@ -1591,11 +1592,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 7853
 D3
-(null)~
+~
 ~
 0 0 7855
 D5
@@ -1611,11 +1612,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7856
 D1
-(null)~
+~
 ~
 0 0 7854
 D5
@@ -1631,11 +1632,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 7855
 D3
-(null)~
+~
 ~
 0 0 7857
 D5
@@ -1651,7 +1652,7 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7856
 D3
@@ -1674,11 +1675,11 @@ leads down into a trail.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7857
 D3
-(null)~
+~
 ~
 0 0 7859
 D5
@@ -1699,7 +1700,7 @@ You see a rope bridge.
 ~
 0 0 7858
 D3
-(null)~
+~
 ~
 0 0 7860
 D5
@@ -1715,11 +1716,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7859
 D2
-(null)~
+~
 ~
 0 0 7861
 D5
@@ -1735,11 +1736,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7860
 D3
-(null)~
+~
 ~
 0 0 7862
 D5
@@ -1755,11 +1756,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 0 7861
 D2
-(null)~
+~
 ~
 0 0 7863
 D5
@@ -1776,11 +1777,11 @@ A safe trail leads down into the valley.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7862
 D2
-(null)~
+~
 ~
 0 0 7864
 D5
@@ -1796,11 +1797,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7863
 D1
-(null)~
+~
 ~
 0 0 7865
 D5
@@ -1816,11 +1817,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 7866
 D3
-(null)~
+~
 ~
 0 0 7864
 D5
@@ -1836,11 +1837,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 0 7865
 D1
-(null)~
+~
 ~
 0 0 7867
 D5
@@ -1856,11 +1857,11 @@ you can see the valley, filled with wild flowers and tall, green grasses.
 ~
 0 0 2
 D2
-(null)~
+~
 ~
 0 0 7802
 D3
-(null)~
+~
 ~
 0 0 7866
 D5
@@ -2116,7 +2117,7 @@ a magical aura.
 ~
 0 8 0
 D1
-(null)~
+~
 door~
 2 7805 7880
 S
@@ -2127,7 +2128,7 @@ whole room radiates with a magical aura.
 ~
 0 8 0
 D3
-(null)~
+~
 secret door~
 2 7805 7880
 S

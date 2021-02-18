@@ -1,5 +1,6 @@
 #AREADATA
 Name        {30 45} Kas     Thallid Haven~
+Group       Mudweiser~
 Builders    None~
 VNUMs       20300 20399
 Security    6
@@ -46,11 +47,10 @@ Mega Fungus thallid king~
 the King of the Thallids~
 The King of the Thallids stands here ready to eat you alive.
 ~
-Here stands the biggest Thallid you ever saw. Now that he is here, he's probably
-the last Thallid you'll ever see.
-The Mega Thallid stands here with tiny Thallids sprouting out of it's back.
-These tiny Thallids will soon grow big and strong and start creating 
-saprolings.
+Here stands the biggest Thallid you ever saw. Now that he is here, he's
+probably the last Thallid you'll ever see. The Mega Thallid stands here with
+tiny Thallids sprouting out of it's back. These tiny Thallids will soon grow
+big and strong and start creating saprolings. 
 ~
 Human~
 AGR HPV 0 S
@@ -223,117 +223,116 @@ A
 #ROOMS
 #20300
 A dark passage through the mountains~
-You find a dark passage between the mountains appearantly leading nowhere. You
-see a faint trail before you that obviously had not been used for many years.
-You wonder why...
+You find a dark passage between the mountains appearantly leading
+nowhere. You see a faint trail before you that obviously had not been used
+for many years. You wonder why. 
 ~
 0 2097157 5
 D0
-(null)~
+~
 ~
 0 0 20301
 D2
-(null)~
+~
 ~
 0 0 16268
 S
 #20301
 Further into the mountains~
-You continue onto the trail. Strange noises echo from all directions. 
-You feel compelled to turn back. You can go straight up the steep slope of
-the mountain, or go north where the trail leads to the foot of a large
-mountain.  
+You continue onto the trail. Strange noises echo from all directions. You
+feel compelled to turn back. You can go straight up the steep slope of the
+mountain, or go north where the trail leads to the foot of a large mountain.
 ~
 0 2097153 5
 D0
-(null)~
+~
 ~
 0 0 18200
 D2
-(null)~
+~
 ~
 0 0 20300
 D4
-(null)~
+~
 ~
 0 0 20302
 S
 #20302
 A steep slope of the mountain~
-You start your journey up the steep slope of the mountain. The noise has become
-increasingly louder but still you cannot recognise this strangely alien sound.
+You start your journey up the steep slope of the mountain. The noise has
+become increasingly louder but still you cannot recognise this strangely
+alien sound. 
 ~
 0 2097152 5
 D4
-(null)~
+~
 ~
 0 0 20303
 D5
-(null)~
+~
 ~
 0 0 20301
 S
 #20303
 A steep slope of the mountain~
-You resume you quest of exploring this strange mountain.  You are
-engulfed with fear as the horrifying sound becomes more clear.  The terrible
-sounds bring back memories of the Thallophy...  Thallids.  
+You resume you quest of exploring this strange mountain. You are engulfed
+with fear as the horrifying sound becomes more clear. The terrible sounds
+bring back memories of the Thallophy... Thallids. 
 ~
 0 2097152 0
 D4
-(null)~
+~
 ~
 0 0 20304
 D5
-(null)~
+~
 ~
 0 0 20302
 S
 #20304
 Top of the mountain~
-From here you actually see the Thallids as tiny buds sprout from the larger Thallid
-as it feeds on a rotting carcass.
-You reconsider the thought about turning back. Suddenly you hear something behind
-you.
+From here you actually see the Thallids as tiny buds sprout from the
+larger Thallid as it feeds on a rotting carcass. You reconsider the thought
+about turning back. Suddenly you hear something behind you. 
 ~
 0 2097152 5
 D0
-(null)~
+~
 ~
 0 0 20305
 D5
-(null)~
+~
 ~
 0 0 20303
 S
 #20305
 Top of the mountain~
-You have reached the other side of the mountain. The exits are back south or head
-down and confront this terror. All around you are tiny spores blown by the wind.
-Soon these spores will grow to be a new generation of Thallids.
+You have reached the other side of the mountain. The exits are back south
+or head down and confront this terror. All around you are tiny spores blown
+by the wind. Soon these spores will grow to be a new generation of Thallids.
 ~
 0 2097152 5
 D2
-(null)~
+~
 ~
 0 0 20304
 D5
-(null)~
+~
 ~
 0 0 20306
 S
 #20306
 Other side of mountain~
-You travel down the mountains to get a better look at the area. Below you lays
-the entrance to the Valley of the Thallids.
+You travel down the mountains to get a better look at the area. Below you
+lies the entrance to the Valley of the Thallids. 
 ~
 0 2097152 5
 D4
-(null)~
+~
 ~
 0 0 20305
 D5
-(null)~
+~
 ~
 0 0 20307
 S
@@ -345,11 +344,11 @@ amount of plants growing here. A long trail leads forward.
 ~
 0 2097152 2
 D0
-(null)~
+~
 ~
 0 0 20308
 D4
-(null)~
+~
 ~
 0 0 20306
 S
@@ -361,11 +360,11 @@ hear a sound to the north but you quickly dismiss any thoughts of it.
 ~
 0 2097152 2
 D0
-(null)~
+~
 ~
 0 0 20309
 D2
-(null)~
+~
 ~
 0 0 20307
 S
@@ -380,19 +379,19 @@ or something all around you.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20310
 D1
-(null)~
+~
 ~
 0 0 20311
 D2
-(null)~
+~
 ~
 0 0 20308
 D3
-(null)~
+~
 ~
 0 0 20312
 S
@@ -404,19 +403,19 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20318
 D1
-(null)~
+~
 ~
 0 0 20317
 D2
-(null)~
+~
 ~
 0 0 20309
 D3
-(null)~
+~
 ~
 0 0 20314
 S
@@ -431,68 +430,66 @@ to the north.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20315
 D3
-(null)~
+~
 ~
 0 0 20309
 S
 #20312
 A dark forest of Mushrooms~
 You work your way through the forest but as you turn around, the plants
-have grown back nearly as soon as you dispose of them. Quickly you
-continue as you struggle to find a way out of this trap.
-Far to the north you see what resembles a city. You wonder if
-you should risk entering the city.
+have grown back nearly as soon as you dispose of them. Quickly you continue
+as you struggle to find a way out of this trap. Far to the north you see
+what resembles a city. You wonder if you should risk entering the city. 
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20313
 D1
-(null)~
+~
 ~
 0 0 20309
 S
 #20313
 A dark forest of Mushrooms~
-You work your way through the forest but as you turn around, the plants 
-have grown back nearly as soon as you dispose of them. Quickly you 
-continue as you struggle to find a way out of this trap.
-Still you persist towards the image. Suddenly it vanishes.
+You work your way through the forest but as you turn around, the plants
+have grown back nearly as soon as you dispose of them. Quickly you continue
+as you struggle to find a way out of this trap. Still you persist towards
+the image. Suddenly it vanishes. 
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20321
 D1
-(null)~
+~
 ~
 0 0 20314
 D2
-(null)~
+~
 ~
 0 0 20312
 D3
-(null)~
+~
 ~
 0 0 20322
 S
 #20314
 A dark forest of Mushrooms~
-You work your way through the forest but as you turn around, the plants 
-have grown back nearly as soon as you dispose of them. Quickly you 
-continue as you struggle to find a way out of this trap.
-The peaceful forest as come to an end and a swarm of Thallids leap out
-from nowhere.
+You work your way through the forest but as you turn around, the plants
+have grown back nearly as soon as you dispose of them. Quickly you continue
+as you struggle to find a way out of this trap. The peaceful forest as come
+to an end and a swarm of Thallids leap out from nowhere. 
 ~
 0 2097152 3
 D3
-(null)~
+~
 ~
 0 0 20313
 S
@@ -506,11 +503,11 @@ Suddenly you realize that you have not been here before.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 20316
 D2
-(null)~
+~
 ~
 0 0 20311
 S
@@ -522,15 +519,15 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 3
 D1
-(null)~
+~
 ~
 0 0 20325
 D2
-(null)~
+~
 ~
 0 0 20323
 D3
-(null)~
+~
 ~
 0 0 20315
 S
@@ -542,11 +539,11 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20319
 D3
-(null)~
+~
 ~
 0 0 20310
 S
@@ -558,19 +555,19 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 3
 D0
-(null)~
+~
 ~
 0 0 20320
 D1
-(null)~
+~
 ~
 0 0 20318
 D2
-(null)~
+~
 ~
 0 0 20310
 D3
-(null)~
+~
 ~
 0 0 20318
 S
@@ -582,7 +579,7 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 20317
 S
@@ -594,31 +591,31 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 2
 D2
-(null)~
+~
 ~
 0 0 20318
 S
 #20321
 A dark forest of Mushrooms~
-You work your way through the forest but as you turn around, the plants 
-have grown back nearly as soon as you dispose of them. Quickly you 
-continue as you struggle to find a way out of this trap.
+You work your way through the forest but as you turn around, the plants
+have grown back nearly as soon as you dispose of them. Quickly you continue
+as you struggle to find a way out of this trap. 
 ~
 0 2097152 3
 D2
-(null)~
+~
 ~
 0 0 20313
 S
 #20322
 A dark forest of Mushrooms~
-You work your way through the forest but as you turn around, the plants 
-have grown back nearly as soon as you dispose of them. Quickly you 
-continue as you struggle to find a way out of this trap.
+You work your way through the forest but as you turn around, the plants
+have grown back nearly as soon as you dispose of them. Quickly you continue
+as you struggle to find a way out of this trap. 
 ~
 0 2097152 0
 D1
-(null)~
+~
 ~
 0 0 20313
 S
@@ -630,11 +627,11 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 20316
 D1
-(null)~
+~
 ~
 0 0 20324
 S
@@ -646,11 +643,11 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 0
 D1
-(null)~
+~
 tree~
 1 0 20326
 D3
-(null)~
+~
 ~
 0 0 20323
 S
@@ -662,37 +659,38 @@ continue as you struggle to find a way out of this trap.
 ~
 0 2097152 0
 D3
-(null)~
+~
 ~
 0 0 20316
 S
 #20326
 Too dark to tell.~
-All around you are thallids, hundreds of them. Swarming you from all directions.
+All around you are thallids, hundreds of them. Swarming you from all
+directions. 
 ~
 0 2097152 0
 D0
-(null)~
+~
 ~
 0 0 20314
 D1
-(null)~
+~
 ~
 0 0 20313
 D2
-(null)~
+~
 ~
 0 0 20320
 D3
-(null)~
+~
 ~
 0 0 20324
 D4
-(null)~
+~
 ~
 0 0 20305
 D5
-(null)~
+~
 ~
 0 0 20314
 S

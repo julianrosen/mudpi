@@ -635,9 +635,7 @@ systems. -Lancelight */
             exit( 1 );
 #endif
         }
-        printf("preload %s\n",strPath);
         load_mudprogs( fpArea );
-        printf("postload\n");
         fclose( fpArea );
 
         sprintf( strPath, "%s/%s", sysconfig.area_dir,
@@ -1067,6 +1065,7 @@ void load_area( FILE * fp )
     pArea->filename = str_dup( strArea );
     pArea->vnum = top_area;
     pArea->name = str_dup( "New Area" );
+    pArea->group = str_dup( "None"); // JR
     pArea->builders = str_dup( "" );
     pArea->security = 9;        /* 9 -- Hugin */
     pArea->lvnum = 0;
@@ -1081,6 +1080,8 @@ void load_area( FILE * fp )
 
         switch ( UPPER( word[0] ) )
         {
+        case 'G':
+                SKEY( "Group", pArea->group );
         case 'N':
             SKEY( "Name", pArea->name );
             break;
@@ -3229,6 +3230,83 @@ void do_areas( CHAR_DATA * ch, char *argument )
     AREA_DATA *pArea2;
     int iArea;
     int iAreaHalf;
+    
+    int numgroups = 0;
+    bool newgroup;
+    char *grouplist[100]; // JR: at most 100 groups. NEED TO FREE THIS MEMORY
+    int numingroup[100];
+    char *namelist[100][100];
+    int maxlen;
+    int n,k;
+    char bigbuf[200*MAX_STRING_LENGTH];
+    
+    strcpy( bigbuf, "" );
+    // Compile list of groups, sort area names by groups
+    for ( pArea1 = area_first; pArea1!=NULL; pArea1 = pArea1->next )
+    {
+        newgroup = TRUE;
+        if ( argument[0] != '\0' && str_prefix( argument, pArea1->group ) )
+            continue;
+        for ( n=0; n< numgroups; n++ )
+        {
+            if ( !strcmp(pArea1->group,grouplist[n]) )
+            {
+                newgroup = FALSE;
+                break;
+            }
+        }
+        if ( newgroup )
+        {
+            grouplist[numgroups] = strdup( pArea1->group );
+            numingroup[numgroups] = 1;
+            namelist[numgroups][0] = pArea1->name;
+            numgroups++;
+        }
+        else
+        {
+            namelist[n][numingroup[n]] = pArea1->name;
+            numingroup[n]++;
+        }
+    }
+    
+    // How many areas in largest group?
+    maxlen = 0;
+    for (n=0;n<numgroups;n++)
+        maxlen = numingroup[n]>maxlen?numingroup[n]:maxlen;
+    
+    
+    strcpy( buf, "`B" );
+    for (k=0;k<numgroups;k++)
+    {
+        strcat(buf,grouplist[k]);
+        while (bw_strlen(buf) < (k+1)*41)
+            strcat(buf," ");
+    }
+    strcat(buf, "\n\r");
+    
+    strcat(bigbuf,buf);
+    //send_to_char( buf, ch );
+    
+    for (n=0;n<maxlen;n++)
+    {
+        strcpy( buf, "" );
+        for (k=0;k<numgroups;k++)
+        {
+            strcat(buf,"`w");
+            strcat(buf,n<numingroup[k]?namelist[k][n]:"");
+            while (bw_strlen(buf) < (k+1)*41)
+                strcat(buf," ");
+        }
+        strcat(buf, "\n\r");
+        
+        strcat(bigbuf,buf);
+        //send_to_char( buf, ch );
+    }
+    for (n=0;n<numgroups;n++)
+        free(grouplist[n]);
+    
+    page_to_char( bigbuf, ch ); // JR: This makes it pause if output is too long
+    return;
 
     if ( argument[0] != '\0' )
     {
@@ -3244,14 +3322,21 @@ void do_areas( CHAR_DATA * ch, char *argument )
 
     for ( iArea = 0; iArea < iAreaHalf; iArea++ )
     {
-        sprintf( buf, "%-39s  %-39s\n\r",
-                 pArea1->name, ( pArea2 != NULL ) ? pArea2->name : "" );
+        strcpy( buf, pArea1->name );
+        while ( bw_strlen(buf) < 41 )
+            strcat( buf, " ");
+        strcat( buf, ( pArea2 != NULL ) ? pArea2->name : "" );
+        strcat( buf, "\n\r");
+        /*sprintf( buf, "%-39s  %-39s\n\r",
+                 pArea1->name, ( pArea2 != NULL ) ? pArea2->name : "" );*/
         send_to_char( buf, ch );
         pArea1 = pArea1->next;
         if ( pArea2 != NULL )
             pArea2 = pArea2->next;
     }
 
+
+    
     return;
 }
 

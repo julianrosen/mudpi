@@ -1,5 +1,6 @@
 #AREADATA
 Name        {20 30} Doctor  Galaxy~
+Group       Embermud~
 Builders    None~
 VNUMs       9301 9371
 Security    9
@@ -912,7 +913,7 @@ The shadows cloud your vision.
 ~
 0 -1 1306
 D5
-(null)~
+~
 ~
 0 -1 9302
 S
@@ -924,7 +925,7 @@ choice but to go forward.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9303
 S
@@ -937,19 +938,19 @@ fantasy zone. Exits lie virtually in all directions.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9304
 D1
-(null)~
+~
 ~
 0 -1 9308
 D2
-(null)~
+~
 ~
 0 -1 9302
 D3
-(null)~
+~
 ~
 0 -1 9321
 S
@@ -960,15 +961,15 @@ visitors like you. The walkway continues north and a small exit lies west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9305
 D2
-(null)~
+~
 ~
 0 -1 9303
 D3
-(null)~
+~
 ~
 0 -1 9322
 S
@@ -980,19 +981,19 @@ To the east lies a bridge.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9306
 D1
-(null)~
+~
 ~
 0 -1 9309
 D2
-(null)~
+~
 ~
 0 -1 9304
 D3
-(null)~
+~
 ~
 0 -1 9323
 S
@@ -1003,11 +1004,11 @@ is around.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 -1 9305
 D3
-(null)~
+~
 ~
 0 -1 9324
 S
@@ -1020,15 +1021,15 @@ the east lies the Milky Way.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9331
 D1
-(null)~
+~
 ~
 0 -1 9312
 D3
-(null)~
+~
 ~
 0 -1 9303
 S
@@ -1040,15 +1041,15 @@ a throne room.
 ~
 0 1 1
 D0
-(null)~
+~
 ~
 0 -1 9310
 D1
-(null)~
+~
 ~
 0 -1 9314
 D3
-(null)~
+~
 ~
 0 -1 9305
 S
@@ -1060,7 +1061,7 @@ the King has gone, maybe he is hiding from you?
 ~
 0 9 0
 D2
-(null)~
+~
 ~
 0 -1 9309
 S
@@ -1072,11 +1073,11 @@ here ... luckily you haven't fallen yet!
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9313
 D3
-(null)~
+~
 ~
 0 -1 9308
 S
@@ -1087,15 +1088,15 @@ opening to the east.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9314
 D1
-(null)~
+~
 ~
 0 -1 9317
 D2
-(null)~
+~
 ~
 0 -1 9312
 S
@@ -1106,15 +1107,15 @@ the end of it. West leads to a bridge and east leads to somewhere else.
 ~
 0 0 4
 D1
-(null)~
+~
 ~
 0 -1 9318
 D2
-(null)~
+~
 ~
 0 -1 9313
 D3
-(null)~
+~
 ~
 0 -1 9309
 S
@@ -1125,11 +1126,11 @@ living creature nearby.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9318
 D3
-(null)~
+~
 ~
 0 -1 9313
 S
@@ -1140,15 +1141,15 @@ is a path which leads down.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 -1 9317
 D3
-(null)~
+~
 ~
 0 -1 9314
 D5
-(null)~
+~
 ~
 0 -1 9319
 S
@@ -1160,19 +1161,19 @@ better leave.
 ~
 0 4 1
 D0
-(null)~
+~
 ~
 0 -1 9320
 D1
-(null)~
+~
 ~
 0 -1 9320
 D2
-(null)~
+~
 ~
 0 -1 9320
 D3
-(null)~
+~
 ~
 0 -1 9320
 S
@@ -1193,11 +1194,11 @@ and nothing else. You eyes become pretty hurt as you look at them.
 ~
 0 8 1
 D0
-(null)~
+~
 ~
 0 -1 9322
 D1
-(null)~
+~
 ~
 0 -1 9303
 S
@@ -1207,15 +1208,15 @@ This is another uninhabited place. Exits lie north, east and south.
 ~
 0 0 2
 D0
-(null)~
+~
 ~
 0 -1 9323
 D1
-(null)~
+~
 ~
 0 -1 9304
 D2
-(null)~
+~
 ~
 0 -1 9321
 S
@@ -1226,15 +1227,15 @@ courses now prove worthless. Well who told you to take one at the start?
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9324
 D1
-(null)~
+~
 ~
 0 -1 9305
 D2
-(null)~
+~
 ~
 0 -1 9322
 S
@@ -1245,15 +1246,15 @@ you can sense darkness engulfing you. You'd better get out quick.
 ~
 0 1 2
 D0
-(null)~
+~
 ~
 0 -1 9325
 D1
-(null)~
+~
 ~
 0 -1 9306
 D2
-(null)~
+~
 ~
 0 -1 9323
 S
@@ -1271,11 +1272,11 @@ This is where the famous Seven Sisters live. You'd better not disturb them.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9329
 D2
-(null)~
+~
 ~
 0 -1 9327
 S
@@ -1286,15 +1287,15 @@ directions except west.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9326
 D1
-(null)~
+~
 ~
 0 -1 9330
 D2
-(null)~
+~
 ~
 0 -1 9328
 S
@@ -1305,11 +1306,11 @@ Scattered on the floor is the famous hunting equipment used by him.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9327
 D1
-(null)~
+~
 ~
 0 -1 9331
 S
@@ -1320,15 +1321,15 @@ directions except north.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9332
 D2
-(null)~
+~
 ~
 0 -1 9330
 D3
-(null)~
+~
 ~
 0 -1 9326
 S
@@ -1341,27 +1342,27 @@ Below you recognize the temple of Thalos.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9329
 D1
-(null)~
+~
 ~
 0 -1 9333
 D2
-(null)~
+~
 ~
 0 -1 9331
 D3
-(null)~
+~
 ~
 0 -1 9327
 D4
-(null)~
+~
 ~
 0 -1 9339
 D5
-(null)~
+~
 ~
 0 -1 5250
 S
@@ -1373,19 +1374,19 @@ Universe.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9330
 D1
-(null)~
+~
 ~
 0 -1 9334
 D2
-(null)~
+~
 ~
 0 -1 9308
 D3
-(null)~
+~
 ~
 0 -1 9328
 S
@@ -1396,11 +1397,11 @@ that he got from the Ten Labours.
 ~
 0 0 1
 D2
-(null)~
+~
 ~
 0 -1 9333
 D3
-(null)~
+~
 ~
 0 -1 9329
 S
@@ -1411,15 +1412,15 @@ directions except east.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9332
 D2
-(null)~
+~
 ~
 0 -1 9334
 D3
-(null)~
+~
 ~
 0 -1 9330
 S
@@ -1430,11 +1431,11 @@ Maybe he has gone to get Pegasus to save Andromeda?
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9333
 D3
-(null)~
+~
 ~
 0 -1 9331
 S
@@ -1446,19 +1447,19 @@ you from going further upwards.
 ~
 0 0 5
 D0
-(null)~
+~
 ~
 0 -1 9348
 D1
-(null)~
+~
 ~
 0 -1 9351
 D2
-(null)~
+~
 ~
 0 -1 9342
 D3
-(null)~
+~
 ~
 0 -1 9345
 D4
@@ -1467,7 +1468,7 @@ You see the forcefield of Spring.
 forcefield~
 2 9324 9354
 D5
-(null)~
+~
 ~
 0 -1 9330
 S
@@ -1478,15 +1479,15 @@ that Spring has descended upon you.
 ~
 0 0 4
 D0
-(null)~
+~
 ~
 0 -1 9339
 D1
-(null)~
+~
 ~
 0 -1 9353
 D3
-(null)~
+~
 ~
 0 -1 9343
 S
@@ -1497,11 +1498,11 @@ there are no Matadors around. Maybe they are all dead?
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 9342
 D3
-(null)~
+~
 ~
 0 -1 9344
 S
@@ -1513,7 +1514,7 @@ two Gemini?
 ~
 0 0 0
 D1
-(null)~
+~
 ~
 0 -1 9343
 S
@@ -1524,11 +1525,11 @@ hidden forms which could be camouflaged crabs.
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 9339
 D3
-(null)~
+~
 ~
 0 -1 9346
 S
@@ -1539,7 +1540,7 @@ overgrowth you think you glimpse a pair of menacing eyes.
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 -1 9345
 S
@@ -1550,7 +1551,7 @@ It's a double bed and there is only room for one more! Well, what now ... ?
 ~
 0 8 1
 D3
-(null)~
+~
 ~
 0 -1 9348
 S
@@ -1562,11 +1563,11 @@ and feel yourself exposed, just like the trees in Autumn.
 ~
 0 8 1
 D2
-(null)~
+~
 ~
 0 -1 9339
 D3
-(null)~
+~
 ~
 0 -1 9349
 S
@@ -1577,11 +1578,11 @@ heat you see the hazy outline of a giant scorpion ... is this a mirage?
 ~
 0 0 2
 D1
-(null)~
+~
 ~
 0 -1 9348
 D3
-(null)~
+~
 ~
 0 -1 9350
 S
@@ -1592,7 +1593,7 @@ hide yourself before you become the 'center attraction'!
 ~
 0 0 3
 D1
-(null)~
+~
 ~
 0 -1 9349
 S
@@ -1603,11 +1604,11 @@ clouds below you. One of the clouds resembles a goat-like form.
 ~
 0 0 5
 D1
-(null)~
+~
 ~
 0 -1 9352
 D3
-(null)~
+~
 ~
 0 -1 9339
 S
@@ -1618,7 +1619,7 @@ that the water is being poured out of a vessel of mind-boggling proportions!
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 -1 9351
 S
@@ -1629,7 +1630,7 @@ You suspect something fishy is going on in here.
 ~
 0 0 5
 D3
-(null)~
+~
 ~
 0 -1 9342
 S
@@ -1658,11 +1659,11 @@ is made of, you feel the ground move.
 ~
 0 1 4
 D0
-(null)~
+~
 ~
 0 -1 9356
 D5
-(null)~
+~
 ~
 2 9325 9354
 S
@@ -1674,11 +1675,11 @@ actually flying now!
 ~
 0 1 4
 D0
-(null)~
+~
 ~
 0 -1 9357
 D2
-(null)~
+~
 ~
 0 -1 9355
 S
@@ -1689,11 +1690,11 @@ you can reach to the inner galaxy is by going all the way to the head.
 ~
 0 1 4
 D0
-(null)~
+~
 ~
 0 -1 9358
 D2
-(null)~
+~
 ~
 0 -1 9356
 S
@@ -1705,11 +1706,11 @@ distant stars.
 ~
 0 1 4
 D0
-(null)~
+~
 ~
 0 -1 9359
 D2
-(null)~
+~
 ~
 0 -1 9357
 S
@@ -1725,7 +1726,7 @@ You see the forcefield of Autumn.
 forcefield~
 2 9326 9360
 D2
-(null)~
+~
 ~
 0 -1 9358
 S
@@ -1736,11 +1737,11 @@ of something as the forceful gusts sweep you away.
 ~
 0 1 4
 D1
-(null)~
+~
 ~
 0 -1 9361
 D3
-(null)~
+~
 ~
 2 9326 9359
 S
@@ -1751,11 +1752,11 @@ beyond into the darkness.
 ~
 0 1 4
 D2
-(null)~
+~
 ~
 0 -1 9362
 D3
-(null)~
+~
 ~
 0 -1 9360
 S
@@ -1766,11 +1767,11 @@ endless.
 ~
 0 1 4
 D0
-(null)~
+~
 ~
 0 -1 9361
 D3
-(null)~
+~
 ~
 0 -1 9363
 S
@@ -1782,7 +1783,7 @@ If only the head were here ...
 ~
 0 1 4
 D1
-(null)~
+~
 ~
 0 -1 9362
 D2
@@ -1802,11 +1803,11 @@ You see the forcefield of Winter.~
 forcefield~
 2 9327 9363
 D2
-(null)~
+~
 ~
 0 -1 9365
 D3
-(null)~
+~
 ~
 0 -1 9366
 S
@@ -1817,11 +1818,11 @@ every star and constellation in the Universe.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9364
 D3
-(null)~
+~
 ~
 0 -1 9367
 S
@@ -1831,11 +1832,11 @@ You see stars around you but nothing of special interest.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9364
 D2
-(null)~
+~
 ~
 0 -1 9367
 S
@@ -1846,15 +1847,15 @@ every star and constellation in the Universe.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9366
 D1
-(null)~
+~
 ~
 0 -1 9365
 D2
-(null)~
+~
 ~
 0 -1 9368
 S
@@ -1864,11 +1865,11 @@ You see stars around you but nothing of special interest.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9367
 D3
-(null)~
+~
 ~
 0 -1 9369
 S
@@ -1878,11 +1879,11 @@ You see stars around you but nothing of special interest.
 ~
 0 0 1
 D1
-(null)~
+~
 ~
 0 -1 9368
 D2
-(null)~
+~
 ~
 0 -1 9370
 S
@@ -1894,11 +1895,11 @@ if Polaris could lie here.
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 -1 9369
 D2
-(null)~
+~
 ~
 0 -1 9371
 S
@@ -1911,7 +1912,7 @@ You feel you have come to end of your search in this galaxy ...
 ~
 0 0 1
 D0
-(null)~
+~
 ~
 0 0 9370
 S

@@ -1,5 +1,6 @@
 #AREADATA
-Name        { All } Diku    Green Midgaard~
+Name        { All } Diku    `GMidgaard`w~
+Group       Embermud~
 Builders    Test~
 VNUMs       3000 3399
 Security    9
@@ -387,7 +388,7 @@ the waiter~
 A man who in his young days was a famous sorcerer but now leads a quiet,
 peaceful life as a waiter.
 ~
-(null)~
+~
 Human~
 ABRV D 600 S
 23 0 
@@ -401,7 +402,7 @@ waiter~
 the waiter~
 A waiter who seems to have reached contact with God.
 ~
-(null)~
+~
 Human~
 ABQV 0 600 S
 23 0 
@@ -415,7 +416,7 @@ waiter~
 the waiter~
 A waiter who knows where all his customers keep their money.
 ~
-(null)~
+~
 Human~
 ABSV 0 600 S
 23 0 
@@ -429,7 +430,7 @@ waiter~
 the waiter~
 A waiter who easily could kill you, and still carry quite a few firebreathers.
 ~
-(null)~
+~
 Human~
 ABTV 0 600 S
 23 0 
@@ -474,7 +475,7 @@ janitor~
 the janitor~
 A janitor is walking around, cleaning up.
 ~
-(null)~
+~
 Human~
 AGH 0 900 S
 1 0 
@@ -2677,7 +2678,7 @@ You see the morgue.
 ~
 0 -1 3360
 D4
-(null)~
+~
 ~
 0 0 3700
 S
@@ -2695,7 +2696,7 @@ You see your favorite place, the bar of divination.
 ~
 0 -1 3003
 D5
-(null)~
+~
 ~
 0 0 7026
 S
@@ -3115,7 +3116,7 @@ You see the bar.
 ~
 0 -1 3018
 D5
-(null)~
+~
 ~
 0 0 7017
 S
@@ -3192,7 +3193,7 @@ You see the bar.
 ~
 0 -1 3022
 D5
-(null)~
+~
 ~
 0 0 7048
 S
@@ -3337,7 +3338,7 @@ You see the bar.
 ~
 0 -1 3028
 D5
-(null)~
+~
 ~
 0 0 7043
 S
@@ -3361,7 +3362,7 @@ spans the flow.
 ~
 0 -1 3254
 D5
-(null)~
+~
 ~
 0 0 7030
 S
@@ -3751,7 +3752,7 @@ You see the road.
 ~
 0 -1 3043
 D1
-(null)~
+~
 ~
 0 0 9400
 D2
@@ -3803,7 +3804,7 @@ You see the alley.
 ~
 0 -1 3046
 D1
-(null)~
+~
 ~
 0 0 8604
 S
@@ -3869,7 +3870,7 @@ It is built from large grey rocks that have been fastened to each other with
 some kind of mortar. It is far too high to climb.
 ~
 D0
-(null)~
+~
 ~
 0 0 3900
 D1
@@ -3878,7 +3879,7 @@ The city gate is to the east.
 gate~
 1 3133 3040
 D3
-(null)~
+~
 ~
 0 0 6000
 S
@@ -3912,7 +3913,7 @@ It is built from large grey rocks that have been fastened to each other with
 some kind of mortar. It is far too high to climb.
 ~
 D1
-(null)~
+~
 ~
 0 0 3503
 D3
@@ -3971,7 +3972,7 @@ WOW you can fly! You are floating in the air above Temple Square of Midgaard.
 ~
 0 2359300 9
 D4
-(null)~
+~
 ~
 0 0 1017
 D5
@@ -4161,11 +4162,11 @@ south and east.
 ~
 0 262144 1
 D1
-(null)~
+~
 ~
 0 -1 3108
 D2
-(null)~
+~
 ~
 0 -1 3113
 S
@@ -4182,11 +4183,11 @@ You see the northern park entrance.
 ~
 0 -1 3105
 D1
-(null)~
+~
 ~
 0 -1 3109
 D3
-(null)~
+~
 ~
 0 -1 3107
 S
@@ -4197,11 +4198,11 @@ south and just north of here you see the southern wall of Park Cafe.
 ~
 0 262144 1
 D2
-(null)~
+~
 ~
 0 -1 3115
 D3
-(null)~
+~
 ~
 0 -1 3108
 S
@@ -4235,7 +4236,7 @@ The sign on the door says:-
                  Cityguard Head Quarters
 ~
 D0
-(null)~
+~
 ~
 0 -1 3131
 D1
@@ -4244,7 +4245,7 @@ You see the park entrance.
 ~
 0 -1 3112
 D2
-(null)~
+~
 ~
 0 -1 3118
 D3
@@ -4260,11 +4261,11 @@ into the park and going west through the entrance you will reach Park Road.
 ~
 0 262148 1
 D1
-(null)~
+~
 ~
 0 -1 3113
 D3
-(null)~
+~
 ~
 0 -1 3111
 S
@@ -4275,7 +4276,7 @@ park entrance and to the east you see a small pond.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3107
 D1
@@ -4296,11 +4297,11 @@ back on the path from the eastern and western end of the pond.
 ~
 0 262144 6
 D1
-(null)~
+~
 ~
 0 -1 3115
 D3
-(null)~
+~
 ~
 0 -1 3113
 S
@@ -4311,15 +4312,15 @@ park entrance and to the west you see a small pond.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3109
 D1
-(null)~
+~
 ~
 0 -1 3116
 D3
-(null)~
+~
 ~
 0 -1 3114
 S
@@ -4331,11 +4332,11 @@ Avenue.
 ~
 0 262148 1
 D1
-(null)~
+~
 ~
 0 -1 3117
 D3
-(null)~
+~
 ~
 0 -1 3115
 S
@@ -4346,19 +4347,19 @@ the park entrance and to the east is the not very big Town Hall of Midgaard.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3132
 D1
-(null)~
+~
 ~
 0 -1 3137
 D2
-(null)~
+~
 ~
 0 -1 3119
 D3
-(null)~
+~
 ~
 0 -1 3116
 S
@@ -4368,11 +4369,11 @@ You are on Park Road which leads north and south.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3111
 D2
-(null)~
+~
 ~
 0 -1 3135
 S
@@ -4384,15 +4385,15 @@ town.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3117
 D1
-(null)~
+~
 ~
 0 0 2101
 D3
-(null)~
+~
 ~
 0 -1 3133
 S
@@ -4424,23 +4425,23 @@ The the chain reaches the clouds high above you. It must take some really
 powerful magic to hold such a chain in place.
 ~
 D0
-(null)~
+~
 ~
 0 -1 3133
 D1
-(null)~
+~
 ~
 0 -1 3136
 D2
-(null)~
+~
 ~
 0 -1 3134
 D3
-(null)~
+~
 ~
 0 -1 3135
 D4
-(null)~
+~
 ~
 0 0 7914
 S
@@ -4451,11 +4452,11 @@ east.
 ~
 0 262144 1
 D1
-(null)~
+~
 ~
 0 -1 3134
 D2
-(null)~
+~
 ~
 0 -1 3125
 S
@@ -4466,15 +4467,15 @@ here.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3136
 D1
-(null)~
+~
 ~
 0 -1 3123
 D2
-(null)~
+~
 ~
 0 -1 3126
 S
@@ -4485,11 +4486,11 @@ in eastward direction.
 ~
 0 262144 1
 D1
-(null)~
+~
 ~
 0 -1 3124
 D3
-(null)~
+~
 ~
 0 -1 3122
 S
@@ -4523,11 +4524,11 @@ You see the concourse.
 ~
 0 -1 3273
 D2
-(null)~
+~
 ~
 0 0 3600
 D3
-(null)~
+~
 ~
 0 -1 3123
 S
@@ -4538,11 +4539,11 @@ The Concourse is south of here.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3121
 D2
-(null)~
+~
 ~
 0 -1 3128
 S
@@ -4552,11 +4553,11 @@ You are on Park Road which continues north. The Concourse is south of here.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3122
 D2
-(null)~
+~
 ~
 0 -1 3129
 S
@@ -4567,11 +4568,11 @@ both north and east.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3271
 D1
-(null)~
+~
 ~
 0 -1 3128
 S
@@ -4594,7 +4595,7 @@ You can see the heavily guarded southern gate of Midgaard.
 ~
 0 -1 3255
 D3
-(null)~
+~
 ~
 0 -1 3127
 S
@@ -4606,11 +4607,11 @@ the city wall is east.
 ~
 0 262145 1
 D0
-(null)~
+~
 ~
 0 -1 3126
 D1
-(null)~
+~
 ~
 0 -1 3130
 D3
@@ -4626,11 +4627,11 @@ both north and west.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3273
 D3
-(null)~
+~
 ~
 0 -1 3129
 S
@@ -4640,11 +4641,11 @@ You are at Park Road which continues north and south.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3101
 D2
-(null)~
+~
 ~
 0 -1 3111
 S
@@ -4655,15 +4656,15 @@ Austral Square and Kate's Diner, to the east is the small street Penny Lane.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3103
 D1
-(null)~
+~
 ~
 0 -1 3139
 D2
-(null)~
+~
 ~
 0 -1 3117
 S
@@ -4674,11 +4675,11 @@ and to the south is the Road Crossing.
 ~
 0 262144 1
 D1
-(null)~
+~
 ~
 0 -1 3119
 D2
-(null)~
+~
 ~
 0 -1 3120
 S
@@ -4689,11 +4690,11 @@ and to the north is the Road Crossing.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3120
 D3
-(null)~
+~
 ~
 0 -1 3121
 S
@@ -4705,11 +4706,11 @@ under the ground, forming a wall.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3118
 D1
-(null)~
+~
 ~
 0 -1 3120
 S
@@ -4720,11 +4721,11 @@ west is the Road Crossing.
 ~
 0 262144 1
 D2
-(null)~
+~
 ~
 0 -1 3122
 D3
-(null)~
+~
 ~
 0 -1 3120
 S
@@ -4771,11 +4772,11 @@ continues in eastward direction.
 ~
 0 262144 1
 D1
-(null)~
+~
 ~
 0 -1 3140
 D3
-(null)~
+~
 ~
 0 -1 3132
 S
@@ -4786,7 +4787,7 @@ the concourse intersects this street to the east.
 ~
 0 262144 1
 D0
-(null)~
+~
 ~
 0 -1 3141
 D1
@@ -4795,7 +4796,7 @@ You see the concourse.
 ~
 0 -1 3272
 D3
-(null)~
+~
 ~
 0 -1 3139
 S
@@ -4805,7 +4806,7 @@ You are at the end of Penny Lane. The only exit appears to be south.
 ~
 0 262144 1
 D2
-(null)~
+~
 ~
 0 -1 3140
 S
@@ -4941,7 +4942,7 @@ A small door to the south leads out into the map shop.
 door~
 2 3161 3160
 D4
-(null)~
+~
 ~
 0 -1 1219
 S
@@ -4965,7 +4966,7 @@ Poor Alley is to the north.
 ~
 0 -1 3044
 D4
-(null)~
+~
 ~
 0 -1 1219
 S
@@ -4982,11 +4983,11 @@ It is built from large grey rocks that have been fastened to each other with
 some kind of mortar. Looks pretty solid.
 ~
 D1
-(null)~
+~
 ~
 0 -1 3201
 D3
-(null)~
+~
 ~
 0 0 9772
 S
@@ -4997,11 +4998,11 @@ river flows west towards the bridge. The riverbanks are too steep to climb.
 ~
 0 262144 7
 D1
-(null)~
+~
 ~
 0 -1 3202
 D3
-(null)~
+~
 ~
 0 -1 3200
 S
@@ -5013,11 +5014,11 @@ dump to the promenade.
 ~
 0 262144 7
 D1
-(null)~
+~
 ~
 0 -1 3203
 D3
-(null)~
+~
 ~
 0 -1 3201
 S
@@ -5028,11 +5029,11 @@ Diner is to the south. The river flows in an east west direction.
 ~
 0 262148 7
 D0
-(null)~
+~
 ~
 0 -1 3049
 D1
-(null)~
+~
 ~
 0 -1 3204
 D2
@@ -5042,7 +5043,7 @@ You are hungry.
 ~
 0 -1 3150
 D3
-(null)~
+~
 ~
 0 -1 3202
 S
@@ -5054,11 +5055,11 @@ levee are west, in the direction of the current.
 ~
 0 262144 7
 D1
-(null)~
+~
 ~
 0 -1 3205
 D3
-(null)~
+~
 ~
 0 -1 3203
 S
@@ -5070,11 +5071,11 @@ you can see the stone buttresses of the eastern bridge.
 ~
 0 262144 7
 D1
-(null)~
+~
 ~
 0 0 5001
 D3
-(null)~
+~
 ~
 0 -1 3204
 S
@@ -5110,7 +5111,7 @@ Wall road continues to the north, heading towards the gate.
 ~
 0 -1 3250
 D1
-(null)~
+~
 ~
 0 0 2101
 D2
@@ -5228,7 +5229,7 @@ You see the southern gate.
 ~
 1 3133 3255
 D2
-(null)~
+~
 ~
 0 0 3505
 S
@@ -5458,7 +5459,7 @@ village of Ofcol. You can return to Midgaard to the south.
 ~
 0 262144 2
 D0
-(null)~
+~
 ~
 0 0 3904
 D2
@@ -5556,7 +5557,7 @@ You are standing in a very cluttered donation room.
 ~
 0 2883584 0
 D3
-(null)~
+~
 ~
 0 0 3001
 S
@@ -5935,7 +5936,7 @@ You see the temple.
 S
 #3361
 `G`w~
-(null)~
+~
 0 4 0
 S
 #0

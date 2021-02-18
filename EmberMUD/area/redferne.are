@@ -1,5 +1,6 @@
 #AREADATA
 Name        {20 30} Diku    Redferne's Residence~
+Group       Embermud~
 Builders    None~
 VNUMs       7900 7918
 Security    9
@@ -232,7 +233,7 @@ metal door. To the west there is a large aspenwood door.
 ~
 0 524 0
 D0
-(null)~
+~
 ~
 0 -1 7906
 D1
@@ -306,7 +307,7 @@ scuttering around, nibbling pieces off the heaps here and there.
 ~
 0 524 0
 D2
-(null)~
+~
 door wooden larder exit~
 1 -1 7906
 S
@@ -316,7 +317,7 @@ This place is LOADED with drink, water and booze.
 ~
 0 524 0
 D3
-(null)~
+~
 door exit fridge~
 1 -1 7906
 S
@@ -328,11 +329,11 @@ bedroom of Redferne, and Down leads to the Southern end of the hall.
 ~
 0 524 0
 D4
-(null)~
+~
 ~
 0 -1 7911
 D5
-(null)~
+~
 ~
 0 -1 7901
 S
@@ -363,7 +364,7 @@ The sun seems to shine out there, warmly and comforting.
 doors~
 1 -1 7912
 D5
-(null)~
+~
 ~
 0 -1 7909
 S
