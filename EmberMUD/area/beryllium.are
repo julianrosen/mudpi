@@ -417,9 +417,9 @@ unknown~
 A C BC AB 0
 10 1 0 P
 A
-1 2
-A
 19 2
+A
+1 2
 #23706
 beryllium dagger sharp~
 a beryllium dagger~
@@ -429,11 +429,11 @@ unknown~
 B AB ABC ABD D
 15 1 0 P
 A
-2 1
+19 3
 A
 18 5
 A
-19 3
+2 1
 #23707
 beryllium mace~
 a beryllium mace~
@@ -443,11 +443,11 @@ unknown~
 C C AC ABC 0
 10 1 0 P
 A
-12 20
+18 2
 A
 4 1
 A
-18 2
+12 20
 #23708
 beryllium pole spear~
 a beryllium pole~
@@ -457,11 +457,11 @@ unknown~
 AB C AC ABCD 0
 10 1 0 P
 A
-5 2
+18 1
 A
 19 1
 A
-18 1
+5 2
 #23709
 beryllium axe~
 a beryllium axe~
@@ -471,9 +471,9 @@ unknown~
 AC C BC ADE 0
 10 1 0 P
 A
-1 2
-A
 19 1
+A
+1 2
 #23710
 beryllium chain mail armor-body~
 a suit of beryllium chain mail~
@@ -491,9 +491,9 @@ unknown~
 AC AC AC AB 0
 10 0 0 P
 A
-1 1
-A
 2 1
+A
+1 1
 #23712
 beryllium shield~
 a beryllium shield~
@@ -533,11 +533,11 @@ unknown~
 A C BC AB 0
 15 0 0 P
 A
-1 1
+19 5
 A
 18 3
 A
-19 5
+1 1
 #23716
 beryllium duel axe~
 a beryllium duel axe~
@@ -555,11 +555,11 @@ unknown~
 AB C BC ABCD 0
 0 1 0 P
 A
-19 4
+5 2
 A
 18 3
 A
-5 2
+19 4
 #23718
 sharp beryllium dagger~
 a sharp beryllium dagger~
@@ -569,11 +569,11 @@ unknown~
 B C BC ABD D
 15 1 0 P
 A
-19 1
+2 2
 A
 18 3
 A
-2 2
+19 1
 #23719
 spiked beryllium mace~
 a spiked beryllium mace~
@@ -583,13 +583,13 @@ unknown~
 C C BC ABC 0
 0 0 0 P
 A
-19 1
-A
-18 1
+4 1
 A
 3 1
 A
-4 1
+18 1
+A
+19 1
 #23720
 metal box stoarge crate~
 a metal storage crate~
@@ -667,9 +667,9 @@ unknown~
 ABC ABC ABC C 0
 15 0 0 P
 A
-19 1
-A
 18 1
+A
+19 1
 #23729
 beryllium longsword sword~
 a beryllium longsword~
@@ -679,11 +679,11 @@ unknown~
 A AC BC AB 0
 20 1 0 P
 A
-19 5
+1 1
 A
 18 4
 A
-1 1
+19 5
 #23730
 beryllium jack-knife knife dagger~
 a beryllium jack-knife~
@@ -693,11 +693,11 @@ unknown~
 B AC BC ABD 0
 20 1 0 P
 A
-2 1
+19 4
 A
 18 4
 A
-19 4
+2 1
 #23731
 beryllium battle axe~
 a beryllium battle axe~
@@ -715,11 +715,11 @@ unknown~
 AB AC BC ABCD 0
 20 0 0 P
 A
-5 2
+19 4
 A
 18 4
 A
-19 4
+5 2
 #23733
 beryllium flail cylindar~
 a beryllium flail~
@@ -729,11 +729,11 @@ unknown~
 BC AC BC ABC 0
 20 0 0 P
 A
-4 2
+18 2
 A
 19 5
 A
-18 2
+4 2
 #23734
 beryllium half plate armor-body~
 a suit of beryllium half plate ~
@@ -743,9 +743,9 @@ unknown~
 BD BD BD BC 0
 20 4 0 P
 A
-18 5
-A
 19 5
+A
+18 5
 #23735
 beryllium war helmen armor-head~
 a beryllium war helmet~
@@ -755,15 +755,15 @@ unknown~
 BD BD BD AC 0
 20 1 0 P
 A
-18 4
-A
-13 50
-A
-19 4
+12 -100
 A
 2 -2
 A
-12 -100
+19 4
+A
+13 50
+A
+18 4
 #23736
 beryllium power bracers armor-wrist~
 beryllium power bracers~
@@ -783,13 +783,13 @@ unknown~
 AD AD ABD B 0
 20 0 0 P
 A
-13 25
-A
-3 -1
+1 3
 A
 2 -1
 A
-1 3
+3 -1
+A
+13 25
 #23738
 key weapon's vault~
 the level 20 weapon's vault key~
@@ -815,9 +815,9 @@ unknown~
 C AC BC ABC 0
 20 2 0 P
 A
-1 1
-A
 18 1
+A
+1 1
 #23741
 level 30 vault weapon's key~
 level 30 weapon's vault key~
@@ -843,13 +843,13 @@ unknown~
 A ABC AC BCDE C
 30 2 0 P
 A
-13 10
-A
-3 -1
+19 6
 A
 18 9
 A
-19 6
+3 -1
+A
+13 10
 #23744
 beryllium blade backstabbing dagger vampiric sharp~
 a beryllium blade of backstabbing~
@@ -859,9 +859,9 @@ unknown~
 B ABC BC ABD CD
 30 1 0 P
 A
-18 10
-A
 19 4
+A
+18 10
 #23745
 beryllium morningstar mace~
 a beryllium morningstar~
@@ -871,13 +871,13 @@ unknown~
 C BC BC ACD 0
 30 1 0 P
 A
-19 6
-A
-18 7
+4 1
 A
 1 1
 A
-4 1
+18 7
+A
+19 6
 #23746
 beryllium power armor armor-body~
 the beryllium power armor~
@@ -887,11 +887,11 @@ unknown~
 AE ABE ACE ABE 0
 30 1 0 P
 A
-5 3
+13 50
 A
 18 4
 A
-13 50
+5 3
 #23747
 spiked power wristband bracer armor-wrist~
 the spiked bracer of power~
@@ -921,11 +921,11 @@ unknown~
 A AD AD ABE C
 59 0 50000 P
 A
-1 2
+18 11
 A
 5 2
 A
-18 11
+1 2
 #23796
 acid acidic blade sword sharp~
 acidic blade~
@@ -959,17 +959,17 @@ unknown~
 C BC ABC ABC F
 30 3 2300 P
 A
-13 -150
-A
-1 4
-A
-18 5
-A
-19 3
+2 -1
 A
 12 -50
 A
-2 -1
+19 3
+A
+18 5
+A
+1 4
+A
+13 -150
 #0
 
 
@@ -1836,22 +1836,22 @@ D 0 23740 2 2
 M 0 23700 0 23709 Load a blacksmith
 E 0 23701 0 16 An iron hammer is loaded wielded of a blacksmith
 M 0 23701 0 23710 Load a blacksmith
-M 0 23702 2 23710 Load a slave
+M 0 23702 0 23710 Load a slave
 M 0 23714 0 23711 Load a miner
-M 0 23702 2 23711 Load a slave
-M 0 23700 5 23713 Load a blacksmith
+M 0 23702 0 23711 Load a slave
+M 0 23700 3 23713 Load a blacksmith
 E 0 23701 0 16 An iron hammer is loaded wielded of a blacksmith
 M 0 23701 0 23713 Load a blacksmith
 E 0 23701 0 16 An iron hammer is loaded wielded of a blacksmith
-M 0 23700 5 23714 Load a blacksmith
+M 0 23700 2 23714 Load a blacksmith
 E 0 23701 0 16 An iron hammer is loaded wielded of a blacksmith
-M 0 23704 2 23714 Load a blacksmith
+M 0 23704 0 23714 Load a blacksmith
 M 0 23705 3 23715 Load a blacksmith
 E 0 23701 0 16 An iron hammer is loaded wielded of a blacksmith
-M 0 23704 2 23716 Load a blacksmith
-M 0 23706 2 23717 Load a vault guard
+M 0 23704 0 23716 Load a blacksmith
+M 0 23706 0 23717 Load a vault guard
 G 0 23702 0 The armor vault key is given to a vault guard
-M 0 23706 2 23717 Load a vault guard
+M 0 23706 0 23717 Load a vault guard
 G 0 23703 0 The weapon's vault key is given to a vault guard
 O 0 23705 0 23718 A beryllium short sword loaded to Weapon's Vault
 O 0 23706 0 23718 A beryllium dagger loaded to Weapon's Vault
@@ -1865,16 +1865,16 @@ O 0 23713 0 23719 A beryllium helmet loaded to Armor Vault
 O 0 23714 0 23719 A beryllium bracer loaded to Armor Vault
 M 0 23708 0 23720 Load Meese
 E 0 23704 0 16 The hammer of meese is loaded wielded of Meese
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23707 6 23720 Load one of Meese's guards
-M 0 23709 4 23721 Load a blacksmith
-M 0 23710 2 23722 Load a vault guard
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23707 0 23720 Load one of Meese's guards
+M 0 23709 2 23721 Load a blacksmith
+M 0 23710 0 23722 Load a vault guard
 G 0 23721 0 The weapon's vault key is given to a vault guard
-M 0 23710 2 23722 Load a vault guard
+M 0 23710 0 23722 Load a vault guard
 G 0 23722 0 An armor vault key is given to a vault guard
 O 0 23723 0 23723 A suit of beryllium plate mail loaded to Level 15 Vault
 O 0 23724 0 23723 A beryllium wrist guard loaded to Level 15 Vault
@@ -1887,11 +1887,11 @@ P 0 23715 0 23720 A beryllium sword put inside a metal storage crate
 P 0 23716 0 23720 A beryllium duel axe put inside a metal storage crate
 P 0 23717 0 23720 A berllium spear put inside a metal storage crate
 P 0 23718 0 23720 A sharp beryllium dagger put inside a metal storage crate
-M 0 23709 4 23725 Load a blacksmith
+M 0 23709 2 23725 Load a blacksmith
 M 0 23715 2 23726 Load a blacksmith
-M 0 23716 2 23727 Load a powerhouse vault guard
+M 0 23716 0 23727 Load a powerhouse vault guard
 G 0 23738 0 The level 20 weapon's vault key is given to a powerhouse vault guard
-M 0 23716 2 23727 Load a powerhouse vault guard
+M 0 23716 0 23727 Load a powerhouse vault guard
 G 0 23739 0 The level 20 armor vault key is given to a powerhouse vault guard
 O 0 23729 0 23728 A beryllium longsword loaded to Level 20 Vault
 O 0 23730 0 23728 A beryllium jack-knife loaded to Level 20 Vault
@@ -1904,31 +1904,31 @@ O 0 23736 0 23729 Beryllium power bracers loaded to Level 20 Vault
 O 0 23737 0 23729 Beryllium power gauntlets loaded to Level 20 Vault
 M 0 23718 0 23730 Load Moose
 E 0 23740 0 16 The hammer of moose is loaded wielded of Moose
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23717 7 23730 Load Moose's guard
-M 0 23719 3 23731 Load a blacksmith
-M 0 23719 3 23731 Load a blacksmith
-M 0 23719 3 23731 Load a blacksmith
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23717 0 23730 Load Moose's guard
+M 0 23719 0 23731 Load a blacksmith
+M 0 23719 0 23731 Load a blacksmith
+M 0 23719 0 23731 Load a blacksmith
 M 0 23720 0 23732 Load an odd blacksmith
 E 0 23799 0 16 The odd hammer is loaded wielded of an odd blacksmith
-M 0 23721 2 23732 Load a powersmith
-M 0 23721 2 23732 Load a powersmith
-M 0 23722 3 23733 Load a forge worker
-M 0 23722 3 23733 Load a forge worker
-M 0 23722 3 23733 Load a forge worker
-M 0 23723 4 23734 Load a powerful vault guard
-M 0 23723 4 23734 Load a powerful vault guard
+M 0 23721 0 23732 Load a powersmith
+M 0 23721 0 23732 Load a powersmith
+M 0 23722 0 23733 Load a forge worker
+M 0 23722 0 23733 Load a forge worker
+M 0 23722 0 23733 Load a forge worker
+M 0 23723 0 23734 Load a powerful vault guard
+M 0 23723 0 23734 Load a powerful vault guard
 G 0 23742 0 The level 30 armor vault key is given to a powerful vault guard
 O 0 23746 0 23735 The beryllium power armor loaded to Armor Vault
 O 0 23747 0 23735 The spiked bracer of power loaded to Armor Vault
 O 0 23748 0 23735 A pair of beryllium legbands loaded to Armor Vault
-M 0 23723 4 23736 Load a powerful vault guard
-M 0 23723 4 23736 Load a powerful vault guard
+M 0 23723 0 23736 Load a powerful vault guard
+M 0 23723 0 23736 Load a powerful vault guard
 G 0 23741 0 Level 30 weapon's vault key is given to a powerful vault guard
 O 0 23743 0 23737 A beryllium broadsword loaded to Weapon's Vault
 O 0 23744 0 23737 A beryllium blade of backstabbing loaded to Weapon's Vault
@@ -1936,15 +1936,15 @@ O 0 23745 0 23737 A beryllium morningstar loaded to Weapon's Vault
 M 0 23741 0 23739 Load Mose
 E 0 23798 0 16 The mace of mose is loaded wielded of Mose
 G 0 23797 0 An odd key is given to Mose
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
-M 0 23742 9 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
+M 0 23742 0 23739 Load Mose's guard
 O 0 23796 0 23749 Acidic blade loaded to Weapon's Vault
 M 0 23799 0 23751 Load Mace
 E 0 23750 0 16 The sword of mace is loaded wielded of Mace

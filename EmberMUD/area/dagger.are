@@ -163,9 +163,9 @@ unknown~
 B AB BC B D
 12 5 1320 P
 A
-19 6
-A
 18 5
+A
+19 6
 #17101
 leather armor armour~
 leather armour~
@@ -183,11 +183,11 @@ unknown~
 AC C AC C 0
 10 2 1000 P
 A
-2 2
+24 -4
 A
 17 -10
 A
-24 -4
+2 2
 #17103
 gauntlets gloves warclad~
 the `yGauntlets of `RWar`Bclad`w~
@@ -197,11 +197,11 @@ unknown~
 AB AB C AB 0
 15 10 1500 P
 A
-1 2
+19 1
 A
 18 2
 A
-19 1
+1 2
 #17104
 sword of evil spirit soes~
 a Sword of Evil Spirit~
@@ -211,9 +211,9 @@ unknown~
 A ABC ABC A CDEF
 40 5 10000 P
 A
-18 2
-A
 19 20
+A
+18 2
 #17105
 dark blade dagger dbd~
 a Dark Blade Dagger~
@@ -223,13 +223,13 @@ unknown~
 B C BC B D
 20 8 5000 P
 A
-18 5
-A
-2 4
+19 5
 A
 12 5
 A
-19 5
+2 4
+A
+18 5
 #17106
 studded leather armor sla~
 studded leather~
@@ -247,11 +247,11 @@ unknown~
 B AB AC ABD B
 10 2 950 P
 A
-12 10
+18 3
 A
 19 3
 A
-18 3
+12 10
 #17108
 cap of the mystic cotm~
 a Cap of the Mystic~
@@ -261,9 +261,9 @@ unknown~
 A A A B 0
 6 2 500 P
 A
-4 1
-A
 3 2
+A
+4 1
 #17109
 shroud of the mystic sotm~
 a Shroud of the Mystic~
@@ -273,9 +273,9 @@ unknown~
 AC C AC AC 0
 6 11 500 P
 A
-12 10
-A
 3 2
+A
+12 10
 #17110
 runemail mail rune rm~
 a `MRune Mail`w~
@@ -285,17 +285,17 @@ unknown~
 BD AD BD AD 0
 15 1 7500 P
 A
-13 30
-A
-5 1
-A
-3 1
-A
-2 1
+18 2
 A
 19 2
 A
-18 2
+2 1
+A
+3 1
+A
+5 1
+A
+13 30
 #17111
 emerald broach~
 an `GEmerald `MBroach~
@@ -315,9 +315,9 @@ unknown~
 0 0 0 0 0
 10 3 500000 P
 A
-12 5
-A
 5 1
+A
+12 5
 #17113
 gold wristband band bracelet~
 a `yGold `RWrist Band`w~
@@ -387,9 +387,9 @@ unknown~
 B C AC ABD D
 15 6 3500 P
 A
-18 3
-A
 19 5
+A
+18 3
 #17121
 cats claw~
 a `CCats `RClaw`w~
@@ -399,9 +399,9 @@ unknown~
 B C AB BCE D
 8 3 500 P
 A
-19 3
-A
 18 2
+A
+19 3
 #17122
 sleeves of warclad sowc~
 the `ySleeves of `RWar`Bclad`w~
@@ -411,9 +411,9 @@ unknown~
 AB B AB B 0
 15 10 1500 P
 A
-17 -5
-A
 1 1
+A
+17 -5
 #17123
 helm of warclad howc~
 the `yHelm of `RWar`Bclad`w~
@@ -423,11 +423,11 @@ unknown~
 AB B AB B 0
 15 4 1500 P
 A
-3 1
+19 1
 A
 4 1
 A
-19 1
+3 1
 #17124
 leggings of warclad lowc~
 the `yLeggings of `RWar`Bclad`w~
@@ -437,11 +437,11 @@ unknown~
 AB B AB B 0
 15 6 1500 P
 A
-17 -2
+14 30
 A
 2 1
 A
-14 30
+17 -2
 #17125
 bracer of power bop~
 the `RBracer `Gof `yP`Wo`yw`We`yr`w~
@@ -451,13 +451,13 @@ unknown~
 C AC C C 0
 15 2 1500 P
 A
-17 -1
-A
-1 2
+19 2
 A
 18 3
 A
-19 2
+1 2
+A
+17 -1
 #17126
 bastard sword bs~
 a Bastard Sword~
@@ -467,9 +467,9 @@ unknown~
 A AC C A DF
 8 9 750 P
 A
-18 1
-A
 19 2
+A
+18 1
 #17127
 shadow ring~
 a `kShadow `RRing`w~
@@ -479,13 +479,13 @@ unknown~
 ABC ABC ABC ABC 0
 29 1 20000 P
 A
-13 25
-A
-12 10
+24 -3
 A
 2 1
 A
-24 -3
+12 10
+A
+13 25
 #17128
 shroud of shadows sos~
 `CShroud of `kShadows`w~
@@ -495,15 +495,15 @@ unknown~
 BC BC ABC AC 0
 30 8 50000 P
 A
-2 3
+24 -4
 A
-12 5
+24 -4
 A
 18 1
 A
-24 -4
+12 5
 A
-24 -4
+2 3
 #17129
 elven long sword els~
 an Elven Long Sword~
@@ -523,11 +523,11 @@ unknown~
 A AB AC AB 0
 6 12 500 P
 A
-1 1
+18 2
 A
 19 1
 A
-18 2
+1 1
 #17131
 banded mail bm~
 a Banded Mail~
@@ -537,11 +537,11 @@ unknown~
 C C C B 0
 5 15 350 P
 A
-13 10
+18 2
 A
 19 2
 A
-18 2
+13 10
 #17132
 lollipop sucker~
 a lollipop~
@@ -575,17 +575,17 @@ unknown~
 A AD ABC AB EF
 35 12 75000 P
 A
-17 -10
-A
-1 1
-A
-4 1
-A
-13 10
+19 8
 A
 18 7
 A
-19 8
+13 10
+A
+4 1
+A
+1 1
+A
+17 -10
 #17149
 golden grooved blade dagger ggb~
 a `yGolden Grooved Dagger`w~
@@ -595,15 +595,15 @@ unknown~
 B C AC ABD 0
 15 1 1000 P
 A
-4 1
-A
-3 1
-A
-12 15
+18 4
 A
 19 4
 A
-18 4
+12 15
+A
+3 1
+A
+4 1
 #17150
 elven dagger small ~
 an Elven Dagger~
@@ -613,13 +613,13 @@ unknown~
 B C AC B 0
 15 5 1500 P
 A
-19 6
-A
-18 6
+13 10
 A
 12 -10
 A
-13 10
+18 6
+A
+19 6
 #17151
 a shadowchain chain~
 a `kShadow `wChain~
@@ -629,17 +629,17 @@ unknown~
 ABCD ABCD ABCD AE 0
 22 1 21000 P
 A
-24 -10
-A
-13 -5
-A
-12 25
-A
-5 -1
+2 3
 A
 3 2
 A
-2 3
+5 -1
+A
+12 25
+A
+13 -5
+A
+24 -10
 #17152
 bracer of dark bonding~
 a `rBracer `cof `kEvil `bBonding`w~
@@ -649,13 +649,13 @@ unknown~
 BC BC BC BC 0
 18 12 2500 P
 A
-12 10
-A
-20 2
+13 20
 A
 24 -2
 A
-13 20
+20 2
+A
+12 10
 #17153
 pair of black silk gloves~
 a pair of Black Silk Gloves~
@@ -665,9 +665,9 @@ unknown~
 C C C C 0
 20 0 10000 P
 A
-17 -10
-A
 20 -15
+A
+17 -10
 #17154
 silken sleeves of serpent charm snake~
 the Silken Sleeves of Serpent Charm~
@@ -677,11 +677,11 @@ unknown~
 AC C C C 0
 20 0 10000 P
 A
-19 3
+13 10
 A
 17 -5
 A
-13 10
+19 3
 #17155
 black silk sleeves~
 the Black Silk Sleeves~
@@ -691,13 +691,13 @@ unknown~
 ABC ABC ABC ABC 0
 20 0 10000 P
 A
-17 -5
-A
-1 1
+19 4
 A
 13 5
 A
-19 4
+1 1
+A
+17 -5
 #17156
 scroll of arching electric~
 a Scroll Of `RArching `yElectricity`w~
@@ -747,9 +747,9 @@ unknown~
 BC BC BC D 0
 30 15 10000 P
 A
-19 4
-A
 18 4
+A
+19 4
 #17193
 small bronze hammer~
 a small bronze hammer~
@@ -759,15 +759,15 @@ unknown~
 AD AD AD AD 0
 25 12 0 P
 A
-20 -7
-A
-4 1
-A
-13 25
+19 6
 A
 18 6
 A
-19 6
+13 25
+A
+4 1
+A
+20 -7
 #17194
 accursed pendant accpnd~
 an Accursed Pendant~
@@ -777,11 +777,11 @@ unknown~
 C C C C 0
 21 5 12000 P
 A
-20 1
+12 5
 A
 13 5
 A
-12 5
+20 1
 E
 pendant~
 This pendant is dark, cursed and etched with magical runes you might
@@ -804,25 +804,25 @@ unknown~
 CEFGHI CEFGHI CEFGHI CEFGHI 0
 94 0 0 P
 A
-12 10000
-A
-5 7
-A
-4 7
-A
-3 7
-A
-1 7
-A
-2 7
-A
-13 10000
-A
-18 1000
+14 10000
 A
 19 1000
 A
-14 10000
+18 1000
+A
+13 10000
+A
+2 7
+A
+1 7
+A
+3 7
+A
+4 7
+A
+5 7
+A
+12 10000
 #17197
 potion of restoration~
 potion of Restoration~
@@ -840,9 +840,9 @@ unknown~
 B AC BC ABD D
 21 6 0 P
 A
-19 6
-A
 18 6
+A
+19 6
 #17199
 test weapon~
 a TEST WEAPON~
@@ -852,13 +852,13 @@ unknown~
 A ADE ADE BE ABC
 0 0 0 P
 A
-3 5
-A
-5 6
+18 123
 A
 4 4
 A
-18 123
+5 6
+A
+3 5
 #0
 
 
@@ -1849,13 +1849,13 @@ There is a sign here.
 ~
 0 0 3
 E
-sign~
-Through the portal is the mystic guild, for more info type: look portal.
-~
-E
 portal~
 The mystic guild is through the portal. For building reasons it is
 impossible to do exactly as I liked. The portal is the down exit.
+~
+E
+sign~
+Through the portal is the mystic guild, for more info type: look portal.
 ~
 D3
 ~
@@ -2479,28 +2479,28 @@ G 0 17121 0 A `ccats `rclaw`w is given to a ghostly presence
 G 0 17126 0 A bastard sword is given to a ghostly presence
 G 0 17726 0 The `csword of the `kdark `rknight`w is given to a ghostly presence
 G 0 17729 0 A `ccloak of `revil `mpower`w is given to a ghostly presence
-M 0 17730 6 17106 Load a merchant
-M 0 17729 20 17106 Load a farmer
-M 0 17728 40 17106 Load a citizen
-M 0 17727 40 17107 Load a beggar
-M 0 17722 40 17107 Load a militiaman
-M 0 17722 40 17107 Load a militiaman
-M 0 17730 6 17108 Load a merchant
-M 0 17728 40 17108 Load a citizen
-M 0 17728 40 17109 Load a citizen
-M 0 17722 40 17109 Load a militiaman
-M 0 17722 40 17109 Load a militiaman
-M 0 17730 6 17111 Load a merchant
-M 0 17727 40 17111 Load a beggar
-M 0 17733 5 17113 Load a thief
-M 0 17729 20 17113 Load a farmer
-M 0 17722 40 17113 Load a militiaman
-M 0 17722 40 17113 Load a militiaman
-M 0 17730 6 17114 Load a merchant
-M 0 17728 40 17115 Load a citizen
-M 0 17725 40 17115 Load a dog
-M 0 17726 40 17115 Load a cat
-M 0 17727 40 17116 Load a beggar
+M 0 17730 2 17106 Load a merchant
+M 0 17729 4 17106 Load a farmer
+M 0 17728 6 17106 Load a citizen
+M 0 17727 6 17107 Load a beggar
+M 0 17722 3 17107 Load a militiaman
+M 0 17722 3 17107 Load a militiaman
+M 0 17730 2 17108 Load a merchant
+M 0 17728 6 17108 Load a citizen
+M 0 17728 5 17109 Load a citizen
+M 0 17722 3 17109 Load a militiaman
+M 0 17722 3 17109 Load a militiaman
+M 0 17730 0 17111 Load a merchant
+M 0 17727 6 17111 Load a beggar
+M 0 17733 3 17113 Load a thief
+M 0 17729 4 17113 Load a farmer
+M 0 17722 3 17113 Load a militiaman
+M 0 17722 3 17113 Load a militiaman
+M 0 17730 0 17114 Load a merchant
+M 0 17728 5 17115 Load a citizen
+M 0 17725 10 17115 Load a dog
+M 0 17726 10 17115 Load a cat
+M 0 17727 5 17116 Load a beggar
 M 0 17735 0 17117 Load a Jeweller
 G 0 17111 0 An `gemerald `mbroach is given to a Jeweller
 G 0 17112 0 A `wd`ci`wa`cm`wo`cn`wd`y necklace`w is given to a Jeweller
@@ -2536,24 +2536,24 @@ G 0 17712 0 An elven chainmail is given to a young drow
 G 0 17194 0 An accursed pendant is given to a young drow
 G 0 17713 0 A pair of elven boots is given to a young drow
 M 0 17100 0 17136 Load Jumana
-M 0 17727 40 17138 Load a beggar
-M 0 17724 6 17138 Load a mystic
-M 0 17723 10 17138 Load `MA Mage`w
-M 0 17724 6 17139 Load a mystic
-M 0 17733 5 17141 Load a thief
-M 0 17727 40 17142 Load a beggar
-M 0 17725 40 17143 Load a dog
-M 0 17726 40 17143 Load a cat
-M 0 17723 10 17143 Load `MA Mage`w
-M 0 17724 6 17144 Load a mystic
-M 0 17724 6 17144 Load a mystic
-M 0 17723 10 17144 Load `MA Mage`w
-M 0 17723 10 17145 Load `MA Mage`w
-M 0 17727 40 17146 Load a beggar
-M 0 17726 40 17146 Load a cat
-M 0 17725 40 17146 Load a dog
-M 0 17728 40 17147 Load a citizen
-M 0 17722 40 17147 Load a militiaman
+M 0 17727 5 17138 Load a beggar
+M 0 17724 2 17138 Load a mystic
+M 0 17723 3 17138 Load `MA Mage`w
+M 0 17724 2 17139 Load a mystic
+M 0 17733 2 17141 Load a thief
+M 0 17727 5 17142 Load a beggar
+M 0 17725 10 17143 Load a dog
+M 0 17726 10 17143 Load a cat
+M 0 17723 3 17143 Load `MA Mage`w
+M 0 17724 0 17144 Load a mystic
+M 0 17724 0 17144 Load a mystic
+M 0 17723 2 17144 Load `MA Mage`w
+M 0 17723 2 17145 Load `MA Mage`w
+M 0 17727 5 17146 Load a beggar
+M 0 17726 10 17146 Load a cat
+M 0 17725 10 17146 Load a dog
+M 0 17728 5 17147 Load a citizen
+M 0 17722 3 17147 Load a militiaman
 M 0 17711 0 17149 Load a mage
 G 0 17712 0 An elven chainmail is given to a mage
 G 0 17101 0 Leather armour is given to a mage
@@ -2579,29 +2579,29 @@ M 0 17718 0 17158 Load a bartender
 G 0 17707 0 A mug of dwarven ale is given to a bartender
 G 0 17714 0 A glass of wicked elven brew is given to a bartender
 G 0 17716 0 A handful of peanuts is given to a bartender
-M 0 17727 25 17162 Load a beggar
-M 0 17722 20 17162 Load a militiaman
-M 0 17729 20 17164 Load a farmer
-M 0 17728 40 17164 Load a citizen
-M 0 17722 40 17164 Load a militiaman
-M 0 17739 10 17167 Load a mercenary
-M 0 17722 40 17167 Load a militiaman
-M 0 17722 40 17167 Load a militiaman
-M 0 17729 20 17168 Load a farmer
-M 0 17726 40 17168 Load a cat
-M 0 17725 40 17168 Load a dog
-M 0 17722 40 17168 Load a militiaman
-M 0 17722 40 17168 Load a militiaman
-M 0 17729 20 17169 Load a farmer
-M 0 17728 40 17170 Load a citizen
-M 0 17727 40 17170 Load a beggar
-M 0 17722 40 17170 Load a militiaman
-M 0 17739 10 17171 Load a mercenary
-M 0 17728 25 17172 Load a citizen
+M 0 17727 3 17162 Load a beggar
+M 0 17722 0 17162 Load a militiaman
+M 0 17729 4 17164 Load a farmer
+M 0 17728 5 17164 Load a citizen
+M 0 17722 3 17164 Load a militiaman
+M 0 17739 5 17167 Load a mercenary
+M 0 17722 3 17167 Load a militiaman
+M 0 17722 2 17167 Load a militiaman
+M 0 17729 4 17168 Load a farmer
+M 0 17726 10 17168 Load a cat
+M 0 17725 10 17168 Load a dog
+M 0 17722 2 17168 Load a militiaman
+M 0 17722 2 17168 Load a militiaman
+M 0 17729 4 17169 Load a farmer
+M 0 17728 5 17170 Load a citizen
+M 0 17727 5 17170 Load a beggar
+M 0 17722 2 17170 Load a militiaman
+M 0 17739 5 17171 Load a mercenary
+M 0 17728 3 17172 Load a citizen
 M 0 17744 2 17172 Load a Gate Watchman
-M 0 17722 40 17172 Load a militiaman
+M 0 17722 2 17172 Load a militiaman
 M 0 17721 2 17173 Load a Gate Watchman
-M 0 17722 40 17173 Load a militiaman
+M 0 17722 2 17173 Load a militiaman
 O 0 17170 0 17183 A large glass case loaded to `r         *** {`gF`yo`gT`r} `gClan Hall `r*** : `cArmaments Shoppe
 M 0 17185 0 17183 Load Yolatis, the weapon smith
 G 0 17751 0 The `cjustice `gsword`w is given to Yolatis, the weapon smith

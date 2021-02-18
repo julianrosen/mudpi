@@ -817,9 +817,9 @@ unknown~
 AC BC AC ADE D
 15 8 5000 P
 A
-1 1
-A
 18 10
+A
+1 1
 #17701
 silver broad sword~
 a Silver Broad Sword~
@@ -829,11 +829,11 @@ unknown~
 A C AC AB E
 10 9 4500 P
 A
-19 2
+17 -5
 A
 18 2
 A
-17 -5
+19 2
 #17702
 dwarven platemail mail dpm~
 a Dwarven Plate Mail~
@@ -843,13 +843,13 @@ unknown~
 D D D BC 0
 14 23 2000 P
 A
-19 2
-A
-18 2
+17 -9
 A
 13 15
 A
-17 -9
+18 2
+A
+19 2
 #17703
 dwarven fullplate full plate dfp~
 a Dwarven Fullplate~
@@ -859,13 +859,13 @@ unknown~
 ABCD ABCD ABCD BCD 0
 20 30 8500 P
 A
-13 20
-A
-18 3
+20 -3
 A
 19 4
 A
-20 -3
+18 3
+A
+13 20
 #17704
 sword of fortune ~
 a Sword of Fortune~
@@ -875,11 +875,11 @@ unknown~
 A D AC A ABF
 30 10 50000 P
 A
-18 8
+3 1
 A
 19 8
 A
-3 1
+18 8
 #17705
 morning star mace~
 a Morning Star Mace~
@@ -889,15 +889,15 @@ unknown~
 C AC BC D 0
 20 9 10000 P
 A
-12 15
-A
-18 5
-A
-19 7
+4 1
 A
 1 1
 A
-4 1
+19 7
+A
+18 5
+A
+12 15
 #17706
 blessed holy mace club~
 a Blessed Holy Mace~
@@ -907,15 +907,15 @@ unknown~
 C AB AC ABC 0
 10 8 1500 P
 A
-1 1
-A
-3 1
-A
-4 1
+19 2
 A
 18 3
 A
-19 2
+4 1
+A
+3 1
+A
+1 1
 #17707
 dwarven ale mug~
 a Mug of Dwarven Ale~
@@ -933,11 +933,11 @@ unknown~
 0 0 0 0 0
 0 3 150 P
 A
-14 30
+17 -2
 A
 2 1
 A
-17 -2
+14 30
 #17709
 cape clerical~
 a Cape of the Cleric~
@@ -947,11 +947,11 @@ unknown~
 0 0 0 0 0
 5 9 250 P
 A
-17 -7
+3 1
 A
 4 2
 A
-3 1
+17 -7
 #17710
 fullplate plate adarkarian fpoa~
 an Adarkarian Fullplate~
@@ -961,15 +961,15 @@ unknown~
 ABE ABE ABE ABE 0
 30 27 30000 P
 A
-4 1
-A
-2 1
-A
-13 30
+19 1
 A
 18 3
 A
-19 1
+13 30
+A
+2 1
+A
+4 1
 #17711
 leather suit of adarkar lsoa~
 a Leather Suit of Adarkar~
@@ -979,11 +979,11 @@ unknown~
 BD BD BD AD 0
 15 23 15000 P
 A
-4 1
+13 15
 A
 2 2
 A
-13 15
+4 1
 #17712
 chainmail elven mail ec~
 an Elven Chainmail~
@@ -993,13 +993,13 @@ unknown~
 AD AC AD BC 0
 9 15 900 P
 A
-2 1
-A
-18 1
+13 15
 A
 19 1
 A
-13 15
+18 1
+A
+2 1
 #17713
 elven boots elvb~
 a pair of Elven Boots~
@@ -1009,9 +1009,9 @@ unknown~
 B B B B 0
 8 1 450 P
 A
-2 2
-A
 14 30
+A
+2 2
 #17714
 wicked elven brew web glass~
 a Glass of Wicked Elven Brew~
@@ -1045,11 +1045,11 @@ unknown~
 0 0 0 0 0
 15 9 500 P
 A
-17 -5
+2 1
 A
 4 1
 A
-2 1
+17 -5
 #17718
 mace of good faith mogf~
 a Mace of Good Faith~
@@ -1059,17 +1059,17 @@ unknown~
 C C AC ABDE 0
 15 13 2500 P
 A
-12 10
-A
-18 1
-A
-19 7
-A
-3 1
+1 1
 A
 4 1
 A
-1 1
+3 1
+A
+19 7
+A
+18 1
+A
+12 10
 #17719
 magical kris dagger blade crokked~
 a Magical Kris Dagger~
@@ -1079,13 +1079,13 @@ unknown~
 B BC AC ABD 0
 25 6 8000 P
 A
-4 1
-A
-3 1
+19 2
 A
 12 20
 A
-19 2
+3 1
+A
+4 1
 #17720
 enchanted sleeves of magic enhancing~
 a Pair of Sleeves of Magic Enhancing~
@@ -1095,11 +1095,11 @@ unknown~
 D ABC D AD 0
 18 2 1500 P
 A
-24 -4
+3 1
 A
 12 60
 A
-3 1
+24 -4
 #17721
 claymore large sword~
 a Claymore~
@@ -1109,11 +1109,11 @@ unknown~
 A ABC ABC AB EF
 20 25 10000 P
 A
-1 1
+18 5
 A
 19 5
 A
-18 5
+1 1
 #17722
 spiked arm wraps spkaw~
 the `GSpiked `RArm `yWraps`w~
@@ -1123,15 +1123,15 @@ unknown~
 D D D ABC 0
 35 12 15000 P
 A
-17 -10
-A
-1 1
-A
-13 10
+19 8
 A
 18 3
 A
-19 8
+13 10
+A
+1 1
+A
+17 -10
 #17723
 gauntlets of timion power gotp~
 the `RGauntlets `yof `GTimion `RPower`w~
@@ -1141,17 +1141,17 @@ unknown~
 D D D D 0
 40 25 350000 P
 A
-1 3
-A
-19 4
-A
-18 4
-A
-12 5
+24 -6
 A
 13 10
 A
-24 -6
+12 5
+A
+18 4
+A
+19 4
+A
+1 3
 #17724
 mace holy old crusader's crsmc~
 a Crusader's Mace~
@@ -1161,17 +1161,17 @@ unknown~
 C AC D ABDE 0
 30 9 12000 P
 A
-4 1
-A
-19 6
-A
-18 7
-A
-12 20
+24 -1
 A
 20 -1
 A
-24 -1
+12 20
+A
+18 7
+A
+19 6
+A
+4 1
 #17725
 sleeves of divine magics~
 the Sleeves of `MDivine `GMagics`w~
@@ -1181,13 +1181,13 @@ unknown~
 ABC ABC ABC AC 0
 23 5 2300 P
 A
-20 -1
-A
-13 5
+12 20
 A
 1 1
 A
-12 20
+13 5
+A
+20 -1
 #17726
 sword of the dark knight stkn~
 the `CSword of the `KDark `RKnight`w~
@@ -1197,13 +1197,13 @@ unknown~
 A D ABC ACE CEF
 33 25 12000 P
 A
-18 5
-A
-20 -2
+19 5
 A
 13 5
 A
-19 5
+20 -2
+A
+18 5
 #17727
 spike-toe boots toe spiked vicious~
 the `RSpike`y-`GToed `CBoots`w~
@@ -1213,15 +1213,15 @@ unknown~
 ABC ABC ABC AC 0
 30 12 30000 P
 A
-13 5
-A
-14 100
-A
-2 1
+18 3
 A
 19 1
 A
-18 3
+2 1
+A
+14 100
+A
+13 5
 #17728
 great helm gh the~
 the `GGreat `KHelm`w~
@@ -1231,13 +1231,13 @@ unknown~
 BC BC BC AC 0
 20 12 2000 P
 A
-19 4
-A
-18 4
+4 1
 A
 3 1
 A
-4 1
+18 4
+A
+19 4
 #17729
 cloak of evil power very~
 a `CCloak of `REvil `MPower`w~
@@ -1247,13 +1247,13 @@ unknown~
 BC BC BC ABC 0
 25 5 25000 P
 A
-18 3
-A
-19 5
+12 15
 A
 20 -5
 A
-12 15
+19 5
+A
+18 3
 #17740
 the sol ring~
 `rS`yo`rl `yR`ri`yn`rg`w~
@@ -1263,9 +1263,9 @@ unknown~
 ABC ABC ABC AD 0
 35 3 15000 P
 A
-24 -3
-A
 12 50
+A
+24 -3
 #17741
 sunstone~
 `yS`cu`yn`cs`yt`co`yn`ce`w~
@@ -1275,15 +1275,15 @@ unknown~
 0 0 210 0 0
 45 6 22500 P
 A
-17 -5
-A
-13 20
-A
-12 70
+3 1
 A
 4 2
 A
-3 1
+12 70
+A
+13 20
+A
+17 -5
 #17742
 belt of fortitude strange looking~
 `gBelt `bof `gFortitude`w~
@@ -1293,13 +1293,13 @@ unknown~
 BC BC BC BC 0
 20 12 7500 P
 A
-14 20
-A
-20 -3
+1 2
 A
 5 2
 A
-1 2
+20 -3
+A
+14 20
 #17743
 leggings of the backwards mage not right~
 `yLeggings `bof `ythe `bBack`yWards `bMage`w~
@@ -1309,21 +1309,21 @@ unknown~
 AC AC AC AB 0
 8 0 850 P
 A
-13 10
-A
-12 -10
-A
-19 1
-A
-18 1
-A
-24 1
-A
-3 -1
+1 1
 A
 4 1
 A
-1 1
+3 -1
+A
+24 1
+A
+18 1
+A
+19 1
+A
+12 -10
+A
+13 10
 #17744
 sandals of stealth shadowy apparel~
 `gSandals `rof `KStealth`w~
@@ -1333,9 +1333,9 @@ unknown~
 A A A A 0
 15 2 1000 P
 A
-14 30
-A
 2 3
+A
+14 30
 #17745
 blade of light object~
 `cBlade `gof `yLight`w~
@@ -1345,17 +1345,17 @@ unknown~
 B BC BC BE 0
 35 11 20000 P
 A
-12 50
-A
-13 50
-A
-17 -10
-A
-1 -1
+18 9
 A
 19 -3
 A
-18 9
+1 -1
+A
+17 -10
+A
+13 50
+A
+12 50
 #17746
 gloves of spell weaving~
 `cGloves`g of `mSpell `bWeaving`w~
@@ -1365,11 +1365,11 @@ unknown~
 D D D CD 0
 25 2 5000 P
 A
-3 1
+13 -25
 A
 12 100
 A
-13 -25
+3 1
 #17747
 food ambrosia~
 `rambrosia`w~
@@ -1395,11 +1395,11 @@ unknown~
 A BC BC A A
 25 12 75000 P
 A
-18 3
+19 6
 A
 12 10
 A
-19 6
+18 3
 #17750
 gold-riveted silver fullplate grsfp~
 a `yGold`R-`GRiveted `CSilver `KFullplate`w~
@@ -1409,17 +1409,17 @@ unknown~
 AE AE AE AE 0
 30 10 100000 P
 A
-24 -3
-A
-17 -5
-A
-13 15
-A
-12 15
+18 5
 A
 2 1
 A
-18 5
+12 15
+A
+13 15
+A
+17 -5
+A
+24 -3
 #17751
 justice sword js~
 the `CJustice `GSword`w~
@@ -1429,13 +1429,13 @@ unknown~
 A AD AC AB CE
 40 12 500000 P
 A
-24 -4
-A
-13 25
+18 9
 A
 19 9
 A
-18 9
+13 25
+A
+24 -4
 #17752
 sword of white light swl gleaming~
 a Sword of `WWhite `yLight`w~
@@ -1445,13 +1445,13 @@ unknown~
 A AC AC A A
 15 9 2500 P
 A
-13 5
-A
-12 5
+18 5
 A
 19 5
 A
-18 5
+12 5
+A
+13 5
 #17753
 gnarled wooden ring~
 a Wooden Ring~
@@ -1461,11 +1461,11 @@ unknown~
 AB AB AB AB 0
 11 2 15 P
 A
-5 1
+13 15
 A
 12 15
 A
-13 15
+5 1
 #17780
 gold scimitar~
 a Golden Scimitar~
@@ -1483,13 +1483,13 @@ unknown~
 ABE E BE CE 0
 25 10 15000 P
 A
-13 25
-A
-2 1
+19 5
 A
 18 2
 A
-19 5
+2 1
+A
+13 25
 #17782
 gold sword broad broadsword~
 a Golden Broadsword~
@@ -1499,9 +1499,9 @@ unknown~
 A BC BC AB E
 25 10 5000 P
 A
-18 3
-A
 19 3
+A
+18 3
 #17783
 timion fullplate plate tfp~
 a `yTimion `GFullplate`w~
@@ -1511,13 +1511,13 @@ unknown~
 CE ACE ACE CE 0
 30 15 100000 P
 A
-17 -5
-A
-13 50
+2 2
 A
 5 2
 A
-2 2
+13 50
+A
+17 -5
 #17784
 sword of timion sot~
 a `RSword `Gof `yTimion`w~
@@ -1527,11 +1527,11 @@ unknown~
 A AD D A DEF
 30 8 400000 P
 A
-19 8
+1 1
 A
 18 10
 A
-1 1
+19 8
 #17785
 shield of justice soj~
 a Shield of Justice~
@@ -1549,13 +1549,13 @@ unknown~
 A AC BC ACE DE
 20 8 200000 P
 A
-13 10
-A
-17 -5
+18 5
 A
 19 6
 A
-18 5
+17 -5
+A
+13 10
 #17787
 warrior guild symbol~
 a symbol of the warrior's guild~
@@ -1591,9 +1591,9 @@ unknown~
 CEFGHI CEFGHI CEFGHI CEFGHI 0
 90 1 0 P
 A
-18 10000
-A
 19 10000
+A
+18 10000
 #0
 
 
@@ -3310,13 +3310,13 @@ D 0 17743 3 0
 D 0 17763 5 0
 D 0 17776 4 0
 D 0 17781 3 0
-M 0 17761 8 17701 Load Gold Guard
+M 0 17761 4 17701 Load Gold Guard
 E 0 17781 0 5 A golden fullplate is loaded on the body of Gold Guard
 E 0 17782 0 16 A golden broadsword is loaded wielded of Gold Guard
 E 0 17785 0 17 A shield of justice is loaded held in the hands of Gold Guard
 M 0 17762 0 17704 Load Tulsa
 M 0 17719 0 17708 Load Timion, Powerful Diety
-M 0 17761 8 17709 Load Gold Guard
+M 0 17761 4 17709 Load Gold Guard
 E 0 17782 0 16 A golden broadsword is loaded wielded of Gold Guard
 E 0 17781 0 5 A golden fullplate is loaded on the body of Gold Guard
 E 0 17785 0 17 A shield of justice is loaded held in the hands of Gold Guard
@@ -3324,26 +3324,26 @@ M 0 17760 0 17712 Load Enslaved Creature
 M 0 17716 0 17715 Load Transon
 E 0 17780 0 16 A golden scimitar is loaded wielded of Transon
 E 0 17702 0 5 A dwarven plate mail is loaded on the body of Transon
-M 0 17733 5 17721 Load a thief
+M 0 17733 3 17721 Load a thief
 M 0 17745 2 17722 Load a Gate Watchman
-M 0 17722 40 17722 Load a militiaman
-M 0 17728 40 17723 Load a citizen
-M 0 17728 40 17723 Load a citizen
-M 0 17722 40 17723 Load a militiaman
-M 0 17725 40 17726 Load a dog
+M 0 17722 3 17722 Load a militiaman
+M 0 17728 5 17723 Load a citizen
+M 0 17728 5 17723 Load a citizen
+M 0 17722 3 17723 Load a militiaman
+M 0 17725 6 17726 Load a dog
 M 0 17734 0 17727 Load an innkeeper
 G 0 17707 0 A mug of dwarven ale is given to an innkeeper
 G 0 17714 0 A glass of wicked elven brew is given to an innkeeper
 G 0 17716 0 A handful of peanuts is given to an innkeeper
-M 0 17728 40 17727 Load a citizen
-M 0 17739 10 17728 Load a mercenary
-M 0 17725 40 17728 Load a dog
-M 0 17722 40 17729 Load a militiaman
-M 0 17739 10 17730 Load a mercenary
-M 0 17728 40 17730 Load a citizen
-M 0 17728 40 17730 Load a citizen
-M 0 17727 40 17730 Load a beggar
-M 0 17725 40 17730 Load a dog
+M 0 17728 5 17727 Load a citizen
+M 0 17739 2 17728 Load a mercenary
+M 0 17725 6 17728 Load a dog
+M 0 17722 3 17729 Load a militiaman
+M 0 17739 2 17730 Load a mercenary
+M 0 17728 5 17730 Load a citizen
+M 0 17728 4 17730 Load a citizen
+M 0 17727 7 17730 Load a beggar
+M 0 17725 6 17730 Load a dog
 M 0 17742 0 17731 Load Arcades
 G 0 17101 0 Leather armour is given to Arcades
 G 0 17708 0 A pair of black boots is given to Arcades
@@ -3353,47 +3353,47 @@ G 0 17713 0 A pair of elven boots is given to Arcades
 G 0 17130 0 An elven broad sword is given to Arcades
 G 0 17131 0 A banded mail is given to Arcades
 O 0 17134 0 17733 A fountian loaded to Business Square: Intersection of Main Street and Commerce Way
-M 0 17722 40 17733 Load a militiaman
-M 0 17728 40 17734 Load a citizen
-M 0 17728 40 17734 Load a citizen
-M 0 17739 10 17736 Load a mercenary
-M 0 17722 40 17736 Load a militiaman
-M 0 17733 5 17737 Load a thief
-M 0 17728 40 17737 Load a citizen
-M 0 17728 40 17737 Load a citizen
-M 0 17725 40 17737 Load a dog
-M 0 17726 40 17737 Load a cat
+M 0 17722 3 17733 Load a militiaman
+M 0 17728 4 17734 Load a citizen
+M 0 17728 4 17734 Load a citizen
+M 0 17739 2 17736 Load a mercenary
+M 0 17722 3 17736 Load a militiaman
+M 0 17733 2 17737 Load a thief
+M 0 17728 4 17737 Load a citizen
+M 0 17728 4 17737 Load a citizen
+M 0 17725 6 17737 Load a dog
+M 0 17726 14 17737 Load a cat
 M 0 17746 2 17738 Load a Gate Watchman
-M 0 17722 40 17738 Load a militiaman
-M 0 17729 20 17744 Load a farmer
-M 0 17727 40 17744 Load a beggar
-M 0 17726 40 17744 Load a cat
-M 0 17725 40 17744 Load a dog
-M 0 17725 40 17745 Load a dog
-M 0 17722 40 17745 Load a militiaman
-M 0 17722 40 17745 Load a militiaman
-M 0 17729 20 17747 Load a farmer
-M 0 17727 40 17747 Load a beggar
-M 0 17722 40 17747 Load a militiaman
-M 0 17739 10 17749 Load a mercenary
-M 0 17729 20 17749 Load a farmer
-M 0 17727 40 17750 Load a beggar
-M 0 17722 40 17752 Load a militiaman
-M 0 17729 20 17753 Load a farmer
-M 0 17727 40 17753 Load a beggar
-M 0 17722 40 17753 Load a militiaman
-M 0 17739 10 17754 Load a mercenary
-M 0 17727 40 17754 Load a beggar
-M 0 17722 40 17755 Load a militiaman
-M 0 17722 40 17755 Load a militiaman
-M 0 17726 40 17756 Load a cat
-M 0 17725 40 17756 Load a dog
-M 0 17739 10 17758 Load a mercenary
+M 0 17722 3 17738 Load a militiaman
+M 0 17729 5 17744 Load a farmer
+M 0 17727 7 17744 Load a beggar
+M 0 17726 13 17744 Load a cat
+M 0 17725 6 17744 Load a dog
+M 0 17725 5 17745 Load a dog
+M 0 17722 3 17745 Load a militiaman
+M 0 17722 3 17745 Load a militiaman
+M 0 17729 5 17747 Load a farmer
+M 0 17727 7 17747 Load a beggar
+M 0 17722 3 17747 Load a militiaman
+M 0 17739 2 17749 Load a mercenary
+M 0 17729 5 17749 Load a farmer
+M 0 17727 7 17750 Load a beggar
+M 0 17722 3 17752 Load a militiaman
+M 0 17729 5 17753 Load a farmer
+M 0 17727 6 17753 Load a beggar
+M 0 17722 3 17753 Load a militiaman
+M 0 17739 0 17754 Load a mercenary
+M 0 17727 6 17754 Load a beggar
+M 0 17722 3 17755 Load a militiaman
+M 0 17722 2 17755 Load a militiaman
+M 0 17726 13 17756 Load a cat
+M 0 17725 5 17756 Load a dog
+M 0 17739 0 17758 Load a mercenary
 M 0 17731 0 17760 Load a business owner
-M 0 17732 4 17760 Load a Worker
-M 0 17732 4 17760 Load a Worker
-M 0 17732 4 17760 Load a Worker
-M 0 17722 40 17764 Load a militiaman
+M 0 17732 2 17760 Load a Worker
+M 0 17732 0 17760 Load a Worker
+M 0 17732 0 17760 Load a Worker
+M 0 17722 2 17764 Load a militiaman
 M 0 17700 0 17767 Load Yence, Shopkeeper
 G 0 17700 0 A dwarven battle axe is given to Yence, Shopkeeper
 G 0 17701 0 A silver broad sword is given to Yence, Shopkeeper
@@ -3485,9 +3485,9 @@ G 0 17707 0 A mug of dwarven ale is given to the bartender
 G 0 17714 0 A glass of wicked elven brew is given to the bartender
 G 0 17716 0 A handful of peanuts is given to the bartender
 M 0 17741 0 17799 Load a drill captain
-M 0 17740 5 17799 Load a cadet
-M 0 17740 5 17799 Load a cadet
-M 0 17740 5 17799 Load a cadet
+M 0 17740 2 17799 Load a cadet
+M 0 17740 2 17799 Load a cadet
+M 0 17740 0 17799 Load a cadet
 S
 
 
@@ -3495,19 +3495,19 @@ S
 #PROGS
 M 17719 2009 Mudweiser MOBProgs/4719.prg Load to: Timion, Powerful Diety
 M 17719 10 Offensive Cleric Load to: Timion, Powerful Diety
-M 17721 20 CityGuard Load to: a Gate Watchman
 M 17721 2010 Mudweiser MOBProgs/4721.prg Load to: a Gate Watchman
+M 17721 20 CityGuard Load to: a Gate Watchman
 M 17723 13 Offensive Mage Load to: `MA Mage`w
 M 17724 13 Offensive Mage Load to: a mystic
 M 17725 16 Fido Load to: a dog
 M 17733 21 Thief Load to: a thief
 M 17739 2011 Mudweiser MOBProgs/4739.prg Load to: a mercenary
-M 17744 20 CityGuard Load to: a Gate Watchman
 M 17744 2012 Mudweiser MOBProgs/4744.prg Load to: a Gate Watchman
-M 17745 20 CityGuard Load to: a Gate Watchman
+M 17744 20 CityGuard Load to: a Gate Watchman
 M 17745 2013 Mudweiser MOBProgs/4745.prg Load to: a Gate Watchman
-M 17746 20 CityGuard Load to: a Gate Watchman
+M 17745 20 CityGuard Load to: a Gate Watchman
 M 17746 2014 Mudweiser MOBProgs/4746.prg Load to: a Gate Watchman
+M 17746 20 CityGuard Load to: a Gate Watchman
 O 17749 2015 Mudweiser OBJProgs/4749.prg Load to: the `RFlame `ySaber`w
 O 17753 2016 Mudweiser OBJProgs/4753.prg Load to: a Wooden Ring
 M 17761 20 CityGuard Load to: Gold Guard

@@ -177,9 +177,9 @@ unknown~
 AC AC AC C 0
 20 4 150 P
 A
-5 3
-A
 18 3
+A
+5 3
 #22218
 Slender Rapier~
 a Slender Rapier~
@@ -199,11 +199,11 @@ unknown~
 AB AB AB D 0
 30 4 300 P
 A
-4 1
+19 3
 A
 18 4
 A
-19 3
+4 1
 #22232
 a jagged knife~
 a jagged knife~
@@ -896,32 +896,32 @@ D 0 22228 3 0
 D 0 22229 1 0
 D 0 22230 3 0
 D 0 22231 0 0
-M 0 22205 9 22202 Load a Buff Dockworker
-M 0 22205 9 22203 Load a Buff Dockworker
+M 0 22205 5 22202 Load a Buff Dockworker
+M 0 22205 4 22203 Load a Buff Dockworker
 M 0 22204 6 22204 Load a Seagull
-M 0 22208 4 22207 Load the weathered fisherman
+M 0 22208 0 22207 Load the weathered fisherman
 E 0 22208 0 16 A fishing pole is loaded wielded of the weathered fisherman
-M 0 22208 4 22208 Load the weathered fisherman
+M 0 22208 0 22208 Load the weathered fisherman
 E 0 22208 0 16 A fishing pole is loaded wielded of the weathered fisherman
 O 0 22250 0 22208 A wooden raft loaded to End of the Shaky Dock
-M 0 22208 4 22209 Load the weathered fisherman
+M 0 22208 0 22209 Load the weathered fisherman
 E 0 22208 0 16 A fishing pole is loaded wielded of the weathered fisherman
-M 0 22208 4 22210 Load the weathered fisherman
+M 0 22208 0 22210 Load the weathered fisherman
 E 0 22208 0 16 A fishing pole is loaded wielded of the weathered fisherman
 M 0 22214 8 22214 Load a Mutant Rat
 M 0 22217 0 22217 Load a massive sailor
 E 0 22217 0 13 A woven rope belt is loaded around the waist of a massive sailor
 E 0 22218 0 16 A slender rapier is loaded wielded of a massive sailor
-M 0 22227 8 22227 Load the sleepy crew
-M 0 22227 8 22228 Load the sleepy crew
+M 0 22227 2 22227 Load the sleepy crew
 M 0 22227 2 22228 Load the sleepy crew
-M 0 22227 8 22229 Load the sleepy crew
-M 0 22227 8 22230 Load the sleepy crew
+M 0 22227 0 22228 Load the sleepy crew
+M 0 22227 2 22229 Load the sleepy crew
+M 0 22227 2 22230 Load the sleepy crew
 M 0 22231 0 22231 Load the captain of the Seabreeze
 E 0 22231 0 3 A fishbone necklace is loaded around the neck (1) of the captain of the Seabreeze
-M 0 22219 11 22232 Load a grimfaced sailor
+M 0 22219 6 22232 Load a grimfaced sailor
 E 0 22232 0 16 A jagged knife is loaded wielded of a grimfaced sailor
-M 0 22219 11 22238 Load a grimfaced sailor
+M 0 22219 5 22238 Load a grimfaced sailor
 E 0 22232 0 16 A jagged knife is loaded wielded of a grimfaced sailor
 S
 

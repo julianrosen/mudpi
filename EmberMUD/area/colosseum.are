@@ -1,0 +1,69 @@
+#AREADATA
+Name        { 1 90} Jules   Colosseum~
+Group       Mudpi~
+Builders    Matrix~
+VNUMs       10301 10500
+Security    1
+End
+
+
+
+#MOBILES
+#10301
+hydra head~
+the hydra's head~
+One of the hydra's many heads.
+~
+~
+Dwarf~
+AB J -100 S
+18 32 
+100 0 0 0 10d20+150 31d10+100 4d5+6 32
+-9 -9 -9 0
+U 0 CL R
+8 8 0 150
+AHMV ABCDEFGHIJKVW M 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#10301
+Entryway~
+Welcome to the colosseum! Here, one can fight enemies to the death. Only
+the strong will survive.
+~
+0 4 0
+S
+#0
+
+
+
+#RESETS
+M 0 10301 0 10301 Load the hydra's head
+S
+
+
+
+#PROGS
+M 10301 2033 (no name) Load to: the hydra's head
+S
+
+
+
+#SHOPS
+0
+
+
+
+#FACTIONAFFS
+0
+
+
+
+#$

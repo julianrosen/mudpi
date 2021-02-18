@@ -138,9 +138,9 @@ unknown~
 AB AB AB 0 0
 0 10 0 P
 A
-2 2
-A
 24 1
+A
+2 2
 #9102
 bronze bracers~
 a pair of carved bronze bracers~
@@ -158,9 +158,9 @@ unknown~
 D D D 0 0
 28 10 280 P
 A
-3 1
-A
 4 1
+A
+3 1
 #9104
 magenta potion~
 magenta potion~
@@ -1021,6 +1021,10 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
+D5
+~
+~
+0 -1 9148
 D3
 ~
 ~
@@ -1030,10 +1034,6 @@ You see a sneezy little cloud.
 ~
 ~
 0 -1 9133
-D5
-~
-~
-0 -1 9148
 S
 #9146
 Raging hurricane.~
@@ -1058,14 +1058,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D1
-~
-~
-0 -1 9148
 D2
 ~
 ~
 0 -1 9146
+D1
+~
+~
+0 -1 9148
 S
 #9148
 Raging hurricane.~
@@ -1094,10 +1094,6 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D0
-~
-~
-0 -1 9152
 D1
 ~
 ~
@@ -1107,6 +1103,10 @@ You see a cumulative nimbus cloud.
 ~
 ~
 0 -1 9157
+D0
+~
+~
+0 -1 9152
 S
 #9150
 Raging hurricane.~
@@ -1135,14 +1135,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D2
-~
-~
-0 -1 9150
 D3
 ~
 ~
 0 -1 9152
+D2
+~
+~
+0 -1 9150
 S
 #9152
 Raging hurricane.~
@@ -1151,14 +1151,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D2
-~
-~
-0 -1 9149
 D1
 ~
 ~
 0 -1 9151
+D2
+~
+~
+0 -1 9149
 S
 #9153
 Calm cloud.~

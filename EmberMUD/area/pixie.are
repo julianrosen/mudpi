@@ -370,11 +370,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-1 -1
+13 -10
 A
 3 -1
 A
-13 -10
+1 -1
 #20107
 cursed belt~
 the cursed belt~
@@ -384,11 +384,11 @@ unknown~
 BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef 0
 0 100 1 P
 A
-5 -2
+19 0
 A
 12 -10
 A
-19 0
+5 -2
 #20108
 walking stick~
 a tiny tiny walking stick~
@@ -1143,47 +1143,47 @@ D 0 20134 3 1
 D 0 20138 3 1
 D 0 20139 1 1
 M 0 20123 0 20103 Load a large bear
-M 0 20100 20 20106 Load a green pixie
-M 0 20101 20 20106 Load a red pixie
-M 0 20102 20 20106 Load a blue pixie
-M 0 20104 20 20106 Load an orange pixie
+M 0 20100 3 20106 Load a green pixie
+M 0 20101 3 20106 Load a red pixie
+M 0 20102 3 20106 Load a blue pixie
+M 0 20104 3 20106 Load an orange pixie
 M 0 20119 5 20109 Load a vicious creature
 E 0 20130 0 3 A stone statue of the great tiki god is loaded around the neck (1) of a vicious creature
-M 0 20100 20 20110 Load a green pixie
-M 0 20101 20 20110 Load a red pixie
-M 0 20102 20 20110 Load a blue pixie
-M 0 20104 20 20110 Load an orange pixie
-M 0 20100 20 20113 Load a green pixie
-M 0 20101 20 20113 Load a red pixie
-M 0 20102 20 20113 Load a blue pixie
-M 0 20104 20 20113 Load an orange pixie
-M 0 20100 20 20114 Load a green pixie
-M 0 20101 20 20114 Load a red pixie
-M 0 20102 20 20114 Load a blue pixie
-M 0 20104 20 20114 Load an orange pixie
+M 0 20100 3 20110 Load a green pixie
+M 0 20101 3 20110 Load a red pixie
+M 0 20102 3 20110 Load a blue pixie
+M 0 20104 3 20110 Load an orange pixie
+M 0 20100 3 20113 Load a green pixie
+M 0 20101 3 20113 Load a red pixie
+M 0 20102 3 20113 Load a blue pixie
+M 0 20104 3 20113 Load an orange pixie
+M 0 20100 3 20114 Load a green pixie
+M 0 20101 3 20114 Load a red pixie
+M 0 20102 3 20114 Load a blue pixie
+M 0 20104 3 20114 Load an orange pixie
 O 0 20104 0 20117 A pixie fountain loaded to Pixie Square
 M 0 20106 0 20117 Load a pixie vender
 G 0 20100 0 A pixie pie is given to a pixie vender
 G 0 20102 0 A small leg of turkey is given to a pixie vender
 G 0 20101 0 Some pixie berries is given to a pixie vender
 G 0 20103 0 A cup of pixie tea is given to a pixie vender
-M 0 20100 20 20117 Load a green pixie
-M 0 20101 20 20117 Load a red pixie
-M 0 20102 20 20117 Load a blue pixie
-M 0 20104 20 20117 Load an orange pixie
+M 0 20100 3 20117 Load a green pixie
+M 0 20101 3 20117 Load a red pixie
+M 0 20102 2 20117 Load a blue pixie
+M 0 20104 2 20117 Load an orange pixie
 M 0 20103 0 20117 Load an annoying purple pixie
-M 0 20100 5 20120 Load a green pixie
-M 0 20101 4 20120 Load a red pixie
-M 0 20100 30 20121 Load a green pixie
-M 0 20101 30 20121 Load a red pixie
-M 0 20102 30 20121 Load a blue pixie
-M 0 20104 30 20121 Load an orange pixie
-M 0 20102 30 20123 Load a blue pixie
-M 0 20104 30 20123 Load an orange pixie
-M 0 20100 30 20124 Load a green pixie
-M 0 20101 30 20124 Load a red pixie
-M 0 20102 30 20124 Load a blue pixie
-M 0 20104 30 20124 Load an orange pixie
+M 0 20100 0 20120 Load a green pixie
+M 0 20101 0 20120 Load a red pixie
+M 0 20100 8 20121 Load a green pixie
+M 0 20101 8 20121 Load a red pixie
+M 0 20102 6 20121 Load a blue pixie
+M 0 20104 6 20121 Load an orange pixie
+M 0 20102 5 20123 Load a blue pixie
+M 0 20104 5 20123 Load an orange pixie
+M 0 20100 7 20124 Load a green pixie
+M 0 20101 7 20124 Load a red pixie
+M 0 20102 5 20124 Load a blue pixie
+M 0 20104 5 20124 Load an orange pixie
 M 0 20107 0 20125 Load a pixie pet dealer
 M 0 20108 0 20126 Load a pixie dog
 M 0 20109 0 20126 Load a pixie kitten
@@ -1197,13 +1197,13 @@ M 0 20113 3 20130 Load a frantic pixie
 M 0 20115 4 20131 Load a preppy pixie
 M 0 20114 0 20132 Load a pixie basket weaver
 G 0 20113 0 A small pixie basket is given to a pixie basket weaver
-M 0 20116 15 20133 Load a pixie guard
-M 0 20117 5 20133 Load a royal pixie servant
-M 0 20116 15 20134 Load a pixie guard
-M 0 20117 5 20134 Load a royal pixie servant
+M 0 20116 5 20133 Load a pixie guard
+M 0 20117 2 20133 Load a royal pixie servant
+M 0 20116 5 20134 Load a pixie guard
+M 0 20117 2 20134 Load a royal pixie servant
 M 0 20105 0 20137 Load Amber
-M 0 20116 15 20137 Load a pixie guard
-M 0 20117 10 20137 Load a royal pixie servant
+M 0 20116 5 20137 Load a pixie guard
+M 0 20117 6 20137 Load a royal pixie servant
 O 0 20119 0 20137 Some gold coins loaded to Amber's Throne Room
 O 0 20119 0 20138 Some gold coins loaded to A Treasure Room
 O 0 20119 0 20139 Some gold coins loaded to A Treasure Room

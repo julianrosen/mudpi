@@ -357,15 +357,15 @@ unknown~
 A D ABCD ACDEHIJKLMNOPQRSTUVWXYZabcdef ACDEHIJKLMNOPQRSTUVWXYZabcdef
 93 3 1 P
 A
-1 2
-A
-5 -1
-A
-19 20
+3 4
 A
 18 20
 A
-3 4
+19 20
+A
+5 -1
+A
+1 2
 #26101
 Playtester's Playtest Weapon~
 playtest weapon~
@@ -375,13 +375,13 @@ unknown~
 ACDEHIJKLMNOPQRSTUVWXYZabcdef BEF BEF ACDEHIJKLMNOPQRSTUVWXYZabcdef 0
 93 1 1 P
 A
-18 90
-A
-5 10
+4 5
 A
 1 10
 A
-4 5
+5 10
+A
+18 90
 #26102
 playtester's playtest armor~
 playtest Armor~
@@ -431,11 +431,11 @@ unknown~
 CFG CFG CFG CFG 0
 93 1 1000000000 P
 A
-2 3
+12 1000
 A
 13 1000
 A
-12 1000
+2 3
 #26119
 a hemp necklace~
 a hemp necklace~
@@ -445,11 +445,11 @@ unknown~
 CFG CFG CFG CFG 0
 93 1 100000000 P
 A
-13 1000
+3 5
 A
 12 1000
 A
-3 5
+13 1000
 #26120
 oops2~
 oops2~
@@ -459,11 +459,11 @@ unknown~
 CFG CFG CFG CFG 0
 93 1 1000000000 P
 A
-13 31070
+3 5
 A
 12 1000
 A
-3 5
+13 31070
 #26122
 a Beanie~
 a beanie~
@@ -473,11 +473,11 @@ unknown~
 0 0 0 0 0
 93 1 1000000000 P
 A
-3 3
+13 1000
 A
 12 1000
 A
-13 1000
+3 3
 #26135
 oops~
 oops~
@@ -487,15 +487,15 @@ unknown~
 CFG CFG CFG CFG 0
 93 1 1000000000 P
 A
-13 31070
-A
-13 31070
-A
-13 -31072
+12 1000
 A
 3 5
 A
-12 1000
+13 -31072
+A
+13 31070
+A
+13 31070
 #26136
 a wedding ring~
 a wedding ring~
@@ -505,9 +505,9 @@ unknown~
 CFG CFG CFG CFG 0
 93 1 1000000000 P
 A
-19 70
-A
 1 3
+A
+19 70
 #26137
 the Gods' Weapon~
 the Gods' Weapon~
@@ -575,9 +575,9 @@ unknown~
 B CE CE BDE C
 93 1 0 P
 A
-2 20
-A
 18 100
+A
+2 20
 #26147
 endless bag of chips~
 an endless bag of chips~
@@ -613,11 +613,11 @@ unknown~
 A CE CE AB C
 92 0 100000 P
 A
-18 150
+13 1000
 A
 19 70
 A
-13 1000
+18 150
 #26194
 old hermit's cap~
 old hermit's cap~
@@ -627,17 +627,17 @@ unknown~
 CE CE CE CE 0
 75 2 150000 P
 A
-19 3
-A
-4 3
-A
-3 1
-A
-18 4
+5 -4
 A
 19 4
 A
-5 -4
+18 4
+A
+3 1
+A
+4 3
+A
+19 3
 #0
 
 
@@ -2337,64 +2337,64 @@ O 0 26139 0 26112 Old wheat loaded to A closed shop
 O 0 26140 0 26114 Chest armor loaded to In a closed shop
 O 0 26114 0 26114 A metal helmet loaded to In a closed shop
 O 0 26115 0 26115 Blunt sword loaded to In a closed shop
-M 0 26121 8 26120 Load Female Citizen of Lousi
-M 0 26128 8 26120 Load a male citizen of Lousi
-M 0 26121 8 26121 Load Female Citizen of Lousi
-M 0 26128 8 26121 Load a male citizen of Lousi
-M 0 26121 8 26122 Load Female Citizen of Lousi
-M 0 26128 8 26122 Load a male citizen of Lousi
-M 0 26121 8 26123 Load Female Citizen of Lousi
-M 0 26128 8 26123 Load a male citizen of Lousi
-M 0 26121 8 26124 Load Female Citizen of Lousi
-M 0 26128 8 26124 Load a male citizen of Lousi
-M 0 26121 8 26126 Load Female Citizen of Lousi
-M 0 26128 8 26126 Load a male citizen of Lousi
-M 0 26121 8 26127 Load Female Citizen of Lousi
-M 0 26128 8 26127 Load a male citizen of Lousi
-M 0 26121 8 26128 Load Female Citizen of Lousi
-M 0 26128 8 26128 Load a male citizen of Lousi
+M 0 26121 0 26120 Load Female Citizen of Lousi
+M 0 26128 0 26120 Load a male citizen of Lousi
+M 0 26121 0 26121 Load Female Citizen of Lousi
+M 0 26128 0 26121 Load a male citizen of Lousi
+M 0 26121 0 26122 Load Female Citizen of Lousi
+M 0 26128 0 26122 Load a male citizen of Lousi
+M 0 26121 0 26123 Load Female Citizen of Lousi
+M 0 26128 0 26123 Load a male citizen of Lousi
+M 0 26121 0 26124 Load Female Citizen of Lousi
+M 0 26128 0 26124 Load a male citizen of Lousi
+M 0 26121 0 26126 Load Female Citizen of Lousi
+M 0 26128 0 26126 Load a male citizen of Lousi
+M 0 26121 0 26127 Load Female Citizen of Lousi
+M 0 26128 0 26127 Load a male citizen of Lousi
+M 0 26121 0 26128 Load Female Citizen of Lousi
+M 0 26128 0 26128 Load a male citizen of Lousi
 M 0 26141 0 26141 Load the Beast
-M 0 26146 20 26146 Load a deer
-M 0 26146 20 26147 Load a deer
-M 0 26146 20 26148 Load a deer
-M 0 26146 20 26149 Load a deer
-M 0 26146 20 26150 Load a deer
-M 0 26146 20 26151 Load a deer
-M 0 26146 20 26152 Load a deer
-M 0 26146 20 26153 Load a deer
-M 0 26146 20 26154 Load a deer
-M 0 26146 20 26155 Load a deer
-M 0 26146 20 26156 Load a deer
-M 0 26146 20 26157 Load a deer
-M 0 26158 20 26158 Load a bear
-M 0 26158 20 26159 Load a bear
-M 0 26158 20 26160 Load a bear
-M 0 26158 20 26161 Load a bear
+M 0 26146 2 26146 Load a deer
+M 0 26146 2 26147 Load a deer
+M 0 26146 2 26148 Load a deer
+M 0 26146 2 26149 Load a deer
+M 0 26146 2 26150 Load a deer
+M 0 26146 2 26151 Load a deer
+M 0 26146 2 26152 Load a deer
+M 0 26146 2 26153 Load a deer
+M 0 26146 0 26154 Load a deer
+M 0 26146 0 26155 Load a deer
+M 0 26146 0 26156 Load a deer
+M 0 26146 0 26157 Load a deer
+M 0 26158 3 26158 Load a bear
+M 0 26158 3 26159 Load a bear
+M 0 26158 3 26160 Load a bear
+M 0 26158 3 26161 Load a bear
 M 0 26164 0 26164 Load witch doctor
 E 0 20920 0 17 An idol of a talkin is loaded held in the hands of witch doctor
 E 0 16067 0 6 A hard leather cap is loaded over the head of witch doctor
 E 0 26163 0 5 Witch doctor's cloak is loaded on the body of witch doctor
-M 0 26158 20 26168 Load a bear
-M 0 26158 20 26169 Load a bear
-M 0 26158 20 26170 Load a bear
-M 0 26173 40 26173 Load a Scaleman
-M 0 26173 40 26174 Load a Scaleman
-M 0 26173 40 26175 Load a Scaleman
-M 0 26173 40 26176 Load a Scaleman
+M 0 26158 3 26168 Load a bear
+M 0 26158 3 26169 Load a bear
+M 0 26158 2 26170 Load a bear
+M 0 26173 3 26173 Load a Scaleman
+M 0 26173 3 26174 Load a Scaleman
+M 0 26173 3 26175 Load a Scaleman
+M 0 26173 3 26176 Load a Scaleman
 M 0 26173 0 26177 Load a Scaleman
-M 0 26173 40 26178 Load a Scaleman
-M 0 26173 40 26179 Load a Scaleman
-M 0 26173 40 26180 Load a Scaleman
-M 0 26173 40 26181 Load a Scaleman
-M 0 26173 40 26182 Load a Scaleman
-M 0 26173 40 26183 Load a Scaleman
-M 0 26173 40 26184 Load a Scaleman
-M 0 26173 40 26185 Load a Scaleman
-M 0 26173 40 26186 Load a Scaleman
-M 0 26173 40 26187 Load a Scaleman
-M 0 26173 40 26188 Load a Scaleman
-M 0 26173 40 26189 Load a Scaleman
-M 0 26173 40 26190 Load a Scaleman
+M 0 26173 3 26178 Load a Scaleman
+M 0 26173 3 26179 Load a Scaleman
+M 0 26173 2 26180 Load a Scaleman
+M 0 26173 2 26181 Load a Scaleman
+M 0 26173 2 26182 Load a Scaleman
+M 0 26173 2 26183 Load a Scaleman
+M 0 26173 2 26184 Load a Scaleman
+M 0 26173 2 26185 Load a Scaleman
+M 0 26173 2 26186 Load a Scaleman
+M 0 26173 2 26187 Load a Scaleman
+M 0 26173 2 26188 Load a Scaleman
+M 0 26173 2 26189 Load a Scaleman
+M 0 26173 2 26190 Load a Scaleman
 M 0 26194 0 26194 Load an old hermit
 E 0 26194 0 6 Old hermit's cap is loaded over the head of an old hermit
 M 0 26195 0 26195 Load a baby ape

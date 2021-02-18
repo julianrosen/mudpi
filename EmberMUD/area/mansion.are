@@ -730,13 +730,13 @@ unknown~
 A A A AC 0
 60 10 6000 P
 A
-19 4
-A
-18 4
+1 1
 A
 12 30
 A
-1 1
+18 4
+A
+19 4
 #19109
 The Dining Table~
 an elegant dining table~
@@ -754,9 +754,9 @@ unknown~
 A AC AC ACDE A
 15 4 0 P
 A
-18 2
-A
 19 2
+A
+18 2
 #19111
 rolling pin~
 rolling pin~
@@ -870,9 +870,9 @@ unknown~
 0 0 0 0 0
 5 3 10000 P
 A
-4 1
-A
 19 1
+A
+4 1
 #19127
 pair jnco's jnco jncos~
 a pair of Jnco's~
@@ -890,9 +890,9 @@ unknown~
 0 0 0 AC 0
 20 1 0 P
 A
-3 1
-A
 4 1
+A
+3 1
 #19129
 white t shirt t-shirt~
 a T-Shirt~
@@ -960,9 +960,9 @@ unknown~
 ABC AB AC C 0
 15 0 0 P
 A
-19 1
-A
 18 1
+A
+19 1
 #19149
 corpse of a beastly fido~
 the corpse of a beastly fido~
@@ -972,9 +972,9 @@ unknown~
 0 0 0 0 0
 1 2 1 P
 A
-1 -3
-A
 13 -10
+A
+1 -3
 #19158
 shot whisky~
 a shot of whisky~
@@ -2810,15 +2810,15 @@ O 0 19120 0 19124 A drink of cider loaded to An Unused Wine Cellar
 M 0 19106 5 19126 Load a tortured soul
 M 0 19108 0 19126 Load the Slavedriver
 E 0 19148 0 16 The slavedriver's whip is loaded wielded of the Slavedriver
-M 0 19131 0 19127 Load a knight 
+M 0 19131 0 19127 Load a knight
 E 0 19199 0 16 A shiny sword is loaded wielded of a knight 
 E 0 19102 0 5 Some shiny armor is loaded on the body of a knight 
-M 0 19130 20 19128 Load thing
-M 0 19130 20 19129 Load thing
+M 0 19130 7 19128 Load thing
+M 0 19130 7 19129 Load thing
 M 0 19117 0 19133 Load the Shadowdragon
 E 0 19101 0 6 Helmet of the shadowdragon is loaded over the head of the Shadowdragon
 E 0 19131 0 17 Key of the shadowdragon is loaded held in the hands of the Shadowdragon
-M 0 19130 20 19134 Load thing
+M 0 19130 6 19134 Load thing
 M 0 19169 0 19136 Load a pharmacist
 G 0 19167 0 A flouresent green pill is given to a pharmacist
 G 0 19168 0 A flouresent red pill is given to a pharmacist
@@ -2831,8 +2831,8 @@ G 0 19174 0 A cola is given to a pharmacist
 M 0 19170 0 19136 Load a soda junky
 G 0 19174 0 A cola is given to a soda junky
 M 0 19185 0 19141 Load a wandering spirit
-M 0 19185 4 19146 Load a wandering spirit
-M 0 19185 4 19148 Load a wandering spirit
+M 0 19185 2 19146 Load a wandering spirit
+M 0 19185 2 19148 Load a wandering spirit
 M 0 19129 0 19158 Load the Innkeeper
 G 0 19158 0 A shot of whisky is given to the Innkeeper
 G 0 19159 0 A mug of ale is given to the Innkeeper

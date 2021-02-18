@@ -389,9 +389,9 @@ unknown~
 A BC C AB DE
 18 0 3000 P
 A
-18 -2
-A
 19 4
+A
+18 -2
 #20904
 trunk container~
 a trunk~
@@ -449,11 +449,11 @@ unknown~
 AB C ABC ABD C
 20 3 2500 P
 A
-2 2
+19 3
 A
 18 3
 A
-19 3
+2 2
 #20911
 medusa's hair armor-head~
 medusa's Hair~
@@ -463,11 +463,11 @@ unknown~
 AC AC AC AC 0
 18 10 2000 P
 A
-3 2
+5 -2
 A
 1 1
 A
-5 -2
+3 2
 #20912
 trapdoor key~
 trap door key~
@@ -541,11 +541,11 @@ unknown~
 ADE B B 15 0
 25 2 2500 P
 A
-1 -1
+12 -65
 A
 13 50
 A
-12 -65
+1 -1
 #20921
 invisibility potion potion-defend~
 an invis potion~
@@ -563,13 +563,13 @@ unknown~
 AC AD BC ADE F
 33 15 4000 P
 A
-4 -3
-A
-2 -3
+1 2
 A
 5 1
 A
-1 2
+2 -3
+A
+4 -3
 #20923
 trapdoor key~
 a trapdoor key~
@@ -1426,9 +1426,9 @@ M 0 20907 0 20913 Load Moe, the bartender
 G 0 20907 0 Da tank is given to Moe, the bartender
 G 0 20906 0 A chill is given to Moe, the bartender
 G 0 20908 0 The purifier is given to Moe, the bartender
-M 0 20908 5 20914 Load a goblin bucaneer
+M 0 20908 3 20914 Load a goblin bucaneer
 M 0 20909 0 20915 Load Elrik, the owner of this bar
-M 0 20908 5 20917 Load a goblin bucaneer
+M 0 20908 2 20917 Load a goblin bucaneer
 M 0 20910 0 20918 Load a Necromancer
 G 0 20909 0 The master maladicter is given to a Necromancer
 G 0 20910 0 Spider's spear is given to a Necromancer
@@ -1444,14 +1444,14 @@ M 0 20917 0 20921 Load Hal
 G 0 20913 0 A fireball wand is given to Hal
 G 0 20914 0 Lightning wand is given to Hal
 G 0 20915 0 A deadlydagger is given to Hal
-M 0 20918 10 20925 Load a giant ant
-M 0 20918 10 20932 Load a giant ant
+M 0 20918 2 20925 Load a giant ant
+M 0 20918 2 20932 Load a giant ant
 O 0 20917 0 20934 A trunk loaded to The Treasury
 O 0 20919 0 20934 A huge hunk of gold loaded to The Treasury
 P 0 20920 0 20917 An idol of a talkin put inside a trunk
-M 0 20918 10 20935 Load a giant ant
-M 0 20918 10 20938 Load a giant ant
-M 0 20918 10 20939 Load a giant ant
+M 0 20918 2 20935 Load a giant ant
+M 0 20918 2 20938 Load a giant ant
+M 0 20918 2 20939 Load a giant ant
 M 0 20919 0 20942 Load the queen ant
 O 0 20921 0 20945 An invis potion loaded to I Think Your DEAD!
 M 0 20920 10 20946 Load a lesser ant

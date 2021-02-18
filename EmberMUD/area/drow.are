@@ -203,9 +203,9 @@ unknown~
 A B BC AB 0
 6 2 60 P
 A
-18 1
-A
 19 1
+A
+18 1
 #5101
 longsword noble~
 a noble's longsword~
@@ -215,9 +215,9 @@ unknown~
 A AB BC AB 0
 11 1 110 P
 A
-18 2
-A
 19 2
+A
+18 2
 #5102
 whip snake two-headed~
 a snake headed whip~
@@ -227,9 +227,9 @@ unknown~
 ABC C AC C F
 15 0 150 P
 A
-18 2
-A
 19 2
+A
+18 2
 #5103
 whip snake three-headed~
 a snake headed whip~
@@ -239,9 +239,9 @@ unknown~
 ABC AC C C 0
 17 0 170 P
 A
-18 2
-A
 19 2
+A
+18 2
 #5104
 whip snake four-headed~
 a snake headed whip~
@@ -251,9 +251,9 @@ unknown~
 ABC AC AC C 0
 22 0 220 P
 A
-18 2
-A
 19 2
+A
+18 2
 #5105
 longsword black~
 a black longsword~
@@ -263,9 +263,9 @@ unknown~
 A AC AC AB 0
 22 0 220 P
 A
-18 2
-A
 19 2
+A
+18 2
 #5106
 whip snake five-headed~
 a snake headed whip~
@@ -275,9 +275,9 @@ unknown~
 ABC A ABC C 0
 0 0 0 P
 A
-1 -1
-A
 3 -1
+A
+1 -1
 #5107
 whip snake six-headed~
 a snake headed whip~
@@ -287,9 +287,9 @@ unknown~
 ABC A ABC C 0
 0 0 0 P
 A
-1 -2
-A
 3 -2
+A
+1 -2
 #5108
 bracers iron~
 a pair of bracers~
@@ -345,9 +345,9 @@ unknown~
 B AC D ABD 0
 34 2 340 P
 A
-18 3
-A
 19 3
+A
+18 3
 #5114
 hat green~
 a small bright green hat~
@@ -357,9 +357,9 @@ unknown~
 D D D 0 0
 25 1 250 P
 A
-9 -15
-A
 17 -2
+A
+9 -15
 #0
 
 
@@ -372,12 +372,12 @@ gate lies open to the west allowing entrance into the city.
 ~
 0 9 0
 E
-gate~
-A large adamantite gate with giant spider shaped emblems stands here.
-~
-E
 hole~
 A small hole that looks to have sealed at one time.
+~
+E
+gate~
+A large adamantite gate with giant spider shaped emblems stands here.
 ~
 D3
 A huge gate opens to the west allowing entrance into the city.~

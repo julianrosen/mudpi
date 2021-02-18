@@ -214,9 +214,9 @@ unknown~
 BC BC BC C 0
 10 3 800 P
 A
-3 2
-A
 2 2
+A
+3 2
 #14101
 Gigantic sword~
 a Gigantic sword~
@@ -274,11 +274,11 @@ unknown~
 B B B B 0
 12 0 0 P
 A
-5 2
+2 -2
 A
 3 3
 A
-2 -2
+5 2
 #14110
 Apocolypse gauntlets~
 apocolypse gauntlets~
@@ -288,11 +288,11 @@ unknown~
 D D D AC 0
 16 2 40 P
 A
-1 2
+19 1
 A
 5 1
 A
-19 1
+1 2
 #14112
 Sommerswerd~
 the sommerswerd~
@@ -1163,16 +1163,16 @@ S
 #RESETS
 D 0 14133 4 1
 D 0 14134 5 1
-M 0 14100 4 14104 Load a Kai Acolyte
+M 0 14100 2 14104 Load a Kai Acolyte
 E 0 14100 0 5 A gleaming breastplate is loaded on the body of a Kai Acolyte
 M 0 14105 3 14108 Load the kai coward
 E 0 14104 0 5 The armor of a coward is loaded on the body of the kai coward
 E 0 14105 0 6 Coward's helm is loaded over the head of the kai coward
 M 0 14106 8 14117 Load an undead Darklord
 E 0 14108 0 7 Shadow leggings is loaded on the legs of an undead Darklord
-M 0 14100 8 14121 Load a Kai Acolyte
-M 0 14102 8 14121 Load a Darklord Acolyte
-M 0 14102 4 14131 Load a Darklord Acolyte
+M 0 14100 6 14121 Load a Kai Acolyte
+M 0 14102 6 14121 Load a Darklord Acolyte
+M 0 14102 2 14131 Load a Darklord Acolyte
 E 0 14108 0 7 Shadow leggings is loaded on the legs of a Darklord Acolyte
 E 0 14109 0 2 Vortex ring is loaded on the right finger of a Darklord Acolyte
 M 0 14104 3 14131 Load a Darklord summoner

@@ -685,9 +685,9 @@ unknown~
 CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef 0
 35 0 100000 P
 A
-5 2
-A
 13 30
+A
+5 2
 #26899
 glowing ring armor-finger~
 glowing Ring of Power~
@@ -2385,13 +2385,13 @@ D 0 26825 0 0
 D 0 26826 2 0
 D 0 26881 1 0
 D 0 26882 3 0
-M 0 26801 2 26807 Load Cyprite
-M 0 26833 2 26808 Load an Old Cave Dweller
-M 0 26834 3 26809 Load a Gigantic Beetle
-M 0 26801 3 26809 Load Cyprite
+M 0 26801 0 26807 Load Cyprite
+M 0 26833 0 26808 Load an Old Cave Dweller
+M 0 26834 0 26809 Load a Gigantic Beetle
+M 0 26801 0 26809 Load Cyprite
 M 0 26805 0 26810 Load a kindly wrinkled old Dwarf selling pets
 M 0 26808 0 26811 Load a bright red lizard
-M 0 26809 0 26811 Load a huge Turtle 
+M 0 26809 0 26811 Load a huge Turtle
 M 0 26832 0 26811 Load a Pretty Kitty
 M 0 26824 2 26818 Load a Bodyguard
 M 0 26804 0 26819 Load Staver
@@ -2402,41 +2402,41 @@ O 0 26820 0 26820 A large pile of coins  loaded to Staver's Treasure Vault
 O 0 26821 0 26820 Ebony and ivory chest loaded to Staver's Treasure Vault
 P 0 26819 0 26821 Staver's `rb`ru`yr`wn`yi`rn`rg `copal`w put inside ebony and Ivory Chest
 O 0 23415 0 26820 A pile of gold coins loaded to Staver's Treasure Vault
-M 0 26801 3 26822 Load Cyprite
-M 0 22324 4 26823 Load a small spider
+M 0 26801 0 26822 Load Cyprite
+M 0 22324 0 26823 Load a small spider
 M 0 26823 5 26825 Load a Tower Guard
 M 0 26828 3 26827 Load a Spirit of Darkness
 M 0 26819 3 26828 Load a being of light
 M 0 26829 3 26829 Load a Criminal of Darkness
-M 0 26821 3 26830 Load a lawman of the light
 M 0 26821 2 26830 Load a lawman of the light
+M 0 26821 0 26830 Load a lawman of the light
 M 0 26830 4 26831 Load a Wizard of Darkness
 M 0 26827 0 26832 Load a Wizard of Light
 M 0 26822 3 26833 Load a Cleric of Light
 M 0 26831 3 26834 Load a Cleric of Darkness
-M 0 26833 2 26838 Load an Old Cave Dweller
-M 0 26818 8 26842 Load a cute Gnome
+M 0 26833 0 26838 Load an Old Cave Dweller
+M 0 26818 5 26842 Load a cute Gnome
 M 0 26818 0 26843 Load a cute Gnome
-M 0 26818 6 26844 Load a cute Gnome
-M 0 26818 5 26845 Load a cute Gnome
+M 0 26818 2 26844 Load a cute Gnome
+M 0 26818 0 26845 Load a cute Gnome
 M 0 26818 0 26845 Load a cute Gnome
 O 0 26850 0 26850 A gleaming fountain of gold and silver loaded to A Tranquil Hallway
 P 0 26897 0 1 A pool of water put inside a dummy object
 P 0 26863 0 1 A button mushroom put inside a dummy object
-M 0 26817 3 26853 Load an Evil Doer
-M 0 26817 3 26854 Load an Evil Doer
-M 0 26817 3 26855 Load an Evil Doer
+M 0 26817 0 26853 Load an Evil Doer
+M 0 26817 0 26854 Load an Evil Doer
+M 0 26817 0 26855 Load an Evil Doer
 M 0 26813 3 26858 Load a Alien Warrior
 M 0 26815 0 26859 Load Gustar the old Cleric
 M 0 26820 2 26860 Load an Alien Being
 M 0 26816 0 26861 Load a Alien divine being
-M 0 22324 4 26863 Load a small spider
+M 0 22324 0 26863 Load a small spider
 M 0 26814 0 26864 Load One BIG Bat
 M 0 26865 4 26865 Load a large slug
-M 0 26812 5 26865 Load a Fat Juicy Centipede
-M 0 22324 3 26866 Load a small spider
+M 0 26812 3 26865 Load a Fat Juicy Centipede
+M 0 22324 0 26866 Load a small spider
 O 0 26866 0 26866 A tiny web sticking to your body loaded to End of Uncarved Corridor
-M 0 26812 7 26868 Load a Fat Juicy Centipede
+M 0 26812 4 26868 Load a Fat Juicy Centipede
 M 0 26811 3 26869 Load a Mage Slayer
 M 0 26807 3 26870 Load a Headless Mage
 M 0 26810 0 26875 Load a small young boy
@@ -2445,28 +2445,28 @@ M 0 26879 12 26879 Load a tiny bright firefly
 M 0 26806 6 26881 Load a Wonder Guard
 M 0 26803 0 26882 Load Auntee Joel
 E 0 26802 0 17 A staff of wonder is loaded held in the hands of Auntee Joel
-M 0 26801 4 26883 Load Cyprite
-M 0 22324 5 26883 Load a small spider
+M 0 26801 0 26883 Load Cyprite
+M 0 22324 2 26883 Load a small spider
 O 0 26866 0 26883 A tiny web sticking to your body loaded to Climbing the Roots
 M 0 26833 0 26885 Load an Old Cave Dweller
 M 0 26801 0 26886 Load Cyprite
-M 0 26834 3 26887 Load a Gigantic Beetle
-M 0 22324 3 26890 Load a small spider
+M 0 26834 0 26887 Load a Gigantic Beetle
+M 0 22324 0 26890 Load a small spider
 O 0 26866 0 26890 A tiny web sticking to your body loaded to Climbing the Roots
-M 0 26801 2 26891 Load Cyprite
-M 0 26834 2 26891 Load a Gigantic Beetle
+M 0 26801 0 26891 Load Cyprite
+M 0 26834 0 26891 Load a Gigantic Beetle
 M 0 26833 0 26892 Load an Old Cave Dweller
-M 0 22324 4 26892 Load a small spider
+M 0 22324 0 26892 Load a small spider
 O 0 26863 0 26893 A button mushroom loaded to Inside the Mountain
-M 0 26801 3 26895 Load Cyprite
-M 0 26834 5 26895 Load a Gigantic Beetle
-M 0 26833 2 26896 Load an Old Cave Dweller
+M 0 26801 0 26895 Load Cyprite
+M 0 26834 3 26895 Load a Gigantic Beetle
+M 0 26833 0 26896 Load an Old Cave Dweller
 M 0 26834 0 26896 Load a Gigantic Beetle
-M 0 22324 4 26896 Load a small spider
+M 0 22324 0 26896 Load a small spider
 M 0 26833 0 26897 Load an Old Cave Dweller
-M 0 26834 2 26898 Load a Gigantic Beetle
+M 0 26834 0 26898 Load a Gigantic Beetle
 O 0 26866 0 26898 A tiny web sticking to your body loaded to Inside the Mountain
-M 0 22324 3 26898 Load a small spider
+M 0 22324 0 26898 Load a small spider
 S
 
 

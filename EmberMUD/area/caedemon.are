@@ -1324,15 +1324,15 @@ the tops of the `Ktents.  `w
 ~
 0 0 1
 E
+west~
+West from here you can see bright cloth hanging from tents. There is loud
+music being played.
+~
+E
 tents~
 A group of tents are scattered west of here. The tents are made out of
 canvas, and some you can see inside. Long flaps allow entrance and exit
 to tents.
-~
-E
-west~
-West from here you can see bright cloth hanging from tents. There is loud
-music being played.
 ~
 D0
 ~
@@ -2839,34 +2839,16 @@ gold trim. The floor is stained with a cherry stain.
 ~
 0 8 0
 E
-gardening~
-Plants need sunshine, soil, and water to grow. Make sure your seeds are
-planted deep enough, so that the roots make a secure base for your plants.
-Also make sure to plant far enough apart so that your plants stay pure.
-Rotate your plants every few years to keep the soil good for planting in.
-~
-E
-wine~
-Wine is properly served room temperature. The older the wine, the better
-the quality. Red wines should be served with red meats, such as steak and
-veal. White wines should be served with fish and poultry, as well as pork. 
-Blush wines go well with either or. Wines should be kept down in a cellar
-where they can age and be kept cool and away from harsh lighting.  
-~
-E
-plants~
-Ginseng -- said to give energy to a person
-Chamomile -- soothes headaches
-Hibiscus -- sleep aid
-Slippery elm -- soothes sore throats
-Lemon/Orange/other citrus -- purges the body of disease
-~
-E
-witches~
-Witches, fact or fiction? Well, legend has it that witches are those folk
-who are natural channelers. They have great magical powers, and are said
-to make off with children in the middle of the night. Witches are said
-to be good or evil, and if you should meet one, it cannot be trusted.
+ettiquette~
+Lords and ladies should be on their best behavior at all times. A lord
+must at all times be chivalrous towards a lady. He must not kiss her lips
+in public, only the top of the hand. He must never slouch. A lord must
+open the door for a lady and pull her chair out at the dinner table. A lady
+should at all times submit to the wishes of her lord, provided they are of a
+goodly manner. A lady must never show any skin above her ankles when in
+public. A lady must also at all times be generous, remembering that others
+are far less fortunate than herself. A lady must be at all times a fine
+example to those around her.  
 ~
 E
 magic~
@@ -2880,16 +2862,34 @@ magic is very dangerous, so a young channeler should always practice away
 from other folks, so as not to harm anyone.
 ~
 E
-ettiquette~
-Lords and ladies should be on their best behavior at all times. A lord
-must at all times be chivalrous towards a lady. He must not kiss her lips
-in public, only the top of the hand. He must never slouch. A lord must
-open the door for a lady and pull her chair out at the dinner table. A lady
-should at all times submit to the wishes of her lord, provided they are of a
-goodly manner. A lady must never show any skin above her ankles when in
-public. A lady must also at all times be generous, remembering that others
-are far less fortunate than herself. A lady must be at all times a fine
-example to those around her.  
+witches~
+Witches, fact or fiction? Well, legend has it that witches are those folk
+who are natural channelers. They have great magical powers, and are said
+to make off with children in the middle of the night. Witches are said
+to be good or evil, and if you should meet one, it cannot be trusted.
+~
+E
+plants~
+Ginseng -- said to give energy to a person
+Chamomile -- soothes headaches
+Hibiscus -- sleep aid
+Slippery elm -- soothes sore throats
+Lemon/Orange/other citrus -- purges the body of disease
+~
+E
+wine~
+Wine is properly served room temperature. The older the wine, the better
+the quality. Red wines should be served with red meats, such as steak and
+veal. White wines should be served with fish and poultry, as well as pork. 
+Blush wines go well with either or. Wines should be kept down in a cellar
+where they can age and be kept cool and away from harsh lighting.  
+~
+E
+gardening~
+Plants need sunshine, soil, and water to grow. Make sure your seeds are
+planted deep enough, so that the roots make a secure base for your plants.
+Also make sure to plant far enough apart so that your plants stay pure.
+Rotate your plants every few years to keep the soil good for planting in.
 ~
 D0
 ~
@@ -2912,16 +2912,16 @@ doors.
 ~
 0 8 0
 E
-table~
-This table is huge, filling the center of the room. A starch white tablecloth
-covers it, decorated with a pair of golden candlesticks containing blue candles
-and flowers cut fresh from Lady Caitlynne's garden.
-~
-E
 elegant~
 These doors are tall, almost floor to ceiling, with gold trim and shiny
 golden 's'-shaped handles. They overlook the gardens at the Manor, and are
 treated to keep the sun out as it sets.
+~
+E
+table~
+This table is huge, filling the center of the room. A starch white tablecloth
+covers it, decorated with a pair of golden candlesticks containing blue candles
+and flowers cut fresh from Lady Caitlynne's garden.
 ~
 D0
 Elegant french doors open into the gardens.
@@ -3145,19 +3145,19 @@ D 0 25892 1 0
 D 0 25893 3 0
 D 0 25894 2 0
 D 0 25895 0 0
-M 0 25803 3 25800 Load an elven citizen
+M 0 25803 0 25800 Load an elven citizen
 E 0 25803 0 5 A gentleman's silk shirt is loaded on the body of an elven citizen
 O 0 25800 0 25800 A marble fountain loaded to The Town Square
 M 0 25898 0 25800 Load Lise
-M 0 25800 3 25802 Load a young girl
-M 0 25800 4 25804 Load a young girl
-M 0 25802 5 25804 Load an elven woman
-M 0 25809 5 25811 Load a noble knight
-M 0 25809 5 25812 Load a noble knight
+M 0 25800 0 25802 Load a young girl
+M 0 25800 2 25804 Load a young girl
+M 0 25802 3 25804 Load an elven woman
+M 0 25809 2 25811 Load a noble knight
+M 0 25809 2 25812 Load a noble knight
 M 0 25813 0 25813 Load a lemonade vendor
 G 0 25811 0 A frosted glass is given to a lemonade vendor
 G 0 25812 0 A lemon stick is given to a lemonade vendor
-M 0 25809 5 25815 Load a noble knight
+M 0 25809 0 25815 Load a noble knight
 M 0 25816 0 25816 Load an elven servant
 M 0 25823 0 25823 Load Rienne
 G 0 25806 0 White silk stockings is given to Rienne
@@ -3182,21 +3182,21 @@ M 0 25830 0 25830 Load a beautiful elf
 G 0 25865 0 A program is given to a beautiful elf
 G 0 25872 0 A small admission ticket is given to a beautiful elf
 M 0 25832 0 25832 Load a footman
-M 0 25803 5 25833 Load an elven citizen
-M 0 25804 5 25833 Load an elven couple
-M 0 25803 10 25835 Load an elven citizen
-M 0 25804 3 25836 Load an elven couple
+M 0 25803 2 25833 Load an elven citizen
+M 0 25804 4 25833 Load an elven couple
+M 0 25803 6 25835 Load an elven citizen
+M 0 25804 0 25836 Load an elven couple
 M 0 25830 0 25838 Load a beautiful elf
 G 0 25865 0 A program is given to a beautiful elf
 G 0 25872 0 A small admission ticket is given to a beautiful elf
 M 0 25841 0 25841 Load Draeke
 G 0 25861 0 An oaken kayak is given to Draeke
-M 0 25800 2 25841 Load a young girl
-M 0 25800 6 25846 Load a young girl
+M 0 25800 0 25841 Load a young girl
+M 0 25800 3 25846 Load a young girl
 M 0 25896 0 25846 Load a street jester
-M 0 25802 4 25850 Load an elven woman
+M 0 25802 2 25850 Load an elven woman
 O 0 25868 0 25855 A heavy stone table loaded to The Winery
-M 0 25803 5 25858 Load an elven citizen
+M 0 25803 0 25858 Load an elven citizen
 M 0 25801 3 25863 Load a young boy
 M 0 25872 0 25872 Load Makim
 G 0 25831 0 An intricately patterned silver ring is given to Makim
@@ -3264,9 +3264,9 @@ O 0 25867 0 25887 A majestic bookshelf loaded to The Parlor
 O 0 25866 0 25888 A cherry table loaded to The Dining Room
 M 0 25889 0 25889 Load the manor chef
 O 0 25869 0 25895 A few poles for grapes loaded to The Vineyards
-M 0 25899 2 25897 Load a school of fish
-M 0 25899 2 25898 Load a school of fish
-M 0 25899 2 25899 Load a school of fish
+M 0 25899 0 25897 Load a school of fish
+M 0 25899 0 25898 Load a school of fish
+M 0 25899 0 25899 Load a school of fish
 S
 
 

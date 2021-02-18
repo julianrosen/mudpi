@@ -1110,10 +1110,9 @@ in the air with a dark aura.
 ~
 0 2097161 0
 E
-book~
-This is a dark omnious book. There is a six pointed star in a circle
-on the cover. The pages contain many evil spells and pictures of demons
-and other figures. To read some spells type look page_one.
+page_two~
+Hellfire- A deadly spell from the depths of hell. Has tendency to jump
+from target to target.  
 ~
 E
 page_one~
@@ -1133,9 +1132,10 @@ This the first page of the book.
 To see the spells type look page_two
 ~
 E
-page_two~
-Hellfire- A deadly spell from the depths of hell. Has tendency to jump
-from target to target.  
+book~
+This is a dark omnious book. There is a six pointed star in a circle
+on the cover. The pages contain many evil spells and pictures of demons
+and other figures. To read some spells type look page_one.
 ~
 D2
 ~
@@ -1996,27 +1996,27 @@ E 0 28106 0 3 The queen's key is loaded around the neck (1) of the Good Queen of
 M 0 28100 0 28100 Load the Evil King of D'Salant
 E 0 28105 0 3 The king's key is loaded around the neck (1) of the Evil King of D'Salant
 E 0 28102 0 6 The king's crown is loaded over the head of the Evil King of D'Salant
-M 0 28106 2 28102 Load a guard
-M 0 28102 10 28103 Load the Ladies of the Court
-M 0 28103 10 28103 Load the Lords of the court
-M 0 28104 5 28103 Load a servant and a barrel of wine
-M 0 28102 10 28104 Load the Ladies of the Court
-M 0 28103 10 28104 Load the Lords of the court
-M 0 28104 5 28104 Load a servant and a barrel of wine
-M 0 28104 5 28105 Load a servant and a barrel of wine
-M 0 28105 3 28106 Load a servant with a cart of food
-M 0 28104 3 28106 Load a servant and a barrel of wine
-M 0 28104 3 28107 Load a servant and a barrel of wine
-M 0 28105 3 28107 Load a servant with a cart of food
-M 0 28104 3 28108 Load a servant and a barrel of wine
-M 0 28105 3 28108 Load a servant with a cart of food
-M 0 28106 2 28110 Load a guard
-M 0 28103 10 28113 Load the Lords of the court
-M 0 28102 10 28113 Load the Ladies of the Court
-M 0 28107 3 28115 Load Warrior
-M 0 28107 4 28116 Load Warrior
-M 0 28107 3 28117 Load Warrior
-M 0 28106 2 28119 Load a guard
+M 0 28106 0 28102 Load a guard
+M 0 28102 4 28103 Load the Ladies of the Court
+M 0 28103 4 28103 Load the Lords of the court
+M 0 28104 2 28103 Load a servant and a barrel of wine
+M 0 28102 3 28104 Load the Ladies of the Court
+M 0 28103 3 28104 Load the Lords of the court
+M 0 28104 2 28104 Load a servant and a barrel of wine
+M 0 28104 0 28105 Load a servant and a barrel of wine
+M 0 28105 0 28106 Load a servant with a cart of food
+M 0 28104 0 28106 Load a servant and a barrel of wine
+M 0 28104 0 28107 Load a servant and a barrel of wine
+M 0 28105 0 28107 Load a servant with a cart of food
+M 0 28104 0 28108 Load a servant and a barrel of wine
+M 0 28105 0 28108 Load a servant with a cart of food
+M 0 28106 0 28110 Load a guard
+M 0 28103 3 28113 Load the Lords of the court
+M 0 28102 3 28113 Load the Ladies of the Court
+M 0 28107 0 28115 Load Warrior
+M 0 28107 2 28116 Load Warrior
+M 0 28107 0 28117 Load Warrior
+M 0 28106 0 28119 Load a guard
 O 0 28108 0 28124 An evil book loaded to King's Shrine
 M 0 28112 5 28126 Load an Evil Bug
 M 0 28131 0 28131 Load a frustrated cleaning woman scrubs the floor with a mop
@@ -2024,10 +2024,10 @@ E 0 19123 0 9 A mop is loaded on the hands of a frustrated cleaning woman scrubs
 O 0 28107 0 28132 A golden lyre loaded to Queen's Treasury
 O 0 28109 0 28141 A prayer book loaded to South East stairwell
 M 0 28108 0 28142 Load a magic dummy
-M 0 28106 2 28143 Load a guard
+M 0 28106 0 28143 Load a guard
 O 0 28116 0 28147 Some strawberries loaded to Corner of the Path
-M 0 28106 4 28149 Load a guard
-M 0 28106 4 28149 Load a guard
+M 0 28106 0 28149 Load a guard
+M 0 28106 0 28149 Load a guard
 M 0 28111 3 28150 Load a cute bunny
 O 0 28117 0 28164 Some dead plants loaded to South West Edge
 M 0 28109 3 28169 Load a chef

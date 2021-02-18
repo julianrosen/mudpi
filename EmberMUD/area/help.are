@@ -1,38 +1,28 @@
 #HELPS
 
 -1 ANSIGREET~
-[0;34mOO                                              OO
-[0;34m||==============================================||    [0;32mA text-based multiplayer RPG, accesible
-[0;34m||                                              ||    [0;32mthrough a browser, with serverside
-[0;34m||                                              ||    [0;32mTinTin++. Hosted on a Raspberry Pi.
-[0;34m||             Welcome to Mudpi!!               ||    [0;32m
-[0;34m||                                              ||    [0;32mLineage:
-[0;34m||                                              ||    [0;32mDikuMUD > MERC > ROM >
-[0;34m||==============================================||    [0;32mEmberMUD > Mudweiser > Mudpi
-[0;34mOO                                              OO
-[0m
-What is your name: ~
+~
 -1 GREETING~
-`B*================================================*
-`B*                                                *
-`B*               Welcome to Mudpi!                *
-`B*                                                * 
-`B*================================================*
-`w
-Derived from EmberMUD v0.9.47, with some modifications by Jules
-With serverside TinTin++
-Hosted on a Raspberry pi 4B
-
-What is your name? ~
+`bOO                                              OO
+`b||==============================================||    `gA text-based multiplayer RPG, accesible
+`b||                                              ||    `gthrough a browser, with serverside
+`b||                                              ||    `gTinTin++. Hosted on a Raspberry Pi.
+`b||             Welcome to Mudpi!!               ||    
+`b||                                              ||    `gLineage:
+`b||                                              ||    `gDikuMUD > MERC > ROM >
+`b||==============================================||    `gEmberMUD > Mudweiser > Mudpi
+`bOO                                              OO
+ 
+`wWhat is your name: ~
 -1 WIZLIST~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ                        `GThe gods of EmberMUD                           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ                        `K--------------------                           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ Creators `K[`GLevel 62`K]                          `WImplementers `K[`GLevel 60`K]  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `K---------------------------                  ------------------------ `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `W                                                                      `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W                        `GThe gods of EmberMUD                           `K`w`W`w
+`K`w`W                        `K--------------------                           `K`w`W`w
+`K`w`W Creators `K[`GLevel 62`K]                          `WImplementers `K[`GLevel 60`K]  `K`w`W`w
+`K`w`W `K---------------------------                  ------------------------ `K`w`W`w
+`K`w`W `W                                                                      `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 MOTD~
@@ -97,70 +87,70 @@ Changes from stock EmberMUD code should be listed here.
 ~
 -1 OLC EDIT~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GSyntax:                                                             `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT AREA    [create/reset] [vnum] - Area Editing                 `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT ROOM    [create] [vnum]       - Room Editing                 `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT OBJ     [create] <vnum>       - Object Editing               `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT MOB     [create] <vnum>       - Mobile Editing               `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT MPROG   [create] [progtype]   - MudProg Editing              `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  EDIT MPGROUP [create] [progtype]   - MudProg Editing              `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  ASAVE <world/area/changed/list>  - Save                           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  ALIST                            - List Areas                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `G  RESET (see HELP RESETS)                                           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w[]-optional <>-required                                             `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w  Inside any of the editors, type `WCOMMANDS`w to get a list of         `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wcommands for the current editor.  `W?`w on a line by itself gives       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wanother help listing.                                               `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w  `WEDIT AREA`w and `WEDIT ROOM`w will edit the current area or current     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wroom respectively if the vnum argument is not given.                `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GAEDIT, REDIT, MEDIT, OEDIT                                `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GSyntax:                                                             `K`w`W`w
+`K`w`W `G  EDIT AREA    [create/reset] [vnum] - Area Editing                 `K`w`W`w
+`K`w`W `G  EDIT ROOM    [create] [vnum]       - Room Editing                 `K`w`W`w
+`K`w`W `G  EDIT OBJ     [create] <vnum>       - Object Editing               `K`w`W`w
+`K`w`W `G  EDIT MOB     [create] <vnum>       - Mobile Editing               `K`w`W`w
+`K`w`W `G  EDIT MPROG   [create] [progtype]   - MudProg Editing              `K`w`W`w
+`K`w`W `G  EDIT MPGROUP [create] [progtype]   - MudProg Editing              `K`w`W`w
+`K`w`W `G                                                                    `K`w`W`w
+`K`w`W `G  ASAVE <world/area/changed/list>  - Save                           `K`w`W`w
+`K`w`W `G  ALIST                            - List Areas                     `K`w`W`w
+`K`w`W `G  RESET (see HELP RESETS)                                           `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `w[]-optional <>-required                                             `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `w  Inside any of the editors, type `WCOMMANDS`w to get a list of         `K`w`W`w
+`K`w`W `wcommands for the current editor.  `W?`w on a line by itself gives       `K`w`W`w
+`K`w`W `wanother help listing.                                               `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `w  `WEDIT AREA`w and `WEDIT ROOM`w will edit the current area or current     `K`w`W`w
+`K`w`W `wroom respectively if the vnum argument is not given.                `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GAEDIT, REDIT, MEDIT, OEDIT                                `K`w`W`w
+`G`g`K`g`K`g`K`w
 ~
 0 ALIST~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GALIST                                                              `Y `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThis command displays a list of all areas in the game along with    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wtheir vnum assignments and the builder(s) currently assigned to     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wwork on them.                                                       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GNONE                                                      `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GALIST                                                              `Y `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wThis command displays a list of all areas in the game along with    `K`w`W`w
+`K`w`W `wtheir vnum assignments and the builder(s) currently assigned to     `K`w`W`w
+`K`w`W `wwork on them.                                                       `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GNONE                                                      `K`w`W`w
+`G`g`K`g`K`g`K`w
 ~
 0 AEDIT~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GEDIT AREA [vnum]                                                `YOLC `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThe [vnum] parameter is optional (if omitted, the current area      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wwill be opened in the editor).                                      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThe following commands are available from within the area editor:   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WAGE`w <number>         - set the age of the area                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WBUILDER`w <player>     - add/remove player from builder list         `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WCREATE`w               - create a brand new area and switch to it    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WDONE`w                 - exits the area editor                       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WFILENAME`w <filename>  - change the file name for the area           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WNAME`w <name>          - change the 'AREAS' name of this area        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WRESET`w                - resets the current area                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WSECURITY`w <rating>    - set the security rating for this area       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WSHOW`w                 - shows the current area settings             `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WVNUM`w <lower> <upper> - set the lower and upper vnum's              `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WLVNUM`w <lower>        - set the lower vnum                          `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WUVNUM`w <upper>        - set the upper vnum                          `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w `WCOMMANDS`w             - prints a list of possible commands          `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GOLC                                                       `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GEDIT AREA [vnum]                                                `YOLC `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wThe [vnum] parameter is optional (if omitted, the current area      `K`w`W`w
+`K`w`W `wwill be opened in the editor).                                      `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `wThe following commands are available from within the area editor:   `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `w `WAGE`w <number>         - set the age of the area                     `K`w`W`w
+`K`w`W `w `WBUILDER`w <player>     - add/remove player from builder list         `K`w`W`w
+`K`w`W `w `WCREATE`w               - create a brand new area and switch to it    `K`w`W`w
+`K`w`W `w `WDONE`w                 - exits the area editor                       `K`w`W`w
+`K`w`W `w `WFILENAME`w <filename>  - change the file name for the area           `K`w`W`w
+`K`w`W `w `WNAME`w <name>          - change the 'AREAS' name of this area        `K`w`W`w
+`K`w`W `w `WRESET`w                - resets the current area                     `K`w`W`w
+`K`w`W `w `WSECURITY`w <rating>    - set the security rating for this area       `K`w`W`w
+`K`w`W `w `WSHOW`w                 - shows the current area settings             `K`w`W`w
+`K`w`W `w `WVNUM`w <lower> <upper> - set the lower and upper vnum's              `K`w`W`w
+`K`w`W `w `WLVNUM`w <lower>        - set the lower vnum                          `K`w`W`w
+`K`w`W `w `WUVNUM`w <upper>        - set the upper vnum                          `K`w`W`w
+`K`w`W `w `WCOMMANDS`w             - prints a list of possible commands          `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GOLC                                                       `K`w`W`w
+`G`g`K`g`K`g`K`w
 ~
 0 REDIT~
 Syntax: edit room		-Enters the editor for the current room.
@@ -493,40 +483,40 @@ An up-to-date list of liquid types can be obtained by typing
 ~
 -1 GATE~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GGate <name>                                                   `Yspell `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThe gate spell is a powerful transportation magic that opens up a   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wportal between your character and another person or creature        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wsomewhere else in the world. This portal will transport you and    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wany pet you might have, but not other members of your group.        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ                                                                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wMonsters recieve a save against gate, and monsters or players more  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wthan 3 levels higher than you can not be gated to at all. God       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wand private rooms cannot be gated to, and no recall rooms cannot be `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wgated out of. Finally, all gods are immune to gate.                `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ                                                                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `Gnone                                                      `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GGate <name>                                                   `Yspell `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wThe gate spell is a powerful transportation magic that opens up a   `K`w`W`w
+`K`w`W `wportal between your character and another person or creature        `K`w`W`w
+`K`w`W `wsomewhere else in the world. This portal will transport you and    `K`w`W`w
+`K`w`W `wany pet you might have, but not other members of your group.        `K`w`W`w
+`K`w`W                                                                     `K`w`W`w
+`K`w`W `wMonsters recieve a save against gate, and monsters or players more  `K`w`W`w
+`K`w`W `wthan 3 levels higher than you can not be gated to at all. God       `K`w`W`w
+`K`w`W `wand private rooms cannot be gated to, and no recall rooms cannot be `K`w`W`w
+`K`w`W `wgated out of. Finally, all gods are immune to gate.                `K`w`W`w
+`K`w`W                                                                     `K`w`W`w
+`K`w`W See also: `Gnone                                                      `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 FLEE~
 .
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GFlee                                                                `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wOnce you start a fight, you can't just walk away from it. If the   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wfight is not going well, you can attempt to `WFLEE`w (You can also      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WRECALL`w, but this is less likely to work, and costs more experience  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wpoints than fleeing).                                               `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ                                                                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wIf you lose `WLINK`w during a fight, then your character will keep      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wfighting, and will attempt to `WRECALL`w from time to time. Your       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wchances of making the recall are reduced, and you will lose much    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wmore experience.                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ                                                                     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GRECALL, WIMPY                                             `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GFlee                                                                `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wOnce you start a fight, you can't just walk away from it. If the   `K`w`W`w
+`K`w`W `wfight is not going well, you can attempt to `WFLEE`w (You can also      `K`w`W`w
+`K`w`W `WRECALL`w, but this is less likely to work, and costs more experience  `K`w`W`w
+`K`w`W `wpoints than fleeing).                                               `K`w`W`w
+`K`w`W                                                                     `K`w`W`w
+`K`w`W `wIf you lose `WLINK`w during a fight, then your character will keep      `K`w`W`w
+`K`w`W `wfighting, and will attempt to `WRECALL`w from time to time. Your       `K`w`W`w
+`K`w`W `wchances of making the recall are reduced, and you will lose much    `K`w`W`w
+`K`w`W `wmore experience.                                                    `K`w`W`w
+`K`w`W                                                                     `K`w`W`w
+`K`w`W See also: `GRECALL, WIMPY                                             `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 DIKU~
@@ -2733,148 +2723,148 @@ to deal substantial extra damage. The increase in damage ranges from 50% to
 500%, depending on the warrior's level and skill, and depending on chance.
 ~
 -1 STEAL~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GSTEAL                                                         `Yskill `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wTheft is the defining skill of the thief, and is only available to `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wthat class. It allows items to be stolen from the inventory of    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wmonsters and characters -- even from shops! But beware, shop      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wkeepers gaurd their merchandise carefully!                         `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `Gnone                                                     `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GSTEAL                                                         `Yskill `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wTheft is the defining skill of the thief, and is only available to `K`w`W`w
+`K`w`W `wthat class. It allows items to be stolen from the inventory of    `K`w`W`w
+`K`w`W `wmonsters and characters -- even from shops! But beware, shop      `K`w`W`w
+`K`w`W `wkeepers gaurd their merchandise carefully!                         `K`w`W`w
+`K`w`W `w                                                                   `K`w`W`w
+`K`w`W See also: `Gnone                                                     `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 SUMMARY~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GHELP <subject>                                                 `Yinfo `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThe EmberMUD help system can teach you about different commands you `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wcan use, give you information about different skills and spells you `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wmay get, etc. Here is a partial list of help subjects, grouped by  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wrelevance. If you don't understand something in the MUD, try the   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `whelp system.                                                        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WNORTH SOUTH EAST WEST UP DOWN        KILL FLEE KICK RESCUE DISARM   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WFOLLOW GROUP GTELL SPLIT             BACKSTAB CAST WIMPY            `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WSLEEP WAKE REST STAND                CREDTIS COMMANDS AREAS WEATHER `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WGET PUT DROP GIVE SACRIFICE JUNK     REPORT SCORE WHOIS TIME WHO    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WWEAR WIELD HOLD INVENTORY EQUIPMENT  WHERE DESCRIPTION PASSWORD     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WRECITE QUAFF ZAP BRANDISH            TITLE BUG IDEA TYPO NOTE       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WLOCK UNLOCK OPEN CLOSE PICK          EMOTE POSE AUCTION GOSSIP SAY  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WLOOK COMPARE                         SHOUT TELL YELL INFO CHANNELS  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WEAT DRINK FILL POUR                  PRACTICE TRAIN GAIN            `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WLIST BUY SELL VALUE                  SAVE QUIT                      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wType `WCOMMANDS`w for a complete list of all acceptable commands.       `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GHELP <subject>                                                 `Yinfo `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wThe EmberMUD help system can teach you about different commands you `K`w`W`w
+`K`w`W `wcan use, give you information about different skills and spells you `K`w`W`w
+`K`w`W `wmay get, etc. Here is a partial list of help subjects, grouped by  `K`w`W`w
+`K`w`W `wrelevance. If you don't understand something in the MUD, try the   `K`w`W`w
+`K`w`W `whelp system.                                                        `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `WNORTH SOUTH EAST WEST UP DOWN        KILL FLEE KICK RESCUE DISARM   `K`w`W`w
+`K`w`W `WFOLLOW GROUP GTELL SPLIT             BACKSTAB CAST WIMPY            `K`w`W`w
+`K`w`W `WSLEEP WAKE REST STAND                CREDTIS COMMANDS AREAS WEATHER `K`w`W`w
+`K`w`W `WGET PUT DROP GIVE SACRIFICE JUNK     REPORT SCORE WHOIS TIME WHO    `K`w`W`w
+`K`w`W `WWEAR WIELD HOLD INVENTORY EQUIPMENT  WHERE DESCRIPTION PASSWORD     `K`w`W`w
+`K`w`W `WRECITE QUAFF ZAP BRANDISH            TITLE BUG IDEA TYPO NOTE       `K`w`W`w
+`K`w`W `WLOCK UNLOCK OPEN CLOSE PICK          EMOTE POSE AUCTION GOSSIP SAY  `K`w`W`w
+`K`w`W `WLOOK COMPARE                         SHOUT TELL YELL INFO CHANNELS  `K`w`W`w
+`K`w`W `WEAT DRINK FILL POUR                  PRACTICE TRAIN GAIN            `K`w`W`w
+`K`w`W `WLIST BUY SELL VALUE                  SAVE QUIT                      `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `wType `WCOMMANDS`w for a complete list of all acceptable commands.       `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 0 NORTH SOUTH EAST WEST UP DOWN~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GNORTH SOUTH EAST WEST UP and DOWN                          `Ymovement `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wUse these commands to walk in a particular direction. You may      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wabbreviate any of these commands with just the first letter.        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `Gnone                                                      `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GNORTH SOUTH EAST WEST UP and DOWN                          `Ymovement `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wUse these commands to walk in a particular direction. You may      `K`w`W`w
+`K`w`W `wabbreviate any of these commands with just the first letter.        `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `Gnone                                                      `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 0 EXITS~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GEXITS                                                          `Yinfo `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wThe `WEXITS`w command lists the visible exits of the room you are       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `win. Not all exits are visible. You can use the 'bump' technique   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wto find hidden exits (that is, try to walk in a certain direction   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wand see if you bump into something).                                `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GAUTOEXIT                                                  `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GEXITS                                                          `Yinfo `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wThe `WEXITS`w command lists the visible exits of the room you are       `K`w`W`w
+`K`w`W `win. Not all exits are visible. You can use the 'bump' technique   `K`w`W`w
+`K`w`W `wto find hidden exits (that is, try to walk in a certain direction   `K`w`W`w
+`K`w`W `wand see if you bump into something).                                `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GAUTOEXIT                                                  `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 BACKSTAB BS~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GBACKSTAB BS                                            `Ycombat skill `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WBACKSTAB`w is the favored attack of thieves and other rogues. It     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wrequires you to `WWIELD`w some form of weapon.  `WBACKSTAB`w can only be    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wused to begin a fight, not during `WCOMBAT`w. You cannot `WBACKSTAB`w an   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `winjured foe unless you are `WSNEAKing`w.  `WBACKSTAB`w may be abbreviated   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `was simply `WBS`w.                                                       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GSNEAK                                                     `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GBACKSTAB BS                                            `Ycombat skill `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `WBACKSTAB`w is the favored attack of thieves and other rogues. It     `K`w`W`w
+`K`w`W `wrequires you to `WWIELD`w some form of weapon.  `WBACKSTAB`w can only be    `K`w`W`w
+`K`w`W `wused to begin a fight, not during `WCOMBAT`w. You cannot `WBACKSTAB`w an   `K`w`W`w
+`K`w`W `winjured foe unless you are `WSNEAKing`w.  `WBACKSTAB`w may be abbreviated   `K`w`W`w
+`K`w`W `was simply `WBS`w.                                                       `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GSNEAK                                                     `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 CHANNELS CHANNEL~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GCHANNELS                                                       `Yinfo `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wChannels are a means of global communication with other players.    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wWhen you speak on a channel, everyone who is listening to that      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wchannel will here you. Swearing or `WSPAMming`w on a public channel    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wmay cause an immortal to block you from speaking on or hearing      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wany channels. This is called nochanneling.                         `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wHere is a list of channels currently available on this MUD...       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WAUCTION MUSIC GOSSIP SHOUT YELL INFO QUESTION ANSWER                `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wAlso, you may type `WCHANNELS`w at any time to list which channels you  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `ware currently listening to.                                         `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GSPAM AUCTION MUSIC GOSSIP SHOUT YELL INFO QUESTION ANSWER `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GCHANNELS                                                       `Yinfo `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wChannels are a means of global communication with other players.    `K`w`W`w
+`K`w`W `wWhen you speak on a channel, everyone who is listening to that      `K`w`W`w
+`K`w`W `wchannel will here you. Swearing or `WSPAMming`w on a public channel    `K`w`W`w
+`K`w`W `wmay cause an immortal to block you from speaking on or hearing      `K`w`W`w
+`K`w`W `wany channels. This is called nochanneling.                         `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `wHere is a list of channels currently available on this MUD...       `K`w`W`w
+`K`w`W `WAUCTION MUSIC GOSSIP SHOUT YELL INFO QUESTION ANSWER                `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `wAlso, you may type `WCHANNELS`w at any time to list which channels you  `K`w`W`w
+`K`w`W `ware currently listening to.                                         `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GSPAM AUCTION MUSIC GOSSIP SHOUT YELL INFO QUESTION ANSWER `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 SPAM~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GSPAM                                                           `Yinfo `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wSpam is the act of overloading a `WCHANNEL`w or other publicly seen     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wplace with lots of text, causing others' screens to scroll by too   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wquickly to be read.  `WSPAM`w is considered extremely rude, and if you  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wa player does it in excess, they WILL be punished.                  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GCHANNELS                                                  `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GSPAM                                                           `Yinfo `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wSpam is the act of overloading a `WCHANNEL`w or other publicly seen     `K`w`W`w
+`K`w`W `wplace with lots of text, causing others' screens to scroll by too   `K`w`W`w
+`K`w`W `wquickly to be read.  `WSPAM`w is considered extremely rude, and if you  `K`w`W`w
+`K`w`W `wa player does it in excess, they WILL be punished.                  `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GCHANNELS                                                  `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 FOLLOW~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GFOLLOW <name>                                                       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WFOLLOW`w starts you following another character (player or mobile).   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wYou can only follow someone you can see. For instance, if the      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wcharacter you are following enters a dark room, and you are not     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wholding a light, you will be unable to follow. To stop following   `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wanyone else, just `WFOLLOW`w yourself.                                  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GGROUP                                                     `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GFOLLOW <name>                                                       `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `WFOLLOW`w starts you following another character (player or mobile).   `K`w`W`w
+`K`w`W `wYou can only follow someone you can see. For instance, if the      `K`w`W`w
+`K`w`W `wcharacter you are following enters a dark room, and you are not     `K`w`W`w
+`K`w`W `wholding a light, you will be unable to follow. To stop following   `K`w`W`w
+`K`w`W `wanyone else, just `WFOLLOW`w yourself.                                  `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GGROUP                                                     `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 -1 GROUP~
-`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`gÄ`KÄÄÄ`gÄ`KÄ`gÄÄ`GÄÄ`w
-`KŞ`wÛ`Wİ `GGROUP <name>                                                        `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wPlayers may like to adventure in `WGROUPs`w. Group members share       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WEXPERIENCE`w points from kills, may `WSPLIT`w gold picked up from `WCORPSEs `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wamong the group members, may communicate via the `WGTELL`w command, and `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wcan `WAUTOASSIST`w other group members in `WCOMBAT`w.                       `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w<name> must be `WFOLLOWing`w you before you can add them to your group  `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wwith the `WGROUP`w command. If <name> is already a member of your      `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wgroup, then the command will remove them from your group.           `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wCharacters may also leave your group by using the `WFOLLOW`w command to `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wstop following you.                                                 `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `WGROUP`w with no argument shows statistics for each member of your     `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `wgroup.                                                              `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ `w                                                                    `KŞ`wÛ`Wİ`w
-`KŞ`wÛ`Wİ See also: `GEXPERIENCE SPLIT AUTOSPLIT GTELL AUTOASSIST FOLLOW        `KŞ`wÛ`Wİ`w
-`GÄÄ`gÄÄ`KÄ`gÄ`KÄÄÄ`gÄ`KÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ`w
+`K`g`K`g`K`g`G`w
+`K`w`W `GGROUP <name>                                                        `K`w`W`w
+`K`w`W`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -`K`w`W`w
+`K`w`W `wPlayers may like to adventure in `WGROUPs`w. Group members share       `K`w`W`w
+`K`w`W `WEXPERIENCE`w points from kills, may `WSPLIT`w gold picked up from `WCORPSEs `K`w`W`w
+`K`w`W `wamong the group members, may communicate via the `WGTELL`w command, and `K`w`W`w
+`K`w`W `wcan `WAUTOASSIST`w other group members in `WCOMBAT`w.                       `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `w<name> must be `WFOLLOWing`w you before you can add them to your group  `K`w`W`w
+`K`w`W `wwith the `WGROUP`w command. If <name> is already a member of your      `K`w`W`w
+`K`w`W `wgroup, then the command will remove them from your group.           `K`w`W`w
+`K`w`W `wCharacters may also leave your group by using the `WFOLLOW`w command to `K`w`W`w
+`K`w`W `wstop following you.                                                 `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W `WGROUP`w with no argument shows statistics for each member of your     `K`w`W`w
+`K`w`W `wgroup.                                                              `K`w`W`w
+`K`w`W `w                                                                    `K`w`W`w
+`K`w`W See also: `GEXPERIENCE SPLIT AUTOSPLIT GTELL AUTOASSIST FOLLOW        `K`w`W`w
+`G`g`K`g`K`g`K`w
 
 ~
 

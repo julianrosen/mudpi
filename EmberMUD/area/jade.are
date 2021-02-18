@@ -307,9 +307,9 @@ unknown~
 A C AC A 0
 16 3 0 P
 A
-18 2
-A
 19 1
+A
+18 2
 #22504
 goblin short sword~
 a goblin short sword~
@@ -329,9 +329,9 @@ unknown~
 A C AC A 0
 17 0 0 P
 A
-19 1
-A
 13 20
+A
+19 1
 #22506
 gold coins pile money~
 some gold coins~
@@ -403,9 +403,9 @@ unknown~
 AC AC AC B 0
 12 0 0 P
 A
-2 1
-A
 14 30
+A
+2 1
 #22514
 elven leather bracer armor-wrist~
 an elven leather bracer~
@@ -415,9 +415,9 @@ unknown~
 AC AC AC AB 0
 15 0 10 P
 A
-18 2
-A
 19 3
+A
+18 2
 #22515
 basket container~
 a basket~
@@ -435,9 +435,9 @@ unknown~
 0 0 150 0 0
 35 0 1000 P
 A
-18 6
-A
 13 35
+A
+18 6
 #0
 
 
@@ -806,11 +806,9 @@ has been staked into the sand.
 0 4 10
 E
 sign~
-Ahhh, I see you have discovered my desert. That means that the sands
-that covered it for thousands of years have uncovered it. I sense your
-greed and have prepared for this. You shall never obtain my treasures which
-lie beyond this barren wasteland. Head the warning of Jade, for all who
-have entered my desert... Have not returned.  
+~
+E
+sign~
 ~
 E
 sign~
@@ -824,9 +822,11 @@ Jade does not take lightly to trespassers.
 ~
 E
 sign~
-~
-E
-sign~
+Ahhh, I see you have discovered my desert. That means that the sands
+that covered it for thousands of years have uncovered it. I sense your
+greed and have prepared for this. You shall never obtain my treasures which
+lie beyond this barren wasteland. Head the warning of Jade, for all who
+have entered my desert... Have not returned.  
 ~
 D0
 ~
@@ -2121,108 +2121,108 @@ D 0 22596 3 1
 D 0 22597 1 1
 D 0 22598 1 1
 D 0 22599 3 1
-M 0 22500 40 22503 Load a field mouse
-M 0 22500 40 22504 Load a field mouse
-M 0 22500 40 22505 Load a field mouse
-M 0 22500 40 22506 Load a field mouse
-M 0 22500 40 22507 Load a field mouse
-M 0 22500 40 22508 Load a field mouse
-M 0 22500 40 22509 Load a field mouse
+M 0 22500 3 22503 Load a field mouse
+M 0 22500 3 22504 Load a field mouse
+M 0 22500 3 22505 Load a field mouse
+M 0 22500 3 22506 Load a field mouse
+M 0 22500 3 22507 Load a field mouse
+M 0 22500 3 22508 Load a field mouse
+M 0 22500 3 22509 Load a field mouse
 M 0 22502 0 22509 Load a little mole
-M 0 22503 2 22510 Load a big fat rat
-M 0 22500 40 22510 Load a field mouse
-M 0 22500 40 22511 Load a field mouse
-M 0 22503 2 22511 Load a big fat rat
+M 0 22503 0 22510 Load a big fat rat
+M 0 22500 3 22510 Load a field mouse
+M 0 22500 3 22511 Load a field mouse
+M 0 22503 0 22511 Load a big fat rat
 M 0 22504 0 22511 Load a song bird
-M 0 22500 40 22512 Load a field mouse
-M 0 22500 40 22513 Load a field mouse
-M 0 22500 40 22514 Load a field mouse
-M 0 22500 40 22515 Load a field mouse
-M 0 22500 40 22516 Load a field mouse
-M 0 22500 40 22517 Load a field mouse
-M 0 22507 10 22520 Load a sand beetle
-M 0 22505 15 22520 Load a desert scorpion
-M 0 22507 10 22521 Load a sand beetle
-M 0 22505 15 22521 Load a desert scorpion
-M 0 22507 10 22522 Load a sand beetle
-M 0 22505 15 22522 Load a desert scorpion
-M 0 22507 10 22523 Load a sand beetle
-M 0 22505 15 22523 Load a desert scorpion
-M 0 22507 10 22524 Load a sand beetle
-M 0 22506 2 22524 Load a sand worm
-M 0 22505 15 22524 Load a desert scorpion
-M 0 22507 10 22525 Load a sand beetle
-M 0 22505 15 22525 Load a desert scorpion
-M 0 22507 10 22526 Load a sand beetle
-M 0 22505 15 22526 Load a desert scorpion
-M 0 22507 10 22527 Load a sand beetle
-M 0 22505 15 22527 Load a desert scorpion
-M 0 22507 10 22528 Load a sand beetle
-M 0 22506 2 22528 Load a sand worm
-M 0 22505 15 22528 Load a desert scorpion
+M 0 22500 3 22512 Load a field mouse
+M 0 22500 2 22513 Load a field mouse
+M 0 22500 2 22514 Load a field mouse
+M 0 22500 2 22515 Load a field mouse
+M 0 22500 2 22516 Load a field mouse
+M 0 22500 2 22517 Load a field mouse
+M 0 22507 0 22520 Load a sand beetle
+M 0 22505 2 22520 Load a desert scorpion
+M 0 22507 0 22521 Load a sand beetle
+M 0 22505 2 22521 Load a desert scorpion
+M 0 22507 0 22522 Load a sand beetle
+M 0 22505 0 22522 Load a desert scorpion
+M 0 22507 0 22523 Load a sand beetle
+M 0 22505 0 22523 Load a desert scorpion
+M 0 22507 0 22524 Load a sand beetle
+M 0 22506 0 22524 Load a sand worm
+M 0 22505 0 22524 Load a desert scorpion
+M 0 22507 0 22525 Load a sand beetle
+M 0 22505 0 22525 Load a desert scorpion
+M 0 22507 0 22526 Load a sand beetle
+M 0 22505 0 22526 Load a desert scorpion
+M 0 22507 0 22527 Load a sand beetle
+M 0 22505 0 22527 Load a desert scorpion
+M 0 22507 0 22528 Load a sand beetle
+M 0 22506 0 22528 Load a sand worm
+M 0 22505 0 22528 Load a desert scorpion
 O 0 22501 0 22529 A bubbling spring loaded to Jade's Desert
-M 0 22507 10 22530 Load a sand beetle
-M 0 22505 15 22530 Load a desert scorpion
-M 0 22505 15 22531 Load a desert scorpion
-M 0 22505 15 22532 Load a desert scorpion
-M 0 22505 15 22533 Load a desert scorpion
-M 0 22508 10 22536 Load a hungry vulture
-M 0 22508 10 22537 Load a hungry vulture
-M 0 22509 3 22538 Load an eaglet
-M 0 22509 3 22538 Load an eaglet
-M 0 22509 3 22538 Load an eaglet
+M 0 22507 0 22530 Load a sand beetle
+M 0 22505 0 22530 Load a desert scorpion
+M 0 22505 0 22531 Load a desert scorpion
+M 0 22505 0 22532 Load a desert scorpion
+M 0 22505 0 22533 Load a desert scorpion
+M 0 22508 4 22536 Load a hungry vulture
+M 0 22508 3 22537 Load a hungry vulture
+M 0 22509 0 22538 Load an eaglet
+M 0 22509 0 22538 Load an eaglet
+M 0 22509 0 22538 Load an eaglet
 G 0 22516 0 An eagle rock is given to an eaglet
-M 0 22508 10 22539 Load a hungry vulture
+M 0 22508 3 22539 Load a hungry vulture
 M 0 22513 0 22555 Load an old fisherman
 G 0 22508 0 A canoe is given to an old fisherman
 O 0 22500 0 22573 A sign loaded to Entry to Jade's Desert
-M 0 22515 15 22584 Load an elven child
+M 0 22515 2 22584 Load an elven child
 M 0 22516 3 22584 Load an elven guard
 E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
 E 0 22513 0 8 A pair of elven boots is loaded on the feet of an elven guard
 E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
 E 0 22510 0 5 Elven chain mail is loaded on the body of an elven guard
-M 0 22514 15 22585 Load an elven woman
-M 0 22515 15 22585 Load an elven child
-M 0 22515 15 22585 Load an elven child
-M 0 22515 15 22585 Load an elven child
-M 0 22514 15 22585 Load an elven woman
-M 0 22514 15 22585 Load an elven woman
-M 0 22515 15 22586 Load an elven child
-M 0 22514 15 22586 Load an elven woman
-M 0 22515 15 22586 Load an elven child
-M 0 22514 15 22586 Load an elven woman
-M 0 22514 15 22586 Load an elven woman
-M 0 22515 15 22587 Load an elven child
-M 0 22514 15 22587 Load an elven woman
-M 0 22515 15 22587 Load an elven child
-M 0 22514 15 22587 Load an elven woman
-M 0 22514 15 22587 Load an elven woman
-M 0 22515 5 22587 Load an elven child
-M 0 22517 2 22588 Load an elven guard
+M 0 22514 0 22585 Load an elven woman
+M 0 22515 2 22585 Load an elven child
+M 0 22515 2 22585 Load an elven child
+M 0 22515 2 22585 Load an elven child
+M 0 22514 0 22585 Load an elven woman
+M 0 22514 0 22585 Load an elven woman
+M 0 22515 2 22586 Load an elven child
+M 0 22514 0 22586 Load an elven woman
+M 0 22515 2 22586 Load an elven child
+M 0 22514 0 22586 Load an elven woman
+M 0 22514 0 22586 Load an elven woman
+M 0 22515 2 22587 Load an elven child
+M 0 22514 0 22587 Load an elven woman
+M 0 22515 0 22587 Load an elven child
+M 0 22514 0 22587 Load an elven woman
+M 0 22514 0 22587 Load an elven woman
+M 0 22515 0 22587 Load an elven child
+M 0 22517 0 22588 Load an elven guard
 E 0 22511 0 5 Elven iron mail is loaded on the body of an elven guard
 E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
 E 0 22514 0 14 An elven leather bracer is loaded on the left wrist of an elven guard
 E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
-M 0 22517 2 22588 Load an elven guard
+M 0 22517 0 22588 Load an elven guard
 E 0 22511 0 5 Elven iron mail is loaded on the body of an elven guard
 E 0 22514 0 15 An elven leather bracer is loaded on the right wrist of an elven guard
 E 0 22514 0 14 An elven leather bracer is loaded on the left wrist of an elven guard
 E 0 22512 0 16 An elven longsword is loaded wielded of an elven guard
-M 0 22514 15 22589 Load an elven woman
-M 0 22514 15 22589 Load an elven woman
-M 0 22514 15 22589 Load an elven woman
-M 0 22514 15 22590 Load an elven woman
-M 0 22514 15 22590 Load an elven woman
-M 0 22514 15 22590 Load an elven woman
+M 0 22514 0 22589 Load an elven woman
+M 0 22514 0 22589 Load an elven woman
+M 0 22514 0 22589 Load an elven woman
+M 0 22514 0 22590 Load an elven woman
+M 0 22514 0 22590 Load an elven woman
+M 0 22514 0 22590 Load an elven woman
 O 0 22509 0 22591 Some jade crystals loaded to Bottom of the East Face
-M 0 22510 10 22592 Load an ugly goblin
+M 0 22510 4 22592 Load an ugly goblin
 M 0 22511 0 22593 Load the goblin leader
 E 0 22503 0 16 A goblin scimitar is loaded wielded of the goblin leader
 E 0 22505 0 2 A goblin gang's ring is loaded on the right finger of the goblin leader
 M 0 22512 5 22593 Load a goblin henchman
-M 0 22510 10 22596 Load an ugly goblin
-M 0 22510 10 22597 Load an ugly goblin
+M 0 22510 3 22596 Load an ugly goblin
+M 0 22510 3 22597 Load an ugly goblin
 E 0 22504 0 16 A goblin short sword is loaded wielded of an ugly goblin
 O 0 22506 0 22598 Some gold coins loaded to A Goblin Hoard
 O 0 22504 0 22598 A goblin short sword loaded to A Goblin Hoard

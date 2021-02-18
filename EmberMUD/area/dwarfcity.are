@@ -338,9 +338,9 @@ unknown~
 0 0 0 0 0
 20 2 7000 P
 A
-3 2
-A
 4 2
+A
+3 2
 #18256
 Large Key~
 a large key~
@@ -366,9 +366,9 @@ unknown~
 AC D BC A EF
 40 15 15000 P
 A
-18 2
-A
 19 4
+A
+18 2
 #18265
 huge barrel dwarven drink-dark~
 a huge barrel~
@@ -428,11 +428,11 @@ unknown~
 D BD D AC 0
 14 5 530 P
 A
-13 -20
+24 3
 A
 12 -10
 A
-24 3
+13 -20
 #0
 
 
@@ -1268,23 +1268,23 @@ M 0 18202 0 18204 Load a Hill Giant
 M 0 18241 2 18208 Load an Ogre
 M 0 18242 0 18212 Load a Dwarf Guard
 M 0 18242 4 18213 Load a Dwarf Guard
-M 0 18244 9 18214 Load a Dwarf Commoner
-M 0 18244 9 18215 Load a Dwarf Commoner
-M 0 18244 9 18216 Load a Dwarf Commoner
-M 0 18244 9 18217 Load a Dwarf Commoner
-M 0 18244 9 18218 Load a Dwarf Commoner
-M 0 18244 9 18219 Load a Dwarf Commoner
-M 0 18244 9 18220 Load a Dwarf Commoner
-M 0 18244 9 18221 Load a Dwarf Commoner
-M 0 18244 9 18222 Load a Dwarf Commoner
+M 0 18244 0 18214 Load a Dwarf Commoner
+M 0 18244 0 18215 Load a Dwarf Commoner
+M 0 18244 0 18216 Load a Dwarf Commoner
+M 0 18244 0 18217 Load a Dwarf Commoner
+M 0 18244 0 18218 Load a Dwarf Commoner
+M 0 18244 0 18219 Load a Dwarf Commoner
+M 0 18244 0 18220 Load a Dwarf Commoner
+M 0 18244 0 18221 Load a Dwarf Commoner
+M 0 18244 0 18222 Load a Dwarf Commoner
 O 0 18249 0 18226 A huge barrel of ale loaded to The Store Room
 M 0 18250 0 18227 Load a Dwarf officer
-M 0 18251 6 18228 Load a dwarf soldier
-M 0 18251 6 18229 Load a dwarf soldier
-M 0 18251 6 18230 Load a dwarf soldier
-M 0 18251 6 18231 Load a dwarf soldier
-M 0 18251 6 18232 Load a dwarf soldier
-M 0 18251 6 18233 Load a dwarf soldier
+M 0 18251 0 18228 Load a dwarf soldier
+M 0 18251 0 18229 Load a dwarf soldier
+M 0 18251 0 18230 Load a dwarf soldier
+M 0 18251 0 18231 Load a dwarf soldier
+M 0 18251 0 18232 Load a dwarf soldier
+M 0 18251 0 18233 Load a dwarf soldier
 M 0 18252 0 18234 Load the Dwarf general
 M 0 18253 2 18236 Load a dwarf worker
 E 0 18279 0 6 A yellow hardhat is loaded over the head of a dwarf worker
