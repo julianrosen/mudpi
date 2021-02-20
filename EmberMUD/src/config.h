@@ -21,11 +21,11 @@
 
 
 /* Prompts */
-#define PROMPT_DEFAULT "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
-#define PROMPT_COMBAT  "`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K>"
-#define PROMPT_GHIOTI  "`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl>"
+#define PROMPT_SIMPLE "%W%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
+#define PROMPT_COMBAT  "%W`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K> "
+#define PROMPT_GHIOTI  "%W`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl> "
 #define PROMPT_IMM     "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:> "
-#define PROMPT_START   PROMPT_COMBAT
+#define PROMPT_DEFAULT   PROMPT_COMBAT
 
 
 /* Time (in minutes) of inactivity before a character
