@@ -320,7 +320,7 @@ void new_descriptor args( ( int control ) );
 bool read_from_descriptor args( ( DESCRIPTOR_DATA * d, bool color ) );
 bool write_to_descriptor
 args( ( int desc, char *txt, int length, bool color ) );
-char * wait_str( int n ); /* Added by JR */
+char * wait_str( CHAR_DATA * ); /* Added by JR */
 /*
  * Other local functions (OS-independent).
  */
@@ -655,45 +655,6 @@ void sigchld_handler( int sig )
 
 // Count 
 
-// Display list of allowable races
-void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
-{
-    int max_len = 0,x=0,i,race;
-    write_to_buffer( d, "The following races are available:\n\r", 0 );
-    // Compute the max length of race here
-    for ( race = 1; race_table[race].name != NULL; race++ )
-    {
-        if ( !race_table[race].pc_race )
-            break;
-        if ( !race_table[race].remort_race ||
-             ( race_table[race].remort_race
-               && IS_SET( ch->act, PLR_REMORT ) ) )
-            max_len = bw_strlen(race_table[race].name) > max_len ? 
-                bw_strlen(race_table[race].name) : max_len;
-    }
-    for ( race = 1; race_table[race].name != NULL; race++ )
-    {
-        if ( !race_table[race].pc_race )
-            break;
-        if ( !race_table[race].remort_race ||
-             ( race_table[race].remort_race
-               && IS_SET( ch->act, PLR_REMORT ) ) )
-        {
-            if ( x == columns )
-            {
-                write_to_buffer( d, "\n\r", 2 );
-                x = 0;
-            }
-            write_to_buffer( d, race_table[race].name, 0 );
-            for ( i=0 ; i+strlen(race_table[race].name) < max_len + 3; i++)
-                write_to_buffer( d, " ", 1 );
-            x++;
-        }
-    }
-    write_to_buffer( d, "\n\r\n\r", 4 );
-    write_to_buffer( d, "What is your race ('help' for more information): ", 0 );
-}
-
 
 int game_loop( int control )
 {
@@ -893,13 +854,15 @@ int game_loop( int control )
                 if ( d->showstr_point )
                     show_string( d, d->incomm );
                 else if ( d->pString )
-                    string_add( d->character, d->incomm, d->color_edit ); // JR: this is problematic because we might not want color
+                    string_add( d->character, d->incomm, d->color_edit ); // JR
                 else
                     switch ( d->connected )
                     {
                     case CON_PLAYING:
                         if ( !run_olc_editor( d ) )
+                        {
                             substitute_alias( d, d->incomm );
+                        }
                         break;
                     default:
                         nanny( d, d->incomm );
@@ -1404,9 +1367,12 @@ void read_from_buffer( DESCRIPTOR_DATA * d, bool color )
 
 /* Writen by JR */
 /* Returns a string indicating player wait time */
-char * wait_str( int n )
+char * wait_str( CHAR_DATA * ch )
 {
+    int n = ch->wait;
     if ( !WAIT_STR )
+        return "";
+    if ( ch->level >= LEVEL_ADMIN )
         return "";
     if ( n < 0.1*PULSE_VIOLENCE )
         return "`R   ";
@@ -1466,11 +1432,10 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             {
                 ch = d->character;
                 if ( !IS_NPC( ch ) )
-                    sprintf( buf, "%s%s", d->character->level<LEVEL_ADMIN?wait_str( ch->wait ):"",
-                            doparseprompt( ch ) ); /* modified by JR */
+                    sprintf( buf, "%s", doparseprompt( ch ) );
                 else
                     /* This is the default prompt */
-                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch->wait ), ch->hit,
+                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch ), ch->hit,
                              ch->max_hit, ch->mana, ch->max_mana, ch->move,
                              ch->max_move );
                 write_to_buffer( d, buf, 0 );
@@ -1653,7 +1618,6 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
             extern char *help_greeting;
             /* extern char *ansi_greeting; */
             write_to_buffer(d,"\n\r",0); /* Added by JR (fixed display problem with TinTin*/
-            printf("help_greeting: %s\n",help_greeting);
             /*if ( d->ansi ) // JR: fixed this nonsense
                 write_to_buffer( d, ansi_greeting, 0 );
             else*/
@@ -2425,6 +2389,7 @@ check_ban function.
             ch->hit = ch->max_hit;
             ch->mana = ch->max_mana;
             ch->move = ch->max_move;
+            ch->start_age = number_range( pc_race_table[ch->race].age[0], pc_race_table[ch->race].age[1] ); // JR: randomize starting age
             // ch->train = STARTING_TRAINS; // Training sessions are now determined by CP
             ch->practice = STARTING_PRACTICES;
             set_title( ch, STARTING_TITLE );
@@ -3458,6 +3423,12 @@ char *doparseprompt( CHAR_DATA * ch )
             fp_point += strlen( workstr );
             orig_prompt++;
             break;
+        case 'W':
+            sprintf( workstr, "%s", wait_str( ch ));
+            strcat( finished_prompt, workstr );
+            fp_point += strlen( workstr );
+            orig_prompt++;
+            break;
         default:
             strcat( finished_prompt, "%" );
             fp_point++;
@@ -3492,4 +3463,43 @@ int roll_stat( int base_bonus, int stat_max )
      * If the result is less than 1 return 1
      */
     return UMAX( total - min_roll + base_bonus, 1 );
+}
+
+// Display list of allowable races
+void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
+{
+    int max_len = 0,x=0,i,race;
+    write_to_buffer( d, "The following races are available:\n\r", 0 );
+    // Compute the max length of race here
+    for ( race = 1; race_table[race].name != NULL; race++ )
+    {
+        if ( !race_table[race].pc_race )
+            break;
+        if ( !race_table[race].remort_race ||
+             ( race_table[race].remort_race
+               && IS_SET( ch->act, PLR_REMORT ) ) )
+            max_len = bw_strlen(race_table[race].name) > max_len ? 
+                bw_strlen(race_table[race].name) : max_len;
+    }
+    for ( race = 1; race_table[race].name != NULL; race++ )
+    {
+        if ( !race_table[race].pc_race )
+            break;
+        if ( !race_table[race].remort_race ||
+             ( race_table[race].remort_race
+               && IS_SET( ch->act, PLR_REMORT ) ) )
+        {
+            if ( x == columns )
+            {
+                write_to_buffer( d, "\n\r", 2 );
+                x = 0;
+            }
+            write_to_buffer( d, race_table[race].name, 0 );
+            for ( i=0 ; i+strlen(race_table[race].name) < max_len + 3; i++)
+                write_to_buffer( d, " ", 1 );
+            x++;
+        }
+    }
+    write_to_buffer( d, "\n\r\n\r", 4 );
+    write_to_buffer( d, "What is your race ('help' for more information): ", 0 );
 }
