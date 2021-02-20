@@ -227,8 +227,8 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
         fprintf( fp, "Tru  %d\n", ch->trust );
     fprintf( fp, "Sec  %d\n", ch->pcdata->security );   /* OLC */
     
-    if ( IS_SET( ch->act, PLR_BUILDING) )
-        fprintf( fp, "OLC %d\n", ch->desc->editor ); // JR: recover editing state after hotboot
+    //if ( IS_SET( ch->act, PLR_BUILDING) )
+    //    fprintf( fp, "OLC %d\n", ch->desc->editor ); // JR: recover editing state after hotboot
 
     fprintf( fp, "Logn %d\n", ( int ) ( ch->logon ) );  /* Added for finger command */
     fprintf( fp, "Plyd %d\n",
@@ -1197,8 +1197,8 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
             KEY( "Note", ch->last_note, fread_number( fp ) );
             break;
         
-        case 'O':
-            KEY( "OLC", ch->desc->editor, fread_number( fp ) );
+        //case 'O':
+        //    KEY( "OLC", ch->desc->editor, fread_number( fp ) );
 
         case 'P':
             KEY( "Password", ch->pcdata->pwd, fread_string( fp ) );

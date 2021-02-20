@@ -282,6 +282,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
     DESCRIPTOR_DATA *d, *d_next;
     char buf[100], buf2[100];
     int close args( ( int fd ) );
+    int vnum;
     if ( IS_NPC( ch ) )
     {
         send_to_char( "Mobs dont need to be hotbooting the mud.\n", ch );
@@ -320,7 +321,22 @@ void do_copyover( CHAR_DATA * ch, char *argument )
         }
         else
         {
-            fprintf( fp, "%d %s %s\n", d->descriptor, och->name, d->host );
+            switch ( och->desc->editor )  // JR: Save editing state
+            {
+                case ED_AREA: vnum = ((AREA_DATA *)d->pEdit)->vnum; break;
+                case ED_ROOM: /*vnum = ((ROOM_INDEX_DATA *)d->pEdit)->vnum;*/ break;
+                case ED_OBJECT: vnum = ((OBJ_INDEX_DATA *)d->pEdit)->vnum; break;
+                case ED_MOBILE: vnum = ((MOB_INDEX_DATA *)d->pEdit)->vnum; break;
+                case ED_MPROG: vnum = ((MPROG_DATA *)d->pEdit)->vnum; break;
+                case ED_MPGROUP: vnum = ((MPROG_GROUP *)d->pEdit)->vnum; break;
+                case ED_CLAN: vnum = ((CLAN_DATA *)d->pEdit)->number; break;
+                default:
+                    vnum = -1;
+                    REMOVE_BIT( och->act, PLR_BUILDING );
+                    d->editor = 0;
+                    break; // Other ED types are too hard
+            }
+            fprintf( fp, "%d %s %s %d %d\n", d->descriptor, och->name, d->host, och->desc->editor, vnum );
 /*                      if (IS_SET(och->act,PLR_QUESTOR));
 			{
 				REMOVE_BIT(ch->act,PLR_QUESTOR);
@@ -353,7 +369,6 @@ void do_copyover( CHAR_DATA * ch, char *argument )
     sprintf( buf, "%d", port );
     sprintf( buf2, "%d", control );
     execl( EXE_FILE, " ", buf, "EmberMUD", buf2, ( char * ) NULL );
-
     /* Failed - sucessful exec will not return */
 
     perror( "do_copyover: execl" );
@@ -397,7 +412,7 @@ void copyover_recover( void )
     int desc;
     int close args( ( int fd ) );
     bool fOld;
-
+    int editor,vnum; // JR
     sprintf( buf, "%s/%s", sysconfig.area_dir, COPYOVER_FILE );
     fp = fopen( buf, "r" );
 
@@ -416,7 +431,7 @@ void copyover_recover( void )
 
     for ( ;; )
     {
-        fscanf( fp, "%d %s %s\n", &desc, name, host );
+        fscanf( fp, "%d %s %s %d %d\n", &desc, name, host, &editor, &vnum );
         if ( desc == -1 )
             break;
 
@@ -436,7 +451,7 @@ void copyover_recover( void )
         dnew->next = descriptor_list;
         descriptor_list = dnew;
         dnew->connected = CON_COPYOVER_RECOVER; /* -15, so close_socket frees the char */
-
+        
         /* Now, find the pfile */
 
         fOld = load_char_obj( dnew, name );
@@ -468,6 +483,22 @@ void copyover_recover( void )
             do_look( dnew->character, "" );
             act( "$n materializes!", dnew->character, NULL, NULL, TO_ROOM );
             dnew->connected = CON_PLAYING;
+            
+            switch ( editor )  // JR: Groan
+            {
+                case ED_AREA: dnew->pEdit = get_area_data( vnum ); break;
+                case ED_ROOM: break;
+                case ED_OBJECT: dnew->pEdit = get_obj_index( vnum ); break;
+                case ED_MOBILE: dnew->pEdit = get_mob_index( vnum ); break;
+                case ED_MPROG: dnew->pEdit = get_mprog_by_vnum( vnum ); break;
+                case ED_MPGROUP: dnew->pEdit = get_mprog_group_by_vnum( vnum ); break;
+                case ED_CLAN: dnew->pEdit = get_clan( vnum ); break;
+                default: editor = 0; break; // Other ED types are too hard
+            }
+            
+            dnew->editor = editor; // JR
+            
+            dnew->pEdit; // fix me
 
             /* Somehow this was left out, and it was causing a crash whenever
                a player had a pet, and the mud was hotbooted. It was trying
@@ -1749,7 +1780,6 @@ void fix_exits( void )
 void area_update( void )
 {
     AREA_DATA *pArea;
-
     for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
     {
 
@@ -1764,9 +1794,11 @@ void area_update( void )
              || pArea->age >= 31 )
         {
             ROOM_INDEX_DATA *pRoomIndex;
-
+            
+            
+            
             reset_area( pArea );
-            pArea->age = number_range( 0, 3 );
+            pArea->age = number_range( 0, 3 ); // JR: This gets reset to 0 if area is empty and someone enters
             pRoomIndex = get_room_index( ROOM_VNUM_SCHOOL );
             if ( pRoomIndex != NULL && pArea == pRoomIndex->area )
                 pArea->age = 15 - 2;

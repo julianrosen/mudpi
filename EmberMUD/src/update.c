@@ -685,10 +685,7 @@ void char_update( void )
     int blarg;
     ch_quit = NULL;
 
-    /* update save counter */
-    save_number++;
-
-    if ( save_number > 4 ) /* JR changed this from 30 to 4 */
+    if ( save_number++ > 3 ) /* JR changed this from 30 to 4 */
         save_number = 0;
     for ( ch = char_list; ch != NULL; ch = ch_next )
     {
@@ -862,8 +859,8 @@ void char_update( void )
                         stop_fighting( ch, TRUE );
                     act( "$n disappears into the void.",
                          ch, NULL, NULL, TO_ROOM );
-		    char vanish_str[100];
-		    sprintf(vanish_str,"You disappear into the void (%i minutes of inactivity).\n\rTake any action to return.",AUTO_VANISH);
+            char vanish_str[100];
+            sprintf(vanish_str,"You disappear into the void (%i minutes of inactivity).\n\rTake any action to return.",AUTO_VANISH);
                     send_to_char( vanish_str, ch );
                     if ( ch->level > 0 ) /* Modified by JR */
                         save_char_obj( ch );
@@ -1039,7 +1036,7 @@ void char_update( void )
     {
         ch_next = ch->next_player;
 
-        if ( ch->desc != NULL && save_number == 4 && !chaos ) /* JR modified this */
+        if ( ch->desc != NULL && save_number == 0 && !chaos ) /* JR modified this */
             save_char_obj( ch );
 
         if ( ch == ch_quit )

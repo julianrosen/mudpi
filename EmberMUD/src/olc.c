@@ -88,7 +88,6 @@ bool run_olc_editor( DESCRIPTOR_DATA * d )
 char *olc_ed_name( CHAR_DATA * ch )
 {
     buf[0] = '\0';
-
     switch ( ch->desc->editor )
     {
     case ED_AREA:
@@ -449,22 +448,18 @@ void aedit( CHAR_DATA * ch, char *argument )
     smash_tilde( argument );
     strcpy( arg, argument );
     argument = one_argument( argument, command );
-
     if ( !IS_BUILDER( ch, pArea ) )
         send_to_char( "AEdit:  Insufficient security to modify area.\n\r", ch );
-
     if ( command[0] == '\0' )
     {
         aedit_show( ch, argument );
         return;
     }
-
     if ( !str_cmp( command, "done" ) )
     {
         edit_done( ch );
         return;
     }
-
     if ( !IS_BUILDER( ch, pArea ) )
     {
         interpret( ch, arg );

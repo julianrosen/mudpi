@@ -666,7 +666,6 @@ AEDIT( aedit_show )
     sprintf( buf, "Flags:    [%s]\n\r",
              flag_string( area_flags, pArea->area_flags ) );
     send_to_char( buf, ch );
-
     return FALSE;
 }
 
@@ -3014,23 +3013,19 @@ OEDIT( oedit_create )
     }
     else // Clone
     {
-        printf("start clone\n");
         pObj->name = strdup(oldObj->name);
         pObj->short_descr = strdup(oldObj->short_descr);
         pObj->description = strdup(oldObj->description);
         pObj->material = oldObj->material;
-        printf("done material\n");
         pObj->item_type = oldObj->item_type;
         pObj->extra_flags = oldObj->extra_flags;
         pObj->wear_flags = oldObj->wear_flags;
         pObj->level = oldObj->level;
         pObj->condition = oldObj->condition;
-        printf("done condition\n");
         pObj->weight = oldObj->weight;
         pObj->cost = oldObj->cost;
         for (n=0;n<5;n++)
             pObj->value[n] = oldObj->value[n];
-        printf("done value\n");
         sprintf(arg,"Object Cloned: %s\n\r",oldObj->short_descr);
         send_to_char( arg, ch );
         return TRUE;

@@ -683,8 +683,8 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
 #define PULSE_MOBILE              ( 4 * PULSE_PER_SECOND)
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
-#define PULSE_TICK                (20 * PULSE_PER_SECOND)   /* Ticks are a little faster on Mudpi */
-#define PULSE_AREA                (30 * PULSE_PER_SECOND)   /* Area repops are faster too */
+#define PULSE_TICK                (20 * PULSE_PER_SECOND)
+#define PULSE_AREA                (60 * PULSE_PER_SECOND) 
 #define AUCTION_LENGTH                    5
 #define MINIMUM_BID                     10  /*set this to whatever. -Lancelight */
 #define IMPLEMENTOR             MAX_LEVEL

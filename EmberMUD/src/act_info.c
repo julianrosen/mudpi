@@ -4102,7 +4102,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     lengthen( buf, 71 );
     strcat( buf, "`y|\n\r" );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GLevel: `Y%3d", level );
+    sprintf( buf, "     | `GLevel: `Y%d", level );
     lengthen( buf, 26 );
     sprintf( buf + strlen(buf), "`WLast login: %s`y", ltime );
     lengthen( buf, 71 );
