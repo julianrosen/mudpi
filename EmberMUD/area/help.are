@@ -13,7 +13,7 @@
  
 `wWhat is your name: ~
 -1 WIZLIST~
-.                       `GThe gods of Mudpi                           
+.                     `GThe gods of Mudpi                           
                         `K--------------------                           
  `WCreators `K[`GLevel 62`K]                          `WImplementers `K[`GLevel 60`K]  
  ---------------------------                  ------------------------ 
@@ -35,12 +35,12 @@
        greatly increased while sleeping on the temple altar.
 ~
 51 IMOTD~
-You are an immortal.
+ You are an immortal.
 
 [Hit Return to continue]
 ~
 -1 NEWS~
-No news yet.
+ No news yet.
 ~
 -1 'NEWBIE INFO'~
 . Ah! Another mortal, seeking adventure. You should go through mudschool first,
@@ -51,7 +51,7 @@ No news yet.
  available on most commands and abilities.
 ~
 51 JOBS~
-`RPlease create a job list!
+ `RPlease create a job list!
 ~
 -1 RULES~
 . These are the rules of Mudpi.
@@ -361,14 +361,14 @@ No news yet.
  is because the server multiplies what it reads from file with 10.
 ~
 90 ITEM_LIGHT~
-.  value 0    unused
+. value 0    unused
    value 1    unused
    value 2    hours of light available, 0 is dead, -1 or 999 is infinite            
    value 3    unused
    value 4    unused
 ~
 90 ITEM_STAFF_WAND~
-.  value 0    level
+. value 0    level
    value 1    max charges
    value 2    current charges
    value 3    spell name
@@ -379,7 +379,7 @@ No news yet.
 ? SPELLS [ignore/attack/defend/self/object/all]
 ~
 90 ITEM_SCROLL_POTION_PILL~
-.  value 0    level
+. value 0    level
    value 1    spell name 1
    value 2    spell name 2
    value 3    spell name 3
@@ -389,14 +389,14 @@ No news yet.
 ? SPELLS [ignore/attack/defend/self/object/all]
 ~
 90 ITEM_ARMOR~
-.  value 0    ac pierce
+. value 0    ac pierce
    value 1    ac bash
    value 2    ac slash
    value 3    ac exotic (magic)
    value 4    unused
 ~
 90 ITEM_WEAPON~
-.  value 0    weapon class.
+. value 0    weapon class.
    value 1    number of dice to roll.
    value 2    type of dice to roll.
    value 3    weapon type.
@@ -425,7 +425,7 @@ No news yet.
        50:     5d11
 ~
 90 ITEM_CONTAINER~
-.  value 0    weight capacity
+. value 0    weight capacity
    value 1    flags: closeable, pickproof, closed, locked            
    value 2    key vnum
    value 3    unused
@@ -435,7 +435,7 @@ No news yet.
 ? CONTAINTER
 ~
 90 ITEM_DRINK~
-.  value0    capacity
+. value0    capacity
    value 1    current quantity
    value 2    liquid type
    value 3    poisoned?
@@ -445,14 +445,14 @@ No news yet.
 ? LIQUID
 ~
 90 ITEM_FOOD~
-.  value 0    hours of food value
+. value 0    hours of food value
    value 1    unused
    value 2    unused
    value 3    poisoned?
    value 4    unused
 ~
 90 ITEM_MONEY~
-.  value 0    value in gold pieces
+. value 0    value in gold pieces
    value 1    unused
    value 2    unused
    value 3    unused
@@ -475,19 +475,19 @@ No news yet.
 . `GFLEE                                                           `Ycombat skill
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wOnce you start a fight, you can't just walk away from it. If the   
- fight is not going well, you can attempt to `WFLEE `w(You can also      
- `WRECALL`w, but this is less likely to work, and costs more experience  
+ fight is not going well, you can attempt to FLEE (You can also      
+ RECALL, but this is less likely to work, and costs more experience  
  points than fleeing).                                               
                                                                      
- If you lose `WLINK `wduring a fight, then your character will keep      
- fighting, and will attempt to `WRECALL `wfrom time to time. Your       
+ If you lose your connection during a fight, then your character will
+ keep fighting, and will attempt to RECALL from time to time. Your       
  chances of making the recall are reduced, and you will lose much    
  more experience.                                                    
                                                                      
  `WSee also: `GRECALL WIMPY                                             
 ~
--1 DIKU~
-.                   Original game idea, concept, and design:
+-1 DIKU CREDITS~
+.                 Original game idea, concept, and design:
 
           Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
           Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
@@ -566,12 +566,12 @@ No news yet.
  list buy sell value                 note
 
  COMBAT                              OTHER
- kill flee kick rescue disarm        ! save quit
+ kill flee rescue disarm             ! save quit
  backstab cast wimpy                 practice train
-
+ bash kick trip circle
 
  For more help, type 'help <topic>' for any command, skill, or spell.
- Also help on: DAMAGE DEATH EXPERIENCE NEWS STORY TICK WIZLIST
+ `WSee also: `GDAMAGE DEATH EXPERIENCE NEWS STORY TICK WIZLIST
 ~
 0 DAMAGE~
 . `GDamage                                                         `Ygame concept
@@ -622,7 +622,7 @@ No news yet.
  the penalties won't clobber you.
 
  Corpses decay after time, and the objects inside corpses decay with them.
- Player corpses last *roughly* 30 hours of game time (15 minutes of real time).
+ Player corpses last *roughly* 30 hours of game time (10 minutes of real time).
  Only the player who died, or someone in the same group, can retrieve objects
  from a player's corpse.
 ~
@@ -675,8 +675,7 @@ No news yet.
  weather, and area resetting.
 
  Of these timers, the hp/mana/move regeneration timer is popularly called the
-'tick'. Ticks on this mud average 30 seconds of real time, but the actual
- amount varies randomly from 15 seconds to 45 seconds.
+'tick'. Ticks on this mud happen every 20 seconds of real time.
 
  Area resetting happens roughly every 3 minutes if no one is in the area; less
  often (15 minutes) if some one is. Also note that objects lying on the ground
@@ -687,7 +686,7 @@ No news yet.
 0 !~
 . `G!                                                                   `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `G! `wrepeats the last command you typed.
+ `w! repeats the last command you typed.
 ~
 0 CAST~
 . `GCAST <spell> <target>                                               `Ycommand
@@ -713,8 +712,9 @@ No news yet.
 . `GEXITS                                                                  `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wTells you the visible exits of the room you are in. Not all exits are visible.
- You can use the 'bump' technique to find hidden exits.  (Try to walk in a
- certain direction and see what you bump into).
+ Use SEARCH to look for hidden exits.
+ 
+ `WSee also: `GAUTOEXIT
 ~
 0 DROP GET GIVE PUT TAKE~
 . `GDROP <object>
@@ -734,18 +734,18 @@ No news yet.
 
  PUT puts an object into a container.
 
- DROP, GET and PUT understand the object names 'ALL' for all objects and
-'ALL.object' for all objects with the same name.
+ DROP, GET, and PUT understand the object names 'ALL' for all objects and
+ 'ALL.<object>' for all objects with the same name.
 ~
 0 EQUIPMENT INVENTORY~
 . `GEQUIPMENT
  INVENTORY                                                              `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- EQUIPMENT lists your equipment (armor, weapons, and held items).
+ `wEQUIPMENT lists your equipment (armor, weapons, and held items).
  INVENTORY lists your inventory.
 ~
 0 COMPARE~
-. `GCOMPARE <object-1> <object-2>
+. `GCOMPARE <object1> <object2>
  COMPARE <object>                                                       `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wCOMPARE compares two objects in your inventory. If both objects are weapons,
@@ -809,7 +809,7 @@ No news yet.
  all of the characters in your group, wherever they are, even if they are
  sleeping or stunned or dying.
 
- SAY sends a message to all awake players in your room. The single quote '''
+ SAY sends a message to all awake players in your room. The single quote '
  is a synonym for SAY.
 
  TELL sends a message to one awake player anywhere in the world.
@@ -817,6 +817,8 @@ No news yet.
  REPLY sends a message to the last player who sent you a TELL. REPLY will work
  even if you can't see the player, and without revealing their identity. This
  is handy for talking to invisible or switched immortal players.
+ 
+ `WSee also: `GOOC GOSSIP YELL SHOUT
 ~
 0 NOTE NOTES~
 . `GNOTE                                                          `Ycommunication
@@ -824,20 +826,20 @@ No news yet.
  `wThe notes on EmberMUD replace the bulletin boards and mail systems found 
  on many other muds. The following options are usable:
 
- reading notes:
- note list	: show all notes (unread notes are marked with an N)
+ `WReading notes
+ `wnote list	: show all notes (unread notes are marked with an N)
  note read	: either by number, or read next to read unread notes
  note remove	: removes a note that you wrote or are the target of
 
- writing new notes:
- Switch to the board you are going to post the note on, and type:
+ `WWriting new notes
+ `wSwitch to the board you are going to post the note on, and type:
 
  note write
 
  You will be prompted to enter the recipient and subject.
 
- immorts only:
- note protect    : protect a note from auto-deletion at 2 weeks.
+ `Wimmorts only
+ `wnote protect    : protect a note from auto-deletion at 2 weeks.
 
  When you log in, you will be informed if there are unread notes waiting. Type
  note read to scroll through them one at a time.
@@ -848,9 +850,9 @@ No news yet.
  AUCTION BID <amount>                                                `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wAuction <item>         : Sell your item to other players to pick up some
-			 quick cash.
- Auction info   	       : What does that item do anyways? This tells you.
- Auction bid <amount>   : Wow! Thats a nice item! I'll take it!
+                          quick cash.
+ Auction info            : What does that item do anyways? This tells you.
+ Auction bid <amount>    : Wow! Thats a nice item! I'll take it!
 ~
 0 GOSSIP SHOUT YELL~
 . `GGOSSIP <message>
@@ -866,6 +868,8 @@ No news yet.
  YELL sends a message to all awake players within your area.
 
  Type a channel name by itself to turn it off.
+ 
+ `WSee also: `GCHANNELS
 ~
 0 TANK~
 . `GTank                                                           `Ygame concept
@@ -951,18 +955,14 @@ No news yet.
  `wThese commands will take your message and record it into a file as feedback
  to the mud implementors.
 ~
-0 CREDITS~
-. `GCREDITS                                                                `Yinfo
-`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wThis command shows the list of the original Diku Mud implementors.
-~
 0 AREAS COMMANDS REPORT SCORE TIME AFFECTS EFFECTS~
 . `GAREAS
  COMMANDS
  REPORT
  SCORE
  TIME
- EFFECTS                                                                `Yinfo
+ EFFECTS
+ WEATHER                                                `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wAREAS shows you a list of areas in the game.
 
@@ -977,14 +977,16 @@ No news yet.
 
  TIME shows the game time, as well as the time the mud was last started,
  and the current local time for the host computer.
+ 
+ EFFECTS shows a list of spell/abilities currently affecting you.
 
  WEATHER shows the current game weather.
 ~
 0 WHO~
 . `GWHO
- WHO <level-range>
+ WHO <level range>
  WHO <class OR race>
- WHO <class OR race> <level-range>                                      `Yinfo
+ WHO <class OR race> <level range>                                      `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wWHO shows the people currently in the game. Some people may choose to
  remain unseen and won't appear on the WHO.
@@ -1028,9 +1030,11 @@ No news yet.
  `wSets your long description to the given string. If the description string
  starts with a '+', the part after the '+' is appended to your current
  description, so that you can make multi-line descriptions.
+ 
+ `WSee also: `GTITLE
 ~
 0 PASSWORD~
-. `GPASSWORD <old-password> <new-password>                             `Ysettings
+. `GPASSWORD <old password> <new password>                             `Ysettings
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wPASSWORD changes your character's password. The first argument must be
  your old password. The second argument is your new password.
@@ -1044,6 +1048,8 @@ No news yet.
 
  The game supplies a title when your character is created and when you
  advance a level. You can use TITLE to set your title to something else.
+ 
+ `WSee also: `GDESCRIPTION
 ~
 0 WIMPY~
 . `GWIMPY
@@ -1059,11 +1065,11 @@ No news yet.
  Some monsters are wimpy.
 ~
 0 OPEN CLOSE LOCK UNLOCK PICK~
-. `GOPEN <object|direction>
- CLOSE <object|direction>
- LOCK <object|direction>
+. `GOPEN   <object|direction>
+ CLOSE  <object|direction>
+ LOCK   <object|direction>
  UNLOCK <object|direction>
- PICK <object|direction>                                             `Ycommand
+ PICK   <object|direction>                                           `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wOPEN and CLOSE open and close an object or a door.
 
@@ -1078,10 +1084,10 @@ No news yet.
  EAT <object>
  FILL <object>                                                       `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wWhen you are thirsty, DRINK something.
-
- When you are hungry, EAT something.
-
+ `wWhen you are thirsty, DRINK something. When you are hungry, EAT something.
+ Hunger or thirst slows the rate at which you regenerate HP, MANA, and MOVE
+ points.
+ 
  FILL fills a drink container with water.
 ~
 0 BUY LIST SELL VALUE~
@@ -1091,8 +1097,8 @@ No news yet.
  VALUE <object>                                                      `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wBUY buys an object from a shop keeper.
- When multiple items of the same name are listed, type 'buy n.item', where n
- is the position of the item in a list of that name. So if there are two
+ When multiple items of the same name are listed, type '`GBUY n.<item>`w', where
+ n is the position of the item in a list of that name. So if there are two
  swords, buy 2.sword will buy the second. You may buy multiples of items
  by using an optional number value before the object name.
 
@@ -1101,11 +1107,12 @@ No news yet.
 
  SELL sells an object to a shop keeper.
 
- VALUE asks the shop keeper how much he, she, or it will buy the item for.
+ VALUE asks the shop keeper how much he, she, they, or it will buy the item for.
 ~
 0 SACRIFICE JUNK DONATE~
 . `GSACRIFICE <object>
- JUNK <object>                                                       `Ycommand
+ JUNK <object>
+ DONATE <object>                                                     `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wSACRIFICE offers an object to the gods, who may reward you.
  The nature of the reward depends upon the type of object.
@@ -1134,7 +1141,7 @@ No news yet.
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wBRANDISH brandishes a magical staff. QUAFF quaffs a magical potion (as opposed
  to DRINK, which drinks mundane liquids). RECITE recites a magical scroll; the
-<target> is optional, depending on the nature of the scroll. ZAP zaps a
+ <target> is optional, depending on the nature of the scroll. ZAP zaps a
  magical wand at a target. If the target is not specified, and you are fighting
  someone, then that character is used for a target.
 
@@ -1171,6 +1178,8 @@ No news yet.
  group by using a FOLLOW command to stop following you.
 
  GROUP with no argument shows statistics for each character in your group.
+ 
+ `WSee also: `GAUTOASSIST SPLIT AUTOSPLIT
 ~
 0 VISIBLE~
 . `GVISIBLE                                                             `Ycommand
@@ -1200,7 +1209,7 @@ No news yet.
 . `GRECALL                                                             `Ymovement
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wRECALL prays to the gods for miraculous transportation from where you are back to 
- the Temple of Midgaard.  '/' is a synonym for RECALL.
+ the Temple of Midgaard. '/' is a synonym for RECALL.
 
  If you RECALL during combat, you will lose experience (more than for fleeing),
  and you will have a chance of failing (again, more than for fleeing). This
@@ -1244,6 +1253,8 @@ No news yet.
  session. The higher your wisdom, the more practice sessions you will
  have each time you gain a level. Unused sessions are saved until you
  do use them.
+ 
+ `WSee also: `GTRAIN
 ~
 0 TRAIN~
 . `GTRAIN <str INT WIS DEX CON HP mana>                                 `Ycommand
@@ -1259,7 +1270,10 @@ No news yet.
  The best attributes to train first are WIS and CON. WIS gives you more
  practice when you gain a level. CON gives you more hit points.
  In the long run, your character will be most powerful if you train
- WIS and CON both to 18 before practising or training anything else.
+ WIS and CON before practising or training anything else. INT gives you
+ more mana when you gain a level.
+ 
+ `WSee also: `GPRACTICE
 ~
 90 ADVANCE~
 . `GADVANCE <character> <level>                                           `Yadmin
@@ -1320,11 +1334,10 @@ No news yet.
  Never, ever, shutdown the mud without consulting Zak.
 ~
 90 WIZLOCK NEWLOCK~
-. `GWIZLOCK                                                               `Yadmin
+. `GWIZLOCK
+ NEWLOCK                                                               `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wnewlock
-
- Wizlock and newlock both block login attempts. Wizlock locks
+ `wWizlock and newlock both block login attempts. Wizlock locks
  out all non-gods (i.e. level less than 51), except for link-dead players who
  are returning. Newlock only locks out new character generation, typically
  used for preventing a spammer from returning. Wizlocking should be avoided.
@@ -1369,11 +1382,10 @@ No news yet.
  FORCE 'gods' forces all Imms of a lower level to execute a command.
 ~
 90 SOCKETS~
-. `GSOCKETS                                                               `Yadmin
+. `GSOCKETS <name>
+ SOCKETS                                                               `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wsockets <name> 
-
- SOCKETS reports all of the visible users connected to the server, including 
+ `wSOCKETS reports all of the visible users connected to the server, including 
  users in the process of logging in. The two numbers inside brackets are the 
  channel number and the 'connected' state. The 'connected' states are listed in 
  merc.h: 0 is CON_PLAYING; non-zero values are various states of logging in.
@@ -1383,42 +1395,37 @@ No news yet.
  into an orc).
 ~
 90 LOAD~
-. `GLOAD MOB <vnum>                                                       `Yadmin
+. `GLOAD MOB <vnum>
+ LOAD OBJ <vnum>                                                       `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wload obj <vnum> <level>
-
- The load command is used to load new objects or mobiles (use clone to 
+ `wThe load command is used to load new objects or mobiles (use clone to 
  duplicate strung items and mobs). The vnums can be found with the vnum
  command, or by stat'ing an existing mob or object.
 
  Load puts objects in inventory if they can be carried, otherwise they are
- put in the room. Mobiles are always put into the same room as the god. Old
- format objects must be given a level argument to determine their power, new
- format objects have a preset level that cannot be changed without set.
- (see also clone, vnum, stat)
+ put in the room. Mobiles are always put into the same room as the god.
+ `WSee also: `GCLONE VNUM STAT
 ~
 90 SET~
-. `GSET MOB <mobile> <field> <value>                                      `Yadmin
+. `GSET CHAR <name> <field> <value>
+ SET SKILL <char> <name> <rating>
+ SET SKILL <char> ALL <rating>
+ SET OBJ <object> <field> <value>
+ SET ROOM <number> <field> <value>                                     `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wset obj   <object> <field> <value>
-	set room  <number> <field> <value>
-	set skill <char>   <name>  <rating>
-	set skill <char>   all     <rating>
-	set char  <name>   <field> <value>
-
- The set command is used to change the numerical values of the various data
+ `wThe set command is used to change the numerical values of the various data
  structures. Type set <class> without an argument to see a listing of options.
  Set skill all (pc's only) will set all the character's skills to the value
  given. Use string to change the strings on an object or mobile.
- (see also string, stat)
+ 
+ `WSee also: `GSTRING STAT
 ~
 90 STRING~
-. `GSTRING OBJ <field> <string>                                           `Yadmin
+. `GSTRING OBJ <field> <string>
+STRING MOB <field> <string>
+STRING CHAR <name> <field> <string>                                   `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wstring mob  <field> <string>
-	string char <name>  <field>  <string>
-
- The string command changes the various strings associated with an object or
+ `wThe string command changes the various strings associated with an object or
  mobile. A full list of fields can be viewed by typing string obj, string
  mob, or string char. Sorry, multi-line strings are not yet supported.
 ~
@@ -1446,12 +1453,9 @@ No news yet.
  pardon.
 ~
 90 PURGE~
-. `GPURGE                                                                 `Yadmin
+. `GPURGE <target>                                                        `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wpurge <character>
-	purge <object>
-
- Purge is used to clean up the world. Purge with no arguments removes all the
+ `wPurge is used to clean up the world. Purge with no arguments removes all the
  NPC's and objects in the current room. Purge with an argument purges one
  character from anywhere in the world.
 
@@ -1460,12 +1464,11 @@ No news yet.
  objects may be purged if they are called directly by name.
 ~
 90 RESTORE~
-. `GRESTORE <character>                                                   `Yadmin
+. `GRESTORE <character>
+RESTORE ROOM
+ RESTORE ALL                                                           `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wrestore room
-	restore all
-
- Restore restores full hit points, mana points, and movement points to the
+ `wRestore restores full hit points, mana points, and movement points to the
  target character. It also heals poison, plague, and blindness.
 
  Restore room (or restore with no argument) performs a restore on every player
@@ -1480,13 +1483,9 @@ No news yet.
  command on players if you enjoy being a god.
 ~
 90 TRANSFER TELEPORT~
-. `GTRANSFER <character>                                                  `Yadmin
+. `GTRANSFER <all/character> <location>                                   `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wtransfer all
-	transfer <character> <location>
-	transfer all         <location>
-
- Transfer transfers the target character, or ALL player characters,
+ `wTransfer transfers the target character, or ALL player characters,
  to your current location (default) or to a specified location. Trans all 
  should almost never be used, as 100 players popping into one room can have
  horrible effects on slow links. Teleport is a synonym for transfer. 
@@ -1503,12 +1502,10 @@ No news yet.
  location).
 ~
 90 ECHO GECHO PECHO~
-. `GECHO <message>                                                        `Yadmin
+. `GECHO <message>
+PECHO <character> <message>                                           `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wgecho <message>
-	pecho <character> <message>
-
- These commands all perform similar functions. Echo sends the message to
+ `wThese commands all perform similar functions. Echo sends the message to
  all characters in the same room as the user, with no indication of who sent
  it. Gecho does the same for all players connected to the game, and pecho
  sends the message to the player specified as the target. Any higher-level
@@ -1554,30 +1551,25 @@ No news yet.
  on the number and size of these blocks.
 ~
 90 VNUM~
-. `GVNUM <name>                                                           `Yadmin
+. `GVNUM <OBJ/MOB/SKILL> <name>                                           `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wvnum <obj or mob> <name>
-	vnum skill <name>
-
- Vnum finds all objects and mobiles with a particular name, and prints out
+ `wVNUM finds all objects and mobiles with a particular name, and prints out
  the results. Use vnum obj or vnum mob to limit the search. This vnum is
  very useful for loading. Vnum skill returns the skill number (for set) and
  the slot number (for making new zones) of a skill name.
- (see also load)
+ `WSee also: `GLOAD
 ~
 90 STAT~
-. `GSTAT <name>                                                           `Yadmin
+. `GSTAT MOB <name>
+ STAT OBJ <name>
+ STAT ROOM <number>                                                    `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wstat mob  <name>
-	stat obj  <name>
-	stat room <number>
-
- The stat command gives you detailed information on an object, mobile, or room
+ `wThe stat command gives you detailed information on an object, mobile, or room
  within the game. Without a class argument, the command will return a object
  (if found), a mobile (if no object exists, but a mobile does), or a room 
  (if a number is  given). Stat room with no argument stats the room you are
  standing in. Stat can be used to find room vnums for goto.
- (see also goto, transfer)
+ `WSee also: `GGOTO TRANSFER
 ~
 90 MWHERE~
 . `GMWHERE <name>                                                         `Yadmin
@@ -1587,7 +1579,7 @@ No news yet.
 90 PEACE~
 . `GPEACE                                                                 `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wPeace causes all characters in a room to stop fighting. It also strips the
+ `wPEACE causes all characters in a room to stop fighting. It also strips the
  AGGRESSIVE bit from mobiles.
 ~
 90 POOFIN POOFOUT~
@@ -1596,27 +1588,27 @@ No news yet.
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wThe standard messages for goto are 'arrives in a swirling mist' and
 'leaves in a swirling mist'. You can replace these messages with messages of
- your own choosing using the poofin and poofout commands. These messages
+ your own choosing using the POOFIN and POOFOUT commands. These messages
  must include your name somewhere in the string.
 
  Poofin and poofout only show to characters who can see you.
- (see also goto)
+ `WSee also: `GGOTO
 ~
 90 LOG SNOOP~
-. `GLOG <character>                                                       `Yadmin
+. `GLOG <character>
+ LOG ALL
+ SNOOP <character>                                                     `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wlog   all
-	snoop <character>
-
- Log <character> causes all of a character's commands to be logged intothe server's log file. Like Freeze, it is a permanent character toggle.
+ `wLog <character> causes all of a character's commands to be logged into
+ the server's log file. Like Freeze, it is a permanent character toggle.
  Logs may only be used by creators and implementors.
 
 
  Certain commands (Password) are protected against log. Conversely, certain
  commands (especially immortal commands) are always logged.
 
- Log all logs all character commands. It is a server-wide toggle; it does notpersist across reboots.
-
+ Log all logs all character commands. It is a server-wide toggle; it does not
+ persist across reboots.
 
  Snoop shows you a copy of all the input and output going to a character.
  The character must have an open channel. You may snoop more than one
@@ -1625,11 +1617,10 @@ No news yet.
  Snoop yourself to cancel all outstanding snoops.
 ~
 90 SWITCH RETURN~
-. `GSWITCH <character>                                                    `Yadmin
+. `GSWITCH <character>
+ RETURN                                                                `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wreturn
-
- Switch switches you into the body of another character (who must not
+ `wSwitch switches you into the body of another character (who must not
  already have a descriptor, e.g. you can't switch into a PC). You also cannot
  switch into link-dead PCs.
 
@@ -1638,9 +1629,7 @@ No news yet.
 90 IMMTALK ,~
 . `GIMMTALK <message>                                                     `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	`wimmtalk
-
- Immtalk sends a message to all immortals.  : is a synonym for immtalk.
+ `wImmtalk sends a message to all immortals.  : is a synonym for immtalk.
  Using this command with no argument turns off the immortal channel (or
  turns it back on).
 ~
@@ -1936,7 +1925,7 @@ No news yet.
 . `GCAST ARMOR <character>
  CAST SHIELD <character>
  CAST 'STONE SKIN'
- CAST 'BARK SKIN'                                                    `Yspell
+ CAST 'BARK SKIN'                                                      `Yspell
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wThese spells protect the caster by decreasing (improving) the caster's armor
  class. ARMOR and SHIELD provides 20 points of armor each, STONE SKIN provides 
@@ -2116,7 +2105,7 @@ No news yet.
  two drink containters. This does not work with potions.
 ~
 -1 'RACE HELP' 'RACE' 'RACES'~
-. `Brace                                    
+. `Brace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wMudpi has the following races for player characters:
   Human        A good all-around race, 0 cp
@@ -2181,47 +2170,47 @@ No news yet.
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 HUMAN HUMANS MAN~
 . `BHuman                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `w
+ 
 ~
 -1 GIANT GIANTS~
 . `BGiant                                                                  `Yrace
@@ -2736,7 +2725,7 @@ No news yet.
  in combat, protecting weaker characters from bodily harm. Hopefully the
  favor will be returned. Success in rescuing depends on the skill rating, as
  well as a comparision of level, dexterity, and speed between the character and
- the target. (note: you rescue a friend, not the monster)
+ the target. Note: you rescue a friend, not the monster.
 ~
 -1 TRIP~
 . `GTRIP <victim>                                                  `Ycombat skill
@@ -2866,26 +2855,15 @@ No news yet.
 . `GNORTH SOUTH EAST WEST UP DOWN                                      `Ymovement
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wUse these commands to walk in a particular direction. You may      
- abbreviate any of these commands with just the first letter.        
-~
-0 EXITS~
-. `GEXITS                                                                  `Yinfo
-`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wThe `WEXITS `wcommand lists the visible exits of the room you are       
- in. Not all exits are visible. You can use the 'bump' technique   
- to find hidden exits (that is, try to walk in a certain direction   
- and see if you bump into something).                                
-                                                                     
- `WSee also: `GAUTOEXIT                                                  
+ abbreviate any of these commands with just the first letter.                                                       
 ~
 -1 BACKSTAB BS~
 . `GBACKSTAB BS                                                    `Ycombat skill
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `WBACKSTAB `wis the favored attack of thieves and other rogues. It     
- requires you to `WWIELD `wsome form of weapon.  `WBACKSTAB `wcan only be    
- used to begin a fight, not during `WCOMBAT`w. You cannot `WBACKSTAB `wan   
- injured foe unless you are `WSNEAKing`w.  `WBACKSTAB `wmay be abbreviated   
- as simply `WBS`w.                                                       
+ `wBACKSTAB is a favored attack of thieves and other rogues. It     
+ requires you to WIELD a dagger.  BACKSTAB can only be used to begin
+ a fight, not during combat. You cannot BACKSTAB an injured foe
+ unless you are sneaking. BACKSTAB may be abbreviated BS.                                                       
                                                                      
  `WSee also: `GSNEAK                                                     
 ~
@@ -2955,15 +2933,15 @@ No news yet.
 . `GCIRCLE <victim>                                                `Ycombat skill
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wCircle is the most favored attack of thieves, murders, and other rogues.
- It can be used with any weapon type.  The damage inflicted by a circle
+ It can be used with any weapon type. The damage inflicted by a circle
  is determined by the attacker's level, his weapon skill, and the power
- of his opponent.  Only thieves may learn the circle.
+ of his opponent. Only thieves may learn the circle.
 ~
 -1 KILL~
 . `GKILL <name>                                                         `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wThis command starts battle with a character or mob.  Use caution! It
- may be useful to consider the mob first, before attacking it.
+ may be useful to CONSIDER the mob first, before attacking it.
 
  `WSee also: `GCONSIDER
 ~
@@ -3025,6 +3003,7 @@ No news yet.
 
  `WSee also: `GSPLIT
 ~
+
 -1 NOFOLLOW COMBINE NOLOOT NOSUMMON COMPACT~
 . `GNOFOLLOW
  COMBINE
@@ -3081,9 +3060,9 @@ No news yet.
 -1 SEARCH~
 . `GSEARCH                                                                 `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wTells you the secret exits of the room you are in.  Not all exits are
- visible. You can use the 'bump' technique to find hidden exits.
- (Try to walk in a certain direction and see what you bump into).
+ `wTells you the secret exits of the room you are in.
+ 
+ `WSee also: `GEXITS
 ~
 -1 BRIEF~
 . `GBRIEF                                                              `Ysettings
@@ -3114,7 +3093,7 @@ No news yet.
 -1 WHOIS~
 . `GWHOIS <name>                                                           `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wIt displays the level, age, and other stats for the given <name>.
+ `wThis command displays the level, age, and other stats for the given <name>.
 
  `WSee also: `GEMAIL COMMENT
 ~
@@ -3126,7 +3105,7 @@ No news yet.
 -1 CLAN CLANS~
 . `GClan clans                                                     `Ygame concept
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wClan are similar to guilds on other muds.  Most of the clans have
+ `wClans are similar to guilds on other muds.  Most of the clans have
  special requirement to join them.  
 
  `WSee also: `GJOIN PETITION ACCEPT OFFER RESIGN DEMOTE CRECALL
@@ -3191,8 +3170,5 @@ No news yet.
 <name>'.  Someone's email can be unlisted, if they haven't set their
  e-mail address.
 ~
-
-
 0 $~
-
 #$
