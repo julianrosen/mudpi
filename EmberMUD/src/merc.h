@@ -389,6 +389,7 @@ struct pc_race_type             /* additional data for pc races */
     sh_int stats[MAX_STATS];    /* starting stats */
     sh_int max_stats[MAX_STATS];    /* maximum stats */
     sh_int size;                /* aff bits for the race */
+    sh_int age[2];                 /* JR: starting age */
 };
 
 /*
@@ -593,7 +594,7 @@ struct char_data {
 #if defined(cbuilder)
     void *TNode;
 #endif
-
+    sh_int start_age; // JR
 };
 
 struct mud_prog_act_list {
@@ -1052,8 +1053,8 @@ void save_disabled args( ( void ) );
 #define VALIDATE(data)          ((data)->valid = TRUE)
 #define INVALIDATE(data)        ((data)->valid = FALSE)
 
-#define GET_AGE(ch)             ((int) (17 + ((ch)->played \
-                                    + current_time - (ch)->logon )/72000
+#define GET_AGE(ch)             ((int) (ch->start_age + ((ch)->played \
+                                    + current_time - (ch)->logon )/72000))
 
 #define IS_GOOD(ch)             (ch->alignment >= 350)
 #define IS_EVIL(ch)             (ch->alignment <= -350)
@@ -1890,3 +1891,4 @@ int bw_strlen( char * );
 void command_not_found( CHAR_DATA * );
 
 char * unprocess_color( const char * );
+void lengthen( char *, int );
