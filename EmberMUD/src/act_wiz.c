@@ -3804,7 +3804,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
         send_to_char( "  set char <name> faction <vnum> <value>\n\r\n\r", ch );
         send_to_char( "Field being one of:\n\r", ch );
         send_to_char( "  str int wis dex con sex class level\n\r", ch );
-        send_to_char( "  race gold hp mana move practice align\n\r", ch );
+        send_to_char( "  race gold hp mana move practice align age\n\r", ch );
         send_to_char( "  train thirst drunk full security recall\n\r", ch );
         send_to_char( "  vlower vupper whorace whoprefix\n\r", ch );
 /*      send_to_char( "    clan\n\r",ch ); */
@@ -4116,6 +4116,18 @@ void do_mset( CHAR_DATA * ch, char *argument )
             return;
         }
         victim->alignment = value;
+        return;
+    }
+    
+    if ( !str_prefix( arg2, "age" ) )
+    {
+        if ( value < 1 || value > 30000 )
+        {
+            send_to_char( "Age range is 1 to 30000.\n\r", ch );
+            return;
+        }
+        if ( !IS_NPC( victim ))
+            victim->start_age = value;
         return;
     }
 
