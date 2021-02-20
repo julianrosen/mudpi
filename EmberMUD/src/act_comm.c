@@ -96,12 +96,21 @@ void command_not_found( CHAR_DATA * ch )
 int bw_strlen( char * str )
 {
     int n, a = strlen(str);
-    for(n=0;n<strlen(str)-1;n++)
+    for( n=0 ; n+1 < strlen(str) ; n++ )
     {
-        if ( str[n]=='`' && strchr("kygbrcmwKYGBRCMW",str[n+1]) != NULL )
+        if ( str[n] == '`' && strchr( "kygbrcmwKYGBRCMW", str[n+1] ) != NULL )
             a -= 2;
     }
     return a;
+}
+
+// Lengthen str to have display length len
+void lengthen( char * str, int len )
+{
+    int n,k;
+    k = bw_strlen(str);
+    for ( n = 0; n+k < len; n++)
+        strcat( str, " " );
 }
 
 /* JR: */
