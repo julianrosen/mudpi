@@ -860,7 +860,7 @@ int get_trust( CHAR_DATA * ch )
  */
 int get_age( CHAR_DATA * ch )
 {
-    return STARTING_AGE + ( ch->played + ( int ) ( current_time - ch->logon ) ) / 72000;
+    return GET_AGE( ch );
 }
 
 /* command for retrieving stats */
@@ -2564,7 +2564,6 @@ CHAR_DATA *get_player_world( CHAR_DATA * ch, char *argument )
 
     number = number_argument( argument, arg2 );
     count = 0;
-
     for ( wch = player_list; wch != NULL; wch = wch->next_player )
     {
         if ( wch->in_room == NULL || !can_see( ch, wch )
@@ -2573,7 +2572,6 @@ CHAR_DATA *get_player_world( CHAR_DATA * ch, char *argument )
         if ( ++count == number )
             return wch;
     }
-
     return NULL;
 }
 
