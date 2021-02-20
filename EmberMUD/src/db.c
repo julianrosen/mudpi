@@ -311,7 +311,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
         CHAR_DATA *och = CH( d );
         d_next = d->next;       /* We delete from the list , so need to save this */
 
-        if ( !d->character || d->connected < 0 )    /* drop those logging on */
+        if ( !d->character || d->connected > 0 )    /* drop those logging on */ // JR change < to >
         {
             write_to_descriptor( d->descriptor,
                                  "\n\rSorry, we are rebooting. Please reconnect.\n\r",
@@ -1181,7 +1181,6 @@ void load_helps( FILE * fp )
         if ( pHelp->keyword[0] == '$' )
             break;
         pHelp->text = fread_string( fp );
-
         if ( !str_cmp( pHelp->keyword, "greeting" ) )
             help_greeting = pHelp->text;
 
@@ -2898,7 +2897,6 @@ long long flag_convert( char letter )
 void fread_to_eol( FILE * fp )
 {
     signed char c;
-
     do
     {
         c = getc( fp );
@@ -2947,6 +2945,7 @@ char *get_word( FILE * fp )
             return NULL;
         if ( ( len > MAX_INPUT_LENGTH ) || ( isspace( ch ) ) )
         {
+            ungetc( ch, fp ); // JR
             *word = '\0';
             return top;
         }
