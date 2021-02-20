@@ -1068,278 +1068,161 @@ long exp_per_level( CHAR_DATA * ch, int points )
     switch ( ch->level )
     {
     case 1:
-        expl = 1000;
+        expl = 800;
         break;
     case 2:
-        expl = 1000;
+        expl = 1200;
         break;
     case 3:
         expl = 2000;
         break;
     case 4:
-        expl = 3000;
+        expl = 3200;
         break;
     case 5:
-        expl = 5000;
+        expl = 5500;
         break;
     case 6:
-        expl = 8000;
+        expl = 9000;
         break;
     case 7:
-        expl = 13000;
+        expl = 15000;
         break;
     case 8:
-        expl = 21000;
+        expl = 25000;
         break;
     case 9:
-        expl = 34000;
+        expl = 38000;
         break;
     case 10:
-        expl = 55000;
+        expl = 65000;
         break;
     case 11:
-        expl = 80000;
+        expl = 100000;
         break;
     case 12:
-        expl = 120000;
-        break;
-    case 13:
         expl = 170000;
         break;
+    case 13:
+        expl = 250000;
+        break;
     case 14:
-        expl = 240000;
+        expl = 350000;
         break;
     case 15:
-        expl = 320000;
+        expl = 450000;
         break;
     case 16:
-        expl = 410000;
+        expl = 600000;
         break;
     case 17:
-        expl = 520000;
+        expl = 800000;
         break;
     case 18:
-        expl = 640000;
+        expl = 1100000;
         break;
     case 19:
-        expl = 750000;
+        expl = 1650000;
         break;
     case 20:
-        expl = 1300000;
-        break;
-    case 21:
-        expl = 1600000;
-        break;
-    case 22:
-        expl = 2000000;
-        break;
-    case 23:
         expl = 2400000;
         break;
+    case 21:
+        expl = 3200000;
+        break;
+    case 22:
+        expl = 4000000;
+        break;
+    case 23:
+        expl = 4800000;
+        break;
     case 24:
-        expl = 2800000;
+        expl = 5600000;
         break;
-    case 25:
-        expl = 3370000;
-        break;
-    case 26:
-        expl = 3700000;
-        break;
-    case 27:
-        expl = 4100000;
-        break;
-    case 28:
-        expl = 4600000;
-        break;
-    case 29:
-        expl = 5000000;
-        break;
-    case 30:
-        expl = 5400000;
-        break;
-    case 31:
-        expl = 5800000;
-        break;
-    case 32:
-        expl = 6200000;
-        break;
-    case 33:
-        expl = 6600000;
-        break;
-    case 34:
-        expl = 7000000;
-        break;
-    case 35:
-        expl = 7500000;
-        break;
-    case 36:
-        expl = 8000000;
-        break;
-    case 37:
-        expl = 8400000;
-        break;
-    case 38:
-        expl = 8900000;
-        break;
-    case 39:
-        expl = 9400000;
-        break;
-    case 40:
-        expl = 9900000;
+    case 25:case 26:case 27:case 28:case 29:
+    case 30:case 31:case 32:case 33:case 34:
+    case 35:case 36:case 37:case 38:case 39:case 40:
+        expl = 5500000 + 1000000*(ch->level - 25);
         break;
     case 41:
-        expl = 10400000;
+        expl = 22600000;
         break;
     case 42:
-        expl = 10800000;
+        expl = 23700000;
         break;
     case 43:
-        expl = 11200000;
+        expl = 24900000;
         break;
     case 44:
-        expl = 11600000;
+        expl = 26200000;
         break;
     case 45:
-        expl = 12000000;
+        expl = 27500000;
         break;
     case 46:
-        expl = 12400000;
+        expl = 28900000;
         break;
     case 47:
-        expl = 12800000;
+        expl = 30400000;
         break;
     case 48:
-        expl = 13200000;
+        expl = 31900000;
         break;
     case 49:
-        expl = 13600000;
+        expl = 33500000;
         break;
     case 50:
-        expl = 14000000;
+        expl = 35100000;
         break;
-    case 51:
-        expl = 15000000;
-        break;
-    case 52:
-        expl = 16000000;
-        break;
-    case 53:
-        expl = 17000000;
-        break;
-    case 54:
-        expl = 18000000;
-        break;
-    case 55:
-        expl = 19000000;
-        break;
-    case 56:
-        expl = 20000000;
-        break;
-    case 57:
-        expl = 21000000;
-        break;
-    case 58:
-        expl = 22000000;
-        break;
-    case 59:
-        expl = 23000000;
-        break;
-    case 60:
-        expl = 24000000;
-        break;
-
-    case 61:
-        expl = 25000000;
-        break;
-    case 62:
-        expl = 26000000;
-        break;
-    case 63:
-        expl = 27000000;
-        break;
-    case 64:
-        expl = 28000000;
-        break;
-    case 65:
-        expl = 29000000;
-        break;
-    case 66:
-        expl = 30000000;
-        break;
-    case 67:
-        expl = 31000000;
-        break;
-    case 68:
-        expl = 32000000;
-        break;
-    case 69:
-        expl = 33000000;
-        break;
-    case 70:
-        expl = 34000000;
-        break;
-    case 71:
-        expl = 35000000;
-        break;
-    case 72:
-        expl = 36000000;
-        break;
-    case 73:
-        expl = 37000000;
-        break;
-    case 74:
-        expl = 38000000;
-        break;
-    case 75:
-        expl = 39000000;
-        break;
-    case 76:
-        expl = 40000000;
-        break;
-    case 77:
-        expl = 41000000;
-        break;
+    case 51:case 52:case 53:case 54:case 55:
+    case 56:case 57:case 58:case 59:case 60:
+    case 61:case 62:case 63:case 64:case 65:
+    case 66:case 67:case 68:case 69:case 70:
+    case 71:case 72:case 73:case 74:case 75:
+    case 76:case 77:
+            expl = 35100000 + 1600000*(ch->level-50);
+            break;
     case 78:
-        expl = 42000000;
+        expl = 80000000;
         break;
     case 79:
-        expl = 43000000;
+        expl = 82000000;
         break;
     case 80:
-        expl = 46000000;
+        expl = 85000000;
         break;
     case 81:
-        expl = 48000000;
+        expl = 89000000;
         break;
     case 82:
-        expl = 50000000;
+        expl = 94000000;
         break;
     case 83:
-        expl = 52000000;
+        expl = 100000000;
         break;
     case 84:
-        expl = 54000000;
+        expl = 107000000;
         break;
     case 85:
-        expl = 56000000;
+        expl = 115000000;
         break;
     case 86:
-        expl = 58000000;
+        expl = 125000000;
         break;
     case 87:
-        expl = 60000000;
+        expl = 140000000;
         break;
     case 88:
-        expl = 62000000;
+        expl = 160000000;
         break;
     case 89:
-        expl = 64000000;
+        expl = 190000000;
         break;
     case 90:
-        expl = 66000000;
+        expl = 230000000;
         break;
     case 91:
-        expl = 70000000;
+        expl = 280000000;
         break;
     case 92:
         expl = 999999999;
