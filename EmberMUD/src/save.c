@@ -226,9 +226,14 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
     if ( ch->trust != 0 )
         fprintf( fp, "Tru  %d\n", ch->trust );
     fprintf( fp, "Sec  %d\n", ch->pcdata->security );   /* OLC */
+    
+    if ( IS_SET( ch->act, PLR_BUILDING) )
+        fprintf( fp, "OLC %d\n", ch->desc->editor ); // JR: recover editing state after hotboot
+
     fprintf( fp, "Logn %d\n", ( int ) ( ch->logon ) );  /* Added for finger command */
     fprintf( fp, "Plyd %d\n",
              ch->played + ( int ) ( current_time - ch->logon ) );
+    fprintf( fp, "Age %d\n", ch->start_age );
     fprintf( fp, "Note %d\n", ( int ) ch->last_note );
     fprintf( fp, "Scro %d\n", ch->lines );
     fprintf( fp, "Room %d\n",
@@ -648,6 +653,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->race = race_lookup( "human" );
     ch->affected_by = 0;
     ch->newaff[0] = 0;
+    ch->start_age = 0; // JR
     ch->act = PLR_NOSUMMON
         | PLR_AUTOEXIT | PLR_AUTOLOOT | PLR_AUTOSAC | PLR_AUTOGOLD | PLR_AUTOTRACK;
     ch->comm = COMM_COMBINE | COMM_PROMPT;
@@ -683,9 +689,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->pcdata->condition[COND_THIRST] = 48;
     ch->pcdata->condition[COND_FULL] = 48;
     ch->pcdata->security = 0;   /* OLC */
-    ch->pcdata->prompt =
-        /*str_dup( "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> " ); */
-        str_dup( PROMPT_START ); /* JR changed default */
+    ch->pcdata->prompt = str_dup( PROMPT_DEFAULT ); /* JR changed default */
 /*    ch->pcdata->clan			= 0; */
     ch->beep = TRUE;
     ch->anonymous = FALSE;
@@ -868,12 +872,10 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
     char *word = NULL;
     int count = 0;
     bool fMatch = FALSE;
-
     for ( ;; )
     {
         word = feof( fp ) ? "End" : fread_word( fp );
         fMatch = FALSE;
-
         switch ( UPPER( word[0] ) )
         {
         case '*':
@@ -890,6 +892,7 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
             KEY( "Alignment", ch->alignment, fread_number( fp ) );
             KEY( "Alig", ch->alignment, fread_number( fp ) );
             KEY( "Anon", ch->anonymous, fread_number( fp ) );
+            KEY( "Age", ch->start_age, fread_number( fp ) );
 
             if ( !str_cmp( word, "Alias" ) )
             {
@@ -1093,6 +1096,10 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
                     ch->desc->ansi = TRUE;
                 else
                     ch->desc->ansi = FALSE;
+                if ( ch->start_age == 0 )
+                {
+                    ch->start_age = number_range( pc_race_table[ch->race].age[0], pc_race_table[ch->race].age[1] ); // JR: for old chars
+                }
                 return;
             }
             KEY( "Eml", ch->pcdata->email, fread_string( fp ) );
@@ -1189,6 +1196,9 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
             KEY( "Neme", ch->pcdata->nemesis, fread_string( fp ) );
             KEY( "Note", ch->last_note, fread_number( fp ) );
             break;
+        
+        case 'O':
+            KEY( "OLC", ch->desc->editor, fread_number( fp ) );
 
         case 'P':
             KEY( "Password", ch->pcdata->pwd, fread_string( fp ) );
