@@ -4049,7 +4049,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                     free( word );
             }
             fclose( fp );
-            age += played/10;
+            age += played/72000;
         }
         else
         {
