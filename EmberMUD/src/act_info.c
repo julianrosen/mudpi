@@ -3981,7 +3981,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
             system( buf );
         }
 #endif
-        printf("1\n");
         sprintf( pfile, "%s/%s", sysconfig.player_dir, name );
         if ( ( fp = fopen( pfile, "r" ) ) != NULL )
         {
@@ -4048,7 +4047,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 fread_to_eol( fp );
                 if ( word )
                     free( word );
-            }printf("2\n");
+            }
             fclose( fp );
             age += played/10;
         }
@@ -4058,7 +4057,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
             return;
         }
     }
-    printf("3\n");
     sprintf( buf,
              "\n\r      `y/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/~~\\\n\r" );
     send_to_char( buf, ch );
@@ -4071,9 +4069,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     send_to_char( buf, ch );
     sprintf( buf, "     | `GGender: `Y%-10s", Gender( sex ) );
     lengthen( buf, 26 );
-    printf("4\n");
     sprintf( buf + strlen(buf), "`W%s %s ", He_she( sex ), be_verb( sex ));
-    printf("4.5\n");
     if ( nclan > 0 )
     {
         clan = get_clan( nclan );
@@ -4103,7 +4099,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
     }
     else
         sprintf( buf + strlen(buf), "not a member of any clan." );
-    printf("5\n");
     lengthen( buf, 71 );
     strcat( buf, "`y|\n\r" );
     send_to_char( buf, ch );
@@ -4113,7 +4108,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
     lengthen( buf, 71 );
     strcat( buf, "`y|\n\r" );
     send_to_char( buf, ch );
-    printf("6\n");
     sprintf( buf, "     | `GAge  : `Y%d", age );
     lengthen( buf, 26 );
     sprintf( buf + strlen(buf), "`W%s %s %s %s %s.`y",
@@ -4126,7 +4120,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
     send_to_char( buf, ch );
     sprintf( buf, "     | `GPK kills : `Y%d", pk_kills);
     lengthen( buf, 26 );
-    printf("7\n");
     sprintf( buf + strlen(buf), "`WLast killed by: %s`y", nemesis );
     lengthen( buf, 71 );
     strcat( buf, "`y|\n\r" );
@@ -4140,7 +4133,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
     sprintf( buf, "     | `GIncarnations:`Y %d`y", incarnations );
     lengthen( buf, 71 );
     strcat( buf, "`y|\n\r" );
-    printf("8\n");
     send_to_char( buf, ch );
     sprintf( buf, "     | `GSpouse:`Y %s`y", spouse );
     lengthen( buf, 71 );
