@@ -1198,7 +1198,7 @@ void display_resets( CHAR_DATA * ch )
     final[0] = '\0';
 
     send_to_char
-        ( " No. Loads    Description       Location         Vnum    Max  Description"
+        ( " No.  Loads    Description       Location         Vnum    Max  Description"
           "\n\r"
           "==== ======== ============= =================== ======== ===== ==========="
           "\n\r", ch );
@@ -1217,33 +1217,31 @@ void display_resets( CHAR_DATA * ch )
         switch ( pReset->command )
         {
         default:
-            sprintf( buf, "Bad reset command: %c.", pReset->command );
-            strcat( final, buf );
+            sprintf( final + strlen(final), "Bad reset command: %c.\n\r", pReset->command );
             break;
 
         case 'M':
             if ( !( pMobIndex = get_mob_index( pReset->vnum ) ) )
             {
-                sprintf( buf, "Load Mobile - Bad Mob %d\n\r", pReset->vnum );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Load Mobile - Bad Mob %d\n\r", pReset->vnum );
                 continue;
             }
 
             if ( !( pRoomIndex = get_room_index( pReset->arg3 ) ) )
             {
-                sprintf( buf, "Load Mobile - Bad Room %d\n\r", pReset->arg3 );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Load Mobile - Bad Room %d\n\r", pReset->arg3 );
                 continue;
             }
 
             pMob = pMobIndex;
-            sprintf( buf,
-                     "M[%5d] %-13.13s in room             R[%5d] [%3d] %-15.15s\n\r",
-                     pReset->vnum, pMob->short_descr, pReset->arg3,
+            sprintf( final + strlen(final),"M[%5d] %s", pReset->vnum, pMob->short_descr);
+            lengthen( final, 27 );
+            sprintf( final + strlen(final), " `win room             R[%5d] [%3d] %s",
+                      pReset->arg3,
                      ( pReset->arg2 == 0 ) ? 1 : pReset->arg2,
                      pRoomIndex->name );
-            strcat( final, buf );
-
+            lengthen( final, 78 );
+            sprintf( final + strlen(final), "\n\r" );
             /*
              * Check for pet shop.
              * -------------------
@@ -1262,8 +1260,7 @@ void display_resets( CHAR_DATA * ch )
         case 'O':
             if ( !( pObjIndex = get_obj_index( pReset->vnum ) ) )
             {
-                sprintf( buf, "Load Object - Bad Object %d\n\r", pReset->vnum );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Load Object - Bad Object %d\n\r", pReset->vnum );
                 continue;
             }
 
@@ -1271,24 +1268,22 @@ void display_resets( CHAR_DATA * ch )
 
             if ( !( pRoomIndex = get_room_index( pReset->arg3 ) ) )
             {
-                sprintf( buf, "Load Object - Bad Room %d\n\r", pReset->arg3 );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Load Object - Bad Room %d\n\r", pReset->arg3 );
                 continue;
             }
 
-            sprintf( buf, "O[%5d] %-13.13s in room             "
-                     "R[%5d]       %-15.15s\n\r",
-                     pReset->vnum, pObj->short_descr,
+            sprintf( final + strlen(final), "O[%5d] %s", pReset->vnum, pObj->short_descr);
+            lengthen(final, 27);
+            sprintf( final + strlen(final), " `win room             R[%5d]       %s",
                      pReset->arg3, pRoomIndex->name );
-            strcat( final, buf );
-
+            lengthen( final, 78 );
+            sprintf( final + strlen(final), "\n\r" );
             break;
 
         case 'P':
             if ( !( pObjIndex = get_obj_index( pReset->vnum ) ) )
             {
-                sprintf( buf, "Put Object - Bad Object %d\n\r", pReset->vnum );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Put Object - Bad Object %d\n\r", pReset->vnum );
                 continue;
             }
 
@@ -1296,28 +1291,25 @@ void display_resets( CHAR_DATA * ch )
 
             if ( !( pObjToIndex = get_obj_index( pReset->arg3 ) ) )
             {
-                sprintf( buf, "Put Object - Bad To Object %d\n\r",
+                sprintf( final + strlen(final), "Put Object - Bad To Object %d\n\r",
                          pReset->arg3 );
-                strcat( final, buf );
                 continue;
             }
 
-            sprintf( buf,
-                     "O[%5d] %-13.13s inside              O[%5d]       %-15.15s\n\r",
-                     pReset->vnum,
-                     pObj->short_descr,
+            sprintf( final + strlen(final), "O[%5d] %s", pReset->vnum, pObj->short_descr);
+            lengthen( final, 27 );
+            sprintf( final + strlen(final), " `winside              O[%5d]       %s",
                      pReset->arg3, pObjToIndex->short_descr );
-            strcat( final, buf );
-
+            lengthen( final, 78 );
+            sprintf( final + strlen(final), "\n\r" );
             break;
 
         case 'G':
         case 'E':
             if ( !( pObjIndex = get_obj_index( pReset->vnum ) ) )
             {
-                sprintf( buf, "Give/Equip Object - Bad Object %d\n\r",
+                sprintf( final + strlen(final), "Give/Equip Object - Bad Object %d\n\r",
                          pReset->vnum );
-                strcat( final, buf );
                 continue;
             }
 
@@ -1325,29 +1317,33 @@ void display_resets( CHAR_DATA * ch )
 
             if ( !pMob )
             {
-                sprintf( buf, "Give/Equip Object - No Previous Mobile\n\r" );
-                strcat( final, buf );
+                sprintf( final + strlen(final), "Give/Equip Object - No Previous Mobile\n\r" );
                 break;
             }
 
             if ( pMob->pShop )
             {
-                sprintf( buf,
-                         "O[%5d] %-13.13s in the inventory of S[%5d]       %-15.15s\n\r",
-                         pReset->vnum,
-                         pObj->short_descr, pMob->vnum, pMob->short_descr );
+                sprintf( final + strlen(final), "O[%5d] %s",pReset->vnum,
+                         pObj->short_descr);
+                lengthen( final, 27);
+                sprintf( final + strlen(final), " `win the inventory of S[%5d]       %s",
+                         pMob->vnum, pMob->short_descr );
+                lengthen( final, 78 );
+                sprintf( final + strlen(final), "\n\r" );
             }
             else
-                sprintf( buf,
-                         "O[%5d] %-13.13s %-19.19s M[%5d]       %-15.15s\n\r",
-                         pReset->vnum,
-                         pObj->short_descr,
-                         ( pReset->command == 'G' ) ?
+            { //??
+                sprintf( final + strlen(final), "O[%5d] %s", pReset->vnum, pObj->short_descr);
+                lengthen( final, 27 );      
+                sprintf( final + strlen(final), " `w%-19.19s",
+                        ( pReset->command == 'G' ) ?
                          flag_string( wear_loc_strings, WEAR_NONE )
-                         : flag_string( wear_loc_strings, pReset->arg3 ),
-                         pMob->vnum, pMob->short_descr );
-            strcat( final, buf );
-
+                         : flag_string( wear_loc_strings, pReset->arg3 ));
+                lengthen( final, 47 );
+                sprintf( final, "`wM[%5d]       %s", pMob->vnum, pMob->short_descr );
+                lengthen( final, 78 );
+                sprintf( final + strlen(final), "\n\r" );
+            } //??
             break;
 
             /*
@@ -1357,13 +1353,15 @@ void display_resets( CHAR_DATA * ch )
              */
         case 'D':
             pRoomIndex = get_room_index( pReset->vnum );
-            sprintf( buf, "R[%5d] %s door of %-19.19s reset to %s\n\r",
+            sprintf( final + strlen(final), "R[%5d] %s",
                      pReset->vnum,
-                     capitalize( dir_name[pReset->arg2] ),
+                     capitalize( dir_name[pReset->arg2] ));
+            lengthen( final, 27 );
+            sprintf( final + strlen(final), " `wdoor of %-19.19s reset to %s",
                      pRoomIndex->name,
                      flag_string( door_resets, pReset->arg3 ) );
-            strcat( final, buf );
-
+            lengthen( final, 78 );
+            sprintf( final + strlen(final), "\n\r" );
             break;
             /*
              * End Doors Comment.
@@ -1371,16 +1369,13 @@ void display_resets( CHAR_DATA * ch )
         case 'R':
             if ( !( pRoomIndex = get_room_index( pReset->vnum ) ) )
             {
-                sprintf( buf, "Randomize Exits - Bad Room %d\n\r",
+                sprintf( final + strlen(final), "Randomize Exits - Bad Room %d\n\r",
                          pReset->vnum );
-                strcat( final, buf );
                 continue;
             }
 
-            sprintf( buf, "R[%5d] Exits are randomized in %s\n\r",
+            sprintf( final + strlen(final), "R[%5d] Exits are randomized in %s\n\r",
                      pReset->vnum, pRoomIndex->name );
-            strcat( final, buf );
-
             break;
         }
         send_to_char( final, ch );
