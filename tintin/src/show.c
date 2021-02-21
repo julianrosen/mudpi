@@ -546,7 +546,7 @@ void tintin_puts3(struct session *ses, char *string)
 
 	output = str_alloc_stack(0);
 
-	if (strip_vt102_strlen(ses, ses->more_output) != 0)
+	if (strip_vt102_strlen(ses, ses->more_output) != 0 )
 	{
 		str_cpy_printf(&output, "\n%s", string);
 	}
@@ -566,7 +566,9 @@ void tintin_puts3(struct session *ses, char *string)
 			goto_pos(ses, ses->split->bot_row, ses->split->top_col);
 		}
 
-		print_line(ses, &output, FALSE);
+		print_line(ses, &output, TRUE); // JR: FALSE->TRUE
+                                        // Don't display newline
+                                        // Mud will always print newline
 
 		if (!HAS_BIT(ses->flags, SES_FLAG_READMUD) && IS_SPLIT(ses))
 		{

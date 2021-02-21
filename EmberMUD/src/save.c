@@ -226,10 +226,6 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
     if ( ch->trust != 0 )
         fprintf( fp, "Tru  %d\n", ch->trust );
     fprintf( fp, "Sec  %d\n", ch->pcdata->security );   /* OLC */
-    
-    //if ( IS_SET( ch->act, PLR_BUILDING) )
-    //    fprintf( fp, "OLC %d\n", ch->desc->editor ); // JR: recover editing state after hotboot
-
     fprintf( fp, "Logn %d\n", ( int ) ( ch->logon ) );  /* Added for finger command */
     fprintf( fp, "Plyd %d\n",
              ch->played + ( int ) ( current_time - ch->logon ) );

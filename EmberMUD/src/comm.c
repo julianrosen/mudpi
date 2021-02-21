@@ -1497,7 +1497,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     /*
      * Initial \n\r if needed.
      */
-    if ( d->outtop == 0 && !d->fcommand )
+    if ( d->outtop == 0 )// && !d->fcommand ) // JR temp
     {
         d->outbuf[0] = '\n';
         d->outbuf[1] = '\r';
@@ -2324,6 +2324,7 @@ check_ban function.
             //         figure_difference( ch->gen_data->points_chosen ) );
             //if ( ch->pcdata->points < 40 )
             //    ch->train = ( 40 - ch->pcdata->points + 1 ) / 2; /* What is this? Seems to be overwritten anyway. */
+
             ch->train = (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS;
             ch->pcdata->points = CP_MAX;
             //send_to_char( buf, ch );
@@ -2664,7 +2665,7 @@ void send_to_char( const char *txt, CHAR_DATA * ch )
 {
     if ( txt != NULL && ch->desc != NULL )
     {
-        //write_to_buffer( ch->desc, "`w", 1 ); // JR: trying to fix a text color bug
+        //write_to_buffer( ch->desc, "`w", 2 ); // JR: trying to fix a text color bug
         write_to_buffer( ch->desc, txt, strlen( txt ) );
     }
         

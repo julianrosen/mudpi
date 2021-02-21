@@ -796,7 +796,6 @@ void show_line_numbers( CHAR_DATA * ch, char *string, bool color )
                  || ( *string == '\r' && *( string + 1 ) == '\n' ) )
             {
                  string += 2;
-                printf("OMG carriage return\b");
             }
             else
                 string++;

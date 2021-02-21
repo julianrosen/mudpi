@@ -1124,8 +1124,6 @@ void load_area( FILE * fp )
             {
                 pArea->lvnum = fread_number( fp );
                 pArea->uvnum = fread_number( fp );
-                if (pArea->lvnum<0 || pArea->uvnum<0)
-                    printf("Negative vnums: %ld %ld!!!\n",pArea->lvnum,pArea->uvnum); // JR: debug
             }
             break;
         case 'E':
@@ -1145,9 +1143,6 @@ void load_area( FILE * fp )
                       pTempArea = pTempArea->next )
                 {
                     if ( pTempArea->vnum != pArea->vnum
-                         && (pTempArea->lvnum < 0 || pTempArea->uvnum < 0))
-                        printf("Neg: %ld %ld\n",pTempArea->lvnum,pTempArea->uvnum);
-                    if ( pTempArea->vnum != pArea->vnum
                          &&
                          ( ( pArea->lvnum >= pTempArea->lvnum
                              && pArea->lvnum <= pTempArea->uvnum )
@@ -1155,9 +1150,6 @@ void load_area( FILE * fp )
                                 && pArea->uvnum <= pTempArea->uvnum ) ) )
                     {
                         bug( "Overlapping ssvnum range!", pArea->name);
-                        printf("%s %ld %ld %s %ld %ld\n",pArea->name,
-                            pArea->lvnum, pArea->uvnum, pTempArea->name,
-                           pTempArea->lvnum, pTempArea->uvnum); // JR: debug
 #if defined(cbuilder)
                         return -1;
 #else

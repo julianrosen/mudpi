@@ -917,6 +917,7 @@ void list_group_costs( CHAR_DATA * ch )
 {
     char buf[MAX_STRING_LENGTH];
     int gn, sn, col;
+    int race_points = pc_race_table[ch->race].points;
 
     if ( IS_NPC( ch ) )
         return;
@@ -979,7 +980,8 @@ void list_group_costs( CHAR_DATA * ch )
     //    sprintf( buf, "Creation points: %d (Minimum required: %d)\n\r", ch->pcdata->points, CP_MIN_CREATE );
     //else
     //    sprintf( buf, "Creation points: %d\n\r", ch->pcdata->points );
-    sprintf( buf, "Creation points spent: %d (max %i)\n\r", ch->pcdata->points, CP_MAX );
+    sprintf( buf, "Creation points spent: %d (max %i)\n\r", 
+        ch->pcdata->points - race_points, CP_CAP); // JR JR
     send_to_char( buf, ch );
     //sprintf( buf,
     //         "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
@@ -993,6 +995,7 @@ void list_group_chosen( CHAR_DATA * ch )
 {
     char buf[MAX_STRING_LENGTH];
     int gn, sn, col;
+    int race_points = pc_race_table[ch->race].points;
 
     if ( IS_NPC( ch ) )
         return;
@@ -1047,7 +1050,8 @@ void list_group_chosen( CHAR_DATA * ch )
         send_to_char( "\n\r", ch );
     send_to_char( "\n\r", ch );
 
-    sprintf( buf, "Creation points spent: %d (max %i)\n\r", ch->pcdata->points, CP_MAX );
+    sprintf( buf, "Creation points spent: %d (max %i)\n\r",
+            ch->pcdata->points - race_points, CP_CAP );
     send_to_char( buf, ch );
     //sprintf( buf,
     //         "Experience modifier: %d%% (Percent of difference from the norm)\n\r",
@@ -1289,7 +1293,7 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
     int gn, sn, i;
-
+    int race_points = pc_race_table[ch->race].points;
     if ( argument[0] == '\0' )
         return FALSE;
 
@@ -1365,7 +1369,7 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
                     return TRUE;
                 }
             }
-            if ( ch->pcdata->points + group_table[gn].rating[ch->Class] <= CP_MAX )
+            if ( ch->pcdata->points + group_table[gn].rating[ch->Class] - race_points <= CP_CAP )
             {
                 sprintf( buf, "%s group added\n\r", group_table[gn].name );
                 send_to_char( buf, ch );
@@ -1377,7 +1381,7 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
             }
             else
             {
-                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_MAX );
+                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_CAP );
                 send_to_char( buf, ch );
                 return TRUE;
             }
@@ -1398,7 +1402,7 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
                 send_to_char( "That skill is not available.\n\r", ch );
                 return TRUE;
             }
-            if ( ch->pcdata->points + skill_table[sn].rating[ch->Class] <= CP_MAX )
+            if ( ch->pcdata->points + skill_table[sn].rating[ch->Class]  - race_points <= CP_CAP )
             {
                 sprintf( buf, "%s skill added\n\r", skill_table[sn].name );
                 send_to_char( buf, ch );
@@ -1410,7 +1414,7 @@ bool parse_gen_groups( CHAR_DATA * ch, char *argument )
             }
             else
             {
-                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_MAX );
+                sprintf( buf, "Could not add, exceeds %d cp\n\r", CP_CAP );
                 send_to_char( buf, ch );
                 return TRUE;
             }

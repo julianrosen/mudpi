@@ -389,9 +389,9 @@ unknown~
 A BC C AB DE
 18 0 3000 P
 A
-19 4
-A
 18 -2
+A
+19 4
 #20904
 trunk container~
 a trunk~
@@ -449,11 +449,11 @@ unknown~
 AB C ABC ABD C
 20 3 2500 P
 A
-19 3
+2 2
 A
 18 3
 A
-2 2
+19 3
 #20911
 medusa's hair armor-head~
 medusa's Hair~
@@ -463,11 +463,11 @@ unknown~
 AC AC AC AC 0
 18 10 2000 P
 A
-5 -2
+3 2
 A
 1 1
 A
-3 2
+5 -2
 #20912
 trapdoor key~
 trap door key~
@@ -541,11 +541,11 @@ unknown~
 ADE B B 15 0
 25 2 2500 P
 A
-12 -65
+1 -1
 A
 13 50
 A
-1 -1
+12 -65
 #20921
 invisibility potion potion-defend~
 an invis potion~
@@ -563,13 +563,13 @@ unknown~
 AC AD BC ADE F
 33 15 4000 P
 A
-1 2
-A
-5 1
+4 -3
 A
 2 -3
 A
-4 -3
+5 1
+A
+1 2
 #20923
 trapdoor key~
 a trapdoor key~
@@ -1416,7 +1416,6 @@ M 0 20903 2 20907 Load a serving girl
 M 0 20903 0 20907 Load a serving girl
 M 0 20904 0 20907 Load a musician
 M 0 20905 0 20909 Load a naked woman
-O 0 20904 0 20911 A trunk loaded to The Seceret Room
 O 0 20904 0 20911 A trunk loaded to The Seceret Room
 P 0 20905 0 20904 Voodoo dagger put inside a trunk
 M 0 20905 0 20912 Load a naked woman

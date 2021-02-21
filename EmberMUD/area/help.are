@@ -35,12 +35,12 @@
        greatly increased while sleeping on the temple altar.
 ~
 51 IMOTD~
- You are an immortal.
+You are an immortal.
 
 [Hit Return to continue]
 ~
 -1 NEWS~
- No news yet.
+No news yet.
 ~
 -1 'NEWBIE INFO'~
 . Ah! Another mortal, seeking adventure. You should go through mudschool first,
@@ -51,7 +51,7 @@
  available on most commands and abilities.
 ~
 51 JOBS~
- `RPlease create a job list!
+`RPlease create a job list!
 ~
 -1 RULES~
 . These are the rules of Mudpi.
@@ -3003,7 +3003,6 @@ PECHO <character> <message>                                           `Yadmin
 
  `WSee also: `GSPLIT
 ~
-
 -1 NOFOLLOW COMBINE NOLOOT NOSUMMON COMPACT~
 . `GNOFOLLOW
  COMBINE
@@ -3170,5 +3169,8 @@ PECHO <character> <message>                                           `Yadmin
 <name>'.  Someone's email can be unlisted, if they haven't set their
  e-mail address.
 ~
+
+
 0 $~
+
 #$

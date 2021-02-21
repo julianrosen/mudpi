@@ -165,7 +165,6 @@ void save_mobile( FILE * fp, MOB_INDEX_DATA * pMobIndex )
     char buf[MAX_STRING_LENGTH];
     char letter;
     sh_int race = pMobIndex->race;
-    printf("Saving mob %s: %s %s",pMobIndex->short_descr,pMobIndex->description,fix_string( pMobIndex->description )); // JR debug
     fprintf( fp, "#%d\n", pMobIndex->vnum );
     fprintf( fp, "%s~\n", pMobIndex->player_name );
     fprintf( fp, "%s~\n", pMobIndex->short_descr );

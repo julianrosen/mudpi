@@ -3846,7 +3846,7 @@ void do_search( CHAR_DATA * ch )
              && IS_SET( pexit->exit_info, EX_HIDDEN ) )
         {
             found = TRUE;
-            sprintf( buf, "You found a secret exit %s.\n\r", dir_name[door] );
+            sprintf( buf, "`YYou found a secret exit %s.`w\n\r", dir_name[door] );
             send_to_char( buf, ch );
         }
     }

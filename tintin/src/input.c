@@ -926,9 +926,9 @@ void echo_command(struct session *ses, char *line)
 		return;
 	}
 
-	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_ECHOCOMMAND))
+	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_ECHOCOMMAND)) // JR
 	{
-		sprintf(buffer, "%s%s\e[0m", ses->cmd_color, line);
+        sprintf(buffer, "%s%s\e[0m", ses->cmd_color, line);
 	}
 	else
 	{
@@ -941,13 +941,21 @@ void echo_command(struct session *ses, char *line)
 
 //	if (ses->wrap == gtd->screen->cols)
 	{
-		gtd->level->scroll++;
+		gtd->level->scroll++; // JR
 
-		tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);
+		tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);// JR
 
 		gtd->level->scroll--;
 	}
-	add_line_buffer(ses, buffer, -1);
+    if ( strlen(buffer) > 11 )
+    {
+        strcat( buffer, "; ");
+        add_line_buffer(ses, buffer, TRUE); // JR: -1 -> TRUE
+    }
+    else
+    {
+        tintin_printf2(ses, "\n");
+    }
 }
 
 void init_input(struct session *ses, int top_row, int top_col, int bot_row, int bot_col)

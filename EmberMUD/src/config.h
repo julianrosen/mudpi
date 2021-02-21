@@ -215,7 +215,8 @@ cp. */
 #define CP_MIN_PENALTY  0
 #define CP_PENALTY      0
 #define CP_TRAIN_MIN    15
-#define CP_MAX 50 /* JR: Maximum allowed CP on creation */
+#define CP_MAX 52 /* JR: Maximum allowed CP on creation */
+#define CP_CAP 40
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
@@ -836,7 +837,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 
 /* for newly created characters - Kyle */
 #define STARTING_PRACTICES 10
-#define STARTING_TRAINS 1
+#define STARTING_TRAINS 0
 #define STARTING_TITLE "the plain"
 
 /*Spicey "consider" comments*/
@@ -1913,7 +1914,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
    ROOM_VNUM_MORGUE to its vnum.
  */
 
-#define DAMAGE_BY_AMOUNT
+// #define DAMAGE_BY_AMOUNT
 
 /* The mud defaults to showing damage messages based on the amount of damage done.
    If you with to have the mud show damage messages based on the percentage of total HP taken off the mob/player rather than
@@ -2012,7 +2013,7 @@ checked was inserted.   If you need that on for some reason, uncomment the above
 #define CFG_FACTION_SHOPKEEPER_MAX   0.65   /*  35% discount */
 
 /* Define this to enable the shell wiz-command. */
-#define CFG_SHELL_ENABLED
+//#define CFG_SHELL_ENABLED
 /* Set this if you want to restrict access to the shell wiz-command
  * trust >= CFG_SHELL_LEVEL will have access to the command. */
 #define CFG_SHELL_LEVEL MAX_LEVEL

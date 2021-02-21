@@ -109,8 +109,18 @@ void lengthen( char * str, int len )
 {
     int n,k;
     k = bw_strlen(str);
-    for ( n = 0; n+k < len; n++)
-        strcat( str, " " );
+    if ( k <= len )
+    {
+        for ( n = 0; n+k < len; n++)
+            strcat( str, " " );
+    }
+    else
+    {
+        do
+        {
+            str[strlen(str) - k + len] = '\0';
+        } while ( (k= bw_strlen( str )) > len );
+    }
 }
 
 /* JR: */

@@ -1098,7 +1098,7 @@ REDIT( redit_show )
     sprintf( buf, "Description:\n\r%s", pRoom->description );
     strcat( buf1, buf );
 
-    sprintf( buf, "Name:       [%s]\n\rArea:       [%5d] %s\n\r",
+    sprintf( buf, "`wName:       [%s]\n\rArea:       [%5d] %s\n\r",
              pRoom->name, pRoom->area->vnum, pRoom->area->name );
     strcat( buf1, buf );
 
@@ -2607,7 +2607,7 @@ OEDIT( oedit_show )
         send_to_char( "\n\r", ch );
     }
 
-    sprintf( buf, "Short desc:  %s\n\rLong desc:\n\r     %s\n\r",
+    sprintf( buf, "Short desc:  %s\n\r`wLong desc:\n\r     %s\n\r",
              pObj->short_descr, pObj->description );
     send_to_char( buf, ch );
 
@@ -2773,7 +2773,7 @@ OEDIT( oedit_short )
 
     free_string( &pObj->short_descr );
     pObj->short_descr = str_dup( argument );
-    pObj->short_descr[0] = LOWER( pObj->short_descr[0] );
+    //pObj->short_descr[0] = LOWER( pObj->short_descr[0] ); // JR: Removed, in case short starts with proper noun
 
     send_to_char( "Short description set.\n\r", ch );
     return TRUE;

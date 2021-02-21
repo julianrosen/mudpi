@@ -1,5 +1,5 @@
 #config {speedwalk} {on}
-#split
+#split 0 0
 
 #gag {#SESSION}
 #gag {#TRYING}

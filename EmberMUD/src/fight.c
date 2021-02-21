@@ -721,9 +721,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                 #else
                     sprintf( dstr, "" );
                 #endif
-                sprintf( buf, "`W$p draws life from $n.%s", dstr);
+                sprintf( buf, "`W$p`W draws life from $n.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`WYou feel $p drawing your life away.%s", dstr);
+                sprintf( buf, "`WYou feel $p`W drawing your life away.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 900, DAM_NEGATIVE, FALSE ); // JR: damage->new_damage, dt 1033->0
@@ -740,9 +740,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                     sprintf( dstr, "" );
                 #endif
                 
-                sprintf( buf, "`W$n is burned by $p.%s", dstr);
+                sprintf( buf, "`W$n`W is burned by $p.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`W$p sears your flesh.%s",dstr);
+                sprintf( buf, "`W$p`W sears your flesh.%s",dstr);
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 901, DAM_FIRE, FALSE );
@@ -757,9 +757,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                     sprintf( dstr, "" );
                 #endif
                 
-                sprintf( buf, "`W$p freezes $n.%s", dstr );
+                sprintf( buf, "`W$p`W freezes $n.%s", dstr );
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`WThe cold touch of $p surrounds you with ice.%s", dstr );
+                sprintf( buf, "`WThe cold touch of $p`W surrounds you with ice.%s", dstr );
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 902, DAM_COLD, FALSE );
@@ -3758,7 +3758,6 @@ int cast_xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
 void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
                   bool immune )
 {
-    printf("dam_message\n");
     char buf1[256], buf2[256], buf3[256];
     char buf[3][256]; // JR
     const char *vs;
@@ -4170,36 +4169,7 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
     
     dstr[0] = '\0';  
     
-    
-    if ( MAX_SKILL < dt && dt < TYPE_HIT )
-    {
-        printf("inside if\n");
-        #ifdef SHOW_DAMAGE_TO_CHARS
-            sprintf( dstr, " `w(%d)", dam );
-        #else
-            sprintf( dstr, "" );
-        #endif
-        
-        if ( dt == 900 ) // Draw life
-        {
-            sprintf( buf[0], "`W$p draws life from $N.%s", dstr);
-            sprintf( buf[1], "`WYou feel $p drawing your life away.%s", dstr);
-        }
-        else if ( dt == 901 ) // Burn
-        {
-            sprintf( buf[0], "`W$N is burned by $p.%s", dstr);
-            sprintf( buf[1], "`W$p sears your flesh.%s",dstr);
-        }
-        else if ( dt == 902 ) // Freeze
-        {
-            sprintf( buf[0], "`W$p freezes $N.%s", dstr );
-            sprintf( buf[1], "`WThe cold touch of $p surrounds you with ice.%s", dstr );
-        }
-        strcpy( buf[2], buf[0] );
-    }
-    printf("done if\n");
-    
-    if ( immune || dt > TYPE_HIT || dt < MAX_SKILL )
+    if ( immune || dt != TYPE_HIT )
     {
         if ( dt >= 0 && dt < MAX_SKILL )
                 attack = skill_table[dt].noun_damage;
@@ -4228,14 +4198,13 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             sprintf( buf[2], "%s$n's %s is powerless against you.`w", miss, attack );
         }
     }
-    else if ( dt < MAX_SKILL || dt >= TYPE_HIT )
+    else
     {
         if ( dam == 0)
             col[0] = col[1] = col[2] = miss;
         
         if ( dt == TYPE_HIT )
         {
-            printf("hit\n");
             sprintf( subject[0], "You" );
             sprintf( subject[1], "$n" );
             sprintf( subject[2], "$n" );
@@ -4249,7 +4218,6 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         }
         else
         {
-            printf("non-hit\n");
             sprintf( subject[0], "Your %s", attack );
             sprintf( subject[1], "$n's %s", attack );
             sprintf( subject[2], "$n's %s", attack );
