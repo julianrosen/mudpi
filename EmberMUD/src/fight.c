@@ -34,6 +34,7 @@
 #define THIRD    "`Y" // Color for third party hits
 #define Td       "`y" // Color for third party damage
 
+
 /* command procedures needed */
 DECLARE_DO_FUN( do_emote );
 DECLARE_DO_FUN( do_berserk );
@@ -453,6 +454,7 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
     int gsnnum;
     sn = -1;
     gsnnum = 0;
+    char dstr[15];
 
     /* just in case */
     if ( victim == ch || ch == NULL || victim == NULL )
@@ -685,7 +687,6 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
             if ( 5*diceroll + 38 <= get_skill( ch, gsn_vicious_strike ) )
             {
                 check_improve( ch, gsn_vicious_strike, TRUE, 5 );
-                printf("VS, type %i\n", dt ); // JR debug
                 if ( dice( 1, 10 ) == 1 )
                 {
                     dam += dam * 2;
@@ -716,15 +717,16 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
             {
                 dam = number_range( 1, weapon->level / 5 + 1 );
                 #ifdef SHOW_DAMAGE_TO_CHARS
-                    sprintf( buf, "$p draws life from $n for %i points of damage.",dam);
-                    act( buf, victim, weapon, NULL, TO_ROOM );
-                    sprintf( buf, "You feel $p drawing %i points of your life away.",dam);
-                    act( buf, victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, " `w(%d)", dam );
                 #else
-                    act( "$p draws life from $n.", victim, weapon, NULL, TO_ROOM );
-                    act( "You feel $p drawing your life away.", victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, "" );
                 #endif
-                new_damage( ch, victim, NULL, dam, 0, DAM_NEGATIVE, FALSE ); // JR: damage->new_damage, dt 1033->0
+                sprintf( buf, "`W$p draws life from $n.%s", dstr);
+                act( buf, victim, weapon, NULL, TO_ROOM );
+                sprintf( buf, "`WYou feel $p drawing your life away.%s", dstr);
+                act( buf, victim, weapon, NULL, TO_CHAR );
+
+                new_damage( ch, victim, NULL, dam, 900, DAM_NEGATIVE, FALSE ); // JR: damage->new_damage, dt 1033->0
                 ch->alignment = UMAX( -1000, ch->alignment - 1 );
                 ch->hit += dam / 2;
             }
@@ -733,31 +735,34 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
             {
                 dam = number_range( 1, weapon->level / 4 + 1 );
                 #ifdef SHOW_DAMAGE_TO_CHARS
-                    sprintf( buf, "$n is burned by $p for %i points of damage.",dam);
-                    act( buf, victim, weapon, NULL, TO_ROOM );
-                    sprintf( buf, "Y$p sears your flesh for %i points of damage.",dam);
-                    act( buf, victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, " `w(%d)", dam );
                 #else
-                    act( "$n is burned by $p.", victim, weapon, NULL, TO_ROOM );
-                    act( "$p sears your flesh.", victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, "" );
                 #endif
-                new_damage( ch, victim, NULL, dam, 0, DAM_FIRE, FALSE );
+                
+                sprintf( buf, "`W$n is burned by $p.%s", dstr);
+                act( buf, victim, weapon, NULL, TO_ROOM );
+                sprintf( buf, "`W$p sears your flesh.%s",dstr);
+                act( buf, victim, weapon, NULL, TO_CHAR );
+
+                new_damage( ch, victim, NULL, dam, 901, DAM_FIRE, FALSE );
             }
 
             if ( IS_WEAPON_STAT( weapon, WEAPON_FROST ) )
             {
                 dam = number_range( 1, weapon->level / 6 + 2 );
                 #ifdef SHOW_DAMAGE_TO_CHARS
-                    sprintf( buf, "$p freezes $n for %i points of damage.",dam);
-                    act( buf, victim, weapon, NULL, TO_ROOM );
-                    sprintf( buf, "The cold touch of $p surrounds you with ice for %i points of damage.",dam);
-                    act( buf, victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, " `w(%d)", dam );
                 #else
-                    act( "$p freezes $n.", victim, weapon, NULL, TO_ROOM );
-                    act( "The cold touch of $p surrounds you with ice.",
-                     victim, weapon, NULL, TO_CHAR );
+                    sprintf( dstr, "" );
                 #endif
-                new_damage( ch, victim, NULL, dam, 0, DAM_COLD, FALSE );
+                
+                sprintf( buf, "`W$p freezes $n.%s", dstr );
+                act( buf, victim, weapon, NULL, TO_ROOM );
+                sprintf( buf, "`WThe cold touch of $p surrounds you with ice.%s", dstr );
+                act( buf, victim, weapon, NULL, TO_CHAR );
+
+                new_damage( ch, victim, NULL, dam, 902, DAM_COLD, FALSE );
             }
             if ( IS_WEAPON_STAT( weapon, WEAPON_VORPAL )
                  && number_range( 1,
@@ -3753,7 +3758,9 @@ int cast_xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
 void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
                   bool immune )
 {
+    printf("dam_message\n");
     char buf1[256], buf2[256], buf3[256];
+    char buf[3][256]; // JR
     const char *vs;
     const char *vp;
     const char *attack;
@@ -4146,10 +4153,160 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
 
     punct = ( damp <= 24 ) ? '.' : '!';
 #endif
+    
+    
+    char subject[3][200], *verb[3], object[3][200], dstr[15];
+    char miss[3],you[3],enemy[3],third[3],yd[3],ed[3],td[3];
+    int n;
+    /* Make it easy to modify combat color scheme */
+    strcpy( miss, "`b" ); // Color for hits that miss
+    strcpy( enemy, "`M" ); // Color for hits against you
+    strcpy( ed, "`m" ); // Color for damage against you
+    strcpy( you, "`G" ); // Color for hits by you
+    strcpy( yd, "`g" ); // Color for damage by you
+    strcpy( third, "`Y" ); // Color for third party hits
+    strcpy( td, "`y" ); // Color for third party damage
+    char *col[3] = { you, enemy, third }, *dcol[3] = { yd, ed, td };
+    
+    dstr[0] = '\0';  
+    
+    
+    if ( MAX_SKILL < dt && dt < TYPE_HIT )
+    {
+        printf("inside if\n");
+        #ifdef SHOW_DAMAGE_TO_CHARS
+            sprintf( dstr, " `w(%d)", dam );
+        #else
+            sprintf( dstr, "" );
+        #endif
+        
+        if ( dt == 900 ) // Draw life
+        {
+            sprintf( buf[0], "`W$p draws life from $N.%s", dstr);
+            sprintf( buf[1], "`WYou feel $p drawing your life away.%s", dstr);
+        }
+        else if ( dt == 901 ) // Burn
+        {
+            sprintf( buf[0], "`W$N is burned by $p.%s", dstr);
+            sprintf( buf[1], "`W$p sears your flesh.%s",dstr);
+        }
+        else if ( dt == 902 ) // Freeze
+        {
+            sprintf( buf[0], "`W$p freezes $N.%s", dstr );
+            sprintf( buf[1], "`WThe cold touch of $p surrounds you with ice.%s", dstr );
+        }
+        strcpy( buf[2], buf[0] );
+    }
+    printf("done if\n");
+    
+    if ( immune || dt > TYPE_HIT || dt < MAX_SKILL )
+    {
+        if ( dt >= 0 && dt < MAX_SKILL )
+                attack = skill_table[dt].noun_damage;
+        else if ( dt >= TYPE_HIT && dt <= TYPE_HIT + MAX_DAMAGE_MESSAGE )
+            attack = attack_table[dt - TYPE_HIT].name;
+        else
+        {
+            bug( "Dam_message: bad dt %d.", dt );
+            logf_string( "BUG: ^^ ch: %s victim: %s ", ch->name, victim->name );
+            dt = TYPE_HIT;
+            attack = attack_table[0].name;
+        }
+    }
+    
+    if ( immune )
+    {
+        if ( ch == victim )
+        {
+            sprintf( buf[0], "%s$n is unaffected by $s own %s.`w", miss, attack );
+            sprintf( buf[1], "%sLuckily, you are immune to that.`w", miss );
+        }
+        else
+        {
+            sprintf( buf[0], "%s$N is unaffected by $n's %s!`w", miss, attack );
+            sprintf( buf[1], "%s$N is unaffected by your %s!`w", miss, attack );
+            sprintf( buf[2], "%s$n's %s is powerless against you.`w", miss, attack );
+        }
+    }
+    else if ( dt < MAX_SKILL || dt >= TYPE_HIT )
+    {
+        if ( dam == 0)
+            col[0] = col[1] = col[2] = miss;
+        
+        if ( dt == TYPE_HIT )
+        {
+            printf("hit\n");
+            sprintf( subject[0], "You" );
+            sprintf( subject[1], "$n" );
+            sprintf( subject[2], "$n" );
+            verb[0] = vs; verb[1] = vp; verb[2] = vp;
+            if ( ch == victim )
+            {
+                sprintf( object[0], "yourself" );
+                sprintf( object[1], "$melf" );
+                sprintf( object[2], "$melf" );
+            }
+        }
+        else
+        {
+            printf("non-hit\n");
+            sprintf( subject[0], "Your %s", attack );
+            sprintf( subject[1], "$n's %s", attack );
+            sprintf( subject[2], "$n's %s", attack );
+            verb[0] = verb[1] = verb[2] = vp;
+            if ( ch == victim )
+            {
+                strcpy( object[0], "you");
+                strcpy( object[1], "$n");
+                strcpy( object[2], "$n");
+            }
+        }
+
+        if ( ch != victim )
+        {
+            strcpy( object[0], "$N");
+            strcpy( object[1], "you");
+            strcpy( object[2], "$N");
+        }      
+        #ifdef SHOW_DAMAGE_TO_CHARS
+            if ( dam > 0 )
+                sprintf( dstr, " (%d)", dam );
+        #endif
+        for ( n = 0; n < 3; n++ )
+        {
+            sprintf( buf[n], "%s%s %s%s %s%s%c%s%s",
+               col[n], subject[n],
+                dam > 0 && !immune ? "`R" : "", verb[n],
+                col[n], object[n], punct,
+                dcol[n], dstr
+               );
+        }
+    
+    }
+    
+    if ( ch == victim )
+    {
+        act( buf[0], ch, NULL, NULL, TO_CHAR );
+        act( buf[2], ch, NULL, NULL, TO_ROOM );
+    }
+    else
+    {
+        act( buf[0], ch, NULL, victim, TO_CHAR );
+        act( buf[1], ch, NULL, victim, TO_VICT );
+        act( buf[2], ch, NULL, victim, TO_NOTVICT );
+    }
+
+    return; /*
+    
+
+    
 #ifdef SHOW_DAMAGE_TO_CHARS
     if ( dt == TYPE_HIT )
     {
         if ( dam > 0 )
+        {
+            // Hit yourself
+            
             if ( ch == victim )
             {
                 sprintf( buf1, YOU "$n `R%s" YOU " $melf%c", vp, punct ); // JR: Changed starting color from `w to `Y
@@ -4159,13 +4316,14 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             {
                 sprintf( buf1, THIRD "$n `R%s" THIRD " $N for " Td "%d" THIRD " points of damage%c`w",
                          vp, dam, punct );
-                /*sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
-                         vs, dam, punct );*/
+                //sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
+                         vs, dam, punct );
                 sprintf( buf2, YOU "You `R%s" YOU " $N for " Yd "%d" YOU " points of damage%c`w",
                          vs, dam, punct );
-                sprintf( buf3, ENEMY "$n `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c`w", /* Modified by JR */
+                sprintf( buf3, ENEMY "$n `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c`w", // Modified by JR
                          vp, dam, punct );
             }
+        }
         else if ( ch == victim )
         {
             sprintf( buf1, MISS "$n %s $melf%c`w", vp, punct );
@@ -4174,18 +4332,16 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         else
         {
             // dam == 0
-            /*
-            sprintf( buf1, "`B$n %s`B $N for `g%d`B points of damage%c`w", vp, // JR: `G --> `B
-                     dam, punct );
-            sprintf( buf2, "`BYou %s`B $N for `R%d`B points of damage%c`w", vs, // JR: `Y --> `B
-                     dam, punct );
-            sprintf( buf3, "`B$n %s`B you for `c%d`B points of damage%c`w", vp, // JR: `C --> `B
-                     dam, punct ); */
-            sprintf( buf1, MISS "$n %s" MISS " $N%c`w", vp, punct );
-            sprintf( buf2, MISS "You %s" MISS " $N%c`w", vs, punct );
-            sprintf( buf3, MISS "$n %s" MISS " you%c`w", vp, punct );
-            if ( dam != 0 )
-                    printf("Error: we expected damage to be 0\n\r"); // JR debug
+            
+            //sprintf( buf1, "`B$n %s`B $N for `g%d`B points of damage%c`w", vp, // JR: `G --> `B
+            //         dam, punct );
+            //sprintf( buf2, "`BYou %s`B $N for `R%d`B points of damage%c`w", vs, // JR: `Y --> `B
+            //         dam, punct );
+            //sprintf( buf3, "`B$n %s`B you for `c%d`B points of damage%c`w", vp, // JR: `C --> `B
+            //         dam, punct ); 
+            //sprintf( buf1, MISS "$n %s" MISS " $N%c`w", vp, punct );
+            //sprintf( buf2, MISS "You %s" MISS " $N%c`w", vs, punct );
+            //sprintf( buf3, MISS "$n %s" MISS " you%c`w", vp, punct );
         }
     }
     else
@@ -4245,21 +4401,19 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             else
             {
                 // dam == 0
-                /*
-                sprintf( buf1,
-                         "`B$n's %s %s`B $N for `g%d`B points of damage%c`w", // JR: `G --> `B
-                         attack, vp, dam, punct );
-                sprintf( buf2,
-                         "`BYour %s %s `B$N for `R%d`B points of damage%c`w", // JR: `Y --> `B
-                         attack, vp, dam, punct );
-                sprintf( buf3,
-                         "`B$n's %s %s`B you for `c%d`B points of damage%c`w", // JR: `C --> `B
-                         attack, vp, dam, punct ); */
-                sprintf( buf1, MISS "$n's %s %s" MISS " $N%c`w", attack, vp, punct );
-                sprintf( buf2, MISS "Your %s %s" MISS " $N%c`w", attack, vp, punct );
-                sprintf( buf3, MISS "$n's %s %s" MISS " you%c`w", attack, vp, punct );
-                if ( dam != 0 )
-                    printf("Error: we expected damage to be 0\n\r"); // JR debug
+                
+                //sprintf( buf1,
+                //         "`B$n's %s %s`B $N for `g%d`B points of damage%c`w", // JR: `G --> `B
+                //         attack, vp, dam, punct );
+                //sprintf( buf2,
+                //         "`BYour %s %s `B$N for `R%d`B points of damage%c`w", // JR: `Y --> `B
+                //         attack, vp, dam, punct );
+                //sprintf( buf3,
+                //         "`B$n's %s %s`B you for `c%d`B points of damage%c`w", // JR: `C --> `B
+                //         attack, vp, dam, punct );
+                //sprintf( buf1, MISS "$n's %s %s" MISS " $N%c`w", attack, vp, punct );
+                //sprintf( buf2, MISS "Your %s %s" MISS " $N%c`w", attack, vp, punct );
+                //sprintf( buf3, MISS "$n's %s %s" MISS " you%c`w", attack, vp, punct );
             }
         }
     }
@@ -4361,7 +4515,7 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         act( buf3, ch, NULL, victim, TO_VICT );
     }
 
-    return;
+    return; */
 }
 
 /*
