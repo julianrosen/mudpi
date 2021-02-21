@@ -1497,7 +1497,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     /*
      * Initial \n\r if needed.
      */
-    if ( d->outtop == 0 )// && !d->fcommand ) // JR temp
+    if ( d->outtop == 0 ) // && !d->fcommand ) // JR temp
     {
         d->outbuf[0] = '\n';
         d->outbuf[1] = '\r';

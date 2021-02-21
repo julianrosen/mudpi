@@ -1997,7 +1997,7 @@ void stop_fighting( CHAR_DATA * ch, bool fBoth )
 
             fch->fighting = NULL;
             fch->position = IS_NPC( fch ) ? ch->default_pos : POS_STANDING;
-            if ( fch->exp_stack > 0 )
+            if ( fch->exp_stack >= 0 )
                 sprintf( buf, "`WYou receive %ld experience points.\n\r`w",
                          fch->exp_stack );
             else

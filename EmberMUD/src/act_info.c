@@ -3908,7 +3908,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     CHAR_DATA *victim;
     FILE *fp;
     char pfile[MAX_STRING_LENGTH], *title,tit[MAX_STRING_LENGTH];
-    char *word, *class, *race, *comment, *email, *spouse, *nemesis, *name;
+    char *word, class[50], *race, *comment, *email, *spouse, *nemesis, *name;
     long played = 0, logon = 0;
     char buf2[MAX_STRING_LENGTH], ltime[MAX_STRING_LENGTH];
     unsigned int x;
@@ -3921,7 +3921,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     pfile[0] = '\0';
     word = NULL;
     ltime[0] = '\0';
-    class = NULL;
+    strcpy( class, "individual" );
     race = NULL;
     title = NULL;
     /* clan=0; */
@@ -3957,7 +3957,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
         strcpy( ltime, victim->desc ? "Currently playing" : "Currently link-dead" );
         age = get_age( victim );
         race = pc_race_table[victim->race].name;
-        class = class_table[victim->Class].name;
+        strcpy( class, class_table[victim->Class].name);
         pk_kills = victim->pcdata->pk_kills;
         pk_deaths = victim->pcdata->pk_deaths;
         nemesis = victim->pcdata->nemesis;
@@ -4034,7 +4034,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
                 if ( !str_cmp( word, "Sex" ) )
                     sex = fread_number( fp );
                 if ( !str_cmp( word, "Cla" ) )
-                    class = ( class_table[fread_number( fp )].name );
+                    strcpy( class, class_table[fread_number( fp )].name );
                 if ( !str_cmp( word, "Titl" ) )
                 {
                     title = fread_string( fp );
@@ -4110,6 +4110,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     send_to_char( buf, ch );
     sprintf( buf, "     | `GAge  : `Y%d", age );
     lengthen( buf, 26 );
+    class[0] = LOWER(class[0]);
     sprintf( buf + strlen(buf), "`W%s %s %s %s %s.`y",
              He_she( sex ), be_verb( sex ),
              article( FALSE, FALSE, race ),

@@ -904,7 +904,8 @@ char *str_convert_meta(char *input, int eol)
 
 void echo_command(struct session *ses, char *line)
 {
-	char buffer[BUFFER_SIZE], output[BUFFER_SIZE];
+	char buf2[BUFFER_SIZE], output[BUFFER_SIZE], *c;
+    char *buffer = buf2 + 2;
 
 	DEL_BIT(ses->telopts, TELOPT_FLAG_PROMPT);
 
@@ -938,22 +939,29 @@ void echo_command(struct session *ses, char *line)
 		}
 		sprintf(buffer, "\e[0m");
 	}
-
-//	if (ses->wrap == gtd->screen->cols)
-	{
-		gtd->level->scroll++; // JR
-
-		tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);// JR
-
-		gtd->level->scroll--;
-	}
-    if ( strlen(buffer) > 11 )
+   
+    for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
     {
+        if ( !isspace(*c) )
+            break;
+    }
+    
+    if ( *c != '\e' )
+    {
+        /*buffer -= 2;
+        buffer[0] = '>';
+        buffer[1] = ' ';*/
+        gtd->level->scroll++;
+        tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);
+        gtd->level->scroll--;
         strcat( buffer, "; ");
-        add_line_buffer(ses, buffer, TRUE); // JR: -1 -> TRUE
+        if ( buffer[7] == '#' )
+            tintin_printf2(ses, "\n");
+        add_line_buffer(ses, buffer, TRUE);    
     }
     else
     {
+        sprintf( buffer+strlen(buffer),"(Y)");
         tintin_printf2(ses, "\n");
     }
 }

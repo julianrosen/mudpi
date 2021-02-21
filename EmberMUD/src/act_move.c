@@ -488,7 +488,8 @@ void do_open( CHAR_DATA * ch, char *argument )
         }
 
         REMOVE_BIT( obj->value[1], CONT_CLOSED );
-        send_to_char( "Ok.\n\r", ch );
+        //send_to_char( "Ok.\n\r", ch );
+        act( "You open $p.", ch, obj, NULL, TO_CHAR ); // JR
         act( "$n opens $p.", ch, obj, NULL, TO_ROOM );
         return;
     }
@@ -514,7 +515,8 @@ void do_open( CHAR_DATA * ch, char *argument )
 
         REMOVE_BIT( pexit->exit_info, EX_CLOSED );
         act( "$n opens the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-        send_to_char( "Ok.\n\r", ch );
+        act( "You open the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        //send_to_char( "Ok.\n\r", ch );
 
         /* open the other side */
         if ( ( to_room = pexit->u1.to_room ) != NULL
@@ -567,8 +569,9 @@ void do_close( CHAR_DATA * ch, char *argument )
         }
 
         SET_BIT( obj->value[1], CONT_CLOSED );
-        send_to_char( "Ok.\n\r", ch );
+        //send_to_char( "Ok.\n\r", ch );
         act( "$n closes $p.", ch, obj, NULL, TO_ROOM );
+        act( "You close $p.", ch, obj, NULL, TO_CHAR ); // JR
         return;
     }
 
@@ -588,7 +591,8 @@ void do_close( CHAR_DATA * ch, char *argument )
 
         SET_BIT( pexit->exit_info, EX_CLOSED );
         act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-        send_to_char( "Ok.\n\r", ch );
+        act( "You close the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        //send_to_char( "Ok.\n\r", ch );
 
         /* close the other side */
         if ( ( to_room = pexit->u1.to_room ) != NULL
