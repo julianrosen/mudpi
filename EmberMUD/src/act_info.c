@@ -1424,6 +1424,7 @@ void do_levels( CHAR_DATA * ch, char *argument )
 
 void do_tick( CHAR_DATA * ch, char *argument )
 {
+    // JR: this command is disabled
     if ( IS_NPC( ch ) )
         return;
 

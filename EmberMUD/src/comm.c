@@ -834,11 +834,9 @@ int game_loop( int control )
 
             if ( d->character != NULL && d->character->wait > 0 )
             {
-                printf("pre-if\n");
-                d->character->wait--;
-                //if ( d->character->wait-- % PULSE_VIOLENCE/10 == 0 )
-                write_to_buffer( d, doparseprompt(d->character), 0 );
-                printf("post-f\n");
+                int n = d->character->wait--;
+                if ( n % PULSE_PER_SECOND == 0 || n == PULSE_VIOLENCE/ONE_ROUND )
+                    write_to_buffer( d, doparseprompt(d->character), 0 );
                 
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
                     d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
@@ -1553,7 +1551,8 @@ bool write_to_descriptor( int desc, char *txt, int length, bool color )
     int nWrite;
     int nBlock;
     static char colorbuf[MAX_OUTPUT_BUFFER];
-
+    
+    
     /* Run through the color filter */
     do_color( txt, length, colorbuf, sizeof( colorbuf ), color );
     length = strlen( colorbuf );

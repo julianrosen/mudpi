@@ -44,6 +44,8 @@ void char_update args( ( void ) );
 void regen_update args( ( void ) );
 void obj_update args( ( void ) );
 void aggr_update args( ( void ) );
+void redraw_prompts args( ( void ) );
+
 
 /* used for saving */
 
@@ -384,6 +386,7 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
 {
     int condition;
 
+    //send_to_char( "I'm checking `Ryour condition now\n\r", ch );
     if ( value == 0 || IS_NPC( ch ) || ch->level >= LEVEL_HERO )
         return;
 
@@ -398,21 +401,22 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
         switch ( iCond )
         {
         case COND_FULL:
-            send_to_char( "You are `Ystarving`w! Better find some food soon...\n\r", ch );
+            send_to_char( "`wYou are `Ystarving`w! Better find some food soon...\n\r", ch );
+                //send_to_char( "\n\rEat food please\n\r", ch );
             break;
 
         case COND_THIRST:
-            send_to_char( "You are thirsty.\n\r", ch );
+            send_to_char( "`wYou are thirsty.\n\r", ch );
             break;
 
         case COND_DRUNK:
             if ( condition != 0 )
-                send_to_char( "You are sober.\n\r", ch );
+                send_to_char( "`wYou are sober.\n\r", ch );
             break;
         }
     }
     else if ( iCond == COND_FULL && ch->pcdata->condition[iCond] < HUNGER_THRESH )
-        send_to_char( "You are hungry.\n\r", ch );
+        send_to_char( "`wYou are hungry.\n\r", ch );
 
     return;
 }
@@ -672,6 +676,22 @@ void weather_update( void )
     return;
 }
 
+
+/* Redraw all prompts */
+void redraw_prompts( void )
+{
+    printf("Redrawing");
+    CHAR_DATA * ch;
+    for ( ch = char_list; ch != NULL; ch = ch->next )
+    {
+        if ( !IS_NPC( ch ) )
+        {
+            write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );
+        }
+    }
+    printf("Finished.\n");
+}
+
 /*
  * Update all chars, including mobs.
 */
@@ -773,15 +793,18 @@ void char_update( void )
         }
 
         /* Check to see if the player wants to see "ticks" or not -Lancelight */
-        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 )
+        
+        // JR: Showing ticks is no longer enabled
+        // Prompts update automatically
+        
+        /*if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 )
         {
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
             {
                 write_to_buffer( ch->desc, doparseprompt(ch), 0 );
-                //send_to_char( " ", ch ); // Will this work?
             }
-        }
+        }*/
 
         if ( !IS_NPC( ch ) )
         {
@@ -1398,6 +1421,10 @@ void update_handler( void )
     {
         update_last( "Update:", "regen", "" );
         regen_update(  );
+    }
+    else if ( pulse_point == PULSE_TICK - 2 )
+    {
+        redraw_prompts( );
     }
 
     update_last( "Update:", "aggr", "" );
