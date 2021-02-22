@@ -157,10 +157,6 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	int cnt, purge;
 	int skip, cur_row, cur_col, top_row, bot_row;
 	struct buffer_data *buffer;
-    char buf2[10000], *buf; // JR: temporary debug
-    sprintf( buf2, "[*]%s", line );
-    buf = buf2;
-    //line = newbuf;
     
         
 	push_call("add_line_buffer(%p,%s,%d)",ses,line,prompt);

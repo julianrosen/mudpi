@@ -107,7 +107,8 @@ const struct cmd_type cmd_table[] = {
     {"stand", do_stand, POS_SLEEPING, 0, LOG_NORMAL, 1},
     {"tell", do_tell, MIN_POS_TELL, 0, LOG_NORMAL, 1},
     {"telloff", do_telloff, POS_RESTING, 1, LOG_NORMAL, 1},
-    /*{"tick", do_tick, POS_DEAD, 0, LOG_NORMAL, 1},*/ // JR: No longer enabled
+    {"tick", do_tick, POS_DEAD, 0, LOG_NORMAL, 1},
+    {"tintin", do_tintin, POS_DEAD, 0, LOG_NORMAL, 1},
     {"track", do_track, POS_RESTING, 0, LOG_NORMAL, 1},
     {"tq", do_tq, MIN_POS_TELL, 0, LOG_NORMAL, 1},
     {"beep", do_beep, POS_RESTING, 0, LOG_NORMAL, 1},

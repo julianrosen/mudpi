@@ -776,6 +776,12 @@ void do_autolist( CHAR_DATA * ch, char *argument )
                       ch );
     else
         send_to_char( "You have ansi color turned off.\n\r", ch );
+    
+    if ( ch->tintin )
+        send_to_char( "You have TinTin static prompt optimization turned on.\n\r",
+                      ch );
+    else
+        send_to_char( "YYou have TinTin static prompt optimization turned off.", ch );
 }
 
 void do_autoassist( CHAR_DATA * ch, char *argument )
@@ -947,27 +953,30 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             smash_tilde( argument );
             prompt = str_dup( argument );
         }
-            
-        for ( int n = 0; n + 1 < strlen(prompt); n++ )
+        
+        if ( ch->tintin )
         {
-            if ( prompt[n] == '%' && prompt[n+1] == 'r' )
+            for ( int n = 0; n + 1 < strlen(prompt); n++ )
             {
-                if ( b )
+                if ( prompt[n] == '%' && prompt[n+1] == 'r' )
                 {
-                    send_to_char( "Prompts are limited to two lines.\n\r", ch );
-                    free_string( prompt );
-                    return;
+                    if ( b )
+                    {
+                        send_to_char( "Prompts are limited to two lines.\n\r", ch );
+                        free_string( prompt );
+                        return;
+                    }
+                    else
+                        b = TRUE;
                 }
-                else
-                    b = TRUE;
             }
         }
         free_string( &ch->pcdata->prompt );
         ch->pcdata->prompt = prompt;
         if ( b )
-            send_to_char( "Prompt set (two lines).\n\r", ch );
+            send_to_char( "Prompt set.\n\r", ch );
         else
-            send_to_char( "Prompt set (one line).\n\r", ch );
+            send_to_char( "Prompt set.\n\r", ch );
         return;
     }
     else
@@ -1418,10 +1427,14 @@ void do_levels( CHAR_DATA * ch, char *argument )
 
 void do_tick( CHAR_DATA * ch, char *argument )
 {
-    // JR: this command is disabled
     if ( IS_NPC( ch ) )
         return;
-
+    
+    if ( ch-> tintin )
+    {
+        send_to_char( "This won't do anything unless you disable TinTin optimization.\n\r", ch );
+        return;
+    }
     if ( ch->pcdata->tick == 1 )
     {
         ch->pcdata->tick = 0;
@@ -1431,6 +1444,23 @@ void do_tick( CHAR_DATA * ch, char *argument )
     {
         ch->pcdata->tick = 1;
         send_to_char( "The MUD will now alert you of ticks.\n\r", ch );
+    }
+}
+
+void do_tintin( CHAR_DATA * ch, char *argument )
+{
+    if ( IS_NPC( ch ) )
+        return;
+    
+    if ( ch->tintin )
+    {
+        send_to_char( "TinTin split prompt optimization disabled.\n\r", ch );
+        ch->tintin = 0;
+    }
+    else
+    {
+        send_to_char( "TinTin split prompt optimization enabled.\n\r", ch );
+        ch->tintin = 1;
     }
 }
 
@@ -1498,7 +1528,10 @@ void do_look( CHAR_DATA * ch, char *argument )
 
         if ( !IS_NPC( ch ) && IS_SET( ch->act, PLR_AUTOEXIT ) )
         {
-            send_to_char( "\n\r`W", ch );
+            if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+                send_to_char( "\n\r", ch );
+            
+            send_to_char( "`W", ch );
             do_exits( ch, "auto" );
             send_to_char( "`w", ch );
         }
@@ -3096,9 +3129,6 @@ void do_equipment( CHAR_DATA * ch, char *argument )
     if ( !found )
         send_to_char( "Nothing.\n\r", ch );
 
-    
-    write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );// JR temp
-    write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );// JR temp
     return;
 }
 

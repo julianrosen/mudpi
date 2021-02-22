@@ -92,7 +92,8 @@ DECLARE_DO_FUN( do_bank );
 DECLARE_DO_FUN( do_deposit );
 DECLARE_DO_FUN( do_withdraw );
 DECLARE_DO_FUN( do_account );
-//DECLARE_DO_FUN( do_tick );
+DECLARE_DO_FUN( do_tick );
+DECLARE_DO_FUN( do_tintin ); // JR
 DECLARE_DO_FUN( do_deaf );
 DECLARE_DO_FUN( do_delet );
 DECLARE_DO_FUN( do_delete );

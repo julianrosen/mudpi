@@ -836,7 +836,8 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                if ( n % PULSE_PER_SECOND == 0 || n == PULSE_VIOLENCE/ONE_ROUND )
+                
+                if ( d->character->tintin && ( n % PULSE_PER_SECOND == 0 || n == 1 ) )
                     write_to_buffer( d, doparseprompt(d->character), 0 );
                 
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
@@ -1373,29 +1374,34 @@ void read_from_buffer( DESCRIPTOR_DATA * d, bool color )
 char * wait_str( CHAR_DATA * ch, char *buf )
 {
     int n = ch->wait;
-    if ( !WAIT_STR )
-        return "";
     if ( ch->level >= LEVEL_ADMIN )
         return "";
-    /*if ( n == 0 )
-        return "`R   ";
-    else if ( n < 0.5*PULSE_VIOLENCE )
-        return "`R  .";
-    else if ( n < 1*PULSE_VIOLENCE )
-        return "`R  *";
-    else if ( n < 1.5*PULSE_VIOLENCE )
-        return "`R .*";
-    else if ( n < 2*PULSE_VIOLENCE )
-        return "`R **";
-    else if ( n < 2.5*PULSE_VIOLENCE )
-        return "`R.**";
+
+    if ( ch->tintin )
+    {
+        if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
+            sprintf( buf, "`B  ");
+        else
+            sprintf( buf, "`B%d ", 1 + ch->wait / PULSE_PER_SECOND );
+        return buf;
+    }
     else
-        return "`R***";*/
-    if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
-        sprintf( buf, "`B  ");
-    else
-        sprintf( buf, "`B%d ", ch->wait / PULSE_PER_SECOND );
-    return buf;
+    {
+        if ( n == 0 )
+            return "`R   ";
+        else if ( n < 1*PULSE_VIOLENCE )
+            return "`R  .";
+        else if ( n < 1.5*PULSE_VIOLENCE )
+            return "`R  *";
+        else if ( n < 2*PULSE_VIOLENCE )
+            return "`R .*";
+        else if ( n < 2.5*PULSE_VIOLENCE )
+            return "`R **";
+        else if ( n < 3*PULSE_VIOLENCE )
+            return "`R.**";
+        else
+            return "`R***";
+    }
 }
 
 
@@ -1410,6 +1416,10 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     char waitbuf[10];
     extern bool merc_down;
     bool color = TRUE;
+    bool tintin;
+    
+    tintin = (d != NULL && d->character != NULL 
+                && d->character->tintin);
 
     /* If you're in a shell, then no output for you! */
     if ( d->connected == CON_SHELL )
@@ -1436,9 +1446,13 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             ch = d->original ? d->original : d->character;
             if ( !IS_SET( ch->comm, COMM_COMPACT ) )
             {
-                if ( ch != NULL )
-                    ch->newline = TRUE;
-                //write_to_buffer( d, "\n\r", 2 );
+                if ( tintin )
+                {
+                    if ( ch != NULL )
+                        ch->newline = TRUE;
+                }
+                else
+                    write_to_buffer( d, "\n\r", 2 );
             }
 
             if ( IS_SET( ch->comm, COMM_PROMPT ) )
@@ -1481,19 +1495,11 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     if ( !write_to_descriptor( d->descriptor, d->outbuf, d->outtop, color ) )
     {
         d->outtop = 0;
-        //CHAR_DATA *ch;
-        //ch = d->original ? d->original : d->character;
-        //if ( !IS_SET( ch->comm, COMM_COMPACT ) )
-        //        write_to_buffer( d, "\n\r", 2 );
         return FALSE;
     }
     else
     {
         d->outtop = 0;
-        //CHAR_DATA *ch;
-        //ch = d->original ? d->original : d->character;
-        //if ( !IS_SET( ch->comm, COMM_COMPACT ) )
-        //        write_to_buffer( d, "\n\r", 2 );
         return TRUE;
     }
 }
@@ -1504,8 +1510,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
 void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
 {
     extern bool silentmode;
-    
-    bool b;
+    bool b,tintin;
     
     char buf[MAX_OUTPUT_BUFFER],buf2[MAX_OUTPUT_BUFFER],*tmp;
     strcpy( buf, txt );
@@ -1515,10 +1520,14 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
      */
     if ( length <= 0 )
         length = strlen( txt );
+
+    tintin = (d != NULL && d->character != NULL 
+                && d->character->tintin);
     
     tmp = buf;
-    if ( d != NULL && d->character != NULL && d->character->newline ) // JR temp
+    if ( tintin && d->character->newline)
     {
+        
         b = TRUE;
         for (int n=0; n+1<strlen(txt); n++ )
         {
@@ -1526,18 +1535,15 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
                  ( txt[n] == '@' && txt[n+1] == '^' ) )
             {
                 b = FALSE;
-                printf("[p]");
                 break;
             }
             if ( txt[n] == '\n' )
             {
-                printf("[n]");
                 break;
             }
         }
         if ( b )
         {
-            printf("added newline in front, ");
             *tmp = '\n';
             *(tmp+1) = '\r';
             tmp += 2;
@@ -1569,7 +1575,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     /*
      * Initial \n\r if needed.
      */
-    if ( d->outtop == 0 && FALSE ) // && !d->fcommand ) // JR temp
+    if ( d->outtop == 0 && !tintin && !d->fcommand ) // JR tintin
     {
         d->outbuf[0] = '\n';
         d->outbuf[1] = '\r';
@@ -1794,7 +1800,7 @@ check_ban function.
 
         if ( fOld )
         {
-            write_to_buffer( d, "\n\rPassword: ", 0 );
+            write_to_buffer( d, "Password: ", 0 );
             write_to_buffer( d, echo_off_str, 0 );
             d->connected = CON_GET_OLD_PASSWORD;
             return;
@@ -1873,7 +1879,7 @@ check_ban function.
 
         write_to_buffer( d, echo_on_str, 0 );
 
-        if ( check_reconnect( d, ch->name, TRUE ) )
+        if ( check_reconnect( d, ch->name, TRUE ) )  // JR
             return;
 
         if ( check_playing( d, ch->name ) )
@@ -1893,7 +1899,9 @@ check_ban function.
         }
         else
         {
+            write_to_buffer( d, "\n\r", 2 ); // JR
             do_help( ch, "motd" );
+            write_to_buffer( d, "\n\r\n\r\n\r", 6 ); // JR
             d->connected = CON_READ_MOTD;
         }
         break;
@@ -2442,6 +2450,7 @@ check_ban function.
         break;
 
     case CON_READ_MOTD:
+            printf("CON_READ_MOTD\n");
 #if defined(cbuilder)
         AddUser( ch );
 #endif
@@ -2663,22 +2672,28 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 {
                     REMOVE_BIT( ch->act, PLR_BUILDING );
                 }
-
+                printf("Reconnecting\n");
                 send_to_char( "Reconnecting.\n\r", ch );
+                write_to_buffer( d, "\n\r", 2 ); // JR
+                do_help( ch, "motd" );
+                write_to_buffer( d, "\n\r\n\r\n\r", 6 ); // JR
 #if defined(cbuilder)
                 AddUser( ch );
 #endif
-                act( "$n has reconnected.", ch, NULL, NULL, TO_ROOM );
+                //act( "$n has reconnected.", ch, NULL, NULL, TO_ROOM ); // JR
                 ch->pcdata->ticks = 0;
                 sprintf( log_buf, "%s@%s reconnected.", ch->name, d->host );
                 log_string( log_buf );
                 d->connected = CON_PLAYING;
+                // d->connected = CON_READ_MOTD;
                 /* Inform the character of a note in progress and the possbility of continuation! */
                 if ( ch->pcdata->in_progress )
                     send_to_char
                         ( "You have a note in progress. Type NWRITE to continue it.\n\r",
                           ch );
             }
+            printf("Reconnect returning\n");
+            do_look( ch, "auto" );
             return TRUE;
         }
     }
@@ -3319,13 +3334,35 @@ char *doparseprompt( CHAR_DATA * ch )
     char *fp_point;
     char *orig_prompt;
     char *c;
+    bool twoline = FALSE;
+    int n;
     
     bzero( finished_prompt, sizeof( finished_prompt ) );
     orig_prompt = ch->pcdata->prompt;
     fp_point = finished_prompt;
-    
-    strcpy( fp_point, "$*" );
-    fp_point += 2;
+    strcpy( fp_point, "" );
+    if ( ch->tintin )
+    {
+        for ( int n = 0; n + 1 < strlen(orig_prompt); n++ )
+        {
+            if ( orig_prompt[n] == '%' && orig_prompt[n+1] == 'r' )
+            {
+                twoline = TRUE;
+                break;
+            }
+        }
+
+        if ( twoline )
+        {
+            strcpy( fp_point, "$*" );
+            fp_point += 2;
+        }
+        else
+        {
+            strcpy( fp_point, "$*\n\r@^" );
+            fp_point += 6;
+        }
+    }
     
     while ( *orig_prompt != '\0' )
     {
@@ -3376,8 +3413,19 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'r':
-            strcat( finished_prompt, "\n\r@^" );
-            fp_point += 4;
+            if ( ch->tintin )
+            {
+                if ( twoline )
+                    return ( finished_prompt ); // Bail out
+                twoline = TRUE;
+                strcat( finished_prompt, "\n\r@^" );
+                fp_point += 4;
+            }
+            else
+            {
+                strcat( finished_prompt, "\n\r" );
+                fp_point += 2;
+            }
             orig_prompt++;
             break;
         case 'i':

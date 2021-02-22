@@ -904,7 +904,7 @@ char *str_convert_meta(char *input, int eol)
 
 void echo_command(struct session *ses, char *line)
 {
-	char buf2[BUFFER_SIZE], output[BUFFER_SIZE], *c;
+	char buf2[BUFFER_SIZE], buf[BUFFER_SIZE], output[BUFFER_SIZE], *c;
     char *buffer = buf2 + 2;
 
 	DEL_BIT(ses->telopts, TELOPT_FLAG_PROMPT);
@@ -952,10 +952,10 @@ void echo_command(struct session *ses, char *line)
         buffer[0] = '>';
         buffer[1] = ' ';*/
         gtd->level->scroll++;
-        tintin_printf2(ses, "\n\e[1;34m>> %s", buffer); // Bright blue >>
+        sprintf( buf, "\e[1;34m\n>> %s", buffer);
+        tintin_printf2(ses, "%s", buf); // Bright blue >>
         gtd->level->scroll--;
-        strcat( buffer, "; ");
-        add_line_buffer(ses, buffer, TRUE);    
+        add_line_buffer(ses, buf, FALSE);    
     }
 }
 

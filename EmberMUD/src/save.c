@@ -229,7 +229,7 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
     fprintf( fp, "Logn %d\n", ( int ) ( ch->logon ) );  /* Added for finger command */
     fprintf( fp, "Plyd %d\n",
              ch->played + ( int ) ( current_time - ch->logon ) );
-    fprintf( fp, "Age %d\n", ch->start_age );
+    fprintf( fp, "Age %d\n", ch->start_age ); // JR
     fprintf( fp, "Note %d\n", ( int ) ch->last_note );
     fprintf( fp, "Scro %d\n", ch->lines );
     fprintf( fp, "Room %d\n",
@@ -322,6 +322,7 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
         fprintf( fp, "Neme %s~\n", ch->pcdata->nemesis );
         fprintf( fp, "PKdi %d\n", ch->pcdata->pk_deaths );
         fprintf( fp, "PKki %d\n", ch->pcdata->pk_kills );
+        fprintf( fp, "TinTin %d\n", ch->tintin );
         fprintf( fp, "Tick %d\n", ch->pcdata->tick );
         fprintf( fp, "Ticks %d\n", ch->pcdata->ticks );
         if ( ch->pcdata->who_race )
@@ -649,7 +650,6 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->race = race_lookup( "human" );
     ch->affected_by = 0;
     ch->newaff[0] = 0;
-    ch->start_age = 0; // JR
     ch->act = PLR_NOSUMMON
         | PLR_AUTOEXIT | PLR_AUTOLOOT | PLR_AUTOSAC | PLR_AUTOGOLD | PLR_AUTOTRACK;
     ch->comm = COMM_COMBINE | COMM_PROMPT;
@@ -703,6 +703,11 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->pcdata->who_prefix = NULL;
     ch->pcdata->immcmdlist = NULL;
     ch->pcdata->faction_standings = NULL;
+    // JR
+    ch->start_age = 0; 
+    ch->tintin = 1;
+
+    
     found = FALSE;
     fclose( fpReserve );
 
@@ -1291,6 +1296,7 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
             KEY( "Trai", ch->train, fread_number( fp ) );
             KEY( "Trust", ch->trust, fread_number( fp ) );
             KEY( "Tru", ch->trust, fread_number( fp ) );
+            KEY( "TinTin", ch->tintin, fread_number( fp ) );
 
             if ( !str_cmp( word, "Title" ) || !str_cmp( word, "Titl" ) )
             {

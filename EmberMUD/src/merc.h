@@ -594,8 +594,11 @@ struct char_data {
 #if defined(cbuilder)
     void *TNode;
 #endif
-    sh_int start_age; // JR
-    bool newline; // JR
+    
+    // JR added below
+    sh_int start_age;
+    bool newline; // Does char need a new line before getting more text?
+    bool tintin;  // Does a user want output optimized for mudpi tintin?
 };
 
 struct mud_prog_act_list {

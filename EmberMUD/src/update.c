@@ -683,7 +683,7 @@ void redraw_prompts( void )
     CHAR_DATA * ch;
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-        if ( !IS_NPC( ch ) && ch->desc != NULL )
+        if ( !IS_NPC( ch ) && ch->desc != NULL && ch->tintin )
         {
             write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );
         }
@@ -795,14 +795,14 @@ void char_update( void )
         // JR: Showing ticks is no longer enabled
         // Prompts update automatically
         
-        /*if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 )
+        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 && !ch->tintin )
         {
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
             {
                 write_to_buffer( ch->desc, doparseprompt(ch), 0 );
             }
-        }*/
+        }
 
         if ( !IS_NPC( ch ) )
         {
