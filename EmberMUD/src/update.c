@@ -778,7 +778,8 @@ void char_update( void )
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
             {
-                send_to_char( "\n\r", ch );
+                write_to_buffer( ch->desc, doparseprompt(ch), 0 );
+                //send_to_char( " ", ch ); // Will this work?
             }
         }
 

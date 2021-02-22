@@ -320,7 +320,7 @@ void new_descriptor args( ( int control ) );
 bool read_from_descriptor args( ( DESCRIPTOR_DATA * d, bool color ) );
 bool write_to_descriptor
 args( ( int desc, char *txt, int length, bool color ) );
-char * wait_str( CHAR_DATA * ); /* Added by JR */
+char * wait_str( CHAR_DATA *, char * ); /* Added by JR */
 /*
  * Other local functions (OS-independent).
  */
@@ -834,7 +834,12 @@ int game_loop( int control )
 
             if ( d->character != NULL && d->character->wait > 0 )
             {
-                --d->character->wait;
+                printf("pre-if\n");
+                d->character->wait--;
+                //if ( d->character->wait-- % PULSE_VIOLENCE/10 == 0 )
+                write_to_buffer( d, doparseprompt(d->character), 0 );
+                printf("post-f\n");
+                
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
                     d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
                     d->character->wait = PULSE_VIOLENCE/ONE_ROUND; // JR: admins don't have to wait long
@@ -1367,27 +1372,32 @@ void read_from_buffer( DESCRIPTOR_DATA * d, bool color )
 
 /* Writen by JR */
 /* Returns a string indicating player wait time */
-char * wait_str( CHAR_DATA * ch )
+char * wait_str( CHAR_DATA * ch, char *buf )
 {
     int n = ch->wait;
     if ( !WAIT_STR )
         return "";
     if ( ch->level >= LEVEL_ADMIN )
         return "";
-    if ( n < 0.1*PULSE_VIOLENCE )
+    /*if ( n == 0 )
         return "`R   ";
-    else if ( n < PULSE_VIOLENCE )
+    else if ( n < 0.5*PULSE_VIOLENCE )
         return "`R  .";
-    else if ( n < 1.5*PULSE_VIOLENCE )
+    else if ( n < 1*PULSE_VIOLENCE )
         return "`R  *";
-    else if ( n < 2*PULSE_VIOLENCE )
+    else if ( n < 1.5*PULSE_VIOLENCE )
         return "`R .*";
-    else if ( n < 2.5*PULSE_VIOLENCE )
+    else if ( n < 2*PULSE_VIOLENCE )
         return "`R **";
-    else if ( n < 3*PULSE_VIOLENCE )
+    else if ( n < 2.5*PULSE_VIOLENCE )
         return "`R.**";
     else
-        return "`R***";
+        return "`R***";*/
+    if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
+        sprintf( buf, "`R  ");
+    else
+        sprintf( buf, "`R%d ", ch->wait / PULSE_PER_SECOND );
+    return buf;
 }
 
 
@@ -1399,6 +1409,7 @@ char * wait_str( CHAR_DATA * ch )
 bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
 {
     char buf[MAX_STRING_LENGTH];
+    char waitbuf[10];
     extern bool merc_down;
     bool color = TRUE;
 
@@ -1435,7 +1446,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
                     sprintf( buf, "%s", doparseprompt( ch ) );
                 else
                     /* This is the default prompt */
-                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch ), ch->hit,
+                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch, waitbuf ), ch->hit,
                              ch->max_hit, ch->mana, ch->max_mana, ch->move,
                              ch->max_move );
                 write_to_buffer( d, buf, 0 );
@@ -1497,7 +1508,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     /*
      * Initial \n\r if needed.
      */
-    if ( d->outtop == 0 ) // && !d->fcommand ) // JR temp
+    if ( d->outtop == 0 && FALSE ) // && !d->fcommand ) // JR temp
     {
         d->outbuf[0] = '\n';
         d->outbuf[1] = '\r';
@@ -1722,7 +1733,7 @@ check_ban function.
 
         if ( fOld )
         {
-            write_to_buffer( d, "Password: ", 0 );
+            write_to_buffer( d, "\n\rPassword: ", 0 );
             write_to_buffer( d, echo_off_str, 0 );
             d->connected = CON_GET_OLD_PASSWORD;
             return;
@@ -3243,12 +3254,18 @@ char *doparseprompt( CHAR_DATA * ch )
     CHAR_DATA *tank, *victim;
     static char finished_prompt[240];
     char workstr[100];
+    char waitbuf[10];
     char *fp_point;
     char *orig_prompt;
-
+    char *c;
+    
     bzero( finished_prompt, sizeof( finished_prompt ) );
     orig_prompt = ch->pcdata->prompt;
     fp_point = finished_prompt;
+    
+    strcpy( fp_point, "$*" );
+    fp_point += 2;
+    
     while ( *orig_prompt != '\0' )
     {
         if ( *orig_prompt != '%' )
@@ -3298,9 +3315,8 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'r':
-            strcat( finished_prompt, "\n\r" );
-            fp_point++;
-            fp_point++;
+            strcat( finished_prompt, "\n\r@^" );
+            fp_point += 4;
             orig_prompt++;
             break;
         case 'i':
@@ -3425,7 +3441,8 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'W':
-            sprintf( workstr, "%s", wait_str( ch ));
+            wait_str( ch, waitbuf );
+            sprintf( workstr, "%s", waitbuf );
             strcat( finished_prompt, workstr );
             fp_point += strlen( workstr );
             orig_prompt++;

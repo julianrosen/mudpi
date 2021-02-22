@@ -566,7 +566,7 @@ void tintin_puts3(struct session *ses, char *string)
 			goto_pos(ses, ses->split->bot_row, ses->split->top_col);
 		}
 
-		print_line(ses, &output, TRUE); // JR: FALSE->TRUE
+		print_line(ses, &output, FALSE); // JR: FALSE->TRUE
                                         // Don't display newline
                                         // Mud will always print newline
 
