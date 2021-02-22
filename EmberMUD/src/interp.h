@@ -92,7 +92,7 @@ DECLARE_DO_FUN( do_bank );
 DECLARE_DO_FUN( do_deposit );
 DECLARE_DO_FUN( do_withdraw );
 DECLARE_DO_FUN( do_account );
-DECLARE_DO_FUN( do_tick );
+//DECLARE_DO_FUN( do_tick );
 DECLARE_DO_FUN( do_deaf );
 DECLARE_DO_FUN( do_delet );
 DECLARE_DO_FUN( do_delete );
@@ -267,7 +267,9 @@ DECLARE_DO_FUN( do_scroll );
 DECLARE_DO_FUN( do_sell );
 DECLARE_DO_FUN( do_sendinfo );
 DECLARE_DO_FUN( do_set );
+#ifdef CFG_SHELL_ENABLED
 DECLARE_DO_FUN( do_shell );
+#endif
 DECLARE_DO_FUN( do_shout );
 DECLARE_DO_FUN( do_shutdow );
 DECLARE_DO_FUN( do_shutdown );

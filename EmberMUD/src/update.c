@@ -680,16 +680,14 @@ void weather_update( void )
 /* Redraw all prompts */
 void redraw_prompts( void )
 {
-    printf("Redrawing");
     CHAR_DATA * ch;
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-        if ( !IS_NPC( ch ) )
+        if ( !IS_NPC( ch ) && ch->desc != NULL )
         {
             write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );
         }
     }
-    printf("Finished.\n");
 }
 
 /*
@@ -1258,7 +1256,6 @@ void aggr_update( void )
     CHAR_DATA *vch_next;
     CHAR_DATA *victim;
     int count, random;
-
     for ( wch = player_list; wch; wch = wch_next )
     {
         wch_next = wch->next_player;
@@ -1348,7 +1345,6 @@ tmp2_act )
                 multi_hit( ch, victim, TYPE_UNDEFINED );
         }
     }
-
     return;
 }
 
@@ -1366,7 +1362,6 @@ void update_handler( void )
     static int pulse_point;
     static int pulse_auction;
     extern bool silentmode;
-
     if ( silentmode )
     {
         bug( "Silentmode = TRUE in update.c", 0 );

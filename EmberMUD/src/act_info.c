@@ -3096,6 +3096,9 @@ void do_equipment( CHAR_DATA * ch, char *argument )
     if ( !found )
         send_to_char( "Nothing.\n\r", ch );
 
+    
+    write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );// JR temp
+    write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );// JR temp
     return;
 }
 

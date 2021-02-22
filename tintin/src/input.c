@@ -952,11 +952,9 @@ void echo_command(struct session *ses, char *line)
         buffer[0] = '>';
         buffer[1] = ' ';*/
         gtd->level->scroll++;
-        tintin_printf2(ses, "\e[1;34m>> %s", buffer); // Bright blue >>
+        tintin_printf2(ses, "\n\e[1;34m>> %s", buffer); // Bright blue >>
         gtd->level->scroll--;
         strcat( buffer, "; ");
-        if ( buffer[7] == '#' )
-            tintin_printf2(ses, "\n");
         add_line_buffer(ses, buffer, TRUE);    
     }
 }

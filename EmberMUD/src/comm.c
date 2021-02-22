@@ -661,7 +661,8 @@ int game_loop( int control )
     static struct timeval null_time;
     struct timeval last_time;
     bool color;
-
+    int n;
+    
 #if defined(unix)
     static struct sigaction sa;
     sigemptyset( &sa.sa_mask );
@@ -834,7 +835,7 @@ int game_loop( int control )
 
             if ( d->character != NULL && d->character->wait > 0 )
             {
-                int n = d->character->wait--;
+                n = d->character->wait--;
                 if ( n % PULSE_PER_SECOND == 0 || n == PULSE_VIOLENCE/ONE_ROUND )
                     write_to_buffer( d, doparseprompt(d->character), 0 );
                 
@@ -904,7 +905,6 @@ int game_loop( int control )
                 }
             }
         }
-
 #if defined(cbuilder)
         /*
          * Checks for GUI commands, updates GUI stats.
@@ -971,7 +971,7 @@ int game_loop( int control )
         gettimeofday( &last_time, NULL );
         current_time = ( time_t ) last_time.tv_sec;
     }
-
+    
     return 0;
 }
 
@@ -1435,7 +1435,11 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
 
             ch = d->original ? d->original : d->character;
             if ( !IS_SET( ch->comm, COMM_COMPACT ) )
-                write_to_buffer( d, "\n\r", 2 );
+            {
+                if ( ch != NULL )
+                    ch->newline = TRUE;
+                //write_to_buffer( d, "\n\r", 2 );
+            }
 
             if ( IS_SET( ch->comm, COMM_PROMPT ) )
             {
@@ -1477,11 +1481,19 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     if ( !write_to_descriptor( d->descriptor, d->outbuf, d->outtop, color ) )
     {
         d->outtop = 0;
+        //CHAR_DATA *ch;
+        //ch = d->original ? d->original : d->character;
+        //if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+        //        write_to_buffer( d, "\n\r", 2 );
         return FALSE;
     }
     else
     {
         d->outtop = 0;
+        //CHAR_DATA *ch;
+        //ch = d->original ? d->original : d->character;
+        //if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+        //        write_to_buffer( d, "\n\r", 2 );
         return TRUE;
     }
 }
@@ -1492,16 +1504,67 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
 void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
 {
     extern bool silentmode;
-
-    /* Don't do ANYTHING if global silentmode is on. */
-    if ( silentmode )
-        return;
-
+    
+    bool b;
+    
+    char buf[MAX_OUTPUT_BUFFER],buf2[MAX_OUTPUT_BUFFER],*tmp;
+    strcpy( buf, txt );
+    
     /*
      * Find length in case caller didn't.
      */
     if ( length <= 0 )
         length = strlen( txt );
+    
+    tmp = buf;
+    if ( d != NULL && d->character != NULL && d->character->newline ) // JR temp
+    {
+        b = TRUE;
+        for (int n=0; n+1<strlen(txt); n++ )
+        {
+            if ( ( txt[n] == '$' && txt[n+1] == '*' ) ||
+                 ( txt[n] == '@' && txt[n+1] == '^' ) )
+            {
+                b = FALSE;
+                printf("[p]");
+                break;
+            }
+            if ( txt[n] == '\n' )
+            {
+                printf("[n]");
+                break;
+            }
+        }
+        if ( b )
+        {
+            printf("added newline in front, ");
+            *tmp = '\n';
+            *(tmp+1) = '\r';
+            tmp += 2;
+            length += 2;
+            d->character->newline = FALSE;
+        }
+    }
+    strcpy( tmp, txt );
+    
+
+        
+    /*while ( strlen(buf) > 1 && 
+        (buf[strlen(buf)-1] == '\n' || buf[strlen(buf)-1] == '\r') )
+    {
+        printf("removed newline from end, ");
+        buf[strlen(buf)-2] = '\0';
+        newline = TRUE;
+        length -= 2;
+        break;
+    }
+    printf("\n\n");*/
+
+
+    /* Don't do ANYTHING if global silentmode is on. */
+    if ( silentmode )
+        return;
+
 
     /*
      * Initial \n\r if needed.
@@ -1533,8 +1596,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     /*
      * Copy.
      */
-
-    strcpy( d->outbuf + d->outtop, txt );
+    strcpy( d->outbuf + d->outtop, buf );
     d->outtop += length;
     return;
 }

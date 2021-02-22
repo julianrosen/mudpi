@@ -595,6 +595,7 @@ struct char_data {
     void *TNode;
 #endif
     sh_int start_age; // JR
+    bool newline; // JR
 };
 
 struct mud_prog_act_list {
@@ -1366,6 +1367,7 @@ char *act_new args( ( const char *format, CHAR_DATA * ch,
 int figure_difference args( ( int points ) );
 void do_color args( ( register char *inbuf, int inlen, register char *outbuf,
                       int outlen, bool color ) );
+char * doparseprompt args( ( CHAR_DATA * ch ) );
 
 /* db.c */
 

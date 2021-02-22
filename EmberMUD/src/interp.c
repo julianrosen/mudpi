@@ -49,6 +49,11 @@ bool check_social args( ( CHAR_DATA * ch, char *command, char *argument ) );
  */
 bool fLogAll = FALSE;
 
+
+
+// JR
+int newline;
+
 /*
  * Command table.
  */
@@ -403,7 +408,9 @@ const struct cmd_type cmd_table[] = {
     {"return", do_return, POS_DEAD, 1, LOG_NORMAL, 1},
     {"snoop", do_snoop, POS_DEAD, 1, LOG_ALWAYS, 1},
     {"stat", do_stat, POS_DEAD, 1, LOG_NORMAL, 1},
+#ifdef CFG_SHELL_ENABLED
     {"shell", do_shell, POS_DEAD, 1, LOG_ALWAYS, 1},
+#endif
     {"string", do_string, POS_DEAD, 1, LOG_ALWAYS, 1},
     {"switch", do_switch, POS_DEAD, 1, LOG_ALWAYS, 1},
     {"wizinvis", do_invis, POS_DEAD, 1, LOG_NORMAL, 1},
@@ -531,6 +538,8 @@ void interpret( CHAR_DATA * ch, char *argument )
     int trust;
     bool found;
     bool can_do;
+    
+    ch->newline = FALSE; // Don't need newline after command
 
     /*
      * Strip leading spaces.
