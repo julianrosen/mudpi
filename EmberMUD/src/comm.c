@@ -1392,9 +1392,9 @@ char * wait_str( CHAR_DATA * ch, char *buf )
     else
         return "`R***";*/
     if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
-        sprintf( buf, "`R  ");
+        sprintf( buf, "`B  ");
     else
-        sprintf( buf, "`R%d ", ch->wait / PULSE_PER_SECOND );
+        sprintf( buf, "`B%d ", ch->wait / PULSE_PER_SECOND );
     return buf;
 }
 

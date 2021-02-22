@@ -927,53 +927,47 @@ void do_compact( CHAR_DATA * ch, char *argument )
 
 void do_prompt( CHAR_DATA * ch, char *argument )
 {
+    char *prompt;
+    bool b = FALSE;
+    
     if ( !IS_NPC( ch ) )
     {
         if ( !strcmp( argument, "default" ) )
-        {
-            free_string( &ch->pcdata->prompt );
-            ch->pcdata->prompt =
-                str_dup( PROMPT_DEFAULT );
-        }
-        
+            prompt = str_dup( PROMPT_DEFAULT );
         else if ( !strcmp( argument, "simple" ) )
-        {
-            free_string( &ch->pcdata->prompt );
-            ch->pcdata->prompt =
-                str_dup( PROMPT_SIMPLE );
-        }
-
+            prompt = str_dup( PROMPT_SIMPLE );
         else if ( !strcmp( argument, "combat" ) )
-        {
-            free_string( &ch->pcdata->prompt );
-            ch->pcdata->prompt =
-                str_dup
-                ( PROMPT_COMBAT );
-        }
-
+            prompt = str_dup( PROMPT_COMBAT );
         else if ( !strcmp( argument, "ghioti" ) )
-        {
-            free_string( &ch->pcdata->prompt );
-            ch->pcdata->prompt =
-                str_dup
-                ( PROMPT_GHIOTI );
-        }
-
+            prompt = str_dup( PROMPT_GHIOTI );
         else if ( IS_IMMORTAL( ch ) && !strcmp( argument, "imm" ) )
-        {
-            free_string( &ch->pcdata->prompt );
-            ch->pcdata->prompt =
-                str_dup
-                ( PROMPT_IMM );
-        }
-
+            prompt = str_dup( PROMPT_IMM );
         else
         {
-            free_string( &ch->pcdata->prompt );
             smash_tilde( argument );
-            ch->pcdata->prompt = str_dup( argument );
+            prompt = str_dup( argument );
         }
-        send_to_char( "Prompt set.\n\r", ch );
+            
+        for ( int n = 0; n + 1 < strlen(prompt); n++ )
+        {
+            if ( prompt[n] == '%' && prompt[n+1] == 'r' )
+            {
+                if ( b )
+                {
+                    send_to_char( "Prompts are limited to two lines.\n\r", ch );
+                    free_string( prompt );
+                    return;
+                }
+                else
+                    b = TRUE;
+            }
+        }
+        free_string( &ch->pcdata->prompt );
+        ch->pcdata->prompt = prompt;
+        if ( b )
+            send_to_char( "Prompt set (two lines).\n\r", ch );
+        else
+            send_to_char( "Prompt set (one line).\n\r", ch );
         return;
     }
     else
