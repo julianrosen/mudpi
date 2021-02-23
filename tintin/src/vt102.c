@@ -52,7 +52,7 @@ void show_cursor(struct session *ses)
 {
 	if (!HAS_BIT(gtd->flags, TINTIN_FLAG_HIDDENCURSOR))
 	{
-		print_stdout(0, 0, "\e[?25h");
+		print_stdout(0, 0, "\e[?25h"); // JR
 	}
 }
 

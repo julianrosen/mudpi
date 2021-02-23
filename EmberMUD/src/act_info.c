@@ -777,11 +777,11 @@ void do_autolist( CHAR_DATA * ch, char *argument )
     else
         send_to_char( "You have ansi color turned off.\n\r", ch );
     
-    if ( ch->tintin )
-        send_to_char( "You have TinTin static prompt optimization turned on.\n\r",
+    if ( ch->desc->tintin )
+        send_to_char( "You are using Mudpi's integrated TinTin.\n\r",
                       ch );
     else
-        send_to_char( "YYou have TinTin static prompt optimization turned off.", ch );
+        send_to_char( "You are not using Mudpi's integrated TinTin.", ch );
 }
 
 void do_autoassist( CHAR_DATA * ch, char *argument )
@@ -954,7 +954,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             prompt = str_dup( argument );
         }
         
-        if ( ch->tintin )
+        if ( ch->desc->tintin )
         {
             for ( int n = 0; n + 1 < strlen(prompt); n++ )
             {
@@ -1430,9 +1430,9 @@ void do_tick( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
     
-    if ( ch-> tintin )
+    if ( ch->desc->tintin )
     {
-        send_to_char( "This won't do anything unless you disable TinTin optimization.\n\r", ch );
+        send_to_char( "This won't do anything because you are using Mudpi's integrated TinTin.\n\r", ch );
         return;
     }
     if ( ch->pcdata->tick == 1 )
@@ -1452,15 +1452,15 @@ void do_tintin( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
     
-    if ( ch->tintin )
+    if ( ch->desc->tintin )
     {
-        send_to_char( "TinTin split prompt optimization disabled.\n\r", ch );
-        ch->tintin = 0;
+        send_to_char( "You are using Mudpi's integrated TinTin.\n\r", ch );
+        //ch->desc->tintin = 0;
     }
     else
     {
-        send_to_char( "TinTin split prompt optimization enabled.\n\r", ch );
-        ch->tintin = 1;
+        send_to_char( "You are not using Mudpi's integrated TinTin.\n\r", ch );
+        //ch->desc->tintin = 1;
     }
 }
 

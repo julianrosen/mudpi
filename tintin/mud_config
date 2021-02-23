@@ -3,21 +3,28 @@
 
 #gag {#SESSION}
 #gag {#TRYING}
+#gag {Use ANSI Color?}
 #ses mud_pi localhost 20495
 #ungag {#TRYING}
-y
+ti
 #delay {0.2}
 
+
+
 #action {Mudweiser has returned} {
-#prompt {~$*%%1}{%%1}{-3};
-#prompt {~@^%%1}{%%1}{-2};#delay {0.1} {#cr;#split 0 2 0 0 0;#cr;};
-#unaction {Mudweiser has returned}; #unaction {Reconnecting.}}
+#prompt {~$*%%1}{%%1}{-3}{0};
+#prompt {~@^%%1}{%%1}{-2}{0};
+#delay {0.15} {#cr;#split 0 2;#cr};
+#unaction {Mudweiser has returned};
+#unaction {Reconnecting.}
+}
 
 #action {Reconnecting.} {
 #prompt {~$*%%1}{%%1}{-3};
 #prompt {~@^%%1}{%%1}{-2};#delay {0.5} {#cr;#split 0 2 0 0 0;#cr;};
-#unaction {Mudweiser has returned}; #unaction {Reconnecting.}; #delay {0.2} {#cr}}
-
+#unaction {Mudweiser has returned}; #unaction {Reconnecting.};
+#delay {0.2} {#cr};
+}
 
 #event {SESSION DISCONNECTED}
 {

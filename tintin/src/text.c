@@ -96,6 +96,7 @@ void print_stdout(int row, int col, char *format, ...)
 	va_start(args, format);
 	len = vasprintf(&buffer, format, args);
 	va_end(args);
+    
 
 	if (gtd->detach_port)
 	{

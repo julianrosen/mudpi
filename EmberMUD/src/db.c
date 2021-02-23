@@ -336,7 +336,8 @@ void do_copyover( CHAR_DATA * ch, char *argument )
                     d->editor = 0;
                     break; // Other ED types are too hard
             }
-            fprintf( fp, "%d %s %s %d %d\n", d->descriptor, och->name, d->host, och->desc->editor, vnum );
+            fprintf( fp, "%d %s %s %d %d %d\n", d->descriptor, och->name,
+                    d->host, och->desc->editor, vnum, och->desc->tintin );
 /*                      if (IS_SET(och->act,PLR_QUESTOR));
 			{
 				REMOVE_BIT(ch->act,PLR_QUESTOR);
@@ -393,6 +394,7 @@ void init_descriptor( DESCRIPTOR_DATA * dnew, int desc )
     dnew->editor = 0;           /* OLC */
     dnew->outsize = 2000;
     dnew->outbuf = alloc_mem( dnew->outsize );
+    dnew->tintin = FALSE;
 
 /*     {
 	int i;
@@ -412,7 +414,7 @@ void copyover_recover( void )
     int desc;
     int close args( ( int fd ) );
     bool fOld;
-    int editor,vnum; // JR
+    int editor,vnum, tintin; // JR
     sprintf( buf, "%s/%s", sysconfig.area_dir, COPYOVER_FILE );
     fp = fopen( buf, "r" );
 
@@ -431,7 +433,7 @@ void copyover_recover( void )
 
     for ( ;; )
     {
-        fscanf( fp, "%d %s %s %d %d\n", &desc, name, host, &editor, &vnum );
+        fscanf( fp, "%d %s %s %d %d %d\n", &desc, name, host, &editor, &vnum, &tintin );
         if ( desc == -1 )
             break;
 
@@ -497,6 +499,7 @@ void copyover_recover( void )
             }
             
             dnew->editor = editor; // JR
+            dnew->tintin = tintin;
             
             dnew->pEdit; // fix me
 

@@ -105,9 +105,7 @@ void mprog_driver( char *prog )
 
     /* Increment our temp prog ID */
     ExecMudProgID++;
-
     parse_script( prog );
-
     /* Clear out locals */
     ProgSource = NULL;
     ProgTriggeredBy = NULL;
@@ -130,7 +128,6 @@ char *parse_script( char *script )
     int pos;
 
     pos = 0;
-
     while ( 1 )
     {
         /* Skip leading spaces */
@@ -143,11 +140,9 @@ char *parse_script( char *script )
 
         curr = ptr;
         pos = 0;
-
         while ( 1 )
         {
             buf[pos++] = *ptr;
-
             if ( isspace( *ptr ) || *ptr == '(' )
             {
                 buf[--pos] = '\0';
@@ -156,7 +151,6 @@ char *parse_script( char *script )
                 {
                     while ( isspace( *ptr ) )
                         ptr++;
-
                     if ( *ptr != '(' )
                     {
                         bug( "Parse_Script: Syntax error - If statment missing opening '('.\r\n" );
@@ -662,13 +656,11 @@ char *parse_command( char *instring )
     int pos = 0;
     int bufpos = 0;
     bool escape = FALSE;
-
     *buf = '\0';
 
     /* Get rid of spaces in the beginning */
     while ( *ptr == ' ' || *ptr == '\t' )
         ptr++;
-
     while ( *ptr != '\r' && *ptr != '\n' )
     {
         switch ( *ptr )
@@ -726,10 +718,8 @@ char *parse_command( char *instring )
     }
 
     cmd[pos] = '\0';
-
     /* Pass cmd and arg to the command interpreter */
     interpret( ProgSource, cmd );
-
     return ptr;
 }
 
@@ -1283,7 +1273,6 @@ bool mprog_percent_check( int trigger_type )
 
     if ( !ProgSource || !ProgSource->pIndexData )
         return FALSE;
-
     for ( pProgList = ProgSource->pIndexData->mudprogs; pProgList;
           pProgList = pProgList->next )
         if ( ( pProgList->mudprog->trigger_type & trigger_type )
@@ -1295,7 +1284,6 @@ bool mprog_percent_check( int trigger_type )
                  && trigger_type != ENTER_PROG )
                 break;
         }
-
     return executed;
 }
 
@@ -1640,7 +1628,6 @@ void mprog_random_trigger( CHAR_DATA * mob )
     if ( mob->pIndexData->progtypes & RAND_PROG )
     {
         ProgSource = mob;
-
         mprog_percent_check( RAND_PROG );
     }
 

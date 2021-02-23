@@ -976,7 +976,7 @@ void do_olc( CHAR_DATA * ch, char *argument )
         do_help( ch, "olc" );
         return;
     }
-    else if ( command[0] == '\0' )
+    else if ( command[0] == '\0' ) // JR: Huh?
     {
         send_to_char( "Huh?\n\r", ch );
         return;

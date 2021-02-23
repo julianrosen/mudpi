@@ -54,37 +54,49 @@ char * center( char * string, int numchars, char * buf )
 
 void command_not_found( CHAR_DATA * ch )
 {
-    // Taken from Mudweiser
-    switch(number_range(1, 5))
+    /* From Mudweiser
+    I'm sure it's a great command, but you can't use it.
+    Nice command. Did you just make it up?
+    Did you really think that command would work?
+    Try that command again, only this time do it right.
+    Was that command intended to do something?
+    I'm sure it's a great command, but you can't use it.
+    */
+    switch(number_range(1, 7))
     {
         case 1: 
         {
-            send_to_char( "`wI'm sure it's a great command, but you can't use it.\n\r", ch );
+            send_to_char( "`wI don't know that command.\n\r", ch );
             break;
         }
         case 2: 
         {
-            send_to_char( "`wNice command. Did you just make it up?\n\r", ch );
+            send_to_char( "`wPlease double-check your input.\n\r", ch );
             break;
         }
         case 3: 
         {
-            send_to_char( "`wDid you really think that command would work?\n\r", ch );
+            send_to_char( "`wYou can't use that command here.\n\r", ch );
             break;
         }
         case 4: 
         {
-            send_to_char( "`wTry that command again, only this time do it right.\n\r", ch );
+            send_to_char( "`wI don't understand. Try 'commands'.\n\r", ch );
             break;
         }
         case 5: 
         {
-            send_to_char( "`wWas that command intended to do something?\n\r", ch );
+            send_to_char( "`wI'm sure you meant well, but that's not a real command.\n\r", ch );
+            break;
+        }
+        case 6: 
+        {
+            send_to_char( "`wYou probably know that means, but I don't.\n\r", ch );
             break;
         }
         default: 
         {
-            send_to_char( "`wI'm sure it's a great command, but you can't use it.\n\r", ch );
+            send_to_char( "`wCheck your spelling and try again.\n\r", ch );
             break;
         }
     }
@@ -2727,11 +2739,13 @@ void do_quit( CHAR_DATA * ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     char *name;
 
-    send_to_char( "\n\r", ch );
 
     if ( IS_NPC( ch ) )
         return;
 
+    if ( !ch->desc->tintin )
+        send_to_char( "\n\r", ch );
+    
     if ( ch->position == POS_FIGHTING )
     {
         send_to_char( "No way! You are fighting.\n\r", ch );
@@ -2756,7 +2770,13 @@ inform him that its not that easy ;) -Lancelight */
     {
         REMOVE_BIT( ch->act, PLR_BUILDING );
     }
+    
+    if ( ch->desc->tintin )
+    {
+        write_to_buffer( ch->desc, "$*\n\r@^", 6 );
+    }
     send_to_char( CFG_QUIT, ch );
+    
     ch->pcdata->ticks = 0;
     if ( !IS_SET( ch->act, PLR_WIZINVIS ) )
     {

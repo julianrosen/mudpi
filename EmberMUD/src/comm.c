@@ -178,7 +178,7 @@ int socket args( ( int domain, int type, int protocol ) );
 int close args( ( int fd ) );
 /* int     getpeername     args( ( int s, struct sockaddr *name, int *namelen ) ); */
 /* int     getsockname     args( ( int s, struct sockaddr *name, int *namelen ) ); */
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) ); // This needs to be changed to Ubuntu
 /* int     listen          args( ( int s, int backlog ) ); */
 int select args( ( int width, fd_set * readfds, fd_set * writefds,
                    fd_set * exceptfds, struct timeval * timeout ) );
@@ -837,18 +837,20 @@ int game_loop( int control )
             {
                 n = d->character->wait--;
                 
-                if ( d->character->tintin && ( n % PULSE_PER_SECOND == 0 || n == 1 ) )
-                    write_to_buffer( d, doparseprompt(d->character), 0 );
-                
+                if ( d->tintin && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) )
+                    write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
+                                                                          // Not really a problem with Tintin, but still...
+
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
                     d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
                     d->character->wait = PULSE_VIOLENCE/ONE_ROUND; // JR: admins don't have to wait long
                 continue;
             }
             if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
-            read_from_buffer( d, FALSE );
+                read_from_buffer( d, FALSE );
             else
-            {d->incomm[0] = '\n';d->incomm[1] = '\0';} // JR: changed double quotes to single
+                {d->incomm[0] = '\n';d->incomm[1] = '\0';} // JR: changed double quotes to single
+            
             
             if ( d->incomm[0] != '\0' )
             {
@@ -877,12 +879,10 @@ int game_loop( int control )
                 d->incomm[0] = '\0';
             }
         }
-
         /*
          * Autonomous game motion.
          */
         update_handler(  );
-
         /*
          * Output.
          */
@@ -972,7 +972,6 @@ int game_loop( int control )
         gettimeofday( &last_time, NULL );
         current_time = ( time_t ) last_time.tv_sec;
     }
-    
     return 0;
 }
 
@@ -1041,6 +1040,8 @@ void new_descriptor( int control )
     dnew->pString = NULL;       /* OLC */
     dnew->editor = 0;           /* OLC */
     dnew->outbuf = alloc_mem( dnew->outsize );
+    dnew->tintin = FALSE; // JR
+    dnew->newline = FALSE; // JR
 
     size = sizeof( sock );
     if ( getpeername( desc, ( struct sockaddr * ) &sock, &size ) < 0 )
@@ -1080,8 +1081,8 @@ void new_descriptor( int control )
      */
     dnew->next = descriptor_list;
     descriptor_list = dnew;
-    /*write_to_buffer( dnew, CFG_CONNECT_MSG, 0 );
-    write_to_buffer( dnew, CFG_ASK_ANSI, 0 );*/ /* Removed by JR to streamline web interface */
+    //write_to_buffer( dnew, CFG_CONNECT_MSG, 0 );
+    write_to_buffer( dnew, CFG_ASK_ANSI, 0 ); /* Removed by JR to streamline web interface */
     return;
 }
 
@@ -1375,33 +1376,32 @@ char * wait_str( CHAR_DATA * ch, char *buf )
 {
     int n = ch->wait;
     if ( ch->level >= LEVEL_ADMIN )
-        return "";
-
-    if ( ch->tintin )
+        strcpy( buf, "");
+    else if ( ch->desc->tintin )
     {
         if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
             sprintf( buf, "`B  ");
         else
             sprintf( buf, "`B%d ", 1 + ch->wait / PULSE_PER_SECOND );
-        return buf;
     }
     else
     {
-        if ( n == 0 )
-            return "`R   ";
+        if ( n <= PULSE_VIOLENCE/ONE_ROUND )
+            strcpy( buf, "`R   " );
         else if ( n < 1*PULSE_VIOLENCE )
-            return "`R  .";
+            strcpy( buf, "`R  ." );
         else if ( n < 1.5*PULSE_VIOLENCE )
-            return "`R  *";
+            strcpy( buf, "`R  *" );
         else if ( n < 2*PULSE_VIOLENCE )
-            return "`R .*";
+            strcpy( buf, "`R .*" );
         else if ( n < 2.5*PULSE_VIOLENCE )
-            return "`R **";
+            strcpy( buf, "`R **" );
         else if ( n < 3*PULSE_VIOLENCE )
-            return "`R.**";
+            strcpy( buf, "`R.**" );
         else
-            return "`R***";
+            strcpy( buf, "`R***" );
     }
+    return buf;
 }
 
 
@@ -1418,8 +1418,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     bool color = TRUE;
     bool tintin;
     
-    tintin = (d != NULL && d->character != NULL 
-                && d->character->tintin);
+    tintin = (d != NULL && d->character != NULL && d->tintin);
 
     /* If you're in a shell, then no output for you! */
     if ( d->connected == CON_SHELL )
@@ -1449,7 +1448,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
                 if ( tintin )
                 {
                     if ( ch != NULL )
-                        ch->newline = TRUE;
+                        d->newline = TRUE;
                 }
                 else
                     write_to_buffer( d, "\n\r", 2 );
@@ -1520,12 +1519,9 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
      */
     if ( length <= 0 )
         length = strlen( txt );
-
-    tintin = (d != NULL && d->character != NULL 
-                && d->character->tintin);
-    
+    tintin = (d != NULL && d->character != NULL && d->tintin);
     tmp = buf;
-    if ( tintin && d->character->newline)
+    if ( tintin && d->newline )
     {
         
         b = TRUE;
@@ -1548,7 +1544,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
             *(tmp+1) = '\r';
             tmp += 2;
             length += 2;
-            d->character->newline = FALSE;
+            d->newline = FALSE;
         }
     }
     strcpy( tmp, txt );
@@ -1688,6 +1684,17 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
             d->ansi = FALSE;
         else
             d->ansi = TRUE;
+            
+        if ( argument[0] == 't' && argument[1] == 'i' )
+        {
+            d->tintin = TRUE;
+            printf("yay tintin\n");
+        }
+        else
+        {
+            d->tintin = FALSE;
+            printf("boo tintin\n");
+        }
 
         /*
          * Send the greeting.
@@ -1695,6 +1702,7 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
         {
             extern char *help_greeting;
             /* extern char *ansi_greeting; */
+            
             write_to_buffer(d,"\n\r",0); /* Added by JR (fixed display problem with TinTin*/
             /*if ( d->ansi ) // JR: fixed this nonsense
                 write_to_buffer( d, ansi_greeting, 0 );
@@ -2450,7 +2458,6 @@ check_ban function.
         break;
 
     case CON_READ_MOTD:
-            printf("CON_READ_MOTD\n");
 #if defined(cbuilder)
         AddUser( ch );
 #endif
@@ -2672,7 +2679,6 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 {
                     REMOVE_BIT( ch->act, PLR_BUILDING );
                 }
-                printf("Reconnecting\n");
                 send_to_char( "Reconnecting.\n\r", ch );
                 write_to_buffer( d, "\n\r", 2 ); // JR
                 do_help( ch, "motd" );
@@ -2692,7 +2698,6 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                         ( "You have a note in progress. Type NWRITE to continue it.\n\r",
                           ch );
             }
-            printf("Reconnect returning\n");
             do_look( ch, "auto" );
             return TRUE;
         }
@@ -3341,7 +3346,7 @@ char *doparseprompt( CHAR_DATA * ch )
     orig_prompt = ch->pcdata->prompt;
     fp_point = finished_prompt;
     strcpy( fp_point, "" );
-    if ( ch->tintin )
+    if ( ch->desc->tintin )
     {
         for ( int n = 0; n + 1 < strlen(orig_prompt); n++ )
         {
@@ -3364,6 +3369,7 @@ char *doparseprompt( CHAR_DATA * ch )
         }
     }
     
+    twoline = FALSE;
     while ( *orig_prompt != '\0' )
     {
         if ( *orig_prompt != '%' )
@@ -3413,10 +3419,13 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'r':
-            if ( ch->tintin )
+            if ( ch->desc->tintin )
             {
                 if ( twoline )
+                {
+                    printf("Bail on prompt!\n");
                     return ( finished_prompt ); // Bail out
+                }
                 twoline = TRUE;
                 strcat( finished_prompt, "\n\r@^" );
                 fp_point += 4;
@@ -3562,7 +3571,6 @@ char *doparseprompt( CHAR_DATA * ch )
             break;
         }
     }
-
     return ( finished_prompt );
 }
 

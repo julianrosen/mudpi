@@ -432,7 +432,6 @@ void mobile_update( void )
     CHAR_DATA *ch_next;
     EXIT_DATA *pexit;
     int door;
-
     /* Examine all mobs. */
     for ( ch = char_list; ch != NULL; ch = ch_next )
     {
@@ -450,7 +449,6 @@ void mobile_update( void )
 
         if ( ch->in_room->area->empty && !IS_SET( ch->act, ACT_UPDATE_ALWAYS ) )
             continue;
-
         if ( ch->in_room->area->nplayer > 0
              || IS_SET( ch->act, ACT_UPDATE_ALWAYS ) )
         {
@@ -461,7 +459,6 @@ void mobile_update( void )
             if ( ch->position < POS_STANDING )
                 continue;
         }
-
         /* That's all for sleeping / busy monster, and empty zones */
         if ( ch->position != POS_STANDING )
             continue;
@@ -493,7 +490,6 @@ void mobile_update( void )
                 act( "$n gets $p.", ch, obj_best, NULL, TO_ROOM );
             }
         }
-
 #ifdef AUTO_HATE
         /*Hate */
         {
@@ -532,7 +528,6 @@ void mobile_update( void )
                 continue;
         }
     }
-
     return;
 }
 
@@ -683,7 +678,7 @@ void redraw_prompts( void )
     CHAR_DATA * ch;
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-        if ( !IS_NPC( ch ) && ch->desc != NULL && ch->tintin )
+        if ( !IS_NPC( ch ) && ch->desc != NULL && ch->desc->tintin )
         {
             write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );
         }
@@ -795,7 +790,7 @@ void char_update( void )
         // JR: Showing ticks is no longer enabled
         // Prompts update automatically
         
-        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 && !ch->tintin )
+        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 && !ch->desc->tintin )
         {
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
@@ -1367,7 +1362,6 @@ void update_handler( void )
         bug( "Silentmode = TRUE in update.c", 0 );
         silentmode = FALSE;
     }
-
     if ( --pulse_area <= 0 )
     {
         pulse_area = number_range( PULSE_AREA / 2, 3 * PULSE_AREA / 2 );
@@ -1380,21 +1374,18 @@ void update_handler( void )
         pulse_auction = PULSE_AUCTION;
         auction_update(  );
     }
-
     if ( --pulse_mobile <= 0 )
     {
         pulse_mobile = PULSE_MOBILE;
         update_last( "Update:", "mobile", "" );
         mobile_update(  );
     }
-
     if ( --pulse_violence <= 0 )
     {
         pulse_violence = PULSE_VIOLENCE;
         update_last( "Update:", "violence", "" );
         violence_update(  );
     }
-
     if ( --pulse_point <= 0 )
     {
 #if defined(DEBUG)
@@ -1421,7 +1412,6 @@ void update_handler( void )
     {
         redraw_prompts( );
     }
-
     update_last( "Update:", "aggr", "" );
     aggr_update(  );
     update_last( "End update loop.", "", "" );

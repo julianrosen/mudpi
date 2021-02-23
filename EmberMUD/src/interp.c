@@ -474,9 +474,9 @@ const struct cmd_type cmd_table[] = {
     {"mpsilentforce", do_mpsilentforce, POS_DEAD, 0, LOG_NORMAL, 0},
     {"mpsilentcast", do_mpsilentcast, POS_DEAD, 0, LOG_NORMAL, 0},
     {"mpdefault", do_mpdefault, POS_DEAD, 0, LOG_NORMAL, 0},
-    {"mpreadgatsby", do_mpreadgatsby, POS_DEAD, 0, LOG_NORMAL, 0},
-    {"mpfrenchtaunter", do_mpfrenchtaunter, POS_DEAD, 0, LOG_NORMAL, 0},
-    {"mpcycle", do_mpcycle, POS_DEAD, 0, LOG_NORMAL, 0},
+    {"mpreadgatsby", do_mpreadgatsby, POS_DEAD, 0, LOG_NORMAL, 0}, // JR
+    {"mpfrenchtaunter", do_mpfrenchtaunter, POS_DEAD, 0, LOG_NORMAL, 0}, // JR, from Mudweiser
+    {"mpcycle", do_mpcycle, POS_DEAD, 0, LOG_NORMAL, 0}, // JR
     /*
      * End of list.
      */
@@ -540,7 +540,8 @@ void interpret( CHAR_DATA * ch, char *argument )
     bool found;
     bool can_do;
     
-    ch->newline = FALSE; // Don't need newline after command
+    if ( !IS_NPC( ch ) && ch->desc != NULL )
+        ch->desc->newline = FALSE; // Don't need newline after command
 
     /*
      * Strip leading spaces.

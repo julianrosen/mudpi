@@ -280,6 +280,8 @@ struct descriptor_data {
     void *pEdit;                /* OLC */
     char **pString;             /* OLC */
     bool color_edit;            /* JR: are we in an editor mode where we want color? */
+    bool tintin;      // JR: are we using integrated tintin
+    bool newline;     // JR: do we need a newline?
     int editor;                 /* OLC */
 };
 
@@ -597,8 +599,6 @@ struct char_data {
     
     // JR added below
     sh_int start_age;
-    bool newline; // Does char need a new line before getting more text?
-    bool tintin;  // Does a user want output optimized for mudpi tintin?
 };
 
 struct mud_prog_act_list {

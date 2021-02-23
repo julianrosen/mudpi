@@ -322,7 +322,7 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
         fprintf( fp, "Neme %s~\n", ch->pcdata->nemesis );
         fprintf( fp, "PKdi %d\n", ch->pcdata->pk_deaths );
         fprintf( fp, "PKki %d\n", ch->pcdata->pk_kills );
-        fprintf( fp, "TinTin %d\n", ch->tintin );
+        //fprintf( fp, "TinTin %d\n", ch->tintin );
         fprintf( fp, "Tick %d\n", ch->pcdata->tick );
         fprintf( fp, "Ticks %d\n", ch->pcdata->ticks );
         if ( ch->pcdata->who_race )
@@ -705,7 +705,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     ch->pcdata->faction_standings = NULL;
     // JR
     ch->start_age = 0; 
-    ch->tintin = 1;
+    //ch->tintin = 0;
 
     
     found = FALSE;
@@ -1296,7 +1296,7 @@ void fread_char( CHAR_DATA * ch, FILE * fp )
             KEY( "Trai", ch->train, fread_number( fp ) );
             KEY( "Trust", ch->trust, fread_number( fp ) );
             KEY( "Tru", ch->trust, fread_number( fp ) );
-            KEY( "TinTin", ch->tintin, fread_number( fp ) );
+            //KEY( "TinTin", ch->tintin, fread_number( fp ) ); // JR temp
 
             if ( !str_cmp( word, "Title" ) || !str_cmp( word, "Titl" ) )
             {
