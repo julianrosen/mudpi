@@ -5309,6 +5309,7 @@ void do_aexits( CHAR_DATA * ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     bool header_printed = FALSE;
     long avnum, room, door;
+    char buf[MAX_STRING_LENGTH];
 
     argument = one_argument( argument, arg );
 
@@ -5360,25 +5361,28 @@ void do_aexits( CHAR_DATA * ch, char *argument )
 
             /* If the to_room for the exit is in a different area */
             /* then print out the information                     */
+            // JR: modified for color in room names
             if ( exit->u1.to_room->area != area )
             {
                 if ( !header_printed )
                 {
-                    printf_to_char( ch,
-                                    "\n\r`wExits for area: `W%s`w\n\r\n\r"
-                                    "`K[ `wvnum `K] `wRoom in `W%-25.25s `K[ `wvnum `K] `wRoom in other area\n\r"
-                                    "`K-------------------------------------------------------------------------------`w\n\r",
-                                    area->name, area->filename );
-
+                    sprintf( buf, "\n\r`wExits for area: `W%s`w\n\r\n\r", area->name);
+                    send_to_char( buf, ch );
+                    sprintf( buf, "`K[ `wvnum `K] `wRoom in `W%s", area->filename );
+                    lengthen( buf, 34 );
+                    sprintf( buf+strlen(buf), " `K[ `wvnum `K] `wRoom in other area\n\r"
+                        "`K--------------------------------------------------------------------------------`w\n\r");
+                    send_to_char( buf, ch );
                     header_printed = TRUE;
                 }
-
-                printf_to_char( ch,
-                                "`K[`w%6d`K] `w%-25.25s %4.4s to `K[`w%6d`K] `w%-25.25s in `W%12.12s`w\n\r",
-                                room, rid->name, dir_name[door],
-                                exit->u1.to_room->vnum,
-                                exit->u1.to_room->name,
-                                exit->u1.to_room->area->filename );
+                sprintf( buf, "`K[`w%6d`K] `w%s", room, rid->name);
+                lengthen( buf, 26 );
+                sprintf( buf+strlen(buf), " `w%4.4s to `K[`w%6d`K] `w%s", dir_name[door],
+                       exit->u1.to_room->vnum, exit->u1.to_room->name );
+                lengthen( buf, 69 );
+                sprintf( buf+strlen(buf), " `W%s", exit->u1.to_room->area->filename );
+                strcat( buf, "`w\n\r" );
+                send_to_char( buf, ch );
             }
         }
     }

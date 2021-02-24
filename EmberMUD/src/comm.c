@@ -836,11 +836,10 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                
                 if ( d->tintin && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) )
+                {
                     write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
-                                                                          // Not really a problem with Tintin, but still...
-
+                }                                                         // Not really a problem with Tintin, but still...
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
                     d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
                     d->character->wait = PULSE_VIOLENCE/ONE_ROUND; // JR: admins don't have to wait long
@@ -850,7 +849,6 @@ int game_loop( int control )
                 read_from_buffer( d, FALSE );
             else
                 {d->incomm[0] = '\n';d->incomm[1] = '\0';} // JR: changed double quotes to single
-            
             
             if ( d->incomm[0] != '\0' )
             {
@@ -1377,7 +1375,7 @@ char * wait_str( CHAR_DATA * ch, char *buf )
     int n = ch->wait;
     if ( ch->level >= LEVEL_ADMIN )
         strcpy( buf, "");
-    else if ( ch->desc->tintin )
+    else if ( ch->desc != NULL && ch->desc->tintin )
     {
         if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
             sprintf( buf, "`B  ");
@@ -1457,13 +1455,13 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             if ( IS_SET( ch->comm, COMM_PROMPT ) )
             {
                 ch = d->character;
-                if ( !IS_NPC( ch ) )
+                //if ( !IS_NPC( ch ) )
                     sprintf( buf, "%s", doparseprompt( ch ) );
-                else
+                //else
                     /* This is the default prompt */
-                    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch, waitbuf ), ch->hit,
-                             ch->max_hit, ch->mana, ch->max_mana, ch->move,
-                             ch->max_move );
+                //    sprintf( buf, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch, waitbuf ), ch->hit,
+                //             ch->max_hit, ch->mana, ch->max_mana, ch->move,
+                //             ch->max_move );
                 write_to_buffer( d, buf, 0 );
             }
 
@@ -1687,14 +1685,11 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
             
         if ( argument[0] == 't' && argument[1] == 'i' )
         {
+            // Integrated TinTin is being used
             d->tintin = TRUE;
-            printf("yay tintin\n");
         }
         else
-        {
             d->tintin = FALSE;
-            printf("boo tintin\n");
-        }
 
         /*
          * Send the greeting.
@@ -1909,6 +1904,7 @@ check_ban function.
         {
             write_to_buffer( d, "\n\r", 2 ); // JR
             do_help( ch, "motd" );
+            printf("just read motd\n");
             write_to_buffer( d, "\n\r\n\r\n\r", 6 ); // JR
             d->connected = CON_READ_MOTD;
         }
@@ -3342,11 +3338,18 @@ char *doparseprompt( CHAR_DATA * ch )
     bool twoline = FALSE;
     int n;
     
+    if ( IS_NPC( ch ) )
+    {
+        sprintf( finished_prompt, "%s<H%d/%d M%d/%d V%d/%d>", wait_str( ch, waitbuf ), ch->hit,
+                             ch->max_hit, ch->mana, ch->max_mana, ch->move,
+                             ch->max_move );
+        return finished_prompt;
+    }
     bzero( finished_prompt, sizeof( finished_prompt ) );
     orig_prompt = ch->pcdata->prompt;
     fp_point = finished_prompt;
     strcpy( fp_point, "" );
-    if ( ch->desc->tintin )
+    if ( ch->desc != NULL && ch->desc->tintin )
     {
         for ( int n = 0; n + 1 < strlen(orig_prompt); n++ )
         {
@@ -3368,7 +3371,6 @@ char *doparseprompt( CHAR_DATA * ch )
             fp_point += 6;
         }
     }
-    
     twoline = FALSE;
     while ( *orig_prompt != '\0' )
     {
@@ -3419,7 +3421,7 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'r':
-            if ( ch->desc->tintin )
+            if ( ch->desc != NULL && ch->desc->tintin )
             {
                 if ( twoline )
                 {

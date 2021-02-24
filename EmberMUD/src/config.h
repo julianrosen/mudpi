@@ -1384,7 +1384,7 @@ of combat. */
 #define OBJ_VNUM_BLANK_SCROLL      3398+VNUM_OFFSET
 #define OBJ_VNUM_EMPTY_VIAL        3399+VNUM_OFFSET
 
-#define OBJ_VNUM_PORTAL       3392+VNUM_OFFSET  /* This is the vnum of the portal
+#define OBJ_VNUM_PORTAL       3392  /* This is the vnum of the portal
                                        created using the Nexus Spell */
 /*
  * Item types.

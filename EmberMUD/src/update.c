@@ -790,7 +790,8 @@ void char_update( void )
         // JR: Showing ticks is no longer enabled
         // Prompts update automatically
         
-        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 && !ch->desc->tintin )
+        if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 
+            && ch->desc != NULL && !ch->desc->tintin )
         {
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
@@ -956,7 +957,6 @@ void char_update( void )
          *   MUST NOT refer to ch after damage taken,
          *   as it may be lethal damage (on NPC).
          */
-
         if ( is_affected( ch, gsn_plague ) && ch != NULL )
         {
             AFFECT_DATA *af, plague;
@@ -1065,7 +1065,6 @@ void char_update( void )
             do_quit( ch, "" );
 	    }
     }
-
     return;
 }
 

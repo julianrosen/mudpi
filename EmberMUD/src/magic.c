@@ -3023,15 +3023,15 @@ void spell_gate( int sn, int level, CHAR_DATA * ch, void *vo )
 void spawn_portal( int vnum1, int vnum2 )
 {
     OBJ_DATA *obj;
-    int decay;
-
-    decay = number_range( 3, 6 );
-
+    int decay, a, b;
+    a = 100 * PULSE_PER_SECOND / PULSE_TICK; // JR: shorter ticks = longer portal
+    b = 170 * PULSE_PER_SECOND / PULSE_TICK;
+    printf("%i/%i\n",a,b);
+    decay = number_range( a, b );
     obj = create_object( get_obj_index( OBJ_VNUM_PORTAL ), 0 );
     obj->value[0] = vnum1;
     obj->timer = decay;
     obj_to_room( obj, get_room_index( vnum2 ) );
-
     obj = create_object( get_obj_index( OBJ_VNUM_PORTAL ), 0 );
     obj->value[0] = vnum2;
     obj->timer = decay;
@@ -3044,9 +3044,9 @@ void spell_nexus( int sn, int level, CHAR_DATA * ch, void *vo )
 {
     CHAR_DATA *victim;
     extern bool chaos;
-
     if ( ( ( victim = get_char_world( ch, target_name ) ) == NULL ) )
     {
+        printf("a");
         send_to_char
             ( "A disturbance in the planar fabric prevents your portal from opening.\n\r",
               ch );
@@ -3068,7 +3068,6 @@ void spell_nexus( int sn, int level, CHAR_DATA * ch, void *vo )
     }
     if ( IS_NPC( victim ) )
     {
-
         if ( victim == ch
              || victim->in_room == NULL
              || !can_see_room( ch, victim->in_room )
@@ -3106,7 +3105,6 @@ void spell_nexus( int sn, int level, CHAR_DATA * ch, void *vo )
             return;
         }
     }
-
     if ( NOSUMMONPKSAME == 1 && IS_SET( victim->act, PLR_KILLER ) )
     {
         if ( victim == ch || victim->in_room == NULL || !can_see_room( ch, victim->in_room ) || IS_SET( victim->in_room->room_flags, ROOM_SAFE ) || IS_SET( victim->in_room->room_flags, ROOM_PRIVATE ) || IS_SET( victim->in_room->room_flags, ROOM_SOLITARY ) || IS_SET( victim->in_room->room_flags, ROOM_NO_RECALL ) || IS_SET( ch->in_room->room_flags, ROOM_NO_RECALL ) || victim->level > ch->level + NOSUMMONLEVELPK || ( chaos ) || ( !IS_NPC( victim ) && victim->level >= LEVEL_HERO )   /* NOT trust */

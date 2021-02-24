@@ -107,24 +107,19 @@ void violence_update( void )
         if ( IS_AWAKE( ch ) && ch->in_room == victim->in_room )
             multi_hit( ch, victim, TYPE_UNDEFINED );
         else
-        {
             stop_fighting( ch, FALSE );
-        }
 
         if ( ( victim = ch->fighting ) == NULL )
             continue;
-
         rprog_rfight_trigger( ch );
         mprog_hitprcnt_trigger( ch, victim );
         mprog_fightgroup_trigger( ch );
         mprog_fight_trigger( ch, victim );
-
         /*
          * Fun for the whole family!
          */
         check_assist( ch, victim );
     }
-
     return;
 }
 
@@ -157,7 +152,9 @@ void check_assist( CHAR_DATA * ch, CHAR_DATA * victim )
                 if ( ( ( !IS_NPC( rch ) && IS_SET( rch->act, PLR_AUTOASSIST ) )
                        || IS_AFFECTED( rch, AFF_CHARM ) )
                      && is_same_group( ch, rch ) )
+                {
                     multi_hit( rch, victim, TYPE_UNDEFINED );
+                }
 
                 continue;
             }
@@ -260,7 +257,7 @@ void multi_hit( CHAR_DATA * ch, CHAR_DATA * victim, int dt )
     /* decrement the wait */
     if ( ch->desc == NULL )
         ch->wait = UMAX( 0, ch->wait - PULSE_VIOLENCE );
-
+    
     /* no attacks for stunnies -- just a check */
     if ( ch->position < POS_RESTING )
         return;

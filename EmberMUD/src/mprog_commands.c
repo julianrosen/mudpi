@@ -1313,10 +1313,8 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
     MOB_INDEX_DATA *pMob;
     char arg[MAX_STRING_LENGTH];
     char *arg2;
-
     if ( ( pMob = ch->pIndexData ) == NULL )
         return;
-
     arg2 = one_argument( argument, arg );
 
     if ( strlen( arg ) < 1 )
@@ -1327,7 +1325,6 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
         pMob->path_move = TRUE;
         pMob->path_pos = 0;
     }
-
     /* If we're fighting, unconcious(or worse) or not moving at all just exit */
     if ( ch->fighting != NULL || !pMob->path_move
          || ch->position < POS_SLEEPING )
@@ -1433,7 +1430,6 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
         pMob->path_move = FALSE;
         break;
     }
-
     pMob->path_pos++;
 
     if ( pMob->path_pos >= strlen( arg ) )
@@ -1805,31 +1801,36 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
             }*/
     
     for ( count = 0; count < 2; count++ )
+    {
+        if ( count == 0 )
+            strcpy( buf, "`GAmelia says: ");
+        else
+            strcpy( buf, "`G             ");
+
+        bufp = buf+strlen(buf);
+        while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
+            gatsby_head++;
+
+
+        if ( *gatsby_head == 255 )
         {
-            strcpy( buf, "say ");
-            bufp = buf+strlen(buf);
-            while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
-                gatsby_head++;
-            
-
-            if ( *gatsby_head == 255 )
-            {
-                gatsby_head = gatsby_text;
-                interpret( ch, "say 'Phew, that was long! Let's start again from the top.'" );
-                return;
-            }
-
-            while ( *gatsby_head != 255 && *gatsby_head != '\n' && *gatsby_head != '\r' && *gatsby_head != '\0')
-            {
-                *bufp = *gatsby_head;
-                gatsby_head++;
-                bufp++;
-            }
-            *(bufp) = '\0';
-            interpret( ch, buf );
-            if ( *(gatsby_head+1) == '\n' )
-                break;
+            gatsby_head = gatsby_text;
+            do_mpecho( ch, "`GAmelia says: Phew, that was long! Let's start again from the top." );
+            //interpret( ch, "say 'Phew, that was long! Let's start again from the top.'" );
+            return;
         }
+
+        while ( *gatsby_head != 255 && *gatsby_head != '\n' && *gatsby_head != '\r' && *gatsby_head != '\0')
+        {
+            *bufp = *gatsby_head;
+            gatsby_head++;
+            bufp++;
+        }
+        *(bufp) = '\0';
+        do_mpecho( ch, buf );
+        if ( *(gatsby_head+1) == '\n' )
+            break;
+    }
     return;
 }
 

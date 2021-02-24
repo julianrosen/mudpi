@@ -1340,7 +1340,7 @@ void display_resets( CHAR_DATA * ch )
                          flag_string( wear_loc_strings, WEAR_NONE )
                          : flag_string( wear_loc_strings, pReset->arg3 ));
                 lengthen( final, 47 );
-                sprintf( final, "`wM[%5d]       %s", pMob->vnum, pMob->short_descr );
+                sprintf( final + strlen(final), " `wM[%5d]       %s", pMob->vnum, pMob->short_descr );
                 lengthen( final, 78 );
                 sprintf( final + strlen(final), "\n\r" );
             } //??

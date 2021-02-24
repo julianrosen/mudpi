@@ -2743,7 +2743,7 @@ void do_quit( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
 
-    if ( !ch->desc->tintin )
+    if ( ch->desc == NULL || !ch->desc->tintin )
         send_to_char( "\n\r", ch );
     
     if ( ch->position == POS_FIGHTING )
@@ -2771,7 +2771,7 @@ inform him that its not that easy ;) -Lancelight */
         REMOVE_BIT( ch->act, PLR_BUILDING );
     }
     
-    if ( ch->desc->tintin )
+    if ( ch->desc != NULL && ch->desc->tintin )
     {
         write_to_buffer( ch->desc, "$*\n\r@^", 6 );
     }
@@ -3101,8 +3101,14 @@ void do_order( CHAR_DATA * ch, char *argument )
                      TO_CHAR );
 
             }
+            //else if ( och->wait > 0 )
+            //{
+            //    act( "$N is busy doing other things.", ch, NULL, och, TO_CHAR );
+            //}
             else
             {
+                sprintf( buf, "$N still must wait %d pulses.", och->wait );
+                act( buf, ch, NULL, och, TO_CHAR );
                 if ( !IS_NPC( och ) )
                 {
                     sprintf( buf, "%s ordered %s to '%s'", ch->name, och->name,
