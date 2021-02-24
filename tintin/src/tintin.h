@@ -3057,3 +3057,8 @@ extern int interpret_vt102_codes(struct session *ses, char *str, int real);
 extern int catch_vt102_codes(struct session *ses, unsigned char *str, int cplen);
 
 #endif
+
+
+// JR
+#define MUDPI_ON       1
+#define MUDPI_COMPACT  2

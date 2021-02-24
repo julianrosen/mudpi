@@ -2458,7 +2458,7 @@ check_ban function.
         write_to_buffer( d, "\n\r", 2 ); // JR asdf
 
         //if ( d->tintin )
-        //      write_to_buffer( d, "*&^%\n\r", 6 ); // JR asdf
+        //      write_to_buffer( d, TINTIN_ON "\n\r", 6 ); // JR asdf
             
         /* Add to list of PCs and NPCs */
         ch->next = char_list;
@@ -2663,6 +2663,7 @@ bool check_parse_name( char *name )
 bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
 {
     CHAR_DATA *ch;
+    char buf[30];
 
     for ( ch = player_list; ch != NULL; ch = ch->next_player )
     {
@@ -2700,7 +2701,9 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 log_string( log_buf );
                 if ( d->tintin )
                 {
-                    write_to_buffer( d, "\n\r*&^%\n\r", 8 );
+                    sprintf( buf, "\n\r" TINTIN_ON " %s\n\r",
+                        IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
+                    write_to_buffer( d, buf, 0 );
                     d->connected = CON_PAUSE;
                 }
                 else
@@ -3379,13 +3382,13 @@ char *doparseprompt( CHAR_DATA * ch )
 
         if ( twoline )
         {
-            strcpy( fp_point, "$*" );
-            fp_point += 2;
+            strcpy( fp_point, PROMPT_TOP );
+            fp_point += strlen( PROMPT_TOP );
         }
         else
         {
-            strcpy( fp_point, "$*\n\r@^" );
-            fp_point += 6;
+            strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM );
+            fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM ) + 2;
         }
     }
     twoline = FALSE;
@@ -3446,8 +3449,8 @@ char *doparseprompt( CHAR_DATA * ch )
                     return ( finished_prompt ); // Bail out
                 }
                 twoline = TRUE;
-                strcat( finished_prompt, "\n\r@^" );
-                fp_point += 4;
+                strcat( finished_prompt, "\n\r" PROMPT_BOTTOM );
+                fp_point += strlen( PROMPT_BOTTOM ) + 2;
             }
             else
             {
@@ -3661,9 +3664,13 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
 void motd( CHAR_DATA * ch )
 {
     DESCRIPTOR_DATA *d = ch->desc;
+    char buf[10];
+    
+    sprintf( buf, TINTIN_ON " %s\n\r",
+            IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
     write_to_buffer( d, "\n\r", 2 );
     if ( d -> tintin )
-        write_to_buffer( d, "*&^%\n\r", 6 );
+        write_to_buffer( d, buf, 0 );
     do_help( ch, "motd" );
     if ( d -> tintin )
         write_to_buffer( d, "\n\r\n\r\n\r", 6 );

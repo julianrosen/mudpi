@@ -1080,6 +1080,10 @@ of combat. */
 // JR
 #define CON_ACCEPT_CP                   26
 #define CON_PAUSE                       27
+#define PROMPT_TOP                      "@^p1"     // How Mudpi sends commands to TinTin
+#define PROMPT_BOTTOM                   "@^p2"
+#define TINTIN_ON                       "@^ton"
+#define TINTIN_OFF                      "@^toff"
         
 /***************************************************************************
  *                                                                         *

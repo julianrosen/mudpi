@@ -90,7 +90,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
             stop_fighting( ch, TRUE );
             
             if ( ch->desc != NULL && ch->desc->tintin )
-                send_to_char( "%^&*\n\r", ch );
+                send_to_char( TINTIN_OFF "\n\r", ch );
             
             send_to_char
                 ( "You have chosen to remort. You will now be dropped in at the race\n\r",

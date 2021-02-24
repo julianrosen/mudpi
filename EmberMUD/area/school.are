@@ -596,6 +596,10 @@ You see the one way door into the Arena of Mud School.
 ~
 door~
 2 -1 16744
+D4
+~
+~
+6 0 16761
 D5
 You see the Temple of Midgaard.
 ~
@@ -2071,6 +2075,10 @@ D3
 ~
 ~
 0 0 16763
+D5
+~
+~
+6 0 16700
 S
 #16762
 To Learn About Gods...~
@@ -2126,7 +2134,9 @@ S
 
 
 #RESETS
+D 0 16700 4 2
 D 0 16719 1 2
+D 0 16761 5 2
 M 0 16700 0 16701 Load the acolyte of Tempest
 M 0 16701 0 16710 Load the blob
 M 0 16707 0 16712 Load the adept of Ezra

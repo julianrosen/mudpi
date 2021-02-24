@@ -52,7 +52,7 @@ bool fLogAll = FALSE;
 
 
 // JR
-int newline;
+//int newline;
 
 /*
  * Command table.

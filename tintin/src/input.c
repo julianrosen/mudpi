@@ -940,7 +940,7 @@ void echo_command(struct session *ses, char *line)
 		sprintf(buffer, "\e[0m");
 	}
    
-    if ( ses->mudpi ) // JR :)
+    if ( ses->mudpi & MUDPI_ON ) // JR :)
     {
         for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
         {
@@ -954,7 +954,10 @@ void echo_command(struct session *ses, char *line)
             buffer[0] = '>';
             buffer[1] = ' ';*/
             gtd->level->scroll++;
-            sprintf( buf, "\e[1;34m\n>> %s", buffer); // JR: Bright blue >>
+            if ( ses->mudpi & MUDPI_COMPACT )
+                sprintf( buf, "\e[1;33m>> %s", buffer); // JR: Bright blue >>
+            else
+                sprintf( buf, "\e[1;33m\n>> %s", buffer); // JR: Bright blue >>
             tintin_printf2(ses, "%s", buf);
             gtd->level->scroll--;
             add_line_buffer(ses, buf, FALSE);    

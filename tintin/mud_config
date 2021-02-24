@@ -2,8 +2,8 @@
 #gag {#SESSION}
 #gag {#TRYING}
 #gag {Use ANSI Color?}
-#gag {*&^%}
-#gag {%^&*}
+#gag {@^ton}
+#gag {@^toff}
 #ses mud_pi localhost 20495
 #ungag {#TRYING}
 
@@ -13,9 +13,9 @@ ti
 #alias {_setttprompt}
 {
     #split 0 2;
-    #prompt {~$*%%1}{%%1}{-3}{0};
-    #prompt {~@^%%1}{%%1}{-2}{0};
-    #mudpi;
+    #prompt {~@^p1%%1}{%%1}{-3}{0};
+    #prompt {~@^p2%%1}{%%1}{-2}{0};
+    #mudpi on;
 }
 
 #alias {setttprompt}
@@ -26,27 +26,32 @@ ti
 
 #alias {unsetttprompt}
 {
-    #unprompt {~$*%%1};
-    #unprompt {~@^%%1};
+    #unprompt {~@^p1%%1};
+    #unprompt {~@^p2%%1};
     #split 0 0;
     tintin off;
-    #mudpi;
+    #mudpi off;
 }
 
-#action {*&^%}
+#action {^@^ton %1}
 {
     #delay {0.05} {_setttprompt};
     #delay {0.05} {#cr};
     #delay {0.05} {#screen clear bottom};
     #delay {0.05} {#screen clear input};
+    #show {This is: %1};
+    #mudpi %1;
 }
 
-#action {%^&*}
+#action {^@^toff}
 {
     unsetttprompt;
     #unsplit;
     #screen clear input;
     #screen clear bottom;
 }
+
+#action {^Compact mode set.} {#mudpi compact}
+#action {^Compact mode removed.} {#mudpi noncompact}
 
 #event {SESSION DISCONNECTED} {#end}

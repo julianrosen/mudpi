@@ -10,10 +10,10 @@
 `b||                                              ||    `gDikuMUD > MERC > ROM >
 `b||==============================================||    `gEmberMUD > Mudweiser > Mudpi
 `bOO                                              OO
- 
+
 `wWhat is your name: ~
 -1 WIZLIST~
-.                     `GThe gods of Mudpi                           
+.                    `GThe gods of Mudpi                           
                         `K--------------------                           
  `WCreators `K[`GLevel 62`K]                          `WImplementers `K[`GLevel 60`K]  
  ---------------------------                  ------------------------ 
@@ -46,8 +46,8 @@ No news yet.
 . Ah! Another mortal, seeking adventure. You should go through mudschool first,
  to gain experience to face the trials outside. Be sure to practice a weapon
  in the guild room, or your stay with us shall be very short indeed. Type
-'equipment' to see what your are wielding, 'spells' to see your spells, 
-'skills' to see your skills, and 'commands' for a list of commands. Help is
+ 'equipment' to see what your are wielding, 'spells' to see your spells, 
+ 'skills' to see your skills, and 'commands' for a list of commands. Help is
  available on most commands and abilities.
 ~
 51 JOBS~
@@ -361,14 +361,14 @@ No news yet.
  is because the server multiplies what it reads from file with 10.
 ~
 90 ITEM_LIGHT~
-. value 0    unused
+.  value 0    unused
    value 1    unused
    value 2    hours of light available, 0 is dead, -1 or 999 is infinite            
    value 3    unused
    value 4    unused
 ~
 90 ITEM_STAFF_WAND~
-. value 0    level
+.  value 0    level
    value 1    max charges
    value 2    current charges
    value 3    spell name
@@ -379,7 +379,7 @@ No news yet.
 ? SPELLS [ignore/attack/defend/self/object/all]
 ~
 90 ITEM_SCROLL_POTION_PILL~
-. value 0    level
+.  value 0    level
    value 1    spell name 1
    value 2    spell name 2
    value 3    spell name 3
@@ -389,14 +389,14 @@ No news yet.
 ? SPELLS [ignore/attack/defend/self/object/all]
 ~
 90 ITEM_ARMOR~
-. value 0    ac pierce
+.  value 0    ac pierce
    value 1    ac bash
    value 2    ac slash
    value 3    ac exotic (magic)
    value 4    unused
 ~
 90 ITEM_WEAPON~
-. value 0    weapon class.
+.  value 0    weapon class.
    value 1    number of dice to roll.
    value 2    type of dice to roll.
    value 3    weapon type.
@@ -425,7 +425,7 @@ No news yet.
        50:     5d11
 ~
 90 ITEM_CONTAINER~
-. value 0    weight capacity
+.  value 0    weight capacity
    value 1    flags: closeable, pickproof, closed, locked            
    value 2    key vnum
    value 3    unused
@@ -435,7 +435,7 @@ No news yet.
 ? CONTAINTER
 ~
 90 ITEM_DRINK~
-. value0    capacity
+.  value0    capacity
    value 1    current quantity
    value 2    liquid type
    value 3    poisoned?
@@ -445,14 +445,14 @@ No news yet.
 ? LIQUID
 ~
 90 ITEM_FOOD~
-. value 0    hours of food value
+.  value 0    hours of food value
    value 1    unused
    value 2    unused
    value 3    poisoned?
    value 4    unused
 ~
 90 ITEM_MONEY~
-. value 0    value in gold pieces
+.  value 0    value in gold pieces
    value 1    unused
    value 2    unused
    value 3    unused
@@ -461,15 +461,25 @@ No news yet.
 -1 GATE~
 . `GCAST GATE <name>                                                      `Yspell
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- `wThe gate spell is a powerful transportation magic that opens up a   
- portal between your character and another person or creature        
- somewhere else in the world. This portal will transport you and    
- any pet you might have, but not other members of your group.        
+ `wThe gate spell is a powerful transportation magic that transports
+ you and any pet you might have to the target.       
                                                                      
  Monsters recieve a save against gate, and monsters or players more  
  than 3 levels higher than you can not be gated to at all. God       
  and private rooms cannot be gated to, and no recall rooms cannot be 
- gated out of. Finally, all gods are immune to gate.                                                                  
+ gated out of. Finally, all gods are immune to gate.
+~
+-1 NEXUS~
+. `GCAST NEXUS <name>                                                     `Yspell
+`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ `wThis spell opens up a portal between the caster and the target.
+ The portal only lasts for a few ticks, but while open, anyone
+ can use the portal (type ENTER PORTAL to use it).
+                                                                     
+ Monsters recieve a save against nexus, and monsters or players more  
+ than 3 levels higher than you can not be the target of nexus. God       
+ and private rooms cannot be accessed via nexus, and you cannot case
+ nexus while in a no recall room. Finally, all gods are immune to nexus.
 ~
 -1 FLEE~
 . `GFLEE                                                           `Ycombat skill
@@ -487,7 +497,7 @@ No news yet.
  `WSee also: `GRECALL WIMPY                                             
 ~
 -1 DIKU CREDITS~
-.                 Original game idea, concept, and design:
+.                Original game idea, concept, and design:
 
           Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
           Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
@@ -571,6 +581,7 @@ No news yet.
  bash kick trip circle
 
  For more help, type 'help <topic>' for any command, skill, or spell.
+ 
  `WSee also: `GDAMAGE DEATH EXPERIENCE NEWS STORY TICK WIZLIST
 ~
 0 DAMAGE~
@@ -680,8 +691,6 @@ No news yet.
  Area resetting happens roughly every 3 minutes if no one is in the area; less
  often (15 minutes) if some one is. Also note that objects lying on the ground
  will not be regenerated if anyone is in the area when it resets.
- 
- TICK toggles whether or not Mudpi alerts you when a tick happens.
 ~
 0 !~
 . `G!                                                                   `Ycommand
@@ -914,8 +923,7 @@ No news yet.
   %n - variable color current mana
   %w - variable color current movement
 
- There are two default prompts accessible using prompt default and 
- prompt combat. 
+ There are three default prompt accessible using PROMPT SIMPLE/COMBAT/GHIOTI.
 ~
 0 EMOTE ; POSE SOCIAL~
 . `GEMOTE <action>
@@ -962,7 +970,7 @@ No news yet.
  SCORE
  TIME
  EFFECTS
- WEATHER                                                `Yinfo
+ WEATHER                                                                `Yinfo
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wAREAS shows you a list of areas in the game.
 
@@ -1065,11 +1073,11 @@ No news yet.
  Some monsters are wimpy.
 ~
 0 OPEN CLOSE LOCK UNLOCK PICK~
-. `GOPEN   <object|direction>
- CLOSE  <object|direction>
- LOCK   <object|direction>
+. `GOPEN <object|direction>
+ CLOSE <object|direction>
+ LOCK <object|direction>
  UNLOCK <object|direction>
- PICK   <object|direction>                                           `Ycommand
+ PICK <object|direction>                                             `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wOPEN and CLOSE open and close an object or a door.
 
@@ -1184,7 +1192,7 @@ No news yet.
 0 VISIBLE~
 . `GVISIBLE                                                             `Ycommand
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-`w. VISIBLE cancels your hiding and sneaking, as well as any invisibility,
+ `wVISIBLE cancels your hiding and sneaking, as well as any invisibility,
  making you visible again.
 ~
 0 QUIT SAVE~
@@ -1422,8 +1430,8 @@ No news yet.
 ~
 90 STRING~
 . `GSTRING OBJ <field> <string>
-STRING MOB <field> <string>
-STRING CHAR <name> <field> <string>                                   `Yadmin
+ STRING MOB <field> <string>
+ STRING CHAR <name> <field> <string>                                   `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wThe string command changes the various strings associated with an object or
  mobile. A full list of fields can be viewed by typing string obj, string
@@ -1465,7 +1473,7 @@ STRING CHAR <name> <field> <string>                                   `Yadmin
 ~
 90 RESTORE~
 . `GRESTORE <character>
-RESTORE ROOM
+ RESTORE ROOM
  RESTORE ALL                                                           `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wRestore restores full hit points, mana points, and movement points to the
@@ -1503,7 +1511,7 @@ RESTORE ROOM
 ~
 90 ECHO GECHO PECHO~
 . `GECHO <message>
-PECHO <character> <message>                                           `Yadmin
+ PECHO <character> <message>                                           `Yadmin
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  `wThese commands all perform similar functions. Echo sends the message to
  all characters in the same room as the user, with no indication of who sent
@@ -2167,50 +2175,40 @@ PECHO <character> <message>                                           `Yadmin
  also train their primary stat higher than any other race, and are able to
  gain more benefit from magical devices.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 DROW~
+. `BDrow                                                                   `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wSimilar to an elf.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 HOBBIT HALFLING~
+. `BHobbit                                                                 `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wSomewhat shorter and smaller than a human. Hobbits make goos thieves.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 'HALF ELF'~
+. `BHalf elf                                                               `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wHalf elf, half human.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 SHADOW~
+. `BSHADOW                                                                 `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wA mysterious race. Shadows make good thieves and nightblades.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 'HALF DRAGON'~
+. `BHalf dragon                                                            `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wHalf dragon, half human.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 TREANTI~
+. `BTreanti                                                                `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wTree folk.
 ~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
+-1 TROLL~
+. `BTroll                                                                  `Yrace
 `K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
-~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
-`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
-~
--1 HUMAN HUMANS MAN~
-. `BHuman                                                                  `Yrace
-`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 
+ `wTrolls make good warriors.
 ~
 -1 GIANT GIANTS~
 . `BGiant                                                                  `Yrace
@@ -2253,8 +2251,7 @@ PECHO <character> <message>                                           `Yadmin
  done	     exit the character generation process
 ~
 -1 'MENU CHOICE'~
-. Choice  (list, learned, premise, add, drop, info, help, done): 
-~
+. `wChoice (list, learned, premise, add, drop, info, help, done): ~
 -1 'GROUPS' 'INFO' 'PREMISE'~
 . You customize your character by choosing which skills to add. Each skill
  costs a certain number of creation points (cp). You have 50 cp total to spend,
@@ -2619,12 +2616,13 @@ PECHO <character> <message>                                           `Yadmin
  teleportation, or walking through walls. All classes may learn these spells,
  which are among the most useful in the game.
 
- fly		allows the target to fly over nearly all obstacles
- gate		transports the caster to the target
- pass door	allows the caster to walk through walls
- summon		transports the target to the caster
- teleport	sends the target to a random location
- word of recall	transports the caster to safety in Midgaard
+ fly            allows the target to fly over nearly all obstacles
+ gate           transports the caster to the target
+ pass door      allows the caster to walk through walls
+ summon         transports the target to the caster
+ teleport       sends the target to a random location
+ word of recall transports the caster to safety in Midgaard
+ nexus          creates a portal from the caster to the target
 ~
 -1 WEATHER~
 . `GWeather                                                         `Yspell group
@@ -3143,6 +3141,13 @@ PECHO <character> <message>                                           `Yadmin
  someone else's petition to join your clan.
 
  DECLINE same as accept, but refusing the offer.
+~
+-1 TINTIN~
+. `GTINTIN                                                              `Ycommand
+`K- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ `wThe Mudpi interface (particularly the prompt) has been optimized for the
+ modified version of TinTin that comes with Mudpi. If you want to disable
+ the optimization (e.g. to use your own MUD client), type TINTIN.
 ~
 -1 PROMOTE DEMOTE RESIGN CRECALL~
 . `GPROMOTE <person>

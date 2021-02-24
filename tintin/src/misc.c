@@ -269,6 +269,13 @@ DO_COMMAND(do_test)
 // JR
 DO_COMMAND(do_mudpi)
 {
-    ses->mudpi = (ses->mudpi == 0) ? 1 : 0;
+    if ( !strcmp( arg, "on" ) )
+        ses->mudpi |= MUDPI_ON;
+    else if ( !strcmp( arg, "off") )
+        ses->mudpi &= ~MUDPI_ON;
+    else if ( !strcmp( arg, "compact") )
+          ses->mudpi |= MUDPI_COMPACT;   
+    else if ( !strcmp( arg, "noncompact") )
+        ses->mudpi &= ~MUDPI_COMPACT;
     return ses;
 }
