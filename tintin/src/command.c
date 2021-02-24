@@ -216,6 +216,7 @@ extern DO_COMMAND(do_untab);
 extern DO_COMMAND(do_untick);
 extern DO_COMMAND(do_unvariable);
 extern DO_COMMAND(do_variable);
+extern DO_COMMAND(do_mudpi); // JR: Toggle custom settings
 
 struct command_type command_table[] =
 {
@@ -270,6 +271,7 @@ struct command_type command_table[] =
 	{    "map",               do_map,               2, TOKEN_TYPE_COMMAND },
 	{    "math",              do_math,              2, TOKEN_TYPE_COMMAND },
 	{    "message",           do_message,           2, TOKEN_TYPE_COMMAND },
+    {    "mudpi",             do_mudpi,             0, TOKEN_TYPE_COMMAND }, // JR
 	{    "nop",               do_nop,               0, TOKEN_TYPE_COMMAND },
 	{    "parse",             do_nop,               3, TOKEN_TYPE_PARSE   },
 	{    "path",              do_path,              1, TOKEN_TYPE_COMMAND },

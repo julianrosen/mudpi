@@ -777,7 +777,7 @@ void do_autolist( CHAR_DATA * ch, char *argument )
     else
         send_to_char( "You have ansi color turned off.\n\r", ch );
     
-    if ( ch->desc->tintin )
+    if ( ch->desc != NULL && ch->desc->tintin )
         send_to_char( "You are using Mudpi's integrated TinTin.\n\r",
                       ch );
     else
@@ -954,7 +954,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             prompt = str_dup( argument );
         }
         
-        if ( ch->desc->tintin )
+        if ( ch->desc != NULL && ch->desc->tintin )
         {
             for ( int n = 0; n + 1 < strlen(prompt); n++ )
             {
@@ -1427,10 +1427,10 @@ void do_levels( CHAR_DATA * ch, char *argument )
 
 void do_tick( CHAR_DATA * ch, char *argument )
 {
-    if ( IS_NPC( ch ) )
+    if ( IS_NPC( ch ) || ch->desc == NULL )
         return;
     
-    if ( ch->desc->tintin )
+    if ( ch->desc != NULL && ch->desc->tintin )
     {
         send_to_char( "This won't do anything because you are using Mudpi's integrated TinTin.\n\r", ch );
         return;
@@ -1449,19 +1449,33 @@ void do_tick( CHAR_DATA * ch, char *argument )
 
 void do_tintin( CHAR_DATA * ch, char *argument )
 {
-    if ( IS_NPC( ch ) )
+    if ( IS_NPC( ch ) || ch->desc == NULL )
         return;
     
-    if ( ch->desc->tintin )
+    if ( argument[0] == '\0' || argument[1] == '\0' )
     {
-        send_to_char( "You are using Mudpi's integrated TinTin.\n\r", ch );
-        //ch->desc->tintin = 0;
+        send_to_char( "Did you want to turn the fixed prompt on or off?\n\r", ch );
+        return;
     }
+    
+
+    if ( argument[1] == 'f' && ch->desc->tintin )
+    {
+        ch->desc->tintin = 0;
+        ch->desc->newline = FALSE;
+        send_to_char( "\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
+    }
+    else if (argument[1] == 'n' && !ch->desc->tintin )
+    {
+        send_to_char( "Enabling Mudpi's fixed prompt integration.\n\r", ch );
+        ch->desc->tintin = 1;
+    }
+    else if ( argument[1] == 'f' && !ch->desc->tintin )
+        send_to_char( "Mudpi's fixed prompt integration is already disabled.\n\r", ch );
+    else if ( argument[1] == 'n' && ch->desc->tintin )
+        send_to_char( "Mudpi's fixed prompt integration is already enabled.\n\r", ch );
     else
-    {
-        send_to_char( "You are not using Mudpi's integrated TinTin.\n\r", ch );
-        //ch->desc->tintin = 1;
-    }
+        send_to_char( "Use 'tintin on' or 'tintin off'.\n\r", ch );
 }
 
 void do_look( CHAR_DATA * ch, char *argument )

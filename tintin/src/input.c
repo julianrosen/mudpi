@@ -927,7 +927,7 @@ void echo_command(struct session *ses, char *line)
 		return;
 	}
 
-	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_ECHOCOMMAND)) // JR
+	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_ECHOCOMMAND))
 	{
         sprintf(buffer, "%s%s\e[0m", ses->cmd_color, line);
 	}
@@ -940,22 +940,32 @@ void echo_command(struct session *ses, char *line)
 		sprintf(buffer, "\e[0m");
 	}
    
-    for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
+    if ( ses->mudpi ) // JR :)
     {
-        if ( !isspace(*c) )
-            break;
+        for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
+        {
+            if ( !isspace(*c) )
+                break;
+        }
+
+        if ( *c != '\e' )
+        {
+            /*buffer -= 2;
+            buffer[0] = '>';
+            buffer[1] = ' ';*/
+            gtd->level->scroll++;
+            sprintf( buf, "\e[1;34m\n>> %s", buffer); // JR: Bright blue >>
+            tintin_printf2(ses, "%s", buf);
+            gtd->level->scroll--;
+            add_line_buffer(ses, buf, FALSE);    
+        }
     }
-    
-    if ( *c != '\e' )
+    else
     {
-        /*buffer -= 2;
-        buffer[0] = '>';
-        buffer[1] = ' ';*/
         gtd->level->scroll++;
-        sprintf( buf, "\e[1;34m\n>> %s", buffer);
-        tintin_printf2(ses, "%s", buf); // Bright blue >>
+        tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);
         gtd->level->scroll--;
-        add_line_buffer(ses, buf, FALSE);    
+        add_line_buffer(ses, buffer, -1);
     }
 }
 

@@ -1063,7 +1063,6 @@ of combat. */
 #define CON_GET_ALIGNMENT                9
 #define CON_DEFAULT_CHOICE              10
 #define CON_GEN_GROUPS                  11
-#define CON_ACCEPT_CP                   26 // JR
 #define CON_PICK_WEAPON                 12
 #define CON_READ_IMOTD                  13
 #define CON_READ_MOTD                   14
@@ -1078,6 +1077,9 @@ of combat. */
 #define CON_NOTE_FINISH                 23
 #define CON_SHELL                       24
 #define CON_BEGIN_REMORT                25
+// JR
+#define CON_ACCEPT_CP                   26
+#define CON_PAUSE                       27
         
 /***************************************************************************
  *                                                                         *

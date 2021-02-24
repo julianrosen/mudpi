@@ -273,6 +273,8 @@ int write args( ( int fd, char *buf, int nbyte ) );
 
 // JR
 void prompt_race ( DESCRIPTOR_DATA *, CHAR_DATA *, int );
+void motd( CHAR_DATA * );
+
 
 
 
@@ -1902,10 +1904,7 @@ check_ban function.
         }
         else
         {
-            write_to_buffer( d, "\n\r", 2 ); // JR
-            do_help( ch, "motd" );
-            printf("just read motd\n");
-            write_to_buffer( d, "\n\r\n\r\n\r", 6 ); // JR
+            motd( ch );
             d->connected = CON_READ_MOTD;
         }
         break;
@@ -2373,8 +2372,7 @@ check_ban function.
         case 'N':
             group_add( ch, class_table[ch->Class].default_group, TRUE );
             ch->train = (CP_MAX - ch->pcdata->points)/2 + STARTING_TRAINS;
-            write_to_buffer( d, "\n\r", 2 );
-            do_help( ch, "motd" );
+            motd( ch );
             d->connected = CON_READ_MOTD;
             break;
         default:
@@ -2413,7 +2411,7 @@ check_ban function.
             ch->pcdata->points = CP_MAX;
             //send_to_char( buf, ch );
             //write_to_buffer( d, "\n\r", 2 );
-            do_help( ch, "motd" );
+            motd( ch );
             d->connected = CON_READ_MOTD;
             break;
         }
@@ -2448,8 +2446,8 @@ check_ban function.
         }
 
 #endif
-        write_to_buffer( d, "\n\r", 2 );
-        do_help( ch, "motd" );
+        motd( ch );
+        
         d->connected = CON_READ_MOTD;
         break;
 
@@ -2457,6 +2455,11 @@ check_ban function.
 #if defined(cbuilder)
         AddUser( ch );
 #endif
+        write_to_buffer( d, "\n\r", 2 ); // JR asdf
+
+        //if ( d->tintin )
+        //      write_to_buffer( d, "*&^%\n\r", 6 ); // JR asdf
+            
         /* Add to list of PCs and NPCs */
         ch->next = char_list;
         char_list = ch;
@@ -2464,8 +2467,10 @@ check_ban function.
         ch->next_player = player_list;
         player_list = ch;
 
+
         d->connected = CON_PLAYING;
-            reset_char( ch );
+
+        reset_char( ch );
         if ( ch->level == 0 )
         {
 
@@ -2479,8 +2484,8 @@ check_ban function.
             ch->practice = STARTING_PRACTICES;
             set_title( ch, STARTING_TITLE );
             
-            sprintf( buf, "`G*******  Entering mudpi  *******`w\n\r\n\r");
-            send_to_char( buf, ch );
+            //sprintf( buf, "`G*******  Entering mudpi  *******`w\n\r\n\r");
+            //send_to_char( buf, ch );
 
             do_outfit( ch, "" );
             obj_to_char( create_object( get_obj_index( OBJ_VNUM_MAP ), 0 ),
@@ -2519,7 +2524,7 @@ check_ban function.
 #endif
             if ( !IS_SET( ch->act, PLR_WIZINVIS ) )
             {
-                if ( ch->played == 0 )
+                if ( ch->played == 0 && !IS_SET( ch->act, PLR_REMORT ) )
                     sprintf( buf, "%s has entered the game for the first time.",
                         ch->name );
                 else
@@ -2551,7 +2556,11 @@ check_ban function.
         ch->pcdata->chaos_score = 0;
 
         break;
-
+    
+    case CON_PAUSE: // JR: awful hack
+            d->connected = CON_PLAYING;
+            do_look( ch, "auto" );
+            break;
     case CON_NOTE_TO:
         handle_con_note_to( d, argument );
         break;
@@ -2675,10 +2684,13 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 {
                     REMOVE_BIT( ch->act, PLR_BUILDING );
                 }
-                send_to_char( "Reconnecting.\n\r", ch );
-                write_to_buffer( d, "\n\r", 2 ); // JR
-                do_help( ch, "motd" );
-                write_to_buffer( d, "\n\r\n\r\n\r", 6 ); // JR
+                
+                                
+                send_to_char( "\n\rReconnecting.\n\r\n\r\n\r", ch );
+
+                
+                
+                
 #if defined(cbuilder)
                 AddUser( ch );
 #endif
@@ -2686,15 +2698,20 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 ch->pcdata->ticks = 0;
                 sprintf( log_buf, "%s@%s reconnected.", ch->name, d->host );
                 log_string( log_buf );
-                d->connected = CON_PLAYING;
-                // d->connected = CON_READ_MOTD;
+                if ( d->tintin )
+                {
+                    write_to_buffer( d, "\n\r*&^%\n\r", 8 );
+                    d->connected = CON_PAUSE;
+                }
+                else
+                    d->connected = CON_PLAYING;
                 /* Inform the character of a note in progress and the possbility of continuation! */
                 if ( ch->pcdata->in_progress )
                     send_to_char
                         ( "You have a note in progress. Type NWRITE to continue it.\n\r",
                           ch );
             }
-            do_look( ch, "auto" );
+            //do_look( ch, "auto" );
             return TRUE;
         }
     }
@@ -3639,4 +3656,15 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
     }
     write_to_buffer( d, "\n\r\n\r", 4 );
     write_to_buffer( d, "What is your race ('help' for more information): ", 0 );
+}
+
+void motd( CHAR_DATA * ch )
+{
+    DESCRIPTOR_DATA *d = ch->desc;
+    write_to_buffer( d, "\n\r", 2 );
+    if ( d -> tintin )
+        write_to_buffer( d, "*&^%\n\r", 6 );
+    do_help( ch, "motd" );
+    if ( d -> tintin )
+        write_to_buffer( d, "\n\r\n\r\n\r", 6 );
 }

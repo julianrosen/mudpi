@@ -88,6 +88,10 @@ void do_remort( CHAR_DATA * ch, char *argument )
             sprintf( strsave, "%s/%s", sysconfig.player_dir,
                      capitalize( ch->name ) );
             stop_fighting( ch, TRUE );
+            
+            if ( ch->desc != NULL && ch->desc->tintin )
+                send_to_char( "%^&*\n\r", ch );
+            
             send_to_char
                 ( "You have chosen to remort. You will now be dropped in at the race\n\r",
                   ch );
@@ -103,7 +107,9 @@ void do_remort( CHAR_DATA * ch, char *argument )
                 ( "crashes while you are creating your character, create a new character\n\r",
                   ch );
             send_to_char( "as normal and write a note to 'immortal'.\n\r", ch );
-            send_to_char( "\n\r[Hit Enter to Continue]\n\r", ch );
+            
+            if ( ch->desc == NULL || !ch->desc->tintin )
+                send_to_char( "\n\r[Hit Enter to Continue]\n\r", ch );
             /*    wiznet( "$N has remorted.", ch, NULL, 0, 0, 0 ); */
 
             /*

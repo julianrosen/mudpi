@@ -1194,6 +1194,7 @@ struct session
 	unsigned long long      rand;
 	unsigned short          rkey;
 	struct port_data      * proxy;
+    int                     mudpi; // JR: is mudpi optimization active?
 };
 
 struct edit_data

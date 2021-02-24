@@ -265,3 +265,10 @@ DO_COMMAND(do_test)
 	return ses;
 }
 
+
+// JR
+DO_COMMAND(do_mudpi)
+{
+    ses->mudpi = (ses->mudpi == 0) ? 1 : 0;
+    return ses;
+}
