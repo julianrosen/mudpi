@@ -67,9 +67,7 @@ DO_COMMAND(do_history)
 void add_line_history(struct session *ses, char *line)
 {
 	struct listroot *root;
-    
-    if ( strlen(line) == 0 ) // JR: don't put blank lines in history
-        return;
+
 	root = ses->list[LIST_HISTORY];
 
 	if (HAS_BIT(root->flags, LIST_FLAG_IGNORE) || gtd->level->ignore)
@@ -106,11 +104,11 @@ struct session *repeat_history(struct session *ses, char *line)
 			add_line_history(gtd->ses, root->list[i]->arg1);
 
 			gtd->level->repeat++;
-			
-			ses = script_driver(ses, LIST_COMMAND, root->list[i]->arg1);
-			
+
+			ses = script_driver(ses, LIST_COMMAND, root->list[root->used - 1]->arg1);
+
 			gtd->level->repeat--;
-			
+
 			return ses;
 		}
 	}
@@ -234,8 +232,6 @@ DO_HISTORY(history_list)
 
 DO_HISTORY(history_read)
 {
-    show_message( ses, 0, "#HISTORY: READING IS DISABLED" );
-    return; // JR
 	struct listroot *root = ses->list[LIST_HISTORY];
 	FILE *file;
 
@@ -288,8 +284,6 @@ DO_HISTORY(history_size)
 
 DO_HISTORY(history_write)
 {
-    show_message( ses, 0, "#HISTORY: WRITING IS DISABLED" );
-    return; // JR
 	struct listroot *root = ses->list[LIST_HISTORY];
 	FILE *file;
 	int i;
