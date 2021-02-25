@@ -1521,14 +1521,15 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
         length = strlen( txt );
     tintin = (d != NULL && d->character != NULL && d->tintin);
     tmp = buf;
-    if ( tintin && d->newline )
+    if ( tintin && d->newline ) //JR temp debug
     {
         
         b = TRUE;
         for (int n=0; n+1<strlen(txt); n++ )
         {
-            if ( ( txt[n] == '$' && txt[n+1] == '*' ) ||
-                 ( txt[n] == '@' && txt[n+1] == '^' ) )
+            strcpy( buf2, txt+n );
+            buf2[2] = '\0';
+            if ( !str_prefix( buf2, PROMPT_TOP ) )
             {
                 b = FALSE;
                 break;
@@ -1538,7 +1539,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
                 break;
             }
         }
-        if ( b )
+        if ( b ) // JR temp debug
         {
             *tmp = '\n';
             *(tmp+1) = '\r';
@@ -1939,7 +1940,7 @@ check_ban function.
                 break;
             }
 
-            write_to_buffer( d, "Disconnected.   Re-enter name: ", 0 );
+            write_to_buffer( d, "Disconnected. Re-enter name: ", 0 );
             if ( d->character != NULL )
             {
                 free_char( d->character );
@@ -3387,8 +3388,8 @@ char *doparseprompt( CHAR_DATA * ch )
         }
         else
         {
-            strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM );
-            fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM ) + 2;
+            strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM ); // JR just changed
+            fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM + 2);
         }
     }
     twoline = FALSE;

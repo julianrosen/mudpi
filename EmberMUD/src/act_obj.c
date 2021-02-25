@@ -1777,7 +1777,7 @@ rit of items they know that they arent suppose to have while in jail.
 
     if ( !CAN_WEAR( obj, ITEM_TAKE ) )
     {
-        act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
+        act( "$p `wis not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
         return;
     }
 

@@ -217,6 +217,8 @@ extern DO_COMMAND(do_untick);
 extern DO_COMMAND(do_unvariable);
 extern DO_COMMAND(do_variable);
 extern DO_COMMAND(do_mudpi); // JR: Toggle custom settings
+extern DO_COMMAND(do_shownoutput); // JR: Set shown output variable to true
+
 
 struct command_type command_table[] =
 {
@@ -289,6 +291,7 @@ struct command_type command_table[] =
 	{    "send",              do_send,              1, TOKEN_TYPE_COMMAND },
 	{    "session",           do_session,           1, TOKEN_TYPE_COMMAND },
 	{    "showme",            do_showme,            3, TOKEN_TYPE_COMMAND },
+	{    "shownoutput",       do_shownoutput,       0, TOKEN_TYPE_COMMAND },  // JR
 	{    "snoop",             do_snoop,             2, TOKEN_TYPE_COMMAND },
 	{    "split",             do_split,             2, TOKEN_TYPE_COMMAND },
 //	{    "ssl",               do_ssl,               3, TOKEN_TYPE_COMMAND },

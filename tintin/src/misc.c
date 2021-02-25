@@ -335,3 +335,9 @@ DO_COMMAND(do_mudpi)
         ses->mudpi &= ~MUDPI_COMPACT;
     return ses;
  }
+
+DO_COMMAND(do_shownoutput)
+{
+    ses->shown_output = TRUE;
+    return ses;
+}

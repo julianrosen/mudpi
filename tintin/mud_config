@@ -9,21 +9,16 @@
 #nop Mudpi uses these strings to communicate with TinTin
 #gag {@^ton}
 #gag {@^toff}
+#gag {@^p1}
+#gag {@^p2}
 
 #nop Enable static prompt
-#alias {_setttprompt}
+#alias {setttprompt}
 {
     #prompt {~@^p1%%1}{%%1}{-2};
     #prompt {~@^p2%%1}{%%1}{-1};
-    #split 0 2;
-    #nop #screen inputregion -1 35 -1 -1;
+    #split;
     #mudpi on;
-}
-
-#nop Enable static prompt here and on mud
-#alias {setttprompt}
-{
-    _setttprompt;
 }
 
 #nop Disable static prompt
@@ -33,15 +28,17 @@
     #unprompt {~@^p2%%1};
     #split 0 0;
     #mudpi off;
+    #screen clear bottom;
 }
 
 #nop Mud uses this string to enable prompt
 #action {^@^ton %1}
 {
-    #delay {0.05} {_setttprompt};
+    #delay {0.05} {setttprompt};
     #delay {0.05} {#cr};
     #delay {0.05} {#screen clear bottom};
     #delay {0.05} {#screen clear input};
+    #mudpi on;
     #mudpi %1;
 }
 
@@ -49,15 +46,16 @@
 #action {^@^toff}
 {
     unsetttprompt;
-    #unsplit;
-    #screen clear input;
-    #screen clear bottom;
 }
 
 #nop When Mudpi processes 'compact' command, TinTin
 #nop switches compact mode on or off
 #action {^Compact mode set.} {#mudpi compact}
 #action {^Compact mode removed.} {#mudpi noncompact}
+
+#nop When we receive a non-prompt output line, update the variable
+#nop that controlls spacing of TinTin input lines
+#event {RECEIVED LINE} {#regexp {%1} {^@^{.*}} {} {#shownoutput}}
 
 #nop Terminate session upon disconnect
 #event {SESSION DISCONNECTED} {#end}
@@ -71,4 +69,3 @@
 
 #nop Connect to the mud
 #ses mud_pi localhost 20495
-

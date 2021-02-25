@@ -1202,6 +1202,7 @@ struct session
 	unsigned short          rkey;
 	struct port_data      * proxy;
     int                     mudpi; // JR: is mudpi optimization active?
+    int                     shown_output; // JR: True if output has printed since last command, false otherwise
 };
 
 struct edit_data

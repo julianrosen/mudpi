@@ -1449,6 +1449,7 @@ void do_tick( CHAR_DATA * ch, char *argument )
 
 void do_tintin( CHAR_DATA * ch, char *argument )
 {
+    char buf[MAX_STRING_LENGTH];
     if ( IS_NPC( ch ) || ch->desc == NULL )
         return;
     
@@ -1459,21 +1460,25 @@ void do_tintin( CHAR_DATA * ch, char *argument )
     }
     
 
-    if ( argument[1] == 'f' && ch->desc->tintin )
+    if ( argument[1] == 'f' )
     {
+        send_to_char( "\n\r" TINTIN_OFF "\n\r\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
         ch->desc->tintin = 0;
         ch->desc->newline = FALSE;
-        send_to_char( "\n\r" TINTIN_OFF "\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
     }
-    else if (argument[1] == 'n' && !ch->desc->tintin )
+    else if (argument[1] == 'n' )
     {
-        send_to_char( "\n\r" TINTIN_ON " noncompact\n\rEnabling Mudpi's fixed prompt integration.\n\r", ch );
+        sprintf( buf, TINTIN_ON " %s\n\rEnabling Mudpi's fixed prompt integration.\n\r",
+               IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
+        send_to_char( buf, ch );
+        if ( !ch->desc->tintin )
+            send_to_char( "\n\r", ch );
         ch->desc->tintin = 1;
     }
-    else if ( argument[1] == 'f' && !ch->desc->tintin )
-        send_to_char( "Mudpi's fixed prompt integration is already disabled.\n\r", ch );
-    else if ( argument[1] == 'n' && ch->desc->tintin )
-        send_to_char( "Mudpi's fixed prompt integration is already enabled.\n\r", ch );
+//    else if ( argument[1] == 'f' && !ch->desc->tintin )
+//        send_to_char( "Mudpi's fixed prompt integration is already disabled.\n\r", ch );
+//    else if ( argument[1] == 'n' && ch->desc->tintin )
+//        send_to_char( "Mudpi's fixed prompt integration is already enabled.\n\r", ch );
     else
         send_to_char( "Use 'tintin on' or 'tintin off'.\n\r", ch );
 }
@@ -2986,8 +2991,10 @@ void do_who( CHAR_DATA * ch, char *argument )
             if ( doneimmort == TRUE )
             {
                 if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+                {
                     sprintf( buf, "\n\r" );
-                strcat( output, buf );
+                    strcat( output, buf );
+                }
             }
             sprintf( buf, "`K`RVisible Mortals:`K\n\r" );
             donemort = TRUE;
