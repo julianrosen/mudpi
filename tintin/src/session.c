@@ -353,6 +353,16 @@ struct session *new_session(struct session *ses, char *name, char *arg, int desc
 			return ses;
 		}
 
+		/* Added by JR */
+		if ( strcmp(host,"localhost") ) /* Reject external connections */
+		{
+		    tintin_puts(ses, "#CONNECTING TO EXTERNAL HOSTS IS DISABLED");
+
+		    pop_call();
+		    return ses;
+		}
+        
+
 		if (*port == 0)
 		{
 			strcpy(port, "23");

@@ -68,7 +68,9 @@ void add_line_history(struct session *ses, char *line)
 {
 	struct listroot *root;
 
-	root = ses->list[LIST_HISTORY];
+    if ( strlen(line) == 0 ) // JR: don't put blank lines in history
+        return;
+    root = ses->list[LIST_HISTORY];
 
 	if (HAS_BIT(root->flags, LIST_FLAG_IGNORE) || gtd->level->ignore)
 	{
@@ -106,7 +108,6 @@ struct session *repeat_history(struct session *ses, char *line)
 			gtd->level->repeat++;
 
 			ses = script_driver(ses, LIST_COMMAND, root->list[root->used - 1]->arg1);
-
 			gtd->level->repeat--;
 
 			return ses;

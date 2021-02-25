@@ -1201,6 +1201,7 @@ struct session
 	unsigned long long      rand;
 	unsigned short          rkey;
 	struct port_data      * proxy;
+    int                     mudpi; // JR: is mudpi optimization active?
 };
 
 struct edit_data
@@ -3071,3 +3072,7 @@ extern int interpret_vt102_codes(struct session *ses, char *str, int real);
 extern int catch_vt102_codes(struct session *ses, unsigned char *str, int cplen);
 
 #endif
+
+// JR
+#define MUDPI_ON       1
+#define MUDPI_COMPACT  2
