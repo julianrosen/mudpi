@@ -397,7 +397,7 @@ void read_key(char *input, int len)
 			default:
 				if (gtd->macro_buf[cnt] == gtd->tintin_char && gtd->ses->input->buf[0] == 0)
 				{
-					print_stdout(0, 0, "%c", gtd->macro_buf[cnt]);
+					print_stdout(0, 0, "-%c", gtd->macro_buf[cnt]); // JR debug
 
 					str_cpy_printf(&gtd->ses->input->buf, "%c", gtd->tintin_char);
 
@@ -517,7 +517,7 @@ int check_key(char *input, int len)
 					gtd->screen->focus = 1;
 					
 					check_all_events(gtd->ses, EVENT_FLAG_SCREEN, 0, 1, "SCREEN FOCUS", ntos(gtd->screen->focus));
-
+					
 					msdp_update_all("SCREEN_FOCUS", "%d", gtd->screen->focus);
 					
 					pop_call();
@@ -904,7 +904,8 @@ char *str_convert_meta(char *input, int eol)
 
 void echo_command(struct session *ses, char *line)
 {
-	char buffer[BUFFER_SIZE], output[BUFFER_SIZE];
+	char buf2[BUFFER_SIZE], buf[BUFFER_SIZE], output[BUFFER_SIZE], *c;
+    char *buffer = buf2 + 2;
 
 	DEL_BIT(ses->telopts, TELOPT_FLAG_PROMPT);
 
@@ -928,7 +929,7 @@ void echo_command(struct session *ses, char *line)
 
 	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_ECHOCOMMAND))
 	{
-		sprintf(buffer, "%s%s\e[0m", ses->cmd_color, line);
+        sprintf(buffer, "%s%s\e[0m", ses->cmd_color, line);
 	}
 	else
 	{
@@ -938,16 +939,37 @@ void echo_command(struct session *ses, char *line)
 		}
 		sprintf(buffer, "\e[0m");
 	}
+   
+    if ( ses->mudpi & MUDPI_ON ) // JR :)
+    {
+        for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
+        {
+            if ( !isspace(*c) )
+                break;
+        }
 
-//	if (ses->wrap == gtd->screen->cols)
-	{
-		gtd->level->scroll++;
-
-		tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);
-
-		gtd->level->scroll--;
-	}
-	add_line_buffer(ses, buffer, -1);
+        if ( *c != '\e' )
+        {
+            /*buffer -= 2;
+            buffer[0] = '>';
+            buffer[1] = ' ';*/
+            gtd->level->scroll++;
+            if ( ses->mudpi & MUDPI_COMPACT )
+                sprintf( buf, "\e[1;33m>>> %s", buffer); // JR: Bright blue >>
+            else
+                sprintf( buf, "\e[1;33m\n>>> %s", buffer); // JR: Bright blue >>
+            tintin_printf2(ses, "%s", buf);
+            gtd->level->scroll--;
+            add_line_buffer(ses, buf, FALSE);    
+        }
+    }
+    else
+    {
+        gtd->level->scroll++;
+        tintin_printf2(ses, "%s%s", ses->scroll->input, buffer);
+        gtd->level->scroll--;
+        add_line_buffer(ses, buffer, -1);
+    }
 }
 
 void init_input(struct session *ses, int top_row, int top_col, int bot_row, int bot_col)
@@ -1005,7 +1027,6 @@ void init_input(struct session *ses, int top_row, int top_col, int bot_row, int 
 	ses->input->bot_col = bot_col;
 
 	ses->input->cur_row = top_row;
-
 	pop_call();
 	return;
 }
@@ -1038,7 +1059,7 @@ void input_printf(char *format, ...)
 	vasprintf(&buf, format, args);
 	va_end(args);
 
-	print_stdout(0, 0, "%s", buf);
+	print_stdout(0, 0, "%s", buf); //JR this is the misplaced echo, debus
 
 	free(buf);
 

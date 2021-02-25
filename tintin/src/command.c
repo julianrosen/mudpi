@@ -162,13 +162,13 @@ struct session *command(struct session *ses, COMMAND *cmd, char *format, ...)
 extern DO_COMMAND(do_action);
 extern DO_COMMAND(do_alias);
 extern DO_COMMAND(do_all);
-extern DO_COMMAND(do_bell);
+//extern DO_COMMAND(do_bell);
 extern DO_COMMAND(do_button);
 extern DO_COMMAND(do_cat);
 extern DO_COMMAND(do_class);
 extern DO_COMMAND(do_commands);
 extern DO_COMMAND(do_cr);
-extern DO_COMMAND(do_debug);
+//extern DO_COMMAND(do_debug);
 extern DO_COMMAND(do_echo);
 extern DO_COMMAND(do_event);
 extern DO_COMMAND(do_format);
@@ -176,26 +176,26 @@ extern DO_COMMAND(do_function);
 extern DO_COMMAND(do_gag);
 extern DO_COMMAND(do_highlight);
 extern DO_COMMAND(do_ignore);
-extern DO_COMMAND(do_info);
+//extern DO_COMMAND(do_info);
 extern DO_COMMAND(do_killall);
-extern DO_COMMAND(do_log);
+//extern DO_COMMAND(do_log);
 extern DO_COMMAND(do_local);
 extern DO_COMMAND(do_list);
 extern DO_COMMAND(do_macro);
 extern DO_COMMAND(do_math);
 extern DO_COMMAND(do_message);
 extern DO_COMMAND(do_path);
-extern DO_COMMAND(do_port);
+//extern DO_COMMAND(do_port);
 extern DO_COMMAND(do_prompt);
 extern DO_COMMAND(do_replace);
-extern DO_COMMAND(do_run);
-extern DO_COMMAND(do_scan);
-extern DO_COMMAND(do_script);
+//extern DO_COMMAND(do_run);
+//extern DO_COMMAND(do_scan);
+//extern DO_COMMAND(do_script);
 extern DO_COMMAND(do_send);
 extern DO_COMMAND(do_showme);
-extern DO_COMMAND(do_ssl);
+//extern DO_COMMAND(do_ssl);
 extern DO_COMMAND(do_substitute);
-extern DO_COMMAND(do_system);
+//extern DO_COMMAND(do_system);
 extern DO_COMMAND(do_tab);
 extern DO_COMMAND(do_textin);
 extern DO_COMMAND(do_tick);
@@ -216,34 +216,35 @@ extern DO_COMMAND(do_untab);
 extern DO_COMMAND(do_untick);
 extern DO_COMMAND(do_unvariable);
 extern DO_COMMAND(do_variable);
+extern DO_COMMAND(do_mudpi); // JR: Toggle custom settings
 
 struct command_type command_table[] =
 {
 	{    "action",            do_action,            3, TOKEN_TYPE_COMMAND },
 	{    "alias",             do_alias,             3, TOKEN_TYPE_COMMAND },
 	{    "all",               do_all,               1, TOKEN_TYPE_COMMAND },
-	{    "banner",            do_banner,            1, TOKEN_TYPE_COMMAND },
-	{    "bell",              do_bell,              2, TOKEN_TYPE_COMMAND },
+//	{    "banner",            do_banner,            1, TOKEN_TYPE_COMMAND },
+//	{    "bell",              do_bell,              2, TOKEN_TYPE_COMMAND },
 	{    "break",             do_nop,               0, TOKEN_TYPE_BREAK   },
 	{    "buffer",            do_buffer,            2, TOKEN_TYPE_COMMAND },
 	{    "button",            do_button,            3, TOKEN_TYPE_COMMAND },
 	{    "case",              do_nop,               0, TOKEN_TYPE_CASE    },
 	{    "cat",               do_cat,               1, TOKEN_TYPE_COMMAND },
-	{    "chat",              do_chat,              2, TOKEN_TYPE_COMMAND },
+//	{    "chat",              do_chat,              2, TOKEN_TYPE_COMMAND },
 	{    "class",             do_class,             3, TOKEN_TYPE_COMMAND },
 	{    "commands",          do_commands,          2, TOKEN_TYPE_COMMAND },
 	{    "config",            do_configure,         2, TOKEN_TYPE_COMMAND },
 	{    "continue",          do_nop,               0, TOKEN_TYPE_CONTINUE},
 	{    "cr",                do_cr,                0, TOKEN_TYPE_COMMAND },
 	{    "cursor",            do_cursor,            2, TOKEN_TYPE_COMMAND },
-	{    "daemon",            do_daemon,            2, TOKEN_TYPE_COMMAND },
-	{    "debug",             do_debug,             2, TOKEN_TYPE_COMMAND },
+//	{    "daemon",            do_daemon,            2, TOKEN_TYPE_COMMAND },
+//	{    "debug",             do_debug,             2, TOKEN_TYPE_COMMAND },
 	{    "default",           do_nop,               0, TOKEN_TYPE_DEFAULT },
 	{    "delay",             do_delay,             3, TOKEN_TYPE_COMMAND },
 	{    "dictionary",        do_dictionary,        3, TOKEN_TYPE_COMMAND },
 	{    "draw",              do_draw,              3, TOKEN_TYPE_COMMAND },
 	{    "echo",              do_echo,              3, TOKEN_TYPE_COMMAND },
-	{    "edit",              do_edit,              2, TOKEN_TYPE_COMMAND },
+//	{    "edit",              do_edit,              2, TOKEN_TYPE_COMMAND },
 	{    "else",              do_nop,               0, TOKEN_TYPE_ELSE    },
 	{    "elseif",            do_nop,               0, TOKEN_TYPE_ELSEIF  },
 	{    "end",               do_end,               1, TOKEN_TYPE_COMMAND },
@@ -258,44 +259,45 @@ struct command_type command_table[] =
 	{    "history",           do_history,           3, TOKEN_TYPE_COMMAND },
 	{    "if",                do_nop,               0, TOKEN_TYPE_IF      },
 	{    "ignore",            do_ignore,            2, TOKEN_TYPE_COMMAND },
-	{    "info",              do_info,              2, TOKEN_TYPE_COMMAND },
+//	{    "info",              do_info,              2, TOKEN_TYPE_COMMAND },
 	{    "kill",              do_kill,              2, TOKEN_TYPE_COMMAND },
 	{    "killall",           do_killall,           2, TOKEN_TYPE_COMMAND },
 	{    "line",              do_line,              3, TOKEN_TYPE_COMMAND },
 	{    "list",              do_list,              3, TOKEN_TYPE_COMMAND },
 	{    "local",             do_local,             1, TOKEN_TYPE_COMMAND },
-	{    "log",               do_log,               2, TOKEN_TYPE_COMMAND },
+//	{    "log",               do_log,               2, TOKEN_TYPE_COMMAND },
 	{    "loop",              do_nop,               3, TOKEN_TYPE_LOOP    },
 	{    "macro",             do_macro,             3, TOKEN_TYPE_COMMAND },
 	{    "map",               do_map,               2, TOKEN_TYPE_COMMAND },
 	{    "math",              do_math,              2, TOKEN_TYPE_COMMAND },
 	{    "message",           do_message,           2, TOKEN_TYPE_COMMAND },
+    {    "mudpi",             do_mudpi,             0, TOKEN_TYPE_COMMAND }, // JR
 	{    "nop",               do_nop,               0, TOKEN_TYPE_COMMAND },
 	{    "parse",             do_nop,               3, TOKEN_TYPE_PARSE   },
 	{    "path",              do_path,              1, TOKEN_TYPE_COMMAND },
 	{    "pathdir",           do_pathdir,           3, TOKEN_TYPE_COMMAND },
-	{    "port",              do_port,              2, TOKEN_TYPE_COMMAND },
+//	{    "port",              do_port,              2, TOKEN_TYPE_COMMAND },
 	{    "prompt",            do_prompt,            2, TOKEN_TYPE_COMMAND },
-	{    "read",              do_read,              1, TOKEN_TYPE_COMMAND },
+//	{    "read",              do_read,              1, TOKEN_TYPE_COMMAND },
 	{    "regexp",            do_regexp,            3, TOKEN_TYPE_REGEX   },
 	{    "replace",           do_replace,           3, TOKEN_TYPE_COMMAND },
 	{    "return",            do_nop,               0, TOKEN_TYPE_RETURN  },
-	{    "run",               do_run,               3, TOKEN_TYPE_COMMAND },
-	{    "scan",              do_scan,              2, TOKEN_TYPE_COMMAND },
+//	{    "run",               do_run,               3, TOKEN_TYPE_COMMAND },
+//	{    "scan",              do_scan,              2, TOKEN_TYPE_COMMAND },
 	{    "screen",            do_screen,            2, TOKEN_TYPE_COMMAND },
-	{    "script",            do_script,            2, TOKEN_TYPE_COMMAND },
+//	{    "script",            do_script,            2, TOKEN_TYPE_COMMAND },
 	{    "send",              do_send,              1, TOKEN_TYPE_COMMAND },
 	{    "session",           do_session,           1, TOKEN_TYPE_COMMAND },
 	{    "showme",            do_showme,            3, TOKEN_TYPE_COMMAND },
 	{    "snoop",             do_snoop,             2, TOKEN_TYPE_COMMAND },
 	{    "split",             do_split,             2, TOKEN_TYPE_COMMAND },
-	{    "ssl",               do_ssl,               3, TOKEN_TYPE_COMMAND },
+//	{    "ssl",               do_ssl,               3, TOKEN_TYPE_COMMAND },
 	{    "substitute",        do_substitute,        3, TOKEN_TYPE_COMMAND },
 	{    "switch",            do_nop,               0, TOKEN_TYPE_SWITCH  },
-	{    "system",            do_system,            1, TOKEN_TYPE_COMMAND },
+//	{    "system",            do_system,            1, TOKEN_TYPE_COMMAND },
 	{    "tab",               do_tab,               1, TOKEN_TYPE_COMMAND },
 	{    "test",              do_test,              3, TOKEN_TYPE_COMMAND },
-	{    "textin",            do_textin,            2, TOKEN_TYPE_COMMAND },
+//	{    "textin",            do_textin,            2, TOKEN_TYPE_COMMAND },
 	{    "ticker",            do_tick,              3, TOKEN_TYPE_COMMAND },
 	{    "unaction",          do_unaction,          0, TOKEN_TYPE_COMMAND },
 	{    "unalias",           do_unalias,           0, TOKEN_TYPE_COMMAND },
@@ -316,7 +318,7 @@ struct command_type command_table[] =
 	{    "unvariable",        do_unvariable,        1, TOKEN_TYPE_COMMAND },
 	{    "variable",          do_variable,          1, TOKEN_TYPE_COMMAND },
 	{    "while",             do_nop,               0, TOKEN_TYPE_WHILE   },
-	{    "write",             do_write,             2, TOKEN_TYPE_COMMAND },
+//	{    "write",             do_write,             2, TOKEN_TYPE_COMMAND },
 	{    "zap",               do_zap,               1, TOKEN_TYPE_COMMAND },
 	{    "",                  NULL,                 0, TOKEN_TYPE_COMMAND }
 };
