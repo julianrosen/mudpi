@@ -112,7 +112,7 @@ void print_stdout(int row, int col, char *format, ...)
 	{
 		SET_BIT(gtd->flags, TINTIN_FLAG_DISPLAYUPDATE);
 
-		fputs(buffer, stdout);
+		fputs(buffer, stdout);   // JR: Swaping these doesn't seem to do anything
 //		printf("%s", buffer);
 
 		if (row && col)

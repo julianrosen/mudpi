@@ -397,7 +397,7 @@ void read_key(char *input, int len)
 			default:
 				if (gtd->macro_buf[cnt] == gtd->tintin_char && gtd->ses->input->buf[0] == 0)
 				{
-					print_stdout(0, 0, "%c", gtd->macro_buf[cnt]);
+					print_stdout(0, 0, "-%c", gtd->macro_buf[cnt]); // JR debug
 
 					str_cpy_printf(&gtd->ses->input->buf, "%c", gtd->tintin_char);
 
@@ -955,9 +955,9 @@ void echo_command(struct session *ses, char *line)
             buffer[1] = ' ';*/
             gtd->level->scroll++;
             if ( ses->mudpi & MUDPI_COMPACT )
-                sprintf( buf, "\e[1;33m>> %s", buffer); // JR: Bright blue >>
+                sprintf( buf, "\e[1;33m>>> %s", buffer); // JR: Bright blue >>
             else
-                sprintf( buf, "\e[1;33m\n>> %s", buffer); // JR: Bright blue >>
+                sprintf( buf, "\e[1;33m\n>>> %s", buffer); // JR: Bright blue >>
             tintin_printf2(ses, "%s", buf);
             gtd->level->scroll--;
             add_line_buffer(ses, buf, FALSE);    
@@ -1027,7 +1027,6 @@ void init_input(struct session *ses, int top_row, int top_col, int bot_row, int 
 	ses->input->bot_col = bot_col;
 
 	ses->input->cur_row = top_row;
-
 	pop_call();
 	return;
 }
@@ -1060,7 +1059,7 @@ void input_printf(char *format, ...)
 	vasprintf(&buf, format, args);
 	va_end(args);
 
-	print_stdout(0, 0, "%s", buf);
+	print_stdout(0, 0, "%s", buf); //JR this is the misplaced echo, debus
 
 	free(buf);
 

@@ -1380,26 +1380,26 @@ char * wait_str( CHAR_DATA * ch, char *buf )
     else if ( ch->desc != NULL && ch->desc->tintin )
     {
         if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
-            sprintf( buf, "`B  ");
+            sprintf( buf, "  ");
         else
-            sprintf( buf, "`B%d ", 1 + ch->wait / PULSE_PER_SECOND );
+            sprintf( buf, "%d ", 1 + ch->wait / PULSE_PER_SECOND );
     }
     else
     {
         if ( n <= PULSE_VIOLENCE/ONE_ROUND )
-            strcpy( buf, "`R   " );
+            strcpy( buf, "   " );
         else if ( n < 1*PULSE_VIOLENCE )
-            strcpy( buf, "`R  ." );
+            strcpy( buf, "  ." );
         else if ( n < 1.5*PULSE_VIOLENCE )
-            strcpy( buf, "`R  *" );
+            strcpy( buf, "  *" );
         else if ( n < 2*PULSE_VIOLENCE )
-            strcpy( buf, "`R .*" );
+            strcpy( buf, " .*" );
         else if ( n < 2.5*PULSE_VIOLENCE )
-            strcpy( buf, "`R **" );
+            strcpy( buf, " **" );
         else if ( n < 3*PULSE_VIOLENCE )
-            strcpy( buf, "`R.**" );
+            strcpy( buf, ".**" );
         else
-            strcpy( buf, "`R***" );
+            strcpy( buf, "***" );
     }
     return buf;
 }

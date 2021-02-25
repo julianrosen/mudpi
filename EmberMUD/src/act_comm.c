@@ -2773,7 +2773,7 @@ inform him that its not that easy ;) -Lancelight */
     
     if ( ch->desc != NULL && ch->desc->tintin )
     {
-        write_to_buffer( ch->desc, "$*\n\r@^", 6 );
+        write_to_buffer( ch->desc, PROMPT_TOP "\n\r" PROMPT_BOTTOM, 0 );
     }
     send_to_char( CFG_QUIT, ch );
     

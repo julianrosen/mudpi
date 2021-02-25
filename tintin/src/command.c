@@ -176,7 +176,7 @@ extern DO_COMMAND(do_function);
 extern DO_COMMAND(do_gag);
 extern DO_COMMAND(do_highlight);
 extern DO_COMMAND(do_ignore);
-extern DO_COMMAND(do_info);
+//extern DO_COMMAND(do_info);
 extern DO_COMMAND(do_killall);
 //extern DO_COMMAND(do_log);
 extern DO_COMMAND(do_local);
@@ -259,7 +259,7 @@ struct command_type command_table[] =
 	{    "history",           do_history,           3, TOKEN_TYPE_COMMAND },
 	{    "if",                do_nop,               0, TOKEN_TYPE_IF      },
 	{    "ignore",            do_ignore,            2, TOKEN_TYPE_COMMAND },
-	{    "info",              do_info,              2, TOKEN_TYPE_COMMAND },
+//	{    "info",              do_info,              2, TOKEN_TYPE_COMMAND },
 	{    "kill",              do_kill,              2, TOKEN_TYPE_COMMAND },
 	{    "killall",           do_killall,           2, TOKEN_TYPE_COMMAND },
 	{    "line",              do_line,              3, TOKEN_TYPE_COMMAND },

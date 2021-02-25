@@ -67,7 +67,9 @@ DO_COMMAND(do_history)
 void add_line_history(struct session *ses, char *line)
 {
 	struct listroot *root;
-
+    
+    if ( strlen(line) == 0 ) // JR: don't put blank lines in history
+        return;
 	root = ses->list[LIST_HISTORY];
 
 	if (HAS_BIT(root->flags, LIST_FLAG_IGNORE) || gtd->level->ignore)

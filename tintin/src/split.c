@@ -277,7 +277,7 @@ void split_show(struct session *ses, char *prompt, char *row_str, char *col_str)
 	{
 		col = get_col_index_arg(ses, col_str);
 	}
-
+    
 	if (col == 0)
 	{
 		col = 1;
@@ -350,7 +350,7 @@ void split_show(struct session *ses, char *prompt, char *row_str, char *col_str)
 
 		if (clear)
 		{
-			erase_cols(gtd->screen->cols);
+			erase_cols(gtd->screen->cols); // JR: this line overwrites input (only if col = 0 )
 		}
 	
 		print_stdout(0, 0, "%s", buf1);

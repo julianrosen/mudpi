@@ -1463,11 +1463,11 @@ void do_tintin( CHAR_DATA * ch, char *argument )
     {
         ch->desc->tintin = 0;
         ch->desc->newline = FALSE;
-        send_to_char( "\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
+        send_to_char( "\n\r" TINTIN_OFF "\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
     }
     else if (argument[1] == 'n' && !ch->desc->tintin )
     {
-        send_to_char( "Enabling Mudpi's fixed prompt integration.\n\r", ch );
+        send_to_char( "\n\r" TINTIN_ON " noncompact\n\rEnabling Mudpi's fixed prompt integration.\n\r", ch );
         ch->desc->tintin = 1;
     }
     else if ( argument[1] == 'f' && !ch->desc->tintin )
@@ -1934,45 +1934,61 @@ void do_score( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        sprintf( buf,
-                 "      `y/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/~~\\\n\r" );
+        int start_col = 1, total_width = 60, armor_column = 35, age_column = 44;
+        char outline_color = 'b', cat_color = 'B', entry = 'Y', other = 'W';
+        char start[10],end[10],starts[10],ends[10];
+        int n;
+        start[0] = '\0';
+        lengthen( start, start_col );
+        sprintf( start+strlen(start), "`%c|", outline_color );
+        sprintf( end, "`%c|\n", outline_color );
+        sprintf( starts, "%s ", start );
+        sprintf( ends, " %s", end);
+        sprintf( buf, "`%c", outline_color );
+        lengthen( buf, start_col );
+        strcat( buf, " /");
+        while ( bw_strlen( buf ) < total_width )
+            strcat( buf, "=" );
+        strcat( buf, "\\\n" );
         send_to_char( buf, ch );
-        sprintf( buf, "     |   `W%s%s", ch->name, ch->pcdata->title );
-        lengthen( buf, 53 );
+        sprintf( buf, "%s   `%c%s%s", start, other, ch->name, ch->pcdata->title );
+        lengthen( buf, age_column );
+        sprintf( buf + age_column, "%6d years old", get_age( ch ) ); // JR: accomodate more ages!
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "%6d years old  `y|____|\n\r", get_age( ch ) ); // JR: accomodate more ages!
+        strcpy( buf, start );
+        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        {
+            strcat( buf, n%4==1 ? "+" : "-" );
+        }
+        strcat( buf, end );
         send_to_char( buf, ch );
-        sprintf( buf,
-                 "     |+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+|\n\r" );
+        sprintf( buf, "%s `%cSTR:     `%c%2d `%c%s `%c| `%cRace: `%c%s",
+                start, cat_color, entry, ch->perm_stat[STAT_STR], other,
+                statdiff( ch->perm_stat[STAT_STR], get_curr_stat( ch, STAT_STR ) ),
+                outline_color, cat_color, entry, race_table[ch->race].name );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YSTR:     `G%2d `W%s `y| `YRace: `G%s",
-                 ch->perm_stat[STAT_STR], statdiff( ch->perm_stat[STAT_STR],
-                                                    get_curr_stat( ch,
-                                                                   STAT_STR ) ),
-                 race_table[ch->race].name );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r" );
+        sprintf( buf, "%s `%cINT:     `%c%2d `%c%s `%c| `%cClass: `%c%s",
+                start, cat_color, entry, ch->perm_stat[STAT_INT], other,
+                statdiff( ch->perm_stat[STAT_INT], get_curr_stat( ch, STAT_INT ) ),
+                outline_color, cat_color, entry, class_table[ch->Class].name );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YINT:     `G%2d `W%s `y| `YClass: `G%s",
-                 ch->perm_stat[STAT_INT], statdiff( ch->perm_stat[STAT_INT],
-                                                    get_curr_stat( ch,
-                                                                   STAT_INT ) ),
-                 class_table[ch->Class].name );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, "%s `%cWIS:     `%c%2d `%c%s `%c| `%cLevel: `%c%d",
+                start, cat_color, entry, ch->perm_stat[STAT_WIS], other,
+                statdiff( ch->perm_stat[STAT_WIS], get_curr_stat( ch, STAT_WIS ) ),
+                outline_color, cat_color, entry, ch->level );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YWIS:     `G%2d `W%s `y| `YLevel: `G%d",
-                ch->perm_stat[STAT_WIS],
-                statdiff( ch->perm_stat[STAT_WIS],get_curr_stat( ch, STAT_WIS ) ),
-                 ch->level );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
-        send_to_char( buf, ch );
-        sprintf( buf, "     | `YDEX:     `G%2d `W%s `y| `YAlignment: `G%5d `W[",
-                 ch->perm_stat[STAT_DEX], statdiff( ch->perm_stat[STAT_DEX],
-                                                    get_curr_stat( ch,
-                                                                   STAT_DEX ) ),
-                 ch->alignment );
+        sprintf( buf, "%s `%cDEX:     `%c%2d `%c%s `%c| `%cAlignment: `%c%5d `%c[",
+                start, cat_color, entry, ch->perm_stat[STAT_DEX], other,
+                statdiff( ch->perm_stat[STAT_DEX], get_curr_stat( ch, STAT_DEX ) ),
+                outline_color, cat_color, entry, ch->alignment, other );
         if ( ch->alignment > 900 )
             strcat( buf, "Angelic]" );
         else if ( ch->alignment > 700 )
@@ -1991,91 +2007,98 @@ void do_score( CHAR_DATA * ch, char *argument )
             strcat( buf, "Demonic]" );
         else
             strcat( buf, "Satanic]" );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YCON:     `G%2d `W%s `y| `YGender: `G%-10s   ",
-            ch->perm_stat[STAT_CON],
-            statdiff( ch->perm_stat[STAT_CON], get_curr_stat( ch, STAT_CON ) ),
-            Gender( ch->sex ) );
+        sprintf( buf, "%s `%cCON:     `%c%2d `%c%s `%c| `%cGender: `%c%s   ",
+                start, cat_color, entry, ch->perm_stat[STAT_CON], other,
+                statdiff( ch->perm_stat[STAT_CON], get_curr_stat( ch, STAT_CON ) ),
+                outline_color, cat_color, entry, Gender( ch->sex ) );
         if ( SHOW_CP )
-            sprintf( buf + strlen(buf), "`YCreation Points : `G%2d%s",
-                    ch->pcdata->points, ch->pcdata->points >= 100 ? "" : " " );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+            sprintf( buf + strlen(buf), "`%cCreation Points : `%c%d",
+                    cat_color, entry, ch->pcdata->points );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf,
-                 "     |+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+|\n\r" );
+        strcpy( buf, start );
+        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        {
+            strcat( buf, n%4==1 ? "+" : "-" );
+        }
+        strcat( buf, end );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YItems Carried   " );
-        sprintf( buf + strlen(buf), "`G%d`y/`G%d", ch->carry_number, can_carry_n( ch ) );
-        lengthen( buf, 42 );
-        sprintf( buf + strlen(buf), "`YArmor vs magic  : `G%4d",
-                 GET_AC( ch, AC_EXOTIC ) );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        
+        sprintf( buf, "%s `%cItems Carried   `%c%d`%c/`%c%d", start, cat_color,
+                entry, ch->carry_number, outline_color, entry, can_carry_n( ch ) );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cArmor vs magic  : `%c%4d",
+                cat_color, entry, GET_AC( ch, AC_EXOTIC ) );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YWeight Carried  " );
-        sprintf( buf + strlen(buf), "`G%d`y/`G%d", ch->carry_weight, can_carry_w( ch ) );
-        lengthen( buf, 42 );
-        sprintf( buf + strlen(buf) , "`YArmor vs bash   : `G%4d",
+        sprintf( buf, "%s `%cWeight Carried  `%c%d`%c/`%c%d", start, cat_color,
+                entry, ch->carry_weight, outline_color, entry, can_carry_w( ch ) );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf) , "`%cArmor vs bash   : `%c%4d", cat_color, entry,
                  GET_AC( ch, AC_BASH ) );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YGold            " );
-        sprintf( buf + strlen(buf), "`G%ld", ch->gold );
-        lengthen( buf, 42 );
-        sprintf( buf + strlen(buf), "`YArmor vs pierce : `G%4d",
-                 GET_AC( ch, AC_PIERCE ) );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, "%s `%cGold            `%c%ld", start, cat_color,
+                entry, ch->gold );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cArmor vs pierce : `%c%4d",
+                cat_color, entry, GET_AC( ch, AC_PIERCE ) );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     |");
-        lengthen( buf, 42 );
-        sprintf( buf + strlen(buf),"`YArmor vs slash  : `G%4d",
-                 GET_AC( ch, AC_SLASH ) );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        strcpy( buf, starts );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cArmor vs slash  : `%c%4d",
+                cat_color, entry, GET_AC( ch, AC_SLASH ) );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     |");
-        sprintf( buf + strlen(buf), " `YCurrent XP       `G%ld", ch->exp );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, "%s `%cCurrent XP       `%c%ld", start, cat_color,
+                entry, ch->exp );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     |");
-        sprintf( buf + strlen(buf), " `YXP to level      `G%ld", exp_per_level( ch, ch->pcdata->points ) - ch->exp);
+        sprintf( buf, "%s `%cXP to level      `%c%ld", start, cat_color, entry,
+                exp_per_level( ch, ch->pcdata->points ) - ch->exp);
         if ( SHOW_CP )
             sprintf( buf + strlen(buf), " (%d%% of normal for your level)",
                  figure_difference( ch->pcdata->points ) );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     |" );
-        lengthen( buf, 43 );
-        sprintf( buf + strlen(buf), "`YHitP: `G%5d `y/ `G%5d",
-                 ch->hit, ch->max_hit );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, start );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cHitP: `%c%5d `%c/ `%c%5d", cat_color, entry,
+                 ch->hit, outline_color, entry, ch->max_hit );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YBonus to Hit: `W+%d", GET_HITROLL( ch ) );
-        lengthen( buf, 43 );
-        sprintf( buf + strlen(buf), "`YMana: `G%5d `y/ `G%5d", ch->mana,
-                 ch->max_mana );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, "%s `%cBonus to Hit: `%c+%d", start, cat_color, other, GET_HITROLL( ch ) );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cMana: `%c%5d `%c/ `%c%5d", cat_color, entry,
+                ch->mana, outline_color, entry, ch->max_mana );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "     | `YBonus to Dam: `W+%d", GET_DAMROLL( ch ) );
-        lengthen( buf, 43 );
-        sprintf( buf + strlen(buf), "`YMove: `G%5d `y/ `G%5d", ch->move, ch->max_move );
-        lengthen( buf, 71 );
-        strcat( buf, "`y|\n\r");
+        sprintf( buf, "%s `%cBonus to Dam: `%c+%d", start, cat_color, other, GET_DAMROLL( ch ) );
+        lengthen( buf, armor_column );
+        sprintf( buf + strlen(buf), "`%cMove: `%c%5d `%c/ `%c%5d", cat_color, entry,
+                ch->move, outline_color, entry, ch->max_move );
+        lengthen( buf, total_width );
+        strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf,
-                 "  /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/   |\n\r" );
-        send_to_char( buf, ch );
-        sprintf( buf,
-                 "  \\________________________________________________________________\\__/`w\n\r" );
+        buf[0] = '\0';
+        lengthen( buf, start_col );
+        strcat( buf, " \\" );
+        while ( bw_strlen( buf ) < total_width )
+            strcat( buf, "=" );
+        strcat( buf, "/\n" );
         send_to_char( buf, ch );
         if ( ch->pcdata->clan > 0 )
         {
@@ -2962,7 +2985,8 @@ void do_who( CHAR_DATA * ch, char *argument )
         {
             if ( doneimmort == TRUE )
             {
-                sprintf( buf, "\n\r" );
+                if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+                    sprintf( buf, "\n\r" );
                 strcat( output, buf );
             }
             sprintf( buf, "`K`RVisible Mortals:`K\n\r" );
@@ -3061,7 +3085,10 @@ void do_who( CHAR_DATA * ch, char *argument )
 
 
     }
-    sprintf( buf2, "\n\r`wVisible Players Shown: `W%d\n\r", maxlength );
+    if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+        sprintf( buf2, "\n\r`wVisible Players Shown: `W%d\n\r", maxlength );
+    else
+        sprintf( buf2, "`wVisible Players Shown: `W%d\n\r", maxlength );
     strcat( output, buf2 );
     count = 0;
     for ( d = descriptor_list; d; d = d->next )
@@ -3946,7 +3973,6 @@ void do_finger( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
-
     CHAR_DATA *victim;
     FILE *fp;
     char pfile[MAX_STRING_LENGTH], *title,tit[MAX_STRING_LENGTH];
@@ -4099,19 +4125,39 @@ void do_finger( CHAR_DATA * ch, char *argument )
             return;
         }
     }
-    sprintf( buf,
-             "      `y/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/~~\\\n\r" );
+    
+    int start_col = 1, total_width = 60, col2 = 23;
+    char outline_color = 'b', cat_color = 'B', entry = 'Y', other = 'W';
+    char start[10],end[10],starts[10],ends[10];
+    int n;
+    start[0] = '\0';
+    lengthen( start, start_col );
+    sprintf( start+strlen(start), "`%c|", outline_color );
+    sprintf( end, "`%c|\n", outline_color );
+    sprintf( starts, "%s ", start );
+    sprintf( ends, " %s", end);
+    
+    buf[0] = '\0';
+    lengthen( buf, start_col );
+    sprintf( buf+strlen(buf), " `%c/", outline_color );
+    while ( bw_strlen(buf) < total_width )
+        strcat( buf, "=");
+    strcat( buf, "\\\n");
     send_to_char( buf, ch );
-    sprintf( buf, "     |   `W%s%s", name, title );
-    lengthen( buf, 71 );
-    sprintf( buf + strlen(buf) , "`y|____|\n\r" );
+    sprintf( buf, "%s   `%c%s%s",start, other, name, title );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf,
-             "     |+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+|\n\r" );
-    send_to_char( buf, ch );
-    sprintf( buf, "     | `GGender: `Y%-10s", Gender( sex ) );
-    lengthen( buf, 26 );
-    sprintf( buf + strlen(buf), "`W%s %s ", He_she( sex ), be_verb( sex ));
+    strcpy( buf, start );
+        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        {
+            strcat( buf, n%4==1 ? "+" : "-" );
+        }
+        strcat( buf, end );
+        send_to_char( buf, ch );
+    sprintf( buf, "%s `%cGender: `%c%-10s",start, cat_color, entry, Gender( sex ) );
+    lengthen( buf, col2 );
+    sprintf( buf + strlen(buf), "`%c%s %s ", other, He_she( sex ), be_verb( sex ));
     if ( nclan > 0 )
     {
         clan = get_clan( nclan );
@@ -4141,56 +4187,57 @@ void do_finger( CHAR_DATA * ch, char *argument )
     }
     else
         sprintf( buf + strlen(buf), "not a member of any clan." );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GLevel: `Y%d", level );
-    lengthen( buf, 26 );
-    sprintf( buf + strlen(buf), "`WLast login: %s`y", ltime );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cLevel: `%c%d", start, cat_color, entry, level );
+    lengthen( buf, col2 );
+    sprintf( buf + strlen(buf), "`%cLast login: %s", other, ltime );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GAge  : `Y%d", age );
-    lengthen( buf, 26 );
+    sprintf( buf, "%s `%cAge  : `%c%d", start, cat_color, entry, age );
+    lengthen( buf, col2 );
     class[0] = LOWER(class[0]);
-    sprintf( buf + strlen(buf), "`W%s %s %s %s %s.`y",
+    sprintf( buf + strlen(buf), "`%c%s %s %s %s %s.", other,
              He_she( sex ), be_verb( sex ),
              article( FALSE, FALSE, race ),
              race,
              class );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GPK kills : `Y%d", pk_kills);
-    lengthen( buf, 26 );
-    sprintf( buf + strlen(buf), "`WLast killed by: %s`y", nemesis );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cPK kills : `%c%d", start, cat_color, entry, pk_kills);
+    lengthen( buf, col2 );
+    sprintf( buf + strlen(buf), "`%cLast killed by: %s", other, nemesis );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GPK deaths: `Y%d", pk_deaths );
-    lengthen( buf, 26 );
-    sprintf( buf + strlen(buf), "`WEmail: %s`y", email );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cPK deaths: `%c%d", start, cat_color, entry, pk_deaths );
+    lengthen( buf, col2 );
+    sprintf( buf + strlen(buf), "`%cEmail: %s", other, email );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GIncarnations:`Y %d`y", incarnations );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cIncarnations:`%c %d", start, cat_color, entry, incarnations );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GSpouse:`Y %s`y", spouse );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cSpouse:`%c %s", start, cat_color, entry, spouse );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    sprintf( buf, "     | `GComment: `Y%s`y", comment );
-    lengthen( buf, 71 );
-    strcat( buf, "`y|\n\r" );
+    sprintf( buf, "%s `%cComment: `%c%s", start, cat_color, entry, comment );
+    lengthen( buf, total_width );
+    strcat( buf, ends );
     send_to_char( buf, ch );
-    send_to_char
-        ( "`y  /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/   |\n\r",
-          ch );
-    send_to_char
-        ( "`y  \\________________________________________________________________\\__/\n\r`w",
-          ch );
+    buf[0] = '\0';
+    lengthen( buf, start_col );
+    strcat( buf, " \\" );
+    while ( bw_strlen( buf ) < total_width )
+        strcat( buf, "=" );
+    strcat( buf, "/\n" );
+    send_to_char( buf, ch );
     return;
 }
 

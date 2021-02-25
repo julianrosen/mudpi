@@ -304,7 +304,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
     do_asave( ch, "changed" );
     do_force( ch, "all save" );
     sprintf( buf,
-             "`WA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
+             "\n\r`WA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
 
     /* For each playing descriptor, save its state */
     for ( d = descriptor_list; d; d = d_next )
@@ -354,7 +354,11 @@ void do_copyover( CHAR_DATA * ch, char *argument )
 				och->level++;
 			} */
             save_char_obj( och );
-            write_to_descriptor( d->descriptor, buf, sizeof( buf ) );
+                
+            if ( och == ch )
+                write_to_descriptor( d->descriptor, buf+2, strlen(buf+2) );
+            else
+                write_to_descriptor( d->descriptor, buf, sizeof( buf ) );
         }
     }
 
@@ -439,7 +443,7 @@ void copyover_recover( void )
 
         /* Write something, and check if it goes error-free */
         if ( !write_to_descriptor
-             ( desc, "`YA deja vu is a glitch in the matrix. Something has changed.\n\r\n\r`w",
+             ( desc, "A deja vu is a glitch in the matrix. `YSomething has changed.`w\n\r",
                65 ) )
         {
             close( desc );      /* nope */
@@ -482,7 +486,7 @@ void copyover_recover( void )
             player_list = dnew->character;
 
             char_to_room( dnew->character, dnew->character->in_room );
-            do_look( dnew->character, "" );
+            //do_look( dnew->character, "" ); // JR removed
             act( "$n materializes!", dnew->character, NULL, NULL, TO_ROOM );
             dnew->connected = CON_PLAYING;
             
