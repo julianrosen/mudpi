@@ -157,8 +157,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	int cnt, purge;
 	int skip, cur_row, cur_col, top_row, bot_row;
 	struct buffer_data *buffer;
-    
-        
+
 	push_call("add_line_buffer(%p,%s,%d)",ses,line,prompt);
 
 	if (gtd->level->scroll)
@@ -174,10 +173,11 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 
 	if (HAS_BIT(ses->config_flags, CONFIG_FLAG_CONVERTMETA))
 	{
-		convert_meta(line, temp, TRUE); // JR
-        
-		line = temp; // JR
+		convert_meta(line, temp, TRUE);
+
+		line = temp;
 	}
+
 	cur_row = ses->cur_row;
 	cur_col = ses->cur_col;
 	top_row = ses->split->top_row;
@@ -193,27 +193,29 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	{
 		if (prompt == TRUE)
 		{
-			pti = strchr(line, '\n'); // JR
+			pti = strchr(line, '\n');
+
 			while (pti)
 			{
 				*pti = 0;
 
-				add_line_buffer(ses, line, TRUE); // JR made this TRUE
+				add_line_buffer(ses, line, FALSE);
 
 				*pti++ = '\n';
 
-				line = pti; // JR
+				line = pti;
 
-				pti = strchr(line, '\n'); // JR
+				pti = strchr(line, '\n');
 			}
-			str_cat(&ses->scroll->input, line); // JR
+
+			str_cat(&ses->scroll->input, line);
 
 			pop_call();
 			return;
 		}
 		else
 		{
-			str_cat(&ses->scroll->input, line); // JR
+			str_cat(&ses->scroll->input, line);
 		}
 	}
 
@@ -261,6 +263,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 		}
 	}
 	*pto = 0;
+
 	if (HAS_BIT(ses->flags, SES_FLAG_SNOOP) && ses != gtd->ses)
 	{
 		tintin_printf2(gtd->ses, "%s[%s%s] %s", COLOR_TEXT, ses->name, ses->scroll->input, COLOR_TEXT);
@@ -272,11 +275,13 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	}
 
 	ses->scroll->buffer[ses->scroll->used] = calloc(1, sizeof(struct buffer_data));
+
 	buffer = ses->scroll->buffer[ses->scroll->used];
 
 	buffer->lines = word_wrap_split(ses, ses->scroll->input, temp, ses->wrap, 0, 0, FLAG_NONE, &buffer->height, &buffer->width);
 	buffer->time  = gtd->time;
 	buffer->str   = strdup(ses->scroll->input);
+
 	if (ses->scroll->line == -1)
 	{
 		add_line_screen(ses, temp, 0);
@@ -286,6 +291,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	{
 		SET_BIT(buffer->flags, BUFFER_FLAG_GREP);
 	}
+
 	ses->scroll->used++;
 
 	str_cpy(&ses->scroll->input, "");
@@ -297,6 +303,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 			logit(ses, temp, ses->logfile, LOG_FLAG_LINEFEED);
 		}
 	}
+
 	if (gtd->chat)
 	{
 		chat_forward_session(ses, temp);
@@ -316,6 +323,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 		ses->scroll->used -= purge;
 		ses->scroll->line = URANGE(-1, ses->scroll->line - purge, ses->scroll->used - 1);
 	}
+
 	if (HAS_BIT(gtd->screen->flags, SCREEN_FLAG_SCROLLMODE))
 	{
 		SET_BIT(gtd->screen->flags, SCREEN_FLAG_SCROLLUPDATE);
@@ -325,6 +333,7 @@ void add_line_buffer(struct session *ses, char *line, int prompt)
 	ses->cur_col = cur_col;
 	ses->split->top_row = top_row;
 	ses->split->bot_row = bot_row;
+
 	pop_call();
 	return;
 }
@@ -821,7 +830,10 @@ DO_BUFFER(buffer_lock)
 
 	if (!strcasecmp(arg1, "ON"))
 	{
-		ses->scroll->line = ses->scroll->used + 1;
+		if (ses->scroll->line == -1)
+		{
+			ses->scroll->line = ses->scroll->used - 1;
+		}
 	}
 	else if (!strcasecmp(arg1, "OFF"))
 	{
@@ -831,7 +843,7 @@ DO_BUFFER(buffer_lock)
 	{
 		if (ses->scroll->line == -1)
 		{
-			ses->scroll->line = ses->scroll->used + 1;
+			ses->scroll->line = ses->scroll->used - 1;
 		}
 		else
 		{
