@@ -396,7 +396,7 @@ struct help_type help_table[] =
 
 		"port run session sessionname snoop ssl zap"
 	},
-/*	{
+	{
 		"BELL",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #bell <178>{<278>flash<178>|<278>focus<178>|<278>margin<178>|<278>ring<178>|<278>volume<178>} {<278>argument<178>}<278>\n"
@@ -430,7 +430,7 @@ struct help_type help_table[] =
 		"           #delay {$cnt} {#show Volume $cnt: #bell volume $cnt;#bell}\n",
 
 		"screen"
-	},*/
+	},
 	{
 		"BREAK",
 		TOKEN_TYPE_STATEMENT,
@@ -507,7 +507,7 @@ struct help_type help_table[] =
 
 		"echo grep macro showme screen"
 	},
-/*	{
+	{
 		"BUTTON",
 		TOKEN_TYPE_CONFIG,
 		"<178>Command<278>: #button <178>{<278>square<178>} {<278>commands<178>} {<278>priority<178>}<278>\n"
@@ -547,7 +547,7 @@ struct help_type help_table[] =
 		"<178>Comment<278>: You can remove a button with the #unbutton command.\n",
 
 		"delay event ticker"
-	},*/
+	},
 	{
 		"CASE",
 		TOKEN_TYPE_STATEMENT,
@@ -627,7 +627,7 @@ struct help_type help_table[] =
 
 		"colors escape function mathematics pcre variable"
 	},
-/*	{
+	{
 		"CHAT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #chat <178>{<278>option<178>} {<278>argument<178>}\n"
@@ -696,7 +696,7 @@ struct help_type help_table[] =
 		"         <178>#chat {zap}        {buddy}            Close a connection\n",
 		
 		"port"
-	},*/
+	},
 	{
 		"CLASS",
 		TOKEN_TYPE_CONFIG,
@@ -812,7 +812,7 @@ struct help_type help_table[] =
 		
 		"characters colors escape mathematics pcre"
 	},
-/*	{
+	{
 		"CONFIG",
 		TOKEN_TYPE_CONFIG,
 		"<178>Command<278>: #config <178>{<278>option<178>} {<278>argument<178>}<278>\n"
@@ -839,7 +839,7 @@ struct help_type help_table[] =
 		"         #CONFIG {MCCP}         {ON|OFF} Enable or disable MCCP support.\n",
 
 		"class line"
-	},*/
+	},
 	{
 		"CONTINUE",
 		TOKEN_TYPE_STATEMENT,
@@ -884,7 +884,7 @@ struct help_type help_table[] =
 		,
 		"alias history keypad macro speedwalk tab"
 	},
-/*	{
+	{
 		"DAEMON",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #daemon <178>{<278>attach<178>|<278>detach<178>|<278>kill<178>|<278>list<178>} <178>[<278>name<178>]\n"
@@ -908,8 +908,8 @@ struct help_type help_table[] =
 		"         <278>  List all daemons or daemons with matching name.\n",
 		
 		"script system run"
-	},*/
-/*	{
+	},
+	{
 		"DEBUG",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #debug <178>{<278>listname<178>} {<278>on<178>|<278>off<178>|<278>log<178>}<278>\n"
@@ -926,7 +926,7 @@ struct help_type help_table[] =
 		"         Not every list has debug support yet.\n",
 		
 		"class ignore info kill message"
-	},*/
+	},
 	{
 		"DEFAULT",
 		TOKEN_TYPE_STATEMENT,
@@ -945,12 +945,12 @@ struct help_type help_table[] =
 		"<178>Command<278>: #delay <178>{<278>name<178>} {<278>command<178>} {<278>seconds<178>}<278>\n"
 		"\n"
 		"         Delay allows you to have tintin wait the given amount of seconds\n"
-		"         before executing the given command. tintin won't wait before\n"
-		"         executing following input commands if any.\n"
+		"         before executing the given command.\n"
 		"\n"
-		"         Floating point precision for milliseconds is possible.\n"
+		"         Nanosecond floating point precision is allowed. Delays will fire in\n"
+		"         0.01 second intervals.\n"
 		"\n"
-		"<178>Example<278>: #show first;#delay {1} {#show last}\n"
+		"<178>Example<278>: #delay {1} {#show last};#show first\n"
 		"         This will print 'first', and 'last' around one second later.\n"
 		"\n"
 		"<178>Comment<278>: If you want to remove a delay with the #undelay command you can add\n"
@@ -964,13 +964,13 @@ struct help_type help_table[] =
 	{
 		"DRAW",
 		TOKEN_TYPE_COMMAND,
-		"<178>Command<278>: #draw <178>[<278>color<178>] <178>[<278>options<178>] <178><<278>type<178>> <<278>square<178>> {<278>text<178>}\n"
+		"<178>Command<278>: #draw <178>[<278>line color<178>] <178>[<278>options<178>] <178><<278>type<178>> <<278>square<178>> {<278>text<178>}\n"
 		"<278>\n"
 		"         The draw commands allows you to draw various types of lines and shapes\n"
-		"         on the screen. Common options and types with a brief description are\n"
-		"         provided when you type #draw without an argument.\n"
+		"         on the screen. The types with a brief description are provided when you\n"
+		"         type #draw without an argument.\n"
 		"\n"
-		"         The square arguments should exists of two coordinates defining the\n"
+		"         The <square> arguments should exists of two coordinates defining the\n"
 		"         upper left and bottom right corner using row, col, row, col syntax.\n"
 		"\n"
 		"         The square arguments can be negative, in which case the coordinates\n"
@@ -1024,23 +1024,25 @@ struct help_type help_table[] =
 		"\n"
 		"         The following types are available.\n"
 		"\n"
-		"         <178>[ASCII|UNICODE|HUGE] BOX {[TEXT1]} {[TEXT2]}\n"
+		"         <278>[HORIZONTAL] <178>BAR<278> {<MIN>;<MAX>;[COLOR]}\n"
+		"         <278> will draw a bar.\n"
+		"         <278>[ASCII|UNICODE|HUGE] <178>BOX<278> {[TEXT1]} {[TEXT2]}\n"
 		"         <278>  will draw a box.\n"
-		"         <178>[BOXED|FOREGROUND] BUFFER\n"
+		"         <278>[BOXED|FOREGROUND] <178>BUFFER\n"
 		"         <278>  will draw the scrollback buffer.\n"
-		"         <178>[BLANKED|CIRCLED|CROSSED|JEWELED|ROUNDED|TEED|PRUNED] CORNER\n"
+		"         <278>[BLANKED|CIRCLED|CROSSED|JEWELED|ROUNDED|TEED|PRUNED] <178>CORNER\n"
 		"         <278>  will draw a corner.\n"
-		"         <178>[BLANKED|HORIZONTAL|NUMBERED|TUBED|VERTICAL] LINE {[TEXT]}\n"
+		"         <278>[BLANKED|HORIZONTAL|NUMBERED|TUBED|VERTICAL] <178>LINE<278> {[TEXT]}\n"
 		"         <278>  will draw a line.\n"
-		"         <178>[BOXED] MAP\n"
+		"         <278>[BOXED] <178>MAP\n"
 		"         <278>  will draw the map\n"
-		"         <178>RAIN {<VARIABLE>} {[SPAWN]} {[FADE]} {[LEGEND]}\n"
+		"         <278><178>RAIN<278> {<VARIABLE>} {[SPAWN]} {[FADE]} {[LEGEND]}\n"
 		"         <278>  will draw digital rain.\n"
-		"         <178>[JOINTED|TOP|LEFT|BOTTOM|RIGHT] SIDE\n"
+		"         <278>[JOINTED|TOP|LEFT|BOTTOM|RIGHT] <178>SIDE\n"
 		"         <278>  will draw one or more sides of a box.\n"
-		"         <178>[GRID] TABLE {[LIST1]} {[LIST2]}\n"
+		"         <278>[GRID] <178>TABLE<278> {[LIST1]} {[LIST2]}\n"
 		"         <278> will draw a table.\n"
-		"         <178>[HUGE] TILE {[TEXT1]} {[TEXT2]}\n"
+		"         <278>[CURSIVE|FAT|HUGE|SANSSERIF] <178>TILE<278> {[TEXT1]} {[TEXT2]}\n"
 		"         <278>  will draw a tile\n"
 		"\n"
 		"         All draw types take an optional text argument as long as a valid\n"
@@ -1072,7 +1074,7 @@ struct help_type help_table[] =
 		
 		"buffer format grep showme"
 	},
-/*	{
+	{
 		"EDIT",
 		TOKEN_TYPE_COMMAND,
 		"#edit <178>{<278>option<178>} <178>[<278>argument<178>]<278>\n"
@@ -1105,8 +1107,8 @@ struct help_type help_table[] =
 		"<178>Example<278>: #edit create {bli}{bla}{blo}\n",
 		
 		"cursor macro"
-	},*/
-/*	{
+	},
+	{
 		"EDITING",
 		TOKEN_TYPE_STRING,
 		"<278>\n"
@@ -1231,7 +1233,7 @@ struct help_type help_table[] =
 		"<268>└─────────────────────────┘└────────────────────────────────────────────┘<278>\n",
 
 		"cursor edit macro"
-	},*/
+	},
 
 	{
 		"ELSE",
@@ -1387,6 +1389,8 @@ struct help_type help_table[] =
 		"         <278>  Mouse events can be prefixed with MAP to only trigger when the mouse\n"
 		"         <278>  event occurs inside the VT100 map region.\n"
 		"\n"
+
+		"\n"
 		"         <178>SWIPED [DIR]\n"
 		"         <278>  %0 dir  %1 button  %2 row  %3 col  %4 -row  %5 -col\n"
 		"         <278>                     %6 row  %7 col  %8 -row  %9 -col %10 rows %11 cols\n"
@@ -1457,7 +1461,9 @@ struct help_type help_table[] =
 		"\n"
 		"         <128>SCREEN EVENTS<278>\n"
 		"\n"
-		"         SCREEN FOCUS           %0 focus (0 or 1)\n"
+		"         <178>SCREEN FOCUS\n"
+		"         <278>  %0 focus (0 or 1)\n"
+		"\n"
 		"         SCREEN LOCATION        %0 rows %1 cols  %2 height %3 width\n"
 		"\n"
 		"         <178>SCREEN MOUSE LOCATION\n"
@@ -1723,8 +1729,8 @@ struct help_type help_table[] =
 		"<178>Command<278>: #history <178>{<278>delete<178>}<278>                 Delete the last command.\n"
 		"         #history <178>{<278>insert<178>}    {<278>command<178>}<278>    Insert a command.\n"
 		"         #history <178>{<278>list<178>}<278>                   Display the entire command history.\n"
-//		"         #history <178>{<278>read<178>}      {<278>filename<178>}<278>   Read a command history from file.\n"
-//		"         #history <178>{<278>write<178>}     {<278>filename<178>}<278>   Write a command history to file.\n"
+		"         #history <178>{<278>read<178>}      {<278>filename<178>}<278>   Read a command history from file.\n"
+		"         #history <178>{<278>write<178>}     {<278>filename<178>}<278>   Write a command history to file.\n"
 		"\n"
 		"         Without an argument all available options are shown.\n"
 		"\n"
@@ -2223,7 +2229,8 @@ struct help_type help_table[] =
 		"         #list {var} {explode}                  Turn list into a character list\n"
 		"         #list {var} {indexate}                 Index a list table for sorting\n"
 		"         #list {var} {insert} {index} {string}  Insert {string} at given index\n"
-		"         #list {var} {find} {string} {variable} Return the found index\n"
+		"         #list {var} {filter} {keep} {remove}   Filter with keep / remove regex\n"
+		"         #list {var} {find} {regex} {variable}  Return the found index\n"
 		"         #list {var} {get} {index} {variable}   Copy an item to {variable}\n"
 		"         #list {var} {order} {string}           Insert item in numerical order\n"
 		"         #list {var} {shuffle}                  Shuffle the list\n"
@@ -2548,7 +2555,7 @@ struct help_type help_table[] =
 		"format function math replace script variable"
 	},
 
-/*	{
+	{
 		"LOG",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #log <178>{<278>append<178>|<278>overwrite<178>|<278>off<178>} {<278>[filename]<178>}<278>\n"
@@ -2557,7 +2564,7 @@ struct help_type help_table[] =
 		"         plain, raw, or html with the config command.\n",
 		
 		"read scan textin write"
-	},*/
+	},
 
 	{
 		"LOOP",
@@ -2800,9 +2807,9 @@ struct help_type help_table[] =
 		"         <278>  Define the offset of the vtmap as a square. Without an argument\n"
 		"         <278>  it defaults to the entire top split region.\n"
 		"\n"
-//		"         <178>#map read <filename>\n"
-//		"         <278>  Will load the given map file.\n"
-//		"\n"
+		"         <178>#map read <filename>\n"
+		"         <278>  Will load the given map file.\n"
+		"\n"
 		"         <178>#map resize <size>\n"
 		"         <278>  Resize the map, setting the maximum number of rooms.\n"
 		"\n"
@@ -2851,10 +2858,10 @@ struct help_type help_table[] =
 		"         <278>  Set a map value for your current room, or given room if a room\n"
 		"         <278>  vnum is provided.\n"
 		"\n"
-//		"         <178>#map sync <filename>\n"
-//		"         <278>  Similar to #map read except the current map won't be unloaded\n"
-//		"         <278>  or overwritten.\n"
-//		"\n"
+		"         <178>#map sync <filename>\n"
+		"         <278>  Similar to #map read except the current map won't be unloaded\n"
+		"         <278>  or overwritten.\n"
+		"\n"
 		"         <178>#map terrain <name> <symbol> [flag]\n"
 		"         <278>  Set the terrain symbol and flag.\n"
 		"\n"
@@ -2901,11 +2908,11 @@ struct help_type help_table[] =
 		"\n"
 		"         <178>#map vnum <low> [high]\n"
 		"         <278>  Change the room vnum to the given number, if a range is\n"
-		"         <278>  provided the first available room in that range is selected.\n",
-//		"\n"
-//		"         <178>#map write <filename> [force]\n"
-//		"         <278>  Will save the map, if you want to save a map to a .tin file\n"
-//		"         <278>  you must provide the {force} argument.\n",
+		"         <278>  provided the first available room in that range is selected.\n"
+		"\n"
+		"         <178>#map write <filename> [force]\n"
+		"         <278>  Will save the map, if you want to save a map to a .tin file\n"
+		"         <278>  you must provide the {force} argument.\n",
 
 		"path pathdir"
 	},
@@ -3566,7 +3573,7 @@ struct help_type help_table[] =
 		"map path"
 	},
 
-/*	{
+	{
 		"PORT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #port <178>{<278>option<178>} {<278>argument<178>}<278>\n"
@@ -3617,7 +3624,7 @@ struct help_type help_table[] =
 		"         You can init with 0 as the port number to create a dummy session.\n",
 
 		"all chat run session sessionname snoop ssl zap"
-	},*/
+	},
 
 	{
 		"PROMPT",
@@ -3653,22 +3660,22 @@ struct help_type help_table[] =
 
 		"action gag highlight substitute"
 	},
-//	{
-//		"READ",
-//		TOKEN_TYPE_COMMAND,
-//		"<178>Command<278>: #read <178>{<278>filename<178>}<278>\n"
-//		"\n"
-//		"         Reads a commands file into memory.  The coms file is merged in with\n"
-//		"         the currently loaded commands.  Duplicate commands are overwritten.\n"
-//		"\n"
-//		"         If you uses braces, { and } you can use several lines for 1 commands.\n"
-//		"         This however means you must always match every { with a } for the read\n"
-//		"         command to work.\n"
-//		"\n"
-//		"         You can comment out triggers using /* text */\n",
-//
-//		"log scan textin write"
-//	},
+	{
+		"READ",
+		TOKEN_TYPE_COMMAND,
+		"<178>Command<278>: #read <178>{<278>filename<178>}<278>\n"
+		"\n"
+		"         Reads a commands file into memory.  The coms file is merged in with\n"
+		"         the currently loaded commands.  Duplicate commands are overwritten.\n"
+		"\n"
+		"         If you uses braces, { and } you can use several lines for 1 commands.\n"
+		"         This however means you must always match every { with a } for the read\n"
+		"         command to work.\n"
+		"\n"
+		"         You can comment out triggers using /* text */\n",
+
+		"log scan textin write"
+	},
 	{
 		"REGEXP",
 		TOKEN_TYPE_COMMAND,
@@ -3766,7 +3773,7 @@ struct help_type help_table[] =
 
 		"break continue foreach list loop parse repeat while"
 	},
-/*	{
+	{
 		"RUN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #run <178>{<278>name<178>} {<278>shell command<178>} {<278>file<178>}<278>\n"
@@ -3782,8 +3789,8 @@ struct help_type help_table[] =
 		"<178>Example<278>: #run {something} {tail -f chats.log}\n",
 
 		"all port session sessionname snoop ssl zap"
-	},*/
-/*	{
+	},
+	{
 		"SCAN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #scan <178>{<278>abort<178>|<278>csv<178><178>|<278>tsv<178><178>|<278>txt<178>} {<278>filename<178>}<278>\n"
@@ -3842,7 +3849,7 @@ struct help_type help_table[] =
 		"           stop the scan.\n",
 
 		"read textin"
-	},*/
+	},
 
 	{
 		"SCREEN",
@@ -3933,7 +3940,7 @@ struct help_type help_table[] =
 		"config"
 	},
 
-/*	{
+	{
 		"SCRIPT",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #script <178>{<278>variable<178>}<178> {<278>shell command<178>}<278>\n"
@@ -3953,7 +3960,7 @@ struct help_type help_table[] =
 		"<178>Example<278>: #script {path} {pwd};#show The path is $path[1].\n",
 
 		"format function local math replace variable"
-	},*/
+	},
 
 	{
 		"SEND",
@@ -4057,9 +4064,10 @@ struct help_type help_table[] =
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #snoop <178>{<278>session name<178>} <178>{<278>on<178>|<278>off<178>}<278>\n"
 		"\n"
-		"         If there are multiple sessions active, this command allows you to monitor\n"
-		"         what is going on in the sessions that are not currently active.  The\n"
-		"         line of text from other sessions will be prefixed by the session's name.\n"
+		"         If there are multiple sessions active, this command allows you to\n"
+		"         monitor what is going on in the sessions that are not currently active.\n"
+		"         The line of text from other sessions will be prefixed by the session's\n"
+		"         name.\n"
 		"\n"
 		"         You can toggle off snoop mode by executing #snoop a second time.\n",
 
@@ -4144,7 +4152,7 @@ struct help_type help_table[] =
 
 		"echo prompt showme"
 	},
-/*	{
+	{
 		"SSL",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #ssl <178>{<278>name<178>} {<278>host<178>} {<278>port<178>} {<278>file<178>}\n"
@@ -4153,7 +4161,7 @@ struct help_type help_table[] =
 		"         and optional file name.\n",
 
 		"all port run sessionname snoop ssl zap"
-	},*/
+	},
 	{
 		"STATEMENTS",
 		TOKEN_TYPE_STRING,
@@ -4212,7 +4220,7 @@ struct help_type help_table[] =
 
 		"action gag highlight prompt"
 	},
-/*	{
+	{
 		"SUSPEND",
 		TOKEN_TYPE_STRING,
 		"<178>Command<278>: #cursor suspend\n"
@@ -4224,7 +4232,7 @@ struct help_type help_table[] =
 		"         suspended session running use the #detach command.\n",
 
 		"end"
-	},*/
+	},
 	{
 		"SWITCH",
 		TOKEN_TYPE_STATEMENT,
@@ -4245,7 +4253,7 @@ struct help_type help_table[] =
 
 		"statements"
 	},
-/*	{
+	{
 		"SYSTEM",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #system <178>{<278>command<178>}<278>\n"
@@ -4253,7 +4261,7 @@ struct help_type help_table[] =
 		"         Executes the command specified as a shell command.\n",
 
 		"detach script run"
-	},*/
+	},
 	{
 		"TAB",
 		TOKEN_TYPE_CONFIG,
@@ -4268,7 +4276,7 @@ struct help_type help_table[] =
 
 		"alias cursor history keypad macro speedwalk"
 	},
-/*	{
+	{
 		"TEXTIN",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #textin <178>{<278>filename<178>} {<278>delay<178>}<278>\n"
@@ -4281,13 +4289,15 @@ struct help_type help_table[] =
 		"         cumulatively applied to each outgoing line.\n",
 
 		"scan send"
-	},*/
+	},
 	{
 		"TICKER",
 		TOKEN_TYPE_CONFIG,
 		"<178>Command<278>: #ticker <178>{<278>name<178>} {<278>commands<178>} {<278>interval in seconds<178>}<278>\n"
 		"\n"
-		"         Executes given command every # of seconds.\n"
+		"         Executes given command every # of seconds. Floating point precision\n"
+		"         for the interval is allowed. A ticker cannot fire more often than\n"
+		"         10 times per second.\n"
 		"\n"
 		"<178>Comment<278>: Tickers don't work in the startup session.\n"
 		"\n"
@@ -4423,7 +4433,7 @@ struct help_type help_table[] =
 		"statements"
 	},
                                                                                                    
-/*	{
+	{
 		"WRITE",
 		TOKEN_TYPE_COMMAND,
 		"<178>Command<278>: #write <178>{<278><filename><178>} {<278>[FORCE]<178>}<278>\n"
@@ -4436,7 +4446,7 @@ struct help_type help_table[] =
 		"         protection.\n",
 
 		"log read scan textin"
-	},*/
+	},
 	{
 		"ZAP",
 		TOKEN_TYPE_COMMAND,

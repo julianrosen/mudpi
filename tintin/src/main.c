@@ -466,6 +466,7 @@ void init_tintin(int greeting)
 	gtd->tintin_char    = '#';
 
 	gtd->time           = time(NULL);
+	gtd->utime          = utime();
 
 	for (index = 0 ; index < 100 ; index++)
 	{
@@ -692,7 +693,7 @@ void quitmsg(char *message)
 		{
 			print_stdout(0, 0, "\n\e[0m%s", message);
 		}
-		// print_stdout(0, 0, "\nGoodbye from TinTin++\n\n");
+		print_stdout(0, 0, "\nGoodbye from TinTin++\n\n");
 	}
 	fflush(stdout);
 

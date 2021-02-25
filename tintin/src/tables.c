@@ -36,7 +36,7 @@ struct list_type list_table[LIST_MAX] =
 	{    "CLASS",             "CLASSES",            SORT_PRIORITY,    2, 0, 0, LIST_FLAG_MESSAGE|LIST_FLAG_READ|LIST_FLAG_INHERIT                                 },
 	{    "COMMAND",           "COMMANDS",           SORT_APPEND,      1, 0, 0, LIST_FLAG_MESSAGE                                                                  },
 	{    "CONFIG",            "CONFIGS",            SORT_ALPHA,       2, 0, 0, LIST_FLAG_MESSAGE|LIST_FLAG_READ|LIST_FLAG_WRITE|LIST_FLAG_CLASS|LIST_FLAG_INHERIT },
-	{    "DELAY",             "DELAYS",             SORT_DELAY,       2, 2, 3, LIST_FLAG_MESSAGE|LIST_FLAG_READ                                                   },
+	{    "DELAY",             "DELAYS",             SORT_STABLE,       2, 2, 3, LIST_FLAG_MESSAGE|LIST_FLAG_READ                                                   },
 	{    "EVENT",             "EVENTS",             SORT_ALPHA,       2, 2, 0, LIST_FLAG_MESSAGE|LIST_FLAG_READ|LIST_FLAG_WRITE|LIST_FLAG_CLASS|LIST_FLAG_INHERIT },
 	{    "FUNCTION",          "FUNCTIONS",          SORT_ALPHA,       2, 2, 0, LIST_FLAG_MESSAGE|LIST_FLAG_READ|LIST_FLAG_WRITE|LIST_FLAG_CLASS|LIST_FLAG_INHERIT },
 	{    "GAG",               "GAGS",               SORT_ALPHA,       1, 0, 0, LIST_FLAG_MESSAGE|LIST_FLAG_READ|LIST_FLAG_WRITE|LIST_FLAG_CLASS|LIST_FLAG_INHERIT },
@@ -67,6 +67,25 @@ struct substitution_type substitution_table[] =
 	{    "LNF",                  SUB_LNF },
         {    "LITERAL",              SUB_LIT },
 	{    "",                     0       }
+};
+
+struct charset_type charset_table[] =
+{
+	{    "ASCII",         "iso-8859-1",  0                 },
+	{    "UTF-8",         "utf-8",       CHARSET_FLAG_UTF8 },
+	{    "BIG-5",         "big-5",       CHARSET_FLAG_BIG5 },
+	{    "GBK-1",         "gb18030",     CHARSET_FLAG_GBK1 },
+	{    "CP949",         "cp949",       CHARSET_FLAG_CP949 },
+
+	{    "BIG5TOUTF8",    "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_BIG5TOUTF8 },
+	{    "CP1251TOUTF8",  "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_CP1251TOUTF8 },
+	{    "CP949TOUTF8",   "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_CP949TOUTF8 },
+	{    "FANSITOUTF8",   "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_FANSITOUTF8 },
+	{    "GBK1TOUTF8",    "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_GBK1TOUTF8 },
+	{    "ISO1TOUTF8",    "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_ISO1TOUTF8 },
+	{    "ISO2TOUTF8",    "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_ISO2TOUTF8 },
+	{    "KOI8TOUTF8",    "utf-8",       CHARSET_FLAG_UTF8|CHARSET_FLAG_KOI8TOUTF8 },
+	{    "",              "",            0 }
 };
 
 struct config_type config_table[] =
@@ -834,13 +853,13 @@ struct map_type map_table[] =
 	{     "MOVE",             map_move,            MAP_FLAG_VTMAP, 2, "Move to the given direction"          },
 	{     "NAME",             map_name,            MAP_FLAG_VTMAP, 2, "(obsolete) Use SET ROOMNAME instead"  },
 	{     "OFFSET",           map_offset,          MAP_FLAG_VTMAP, 1, "Set the offset of the vt map"         },
-//	{     "READ",             map_read,            MAP_FLAG_VTMAP, 0, "Read a map file"                      },
+	{     "READ",             map_read,            MAP_FLAG_VTMAP, 0, "Read a map file"                      },
 	{     "RESIZE",           map_resize,          0,              1, "Resize the map room vnum range"       },
 	{     "RETURN",           map_return,          MAP_FLAG_VTMAP, 1, "Return to last known room"            },
 	{     "ROOMFLAG",         map_roomflag,        MAP_FLAG_VTMAP, 2, "Change the room's flags"              },
 	{     "RUN",              map_run,             MAP_FLAG_VTMAP, 2, "Save found path to #path and run it"  },
 	{     "SET",              map_set,             MAP_FLAG_VTMAP, 2, "Set various room values"              },
-//	{     "SYNC",             map_sync,            MAP_FLAG_VTMAP, 0, "Read a map file without overwriting"  },
+	{     "SYNC",             map_sync,            MAP_FLAG_VTMAP, 0, "Read a map file without overwriting"  },
 	{     "TERRAIN",          map_terrain,         MAP_FLAG_VTMAP, 1, "Create a terrain type"                },
 	{     "TRAVEL",           map_travel,          MAP_FLAG_VTMAP, 2, "Save explored path to #path and run it" },
 	{     "UNDO",             map_undo,            MAP_FLAG_VTMAP, 2, "Undo last map action"                 },
@@ -850,7 +869,7 @@ struct map_type map_table[] =
 	{     "UNTERRAIN",        map_unterrain,       MAP_FLAG_VTMAP, 1, "Remove a terrain type"                },
 	{     "UPDATE",           map_update,          0,              0, "Mark vt map for an auto update"       },
 	{     "VNUM",             map_vnum,            MAP_FLAG_VTMAP, 2, "Change the room vnum to given vnum"   },
-//	{     "WRITE",            map_write,           0,              1, "Save the map to given file"           },
+	{     "WRITE",            map_write,           0,              1, "Save the map to given file"           },
 	{     "",                 NULL,                0,              0, ""                                     }
 };
 
@@ -1020,8 +1039,9 @@ struct event_type event_table[] =
 	{    "PRESSED ",                               0, EVENT_FLAG_MOUSE,    "MOUSE",     "mouse button is pressed"    },
 	{    "PROCESSED KEYPRESS",                     0, EVENT_FLAG_INPUT,    "INPUT",     "after a regular keypress"   },
 	{    "PROGRAM START",                          0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "main session starts"        },
-	{    "PROGRAM TERMINATION",                    0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "main session exists"        },
+	{    "PROGRAM TERMINATION",                    0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "main session exits"         },
 	{    "READ ERROR",                             0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "the read command fails"     },
+	{    "READ FILE",                              0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "the read command finished"  },
 	{    "RECEIVED ERROR",                         0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "an error is received"       },
 	{    "RECEIVED INPUT",                         0, EVENT_FLAG_INPUT,    "INPUT",     "keyboard input is received" },
 	{    "RECEIVED KEYPRESS",                      0, EVENT_FLAG_INPUT,    "INPUT",     "a keypress is received"     },
@@ -1037,7 +1057,7 @@ struct event_type event_table[] =
 	{    "SCREEN DESKTOP SIZE",                    0, EVENT_FLAG_SCREEN,   "SCREEN",    "called by #screen raise"    },
 	{    "SCREEN DIMENSIONS",                      0, EVENT_FLAG_SCREEN,   "SCREEN",    "called by #screen raise"    },
 	{    "SCREEN FILL",                            0, EVENT_FLAG_SCREEN,   "SCREEN",    "split bars are filled"      },
-	{    "SCREEN FOCUS",                           0, EVENT_FLAG_MOUSE,    "MOUSE",     "focus changes",             },
+	{    "SCREEN FOCUS",                           0, EVENT_FLAG_SCREEN,   "SCREEN",    "focus changes",             },
 	{    "SCREEN LOCATION",                        0, EVENT_FLAG_SCREEN,   "SCREEN",    "called by #screen raise"    },
 	{    "SCREEN MINIMIZED",                       0, EVENT_FLAG_SCREEN,   "SCREEN",    "called by #screen raise"    },
 	{    "SCREEN MOUSE LOCATION",                  0, EVENT_FLAG_MOUSE,    "MOUSE",     "called by #screen raise"    },
@@ -1067,7 +1087,7 @@ struct event_type event_table[] =
 	{    "SWIPED",                                 0, EVENT_FLAG_MOUSE,    "MOUSE",     "mouse swipe"                },
 	{    "SYSTEM CRASH",                           0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "system crash"               },
 	{    "SYSTEM ERROR",                           0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "system errors"              },
-	{    "TIME",                                   0, EVENT_FLAG_TIME,     "TIME",      "the given time"             },
+	{    "TIME ",                                  0, EVENT_FLAG_TIME,     "TIME",      "the given time"             },
 	{    "TRIPLE-CLICKED",                         0, EVENT_FLAG_MOUSE,    "MOUSE",     "mouse is triple-clicked"    },
 	{    "UNKNOWN COMMAND",                        0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "unknown tintin command"     },
 	{    "VARIABLE UPDATE ",                       0, EVENT_FLAG_VARIABLE, "VARIABLE",  "before a variable updates"  },
@@ -1170,7 +1190,7 @@ struct buffer_type buffer_table[] =
 	{    "LOCK",              buffer_lock,         "Toggle the locking state of the buffer."        },
 	{    "REFRESH",           buffer_refresh,      "Refresh the buffer display."                    },
 	{    "UP",                buffer_up,           "Scroll up one page."                            },
-//	{    "WRITE",             buffer_write,        "Write the buffer to file."                      },
+	{    "WRITE",             buffer_write,        "Write the buffer to file."                      },
 	{    "",                  NULL,                ""                                               }
 };
 

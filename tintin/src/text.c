@@ -96,7 +96,6 @@ void print_stdout(int row, int col, char *format, ...)
 	va_start(args, format);
 	len = vasprintf(&buffer, format, args);
 	va_end(args);
-    
 
 	if (gtd->detach_port)
 	{
@@ -112,7 +111,7 @@ void print_stdout(int row, int col, char *format, ...)
 	{
 		SET_BIT(gtd->flags, TINTIN_FLAG_DISPLAYUPDATE);
 
-		fputs(buffer, stdout);   // JR: Swaping these doesn't seem to do anything
+		fputs(buffer, stdout);
 //		printf("%s", buffer);
 
 		if (row && col)

@@ -1030,6 +1030,9 @@ void mathexp_compute(struct session *ses, struct link_data *node)
 			}
 			break;
 		case '%':
+			value = fmod(tintoi(node->prev->str3), tintoi(node->next->str3));
+
+/*
 			if (tintoi(node->next->str3) == 0)
 			{
 				show_debug(ses, LIST_VARIABLE, "#MATH ERROR: MODULO ZERO.");
@@ -1041,6 +1044,7 @@ void mathexp_compute(struct session *ses, struct link_data *node)
 
 				value64 = tintou(node->prev->str3) % tintou(node->next->str3);
 			}
+*/
 			break;
 		case '+':
 			value = tintoi(node->prev->str3) + tintoi(node->next->str3);
@@ -1363,7 +1367,8 @@ unsigned long long tintou(char *str)
 				break;
 
 			case '.':
-				*ptr = 0;
+				value = 0;
+				m = 1;
 				break;
 
 			case ':':
