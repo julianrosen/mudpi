@@ -3389,7 +3389,7 @@ char *doparseprompt( CHAR_DATA * ch )
         else
         {
             strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM ); // JR just changed
-            fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM + 2);
+            fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM ) + 2;
         }
     }
     twoline = FALSE;
