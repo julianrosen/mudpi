@@ -1086,10 +1086,11 @@ void do_afk( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
 
-    if ( IS_SET( ch->act, PLR_AFK ) )
+    if ( IS_SET( ch->act, PLR_AFK ) && !IS_SET( ch->act, PLR_AUTO_AFK ) )
     {
-        send_to_char( "You are no longer set AFK.\n\r", ch );
+        REMOVE_BIT( ch->act, PLR_AUTO_AFK );
         REMOVE_BIT( ch->act, PLR_AFK );
+        send_to_char( "You are no longer set AFK.\n\r", ch );
         if ( ch->pcdata->message != NULL )
         {
             sprintf( buf2,
@@ -1105,9 +1106,12 @@ void do_afk( CHAR_DATA * ch, char *argument )
     }
     else
     {
-        send_to_char( "You are now set AFK. Messages are being recorded.\n\r",
-                      ch );
         SET_BIT( ch->act, PLR_AFK );
+        REMOVE_BIT( ch->act, PLR_AUTO_AFK );
+
+        send_to_char( "You are now set AFK.\n\r", // JR: Messages are being recorded.
+                      ch );
+
         act( "`W$n is away from $s keyboard for a while.`w", ch, NULL, NULL,
              TO_ROOM );
         sprintf( buf2, "%s has gone AFK.", ch->name );

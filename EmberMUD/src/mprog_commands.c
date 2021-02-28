@@ -1930,3 +1930,15 @@ void do_mpcycle( CHAR_DATA *ch, char *argument )
             todo += n + 1;
     }
 }
+
+// JR: play chess
+void do_mpchess( CHAR_DATA *ch, char *argument )
+{
+    static char position[100];
+    
+    if ( IS_NPC( ch ) )
+        return;
+    
+    
+    return;
+}

@@ -1718,7 +1718,7 @@ A sack lies here.~
 unknown~
 15 0 AO
 BEF 0 0 0 0
-0 1 0 P
+0 1 70 P
 #9535
 oil lamp oillamp~
 an oil lamp~
@@ -1726,7 +1726,7 @@ An oil lamp lies here.~
 unknown~
 1 0 A
 0 0 48 0 0
-0 1 0 P
+0 1 300 P
 #9536
 backpack back pack~
 a backpack~
@@ -1734,7 +1734,7 @@ A backpack lies here.~
 unknown~
 15 0 AK
 ABDG A 0 0 0
-0 8 0 P
+0 8 180 P
 #9537
 basket~
 a basket~
@@ -1742,7 +1742,7 @@ A basket lies here.~
 unknown~
 15 0 A
 BEF 0 0 0 0
-0 4 0 P
+0 4 80 P
 #9538
 belt pouch~
 a belt pouch~
@@ -1750,7 +1750,7 @@ A belt pouch lies here.~
 unknown~
 15 0 AL
 ADE 0 0 0 0
-0 3 0 P
+0 3 100 P
 #9539
 candle~
 a candle~
@@ -1758,7 +1758,7 @@ A candle lies here.~
 unknown~
 1 0 AO
 0 0 50 0 0
-0 1 0 P
+0 1 60 P
 #9540
 cheese~
 a hunk of cheese~
@@ -1878,7 +1878,7 @@ A nicely made silk jacket lies here.~
 unknown~
 11 0 AK
 0 0 0 0 0
-0 1 0 P
+0 1 800 P
 #9556
 egg~
 an egg~
@@ -2218,9 +2218,9 @@ unknown~
 AB AB AB 0 0
 0 1 0 P
 A
-14 10
-A
 2 1
+A
+14 10
 #9598
 daemon claw~
 the Daemon Claw~
@@ -2248,9 +2248,9 @@ unknown~
 D AC BC AB 0
 25 16 250 P
 A
-19 2
-A
 18 2
+A
+19 2
 #9601
 fountain water~
 a fountain~
@@ -2298,9 +2298,14 @@ tavern of the Dancing Daemon Inn, and your future adventures in New Thalos.
 ~
 0 124 0
 E
-1.1picture~
-You see a picture of Felix here, standing before the arena.
-He seems to be doing a body count.
+4.picture~
+You see a picture of Loki... at least you think it's Loki.
+He seems to be hiding from the camera.
+~
+E
+3.picture~
+You see a picture of Hammor on the front porch of the Danjerhaus,
+drinking a guinness stout and petting Big Guy the Cat.
 ~
 E
 2.picture~
@@ -2309,14 +2314,9 @@ Through a window in the back you see a large aquarium. The newbie seems to
 be cowering in fear.
 ~
 E
-3.picture~
-You see a picture of Hammor on the front porch of the Danjerhaus,
-drinking a guinness stout and petting Big Guy the Cat.
-~
-E
-4.picture~
-You see a picture of Loki... at least you think it's Loki.
-He seems to be hiding from the camera.
+1.1picture~
+You see a picture of Felix here, standing before the arena.
+He seems to be doing a body count.
 ~
 D5
 The stairs lead down to the Daemon.
@@ -4643,6 +4643,10 @@ blood, there is a barely readable sign.
 ~
 0 120 0
 E
+vat~
+You think you hear noises from the vat....nah.
+~
+E
 note sign~
 LIST : gives you a list of items for sale.
 VALUE : tells you how much an item is worth
@@ -4650,10 +4654,6 @@ SELL : sells an item to Butch for a generous sum
 BUY : Butch's FAVORITE command lets you have an item for his low low price.
 
                                         NEWBEE INTRUCTOR COMMITEE
-~
-E
-vat~
-You think you hear noises from the vat....nah.
 ~
 D3
 ~
@@ -5569,13 +5569,13 @@ hallway.
 ~
 0 8 0
 E
-mirror~
-You see a the fighting image of some armor clad humanoid wielding a weapon.
-~
-E
 window~
 Looking out this window you can see the grounds of the palace that
 seperate the walls of the palace from the building itself.
+~
+E
+mirror~
+You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 D0
 ~

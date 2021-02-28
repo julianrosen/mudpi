@@ -24,11 +24,16 @@
 #nop Disable static prompt
 #alias {unsetttprompt}
 {
+#showme {OFF};
     #unprompt {~@^p1%%1};
     #unprompt {~@^p2%%1};
     #split 0 0;
     #mudpi off;
     #screen clear bottom;
+    #screen clear input;
+    #delay {0.15} {#cr};
+    #screen clear bottom;
+    #screen clear input;
 }
 
 #nop Mud uses this string to enable prompt
@@ -55,7 +60,10 @@
 
 #nop When we receive a non-prompt output line, update the variable
 #nop that controlls spacing of TinTin input lines
-#event {RECEIVED LINE} {#regexp {%1} {^@^{.*}} {} {#shownoutput}}
+#event {RECEIVED LINE} {#regexp {%1} {^@^} {#nop} {#shownoutput}}
+
+#nop Better than nothing...
+#event {UNKNOWN COMMAND} {#shownoutput}
 
 #nop Terminate session upon disconnect
 #event {SESSION DISCONNECTED} {#end}
@@ -66,6 +74,9 @@
 
 #nop On screen resize, clear those weird lines that appear and redraw prompt
 #event {SCREEN RESIZE} {#screen clear input;#screen clear bottom;#cr}
+
+#nop Working copy only
+#showme This is the unstable version of Mudpi
 
 #nop Connect to the mud
 #ses mud_pi localhost 20495

@@ -715,6 +715,7 @@ void tokenize_script(struct scriptroot *root, int lvl, char *str)
 struct scriptnode *parse_script(struct scriptroot *root, int lvl, struct scriptnode *token, struct scriptnode *shift)
 {
 	struct scriptnode *split = NULL;
+    
 
 	while (token)
 	{

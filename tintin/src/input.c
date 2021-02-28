@@ -955,10 +955,8 @@ void echo_command(struct session *ses, char *line)
             buffer[1] = ' ';*/
             gtd->level->scroll++;
 
-            if ( ses->mudpi & MUDPI_COMPACT )
-                sprintf( buf, "\e[1;33m>c> %s", buffer); // JR: Bright blue >>
-            else if ( !ses->shown_output )
-                sprintf( buf, "\e[1;33m>ns> %s", buffer); // JR: Bright blue >>
+            if ( ses->mudpi & MUDPI_COMPACT || !ses->shown_output )
+                sprintf( buf, "\e[1;33m>> %s", buffer); // JR: Bright blue >>
             else
                 sprintf( buf, "\e[1;33m\n>> %s", buffer); // JR: Bright blue >>
             ses->shown_output = FALSE;

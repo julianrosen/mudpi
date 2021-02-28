@@ -449,75 +449,125 @@ int find_door( CHAR_DATA * ch, char *arg )
     return door;
 }
 
+
+
+// JR: tool for open, close, lock, unlock, pick
+
+int get_door( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    EXIT_DATA *pexit;
+    int door;
+    one_argument( argument, arg );
+    
+    if ( arg[0] == '\0' )
+        return -3;
+    
+    for ( door = 0 ; door <= 5; door++ )
+    {
+        if ( !str_prefix(arg, dir_name[door]) )
+            break;
+    }
+    
+    if ( door > 5 )
+    {
+        for ( door = 0; door <= 5; door++ )
+        {
+            if ( ( pexit = ch->in_room->exit[door] ) != NULL
+                 && IS_SET( pexit->exit_info, EX_ISDOOR )
+                 && pexit->keyword != NULL && is_name( arg, pexit->keyword ) )
+                return door;
+        }
+        return -1;
+    }
+
+    if ( ( pexit = ch->in_room->exit[door] ) == NULL )
+    {
+        act( "There is no exit $T.", ch, NULL, dir_name[door], TO_CHAR );
+        return -2;
+    }
+    if ( !IS_SET( pexit->exit_info, EX_ISDOOR ) )
+    {
+        act( "I see no door $T of here.", ch, NULL, dir_name[door], TO_CHAR );
+        return -2;
+    }
+
+    return door;
+}
+
+OBJ_DATA * get_openable_object( CHAR_DATA * ch, char *argument, bool * found )
+{
+    char arg2[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    int number;
+    int count;
+
+    number = number_argument( argument, arg2 );
+    count = 0;
+    for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+    {
+        if ( can_see_obj( ch, obj ) 
+            && is_name( arg2, obj->name )
+            && obj->item_type == ITEM_CONTAINER
+            && IS_SET( obj->value[1], CONT_CLOSEABLE ) )
+        {
+            if ( ++count == number )
+            {
+                *found = TRUE;
+                return obj;
+            }
+        }
+    }
+    
+    // No openable object found, so just return an unopenable one
+    *found = FALSE;
+    count = 0;
+    for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+    {
+        if ( can_see_obj( ch, obj ) && is_name( arg2, obj->name ) )
+        {
+            if ( ++count == number )
+                return obj;
+        }
+    }
+    return NULL;
+}
+
+
 void do_open( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
+    EXIT_DATA *pexit;
     int door;
-
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
+    door = get_door( ch, argument );
+    if ( door == -3 )
     {
         send_to_char( "Open what?\n\r", ch );
         return;
     }
-
-    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
-    {
-        /* 'open object' */
-        if ( obj->item_type != ITEM_CONTAINER )
-        {
-            send_to_char( "That's not a container.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
-        {
-            send_to_char( "It's already open.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( obj->value[1], CONT_CLOSEABLE ) )
-        {
-            send_to_char( "You can't do that.\n\r", ch );
-            return;
-        }
-        if ( IS_SET( obj->value[1], CONT_LOCKED ) )
-        {
-            send_to_char( "It's locked.\n\r", ch );
-            return;
-        }
-
-        REMOVE_BIT( obj->value[1], CONT_CLOSED );
-        //send_to_char( "Ok.\n\r", ch );
-        act( "You open $p.", ch, obj, NULL, TO_CHAR ); // JR
-        act( "$n opens $p.", ch, obj, NULL, TO_ROOM );
+    if ( door == -2 )
         return;
-    }
-
-    if ( ( door = find_door( ch, arg ) ) >= 0 )
+    else if ( door >= 0 )
     {
-        /* 'open door' */
-        ROOM_INDEX_DATA *to_room;
-        EXIT_DATA *pexit;
-        EXIT_DATA *pexit_rev;
-
         pexit = ch->in_room->exit[door];
         if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
         {
-            send_to_char( "It's already open.\n\r", ch );
+            act( "The $d is already open.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
         if ( IS_SET( pexit->exit_info, EX_LOCKED ) )
         {
-            send_to_char( "It's locked.\n\r", ch );
+            act( "The $d is locked.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
-
         REMOVE_BIT( pexit->exit_info, EX_CLOSED );
         act( "$n opens the $d.", ch, NULL, pexit->keyword, TO_ROOM );
         act( "You open the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
         //send_to_char( "Ok.\n\r", ch );
-
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit_rev;
         /* open the other side */
         if ( ( to_room = pexit->u1.to_room ) != NULL
              && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
@@ -528,87 +578,450 @@ void do_open( CHAR_DATA * ch, char *argument )
             REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
             for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
                 act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR );
-        }
+        } 
+        return;
     }
+    else
+    {
+        bool found;
+        obj = get_openable_object( ch, argument, &found );
+        if ( obj == NULL )
+        {
+            send_to_char( "There's nothing like that here.\n\r", ch );
+            return;
+        }
+        else if ( !found )
+        {
+            act( "$p is not something that can be opened.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        else if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            act( "$p is already open.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        else if ( IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            act( "$p is locked.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
 
+        REMOVE_BIT( obj->value[1], CONT_CLOSED );
+        //send_to_char( "Ok.\n\r", ch );
+        act( "You open $p.", ch, obj, NULL, TO_CHAR ); // JR
+        act( "$n opens $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
     return;
 }
+
 
 void do_close( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
-
     OBJ_DATA *obj;
+    EXIT_DATA *pexit;
     int door;
-
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
+    door = get_door( ch, argument );
+    if ( door == -3 )
     {
         send_to_char( "Close what?\n\r", ch );
         return;
     }
-
-    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+    if ( door == -2 )
+        return;
+    else if ( door >= 0 )
     {
-        /* 'close object' */
-        if ( obj->item_type != ITEM_CONTAINER )
+        pexit = ch->in_room->exit[door];
+        if ( IS_SET( pexit->exit_info, EX_CLOSED ) )
         {
-            send_to_char( "That's not a container.\n\r", ch );
+            act( "The $d is already closed.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
-        if ( IS_SET( obj->value[1], CONT_CLOSED ) )
+        SET_BIT( pexit->exit_info, EX_CLOSED );
+        act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+        act( "You close the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        //send_to_char( "Ok.\n\r", ch );
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit_rev;
+        /* open the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+             && pexit_rev->u1.to_room == ch->in_room )
         {
-            send_to_char( "It's already closed.\n\r", ch );
+            CHAR_DATA *rch;
+
+            REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
+            for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
+                act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+        } 
+        return;
+    }
+    else
+    {
+        bool found;
+        obj = get_openable_object( ch, argument, &found );
+        if ( obj == NULL )
+        {
+            send_to_char( "There's nothing like that here.\n\r", ch );
             return;
         }
-        if ( !IS_SET( obj->value[1], CONT_CLOSEABLE ) )
+        else if ( !found )
         {
-            send_to_char( "You can't do that.\n\r", ch );
+            act( "$p is not something that can be closed.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        else if ( IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            act( "$p is already closed.", ch, obj, NULL, TO_CHAR );
             return;
         }
 
         SET_BIT( obj->value[1], CONT_CLOSED );
         //send_to_char( "Ok.\n\r", ch );
-        act( "$n closes $p.", ch, obj, NULL, TO_ROOM );
         act( "You close $p.", ch, obj, NULL, TO_CHAR ); // JR
+        act( "$n closes $p.", ch, obj, NULL, TO_ROOM );
         return;
     }
+    return;
+}
 
-    if ( ( door = find_door( ch, arg ) ) >= 0 )
+
+void do_lock( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    EXIT_DATA *pexit;
+    int door;
+    door = get_door( ch, argument );
+    if ( door == -3 )
     {
-        /* 'close door' */
+        send_to_char( "Lock what?\n\r", ch );
+        return;
+    }
+    if ( door == -2 )
+        return;
+    else if ( door >= 0 )
+    {
         ROOM_INDEX_DATA *to_room;
-        EXIT_DATA *pexit;
         EXIT_DATA *pexit_rev;
-
         pexit = ch->in_room->exit[door];
-        if ( IS_SET( pexit->exit_info, EX_CLOSED ) )
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
         {
-            send_to_char( "It's already closed.\n\r", ch );
+            act( "The $d is not closed.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( pexit->key < 0 )
+        {
+            act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            act( "The $d is already locked.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( !has_key( ch, pexit->key ) )
+        {
+            act( "You lack the key to the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
 
-        SET_BIT( pexit->exit_info, EX_CLOSED );
-        act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-        act( "You close the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
-        //send_to_char( "Ok.\n\r", ch );
+        SET_BIT( pexit->exit_info, EX_LOCKED );
+        act( "*Click* You lock the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        act( "$n locks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
 
-        /* close the other side */
+        /* lock the other side */
         if ( ( to_room = pexit->u1.to_room ) != NULL
              && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
              && pexit_rev->u1.to_room == ch->in_room )
         {
-            CHAR_DATA *rch;
-
-            SET_BIT( pexit_rev->exit_info, EX_CLOSED );
-            for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-                act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+            SET_BIT( pexit_rev->exit_info, EX_LOCKED );
         }
     }
+    else
+    {
+        bool found;
+        obj = get_openable_object( ch, argument, &found );
+        if ( obj == NULL )
+        {
+            send_to_char( "There's nothing like that here.\n\r", ch );
+            return;
+        }
+        else if ( !found )
+        {
+            act( "$p is not something that opens and closes.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            act( "$p is not closed.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( obj->value[2] < 0 )
+        {
+            act( "$p does not have a lock.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            act( "$p is already locked.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !has_key( ch, obj->value[2] ) )
+        {
+            act( "You lack the key to $p.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        
 
+        SET_BIT( obj->value[1], CONT_LOCKED );
+        act( "*Click* You lock $p.", ch, obj, NULL, TO_CHAR );
+        act( "$n locks $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
     return;
 }
+
+
+void do_unlock( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    EXIT_DATA *pexit;
+    int door;
+    door = get_door( ch, argument );
+    if ( door == -3 )
+    {
+        send_to_char( "Unlock what?\n\r", ch );
+        return;
+    }
+    if ( door == -2 )
+        return;
+    else if ( door >= 0 )
+    {
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit_rev;
+        pexit = ch->in_room->exit[door];
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            act( "The $d is open.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( pexit->key < 0 )
+        {
+            act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( !IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            act( "The $d is already unlocked.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( !has_key( ch, pexit->key ) )
+        {
+            act( "You lack the key to the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        
+
+        SET_BIT( pexit->exit_info, EX_LOCKED );
+        act( "*Click* You unlock the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+
+        /* lock the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            SET_BIT( pexit_rev->exit_info, EX_LOCKED );
+        }
+    }
+    else
+    {
+        bool found;
+        obj = get_openable_object( ch, argument, &found );
+        if ( obj == NULL )
+        {
+            send_to_char( "There's nothing like that here.\n\r", ch );
+            return;
+        }
+        else if ( !found )
+        {
+            act( "$p is not something that opens and closes.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            act( "$p is open.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( obj->value[2] < 0 )
+        {
+            act( "$p does not have a lock.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            act( "$p is already unlocked.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !has_key( ch, obj->value[2] ) )
+        {
+            act( "You lack the key to $p.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        
+
+        REMOVE_BIT( obj->value[1], CONT_LOCKED );
+        act( "*Click* You unlock $p.", ch, obj, NULL, TO_CHAR );
+        act( "$n unlocks $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
+    return;
+}
+
+
+
+void do_pick( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *gch;
+    OBJ_DATA *obj;
+    EXIT_DATA *pexit;
+    int door;
+    door = get_door( ch, argument );
+    if ( door == -3 )
+    {
+        send_to_char( "Pick what?\n\r", ch );
+        return;
+    }
+    
+    if ( door == -2 )
+        return;
+    
+    else if ( door >= 0 )
+    {
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit_rev;
+        pexit = ch->in_room->exit[door];
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            act( "The $d is open.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        for ( gch = ch->in_room->people; gch; gch = gch->next_in_room )
+        {
+            if ( IS_NPC( gch ) && IS_AWAKE( gch ) && ch->level + 5 < gch->level )
+            {
+                act( "$N is standing too close to the lock.",
+                     ch, NULL, gch, TO_CHAR );
+                return;
+            }
+        }
+        if ( !IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            act( "The $d is already unlocked.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            return;
+        }
+        if ( !IS_IMMORTAL( ch ) )
+        {
+            if ( pexit->key < 0 )
+            {
+                act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR );
+                return;
+            }
+            if ( IS_SET( pexit->exit_info, EX_PICKPROOF ) )
+            {
+                act( "The lock on the $d is too complex to pick.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+                return;
+            }
+            
+        }
+        
+        // Attempt to pick the lock
+        WAIT_STATE( ch, skill_table[gsn_pick_lock].beats );
+        if ( !IS_NPC( ch )
+             && number_percent(  ) > ch->pcdata->learned[gsn_pick_lock] )
+        {
+            act( "You were unsuccessful at picking the lock on the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+            check_improve( ch, gsn_pick_lock, FALSE, 2 );
+            return;
+        }
+        REMOVE_BIT( pexit->exit_info, EX_LOCKED );
+        act( "*Click* You pick the lock on the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        act( "$n picks the lock on the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+        check_improve( ch, gsn_pick_lock, TRUE, 2 );
+
+        /* pick the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
+        }
+    }
+    else
+    {
+        bool found;
+        obj = get_openable_object( ch, argument, &found );
+        if ( obj == NULL )
+        {
+            send_to_char( "There's nothing like that here.\n\r", ch );
+            return;
+        }
+        else if ( !found )
+        {
+            act( "$p is not something that opens and closes.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            act( "$p is open.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( obj->value[2] < 0 )
+        {
+            act( "$p does not have a lock.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        for ( gch = ch->in_room->people; gch; gch = gch->next_in_room )
+        {
+            if ( IS_NPC( gch ) && IS_AWAKE( gch ) && ch->level + 5 < gch->level )
+            {
+                act( "$N is standing too close to the lock.",
+                     ch, NULL, gch, TO_CHAR );
+                return;
+            }
+        }
+        if ( !IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            act( "$p is already unlocked.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        if ( IS_SET( obj->value[1], CONT_PICKPROOF ) )
+        {
+            act( "The lock on $p is too complex to pick.", ch, obj, NULL, TO_CHAR );
+            return;
+        }
+        
+        WAIT_STATE( ch, skill_table[gsn_pick_lock].beats );
+        if ( !IS_NPC( ch )
+             && number_percent(  ) > ch->pcdata->learned[gsn_pick_lock] )
+        {
+            act( "You were unsuccessful at picking the lock on $p.", ch, obj, NULL, TO_CHAR );
+            check_improve( ch, gsn_pick_lock, FALSE, 2 );
+            return;
+        }
+        REMOVE_BIT( obj->value[1], CONT_LOCKED );
+        act( "*Click* You pick the lock on $p.", ch, obj, NULL, TO_CHAR );
+        check_improve( ch, gsn_pick_lock, TRUE, 2 );
+        act( "$n picks the lock on $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
+    return;
+}
+
 
 bool has_key( CHAR_DATA * ch, int key )
 {
@@ -623,195 +1036,8 @@ bool has_key( CHAR_DATA * ch, int key )
     return FALSE;
 }
 
-void do_lock( CHAR_DATA * ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
-    int door;
 
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
-    {
-        send_to_char( "Lock what?\n\r", ch );
-        return;
-    }
-
-    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
-    {
-        /* 'lock object' */
-        if ( obj->item_type != ITEM_CONTAINER )
-        {
-            send_to_char( "That's not a container.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
-        {
-            send_to_char( "It's not closed.\n\r", ch );
-            return;
-        }
-        if ( obj->value[2] < 0 )
-        {
-            send_to_char( "It can't be locked.\n\r", ch );
-            return;
-        }
-        if ( !has_key( ch, obj->value[2] ) )
-        {
-            send_to_char( "You lack the key.\n\r", ch );
-            return;
-        }
-        if ( IS_SET( obj->value[1], CONT_LOCKED ) )
-        {
-            send_to_char( "It's already locked.\n\r", ch );
-            return;
-        }
-
-        SET_BIT( obj->value[1], CONT_LOCKED );
-        send_to_char( "*Click*\n\r", ch );
-        act( "$n locks $p.", ch, obj, NULL, TO_ROOM );
-        return;
-    }
-
-    if ( ( door = find_door( ch, arg ) ) >= 0 )
-    {
-        /* 'lock door' */
-        ROOM_INDEX_DATA *to_room;
-        EXIT_DATA *pexit;
-        EXIT_DATA *pexit_rev;
-
-        pexit = ch->in_room->exit[door];
-        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
-        {
-            send_to_char( "It's not closed.\n\r", ch );
-            return;
-        }
-        if ( pexit->key < 0 )
-        {
-            send_to_char( "It can't be locked.\n\r", ch );
-            return;
-        }
-        if ( !has_key( ch, pexit->key ) )
-        {
-            send_to_char( "You lack the key.\n\r", ch );
-            return;
-        }
-        if ( IS_SET( pexit->exit_info, EX_LOCKED ) )
-        {
-            send_to_char( "It's already locked.\n\r", ch );
-            return;
-        }
-
-        SET_BIT( pexit->exit_info, EX_LOCKED );
-        send_to_char( "*Click*\n\r", ch );
-        act( "$n locks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-
-        /* lock the other side */
-        if ( ( to_room = pexit->u1.to_room ) != NULL
-             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
-             && pexit_rev->u1.to_room == ch->in_room )
-        {
-            SET_BIT( pexit_rev->exit_info, EX_LOCKED );
-        }
-    }
-
-    return;
-}
-
-void do_unlock( CHAR_DATA * ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
-    int door;
-
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
-    {
-        send_to_char( "Unlock what?\n\r", ch );
-        return;
-    }
-
-    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
-    {
-        /* 'unlock object' */
-        if ( obj->item_type != ITEM_CONTAINER )
-        {
-            send_to_char( "That's not a container.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
-        {
-            send_to_char( "It's not closed.\n\r", ch );
-            return;
-        }
-        if ( obj->value[2] < 0 )
-        {
-            send_to_char( "It can't be unlocked.\n\r", ch );
-            return;
-        }
-        if ( !has_key( ch, obj->value[2] ) )
-        {
-            send_to_char( "You lack the key.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( obj->value[1], CONT_LOCKED ) )
-        {
-            send_to_char( "It's already unlocked.\n\r", ch );
-            return;
-        }
-
-        REMOVE_BIT( obj->value[1], CONT_LOCKED );
-        send_to_char( "*Click*\n\r", ch );
-        act( "$n unlocks $p.", ch, obj, NULL, TO_ROOM );
-        return;
-    }
-
-    if ( ( door = find_door( ch, arg ) ) >= 0 )
-    {
-        /* 'unlock door' */
-        ROOM_INDEX_DATA *to_room;
-        EXIT_DATA *pexit;
-        EXIT_DATA *pexit_rev;
-
-        pexit = ch->in_room->exit[door];
-        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
-        {
-            send_to_char( "It's not closed.\n\r", ch );
-            return;
-        }
-        if ( pexit->key < 0 )
-        {
-            send_to_char( "It can't be unlocked.\n\r", ch );
-            return;
-        }
-        if ( !has_key( ch, pexit->key ) )
-        {
-            send_to_char( "You lack the key.\n\r", ch );
-            return;
-        }
-        if ( !IS_SET( pexit->exit_info, EX_LOCKED ) )
-        {
-            send_to_char( "It's already unlocked.\n\r", ch );
-            return;
-        }
-
-        REMOVE_BIT( pexit->exit_info, EX_LOCKED );
-        send_to_char( "*Click*\n\r", ch );
-        act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-
-        /* unlock the other side */
-        if ( ( to_room = pexit->u1.to_room ) != NULL
-             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
-             && pexit_rev->u1.to_room == ch->in_room )
-        {
-            REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
-        }
-    }
-
-    return;
-}
-
-void do_pick( CHAR_DATA * ch, char *argument )
+void do_pick_old( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *gch;
@@ -838,14 +1064,14 @@ void do_pick( CHAR_DATA * ch, char *argument )
             return;
         }
     }
-
+    
     if ( !IS_NPC( ch )
-         && number_percent(  ) > ch->pcdata->learned[gsn_pick_lock] )
-    {
-        send_to_char( "You failed.\n\r", ch );
-        check_improve( ch, gsn_pick_lock, FALSE, 2 );
-        return;
-    }
+             && number_percent(  ) > ch->pcdata->learned[gsn_pick_lock] )
+        {
+            send_to_char( "You failed.\n\r", ch );
+            check_improve( ch, gsn_pick_lock, FALSE, 2 );
+            return;
+        }
 
     if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
     {
@@ -872,7 +1098,7 @@ void do_pick( CHAR_DATA * ch, char *argument )
         }
         if ( IS_SET( obj->value[1], CONT_PICKPROOF ) )
         {
-            send_to_char( "You failed.\n\r", ch );
+            send_to_char( "The lock is too complex to pick.\n\r", ch );
             return;
         }
 
@@ -1328,7 +1554,7 @@ void do_sleep( CHAR_DATA * ch, char *argument )
         rprog_sleep_trigger( ch );
         if ( argument[0] == '\0' && ch->on == NULL )
         {
-            send_to_char( "You go to sleep. Messages are being recorded.\n\r",
+            send_to_char( "You go to sleep.\n\r", // JR  Messages are being recorded.
                           ch );
             act( "$n goes to sleep.", ch, NULL, NULL, TO_ROOM );
             ch->position = POS_SLEEPING;
@@ -1364,17 +1590,17 @@ void do_sleep( CHAR_DATA * ch, char *argument )
             ch->on = obj;
             if ( IS_SET( obj->value[2], SLEEP_AT ) )
             {
-                act( "You go to sleep at $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep at $p.", ch, obj, NULL, TO_CHAR ); // JR  Your messages are being recorded.
                 act( "$n goes to sleep at $p.", ch, obj, NULL, TO_ROOM );
             }
             else if ( IS_SET( obj->value[2], SLEEP_ON ) )
             {
-                act( "You go to sleep on $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep on $p.", ch, obj, NULL, TO_CHAR ); // JR  Your messages are being recorded.
                 act( "$n goes to sleep on $p.", ch, obj, NULL, TO_ROOM );
             }
             else
             {
-                act( "You go to sleep in $p. Your messages are being recorded.", ch, obj, NULL, TO_CHAR );
+                act( "You go to sleep in $p.", ch, obj, NULL, TO_CHAR ); // JR  Your messages are being recorded.
                 act( "$n goes to sleep in $p.", ch, obj, NULL, TO_ROOM );
             }
             ch->position = POS_SLEEPING;
@@ -1947,7 +2173,7 @@ void do_track( CHAR_DATA * ch, char *argument )
     CHAR_DATA *vict;
     int dir;
 
-    const char *dir_text[] = { "north", "east", "south", "west", "up", "down" };
+    //const char *dir_text[] = { "north", "east", "south", "west", "up", "down" };
 
     one_argument( argument, arg );
     if ( !*arg )
@@ -2023,43 +2249,367 @@ void do_track( CHAR_DATA * ch, char *argument )
         }
 #endif
 
-        /*sprintf( buf, "You sense a trail %s from here!\n\r", dir_text[dir] );
-        send_to_char( buf, ch );*/
-
         if( IS_SET( ch->act, PLR_AUTOTRACK ) ) /* Added by JR*/
         {
-            sprintf( buf, "You follow a trail %s from here!\n\r", dir_text[dir] );
-            send_to_char( buf, ch );
-                     
-            switch ( dir )
-            {
-                case 0:
-                    move_char( ch, DIR_NORTH, FALSE );
-                    break;
-                case 1:
-                    move_char( ch, DIR_EAST, FALSE );
-                    break;
-                case 2:
-                    move_char( ch, DIR_SOUTH, FALSE );
-                    break;
-                case 3:
-                    move_char( ch, DIR_WEST, FALSE );
-                    break;
-                case 4:
-                    move_char( ch, DIR_UP, FALSE );
-                    break;
-                case 5:
-                    move_char( ch, DIR_DOWN, FALSE );
-                    break;
-                default:
-                    break;
-            }
+            sprintf( buf, "You follow a trail %s from here!\n\r", dir_name[dir] );
+            move_char( ch, dir, FALSE );
         }
         else
-        {
-            sprintf( buf, "You sense a trail %s from here!\n\r", dir_text[dir] );
-            send_to_char( buf, ch );
-        }
+            sprintf( buf, "You sense a trail %s from here!\n\r", dir_name[dir] );
+        send_to_char( buf, ch );
         break;
     }
+}
+
+
+// JR: old open, close, lock, unlock, pick
+
+
+void do_open_old( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    int door;
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        send_to_char( "Open what?\n\r", ch );
+        return;
+    }
+
+    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+    {
+        /* 'open object' */
+        if ( obj->item_type != ITEM_CONTAINER )
+        {
+            send_to_char( "That's not a container.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            send_to_char( "It's already open.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSEABLE ) )
+        {
+            send_to_char( "You can't do that.\n\r", ch );
+            return;
+        }
+        if ( IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            send_to_char( "It's locked.\n\r", ch );
+            return;
+        }
+
+        REMOVE_BIT( obj->value[1], CONT_CLOSED );
+        //send_to_char( "Ok.\n\r", ch );
+        act( "You open $p.", ch, obj, NULL, TO_CHAR ); // JR
+        act( "$n opens $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
+
+    if ( ( door = find_door( ch, arg ) ) >= 0 )
+    {
+        /* 'open door' */
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit;
+        EXIT_DATA *pexit_rev;
+
+        pexit = ch->in_room->exit[door];
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            send_to_char( "It's already open.\n\r", ch );
+            return;
+        }
+        if ( IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            send_to_char( "It's locked.\n\r", ch );
+            return;
+        }
+
+        REMOVE_BIT( pexit->exit_info, EX_CLOSED );
+        act( "$n opens the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+        act( "You open the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        //send_to_char( "Ok.\n\r", ch );
+
+        /* open the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            CHAR_DATA *rch;
+
+            REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
+            for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
+                act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+        }
+    }
+
+    return;
+}
+
+void do_close_old( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+
+    OBJ_DATA *obj;
+    int door;
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        send_to_char( "Close what?\n\r", ch );
+        return;
+    }
+
+    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+    {
+        /* 'close object' */
+        if ( obj->item_type != ITEM_CONTAINER )
+        {
+            send_to_char( "That's not a container.\n\r", ch );
+            return;
+        }
+        if ( IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            send_to_char( "It's already closed.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSEABLE ) )
+        {
+            send_to_char( "You can't do that.\n\r", ch );
+            return;
+        }
+
+        SET_BIT( obj->value[1], CONT_CLOSED );
+        //send_to_char( "Ok.\n\r", ch );
+        act( "$n closes $p.", ch, obj, NULL, TO_ROOM );
+        act( "You close $p.", ch, obj, NULL, TO_CHAR ); // JR
+        return;
+    }
+
+    if ( ( door = find_door( ch, arg ) ) >= 0 )
+    {
+        /* 'close door' */
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit;
+        EXIT_DATA *pexit_rev;
+
+        pexit = ch->in_room->exit[door];
+        if ( IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            send_to_char( "It's already closed.\n\r", ch );
+            return;
+        }
+
+        SET_BIT( pexit->exit_info, EX_CLOSED );
+        act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+        act( "You close the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
+        //send_to_char( "Ok.\n\r", ch );
+
+        /* close the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            CHAR_DATA *rch;
+
+            SET_BIT( pexit_rev->exit_info, EX_CLOSED );
+            for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
+                act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+        }
+    }
+
+    return;
+}
+
+void do_lock_old( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    int door;
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        send_to_char( "Lock what?\n\r", ch );
+        return;
+    }
+
+    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+    {
+        /* 'lock object' */
+        if ( obj->item_type != ITEM_CONTAINER )
+        {
+            send_to_char( "That's not a container.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            send_to_char( "It's not closed.\n\r", ch );
+            return;
+        }
+        if ( obj->value[2] < 0 )
+        {
+            send_to_char( "It can't be locked.\n\r", ch );
+            return;
+        }
+        if ( !has_key( ch, obj->value[2] ) )
+        {
+            send_to_char( "You lack the key.\n\r", ch );
+            return;
+        }
+        if ( IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            send_to_char( "It's already locked.\n\r", ch );
+            return;
+        }
+
+        SET_BIT( obj->value[1], CONT_LOCKED );
+        send_to_char( "*Click*\n\r", ch );
+        act( "$n locks $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
+
+    if ( ( door = find_door( ch, arg ) ) >= 0 )
+    {
+        /* 'lock door' */
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit;
+        EXIT_DATA *pexit_rev;
+
+        pexit = ch->in_room->exit[door];
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            send_to_char( "It's not closed.\n\r", ch );
+            return;
+        }
+        if ( pexit->key < 0 )
+        {
+            send_to_char( "It can't be locked.\n\r", ch );
+            return;
+        }
+        if ( !has_key( ch, pexit->key ) )
+        {
+            send_to_char( "You lack the key.\n\r", ch );
+            return;
+        }
+        if ( IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            send_to_char( "It's already locked.\n\r", ch );
+            return;
+        }
+
+        SET_BIT( pexit->exit_info, EX_LOCKED );
+        send_to_char( "*Click*\n\r", ch );
+        act( "$n locks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+
+        /* lock the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            SET_BIT( pexit_rev->exit_info, EX_LOCKED );
+        }
+    }
+
+    return;
+}
+
+
+void do_unlock_old( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    int door;
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+        send_to_char( "Unlock what?\n\r", ch );
+        return;
+    }
+
+    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+    {
+        /* 'unlock object' */
+        if ( obj->item_type != ITEM_CONTAINER )
+        {
+            send_to_char( "That's not a container.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_CLOSED ) )
+        {
+            send_to_char( "It's not closed.\n\r", ch );
+            return;
+        }
+        if ( obj->value[2] < 0 )
+        {
+            send_to_char( "It can't be unlocked.\n\r", ch );
+            return;
+        }
+        if ( !has_key( ch, obj->value[2] ) )
+        {
+            send_to_char( "You lack the key.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( obj->value[1], CONT_LOCKED ) )
+        {
+            send_to_char( "It's already unlocked.\n\r", ch );
+            return;
+        }
+
+        REMOVE_BIT( obj->value[1], CONT_LOCKED );
+        send_to_char( "*Click*\n\r", ch );
+        act( "$n unlocks $p.", ch, obj, NULL, TO_ROOM );
+        return;
+    }
+
+    if ( ( door = find_door( ch, arg ) ) >= 0 )
+    {
+        /* 'unlock door' */
+        ROOM_INDEX_DATA *to_room;
+        EXIT_DATA *pexit;
+        EXIT_DATA *pexit_rev;
+
+        pexit = ch->in_room->exit[door];
+        if ( !IS_SET( pexit->exit_info, EX_CLOSED ) )
+        {
+            send_to_char( "It's not closed.\n\r", ch );
+            return;
+        }
+        if ( pexit->key < 0 )
+        {
+            send_to_char( "It can't be unlocked.\n\r", ch );
+            return;
+        }
+        if ( !has_key( ch, pexit->key ) )
+        {
+            send_to_char( "You lack the key.\n\r", ch );
+            return;
+        }
+        if ( !IS_SET( pexit->exit_info, EX_LOCKED ) )
+        {
+            send_to_char( "It's already unlocked.\n\r", ch );
+            return;
+        }
+
+        REMOVE_BIT( pexit->exit_info, EX_LOCKED );
+        send_to_char( "*Click*\n\r", ch );
+        act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+
+        /* unlock the other side */
+        if ( ( to_room = pexit->u1.to_room ) != NULL
+             && ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+             && pexit_rev->u1.to_room == ch->in_room )
+        {
+            REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
+        }
+    }
+
+    return;
 }

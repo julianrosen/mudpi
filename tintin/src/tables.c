@@ -1088,6 +1088,7 @@ struct event_type event_table[] =
 	{    "SYSTEM CRASH",                           0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "system crash"               },
 	{    "SYSTEM ERROR",                           0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "system errors"              },
 	{    "TIME ",                                  0, EVENT_FLAG_TIME,     "TIME",      "the given time"             },
+//	{    "TINTIN COMMAND",                         0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "tintin command"             }, // JR
 	{    "TRIPLE-CLICKED",                         0, EVENT_FLAG_MOUSE,    "MOUSE",     "mouse is triple-clicked"    },
 	{    "UNKNOWN COMMAND",                        0, EVENT_FLAG_SYSTEM,   "SYSTEM",    "unknown tintin command"     },
 	{    "VARIABLE UPDATE ",                       0, EVENT_FLAG_VARIABLE, "VARIABLE",  "before a variable updates"  },

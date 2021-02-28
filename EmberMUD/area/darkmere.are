@@ -847,9 +847,9 @@ unknown~
 A BD ACD AB E
 70 21 500000 P
 A
-13 100
-A
 1 3
+A
+13 100
 #25701
 fountain~
 a fountain~
@@ -867,9 +867,9 @@ unknown~
 C AC AC ABCDE C
 15 14 1000 P
 A
-12 15
-A
 1 -1
+A
+12 15
 #25703
 five-headed snake mace vampiric~
 a five-headed snake mace~
@@ -879,11 +879,11 @@ unknown~
 C ABC BC ABCDE C
 22 15 3500 P
 A
-12 50
+1 -1
 A
 13 -50
 A
-1 -1
+12 50
 #25704
 mace destruction vampiric two-hands~
 the Mace of Destruction~
@@ -893,15 +893,15 @@ unknown~
 C BD D D CF
 55 17 350000 P
 A
-13 -30
-A
-1 -1
-A
-5 2
+12 100
 A
 4 3
 A
-12 100
+5 2
+A
+1 -1
+A
+13 -30
 #25705
 cleric's cloak deception armor-neck~
 the Cloak of Deception~
@@ -911,11 +911,11 @@ unknown~
 D D D C 0
 17 4 1200 P
 A
-5 1
+4 2
 A
 12 25
 A
-4 2
+5 1
 #25706
 ring combined light armor-finger~
 a ring of combined light~
@@ -925,13 +925,13 @@ unknown~
 BD B 0 C 0
 21 2 30000 P
 A
-5 -1
-A
-4 1
+12 25
 A
 3 1
 A
-12 25
+4 1
+A
+5 -1
 #25707
 cleric's blue robe armor-body~
 a Cleric's blue robe~
@@ -941,11 +941,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-18 2
+13 10
 A
 12 15
 A
-13 10
+18 2
 #25708
 paladin's purple robe armor-body~
 a Paladin's purple robe~
@@ -955,11 +955,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-18 2
+13 10
 A
 12 15
 A
-13 10
+18 2
 #25709
 sword combined light vampiric~
 a sword of combined light~
@@ -969,13 +969,13 @@ unknown~
 A ABC AC CDE C
 21 16 1500 P
 A
-3 1
-A
-4 1
+18 5
 A
 19 3
 A
-18 5
+4 1
+A
+3 1
 #25710
 sword holy strength vorpal two-hands~
 the Sword of Holy Strength~
@@ -985,17 +985,17 @@ unknown~
 A BD D ABE EF
 50 19 350000 P
 A
-2 -2
-A
-3 -2
-A
-4 3
-A
-19 5
+1 3
 A
 18 7
 A
-1 3
+19 5
+A
+4 3
+A
+3 -2
+A
+2 -2
 #25711
 warrior-in-a-bottle bottle potion-defend~
 a potion of Warrior-in-a-Bottle~
@@ -1023,11 +1023,11 @@ unknown~
 B AC AC ABD E
 15 13 500 P
 A
-19 4
+5 1
 A
 18 3
 A
-5 1
+19 4
 #25714
 dagger frost vampiric~
 the Frost Dagger~
@@ -1037,13 +1037,13 @@ unknown~
 B BC AC BCDE BC
 21 14 10000 P
 A
-19 2
-A
-3 1
+18 5
 A
 13 -25
 A
-18 5
+3 1
+A
+19 2
 #25715
 dagger flame flaming vampiric~
 the Flame Dagger~
@@ -1053,15 +1053,15 @@ unknown~
 B D ABC ACDE AC
 45 14 375000 P
 A
-18 5
-A
-19 3
-A
-3 -2
+1 2
 A
 4 -1
 A
-1 2
+3 -2
+A
+19 3
+A
+18 5
 #25716
 mage's red robe armor-body~
 a Mage's red robe~
@@ -1071,11 +1071,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-18 2
+13 10
 A
 12 15
 A
-13 10
+18 2
 #25717
 feathery pill pill-defend~
 a feathery pill~
@@ -1093,11 +1093,11 @@ unknown~
 A AC AC AB BD
 15 15 2000 P
 A
-1 2
+18 3
 A
 19 5
 A
-18 3
+1 2
 #25719
 stinging blade sword sharp vorpal~
 a stinging blade~
@@ -1107,11 +1107,11 @@ unknown~
 A D D BDE DE
 55 11 450000 P
 A
-13 10
+18 5
 A
 19 5
 A
-18 5
+13 10
 #25720
 avenger's black robe armor-body~
 an Avenger's black robe~
@@ -1121,11 +1121,11 @@ unknown~
 BD BD BD D 0
 20 3 100000 P
 A
-18 2
+13 10
 A
 12 15
 A
-13 10
+18 2
 #25721
 onyx ring armor-finger~
 a small onyx ring~
@@ -1135,13 +1135,13 @@ unknown~
 C C B ABC 0
 49 1 200001 W
 A
-19 -4
-A
-18 -3
+12 100
 A
 13 -70
 A
-12 100
+18 -3
+A
+19 -4
 #25722
 steel rapier sword~
 a steel rapier~
@@ -1151,9 +1151,9 @@ unknown~
 A AC AC AB 0
 15 18 500 P
 A
-19 3
-A
 18 3
+A
+19 3
 #25723
 broadsword smashing sword~
 the Broadsword of Smashing~
@@ -1171,11 +1171,11 @@ unknown~
 A ABC ABC BCDE DE
 35 22 115000 P
 A
-18 3
+13 15
 A
 19 5
 A
-13 15
+18 3
 #25725
 bracer pithcus armor-wrist~
 bracer of Pithcus~
@@ -1195,11 +1195,11 @@ unknown~
 ABDE ABDE ABDE CE 0
 40 31 450000 P
 A
-19 5
+18 6
 A
 1 2
 A
-18 6
+19 5
 #25727
 shield pithcus armor-shield~
 the shield of Pithcus~
@@ -1209,9 +1209,9 @@ unknown~
 DE DE DE BE 0
 35 27 50000 P
 A
-13 50
-A
 18 6
+A
+13 50
 #25728
 gauntlets pithcus armor-hands~
 the gauntlets of Pithcus~
@@ -1221,9 +1221,9 @@ unknown~
 AE AE AE ACD 0
 35 17 35000 P
 A
-19 5
-A
 1 1
+A
+19 5
 #25729
 murderous bloody dagger vampiric sharp~
 a murderous bloody dagger~
@@ -1233,13 +1233,13 @@ unknown~
 B AC AC ABD CD
 21 9 15000 P
 A
-18 6
-A
-5 -1
+1 2
 A
 19 5
 A
-1 2
+5 -1
+A
+18 6
 #25730
 small dagger~
 a small dagger~
@@ -1249,11 +1249,11 @@ unknown~
 B AB AC ABD 0
 7 5 100 P
 A
-18 2
+5 1
 A
 19 1
 A
-5 1
+18 2
 #25731
 dagger strength sharp~
 the Dagger of Strength~
@@ -1263,13 +1263,13 @@ unknown~
 B C AC ABD D
 15 11 500 P
 A
-18 5
-A
-19 2
+4 -1
 A
 1 3
 A
-4 -1
+19 2
+A
+18 5
 #25732
 dagger pain flaming vampiric~
 the Pain Dagger~
@@ -1279,15 +1279,15 @@ unknown~
 B AC BC ABD AC
 25 9 500 P
 A
-18 9
-A
-13 -50
-A
-1 3
+19 5
 A
 3 -1
 A
-19 5
+1 3
+A
+13 -50
+A
+18 9
 #25733
 cloth vest cloth-body~
 cloth vest~
@@ -1297,9 +1297,9 @@ unknown~
 0 0 0 0 0
 5 2 250 P
 A
-17 -4
-A
 18 1
+A
+17 -4
 #25734
 vest cloth-body~
 a light vest~
@@ -1309,11 +1309,11 @@ unknown~
 0 0 0 0 0
 15 2 250 P
 A
-17 -10
+18 3
 A
 2 2
 A
-18 3
+17 -10
 #25735
 black boots armor-feet~
 a pair of black boots~
@@ -1323,13 +1323,13 @@ unknown~
 AD AD AD AB 0
 15 5 350 P
 A
-2 2
-A
-18 3
+14 10
 A
 3 -1
 A
-14 10
+18 3
+A
+2 2
 #25736
 blade backstabbing dagger sharp~
 the Blade of Backstabbing~
@@ -1339,11 +1339,11 @@ unknown~
 B AB C ABD D
 10 10 100 P
 A
-19 2
+1 1
 A
 18 3
 A
-1 1
+19 2
 #25737
 all purpose weapon exotic sharp vorpal~
 the All-Purpose Weapon~
@@ -1353,17 +1353,17 @@ unknown~
 0 D BC BE DE
 35 27 300001 P
 A
-3 -1
-A
-4 -1
-A
-17 -10
-A
-19 6
+1 3
 A
 18 7
 A
-1 3
+19 6
+A
+17 -10
+A
+4 -1
+A
+3 -1
 #25738
 big cookie dessert~
 a big cookie~
@@ -1397,13 +1397,13 @@ unknown~
 A ABD ABD AB EF
 82 53 7840000 P
 A
-19 9
-A
-18 9
+1 -2
 A
 17 -50
 A
-1 -2
+18 9
+A
+19 9
 #25742
 goldenmace mace vampiric two-hands~
 the Goldenmace~
@@ -1413,13 +1413,13 @@ unknown~
 C ABD ABD ABC CF
 80 60 7320005 P
 A
-19 9
-A
-18 9
+4 -1
 A
 17 -50
 A
-4 -1
+18 9
+A
+19 9
 #25743
 goldendagger dagger sharp vorpal~
 the Goldendagger~
@@ -1429,15 +1429,15 @@ unknown~
 B ABD ABD ABD DE
 79 45 6120000 P
 A
-18 9
-A
-19 9
-A
-17 -50
+3 -1
 A
 2 -2
 A
-3 -1
+17 -50
+A
+19 9
+A
+18 9
 #25744
 black onyx broach treasure~
 an `Konyx `wbroach~
@@ -1447,13 +1447,13 @@ unknown~
 0 0 0 0 0
 35 2 200000 P
 A
-13 10
-A
-4 -1
+1 -2
 A
 2 -1
 A
-1 -2
+4 -1
+A
+13 10
 #25745
 ruby bracelet treasure~
 a `Rruby `wbracelet~
@@ -1463,11 +1463,11 @@ unknown~
 0 0 0 0 0
 35 4 50000 P
 A
-19 3
+18 3
 A
 17 -2
 A
-18 3
+19 3
 #25746
 emerald ring green treasure~
 an `Gemerald `wring~
@@ -1477,11 +1477,11 @@ unknown~
 0 0 0 0 0
 35 1 245000 P
 A
-17 -3
+3 1
 A
 4 1
 A
-3 1
+17 -3
 #25747
 gold ring armor-finger~
 a `ygold`w ring~
@@ -1491,11 +1491,11 @@ unknown~
 C AB C B 0
 35 4 15000 P
 A
-17 -5
+19 2
 A
 18 4
 A
-19 2
+17 -5
 #25748
 ring pithcus warrior armor-finger~
 the Ring of Pithcus~
@@ -1505,13 +1505,13 @@ unknown~
 AB C AB AB 0
 30 2 100000 P
 A
-13 5
-A
-18 3
+1 1
 A
 19 3
 A
-1 1
+18 3
+A
+13 5
 #25749
 bottle beer drink-beer~
 a bottle of beer~
@@ -1553,11 +1553,11 @@ unknown~
 A ABC AC ABCDE C
 21 21 250 P
 A
-19 3
+3 -1
 A
 18 5
 A
-3 -1
+19 3
 #25754
 darkened blade dagger sharp~
 a Darkened dagger blade~
@@ -1567,11 +1567,11 @@ unknown~
 B C BC B D
 20 4 2500 P
 A
-12 5
+18 5
 A
 19 5
 A
-18 5
+12 5
 #25755
 some thing exotic vampiric~
 some thing~
@@ -1581,15 +1581,15 @@ unknown~
 0 D AD A C
 55 31 20000 P
 A
-1 -2
-A
-12 -100
-A
-19 6
+13 50
 A
 18 8
 A
-13 50
+19 6
+A
+12 -100
+A
+1 -2
 #25756
 sword sun sphere flaming~
 the Sword of the Sun Sphere~
@@ -1599,9 +1599,9 @@ unknown~
 0 ABC AD AB A
 45 18 7001 P
 A
-18 5
-A
 19 6
+A
+18 5
 #25757
 silver playtesting sword~
 a silver playtesting sword~
@@ -1611,9 +1611,9 @@ unknown~
 A C AC AB 0
 8 10 75 P
 A
-18 3
-A
 19 1
+A
+18 3
 #25758
 dwarvish battle axe sharp~
 a Dwarven Battle Axe~
@@ -1623,9 +1623,9 @@ unknown~
 AC BC AC ADE D
 15 23 2500 P
 A
-18 10
-A
 1 1
+A
+18 10
 #25759
 spiked wristband armor-wrist~
 a spiked wristband~
@@ -1635,9 +1635,9 @@ unknown~
 A A A A 0
 4 3 15 P
 A
-19 1
-A
 13 2
+A
+19 1
 #25760
 bandana armor-head~
 a bandana~
@@ -1647,9 +1647,9 @@ unknown~
 B C A B 0
 7 1 10 P
 A
-19 1
-A
 18 2
+A
+19 1
 #25761
 can peanuts container~
 a can of peanuts~
@@ -1679,9 +1679,9 @@ unknown~
 A AC AC AB 0
 15 10 30 P
 A
-19 1
-A
 18 3
+A
+19 1
 #25764
 acidic blade sword vampiric~
 an acidic blade~
@@ -1691,9 +1691,9 @@ unknown~
 A AD BD ABCDE C
 50 25 500000 A
 A
-19 6
-A
 18 3
+A
+19 6
 #25765
 pipe fountain~
 a leaky pipe~
@@ -1711,19 +1711,19 @@ unknown~
 A AD BD ABCDE CD
 60 40 750000 P
 A
-13 75
-A
-19 9
-A
-18 9
-A
-1 2
-A
-2 -1
+12 -35
 A
 4 -1
 A
-12 -35
+2 -1
+A
+1 2
+A
+18 9
+A
+19 9
+A
+13 75
 #25767
 armor injustice armor-body~
 the Armor of Injustice~
@@ -1733,13 +1733,13 @@ unknown~
 ADE ADE ADE CE 0
 50 45 200000 P
 A
-19 9
-A
-18 9
+4 1
 A
 2 1
 A
-4 1
+18 9
+A
+19 9
 #25768
 gauntlets evil incarnate armor-hands~
 the Gauntlets of the Evil Incarnate~
@@ -1749,13 +1749,13 @@ unknown~
 ADE ADE ADE CE 0
 50 23 200000 P
 A
-1 2
-A
-13 50
+18 5
 A
 19 5
 A
-18 5
+13 50
+A
+1 2
 #25769
 bracer pure evil armor-wrist~
 the Bracer of Pure Evil~
@@ -1765,13 +1765,13 @@ unknown~
 BE BE BE BD 0
 50 14 200000 P
 A
-4 1
-A
-19 5
+2 1
 A
 18 5
 A
-2 1
+19 5
+A
+4 1
 #25770
 ring darkened heart armor-finger~
 the Ring of the Darkened Heart~
@@ -1781,13 +1781,13 @@ unknown~
 BC BC BC AB 0
 50 4 150000 P
 A
-19 5
-A
-17 -10
+4 2
 A
 13 20
 A
-4 2
+17 -10
+A
+19 5
 #25771
 boots speed armor-feet~
 the Boots of Speed~
@@ -1797,13 +1797,13 @@ unknown~
 ABCD ABCD ABCD D 0
 50 15 500000 P
 A
-2 3
-A
-1 -1
+14 100
 A
 18 3
 A
-14 100
+1 -1
+A
+2 3
 #25772
 enchanted gloves mordo armor-hands~
 the Enchanted Gloves of Mordo~
@@ -1813,13 +1813,13 @@ unknown~
 ABCD ADE ADE CE 0
 60 20 250000 P
 A
-2 2
-A
-18 4
+13 15
 A
 19 7
 A
-13 15
+18 4
+A
+2 2
 #25773
 icon defender rook light~
 the Icon of the Defender~
@@ -1829,11 +1829,11 @@ unknown~
 0 0 10000 0 0
 85 5 10000000 P
 A
-19 8
+17 -50
 A
 18 10
 A
-17 -50
+19 8
 #25774
 black wave destruction death sentence exotic vorpal two-hands~
 the `KD`re`Ka`rt`Kh`w Sentence~
@@ -1843,13 +1843,13 @@ unknown~
 0 BD ACD A EF
 85 21 20000000 P
 A
-2 -2
-A
-18 15
+13 30
 A
 19 13
 A
-13 30
+18 15
+A
+2 -2
 #25775
 wand-self chaos device~
 a Chaos Device~
@@ -1900,13 +1900,13 @@ unknown~
 AC ABD ABD ADE DF
 80 59 6580000 P
 A
-19 9
-A
-18 9
+1 -3
 A
 17 -50
 A
-1 -3
+18 9
+A
+19 9
 #25780
 wall ring armor-finger~
 a wall ring~
@@ -1916,17 +1916,17 @@ unknown~
 0 0 0 DF 0
 75 1 2500000 P
 A
-24 -35
-A
-5 -1
-A
-2 -1
-A
-4 -1
+1 -1
 A
 3 -1
 A
-1 -1
+4 -1
+A
+2 -1
+A
+5 -1
+A
+24 -35
 E
 ring~
 The ring eminates a green barrier, good for deflectinh magic attacks.  
@@ -1974,13 +1974,13 @@ unknown~
 A ABC BC ACDE A
 30 24 150000 P
 A
-18 13
-A
-19 -6
+5 -1
 A
 1 3
 A
-5 -1
+19 -6
+A
+18 13
 #25798
 counteracts sword frost~
 the Counteracts~
@@ -1990,13 +1990,13 @@ unknown~
 A ABC BC BCDE B
 30 24 150000 P
 A
-5 3
-A
-1 -1
+19 13
 A
 18 -6
 A
-19 13
+1 -1
+A
+5 3
 #25799
 black elite issue helmet armor-head~
 an elite issue helmet~
@@ -2006,9 +2006,9 @@ unknown~
 BC BC BC AB 0
 15 15 0 P
 A
-18 2
-A
 13 10
+A
+18 2
 #0
 
 

@@ -693,7 +693,7 @@ void quitmsg(char *message)
 		{
 			print_stdout(0, 0, "\n\e[0m%s", message);
 		}
-		print_stdout(0, 0, "\nGoodbye from TinTin++\n\n");
+		// print_stdout(0, 0, "\nGoodbye from TinTin++\n\n"); // JR
 	}
 	fflush(stdout);
 

@@ -392,7 +392,7 @@ void init_descriptor( DESCRIPTOR_DATA * dnew, int desc )
     dnew->connected = CON_GET_NAME;
     dnew->showstr_head = alloc_mem( strlen( " " ) + 1 );
     strcpy( dnew->showstr_head, "" );
-    dnew->showstr_point = 0;
+    dnew->showstr_point = 0; // JR: 0 -> NULL
     dnew->pEdit = NULL;         /* OLC */
     dnew->pString = NULL;       /* OLC */
     dnew->editor = 0;           /* OLC */
@@ -3255,12 +3255,11 @@ char *str_upr( char *str )
 
 void do_areas( CHAR_DATA * ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
+    char buf[4*MAX_STRING_LENGTH];
     AREA_DATA *pArea1;
     AREA_DATA *pArea2;
     int iArea;
     int iAreaHalf;
-    
     int numgroups = 0;
     bool newgroup;
     char *grouplist[100]; // JR: at most 100 groups. NEED TO FREE THIS MEMORY
@@ -3268,9 +3267,15 @@ void do_areas( CHAR_DATA * ch, char *argument )
     char *namelist[100][100];
     int maxlen;
     int n,k;
-    char bigbuf[200*MAX_STRING_LENGTH];
-    
+    // char bigbuf[200*MAX_STRING_LENGTH]; // JR: ugh, this was causing the bug
+    char* bigbuf = malloc(200*MAX_STRING_LENGTH*sizeof(char));
+    if ( bigbuf == NULL )
+    {
+        send_to_char( "Could not allocate memory :(. This is unusual.\n\r", ch );
+        return;
+    }
     strcpy( bigbuf, "" );
+    //bigbuf[0] = '\0';
     // Compile list of groups, sort area names by groups
     for ( pArea1 = area_first; pArea1!=NULL; pArea1 = pArea1->next )
     {
@@ -3298,25 +3303,20 @@ void do_areas( CHAR_DATA * ch, char *argument )
             numingroup[n]++;
         }
     }
-    
     // How many areas in largest group?
     maxlen = 0;
     for (n=0;n<numgroups;n++)
         maxlen = numingroup[n]>maxlen?numingroup[n]:maxlen;
     
-    
     strcpy( buf, "`B" );
     for (k=0;k<numgroups;k++)
     {
         strcat(buf,grouplist[k]);
-        while (bw_strlen(buf) < (k+1)*41)
-            strcat(buf," ");
+        lengthen( buf, (k+1)*41 );
     }
     strcat(buf, "\n\r");
-    
     strcat(bigbuf,buf);
     //send_to_char( buf, ch );
-    
     for (n=0;n<maxlen;n++)
     {
         strcpy( buf, "" );
@@ -3330,14 +3330,20 @@ void do_areas( CHAR_DATA * ch, char *argument )
         strcat(buf, "\n\r");
         
         strcat(bigbuf,buf);
-        //send_to_char( buf, ch );
+        //send_to_char( buf, ch ); // JR temp
     }
     for (n=0;n<numgroups;n++)
         free(grouplist[n]);
-    
     page_to_char( bigbuf, ch ); // JR: This makes it pause if output is too long
+    free( bigbuf );
     return;
 
+    
+    
+    
+    // Old code is below, it doesn't run
+    
+    
     if ( argument[0] != '\0' )
     {
         send_to_char( "No argument is used with this command.\n\r", ch );

@@ -251,7 +251,6 @@ struct session *parse_input(struct session *ses, char *input)
 struct session *parse_command(struct session *ses, char *input)
 {
 	char *arg, *arg1;
-
 	push_call("parse_command(%p,%p)",ses,input);
 
 	arg1 = str_alloc_stack(0);
@@ -431,6 +430,8 @@ struct session *parse_tintin_command(struct session *ses, char *input)
 
 	input = sub_arg_in_braces(ses, input, line, GET_ONE, SUB_VAR|SUB_FUN);
 
+
+    
 	if (is_number(line))
 	{
 		int cnt = atoi(line);

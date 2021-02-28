@@ -619,14 +619,19 @@ void interpret( CHAR_DATA * ch, char *argument )
     if ( !IS_NPC( ch ) && IS_SET( ch->act, PLR_AFK ) )
     {
         char buff[MAX_STRING_LENGTH];
-
-        if ( str_prefix( command, "afk" ) )
+        
+        if ( IS_SET( ch->act, PLR_AUTO_AFK ))
         {
-            sprintf( buff, "`RYou're still AFK!`w - %d message%s waiting.\n\r",
-                     ch->pcdata->messages,
-                     ( ( ch->pcdata->messages > 1 )
-                       || ( ch->pcdata->messages < 1 ) ) ? "s" : "" );
-            send_to_char( buff, ch );
+            REMOVE_BIT( ch->act, PLR_AFK );
+            REMOVE_BIT( ch->act, PLR_AUTO_AFK );
+        }
+        else if ( str_prefix( command, "afk" ) )
+        {            
+        sprintf( buff, "`RYou're still AFK!`w - %d message%s waiting.\n\r",
+                 ch->pcdata->messages,
+                 ( ( ch->pcdata->messages > 1 )
+                   || ( ch->pcdata->messages < 1 ) ) ? "s" : "" );
+        send_to_char( buff, ch );  
         }
     }
 

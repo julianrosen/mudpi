@@ -342,7 +342,7 @@ const struct rand_item_material rand_material_table[] = {
     {"supreme", 26, 26, 86 * MAX_LEVEL / 100},
     {"ultimate", 27, 27, 90 * MAX_LEVEL / 100},
     {"kick-ass", 30, 30, 94 * MAX_LEVEL / 100},
-    {"supercalifragilistdexpealidosiousistic", 30, 30, 98}  /* he he he... */
+    {"supercalifragilistdexpealidosiousistic", 30, 30, 98 * MAX_LEVEL / 100}  /* he he he... */
 };
 
 /*
@@ -441,7 +441,7 @@ const struct rand_armor_type rand_armor_table[] = {
     {"scalemail", ITEM_WEAR_BODY, 6, 0, PREF_NONE},
     {"chainmail", ITEM_WEAR_BODY, 7, 0, PREF_NONE},
     {"battlesuit", ITEM_WEAR_BODY, 9, -1, PREF_A},
-    {"suit armor", ITEM_WEAR_BODY, 5, 1, PREF_NONE},
+    {"suit of armor", ITEM_WEAR_BODY, 5, 1, PREF_A},
     {"robe", ITEM_WEAR_BODY, 2, 4, PREF_A},
     {"breastplate", ITEM_WEAR_BODY, 7, 1, PREF_A},
     {"plate", ITEM_WEAR_BODY, 6, 1, PREF_A},
@@ -482,6 +482,10 @@ const struct rand_armor_type rand_armor_table[] = {
  * Watch out if you modify this... I used a pretty funky algorithm 
  * Just trust me when I say it works, ok? 
  */
+
+// JR: in practice, seems to give 3/4 chance of best material
+// <= level, and 1/4 change of second best (assuming second best
+// is within six levels).
 int get_random_material( sh_int level )
 {
     int poss[37];
@@ -538,7 +542,13 @@ int get_random_material( sh_int level )
                 }
         }
         for ( a = 0; poss[a] != -1; a++ );
-        material = poss[number_range( 0, a - 1 )];
+        
+        /*
+        printf("Random material\n");
+        printf("Level: %i, a: %i\n", level, a);
+        for (x=0;x<a;x++)
+            printf("%s\n",rand_material_table[poss[x]].name);
+        material = poss[number_range( 0, a - 1 )];*/
     }
     return URANGE( 0, material, TABLESIZE( rand_material_table ) - 1 );
 }
@@ -838,7 +848,7 @@ OBJ_DATA *make_rand_armor( sh_int level, bool ismagic )
            rand_material_table[material].name[0] == 'i' ||
            rand_material_table[material].name[0] == 'o' ||
            rand_material_table[material].name[0] == 'u' ) &&
-         rand_armor_table[type].p_type == PREF_A )
+         (rand_armor_table[type].p_type == PREF_A || rand_armor_table[type].p_type == PREF_AN ) )
         sprintf( buf, "an %s %s", rand_material_table[material].name,
                  rand_armor_table[type].name );
     else
@@ -848,8 +858,12 @@ OBJ_DATA *make_rand_armor( sh_int level, bool ismagic )
             sprintf( buf, "a %s %s", rand_material_table[material].name,
                      rand_armor_table[type].name );
             break;
+        case PREF_AN:
+            sprintf( buf, "an %s %s", rand_material_table[material].name,
+                     rand_armor_table[type].name );
+            break;
         case PREF_NONE:
-            sprintf( buf, "%s %s", rand_material_table[material].name,
+            sprintf( buf, "the %s %s", rand_material_table[material].name, // JR
                      rand_armor_table[type].name );
             break;
         case PREF_SOME:
@@ -865,7 +879,7 @@ OBJ_DATA *make_rand_armor( sh_int level, bool ismagic )
            rand_material_table[material].name[0] == 'i' ||
            rand_material_table[material].name[0] == 'o' ||
            rand_material_table[material].name[0] == 'u' ) &&
-         rand_armor_table[type].p_type == PREF_A )
+         (rand_armor_table[type].p_type == PREF_A || rand_armor_table[type].p_type == PREF_AN ) )
         switch ( number_range( 1, 3 ) )
         {
         case 1:

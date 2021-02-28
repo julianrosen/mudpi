@@ -864,7 +864,8 @@ void char_update( void )
                 /*char vanish_str[100];
                 sprintf(vanish_str,"Auto-AFK activated (%i minutes of inactivity).\n\r",AUTO_AFK);
                 send_to_char( vanish_str, ch );*/
-                do_afk( ch, "");
+                SET_BIT( ch->act, PLR_AFK );
+                SET_BIT( ch->act, PLR_AUTO_AFK );
             }
             
             
@@ -1062,6 +1063,8 @@ void char_update( void )
             char logout_str[75];
             sprintf(logout_str,"Logging you out (%i minutes of inactivity).\n\r",AUTO_QUIT);
             send_to_char( logout_str,ch);
+            REMOVE_BIT( ch->act, PLR_AFK );
+            REMOVE_BIT( ch->act, PLR_AUTO_AFK );
             do_quit( ch, "" );
 	    }
     }

@@ -300,11 +300,11 @@ unknown~
 AC AC AB D 0
 10 25 100 P
 A
-2 1
+13 -10
 A
 5 -2
 A
-13 -10
+2 1
 #17201
 belt hell~
 the Belt of Hell~
@@ -314,9 +314,9 @@ unknown~
 0 0 0 0 0
 15 5 2500 P
 A
-19 2
-A
 12 -10
+A
+19 2
 #17202
 Sword of Scooby~
 sword of Scooby~
@@ -334,13 +334,13 @@ unknown~
 0 0 400 0 0
 30 20 15000 P
 A
-12 20
+1 1
 A
 13 20
 A
-1 1
+12 20
 #17204
-name armband hell~
+armband hell~
 the Armband of Hell~
 The Armband of Hell lies here.~
 unknown~
@@ -348,9 +348,9 @@ unknown~
 AD D D C 0
 33 10 10000 P
 A
-19 4
-A
 18 4
+A
+19 4
 #17205
 ring hell~
 the Ring of Hell~
@@ -360,13 +360,13 @@ unknown~
 BD BD BD ABCD 0
 35 2 50000 P
 A
-13 100
-A
 12 -100
 A
 12 -50
 A
 12 -100
+A
+13 100
 #17206
 ring hell~
 the Ring of Hell~
@@ -486,9 +486,9 @@ unknown~
 BD BD BD BD 0
 40 10 50000 P
 A
-19 4
-A
 2 1
+A
+19 4
 #17222
 hammer hades~
 the Hammer of Hades~
@@ -506,9 +506,9 @@ unknown~
 AE AE AE AE 0
 35 34 20000 P
 A
-18 5
-A
 19 5
+A
+18 5
 #17224
 helmet fire~
 the Helmet of Fire~
@@ -518,9 +518,9 @@ unknown~
 AC AC AC AC 0
 20 17 2500 P
 A
-4 -2
-A
 12 25
+A
+4 -2
 #17225
 belt unforgiving~
 the Belt of Unforgiving~
@@ -530,13 +530,13 @@ unknown~
 BD BD BD D 0
 45 8 65000 P
 A
-18 10
-A
-12 -25
+13 25
 A
 19 5
 A
-13 25
+12 -25
+A
+18 10
 #17230
 helm supremity~
 the Helm of Supremity~

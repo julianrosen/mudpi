@@ -547,7 +547,7 @@ struct char_data {
     long gold;
     long exp;
     long exp_stack;
-    long act;
+    long long act; // JR: made long long
     long comm;                  /* RT added to pad the vector */
     long imm_flags;
     long res_flags;

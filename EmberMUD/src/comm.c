@@ -838,7 +838,7 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                if ( d->tintin && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) )
+                if ( d->tintin && ( n % PULSE_PER_SECOND == 1 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) )
                 {
                     write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
                 }                                                         // Not really a problem with Tintin, but still...
@@ -929,6 +929,8 @@ int game_loop( int control )
                 1000000 / PULSE_PER_SECOND;
             secDelta =
                 ( ( int ) last_time.tv_sec ) - ( ( int ) now_time.tv_sec );
+            
+            
 #if defined(WIN32)
             if ( usecDelta > 0 )
                 Sleep( UMIN( usecDelta, 250000 ) / 1000 );
@@ -1382,7 +1384,7 @@ char * wait_str( CHAR_DATA * ch, char *buf )
         if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
             sprintf( buf, "  ");
         else
-            sprintf( buf, "%d ", 1 + ch->wait / PULSE_PER_SECOND );
+            sprintf( buf, "%d ", 1 + (ch->wait-1) / PULSE_PER_SECOND );
     }
     else
     {
@@ -1435,7 +1437,11 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     if ( !merc_down )
     {
         if ( d->showstr_point )
-            write_to_buffer( d, "`W\n\r[Hit Return to continue]\n\r`0", 0 );
+        {
+            if ( d->character == NULL || !IS_SET(d->character->comm, COMM_COMPACT ) )
+                write_to_buffer( d, "`\n\r", 2 );
+            write_to_buffer( d, "`W[Hit Return to continue]`w\n\r", 0 );
+        }
         else if ( fPrompt && d->pString && d->connected == CON_PLAYING )
             write_to_buffer( d, "> ", 2 );
         else if ( fPrompt && d->connected == CON_PLAYING )
@@ -1513,7 +1519,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     
     char buf[MAX_OUTPUT_BUFFER],buf2[MAX_OUTPUT_BUFFER],*tmp;
     strcpy( buf, txt );
-    
+
     /*
      * Find length in case caller didn't.
      */
@@ -1523,7 +1529,6 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     tmp = buf;
     if ( tintin && d->newline ) //JR temp debug
     {
-        
         b = TRUE;
         for (int n=0; n+1<strlen(txt); n++ )
         {
@@ -1595,7 +1600,6 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
         d->outbuf = outbuf;
         d->outsize += 2048;
     }
-
     /*
      * Copy.
      */
@@ -2775,9 +2779,8 @@ void send_to_char( const char *txt, CHAR_DATA * ch )
     if ( txt != NULL && ch->desc != NULL )
     {
         //write_to_buffer( ch->desc, "`w", 2 ); // JR: trying to fix a text color bug
-        write_to_buffer( ch->desc, txt, strlen( txt ) );
+        write_to_buffer( ch->desc, txt, strlen( txt ) ); // JR made 0 tem[]
     }
-        
     return;
 }
 
@@ -2804,8 +2807,7 @@ void page_to_char( const char *txt, CHAR_DATA * ch )
     if ( txt == NULL || ch->desc == NULL )
         return;
 
-    if ( ch->desc == NULL )
-        return;
+
     ch->desc->showstr_head = alloc_mem( strlen( txt ) + 1 );
     strcpy( ch->desc->showstr_head, txt );
     ch->desc->showstr_point = ch->desc->showstr_head;
@@ -2813,7 +2815,7 @@ void page_to_char( const char *txt, CHAR_DATA * ch )
 }
 
 /* string pager */
-void show_string( struct descriptor_data *d, char *input )
+void show_string( DESCRIPTOR_DATA *d, char *input )
 {
     char buf[MAX_STRING_LENGTH];
     char buffer[4 * MAX_STRING_LENGTH];
@@ -2829,22 +2831,21 @@ void show_string( struct descriptor_data *d, char *input )
         d->showstr_point = 0;
         return;
     }
-
     if ( d->character )
         show_lines = d->character->lines;
     else
         show_lines = 0;
-
     for ( scan = buffer;; scan++, d->showstr_point++ )
     {
-        if ( ( ( *scan = *d->showstr_point ) == '\n' || *scan == '\r' )
+        if ( ( ( *scan = *d->showstr_point ) == '\n' || *scan == '\r' ) 
              && ( toggle = -toggle ) < 0 )
+        {
             lines++;
-
+        }
         else if ( !*scan || ( show_lines > 0 && lines >= show_lines ) )
         {
             *scan = '\0';
-            write_to_buffer( d, buffer, strlen( buffer ) );
+            write_to_buffer( d, buffer, 0 ); // JR: 0
             for ( chk = d->showstr_point; isspace( *chk ); chk++ ); // This needs to be here
             {
                 if ( !*chk )
@@ -3665,7 +3666,7 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
 void motd( CHAR_DATA * ch )
 {
     DESCRIPTOR_DATA *d = ch->desc;
-    char buf[10];
+    char buf[20];
     
     sprintf( buf, TINTIN_ON " %s\n\r",
             IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
@@ -3674,5 +3675,5 @@ void motd( CHAR_DATA * ch )
         write_to_buffer( d, buf, 0 );
     do_help( ch, "motd" );
     if ( d -> tintin )
-        write_to_buffer( d, "\n\r\n\r\n\r", 6 );
+        write_to_buffer( d, "\n\r\n\r", 4 );
 }

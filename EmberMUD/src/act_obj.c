@@ -277,7 +277,7 @@ void do_get( CHAR_DATA * ch, char *argument )
 
         if ( IS_SET( container->value[1], CONT_CLOSED ) )
         {
-            act( "The $d is closed.", ch, NULL, container->name, TO_CHAR );
+            act( "$T is closed.", ch, NULL, container->short_descr, TO_CHAR );
             return;
         }
 
@@ -1056,11 +1056,14 @@ void do_drink( CHAR_DATA * ch, char *argument )
         gain_condition( ch, COND_THIRST,
                         amount * liq_table[liquid].liq_affect[COND_THIRST] );
 
-        if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_DRUNK] > 10 )
+        if ( liq_table[liquid].liq_affect[COND_DRUNK] && 
+            !IS_NPC( ch ) && ch->pcdata->condition[COND_DRUNK] > 10 )
             send_to_char( "You feel drunk.\n\r", ch );
-        if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_FULL] > 40 )
+        if ( liq_table[liquid].liq_affect[COND_FULL] &&
+            !IS_NPC( ch ) && ch->pcdata->condition[COND_FULL] > 40 )
             send_to_char( "You are full.\n\r", ch );
-        if ( !IS_NPC( ch ) && ch->pcdata->condition[COND_THIRST] > 40 )
+        if ( liq_table[liquid].liq_affect[COND_THIRST] &&
+            !IS_NPC( ch ) && ch->pcdata->condition[COND_THIRST] > 40 )
             send_to_char( "You are not thirsty.\n\r", ch );
 
         if ( obj->value[3] != 0 )

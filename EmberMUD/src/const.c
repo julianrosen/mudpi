@@ -1070,8 +1070,8 @@ const struct con_app_type con_app[MAX_ATTAINABLE_STATS + 1] = {
  * Liquid properties.
  * Used in world.obj.
  */
-const struct liq_type liq_table[LIQ_MAX] = {
-    {"water", "clear", {0, 1, 10}}, /*  0 */
+const struct liq_type liq_table[LIQ_MAX] = { // JR changed FULL to 0 on some.
+    {"water", "clear", {0, 0, 10}}, /*  0 */
     {"beer", "amber", {3, 2, 5}},
     {"wine", "rose", {5, 2, 5}},
     {"ale", "brown", {2, 2, 5}},
@@ -1084,8 +1084,8 @@ const struct liq_type liq_table[LIQ_MAX] = {
     {"slime mold juice", "green", {0, 4, -8}},
 
     {"milk", "white", {0, 3, 6}},   /* 10 */
-    {"tea", "tan", {0, 1, 6}},
-    {"coffee", "black", {0, 1, 6}},
+    {"tea", "tan", {0, 0, 6}},
+    {"coffee", "black", {0, 0, 6}},
     {"blood", "red", {0, 2, -1}},
     {"salt water", "clear", {0, 1, -2}},
 
@@ -1882,7 +1882,7 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
     {
      "pick lock", {90, 90, 7, 90, 90, 90, 90, 90},
      {0, 0, 4, 0, 0, 0, 0, 0}, spell_null, TAR_IGNORE,
-     POS_STANDING, &gsn_pick_lock, SLOT(0), 0, 0,
+     POS_STANDING, &gsn_pick_lock, SLOT(0), 0, 24,
      "", "!Pick!"},
 
     {

@@ -644,11 +644,15 @@ players that are not thieves. The second is the vnum of the thieves guild.
  */
 #if defined(WIN32)
 #define NULL_FILE               "nul"   // To reserve one stream
-#endif
-
-#if defined(unix)
+#else
 #define NULL_FILE       "/dev/null" /* To reserve one stream        */
 #endif
+
+// JR
+
+//#if defined(unix)
+//#define NULL_FILE       "/dev/null" /* To reserve one stream        */
+//#endif
 
 /*
  * Game parameters.
@@ -666,7 +670,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define MAX_PC_RACE                30
 #define MAX_LEVEL                 100
 #define MAX_EXP            2147483647
-#define MAX_CHUNKS                 80   /* Used in ssm.c */
+#define MAX_CHUNKS               8000   /* Used in ssm.c */// JR increased by factor of 100
 #define MAX_OUTPUT_BUFFER     3200000  // JR increased by factor of 100
 /* Allows you to tune how easy/hard it is to level. For instance 0.75 would give you only
  * 75% of the exp you'd normally get from any task basically making it 25% hard to level - Zane */
@@ -680,7 +684,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 
 
 #define ONE_ROUND                   12 /* This is an unpleasant workaround, to avoid manually changing skill beats */
-#define PULSE_PER_SECOND            60  /*  */
+#define PULSE_PER_SECOND            100  /* Output gets screwed up at 200 */
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
 #define PULSE_MOBILE              ( 4 * PULSE_PER_SECOND)
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
@@ -1724,10 +1728,11 @@ of combat. */
 /* Flag for ConsoleChar - Win32 - Zane */
 #define PLR_CONSOLE             (aa)
 
-#define PLR_AFK               (bb)
+#define PLR_AFK                 (bb)
 #define PLR_CAN_PROG            (cc)
 #define PLR_CAN_EDIT            (dd)
 #define PLR_NO_ANNOUNCE         (ee)
+#define PLR_AUTO_AFK            (gg) // JR
 
 /* 2 bits reserved, U-V */
 /* Permit from Banned sites flag */
