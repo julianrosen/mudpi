@@ -252,7 +252,7 @@ void load_random_objs args( ( CHAR_DATA * mob, MOB_INDEX_DATA * mobIndex ) );
 #define MIL MAX_INPUT_LENGTH
 /* This is the handy CH() macro. I think that it was Tom Adriansen (sp?) */
 
-bool write_to_descriptor args( ( int desc, char *txt, int length ) );
+bool write_to_descriptor args( ( int desc, char *txt, int length, bool color ) ); // JR: why is there no color parameter?
 
 #if defined(WIN32)
 #define COPYOVER_FILE  ".\\CopyOver.tmp"
@@ -298,13 +298,15 @@ void do_copyover( CHAR_DATA * ch, char *argument )
         perror( "do_copyover:fopen" );
         return;
     }
+    
+    fprintf( fp, "%s\n", ch->name ); // JR
 
     /* Consider changing all saved areas here, if you use OLC */
 
     do_asave( ch, "changed" );
     do_force( ch, "all save" );
     sprintf( buf,
-             "\n\r`WA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
+             "\n\rA black cat goes past, and then another that looks just like it. Deja vu...\n\r");
 
     /* For each playing descriptor, save its state */
     for ( d = descriptor_list; d; d = d_next )
@@ -316,7 +318,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
         {
             write_to_descriptor( d->descriptor,
                                  "\n\rSorry, we are rebooting. Please reconnect.\n\r",
-                                 66 );
+                                 66, FALSE );
             close_socket( d );  /* throw'em out */
         }
         else
@@ -336,6 +338,7 @@ void do_copyover( CHAR_DATA * ch, char *argument )
                     d->editor = 0;
                     break; // Other ED types are too hard
             }
+            
             fprintf( fp, "%d %s %s %d %d %d\n", d->descriptor, och->name,
                     d->host, och->desc->editor, vnum, och->desc->tintin );
 /*                      if (IS_SET(och->act,PLR_QUESTOR));
@@ -356,9 +359,9 @@ void do_copyover( CHAR_DATA * ch, char *argument )
             save_char_obj( och );
                 
             if ( och == ch )
-                write_to_descriptor( d->descriptor, buf+2, strlen(buf+2) );
+                write_to_descriptor( d->descriptor, buf+2, strlen(buf+2), TRUE );
             else
-                write_to_descriptor( d->descriptor, buf, sizeof( buf ) );
+                write_to_descriptor( d->descriptor, buf, sizeof( buf ), TRUE );
         }
     }
 
@@ -413,7 +416,7 @@ void copyover_recover( void )
     DESCRIPTOR_DATA *dnew;
     FILE *fp;
     char buf[MAX_STRING_LENGTH];
-    char name[100];
+    char name[100],actor[100];
     char host[MSL];
     int desc;
     int close args( ( int fd ) );
@@ -434,18 +437,19 @@ void copyover_recover( void )
     }
 
     unlink( COPYOVER_FILE );    /* In case something crashes - doesn't prevent reading  */
-
+    fscanf( fp, "%s\n", actor ); // JR: the person who hotbooted
     for ( ;; )
     {
         fscanf( fp, "%d %s %s %d %d %d\n", &desc, name, host, &editor, &vnum, &tintin );
         if ( desc == -1 )
             break;
+        printf("recover, name: %s",name);
 
         /* Write something, and check if it goes error-free */
-        if ( !write_to_descriptor
-             ( desc, "A deja vu is a glitch in the matrix. `YSomething has changed.`w\n\r",
-               65 ) )
+        sprintf( buf, "A deja vu is a glitch in the matrix. `Y%s has changed something.`w\n\r", actor );
+        if ( !write_to_descriptor( desc, buf, strlen(buf), TRUE ) )
         {
+            printf("Closing...\n");
             close( desc );      /* nope */
             continue;
         }
@@ -466,7 +470,7 @@ void copyover_recover( void )
         {
             write_to_descriptor( desc,
                                  "\n\rSomehow, your character was lost in the copyover. Sorry.\n\r",
-                                 100 );
+                                 100, TRUE );
             close_socket( dnew );
         }
         else                    /* ok! */

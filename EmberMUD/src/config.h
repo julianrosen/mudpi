@@ -67,15 +67,25 @@ vanishes and quits.*/
  * $t = The text
  * Both variables MUST be present!
  */
+#define CFG_OOC        "`C$n OOC`c: '`C$t`c'`w"
+#define CFG_OOC_SELF   "`CYou OOC`c: '`C$t`c'`w"
+#define CFG_GOS        "`B$n gossips`b '`B$t`b'`w"
+#define CFG_GOS_SELF   "`BYou gossip`b '`B$t`b'`w"
+#define CFG_QUES       "`R$n questions`r '`R$t`r'`w"
+#define CFG_QUES_SELF  "`RYou question`r '`R$t`r'`w"
+#define CFG_ANS        "`R$n answers`r '`R$t`r'`w"
+#define CFG_ANS_SELF   "`RYou answer`r '`R$t`r'`w"
+#define CFG_IMM        "`K[`WIMM`K]`w $n`K: `w'`W$t`w'`w"
+#define CFG_MUS        "`K[`WMUSIC`K]`w $n`K sings: `m'`M$t`m'`w"
+#define CFG_ADMIN      "`K[`WADMIN`K]`w $n`K: `y'`Y$t`y'`w"
+#define CFG_HERO       "`K[`WHERO`K]`w $n`K: `y'`Y$t`y'`w"
+
+/*
 #define CFG_OOC        "`K[`WOOC`K]`w $n`K: `c'`C$t`c'`0"
-//#define CFG_OOC        "`C$n OOC: '$t`C'\n\r`w"
 #define CFG_GOS        "`K[`WGOSSIP`K]`w $n`K: `b'`B$t`b'`0"
-#define CFG_QUESTION   "`K[`WQUESTION`K]`w $n`K: `r'`R$t`r'`0"
-#define CFG_ANSWER     "`K[`WANSWER`K]`w $n`K: `r'`R$t`r'`0"
-#define CFG_IMM        "`K[`WIMM`K]`w $n`K: `w'`W$t`w'`0"
-#define CFG_MUS        "`K[`WMUSIC`K]`w $n`K sings: `m'`M$t`m'`0"
-#define CFG_ADMIN      "`K[`WADMIN`K]`w $n`K: `y'`Y$t`y'`0"
-#define CFG_HERO       "`K[`WHERO`K]`w $n`K: `y'`Y$t`y'`0"
+#define CFG_QUES       "`K[`WQUESTION`K]`w $n`K: `r'`R$t`r'`0"
+#define CFG_ANS        "`K[`WANSWER`K]`w $n`K: `r'`R$t`r'`0"
+*/
 
 /* Not really channels, but config'd the same way */
 #define CFG_SAY        "`G$n says `g'`G$t`g'`0"
@@ -680,6 +690,9 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define LEVEL_HERO                 (MAX_LEVEL - 9)
 #define LEVEL_IMMORTAL             (MAX_LEVEL - 7)
 #define LEVEL_ADMIN                (MAX_LEVEL - 3)
+// JR
+#define LEVEL_REMORT_MIN           60
+#define LEVEL_REMORT_MAX           LEVEL_HERO
 
 
 

@@ -4,6 +4,7 @@ NOCRYPT =
 C_FLAGS = -Wall -ggdb -O3 $(PROF) $(NOCRYPT)
 L_FLAGS = -O2 $(PROF)
 
+
 O_FILES = act_comm.o	act_info.o	act_move.o \
           act_obj.o	act_wiz.o	auction.o \
           ban.o		bank.o		bit.o \

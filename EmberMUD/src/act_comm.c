@@ -601,7 +601,7 @@ void do_gossip( CHAR_DATA * ch, char *argument )
     }
 
     /* Send to the speaker and add to the last queue */
-    act_new( CFG_GOS, ch, argument, ch, TO_CHAR, MIN_POS_GOS );
+    act_new( CFG_GOS_SELF, ch, argument, ch, TO_CHAR, MIN_POS_GOS ); // JR
     add2last( CFG_GOS, argument, ch );
 
     return;
@@ -1040,15 +1040,15 @@ void do_question( CHAR_DATA * ch, char *argument )
                  !IS_SET( victim->comm, COMM_DEAF ) &&
                  !IS_SET( victim->comm, COMM_QUIET ) )
             {
-                act_new( CFG_QUESTION, ch, argument, victim, TO_VICT,
+                act_new( CFG_QUES, ch, argument, victim, TO_VICT,
                          MIN_POS_QA );
             }
         }
     }
 
     /* Send to the speaker and add to the last queue */
-    act_new( CFG_QUESTION, ch, argument, ch, TO_CHAR, MIN_POS_QA );
-    add2last( CFG_QUESTION, argument, ch );
+    act_new( CFG_QUES_SELF, ch, argument, ch, TO_CHAR, MIN_POS_QA ); // JR
+    add2last( CFG_QUES, argument, ch );
 }
 
 /* RT answer channel - uses same line as questions */
@@ -1118,15 +1118,15 @@ void do_answer( CHAR_DATA * ch, char *argument )
                  !IS_SET( victim->comm, COMM_DEAF ) &&
                  !IS_SET( victim->comm, COMM_QUIET ) )
             {
-                act_new( CFG_ANSWER, ch, argument, victim, TO_VICT,
+                act_new( CFG_ANS, ch, argument, victim, TO_VICT,
                          MIN_POS_QA );
             }
         }
     }
 
     /* Send to the speaker and add to the last queue */
-    act_new( CFG_ANSWER, ch, argument, ch, TO_CHAR, MIN_POS_QA );
-    add2last( CFG_ANSWER, argument, ch );
+    act_new( CFG_ANS_SELF, ch, argument, ch, TO_CHAR, MIN_POS_QA ); // JR
+    add2last( CFG_ANS, argument, ch );
 }
 
 void do_ooc( CHAR_DATA * ch, char *argument )
@@ -1203,7 +1203,7 @@ void do_ooc( CHAR_DATA * ch, char *argument )
     }
 
     /* Send to the speaker and add to the last queue */
-    act_new( CFG_OOC, ch, argument, ch, TO_CHAR, MIN_POS_OOC );
+    act_new( CFG_OOC_SELF, ch, argument, ch, TO_CHAR, MIN_POS_OOC ); // JR
     add2last( CFG_OOC, argument, ch );
 }
 
@@ -2783,7 +2783,7 @@ inform him that its not that easy ;) -Lancelight */
         sprintf( buf, "%s has left the game.", ch->name );
         do_sendinfo( ch, buf );
     }
-    act( "$n has left the game.", ch, NULL, NULL, TO_ROOM );
+    act( "$n disappears from the room.", ch, NULL, NULL, TO_ROOM );
     sprintf( log_buf, "%s has quit.", ch->name );
     log_string( log_buf );
 

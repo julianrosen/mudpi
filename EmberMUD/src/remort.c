@@ -53,18 +53,18 @@ void do_remort( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) || ( d = ch->desc ) == NULL )
         return;
 
-    if ( ch->level < LEVEL_HERO )
+    if ( ch->level < LEVEL_REMORT_MIN )
     {
-        sprintf( buf, "You must be level %d.\n\r", LEVEL_HERO );
+        sprintf( buf, "You must be at least level %d to remort.\n\r", LEVEL_REMORT_MIN );
         send_to_char( buf, ch );
         return;
     }
 
-    if ( ch->level > LEVEL_HERO )
+    if ( ch->level > LEVEL_REMORT_MAX )
     {
         sprintf( buf,
-                 "You must be level %d. So why do you want to that?\n\r",
-                 LEVEL_HERO );
+                 "You cannot remort if you are above level %d.\n\r",
+                 LEVEL_REMORT_MAX );
         send_to_char( buf, ch );
         return;
     }

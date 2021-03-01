@@ -250,7 +250,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
     if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
         strcat( buf, "`W(`wWhi`Wte Au`wra`W)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_AFK ) )
-        strcat( buf, "`B(AFK)`C" );
+        strcat( buf, "`K(AFK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_KILLER ) )
         strcat( buf, "`R(PK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_THIEF ) )
