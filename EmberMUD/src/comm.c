@@ -178,7 +178,8 @@ int socket args( ( int domain, int type, int protocol ) );
 int close args( ( int fd ) );
 /* int     getpeername     args( ( int s, struct sockaddr *name, int *namelen ) ); */
 /* int     getsockname     args( ( int s, struct sockaddr *name, int *namelen ) ); */
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) ); // This needs to be changed to Ubuntu
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) ); // This needs to be changed for Ubuntu
+int gettimeofday( ); // OK, this should work for whatever
 /* int     listen          args( ( int s, int backlog ) ); */
 int select args( ( int width, fd_set * readfds, fd_set * writefds,
                    fd_set * exceptfds, struct timeval * timeout ) );
@@ -1621,7 +1622,6 @@ bool write_to_descriptor( int desc, char *txt, int length, bool color )
     int nBlock;
     static char colorbuf[MAX_OUTPUT_BUFFER];
     
-    
     /* Run through the color filter */
     do_color( txt, length, colorbuf, sizeof( colorbuf ), color );
     length = strlen( colorbuf );
@@ -2541,7 +2541,7 @@ check_ban function.
 #endif
 #endif
 
-        act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
+        act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
         
         write_to_buffer( d, "\n\r", 0 ); // For formatting
         do_look( ch, "auto" );
@@ -2552,7 +2552,7 @@ check_ban function.
         if ( ch->pet != NULL )
         {
             char_to_room( ch->pet, ch->in_room );
-            act( "$n has entered the game.", ch->pet, NULL, NULL, TO_ROOM );
+            act( "$n appears in the room.", ch->pet, NULL, NULL, TO_ROOM );
         }
 
         if ( IS_SET( ch->act, PLR_AFK ) )
