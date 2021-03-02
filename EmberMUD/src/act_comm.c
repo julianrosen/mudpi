@@ -2699,6 +2699,11 @@ void do_pose( CHAR_DATA * ch, char *argument )
 void do_bug( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+    if ( argument[0] == '\0' )
+    {
+        send_to_char( "What bug did you want to report?\n\r", ch );
+        return;
+    }
 
     sprintf( buf, "%s/%s", sysconfig.area_dir, sysconfig.bug_file );
     append_file( ch, buf, argument );
@@ -2709,6 +2714,11 @@ void do_bug( CHAR_DATA * ch, char *argument )
 void do_idea( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+    if ( argument[0] == '\0' )
+    {
+        send_to_char( "What's your idea?\n\r", ch );
+        return;
+    }
 
     sprintf( buf, "%s/%s", sysconfig.area_dir, sysconfig.idea_file );
     append_file( ch, buf, argument );
@@ -2719,7 +2729,11 @@ void do_idea( CHAR_DATA * ch, char *argument )
 void do_typo( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-
+    if ( argument[0] == '\0' )
+    {
+        send_to_char( "What typo did you want to report?\n\r", ch );
+        return;
+    }
     sprintf( buf, "%s/%s", sysconfig.area_dir, sysconfig.typo_file );
     append_file( ch, buf, argument );
     send_to_char( "Typo logged.\n\r", ch );
@@ -2775,7 +2789,7 @@ inform him that its not that easy ;) -Lancelight */
     {
         write_to_buffer( ch->desc, PROMPT_TOP "\n\r" PROMPT_BOTTOM, 0 );
     }
-    send_to_char( CFG_QUIT, ch );
+    send_to_char( CFG_QUIT "\n\r\n\r", ch );
     
     ch->pcdata->ticks = 0;
     if ( !IS_SET( ch->act, PLR_WIZINVIS ) )
@@ -3078,7 +3092,8 @@ void do_order( CHAR_DATA * ch, char *argument )
             else if ( ( !strcmp( cmd_vi, "delete" ) ) ||
                       ( !strcmp( cmd_vi, "quit" ) ) ||
                       ( !strcmp( cmd_vi, "password" ) ) ||
-                      ( !strcmp( cmd_vi, "pk" ) ) )
+                      ( !strcmp( cmd_vi, "pk" ) ) ||
+                      ( !strcmp( cmd_vi, "quiet" ) ) )
             {
                 act( "I don't think $N appreciated that.", ch, NULL, och,
                      TO_CHAR );
