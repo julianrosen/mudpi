@@ -225,8 +225,11 @@ cp. */
 #define CP_MIN_PENALTY  0
 #define CP_PENALTY      0
 #define CP_TRAIN_MIN    15
-#define CP_MAX 52 /* JR: Maximum allowed CP on creation */
-#define CP_CAP 40
+#define CP_MAX          52 /* JR: Maximum allowed CP on creation */
+#define CP_CAP          40
+#define ALLOW_REROLL    0  // Allow rerolling for stats
+#define NUM_ROLLS       10 // Number of stat rolls per round
+
 
 /* The next item has to do with auto_hatred.   Auto_hatred makes it so 
    that if you attack a mob, it will remember you forever (or until imm
@@ -892,7 +895,7 @@ about that unless you have changed it.
 
 /* These are some example extra damage msg's. It gives you more options
 then the default
-messages, aswell as some messages that are unique to Ember and not ROM
+messages, as well as some messages that are unique to Ember and not ROM
 style. They aren't
 the prettiest things in the world, but its something to enhance the look
 of combat. */
@@ -953,8 +956,8 @@ of combat. */
 #define CFG_DAM165S "`GM`gut`Wila`gte`Gs`w"
 #define CFG_DAM170 "`YM`yo`Wle`ys`Yt`w"
 #define CFG_DAM170S "`YM`yo`Wles`yt`Ys`w"
-#define CFG_DAM175 "`KR`Wap`Ke`w"
-#define CFG_DAM175S "`KR`Wape`Ks`w"
+#define CFG_DAM175 "`KR`Wi`Kp`w"
+#define CFG_DAM175S "`KR`Wip`Ks`w"
 #define CFG_DAM185 "`MP`ml`Wund`me`Mr`w"
 #define CFG_DAM185S "`MP`mlu`Wnd`mer`Ms`w"
 #define CFG_DAM190 "`CD`cis`Wmem`cbe`Cr`w"
