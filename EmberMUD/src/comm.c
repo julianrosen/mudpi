@@ -144,7 +144,8 @@ int bind args( ( int s, struct sockaddr * name, int namelen ) );
 void bzero args( ( char *b, int length ) );
 int getpeername args( ( int s, struct sockaddr * name, int *namelen ) );
 int getsockname args( ( int s, struct sockaddr * name, int *namelen ) );
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday( );
 int listen args( ( int s, int backlog ) );
 int setsockopt args( ( int s, int level, int optname, void *optval,
                        int optlen ) );
@@ -162,7 +163,8 @@ int bind args( ( int s, const void *addr, int addrlen ) );
 void bzero args( ( char *b, int length ) );
 int getpeername args( ( int s, void *addr, int *addrlen ) );
 int getsockname args( ( int s, void *name, int *addrlen ) );
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday( );
 int listen args( ( int s, int backlog ) );
 int setsockopt args( ( int s, int level, int optname,
                        const void *optval, int optlen ) );
@@ -212,7 +214,8 @@ int close args( ( int fd ) );
 int fcntl args( ( int fd, int cmd, int arg ) );
 int getpeername args( ( int s, struct sockaddr * name, int *namelen ) );
 int getsockname args( ( int s, struct sockaddr * name, int *namelen ) );
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday( );
 #if     !defined(htons)
 u_short htons args( ( u_short hostshort ) );
 #endif
@@ -237,7 +240,8 @@ void bzero args( ( char *b, int length ) );
 int close args( ( int fd ) );
 int getpeername args( ( int s, struct sockaddr * name, int *namelen ) );
 int getsockname args( ( int s, struct sockaddr * name, int *namelen ) );
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday( );
 int listen args( ( int s, int backlog ) );
 int read args( ( int fd, char *buf, int nbyte ) );
 int select args( ( int width, fd_set * readfds, fd_set * writefds,
@@ -260,7 +264,8 @@ void bzero args( ( char *b, int length ) );
 int close args( ( int fd ) );
 int getpeername args( ( int s, struct sockaddr * name, int *namelen ) );
 int getsockname args( ( int s, struct sockaddr * name, int *namelen ) );
-int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+//int gettimeofday args( ( struct timeval * tp, struct timezone * tzp ) );
+int gettimeofday( );
 int listen args( ( int s, int backlog ) );
 int read args( ( int fd, char *buf, int nbyte ) );
 int select args( ( int width, fd_set * readfds, fd_set * writefds,
@@ -305,7 +310,12 @@ bool silentmode;                /* Send no output to descriptors */
 char str_boot_time[MAX_INPUT_LENGTH];
 time_t current_time;            /* time of this pulse */
 bool rolled = FALSE;
-int stat1[5], stat2[5], stat3[5], stat4[5], stat5[5];
+//int stat1[5], stat2[5], stat3[5], stat4[5], stat5[5];
+int stat[5][NUM_ROLLS]; // JR
+const char* const stat_names[] = { "Strength", "Intelligence", 
+                                 "Wisdom", "Dexterity", "Constitution" };
+
+
 bool fCopyOver;
 int port;
 bool MOBtrigger;
@@ -839,7 +849,7 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                if ( d->tintin && ( n % PULSE_PER_SECOND == 1 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) )
+                if ( d->tintin && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) ) // JR :(
                 {
                     write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
                 }                                                         // Not really a problem with Tintin, but still...
@@ -1422,6 +1432,8 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     bool tintin;
     
     tintin = (d != NULL && d->character != NULL && d->tintin);
+    if ( !tintin )
+        printf("NO TINTIN!!\n");
 
     /* If you're in a shell, then no output for you! */
     if ( d->connected == CON_SHELL )
@@ -1444,7 +1456,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
             write_to_buffer( d, "`W[Hit Return to continue]`w\n\r", 0 );
         }
         else if ( fPrompt && d->pString && d->connected == CON_PLAYING )
-            write_to_buffer( d, "> ", 2 );
+            write_to_buffer( d, "> ", 2 ); // JR: may want to fiddle with this to fix olc
         else if ( fPrompt && d->connected == CON_PLAYING )
         {
             CHAR_DATA *ch;
@@ -1519,19 +1531,31 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     bool b,tintin;
     
     char buf[MAX_OUTPUT_BUFFER],buf2[MAX_OUTPUT_BUFFER],*tmp;
+    char name[50];
+    
+    if ( d->character != NULL ) // JR debug
+        strcpy( name, d->character->name );
+    else
+        strcpy( name, "Nobody" );
+    
     strcpy( buf, txt );
 
     /*
      * Find length in case caller didn't.
      */
+    
+    if (!strcmp(name,"Test") ) // JR debug
+        printf("WTB, newline: %s, ",d->newline?"T":"F");
+    
     if ( length <= 0 )
         length = strlen( txt );
     tintin = (d != NULL && d->character != NULL && d->tintin);
     tmp = buf;
+    
     if ( tintin && d->newline ) //JR temp debug
     {
         b = TRUE;
-        for (int n=0; n+1<strlen(txt); n++ )
+        for (int n=0; n+1<length; n++ )
         {
             strcpy( buf2, txt+n );
             buf2[2] = '\0';
@@ -1545,7 +1569,7 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
                 break;
             }
         }
-        if ( b ) // JR temp debug
+        if ( b )
         {
             *tmp = '\n';
             *(tmp+1) = '\r';
@@ -1554,7 +1578,14 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
             d->newline = FALSE;
         }
     }
+    
     strcpy( tmp, txt );
+    if (!strcmp(name,"Test") ) // JR debug
+    {
+        printf("b: %s, ",b?"T":"F");
+         
+            printf("buf: [%s]\n",buf);
+    }
     
 
         
@@ -1857,7 +1888,7 @@ check_ban function.
 	
 	
 }*/
-            sprintf( buf, "Did I get that right, %s (Y/N): ", argument );
+            sprintf( buf, "\n\rDid I get that right, %s (Y/N): ", argument );
             write_to_buffer( d, buf, 0 );
             d->connected = CON_CONFIRM_NEW_NAME;
             return;
@@ -1975,7 +2006,7 @@ check_ban function.
         {
         case 'y':
         case 'Y':
-            sprintf( buf, "\n\rNew character.\n\rGive me a password for %s: %s",
+            sprintf( buf, "New character.\n\r\n\rGive me a password for %s: %s",
                      ch->name, echo_off_str );
             write_to_buffer( d, buf, 0 );
             d->connected = CON_GET_NEW_PASSWORD;
@@ -2003,7 +2034,7 @@ check_ban function.
         
         if ( strlen( argument ) < 5 )
         {
-            write_to_buffer(d,"Caution: password is short.\n\r",0);
+            write_to_buffer(d,"`YCaution: password is short.\n\r`w",0);
             /*write_to_buffer( d,
                              "Password must be at least five characters long.\n\rPassword: ",
                              0 );*/
@@ -2120,180 +2151,81 @@ check_ban function.
             ch->pcdata->true_sex = SEX_NB;
             break;
         default:
-            write_to_buffer( d, "That's not a gender.\n\rWhat IS your gender: ", 0 );
+            write_to_buffer( d, "That's not a gender.\n\rWhat *is* your gender: ", 0 );
             return;
         }
-        write_to_buffer( d, "\n\rPress enter to start rolling your stats. ", 0 );
+        write_to_buffer( d, "\n\rNow rolling your stats.\n\r", 0 );
+        roll_stats( ch, 0 );
+        show_stats( d );
+        if ( ALLOW_REROLL )
+            write_to_buffer( d, "\n\rEnter a column number, or press enter to roll again: ", 0 );
+        else
+            write_to_buffer( d, "\n\rEnter a column number: ", 0 );
         d->connected = CON_GET_STATS;
         break;
 
     case CON_GET_STATS:
-        if ( ( rolled == TRUE ) && atoi( argument ) < 5
-             && atoi( argument ) >= 0 )
-            switch ( argument[0] )
+        if ( atoi( argument ) <= NUM_ROLLS && atoi( argument ) >= 1 )
+        {
+            for ( i = 0; i < 5; i++ )
             {
-            case '0':
-            case '1':
-            case '2':
-            case '3':
-            case '4':
-                ch->perm_stat[0] = stat1[atoi( argument )];
-                ch->perm_stat[1] = stat2[atoi( argument )];
-                ch->perm_stat[2] = stat3[atoi( argument )];
-                ch->perm_stat[3] = stat4[atoi( argument )];
-                ch->perm_stat[4] = stat5[atoi( argument )];
-
-                write_to_buffer( d, "\n\rThe following classes are available:\n\r", 0 );
-                max_len = 0;    
-                
-                for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-                {
-                    if ( !class_table[iClass].remort_class ||
-                         ( class_table[iClass].remort_class
-                           && IS_SET( ch->act, PLR_REMORT ) ) )
-                    {
-                        if ( str_cmp( class_table[iClass].name, "Console" ) )
-                            max_len = bw_strlen( class_table[iClass].name ) > max_len ? bw_strlen( class_table[iClass].name ) : max_len;
-                    }
-                }
-                x = 0;                  
-                for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-                {
-                    if ( !class_table[iClass].remort_class ||
-                         ( class_table[iClass].remort_class
-                           && IS_SET( ch->act, PLR_REMORT ) ) )
-                    {
-                        if ( str_cmp( class_table[iClass].name, "Console" ) )
-                        {
-                            if ( x == 3 )
-                            {
-                                write_to_buffer( d, "\n\r", 2 );
-                                x = 0;
-                            }
-                            write_to_buffer( d, class_table[iClass].name, 0 );
-                            for ( i=0 ; i+bw_strlen(class_table[iClass].name) < max_len + 3; i++)
-                                write_to_buffer( d, " ", 1 );
-                            x++;
-                        }
-                    }
-                }
-                write_to_buffer( d, "\n\r\n\rWhat is your class ('help' for more information): ", 0 );
-                d->connected = CON_GET_NEW_CLASS;
-                break;
-            default:
-                write_to_buffer( d,
-                                 "                       0    1    2    3    4\n\r",
-                                 0 );
-                write_to_buffer( d, "     Strength     :", 0 );
-                for ( x = 0; x < 5; x++ )
-                {
-                    stat1[x] =
-                        roll_stat( pc_race_table[ch->race].stats[0],
-                                   pc_race_table[ch->race].max_stats[0] -
-                                   REROLL_PENALTY );
-                    sprintf( buf, "   %2d", stat1[x] );
-                    write_to_buffer( d, buf, 0 );
-                }
-                write_to_buffer( d, "\n\r     Intelligence :", 0 );
-                for ( x = 0; x < 5; x++ )
-                {
-                    stat2[x] =
-                        roll_stat( pc_race_table[ch->race].stats[1],
-                                   pc_race_table[ch->race].max_stats[1] -
-                                   REROLL_PENALTY );
-                    sprintf( buf, "   %2d", stat2[x] );
-                    write_to_buffer( d, buf, 0 );
-                }
-                write_to_buffer( d, "\n\r     Wisdom       :", 0 );
-                for ( x = 0; x < 5; x++ )
-                {
-                    stat3[x] =
-                        roll_stat( pc_race_table[ch->race].stats[2],
-                                   pc_race_table[ch->race].max_stats[2] -
-                                   REROLL_PENALTY );
-                    sprintf( buf, "   %2d", stat3[x] );
-                    write_to_buffer( d, buf, 0 );
-                }
-                write_to_buffer( d, "\n\r     Dexterity    :", 0 );
-                for ( x = 0; x < 5; x++ )
-                {
-                    stat4[x] =
-                        roll_stat( pc_race_table[ch->race].stats[3],
-                                   pc_race_table[ch->race].max_stats[3] -
-                                   REROLL_PENALTY );
-                    sprintf( buf, "   %2d", stat4[x] );
-                    write_to_buffer( d, buf, 0 );
-                }
-                write_to_buffer( d, "\n\r     Constitution :", 0 );
-                for ( x = 0; x < 5; x++ )
-                {
-                    stat5[x] =
-                        roll_stat( pc_race_table[ch->race].stats[4],
-                                   pc_race_table[ch->race].max_stats[4] -
-                                   REROLL_PENALTY );
-                    sprintf( buf, "   %2d", stat5[x] );
-                    write_to_buffer( d, buf, 0 );
-                }
-                write_to_buffer( d,
-                                 "\n\r\n\r     Press enter to roll again, else enter number of column: ",
-                                 0 );
-                rolled = TRUE;
-                break;
+                ch->perm_stat[i] = stat[i][atoi( argument ) - 1];
             }
+
+            write_to_buffer( d, "\n\rThe following classes are available:\n\r", 0 );
+            max_len = 0;    
+
+            for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
+            {
+                if ( !class_table[iClass].remort_class ||
+                     ( class_table[iClass].remort_class
+                       && IS_SET( ch->act, PLR_REMORT ) ) )
+                {
+                    if ( str_cmp( class_table[iClass].name, "Console" ) )
+                        max_len = bw_strlen( class_table[iClass].name ) > max_len ? bw_strlen( class_table[iClass].name ) : max_len;
+                }
+            }
+            x = 0;                  
+            for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
+            {
+                if ( !class_table[iClass].remort_class ||
+                     ( class_table[iClass].remort_class
+                       && IS_SET( ch->act, PLR_REMORT ) ) )
+                {
+                    if ( str_cmp( class_table[iClass].name, "Console" ) )
+                    {
+                        if ( x == 3 )
+                        {
+                            write_to_buffer( d, "\n\r", 2 );
+                            x = 0;
+                        }
+                        if ( x == 0 )
+                            write_to_buffer( d, "   ", 3 );
+                        write_to_buffer( d, class_table[iClass].name, 0 );
+                        for ( i=0 ; i+bw_strlen(class_table[iClass].name) < max_len + 3; i++)
+                            write_to_buffer( d, " ", 1 );
+                        x++;
+                    }
+                }
+            }
+            write_to_buffer( d, "\n\r\n\rWhat is your class ('help' for more information): ", 0 );
+            d->connected = CON_GET_NEW_CLASS;
+            break;
+        }
+        else if ( ALLOW_REROLL )
+        {
+            if ( argument[0] == '\0' )
+            {
+                roll_stats( ch, REROLL_PENALTY );
+                show_stats( d );
+            }
+            write_to_buffer( d, "\n\rEnter a column number, or press enter to roll again: ", 0 );
+        }
         else
         {
-            write_to_buffer( d,
-                             "                       0    1    2    3    4\n\r",
-                             0 );
-            write_to_buffer( d, "     Strength     :", 0 );
-            for ( x = 0; x < 5; x++ )
-            {
-                stat1[x] =
-                    roll_stat( pc_race_table[ch->race].stats[0],
-                               pc_race_table[ch->race].max_stats[0] );
-                sprintf( buf, "   %2d", stat1[x] );
-                write_to_buffer( d, buf, 0 );
-            }
-            write_to_buffer( d, "\n\r     Intelligence :", 0 );
-            for ( x = 0; x < 5; x++ )
-            {
-                stat2[x] =
-                    roll_stat( pc_race_table[ch->race].stats[1],
-                               pc_race_table[ch->race].max_stats[1] );
-                sprintf( buf, "   %2d", stat2[x] );
-                write_to_buffer( d, buf, 0 );
-            }
-            write_to_buffer( d, "\n\r     Wisdom       :", 0 );
-            for ( x = 0; x < 5; x++ )
-            {
-                stat3[x] =
-                    roll_stat( pc_race_table[ch->race].stats[2],
-                               pc_race_table[ch->race].max_stats[2] );
-                sprintf( buf, "   %2d", stat3[x] );
-                write_to_buffer( d, buf, 0 );
-            }
-            write_to_buffer( d, "\n\r     Dexterity    :", 0 );
-            for ( x = 0; x < 5; x++ )
-            {
-                stat4[x] =
-                    roll_stat( pc_race_table[ch->race].stats[3],
-                               pc_race_table[ch->race].max_stats[3] );
-                sprintf( buf, "   %2d", stat4[x] );
-                write_to_buffer( d, buf, 0 );
-            }
-            write_to_buffer( d, "\n\r     Constitution :", 0 );
-            for ( x = 0; x < 5; x++ )
-            {
-                stat5[x] =
-                    roll_stat( pc_race_table[ch->race].stats[4],
-                               pc_race_table[ch->race].max_stats[4] );
-                sprintf( buf, "   %2d", stat5[x] );
-                write_to_buffer( d, buf, 0 );
-            }
-            write_to_buffer( d,
-                             "\n\r\n\r     Press enter to roll again, else enter number of column: ",
-                             0 );
-            rolled = TRUE;
+            sprintf( buf, "Please enter a column number 1 - %i: ", NUM_ROLLS );
+            write_to_buffer( d, buf, 0 );
+            break;
         }
         break;
 
@@ -2358,13 +2290,14 @@ check_ban function.
         break;
 
     case CON_DEFAULT_CHOICE:
-        write_to_buffer( d, "\n\r", 2 );
+        //write_to_buffer( d, "\n\r", 2 );
         switch ( argument[0] )
         {
         case 'y':
         case 'Y':
             ch->gen_data = alloc_perm( sizeof( *ch->gen_data ) );
             ch->gen_data->points_chosen = ch->pcdata->points;
+            write_to_buffer( d, "\n\r", 2 );
             do_help( ch, "group header" );
             list_group_costs( ch );
             write_to_buffer( d, "You already have the following skills:\n\r",
@@ -2387,7 +2320,7 @@ check_ban function.
         break;
 
     case CON_GEN_GROUPS:
-        send_to_char( "\n\r", ch );
+        //send_to_char( "\n\r", ch );
         if ( !str_cmp( argument, "done" ) ) /* !str_cmp( s1, s2 ) mean s1 *is* equal to s2 */
         {
             /*if ( ch->pcdata->points < CP_MIN_CREATE )
@@ -2420,7 +2353,7 @@ check_ban function.
             d->connected = CON_READ_MOTD;
             break;
         }
-
+        send_to_char( "\n\r", ch );
         if ( !parse_gen_groups( ch, argument ) )
             send_to_char
                 ( "Invalid choice\n\r",
@@ -3595,6 +3528,8 @@ char *doparseprompt( CHAR_DATA * ch )
             break;
         }
     }
+    if ( ch->desc != NULL && ch->desc->tintin )
+        strcat ( finished_prompt, "`w\n\r`w" );
     return ( finished_prompt );
 }
 
@@ -3628,7 +3563,7 @@ int roll_stat( int base_bonus, int stat_max )
 void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
 {
     int max_len = 0,x=0,i,race;
-    write_to_buffer( d, "The following races are available:\n\r", 0 );
+    write_to_buffer( d, "\n\rThe following races are available:\n\r", 0 );
     // Compute the max length of race here
     for ( race = 1; race_table[race].name != NULL; race++ )
     {
@@ -3653,6 +3588,8 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
                 write_to_buffer( d, "\n\r", 2 );
                 x = 0;
             }
+            if ( x == 0 )
+                write_to_buffer( d, "   ", 3 );
             write_to_buffer( d, race_table[race].name, 0 );
             for ( i=0 ; i+strlen(race_table[race].name) < max_len + 3; i++)
                 write_to_buffer( d, " ", 1 );
@@ -3676,4 +3613,48 @@ void motd( CHAR_DATA * ch )
     do_help( ch, "motd" );
     if ( d -> tintin )
         write_to_buffer( d, "\n\r\n\r", 4 );
+}
+
+void roll_stats( CHAR_DATA * ch, int penalty )
+{
+    int i,n;
+    for ( n = 0; n < NUM_ROLLS; n++ )
+    {
+        for ( i = 0; i < 5; i++ )
+        {
+            stat[i][n] = roll_stat( pc_race_table[ch->race].stats[i],
+                                   pc_race_table[ch->race].max_stats[i] -
+                                   penalty );
+        }
+    }
+    return;
+}
+
+
+void show_stats( DESCRIPTOR_DATA * d )
+{
+    char buf[MAX_STRING_LENGTH];
+    int x, i;
+    strcpy( buf, "                     " );
+    for ( i = 0; i < NUM_ROLLS; i++)
+    {
+        sprintf(buf+strlen(buf),"%2d   ",i+1);
+    }
+    strcat( buf, "\n\r" );    
+    write_to_buffer( d, buf, 0 );
+    strcpy( buf, "   ---------------" );
+    for ( i = 0; i < NUM_ROLLS; i++ )
+        strcat( buf, "-----" );
+    strcat( buf, "\n\r" );
+    write_to_buffer( d, buf, 0 );
+    for ( x = 0; x < 5; x++ )
+    {
+        sprintf( buf, "   %s", stat_names[x] );
+        lengthen( buf, 18 );
+        strcat( buf, ": " );
+        for ( i = 0; i < NUM_ROLLS; i++ )
+            sprintf( buf+strlen(buf), " %2d |", stat[x][i] );
+        sprintf( buf+strlen(buf)-1, "\n\r" );
+        write_to_buffer( d, buf, 0 );
+    }
 }
