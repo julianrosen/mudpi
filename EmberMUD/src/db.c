@@ -106,7 +106,7 @@ sh_int gsn_rescue;
 sh_int gsn_second_attack;
 sh_int gsn_third_attack;
 sh_int gsn_fourth_attack;
-sh_int gsn_vicious_strike; /* Added by JR */
+sh_int gsn_critical_hit; /* Added by JR */
 
 sh_int gsn_blindness;
 sh_int gsn_charm_person;
@@ -443,13 +443,11 @@ void copyover_recover( void )
         fscanf( fp, "%d %s %s %d %d %d\n", &desc, name, host, &editor, &vnum, &tintin );
         if ( desc == -1 )
             break;
-        printf("recover, name: %s",name);
 
         /* Write something, and check if it goes error-free */
         sprintf( buf, "A deja vu is a glitch in the matrix. `Y%s has changed something.`w\n\r", actor );
         if ( !write_to_descriptor( desc, buf, strlen(buf), TRUE ) )
         {
-            printf("Closing...\n");
             close( desc );      /* nope */
             continue;
         }

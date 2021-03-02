@@ -970,7 +970,7 @@ extern sh_int gsn_peek;
 extern sh_int gsn_pick_lock;
 extern sh_int gsn_sneak;
 extern sh_int gsn_steal;
-extern sh_int gsn_vicious_strike;
+extern sh_int gsn_critical_hit;
 
 extern sh_int gsn_disarm;
 extern sh_int gsn_enhanced_damage;

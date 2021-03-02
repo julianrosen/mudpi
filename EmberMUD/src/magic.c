@@ -4599,7 +4599,7 @@ void spell_ice_ray( int sn, int level, CHAR_DATA * ch, void *vo )
     AFFECT_DATA af;
     int dam;
 
-    dam = dice( level, 10 ); // JR: Reduced from 12 to 10 (ice ray was totally OP)
+    dam = dice( level, 11 ); // JR: Reduced from 12 to 11
 
     act( "A blue ray from $n's hand strikes $N.", ch, NULL, victim,
          TO_NOTVICT );

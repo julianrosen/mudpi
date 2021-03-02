@@ -1759,7 +1759,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
     static char gatsby_text[400000], *gatsby_head;
     static bool initialized = FALSE;
     char buf[MAX_STRING_LENGTH],*bufp,c;
-    int count;
+    int count, random;
     if ( !IS_NPC( ch ) )
     {
         command_not_found( ch );
@@ -1787,6 +1787,19 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
         *bufp = '\0';
         gatsby_head = gatsby_text;
         initialized = TRUE;
+        
+        // Choose a random start page
+        random = number_range( 1, 6000 );
+        for ( count = 0; count < random; count++ )
+        {
+            while ( *(gatsby_head++) != '\n' )
+            {
+                if ( *gatsby_head == '\0' )
+                    break;
+            }
+            if ( *gatsby_head == '\0' )
+                break;
+        }
     }
     
     
