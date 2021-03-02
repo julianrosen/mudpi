@@ -1935,10 +1935,10 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
 
 /* Added by JR */
     {
-     "vicious strike", {90, 90, 60, 10, 24, 24, 90, 90},
+     "critical hit", {90, 90, 60, 10, 24, 24, 90, 90},
      {0, 0, 10, 4, 6, 6, 0, 0}, spell_null, TAR_IGNORE,
-     POS_STANDING, &gsn_vicious_strike, SLOT( 0 ), 0, 0,
-     "", "!Vicious!"},
+     POS_STANDING, &gsn_critical_hit, SLOT( 0 ), 0, 0,
+     "", "!Critical!"},
     
     {
      "nexus", {45, 93, 93, 93, 93, 93, 93, 45},
