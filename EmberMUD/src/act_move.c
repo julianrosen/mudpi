@@ -226,8 +226,15 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
             {
                 if ( !IS_SET(to_room->room_flags, GUILD_ROOMS[ch->Class]) )
                 {
-                    send_to_char( "You class is not allowed in there.\n\r", ch );
-                    return;
+                    if ( ch->level < LEVEL_ADMIN )
+                    {
+                        send_to_char( "You class is not allowed in there.\n\r", ch );
+                        return;
+                    }
+                    else
+                    {
+                        send_to_char( "You are entering a class-restricted room.\n\r", ch );
+                    }
                 }
                 else
                     break;
@@ -825,7 +832,7 @@ void do_unlock( CHAR_DATA * ch, char *argument )
         }
         
 
-        SET_BIT( pexit->exit_info, EX_LOCKED );
+        REMOVE_BIT( pexit->exit_info, EX_LOCKED );
         act( "*Click* You unlock the $d.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
         act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
 
@@ -834,7 +841,7 @@ void do_unlock( CHAR_DATA * ch, char *argument )
              && ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
              && pexit_rev->u1.to_room == ch->in_room )
         {
-            SET_BIT( pexit_rev->exit_info, EX_LOCKED );
+            REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
         }
     }
     else
