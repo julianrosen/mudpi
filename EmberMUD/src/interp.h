@@ -364,6 +364,7 @@ DECLARE_DO_FUN( do_mpfrenchtaunter ); // JR from Mudweiser
 DECLARE_DO_FUN( do_mpreadgatsby ); // JR
 DECLARE_DO_FUN( do_mpcycle ); // JR
 DECLARE_DO_FUN( do_mpdefault );
+DECLARE_DO_FUN( do_cure ); // JR
 DECLARE_DO_FUN( do_chaos );
 DECLARE_DO_FUN( do_cwho );
 DECLARE_DO_FUN( do_alias );

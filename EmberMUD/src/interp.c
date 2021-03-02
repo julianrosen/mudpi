@@ -477,6 +477,9 @@ const struct cmd_type cmd_table[] = {
     {"mpreadgatsby", do_mpreadgatsby, POS_DEAD, 0, LOG_NORMAL, 0}, // JR
     {"mpfrenchtaunter", do_mpfrenchtaunter, POS_DEAD, 0, LOG_NORMAL, 0}, // JR, from Mudweiser
     {"mpcycle", do_mpcycle, POS_DEAD, 0, LOG_NORMAL, 0}, // JR
+    
+    
+    {"cure", do_cure, POS_DEAD, 1, LOG_ALWAYS, 1}, // JR
     /*
      * End of list.
      */

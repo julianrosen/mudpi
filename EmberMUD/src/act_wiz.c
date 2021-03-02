@@ -6157,3 +6157,35 @@ void do_shell( CHAR_DATA * ch, char *argument )
 }
 #endif
 #endif
+
+
+// JR
+void do_cure( CHAR_DATA * ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+        victim = ch;
+    else if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    {
+        send_to_char( "They aren't here.\n\r", ch );
+        return;
+    }
+    
+    victim->hit = victim->max_hit;
+    victim->mana = victim->max_mana;
+    victim->move = victim->max_move;
+    if ( victim == ch )
+    {
+        act( "Your hp, mana, and move points have been restored.", ch, NULL, victim, TO_CHAR );
+    }
+    else
+    {
+        act( "You have restores $N's hp, mana, and move points.", ch, NULL, victim, TO_CHAR );
+        act( "$n has restored your hp, mana, and move points.", ch, NULL, victim, TO_VICT );
+    }
+    return;
+}
