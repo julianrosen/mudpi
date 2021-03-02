@@ -24,7 +24,6 @@
 
 #define MAX_DAMAGE_MESSAGE 35
 
-
 /* Make it easy to modify combat color scheme */
 #define MISS     "`b" // Color for hits that miss
 #define ENEMY    "`M" // Color for hits against you
@@ -33,6 +32,42 @@
 #define Yd       "`g" // Color for damage by you
 #define THIRD    "`Y" // Color for third party hits
 #define Td       "`y" // Color for third party damage
+
+
+// JR: Damage messages
+#ifdef EXTRA_DAMAGE_MSGS
+const char * const dam_v[] = { CFG_DAM0, CFG_DAM2, CFG_DAM5, CFG_DAM10, CFG_DAM15, CFG_DAM25, CFG_DAM30,
+                             CFG_DAM35, CFG_DAM45, CFG_DAM50, CFG_DAM55, CFG_DAM65, CFG_DAM70, CFG_DAM75,
+                             CFG_DAM85, CFG_DAM90, CFG_DAM95, CFG_DAM105, CFG_DAM110, CFG_DAM115, CFG_DAM125,
+                             CFG_DAM130, CFG_DAM135, CFG_DAM145, CFG_DAM150, CFG_DAM155, CFG_DAM165, CFG_DAM170,
+                             CFG_DAM175, CFG_DAM185, CFG_DAM190, CFG_DAM195, CFG_DAM200, CFG_DAM205, CFG_DAM215,
+                             CFG_DAM220, CFG_DAM225, CFG_DAM230, CFG_DAM235, CFG_DAM245, CFG_DAM250, CFG_DAM255,
+                             CFG_DAM265, CFG_DAM270, CFG_DAM275, CFG_DAM285, CFG_DAM290, CFG_DAM295, CFG_DAM300,
+                             CFG_DAM_HUGE };
+const char * const dam_vs[] = { CFG_DAM0S, CFG_DAM2S, CFG_DAM5S, CFG_DAM10S, CFG_DAM15S, CFG_DAM25S, CFG_DAM30S,
+                             CFG_DAM35S, CFG_DAM45S, CFG_DAM50S, CFG_DAM55S, CFG_DAM65S, CFG_DAM70S, CFG_DAM75S,
+                             CFG_DAM85S, CFG_DAM90S, CFG_DAM95S, CFG_DAM105S, CFG_DAM110S, CFG_DAM115S, CFG_DAM125S,
+                             CFG_DAM130S, CFG_DAM135S, CFG_DAM145S, CFG_DAM150S, CFG_DAM155S, CFG_DAM165S, CFG_DAM170S,
+                             CFG_DAM175S, CFG_DAM185S, CFG_DAM190S, CFG_DAM195S, CFG_DAM200S, CFG_DAM205S, CFG_DAM215S,
+                             CFG_DAM220S, CFG_DAM225S, CFG_DAM230S, CFG_DAM235S, CFG_DAM245S, CFG_DAM250S, CFG_DAM255S,
+                             CFG_DAM265S, CFG_DAM270S, CFG_DAM275S, CFG_DAM285S, CFG_DAM290S, CFG_DAM295S, CFG_DAM300S,
+                             CFG_DAM_HUGES };
+const int * dam_threshold[] = { 0, 2, 5, 10, 15, 25, 30, 35, 45, 50, 55, 65, 70, 75, 85, 90, 95, 105, 110, 115, 125,
+                              130, 135, 145, 150, 155, 165, 170, 175, 185, 190, 195, 200, 205, 215, 220, 225, 230,
+                              235, 245, 250, 255, 265, 270, 275, 285, 290, 295, 300};
+#else
+const char * const dam_v[] = { CFG_DAM0, CFG1_DAM2, CFG1_DAM4, CFG1_DAM6, CFG1_DAM8, CFG1_DAM10, CFG1_DAM12,
+                              CFG1_DAM14, CFG1_DAM16, CFG1_DAM18, CFG1_DAM20, CFG1_DAM22, CFG1_DAM24, CFG1_DAM26,
+                              CFG1_DAM28, CFG1_DAM30, CFG1_DAM37, CFG1_DAM50, CFG1_DAM63, CFG1_DAM75, CFG1_DAM83,
+                              CFG1_DAM93, CFG1_DAM_HUGE };
+const char * const dam_vs[] = { CFG_DAM0S, CFG1_DAM2S, CFG1_DAM4S, CFG1_DAM6S, CFG1_DAM8S, CFG1_DAM10S, 
+                               CFG1_DAM12S, CFG1_DAM14S, CFG1_DAM16S, CFG1_DAM18S, CFG1_DAM20S, CFG1_DAM22S,
+                               CFG1_DAM24S, CFG1_DAM26S, CFG1_DAM28S, CFG1_DAM30S, CFG1_DAM37S, CFG1_DAM50S,
+                               CFG1_DAM63S, CFG1_DAM75S, CFG1_DAM83S, CFG1_DAM93S, CFG1_DAM_HUGES };
+const int * dam_threshold[] = { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 37, 50, 63, 75, 83, 93 };
+#endif
+const int num_dam_messages = sizeof(dam_threshold) / sizeof(dam_threshold[0]);
+
 
 
 /* command procedures needed */
@@ -677,34 +712,6 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
     else
     {
         
-        /* Added by JR */
-        if ( dt >= TYPE_HIT && ch != victim && get_skill( ch, gsn_vicious_strike ) > 0 && !IS_NPC( ch ) && dam > 0 )
-        {
-            int diceroll = number_percent( );
-            if ( 5*diceroll + 38 <= get_skill( ch, gsn_vicious_strike ) )
-            {
-                check_improve( ch, gsn_vicious_strike, TRUE, 5 );
-                if ( dice( 1, 10 ) == 1 )
-                {
-                    dam += dam * 2;
-                    while ( dice( 1, 2) == 1 )
-                        dam = (4*dam) / 3;
-                    act( "`w$N viciously strikes at you. It's `RHORRIBLE!`w", victim, NULL, ch, TO_CHAR );
-                    act( "`wYou viciously strike at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_VICT );
-                    act( "`w$N viciously strikes at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_NOTVICT );
-                    /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
-                }
-                else
-                {
-                    dam += dam / 3 * UMIN( dice( 1, ch->level / 7 ), 5);
-                    act( "`w$N viciously strikes at you!", victim, NULL, ch, TO_CHAR );
-                    act( "`wYou viciously strike at $n!", victim, NULL, ch, TO_VICT );
-                    act( "`w$N viciously strikes at $n!", victim, NULL, ch, TO_NOTVICT );
-                    /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
-                }
-            }
-        }
-        
         damaged = damage( ch, victim, weapon, dam, dt, dam_type );
 
         if ( damaged && ( weapon != NULL && ch->fighting == victim ) )
@@ -718,9 +725,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                 #else
                     sprintf( dstr, "" );
                 #endif
-                sprintf( buf, "`W$p`W draws life from $n.%s", dstr);
+                sprintf( buf, "`B$p`B draws life from $n.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`WYou feel $p`W drawing your life away.%s", dstr);
+                sprintf( buf, "`BYou feel $p`B drawing your life away.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 900, DAM_NEGATIVE, FALSE ); // JR: damage->new_damage, dt 1033->0
@@ -737,9 +744,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                     sprintf( dstr, "" );
                 #endif
                 
-                sprintf( buf, "`W$n`W is burned by $p.%s", dstr);
+                sprintf( buf, "`Y$n`Y is `Rburned`Y by $p.%s", dstr);
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`W$p`W sears your flesh.%s",dstr);
+                sprintf( buf, "`Y$p`Y `Rsears`Y your flesh.%s",dstr);
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 901, DAM_FIRE, FALSE );
@@ -754,9 +761,9 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                     sprintf( dstr, "" );
                 #endif
                 
-                sprintf( buf, "`W$p`W freezes $n.%s", dstr );
+                sprintf( buf, "`B$p`B freezes $n.%s", dstr );
                 act( buf, victim, weapon, NULL, TO_ROOM );
-                sprintf( buf, "`WThe cold touch of $p`W surrounds you with ice.%s", dstr );
+                sprintf( buf, "`BThe cold touch of $p`B surrounds you with ice.%s", dstr );
                 act( buf, victim, weapon, NULL, TO_CHAR );
 
                 new_damage( ch, victim, NULL, dam, 902, DAM_COLD, FALSE );
@@ -807,11 +814,11 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
                 act( "$n's head is severed from $s body by $p!", victim, weapon,
                      NULL, TO_ROOM );
                 sprintf( buf2,
-                         "Your last feeling before you die is %s's weapon severing your head.",
+                         "Your last feeling before you die is %s's weapon severing your head.\n",
                          ( IS_NPC( ch ) ? ch->short_descr : ch->name ) );
-                send_to_char( buf, victim );    /* send_to_char used to prevent a crash */
+                send_to_char( buf2, victim );    /* send_to_char used to prevent a crash */
                 /* parts_buf is used to remove all parts of the body so the death_cry 
-                   function does not create any other body parts */
+                   function does not create any other body parts */ // JR: buf->buf2
 
                 parts_buf = victim->parts;
                 victim->parts = 0;
@@ -965,7 +972,42 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
     case ( IS_VULNERABLE ):
         dam += dam / 2;
         break;
-    }       
+    }
+    
+    /* Added by JR */
+    if ( dt >= TYPE_HIT &&
+        ch != victim &&
+        !IS_NPC( ch ) &&
+        dam > 0 )
+    {
+        int diceroll = dice( 1, 1000 ); // JR: usually 1000
+        if ( 4*diceroll + 625 <= 10*get_skill( ch, gsn_critical_hit ))
+        {
+            check_improve( ch, gsn_critical_hit, TRUE, 5 );
+            if ( dice( 1, 10 ) == 1 )
+            {
+                dam += 2 * dam;
+                while ( dice( 1, 2) == 1 )
+                    dam = (4*dam) / 3;
+                act( "`WCritical hit! It's `RHORRIBLE!`w", victim, NULL, ch, TO_ROOM );
+                /*
+                act( "`w$N viciously strikes at you. It's `RHORRIBLE!`w", victim, NULL, ch, TO_CHAR );
+                act( "`wYou viciously strike at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_VICT );
+                act( "`w$N viciously strikes at $n. It's `RHORRIBLE!`w", victim, NULL, ch, TO_NOTVICT );*/
+                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+            }
+            else
+            {
+                dam += dam / 3 * UMIN( dice( 1, ch->level / 7 ), 5);
+                act( "`WCritical hit!`w", victim, NULL, ch, TO_ROOM );
+                /*
+                act( "`w$N viciously strikes at you!", victim, NULL, ch, TO_CHAR );
+                act( "`wYou viciously strike at $n!", victim, NULL, ch, TO_VICT );
+                act( "`w$N viciously strikes at $n!", victim, NULL, ch, TO_NOTVICT );*/
+                /*send_to_char( "`cVicious strike!`w\n\r", ch );*/
+            }
+        }
+    }
     
     if ( !gsilentdamage )
         dam_message( ch, victim, dam, dt, immune );
@@ -1131,8 +1173,18 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
 
             if ( IS_SET( ch->act, PLR_AUTOGOLD ) && corpse && corpse->contains &&   /* exists and not empty */
                  !IS_SET( ch->act, PLR_AUTOLOOT ) )
-                do_get( ch, "all.gold corpse" );
-
+            {
+                // JR: check if there is any gold before looting it
+                OBJ_DATA *incorpse;
+                for ( incorpse = corpse->contains; incorpse; incorpse = incorpse->next_content )
+                {
+                    if ( is_name( "gold", incorpse->name ) )
+                    {
+                        do_get( ch, "all.gold corpse" ); 
+                        break;
+                    }
+                }
+            }
             if ( IS_SET( ch->act, PLR_AUTOSAC ) )
             {
                 if ( IS_SET( ch->act, PLR_AUTOLOOT ) && corpse
@@ -1185,334 +1237,13 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
 bool new_damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
                  int dt, int dam_type, bool show )
 {
-    char buf[MAX_STRING_LENGTH];
-    OBJ_DATA *corpse;
-    bool immune;
-    extern bool chaos;
-    int chaos_points;
-
-    if ( victim->position == POS_DEAD )
-        return FALSE;
-
-    /*
-     * Stop up any residual loopholes.
-     */
-    if ( dam > MAX_MORTAL_WEAPON_DAMAGE && !IS_IMMORTAL( ch ) && !IS_NPC( ch ) )
-    {
-        bug( "Damage: %s: more than %d points!", ch->name,
-             MAX_MORTAL_WEAPON_DAMAGE );
-        dam = 0;
-
-        if ( weapon )
-            extract_obj( weapon );
-
-        send_to_char( "You really shouldn't cheat.\n\r", ch );
-        return FALSE;
-    }
-
-    if ( victim != ch )
-    {
-        /*
-         * Certain attacks are forbidden.
-         * Most other attacks are returned.
-         */
-        if ( is_safe( ch, victim ) )
-            return FALSE;
-        check_killer( ch, victim );
-
-        if ( victim->position > POS_STUNNED )
-        {
-            if ( victim->fighting == NULL )
-                set_fighting( victim, ch );
-            if ( victim->timer <= 4 )
-                victim->position = POS_FIGHTING;
-        }
-
-        if ( victim->position > POS_STUNNED )
-        {
-            if ( ch->fighting == NULL )
-                set_fighting( ch, victim );
-
-            /*
-             * If victim is charmed, ch might attack victim's master.
-             */
-            if ( IS_NPC( ch )
-                 && IS_NPC( victim )
-                 && IS_AFFECTED( victim, AFF_CHARM )
-                 && victim->master != NULL
-                 && victim->master->in_room == ch->in_room
-                 && number_bits( 3 ) == 0 )
-            {
-                stop_fighting( ch, FALSE );
-                multi_hit( ch, victim->master, TYPE_UNDEFINED );
-                return FALSE;
-            }
-        }
-
-        /*
-         * More charm stuff.
-         */
-        if ( victim->master == ch )
-            stop_follower( victim );
-    }
-
-    /*
-     * Inviso attacks ... not.
-     */
-    if ( IS_AFFECTED( ch, AFF_INVISIBLE ) )
-    {
-        affect_strip( ch, gsn_invis );
-        affect_strip( ch, gsn_mass_invis );
-        REMOVE_BIT( ch->affected_by, AFF_INVISIBLE );
-        act( "`K$n fades into existence.`w", ch, NULL, NULL, TO_ROOM );
-    }
-
-    /*
-     * Damage modifiers.
-     */
-    if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
-        dam /= 2;
-
-    if ( IS_AFFECTED( victim, AFF_PROTECT ) && IS_EVIL( ch ) )
-        dam -= dam / 4;
-
-    immune = FALSE;
-
-    /*
-     * Check for parry, and dodge.
-     */
-    if ( dt >= TYPE_HIT && ch != victim )
-    {
-        if ( check_block( ch, victim ) )
-            return FALSE;
-        if ( check_parry( ch, victim ) )
-            return FALSE;
-        if ( check_dodge( ch, victim ) )
-            return FALSE;
-    }
-
-    if ( weapon && dam > 0 )
-        oprog_hit_trigger( ch, victim, weapon );
-
-    switch ( check_immune( victim, dam_type ) )
-    {
-    case ( IS_IMMUNE ):
-        immune = TRUE;
-        dam = 0;
-        break;
-    case ( IS_RESISTANT ):
-        dam -= dam / 3;
-        break;
-    case ( IS_VULNERABLE ):
-        dam += dam / 2;
-        break;
-    }
-
-    if ( show )
-        dam_message( ch, victim, dam, dt, immune );
-
-    if ( dam == 0 )
-        return FALSE;
-
-    /* Ok, give the ch xp for his hit and add to ch->exp_stack */
-    if ( ( !IS_NPC( ch ) ) && ( victim != ch ) )    /* not NPCs, and no xp for hitting self */
-    {
-        int xp = 0;
-        int members = 0;
-        int group_levels = 0;
-        CHAR_DATA *gch;
-
-        for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-        {
-            if ( is_same_group( gch, ch ) )
-            {
-                members++;
-                group_levels += gch->level;
-            }
-        }
-
-        xp = hit_xp_compute( ch, victim, group_levels, members,
-                             UMIN( dam, victim->hit + 20 ) );
-        ch->exp_stack += xp;
-        gain_exp( ch, xp );
-    }
-
-    /*
-     * Hurt the victim.
-     * Inform the victim of his new state.
-     */
-    victim->hit -= dam;
-    if ( !IS_NPC( victim )
-         && victim->level >= LEVEL_IMMORTAL && victim->hit < 1 )
-        victim->hit = 1;
-    update_pos( victim );
-
-    switch ( victim->position )
-    {
-    case POS_MORTAL:
-        act( "`R$n is mortally wounded, and will die soon, if not aided.`w",
-             victim, NULL, NULL, TO_ROOM );
-        send_to_char
-            ( "`RYou are mortally wounded, and will die soon, if not aided.\n\r`w",
-              victim );
-        break;
-
-    case POS_INCAP:
-        act( "`R$n is incapacitated and will slowly die, if not aided.`w",
-             victim, NULL, NULL, TO_ROOM );
-        send_to_char
-            ( "`RYou are incapacitated and will slowly die, if not aided.\n\r`w",
-              victim );
-        break;
-
-    case POS_STUNNED:
-        act( "`R$n is stunned, but will probably recover.`w",
-             victim, NULL, NULL, TO_ROOM );
-        send_to_char( "`RYou are stunned, but will probably recover.\n\r`w",
-                      victim );
-        break;
-
-    case POS_DEAD:
-        rprog_death_trigger( victim );
-        mprog_death_trigger( victim );
-        act( "`M$n is DEAD!!`w", victim, 0, 0, TO_ROOM );
-        send_to_char( "`RYou have been KILLED!!\n\r\n\r`w", victim );
-        break;
-
-    default:
-        if ( dam > victim->max_hit / 4 )
-            send_to_char( "`RThat really did HURT`R!\n\r`w", victim );
-        if ( victim->hit < victim->max_hit / 4 )
-            send_to_char( "`RYou sure are BLEEDING`R!\n\r`w", victim );
-        break;
-    }
-
-    /*
-     * Sleep spells and extremely wounded folks.
-     */
-    if ( !IS_AWAKE( victim ) )
-        stop_fighting( victim, FALSE );
-
-    /*
-     * Payoff for killing things.
-     */
-    if ( victim->position == POS_DEAD )
-    {
-        group_gain( ch, victim );
-
-        if ( !IS_NPC( victim ) )
-        {
-            sprintf( log_buf, "%s killed by %s at %d",
-                     victim->name,
-                     ( IS_NPC( ch ) ? ch->short_descr : ch->name ),
-                     victim->in_room->vnum );
-            log_string( log_buf );
-            if ( !IS_IMMORTAL( ch ) )
-            {
-                free_string( &victim->pcdata->nemesis );
-                victim->pcdata->nemesis =
-                    str_dup( IS_NPC( ch ) ? ch->short_descr : ch->name );
-            }
-
-            /*
-             * Dying penalty:
-             * 1/2 way back to previous level.
-             */
-            if ( !chaos && victim->exp > 0 && IS_NPC( ch ) )
-                gain_exp( victim, -1 * ( victim->exp / 2 ) );
-        }
-        if ( chaos )
-        {
-            chaos_points = 0;
-
-            if ( ch->level < victim->level )
-                chaos_points = 2 * ( victim->level - ch->level );
-
-            chaos_points = chaos_points + victim->level;
-            ch->pcdata->chaos_score = chaos_points;
-        }
-
-        if ( !IS_NPC( victim ) )
-        {
-            sprintf( buf, "%s has been slain by %s!", victim->name,
-                     IS_NPC( ch ) ? ch->short_descr : ch->name );
-            do_sendinfo( ch, buf );
-        }
-
-        if ( chaos && !IS_NPC( victim ) )
-            chaos_kill( victim );
-        else if ( !( !IS_NPC( victim ) && !IS_NPC( ch ) ) )
-            raw_kill( victim );
-        else
-        {
-            pk_kill( victim );
-            if ( !IS_IMMORTAL( ch ) )
-            {
-                victim->pcdata->pk_deaths++;
-                ch->pcdata->pk_kills++;
-            }
-        }
-
-        /* RT new auto commands */
-
-        if ( !IS_NPC( ch ) && IS_NPC( victim ) )
-        {
-            corpse = get_obj_list( ch, "corpse", ch->in_room->contents );
-
-            if ( IS_SET( ch->act, PLR_AUTOLOOT ) && corpse && corpse->contains )    /* exists and not empty */
-                do_get( ch, "all corpse" );
-
-            if ( IS_SET( ch->act, PLR_AUTOGOLD ) && corpse && corpse->contains &&   /* exists and not empty */
-                 !IS_SET( ch->act, PLR_AUTOLOOT ) )
-                do_get( ch, "all.gold corpse" );
-
-            if ( IS_SET( ch->act, PLR_AUTOSAC ) )
-            {
-                if ( IS_SET( ch->act, PLR_AUTOLOOT ) && corpse
-                     && corpse->contains )
-                    return TRUE;    /* leave if corpse has treasure */
-                else
-                    do_sacrifice( ch, "corpse" );
-            }
-        }
-
-        return TRUE;
-    }
-
-    if ( victim == ch )
-        return TRUE;
-
-    /*
-     * Take care of link dead people.
-     */
-    if ( !IS_NPC( victim ) && victim->desc == NULL )
-    {
-        if ( number_range( 0, victim->wait ) == 0 )
-        {
-            do_recall( victim, "" );
-            return TRUE;
-        }
-    }
-
-    /*
-     * Wimp out?
-     */
-    if ( IS_NPC( victim ) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2 )
-    {
-        if ( ( IS_SET( victim->act, ACT_WIMPY ) && number_bits( 2 ) == 0
-               && victim->hit < victim->max_hit / 5 )
-             || ( IS_AFFECTED( victim, AFF_CHARM ) && victim->master != NULL
-                  && victim->master->in_room != victim->in_room ) )
-            do_flee( victim, "" );
-    }
-
-    if ( !IS_NPC( victim )
-         && victim->hit > 0
-         && victim->hit <= victim->wimpy && victim->wait < PULSE_VIOLENCE / 2 )
-        do_flee( victim, "" );
-
-    tail_chain(  );
-    return TRUE;
+    // JR: Sneaky...
+    bool a,b;
+    a = gsilentdamage;
+    gsilentdamage = show ? FALSE : TRUE;
+    b = damage( ch, victim, weapon, dam, dt, dam_type);
+    gsilentdamage = a;
+    return b;
 }
 
 bool vorpal_kill( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
@@ -1594,6 +1325,7 @@ bool vorpal_kill( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
     /* dam changed to max_hit to get a neat damage message */
     dam = victim->max_hit;
     dam_message( ch, victim, dam, dt, FALSE );
+    
 
     if ( dam == 0 )
         return FALSE;
@@ -3755,414 +3487,40 @@ int cast_xp_compute( CHAR_DATA * gch, CHAR_DATA * victim, int total_levels,
 void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
                   bool immune )
 {
-    char buf1[256], buf2[256], buf3[256];
-    char buf[3][256]; // JR
-    const char *vs;
-    const char *vp;
+    // Rewritten by JR
+    char buf[3][256];
+    char subject[3][200], *verb[3], object[3][200], dstr[15];
+    char *col[3] = { YOU, ENEMY, THIRD }, *dcol[3] = { Yd, Ed, Td };
+    const char *v, *vs;
     const char *attack;
     char punct;
-    int damp;
-
+    int damp, n, dam_index;
+    
+    damp = ( dam * 100 / victim->max_hit );
+    
+    
+    
 #ifdef EXTRA_DAMAGE_MSGS
-    damp = ( dam * 100 / victim->max_hit ); /* Calculate percentage
-                                               for punctuation -Lancelight */
-    if ( dam == 0 )
-    {
-        vs = CFG_DAM0;
-        vp = CFG_DAM0S;
-    }
-    else if ( dam <= 2 )
-    {
-        vs = CFG_DAM2;
-        vp = CFG_DAM2S;
-    }
-    else if ( dam <= 5 )
-    {
-        vs = CFG_DAM5;
-        vp = CFG_DAM5S;
-    }
-    else if ( dam <= 10 )
-    {
-        vs = CFG_DAM10;
-        vp = CFG_DAM10S;
-    }
-    else if ( dam <= 15 )
-    {
-        vs = CFG_DAM15;
-        vp = CFG_DAM15S;
-    }
-    else if ( dam <= 25 )
-    {
-        vs = CFG_DAM25;
-        vp = CFG_DAM25S;
-    }
-    else if ( dam <= 30 )
-    {
-        vs = CFG_DAM30;
-        vp = CFG_DAM30S;
-    }
-    else if ( dam <= 35 )
-    {
-        vs = CFG_DAM35;
-        vp = CFG_DAM35S;
-    }
-    else if ( dam <= 45 )
-    {
-        vs = CFG_DAM45;
-        vp = CFG_DAM45S;
-    }
-    else if ( dam <= 50 )
-    {
-        vs = CFG_DAM50;
-        vp = CFG_DAM50S;
-    }
-    else if ( dam <= 55 )
-    {
-        vs = CFG_DAM55;
-        vp = CFG_DAM55S;
-    }
-    else if ( dam <= 65 )
-    {
-        vs = CFG_DAM65;
-        vp = CFG_DAM65S;
-    }
-    else if ( dam <= 70 )
-    {
-        vs = CFG_DAM70;
-        vp = CFG_DAM70S;
-    }
-    else if ( dam <= 75 )
-    {
-        vs = CFG_DAM75;
-        vp = CFG_DAM75S;
-    }
-    else if ( dam <= 85 )
-    {
-        vs = CFG_DAM85;
-        vp = CFG_DAM85S;
-    }
-    else if ( dam <= 90 )
-    {
-        vs = CFG_DAM90;
-        vp = CFG_DAM90S;
-    }
-    else if ( dam <= 95 )
-    {
-        vs = CFG_DAM95;
-        vp = CFG_DAM95S;
-    }
-    else if ( dam <= 105 )
-    {
-        vs = CFG_DAM105;
-        vp = CFG_DAM105S;
-    }
-    else if ( dam <= 110 )
-    {
-        vs = CFG_DAM110;
-        vp = CFG_DAM110S;
-    }
-    else if ( dam <= 115 )
-    {
-        vs = CFG_DAM115;
-        vp = CFG_DAM115S;
-    }
-    else if ( dam <= 125 )
-    {
-        vs = CFG_DAM125;
-        vp = CFG_DAM125S;
-    }
-    else if ( dam <= 130 )
-    {
-        vs = CFG_DAM130;
-        vp = CFG_DAM130S;
-    }
-    else if ( dam <= 135 )
-    {
-        vs = CFG_DAM135;
-        vp = CFG_DAM135S;
-    }
-    else if ( dam <= 145 )
-    {
-        vs = CFG_DAM145;
-        vp = CFG_DAM145S;
-    }
-    else if ( dam <= 150 )
-    {
-        vs = CFG_DAM150;
-        vp = CFG_DAM150S;
-    }
-    else if ( dam <= 155 )
-    {
-        vs = CFG_DAM155;
-        vp = CFG_DAM155S;
-    }
-    else if ( dam <= 165 )
-    {
-        vs = CFG_DAM165;
-        vp = CFG_DAM165S;
-    }
-    else if ( dam <= 170 )
-    {
-        vs = CFG_DAM170;
-        vp = CFG_DAM170S;
-    }
-    else if ( dam <= 175 )
-    {
-        vs = CFG_DAM175;
-        vp = CFG_DAM175S;
-    }
-    else if ( dam <= 185 )
-    {
-        vs = CFG_DAM185;
-        vp = CFG_DAM185S;
-    }
-    else if ( dam <= 190 )
-    {
-        vs = CFG_DAM190;
-        vp = CFG_DAM190S;
-    }
-    else if ( dam <= 195 )
-    {
-        vs = CFG_DAM195;
-        vp = CFG_DAM195S;
-    }
-    else if ( dam <= 200 )
-    {
-        vs = CFG_DAM200;
-        vp = CFG_DAM200S;
-    }
-    else if ( dam <= 205 )
-    {
-        vs = CFG_DAM205;
-        vp = CFG_DAM205S;
-    }
-    else if ( dam <= 215 )
-    {
-        vs = CFG_DAM215;
-        vp = CFG_DAM215S;
-    }
-    else if ( dam <= 220 )
-    {
-        vs = CFG_DAM220;
-        vp = CFG_DAM220S;
-    }
-    else if ( dam <= 225 )
-    {
-        vs = CFG_DAM225;
-        vp = CFG_DAM225S;
-    }
-    else if ( dam <= 230 )
-    {
-        vs = CFG_DAM230;
-        vp = CFG_DAM230S;
-    }
-    else if ( dam <= 235 )
-    {
-        vs = CFG_DAM235;
-        vp = CFG_DAM235S;
-    }
-    else if ( dam <= 245 )
-    {
-        vs = CFG_DAM245;
-        vp = CFG_DAM245S;
-    }
-    else if ( dam <= 250 )
-    {
-        vs = CFG_DAM250;
-        vp = CFG_DAM250S;
-    }
-    else if ( dam <= 255 )
-    {
-        vs = CFG_DAM255;
-        vp = CFG_DAM255S;
-    }
-    else if ( dam <= 265 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 270 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 270 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 275 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 285 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 290 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 295 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else if ( dam <= 300 )
-    {
-        vs = CFG_DAM265;
-        vp = CFG_DAM265S;
-    }
-    else
-    {
-        vs = CFG_DAM_HUGE;
-        vp = CFG_DAM_HUGES;
-    }
-
-    punct = ( damp <= 24 ) ? '.' : '!';
-
+    dam_index = dam;
 #else
 #ifdef DAMAGE_BY_AMOUNT
-    damp = dam * 2;
+    dam_index = dam * 2;
 #else
-    damp = ( dam * 100 / victim->max_hit );
+    dam_index = UMAX( dam * 100 / victim->max_hit , 1 );
 #endif
-
+#endif
     if ( dam == 0 )
+        dam_index = 0;
+    for ( n = 0; n < num_dam_messages; n++ )
     {
-        vs = CFG_DAM0;
-        vp = CFG_DAM0S;
+        if ( dam_index <= dam_threshold[n] )
+            break;
     }
-    else if ( damp <= 2 )
-    {
-        vs = CFG1_DAM2;
-        vp = CFG1_DAM2S;
-    }
-    else if ( damp <= 4 )
-    {
-        vs = CFG1_DAM4;
-        vp = CFG1_DAM4S;
-    }
-    else if ( damp <= 6 )
-    {
-        vs = CFG1_DAM6;
-        vp = CFG1_DAM6S;
-    }
-    else if ( damp <= 8 )
-    {
-        vs = CFG1_DAM8;
-        vp = CFG1_DAM8S;
-    }
-    else if ( damp <= 10 )
-    {
-        vs = CFG1_DAM10;
-        vp = CFG1_DAM10S;
-    }
-    else if ( damp <= 12 )
-    {
-        vs = CFG1_DAM12;
-        vp = CFG1_DAM12S;
-    }
-    else if ( damp <= 14 )
-    {
-        vs = CFG1_DAM14;
-        vp = CFG1_DAM14S;
-    }
-    else if ( damp <= 16 )
-    {
-        vs = CFG1_DAM16;
-        vp = CFG1_DAM16S;
-    }
-    else if ( damp <= 18 )
-    {
-        vs = CFG1_DAM18;
-        vp = CFG1_DAM18S;
-    }
-    else if ( damp <= 20 )
-    {
-        vs = CFG1_DAM20;
-        vp = CFG1_DAM20S;
-    }
-    else if ( damp <= 22 )
-    {
-        vs = CFG1_DAM22;
-        vp = CFG1_DAM22S;
-    }
-    else if ( damp <= 24 )
-    {
-        vs = CFG1_DAM24;
-        vp = CFG1_DAM24S;
-    }
-    else if ( damp <= 26 )
-    {
-        vs = CFG1_DAM26;
-        vp = CFG1_DAM26S;
-    }
-    else if ( damp <= 28 )
-    {
-        vs = CFG1_DAM28;
-        vp = CFG1_DAM28S;
-    }
-    else if ( damp <= 30 )
-    {
-        vs = CFG1_DAM30;
-        vp = CFG1_DAM30S;
-    }
-    else if ( damp <= 37 )
-    {
-        vs = CFG1_DAM37;
-        vp = CFG1_DAM37S;
-    }
-    else if ( damp <= 50 )
-    {
-        vs = CFG1_DAM50;
-        vp = CFG1_DAM50S;
-    }
-    else if ( damp <= 63 )
-    {
-        vs = CFG1_DAM63;
-        vp = CFG1_DAM63S;
-    }
-    else if ( damp <= 75 )
-    {
-        vs = CFG1_DAM75;
-        vp = CFG1_DAM75S;
-    }
-    else if ( damp <= 83 )
-    {
-        vs = CFG1_DAM83;
-        vp = CFG1_DAM83S;
-    }
-    else if ( damp <= 93 )
-    {
-        vs = CFG1_DAM93;
-        vp = CFG1_DAM93S;
-    }
-    else
-    {
-        vs = CFG1_DAM_HUGE;
-        vp = CFG1_DAM_HUGES;
-    }
-
+    v = dam_v[n];
+    vs = dam_vs[n];
     punct = ( damp <= 24 ) ? '.' : '!';
-#endif
     
-    
-    char subject[3][200], *verb[3], object[3][200], dstr[15];
-    char miss[3],you[3],enemy[3],third[3],yd[3],ed[3],td[3];
-    int n;
-    /* Make it easy to modify combat color scheme */
-    strcpy( miss, "`b" ); // Color for hits that miss
-    strcpy( enemy, "`M" ); // Color for hits against you
-    strcpy( ed, "`m" ); // Color for damage against you
-    strcpy( you, "`G" ); // Color for hits by you
-    strcpy( yd, "`g" ); // Color for damage by you
-    strcpy( third, "`Y" ); // Color for third party hits
-    strcpy( td, "`y" ); // Color for third party damage
-    char *col[3] = { you, enemy, third }, *dcol[3] = { yd, ed, td };
+
     
     dstr[0] = '\0';  
     
@@ -4185,27 +3543,27 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
     {
         if ( ch == victim )
         {
-            sprintf( buf[0], "%s$n is unaffected by $s own %s.`w", miss, attack );
-            sprintf( buf[1], "%sLuckily, you are immune to that.`w", miss );
+            sprintf( buf[0], "%s$n is unaffected by $s own %s.`w", MISS, attack );
+            sprintf( buf[1], "%sLuckily, you are immune to that.`w", MISS );
         }
         else
         {
-            sprintf( buf[0], "%s$N is unaffected by $n's %s!`w", miss, attack );
-            sprintf( buf[1], "%s$N is unaffected by your %s!`w", miss, attack );
-            sprintf( buf[2], "%s$n's %s is powerless against you.`w", miss, attack );
+            sprintf( buf[0], "%s$N is unaffected by $n's %s!`w", MISS, attack );
+            sprintf( buf[1], "%s$N is unaffected by your %s!`w", MISS, attack );
+            sprintf( buf[2], "%s$n's %s is powerless against you.`w", MISS, attack );
         }
     }
     else
     {
         if ( dam == 0)
-            col[0] = col[1] = col[2] = miss;
+            col[0] = col[1] = col[2] = MISS;
         
         if ( dt == TYPE_HIT )
         {
             sprintf( subject[0], "You" );
             sprintf( subject[1], "$n" );
             sprintf( subject[2], "$n" );
-            verb[0] = vs; verb[1] = vp; verb[2] = vp;
+            verb[0] = v; verb[1] = vs; verb[2] = vs;
             if ( ch == victim )
             {
                 sprintf( object[0], "yourself" );
@@ -4218,7 +3576,7 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
             sprintf( subject[0], "Your %s", attack );
             sprintf( subject[1], "$n's %s", attack );
             sprintf( subject[2], "$n's %s", attack );
-            verb[0] = verb[1] = verb[2] = vp;
+            verb[0] = verb[1] = verb[2] = vs;
             if ( ch == victim )
             {
                 strcpy( object[0], "you");
@@ -4260,227 +3618,7 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
         act( buf[1], ch, NULL, victim, TO_VICT );
         act( buf[2], ch, NULL, victim, TO_NOTVICT );
     }
-
-    return; /*
-    
-
-    
-#ifdef SHOW_DAMAGE_TO_CHARS
-    if ( dt == TYPE_HIT )
-    {
-        if ( dam > 0 )
-        {
-            // Hit yourself
-            
-            if ( ch == victim )
-            {
-                sprintf( buf1, YOU "$n `R%s" YOU " $melf%c", vp, punct ); // JR: Changed starting color from `w to `Y
-                sprintf( buf2, YOU "You `R%s" YOU " yourself%c", vs, punct );
-            }
-            else
-            {
-                sprintf( buf1, THIRD "$n `R%s" THIRD " $N for " Td "%d" THIRD " points of damage%c`w",
-                         vp, dam, punct );
-                //sprintf( buf2, "`YYou `R%s`Y $N for `R%d`Y points of damage%c",
-                         vs, dam, punct );
-                sprintf( buf2, YOU "You `R%s" YOU " $N for " Yd "%d" YOU " points of damage%c`w",
-                         vs, dam, punct );
-                sprintf( buf3, ENEMY "$n `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c`w", // Modified by JR
-                         vp, dam, punct );
-            }
-        }
-        else if ( ch == victim )
-        {
-            sprintf( buf1, MISS "$n %s $melf%c`w", vp, punct );
-            sprintf( buf2, MISS "You %s yourself%c`w", vs, punct );
-        }
-        else
-        {
-            // dam == 0
-            
-            //sprintf( buf1, "`B$n %s`B $N for `g%d`B points of damage%c`w", vp, // JR: `G --> `B
-            //         dam, punct );
-            //sprintf( buf2, "`BYou %s`B $N for `R%d`B points of damage%c`w", vs, // JR: `Y --> `B
-            //         dam, punct );
-            //sprintf( buf3, "`B$n %s`B you for `c%d`B points of damage%c`w", vp, // JR: `C --> `B
-            //         dam, punct ); 
-            //sprintf( buf1, MISS "$n %s" MISS " $N%c`w", vp, punct );
-            //sprintf( buf2, MISS "You %s" MISS " $N%c`w", vs, punct );
-            //sprintf( buf3, MISS "$n %s" MISS " you%c`w", vp, punct );
-        }
-    }
-    else
-    {
-        if ( dt >= 0 && dt < MAX_SKILL )
-            attack = skill_table[dt].noun_damage;
-        else if ( dt >= TYPE_HIT && dt <= TYPE_HIT + MAX_DAMAGE_MESSAGE )
-            attack = attack_table[dt - TYPE_HIT].name;
-        else
-        {
-            bug( "Dam_message: bad dt %d.", dt );
-            logf_string( "BUG: ^^ ch: %s victim: %s ", ch->name, victim->name );
-            dt = TYPE_HIT;
-            attack = attack_table[0].name;
-        }
-
-        if ( immune )
-        {
-            if ( ch == victim )
-            {
-                sprintf( buf1, MISS "$n is unaffected by $s own %s.`w", attack );
-                sprintf( buf2, MISS "Luckily, you are immune to that.`w" );
-            }
-            else
-            {
-                sprintf( buf1, MISS "$N is unaffected by $n's %s!`w", attack );
-                sprintf( buf2, MISS "$N is unaffected by your %s!`w", attack );
-                sprintf( buf3, MISS "$n's %s is powerless against you.`w",
-                         attack );
-            }
-        }
-        else
-        {
-            if ( dam > 0 )
-                if ( ch == victim )
-                {
-                    sprintf( buf1, THIRD "$n's %s `R%s" THIRD " $m for " Td "%d" THIRD " points of damage%c", attack, vp, dam, punct );
-                    sprintf( buf2, YOU "Your %s `R%s" YOU " you for " Yd "%d" YOU " points of damage%c", attack, vp, dam, punct );
-                }
-                else
-                {
-                    sprintf( buf1,
-                             THIRD "$n's %s" THIRD " `R%s" THIRD " $N for " Td "%d" THIRD " points of damage%c",
-                             attack, vp, dam, punct );
-                    sprintf( buf2,
-                             YOU "Your %s" YOU " `R%s" YOU " $N for " Yd "%d" YOU " points of damage%c",
-                             attack, vp, dam, punct );
-                    sprintf( buf3,
-                             ENEMY "$n's %s`Y `R%s" ENEMY " you for " Ed "%d" ENEMY " points of damage%c",
-                             attack, vp, dam, punct );
-                }
-            else if ( ch == victim )
-            {
-                sprintf( buf1, MISS "$n's %s %s $m%c`w", attack, vp, punct );
-                sprintf( buf2, MISS "Your %s %s you%c`w", attack, vp, punct );
-            }
-            else
-            {
-                // dam == 0
-                
-                //sprintf( buf1,
-                //         "`B$n's %s %s`B $N for `g%d`B points of damage%c`w", // JR: `G --> `B
-                //         attack, vp, dam, punct );
-                //sprintf( buf2,
-                //         "`BYour %s %s `B$N for `R%d`B points of damage%c`w", // JR: `Y --> `B
-                //         attack, vp, dam, punct );
-                //sprintf( buf3,
-                //         "`B$n's %s %s`B you for `c%d`B points of damage%c`w", // JR: `C --> `B
-                //         attack, vp, dam, punct );
-                //sprintf( buf1, MISS "$n's %s %s" MISS " $N%c`w", attack, vp, punct );
-                //sprintf( buf2, MISS "Your %s %s" MISS " $N%c`w", attack, vp, punct );
-                //sprintf( buf3, MISS "$n's %s %s" MISS " you%c`w", attack, vp, punct );
-            }
-        }
-    }
-#else
-    // JR did not change colors below here
-    if ( dt == TYPE_HIT )
-    {
-        if ( dam > 0 )
-            if ( ch == victim )
-            {
-                sprintf( buf1, "`w$n `R%s`Y $melf%c", vp, punct );
-                sprintf( buf2, "`wYou `R%s`Y yourself%c", vs, punct );
-            }
-            else
-            {
-                sprintf( buf1, "`G$n `R%s`G $N%c", vp, punct );
-                sprintf( buf2, "`YYou `R%s`Y $N%c", vs, punct );
-                sprintf( buf3, "`C$n `R%s`C you%c", vp, punct );
-            }
-        else if ( ch == victim )
-        {
-            sprintf( buf1, MISS "$n %s $melf%c`w", vp, punct );
-            sprintf( buf2, MISS "You %s yourself%c`w", vs, punct );
-        }
-        else
-        {
-            sprintf( buf1, "`G$n %s `G$N%c`w", vp, punct );
-            sprintf( buf2, "`YYou %s `Y$N%c`w", vs, punct );
-            sprintf( buf3, "`C$n %s `Cyou%c`w", vp, punct );
-        }
-    }
-    else
-    {
-        if ( dt >= 0 && dt < MAX_SKILL )
-            attack = skill_table[dt].noun_damage;
-        else if ( dt >= TYPE_HIT && dt <= TYPE_HIT + MAX_DAMAGE_MESSAGE )
-            attack = attack_table[dt - TYPE_HIT].name;
-        else
-        {
-            bug( "Dam_message: bad dt %d.", dt );
-            dt = TYPE_HIT;
-            attack = attack_table[0].name;
-        }
-
-        if ( immune )
-        {
-            if ( ch == victim )
-            {
-                sprintf( buf1, MISS "$n is unaffected by $s own %s.`w", attack );
-                sprintf( buf2, MISS "Luckily, you are immune to that.`w" );
-            }
-            else
-            {
-                sprintf( buf1, "`G$N is unaffected by $n's %s!`w", attack );
-                sprintf( buf2, "`Y$N is unaffected by your %s!`w", attack );
-                sprintf( buf3, "`C$n's %s is powerless against you.`w",
-                         attack );
-            }
-        }
-        else
-        {
-            if ( dam > 0 )
-                if ( ch == victim )
-                {
-                    sprintf( buf1, "`w$n's %s `R%s`w $m%c", attack, vp, punct );
-                    sprintf( buf2, "`wYour %s `R%s`w you%c", attack, vp,
-                             punct );
-                }
-                else
-                {
-                    sprintf( buf1, "`G$n's %s `R%s`G $N%c", attack, vp, punct );
-                    sprintf( buf2, "`YYour %s `R%s`Y $N%c", attack, vp, punct );
-                    sprintf( buf3, "`C$n's %s `R%s`C you%c", attack, vp,
-                             punct );
-                }
-            else if ( ch == victim )
-            {
-                sprintf( buf1, MISS "$n's %s %s $m%c`w", attack, vp, punct );
-                sprintf( buf2, MISS "Your %s %s you%c`w", attack, vp, punct );
-            }
-            else
-            {
-                sprintf( buf1, "`G$n's %s %s `G$N%c`w", attack, vp, punct );
-                sprintf( buf2, "`YYour %s %s `Y$N%c`w", attack, vp, punct );
-                sprintf( buf3, "`C$n's %s %s `Cyou%c`w", attack, vp, punct );
-            }
-        }
-    }
-#endif
-    if ( ch == victim )
-    {
-        act( buf1, ch, NULL, NULL, TO_ROOM );
-        act( buf2, ch, NULL, NULL, TO_CHAR );
-    }
-    else
-    {
-        act( buf1, ch, NULL, victim, TO_NOTVICT );
-        act( buf2, ch, NULL, victim, TO_CHAR );
-        act( buf3, ch, NULL, victim, TO_VICT );
-    }
-
-    return; */
+    return;    
 }
 
 /*
