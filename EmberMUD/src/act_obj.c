@@ -303,14 +303,26 @@ void do_get( CHAR_DATA * ch, char *argument )
                 if ( ( arg[3] == '\0' || is_name( &arg[4], obj->name ) )
                      && can_see_obj( ch, obj ) )
                 {
-                    found = TRUE;
-                    if ( container->pIndexData->vnum == OBJ_VNUM_PIT
-                         && !IS_IMMORTAL( ch ) )
+                    printf("In here\n");
+                    printf("Cond 1: %s\n",container->item_type != ITEM_CORPSE_NPC?"T":"F");
+                    printf("Cond 2: %s\n", strcmp( arg, "all.gold" )?"T":"F");
+                    printf("Cond 3: %s\n",obj->item_type == ITEM_TREASURE?"T":"F");
+
+                    if ( container->item_type != ITEM_CORPSE_NPC || strcmp( arg, "all.gold" ) ||
+                                    obj->item_type == ITEM_MONEY ) // JR: don't loot a golden object while doing get all.gold from a corpse
                     {
-                        send_to_char( "Don't be so greedy!\n\r", ch );
-                        return;
+                        printf("In if\n");
+                        found = TRUE;
+                        if ( container->pIndexData->vnum == OBJ_VNUM_PIT
+                             && !IS_IMMORTAL( ch ) )
+                        {
+                            send_to_char( "Don't be so greedy!\n\r", ch );
+                            return;
+                        }
+                        get_obj( ch, obj, container );
+                        printf("a\n");
                     }
-                    get_obj( ch, obj, container );
+                    printf("done if\n");
                 }
             }
 

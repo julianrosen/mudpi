@@ -81,20 +81,20 @@ int find_door args( ( CHAR_DATA * ch, char *arg ) );
 bool has_key args( ( CHAR_DATA * ch, int key ) );
 bool check_web args( ( CHAR_DATA * ch ) );
 
-void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added mode
+
+// JR: Return true if character will move, false otherwise
+bool check_move( CHAR_DATA * ch, int  * door, ROOM_INDEX_DATA ** to_room)
 {
     CHAR_DATA *fch;
     CHAR_DATA *fch_next;
     ROOM_INDEX_DATA *in_room;
-    ROOM_INDEX_DATA *to_room;
+    
     EXIT_DATA *pexit;
-
-    if ( door < 0 || door > 5 )
+    if ( *door < 0 || *door > 5 )
     {
         bug( "Do_move: bad door %d.", door );
-        return;
+        return FALSE;
     }
-
     if ( IS_AFFECTED( ch, AFF_WEB ) )
     {
         if ( check_web( ch ) )
@@ -108,7 +108,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
             affect_strip( ch, skill_lookup( "web" ) );
             REMOVE_BIT( ch->affected_by, AFF_WEB );
             ch->position = POS_RESTING;
-            return;
+            return FALSE;
         }
         else
         {
@@ -116,7 +116,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
             act( "$n struggles weakly in the webs.", ch, NULL, NULL, TO_ROOM );
             WAIT_STATE( ch, 5 );
             ch->move -= 5;
-            return;
+            return FALSE;
         }
         /* The end? */
     }
@@ -132,7 +132,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
                      ch, NULL, NULL, TO_CHAR );
                 act( "$n looks a little drunk.. not to mention kind of lost..",
                      ch, NULL, NULL, TO_ROOM );
-                door = number_range( 0, 5 );
+                *door = number_range( 0, 5 );
             }
             else
             {
@@ -142,21 +142,19 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
         }
     }
 #endif
-
     in_room = ch->in_room;
-    if ( ( pexit = in_room->exit[door] ) == NULL
-         || ( to_room = pexit->u1.to_room ) == NULL
+    if ( ( pexit = in_room->exit[*door] ) == NULL
+         || ( *to_room = pexit->u1.to_room ) == NULL
          || !can_see_room( ch, pexit->u1.to_room ) )
     {
         send_to_char( "Alas, you cannot go that way.\n\r", ch );
-        return;
+        return FALSE;
     }
-
     if ( IS_SET( pexit->exit_info, EX_CLOSED )
          && IS_SET( pexit->exit_info, EX_HIDDEN ) )
     {
         send_to_char( "Alas, you cannot go that way.\n\r", ch );
-        return;
+        return FALSE;
     }
 
     if ( IS_SET( pexit->exit_info, EX_CLOSED )
@@ -165,7 +163,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
         act( "The $d is closed.", ch, NULL, pexit->keyword, TO_CHAR );
         act( "$n tries unsuccessfully to walk through the $d.", ch, NULL,
              pexit->keyword, TO_ROOM );
-        return;
+        return FALSE;
     }
 
     if ( IS_SET( pexit->exit_info, EX_CLOSED )
@@ -179,18 +177,17 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
              pexit->keyword, TO_ROOM );
         return;
     }
-
     if ( IS_AFFECTED( ch, AFF_CHARM )
          && ch->master != NULL && in_room == ch->master->in_room )
     {
         send_to_char( "What? And leave your beloved master?\n\r", ch );
-        return;
+        return FALSE;
     }
 
-    if ( room_is_private( to_room ) )
+    if ( room_is_private( *to_room ) )
     {
         send_to_char( "That room is private right now.\n\r", ch );
-        return;
+        return FALSE;
     }
 
     /* JR: guild restrictions will be handled by room flags */
@@ -205,10 +202,10 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
             for ( iGuild = 0; iGuild < MAX_GUILD; iGuild++ )
             {
                 if ( iClass != ch->Class
-                     && to_room->vnum == class_table[iClass].guild[iGuild] )
+                     && (*to_room)->vnum == class_table[iClass].guild[iGuild] )
                 {
                     send_to_char( "You class is not allowed in there.\n\r", ch );
-                    return;
+                    return FALSE;
                 }
             }
         }
@@ -222,14 +219,14 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
         
         for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
         {
-            if ( IS_SET(to_room->room_flags, GUILD_ROOMS[iClass]) )
+            if ( IS_SET((*to_room)->room_flags, GUILD_ROOMS[iClass]) )
             {
-                if ( !IS_SET(to_room->room_flags, GUILD_ROOMS[ch->Class]) )
+                if ( !IS_SET((*to_room)->room_flags, GUILD_ROOMS[ch->Class]) )
                 {
                     if ( ch->level < LEVEL_ADMIN )
                     {
                         send_to_char( "You class is not allowed in there.\n\r", ch );
-                        return;
+                        return FALSE;
                     }
                     else
                     {
@@ -242,20 +239,19 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
         }
         
         
-        
 
         if ( in_room->sector_type == SECT_AIR
-             || to_room->sector_type == SECT_AIR )
+             || (*to_room)->sector_type == SECT_AIR )
         {
             if ( !IS_AFFECTED( ch, AFF_FLYING ) && !IS_IMMORTAL( ch ) )
             {
                 send_to_char( "You can't fly.\n\r", ch );
-                return;
+                return FALSE;
             }
         }
 
         if ( ( in_room->sector_type == SECT_WATER_NOSWIM
-               || to_room->sector_type == SECT_WATER_NOSWIM )
+               || (*to_room)->sector_type == SECT_WATER_NOSWIM )
              && !IS_AFFECTED( ch, AFF_FLYING ) )
         {
             OBJ_DATA *obj;
@@ -280,24 +276,45 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
             if ( !found )
             {
                 send_to_char( "You need a boat to go there.\n\r", ch );
-                return;
+                return FALSE;
             }
         }
 
         move = movement_loss[UMIN( SECT_MAX - 1, in_room->sector_type )]
-            + movement_loss[UMIN( SECT_MAX - 1, to_room->sector_type )];
+            + movement_loss[UMIN( SECT_MAX - 1, (*to_room)->sector_type )];
 
         move /= 2;              /* i.e. the average */
 
         if ( ch->move < move )
         {
             send_to_char( "You are too exhausted.\n\r", ch );
-            return;
+            return FALSE;
         }
 
         WAIT_STATE( ch, 1 );
         ch->move -= move;
     }
+    return TRUE;
+}
+
+void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added mode
+{
+    CHAR_DATA *fch;
+    CHAR_DATA *fch_next;
+    ROOM_INDEX_DATA *in_room;
+    ROOM_INDEX_DATA *to_room;
+    EXIT_DATA *pexit;
+    
+    in_room = ch->in_room;
+    
+    if ( !check_move( ch, &door, &to_room ) )
+    {
+        if ( mode == 'f' )
+            do_look( ch, "auto" );
+        return;
+    }
+    
+    // JR character is moving
 
     if ( !IS_AFFECTED( ch, AFF_SNEAK )
          && ( IS_NPC( ch ) || !IS_SET( ch->act, PLR_WIZINVIS ) ) )
@@ -329,6 +346,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
         do_look( ch, "auto brief" );
     else
         do_look( ch, "auto" );
+    
 
     if ( in_room == to_room )   /* no circular follows */
         return;
@@ -383,6 +401,8 @@ void mv_arg( CHAR_DATA * ch, int direction, char *argument)
 {
     if ( !str_cmp( argument, "brief" ) )
         move_char( ch, direction, FALSE, 'b' );
+    else if ( !str_cmp( argument, "final" ) ) 
+        move_char( ch, direction, FALSE, 'f' );
     else
         move_char( ch, direction, FALSE, 'n' );
     return;

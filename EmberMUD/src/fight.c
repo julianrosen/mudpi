@@ -1178,7 +1178,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
                 OBJ_DATA *incorpse;
                 for ( incorpse = corpse->contains; incorpse; incorpse = incorpse->next_content )
                 {
-                    if ( is_name( "gold", incorpse->name ) )
+                    if ( is_name( "gold", incorpse->name ) && incorpse->item_type == ITEM_MONEY ) // JR: is this right
                     {
                         do_get( ch, "all.gold corpse" ); 
                         break;

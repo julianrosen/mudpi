@@ -22,6 +22,12 @@
 #include <time.h>
 #include "merc.h"
 
+
+// JR: room formatting parameters
+#define INDENT_EXIT       3
+#define INDENT_OBJECT     6
+#define INDENT_CHARACTER  3
+
 bool can_practice( CHAR_DATA * ch, long sn );
 
 /* command procedures needed */
@@ -61,9 +67,9 @@ char *const where_name[] = {
  * Local functions.
  */
 char *format_obj_to_char args( ( OBJ_DATA * obj, CHAR_DATA * ch,
-                                 bool fShort ) );
+                                 bool fShort, char color ) );
 void show_list_to_char args( ( OBJ_DATA * list, CHAR_DATA * ch,
-                               bool fShort, bool fShowNothing ) );
+                               bool fShort, bool fShowNothing, int indent ) );
 void show_char_to_char_0 args( ( CHAR_DATA * victim, CHAR_DATA * ch ) );
 void show_char_to_char_1 args( ( CHAR_DATA * victim, CHAR_DATA * ch ) );
 void show_char_to_char args( ( CHAR_DATA * list, CHAR_DATA * ch ) );
@@ -79,20 +85,21 @@ CLAN_DATA * get_clan    args( ( int clannum ) ); // From Mudweiser
 
 extern bool can_use( CHAR_DATA * ch, int sn );
 
-char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
+char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort, char color )
 {
     buf[0] = '\0';
 
     if ( IS_OBJ_STAT( obj, ITEM_INVIS ) )
-        strcat( buf, "`K(`bI`Bnvi`bs`K)`w " );
+        strcat( buf, "`K(`bI`Bnvi`bs`K) " );
     if ( IS_AFFECTED( ch, AFF_DETECT_EVIL ) && IS_OBJ_STAT( obj, ITEM_EVIL ) )
-        strcat( buf, "`r(`RRe`Kd Au`Rra`r)`w " );
+        strcat( buf, "`r(`RRe`Kd Au`Rra`r) " );
     if ( IS_AFFECTED( ch, AFF_DETECT_MAGIC ) && IS_OBJ_STAT( obj, ITEM_MAGIC ) )
-        strcat( buf, "`W(`MMa`mgic`Mal`W)`w " );
+        strcat( buf, "`W(`MMa`mgic`Mal`W) " );
     if ( IS_OBJ_STAT( obj, ITEM_GLOW ) )
-        strcat( buf, "`Y(G`Wl`Yo`Ww`Yi`Wn`Yg)`w " );
+        strcat( buf, "`Y(G`Wl`Yo`Ww`Yi`Wn`Yg) " );
     if ( IS_OBJ_STAT( obj, ITEM_HUM ) )
-        strcat( buf, "`W(`KH`Wu`Km`Wm`Ki`Wn`Kg`W)`w " );
+        strcat( buf, "`W(`KH`Wu`Km`Wm`Ki`Wn`Kg`W) " );
+    sprintf( buf+strlen(buf), "`%c", color );
     if ( fShort )
     {
         if ( obj->short_descr != NULL )
@@ -112,7 +119,7 @@ char *format_obj_to_char( OBJ_DATA * obj, CHAR_DATA * ch, bool fShort )
  * Can coalesce duplicated items.
  */
 void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
-                        bool fShowNothing )
+                        bool fShowNothing, int indent )
 {
     char buf[MAX_STRING_LENGTH];
     char **prgpstrShow;
@@ -130,6 +137,7 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
     /*
      * Alloc space for output lines.
      */
+    
     count = 0;
     for ( obj = list; obj != NULL; obj = obj->next_content )
         count++;
@@ -137,12 +145,20 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
     /*
      * If there were no objects in the list, return and do nothing.
      */
+    
+    /*
     if ( count <= 0 ) // JR: Fixed display of "Nothing."
     {
+        
         if ( fShowNothing )
-            send_to_char( "`g     Nothing.\n\r`w", ch );
+        {
+            strcpy( buf, "`g");
+            lengthen( buf, indent );
+            strcat( buf, "Nothing.\n\r`w");
+            send_to_char( buf, ch );
+        }
         return;
-    }
+    }*/
 
     prgpstrShow = alloc_mem( count * sizeof( char * ) );
     prgnShow = alloc_mem( count * sizeof( int ) );
@@ -155,7 +171,7 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
     {
         if ( obj->wear_loc == WEAR_NONE && can_see_obj( ch, obj ) )
         {
-            pstrShow = format_obj_to_char( obj, ch, fShort );
+            pstrShow = format_obj_to_char( obj, ch, fShort, 'g' );
             fCombine = FALSE;
 
             if ( IS_NPC( ch ) || IS_SET( ch->comm, COMM_COMBINE ) )
@@ -192,28 +208,26 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
      */
     for ( iShow = 0; iShow < nShow; iShow++ )
     {
-        if ( IS_NPC( ch ) || IS_SET( ch->comm, COMM_COMBINE ) )
+        strcpy( buf, "" );
+        lengthen(buf, indent );
+        sprintf( buf+strlen(buf), "%s", prgpstrShow[iShow] );
+        if ( ( IS_NPC( ch ) || IS_SET( ch->comm, COMM_COMBINE ) ) &&
+            prgnShow[iShow] != 1 )
         {
-            if ( prgnShow[iShow] != 1 )
-            {
-                sprintf( buf, "`g(%2d) ", prgnShow[iShow] );
-                send_to_char( buf, ch );
-            }
-            else
-            {
-                send_to_char( "`g     ", ch );
-            }
+            sprintf( buf+strlen(buf), "`w (x%d) ", prgnShow[iShow] );
         }
-        send_to_char( prgpstrShow[iShow], ch );
-        send_to_char( "\n\r`w", ch );
+        strcat( buf, "\n\r`w" );
+        send_to_char( buf, ch );
         free_string( &prgpstrShow[iShow] );
     }
 
     if ( fShowNothing && nShow == 0 )
     {
+        strcpy( buf, "`g" );
         if ( IS_NPC( ch ) || IS_SET( ch->comm, COMM_COMBINE ) )
-            send_to_char( "`g     ", ch );
-        send_to_char( "Nothing.\n\r`w", ch );
+            lengthen( buf, indent );
+        strcat( buf, "Nothing.\n\r`w" );
+        send_to_char( buf, ch );
     }
 
     /*
@@ -230,6 +244,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
     char buf[MAX_STRING_LENGTH];
     char message[MAX_STRING_LENGTH];
     buf[0] = '\0';
+    lengthen( buf, INDENT_CHARACTER ); // JR: spacing
     message[0] = '\0';
 
     // JR: modified style
@@ -255,7 +270,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
         strcat( buf, "`R(PK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_THIEF ) )
         strcat( buf, "`W(`YT`yHIE`YF`W)`C" );
-    if ( buf[0] != '\0' )
+    if ( buf[0] != '\0' && buf[0] != ' ' )
         strcat( buf, " ");
     
     if ( victim->position == victim->start_pos
@@ -543,7 +558,7 @@ void show_char_to_char_1( CHAR_DATA * victim, CHAR_DATA * ch )
                 }
             }
 
-            send_to_char( format_obj_to_char( obj, ch, TRUE ), ch );
+            send_to_char( format_obj_to_char( obj, ch, TRUE, 'w' ), ch );
             send_to_char( "\n\r", ch );
         }
     }
@@ -554,7 +569,7 @@ void show_char_to_char_1( CHAR_DATA * victim, CHAR_DATA * ch )
     {
         send_to_char( "\n\rYou peek at the inventory:\n\r", ch );
         check_improve( ch, gsn_peek, TRUE, 4 );
-        show_list_to_char( victim->carrying, ch, TRUE, TRUE );
+        show_list_to_char( victim->carrying, ch, TRUE, TRUE, 3 ); // JR
     }
 
     return;
@@ -1562,7 +1577,10 @@ void do_look( CHAR_DATA * ch, char *argument )
     if ( arg[0] == '\0' || !str_cmp( arg, "auto" ) )
     {
         /* 'look' or 'look auto' */
-        send_to_char( "`B", ch );
+        if ( arg2[0] == '\0' )
+            send_to_char( "`B", ch );
+        else
+            send_to_char( "`K", ch );
         send_to_char( ch->in_room->name, ch );
         send_to_char( "`w\n\r", ch );
 
@@ -1578,14 +1596,16 @@ void do_look( CHAR_DATA * ch, char *argument )
         {
             if ( !IS_SET( ch->comm, COMM_COMPACT ) && arg2[0] == '\0' )
                 send_to_char( "\n\r", ch );
-            
-            send_to_char( "`W", ch );
+            strcpy( buf, "`W" );
+            lengthen(buf, INDENT_EXIT );
+            send_to_char( buf, ch );
             do_exits( ch, "auto" );
             send_to_char( "`w", ch );
         }
 
-        show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
-        show_char_to_char( ch->in_room->people, ch );
+        show_char_to_char( ch->in_room->people, ch ); // JR reversed these
+        show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE, INDENT_OBJECT );
+        
         return;
     }
 
@@ -1655,7 +1675,7 @@ void do_look( CHAR_DATA * ch, char *argument )
             }
 
             act( "$p contains:", ch, obj, NULL, TO_CHAR );
-            show_list_to_char( obj->contains, ch, TRUE, TRUE );
+            show_list_to_char( obj->contains, ch, TRUE, TRUE, 3 );
             break;
         }
         return;
@@ -1968,7 +1988,7 @@ void do_score( CHAR_DATA * ch, char *argument )
 
     if ( !IS_NPC( ch ) )
     {
-        int start_col = 1, total_width = 60, armor_column = 35, age_column = 44;
+        int start_col = 1, total_width = 58, armor_column = 35, age_column = 44;
         char outline_color = 'b', cat_color = 'B', entry = 'Y', other = 'W';
         char start[10],end[10],starts[10],ends[10];
         int n;
@@ -2087,18 +2107,18 @@ void do_score( CHAR_DATA * ch, char *argument )
         strcat( buf, ends );
         send_to_char( buf, ch );
         strcpy( buf, starts );
+        
+        sprintf( buf, "%s `%cCurrent XP      `%c%ld", start, cat_color,
+                entry, ch->exp );
         lengthen( buf, armor_column );
         sprintf( buf + strlen(buf), "`%cArmor vs slash  : `%c%4d",
                 cat_color, entry, GET_AC( ch, AC_SLASH ) );
         lengthen( buf, total_width );
         strcat( buf, ends );
         send_to_char( buf, ch );
-        sprintf( buf, "%s `%cCurrent XP       `%c%ld", start, cat_color,
-                entry, ch->exp );
-        lengthen( buf, total_width );
-        strcat( buf, ends );
-        send_to_char( buf, ch );
-        sprintf( buf, "%s `%cXP to level      `%c%ld", start, cat_color, entry,
+        
+        
+        sprintf( buf, "%s `%cXP to level     `%c%ld", start, cat_color, entry,
                 exp_per_level( ch, ch->pcdata->points ) - ch->exp);
         if ( SHOW_CP )
             sprintf( buf + strlen(buf), " (%d%% of normal for your level)",
@@ -3159,7 +3179,7 @@ void do_who( CHAR_DATA * ch, char *argument )
 void do_inventory( CHAR_DATA * ch, char *argument )
 {
     send_to_char( "You are carrying:\n\r", ch );
-    show_list_to_char( ch->carrying, ch, TRUE, TRUE );
+    show_list_to_char( ch->carrying, ch, TRUE, TRUE, 3 );
     return;
 }
 
@@ -3192,7 +3212,7 @@ void do_equipment( CHAR_DATA * ch, char *argument )
 
         if ( can_see_obj( ch, obj ) )
         {
-            send_to_char( format_obj_to_char( obj, ch, TRUE ), ch );
+            send_to_char( format_obj_to_char( obj, ch, TRUE, 'w' ), ch );
             send_to_char( "\n\r`w", ch );
         }
         else
