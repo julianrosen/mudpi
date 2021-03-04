@@ -14,19 +14,30 @@
 #define HUNGER_THIRST 3 /* Controls speed at which players get hungry and thirsty. */
                         /* 0 means no hunger or thirst, otherwise higher number is slower */
 #define HUNGER_THRESH 12 /* Threshhold at which a character gets hunger messages */
-
 #define STARTING_AGE  25
 #define MAX_RACE_LEN  11
 #define COLOR_DESC    TRUE /* Render color while editing descriptions */
 
+// Tintin settings
+#define STATIC_PROMPT    (A)
+#define SPLIT            (B)
+#define BRIEF_SPEEDWALK  (C)
+
+#define PROMPT_TOP                      "@^p1"     // How Mudpi sends commands to TinTin
+#define PROMPT_BOTTOM                   "@^p2"
+#define TINTIN_PREFIX                   "@^t"
+#define TINTIN_ON                       "@^ton"
+#define TINTIN_OFF                      "@^toff"
+
+
 
 /* Prompts */
-#define PROMPT_SIMPLE "`Y%W%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
-#define PROMPT_COMBAT  "`Y%W`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K> "
-#define PROMPT_GHIOTI  "`Y%W`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl> "
-#define PROMPT_IMM     "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:> "
+#define PROMPT_SIMPLE    "`Y%W%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> "
+#define PROMPT_COMBAT    "`Y%W`GTank: %l  `REnemy: %e%r%i`K/`W%H `wHP %n`K/`W%M `wMP %w`K/`W%V `wMV `K> "
+#define PROMPT_GHIOTI    "`Y%W`cMe: %s  `GTank: %l  `REnemy: %e`w%r<%i/%Hhp %n/%Mm %w/%Vmv %Xtnl> "
+#define PROMPT_IMM       "%B`cRoom: `C%# `gTime: `G%T `wActs: `W%A%r`Y:> "
 #define PROMPT_DEFAULT   PROMPT_COMBAT
-
+#define PROMPT_STYLE     'r' // 'r' for right-justified, '0' for zero-padded, 'l' for left-justified
 
 /* Time (in minutes) of inactivity before a character
 vanishes and quits.*/
@@ -1100,10 +1111,7 @@ of combat. */
 // JR
 #define CON_ACCEPT_CP                   26
 #define CON_PAUSE                       27
-#define PROMPT_TOP                      "@^p1"     // How Mudpi sends commands to TinTin
-#define PROMPT_BOTTOM                   "@^p2"
-#define TINTIN_ON                       "@^ton"
-#define TINTIN_OFF                      "@^toff"
+
         
 /***************************************************************************
  *                                                                         *

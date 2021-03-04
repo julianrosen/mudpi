@@ -397,7 +397,7 @@ void read_key(char *input, int len)
 			default:
 				if (gtd->macro_buf[cnt] == gtd->tintin_char && gtd->ses->input->buf[0] == 0)
 				{
-					print_stdout(0, 0, "%c", gtd->macro_buf[cnt]); // JR debug
+					print_stdout(0, 0, "%c", gtd->macro_buf[cnt]);
 
 					str_cpy_printf(&gtd->ses->input->buf, "%c", gtd->tintin_char);
 
@@ -940,7 +940,7 @@ void echo_command(struct session *ses, char *line)
 		sprintf(buffer, "\e[0m");
 	}
    
-    if ( ses->mudpi & MUDPI_ON ) // JR :)
+    if ( ses->mudpi & MUDPI_FIXED ) // JR :)
     {
         for ( c = buffer+strlen(ses->cmd_color); *c != '\e'; c++) // JR
         {
@@ -956,9 +956,9 @@ void echo_command(struct session *ses, char *line)
             gtd->level->scroll++;
 
             if ( ses->mudpi & MUDPI_COMPACT || !ses->shown_output )
-                sprintf( buf, "\e[1;33m>> %s", buffer); // JR: Bright blue >>
+                sprintf( buf, "\e[1;33m>> %s", buffer); // JR: Bright yellow >>
             else
-                sprintf( buf, "\e[1;33m\n>> %s", buffer); // JR: Bright blue >>
+                sprintf( buf, "\e[1;33m\n>> %s", buffer);
             ses->shown_output = FALSE;
             tintin_printf2(ses, "%s", buf);
             gtd->level->scroll--;

@@ -1769,6 +1769,7 @@ void make_corpse( CHAR_DATA * ch )
     }
     else
     {
+        ch->wait = 0; // JR
         name = ch->name;
         corpse = create_object( get_obj_index( OBJ_VNUM_CORPSE_PC ), 0 );
         corpse->timer = number_range( 25, 40 );
@@ -1834,6 +1835,9 @@ void make_pk_corpse( CHAR_DATA * ch )
     OBJ_DATA *obj_next;
     char *name;
     int random;
+    
+    if ( !IS_NPC( ch ) ) // JR
+        ch->wait = 0;
 
     name = ch->name;
     corpse = create_object( get_obj_index( OBJ_VNUM_CORPSE_PC ), 0 );
@@ -1898,7 +1902,7 @@ void make_pk_corpse( CHAR_DATA * ch )
 #else
     obj_to_room( corpse, ch->in_room );
 #endif
-
+    
 
     return;
 }
@@ -4489,7 +4493,7 @@ void do_flee( CHAR_DATA * ch, char *argument )
              || IS_SET( pexit->u1.to_room->room_flags, ROOM_NO_FLEE_TO ) )
             continue;
 
-        move_char( ch, door, FALSE );
+        move_char( ch, door, FALSE, 'n' );
         if ( ( now_in = ch->in_room ) == was_in )
             continue;
 
@@ -4636,8 +4640,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
     if ( !IS_NPC( victim ) )
     {
         if ( ( !chaos && !IS_SET( victim->act, PLR_KILLER ) )
-             || ( !chaos && !IS_SET( ch->act, PLR_KILLER ) )
-             || IS_NEWAFF_SET( victim->newaff, NEWAFF_BLACKJACK ) )
+             || ( !chaos && !IS_SET( ch->act, PLR_KILLER ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -4676,7 +4679,7 @@ void do_blackjack( CHAR_DATA * ch, char *argument )
     chance += ( number_range( 1, 25 ) );
     if ( chance <= 74 )
     {
-        act( "`R** WHOOSH ** Uh oo, your Blackjack missed $M!`w", ch, NULL,
+        act( "`R** WHOOSH ** Uh oh, your Blackjack missed $M!`w", ch, NULL,
              victim, TO_CHAR );
         act( "`RWHOA, $n just tried to take you out with 1 hit, luckily you ducked first!`w", ch, NULL, victim, TO_VICT );
         act( "`R$n just took a HUGE swing at $N and missed! HAHAHAHA`w", ch,

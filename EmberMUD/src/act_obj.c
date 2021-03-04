@@ -2321,17 +2321,12 @@ void do_steal( CHAR_DATA * ch, char *argument )
 
         if ( !IS_NPC( ch ) )
         {
-            if ( IS_NPC( victim ) )
+            if ( IS_NPC( victim ) || 
+               ( IS_SET( ch->act, PLR_KILLER ) && IS_SET( victim->act, PLR_KILLER ) ) )
             {
                 check_improve( ch, gsn_steal, FALSE, 2 );
                 multi_hit( victim, ch, TYPE_UNDEFINED );
             }
-            if ( IS_SET( victim->act, PLR_KILLER ) )
-            {
-                check_improve( ch, gsn_steal, FALSE, 2 );
-                multi_hit( victim, ch, TYPE_UNDEFINED );
-            }
-
             else
             {
                 log_string( buf );
@@ -3696,7 +3691,7 @@ void do_lore( CHAR_DATA * ch, char *argument )
          || ( !IS_NPC( ch )
               && ch->level < skill_table[gsn_lore].skill_level[ch->Class] ) )
     {
-        sprintf( buf, "It looks like a %s to you.\n\r", obj->short_descr );
+        sprintf( buf, "It looks like %s to you.\n\r", obj->short_descr );
         send_to_char( buf, ch );
         return;
     }

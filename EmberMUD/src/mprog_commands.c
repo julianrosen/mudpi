@@ -1336,7 +1336,7 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
     case '1':
     case '2':
     case '3':
-        move_char( ch, argument[pMob->path_pos] - '0', FALSE );
+        move_char( ch, argument[pMob->path_pos] - '0', FALSE, 'n' );
         break;
 
     case 'W':

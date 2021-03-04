@@ -348,7 +348,7 @@ void do_outfit( CHAR_DATA * ch, char *argument )
 
     if ( ch->level > 5 || IS_NPC( ch ) )
     {
-        send_to_char( "Find it yourself!\n\r", ch );
+        send_to_char( "The gods don't equip players past level 5.\n\r", ch );
         return;
     }
 
@@ -1218,9 +1218,11 @@ void do_transfer( CHAR_DATA * ch, char *argument )
     char_to_room( victim, location );
     act( "$n arrives from a puff of smoke.", victim, NULL, NULL, TO_ROOM );
     if ( ch != victim )
+    {
         act( "$n has transferred you.", ch, NULL, victim, TO_VICT );
+        act( "You have transferred $N.", ch, NULL, victim, TO_CHAR );
+    }
     do_look( victim, "auto" );
-    send_to_char( "Ok.\n\r", ch );
 }
 
 void do_at( CHAR_DATA * ch, char *argument )
@@ -3241,6 +3243,25 @@ void do_trust( CHAR_DATA * ch, char *argument )
     return;
 }
 
+void restore( CHAR_DATA * ch )
+{
+    affect_strip( ch, gsn_plague );
+    affect_strip( ch, gsn_poison );
+    affect_strip( ch, gsn_blindness );
+    affect_strip( ch, gsn_sleep );
+    affect_strip( ch, gsn_curse );
+
+    ch->hit = ch->max_hit;
+    ch->mana = ch->max_mana;
+    ch->move = ch->max_move;
+    update_pos( ch );
+    if ( !IS_NPC( ch ) )
+    {
+        ch->pcdata->condition[COND_FULL] = 48;
+        ch->pcdata->condition[COND_THIRST] = 48;
+    }
+}
+
 void do_restore( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -3255,22 +3276,11 @@ void do_restore( CHAR_DATA * ch, char *argument )
 
         for ( vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room )
         {
-            affect_strip( vch, gsn_plague );
-            affect_strip( vch, gsn_poison );
-            affect_strip( vch, gsn_blindness );
-            affect_strip( vch, gsn_sleep );
-            affect_strip( vch, gsn_curse );
-
-            vch->hit = vch->max_hit;
-            vch->mana = vch->max_mana;
-            vch->move = vch->max_move;
-            update_pos( vch );
+            restore( vch );
             act( "$n has restored you.", ch, NULL, vch, TO_VICT );
         }
-
         send_to_char( "Room restored.\n\r", ch );
         return;
-
     }
 
     if ( get_trust( ch ) >= MAX_LEVEL && !str_cmp( arg, "all" ) )
@@ -3283,17 +3293,7 @@ void do_restore( CHAR_DATA * ch, char *argument )
 
             if ( victim == NULL || IS_NPC( victim ) )
                 continue;
-
-            affect_strip( victim, gsn_plague );
-            affect_strip( victim, gsn_poison );
-            affect_strip( victim, gsn_blindness );
-            affect_strip( victim, gsn_sleep );
-            affect_strip( victim, gsn_curse );
-
-            victim->hit = victim->max_hit;
-            victim->mana = victim->max_mana;
-            victim->move = victim->max_move;
-            update_pos( victim );
+            restore( victim );
             if ( victim->in_room != NULL )
                 act( "$n has restored you.", ch, NULL, victim, TO_VICT );
         }
@@ -3306,18 +3306,10 @@ void do_restore( CHAR_DATA * ch, char *argument )
         send_to_char( "They aren't here.\n\r", ch );
         return;
     }
-
-    affect_strip( victim, gsn_plague );
-    affect_strip( victim, gsn_poison );
-    affect_strip( victim, gsn_blindness );
-    affect_strip( victim, gsn_sleep );
-    affect_strip( victim, gsn_curse );
-    victim->hit = victim->max_hit;
-    victim->mana = victim->max_mana;
-    victim->move = victim->max_move;
-    update_pos( victim );
+    
+    restore( victim );
     act( "$n has restored you.", ch, NULL, victim, TO_VICT );
-    send_to_char( "Ok.\n\r", ch );
+    act( "You have restored $N.", ch, NULL, victim, TO_CHAR );
     return;
 }
 
@@ -3583,7 +3575,7 @@ void do_peace( CHAR_DATA * ch, char *argument )
 #endif
     }
 
-    send_to_char( "Ok.\n\r", ch );
+    send_to_char( "The fighting has stopped.\n\r", ch );
     return;
 }
 
@@ -4918,6 +4910,8 @@ void do_force( CHAR_DATA * ch, char *argument )
                 interpret( vch, argument );
             }
         }
+        act( "`wYou forced everyone to '$t'.", ch, argument, NULL,
+             TO_CHAR );
     }
     else if ( etarget == players )
     {
@@ -4941,6 +4935,8 @@ void do_force( CHAR_DATA * ch, char *argument )
                 interpret( vch, argument );
             }
         }
+        act( "`wYou forced all mortals to '$t'.", ch, argument, NULL,
+             TO_CHAR );
     }
     else if ( etarget == gods )
     {
@@ -4964,6 +4960,8 @@ void do_force( CHAR_DATA * ch, char *argument )
                 interpret( vch, argument );
             }
         }
+        act( "`wYou forced all gods to '$t'.", ch, argument, NULL,
+             TO_CHAR );
     }
     else
     {
@@ -5000,9 +4998,10 @@ void do_force( CHAR_DATA * ch, char *argument )
 
         act( buf2, ch, NULL, victim, TO_VICT );
         interpret( victim, argument );
+        act( "`wYou forced $N to '$t'.", ch, argument, victim,
+             TO_CHAR );
     }
-
-    send_to_char( "Ok.\n\r", ch );
+    
     return;
 }
 
@@ -6158,34 +6157,3 @@ void do_shell( CHAR_DATA * ch, char *argument )
 #endif
 #endif
 
-
-// JR
-void do_cure( CHAR_DATA * ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH];
-    CHAR_DATA *victim;
-
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
-        victim = ch;
-    else if ( ( victim = get_char_world( ch, arg ) ) == NULL )
-    {
-        send_to_char( "They aren't here.\n\r", ch );
-        return;
-    }
-    
-    victim->hit = victim->max_hit;
-    victim->mana = victim->max_mana;
-    victim->move = victim->max_move;
-    if ( victim == ch )
-    {
-        act( "Your hp, mana, and move points have been restored.", ch, NULL, victim, TO_CHAR );
-    }
-    else
-    {
-        act( "You have restores $N's hp, mana, and move points.", ch, NULL, victim, TO_CHAR );
-        act( "$n has restored your hp, mana, and move points.", ch, NULL, victim, TO_VICT );
-    }
-    return;
-}

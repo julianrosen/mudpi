@@ -41,7 +41,7 @@ char * strip_article( char * name )
 char * center( char * string, int numchars, char * buf )
 {
     char * centered = buf;
-    numchars += strlen(string) - bw_strlen(string);
+    numchars += strlen(string) - str_len(string);
     centered[0] = '\0';
     while ( 2*strlen(centered) + strlen(string) < numchars -1 )
         strcat(centered, " ");
@@ -49,6 +49,57 @@ char * center( char * string, int numchars, char * buf )
     while( strlen(centered) < numchars )
         strcat(centered, " ");
     return centered;
+}
+
+bool tintin_send( CHAR_DATA * ch, char *txt )
+{
+    printf("tintin_send\n");
+    char buf[MAX_STRING_LENGTH];
+    if ( ch->desc != NULL && ch->desc->tintin )
+    {
+        sprintf(buf, TINTIN_PREFIX " %s\n\r", txt );
+        write_to_buffer( ch->desc, buf, 0 );
+        return TRUE;
+    }
+    else
+        return FALSE;
+}
+
+bool is_fixed( CHAR_DATA * ch )
+{
+    return ch->desc != NULL && ch->desc->tintin && IS_SET( ch->tintin, STATIC_PROMPT );
+}
+
+bool is_fixed_d( DESCRIPTOR_DATA * d )
+{
+    return d->character != NULL && d->tintin && IS_SET( d->character->tintin, STATIC_PROMPT );
+}
+
+
+void send_tt_settings( CHAR_DATA * ch )
+{
+    char buf[MAX_STRING_LENGTH];
+    if ( ch->desc != NULL && ch->desc->tintin )
+    {
+        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+               IS_SET( ch->tintin, BRIEF_SPEEDWALK ) ? "brief|on" : "brief|off" );
+        send_to_char( buf, ch );
+        
+        if ( !IS_SET( ch->tintin, STATIC_PROMPT ) )
+        {
+        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+               IS_SET( ch->tintin, SPLIT ) ? "split|on" : "split|off" );
+        write_to_buffer( ch->desc, buf, 0 );
+        }
+        
+        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+               IS_SET( ch->comm, COMM_COMPACT ) ? "compact|on" : "compact|off" );
+        send_to_char( buf, ch );
+        
+        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+               IS_SET( ch->tintin, STATIC_PROMPT ) ? "fixed|on" : "fixed|off" );
+        send_to_char( buf, ch );
+    }
 }
 
 
@@ -105,6 +156,7 @@ void command_not_found( CHAR_DATA * ch )
 
 
 // Display length of str (color signifiers don't lengthen)
+/*
 int bw_strlen( char * str )
 {
     int n, a = strlen(str);
@@ -114,13 +166,13 @@ int bw_strlen( char * str )
             a -= 2;
     }
     return a;
-}
+}*/
 
 // Lengthen str to have display length len
 void lengthen( char * str, int len )
 {
     int n,k;
-    k = bw_strlen(str);
+    k = str_len(str);
     if ( k <= len )
     {
         for ( n = 0; n+k < len; n++)
@@ -131,7 +183,7 @@ void lengthen( char * str, int len )
         do
         {
             str[strlen(str) - k + len] = '\0';
-        } while ( (k= bw_strlen( str )) > len );
+        } while ( (k= str_len( str )) > len );
     }
 }
 
@@ -2757,7 +2809,7 @@ void do_quit( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
 
-    if ( ch->desc == NULL || !ch->desc->tintin )
+    if ( !is_fixed( ch ) )
         send_to_char( "\n\r", ch );
     
     if ( ch->position == POS_FIGHTING )
@@ -2787,9 +2839,10 @@ inform him that its not that easy ;) -Lancelight */
     
     if ( ch->desc != NULL && ch->desc->tintin )
     {
-        write_to_buffer( ch->desc, PROMPT_TOP "\n\r" PROMPT_BOTTOM, 0 );
+        //write_to_descriptor( ch->desc, TINTIN_OFF "\n\r", 0 );
+        write_to_descriptor( ch->desc, PROMPT_TOP "\n\r" PROMPT_BOTTOM "\n\r", 0 );
     }
-    send_to_char( CFG_QUIT "\n\r\n\r", ch );
+    send_to_char( CFG_QUIT, ch );
     
     ch->pcdata->ticks = 0;
     if ( !IS_SET( ch->act, PLR_WIZINVIS ) )

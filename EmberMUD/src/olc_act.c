@@ -1247,7 +1247,7 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
 
     if ( !command[0] && !argument[0] )  /* Move command. */
     {
-        move_char( ch, door, TRUE );    /* ROM OLC */
+        move_char( ch, door, TRUE, 'n' );    /* ROM OLC */
         return FALSE;
     }
 

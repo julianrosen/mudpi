@@ -81,7 +81,7 @@ int find_door args( ( CHAR_DATA * ch, char *arg ) );
 bool has_key args( ( CHAR_DATA * ch, int key ) );
 bool check_web args( ( CHAR_DATA * ch ) );
 
-void move_char( CHAR_DATA * ch, int door, bool follow )
+void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added mode
 {
     CHAR_DATA *fch;
     CHAR_DATA *fch_next;
@@ -325,7 +325,10 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
             act( "$n has arrived.", ch, NULL, NULL, TO_ROOM );
     }
 
-    do_look( ch, "auto" );
+    if ( mode == 'b' ) // JR brief mode
+        do_look( ch, "auto brief" );
+    else
+        do_look( ch, "auto" );
 
     if ( in_room == to_room )   /* no circular follows */
         return;
@@ -352,7 +355,7 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
             }
 
             act( "You follow $N.", fch, NULL, ch, TO_CHAR );
-            move_char( fch, door, TRUE );
+            move_char( fch, door, TRUE, 'n' );
         }
     }
 
@@ -375,39 +378,49 @@ void move_char( CHAR_DATA * ch, int door, bool follow )
     return;
 }
 
+
+void mv_arg( CHAR_DATA * ch, int direction, char *argument)
+{
+    if ( !str_cmp( argument, "brief" ) )
+        move_char( ch, direction, FALSE, 'b' );
+    else
+        move_char( ch, direction, FALSE, 'n' );
+    return;
+}
+
 void do_north( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_NORTH, FALSE );
+    mv_arg( ch, DIR_NORTH, argument );
     return;
 }
 
 void do_east( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_EAST, FALSE );
+    mv_arg( ch, DIR_EAST, argument );
     return;
 }
 
 void do_south( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_SOUTH, FALSE );
+    mv_arg( ch, DIR_SOUTH, argument );
     return;
 }
 
 void do_west( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_WEST, FALSE );
+    mv_arg( ch, DIR_WEST, argument );
     return;
 }
 
 void do_up( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_UP, FALSE );
+    mv_arg( ch, DIR_UP, argument );
     return;
 }
 
 void do_down( CHAR_DATA * ch, char *argument )
 {
-    move_char( ch, DIR_DOWN, FALSE );
+    mv_arg( ch, DIR_DOWN, argument );
     return;
 }
 
@@ -1727,13 +1740,20 @@ void do_hide( CHAR_DATA * ch, char *argument )
  */
 void do_visible( CHAR_DATA * ch, char *argument )
 {
+    if ( !IS_SET( ch->affected_by, AFF_HIDE ) &&
+         !IS_SET( ch->affected_by, AFF_INVISIBLE ) &&
+         !IS_SET( ch->affected_by, AFF_SNEAK ) )
+    {
+        send_to_char( "You are already visible.\n\r", ch );
+        return;
+    }
     affect_strip( ch, gsn_invis );
     affect_strip( ch, gsn_mass_invis );
     affect_strip( ch, gsn_sneak );
     REMOVE_BIT( ch->affected_by, AFF_HIDE );
     REMOVE_BIT( ch->affected_by, AFF_INVISIBLE );
     REMOVE_BIT( ch->affected_by, AFF_SNEAK );
-    send_to_char( "Ok.\n\r", ch );
+    send_to_char( "Ok, you are now visible.\n\r", ch );
     return;
 }
 
@@ -2259,7 +2279,7 @@ void do_track( CHAR_DATA * ch, char *argument )
         if( IS_SET( ch->act, PLR_AUTOTRACK ) ) /* Added by JR*/
         {
             sprintf( buf, "You follow a trail %s from here!\n\r", dir_name[dir] );
-            move_char( ch, dir, FALSE );
+            move_char( ch, dir, FALSE, 'n' );
         }
         else
             sprintf( buf, "You sense a trail %s from here!\n\r", dir_name[dir] );

@@ -599,6 +599,7 @@ struct char_data {
     
     // JR added below
     sh_int start_age;
+    long tintin; // Tintin settings
 };
 
 struct mud_prog_act_list {
@@ -1338,7 +1339,7 @@ void auction_update args( ( void ) );
 void auction_channel args( ( char *vismsg, char *notvismsg ) );
 
 /* act_move.c */
-void move_char args( ( CHAR_DATA * ch, int door, bool follow ) );
+void move_char args( ( CHAR_DATA * ch, int door, bool follow, char mode ) );
 int find_door args( ( CHAR_DATA * ch, char *arg ) );
 
 /* act_obj.c */
@@ -1892,8 +1893,13 @@ char * strip_article( char * );
 char * article( bool, bool, char * );
 
 char * center( char *, int , char *);
-int bw_strlen( char * );
+//str_len( argument )
 void command_not_found( CHAR_DATA * );
 
 char * unprocess_color( const char * );
 void lengthen( char *, int );
+
+bool tintin_send( CHAR_DATA *, char * );
+void send_tt_settings( CHAR_DATA * );
+bool is_fixed( CHAR_DATA * );
+bool is_fixed_d( DESCRIPTOR_DATA * );

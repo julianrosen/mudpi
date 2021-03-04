@@ -108,7 +108,7 @@ void do_remort( CHAR_DATA * ch, char *argument )
                   ch );
             send_to_char( "as normal and write a note to 'immortal'.\n\r", ch );
             
-            if ( ch->desc == NULL || !ch->desc->tintin )
+            if ( !is_fixed( ch ) )
                 send_to_char( "\n\r[Hit Enter to Continue]\n\r", ch );
             /*    wiznet( "$N has remorted.", ch, NULL, 0, 0, 0 ); */
 

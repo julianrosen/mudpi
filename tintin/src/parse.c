@@ -330,7 +330,7 @@ char *substitute_speedwalk(struct session *ses, char *input, char *output)
 			{
 				*pto++ = COMMAND_SEPARATOR;
 			}
-			pto += sprintf(pto, "%s", name);
+			pto += sprintf(pto, "%s", name); // JR: hmm, this isn't it
 		}
 
 		if (*pti == COMMAND_SEPARATOR)
@@ -391,6 +391,7 @@ int is_speedwalk(struct session *ses, char *input)
 void process_speedwalk(struct session *ses, char *input)
 {
 	char dir[2];
+    char command[10];
 	int cnt, i;
 
 	for (dir[1] = 0 ; *input ; input++)
@@ -398,22 +399,28 @@ void process_speedwalk(struct session *ses, char *input)
 		if (is_digit(*input))
 		{
 			sscanf(input, "%d%c", &cnt, dir);
+            
+            while (*input != dir[0])
+			{
+				input++;
+			}
 
 			for (i = 0 ; i < cnt ; i++)
 			{
-				write_mud(ses, dir, SUB_EOL);
-			}
-
-			while (*input != dir[0])
-			{
-				input++;
+                strcpy( command, dir );
+                if ( (*(input+1) != '\0' || i+1 < cnt) &&
+                   (ses->mudpi & MUDPI_BRIEF_SPEEDWALK) )
+                    strcat(command, " brief");
+				write_mud(ses, command, SUB_EOL);
 			}
 		}
 		else
 		{
 			dir[0] = *input;
-
-			write_mud(ses, dir, SUB_EOL);
+            strcpy( command, dir );
+            if ( *(input+1) != '\0' && (ses->mudpi & MUDPI_BRIEF_SPEEDWALK))
+                    strcat(command, " brief");
+			write_mud(ses, command, SUB_EOL);
 		}
 	}
 	return;

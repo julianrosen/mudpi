@@ -1329,7 +1329,7 @@ void spell_cancellation( int sn, int level, CHAR_DATA * ch, void *vo )
     }
 
     if ( found )
-        send_to_char( "Ok.\n\r", ch );
+        send_to_char( "Cancellation successful.\n\r", ch );
     else
         send_to_char( "Spell failed.\n\r", ch );
 }
@@ -1591,15 +1591,20 @@ void spell_continual_light( int sn, int level, CHAR_DATA * ch, void *vo )
 void spell_control_weather( int sn, int level, CHAR_DATA * ch, void *vo )
 {
     if ( !str_cmp( target_name, "better" ) )
+    {
         weather_info.change += dice( level / 3, 4 );
+        send_to_char( "You made the weather better.\n\r", ch );
+    }
     else if ( !str_cmp( target_name, "worse" ) )
+    {
         weather_info.change -= dice( level / 3, 4 );
+        send_to_char( "You made the weather worse.\n", ch );
+    }
     else
     {
         send_to_char( "Do you want it to get better or worse?\n\r", ch );
         return; // JR
     }
-    send_to_char( "Ok.\n\r", ch );
     return;
 }
 

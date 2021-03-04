@@ -5,10 +5,10 @@
 #gag {#SESSION}
 #gag {#TRYING}
 #gag {Use ANSI Color?}
+#gag {#ERROR: PROMPT ROW IS INSIDE THE SCROLLING REGION}
 
 #nop Mudpi uses these strings to communicate with TinTin
-#gag {@^ton}
-#gag {@^toff}
+#gag {^@^t}
 #gag {@^p1}
 #gag {@^p2}
 
@@ -17,18 +17,20 @@
 {
     #prompt {~@^p1%%1}{%%1}{-2};
     #prompt {~@^p2%%1}{%%1}{-1};
-    #split;
-    #mudpi on;
+    #delay {0.1} {#split};
+    #delay {0.15} {#cr};
+    #delay {0.1} {#screen clear bottom};
+    #delay {0.1} {#screen clear input};
+    #mudpi fixed;
 }
 
 #nop Disable static prompt
 #alias {unsetttprompt}
 {
-#showme {OFF};
     #unprompt {~@^p1%%1};
     #unprompt {~@^p2%%1};
-    #split 0 0;
-    #mudpi off;
+    #nop {#split 0 0};
+    #mudpi nonfixed;
     #screen clear bottom;
     #screen clear input;
     #delay {0.15} {#cr};
@@ -36,30 +38,48 @@
     #screen clear input;
 }
 
-#nop Mud uses this string to enable prompt
-#action {^@^ton %1}
+#nop Mud prefixes commands to TinTin with @^t
+#action {^@^t %1|%2}
 {
-    #delay {0.05} {setttprompt};
-    #delay {0.05} {#cr};
-    #delay {0.05} {#screen clear bottom};
-    #delay {0.05} {#screen clear input};
-    #mudpi on;
-    #mudpi %1;
+    #switch {"%1"}
+    {
+        #case "split"
+        {
+            #switch {"%2"}
+            {
+                #case "on" #split 0 0;
+                #case "off" #unsplit;
+            } 
+        };
+        #case "fixed"
+        {
+            #switch {"%2"}
+            {
+                #case "on" setttprompt;
+                #case "off" unsetttprompt;
+            }
+        };
+        #case "brief"
+        {
+            #switch {"%2"}
+            {
+                #case "on" {#mudpi brief};
+                #case "off" {#mudpi nonbrief};
+            }
+        };
+        #case "compact"
+        {
+            #switch {"%2"}
+            {
+                #case "on" {#mudpi compact};
+                #case "off" {#mudpi noncompact};
+            }
+        };
+    };
 }
 
-#nop Mud uses this string to disable prompt
-#action {^@^toff}
-{
-    unsetttprompt;
-}
-
-#nop When Mudpi processes 'compact' command, TinTin
-#nop switches compact mode on or off
-#action {^Compact mode set.} {#mudpi compact}
-#action {^Compact mode removed.} {#mudpi noncompact}
-
-#nop When we receive a non-prompt output line, update the variable
-#nop that controlls spacing of TinTin input lines
+#nop When we receive a non-escaped output line, update the
+#nop variable that controlls spacing of TinTin input lines
 #event {RECEIVED LINE} {#regexp {%1} {^@^} {#nop} {#shownoutput}}
 
 #nop Better than nothing...
@@ -68,14 +88,14 @@
 #nop Terminate session upon disconnect
 #event {SESSION DISCONNECTED} {#end}
 
-#nop This string is entered at ANSI prompt. It's;
-#nop how TinTin tells Mudpi to use optimized prompt.;
-#event {SESSION CONNECTED} {ti}
+#nop This string is entered at ANSI prompt. It's how the MUD;
+#nop learns that the custom TinTin client has connected.;
+#event {SESSION CONNECTED} {tintin}
 
 #nop On screen resize, clear those weird lines that appear and redraw prompt
 #event {SCREEN RESIZE} {#screen clear input;#screen clear bottom;#cr}
 
-#nop Working copy only
+#nop Unstable version only
 #showme This is the unstable version of Mudpi
 
 #nop Connect to the mud

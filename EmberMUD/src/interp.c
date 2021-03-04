@@ -479,7 +479,6 @@ const struct cmd_type cmd_table[] = {
     {"mpcycle", do_mpcycle, POS_DEAD, 0, LOG_NORMAL, 0}, // JR
     
     
-    {"cure", do_cure, POS_DEAD, 1, LOG_ALWAYS, 1}, // JR
     /*
      * End of list.
      */

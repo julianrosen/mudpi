@@ -776,7 +776,7 @@ void do_autolist( CHAR_DATA * ch, char *argument )
                       ch );
     else
         send_to_char( "You have ansi color turned off.\n\r", ch );
-    
+
     if ( ch->desc != NULL && ch->desc->tintin )
         send_to_char( "You are using Mudpi's integrated TinTin.\n\r",
                       ch );
@@ -922,11 +922,13 @@ void do_compact( CHAR_DATA * ch, char *argument )
     if ( IS_SET( ch->comm, COMM_COMPACT ) )
     {
         send_to_char( "Compact mode removed.\n\r", ch );
+        tintin_send( ch, "compact|off" );
         REMOVE_BIT( ch->comm, COMM_COMPACT );
     }
     else
     {
         send_to_char( "Compact mode set.\n\r", ch );
+        tintin_send( ch, "compact|on" );
         SET_BIT( ch->comm, COMM_COMPACT );
     }
 }
@@ -954,7 +956,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
             prompt = str_dup( argument );
         }
         
-        if ( ch->desc != NULL && ch->desc->tintin )
+        if ( is_fixed( ch ) )
         {
             for ( int n = 0; n + 1 < strlen(prompt); n++ )
             {
@@ -1434,9 +1436,9 @@ void do_tick( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) || ch->desc == NULL )
         return;
     
-    if ( ch->desc != NULL && ch->desc->tintin )
+    if ( is_fixed( ch ) )
     {
-        send_to_char( "This won't do anything because you are using Mudpi's integrated TinTin.\n\r", ch );
+        send_to_char( "This won't do anything because you are using the fixed prompt.\n\r", ch );
         return;
     }
     if ( ch->pcdata->tick == 1 )
@@ -1454,37 +1456,59 @@ void do_tick( CHAR_DATA * ch, char *argument )
 void do_tintin( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+    char arg[MAX_STRING_LENGTH],arg2[MAX_STRING_LENGTH];
+    const char * const options[] = { "fixed", "split", "brief" };
+    const char * const text[] = { "Fixed prompt", "Split prompt", "Brief speedwalk" };
+    const int bits[] = { STATIC_PROMPT, SPLIT, BRIEF_SPEEDWALK };
+    int n, num=3;
+    argument = one_argument( argument, arg );
+    argument = one_argument( argument, arg2 );
+    bool success = FALSE;
+    printf("start tintin\n");
     if ( IS_NPC( ch ) || ch->desc == NULL )
         return;
     
-    if ( argument[0] == '\0' || argument[1] == '\0' )
+    if ( arg[0] == '\0' )
     {
-        send_to_char( "Did you want to turn the fixed prompt on or off?\n\r", ch );
+        printf("a\n");
+        for ( n = 0; n < num; n++ )
+        {
+            printf("b\n");
+            sprintf( buf, "%s: %s\n\r", text[n],
+                IS_SET( ch->tintin, bits[n]) ? "`Gon`w" : "`Roff`w" );
+            printf("c\n");
+            send_to_char( buf, ch );
+            printf("d\n");
+        }
+        return;
+    }    
+    if ( arg2[0] != '\0' && ( !strcmp( arg2, "on" ) || !strcmp( arg2, "off" ) ) )
+    { 
+        for ( n = 0; n < num; n++ )
+        {
+            printf("step\n");
+            if ( !str_prefix( arg, options[n] ) )
+            {
+                printf("[%s]\n",options[n]);
+                success = TRUE;
+                sprintf( buf, "%s|%s", options[n], arg2 );
+                tintin_send( ch, buf );
+                strcpy( buf, text[n] );
+                sprintf( buf+strlen(buf), " turned %s.\n\r", arg2 );
+                send_to_char( buf, ch );
+                if ( arg2[1] == 'n' )
+                    SET_BIT( ch->tintin, bits[n] );
+                else
+                    REMOVE_BIT( ch->tintin, bits[n] );
+                break;
+            }
+        }
+    }
+    if ( !success )
+    {
+        send_to_char( "Usage: tintin <fixed|split|brief> <on|off>\n\r", ch );
         return;
     }
-    
-
-    if ( argument[1] == 'f' )
-    {
-        send_to_char( "\n\r" TINTIN_OFF "\n\r\n\rDisabling Mudpi's fixed prompt integration.\n\r", ch );
-        ch->desc->tintin = 0;
-        ch->desc->newline = FALSE;
-    }
-    else if (argument[1] == 'n' )
-    {
-        sprintf( buf, TINTIN_ON " %s\n\rEnabling Mudpi's fixed prompt integration.\n\r",
-               IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
-        send_to_char( buf, ch );
-        if ( !ch->desc->tintin )
-            send_to_char( "\n\r", ch );
-        ch->desc->tintin = 1;
-    }
-//    else if ( argument[1] == 'f' && !ch->desc->tintin )
-//        send_to_char( "Mudpi's fixed prompt integration is already disabled.\n\r", ch );
-//    else if ( argument[1] == 'n' && ch->desc->tintin )
-//        send_to_char( "Mudpi's fixed prompt integration is already enabled.\n\r", ch );
-    else
-        send_to_char( "Use 'tintin on' or 'tintin off'.\n\r", ch );
 }
 
 void do_look( CHAR_DATA * ch, char *argument )
@@ -1543,7 +1567,8 @@ void do_look( CHAR_DATA * ch, char *argument )
         send_to_char( "`w\n\r", ch );
 
         if ( arg[0] == '\0'
-             || ( !IS_NPC( ch ) && !IS_SET( ch->comm, COMM_BRIEF ) ) )
+             || ( !IS_NPC( ch ) && !IS_SET( ch->comm, COMM_BRIEF )
+                && arg2[0] == '\0' ) ) // JR: Don't display description if 'look auto blah'
         {
             send_to_char( "  ", ch );
             send_to_char( ch->in_room->description, ch );
@@ -1551,7 +1576,7 @@ void do_look( CHAR_DATA * ch, char *argument )
 
         if ( !IS_NPC( ch ) && IS_SET( ch->act, PLR_AUTOEXIT ) )
         {
-            if ( !IS_SET( ch->comm, COMM_COMPACT ) )
+            if ( !IS_SET( ch->comm, COMM_COMPACT ) && arg2[0] == '\0' )
                 send_to_char( "\n\r", ch );
             
             send_to_char( "`W", ch );
@@ -1956,7 +1981,7 @@ void do_score( CHAR_DATA * ch, char *argument )
         sprintf( buf, "`%c", outline_color );
         lengthen( buf, start_col );
         strcat( buf, " /");
-        while ( bw_strlen( buf ) < total_width )
+        while ( str_len( buf ) < total_width )
             strcat( buf, "=" );
         strcat( buf, "\\\n" );
         send_to_char( buf, ch );
@@ -1967,7 +1992,7 @@ void do_score( CHAR_DATA * ch, char *argument )
         strcat( buf, ends );
         send_to_char( buf, ch );
         strcpy( buf, start );
-        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        for ( n = 0; str_len(buf) < total_width + 1; n++ )
         {
             strcat( buf, n%4==1 ? "+" : "-" );
         }
@@ -2030,7 +2055,7 @@ void do_score( CHAR_DATA * ch, char *argument )
         strcat( buf, ends );
         send_to_char( buf, ch );
         strcpy( buf, start );
-        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        for ( n = 0; str_len(buf) < total_width + 1; n++ )
         {
             strcat( buf, n%4==1 ? "+" : "-" );
         }
@@ -2105,7 +2130,7 @@ void do_score( CHAR_DATA * ch, char *argument )
         buf[0] = '\0';
         lengthen( buf, start_col );
         strcat( buf, " \\" );
-        while ( bw_strlen( buf ) < total_width )
+        while ( str_len( buf ) < total_width )
             strcat( buf, "=" );
         strcat( buf, "/\n" );
         send_to_char( buf, ch );
@@ -2453,7 +2478,7 @@ void do_weather( CHAR_DATA * ch, char *argument )
 void do_version( CHAR_DATA * ch )
 {
 
-    printf_to_char( ch, "%s\n\r", EMBER_MUD_VERSION );
+    printf_to_char( ch, "%s", EMBER_MUD_VERSION );
     return;
 }
 
@@ -2969,8 +2994,8 @@ void do_who( CHAR_DATA * ch, char *argument )
             race = pc_race_table[temp->race].who_name;
         else
             continue;
-        if ( bw_strlen( race ) > race_len )
-            race_len = bw_strlen( race );
+        if ( str_len( race ) > race_len )
+            race_len = str_len( race );
     }
     //
     
@@ -3496,10 +3521,12 @@ void do_title( CHAR_DATA * ch, char *argument )
 
     if ( argument[0] == '\0' )
     {
-        send_to_char( "Change your title to what?\n\r", ch );
+        set_title( ch, argument );
+        sprintf( buf, "Title removed, you are now simply %s.\n\r", ch->name );
+        send_to_char( buf, ch );
         return;
     }
-
+    printf("do_title, argument: %i, [%s]",str_len( argument ),argument);
     if ( str_len( argument ) + str_len( ch->name ) > 45 )
     {
         send_to_char( "Title too long, redo.\n\r", ch );
@@ -3508,7 +3535,7 @@ void do_title( CHAR_DATA * ch, char *argument )
 
     smash_tilde( argument );
     set_title( ch, argument );
-    sprintf( buf, "Ok, you are now %s%s\n\r", ch->name, ch->pcdata->title );
+    sprintf( buf, "Ok, you are now %s%s.\n\r", ch->name, ch->pcdata->title );
     send_to_char( buf, ch );
 }
 
@@ -3899,7 +3926,7 @@ void do_password( CHAR_DATA * ch, char *argument )
     free_string( &ch->pcdata->pwd );
     ch->pcdata->pwd = str_dup( pwdnew );
     save_char_obj( ch );
-    send_to_char( "Ok.\n\r", ch );
+    send_to_char( "Password set.\n\r", ch );
     return;
 }
 
@@ -4151,7 +4178,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     buf[0] = '\0';
     lengthen( buf, start_col );
     sprintf( buf+strlen(buf), " `%c/", outline_color );
-    while ( bw_strlen(buf) < total_width )
+    while ( str_len(buf) < total_width )
         strcat( buf, "=");
     strcat( buf, "\\\n");
     send_to_char( buf, ch );
@@ -4160,7 +4187,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     strcat( buf, ends );
     send_to_char( buf, ch );
     strcpy( buf, start );
-        for ( n = 0; bw_strlen(buf) < total_width + 1; n++ )
+        for ( n = 0; str_len(buf) < total_width + 1; n++ )
         {
             strcat( buf, n%4==1 ? "+" : "-" );
         }
@@ -4245,7 +4272,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     buf[0] = '\0';
     lengthen( buf, start_col );
     strcat( buf, " \\" );
-    while ( bw_strlen( buf ) < total_width )
+    while ( str_len( buf ) < total_width )
         strcat( buf, "=" );
     strcat( buf, "/\n" );
     send_to_char( buf, ch );

@@ -1678,7 +1678,7 @@ void do_alist( CHAR_DATA * ch, char *argument )
             continue;
         sprintf( buf, "[%3d] ", pArea->vnum);
         strncat( buf, &pArea->name[8], 29 );
-        while ( bw_strlen(buf) < 35 )
+        while ( str_len(buf) < 35 )
             strcat( buf, " " );
         sprintf( buf, "%s (%-5d-%5d) %-12.12s [%d] [%-10.10s]\n\r",
                  buf,

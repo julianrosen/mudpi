@@ -3326,7 +3326,7 @@ void do_areas( CHAR_DATA * ch, char *argument )
         {
             strcat(buf,"`w");
             strcat(buf,n<numingroup[k]?namelist[k][n]:"");
-            while (bw_strlen(buf) < (k+1)*41)
+            while (str_len(buf) < (k+1)*41)
                 strcat(buf," ");
         }
         strcat(buf, "\n\r");
@@ -3361,7 +3361,7 @@ void do_areas( CHAR_DATA * ch, char *argument )
     for ( iArea = 0; iArea < iAreaHalf; iArea++ )
     {
         strcpy( buf, pArea1->name );
-        while ( bw_strlen(buf) < 41 )
+        while ( str_len(buf) < 41 )
             strcat( buf, " ");
         strcat( buf, ( pArea2 != NULL ) ? pArea2->name : "" );
         strcat( buf, "\n\r");

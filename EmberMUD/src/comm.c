@@ -849,7 +849,7 @@ int game_loop( int control )
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                if ( d->tintin && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) ) // JR :(
+                if ( is_fixed_d( d ) && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) ) // JR :(
                 {
                     write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
                 }                                                         // Not really a problem with Tintin, but still...
@@ -1390,7 +1390,7 @@ char * wait_str( CHAR_DATA * ch, char *buf )
     int n = ch->wait;
     if ( ch->level >= LEVEL_ADMIN )
         strcpy( buf, "");
-    else if ( ch->desc != NULL && ch->desc->tintin )
+    else if ( is_fixed( ch ) )
     {
         if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
             sprintf( buf, "  ");
@@ -1431,9 +1431,7 @@ bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
     bool color = TRUE;
     bool tintin;
     
-    tintin = (d != NULL && d->character != NULL && d->tintin);
-    if ( !tintin )
-        printf("NO TINTIN!!\n");
+    tintin = is_fixed_d( d );
 
     /* If you're in a shell, then no output for you! */
     if ( d->connected == CON_SHELL )
@@ -1531,12 +1529,6 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     bool b,tintin;
     
     char buf[MAX_OUTPUT_BUFFER],buf2[MAX_OUTPUT_BUFFER],*tmp;
-    char name[50];
-    
-    if ( d->character != NULL ) // JR debug
-        strcpy( name, d->character->name );
-    else
-        strcpy( name, "Nobody" );
     
     strcpy( buf, txt );
 
@@ -1544,12 +1536,9 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
      * Find length in case caller didn't.
      */
     
-    if (!strcmp(name,"Test") ) // JR debug
-        printf("WTB, newline: %s, ",d->newline?"T":"F");
-    
     if ( length <= 0 )
         length = strlen( txt );
-    tintin = (d != NULL && d->character != NULL && d->tintin);
+    tintin = is_fixed_d( d );
     tmp = buf;
     
     if ( tintin && d->newline ) //JR temp debug
@@ -1580,12 +1569,6 @@ void write_to_buffer( DESCRIPTOR_DATA * d, const char *txt, int length )
     }
     
     strcpy( tmp, txt );
-    if (!strcmp(name,"Test") ) // JR debug
-    {
-        printf("b: %s, ",b?"T":"F");
-         
-            printf("buf: [%s]\n",buf);
-    }
     
 
         
@@ -1724,6 +1707,7 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
         if ( argument[0] == 't' && argument[1] == 'i' )
         {
             // Integrated TinTin is being used
+            printf("Tintin being used\n");
             d->tintin = TRUE;
         }
         else
@@ -2182,7 +2166,7 @@ check_ban function.
                        && IS_SET( ch->act, PLR_REMORT ) ) )
                 {
                     if ( str_cmp( class_table[iClass].name, "Console" ) )
-                        max_len = bw_strlen( class_table[iClass].name ) > max_len ? bw_strlen( class_table[iClass].name ) : max_len;
+                        max_len = str_len( class_table[iClass].name ) > max_len ? str_len( class_table[iClass].name ) : max_len;
                 }
             }
             x = 0;                  
@@ -2202,7 +2186,7 @@ check_ban function.
                         if ( x == 0 )
                             write_to_buffer( d, "   ", 3 );
                         write_to_buffer( d, class_table[iClass].name, 0 );
-                        for ( i=0 ; i+bw_strlen(class_table[iClass].name) < max_len + 3; i++)
+                        for ( i=0 ; i+str_len(class_table[iClass].name) < max_len + 3; i++)
                             write_to_buffer( d, " ", 1 );
                         x++;
                     }
@@ -2637,11 +2621,10 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 ch->pcdata->ticks = 0;
                 sprintf( log_buf, "%s@%s reconnected.", ch->name, d->host );
                 log_string( log_buf );
+                
                 if ( d->tintin )
                 {
-                    sprintf( buf, "\n\r" TINTIN_ON " %s\n\r",
-                        IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
-                    write_to_buffer( d, buf, 0 );
+                    send_tt_settings( ch );
                     d->connected = CON_PAUSE;
                 }
                 else
@@ -3238,17 +3221,39 @@ void do_color( register char *inbuf, int inlen, register char *outbuf,
         *outbuf = '\0';
 }
 
+char *int_to_str( int value, int length, char style)
+{
+    static char string[40];
+    char tmp[10];
+    switch ( style )
+    {
+        case 'r': // Right justified
+            sprintf( tmp, "%%%dd", length );
+            break;
+        case '0': // Zero padded
+            sprintf( tmp, "%%0%dd", length );
+            break;
+        case 'l': // Left justified
+            sprintf( tmp, "%%-%dd", length );
+            break;
+    }
+    sprintf( string, tmp, value );
+    return string;
+}
+
 char *figurestate( int current, int max )
 {
     static char status[40];
-
+    int length;
+    sprintf( status, "%d", max );
+    length = strlen( status );
     bzero( status, sizeof( status ) );
     if ( current >= ( max / 3 * 2 ) )
-        sprintf( status, "`W%d`w", current );
+        sprintf( status, "`W%s`w", int_to_str( current, length, PROMPT_STYLE ) );
     else if ( current >= max / 3 )
-        sprintf( status, "`Y%d`w", current );
+        sprintf( status, "`Y%s`w", int_to_str( current, length, PROMPT_STYLE ) );
     else
-        sprintf( status, "`R%d`w", current );
+        sprintf( status, "`R%s`w", int_to_str ( current, length, PROMPT_STYLE ) );
     return ( status );
 }
 
@@ -3287,10 +3292,12 @@ char *doparseprompt( CHAR_DATA * ch )
     static char finished_prompt[240];
     char workstr[100];
     char waitbuf[10];
+    int hp_dig=0, mana_dig=0, mv_dig=0;
     char *fp_point;
     char *orig_prompt;
     char *c;
     bool twoline = FALSE;
+    bool tintin;
     int n;
     
     if ( IS_NPC( ch ) )
@@ -3304,7 +3311,8 @@ char *doparseprompt( CHAR_DATA * ch )
     orig_prompt = ch->pcdata->prompt;
     fp_point = finished_prompt;
     strcpy( fp_point, "" );
-    if ( ch->desc != NULL && ch->desc->tintin )
+    tintin = is_fixed( ch );
+    if ( tintin )
     {
         for ( int n = 0; n + 1 < strlen(orig_prompt); n++ )
         {
@@ -3322,7 +3330,7 @@ char *doparseprompt( CHAR_DATA * ch )
         }
         else
         {
-            strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM ); // JR just changed
+            strcpy( fp_point, PROMPT_TOP "\n\r" PROMPT_BOTTOM );
             fp_point += strlen( PROMPT_TOP ) + strlen( PROMPT_BOTTOM ) + 2;
         }
     }
@@ -3340,9 +3348,13 @@ char *doparseprompt( CHAR_DATA * ch )
         switch ( *orig_prompt )
         {
         case 'h':
-            sprintf( workstr, "%d", ch->hit );
-            strcat( finished_prompt, workstr );
-            fp_point += strlen( workstr );
+            if ( hp_dig == 0 )
+            {
+                sprintf( workstr, "%d", ch->max_hit );
+                hp_dig = strlen( workstr );
+            }
+            strcat( finished_prompt, int_to_str( ch->hit, hp_dig, PROMPT_STYLE ) );
+            fp_point += hp_dig;
             orig_prompt++;
             break;
         case 'H':
@@ -3352,9 +3364,13 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'm':
-            sprintf( workstr, "%d", ch->mana );
-            strcat( finished_prompt, workstr );
-            fp_point += strlen( workstr );
+            if ( mana_dig == 0 )
+            {
+                sprintf( workstr, "%d", ch->max_mana );
+                mana_dig = strlen( workstr );
+            }
+            strcat( finished_prompt, int_to_str( ch->mana, mana_dig, PROMPT_STYLE ) );
+            fp_point += mana_dig;
             orig_prompt++;
             break;
         case 'M':
@@ -3364,9 +3380,13 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'v':
-            sprintf( workstr, "%d", ch->move );
-            strcat( finished_prompt, workstr );
-            fp_point += strlen( workstr );
+            if ( mv_dig == 0 )
+            {
+                sprintf( workstr, "%d", ch->max_move );
+                mv_dig = strlen( workstr );
+            }
+            strcat( finished_prompt, int_to_str( ch->move, mv_dig, PROMPT_STYLE ) );
+            fp_point += mv_dig;
             orig_prompt++;
             break;
         case 'V':
@@ -3376,7 +3396,7 @@ char *doparseprompt( CHAR_DATA * ch )
             orig_prompt++;
             break;
         case 'r':
-            if ( ch->desc != NULL && ch->desc->tintin )
+            if ( tintin )
             {
                 if ( twoline )
                 {
@@ -3528,7 +3548,7 @@ char *doparseprompt( CHAR_DATA * ch )
             break;
         }
     }
-    if ( ch->desc != NULL && ch->desc->tintin )
+    if ( tintin )
         strcat ( finished_prompt, "`w\n\r`w" );
     return ( finished_prompt );
 }
@@ -3572,8 +3592,8 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
         if ( !race_table[race].remort_race ||
              ( race_table[race].remort_race
                && IS_SET( ch->act, PLR_REMORT ) ) )
-            max_len = bw_strlen(race_table[race].name) > max_len ? 
-                bw_strlen(race_table[race].name) : max_len;
+            max_len = str_len(race_table[race].name) > max_len ? 
+                str_len(race_table[race].name) : max_len;
     }
     for ( race = 1; race_table[race].name != NULL; race++ )
     {
@@ -3604,12 +3624,12 @@ void motd( CHAR_DATA * ch )
 {
     DESCRIPTOR_DATA *d = ch->desc;
     char buf[20];
-    
-    sprintf( buf, TINTIN_ON " %s\n\r",
-            IS_SET( ch->comm, COMM_COMPACT ) ? "compact" : "noncompact" );
+    printf("motd\n");
+    send_tt_settings( ch );
     write_to_buffer( d, "\n\r", 2 );
-    if ( d -> tintin )
-        write_to_buffer( d, buf, 0 );
+    printf("end motd\n");
+    //if ( d -> tintin )
+    //    write_to_buffer( d, buf, 0 );
     do_help( ch, "motd" );
     if ( d -> tintin )
         write_to_buffer( d, "\n\r\n\r", 4 );

@@ -325,14 +325,19 @@ DO_COMMAND(do_test)
 // JR
 DO_COMMAND(do_mudpi)
 {
-    if ( !strcmp( arg, "on" ) )
-        ses->mudpi |= MUDPI_ON;
-    else if ( !strcmp( arg, "off") )
-        ses->mudpi &= ~MUDPI_ON;
+    //tintin_printf2(ses, "\n#MUDPI CALLED: [%s][%s][%s]\n", arg,arg1,arg2);
+    if ( !strcmp( arg, "fixed" ) )
+        ses->mudpi |= MUDPI_FIXED;
+    else if ( !strcmp( arg, "nonfixed") )
+        ses->mudpi &= ~MUDPI_FIXED;
     else if ( !strcmp( arg, "compact") )
         ses->mudpi |= MUDPI_COMPACT;   
     else if ( !strcmp( arg, "noncompact") )
         ses->mudpi &= ~MUDPI_COMPACT;
+    else if ( !strcmp( arg, "brief") )
+        ses->mudpi |= MUDPI_BRIEF_SPEEDWALK;   
+    else if ( !strcmp( arg, "nonbrief") )
+        ses->mudpi &= ~MUDPI_BRIEF_SPEEDWALK;
     return ses;
  }
 

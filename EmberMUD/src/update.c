@@ -215,7 +215,7 @@ int hit_gain( CHAR_DATA * ch )
         if ( ch->pcdata->condition[COND_FULL] < HUNGER_THRESH )
             gain /= 2;
         
-        if ( ch->pcdata->condition[COND_FULL] == 0 )
+        if ( ch->pcdata->condition[COND_FULL] == 0 ) // JR: starving, cumulative with hungry
             gain /= 3;            
 
         if ( ch->pcdata->condition[COND_THIRST] == 0 )
@@ -395,29 +395,31 @@ void gain_condition( CHAR_DATA * ch, int iCond, int value )
         return;
     ch->pcdata->condition[iCond] = URANGE( 0, condition + value, 48 );
     
-    
-    if ( ch->pcdata->condition[iCond] == 0 )
+    // Don't display hunger messages to afk players
+    if ( !IS_SET( ch->act, PLR_AFK ) )
     {
-        switch ( iCond )
+        if ( ch->pcdata->condition[iCond] == 0 )
         {
-        case COND_FULL:
-            send_to_char( "`wYou are `Ystarving`w! Better find some food soon...\n\r", ch );
-                //send_to_char( "\n\rEat food please\n\r", ch );
-            break;
+            switch ( iCond )
+            {
+            case COND_FULL:
+                send_to_char( "`wYou are `Ystarving`w! Better find some food soon...\n\r", ch );
+                    //send_to_char( "\n\rEat food please\n\r", ch );
+                break;
 
-        case COND_THIRST:
-            send_to_char( "`wYou are thirsty.\n\r", ch );
-            break;
+            case COND_THIRST:
+                send_to_char( "`wYou are thirsty.\n\r", ch );
+                break;
 
-        case COND_DRUNK:
-            if ( condition != 0 )
-                send_to_char( "`wYou are sober.\n\r", ch );
-            break;
+            case COND_DRUNK:
+                if ( condition != 0 )
+                    send_to_char( "`wYou are sober.\n\r", ch );
+                break;
+            }
         }
+        else if ( iCond == COND_FULL && ch->pcdata->condition[iCond] < HUNGER_THRESH )
+            send_to_char( "`wYou are hungry.\n\r", ch );
     }
-    else if ( iCond == COND_FULL && ch->pcdata->condition[iCond] < HUNGER_THRESH )
-        send_to_char( "`wYou are hungry.\n\r", ch );
-
     return;
 }
 
@@ -523,7 +525,7 @@ void mobile_update( void )
              && ( !IS_SET( ch->act, ACT_STAY_AREA )
                   || pexit->u1.to_room->area == ch->in_room->area ) )
         {
-            move_char( ch, door, FALSE );
+            move_char( ch, door, FALSE, 'n' );
             if ( ch->position < POS_STANDING )
                 continue;
         }
@@ -678,7 +680,7 @@ void redraw_prompts( void )
     CHAR_DATA * ch;
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-        if ( !IS_NPC( ch ) && ch->desc != NULL && ch->desc->tintin )
+        if ( !IS_NPC( ch ) && is_fixed( ch ) )
         {
             write_to_buffer( ch->desc, doparseprompt( ch ) , 0 );
         }
@@ -791,7 +793,7 @@ void char_update( void )
         // Prompts update automatically
         
         if ( !IS_NPC( ch ) && ch->pcdata->ticks == 0 
-            && ch->desc != NULL && !ch->desc->tintin )
+            && !is_fixed( ch ) )
         {
             if ( !IS_NPC( ch ) && ch->pcdata->tick == 1 && ch->desc->editor == 0
                  && ch->desc->pString == NULL && ch->desc->connected == 0 )
