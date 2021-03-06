@@ -75,7 +75,7 @@
 30 9 second attack
 30 1 stone skin
 32 1 change sex
-33 1 disintegrate 
+33 1 disintegrate
 33 1 summon
 35 1 sanctuary
 36 1 vision
@@ -142,7 +142,7 @@
 93 0 shield block
 93 0 shield cleave
 93 0 spear
-93 0 vicious strike
+93 0 critical hit
 93 0 weapon cleave
 93 1 word of recall
 -1

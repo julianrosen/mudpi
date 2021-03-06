@@ -56,7 +56,7 @@
 90 0 berserk
 90 0 circle
 90 0 disarm
-90 2 disintegrate 
+90 2 disintegrate
 90 2 enchant armor
 90 2 enchant weapon
 90 0 enhanced damage
@@ -81,7 +81,7 @@
 90 2 restoration
 90 2 test area
 90 0 third attack
-90 0 vicious strike
+90 0 critical hit
 90 2 vision
 93 2 acid blast
 93 2 armor

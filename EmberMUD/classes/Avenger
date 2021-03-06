@@ -39,7 +39,7 @@
 23 2 chill touch
 23 2 flamestrike
 24 6 third attack
-45 6 vicious strike
+45 6 critical hit
 25 2 cause critical
 25 2 earthquake
 25 2 invis
@@ -57,7 +57,7 @@
 90 0 bash
 90 0 berserk
 90 0 circle
-90 2 disintegrate 
+90 2 disintegrate
 90 2 enchant armor
 90 2 enchant weapon
 90 2 fire breath
