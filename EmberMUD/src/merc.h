@@ -118,6 +118,8 @@ typedef struct race_type RACE_DATA;
 typedef struct immcmd_type IMMCMD_TYPE;
 typedef struct do_skills_data DO_SKILLS_DATA;
 typedef struct do_gain_list_data DO_GAIN_LIST_DATA;
+typedef struct input_line INPUT_LINE; // JR
+
 
 int count_users args( ( OBJ_DATA * obj ) ); /* count users on/in an
                                                obj -Lancelight */
@@ -144,6 +146,12 @@ typedef int MPROG_FUN args( ( void *arg ) );
 #endif
 
 #include <stdarg.h>
+
+struct input_line {
+    char command[MAX_STRING_LENGTH];
+    INPUT_LINE * next;
+};
+
 
 struct do_gain_list_data
 {
@@ -283,6 +291,8 @@ struct descriptor_data {
     bool tintin;      // JR: are we using integrated tintin
     bool newline;     // JR: do we need a newline?
     int editor;                 /* OLC */
+    INPUT_LINE * wait_queue; // JR: linked list of wait_blocked commands
+    INPUT_LINE * wait_queue_last;
 };
 
 /*Auction Structure. 
@@ -1087,6 +1097,7 @@ I find I get better performance with ~5 pulses per beat (i.e. ~60 pulses per sec
 */
 
 #define WAIT_STATE(ch, npulse)  ((ch)->wait = UMAX((ch)->wait, (npulse)*PULSE_VIOLENCE/ONE_ROUND)) /* JR: now scales correctly*/
+#define WAIT_PULSES(ch, npulse) ((ch)->wait = UMAX((ch)->wait, (npulse)))
 #define DAZE_STATE(ch, npulse)  ((ch)->daze = UMAX((ch)->daze, (npulse)*PULSE_VIOLENCE/ONE_ROUND)) /* (changing PULSES_PER_SECOND
 											now will not change spells per round*/
 /*
@@ -1339,7 +1350,7 @@ void auction_update args( ( void ) );
 void auction_channel args( ( char *vismsg, char *notvismsg ) );
 
 /* act_move.c */
-void move_char args( ( CHAR_DATA * ch, int door, bool follow, char mode ) );
+void move_char args( ( CHAR_DATA * ch, int door, bool follow, int mode ) );
 int find_door args( ( CHAR_DATA * ch, char *arg ) );
 
 /* act_obj.c */
@@ -1351,7 +1362,8 @@ args( ( CHAR_DATA * ch, CHAR_DATA * keeper, char *actstr ) );
 /* act_wiz.c */
 
 /* alias.c */
-void substitute_alias args( ( DESCRIPTOR_DATA * d, char *input ) );
+void substitute_alias args( ( DESCRIPTOR_DATA * d, char * input ) );
+void substitute_alias_string args( ( DESCRIPTOR_DATA * d, char * input, char * target ) );
 /*ban.c*/
 bool check_ban args( ( char *site, int type ) );
 
@@ -1903,3 +1915,5 @@ bool tintin_send( CHAR_DATA *, char * );
 void send_tt_settings( CHAR_DATA * );
 bool is_fixed( CHAR_DATA * );
 bool is_fixed_d( DESCRIPTOR_DATA * );
+
+

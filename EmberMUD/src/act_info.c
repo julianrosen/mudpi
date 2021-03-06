@@ -22,11 +22,8 @@
 #include <time.h>
 #include "merc.h"
 
+#define INDENT_OBJECT 3 // JR: temporary, overrides config.h
 
-// JR: room formatting parameters
-#define INDENT_EXIT       3
-#define INDENT_OBJECT     6
-#define INDENT_CHARACTER  3
 
 bool can_practice( CHAR_DATA * ch, long sn );
 
@@ -241,11 +238,12 @@ void show_list_to_char( OBJ_DATA * list, CHAR_DATA * ch, bool fShort,
 
 void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
 {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH], buf2[MAX_INPUT_LENGTH];
     char message[MAX_STRING_LENGTH];
     buf[0] = '\0';
     lengthen( buf, INDENT_CHARACTER ); // JR: spacing
     message[0] = '\0';
+    int n;
 
     // JR: modified style
     if ( IS_AFFECTED( victim, AFF_INVISIBLE ) )
@@ -270,7 +268,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
         strcat( buf, "`R(PK)`C" );
     if ( !IS_NPC( victim ) && IS_SET( victim->act, PLR_THIEF ) )
         strcat( buf, "`W(`YT`yHIE`YF`W)`C" );
-    if ( buf[0] != '\0' && buf[0] != ' ' )
+    if ( buf[INDENT_CHARACTER] != '\0' )
         strcat( buf, " ");
     
     if ( victim->position == victim->start_pos
@@ -283,6 +281,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
          && victim->position == victim->start_pos )
     {
         strcat( message, "`g" );
+        lengthen( message, INDENT_CHARACTER );
         strcat( message, PERS( victim, ch ) );
         strcat( message, " is covered in sticky webs.\n`w" );
         message[2] = UPPER(message[2]);
@@ -293,6 +292,7 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
     {
         if ( !IS_NPC( victim ) )
         {
+            printf("I don't think this happens\n");
             send_to_char( buf, ch );
             send_to_char( "`w", ch );
             return;
@@ -306,12 +306,15 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
             return;
         }
     }
-
-    strcat( buf, PERS( victim, ch ) );
+    
+    strcpy( buf2, PERS( victim, ch ) );
+    buf2[0] = UPPER( buf2[0] );
+    strcat( buf, buf2 );
     if ( !IS_NPC( victim ) && !IS_SET( ch->comm, COMM_BRIEF )
          && victim->position == POS_STANDING && ch->on == NULL )
         strcat( buf, victim->pcdata->title );
 
+    strcat( buf, "`C" ); // JR 
     switch ( victim->position )
     {
     case POS_DEAD:
@@ -449,10 +452,13 @@ void show_char_to_char_0( CHAR_DATA * victim, CHAR_DATA * ch )
     if ( IS_AFFECTED( victim, AFF_WEB ) )
     {
         message[0] = '\0';
-        strcat( message, "\n\r`g" );
+        strcat( buf, "\n\r`g" );
+        lengthen( message, INDENT_CHARACTER );
+        strcat( buf, message );
+        message[0] = '\0';
         strcat( message, PERS( victim, ch ) );
         strcat( message, " is covered in sticky webs.`w" );
-        message[4] = UPPER( message[4] );
+        message[0] = UPPER( message[0] );
         strcat( buf, message );
     }
     strcat( buf, "\n\r`w" );
@@ -980,7 +986,7 @@ void do_prompt( CHAR_DATA * ch, char *argument )
                     if ( b )
                     {
                         send_to_char( "Prompts are limited to two lines.\n\r", ch );
-                        free_string( prompt );
+                        free_string( &prompt );
                         return;
                     }
                     else
@@ -1471,7 +1477,7 @@ void do_tick( CHAR_DATA * ch, char *argument )
 void do_tintin( CHAR_DATA * ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char arg[MAX_STRING_LENGTH],arg2[MAX_STRING_LENGTH];
+    char arg[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
     const char * const options[] = { "fixed", "split", "brief" };
     const char * const text[] = { "Fixed prompt", "Split prompt", "Brief speedwalk" };
     const int bits[] = { STATIC_PROMPT, SPLIT, BRIEF_SPEEDWALK };
@@ -1594,7 +1600,7 @@ void do_look( CHAR_DATA * ch, char *argument )
 
         if ( !IS_NPC( ch ) && IS_SET( ch->act, PLR_AUTOEXIT ) )
         {
-            if ( !IS_SET( ch->comm, COMM_COMPACT ) && arg2[0] == '\0' )
+            if ( !IS_SET( ch->comm, COMM_COMPACT ) && arg2[0] == '\0' && FALSE ) // JR: trying it with no space ever
                 send_to_char( "\n\r", ch );
             strcpy( buf, "`W" );
             lengthen(buf, INDENT_EXIT );
@@ -1603,8 +1609,8 @@ void do_look( CHAR_DATA * ch, char *argument )
             send_to_char( "`w", ch );
         }
 
-        show_char_to_char( ch->in_room->people, ch ); // JR reversed these
-        show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE, INDENT_OBJECT );
+        show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE, INDENT_OBJECT ); // JR: both orders are possible
+        show_char_to_char( ch->in_room->people, ch );
         
         return;
     }
@@ -1980,17 +1986,15 @@ void do_score( CHAR_DATA * ch, char *argument )
 {
 
     char buf[MAX_STRING_LENGTH];
-
-    char tempbuf[200];
     AFFECT_DATA *paf;
     NEWAFFECT_DATA *npaf;
-    unsigned int i, x;
+    unsigned int i;
 
     if ( !IS_NPC( ch ) )
     {
         int start_col = 1, total_width = 58, armor_column = 35, age_column = 44;
         char outline_color = 'b', cat_color = 'B', entry = 'Y', other = 'W';
-        char start[10],end[10],starts[10],ends[10];
+        char start[10],end[10],starts[11],ends[11];
         int n;
         start[0] = '\0';
         lengthen( start, start_col );
@@ -2861,8 +2865,7 @@ void do_who( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
-
-    char buf2[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH/2]; // JR
     char output[4 * MAX_STRING_LENGTH];
     DESCRIPTOR_DATA *d;
     CHAR_DATA *who_list[300];
@@ -2872,7 +2875,6 @@ void do_who( CHAR_DATA * ch, char *argument )
     int iLevelLower;
     int iLevelUpper;
     int nNumber;
-    int nMatch;
     int length;
     int maxlength;
     int count;
@@ -2886,9 +2888,10 @@ void do_who( CHAR_DATA * ch, char *argument )
     bool doneimmort = FALSE;
     bool donemort = FALSE;
     char empty[] = "";
+    bool any_flags;
     char private[] = "`m(P)`w";
     char secret[] = "`r(S)`w";
-    char * race;
+    const char * race;
 
     /*
      * Set default arguments.
@@ -2999,7 +3002,6 @@ void do_who( CHAR_DATA * ch, char *argument )
     /*
      * Now show matching chars.
      */
-    nMatch = 0;
     buf[0] = '\0';
     output[0] = '\0';
     
@@ -3126,16 +3128,19 @@ void do_who( CHAR_DATA * ch, char *argument )
         title = IS_NPC( temp ) ? empty : temp->pcdata->title;
 
         if ( temp->anonymous )
-            sprintf( buf, "`K[%s]", center("`KA`wN`WO`wN`KY`wM`WO`wU`KS`K", race_len+2, buf2) );
+            sprintf( buf, "`K[%.*s]",race_len+10, center("`KA`wN`WO`wN`KY`wM`WO`wU`KS`K", race_len+2, buf2) );
         else
             sprintf( buf, "`K[`W%3d`Y%s`G%s`K]", level, center( race, race_len+2, buf2), Class );
                     
-        sprintf( buf2, "%s %s%s%s%s%s%s%s `w%s%s%s\n\r", buf, clan1, clan2,
+        any_flags = IS_SET( temp->act, PLR_WIZINVIS ) || IS_SET( temp->act, PLR_AFK ) ||
+            IS_SET( temp->act,PLR_KILLER ) || IS_SET( temp->act, PLR_THIEF );
+        sprintf( buf2, "%s  %s%s%s%s%s%s%s%s`w%s%s%s\n\r", buf, clan1, clan2,
                 !IS_NPC( temp ) && !is_name( temp->pcdata->spouse, "(none)" ) ? "`Y(M)" : "",
                 IS_SET( temp->act, PLR_WIZINVIS )?"`W(W)":"",
                 IS_SET( temp->act, PLR_AFK ) ? "`K(AFK)" : "",
                 IS_SET( temp->act,PLR_KILLER ) ? "`R(PK)" : "",
                 IS_SET( temp->act, PLR_THIEF ) ? "`K(T)" : "",
+                any_flags ? " " : "",
                 prefix,name,title);
         strcat( output, buf2 );
 
@@ -4036,8 +4041,7 @@ void do_finger( CHAR_DATA * ch, char *argument )
     char pfile[MAX_STRING_LENGTH], *title,tit[MAX_STRING_LENGTH];
     char *word, class[50], *race, *comment, *email, *spouse, *nemesis, *name;
     long played = 0, logon = 0;
-    char buf2[MAX_STRING_LENGTH], ltime[MAX_STRING_LENGTH];
-    unsigned int x;
+    char ltime[MAX_STRING_LENGTH];
     sh_int sex = 0, level, pk_kills, pk_deaths;
     sh_int nclan = 0, age = 0;
     sh_int incarnations = 0;
@@ -4318,7 +4322,7 @@ void do_levelgain( CHAR_DATA * ch, char *argument )
         save_char_obj( ch );
     }
     else
-        send_to_char( "\n\rYou're not quite ready yet.\n\r", ch );
+        send_to_char( "You're not quite ready yet.\n\r", ch );
 }
 
 void do_rebirt( CHAR_DATA * ch, char *argument )
@@ -4369,7 +4373,7 @@ void do_rebirth( CHAR_DATA * ch, char *argument )
         extract_obj( obj );
     }
 
-    for ( obj = ch->carrying; obj; obj = obj->next_content )
+    for ( obj = ch->carrying; obj; obj = obj_next )
     {
         obj_next = obj->next_content;
         extract_obj( obj );
@@ -4495,6 +4499,67 @@ fixes this small problem. -Lancelight */
         }
     }
     interpret( d->character, buf );
+}
+
+// JR: like substitute alias, but just store the substituted command in target
+void substitute_alias_string( DESCRIPTOR_DATA * d, char * argument, char * target )
+{
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *ch;
+    char name[MAX_INPUT_LENGTH];
+    char *point;
+    int alias;
+
+    ch = d->original ? d->original : d->character;
+
+    if ( IS_NPC( ch ) || ch->pcdata->alias[0] == NULL
+         || !str_prefix( argument, "alias" )
+         || !str_prefix( argument, "unalias" ) )
+    {
+        strcpy( target, argument );
+        return;
+    }
+
+    strcpy( buf, argument );
+
+    for ( alias = 0; alias < MAX_ALIAS; alias++ )   /* go through the aliases */
+    {
+        if ( ch->pcdata->alias[alias] == NULL )
+            break;
+
+        if ( !str_prefix( argument, ch->pcdata->alias[alias] ) )
+        {
+            point = one_argument( argument, name );
+            if ( !strcmp( ch->pcdata->alias[alias], name ) )
+            {
+/*		buf[0] = '\0';
+		strcat(buf,ch->pcdata->alias_sub[alias]);
+		strcat(buf," ");
+		strcat(buf,point);*/
+
+/*The above code causes 'alias x goto 3001' to not work. The code below
+fixes this small problem. -Lancelight */
+
+                buf[0] = '\0';
+                strcat( buf, ch->pcdata->alias_sub[alias] );
+                if ( point[0] )
+                {
+                    strcat( buf, " " );
+                    strcat( buf, point );
+                }
+/* end alias bug fix*/
+                break;
+            }
+            if ( strlen( buf ) > MAX_INPUT_LENGTH )
+            {
+                send_to_char( "Alias substitution too long. Truncated.\r\n",
+                              ch );
+                buf[MAX_INPUT_LENGTH - 1] = '\0';
+            }
+        }
+    }
+    strcpy( target, buf );
+    return;
 }
 
 void do_alia( CHAR_DATA * ch, char *argument )
