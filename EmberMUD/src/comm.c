@@ -351,6 +351,10 @@ void read_from_buffer args( ( DESCRIPTOR_DATA * d, bool color ) );
 void stop_idling args( ( CHAR_DATA * ch ) );
 char *doparseprompt args( ( CHAR_DATA * ch ) );
 int roll_stat args( ( int base_bonus, int stat_max ) );
+void roll_stats( CHAR_DATA * ch, int penalty );
+void show_stats( DESCRIPTOR_DATA * d );
+
+
 
 bool can_read_descriptor( int fd )
 {
@@ -846,18 +850,22 @@ int game_loop( int control )
                 }
             }
 
+            bool wait = FALSE;
             if ( d->character != NULL && d->character->wait > 0 )
             {
                 n = d->character->wait--;
-                if ( is_fixed_d( d ) && ( n % PULSE_PER_SECOND == 0 || n == 0*PULSE_VIOLENCE/ONE_ROUND + 1 ) ) // JR :(
+                if ( is_fixed_d( d ) && ( n % PULSE_PER_SECOND == 0 || n == 1 ) ) // JR :(
                 {
                     write_to_buffer( d, doparseprompt(d->character), 0 ); // JR: prompt ends up getting drawn twice
                 }                                                         // Not really a problem with Tintin, but still...
                 if ( !IS_NPC( d->character) && d->character->level >= LEVEL_ADMIN && 
-                    d->character->wait > PULSE_VIOLENCE/ONE_ROUND )
-                    d->character->wait = PULSE_VIOLENCE/ONE_ROUND; // JR: admins don't have to wait long
-                continue;
+                    d->character->wait > PULSE_MOVE )
+                    d->character->wait = PULSE_MOVE; // JR: admins don't have to wait long
+                //continue; // JR: testing
+                wait = TRUE;
             }
+            
+
             if ( d->connected != CON_READ_MOTD || PAUSE_MOTD)
                 read_from_buffer( d, FALSE );
             else
@@ -879,7 +887,17 @@ int game_loop( int control )
                     case CON_PLAYING:
                         if ( !run_olc_editor( d ) )
                         {
-                            substitute_alias( d, d->incomm );
+                            char buf[MAX_STRING_LENGTH];
+                            //substitute_alias( d, d->incomm );
+                            substitute_alias_string( d, d->incomm, buf );
+                            d->incomm[0] = '\0';
+                            if ( is_wait_blocked( d->character, buf ) )
+                                add_wait_queue( d, buf );
+                            else
+                            {
+                                interpret( d->character, buf );
+                                continue;
+                            }
                         }
                         break;
                     default:
@@ -888,7 +906,10 @@ int game_loop( int control )
                     }
 
                 d->incomm[0] = '\0';
+                
             }
+            if ( !wait )
+                interpret_wait_queue( d );
         }
         /*
          * Autonomous game motion.
@@ -995,10 +1016,10 @@ void new_descriptor( int control )
     DESCRIPTOR_DATA *dnew;
     struct sockaddr_in sock;
 #ifndef NO_RDNS
-    struct hostent *from;
+    //struct hostent *from;
 #endif
     int desc;
-    int size;
+    unsigned int size;
 #if defined(WIN32)
     int OptVal;
 #endif
@@ -1143,7 +1164,7 @@ void close_socket( DESCRIPTOR_DATA * dclose )
         {
             act( "$n has lost $s link.", ch, NULL, NULL, TO_ROOM );
             ch->pcdata->ticks = 1;
-            if ( IS_SET( ch->act, PLR_BUILDING ) );
+            if ( IS_SET( ch->act, PLR_BUILDING ) )
             {
                 REMOVE_BIT( ch->act, PLR_BUILDING );
             }
@@ -1392,14 +1413,14 @@ char * wait_str( CHAR_DATA * ch, char *buf )
         strcpy( buf, "");
     else if ( is_fixed( ch ) )
     {
-        if ( n <= PULSE_VIOLENCE/ONE_ROUND ) // Wait for moving a room
+        if ( n <= PULSE_MOVE ) // Wait for moving a room
             sprintf( buf, "  ");
         else
             sprintf( buf, "%d ", 1 + (ch->wait-1) / PULSE_PER_SECOND );
     }
     else
     {
-        if ( n <= PULSE_VIOLENCE/ONE_ROUND )
+        if ( n <= PULSE_MOVE )
             strcpy( buf, "   " );
         else if ( n < 1*PULSE_VIOLENCE )
             strcpy( buf, "  ." );
@@ -1426,7 +1447,7 @@ char * wait_str( CHAR_DATA * ch, char *buf )
 bool process_output( DESCRIPTOR_DATA * d, bool fPrompt )
 {
     char buf[MAX_STRING_LENGTH];
-    char waitbuf[10];
+    //char waitbuf[10];
     extern bool merc_down;
     bool color = TRUE;
     bool tintin;
@@ -1704,12 +1725,8 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
         else
             d->ansi = TRUE;
             
-        if ( argument[0] == 't' && argument[1] == 'i' )
-        {
-            // Integrated TinTin is being used
-            printf("Tintin being used\n");
+        if ( !strcmp( argument, "tintin" ) )
             d->tintin = TRUE;
-        }
         else
             d->tintin = FALSE;
 
@@ -1912,7 +1929,7 @@ check_ban function.
 
         sprintf( log_buf, "%s@%s has connected.", ch->name, d->host );
         log_string( log_buf );
-        if ( IS_SET( ch->act, PLR_BUILDING ) );
+        if ( IS_SET( ch->act, PLR_BUILDING ) )
         {
             REMOVE_BIT( ch->act, PLR_BUILDING );
         }
@@ -2472,8 +2489,9 @@ check_ban function.
             act( "$n appears in the room.", ch->pet, NULL, NULL, TO_ROOM );
         }
 
-        if ( IS_SET( ch->act, PLR_AFK ) )
-            do_afk( ch, NULL );
+        REMOVE_BIT( ch->act, PLR_AFK );
+        //if ( IS_SET( ch->act, PLR_AFK ) )
+        //    do_afk( ch, NULL );
 
         ch->pcdata->chaos_score = 0;
 
@@ -2585,7 +2603,6 @@ bool check_parse_name( char *name )
 bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
 {
     CHAR_DATA *ch;
-    char buf[30];
 
     for ( ch = player_list; ch != NULL; ch = ch->next_player )
     {
@@ -2603,7 +2620,7 @@ bool check_reconnect( DESCRIPTOR_DATA * d, char *name, bool fConn )
                 d->character = ch;
                 ch->desc = d;
                 ch->timer = 0;
-                if ( IS_SET( ch->act, PLR_BUILDING ) );
+                if ( IS_SET( ch->act, PLR_BUILDING ) )
                 {
                     REMOVE_BIT( ch->act, PLR_BUILDING );
                 }
@@ -2763,14 +2780,14 @@ void show_string( DESCRIPTOR_DATA *d, char *input )
             *scan = '\0';
             write_to_buffer( d, buffer, 0 ); // JR: 0
             for ( chk = d->showstr_point; isspace( *chk ); chk++ ); // This needs to be here
+
+            if ( !*chk ) // JR: removed indentation, braces
             {
-                if ( !*chk )
-                {
-                    if ( d->showstr_head )
-                        free_mem( &d->showstr_head );
-                    d->showstr_point = 0;
-                }
+                if ( d->showstr_head )
+                    free_mem( &d->showstr_head );
+                d->showstr_point = 0;
             }
+            
             return;
         }
     }
@@ -2900,8 +2917,13 @@ char *act_string( const char *format, CHAR_DATA * to, CHAR_DATA * ch,
     else
         buf[2] = UPPER( buf[2] );*/
     char *tmp = buf;
-    while ( *tmp == '`')
-        tmp += 2;
+    while ( *tmp == '`' || *tmp == ' ' )
+    {
+        if ( *tmp == '`' )
+            tmp += 2;
+        else
+            tmp++;
+    }
     *tmp = UPPER( *tmp );
     return buf;
 }
@@ -2910,7 +2932,7 @@ char *act_new( const char *format, CHAR_DATA * ch, const void *arg1,
                const void *arg2, int type, int min_pos )
 {
     char *txt = NULL;
-    CHAR_DATA *to;
+    CHAR_DATA *to, *third;
     CHAR_DATA *vch = ( CHAR_DATA * ) arg2;
 
     /*
@@ -2952,6 +2974,9 @@ char *act_new( const char *format, CHAR_DATA * ch, const void *arg1,
         to = vch;
 /*        to = vch->in_room->people;*/
     }
+    
+    if ( type == TO_THIRD )
+        to = ( CHAR_DATA * ) arg1;
 
     /* room progs & obj progs */
     if ( MOBtrigger && type != TO_CHAR && type != TO_VICT && to )
@@ -2967,7 +2992,7 @@ char *act_new( const char *format, CHAR_DATA * ch, const void *arg1,
                oprog_act_trigger(txt, to_obj, ch, (OBJ_DATA *)arg1, (void *)arg2);*/
     }
 
-    for ( ; to; to = ( type == TO_CHAR || type == TO_VICT )
+    for ( ; to; to = ( type == TO_CHAR || type == TO_VICT || type == TO_THIRD )
           ? NULL : to->next_in_room )
     {
         if ( ( !to->desc && ( IS_NPC( to ) &&
@@ -3001,8 +3026,6 @@ char *act_new( const char *format, CHAR_DATA * ch, const void *arg1,
     }
 
     MOBtrigger = TRUE;
-    //if ( 'a' <= txt[0] && txt[0] <= 'z')
-    //    txt[0] = UPPER(txt[0]); // JR: I wonder if this will work?
     return txt;
 }
 
@@ -3295,10 +3318,8 @@ char *doparseprompt( CHAR_DATA * ch )
     int hp_dig=0, mana_dig=0, mv_dig=0;
     char *fp_point;
     char *orig_prompt;
-    char *c;
     bool twoline = FALSE;
     bool tintin;
-    int n;
     
     if ( IS_NPC( ch ) )
     {
@@ -3623,11 +3644,9 @@ void prompt_race ( DESCRIPTOR_DATA * d, CHAR_DATA * ch, int columns )
 void motd( CHAR_DATA * ch )
 {
     DESCRIPTOR_DATA *d = ch->desc;
-    char buf[20];
-    printf("motd\n");
+    //char buf[20];
     send_tt_settings( ch );
     write_to_buffer( d, "\n\r", 2 );
-    printf("end motd\n");
     //if ( d -> tintin )
     //    write_to_buffer( d, buf, 0 );
     do_help( ch, "motd" );
@@ -3677,4 +3696,32 @@ void show_stats( DESCRIPTOR_DATA * d )
         sprintf( buf+strlen(buf)-1, "\n\r" );
         write_to_buffer( d, buf, 0 );
     }
+}
+
+// JR: add a line to the wait queue
+void add_wait_queue( DESCRIPTOR_DATA * d, char * command )
+{
+    INPUT_LINE *line;
+    line = malloc( sizeof(*line));
+    strcpy( line->command, command );
+    line->next = NULL;
+    if ( d->wait_queue == NULL )
+        d->wait_queue = line;
+    else
+        d->wait_queue_last->next = line;
+    d->wait_queue_last = line;
+}
+
+// JR: execute the top item in the wait queue
+void interpret_wait_queue( DESCRIPTOR_DATA * d )
+{
+    char *c;
+    INPUT_LINE *input = d->wait_queue;
+    if ( input == NULL || d->character == NULL )
+        return;
+    c = input->command;
+    interpret( d->character, c );
+    d->wait_queue = d->wait_queue->next;
+    free( input );
+    return;
 }

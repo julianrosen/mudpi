@@ -25,6 +25,7 @@ struct cmd_type {
     bool imm;
     sh_int log;
     bool show;
+    bool wait_blocked; // JR
 };
 
 struct immcmd_type {
