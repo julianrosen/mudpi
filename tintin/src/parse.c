@@ -393,6 +393,7 @@ void process_speedwalk(struct session *ses, char *input)
 	char dir[2];
     char command[10];
 	int cnt, i;
+    int len = strlen(input);
 
 	for (dir[1] = 0 ; *input ; input++)
 	{
@@ -408,13 +409,10 @@ void process_speedwalk(struct session *ses, char *input)
 			for (i = 0 ; i < cnt ; i++)
 			{
                 strcpy( command, dir );
-                if (ses->mudpi & MUDPI_BRIEF_SPEEDWALK)
-                {
                 if ( *(input+1) != '\0' || i+1 < cnt )
                     strcat(command, " brief");
-                else
+                else if ( len > 1 )
                     strcat( command, " final");
-                }
 				write_mud(ses, command, SUB_EOL);
 			}
 		}
@@ -422,13 +420,10 @@ void process_speedwalk(struct session *ses, char *input)
 		{
 			dir[0] = *input;
             strcpy( command, dir );
-            if (ses->mudpi & MUDPI_BRIEF_SPEEDWALK)
-            {
-                if ( *(input+1) != '\0' )
-                    strcat(command, " brief");
-                else
-                    strcat(command, " final");
-            }
+            if ( *(input+1) != '\0' )
+                strcat(command, " brief");
+            else if ( len > 1 )
+                strcat(command, " final");
 			write_mud(ses, command, SUB_EOL);
 		}
 	}

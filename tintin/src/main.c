@@ -543,7 +543,7 @@ void init_tintin(int greeting)
 
 	init_input(gts, 0, 0, 0, 0);
 
-	init_buffer(gts, 10000);
+	init_buffer(gts, 1000000);
 
 	if (HAS_BIT(greeting,  STARTUP_FLAG_VERBOSE))
 	{
@@ -552,15 +552,15 @@ void init_tintin(int greeting)
 
 	gtd->level->input++;
 
-	command(gts, do_configure, "{AUTO TAB}         {5000}");
-	command(gts, do_configure, "{BUFFER SIZE}     {10000}");
+	command(gts, do_configure, "{AUTO TAB}         {999999}");
+	command(gts, do_configure, "{BUFFER SIZE}     {1000000}");
 	command(gts, do_configure, "{COLOR MODE}         {ON}");
 	command(gts, do_configure, "{COLOR PATCH}       {OFF}");
 	command(gts, do_configure, "{COMMAND COLOR}   {<078>}");
 	command(gts, do_configure, "{COMMAND ECHO}       {ON}");
 	command(gts, do_configure, "{CONNECT RETRY}       {0}");
 	command(gts, do_configure, "{CHARSET}          {AUTO}");
-	command(gts, do_configure, "{HISTORY SIZE}     {1000}");
+	command(gts, do_configure, "{HISTORY SIZE}     {9999}");
 	command(gts, do_configure, "{LOG MODE}          {RAW}");
 	command(gts, do_configure, "{MOUSE}             {OFF}");
 	command(gts, do_configure, "{PACKET PATCH}     {AUTO}");
@@ -591,10 +591,10 @@ void init_tintin(int greeting)
 
 	sprintf(filename, "%s/%s", gtd->system->tt_dir, HISTORY_FILE);
 
-	if (access(filename, F_OK ) != -1)
+	/*if (access(filename, F_OK ) != -1)
 	{
 		command(gts, do_history, "read %s", filename);
-	}
+	}*/ // JT
 
 	gtd->level->input--;
 
@@ -617,7 +617,9 @@ void init_tintin(int greeting)
 
 			command(gts, do_banner, "RANDOM");
 
-			tintin_printf2(gts, "You're using TinTin Plus Plus version %s written by Peter Unold, Bill Reis, and Igor van den Hoven.", CLIENT_VERSION);
+			tintin_printf2(gts, "You're using TinTin Plus Plus version %s written by Peter Unold, Bill Reis, and Igor van den Hoven,", CLIENT_VERSION);
+            
+            tintin_printf2(gts, "With some modifications by Julian Rosen.", CLIENT_VERSION);
 
 			tintin_printf2(gts, "");
 
@@ -675,11 +677,12 @@ void quitmsg(char *message)
 	}
 
 	check_all_events(gts, EVENT_FLAG_SYSTEM, 0, 1, "PROGRAM TERMINATION", message ? message : "");
-
+    
+    /*
 	if (gtd->history_size)
 	{
 		command(gts, do_history, "write %s/%s", gtd->system->tt_dir, HISTORY_FILE);
-	}
+	}*/ // JR
 
 	reset_daemon();
 

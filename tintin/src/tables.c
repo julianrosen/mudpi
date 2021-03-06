@@ -853,13 +853,13 @@ struct map_type map_table[] =
 	{     "MOVE",             map_move,            MAP_FLAG_VTMAP, 2, "Move to the given direction"          },
 	{     "NAME",             map_name,            MAP_FLAG_VTMAP, 2, "(obsolete) Use SET ROOMNAME instead"  },
 	{     "OFFSET",           map_offset,          MAP_FLAG_VTMAP, 1, "Set the offset of the vt map"         },
-	{     "READ",             map_read,            MAP_FLAG_VTMAP, 0, "Read a map file"                      },
+//	{     "READ",             map_read,            MAP_FLAG_VTMAP, 0, "Read a map file"                      },
 	{     "RESIZE",           map_resize,          0,              1, "Resize the map room vnum range"       },
 	{     "RETURN",           map_return,          MAP_FLAG_VTMAP, 1, "Return to last known room"            },
 	{     "ROOMFLAG",         map_roomflag,        MAP_FLAG_VTMAP, 2, "Change the room's flags"              },
 	{     "RUN",              map_run,             MAP_FLAG_VTMAP, 2, "Save found path to #path and run it"  },
 	{     "SET",              map_set,             MAP_FLAG_VTMAP, 2, "Set various room values"              },
-	{     "SYNC",             map_sync,            MAP_FLAG_VTMAP, 0, "Read a map file without overwriting"  },
+//	{     "SYNC",             map_sync,            MAP_FLAG_VTMAP, 0, "Read a map file without overwriting"  },
 	{     "TERRAIN",          map_terrain,         MAP_FLAG_VTMAP, 1, "Create a terrain type"                },
 	{     "TRAVEL",           map_travel,          MAP_FLAG_VTMAP, 2, "Save explored path to #path and run it" },
 	{     "UNDO",             map_undo,            MAP_FLAG_VTMAP, 2, "Undo last map action"                 },
@@ -869,7 +869,7 @@ struct map_type map_table[] =
 	{     "UNTERRAIN",        map_unterrain,       MAP_FLAG_VTMAP, 1, "Remove a terrain type"                },
 	{     "UPDATE",           map_update,          0,              0, "Mark vt map for an auto update"       },
 	{     "VNUM",             map_vnum,            MAP_FLAG_VTMAP, 2, "Change the room vnum to given vnum"   },
-	{     "WRITE",            map_write,           0,              1, "Save the map to given file"           },
+//	{     "WRITE",            map_write,           0,              1, "Save the map to given file"           },
 	{     "",                 NULL,                0,              0, ""                                     }
 };
 
@@ -1172,9 +1172,9 @@ struct history_type history_table[] =
 	{    "GET",               history_get,         "Store in given variable a given index or range." },
 	{    "INSERT",            history_insert,      "Insert a new command history entry."            },
 	{    "LIST",              history_list,        "Display command history list."                  },
-	{    "READ",              history_read,        "Read a command history list from file."         },
+//	{    "READ",              history_read,        "Read a command history list from file."         },
 //	{    "SIZE",              history_size,        "The size of the command history."               },
-	{    "WRITE",             history_write,       "Write a command history list to file."          },
+//	{    "WRITE",             history_write,       "Write a command history list to file."          },
 	{    "",                  NULL,                ""                                               }
 };
 
@@ -1191,7 +1191,7 @@ struct buffer_type buffer_table[] =
 	{    "LOCK",              buffer_lock,         "Toggle the locking state of the buffer."        },
 	{    "REFRESH",           buffer_refresh,      "Refresh the buffer display."                    },
 	{    "UP",                buffer_up,           "Scroll up one page."                            },
-	{    "WRITE",             buffer_write,        "Write the buffer to file."                      },
+//	{    "WRITE",             buffer_write,        "Write the buffer to file."                      },
 	{    "",                  NULL,                ""                                               }
 };
 

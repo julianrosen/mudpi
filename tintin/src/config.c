@@ -152,7 +152,6 @@ DO_CONFIG(config_buffersize)
 		init_buffer(ses, atoi(arg2));
 	}
 	sprintf(arg2, "%d", ses->scroll->size);
-
 	return ses;
 }
 

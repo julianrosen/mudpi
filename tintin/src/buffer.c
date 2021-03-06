@@ -645,7 +645,7 @@ DO_COMMAND(do_buffer)
 		{
 			continue;
 		}
-
+        
 		buffer_table[cnt].fun(ses, arg, arg1, arg2);
 
 		return ses;
