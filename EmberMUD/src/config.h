@@ -29,6 +29,10 @@
 #define TINTIN_ON                       "@^ton"
 #define TINTIN_OFF                      "@^toff"
 
+// Room formatting parameters
+#define INDENT_EXIT       3
+#define INDENT_OBJECT     3
+#define INDENT_CHARACTER  3
 
 
 /* Prompts */
@@ -717,6 +721,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
 #define PULSE_TICK                (20 * PULSE_PER_SECOND)
 #define PULSE_AREA                (60 * PULSE_PER_SECOND) 
+#define PULSE_MOVE                PULSE_PER_SECOND / 4  // JR
 #define AUCTION_LENGTH                    5
 #define MINIMUM_BID                     10  /*set this to whatever. -Lancelight */
 #define IMPLEMENTOR             MAX_LEVEL
@@ -1066,6 +1071,7 @@ of combat. */
 #define TO_NOTVICT          1
 #define TO_VICT             2
 #define TO_CHAR             3
+#define TO_THIRD            4 // JR: act to a particular third party
 
 /*
  * Shop types.

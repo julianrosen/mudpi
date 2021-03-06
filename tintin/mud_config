@@ -1,5 +1,7 @@
 #nop Move multiple rooms at once
 #config {speedwalk} {on}
+#nop {#config {buffer size} {1000000}}
+
 
 #nop Don't display connecting messages
 #gag {#SESSION}

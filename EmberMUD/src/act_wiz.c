@@ -1479,7 +1479,7 @@ void do_rstat( CHAR_DATA * ch, char *argument )
     send_to_char( buf, ch );
 
     sprintf( buf,
-             "Room flags: %d.\n\rDescription:\n\r%s",
+             "Room flags: %lld.\n\rDescription:\n\r%s",
              location->room_flags, location->description );
     send_to_char( buf, ch );
 
@@ -5374,7 +5374,7 @@ void do_aexits( CHAR_DATA * ch, char *argument )
                     send_to_char( buf, ch );
                     header_printed = TRUE;
                 }
-                sprintf( buf, "`K[`w%6d`K] `w%s", room, rid->name);
+                sprintf( buf, "`K[`w%6ld`K] `w%s", room, rid->name);
                 lengthen( buf, 26 );
                 sprintf( buf+strlen(buf), " `w%4.4s to `K[`w%6d`K] `w%s", dir_name[door],
                        exit->u1.to_room->vnum, exit->u1.to_room->name );

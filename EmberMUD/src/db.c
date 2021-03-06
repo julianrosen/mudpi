@@ -402,6 +402,7 @@ void init_descriptor( DESCRIPTOR_DATA * dnew, int desc )
     dnew->outsize = 2000;
     dnew->outbuf = alloc_mem( dnew->outsize );
     dnew->tintin = FALSE;
+    dnew->wait_queue = NULL;
 
 /*     {
 	int i;
@@ -507,7 +508,7 @@ void copyover_recover( void )
             dnew->editor = editor; // JR
             dnew->tintin = tintin;
             
-            dnew->pEdit; // fix me
+            //dnew->pEdit; // fix me
 
             /* Somehow this was left out, and it was causing a crash whenever
                a player had a pet, and the mud was hotbooted. It was trying
@@ -1069,7 +1070,7 @@ void skip_section( FILE * fp, char *section )
 		if ( !str_cmp( word, literal ) )    \
 		{                                   \
 		    field  = value;                 \
-		    fMatch = TRUE;                  \
+		    /*fMatch = TRUE;*/                  \
 		    break;                          \
 				}
 
@@ -1078,7 +1079,7 @@ void skip_section( FILE * fp, char *section )
 		{                                   \
 		    free_string( &field );           \
 		    field = fread_string( fp );     \
-		    fMatch = TRUE;                  \
+		    /*fMatch = TRUE;*/                  \
 		    break;                          \
 				}
 
@@ -1097,7 +1098,7 @@ void load_area( FILE * fp )
     AREA_DATA *pArea;
     AREA_DATA *pTempArea;
     char *word = NULL;
-    bool fMatch;
+    //bool fMatch;
 
     pArea = alloc_perm( sizeof( *pArea ) );
     pArea->age = 15;
@@ -1116,7 +1117,7 @@ void load_area( FILE * fp )
     for ( ;; )
     {
         word = feof( fp ) ? "End" : fread_word( fp );
-        fMatch = FALSE;
+        //fMatch = FALSE;
 
         switch ( UPPER( word[0] ) )
         {
@@ -1138,7 +1139,7 @@ void load_area( FILE * fp )
         case 'E':
             if ( !str_cmp( word, "End" ) )
             {
-                fMatch = TRUE;
+                //fMatch = TRUE;
                 if ( area_first == NULL )
                     area_first = pArea;
                 if ( area_last != NULL )
@@ -1747,7 +1748,6 @@ void fix_exits( void )
     In many cases we don't necessarily want it to be reversible, so I'm
     disabling the check.
     */
-    /*
     for ( iHash = 0; iHash < MAX_KEY_HASH; iHash++ )
     {
         for ( pRoomIndex = room_index_hash[iHash];
@@ -1761,16 +1761,16 @@ void fix_exits( void )
                      && pexit_rev->u1.to_room != pRoomIndex
                      && ( pRoomIndex->vnum < 1200 || pRoomIndex->vnum > 1299 ) )
                 {
-                    sprintf( buf, "Fix_exits: %d:%d -> %d:%d -> %d.",
+                    /*sprintf( buf, "Fix_exits: %d:%d -> %d:%d -> %d.",
                              pRoomIndex->vnum, door,
                              to_room->vnum, rev_dir[door],
                              ( pexit_rev->u1.to_room == NULL )
                              ? 0 : pexit_rev->u1.to_room->vnum );
-                    bug( buf, 0 );
+                    bug( buf, 0 );*/
                 }
             }
         }
-    } */
+    }
 
     return;
 }

@@ -375,7 +375,7 @@ const struct race_type race_table[] = {
 #if MAX_ATTAINABLE_STATS == 25
 const struct pc_race_type pc_race_table[] = {
     {"null race", "", 0, {100, 100, 100, 100, 100, 100, 100, 100},
-     {""}, {13, 13, 13, 13, 13}, {18, 18, 18, 18, 18}, 0, 17},
+     {""}, {13, 13, 13, 13, 13}, {18, 18, 18, 18, 18}, 0, {17,25}},
 
 /*
     {
@@ -1640,7 +1640,7 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
      "magic missile", "!Missile"},
 
     {
-     "disintegrate ", {33, 90, 90, 90, 90, 90, 90, 33},
+     "disintegrate", {33, 90, 90, 90, 90, 90, 90, 33},
      {1, 1, 2, 2, 2, 2, 2, 1}, spell_disintegrate, TAR_CHAR_OFFENSIVE,
      POS_FIGHTING, NULL, SLOT(303), 25, 12,
      "energy blast", "!Disint"},

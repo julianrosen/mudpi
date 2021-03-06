@@ -525,7 +525,7 @@ void mobile_update( void )
              && ( !IS_SET( ch->act, ACT_STAY_AREA )
                   || pexit->u1.to_room->area == ch->in_room->area ) )
         {
-            move_char( ch, door, FALSE, 'n' );
+            move_char( ch, door, FALSE, 0 );
             if ( ch->position < POS_STANDING )
                 continue;
         }
@@ -1414,11 +1414,27 @@ void update_handler( void )
     }
     else if ( pulse_point == PULSE_TICK - 2 )
     {
-        redraw_prompts( );
+        redraw_prompts( ); // Redraw prompts for those using tintin fixed prompt
     }
     update_last( "Update:", "aggr", "" );
     aggr_update(  );
     update_last( "End update loop.", "", "" );
+    
+    /*
+    CHAR_DATA * ch;
+    bool b;
+    b = FALSE;
+    for ( ch = char_list; ch != NULL; ch=ch->next)
+    {
+        if (ch->fighting != NULL)
+        {
+            b = TRUE;
+            break;
+        }
+    
+    }
+    if (b )
+        printf("PV: %i\n",pulse_violence);*/ // JR: watch violence counter
     tail_chain(  );
     return;
 }

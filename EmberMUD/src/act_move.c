@@ -48,6 +48,25 @@ extern bool can_use( CHAR_DATA * ch, long sn );
                           (IS_SAME_AREA((x), TOROOM((x),(y)))))
 #endif
 
+
+// JR: move flags
+#define MOVE_BRIEF      (A)
+#define MOVE_FINAL      (B)
+#define MOVE_FOLLOW     (C)
+
+// JR: returns TRUE if ch1 follows a chain leaing to ch2, FALSE otherwise
+bool is_meta_following( CHAR_DATA * ch1, CHAR_DATA * ch2 )
+{
+    CHAR_DATA * tch;
+    for ( tch = ch1; tch != NULL; tch = tch->master )
+    {
+        if ( tch == ch2 )
+            return TRUE;
+    }
+    return FALSE;
+}
+
+
 struct track_queue_struct {
     ROOM_INDEX_DATA *room;
     char dir;
@@ -85,8 +104,6 @@ bool check_web args( ( CHAR_DATA * ch ) );
 // JR: Return true if character will move, false otherwise
 bool check_move( CHAR_DATA * ch, int  * door, ROOM_INDEX_DATA ** to_room)
 {
-    CHAR_DATA *fch;
-    CHAR_DATA *fch_next;
     ROOM_INDEX_DATA *in_room;
     
     EXIT_DATA *pexit;
@@ -175,7 +192,7 @@ bool check_move( CHAR_DATA * ch, int  * door, ROOM_INDEX_DATA ** to_room)
              NULL, pexit->keyword, TO_CHAR );
         act( "$n looks puzzled by not passing through the $d.", ch, NULL,
              pexit->keyword, TO_ROOM );
-        return;
+        return FALSE;
     }
     if ( IS_AFFECTED( ch, AFF_CHARM )
          && ch->master != NULL && in_room == ch->master->in_room )
@@ -291,31 +308,30 @@ bool check_move( CHAR_DATA * ch, int  * door, ROOM_INDEX_DATA ** to_room)
             return FALSE;
         }
 
-        WAIT_STATE( ch, 1 );
+        WAIT_PULSES( ch, PULSE_MOVE );
         ch->move -= move;
     }
     return TRUE;
 }
 
-void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added mode
+void move_char( CHAR_DATA * ch, int door, bool follow, int mode ) // JR: added mode
 {
     CHAR_DATA *fch;
     CHAR_DATA *fch_next;
     ROOM_INDEX_DATA *in_room;
     ROOM_INDEX_DATA *to_room;
-    EXIT_DATA *pexit;
+    char buf[MAX_STRING_LENGTH];
     
     in_room = ch->in_room;
     
     if ( !check_move( ch, &door, &to_room ) )
     {
-        if ( mode == 'f' )
+        if ( IS_SET( mode, MOVE_FINAL ) && IS_SET( ch->tintin, BRIEF_SPEEDWALK ) )
             do_look( ch, "auto" );
         return;
     }
     
-    // JR character is moving
-
+    // Character is moving
     if ( !IS_AFFECTED( ch, AFF_SNEAK )
          && ( IS_NPC( ch ) || !IS_SET( ch->act, PLR_WIZINVIS ) ) )
     {
@@ -325,7 +341,12 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
                  ch, NULL, dir_name[door], TO_ROOM );
         else
 #endif
-            act( "$n leaves $T.", ch, NULL, dir_name[door], TO_ROOM );
+        {
+            if ( IS_SET( mode, MOVE_FOLLOW ) )
+                act( "$n follows $N $t.", ch, dir_name[door], ch->master, TO_ROOM );
+            else
+                act( "$n leaves $T.", ch, NULL, dir_name[door], TO_ROOM );
+        }
     }
     rprog_leave_trigger( ch );
     char_from_room( ch );
@@ -339,10 +360,33 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
                  ch, NULL, NULL, TO_ROOM );
         else
 #endif
-            act( "$n has arrived.", ch, NULL, NULL, TO_ROOM );
+        {
+            if ( IS_SET( mode, MOVE_FOLLOW ) )
+            {
+                for ( fch = ch->in_room->people; fch != NULL; fch = fch->next_in_room )
+                {
+                    if ( fch == ch )
+                        continue;
+                    else if ( is_meta_following ( ch, fch ) )
+                    {
+                        buf[0] = '\0';
+                        lengthen( buf, INDENT_CHARACTER );
+                        if ( ch->master == fch )
+                            strcat( buf, "`b$n`b has followed you here." );
+                        else
+                            strcat( buf, "`b$n`b has followed $N here." );
+                        act( buf, ch, fch, ch->master, TO_THIRD );
+                    }
+                    else
+                        act( "$n has arrived, following $N.", ch, fch, ch->master, TO_THIRD );
+                }
+            }
+            else
+                act( "$n has arrived.", ch, NULL, NULL, TO_ROOM );
+        }
     }
 
-    if ( mode == 'b' ) // JR brief mode
+    if ( IS_SET( mode, MOVE_BRIEF ) && IS_SET( ch->tintin, BRIEF_SPEEDWALK ) ) // JR brief mode
         do_look( ch, "auto brief" );
     else
         do_look( ch, "auto" );
@@ -372,8 +416,8 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
                 return;
             }
 
-            act( "You follow $N.", fch, NULL, ch, TO_CHAR );
-            move_char( fch, door, TRUE, 'n' );
+            act( "You follow $N $t.", fch, dir_name[door], ch, TO_CHAR );
+            move_char( fch, door, TRUE, mode | MOVE_FOLLOW );
         }
     }
 
@@ -400,11 +444,11 @@ void move_char( CHAR_DATA * ch, int door, bool follow, char mode ) // JR: added 
 void mv_arg( CHAR_DATA * ch, int direction, char *argument)
 {
     if ( !str_cmp( argument, "brief" ) )
-        move_char( ch, direction, FALSE, 'b' );
+        move_char( ch, direction, FALSE, MOVE_BRIEF );
     else if ( !str_cmp( argument, "final" ) ) 
-        move_char( ch, direction, FALSE, 'f' );
+        move_char( ch, direction, FALSE, MOVE_FINAL );
     else
-        move_char( ch, direction, FALSE, 'n' );
+        move_char( ch, direction, FALSE, 0 );
     return;
 }
 
@@ -496,7 +540,6 @@ int find_door( CHAR_DATA * ch, char *arg )
 int get_door( CHAR_DATA * ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
     EXIT_DATA *pexit;
     int door;
     one_argument( argument, arg );
@@ -577,7 +620,6 @@ OBJ_DATA * get_openable_object( CHAR_DATA * ch, char *argument, bool * found )
 
 void do_open( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     EXIT_DATA *pexit;
     int door;
@@ -658,7 +700,6 @@ void do_open( CHAR_DATA * ch, char *argument )
 
 void do_close( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     EXIT_DATA *pexit;
     int door;
@@ -729,7 +770,6 @@ void do_close( CHAR_DATA * ch, char *argument )
 
 void do_lock( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     EXIT_DATA *pexit;
     int door;
@@ -826,7 +866,6 @@ void do_lock( CHAR_DATA * ch, char *argument )
 
 void do_unlock( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     EXIT_DATA *pexit;
     int door;
@@ -925,7 +964,6 @@ void do_unlock( CHAR_DATA * ch, char *argument )
 
 void do_pick( CHAR_DATA * ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *gch;
     OBJ_DATA *obj;
     EXIT_DATA *pexit;
@@ -1860,11 +1898,19 @@ void do_recall( CHAR_DATA * ch, char *argument )
     act( "$n disappears.", ch, NULL, NULL, TO_ROOM );
     char_from_room( ch );
     char_to_room( ch, location );
-    act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
+    if ( !strcmp( argument, "follow" ) )
+    {
+        buf[0] = '\0';
+        lengthen( buf, INDENT_CHARACTER );
+        strcat( buf, "`b$n`b appears in the room." );
+        act( buf, ch, NULL, NULL, TO_ROOM );
+    }
+    else
+        act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
     do_look( ch, "auto" );
 
     if ( ch->pet != NULL )
-        do_recall( ch->pet, "" );
+        do_recall( ch->pet, "follow" );
 
     return;
 }
@@ -2299,7 +2345,7 @@ void do_track( CHAR_DATA * ch, char *argument )
         if( IS_SET( ch->act, PLR_AUTOTRACK ) ) /* Added by JR*/
         {
             sprintf( buf, "You follow a trail %s from here!\n\r", dir_name[dir] );
-            move_char( ch, dir, FALSE, 'n' );
+            move_char( ch, dir, FALSE, 0 );
         }
         else
             sprintf( buf, "You sense a trail %s from here!\n\r", dir_name[dir] );

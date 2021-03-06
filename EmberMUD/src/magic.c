@@ -463,15 +463,14 @@ void do_cast( CHAR_DATA * ch, char *argument )
     {
         CHAR_DATA *vch;
         CHAR_DATA *vch_next;
-
         for ( vch = ch->in_room->people; vch; vch = vch_next )
         {
             vch_next = vch->next_in_room;
             if ( victim == vch && victim->fighting == NULL )
             {
-                multi_hit( victim, ch, TYPE_UNDEFINED );
-                break;
-            }
+                multi_hit( victim, ch, TYPE_UNDEFINED ); // JR: This usually doesn't get called
+                break;                                   // b/c ch is fighting victim after spell hits
+            }        
         }
     }
 
@@ -3031,7 +3030,6 @@ void spawn_portal( int vnum1, int vnum2 )
     int decay, a, b;
     a = 100 * PULSE_PER_SECOND / PULSE_TICK; // JR: shorter ticks = longer portal
     b = 170 * PULSE_PER_SECOND / PULSE_TICK;
-    printf("%i/%i\n",a,b);
     decay = number_range( a, b );
     obj = create_object( get_obj_index( OBJ_VNUM_PORTAL ), 0 );
     obj->value[0] = vnum1;
@@ -3051,7 +3049,6 @@ void spell_nexus( int sn, int level, CHAR_DATA * ch, void *vo )
     extern bool chaos;
     if ( ( ( victim = get_char_world( ch, target_name ) ) == NULL ) )
     {
-        printf("a");
         send_to_char
             ( "A disturbance in the planar fabric prevents your portal from opening.\n\r",
               ch );

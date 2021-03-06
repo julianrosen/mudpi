@@ -64,7 +64,7 @@ const char * const dam_vs[] = { CFG_DAM0S, CFG1_DAM2S, CFG1_DAM4S, CFG1_DAM6S, C
                                CFG1_DAM12S, CFG1_DAM14S, CFG1_DAM16S, CFG1_DAM18S, CFG1_DAM20S, CFG1_DAM22S,
                                CFG1_DAM24S, CFG1_DAM26S, CFG1_DAM28S, CFG1_DAM30S, CFG1_DAM37S, CFG1_DAM50S,
                                CFG1_DAM63S, CFG1_DAM75S, CFG1_DAM83S, CFG1_DAM93S, CFG1_DAM_HUGES };
-const int * dam_threshold[] = { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 37, 50, 63, 75, 83, 93 };
+const int dam_threshold[] = { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 37, 50, 63, 75, 83, 93 };
 #endif
 const int num_dam_messages = sizeof(dam_threshold) / sizeof(dam_threshold[0]);
 
@@ -121,6 +121,7 @@ bool vorpal_kill( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
 extern bool chaos;
 extern bool gsilentdamage;
 extern bool can_use( CHAR_DATA * ch, long sn );
+bool quiet_damage = FALSE; // JR: yuck
 
 /*
  * Control the fights going on.
@@ -132,7 +133,7 @@ void violence_update( void )
     CHAR_DATA *ch_next;
     CHAR_DATA *victim;
 
-    for ( ch = char_list; ch != NULL; ch = ch->next )
+    for ( ch = char_list; ch != NULL; ch = ch_next )
     {
         ch_next = ch->next;
 
@@ -487,7 +488,8 @@ void one_hit( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dt )
     sn = -1;
     gsnnum = 0;
     char dstr[15];
-
+    
+    printf("Called one_hit\n");
     /* just in case */
     if ( victim == ch || ch == NULL || victim == NULL )
         return;
@@ -1009,7 +1011,7 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
         }
     }
     
-    if ( !gsilentdamage )
+    if ( !gsilentdamage && !quiet_damage )
         dam_message( ch, victim, dam, dt, immune );
 
     if ( dam == 0 )
@@ -1162,8 +1164,22 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
                 ch->pcdata->pk_kills++;
             }
         }
-        /* RT new auto commands */
+        
+        // JR: if your pet finishes someone off, you do the looting/sacking
+        if ( IS_NPC( ch ) && IS_SET( ch->act, ACT_PET ) )
+        {
+            for ( CHAR_DATA *fch = ch->in_room->people; fch != NULL; fch = fch->next_in_room )
+            {
+                if ( fch->pet == ch )
+                {
+                    ch = fch;
+                    break;
+                }
+            }
+            
+        }
 
+        /* RT new auto commands */
         if ( !IS_NPC( ch ) && IS_NPC( victim ) )
         {
             corpse = get_obj_list( ch, "corpse", ch->in_room->contents );
@@ -1237,12 +1253,11 @@ bool damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
 bool new_damage( CHAR_DATA * ch, CHAR_DATA * victim, OBJ_DATA * weapon, int dam,
                  int dt, int dam_type, bool show )
 {
+    bool b;
     // JR: Sneaky...
-    bool a,b;
-    a = gsilentdamage;
-    gsilentdamage = show ? FALSE : TRUE;
+    quiet_damage = TRUE;
     b = damage( ch, victim, weapon, dam, dt, dam_type);
-    gsilentdamage = a;
+    quiet_damage = FALSE;
     return b;
 }
 
@@ -2134,7 +2149,7 @@ void group_gain( CHAR_DATA * ch, CHAR_DATA * victim )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *gch;
-    CHAR_DATA *lch;
+    //CHAR_DATA *lch;
     int xp = 0;
     int members;
     int group_levels;
@@ -2171,7 +2186,7 @@ void group_gain( CHAR_DATA * ch, CHAR_DATA * victim )
         group_levels = ch->level;
     }
 
-    lch = ( ch->leader != NULL ) ? ch->leader : ch;
+    //lch = ( ch->leader != NULL ) ? ch->leader : ch;
 
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
     {
@@ -3493,7 +3508,8 @@ void dam_message( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt,
 {
     // Rewritten by JR
     char buf[3][256];
-    char subject[3][200], *verb[3], object[3][200], dstr[15];
+    char subject[3][200], object[3][200], dstr[15];
+    const char *verb[3];
     char *col[3] = { YOU, ENEMY, THIRD }, *dcol[3] = { Yd, Ed, Td };
     const char *v, *vs;
     const char *attack;
@@ -4493,7 +4509,7 @@ void do_flee( CHAR_DATA * ch, char *argument )
              || IS_SET( pexit->u1.to_room->room_flags, ROOM_NO_FLEE_TO ) )
             continue;
 
-        move_char( ch, door, FALSE, 'n' );
+        move_char( ch, door, FALSE, 0 );
         if ( ( now_in = ch->in_room ) == was_in )
             continue;
 

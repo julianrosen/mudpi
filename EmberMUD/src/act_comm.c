@@ -53,7 +53,6 @@ char * center( char * string, int numchars, char * buf )
 
 bool tintin_send( CHAR_DATA * ch, char *txt )
 {
-    printf("tintin_send\n");
     char buf[MAX_STRING_LENGTH];
     if ( ch->desc != NULL && ch->desc->tintin )
     {
@@ -92,11 +91,11 @@ void send_tt_settings( CHAR_DATA * ch )
         write_to_buffer( ch->desc, buf, 0 );
         }
         
-        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+        sprintf(buf, TINTIN_PREFIX " %s\n\r",
                IS_SET( ch->comm, COMM_COMPACT ) ? "compact|on" : "compact|off" );
         send_to_char( buf, ch );
         
-        sprintf(buf,"\n\r" TINTIN_PREFIX " %s\n\r",
+        sprintf(buf, TINTIN_PREFIX " %s\n\r",
                IS_SET( ch->tintin, STATIC_PROMPT ) ? "fixed|on" : "fixed|off" );
         send_to_char( buf, ch );
     }
@@ -3175,8 +3174,8 @@ void do_order( CHAR_DATA * ch, char *argument )
             //}
             else
             {
-                sprintf( buf, "$N still must wait %d pulses.", och->wait );
-                act( buf, ch, NULL, och, TO_CHAR );
+                //sprintf( buf, "$N still must wait %d pulses.", och->wait );
+                //act( buf, ch, NULL, och, TO_CHAR );
                 if ( !IS_NPC( och ) )
                 {
                     sprintf( buf, "%s ordered %s to '%s'", ch->name, och->name,

@@ -1336,7 +1336,7 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
     case '1':
     case '2':
     case '3':
-        move_char( ch, argument[pMob->path_pos] - '0', FALSE, 'n' );
+        move_char( ch, argument[pMob->path_pos] - '0', FALSE, 0 );
         break;
 
     case 'W':
@@ -1360,60 +1360,72 @@ void do_mpfollowpath( CHAR_DATA * ch, char *argument )
         break;    
 
     case 'a':
-        act( "$n says 'You're fired!'", ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "You're fired!" );
+        //act( "$n says 'You're fired!'", ch, NULL, NULL, TO_ROOM );
         break;
     
     case 't':
-        act( "$n says 'Hello Honey!'", ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "Hello honey!" );
+        //act( "$n says 'Hello honey!'", ch, NULL, NULL, TO_ROOM );
         break;    
 
     case 'b':
-        act( "$n says 'Sad!'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "Sad!" );
+        //act( "$n says 'Sad!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
     
     case 'u':
-        act( "$n says 'What a view!  I must do something about that dump!'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "What a view!  I must do something about that dump!" );
+        //act( "$n says 'What a view!  I must do something about that dump!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'c':
-        act( "$n says 'Mexicans! Those illegals have no respect for anything!'",
-             ch, NULL, NULL, TO_ROOM );
+            do_say( ch, "Mexicans! Those illegals have no respect for anything!" );
+        //act( "$n says 'Mexicans! Those illegals have no respect for anything!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'v':
-        act( "$n says 'Vandals!  Youngsters have no respect for anything!'",
-             ch, NULL, NULL, TO_ROOM );
+            do_say( ch, "Vandals! Youngsters have no respect for anything!" );
+        //act( "$n says 'Vandals! Youngsters have no respect for anything!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
             
     case 'd':
-        act( "$n says 'We're going to win so much, you will get tired of winning!'", ch, NULL, NULL, TO_ROOM );
+            do_say( ch, "We're going to win so much, you will get tired of winning!" );
+        //act( "$n says 'We're going to win so much, you will get tired of winning!'", ch, NULL, NULL, TO_ROOM );
         break;
 
     case 'x':
-        act( "$n says 'Good day, citizens!'", ch, NULL, NULL, TO_ROOM );
+            do_say( ch, "Good day, citizens!" );
+        //act( "$n says 'Good day, citizens!'", ch, NULL, NULL, TO_ROOM );
         break;
             
     case 'e':
-        act( "$n says 'You can come in, as long as you're not from a s***hole country'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "You can come in, as long as you're not from a s***hole country" );
+        //act( "$n says 'You can come in, as long as you're not from a s***hole country'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
     
     case 'y':
-        act( "$n says 'I hereby declare the city of Midgaard open!'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "I hereby declare the city of Midgaard open!" );
+        //act( "$n says 'I hereby declare the city of Midgaard open!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
             
 
     case 'E':
-        act( "$n says 'Build the wall!'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "Build the wall!" );
+        //act( "$n says 'Build the wall!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;
     
     case 'z':
-        act( "$n says 'I hereby declare the city of Midgaard closed!'",
-             ch, NULL, NULL, TO_ROOM );
+        do_say( ch, "I hereby declare the city of Midgaard closed!" );
+        //act( "$n says 'I hereby declare the city of Midgaard closed!'",
+        //     ch, NULL, NULL, TO_ROOM );
         break;    
 
     case 'O':

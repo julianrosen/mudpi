@@ -155,7 +155,7 @@ void get_obj( CHAR_DATA * ch, OBJ_DATA * obj, OBJ_DATA * container )
             for ( gch = ch->in_room->people; gch != NULL;
                   gch = gch->next_in_room )
             {
-                if ( is_same_group( gch, ch ) )
+                if ( is_same_group( gch, ch ) && !IS_AFFECTED( gch, AFF_CHARM ) )
                     members++;
             }
 
@@ -303,15 +303,10 @@ void do_get( CHAR_DATA * ch, char *argument )
                 if ( ( arg[3] == '\0' || is_name( &arg[4], obj->name ) )
                      && can_see_obj( ch, obj ) )
                 {
-                    printf("In here\n");
-                    printf("Cond 1: %s\n",container->item_type != ITEM_CORPSE_NPC?"T":"F");
-                    printf("Cond 2: %s\n", strcmp( arg, "all.gold" )?"T":"F");
-                    printf("Cond 3: %s\n",obj->item_type == ITEM_TREASURE?"T":"F");
 
                     if ( container->item_type != ITEM_CORPSE_NPC || strcmp( arg, "all.gold" ) ||
                                     obj->item_type == ITEM_MONEY ) // JR: don't loot a golden object while doing get all.gold from a corpse
                     {
-                        printf("In if\n");
                         found = TRUE;
                         if ( container->pIndexData->vnum == OBJ_VNUM_PIT
                              && !IS_IMMORTAL( ch ) )
@@ -320,9 +315,7 @@ void do_get( CHAR_DATA * ch, char *argument )
                             return;
                         }
                         get_obj( ch, obj, container );
-                        printf("a\n");
                     }
-                    printf("done if\n");
                 }
             }
 
@@ -1818,7 +1811,7 @@ rit of items they know that they arent suppose to have while in jail.
         members = 0;
         for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
         {
-            if ( is_same_group( gch, ch ) )
+            if ( is_same_group( gch, ch ) && !IS_AFFECTED( gch, AFF_CHARM ) )
                 members++;
         }
 
