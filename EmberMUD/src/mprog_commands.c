@@ -1772,6 +1772,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
     static bool initialized = FALSE;
     char buf[MAX_STRING_LENGTH],*bufp,c;
     int count, random;
+    CHAR_DATA * to_char;
     if ( !IS_NPC( ch ) )
     {
         command_not_found( ch );
@@ -1852,7 +1853,14 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
             bufp++;
         }
         *(bufp) = '\0';
-        do_mpecho( ch, buf );
+        strcat( buf, "\n\r");
+        // do_mpecho( ch, buf ); // JR: This capitalizes the first letter, which we don't want
+        for ( to_char = ch->in_room->people; to_char != NULL; to_char = to_char->next_in_room )
+        {
+            if ( to_char != ch )
+                send_to_char( buf, to_char );
+        }
+        
         if ( *(gatsby_head+1) == '\n' )
             break;
     }

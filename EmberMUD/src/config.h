@@ -423,6 +423,13 @@ sets the level of the obj, the second sets the level of the spells.*/
 #define BREW_SCRIBE_LEVEL .75
 
 
+// JR
+#define BREW_USE_LEVEL .75
+#define BREW_LEVEL .5
+#define SCRIBE_USE_LEVEL 1
+#define SCRIBE_LEVEL .75
+
+
 // JR: need third party versions
 /* Random dodge messages. - Nevarlos */
 #define DDG_MSG1    "$N easily avoids your attack.`w"
@@ -719,7 +726,7 @@ players that are not thieves. The second is the vnum of the thieves guild.
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND ) /* Should be a multiple of 3 */
 #define PULSE_MOBILE              ( 4 * PULSE_PER_SECOND)
 #define PULSE_AUCTION             (20 * PULSE_PER_SECOND)   /* Tweak this to make auctions slower or faster. -Lancelight */
-#define PULSE_TICK                (20 * PULSE_PER_SECOND)
+#define PULSE_TICK                (24 * PULSE_PER_SECOND)
 #define PULSE_AREA                (60 * PULSE_PER_SECOND) 
 #define PULSE_MOVE                PULSE_PER_SECOND / 4  // JR
 #define AUCTION_LENGTH                    5
@@ -1421,8 +1428,8 @@ of combat. */
 #define OBJ_VNUM_SCHOOL_SHIELD     3704+VNUM_OFFSET
 #define OBJ_VNUM_SCHOOL_BANNER     3716+VNUM_OFFSET
 #define OBJ_VNUM_MAP               3162+VNUM_OFFSET
-#define OBJ_VNUM_BLANK_SCROLL      3398+VNUM_OFFSET
-#define OBJ_VNUM_EMPTY_VIAL        3399+VNUM_OFFSET
+#define OBJ_VNUM_BLANK_SCROLL      3398
+#define OBJ_VNUM_EMPTY_VIAL        3399
 
 #define OBJ_VNUM_PORTAL       3392  /* This is the vnum of the portal
                                        created using the Nexus Spell */

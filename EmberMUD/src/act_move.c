@@ -791,7 +791,7 @@ void do_lock( CHAR_DATA * ch, char *argument )
             act( "The $d is not closed.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
-        if ( pexit->key < 0 )
+        if ( pexit->key == 0 ) // JR: just changed <0 to ==0
         {
             act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
@@ -838,7 +838,7 @@ void do_lock( CHAR_DATA * ch, char *argument )
             act( "$p is not closed.", ch, obj, NULL, TO_CHAR );
             return;
         }
-        if ( obj->value[2] < 0 )
+        if ( obj->value[2] == 0 ) // JR: just changed <0 to ==0
         {
             act( "$p does not have a lock.", ch, obj, NULL, TO_CHAR );
             return;
@@ -887,7 +887,7 @@ void do_unlock( CHAR_DATA * ch, char *argument )
             act( "The $d is open.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
         }
-        if ( pexit->key < 0 )
+        if ( pexit->key == 0 ) // JR: just changed <0 to ==0
         {
             act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR ); // JR
             return;
@@ -1004,7 +1004,7 @@ void do_pick( CHAR_DATA * ch, char *argument )
         }
         if ( !IS_IMMORTAL( ch ) )
         {
-            if ( pexit->key < 0 )
+            if ( pexit->key == 0 ) // JR: just changed <0 to ==0
             {
                 act( "The $d does not have a lock.", ch, NULL, pexit->keyword, TO_CHAR );
                 return;

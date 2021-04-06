@@ -1408,8 +1408,14 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
                   ch );
             return FALSE;
         }
-
         value = atoi( arg );
+        
+        if ( value == -1 )
+        {
+            pRoom->exit[door]->key = value;
+            send_to_char( "Exit key set to non-existant.\n\r", ch );
+            return TRUE;
+        }
 
         if ( !get_obj_index( value ) )
         {
@@ -1417,14 +1423,13 @@ bool change_exit( CHAR_DATA * ch, char *argument, int door )
             return FALSE;
         }
 
-        if ( get_obj_index( atoi( argument ) )->item_type != ITEM_KEY )
+        //if ( get_obj_index( atoi( argument ) )->item_type != ITEM_KEY )
+        if ( get_obj_index( value )->item_type != ITEM_KEY )
         {
             send_to_char( "REdit:  Key doesn't exist.\n\r", ch );
             return FALSE;
         }
-
         pRoom->exit[door]->key = value;
-
         send_to_char( "Exit key set.\n\r", ch );
         return TRUE;
     }

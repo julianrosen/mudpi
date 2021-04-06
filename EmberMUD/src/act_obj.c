@@ -3580,8 +3580,8 @@ void do_brew( CHAR_DATA * ch, char *argument )
     /* took this outside of imprint codes, so I can make do_brew differs from
        do_scribe; basically, setting potion level and spell level --- JH */
 
-    obj->level = ( sh_int ) ( ch->level * BREW_SCRIBE_USE_LEVEL );
-    obj->value[0] = ( int ) ( ch->level * BREW_SCRIBE_LEVEL );
+    obj->level = ( sh_int ) ( ch->level * BREW_USE_LEVEL );
+    obj->value[0] = ( int ) ( ch->level * BREW_LEVEL );
     spell_imprint( sn, ch->level, ch, obj );
 
 }
@@ -3661,8 +3661,8 @@ jail. */
        are not limited in the choice of spells, i.e. scroll of enchant weapon
        has no analogs in potion forms --- JH */
 
-    obj->level = ( sh_int ) ( ch->level * BREW_SCRIBE_USE_LEVEL );
-    obj->value[0] = ( int ) ( ch->level * BREW_SCRIBE_LEVEL );
+    obj->level = ( sh_int ) ( ch->level * SCRIBE_USE_LEVEL ); // JR
+    obj->value[0] = ( int ) ( ch->level * SCRIBE_LEVEL );
     spell_imprint( sn, ch->level, ch, obj );
 
 }

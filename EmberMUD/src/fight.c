@@ -1742,8 +1742,19 @@ void stop_fighting( CHAR_DATA * ch, bool fBoth )
             fch->fighting = NULL;
             fch->position = IS_NPC( fch ) ? ch->default_pos : POS_STANDING;
             if ( fch->exp_stack >= 0 )
+            {
                 sprintf( buf, "`WYou receive %ld experience points.\n\r`w",
                          fch->exp_stack );
+                if ( !IS_NPC( fch) && fch->level < LEVEL_HERO && fch->exp >=
+                     exp_per_level( fch, fch->pcdata->points ) &&
+                     fch->exp - fch->exp_stack < exp_per_level( fch, fch->pcdata->points ) )
+                {
+                    strcat( buf, "`WYou're ready to `Clevel`w!\n\r" ); // JR
+                    if ( fch->level == 1 )
+                        strcat( buf, "Type '`Yhelp raise`w' for more information.\n\r" );
+                }
+                
+            }
             else
                 sprintf( buf, "`WYou lost %ld experience points.\n\r`w",
                          fch->exp_stack * -1 );
@@ -2207,13 +2218,15 @@ void group_gain( CHAR_DATA * ch, CHAR_DATA * victim )
          */
         if ( gch->exp_stack > 0 )
             xp = xp_compute( gch, victim, group_levels, members );
+        
+        /*
         if ( gch->level < LEVEL_HERO && ( gch->exp + xp ) >=
              exp_per_level( gch, gch->pcdata->points ) &&
              gch->exp < exp_per_level( gch, gch->pcdata->points ) )
         {
-            strcat( buf, "`WYou're ready to `CLevel`w!\n\r" );
+            strcat( buf, "`WYou're ready to `CLevel`w!\n\r" ); // JR: isn't buf uninitialized here?
             send_to_char( buf, gch );
-        }
+        }*/
         /* This code looks bad, it gives XP on a per kill basis if your xp stack is
          * empty. I don't think this code is actually ever called and if it IS
          * called it shouldn't be so I'm removing it.  -Zane */
