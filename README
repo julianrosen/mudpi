@@ -1,5 +1,4 @@
-Mudpi is a online multiplayer text-based RPG, which runs on a
-Raspberry Pi. The base game is EmberMUD, with a number of modifications
+Mudpi is a online multiplayer text-based RPG. The base game is EmberMUD, with a number of modifications
 by JR. The text is fed through a modified version of the MUD client
 TinTin++ (running server-side), and the result is served through a browser
 using ttyd.
@@ -13,7 +12,4 @@ script will also generate a systemd unit file mudpi.service, which you
 can move to /etc/systemd/system if you want to start and stop mudpi
 as a service.
 
-
-
-In theory there's no reason Mudpi shouldn't run on other platforms. However
-EmberMUD appears not to compile correctly on Ubuntu.
+I run Mudpi on a Raspberry Pi, but I have also tested it on Ubuntu.
