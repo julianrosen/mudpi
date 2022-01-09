@@ -14,4 +14,4 @@ as a service.
 
 I run Mudpi on a Raspberry Pi, but I have also tested it on Ubuntu.
 
-![Mudpi in action](mudpi.png)
+<img src="mudpi.png" alt="Mudpi in action" width="600"/>
