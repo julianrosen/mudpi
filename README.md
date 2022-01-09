@@ -4,9 +4,7 @@ TinTin++ (running server-side), and the result is served through a browser
 using ttyd.
 
 Compile the source using
-```./compile.sh```
-Then start the mudpi server on port <port> using
-```./start <port>```
+```./compile.sh```. Then start the mudpi server on port <port> using ```./start <port>```.
 Point your browser at `http://localhost:<port>/` and enjoy the game! The
 script will also generate a systemd unit file mudpi.service, which you
 can move to `/etc/systemd/system` if you want to start and stop mudpi
