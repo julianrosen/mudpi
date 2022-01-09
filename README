@@ -13,3 +13,5 @@ can move to /etc/systemd/system if you want to start and stop mudpi
 as a service.
 
 I run Mudpi on a Raspberry Pi, but I have also tested it on Ubuntu.
+
+![Mudpi in action](mudpi.png)
