@@ -4,14 +4,14 @@ TinTin++ (running server-side), and the result is served through a browser
 using ttyd.
 
 Compile the source using
-./compile.sh
+```./compile.sh```
 Then start the mudpi server on port <port> using
-./start <port>
-Point your browser at http://localhost:<port>/ and enjoy the game! The
+```./start <port>```
+Point your browser at `http://localhost:<port>/` and enjoy the game! The
 script will also generate a systemd unit file mudpi.service, which you
-can move to /etc/systemd/system if you want to start and stop mudpi
+can move to `/etc/systemd/system` if you want to start and stop mudpi
 as a service.
 
 I run Mudpi on a Raspberry Pi, but I have also tested it on Ubuntu.
 
-What ![huh](https://github.com/julianrosen/mudpi/blob/main/mudpi.png)
+![Mudpi in action](mudpi.png)
