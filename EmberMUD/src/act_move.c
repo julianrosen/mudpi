@@ -2344,12 +2344,15 @@ void do_track( CHAR_DATA * ch, char *argument )
 
         if( IS_SET( ch->act, PLR_AUTOTRACK ) ) /* Added by JR*/
         {
-            sprintf( buf, "You follow a trail %s from here!\n\r", dir_name[dir] );
+            sprintf( buf, "You follow a trail %s!\n\r", dir_name[dir] );
+            send_to_char( buf, ch );
             move_char( ch, dir, FALSE, 0 );
         }
         else
-            sprintf( buf, "You sense a trail %s from here!\n\r", dir_name[dir] );
-        send_to_char( buf, ch );
+        {
+            sprintf( buf, "You sense a trail %s!\n\r", dir_name[dir] );
+            send_to_char( buf, ch );
+        }
         break;
     }
 }

@@ -151,7 +151,7 @@ const struct cmd_type cmd_table[] = {
     {"report", do_report, POS_RESTING, 0, LOG_NORMAL, 1, TRUE},
     {"rules", do_rules, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"score", do_score, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
-    {"scan", do_scan, POS_RESTING, 0, LOG_NORMAL, 1, TRUE},
+    {"scan", do_scan, POS_RESTING, 0, LOG_NORMAL, 1, FALSE},
     {"search", do_search, POS_STANDING, 0, LOG_NORMAL, 1, TRUE},
 /*    { "show",         do_show,        POS_DEAD,        0,  LOG_NORMAL, 1 , FALSE}, */
     {"skills", do_skills, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},

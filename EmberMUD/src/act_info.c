@@ -1171,6 +1171,11 @@ void do_pk( CHAR_DATA * ch, char *argument )
     if ( IS_NPC( ch ) )
         return;
 
+    if ( IS_SET( ch->act, PLR_KILLER ) )
+    {
+        send_to_char( "You are already a player killer.\n\r", ch );
+        return;
+    }
     if ( ch->pcdata->confirm_pk )
     {
         if ( argument[0] != '\0' )
