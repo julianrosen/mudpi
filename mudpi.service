@@ -4,8 +4,8 @@ after=network.target
 
 [Service]
 User=mud
-ExecStart=/home/mudpi/mudpi-main/start.sh
-WorkingDirectory=/home/mudpi/mudpi-main
+ExecStart=/home/mudpi/mudpi/start.sh
+WorkingDirectory=/home/mudpi/mudpi
 Restart=on-failure
 
 [Install]

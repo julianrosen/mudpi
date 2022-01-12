@@ -98,7 +98,7 @@
 #event {SCREEN RESIZE} {#screen clear input;#screen clear bottom;#cr}
 
 #nop Unstable version only
-#showme This is the unstable version of Mudpi
+#nop #showme This is the unstable version of Mudpi
 
 #nop Connect to the mud
 #ses mud_pi localhost 20495

@@ -1,3 +1,4 @@
 *.o
 *.log
 EmberMUD/src/ember
+EmberMUD/player
