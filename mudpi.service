@@ -1,0 +1,12 @@
+[Unit]
+Description=Mudpi server
+after=network.target
+
+[Service]
+User=mud
+ExecStart=/home/mudpi/mudpi-main/start.sh
+WorkingDirectory=/home/mudpi/mudpi-main
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
