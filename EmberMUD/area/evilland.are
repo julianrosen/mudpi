@@ -437,11 +437,11 @@ unknown~
 BD BD BD BD 0
 10 0 1500 P
 A
-18 2
+4 1
 A
 19 2
 A
-4 1
+18 2
 #21004
 Thunder staff~
 the Staff of Thunder~
@@ -467,15 +467,15 @@ unknown~
 EG D D 30 0
 33 0 1000 P
 A
-18 4
-A
-19 2
-A
-2 1
+1 1
 A
 4 1
 A
-1 1
+2 1
+A
+19 2
+A
+18 4
 #21007
 lords sceptre~
 the Lord's Golden Sceptre~
@@ -485,13 +485,13 @@ unknown~
 0 0 250 0 0
 55 1 4577 P
 A
-18 4
-A
-19 4
+13 10
 A
 1 1
 A
-13 10
+19 4
+A
+18 4
 #21008
 potion shadows~
 a Potion of the `bS`bh`Ba`Bd`co`Cw`Cs`w~
@@ -509,11 +509,11 @@ unknown~
 BD BD BD BD 0
 40 3 345 P
 A
-12 50
+19 3
 A
 18 5
 A
-19 3
+12 50
 #21010
 potion darkness~
 a potion of DaRkNeSs~
@@ -531,9 +531,9 @@ unknown~
 AC AC AC D 0
 20 1 934 P
 A
-18 3
-A
 19 2
+A
+18 3
 #21013
 coffin~
 a Coffin~
@@ -551,9 +551,9 @@ unknown~
 A C BC BCDE BD
 20 2 3044 P
 A
-18 7
-A
 19 8
+A
+18 7
 #21019
 scythe crystal death~
 a Crystal Scythe of Death~
@@ -563,9 +563,9 @@ unknown~
 0 BD BD A BCDEF
 70 1 100000 P
 A
-19 10
-A
 18 9
+A
+19 10
 #21021
 white bracelet~
 a white bracelet~
@@ -575,11 +575,11 @@ unknown~
 D D D AD 0
 29 1 329 P
 A
-18 3
+4 2
 A
 19 3
 A
-4 2
+18 3
 #21022
 bow love~
 `RCupid's Bow of Love`w~
@@ -589,13 +589,13 @@ unknown~
 0 BC AB BDE DE
 14 1 547 P
 A
-19 1
-A
-4 2
+18 3
 A
 17 -25
 A
-18 3
+4 2
+A
+19 1
 #21023
 pile gold coins~
 a pile of gold coins~
@@ -613,13 +613,13 @@ unknown~
 AC AC AC AD 0
 25 1 985 P
 A
-19 4
-A
-18 1
+4 1
 A
 13 18
 A
-4 1
+18 1
+A
+19 4
 #21026
 ring of pure evilness~
 `BRing of Pure Evilness`w~
@@ -629,11 +629,11 @@ unknown~
 AD D C AC 0
 16 0 234 P
 A
-5 1
+19 3
 A
 18 3
 A
-19 3
+5 1
 #21029
 shield fire~
 `RThe Shield of Fire`w~
@@ -643,15 +643,15 @@ unknown~
 BEF BEF BEF BEF 0
 75 0 0 P
 A
-18 5
-A
-19 4
-A
-4 1
+12 10
 A
 9 1
 A
-12 10
+4 1
+A
+19 4
+A
+18 5
 #21030
 something~
 something~
@@ -661,15 +661,15 @@ unknown~
 0 D AD A C
 55 1 3654 P
 A
-13 50
-A
-18 8
-A
-19 6
+1 -2
 A
 12 -100
 A
-1 -2
+19 6
+A
+18 8
+A
+13 50
 #21031
 fountain realm~
 a Beautiful Fountain~
@@ -687,11 +687,11 @@ unknown~
 AD AD AD BD 0
 9 1 565 P
 A
-4 1
+18 4
 A
 19 2
 A
-18 4
+4 1
 #21034
 urn ashes crystal~
 a Crystal Urn~
@@ -701,9 +701,9 @@ unknown~
 BD AC D BD 0
 9 1 43 P
 A
-19 2
-A
 18 2
+A
+19 2
 #21035
 book judgement~
 the Book of Judgement~
@@ -713,17 +713,17 @@ unknown~
 CE CE CE CE 0
 80 1 3255 P
 A
-17 -100
-A
-18 15
-A
-17 -25
-A
-12 150
+19 16
 A
 13 100
 A
-19 16
+12 150
+A
+17 -25
+A
+18 15
+A
+17 -100
 #21036
 Golden Scythe~
 a Golden Scythe of Death~
@@ -733,17 +733,17 @@ unknown~
 0 CDEF CDEF CE CD
 94 3 345667 P
 A
-19 50
-A
-18 50
-A
-13 100
-A
-17 -200
+1 5
 A
 12 100
 A
-1 5
+17 -200
+A
+13 100
+A
+18 50
+A
+19 50
 #0
 
 

@@ -1146,9 +1146,9 @@ unknown~
 C C C ABC 0
 12 19 120 P
 A
-18 2
-A
 1 1
+A
+18 2
 #1315
 chest~
 a chest~
@@ -1174,9 +1174,9 @@ unknown~
 A C C AB 0
 12 8 120 P
 A
-18 1
-A
 19 2
+A
+18 1
 #1318
 dagger silver~
 a silver dagger~
@@ -1186,9 +1186,9 @@ unknown~
 B C C ABD 0
 12 5 120 P
 A
-18 2
-A
 19 2
+A
+18 2
 #1319
 scimitar~
 a curved scimitar~
@@ -1328,9 +1328,9 @@ unknown~
 ABC ABC ABC 0 0
 22 4 220 P
 A
-3 1
-A
 4 1
+A
+3 1
 #1336
 altar~
 a golden altar~
@@ -1348,9 +1348,9 @@ unknown~
 CD CD CD 0 0
 48 3 480 P
 A
-4 2
-A
 5 -1
+A
+4 2
 #1338
 chest~
 a large chest~
@@ -1386,9 +1386,9 @@ unknown~
 CD CD CD 0 0
 48 5 480 P
 A
-17 -5
-A
 24 -3
+A
+17 -5
 #1342
 chameleon poncho~
 a chameleon poncho~
@@ -1398,9 +1398,9 @@ unknown~
 CD CD CD 0 0
 48 4 480 P
 A
-2 2
-A
 17 -3
+A
+2 2
 #1343
 boots worn~
 a pair of old boots~
@@ -1460,9 +1460,9 @@ unknown~
 0 0 0 0 0
 16 15 160 P
 A
-12 -100
-A
 14 -82
+A
+12 -100
 #1357
 dagger silvery~
 a silvery dagger~
@@ -1654,9 +1654,9 @@ unknown~
 D D D 0 0
 25 5 250 P
 A
-17 -8
-A
 24 -3
+A
+17 -8
 #1380
 wand ashen~
 an ashen wand~
@@ -1682,9 +1682,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 24 8 240 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1383
 cloak grey~
 a long grey cloak~
@@ -1694,9 +1694,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1384
 bracelet silver~
 a glinting silver bracelet~
@@ -1736,9 +1736,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 8 200 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1388
 bracelet onyx~
 an onyx bracelet~
@@ -1758,9 +1758,9 @@ unknown~
 D D D 0 0
 29 8 290 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1390
 shard black obsidian~
 a sharp shard of obsidian~
@@ -1780,9 +1780,9 @@ unknown~
 BEF 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 20 7 200 P
 A
-17 -9
-A
 24 -2
+A
+17 -9
 #1392
 bracelet white gold~
 a white gold bracelet~
@@ -1802,9 +1802,9 @@ unknown~
 AD AD AD 0 0
 30 7 300 P
 A
-17 -12
-A
 24 -3
+A
+17 -12
 #1394
 ivory dagger~
 an ivory hilted dagger~
@@ -1814,9 +1814,9 @@ unknown~
 B AC ABC ABD 0
 30 8 300 P
 A
-18 1
-A
 19 2
+A
+18 1
 #1395
 collar spiked~
 a spiked collar~
@@ -1826,9 +1826,9 @@ unknown~
 D D D 0 0
 26 9 260 P
 A
-17 -2
-A
 19 3
+A
+17 -2
 #1396
 cloak shimmering~
 a shimmering cloak of many colors~
@@ -1838,9 +1838,9 @@ unknown~
 CFG 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
 0 8 0 P
 A
-17 -15
-A
 24 -5
+A
+17 -15
 #1397
 emerald ring~
 a small emerald ring~
@@ -1860,9 +1860,9 @@ unknown~
 ACD ACD ACD 0 0
 50 5 500 P
 A
-17 -5
-A
 3 1
+A
+17 -5
 #1399
 ward major clear crystal~
 a ward major~
@@ -1872,9 +1872,9 @@ unknown~
 ACD ACD ACD 0 0
 50 6 500 P
 A
-17 -10
-A
 24 -2
+A
+17 -10
 #1400
 ebony kris~
 the ebony kris~
@@ -1884,9 +1884,9 @@ unknown~
 B AC ABD ABD 0
 50 9 500 P
 A
-2 2
-A
 19 5
+A
+2 2
 #1401
 green scale shirt~
 a tight fitting green dragon scale shirt~
@@ -1896,9 +1896,9 @@ unknown~
 ACD ACD ACD 0 0
 50 9 500 P
 A
-2 3
-A
 17 -5
+A
+2 3
 E
 green scale shirt~
 Green dragon scale shirt was made from a poor unfortunate green dragon.
@@ -1983,6 +1983,16 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1302
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1307
 D3
 The shadows cloud your vision.
 ~
@@ -1993,16 +2003,6 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1304
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1307
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 S
 #1302
 The Shadow Grove~
@@ -2012,11 +2012,6 @@ sounds moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1301
 D0
 You see a small clearing in the shadows.
 ~
@@ -2027,6 +2022,11 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1305
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 D1
 The shadows cloud your vision.
 ~
@@ -2046,16 +2046,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1301
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1309
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1306
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 D3
 The shadows cloud your vision.
 ~
@@ -2070,16 +2070,6 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1301
-D3
-Dark gates loom in the mist.
-~
-~
-0 -1 2201
 D1
 The shadows cloud your vision.
 ~
@@ -2090,6 +2080,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1307
+D3
+Dark gates loom in the mist.
+~
+~
+0 -1 2201
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 S
 #1305
 The Shadow Grove~
@@ -2104,21 +2104,21 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1308
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1306
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1304
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1302
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1306
 S
 #1306
 The Shadow Grove~
@@ -2133,16 +2133,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1305
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1309
 D1
 You see a shadowy tavern.
 ~
 ~
 0 -1 9301
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 D0
 The shadows cloud your vision.
 ~
@@ -2157,26 +2157,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1308
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1301
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1309
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1304
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1308
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 S
 #1308
 The Shadow Grove~
@@ -2186,26 +2186,26 @@ sounds of moaning and growling come from all directions.
   All exits lead into shadows, you are very confused.
 ~
 0 8193 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1307
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1309
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1305
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1307
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1300
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 S
 #1309
 The Shadow Grove~
@@ -2225,16 +2225,16 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1303
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1307
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1306
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1307
 S
 #1311
 A small clearing~
@@ -3628,22 +3628,22 @@ D2
 ~
 ~
 0 0 9141
-D4
-~
-~
-0 0 938
-D3
-~
-~
-0 0 7428
-D1
-~
-~
-0 0 5113
 D5
 ~
 ~
 0 0 3460
+D3
+~
+~
+0 0 7428
+D4
+~
+~
+0 0 938
+D1
+~
+~
+0 0 5113
 S
 #1393
 A hallway~

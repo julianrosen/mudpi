@@ -100,5 +100,20 @@
 #nop Unstable version only
 #nop #showme This is the unstable version of Mudpi
 
+
+
 #nop Connect to the mud
 #ses mud_pi localhost 20495
+
+
+#nop For some reason I couldn't get #if to work, so I'm using #switch
+#switch {"$username"}
+{
+    #case "EMPTY" {#nop};
+    #default {#send {$username}};
+}
+#switch {"$password"}
+{
+    #case "EMPTY" {#nop};
+    #default {#send {$password}};
+}

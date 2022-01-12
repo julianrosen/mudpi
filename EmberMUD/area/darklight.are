@@ -685,9 +685,9 @@ unknown~
 CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef 0
 35 0 100000 P
 A
-13 30
-A
 5 2
+A
+13 30
 #26899
 glowing ring armor-finger~
 glowing Ring of Power~
@@ -2391,7 +2391,7 @@ M 0 26834 0 26809 Load a Gigantic Beetle
 M 0 26801 0 26809 Load Cyprite
 M 0 26805 0 26810 Load a kindly wrinkled old Dwarf selling pets
 M 0 26808 0 26811 Load a bright red lizard
-M 0 26809 0 26811 Load a huge Turtle
+M 0 26809 0 26811 Load a huge Turtle 
 M 0 26832 0 26811 Load a Pretty Kitty
 M 0 26824 2 26818 Load a Bodyguard
 M 0 26804 0 26819 Load Staver

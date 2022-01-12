@@ -263,9 +263,9 @@ unknown~
 BDEFGH A DGHJMN 0 0
 10 5 200 P
 A
-18 1
-A
 19 1
+A
+18 1
 #21203
 sunsword sun sword~
 the Sword of The `YSun`W~
@@ -275,9 +275,9 @@ unknown~
 A ABC AD AB A
 45 5 15034 P
 A
-19 6
-A
 18 5
+A
+19 6
 #21204
 bottle beer~
 a bottle of beer~
@@ -303,11 +303,11 @@ unknown~
 ADE ADE ADE ADE 0
 75 2 42527 P
 A
-19 2
+12 100
 A
 18 2
 A
-12 100
+19 2
 #21207
 Cyrax's Battle Sword~
 `WCyrax's Battle Sword`w~
@@ -317,9 +317,9 @@ unknown~
 0 D AC 0 C
 35 5 60000 P
 A
-18 4
-A
 19 6
+A
+18 4
 #21208
 ring of royalty~
 a Ring of Royalty~
@@ -329,13 +329,13 @@ unknown~
 C C C D 0
 30 1 12048 P
 A
-1 1
-A
-17 -10
+19 2
 A
 18 3
 A
-19 2
+17 -10
+A
+1 1
 #21209
 royal bracer~
 a Royal Bracer~
@@ -345,11 +345,11 @@ unknown~
 BD BD BD BD 0
 30 2 13854 P
 A
-18 1
+19 2
 A
 5 2
 A
-19 2
+18 1
 #21210
 potion of invis~
 a potion of invisible~

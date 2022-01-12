@@ -315,9 +315,9 @@ unknown~
 A C AC AB 0
 15 9 150 P
 A
-19 1
-A
 18 1
+A
+19 1
 #2005
 sword excalibur~
 the sword Excalibur~
@@ -327,9 +327,9 @@ unknown~
 A AC AC AB 0
 22 15 220 P
 A
-1 1
-A
 18 3
+A
+1 1
 #2006
 crown~
 a kingly crown~
@@ -383,13 +383,13 @@ unknown~
 BC BC BC 0 0
 16 15 160 P
 A
-19 -1
-A
-18 -2
+12 10
 A
 13 10
 A
-12 10
+18 -2
+A
+19 -1
 #2012
 scale shield dragonscale~
 a dragonscale shield~

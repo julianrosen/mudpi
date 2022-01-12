@@ -489,15 +489,15 @@ unknown~
 0 0 999 0 0
 18 0 0 P
 A
-19 3
-A
-18 3
-A
-17 -10
+13 50
 A
 12 50
 A
-13 50
+17 -10
+A
+18 3
+A
+19 3
 #10024
 jewel white~
 the white jewel~
@@ -567,40 +567,6 @@ unknown~
 0 0 0 0 0
 0 0 4000 P
 E
-ham~
-____________________________________________________________________________________________
-|           ****** Greater Ham Harbor Area ******                                           |
-|           =====================================                                           |
-|              Jed's Cabin                                                                  |
-|                   |      Litmore Lake Road      to                                        |
-|                 ----------------------------> western                                     |
-|                |    |           |             Midgaard                                    |
-| Litmore-------------            |                                                         |
-|  Lake    |              Tackard |                                                         |
-|         Boat             Road   |                                                         |
-|        house                    |             The meadow                                  |
-|                                 |                                                         |
-|                                 |---------------                                          |
-|                                 |         /     |                                         |
-|                |       School---|      Hobbit   |                                         |
-|                |                |       hole    |-- Wandering                             |
-|          Dark  |      Trading---|               |     Woods                               |
-|          alley |        post    |               |                                         |
-|                |                |               |                           ?             |
-|                |                |               |                           ?  Glinda's   |
-| Junkyard-------------------------------[ ]-------------------------Wetlands ?   potions   |
-|            |      Bellsworth    |[             ]  ||             |          ?             |
-|            |         Lane       |[     Ham     ]__||*Champion's  |          ?             |
-|            |                         Harbor     ___| market      |                        |
-|            |                    |[             ]                 |                        |
-|            |                    |[_____________]             Rocky road                   |
-|         X    X                  |                                                         |
-|                                 |                                                         |
-|          ____          Church---|---Cemetary                                              |
-|         /    \                                                                            |
-|___________________________________________________________________________________________|     
-~
-E
 map~
 ____________________________________________________________________________________________
 |           ****** Greater Ham Harbor Area ******                                           |
@@ -633,6 +599,40 @@ ________________________________________________________________________________
 |          ____          Church---|---Cemetary                                              |
 |         /    \                                                                            |
 |___________________________________________________________________________________________| 
+~
+E
+ham~
+____________________________________________________________________________________________
+|           ****** Greater Ham Harbor Area ******                                           |
+|           =====================================                                           |
+|              Jed's Cabin                                                                  |
+|                   |      Litmore Lake Road      to                                        |
+|                 ----------------------------> western                                     |
+|                |    |           |             Midgaard                                    |
+| Litmore-------------            |                                                         |
+|  Lake    |              Tackard |                                                         |
+|         Boat             Road   |                                                         |
+|        house                    |             The meadow                                  |
+|                                 |                                                         |
+|                                 |---------------                                          |
+|                                 |         /     |                                         |
+|                |       School---|      Hobbit   |                                         |
+|                |                |       hole    |-- Wandering                             |
+|          Dark  |      Trading---|               |     Woods                               |
+|          alley |        post    |               |                                         |
+|                |                |               |                           ?             |
+|                |                |               |                           ?  Glinda's   |
+| Junkyard-------------------------------[ ]-------------------------Wetlands ?   potions   |
+|            |      Bellsworth    |[             ]  ||             |          ?             |
+|            |         Lane       |[     Ham     ]__||*Champion's  |          ?             |
+|            |                         Harbor     ___| market      |                        |
+|            |                    |[             ]                 |                        |
+|            |                    |[_____________]             Rocky road                   |
+|         X    X                  |                                                         |
+|                                 |                                                         |
+|          ____          Church---|---Cemetary                                              |
+|         /    \                                                                            |
+|___________________________________________________________________________________________|     
 ~
 #10032
 box tide detergent~
@@ -3747,10 +3747,10 @@ S
 #PROGS
 M 10000 2030 (no name) Load to: Ezra the shopkeeper
 M 10001 28 Read Load to: Amelia the teacher
-M 10002 2031 Innocent death Load to: a citizen of Ham Harbor
 M 10002 2029 (no name) Load to: a citizen of Ham Harbor
-M 10005 2032 Reset jogger Load to: a very fit jogger
+M 10002 2031 Innocent death Load to: a citizen of Ham Harbor
 M 10005 2028 Ham Harbor loop Load to: a very fit jogger
+M 10005 2032 Reset jogger Load to: a very fit jogger
 M 10008 2026 Esmerelda Load to: an old woman
 M 10015 2025 Grandma Jones Load to: Grandma Jones
 M 10018 2022 Sheriff talk Load to: Sheriff Johnson

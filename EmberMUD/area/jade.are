@@ -307,9 +307,9 @@ unknown~
 A C AC A 0
 16 3 0 P
 A
-19 1
-A
 18 2
+A
+19 1
 #22504
 goblin short sword~
 a goblin short sword~
@@ -329,9 +329,9 @@ unknown~
 A C AC A 0
 17 0 0 P
 A
-13 20
-A
 19 1
+A
+13 20
 #22506
 gold coins pile money~
 some gold coins~
@@ -403,9 +403,9 @@ unknown~
 AC AC AC B 0
 12 0 0 P
 A
-14 30
-A
 2 1
+A
+14 30
 #22514
 elven leather bracer armor-wrist~
 an elven leather bracer~
@@ -415,9 +415,9 @@ unknown~
 AC AC AC AB 0
 15 0 10 P
 A
-19 3
-A
 18 2
+A
+19 3
 #22515
 basket container~
 a basket~
@@ -435,9 +435,9 @@ unknown~
 0 0 150 0 0
 35 0 1000 P
 A
-13 35
-A
 18 6
+A
+13 35
 #0
 
 
@@ -806,9 +806,11 @@ has been staked into the sand.
 0 4 10
 E
 sign~
-~
-E
-sign~
+Ahhh, I see you have discovered my desert. That means that the sands
+that covered it for thousands of years have uncovered it. I sense your
+greed and have prepared for this. You shall never obtain my treasures which
+lie beyond this barren wasteland. Head the warning of Jade, for all who
+have entered my desert... Have not returned.  
 ~
 E
 sign~
@@ -822,11 +824,9 @@ Jade does not take lightly to trespassers.
 ~
 E
 sign~
-Ahhh, I see you have discovered my desert. That means that the sands
-that covered it for thousands of years have uncovered it. I sense your
-greed and have prepared for this. You shall never obtain my treasures which
-lie beyond this barren wasteland. Head the warning of Jade, for all who
-have entered my desert... Have not returned.  
+~
+E
+sign~
 ~
 D0
 ~

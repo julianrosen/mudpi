@@ -417,9 +417,9 @@ unknown~
 A C BC AB 0
 10 1 0 P
 A
-19 2
-A
 1 2
+A
+19 2
 #23706
 beryllium dagger sharp~
 a beryllium dagger~
@@ -429,11 +429,11 @@ unknown~
 B AB ABC ABD D
 15 1 0 P
 A
-19 3
+2 1
 A
 18 5
 A
-2 1
+19 3
 #23707
 beryllium mace~
 a beryllium mace~
@@ -443,11 +443,11 @@ unknown~
 C C AC ABC 0
 10 1 0 P
 A
-18 2
+12 20
 A
 4 1
 A
-12 20
+18 2
 #23708
 beryllium pole spear~
 a beryllium pole~
@@ -457,11 +457,11 @@ unknown~
 AB C AC ABCD 0
 10 1 0 P
 A
-18 1
+5 2
 A
 19 1
 A
-5 2
+18 1
 #23709
 beryllium axe~
 a beryllium axe~
@@ -471,9 +471,9 @@ unknown~
 AC C BC ADE 0
 10 1 0 P
 A
-19 1
-A
 1 2
+A
+19 1
 #23710
 beryllium chain mail armor-body~
 a suit of beryllium chain mail~
@@ -491,9 +491,9 @@ unknown~
 AC AC AC AB 0
 10 0 0 P
 A
-2 1
-A
 1 1
+A
+2 1
 #23712
 beryllium shield~
 a beryllium shield~
@@ -533,11 +533,11 @@ unknown~
 A C BC AB 0
 15 0 0 P
 A
-19 5
+1 1
 A
 18 3
 A
-1 1
+19 5
 #23716
 beryllium duel axe~
 a beryllium duel axe~
@@ -555,11 +555,11 @@ unknown~
 AB C BC ABCD 0
 0 1 0 P
 A
-5 2
+19 4
 A
 18 3
 A
-19 4
+5 2
 #23718
 sharp beryllium dagger~
 a sharp beryllium dagger~
@@ -569,11 +569,11 @@ unknown~
 B C BC ABD D
 15 1 0 P
 A
-2 2
+19 1
 A
 18 3
 A
-19 1
+2 2
 #23719
 spiked beryllium mace~
 a spiked beryllium mace~
@@ -583,13 +583,13 @@ unknown~
 C C BC ABC 0
 0 0 0 P
 A
-4 1
-A
-3 1
+19 1
 A
 18 1
 A
-19 1
+3 1
+A
+4 1
 #23720
 metal box stoarge crate~
 a metal storage crate~
@@ -667,9 +667,9 @@ unknown~
 ABC ABC ABC C 0
 15 0 0 P
 A
-18 1
-A
 19 1
+A
+18 1
 #23729
 beryllium longsword sword~
 a beryllium longsword~
@@ -679,11 +679,11 @@ unknown~
 A AC BC AB 0
 20 1 0 P
 A
-1 1
+19 5
 A
 18 4
 A
-19 5
+1 1
 #23730
 beryllium jack-knife knife dagger~
 a beryllium jack-knife~
@@ -693,11 +693,11 @@ unknown~
 B AC BC ABD 0
 20 1 0 P
 A
-19 4
+2 1
 A
 18 4
 A
-2 1
+19 4
 #23731
 beryllium battle axe~
 a beryllium battle axe~
@@ -715,11 +715,11 @@ unknown~
 AB AC BC ABCD 0
 20 0 0 P
 A
-19 4
+5 2
 A
 18 4
 A
-5 2
+19 4
 #23733
 beryllium flail cylindar~
 a beryllium flail~
@@ -729,11 +729,11 @@ unknown~
 BC AC BC ABC 0
 20 0 0 P
 A
-18 2
+4 2
 A
 19 5
 A
-4 2
+18 2
 #23734
 beryllium half plate armor-body~
 a suit of beryllium half plate ~
@@ -743,9 +743,9 @@ unknown~
 BD BD BD BC 0
 20 4 0 P
 A
-19 5
-A
 18 5
+A
+19 5
 #23735
 beryllium war helmen armor-head~
 a beryllium war helmet~
@@ -755,15 +755,15 @@ unknown~
 BD BD BD AC 0
 20 1 0 P
 A
-12 -100
-A
-2 -2
-A
-19 4
+18 4
 A
 13 50
 A
-18 4
+19 4
+A
+2 -2
+A
+12 -100
 #23736
 beryllium power bracers armor-wrist~
 beryllium power bracers~
@@ -783,13 +783,13 @@ unknown~
 AD AD ABD B 0
 20 0 0 P
 A
-1 3
-A
-2 -1
+13 25
 A
 3 -1
 A
-13 25
+2 -1
+A
+1 3
 #23738
 key weapon's vault~
 the level 20 weapon's vault key~
@@ -815,9 +815,9 @@ unknown~
 C AC BC ABC 0
 20 2 0 P
 A
-18 1
-A
 1 1
+A
+18 1
 #23741
 level 30 vault weapon's key~
 level 30 weapon's vault key~
@@ -843,13 +843,13 @@ unknown~
 A ABC AC BCDE C
 30 2 0 P
 A
-19 6
-A
-18 9
+13 10
 A
 3 -1
 A
-13 10
+18 9
+A
+19 6
 #23744
 beryllium blade backstabbing dagger vampiric sharp~
 a beryllium blade of backstabbing~
@@ -859,9 +859,9 @@ unknown~
 B ABC BC ABD CD
 30 1 0 P
 A
-19 4
-A
 18 10
+A
+19 4
 #23745
 beryllium morningstar mace~
 a beryllium morningstar~
@@ -871,13 +871,13 @@ unknown~
 C BC BC ACD 0
 30 1 0 P
 A
-4 1
-A
-1 1
+19 6
 A
 18 7
 A
-19 6
+1 1
+A
+4 1
 #23746
 beryllium power armor armor-body~
 the beryllium power armor~
@@ -887,11 +887,11 @@ unknown~
 AE ABE ACE ABE 0
 30 1 0 P
 A
-13 50
+5 3
 A
 18 4
 A
-5 3
+13 50
 #23747
 spiked power wristband bracer armor-wrist~
 the spiked bracer of power~
@@ -921,11 +921,11 @@ unknown~
 A AD AD ABE C
 59 0 50000 P
 A
-18 11
+1 2
 A
 5 2
 A
-1 2
+18 11
 #23796
 acid acidic blade sword sharp~
 acidic blade~
@@ -959,17 +959,17 @@ unknown~
 C BC ABC ABC F
 30 3 2300 P
 A
-2 -1
-A
-12 -50
-A
-19 3
-A
-18 5
+13 -150
 A
 1 4
 A
-13 -150
+18 5
+A
+19 3
+A
+12 -50
+A
+2 -1
 #0
 
 

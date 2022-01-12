@@ -338,9 +338,9 @@ unknown~
 0 0 0 0 0
 20 2 7000 P
 A
-4 2
-A
 3 2
+A
+4 2
 #18256
 Large Key~
 a large key~
@@ -366,9 +366,9 @@ unknown~
 AC D BC A EF
 40 15 15000 P
 A
-19 4
-A
 18 2
+A
+19 4
 #18265
 huge barrel dwarven drink-dark~
 a huge barrel~
@@ -428,11 +428,11 @@ unknown~
 D BD D AC 0
 14 5 530 P
 A
-24 3
+13 -20
 A
 12 -10
 A
-13 -20
+24 3
 #0
 
 

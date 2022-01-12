@@ -389,9 +389,9 @@ unknown~
 A BC C AB DE
 18 0 3000 P
 A
-18 -2
-A
 19 4
+A
+18 -2
 #20904
 trunk container~
 a trunk~
@@ -449,11 +449,11 @@ unknown~
 AB C ABC ABD C
 20 3 2500 P
 A
-2 2
+19 3
 A
 18 3
 A
-19 3
+2 2
 #20911
 medusa's hair armor-head~
 medusa's Hair~
@@ -463,11 +463,11 @@ unknown~
 AC AC AC AC 0
 18 10 2000 P
 A
-3 2
+5 -2
 A
 1 1
 A
-5 -2
+3 2
 #20912
 trapdoor key~
 trap door key~
@@ -541,11 +541,11 @@ unknown~
 ADE B B 15 0
 25 2 2500 P
 A
-1 -1
+12 -65
 A
 13 50
 A
-12 -65
+1 -1
 #20921
 invisibility potion potion-defend~
 an invis potion~
@@ -563,13 +563,13 @@ unknown~
 AC AD BC ADE F
 33 15 4000 P
 A
-4 -3
-A
-2 -3
+1 2
 A
 5 1
 A
-1 2
+2 -3
+A
+4 -3
 #20923
 trapdoor key~
 a trapdoor key~

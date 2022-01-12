@@ -33,6 +33,9 @@
        your beacon to the Temple of Mota with '`Gbeaconreset`w'.
     4. The Mudpi bot has been removed. However, healing rates are
        greatly increased while sleeping on the temple altar.
+    5. Mudpi has a web interface at https://julianrosen.net/mudpi/.
+        You can enter your login information directly in the URL,
+        using https://julianrosen.net/mudpi/?arg=<username>&arg=<password>
 ~
 51 IMOTD~
 You are an immortal.
