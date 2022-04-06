@@ -2630,6 +2630,7 @@ void free_char( CHAR_DATA * ch )
         ch->pcdata->next = pcdata_free;
         pcdata_free = ch->pcdata;
     }
+    free( ch->visited ); // JR
 
     ch->next = char_free;
     char_free = ch;
