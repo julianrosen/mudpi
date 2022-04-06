@@ -78,6 +78,7 @@ DECLARE_DO_FUN( do_cast );
 DECLARE_DO_FUN( do_changes );
 DECLARE_DO_FUN( do_channels );
 DECLARE_DO_FUN( do_circle );
+DECLARE_DO_FUN( do_clear ); /* Added by JR */
 DECLARE_DO_FUN( do_clone );
 DECLARE_DO_FUN( do_close );
 DECLARE_DO_FUN( do_commands );

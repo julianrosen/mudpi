@@ -184,6 +184,7 @@ const struct cmd_type cmd_table[] = {
     {"autotrack", do_autotrack, POS_DEAD, 0, LOG_NORMAL, 1, FALSE}, /* Added by JR */
     {"brief", do_brief, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"channels", do_channels, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
+    {"clear", do_clear, POS_DEAD, 0, LOG_NORMAL, 1, FALSE}, /* Added by JR */
     {"combine", do_combine, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"compact", do_compact, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"config", do_autolist, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},

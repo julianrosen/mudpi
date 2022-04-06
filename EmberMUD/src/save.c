@@ -706,8 +706,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     // JR
     ch->start_age = 0; 
     ch->tintin = STATIC_PROMPT + SPLIT + BRIEF_SPEEDWALK;
-
-    
+     
     found = FALSE;
     fclose( fpReserve );
 

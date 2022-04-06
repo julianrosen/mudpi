@@ -3570,3 +3570,24 @@ void do_spousetalk( CHAR_DATA * ch, char *argument )
         ( "Your spouse isn't currently online, please try again later.\n\r",
           ch );
 }
+
+//JR
+void do_clear( CHAR_DATA * ch)
+{
+	INPUT_LINE * c;
+	int any=0;
+	if ( !IS_NPC( ch ) && ch->desc != NULL )
+	{
+		while ( ch->desc->wait_queue != NULL )
+		{
+			any = 1;
+			c = ch->desc->wait_queue;
+			ch->desc->wait_queue = ch->desc->wait_queue->next;
+			free( c );
+		}
+		if ( any == 1 )
+			send_to_char( "Input queue cleared.\n\r", ch );
+		else
+			send_to_char( "Your input queue was already empty.\n\r", ch );
+	}
+}
