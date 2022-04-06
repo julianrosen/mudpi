@@ -5,17 +5,17 @@ port=${1:-16377}
 ki()
 {
     echo -e "\nClosing mudpi..."   
-    /usr/bin/tmux kill-session -t botty
     PGID=$(ps -o pgid= $$ | grep -o [0-9]*)
     kill -SIGTERM -"$PGID"
+    killall ember
 }
 
 trap ki SIGINT
-echo "Starting mudpi on port $port..."
 cd EmberMUD/src
 ./startup 20495 &
+echo "Started EmberMUD on port 20495"
 cd ../../ttyd/build
-./ttyd -p "$port" -t cursorBlink=true -t titleFixed=Mudpi ../../tintin/start_tt.sh >/dev/null 2>/dev/null&
+./ttyd -p "$port" -t cursorBlink=true -t titleFixed=Mudpi --url-arg ../../tintin/start_tt.sh >/dev/null 2>/dev/null&
+echo "Started ttyd on port $port"
 cd ../..
-sleep 2
-/usr/bin/tmux new -d -s botty EmberMUD/bot/botty.py &
+sleep infinity
