@@ -199,6 +199,7 @@ const struct cmd_type cmd_table[] = {
     {"password", do_password, POS_DEAD, 0, LOG_NEVER, 1, FALSE},
     {"pk", do_pk, POS_DEAD, 0, LOG_ALWAYS, 1, FALSE},
     {"prompt", do_prompt, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
+    {"rooms", do_rooms, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"scroll", do_scroll, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"title", do_title, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"unalias", do_unalias, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},

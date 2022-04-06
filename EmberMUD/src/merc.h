@@ -610,6 +610,9 @@ struct char_data {
     // JR added below
     sh_int start_age;
     long tintin; // Tintin settings
+    long num_visited; // JR: Number of rooms player has visited
+    char *visited; // JR: binary list of those rooms the player has visited
+    int new_room; // JR: Are we in a room we haven't been in before?
 };
 
 struct mud_prog_act_list {
@@ -1886,8 +1889,6 @@ void oprog_act_trigger args( ( char *txt, CHAR_DATA * ch ) );
 void oprog_hit_trigger args( ( CHAR_DATA * ch, CHAR_DATA * victim,
                                OBJ_DATA * obj ) );
 
-#endif
-
 
 
 //    JR ALL
@@ -1917,3 +1918,4 @@ bool is_fixed( CHAR_DATA * );
 bool is_fixed_d( DESCRIPTOR_DATA * );
 
 
+#endif

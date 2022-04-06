@@ -2422,6 +2422,11 @@ check_ban function.
             // ch->train = STARTING_TRAINS; // Training sessions are now determined by CP
             ch->practice = STARTING_PRACTICES;
             set_title( ch, STARTING_TITLE );
+            ch->visited = (char *)malloc(MAX_ROOMS*sizeof(char));
+            long int counter;
+            for ( counter=0; counter<MAX_ROOMS; counter++)
+                ch->visited[counter] = '0';
+            ch->visited[MAX_ROOMS-1] = 'X';
             
             //sprintf( buf, "`G*******  Entering mudpi  *******`w\n\r\n\r");
             //send_to_char( buf, ch );

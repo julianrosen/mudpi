@@ -51,7 +51,7 @@ vanishes and quits.*/
 
 #define VNUM_OFFSET 13000 // Increase all hardcoded vnums in config.h by this amount
 
-
+#define MAX_ROOMS   50000
 
 /* End JR */
 

@@ -258,6 +258,7 @@ DECLARE_DO_FUN( do_rescue );
 DECLARE_DO_FUN( do_rest );
 DECLARE_DO_FUN( do_restore );
 DECLARE_DO_FUN( do_return );
+DECLARE_DO_FUN( do_rooms );
 DECLARE_DO_FUN( do_rset );
 DECLARE_DO_FUN( do_rstat );
 DECLARE_DO_FUN( do_rules );

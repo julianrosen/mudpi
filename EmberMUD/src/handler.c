@@ -1641,6 +1641,9 @@ void char_from_room( CHAR_DATA * ch )
     return;
 }
 
+
+
+
 /*
  * Move a char into a room.
  */
@@ -1653,13 +1656,22 @@ void char_to_room( CHAR_DATA * ch, ROOM_INDEX_DATA * pRoomIndex )
         bug( "Char_to_room: NULL. - ch->name = %s", ch->name );
         return;
     }
-
+    
     ch->in_room = pRoomIndex;
     ch->next_in_room = pRoomIndex->people;
     pRoomIndex->people = ch;
 
+    
+
     if ( !IS_NPC( ch ) )
     {
+        if ( ch->visited[pRoomIndex->vnum] == '0' )
+        {
+            ch->visited[pRoomIndex->vnum] = '1';
+            ch->new_room = 1;
+        }
+        else
+            ch->new_room = 0;
         if ( ch->in_room->area->empty )
         {
             ch->in_room->area->empty = FALSE;

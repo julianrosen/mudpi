@@ -1587,11 +1587,16 @@ void do_look( CHAR_DATA * ch, char *argument )
 
     if ( arg[0] == '\0' || !str_cmp( arg, "auto" ) )
     {
+        if ( ch->new_room == 1)
+        {
+            send_to_char( "`Y(*)", ch);
+        }
         /* 'look' or 'look auto' */
         if ( arg2[0] == '\0' )
             send_to_char( "`B", ch );
         else
             send_to_char( "`K", ch );
+        
         send_to_char( ch->in_room->name, ch );
         send_to_char( "`w\n\r", ch );
 
@@ -4725,4 +4730,18 @@ void do_unalias( CHAR_DATA * ch, char *argument )
 
     if ( !found )
         send_to_char( "No alias of that name to remove.\n\r", ch );
+}
+
+void do_rooms( CHAR_DATA * ch, char *argument )
+{
+    long count=0;
+    char *visit;
+    char str[100];
+    for ( visit=ch->visited; *visit!='X'; visit++)
+    {
+        if ( *visit == '1' )
+            count += 1;
+    }
+    sprintf( str, "You have visited %i rooms.\n", count );
+    send_to_char( str, ch );
 }

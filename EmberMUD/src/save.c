@@ -77,6 +77,7 @@ void fread_char args( ( CHAR_DATA * ch, FILE * fp ) );
 void fread_pet args( ( CHAR_DATA * ch, FILE * fp ) );
 void fread_obj args( ( CHAR_DATA * ch, FILE * fp ) );
 void fread_imm args( ( CHAR_DATA * ch, FILE * fp ) );
+void fread_visited args( ( CHAR_DATA * ch, FILE * fp ) );
 
 /*
  * Save a character and inventory.
@@ -173,6 +174,16 @@ void save_char_obj( CHAR_DATA * ch )
             fwrite_faction_standings( ch, fp );
         }
 
+        
+        // JR: Write rooms visited info
+        fprintf( fp, "#VISITED\n" );
+        char *visited;
+        long count=0;
+        for ( visited=ch->visited; *visited!='X'; visited++ )
+        {
+            fprintf(fp, "%c", *visited );
+        }
+        fprintf( fp, "X\nEnd\n" );
         fprintf( fp, "#END\n" );
     }
 
@@ -706,6 +717,12 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     // JR
     ch->start_age = 0; 
     ch->tintin = STATIC_PROMPT + SPLIT + BRIEF_SPEEDWALK;
+    ch->visited = (char *)malloc(MAX_ROOMS*sizeof(char));
+    long int counter;
+    for ( counter=0; counter<MAX_ROOMS; counter++)
+        ch->visited[counter] = '0';
+    ch->visited[MAX_ROOMS-1] = 'X';
+    ch->new_room = 0;
      
     found = FALSE;
     fclose( fpReserve );
@@ -760,6 +777,8 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
                 fread_faction_standings( ch, fp );
             else if ( !str_cmp( word, "IMM" ) )
                 fread_imm( ch, fp );
+            else if ( !str_cmp( word, "VISITED" ) )
+                fread_visited( ch, fp );
             else if ( !str_cmp( word, "END" ) )
                 break;
             else
@@ -1362,6 +1381,25 @@ void fread_imm( CHAR_DATA * ch, FILE * fp )
         tmp->next = ch->pcdata->immcmdlist;
         ch->pcdata->immcmdlist = tmp;
     }
+}
+
+// JR F
+void fread_visited( CHAR_DATA * ch, FILE * fp)
+{
+    long counter=0;
+    char c;
+    c=(char)fgetc(fp);
+    while ( c != '0' && c != '1' )
+        c=(char)fgetc(fp);
+    while ( c != 'X')
+    {
+        ch->visited[counter] = c;
+        counter += 1;
+        c=(char)fgetc(fp);
+    }
+    ch->visited[counter] = 'X';
+    feof( fp ) ? "End" : fread_word( fp );
+    return;
 }
 
 /* load a pet from the forgotten reaches */
