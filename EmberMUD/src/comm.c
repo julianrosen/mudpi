@@ -2427,6 +2427,7 @@ check_ban function.
             for ( counter=0; counter<MAX_ROOMS; counter++)
                 ch->visited[counter] = '0';
             ch->visited[MAX_ROOMS-1] = 'X';
+            ch->num_visited = 0;
             
             //sprintf( buf, "`G*******  Entering mudpi  *******`w\n\r\n\r");
             //send_to_char( buf, ch );

@@ -4734,14 +4734,7 @@ void do_unalias( CHAR_DATA * ch, char *argument )
 
 void do_rooms( CHAR_DATA * ch, char *argument )
 {
-    long count=0;
-    char *visit;
     char str[100];
-    for ( visit=ch->visited; *visit!='X'; visit++)
-    {
-        if ( *visit == '1' )
-            count += 1;
-    }
-    sprintf( str, "You have visited %i rooms.\n", count );
+    sprintf( str, "You have visited %i rooms.\n", ch->num_visited );
     send_to_char( str, ch );
 }

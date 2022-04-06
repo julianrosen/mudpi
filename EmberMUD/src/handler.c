@@ -1669,6 +1669,7 @@ void char_to_room( CHAR_DATA * ch, ROOM_INDEX_DATA * pRoomIndex )
         {
             ch->visited[pRoomIndex->vnum] = '1';
             ch->new_room = 1;
+            ch->num_visited++;
         }
         else
             ch->new_room = 0;

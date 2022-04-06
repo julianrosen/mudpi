@@ -722,6 +722,7 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name )
     for ( counter=0; counter<MAX_ROOMS; counter++)
         ch->visited[counter] = '0';
     ch->visited[MAX_ROOMS-1] = 'X';
+    ch->num_visited = 0;
     ch->new_room = 0;
      
     found = FALSE;
@@ -1388,12 +1389,15 @@ void fread_visited( CHAR_DATA * ch, FILE * fp)
 {
     long counter=0;
     char c;
+    ch->num_visited = 0;
     c=(char)fgetc(fp);
     while ( c != '0' && c != '1' )
         c=(char)fgetc(fp);
     while ( c != 'X')
     {
         ch->visited[counter] = c;
+        if ( c == '1' )
+            ch->num_visited++;
         counter += 1;
         c=(char)fgetc(fp);
     }
