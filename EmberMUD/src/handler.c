@@ -1670,6 +1670,12 @@ void char_to_room( CHAR_DATA * ch, ROOM_INDEX_DATA * pRoomIndex )
             ch->visited[pRoomIndex->vnum] = '1';
             ch->new_room = 1;
             ch->num_visited++;
+            if ( ch->num_visited%100 == 0 )
+            {
+                char str[100];
+                sprintf( str, "You have visited %i rooms!\n\r", ch->num_visited );
+                send_to_char( str, ch );
+            }
         }
         else
             ch->new_room = 0;
