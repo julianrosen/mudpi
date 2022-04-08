@@ -203,6 +203,7 @@ const struct cmd_type cmd_table[] = {
     {"scroll", do_scroll, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"title", do_title, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"unalias", do_unalias, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
+    {"visited", do_visited, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"wimpy", do_wimpy, POS_DEAD, 0, LOG_NORMAL, 1, TRUE},
     {"spousetalk", do_spousetalk, POS_DEAD, 0, LOG_NORMAL, 1, FALSE},
     {"divorce", do_divorce, POS_DEAD, 1, LOG_NORMAL, 1, FALSE},

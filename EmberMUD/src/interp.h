@@ -317,6 +317,7 @@ DECLARE_DO_FUN( do_up );
 DECLARE_DO_FUN( do_value );
 DECLARE_DO_FUN( do_version );
 DECLARE_DO_FUN( do_visible );
+DECLARE_DO_FUN( do_visited );
 DECLARE_DO_FUN( do_vnum );
 DECLARE_DO_FUN( do_wake );
 DECLARE_DO_FUN( do_wear );

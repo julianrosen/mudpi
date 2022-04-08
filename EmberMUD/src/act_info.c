@@ -4738,3 +4738,31 @@ void do_rooms( CHAR_DATA * ch, char *argument )
     sprintf( str, "You have visited %i rooms.\n", ch->num_visited );
     send_to_char( str, ch );
 }
+
+void do_visited( CHAR_DATA * ch, char *argument )
+{
+    AREA_DATA *pArea;
+
+    long vnum;
+    int total, visited;
+    char buffer[200];
+    char buf2[200];
+    for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
+    {
+        total = 0;
+        visited = 0;
+        for ( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+        {
+            if ( get_room_index( vnum ) )
+            {
+                total++;
+                if ( ch->visited[vnum] == '1' )
+                	visited++;
+            }
+        }
+    sprintf( buffer, "%s", pArea->name );
+    lengthen( buffer, 40 );
+    sprintf( buf2, "`w%s : %i/%i\n\r", buffer, visited, total );
+    send_to_char( buf2, ch );
+    }
+}
