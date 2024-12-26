@@ -1654,7 +1654,7 @@ You are at the eastern end of Bellsworth Lane. To the east is a wetland
 of some sort. Off to the south, you see a rocky path.
 There is a large billboard here.
 ~
-0 0 1
+0 2097152 1
 E
 billboard~
 Visit Glinda's potions, on the far side of the wetlands. 
@@ -1676,7 +1676,7 @@ S
 By The Path Into The Meadow~
 You are on Bellsworth Lane. You see a path into the meadow in the north. 
 ~
-0 0 1
+0 2097152 1
 D0
 ~
 ~
@@ -1694,7 +1694,7 @@ S
 Rocky Path~
 You are on a rocky path.
 ~
-0 0 0
+0 2097152 0
 D0
 ~
 ~
@@ -1821,7 +1821,7 @@ In The Meadow, By The Woods~
 You are on a path through the meadow. To the east, another path leads
 into the woods. 
 ~
-0 2097152 2
+0 0 2
 D0
 ~
 ~
@@ -2023,7 +2023,7 @@ S
 The Wandering Woods~
 You are in the wandering woods. To the west, you can see the meadow. 
 ~
-0 3145728 3
+0 1048576 3
 D0
 A path goes this way~
 ~
@@ -2045,7 +2045,7 @@ S
 The Wandering Woods~
 You are in the wandering woods. To the west, you can see the meadow.
 ~
-0 3145728 3
+0 1048576 3
 D0
 A path goes this way~
 ~
@@ -2177,7 +2177,7 @@ S
 The Wandering Woods~
 You are in the wandering woods. To the west, you can see the meadow.
 ~
-0 3145728 3
+0 1048576 3
 D0
 A path goes this way~
 ~
@@ -2199,7 +2199,7 @@ S
 Clearing~
 You have arrived at a clearing in the woods. A lovely spot for a picnic!
 ~
-0 3145732 0
+0 1048580 0
 D3
 ~
 ~
@@ -2691,7 +2691,7 @@ S
 Entering The Wetlands~
 The ground in this area is wet and muddy. I hope you brought your boots! 
 ~
-0 0 0
+0 2097152 0
 D1
 ~
 ~
@@ -3706,6 +3706,7 @@ O 0 10018 0 10052 The blue jewel loaded to Dead End At The Tree
 M 0 10015 0 10063 Load Grandma Jones
 O 0 10024 0 10078 The white jewel loaded to Darkness
 O 0 10023 0 10079 A ball of pure energy loaded to Prize Room
+O 0 10025 0 10080 The black jewel loaded to Mr. White's Hobbit Hole
 O 0 10015 0 10091 The orange jewel loaded to Clearing
 O 0 10014 0 10104 The red jewel loaded to Storage Room
 M 0 10008 0 10106 Load an old woman

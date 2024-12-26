@@ -653,6 +653,10 @@ gather. It seems like it is going to rain, so you push on. A path is
 visable to the south, and the north.  
 ~
 0 4 4
+D0
+~
+~
+1 0 16130
 D2
 ~
 ~
@@ -2315,6 +2319,7 @@ S
 
 
 #RESETS
+D 0 26100 0 0
 M 0 26150 0 26104 Load a purple deer
 M 0 26104 0 26104 Load a bunny
 M 0 26108 0 26107 Load the Guard of Lousi

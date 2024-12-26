@@ -4762,7 +4762,11 @@ void do_visited( CHAR_DATA * ch, char *argument )
         }
     sprintf( buffer, "%s", pArea->name );
     lengthen( buffer, 40 );
-    sprintf( buf2, "`w%s : %i/%i\n\r", buffer, visited, total );
+    if ( visited == total )
+        sprintf( buf2, "`w%s : `C%i/%i`w\n\r", buffer, visited, total );
+    else
+        sprintf( buf2, "`w%s : %i/%i\n\r", buffer, visited, total );
     send_to_char( buf2, ch );
     }
 }
+

@@ -1358,6 +1358,12 @@ struct skill_type skill_table[MAX_SKILL] = {   /* The two lists in each entry ar
      "energy drain", "!Energy Drain!"},
 
     {
+     "explore", {37, 93, 93, 93, 93, 93, 60, 37},
+     {1, 1, 2, 2, 2, 2, 2, 1}, spell_explore, TAR_CHAR_SELF,
+     POS_FIGHTING, NULL, SLOT(102), 35, 0,
+     "explore", "!Explore!"},
+
+    {
      "faerie fire", {10, 93, 33, 93, 93, 15, 10, 10},
      {1, 1, 2, 2, 2, 2, 2, 1}, spell_faerie_fire, TAR_CHAR_OFFENSIVE,
      POS_FIGHTING, NULL, SLOT(72), 5, 12,
@@ -2189,7 +2195,7 @@ const struct group_type group_table[MAX_GROUP] = {
 
     {
      "transportation", {4, -1, -1, -1, -1, -1, 3, 4},
-     { "fly", "gate", "nexus", "pass door", "summon",
+     { "explore", "fly", "gate", "nexus", "pass door", "summon",
        "teleport", "word of recall"} 
     },
 

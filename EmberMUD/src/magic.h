@@ -47,6 +47,7 @@ DECLARE_SPELL_FUN( spell_earthquake );
 DECLARE_SPELL_FUN( spell_enchant_armor );
 DECLARE_SPELL_FUN( spell_enchant_weapon );
 DECLARE_SPELL_FUN( spell_energy_drain );
+DECLARE_SPELL_FUN( spell_explore );
 DECLARE_SPELL_FUN( spell_faerie_fire );
 DECLARE_SPELL_FUN( spell_faerie_fog );
 DECLARE_SPELL_FUN( spell_fireball );

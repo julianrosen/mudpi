@@ -2234,7 +2234,7 @@ your mind. You lose all concept of direction. Small, silent giggles can be
 heard all around. You can wander in any direction.
 ~
 0 8201 4
-D3
+D1
 ~
 ~
 0 0 2334
@@ -2242,14 +2242,14 @@ D2
 ~
 ~
 0 0 2335
-D1
-~
-~
-0 0 2334
 D0
 ~
 ~
 0 0 2337
+D3
+~
+~
+0 0 2334
 S
 #2333
 Lost in the Mist~
@@ -2267,14 +2267,14 @@ D2
 ~
 ~
 0 0 2333
-D3
-~
-~
-0 0 2335
 D0
 ~
 ~
 0 0 2333
+D3
+~
+~
+0 0 2335
 S
 #2334
 Lost in the Mist~
@@ -2283,22 +2283,22 @@ covering you in a damp sheen. There is no sound, all light is eagerly devoured
 by the mist. You feel totally and hopelessly lost.
 ~
 0 8201 4
-D0
-~
-~
-0 0 2338
 D3
 ~
 ~
 0 0 2332
-D1
+D0
 ~
 ~
-0 0 2332
+0 0 2338
 D2
 ~
 ~
 0 0 2336
+D1
+~
+~
+0 0 2332
 S
 #2335
 Lost in the Mist~
@@ -2311,6 +2311,10 @@ D1
 ~
 ~
 0 0 2333
+D3
+~
+~
+0 0 2331
 D2
 ~
 ~
@@ -2319,10 +2323,6 @@ D0
 ~
 ~
 0 0 2332
-D3
-~
-~
-0 0 2331
 S
 #2336
 Lost in the Mist~
@@ -2331,22 +2331,22 @@ what appears to be trees and hills to the east. The mist itself thickens to
 the west, while it grows thin to the east.
 ~
 0 8201 4
-D0
-~
-~
-0 0 2334
-D1
-~
-~
-0 0 2339
-D2
-~
-~
-0 0 2338
 D3
 ~
 ~
 0 0 2333
+D1
+~
+~
+0 0 2339
+D0
+~
+~
+0 0 2334
+D2
+~
+~
+0 0 2338
 S
 #2337
 Lost in the Mist~
@@ -2356,14 +2356,14 @@ on, but this noise is absorbed by the mist and does not travel. You can wander
 in any direction.
 ~
 0 8201 4
-D3
-~
-~
-0 0 2338
 D2
 ~
 ~
 0 0 2332
+D3
+~
+~
+0 0 2338
 D0
 ~
 ~
@@ -2380,22 +2380,22 @@ direction. You stumble blindly through the mist, oblivious to your
 surroundings.
 ~
 0 8201 3
-D1
-~
-~
-0 0 2337
-D2
-~
-~
-0 0 2334
-D3
-~
-~
-0 0 2337
 D0
 ~
 ~
 0 0 2336
+D2
+~
+~
+0 0 2334
+D1
+~
+~
+0 0 2337
+D3
+~
+~
+0 0 2337
 S
 #2339
 The solid path~
@@ -2622,14 +2622,6 @@ The cold cuts to the bone. Swirling snow and wind make impossible for you to
 discern any directions.
 ~
 0 0 5
-D2
-~
-~
-0 0 2355
-D0
-~
-~
-0 0 2353
 D1
 ~
 ~
@@ -2638,6 +2630,14 @@ D3
 ~
 ~
 0 0 2354
+D0
+~
+~
+0 0 2353
+D2
+~
+~
+0 0 2355
 S
 #2352
 The frigid wastelands~
@@ -2646,22 +2646,22 @@ The cold cuts to the bine. Swirling snow and wind make it impossible to
 discern any directions.
 ~
 0 0 5
-D1
-~
-~
-0 -1 2354
-D3
-~
-~
-0 0 2351
-D0
-~
-~
-0 -1 2357
 D2
 ~
 ~
 0 -1 2358
+D0
+~
+~
+0 -1 2357
+D3
+~
+~
+0 0 2351
+D1
+~
+~
+0 -1 2354
 S
 #2353
 The Glacier Temple~
@@ -2687,22 +2687,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D0
-~
-~
-0 0 2359
-D2
-~
-~
-0 0 2356
 D1
 ~
 ~
 0 0 2351
+D0
+~
+~
+0 0 2359
 D3
 ~
 ~
 0 0 2352
+D2
+~
+~
+0 0 2356
 S
 #2355
 The frigid wastelands~
@@ -2711,11 +2711,11 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
+D0
+~
+~
+0 0 2351
 D1
-~
-~
-0 0 2356
-D3
 ~
 ~
 0 0 2356
@@ -2723,10 +2723,10 @@ D2
 ~
 ~
 0 0 2357
-D0
+D3
 ~
 ~
-0 0 2351
+0 0 2356
 S
 #2356
 The frigid wastelands~
@@ -2735,22 +2735,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D3
-~
-~
-0 0 2355
-D1
-~
-~
-0 0 2355
 D2
 ~
 ~
 0 0 2359
+D3
+~
+~
+0 0 2355
 D0
 ~
 ~
 0 0 2354
+D1
+~
+~
+0 0 2355
 S
 #2357
 The frigid wastelands~
@@ -2759,22 +2759,22 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D1
-~
-~
-0 0 2358
-D2
-~
-~
-0 0 2352
 D0
 ~
 ~
 0 0 2355
+D2
+~
+~
+0 0 2352
 D3
 ~
 ~
 0 0 2359
+D1
+~
+~
+0 0 2358
 S
 #2358
 The frigid wastelands~
@@ -2787,6 +2787,10 @@ D0
 ~
 ~
 0 0 2352
+D3
+~
+~
+0 0 2357
 D1
 ~
 ~
@@ -2795,10 +2799,6 @@ D2
 ~
 ~
 0 0 2360
-D3
-~
-~
-0 0 2357
 S
 #2359
 The frigid wastelands~
@@ -2807,10 +2807,6 @@ The cold cuts to the bone. Swirling snow and wind make it impossible for you
 to discern any directions.
 ~
 0 0 5
-D0
-~
-~
-0 0 2356
 D2
 ~
 ~
@@ -2823,6 +2819,10 @@ D1
 ~
 ~
 0 0 2357
+D0
+~
+~
+0 0 2356
 S
 #2360
 The edge of the frigid wastes~

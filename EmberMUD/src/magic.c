@@ -4126,7 +4126,8 @@ void spell_teleport( int sn, int level, CHAR_DATA * ch, void *vo )
             if ( can_see_room( ch, pRoomIndex )
                  && !IS_SET( pRoomIndex->room_flags, ROOM_PRIVATE )
                  && !IS_SET( pRoomIndex->room_flags, ROOM_SOLITARY )
-                 && !IS_SET( pRoomIndex->room_flags, ROOM_NOTELEPORT ) )
+                 && !IS_SET( pRoomIndex->room_flags, ROOM_NOTELEPORT ) 
+                 && !IS_SET( pRoomIndex->room_flags, ROOM_NO_RECALL ))
                 break;
     }
 
@@ -4138,6 +4139,80 @@ void spell_teleport( int sn, int level, CHAR_DATA * ch, void *vo )
     char_to_room( victim, pRoomIndex );
     act( "$n slowly fades into existence.", victim, NULL, NULL, TO_ROOM );
     do_look( victim, "auto" );
+    return;
+}
+
+void spell_explore( int sn, int level, CHAR_DATA * ch, void *vo )
+{
+    CHAR_DATA *victim = ( CHAR_DATA * ) vo;
+    ROOM_INDEX_DATA *pRoomIndex;
+    extern bool chaos;
+
+    if ( victim->in_room == NULL
+         || IS_SET( victim->in_room->room_flags, ROOM_NO_RECALL )
+         || ( !IS_NPC( ch ) && victim->fighting != NULL )
+         || ( chaos )
+         || ( victim != ch
+              && ( saves_spell( level, victim )
+                   || saves_spell( level, victim ) ) ) )
+    {
+        send_to_char( "You failed.\n\r", ch );
+        return;
+    }
+    
+    int count=0;
+    for ( int n=0; n <= MAX_ROOMS; n++ )
+    {
+      pRoomIndex = get_room_index( n );
+      if ( pRoomIndex != NULL )
+          if ( can_see_room( ch, pRoomIndex )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_PRIVATE )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_SOLITARY )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_NOTELEPORT ) 
+               && !IS_SET( pRoomIndex->room_flags, ROOM_NO_RECALL )
+               && ch->visited[n] == '0' )
+            count++;
+    }
+
+    if ( count == 0 )
+    {
+      send_to_char( "You have run out of new rooms to explore, try teleport instead.\n\r", ch );
+      return;
+    }
+
+    int target = number_range(1, count);
+    count = 0;
+
+    for ( int n=0; n <= MAX_ROOMS; n++ )
+    {
+      pRoomIndex = get_room_index( n );
+      if ( pRoomIndex != NULL )
+      {
+          if ( can_see_room( ch, pRoomIndex )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_PRIVATE )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_SOLITARY )
+               && !IS_SET( pRoomIndex->room_flags, ROOM_NOTELEPORT ) 
+               && !IS_SET( pRoomIndex->room_flags, ROOM_NO_RECALL )
+               && ch->visited[n] == '0' )
+          {
+            count++;
+            if ( count == target )
+            {
+              if ( victim != ch )
+                send_to_char( "You have been teleported!\n\r", victim );
+
+              act( "$n vanishes!", victim, NULL, NULL, TO_ROOM );
+              char_from_room( victim );
+              char_to_room( victim, pRoomIndex );
+              act( "$n slowly fades into existence.", victim, NULL, NULL, TO_ROOM );
+              do_look( victim, "auto" );
+              return;
+            }
+
+          }
+      }
+    }
+    send_to_char( "Something went wrong.\n\r", ch );
     return;
 }
 

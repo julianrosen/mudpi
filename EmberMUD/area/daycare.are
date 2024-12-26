@@ -495,14 +495,14 @@ Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
-D3
-~
-~
-0 -1 6612
 D1
 ~
 ~
 0 -1 6614
+D3
+~
+~
+0 -1 6612
 D2
 ~
 ~
@@ -541,14 +541,14 @@ Mini-Maze~
 You are in a small passage that looks just like every other one.
 ~
 0 9 2
-D3
-~
-~
-0 -1 6615
 D0
 ~
 ~
 0 -1 6614
+D3
+~
+~
+0 -1 6615
 D2
 ~
 ~

@@ -1021,11 +1021,6 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D2
-You see a sneezy little cloud.
-~
-~
-0 -1 9133
 D3
 ~
 ~
@@ -1034,6 +1029,11 @@ D5
 ~
 ~
 0 -1 9148
+D2
+You see a sneezy little cloud.
+~
+~
+0 -1 9133
 S
 #9146
 Raging hurricane.~
@@ -1042,14 +1042,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D0
-~
-~
-0 -1 9147
 D1
 ~
 ~
 0 -1 9144
+D0
+~
+~
+0 -1 9147
 S
 #9147
 Raging hurricane.~
@@ -1074,18 +1074,18 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D3
-~
-~
-0 -1 9147
-D4
-~
-~
-0 -1 9145
 D2
 ~
 ~
 0 -1 9144
+D4
+~
+~
+0 -1 9145
+D3
+~
+~
+0 -1 9147
 S
 #9149
 Raging hurricane.~
@@ -1115,14 +1115,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D0
-~
-~
-0 -1 9151
 D3
 ~
 ~
 0 -1 9149
+D0
+~
+~
+0 -1 9151
 D1
 ~
 ~
@@ -1135,14 +1135,14 @@ of the raging hurricane. It is hard to see and hear anything.
 Your only thought is to seek refuge from the storm.
 ~
 0 8193 5
-D2
-~
-~
-0 -1 9150
 D3
 ~
 ~
 0 -1 9152
+D2
+~
+~
+0 -1 9150
 S
 #9152
 Raging hurricane.~

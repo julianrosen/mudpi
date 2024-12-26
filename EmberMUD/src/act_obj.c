@@ -2874,6 +2874,7 @@ void do_heal( CHAR_DATA * ch, char *argument )
         send_to_char( "  refresh: restore movement      25 gold\n\r", ch );
         send_to_char( "  mana:  restore mana            50 gold\n\r", ch );
         send_to_char( "  cancel:  cancel spells        250 gold\n\r", ch );
+	send_to_char( "  restore: full hp, mana, mv  10000 gold\n\r", ch );
         send_to_char( " Type heal <type> to be healed.\n\r", ch );
         return;
     }
@@ -2966,6 +2967,14 @@ void do_heal( CHAR_DATA * ch, char *argument )
         cost = 250;
     }
 
+    else if ( !str_prefix( arg, "restore" ) )
+    {
+    	spell = NULL;
+	sn = -2;
+	words = "borymgia";
+	cost = 10000;
+    }
+
     else
     {
         act( "$N says 'Type 'heal' for a list of spells.'",
@@ -2988,9 +2997,19 @@ void do_heal( CHAR_DATA * ch, char *argument )
 
     if ( spell == NULL )        /* restore mana trap...kinda hackish */
     {
-        ch->mana += dice( 2, 8 ) + mob->level / 3;
-        ch->mana = UMIN( ch->mana, ch->max_mana );
-        send_to_char( "A warm glow passes through you.\n\r", ch );
+	if ( sn == -1 ) // Mana
+	{
+            ch->mana += dice( 2, 8 ) + mob->level / 3;
+            ch->mana = UMIN( ch->mana, ch->max_mana );	
+            send_to_char( "A warm glow passes through you.\n\r", ch );
+	}
+	else // restore
+	{
+	    ch->hit = ch->max_hit;
+	    ch->mana = ch->max_mana;
+	    ch->move = ch->max_move;
+	    send_to_char( "A burning hot flash courses through you.\n\r", ch );
+	}
         return;
     }
 
