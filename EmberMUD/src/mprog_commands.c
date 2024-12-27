@@ -40,11 +40,6 @@
 #include "interp.h"
 
 
-// JR: Gatsby
-/*char gatsby_text[400000];
-*gastby_text = '\0';
-char * gatsby_head;*/
-
 /*
  * Local functions.
  */
@@ -1837,8 +1832,7 @@ void do_mpreadgatsby( CHAR_DATA *ch, char *argument )
         while (*gatsby_head == '\n' || *gatsby_head == ' ' || *gatsby_head == '\r' || *gatsby_head == '\t')
             gatsby_head++;
 
-
-        if ( *gatsby_head == 255 )
+        if ( *gatsby_head == '\0' )
         {
             gatsby_head = gatsby_text;
             do_mpecho( ch, "`GAmelia says: Phew, that was long! Let's start again from the top." );
